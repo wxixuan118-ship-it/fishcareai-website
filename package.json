@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "python3 -m http.server 8080 --bind 127.0.0.1",
+    "start": "python3 -m http.server 3000 --bind 0.0.0.0",
     "start:4173": "python3 -m http.server 4173 --bind 127.0.0.1"
   },
   "private": true
