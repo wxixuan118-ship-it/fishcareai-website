@@ -1,0 +1,705 @@
+/* FishCare AI — dark aquarium glass redesign, 2026-07-07 */
+:root{
+  --fc-abyss:#061827;
+  --fc-deep:#082B43;
+  --fc-blue:#0B6FA4;
+  --fc-cyan:#25D7FF;
+  --fc-mint:#39F2C5;
+  --fc-violet:#8B5CF6;
+  --fc-coral:#FF6B78;
+  --fc-ink:#EAFBFF;
+  --fc-muted:rgba(220,246,255,.72);
+  --fc-glass:rgba(9,48,73,.58);
+  --fc-glass-strong:rgba(11,58,88,.74);
+  --fc-line:rgba(125,235,255,.22);
+  --fc-shadow:0 28px 90px rgba(0,10,22,.36);
+}
+
+html{background:var(--fc-abyss)!important;scroll-behavior:smooth}
+body{
+  background:
+    radial-gradient(circle at 18% 10%,rgba(37,215,255,.28),transparent 34%),
+    radial-gradient(circle at 82% 14%,rgba(139,92,246,.26),transparent 30%),
+    radial-gradient(circle at 65% 70%,rgba(57,242,197,.18),transparent 34%),
+    linear-gradient(180deg,#061827 0%,#082B43 42%,#071C2F 100%)!important;
+  color:var(--fc-ink)!important;
+}
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  z-index:-1;
+  background:
+    linear-gradient(110deg,transparent 0 38%,rgba(255,255,255,.045) 39%,transparent 47%),
+    radial-gradient(circle at 12% 80%,rgba(37,215,255,.16),transparent 24%),
+    repeating-radial-gradient(circle at 50% 120%,rgba(255,255,255,.04) 0 1px,transparent 1px 18px);
+  opacity:.95;
+}
+
+p,li,td,small,em{color:var(--fc-muted)!important}
+h1,h2,h3,h4,h5,strong{color:var(--fc-ink)!important}
+a{color:#7DEBFF}
+
+.nb,.nav,.topbar{
+  background:rgba(5,31,50,.66)!important;
+  border:1px solid rgba(125,235,255,.16)!important;
+  box-shadow:0 16px 50px rgba(0,0,0,.28)!important;
+  backdrop-filter:blur(22px) saturate(1.25)!important;
+}
+.nb{
+  position:sticky!important;
+  top:0;
+  z-index:50;
+}
+.brand svg,
+.brand img,
+.fishcare-logo-img{
+  display:block!important;
+  width:142px!important;
+  height:36px!important;
+  object-fit:contain!important;
+  filter:drop-shadow(0 10px 24px rgba(37,215,255,.22))!important;
+}
+.fishcare-footer-logo-img{
+  display:block!important;
+  width:150px!important;
+  height:38px!important;
+  object-fit:contain!important;
+  filter:drop-shadow(0 12px 28px rgba(37,215,255,.24))!important;
+}
+.nl,.nlinks a{
+  color:rgba(234,251,255,.82)!important;
+  border-radius:999px!important;
+}
+.nl:hover,.nl.act,.nlinks a:hover,.nlinks .act{
+  background:rgba(125,235,255,.15)!important;
+  color:#fff!important;
+  box-shadow:inset 0 0 0 1px rgba(125,235,255,.22)!important;
+}
+.nlinks a[style*="background"]{
+  background:linear-gradient(135deg,var(--fc-cyan),var(--fc-violet))!important;
+  color:#fff!important;
+  box-shadow:0 12px 30px rgba(37,215,255,.22)!important;
+}
+
+.hero,.seohero,.wiki-hero,.sp-hero{
+  background:
+    linear-gradient(180deg,rgba(4,24,38,.18),rgba(4,24,38,.78)),
+    radial-gradient(circle at 70% 18%,rgba(255,107,120,.24),transparent 26%),
+    linear-gradient(135deg,#05304C,#0A6A96 58%,#081A2A)!important;
+  overflow:hidden!important;
+}
+.seohero{
+  min-height:700px!important;
+  background:
+    radial-gradient(circle at 18% 24%,rgba(37,215,255,.34),transparent 28%),
+    radial-gradient(circle at 78% 18%,rgba(139,92,246,.28),transparent 26%),
+    radial-gradient(circle at 64% 78%,rgba(57,242,197,.2),transparent 30%),
+    linear-gradient(145deg,#052236 0%,#075C83 52%,#061827 100%)!important;
+}
+.seohero .hero-image{display:none!important}
+.seohero .hc{
+  position:relative!important;
+  overflow:hidden!important;
+  background:linear-gradient(135deg,rgba(8,46,72,.78),rgba(11,76,103,.42))!important;
+  border:1px solid rgba(125,235,255,.26)!important;
+  box-shadow:0 38px 120px rgba(0,10,22,.44), inset 0 1px 0 rgba(255,255,255,.12)!important;
+}
+.seohero .hc::before,
+.seohero .hc::after{
+  content:"";
+  position:absolute;
+  width:220px;
+  height:92px;
+  pointer-events:none;
+  opacity:.48;
+  filter:drop-shadow(0 24px 30px rgba(0,0,0,.28));
+  background:
+    radial-gradient(circle at 72% 42%,#fff 0 4px,transparent 5px),
+    radial-gradient(ellipse at 44% 50%,rgba(255,99,118,.96) 0 46%,transparent 47%),
+    linear-gradient(135deg,transparent 0 20%,rgba(37,215,255,.9) 21% 50%,transparent 51%),
+    linear-gradient(45deg,transparent 0 58%,rgba(255,122,61,.88) 59% 75%,transparent 76%);
+  clip-path:polygon(0 48%,18% 28%,55% 20%,78% 36%,100% 8%,91% 50%,100% 92%,78% 65%,55% 80%,18% 72%);
+}
+.seohero .hc::before{right:8%;top:16%;transform:rotate(-8deg)}
+.seohero .hc::after{right:24%;bottom:18%;transform:scale(.72) rotate(9deg);opacity:.32}
+.hero-fish{
+  position:absolute;
+  pointer-events:none;
+  z-index:0;
+  width:170px;
+  height:68px;
+  opacity:.42;
+  filter:drop-shadow(0 18px 28px rgba(0,0,0,.24));
+  background:
+    radial-gradient(circle at 72% 42%,#fff 0 3px,transparent 4px),
+    radial-gradient(ellipse at 42% 50%,rgba(37,215,255,.88) 0 48%,transparent 49%),
+    linear-gradient(135deg,transparent 0 18%,rgba(255,107,120,.86) 19% 48%,transparent 49%),
+    linear-gradient(45deg,transparent 0 58%,rgba(139,92,246,.86) 59% 77%,transparent 78%);
+  clip-path:polygon(0 48%,18% 28%,55% 20%,78% 36%,100% 8%,91% 50%,100% 92%,78% 65%,55% 80%,18% 72%);
+}
+.hero-fish.f1{right:11%;top:22%;transform:rotate(-6deg)}
+.hero-fish.f2{left:10%;bottom:18%;transform:scale(.65) rotate(10deg);opacity:.28}
+.hero-fish.f3{right:36%;bottom:9%;transform:scale(.52) rotate(-12deg);opacity:.22}
+.seohero .tag,.seohero h1,.seohero p,.seohero .hsrch,.seohero .hstats{position:relative;z-index:1}
+.hero::after,.seohero::after,.wiki-hero::after,.sp-hero::after{
+  content:"";
+  position:absolute;
+  inset:auto 8% -45px 8%;
+  height:150px;
+  background:radial-gradient(ellipse at center,rgba(37,215,255,.22),transparent 68%);
+  filter:blur(12px);
+  pointer-events:none;
+}
+.hero h1,.seohero h1,.wiki-hero h1,.sp-hero h1{
+  color:#fff!important;
+  text-shadow:0 18px 54px rgba(0,0,0,.46)!important;
+}
+.hero p,.seohero p,.wiki-hero p,.sp-hero p{color:rgba(234,251,255,.78)!important}
+
+.btn,.bp,.bsm,button,.wiki-search button{
+  background:linear-gradient(135deg,#1ECFF7,#7C3AED)!important;
+  border:1px solid rgba(255,255,255,.18)!important;
+  color:#fff!important;
+  border-radius:999px!important;
+  box-shadow:0 18px 38px rgba(37,215,255,.18)!important;
+}
+.btn:hover,.bp:hover,button:hover{transform:translateY(-1px);filter:saturate(1.12)}
+
+.sec,.sec-w,.guide-index,.wiki-grid,.topic-groups,.tools-photo-section{
+  background:transparent!important;
+}
+.con,.container{position:relative}
+
+.card,.kcard,.guide-list a,.wiki-card,.qf-card,.toc-card,.callout,.guide-note,.feature-card,.ac,.tc,.abox,.ptbl,.wiki-search,.wf-btn,.waz-btn{
+  background:linear-gradient(145deg,rgba(11,62,93,.74),rgba(7,35,56,.54))!important;
+  border:1px solid var(--fc-line)!important;
+  box-shadow:var(--fc-shadow)!important;
+  backdrop-filter:blur(18px) saturate(1.25)!important;
+}
+.card,.kcard,.guide-list a,.wiki-card,.feature-card,.ac{
+  border-radius:28px!important;
+  overflow:hidden!important;
+}
+.card:hover,.kcard:hover,.guide-list a:hover,.wiki-card:hover,.feature-card:hover,.ac:hover{
+  transform:translateY(-6px)!important;
+  border-color:rgba(125,235,255,.48)!important;
+  box-shadow:0 34px 100px rgba(0,10,22,.48),0 0 0 1px rgba(125,235,255,.12)!important;
+}
+
+.kcard-img,.guide-thumb img,.wc-img-wrap img,.aimg img,.hero-image,.sp-hero-img{
+  filter:saturate(1.22) contrast(1.08) brightness(.92)!important;
+}
+.guide-thumb,.wc-img-wrap,.aimg{
+  background:linear-gradient(135deg,rgba(37,215,255,.2),rgba(139,92,246,.2))!important;
+  border:1px solid rgba(125,235,255,.18)!important;
+}
+.guide-thumb{
+  border-radius:20px!important;
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.06)!important;
+}
+
+.species-showcase .kcard,
+.guide-list a{
+  position:relative;
+}
+.species-showcase .kcard::after,
+.guide-list a::after,
+.wiki-card::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  background:linear-gradient(135deg,rgba(255,255,255,.08),transparent 36%,rgba(37,215,255,.06));
+}
+
+.tag,.wc-habitat,.bdg,.wf-btn,.waz-btn,.wiki-stat,.sp-tag{
+  background:rgba(125,235,255,.14)!important;
+  color:#DDFBFF!important;
+  border:1px solid rgba(125,235,255,.22)!important;
+  border-radius:999px!important;
+}
+.wf-btn.active,.waz-btn.active,.wf-btn:hover,.waz-btn:hover,.bdg.bgood{
+  background:linear-gradient(135deg,rgba(37,215,255,.86),rgba(57,242,197,.72))!important;
+  color:#062133!important;
+}
+
+.guide-index h1,.topic-group h2,.wiki-az-label,.sh h2,.sp-layout h2{
+  color:#fff!important;
+}
+.guide-index>p,.guide-note,.sh p{color:rgba(234,251,255,.72)!important}
+.problem-heading h2{
+  color:#071827!important;
+  text-shadow:none!important;
+}
+.problem-heading p{
+  color:#1A2B3C!important;
+}
+.problem-heading .tag{
+  color:#06324D!important;
+  background:rgba(255,255,255,.72)!important;
+  border-color:rgba(6,50,77,.16)!important;
+}
+.guide-list strong,.wiki-card strong,.kcard h3,.card h3{color:#fff!important}
+.guide-list p,.wiki-card p,.kcard p,.card p{color:var(--fc-muted)!important}
+
+.wiki-search{
+  overflow:hidden!important;
+  border-radius:999px!important;
+}
+.wiki-search input,input,select,textarea{
+  background:rgba(255,255,255,.08)!important;
+  color:#fff!important;
+  border:1px solid rgba(125,235,255,.24)!important;
+}
+.wiki-search input::placeholder,input::placeholder,textarea::placeholder{color:rgba(234,251,255,.55)!important}
+
+.wiki-empty-cta{
+  margin:0 auto!important;
+  padding:44px 24px!important;
+  text-align:center!important;
+  background:rgba(235,244,255,.78)!important;
+  border-top:1px solid rgba(125,235,255,.28)!important;
+  border-bottom:1px solid rgba(255,255,255,.45)!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.45)!important;
+  backdrop-filter:blur(14px) saturate(1.12)!important;
+}
+.wiki-empty-cta h2{
+  color:#071827!important;
+  text-shadow:none!important;
+  margin-bottom:10px!important;
+}
+.wiki-empty-cta p{
+  color:#263847!important;
+  max-width:520px!important;
+  margin:0 auto 20px!important;
+}
+.wiki-empty-cta .btn{
+  color:#fff!important;
+}
+
+.ft,footer{
+  background:linear-gradient(180deg,rgba(5,20,33,.92),#04111D)!important;
+  border-top:1px solid rgba(125,235,255,.18)!important;
+}
+.ft a,footer a{color:rgba(234,251,255,.72)!important}
+
+table,.ptbl,.qf-table{
+  background:rgba(6,28,45,.52)!important;
+  border-color:rgba(125,235,255,.16)!important;
+}
+th{
+  background:rgba(37,215,255,.12)!important;
+  color:#fff!important;
+}
+td{border-color:rgba(125,235,255,.12)!important}
+
+body.tools-dark-page{
+  background:
+    radial-gradient(circle at 16% 8%,rgba(37,215,255,.22),transparent 28%),
+    radial-gradient(circle at 84% 14%,rgba(139,92,246,.2),transparent 26%),
+    linear-gradient(180deg,#04111D 0%,#06283F 42%,#03101B 100%)!important;
+  color:#fff!important;
+}
+body.tools-dark-page main,
+body.tools-dark-page #page-tools,
+body.tools-dark-page .sec,
+body.tools-dark-page .tools-photo-section{
+  background:transparent!important;
+  color:#fff!important;
+}
+body.tools-dark-page .tools-photo-section::before{
+  background:
+    radial-gradient(circle at 18% 22%,rgba(37,215,255,.28),transparent 30%),
+    radial-gradient(circle at 82% 12%,rgba(255,107,120,.18),transparent 28%),
+    linear-gradient(135deg,rgba(4,17,29,.98),rgba(8,56,84,.94))!important;
+  filter:none!important;
+}
+body.tools-dark-page h1,
+body.tools-dark-page h2,
+body.tools-dark-page h3,
+body.tools-dark-page h4,
+body.tools-dark-page h5,
+body.tools-dark-page h6,
+body.tools-dark-page label,
+body.tools-dark-page strong,
+body.tools-dark-page th{
+  color:#fff!important;
+  text-shadow:none!important;
+}
+body.tools-dark-page p,
+body.tools-dark-page li,
+body.tools-dark-page td,
+body.tools-dark-page small,
+body.tools-dark-page em,
+body.tools-dark-page .muted,
+body.tools-dark-page .sh p,
+body.tools-dark-page .card p,
+body.tools-dark-page .tc p,
+body.tools-dark-page .abox p{
+  color:rgba(234,251,255,.78)!important;
+}
+body.tools-dark-page .problem-heading h2{
+  color:#071827!important;
+}
+body.tools-dark-page .problem-heading p{
+  color:#1A2B3C!important;
+}
+body.tools-dark-page .problem-heading .tag,
+body.tools-dark-page .tag,
+body.tools-dark-page .bdg,
+body.tools-dark-page .ftag{
+  background:rgba(125,235,255,.14)!important;
+  color:#EAFBFF!important;
+  border:1px solid rgba(125,235,255,.24)!important;
+}
+body.tools-dark-page .problem-heading .tag{
+  background:rgba(255,255,255,.68)!important;
+  color:#06324D!important;
+  border-color:rgba(6,50,77,.16)!important;
+}
+body.tools-dark-page .tbtn{
+  background:linear-gradient(135deg,rgba(7,34,56,.92),rgba(10,72,103,.78))!important;
+  color:#F3FCFF!important;
+  border:1px solid rgba(125,235,255,.26)!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 10px 26px rgba(0,10,22,.22)!important;
+  text-shadow:0 1px 2px rgba(0,0,0,.34)!important;
+}
+body.tools-dark-page .tbtn:not(.act):hover{
+  background:linear-gradient(135deg,rgba(9,54,82,.96),rgba(12,96,128,.86))!important;
+  border-color:rgba(125,235,255,.42)!important;
+}
+body.tools-dark-page .tbtn.act,
+body.tools-dark-page .ftag button{
+  background:linear-gradient(135deg,#1ECFF7,#7C3AED)!important;
+  color:#fff!important;
+}
+body.tools-dark-page .tabs,
+body.tools-dark-page .tool-tabs,
+body.tools-dark-page [class*="tab"]{
+  border-color:rgba(125,235,255,.22)!important;
+}
+body.tools-dark-page .ttabs{
+  background:linear-gradient(135deg,rgba(7,34,56,.92),rgba(10,60,90,.82))!important;
+  border-color:rgba(125,235,255,.22)!important;
+}
+body.tools-dark-page .card,
+body.tools-dark-page .tc,
+body.tools-dark-page .abox,
+body.tools-dark-page .tpanel,
+body.tools-dark-page .toc,
+body.tools-dark-page .callout,
+body.tools-dark-page .guide-note,
+body.tools-dark-page .ptbl,
+body.tools-dark-page .setup-table,
+body.tools-dark-page form,
+body.tools-dark-page [style*="background:rgba(255,255,255"],
+body.tools-dark-page [style*="background:#fff"]{
+  background:linear-gradient(145deg,rgba(11,62,93,.78),rgba(5,25,41,.74))!important;
+  color:#fff!important;
+  border-color:rgba(125,235,255,.22)!important;
+  box-shadow:0 24px 80px rgba(0,10,22,.38),inset 0 1px 0 rgba(255,255,255,.08)!important;
+}
+body.tools-dark-page [id$="-result"] > div,
+body.tools-dark-page #calc-result > div,
+body.tools-dark-page #compat-results > div,
+body.tools-dark-page [style*="background:#F8FAFE"],
+body.tools-dark-page [style*="background:#f8fafe"],
+body.tools-dark-page [style*="background: #F8FAFE"],
+body.tools-dark-page [style*="background: #f8fafe"]{
+  background:
+    radial-gradient(circle at 50% 0%,rgba(37,215,255,.18),transparent 42%),
+    linear-gradient(145deg,rgba(9,48,73,.82),rgba(4,20,34,.86))!important;
+  color:#fff!important;
+  border:1px solid rgba(125,235,255,.26)!important;
+  box-shadow:0 24px 80px rgba(0,10,22,.36),inset 0 1px 0 rgba(255,255,255,.08)!important;
+}
+body.tools-dark-page [id$="-result"] h4,
+body.tools-dark-page #calc-result h4,
+body.tools-dark-page #compat-results h4,
+body.tools-dark-page [id$="-result"] .plb,
+body.tools-dark-page [id$="-result"] .pv{
+  color:#fff!important;
+}
+body.tools-dark-page [id$="-result"] p,
+body.tools-dark-page #calc-result p,
+body.tools-dark-page #compat-results p{
+  color:rgba(234,251,255,.78)!important;
+}
+body.tools-dark-page [id$="-result"] .pr{
+  background:rgba(3,16,27,.22)!important;
+  border-color:rgba(125,235,255,.16)!important;
+}
+body.tools-dark-page [id$="-result"] .prow{
+  border-color:rgba(125,235,255,.14)!important;
+}
+body.tools-dark-page input,
+body.tools-dark-page select,
+body.tools-dark-page textarea,
+body.tools-dark-page input.fc,
+body.tools-dark-page select.fc,
+body.tools-dark-page textarea.fc{
+  background:rgba(255,255,255,.1)!important;
+  color:#fff!important;
+  border:1px solid rgba(125,235,255,.28)!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.08)!important;
+}
+body.tools-dark-page input::placeholder,
+body.tools-dark-page textarea::placeholder{
+  color:rgba(234,251,255,.55)!important;
+}
+body.tools-dark-page select option{
+  color:#071827!important;
+  background:#fff!important;
+}
+body.tools-dark-page table,
+body.tools-dark-page .setup-table,
+body.tools-dark-page .qf-table{
+  background:rgba(4,17,29,.56)!important;
+  color:#fff!important;
+  border-color:rgba(125,235,255,.18)!important;
+}
+body.tools-dark-page tr,
+body.tools-dark-page td,
+body.tools-dark-page th{
+  border-color:rgba(125,235,255,.14)!important;
+}
+body.tools-dark-page a:not(.btn):not(.bp):not(.tbtn){
+  color:#7DEBFF!important;
+}
+body.tools-dark-page .btn,
+body.tools-dark-page .bp,
+body.tools-dark-page button{
+  color:#fff!important;
+}
+
+/* ── Guide page content area overrides ── */
+.guide-content{
+  background:linear-gradient(145deg,rgba(9,48,73,.78),rgba(5,25,41,.68))!important;
+  border-color:rgba(125,235,255,.2)!important;
+  box-shadow:0 20px 70px rgba(0,10,22,.38),inset 0 1px 0 rgba(255,255,255,.06)!important;
+}
+.guide-content h2,.guide-content h3,.guide-content h4{
+  color:var(--fc-ink)!important;
+  border-color:rgba(125,235,255,.18)!important;
+}
+.guide-content p,.guide-content li{color:var(--fc-muted)!important}
+.guide-content .callout{
+  background:rgba(9,48,73,.72)!important;
+  border-color:rgba(125,235,255,.24)!important;
+  color:var(--fc-muted)!important;
+}
+.guide-content figcaption{
+  background:rgba(9,48,73,.62)!important;
+  color:var(--fc-muted)!important;
+}
+.guide-hero::after{
+  background:linear-gradient(0deg,#061827,transparent)!important;
+}
+
+@media(max-width:760px){
+  .card,.kcard,.guide-list a,.wiki-card{border-radius:22px!important}
+  .guide-list a{grid-template-columns:104px 1fr!important}
+}
+
+/* 2026-07-12 — dark backgrounds for clicked-in Guide and Tool pages */
+body:has(.guide-photo-hero),
+body:has(.guide-hero),
+body:has(.guide-content),
+body:has(.tools-layout),
+body:has(.tools-hero),
+body.tools-dark-page{
+  background:
+    radial-gradient(circle at 12% 6%,rgba(37,215,255,.25),transparent 30%),
+    radial-gradient(circle at 88% 10%,rgba(139,92,246,.24),transparent 28%),
+    linear-gradient(180deg,#041827 0%,#07283F 44%,#04111F 100%)!important;
+  color:#EAFBFF!important;
+}
+
+body:has(.guide-photo-hero) .guide-index,
+body:has(.guide-hero) main,
+body:has(.guide-content) main,
+body.tools-dark-page main,
+body.tools-dark-page .tools-layout,
+body.tools-dark-page .sec,
+body.tools-dark-page .sec-w{
+  background:transparent!important;
+}
+
+body:has(.guide-photo-hero) .guide-list a,
+body:has(.guide-photo-hero) .guide-note,
+body:has(.guide-hero) .guide-content,
+body:has(.guide-content) .guide-content,
+body:has(.guide-content) .card,
+body:has(.guide-content) .callout,
+body:has(.guide-content) .warn,
+body.tools-dark-page .tpanel,
+body.tools-dark-page .card,
+body.tools-dark-page .setup-table,
+body.tools-dark-page .fqq,
+body.tools-dark-page .fqa,
+body.tools-dark-page .msg.b .mb,
+body.tools-dark-page .sdrop,
+body.tools-dark-page .nlf,
+body.tools-dark-page .hsrch{
+  background:linear-gradient(145deg,rgba(10,57,86,.84),rgba(4,23,38,.84))!important;
+  border-color:rgba(125,235,255,.24)!important;
+  box-shadow:0 24px 80px rgba(0,10,22,.36),inset 0 1px 0 rgba(255,255,255,.08)!important;
+  color:#EAFBFF!important;
+}
+
+/* Standalone guide articles use the legacy .hero/.content markup. Keep the
+   article panel dark as well so the white hero typography never lands on a
+   white card after navigation. */
+body:has(.hero) .content,
+body:has(.hero) .callout,
+body:has(.hero) .item,
+body:has(.hero) .links a,
+body:has(.checklist) .check,
+body:has(.checklist) .mini{
+  background:linear-gradient(145deg,rgba(10,57,86,.84),rgba(4,23,38,.84))!important;
+  border-color:rgba(125,235,255,.24)!important;
+  color:#EAFBFF!important;
+  box-shadow:0 24px 80px rgba(0,10,22,.36),inset 0 1px 0 rgba(255,255,255,.08)!important;
+}
+body:has(.hero) .content p,
+body:has(.hero) .content li,
+body:has(.hero) .content td,
+body:has(.hero) .content figcaption{
+  color:rgba(226,247,255,.8)!important;
+}
+body:has(.hero) .content .ptbl,
+body:has(.hero) .content .cmpt{
+  background:rgba(4,28,46,.88)!important;
+  border-color:rgba(125,235,255,.22)!important;
+}
+body:has(.hero) .content .ptbl td,
+body:has(.hero) .content .cmpt td,
+body:has(.hero) .content .ptbl tr:nth-child(even) td,
+body:has(.hero) .content .cmpt tr:nth-child(even) td{
+  background:rgba(7,44,68,.78)!important;
+  color:rgba(226,247,255,.82)!important;
+  border-color:rgba(125,235,255,.16)!important;
+}
+body:has(.hero) .content h2,
+body:has(.hero) .content h3,
+body:has(.hero) .content strong,
+body:has(.hero) .content a{
+  color:#F5FDFF!important;
+}
+body:has(.checklist) .check strong,
+body:has(.checklist) .check p,
+body:has(.checklist) .mini strong,
+body:has(.checklist) .mini p{
+  color:#EAFBFF!important;
+}
+body:has(.checklist) .box{
+  background:rgba(4,24,39,.9)!important;
+  border-color:#7DEBFF!important;
+}
+body:has(.checklist) .content table,
+body:has(.checklist) .content table td,
+body:has(.checklist) .content table tr:nth-child(even) td,
+body:has(.checklist) .content table tr:nth-child(odd) td{
+  background:rgba(7,44,68,.78)!important;
+  color:rgba(226,247,255,.84)!important;
+  border-color:rgba(125,235,255,.16)!important;
+}
+body:has(.checklist) .content table th{
+  background:#0B4D68!important;
+  color:#F5FDFF!important;
+}
+
+/* Guide articles also use .guide-content with .ptbl tables. Override the
+   legacy white zebra rows so every table remains readable in dark mode. */
+body:has(.guide-content) .guide-content table,
+body:has(.guide-content) .guide-content .ptbl,
+body:has(.guide-content) .guide-content .cmpt{
+  background:rgba(4,28,46,.88)!important;
+  border-color:rgba(125,235,255,.22)!important;
+}
+body:has(.guide-content) .guide-content table td,
+body:has(.guide-content) .guide-content table th,
+body:has(.guide-content) .guide-content table tr:nth-child(even) td,
+body:has(.guide-content) .guide-content table tr:nth-child(odd) td{
+  background:rgba(7,44,68,.78)!important;
+  color:rgba(226,247,255,.84)!important;
+  border-color:rgba(125,235,255,.16)!important;
+}
+body:has(.guide-content) .guide-content table th{
+  background:#0B4D68!important;
+  color:#F5FDFF!important;
+}
+
+body:has(.guide-photo-hero) .guide-index h1,
+body:has(.guide-photo-hero) .topic-group h2,
+body:has(.guide-photo-hero) .guide-list strong,
+body:has(.guide-hero) .guide-content h2,
+body:has(.guide-hero) .guide-content h3,
+body:has(.guide-hero) .guide-content h4,
+body:has(.guide-content) .guide-content h2,
+body:has(.guide-content) .guide-content h3,
+body:has(.guide-content) .guide-content h4,
+body.tools-dark-page h1,
+body.tools-dark-page h2,
+body.tools-dark-page h3,
+body.tools-dark-page h4,
+body.tools-dark-page label{
+  color:#F5FDFF!important;
+}
+
+body:has(.guide-photo-hero) .guide-index p,
+body:has(.guide-photo-hero) .guide-note,
+body:has(.guide-hero) .guide-content p,
+body:has(.guide-hero) .guide-content li,
+body:has(.guide-content) .guide-content p,
+body:has(.guide-content) .guide-content li,
+body.tools-dark-page p,
+body.tools-dark-page li,
+body.tools-dark-page td,
+body.tools-dark-page th,
+body.tools-dark-page small,
+body.tools-dark-page .fqa{
+  color:rgba(226,247,255,.78)!important;
+}
+
+body.tools-dark-page .ttabs{
+  background:rgba(3,18,31,.78)!important;
+  border-color:rgba(125,235,255,.28)!important;
+}
+
+body.tools-dark-page .tbtn{
+  background:rgba(215,247,255,.08)!important;
+  color:#DFF8FF!important;
+  border:1px solid rgba(125,235,255,.22)!important;
+}
+
+body.tools-dark-page .tbtn.act{
+  background:linear-gradient(135deg,#21C7F3,#7C3AED)!important;
+  color:#fff!important;
+}
+
+body.tools-dark-page input,
+body.tools-dark-page select,
+body.tools-dark-page textarea,
+body.tools-dark-page input.fc,
+body.tools-dark-page select.fc,
+body.tools-dark-page textarea.fc,
+body.tools-dark-page .sinput{
+  background:rgba(4,24,39,.9)!important;
+  color:#fff!important;
+  border-color:rgba(125,235,255,.3)!important;
+}
+
+body.tools-dark-page input::placeholder,
+body.tools-dark-page textarea::placeholder{
+  color:rgba(226,247,255,.54)!important;
+}
+
+body.tools-dark-page .fbtn,
+body.tools-dark-page [style*="background:#fff"]{
+  background:rgba(11,62,93,.82)!important;
+  color:#EAFBFF!important;
+  border-color:rgba(125,235,255,.24)!important;
+}

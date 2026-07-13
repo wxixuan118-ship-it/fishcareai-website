@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="FishCare AI icon">
+  <defs>
+    <linearGradient id="fcIconApp" x1="6" y1="7" x2="58" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10D7FF"/>
+      <stop offset=".52" stop-color="#188CFF"/>
+      <stop offset="1" stop-color="#7957FF"/>
+    </linearGradient>
+    <linearGradient id="fcIconFish" x1="15" y1="24" x2="50" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3FBFF"/>
+      <stop offset=".58" stop-color="#B9E8FF"/>
+      <stop offset="1" stop-color="#63D7FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="5" y="5" width="54" height="54" rx="18" fill="url(#fcIconApp)"/>
+  <path d="M16 21v-3c0-4 3-7 7-7h4M48 21v-3c0-4-3-7-7-7h-4M16 43v3c0 4 3 7 7 7h4M48 43v3c0 4-3 7-7 7h-4" fill="none" stroke="#EAFBFF" stroke-width="3.4" stroke-linecap="round" opacity=".92"/>
+  <path d="M16.3 32c4.8-7.2 12.5-9.4 19.5-6.2 5 2.2 8.1 5.8 11.9 6.2-3.8.5-6.9 4-11.9 6.2-7 3.2-14.7 1-19.5-6.2Z" fill="url(#fcIconFish)"/>
+  <path d="M17.6 32 9.6 25c-2 4.1-2 9.9 0 14l8-7Z" fill="#EAFBFF" opacity=".96"/>
+  <circle cx="40" cy="29.4" r="3.2" fill="#064D8D"/>
+  <circle cx="40.8" cy="28.6" r="1.05" fill="#fff"/>
+  <path d="M24 27.8c5.2 3.2 10.6 3.6 16.1 1.1" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity=".66"/>
+  <path d="M24 36.1c5.1-2.8 10.4-3.1 15.6-.9" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" opacity=".5"/>
+  <path d="M31.5 15.3v33.4" fill="none" stroke="#EAFBFF" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+</svg>

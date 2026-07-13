@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Betta fish in a planted freshwater aquarium</title>
+  <desc id="desc">A colorful illustrated betta fish swimming in a planted freshwater aquarium.</desc>
+  <defs>
+    <linearGradient id="water" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#dff6ff"/>
+      <stop offset="0.48" stop-color="#bfefff"/>
+      <stop offset="1" stop-color="#e9fff5"/>
+    </linearGradient>
+    <linearGradient id="fishBody" x1="0" x2="1">
+      <stop offset="0" stop-color="#e5325f"/>
+      <stop offset="0.42" stop-color="#e64689"/>
+      <stop offset="1" stop-color="#3366d9"/>
+    </linearGradient>
+    <linearGradient id="tail" x1="0" x2="1">
+      <stop offset="0" stop-color="#3159d4"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#ef3f7c"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#174563" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="520" fill="url(#water)"/>
+  <g opacity=".35">
+    <circle cx="138" cy="108" r="14" fill="#fff"/>
+    <circle cx="230" cy="182" r="9" fill="#fff"/>
+    <circle cx="1030" cy="128" r="13" fill="#fff"/>
+    <circle cx="1085" cy="250" r="8" fill="#fff"/>
+    <circle cx="928" cy="80" r="6" fill="#fff"/>
+  </g>
+  <g opacity=".9">
+    <path d="M106 504c22-114 40-178 83-252 33 92 35 168 19 252z" fill="#2bb673"/>
+    <path d="M171 504c10-92 38-172 86-240 22 86 6 171-25 240z" fill="#158f61"/>
+    <path d="M1002 504c-6-102 18-190 72-263 30 92 26 175-7 263z" fill="#239c68"/>
+    <path d="M1090 504c-4-82 8-147 48-207 26 68 28 141 6 207z" fill="#1e8e62"/>
+    <ellipse cx="602" cy="505" rx="620" ry="38" fill="#d8c7a1" opacity=".55"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M374 261c-88-60-153-92-238-96 45 52 86 91 133 119-49 29-89 64-121 114 91 1 160-29 226-86z" fill="url(#tail)" opacity=".95"/>
+    <path d="M374 260c-52-64-88-124-94-197 78 33 129 87 154 165z" fill="#405bd8" opacity=".92"/>
+    <path d="M384 310c-52 46-89 93-106 151 78-16 134-58 173-126z" fill="#ef3f7c" opacity=".9"/>
+    <path d="M374 258c126-92 339-92 470-24 77 40 115 90 107 132-7 36-50 62-112 70-151 18-361-21-465-126-16-16-16-38 0-52z" fill="url(#fishBody)"/>
+    <path d="M807 220c47-38 99-57 155-64-14 70-51 122-112 156z" fill="#2f5fd8" opacity=".9"/>
+    <path d="M810 431c54 24 106 56 156 98-8-75-39-132-98-173z" fill="#d73472" opacity=".82"/>
+    <path d="M623 228c64 20 122 55 172 103-69-18-132-17-190 4 31-33 37-67 18-107z" fill="#f7b9d2" opacity=".26"/>
+    <circle cx="887" cy="297" r="26" fill="#ffffff"/>
+    <circle cx="894" cy="297" r="15" fill="#14203a"/>
+    <circle cx="900" cy="290" r="5" fill="#ffffff"/>
+    <path d="M936 325c34 12 66 13 95 3-25 24-58 35-99 34 7-11 9-24 4-37z" fill="#284eae"/>
+    <path d="M438 233c73 40 149 64 228 73M421 280c82 39 173 61 272 67M461 331c72 26 147 40 225 41" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".23"/>
+  </g>
+</svg>

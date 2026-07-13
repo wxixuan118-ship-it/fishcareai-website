@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="robots" content="noindex,nofollow"/>
+<title>FishCare AI Forms</title>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1L92P7VP30"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-1L92P7VP30');
+</script>
+<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260707-logo-refresh"/>
+</head>
+<body>
+  <form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input type="hidden" name="form-name" value="newsletter"/>
+    <input type="hidden" name="source"/>
+    <input type="hidden" name="submitted_at"/>
+    <input name="bot-field"/>
+    <input type="email" name="email"/>
+  </form>
+
+  <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input type="hidden" name="form-name" value="contact"/>
+    <input type="hidden" name="source"/>
+    <input type="hidden" name="submitted_at"/>
+    <input name="bot-field"/>
+    <input type="text" name="name"/>
+    <input type="email" name="email"/>
+    <select name="topic">
+      <option>Fish care question</option>
+      <option>Guide correction</option>
+      <option>Partnership</option>
+      <option>Technical issue</option>
+    </select>
+    <textarea name="message"></textarea>
+  </form>
+</body>
+</html>

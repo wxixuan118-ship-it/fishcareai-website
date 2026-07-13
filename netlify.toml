@@ -1,0 +1,176 @@
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Keep one canonical host and protocol. These rules must remain before
+# path-level redirects and the final custom 404 rule.
+[[redirects]]
+  from = "http://fishcareai.com/*"
+  to = "https://www.fishcareai.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.fishcareai.com/*"
+  to = "https://www.fishcareai.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://fishcareai.com/*"
+  to = "https://www.fishcareai.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/encyclopedia/"
+  to = "/wiki/"
+  status = 301
+
+# Consolidate duplicate species pages into the established care guides.
+[[redirects]]
+  from = "/wiki/betta-fish/"
+  to = "/guides/betta-fish-care/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/wiki/goldfish/"
+  to = "/guides/goldfish-care/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/wiki/guppy/"
+  to = "/guides/guppy-fish-care/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/wiki/angelfish/"
+  to = "/guides/angelfish-care/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/wiki/molly/"
+  to = "/guides/molly-fish-care/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/wiki/oscar/"
+  to = "/guides/oscar-fish-care/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/wiki/zebra-danio/"
+  to = "/guides/zebra-danio-fish-care/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/wiki/discus/"
+  to = "/guides/discus-fish-care-requirements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/wiki/swordtail/"
+  to = "/guides/swordtail-fish-care-and-breeding/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/wiki/koi/"
+  to = "/guides/koi-fish-care/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/guides/guppies/"
+  to = "/guides/guppy-fish-care/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/guides/betta-care-guide/"
+  to = "/guides/betta-fish-care/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/guides/guppy-care-guide/"
+  to = "/guides/guppy-fish-care/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/guides/goldfish-care-guide/"
+  to = "/guides/goldfish-care/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/guides/discus-care-guide/"
+  to = "/guides/discus-fish-care-requirements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/guides/angelfish-care-guide/"
+  to = "/guides/angelfish-care/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/guides/swordtail-care-guide/"
+  to = "/guides/swordtail-fish-care-and-breeding/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/guides/molly-care-guide/"
+  to = "/guides/molly-fish-care/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/guides/oscar-care-guide/"
+  to = "/guides/oscar-fish-care/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/FishCare.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/guides/petco-fish-care/"
+  to = "/guides/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 404

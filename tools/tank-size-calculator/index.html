@@ -1,0 +1,2141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<base href="/">
+<title>Water Tank Calculator | Tank Gallon & Fish Tank Size Calculator</title>
+<meta name="description" content="Free water tank calculator for tank gallons, litres, round tank capacity, cylinder tanks, square tanks, and aquarium fish tank size planning."/>
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"/>
+<link rel="canonical" href="https://www.fishcareai.com/tools/tank-size-calculator/"/>
+<link rel="preload" as="image" href="assets/freshwater-fish-care-hero-optimized.jpg"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Water Tank Calculator"/>
+<meta property="og:description" content="Calculate water tank capacity in gallons and litres for square, rectangular, round, and cylinder tanks, plus aquarium fish tank size guidance."/>
+<meta property="og:url" content="https://www.fishcareai.com/tools/tank-size-calculator/"/>
+<meta property="og:image" content="https://www.fishcareai.com/assets/freshwater-fish-care-hero-optimized.jpg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Water Tank Calculator"/>
+<meta name="twitter:description" content="Calculate water tank capacity in gallons and litres for square, rectangular, round, and cylinder tanks, plus aquarium fish tank size guidance."/>
+<meta name="twitter:image" content="https://www.fishcareai.com/assets/freshwater-fish-care-hero-optimized.jpg"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "FishCare AI",
+  "url": "https://www.fishcareai.com/",
+  "description": "Aquarium care guides and practical tools for fish, algae, shrimp, snails, amphibians, tank setup, water quality, feeding, compatibility, and decoration."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "FishCare AI",
+  "url": "https://www.fishcareai.com/"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How often should I feed my fish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most aquarium fish should be fed once or twice daily, only as much as they can eat in about two minutes. Remove uneaten food to protect water quality."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why are my fish gasping at the surface?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fish gasping at the surface may indicate low oxygen, ammonia or nitrite poisoning, high temperature, overcrowding, or poor circulation. Increase surface movement and test the water immediately."
+      }
+    }
+  ]
+}
+</script>
+<style>
+:root{--p:#1687C7;--pl:#46B6E8;--pd:#0F3D6E;--s:#18A999;--a:#0F3D6E;--ad:#08294C;--bg:#EAF8FF;--tx:#123047;--mu:#527895;--bd:#BFE4F6;--ok:#27AE60;--wn:#F39C12;--er:#E74C3C;--water:#D9F4FF;--foam:#F7FCFF}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,'Segoe UI',Arial,sans-serif;background:radial-gradient(circle at 10% 4%,rgba(125,217,255,.7),transparent 24%),radial-gradient(circle at 86% 12%,rgba(24,169,153,.28),transparent 28%),linear-gradient(180deg,#F7FCFF 0%,#DDF5FF 34%,#F4FBFF 100%);color:var(--tx);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--p);text-decoration:none}
+button{cursor:pointer;font-family:inherit}
+input,select{font-family:inherit}
+.hide{display:none!important}
+.con{max-width:1180px;margin:0 auto;padding:0 22px}
+h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:800;line-height:1.2}
+h2{font-size:clamp(1.3rem,3vw,2rem);font-weight:700;line-height:1.25}
+h3{font-size:1.15rem;font-weight:700}
+h4{font-size:1rem;font-weight:700}
+p{margin-bottom:.85rem;color:var(--mu)}
+p:last-child{margin-bottom:0}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:10px 20px;border-radius:999px;font-size:.9rem;font-weight:700;border:none;cursor:pointer;transition:all .18s;white-space:nowrap;box-shadow:0 10px 24px rgba(15,61,110,.12)}
+.bp{background:linear-gradient(135deg,var(--pd),#155C98);color:#fff}.bp:hover{background:linear-gradient(135deg,#08294C,var(--pd));transform:translateY(-1px);box-shadow:0 14px 28px rgba(15,61,110,.2)}
+.ba{background:linear-gradient(135deg,var(--pd),#155C98);color:#fff}.ba:hover{background:linear-gradient(135deg,#08294C,var(--pd))}
+.bo{background:rgba(255,255,255,.65);color:var(--pd);border:2px solid rgba(15,61,110,.9)}.bo:hover{background:var(--pd);color:#fff;border-color:var(--pd)}
+.bsm{padding:7px 14px;font-size:.82rem}
+.blg{padding:13px 28px;font-size:.97rem;border-radius:10px}
+.sec{padding:78px 0;position:relative}.sec-w{background:linear-gradient(180deg,rgba(255,255,255,.88),rgba(221,245,255,.86))}
+.sh{text-align:center;margin-bottom:42px}
+.sh h2{color:var(--pd);margin-bottom:10px}
+.sh p{max-width:560px;margin:0 auto;font-size:1rem}
+.tag{display:inline-block;background:rgba(22,135,199,.12);color:var(--pd);padding:4px 12px;border-radius:999px;font-size:.73rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px;border:1px solid rgba(22,135,199,.12)}
+.g2{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+@media(max-width:900px){.g4{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.g4,.g3,.g2{grid-template-columns:1fr}.con{padding:0 14px}}
+.card{background:rgba(255,255,255,.9);border-radius:22px;box-shadow:0 16px 42px rgba(15,61,110,.09);border:1px solid rgba(191,228,246,.95);transition:box-shadow .22s,transform .22s,border-color .22s;overflow:hidden;backdrop-filter:blur(14px)}
+.card:hover{box-shadow:0 22px 52px rgba(15,61,110,.18);transform:translateY(-5px);border-color:rgba(70,182,232,.95)}
+.bdg{display:inline-block;padding:3px 9px;border-radius:20px;font-size:.74rem;font-weight:600}
+.bgood{background:rgba(39,174,96,.12);color:var(--ok)}.bwarn{background:rgba(243,156,18,.12);color:var(--wn)}.bdng{background:rgba(231,76,60,.12);color:var(--er)}
+input.fc,select.fc,textarea.fc{width:100%;padding:9px 13px;border:1.5px solid var(--bd);border-radius:8px;font-size:.9rem;background:#fff;color:var(--tx);outline:none;transition:border-color .2s}
+input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(22,135,199,.14)}
+.fg{margin-bottom:16px}
+.fg label{display:block;font-weight:600;margin-bottom:5px;font-size:.86rem}
+/* NAVBAR */
+.nb{position:sticky;top:0;z-index:100;background:rgba(247,252,255,.86);backdrop-filter:blur(20px);border-bottom:1px solid rgba(191,228,246,.9);padding:0 22px;height:68px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 10px 30px rgba(15,61,110,.08)}
+.brand{display:flex;align-items:center;gap:8px;font-size:1.2rem;font-weight:800;color:var(--p);cursor:pointer;border:none;background:none}
+.nlinks{display:flex;align-items:center;gap:2px}
+.nl{padding:7px 13px;border-radius:999px;font-weight:600;font-size:.86rem;color:var(--mu);cursor:pointer;border:none;background:none;transition:all .15s}
+.nl:hover,.nl.act{color:var(--pd);background:rgba(22,135,199,.11)}
+.hbg{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:7px;border:none;background:none}
+.hbg span{display:block;width:21px;height:2px;background:var(--tx);border-radius:2px}
+@media(max-width:760px){.nlinks{display:none;position:absolute;top:64px;left:0;right:0;background:#fff;flex-direction:column;padding:12px;border-bottom:1px solid var(--bd);gap:3px;box-shadow:0 4px 20px rgba(27,94,139,.12)}.nlinks.open{display:flex}.hbg{display:flex}.nb-cta{display:none}}
+/* HERO */
+.hero{background:linear-gradient(135deg,#08294C 0%,#0F3D6E 48%,#1687C7 100%);padding:84px 22px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;opacity:.18;background-image:radial-gradient(circle at 20% 30%,rgba(255,255,255,.7) 0 1px,transparent 2px),radial-gradient(circle at 70% 18%,rgba(125,217,255,.55) 0 1px,transparent 2px);background-size:44px 44px,68px 68px}
+.hc{position:relative;z-index:1;max-width:720px;margin:0 auto}
+.hc h1{color:#fff;margin-bottom:16px}
+.hc h1 span{color:#9DEBFF}
+.hc>p{color:rgba(255,255,255,.85);font-size:1.08rem;margin-bottom:30px}
+.hsrch{display:flex;max-width:500px;margin:0 auto 26px;background:rgba(255,255,255,.94);border:1px solid rgba(255,255,255,.6);border-radius:50px;padding:5px 5px 5px 18px;box-shadow:0 16px 42px rgba(8,41,76,.22)}
+.hsrch input{flex:1;border:none;outline:none;font-size:.95rem;background:transparent;color:var(--tx)}
+.hsrch button{border-radius:40px;padding:8px 20px;border:none;background:linear-gradient(135deg,var(--pd),#155C98);color:#fff;font-weight:700;cursor:pointer;font-size:.9rem;box-shadow:0 8px 18px rgba(15,61,110,.2)}
+.hstats{display:flex;justify-content:center;gap:18px;flex-wrap:wrap}
+.hstat{color:rgba(255,255,255,.9);text-align:left;background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.18);border-radius:20px;padding:15px 20px;min-width:148px;backdrop-filter:blur(8px);box-shadow:0 12px 30px rgba(8,41,76,.12)}
+.hstat strong{display:block;font-size:1.4rem;font-weight:800;color:#fff}
+.hstat span{font-size:.8rem}
+.seohero{min-height:690px;background:#0F3D6E;text-align:left;display:flex;align-items:end;padding:118px 22px 96px}
+.seohero::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,41,76,.9),rgba(15,61,110,.58) 46%,rgba(22,135,199,.12)),linear-gradient(0deg,rgba(5,28,42,.76),rgba(5,28,42,0) 45%),radial-gradient(circle at 70% 18%,rgba(157,235,255,.18),transparent 30%);opacity:1;background-size:auto}
+.seohero::after{content:'';position:absolute;left:-8%;right:-8%;bottom:-72px;height:150px;background:radial-gradient(80% 110% at 50% 0%,rgba(247,252,255,.98) 0%,rgba(234,248,255,.96) 56%,rgba(234,248,255,0) 57%);z-index:1;pointer-events:none}
+.hero-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.seohero .hc{max-width:930px;margin:0 auto;width:100%;text-align:left;padding:28px;border-radius:30px;background:linear-gradient(135deg,rgba(255,255,255,.13),rgba(255,255,255,.04));border:1px solid rgba(255,255,255,.18);box-shadow:0 24px 70px rgba(0,0,0,.18);backdrop-filter:blur(6px)}
+.seohero h1{font-size:clamp(2.35rem,6vw,5.2rem);line-height:1;letter-spacing:0}
+.seohero .hsrch{margin-left:0;margin-right:0}
+.seohero .hstats{justify-content:flex-start;margin-top:8px}
+.kgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+@media(max-width:1100px){.kgrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.kgrid{grid-template-columns:1fr}.hstat{min-width:calc(50% - 10px)}}
+.kcard{min-height:245px;color:inherit;text-decoration:none;display:flex;flex-direction:column}
+.kcard-img{width:100%;height:220px;object-fit:cover;display:block;background:#EAF6FF;border-bottom:1px solid var(--bd);filter:saturate(1.08) contrast(1.03)}
+.kcard-body{padding:20px 24px 24px;display:flex;flex-direction:column;gap:9px;flex:1}
+.kcard h3{color:var(--pd);margin-bottom:0}
+.kcard p{font-size:.9rem}
+.kcard:hover .kcard-img{filter:saturate(1.18) contrast(1.05)}
+.species-showcase{background:linear-gradient(180deg,#DDF5FF 0%,#BFEFFF 52%,#F7FCFF 100%);overflow:hidden}
+.species-showcase::before{content:'';position:absolute;width:520px;height:520px;left:-180px;top:40px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.9),rgba(125,217,255,.18) 48%,transparent 70%);filter:blur(1px)}
+.species-showcase::after{content:'';position:absolute;width:420px;height:420px;right:-120px;bottom:40px;border-radius:50%;background:radial-gradient(circle,rgba(24,169,153,.22),transparent 65%)}
+.species-showcase .con{position:relative;z-index:1}
+.species-showcase .sh{background:rgba(255,255,255,.58);border:1px solid rgba(255,255,255,.72);border-radius:28px;padding:26px 24px;box-shadow:0 18px 48px rgba(15,61,110,.08);backdrop-filter:blur(14px)}
+.species-showcase .kcard{border-radius:28px;background:linear-gradient(180deg,rgba(255,255,255,.96),rgba(247,252,255,.9));box-shadow:0 20px 52px rgba(15,61,110,.13)}
+.species-showcase .kcard h3{font-size:1.28rem}
+.species-showcase .kcard-body p:last-child{display:inline-flex;align-self:flex-start;background:rgba(24,169,153,.1);padding:5px 11px;border-radius:999px;color:#087D71!important}
+.setup-table{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--bd)}
+.setup-table th{background:linear-gradient(135deg,var(--pd),var(--p));color:#fff;text-align:left;padding:12px 14px;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em}
+.setup-table td{padding:13px 14px;border-bottom:1px solid var(--bd);font-size:.88rem;color:var(--mu);vertical-align:top}
+.setup-table tr:last-child td{border-bottom:none}
+.seo-note{font-size:.86rem;color:var(--mu);background:rgba(247,252,255,.9);border:1px solid var(--bd);border-radius:16px;padding:14px 16px;margin-top:22px}
+.feature-guide{display:grid;grid-template-columns:1fr 1.25fr;overflow:hidden;margin-bottom:20px;cursor:pointer}
+.featured-list{display:grid;gap:12px}
+.featured-item{display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center;padding:16px 18px;cursor:pointer}
+.featured-icon{width:54px;height:54px;border-radius:8px;background:linear-gradient(135deg,var(--p),var(--s));display:flex;align-items:center;justify-content:center;color:#fff;font-size:1.55rem;flex-shrink:0}
+.featured-item h3{color:var(--pd);margin-bottom:4px;font-size:1rem}
+.featured-item p{font-size:.84rem;margin:0}
+.featured-arrow{color:var(--p);font-weight:800;font-size:1.1rem}
+@media(max-width:900px){.kgrid{grid-template-columns:repeat(2,1fr)}.seohero{min-height:660px}.feature-guide{grid-template-columns:1fr}.featured-item{grid-template-columns:auto 1fr}.featured-arrow{display:none}}
+@media(max-width:600px){.kgrid{grid-template-columns:1fr}.seohero{padding-top:88px}.seohero h1{font-size:2.35rem}}
+/* TOOL CARDS */
+.tc{padding:24px;display:flex;flex-direction:column;gap:10px}
+.ti{font-size:2.3rem}
+.tc h3{color:var(--pd)}
+.tc p{font-size:.86rem;flex:1}
+/* FISH CARDS */
+.fc2{text-align:center;padding:20px 12px;cursor:pointer}
+.fem{font-size:2.6rem;margin-bottom:8px;display:block}
+.fc2 h4{color:var(--pd);margin-bottom:3px}
+.flv{font-size:.7rem;font-weight:600;color:var(--s);text-transform:uppercase;letter-spacing:.05em}
+/* ARTICLE CARDS */
+.ac .cb{padding:16px}
+.acat{font-size:.7rem;font-weight:600;color:var(--s);text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
+.ac h3{font-size:.97rem;color:var(--tx);margin-bottom:7px;line-height:1.4}
+.ac p{font-size:.82rem;margin-bottom:9px}
+.amet{display:flex;gap:12px;font-size:.76rem;color:var(--mu);flex-wrap:wrap}
+.aimg{height:185px;display:block;overflow:hidden;background:linear-gradient(135deg,#DFF6FF,#BFEFFF)}
+.aimg img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s ease}
+.ac:hover .aimg img,.feature-card:hover .aimg img{transform:scale(1.045)}
+.photo-card{position:relative;min-height:260px;padding:0!important;display:flex;align-items:flex-end;overflow:hidden;background:#0F3D6E!important}
+.photo-card::before{content:'';position:absolute;inset:0;background-image:var(--photo);background-size:cover;background-position:center;transition:transform .4s ease;filter:saturate(1.08)}
+.photo-card::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,28,42,.05),rgba(5,28,42,.78) 72%,rgba(5,28,42,.9))}
+.photo-card:hover::before{transform:scale(1.06)}
+.photo-card-content{position:relative;z-index:1;padding:22px;width:100%}
+.photo-card .tag{background:rgba(255,255,255,.18);color:#fff;border-color:rgba(255,255,255,.22)}
+.photo-card h3{color:#fff}
+.photo-card p{color:rgba(255,255,255,.82)}
+.photo-card a:not(.btn){color:#7DEBFF}
+.photo-band{position:relative;overflow:hidden}
+.photo-band::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(240,247,255,.94),rgba(240,247,255,.78)),url('/assets/freshwater-fish-care-hero-optimized.jpg');background-size:cover;background-position:center;opacity:.95}
+.photo-band>.con{position:relative;z-index:1}
+.tools-photo-section{position:relative;overflow:hidden;background:#092E4D}
+.tools-photo-section::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,28,42,.9),rgba(15,61,110,.7)),url('/assets/encyclopedia/real/discus-wikimedia-real.jpg');background-size:cover;background-position:center;filter:saturate(1.08)}
+.tools-photo-section .con{position:relative;z-index:1}
+.tools-photo-section .sh h2,.tools-photo-section .sh p{color:#fff}
+.tools-photo-section .card{background:rgba(255,255,255,.92)}
+/* PRODUCT */
+.pimg{height:180px;background:linear-gradient(135deg,#F0F7FF,#D0E4F0);display:flex;align-items:center;justify-content:center;font-size:4.2rem}
+.pc .cb{padding:16px}
+.price{font-size:1.2rem;font-weight:800;color:var(--p)}
+.oprice{font-size:.8rem;color:var(--mu);text-decoration:line-through;margin-left:5px}
+.stars{color:#F5A623;letter-spacing:1px;font-size:.85rem}
+/* WHY */
+.wi{display:flex;gap:16px}
+.wic{font-size:1.8rem;flex-shrink:0;width:50px;height:50px;background:rgba(27,94,139,.08);border-radius:12px;display:flex;align-items:center;justify-content:center}
+.wit h4{color:var(--pd);margin-bottom:4px}
+.wit p{font-size:.86rem;margin:0}
+/* FAQ */
+.fqi{border:1px solid var(--bd);border-radius:8px;overflow:hidden;margin-bottom:9px}
+.fqq{padding:13px 17px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-weight:600;font-size:.9rem;background:#fff;color:var(--tx);border:none;width:100%;text-align:left}
+.fqq:hover{background:#F8FAFE}
+.fqa{padding:0 17px 13px;background:#fff;font-size:.86rem;color:var(--mu);line-height:1.7}
+/* NEWSLETTER */
+.nls{background:linear-gradient(135deg,#0F3D5E,#1B5E8B);padding:64px 22px;text-align:center}
+.nls h2{color:#fff;margin-bottom:9px}
+.nls>p{color:rgba(255,255,255,.8);margin-bottom:26px}
+.nlf{display:flex;max-width:420px;margin:0 auto;background:#fff;border-radius:50px;padding:5px 5px 5px 17px;box-shadow:0 4px 20px rgba(0,0,0,.2)}
+.nlf input{flex:1;border:none;outline:none;font-size:.9rem;background:transparent}
+.nlf button{border-radius:40px;background:var(--a);color:#fff;border:none;padding:8px 18px;font-weight:600;cursor:pointer;font-size:.84rem}
+/* FOOTER */
+.ft{background:#0F3D5E;padding:52px 22px 20px}
+.ftg{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:32px;margin-bottom:40px}
+.ftbr .logo{font-size:1.2rem;font-weight:800;color:#fff;margin-bottom:9px}
+.ftbr p{font-size:.8rem;line-height:1.7;color:rgba(255,255,255,.6)}
+.ftcol h5{color:#fff;margin-bottom:12px;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em}
+.ftcol button,.ftcol a{display:block;color:rgba(255,255,255,.55);font-size:.8rem;margin-bottom:7px;cursor:pointer;border:none;background:none;text-align:left;transition:color .15s;padding:0}
+.ftcol button:hover,.ftcol a:hover{color:#fff}
+.ftb{border-top:1px solid rgba(255,255,255,.1);padding-top:16px;text-align:center;color:rgba(255,255,255,.35);font-size:.75rem}
+@media(max-width:760px){.ftg{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.ftg{grid-template-columns:1fr}}
+/* TOOLS */
+.ttabs{display:flex;gap:3px;background:#fff;border-radius:14px;padding:5px;border:1px solid var(--bd);margin-bottom:24px;flex-wrap:wrap}
+.tbtn{flex:1;min-width:140px;padding:9px 13px;border:none;border-radius:10px;background:transparent;font-size:.85rem;font-weight:600;color:var(--mu);cursor:pointer;transition:all .2s}
+.tbtn.act{background:var(--p);color:#fff}
+.tbtn:hover:not(.act){background:rgba(27,94,139,.07);color:var(--p)}
+.tpanel{background:#fff;border-radius:14px;padding:30px;border:1px solid var(--bd);box-shadow:0 2px 8px rgba(27,94,139,.06)}
+/* CHAT */
+.cms{height:370px;overflow-y:auto;padding:16px;background:#F8FAFE;border-radius:8px;border:1px solid var(--bd);margin-bottom:12px;display:flex;flex-direction:column;gap:12px}
+.msg{display:flex;gap:8px}
+.msg.u{flex-direction:row-reverse}
+.mb{max-width:76%;padding:10px 14px;border-radius:14px;font-size:.86rem;line-height:1.55}
+.msg.b .mb{background:#fff;border:1px solid var(--bd);color:var(--tx);border-radius:4px 14px 14px 14px}
+.msg.u .mb{background:var(--p);color:#fff;border-radius:14px 4px 14px 14px}
+.mav{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.95rem;flex-shrink:0;background:rgba(27,94,139,.1)}
+.dots span{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--mu);animation:dt 1.2s infinite;margin:0 2px}
+.dots span:nth-child(2){animation-delay:.2s}.dots span:nth-child(3){animation-delay:.4s}
+@keyframes dt{0%,60%,100%{transform:translateY(0);opacity:.4}30%{transform:translateY(-5px);opacity:1}}
+.cin{display:flex;gap:8px}
+.cin input{flex:1}
+.sugg-btns{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.sugg-btn{background:rgba(27,94,139,.08);border:1px solid var(--bd);border-radius:20px;padding:4px 10px;font-size:.76rem;cursor:pointer;color:var(--p);font-weight:500}
+/* CALC */
+.cg{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.pr{background:#F8FAFE;border-radius:14px;padding:16px;border:1px solid var(--bd)}
+.prow{display:flex;align-items:center;gap:9px;padding:9px 0;border-bottom:1px solid var(--bd)}
+.prow:last-child{border-bottom:none}
+.plb{flex:1;font-weight:500;font-size:.85rem}
+.pv{font-weight:700;font-size:.9rem}
+.hs{text-align:center;padding:20px;border-radius:14px;color:#fff;margin-bottom:16px}
+.hs .sn{font-size:2.6rem;font-weight:800}
+.hs .sl{font-size:.84rem;opacity:.85;margin-top:2px}
+@media(max-width:700px){.cg{grid-template-columns:1fr}}
+/* COMPAT */
+.fsbox{display:flex;gap:8px;margin-bottom:16px;position:relative}
+.fsbox input{flex:1}
+.ftags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px;min-height:36px}
+.ftag{display:inline-flex;align-items:center;gap:5px;background:rgba(27,94,139,.1);color:var(--p);padding:4px 10px;border-radius:20px;font-size:.82rem;font-weight:600}
+.ftag button{border:none;background:none;color:var(--p);cursor:pointer;font-size:.92rem;line-height:1;padding:0}
+.cr{padding:13px 16px;border-radius:8px;border:1.5px solid;display:flex;gap:11px;margin-bottom:9px}
+.cr.good{border-color:var(--ok);background:rgba(39,174,96,.05)}
+.cr.warn{border-color:var(--wn);background:rgba(243,156,18,.05)}
+.cr.bad{border-color:var(--er);background:rgba(231,76,60,.05)}
+.sdrop{position:absolute;top:100%;left:0;right:0;background:#fff;border:1px solid var(--bd);border-radius:8px;box-shadow:0 4px 20px rgba(27,94,139,.12);z-index:20;max-height:180px;overflow-y:auto}
+.sdi{padding:8px 12px;cursor:pointer;font-size:.86rem}
+.sdi:hover{background:#F0F7FF;color:var(--p)}
+/* BLOG */
+.bhero{background:linear-gradient(135deg,#0F3D5E,#1B5E8B);padding:56px 22px;text-align:center}
+.bhero h1{color:#fff;margin-bottom:9px}
+.bhero p{color:rgba(255,255,255,.8)}
+.bfilts{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:24px}
+.fbtn{padding:5px 14px;border:1.5px solid var(--bd);border-radius:20px;background:#fff;font-size:.82rem;font-weight:500;cursor:pointer;transition:all .15s;color:var(--mu)}
+.fbtn.act,.fbtn:hover{border-color:var(--p);background:var(--p);color:#fff}
+/* ARTICLE PAGE */
+.artlay{display:grid;grid-template-columns:1fr 260px;gap:32px}
+.artc h2{font-size:1.3rem;color:var(--pd);margin:28px 0 12px;padding-top:5px;border-top:2px solid var(--bd)}
+.artc h3{font-size:1.08rem;color:var(--tx);margin:18px 0 9px}
+.artc p{font-size:.95rem;line-height:1.8;color:var(--mu);margin-bottom:13px}
+.artc ul,.artc ol{margin:12px 0 12px 20px}
+.artc li{font-size:.95rem;line-height:1.7;color:var(--mu);margin-bottom:6px}
+.toc{background:#F8FAFE;border-radius:14px;padding:17px;border:1px solid var(--bd);position:sticky;top:84px}
+.toc h4{color:var(--pd);margin-bottom:9px;font-size:.82rem;text-transform:uppercase;letter-spacing:.05em}
+.toc a{display:block;padding:4px 0 4px 10px;font-size:.81rem;color:var(--mu);border-left:2px solid transparent;transition:all .15s;cursor:pointer;text-decoration:none}
+.toc a:hover{color:var(--p);border-left-color:var(--p)}
+.tcta{background:linear-gradient(135deg,#1B5E8B,#2E84C0);border-radius:14px;padding:20px;color:#fff;margin:24px 0}
+.tcta h4{color:#fff;margin-bottom:6px}
+.tcta p{color:rgba(255,255,255,.85);margin-bottom:13px;font-size:.85rem}
+.tcta .btn{background:#fff;color:var(--p);font-weight:700}
+.ptbl{width:100%;border-collapse:collapse;margin:16px 0;font-size:.84rem}
+.ptbl th{background:var(--p);color:#fff;padding:8px 12px;text-align:left}
+.ptbl td{padding:8px 12px;border-bottom:1px solid var(--bd);color:var(--mu)}
+.ptbl tr:nth-child(even) td{background:#F8FAFE}
+.abox{background:#F8FAFE;border-radius:14px;padding:16px 20px;border:1px solid var(--bd);display:flex;gap:13px;align-items:center;margin-top:32px}
+.aav{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#1B5E8B,#2E9E7D);display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0}
+@media(max-width:860px){.artlay{grid-template-columns:1fr}.toc{display:none}}
+/* PRODUCTS */
+.phero{background:linear-gradient(135deg,#0F3D5E,#1B5E8B);padding:56px 22px;text-align:center}
+.cmpt{width:100%;border-collapse:collapse;margin:18px 0;font-size:.82rem;border-radius:14px;overflow:hidden;border:1px solid var(--bd)}
+.cmpt th{background:var(--p);color:#fff;padding:10px 14px;text-align:left}
+.cmpt td{padding:10px 14px;border-bottom:1px solid var(--bd);color:var(--mu)}
+.cmpt tr:nth-child(even) td{background:#F8FAFE}
+.div{height:1px;background:var(--bd);margin:24px 0}
+.back-btn{display:inline-flex;align-items:center;gap:6px;color:rgba(255,255,255,.75);font-size:.85rem;cursor:pointer;border:none;background:none;margin-bottom:14px}
+.back-btn:hover{color:#fff}
+</style>
+<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260713-checklist-table-fix"/>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1L92P7VP30"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-1L92P7VP30');
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Water Tank Calculator",
+  "url": "https://www.fishcareai.com/tools/tank-size-calculator/",
+  "description": "Free water tank calculator for tank gallons, litres, round tank capacity, cylinder tanks, square tanks, and aquarium fish tank size planning.",
+  "applicationCategory": "UtilityApplication",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+</script>
+</head>
+<body class="tools-dark-page">
+
+<!-- NAVBAR -->
+<nav class="nb" id="navbar">
+  <a title="FishCare AI" class="brand" href="/"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"/></a>
+  <div class="nlinks" id="nlinks">
+    <a title="Home" class="nl" href="/" onclick="event.preventDefault();goto('home')" data-page="home">Home</a>
+    <a title="Guides" class="nl" href="guides/" onclick="event.preventDefault();goto('blog')" data-page="blog">Guides</a>
+    <a title="Aquarium Encyclopedia" class="nl" href="/wiki/">Encyclopedia</a>
+    <a title="Tools" class="nl" href="#tools" onclick="event.preventDefault();goto('tools')" data-page="tools">Tools</a>
+    <a title="About Us" class="nl" href="#about" onclick="event.preventDefault();goto('about')" data-page="about">About Us</a>
+    <a title="Contact" class="nl" href="#contact" onclick="event.preventDefault();goto('contact')" data-page="contact">Contact</a>
+    <a title="Try AI Free" class="btn bp bsm nb-cta" href="#tools" onclick="event.preventDefault();goto('tools')">Try AI Free</a>
+  </div>
+  <div class="hbg" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- PAGES -->
+<span id="home"></span>
+<span id="tools"></span>
+<span id="guides"></span>
+<span id="about"></span>
+<span id="contact"></span>
+<div id="page-home"></div>
+<div id="page-tools" class="hide"></div>
+<div id="page-blog" class="hide"></div>
+<div id="page-post" class="hide"></div>
+<div id="page-about" class="hide"></div>
+<div id="page-contact" class="hide"></div>
+
+<!-- FOOTER -->
+<footer class="ft" id="site-footer">
+  <div class="con">
+    <div class="ftg">
+      <div class="ftbr"><div class="logo"><img class="fishcare-footer-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="150" height="38"/></div><p>Your trusted resource for fish care guides, free tools, and practical aquarium advice. Helping beginners build healthier freshwater tanks since 2026.</p></div>
+      <div class="ftcol"><h5>Guides</h5><a title="All Guides" href="guides/">All Guides</a><a title="Best Fish for Beginners" href="guides/best-freshwater-fish-for-beginners/">Best Beginner Fish</a><a title="How to Set Up a Fish Tank" href="guides/how-to-set-up-a-fish-tank/">Tank Setup Guide</a><a title="Aquarium Water Parameters" href="guides/aquarium-water-parameters/">Water Parameters</a><a title="Goldfish Care" href="guides/goldfish-care/">Goldfish Care</a><a title="Beginner Checklist" href="guides/beginner-fish-care-checklist/">Beginner Checklist</a></div><div class="ftcol"><h5>Species Guides</h5><a title="Guppy Fish Care" href="guides/guppy-fish-care/">Guppies</a><a title="Goldfish Care" href="guides/goldfish-care/">Goldfish Care</a><a title="Betta Fish Care" href="guides/betta-fish-care/">Betta Fish Care</a><a title="Molly Fish Care" href="guides/molly-fish-care/">Molly Fish Care</a><a title="Koi Fish Care" href="guides/koi-fish-care/">Koi Fish Care</a><a title="Angelfish Care" href="guides/angelfish-care/">Angelfish Care</a></div>
+      <div class="ftcol"><h5>Encyclopedia</h5><a href="/wiki/">All Species</a><a href="/wiki/neon-tetra/">Neon Tetra</a><a href="/wiki/clownfish/">Clownfish</a><a href="/wiki/corydoras/">Corydoras</a><a href="/wiki/cherry-barb/">Cherry Barb</a><a href="/wiki/dwarf-gourami/">Dwarf Gourami</a></div>
+      <div class="ftcol"><h5>Tools</h5><a title="Tank Size Calculator" href="/tools/tank-size-calculator/">Tank Size Calculator</a><a title="Compatibility Checker" href="/tools/fish-compatibility-checker/">Compatibility Checker</a><a title="Water Parameter Checker" href="/tools/water-parameter-checker/">Water Parameter Checker</a><a title="Feeding Calculator" href="/tools/fish-feeding-calculator/">Feeding Calculator</a><a title="Aquarium Planner" href="/tools/aquarium-planner/">Aquarium Planner</a></div>
+      <div class="ftcol"><h5>More</h5><a title="About Us" href="#about" onclick="event.preventDefault();goto('about')">About Us</a><a title="Contact" href="#contact" onclick="event.preventDefault();goto('contact')">Contact</a><a title="Partners" href="partners/">Partners</a><a title="Privacy Policy" href="privacy/">Privacy Policy</a></div>
+    </div>
+    <div class="ftb">© 2026 FishCare. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+// ═══════════════════════════════════════════════
+// DATA
+// ═══════════════════════════════════════════════
+const FISH_DB = [
+  {id:1,name:'Betta Fish',e:'🐟',agg:'high',minPH:6.0,maxPH:7.5,minT:76,maxT:82,sz:'small',care:'Beginner',desc:'Colorful and territorial'},
+  {id:2,name:'Guppy',e:'🐠',agg:'low',minPH:6.8,maxPH:7.8,minT:72,maxT:82,sz:'small',care:'Beginner',desc:'Hardy colorful livebearers'},
+  {id:3,name:'Neon Tetra',e:'🐡',agg:'low',minPH:6.0,maxPH:7.0,minT:70,maxT:81,sz:'small',care:'Beginner',desc:'Neon-colored schooling fish'},
+  {id:4,name:'Goldfish',e:'🐟',agg:'low',minPH:6.5,maxPH:7.5,minT:65,maxT:75,sz:'large',care:'Beginner',desc:'Classic, needs cool water'},
+  {id:5,name:'Angelfish',e:'🐠',agg:'medium',minPH:6.0,maxPH:7.5,minT:75,maxT:82,sz:'large',care:'Intermediate',desc:'Elegant, semi-aggressive'},
+  {id:6,name:'Corydoras Catfish',e:'🐡',agg:'low',minPH:6.0,maxPH:8.0,minT:72,maxT:80,sz:'small',care:'Beginner',desc:'Bottom dwellers, great cleaners'},
+  {id:7,name:'Platy',e:'🐟',agg:'low',minPH:7.0,maxPH:8.2,minT:70,maxT:82,sz:'small',care:'Beginner',desc:'Peaceful livebearers'},
+  {id:8,name:'Molly',e:'🐠',agg:'low',minPH:7.5,maxPH:8.5,minT:70,maxT:82,sz:'small',care:'Beginner',desc:'Adaptable and peaceful'},
+  {id:9,name:'Zebra Danio',e:'🐡',agg:'low',minPH:6.5,maxPH:7.0,minT:65,maxT:77,sz:'small',care:'Beginner',desc:'Fast, active schooling fish'},
+  {id:10,name:'Cherry Barb',e:'🐟',agg:'low',minPH:6.0,maxPH:7.5,minT:73,maxT:81,sz:'small',care:'Beginner',desc:'Peaceful, vibrant red'},
+  {id:11,name:'Tiger Barb',e:'🐠',agg:'medium',minPH:6.0,maxPH:7.5,minT:72,maxT:82,sz:'small',care:'Beginner',desc:'Fin nippers, keep in schools'},
+  {id:12,name:'Swordtail',e:'🐡',agg:'low',minPH:7.0,maxPH:8.0,minT:72,maxT:82,sz:'medium',care:'Beginner',desc:'Distinctive tail, peaceful'},
+  {id:13,name:'Dwarf Gourami',e:'🐟',agg:'low',minPH:6.0,maxPH:7.5,minT:72,maxT:82,sz:'small',care:'Beginner',desc:'Colorful and peaceful'},
+  {id:14,name:'Harlequin Rasbora',e:'🐠',agg:'low',minPH:6.0,maxPH:7.5,minT:72,maxT:80,sz:'small',care:'Beginner',desc:'Peaceful schooling fish'},
+  {id:15,name:'Bristlenose Pleco',e:'🐡',agg:'low',minPH:6.0,maxPH:7.5,minT:73,maxT:81,sz:'medium',care:'Beginner',desc:'Algae eater, stays small'},
+  {id:16,name:'Oscar Fish',e:'🐟',agg:'high',minPH:6.0,maxPH:8.0,minT:74,maxT:81,sz:'large',care:'Intermediate',desc:'Intelligent but aggressive'},
+  {id:17,name:'Discus',e:'🐠',agg:'low',minPH:6.0,maxPH:7.0,minT:82,maxT:88,sz:'large',care:'Expert',desc:'Show fish, pristine water'},
+  {id:18,name:'Kuhli Loach',e:'🐡',agg:'low',minPH:5.5,maxPH:7.0,minT:75,maxT:86,sz:'small',care:'Beginner',desc:'Eel-like, peaceful scavengers'},
+  {id:19,name:'Endler Livebearer',e:'🐟',agg:'low',minPH:7.0,maxPH:8.0,minT:72,maxT:84,sz:'small',care:'Beginner',desc:'Similar to guppies, tiny'},
+  {id:20,name:'Rainbow Fish',e:'🐠',agg:'low',minPH:7.0,maxPH:8.0,minT:72,maxT:80,sz:'medium',care:'Beginner',desc:'Shimmering colors, active'},
+];
+
+const POSTS = [
+  {slug:'fish-care-chart',title:'Fish Care Chart: Tank Size, Temperature, Feeding and Difficulty',cat:'Fish Care',e:'📊',date:'June 25, 2026',time:'7 min',author:'FishCare AI Editorial Team',exc:'Use this fish care chart to compare beginner freshwater fish by tank size, temperature, group size, feeding, and difficulty.'},
+  {slug:'fish-care-for-beginners',title:'Fish Care for Beginners: Simple First Aquarium Guide',cat:'Getting Started',e:'🐠',date:'June 25, 2026',time:'9 min',author:'FishCare AI Editorial Team',exc:'Fish care for beginners explained simply: tank setup, cycling, water testing, feeding, cleaning, compatible fish, and mistakes to avoid.'},
+  {slug:'freshwater-fish-care',title:'Freshwater Fish Care: Tank Setup, Water Quality and Feeding',cat:'Getting Started',e:'💧',date:'June 25, 2026',time:'9 min',author:'FishCare AI Editorial Team',exc:'Freshwater fish care guide covering aquarium setup, cycling, water quality, feeding, compatibility, cleaning, oxygen, and routines.'},
+  {slug:'fish-care-tips',title:'Fish Care Tips: Practical Aquarium Advice for Healthier Fish',cat:'Fish Care',e:'✨',date:'June 25, 2026',time:'7 min',author:'FishCare AI Editorial Team',exc:'Useful fish care tips for beginners covering water changes, feeding, oxygen, tank mates, quarantine, and early warning signs.'},
+  {slug:'fish-care-kit',title:'Fish Care Kit: What Beginners Should Keep at Home',cat:'Fish Care',e:'🧪',date:'June 25, 2026',time:'7 min',author:'FishCare AI Editorial Team',exc:'Build a useful fish care kit with water conditioner, test kit, net, siphon, thermometer, food, and emergency tools.'},
+  {slug:'fish-care-kids',title:'How to Take Care of a Fish for Kids: Simple Aquarium Rules',cat:'Getting Started',e:'🧒',date:'June 25, 2026',time:'7 min',author:'FishCare AI Editorial Team',exc:'A kid-friendly guide to fish care covering feeding, watching behavior, safety rules, and adult-supervised aquarium tasks.'},
+  {slug:'beginner-checklist',title:'Beginner Fish Care Checklist: Tank Setup, Water, Feeding and Safety',cat:'Getting Started',e:'✅',date:'June 24, 2026',time:'8 min',author:'FishCare AI Editorial Team',exc:'Use this printable beginner fish care checklist before buying fish, while setting up a freshwater aquarium, and during weekly tank maintenance.'},
+  {slug:'fish-care-beginners',title:'How to Take Care of a Fish for Beginners: Complete First Tank Guide',cat:'Getting Started',e:'🐠',date:'June 23, 2026',time:'14 min',author:'Dr. Sarah Mitchell',exc:'Learn how to take care of a fish for beginners, including tank cycling, water testing, feeding, cleaning, fish selection, and common first-tank mistakes.'},
+  {slug:'fish-care-bowl',title:'How to Take Care of a Fish in a Bowl: Safe Bowl Care and Better Alternatives',cat:'Getting Started',e:'💧',date:'June 23, 2026',time:'12 min',author:'Dr. Sarah Mitchell',exc:'Learn how to take care of a fish in a bowl as safely as possible, why bowls are risky, how often to change water, what fish to avoid, and when to upgrade.'},
+  {slug:'fish-without-oxygen',title:'How to Take Care of Fish Without Oxygen: Emergency Care and Aeration Guide',cat:'Water Quality',e:'🌬️',date:'June 23, 2026',time:'12 min',author:'James Chen',exc:'Learn how to take care of fish without oxygen in an emergency, signs of low oxygen, quick fixes, safer aeration options, and when to act fast.'},
+  {slug:'betta',title:'Betta Fish Care for Beginners: Tank Setup, Feeding, Diseases & More',cat:'Species Guide',e:'🐟',date:'June 15, 2026',time:'12 min',author:'Dr. Sarah Mitchell',exc:'Everything you need to know about betta fish — from tank setup to diagnosing common diseases.'},
+  {slug:'molly',title:'Molly Fish Care Guide: Varieties, Tank Setup and Breeding',cat:'Species Guide',e:'🐠',date:'June 14, 2026',time:'11 min',author:'James Chen',exc:'Molly fish care guide varieties and breeding advice for black mollies, sailfin mollies, livebearer fry, diet, and tank setup.'},
+  {slug:'swordtail',title:'Swordtail Fish Care and Breeding Tips and Tricks',cat:'Species Guide',e:'🐡',date:'June 13, 2026',time:'10 min',author:'Dr. Sarah Mitchell',exc:'Swordtail fish care guide covering red swordtail fish care, breeding ratios, fry protection, water parameters, and feeding.'},
+  {slug:'koi',title:'Koi Fish Care Guide for Beginners',cat:'Species Guide',e:'🐟',date:'June 12, 2026',time:'9 min',author:'James Chen',exc:'Koi fish care basics for beginners, including pond size, filtration, oxygen, seasonal feeding, and long-term planning.'},
+  {slug:'danio',title:'Danio Fish Care Guide: Zebra Danio Fish Care Basics',cat:'Species Guide',e:'🐡',date:'June 11, 2026',time:'8 min',author:'Dr. Sarah Mitchell',exc:'A danio fish care guide for active zebra danios, schooling behavior, tank size, water quality, and beginner mistakes.'},
+  {slug:'discus',title:'Discus Fish Care Requirements and Tank Setup',cat:'Species Guide',e:'🐠',date:'June 9, 2026',time:'13 min',author:'James Chen',exc:'Discus fish care requirements, warm water, filtration, tank mates, feeding, maintenance, and stable tank setup.'},
+  {slug:'angelfish',title:'Angel Fish Care: Tank Size, Tank Mates and Feeding',cat:'Species Guide',e:'🐠',date:'June 8, 2026',time:'9 min',author:'Dr. Sarah Mitchell',exc:'Angel fish care for freshwater angelfish, including tall tanks, pairing behavior, diet, warm water, and community planning.'},
+  {slug:'oscar',title:'Oscar Fish Care: Large Cichlid Tank Setup and Feeding',cat:'Species Guide',e:'🐟',date:'June 7, 2026',time:'10 min',author:'James Chen',exc:'Oscar fish care for keepers ready for a large intelligent cichlid, big tanks, heavy filtration, feeding, and enrichment.'},
+  {slug:'tank-setup',title:'How to Set Up a Fish Tank Step by Step (Beginner Guide 2026)',cat:'Getting Started',e:'🐠',date:'June 10, 2026',time:'10 min',author:'James Chen',exc:'A complete guide to setting up your first aquarium, including cycling, equipment, and stocking your tank safely.'},
+  {slug:'guppy',title:'Guppy Fish Care Guide: How to Keep Guppies Healthy & Happy',cat:'Species Guide',e:'🐡',date:'June 5, 2026',time:'9 min',author:'Dr. Sarah Mitchell',exc:'Guppies are perfect for beginners. Learn about guppy care, breeding, feeding, and keeping them healthy.'},
+  {slug:'water',title:'Aquarium Water Parameters Explained: pH, Ammonia, Nitrites & More',cat:'Water Quality',e:'💧',date:'June 28, 2026',time:'11 min',author:'James Chen',exc:'Understanding water chemistry is the #1 skill every fishkeeper needs. This guide explains every parameter.'},
+  {slug:'goldfish',title:'Goldfish Care Guide: Tank Size, Feeding & Lifespan',cat:'Species Guide',e:'🐠',date:'June 28, 2026',time:'12 min',author:'James Chen',exc:'Goldfish live 15–25 years in proper conditions. Learn tank size, filtration, feeding, fancy vs single-tail varieties, and common diseases.'},
+  {slug:'guppies',title:'Guppies: Complete Care Guide for Healthy, Happy Fish',cat:'Species Guide',e:'🐡',date:'June 28, 2026',time:'11 min',author:'Dr. Sarah Mitchell',exc:'Everything about guppies: tank size, water parameters, feeding, breeding, male vs female, varieties, and baby guppy care.'},
+  {slug:'compat',title:"What Fish Can Live Together? Beginner's Compatibility Guide",cat:'Tank Planning',e:'🐟',date:'May 20, 2026',time:'8 min',author:'Dr. Sarah Mitchell',exc:'Learn which fish get along, which to avoid, and how to build a peaceful community aquarium.'},
+  {slug:'brown-algae',title:'Brown Algae in Fish Tanks: Diatoms, Causes and Cleanup',cat:'Algae Control',e:'🟢',date:'July 5, 2026',time:'6 min',author:'FishCare AI Editorial Team',exc:'Identify brown algae or diatoms, understand why they appear in new aquariums, and learn practical cleanup steps.'},
+  {slug:'hair-algae',title:'Hair Algae in Aquariums: Manual Removal and Prevention',cat:'Algae Control',e:'🌿',date:'July 5, 2026',time:'7 min',author:'FishCare AI Editorial Team',exc:'Hair algae control starts with manual removal, light balance, plant health, nutrients, and patient maintenance.'},
+  {slug:'cherry-shrimp',title:'Cherry Shrimp Care: Planted Tank Setup and Water Stability',cat:'Invertebrates',e:'🦐',date:'July 5, 2026',time:'6 min',author:'FishCare AI Editorial Team',exc:'Cherry shrimp need mature planted tanks, stable water, peaceful tank mates, grazing surfaces, and safe filtration.'},
+  {slug:'nerite-snail',title:'Nerite Snail Care: Algae Grazers for Freshwater Aquariums',cat:'Invertebrates',e:'🐌',date:'July 5, 2026',time:'6 min',author:'FishCare AI Editorial Team',exc:'Nerite snails are useful algae grazers when water is stable, mineral-rich, and the tank has enough biofilm.'},
+  {slug:'african-dwarf-frog',title:'African Dwarf Frog Care: Feeding, Tank Depth and Tank Mates',cat:'Amphibians',e:'🦎',date:'July 5, 2026',time:'7 min',author:'FishCare AI Editorial Team',exc:'African dwarf frogs need calm water, safe decor, easy surface access, and careful feeding in community tanks.'},
+  {slug:'aquarium-driftwood',title:'Aquarium Driftwood Guide: Tannins, Prep and Safe Placement',cat:'Decoration',e:'🪵',date:'July 5, 2026',time:'6 min',author:'FishCare AI Editorial Team',exc:'Aquarium driftwood adds shelter and natural structure, but should be selected, rinsed, soaked, and anchored safely.'},
+  {slug:'live-rock',title:'Live Rock for Saltwater Tanks: Cycling, Curing and Reef Structure',cat:'Decoration',e:'🪨',date:'July 5, 2026',time:'7 min',author:'FishCare AI Editorial Team',exc:'Live rock supports saltwater biological filtration and reef structure when it is cured, cycled, and placed securely.'},
+];
+
+const PARAMS = [
+  {k:'ph',   lbl:'pH',              unit:'',    min:0,  max:14,  step:.1,  def:7.0,  weight:1,   safe:[6.5,7.5], warn:[[6.0,6.5],[7.5,8.0]],tips:{good:'✅ pH is ideal for many community tropical fish.',warn:'⚠️ Slightly off. Adjust gradually — sudden pH swings are more dangerous than a stable imperfect number.',bad:'❌ Critical pH. Do not chase numbers quickly; stabilize slowly and verify your test result.'}},
+  {k:'amm',  lbl:'Ammonia (NH₃/NH₄)', unit:'ppm', min:0,  max:8,   step:.25, def:0, weight:3,   safe:[0,0],     warn:[[0.001,0.25]],tips:{good:'✅ Ammonia is 0 ppm, which is the target for a cycled aquarium.',warn:'⚠️ Any detectable ammonia is a warning. Do a partial water change, dose conditioner, and re-test.',bad:'❌ Dangerous ammonia. Stop feeding, do a 50% water change with dechlorinated temperature-matched water, and check the cycle.'}},
+  {k:'nit2', lbl:'Nitrite (NO₂)',  unit:'ppm', min:0,  max:5,   step:.1,  def:0,    weight:3,   safe:[0,0],     warn:[[0.001,0.25]],tips:{good:'✅ Nitrite is 0 ppm, which is the target for a cycled aquarium.',warn:'⚠️ Detectable nitrite can harm fish. Dose conditioner, increase aeration, and re-test soon.',bad:'❌ Toxic nitrite. Do a large water change, add aeration, and treat this as a cycling emergency.'}},
+  {k:'nit3', lbl:'Nitrate (NO₃)',  unit:'ppm', min:0,  max:160, step:5,   def:10,   weight:1,   safe:[0,20],    warn:[[20,40]],tips:{good:'✅ Nitrate is well controlled.',warn:'⚠️ Elevated nitrate. Increase water change frequency and check stocking/feeding.',bad:'❌ Very high nitrate. Do a partial water change, repeat gradually if needed, and reduce waste buildup.'}},
+  {k:'temp', lbl:'Temperature',    unit:'°F',  min:60, max:95,  step:1,   def:78,   weight:1.5, safe:[72,82],   warn:[[65,72],[82,86]],tips:{good:'✅ Temperature is in a typical tropical community range.',warn:'⚠️ Outside the general range. Adjust gradually and check the target for your species.',bad:'❌ Dangerous temperature. Correct slowly; rapid temperature changes can shock fish.'}},
+  {k:'gh',   lbl:'Hardness (GH)',  unit:'dGH', min:0,  max:30,  step:1,   def:8,    weight:.75, safe:[4,12],    warn:[[2,4],[12,20]],tips:{good:'✅ Water hardness is suitable for many freshwater community fish.',warn:'⚠️ Slightly outside the general range. Species such as mollies, discus, and soft-water fish need more specific targets.',bad:'❌ Extreme hardness or softness. Research your species before changing GH, and adjust gradually.'}},
+];
+
+// ═══════════════════════════════════════════════
+// ROUTING
+// ═══════════════════════════════════════════════
+let currentPage = 'home';
+let currentPost = null;
+let currentToolTab = 'tank';
+
+function goto(p, sub) {
+  currentPage = p;
+  if(sub) { currentPost = sub; currentToolTab = sub; }
+  document.querySelectorAll('[id^="page-"]').forEach(el => el.classList.add('hide'));
+  document.getElementById('page-' + p).classList.remove('hide');
+  document.querySelectorAll('.nl[data-page]').forEach(el => {
+    el.classList.toggle('act', el.dataset.page === p);
+  });
+  document.getElementById('nlinks').classList.remove('open');
+  window.scrollTo({top:0, behavior:'smooth'});
+  renderPage(p, sub);
+}
+
+function gotoTools(tab) { goto('tools', tab); }
+function gotoPost(slug) { goto('post', slug); }
+
+function toolHref(tab) {
+  return {
+    tank: '/tools/tank-size-calculator/',
+    compat: '/tools/fish-compatibility-checker/',
+    water: '/tools/water-parameter-checker/',
+    feeding: '/tools/fish-feeding-calculator/',
+    planner: '/tools/aquarium-planner/'
+  }[tab] || '/#tools';
+}
+
+function toggleMenu() {
+  document.getElementById('nlinks').classList.toggle('open');
+}
+
+function staticGuideHref(slug) {
+  const urls = {
+    'beginner-checklist': 'guides/beginner-fish-care-checklist/',
+    'fish-care-beginners': 'guides/how-to-take-care-of-a-fish-for-beginners/',
+    'fish-care-bowl': 'guides/how-to-take-care-of-a-fish-in-a-bowl/',
+    'fish-without-oxygen': 'guides/how-to-take-care-of-fish-without-oxygen/',
+    'fish-care-kids': 'guides/how-to-take-care-of-a-fish-for-kids/',
+    'fish-care-kit': 'guides/fish-care-kit/',
+    'fish-care-tips': 'guides/fish-care-tips/',
+    'freshwater-fish-care': 'guides/freshwater-fish-care/',
+    'fish-care-for-beginners': 'guides/fish-care-for-beginners/',
+    'fish-care-chart': 'guides/fish-care-chart/',
+    'guppy': 'guides/guppy-fish-care/',
+    'betta': 'guides/betta-fish-care/',
+    'molly': 'guides/molly-fish-care/',
+    'swordtail': 'guides/swordtail-fish-care-and-breeding/',
+    'koi': 'guides/koi-fish-care/',
+    'danio': 'guides/zebra-danio-fish-care/',
+    'discus': 'guides/discus-fish-care-requirements/',
+    'angelfish': 'guides/angelfish-care/',
+    'oscar': 'guides/oscar-fish-care/',
+    'tank-setup': 'guides/how-to-set-up-a-fish-tank/',
+    'best-freshwater-fish': 'guides/best-freshwater-fish-for-beginners/',
+    'goldfish': 'guides/goldfish-care/',
+    'guppies': 'guides/guppies/',
+    'water': 'guides/aquarium-water-parameters/',
+    'compat': 'guides/best-freshwater-fish-for-beginners/',
+    'brown-algae': 'wiki/brown-algae/',
+    'hair-algae': 'wiki/hair-algae/',
+    'cherry-shrimp': 'wiki/cherry-shrimp/',
+    'nerite-snail': 'wiki/nerite-snail/',
+    'african-dwarf-frog': 'wiki/african-dwarf-frog/',
+    'aquarium-driftwood': 'wiki/aquarium-driftwood/',
+    'live-rock': 'wiki/live-rock/',
+  };
+  return urls[slug] || '#';
+}
+
+function blogImage(slug) {
+  const images = {
+    'fish-care-chart': ['/assets/freshwater-fish-care-hero-optimized.jpg','Freshwater aquarium used for fish care chart planning'],
+    'fish-care-for-beginners': ['/assets/encyclopedia/real/betta-fish-wikimedia-real.jpg','Beginner friendly betta fish in a freshwater aquarium'],
+    'freshwater-fish-care': ['/assets/freshwater-fish-care-hero-optimized.jpg','Healthy freshwater aquarium with fish and aquatic plants'],
+    'fish-care-tips': ['/assets/encyclopedia/real/neon-tetra-wikimedia-real.jpg','Neon tetra swimming in a planted freshwater aquarium'],
+    'fish-care-kit': ['/assets/encyclopedia/real/corydoras-wikimedia-real.jpg','Corydoras catfish in a freshwater aquarium'],
+    'fish-care-kids': ['/assets/encyclopedia/real/goldfish-wikimedia-real.jpg','Goldfish in a freshwater aquarium for beginner care'],
+    'beginner-checklist': ['/assets/encyclopedia/real/guppy-wikimedia-real.jpg','Colorful guppy fish for beginner aquarium checklist'],
+    'fish-care-beginners': ['/assets/encyclopedia/real/betta-fish-wikimedia-real.jpg','Betta fish for first aquarium beginners'],
+    'fish-care-bowl': ['/assets/encyclopedia/real/goldfish-wikimedia-real.jpg','Goldfish care image for bowl safety article'],
+    'fish-without-oxygen': ['/assets/encyclopedia/real/zebra-danio-wikimedia-real.jpg','Active zebra danio in oxygen rich aquarium water'],
+    'betta': ['/assets/encyclopedia/real/betta-fish-wikimedia-real.jpg','Real betta fish in a planted freshwater aquarium'],
+    'molly': ['/assets/encyclopedia/real/molly-fish-wikimedia-real.jpg','Real molly fish in a freshwater aquarium'],
+    'swordtail': ['/assets/encyclopedia/real/swordtail-wikimedia-real.jpg','Real swordtail fish in a freshwater aquarium'],
+    'koi': ['/assets/encyclopedia/real/koi-fish-wikimedia-real.jpg','Real koi fish in pond water'],
+    'danio': ['/assets/encyclopedia/real/zebra-danio-wikimedia-real.jpg','Real zebra danio fish in an aquarium'],
+    'discus': ['/assets/encyclopedia/real/discus-wikimedia-real.jpg','Real discus fish in a freshwater aquarium'],
+    'angelfish': ['/assets/encyclopedia/real/angelfish-wikimedia-real.jpg','Real freshwater angelfish in an aquarium'],
+    'oscar': ['/assets/encyclopedia/real/oscar-fish-wikimedia-real.jpg','Real oscar fish in a large aquarium'],
+    'tank-setup': ['/assets/freshwater-fish-care-hero-optimized.jpg','Planted freshwater aquarium setup for beginners'],
+    'guppy': ['/assets/encyclopedia/real/guppy-wikimedia-real.jpg','Real guppy fish in a freshwater aquarium'],
+    'water': ['/assets/encyclopedia/real/cardinal-tetra-wikimedia-real.jpg','Cardinal tetra in clean freshwater aquarium water'],
+    'brown-algae': ['/assets/encyclopedia/real/otocinclus-catfish-wikimedia-real.jpg','Aquarium algae cleanup reference with algae eating fish'],
+    'hair-algae': ['/assets/freshwater-fish-care-hero-optimized.jpg','Planted freshwater aquarium for hair algae control guide'],
+    'cherry-shrimp': ['/assets/encyclopedia/real/cherry-barb-wikimedia-real.jpg','Planted aquarium reference for cherry shrimp care'],
+    'nerite-snail': ['/assets/encyclopedia/real/otocinclus-catfish-wikimedia-real.jpg','Freshwater algae grazing aquarium reference for nerite snail care'],
+    'african-dwarf-frog': ['/assets/encyclopedia/real/kuhli-loach-wikimedia-real.jpg','Calm freshwater aquarium reference for African dwarf frog care'],
+    'aquarium-driftwood': ['/assets/freshwater-fish-care-hero-optimized.jpg','Aquarium driftwood and planted aquascape reference'],
+    'live-rock': ['/assets/encyclopedia/real/clownfish-wikimedia-real.jpg','Saltwater aquarium reference for live rock guide'],
+    'goldfish': ['/assets/encyclopedia/real/goldfish-wikimedia-real.jpg','Real goldfish in a freshwater aquarium'],
+    'guppies': ['/assets/encyclopedia/real/guppy-wikimedia-real.jpg','Real guppy fish care image'],
+    'compat': ['/assets/encyclopedia/real/platy-wikimedia-real.jpg','Peaceful community fish in a freshwater aquarium']
+  };
+  return images[slug] || ['/assets/freshwater-fish-care-hero-optimized.jpg','Freshwater aquarium fish care guide image'];
+}
+
+// ═══════════════════════════════════════════════
+// HELPERS
+// ═══════════════════════════════════════════════
+function stars(n) {
+  return '★'.repeat(Math.floor(n)) + '☆'.repeat(5 - Math.floor(n));
+}
+
+function getStatus(p, v) {
+  if(v >= p.safe[0] && v <= p.safe[1]) return 'good';
+  for(const [a,b] of p.warn) if(v >= a && v <= b) return 'warn';
+  return 'bad';
+}
+
+function checkCompat(list) {
+  const out = [];
+  for(let i=0;i<list.length;i++) for(let j=i+1;j<list.length;j++) {
+    const a=list[i], b=list[j];
+    let status, msg;
+    const phOk = Math.max(a.minPH,b.minPH) <= Math.min(a.maxPH,b.maxPH);
+    const tOk  = Math.max(a.minT,b.minT)  <= Math.min(a.maxT,b.maxT);
+    if(a.name==='Betta Fish'||b.name==='Betta Fish') {
+      status='bad'; msg=`Betta Fish cannot share a tank with ${a.name==='Betta Fish'?b.name:a.name}. Bettas are highly territorial and will fight or stress out tankmates.`;
+    } else if(!phOk||!tOk) {
+      status='bad'; msg=`Incompatible ${!phOk?'pH ranges ':''}${!tOk?'temperature ranges':''}. These fish cannot safely share a tank.`;
+    } else if(a.agg==='high'||b.agg==='high') {
+      status='warn'; msg=`${a.agg==='high'?a.name:b.name} may show aggression. Provide plenty of hiding spots and monitor closely.`;
+    } else {
+      status='good'; msg=`${a.name} and ${b.name} are compatible! Similar water requirements and peaceful temperaments make them great tankmates.`;
+    }
+    out.push({a:a.name,b:b.name,status,msg});
+  }
+  return out;
+}
+
+// ═══════════════════════════════════════════════
+// HOME
+// ═══════════════════════════════════════════════
+function renderHome() {
+  const CARE = [
+    ['Betta Fish','A heated, cycled aquarium with gentle flow, clean water and resting places near the surface helps bettas stay active and healthy.','Tank size · water · feeding','guides/betta-fish-care/','/assets/encyclopedia/real/betta-fish-wikimedia-real.jpg','Real Betta fish swimming in a freshwater aquarium'],
+    ['Molly Fish','Mollies do best in stable, mineral-rich water with enough swimming room, plant cover and a plan for fast-growing fry.','Varieties · breeding · tank mates','guides/molly-fish-care/','/assets/encyclopedia/real/molly-fish-wikimedia-real.jpg','Real Molly fish in freshwater'],
+    ['Swordtail Fish','Active swordtails need a long aquarium, a secure lid and a female-heavy group that reduces persistent chasing.','Group ratio · fry · feeding','guides/swordtail-fish-care-and-breeding/','/assets/encyclopedia/real/swordtail-wikimedia-real.jpg','Real Swordtail fish swimming in freshwater'],
+    ['Koi','Koi are long-lived pond fish that need strong biological filtration, steady oxygen and seasonal care as they grow.','Pond size · filtration · seasons','guides/koi-fish-care/','/assets/encyclopedia/real/koi-fish-wikimedia-real.jpg','Real Koi fish in a pond'],
+    ['Zebra Danio','Zebra danios are hardy schooling fish, but they still need a cycled tank, open swimming space and a secure lid.','School size · temperature · setup','guides/zebra-danio-fish-care/','/assets/encyclopedia/real/zebra-danio-wikimedia-real.jpg','Real Zebra Danio fish'],
+    ['Discus','Discus require warm, stable water, excellent filtration, calm tank mates and a consistent maintenance routine.','Temperature · water quality · diet','guides/discus-fish-care-requirements/','/assets/encyclopedia/real/discus-wikimedia-real.jpg','Real Blue Discus fish'],
+    ['Angelfish','Freshwater angelfish need a tall, warm aquarium and carefully chosen tank mates as their territorial behavior develops.','Tall tanks · pairing · compatibility','guides/angelfish-care/','/assets/encyclopedia/real/angelfish-wikimedia-real.jpg','Real freshwater Angelfish'],
+    ['Oscar Fish','Oscars need a very large aquarium, powerful filtration, a secure lid and long-term planning for an intelligent cichlid.','Tank size · filtration · enrichment','guides/oscar-fish-care/','/assets/encyclopedia/real/oscar-fish-wikimedia-real.jpg','Real Oscar fish']
+  ];
+  const FAQS = [
+    ['How often should I feed my fish?','Most aquarium fish should be fed once or twice daily, only as much as they can eat in about two minutes. Uneaten food should be removed because it breaks down into ammonia and can quickly harm water quality.'],
+    ['How often should I change aquarium water?','Many beginner tanks do well with a 20-30% water change every week or every other week, but the right schedule depends on tank size, fish load, plants, filtration, and nitrate readings. Always use dechlorinated, temperature-matched water.'],
+    ['What water parameters are most important for fish care?','Ammonia and nitrite should always be 0 ppm. Nitrate should usually stay below 20-40 ppm, depending on the species. Temperature, pH, and hardness should match the fish you keep, and sudden changes should be avoided.'],
+    ['Why are my fish gasping at the surface?','Fish gasping at the surface may indicate low oxygen, ammonia or nitrite poisoning, high temperature, overcrowding, or poor circulation. Increase surface movement, test the water immediately, and stop feeding until the cause is clear.'],
+    ['Can fish live in a bowl?','Most fish should not live in bowls long term because bowls are small, unstable, and usually lack filtration and oxygen exchange. If a fish is already in a bowl, keep water clean with frequent partial changes and plan an upgrade to a filtered aquarium.'],
+    ['How do I know if my fish is sick?','Warning signs include clamped fins, white spots, torn fins, rapid breathing, loss of appetite, hiding, floating problems, faded color, or unusual swimming. Test water first because many fish health problems begin with poor water quality.']
+  ];
+  return `
+<section class="hero seohero">
+  <img onerror="this.onerror=null;this.src='/assets/fish-images/fishcare-image-fallback.svg';" class="hero-image" src="assets/freshwater-fish-care-hero-optimized.jpg" width="1400" height="933" alt="Healthy freshwater aquarium with betta fish, mollies, swordtails, danios, discus, angelfish and aquatic plants" loading="eager" fetchpriority="high"/>
+  <div class="hc">
+    <div class="tag">Aquarium Care Guides</div>
+    <h1>Clear aquarium care guidance for healthier tanks.</h1>
+    <p>Find practical answers for fish care, algae control, shrimp and snail care, tank setup, water quality, feeding, compatibility, and aquarium decoration.</p>
+    <div class="hsrch">
+      <input id="sq" placeholder="Search fish, algae, shrimp, snails, tank setup..." onkeydown="if(event.key==='Enter')goto('blog')"/>
+      <button onclick="goto('blog')">Search →</button>
+    </div>
+    <div class="hstats">
+      ${[['61','Aquarium Profiles'],['5','Free Tools'],['30+','Care Guides'],['Weekly','Updates']].map(([v,l])=>`<div class="hstat"><strong>${v}</strong><span>${l}</span></div>`).join('')}
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-w">
+  <div class="con">
+    <div class="sh"><div class="tag">Start Here</div><h2>Popular aquarium care topics for new and growing tanks</h2><p>Use this homepage as a map to fish care, algae control, invertebrates, amphibians, tank decoration, water quality, filtration, diet, compatible tank mates, health issues, and breeding notes.</p></div>
+    <p style="text-align:center;margin:-18px auto 24px;max-width:760px;font-size:.9rem">New keeper? Start with <a title="how to take care of a fish for beginners" href="guides/how-to-take-care-of-a-fish-for-beginners/">how to take care of a fish for beginners</a>, bowl owners can read <a title="fish bowl care" href="guides/how-to-take-care-of-a-fish-in-a-bowl/">fish bowl care</a>, and urgent aeration issues belong in the <a title="low oxygen fish care guide" href="guides/how-to-take-care-of-fish-without-oxygen/">low oxygen fish care guide</a>.</p>
+    <div class="g3">
+      ${[['Betta','Betta fish care guide','Heat, gentle filtration, calm water flow, cover, and clean water are the foundation of betta fish care.','guides/betta-fish-care/','/assets/encyclopedia/real/betta-fish-wikimedia-real.jpg'],['Betta Lifespan','How long do betta fish live?','Learn how long betta fish live in a tank and what helps bettas live longer.','guides/how-long-do-betta-fish-live/','/assets/encyclopedia/real/betta-fish-wikimedia-real.jpg'],['Guppy','Guppy fish care guide','Guppies, baby guppies, group size, guppy vs molly, and Bubble Guppies explained.','guides/guppy-fish-care/','/assets/encyclopedia/real/guppy-wikimedia-real.jpg'],['Molly','Molly fish care','Mollies prefer stable, mineral-rich water, plant cover, and groups with enough swimming space.','guides/molly-fish-care/','/assets/encyclopedia/real/molly-fish-wikimedia-real.jpg'],['Swordtail','Swordtail fish care guide','Swordtails are active livebearers, so they need room, clean water, and smart male-to-female ratios.','guides/swordtail-fish-care-and-breeding/','/assets/encyclopedia/real/swordtail-wikimedia-real.jpg'],['Koi','Koi fish care','Koi need outdoor pond space, strong filtration, seasonal feeding, and steady oxygen levels.','guides/koi-fish-care/','/assets/encyclopedia/real/koi-fish-wikimedia-real.jpg'],['Discus','Discus fish care requirements','Discus need warm, stable water, excellent filtration, and calm tank mates.','guides/discus-fish-care-requirements/','/assets/encyclopedia/real/discus-wikimedia-real.jpg'],['Danio','Danio fish care guide','Zebra danios are hardy but still need a cycled tank, groups, and open swimming lanes.','guides/zebra-danio-fish-care/','/assets/encyclopedia/real/zebra-danio-wikimedia-real.jpg']].map(([i,t,d,href,img])=>`
+      <div class="card tc photo-card" style="--photo:url('${img}')">
+        <div class="photo-card-content"><div class="tag">${i}</div><h3>${t}</h3><p>${d}</p>
+        <a title="${t}" class="btn bp bsm" style="align-self:flex-start;margin-top:8px" href="${href}">Read Guide →</a>
+        </div>
+      </div>`).join('')}
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-w photo-band">
+  <div class="con">
+    <div class="sh problem-heading"><div class="tag">Choose a Path</div><h2>Start with the problem you need to solve</h2><p>Set up a first tank, compare species, prepare essential supplies or respond to an urgent water-quality problem.</p></div>
+    <div class="g4">
+      <div class="card tc photo-card" style="--photo:url('/assets/encyclopedia/real/guppy-wikimedia-real.jpg')"><div class="photo-card-content"><h3>Beginner Fish Care</h3><p>Start with tank setup, cycling, feeding, water changes, and a weekly checklist before buying more fish.</p><p><a title="fish care for beginners" href="guides/fish-care-for-beginners/">fish care for beginners</a> · <a title="how to take care of a fish for beginners" href="guides/how-to-take-care-of-a-fish-for-beginners/">first tank guide</a> · <a title="beginner fish care checklist" href="guides/beginner-fish-care-checklist/">checklist</a></p></div></div>
+      <div class="card tc photo-card" style="--photo:url('/assets/freshwater-fish-care-hero-optimized.jpg')"><div class="photo-card-content"><h3>Freshwater Species Care</h3><p>Compare species needs before choosing fish, tank mates, temperature, group size, or adult tank size.</p><p><a title="freshwater fish care" href="guides/freshwater-fish-care/">freshwater fish care</a> · <a title="betta fish care" href="guides/betta-fish-care/">betta fish care</a> · <a title="molly fish care" href="guides/molly-fish-care/">molly fish care</a></p></div></div>
+      <div class="card tc photo-card" style="--photo:url('/assets/freshwater-fish-care-hero-optimized.jpg')"><div class="photo-card-content"><h3>Algae and Plant Balance</h3><p>Identify brown algae, hair algae, black beard algae, green water, and cyanobacteria before choosing a fix.</p><p><a title="brown algae aquarium guide" href="/wiki/brown-algae/">brown algae</a> · <a title="hair algae aquarium guide" href="/wiki/hair-algae/">hair algae</a> · <a title="black beard algae guide" href="/wiki/black-beard-algae/">black beard algae</a></p></div></div>
+      <div class="card tc photo-card" style="--photo:url('/assets/encyclopedia/real/corydoras-wikimedia-real.jpg')"><div class="photo-card-content"><h3>Shrimp, Snails and Amphibians</h3><p>Add cleanup crew and special-care animals with better planning for water stability, food, hiding places, and tank mates.</p><p><a title="cherry shrimp care" href="/wiki/cherry-shrimp/">cherry shrimp</a> · <a title="nerite snail care" href="/wiki/nerite-snail/">nerite snail</a> · <a title="african dwarf frog care" href="/wiki/african-dwarf-frog/">African dwarf frog</a></p></div></div>
+      <div class="card tc photo-card" style="--photo:url('/assets/encyclopedia/real/clownfish-wikimedia-real.jpg')"><div class="photo-card-content"><h3>Freshwater and Marine Decoration</h3><p>Choose substrate, driftwood, stones, live plants, reef sand, and live rock with water chemistry and livestock safety in mind.</p><p><a title="aquarium driftwood guide" href="/wiki/aquarium-driftwood/">driftwood</a> · <a title="aquarium sand guide" href="/wiki/aquarium-sand/">sand</a> · <a title="live rock guide" href="/wiki/live-rock/">live rock</a></p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec tools-photo-section">
+  <div class="con">
+    <div class="sh"><div class="tag">Practical Guides</div><h2>Answers for everyday aquarium care</h2><p>Use these focused guides when you need a quick comparison, a beginner routine, safer bowl care or a checklist of essential supplies.</p></div>
+    <div class="g3">
+      ${[
+        ['Fish care chart','Compare tank size, temperature, feeding, and difficulty.','guides/fish-care-chart/'],
+        ['Fish care for beginners','Simple first aquarium steps for new fishkeepers.','guides/fish-care-for-beginners/'],
+        ['Freshwater fish care','Freshwater tank setup, feeding, water quality, and compatibility.','guides/freshwater-fish-care/'],
+        ['Fish care tips','Practical aquarium habits that prevent common problems.','guides/fish-care-tips/'],
+        ['How to take care of a fish for kids','Kid-friendly care tasks with adult supervision.','guides/how-to-take-care-of-a-fish-for-kids/'],
+        ['Fish care kit','What supplies beginners should keep ready at home.','guides/fish-care-kit/'],
+        ['How to take care of a fish in a bowl','Safe bowl care and better long-term alternatives.','guides/how-to-take-care-of-a-fish-in-a-bowl/']
+      ].map(([t,d,href])=>`<a title="${t}" class="card tc" href="${href}" style="color:inherit"><h3>${t}</h3><p>${d}</p></a>`).join('')}
+    </div>
+  </div>
+</section>
+
+<section class="sec species-showcase">
+  <div class="con">
+    <div class="sh"><div class="tag">Species Guides</div><h2>Know what each fish really needs</h2><p>Compare space, water, diet, social behavior and long-term care before choosing fish for your aquarium or pond.</p></div>
+    <div class="kgrid">
+      ${CARE.map(c=>`<a title="${c[0]} care guide" class="card kcard" href="${c[3]}"><img class="kcard-img" src="${c[4]}" alt="${c[5]}" loading="lazy" width="420" height="260" onerror="this.onerror=null;this.src='/assets/fish-images/fishcare-image-fallback.svg';"/><div class="kcard-body"><h3>${c[0]}</h3><p>${c[1]}</p><p style="font-size:.78rem;color:var(--s);font-weight:700;margin-top:auto">${c[2]}</p></div></a>`).join('')}
+    </div>
+    <div style="text-align:center;margin-top:26px"><button class="btn bo" onclick="goto('blog')">View All Species Guides →</button></div>
+  </div>
+</section>
+
+<section class="sec sec-w">
+  <div class="con">
+    <div class="sh"><div class="tag">Tank Setup</div><h2>Core setup essentials by species</h2><p>This table gives readers quick answers and supports deeper care guides.</p></div>
+    <div style="overflow-x:auto">
+      <table class="setup-table">
+        <thead><tr><th>Guide</th><th>Core setup</th><th>Care focus</th></tr></thead>
+        <tbody>
+          <tr><td><a title="Betta fish care" href="guides/betta-fish-care/"><strong>Betta fish care</strong></a></td><td>Heated, cycled aquarium with gentle flow and surface access.</td><td>Prevent stress, fin damage, cold water, and ammonia exposure.</td></tr>
+          <tr><td><a title="Molly fish care guide varieties and breeding" href="guides/molly-fish-care/"><strong>Molly fish care guide varieties and breeding</strong></a></td><td>Roomy planted tank with stable hardness and livebearer fry cover.</td><td>Manage breeding, sex ratios, and mineral balance.</td></tr>
+          <tr><td><a title="Swordtail fish care and breeding tips" href="guides/swordtail-fish-care-and-breeding/"><strong>Swordtail fish care and breeding tips</strong></a></td><td>Long aquarium, lid, plants, and a group ratio that reduces harassment.</td><td>Encourage healthy breeding without overcrowding.</td></tr>
+          <tr><td><a title="Koi fish care" href="guides/koi-fish-care/"><strong>Koi fish care</strong></a></td><td>Outdoor pond with depth, filtration, oxygen, and seasonal planning.</td><td>Support large adult size and long lifespan.</td></tr>
+          <tr><td><a title="Discus fish care requirements and tank setup" href="guides/discus-fish-care-requirements/"><strong>Discus fish care requirements and tank setup</strong></a></td><td>Warm, stable, clean aquarium with calm surroundings.</td><td>Keep water quality consistent and reduce stress.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="con">
+    <div class="sh"><div class="tag">Free Tools</div><h2>Tools that support better aquarium decisions</h2><p>Use the interactive tools when a care guide is not enough. They help with tank size, compatibility, water safety, feeding portions, and first tank planning.</p></div>
+    <div class="g3">
+      ${[['Tank Size Calculator','Estimate minimum aquarium size from fish species, count, adult size and activity level.','tank'],['Compatibility Checker','Select multiple fish and check whether they can safely share an aquarium.','compat'],['Water Parameter Checker','Enter pH, ammonia, nitrite, nitrate, temperature and hardness for a quick health score.','water'],['Feeding Calculator','Estimate daily food portions and feeding frequency without overfeeding.','feeding'],['Aquarium Planner','Plan tank type, stocking level, equipment and setup priorities.','planner']].map(([t,d,tab])=>`
+      <div class="card tc"><h3>${t}</h3><p>${d}</p><a class="btn bp bsm" style="align-self:flex-start" href="${toolHref(tab)}">Open Tool →</a></div>`).join('')}
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-w">
+  <div class="con" style="max-width:720px">
+    <div class="sh"><div class="tag">FAQ</div><h2>Fish care FAQ</h2><p>Quick answers to common aquarium care questions about feeding, water changes, oxygen, bowls, and fish health.</p></div>
+    ${FAQS.map((f,i)=>`
+    <div class="fqi">
+      <button class="fqq" onclick="toggleFaq(${i})" id="fqq${i}">${f[0]} <span id="farr${i}">▾</span></button>
+      <div class="fqa hide" id="fqa${i}">${f[1]}</div>
+    </div>`).join('')}
+    <div style="text-align:center;margin-top:22px"><button class="btn bo" onclick="goto('blog')">Browse All Guides →</button></div>
+  </div>
+</section>
+
+<section class="nls">
+  <div class="con" style="max-width:640px">
+    <div class="tag" style="color:rgba(255,255,255,.9);background:rgba(255,255,255,.15)">📧 Newsletter</div>
+    <h2>Get Weekly Fish Care Tips</h2>
+    <p>Get practical care tips, new guide alerts and aquarium tool updates. Free, with an unsubscribe link in every email.</p>
+    <form class="nlf" name="newsletter" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="bot-field" onsubmit="submitNetlifyForm(event,'newsletter')">
+      <input type="hidden" name="form-name" value="newsletter"/>
+      <input type="hidden" name="source" value="homepage-newsletter"/>
+      <p style="display:none"><label>Do not fill this out: <input name="bot-field"/></label></p>
+      <input type="email" name="email" placeholder="Enter your email" required/>
+      <button type="submit">Subscribe →</button>
+    </form>
+  </div>
+</section>`;
+}
+
+// ═══════════════════════════════════════════════
+// TOOLS
+// ═══════════════════════════════════════════════
+let calcVals = {};
+let selectedFish = [];
+let compatResults = [];
+let tankCalcVals = {};
+let capacityVals = {};
+let feedingVals = {};
+let plannerVals = {};
+
+function renderTools(tab) {
+  if(!tab || tab === 'ai') tab = 'tank';
+  currentToolTab = tab;
+  const tabs = [['tank','📏 Tank Size'],['compat','🔬 Compatibility'],['water','💧 Water Parameters'],['feeding','🍽 Feeding'],['planner','🧭 Aquarium Planner']];
+  const landing = toolLandingData(tab);
+  return `
+<div style="background:linear-gradient(180deg,#08294C 0%,#0d3060 100%);min-height:calc(100vh - 68px)">
+<div style="background:linear-gradient(135deg,#0F3D5E,#1B5E8B);padding:50px 22px;text-align:center">
+  <div class="tag" style="color:rgba(255,255,255,.9);background:rgba(255,255,255,.15)">🛠 Free Tools</div>
+  <h1 style="color:#fff;margin-bottom:9px">${landing.h1}</h1>
+  <p style="color:rgba(255,255,255,.8);max-width:700px;margin:0 auto">${landing.intro}</p>
+</div>
+<div class="con" style="padding:38px 22px">
+  <div class="ttabs">
+    ${tabs.map(([id,lbl])=>`<a class="tbtn${tab===id?' act':''}" href="${toolHref(id)}" onclick="event.preventDefault();switchTab('${id}')">${lbl}</a>`).join('')}
+  </div>
+  <div class="tpanel" id="tool-panel">${renderToolPanel(tab)}</div>
+  ${renderToolSeoContent(tab)}
+  <div style="text-align:center;margin-top:36px;padding:26px;background:rgba(255,255,255,0.95);border-radius:14px;border:1px solid var(--bd)">
+    <h3 style="color:var(--pd);margin-bottom:7px">Need more detailed answers?</h3>
+    <p>Browse our expert-written care guides for in-depth information on your specific fish species.</p>
+    <button class="btn bp" onclick="goto('blog')">Browse Care Guides →</button>
+  </div>
+</div>
+</div>`;
+}
+
+function toolLandingData(tab) {
+  const data = {
+    tank: {
+      h1:'Water Tank Calculator & Fish Tank Size Calculator',
+      intro:'Use this free water tank calculator to estimate aquarium size, tank gallons, water tank capacity in litres, and round, cylinder, square, or rectangular tank volume.',
+      keyword:'water tank calculator · tank gallon calculator',
+      promise:'You will get a practical fish tank size estimate plus a water tank capacity calculator for gallons and litres. The page also shows round water tank capacity calculation formula, cylinder tank gallon calculator formula, and square tank capacity calculator formula.',
+      bestFor:['Choosing a first aquarium or fish tank','Calculating tank gallons from length, width, height, diameter or radius','Finding how to calculate water tank capacity in litres without downloading a water tank capacity calculation formula PDF'],
+      links:[['Betta fish care','/guides/betta-fish-care/'],['Goldfish care','/guides/goldfish-care/'],['Aquarium water parameters','/guides/aquarium-water-parameters/']]
+    },
+    compat: {
+      h1:'Fish Compatibility Checker',
+      intro:'Check whether popular aquarium fish can live together by comparing temperament, temperature range, pH range, and special risk rules.',
+      keyword:'fish compatibility checker',
+      promise:'You will see pair-by-pair compatibility results with reasons such as aggression, temperature mismatch, pH mismatch, or special betta risk.',
+      bestFor:['Planning a peaceful community tank','Avoiding fin nippers and territorial fish','Checking new fish before adding them'],
+      links:[['Community fish guide','/guides/best-freshwater-fish-for-beginners/'],['Molly fish care','/guides/molly-fish-care/'],['Swordtail fish care','/guides/swordtail-fish-care-and-breeding/']]
+    },
+    water: {
+      h1:'Aquarium Water Parameter Checker',
+      intro:'Enter pH, ammonia, nitrite, nitrate, temperature, and hardness readings to quickly understand whether your aquarium water is safe.',
+      keyword:'aquarium water parameter checker',
+      promise:'You will get a water health score, parameter-by-parameter warnings, and immediate action notes for ammonia, nitrite, nitrate, pH, temperature, and GH.',
+      bestFor:['Interpreting test kit results','Troubleshooting gasping or stressed fish','Checking water before adding new fish'],
+      links:[['Aquarium water parameters','/guides/aquarium-water-parameters/'],['Fish without oxygen','/guides/how-to-take-care-of-fish-without-oxygen/'],['Beginner checklist','/guides/beginner-fish-care-checklist/']]
+    },
+    feeding: {
+      h1:'Fish Feeding Calculator',
+      intro:'Estimate a conservative feeding schedule and portion rule based on species, animal count, and meals per day.',
+      keyword:'fish feeding calculator',
+      promise:'You will get meal frequency, safe feeding-time guidance, food type suggestions, and leftover removal rules to reduce water-quality problems.',
+      bestFor:['Avoiding overfeeding','Planning fry or breeding tanks','Matching food type to fish, shrimp, or snails'],
+      links:[['Fish care tips','/guides/fish-care-tips/'],['Guppy fish care','/guides/guppy-fish-care/'],['Cherry shrimp care','/guides/cherry-shrimp-care-guide/']]
+    },
+    planner: {
+      h1:'Aquarium Planner',
+      intro:'Plan a freshwater, saltwater, shrimp, or goldfish setup with a practical checklist before buying animals or equipment.',
+      keyword:'aquarium planner',
+      promise:'You will get a tank-capacity label, equipment checklist, stocking advice, and cycling reminder based on tank type and volume.',
+      bestFor:['Starting a first aquarium','Comparing freshwater vs saltwater needs','Building a shopping checklist before setup'],
+      links:[['How to set up a fish tank','/guides/how-to-set-up-a-fish-tank/'],['Freshwater fish care','/guides/freshwater-fish-care/'],['Clownfish care','/guides/clownfish-care-guide/']]
+    }
+  };
+  return data[tab] || data.tank;
+}
+
+function renderToolSeoContent(tab) {
+  const d = toolLandingData(tab);
+  return `
+  <section style="margin-top:30px">
+    <div class="g2">
+      <div class="card tc">
+        <div class="tag">${d.keyword}</div>
+        <h2>What this tool gives you</h2>
+        <p>${d.promise}</p>
+        <ul style="margin:12px 0 0 18px;color:var(--mu);line-height:1.8">
+          ${d.bestFor.map(x=>`<li>${x}</li>`).join('')}
+        </ul>
+      </div>
+      <div class="card tc">
+        <div class="tag">Related guides</div>
+        <h2>Read next</h2>
+        <p>Use the calculator result as a starting point, then confirm details in the species or setup guide.</p>
+        <div style="display:flex;flex-direction:column;gap:8px;margin-top:12px">
+          ${d.links.map(([label,href])=>`<a class="btn bo bsm" style="justify-content:flex-start" href="${href}">${label} →</a>`).join('')}
+        </div>
+      </div>
+    </div>
+  </section>`;
+}
+
+function switchTab(tab) {
+  if(tab === 'ai') tab = 'tank';
+  currentToolTab = tab;
+  document.querySelectorAll('.tbtn').forEach(b=>b.classList.remove('act'));
+  event.target.classList.add('act');
+  document.getElementById('tool-panel').innerHTML = renderToolPanel(tab);
+  if(tab==='tank') initTankCalc();
+  if(tab==='water') initCalc();
+  if(tab==='compat') initCompat();
+  if(tab==='feeding') initFeeding();
+  if(tab==='planner') initPlanner();
+}
+
+function renderToolPanel(tab) {
+  if(tab==='tank') return renderTankSize();
+  if(tab==='water') return renderCalc();
+  if(tab==='compat') return renderCompat();
+  if(tab==='feeding') return renderFeeding();
+  if(tab==='planner') return renderPlanner();
+  return '';
+}
+
+function toolFishProfiles() {
+  return {
+    betta:{name:'Betta',adult:2.5,activity:1,min:5,temp:'76–81°F',group:'solo or carefully planned community'},
+    guppy:{name:'Guppy',adult:2,activity:1.2,min:10,temp:'74–82°F',group:'6+ with sex ratio planning'},
+    goldfish:{name:'Goldfish',adult:8,activity:1.7,min:20,temp:'65–75°F',group:'same body type only'},
+    discus:{name:'Discus',adult:6,activity:1.35,min:55,temp:'82–88°F',group:'calm groups in warm water'},
+    angelfish:{name:'Angelfish',adult:6,activity:1.35,min:29,temp:'76–82°F',group:'pairs or planned community'},
+    swordtail:{name:'Swordtail',adult:4,activity:1.45,min:20,temp:'72–82°F',group:'female-heavy livebearer group'},
+    molly:{name:'Molly',adult:4,activity:1.35,min:20,temp:'75–82°F',group:'mineral-rich livebearer group'},
+    platy:{name:'Platy',adult:2.5,activity:1.15,min:10,temp:'70–82°F',group:'peaceful livebearer group'},
+    neon:{name:'Neon Tetra',adult:1.5,activity:1.25,min:10,temp:'72–78°F',group:'6+ schooling fish'},
+    cory:{name:'Corydoras',adult:2.5,activity:1.15,min:20,temp:'72–78°F',group:'6+ on soft substrate'},
+    clownfish:{name:'Clownfish',adult:3.5,activity:1.2,min:20,temp:'75–80°F',group:'marine pair or small plan'},
+    shrimp:{name:'Cherry Shrimp',adult:1.2,activity:.65,min:5,temp:'68–78°F',group:'mature planted colony'},
+    snail:{name:'Nerite Snail',adult:1,activity:.45,min:5,temp:'72–78°F',group:'algae grazer with calcium'}
+  };
+}
+
+function renderTankSize() {
+  const fish = toolFishProfiles();
+  if(!Object.keys(tankCalcVals).length) tankCalcVals = {fish:'betta',count:1,style:'standard'};
+  if(!Object.keys(capacityVals).length) capacityVals = {shape:'rectangle',unit:'in',length:24,width:12,height:12,diameter:18,radius:9};
+  const options = Object.entries(fish).map(([id,f])=>`<option value="${id}" ${tankCalcVals.fish===id?'selected':''}>${f.name}</option>`).join('');
+  return `
+<h2 style="color:var(--pd);margin-bottom:5px">📏 Tank Size Calculator</h2>
+<p style="margin-bottom:24px">Estimate a practical minimum aquarium size from species, count, adult size and swimming behavior. This is a planning tool, not a stocking guarantee.</p>
+<div class="cg">
+  <div>
+    <div class="fg"><label>Species</label><select class="fc" id="tank-fish" onchange="setTankVal('fish',this.value)">${options}</select></div>
+    <div class="fg"><label>Number of animals</label><input class="fc" type="number" min="1" max="50" value="${tankCalcVals.count}" id="tank-count" oninput="setTankVal('count',this.value)"/></div>
+    <div class="fg"><label>Tank style</label><select class="fc" id="tank-style" onchange="setTankVal('style',this.value)"><option value="standard" ${tankCalcVals.style==='standard'?'selected':''}>Standard rectangle</option><option value="long" ${tankCalcVals.style==='long'?'selected':''}>Long swimming tank</option><option value="tall" ${tankCalcVals.style==='tall'?'selected':''}>Tall tank</option><option value="nano" ${tankCalcVals.style==='nano'?'selected':''}>Nano tank</option></select></div>
+    <button class="btn bp blg" style="width:100%;justify-content:center" onclick="showTankResult()">Calculate Tank Size →</button>
+  </div>
+  <div id="tank-result"><div style="background:#F8FAFE;border-radius:14px;border:1px solid var(--bd);padding:34px;text-align:center;color:var(--mu)"><div style="font-size:3.3rem;margin-bottom:12px">📏</div><h4 style="color:var(--pd)">Choose a species</h4><p style="font-size:.86rem">The result will show minimum gallons, safer upgrade size, and setup notes.</p></div></div>
+</div>
+<div style="height:28px"></div>
+<h2 style="color:var(--pd);margin-bottom:5px">💧 Water Tank Capacity Calculator</h2>
+<p style="margin-bottom:24px">Use this water tank capacity calculator as a tank gallon calculator, square tank gallon calculator, cylinder tank gallon calculator, or round water tank capacity calculator. It converts common tank dimensions into US gallons and litres.</p>
+<div class="cg">
+  <div>
+    <div class="fg"><label>Tank shape</label><select class="fc" onchange="setCapacityVal('shape',this.value)"><option value="rectangle" ${capacityVals.shape==='rectangle'?'selected':''}>Rectangle / square tank</option><option value="cylinder" ${capacityVals.shape==='cylinder'?'selected':''}>Round / cylinder tank</option></select></div>
+    <div class="fg"><label>Measurement unit</label><select class="fc" onchange="setCapacityVal('unit',this.value)"><option value="in" ${capacityVals.unit==='in'?'selected':''}>Inches</option><option value="cm" ${capacityVals.unit==='cm'?'selected':''}>Centimeters</option><option value="ft" ${capacityVals.unit==='ft'?'selected':''}>Feet</option></select></div>
+    <div class="fg"><label>Length</label><input class="fc" type="number" min="0" step="0.1" value="${capacityVals.length}" oninput="setCapacityVal('length',this.value)"/></div>
+    <div class="fg"><label>Width</label><input class="fc" type="number" min="0" step="0.1" value="${capacityVals.width}" oninput="setCapacityVal('width',this.value)"/></div>
+    <div class="fg"><label>Height / water depth</label><input class="fc" type="number" min="0" step="0.1" value="${capacityVals.height}" oninput="setCapacityVal('height',this.value)"/></div>
+    <div class="fg"><label>Diameter for round tank</label><input class="fc" type="number" min="0" step="0.1" value="${capacityVals.diameter}" oninput="setCapacityVal('diameter',this.value)"/></div>
+    <button class="btn bp blg" style="width:100%;justify-content:center" onclick="showCapacityResult()">Calculate Water Tank Capacity →</button>
+  </div>
+  <div id="capacity-result"><div style="background:#F8FAFE;border-radius:14px;border:1px solid var(--bd);padding:34px;text-align:center;color:var(--mu)"><div style="font-size:3.3rem;margin-bottom:12px">💧</div><h4 style="color:var(--pd)">Enter tank dimensions</h4><p style="font-size:.86rem">Calculate tank capacity in gallons and litres for rectangular, square, round, or cylinder tanks.</p></div></div>
+</div>
+<div class="card tc" style="margin-top:24px">
+  <div class="tag">water tank capacity calculation formula</div>
+  <h2>Water tank capacity formulas</h2>
+  <p><strong>Rectangle or square tank capacity calculator formula:</strong> length × width × height. If measured in inches, divide cubic inches by 231 to get US gallons. If measured in centimeters, divide cubic centimeters by 1000 to get litres.</p>
+  <p><strong>Round water tank capacity calculation formula:</strong> π × radius² × height. This is also the cylinder tank gallon calculator formula. Use radius = diameter ÷ 2.</p>
+  <p><strong>How to calculate water tank capacity in litres:</strong> for centimeters, multiply length × width × height for a square tank, or π × radius² × height for a round tank, then divide by 1000.</p>
+  <p><strong>How many gallons in a round tank calculator:</strong> calculate cylinder cubic inches with π × radius² × height, then divide by 231. This aquarium calculator is for water tanks and fish tanks, not a propane tank gallon calculator.</p>
+  <p style="font-size:.84rem;color:var(--mu)">Need a water tank capacity calculation formula PDF? You can print this page or save it as PDF from your browser.</p>
+</div>`;
+}
+function initTankCalc(){}
+function setTankVal(k,v){ tankCalcVals[k]=k==='count'?Math.max(1,Number(v)||1):v; }
+function showTankResult(){
+  const f=toolFishProfiles()[tankCalcVals.fish]||toolFishProfiles().betta;
+  const count=Math.max(1,Number(tankCalcVals.count)||1);
+  const base=Math.max(f.min, Math.ceil((f.adult*count*f.activity*2.2)/5)*5);
+  const styleNote=tankCalcVals.style==='long'?'A long footprint is best for active swimmers.':tankCalcVals.style==='tall'?'Use tall tanks mainly for species that benefit from vertical space.':tankCalcVals.style==='nano'?'Nano tanks are less stable; stock lightly and test often.':'A standard rectangle is the safest beginner default.';
+  const upgrade=Math.ceil(base*1.5/5)*5;
+  document.getElementById('tank-result').innerHTML=`<div class="hs" style="background:#1687C7"><div class="sn">${base}+ gal</div><div class="sl">Practical minimum for ${count} ${f.name}${count>1?'s':''}</div></div><div class="pr"><h4 style="color:var(--pd);margin-bottom:10px">Recommended upgrade: ${upgrade}+ gallons</h4><div class="prow"><span class="plb">Temperature</span><span class="pv">${f.temp}</span><span class="bdg bgood">Target</span></div><div class="prow"><span class="plb">Group plan</span><span class="pv">${f.group}</span><span class="bdg bwarn">Check</span></div><p style="margin-top:12px">${styleNote} Always plan around adult size, filtration, oxygen and maintenance.</p></div>`;
+}
+function setCapacityVal(k,v){ capacityVals[k]=(k==='shape'||k==='unit')?v:Math.max(0,Number(v)||0); }
+function showCapacityResult(){
+  const unit=capacityVals.unit||'in';
+  const shape=capacityVals.shape||'rectangle';
+  const l=Number(capacityVals.length)||0, w=Number(capacityVals.width)||0, h=Number(capacityVals.height)||0, d=Number(capacityVals.diameter)||0;
+  let cubic, formula;
+  if(shape==='cylinder'){
+    const r=d/2;
+    cubic=Math.PI*r*r*h;
+    formula=`π × (${r.toFixed(2)})² × ${h}`;
+  } else {
+    cubic=l*w*h;
+    formula=`${l} × ${w} × ${h}`;
+  }
+  let gallons, litres;
+  if(unit==='in'){ gallons=cubic/231; litres=gallons*3.78541; }
+  else if(unit==='cm'){ litres=cubic/1000; gallons=litres/3.78541; }
+  else { gallons=cubic*7.48052; litres=gallons*3.78541; }
+  const label=shape==='cylinder'?'Round / cylinder tank':'Rectangle / square tank';
+  document.getElementById('capacity-result').innerHTML=`<div class="hs" style="background:#0F8FB8"><div class="sn">${gallons.toFixed(1)} gal</div><div class="sl">${litres.toFixed(1)} litres · ${label}</div></div><div class="pr"><h4 style="color:var(--pd);margin-bottom:10px">Capacity calculation</h4><div class="prow"><span class="plb">Formula used</span><span class="pv">${formula}</span><span class="bdg bgood">${unit}</span></div><div class="prow"><span class="plb">US gallons</span><span class="pv">${gallons.toFixed(2)}</span><span class="bdg bgood">Result</span></div><div class="prow"><span class="plb">Litres</span><span class="pv">${litres.toFixed(2)}</span><span class="bdg bgood">Result</span></div><p style="margin-top:12px">For aquariums, actual usable water volume is lower after substrate, rocks, decor, filters and air gap. For safety, plan livestock using a slightly smaller real volume.</p></div>`;
+}
+
+function renderFeeding() {
+  const fish = toolFishProfiles();
+  if(!Object.keys(feedingVals).length) feedingVals = {fish:'betta',count:1,meals:2};
+  const options = Object.entries(fish).map(([id,f])=>`<option value="${id}" ${feedingVals.fish===id?'selected':''}>${f.name}</option>`).join('');
+  return `
+<h2 style="color:var(--pd);margin-bottom:5px">🍽 Feeding Calculator</h2>
+<p style="margin-bottom:24px">Estimate daily feeding frequency and portion guidance. The goal is simple: enough food for healthy growth without leftover waste and ammonia spikes.</p>
+<div class="cg">
+  <div>
+    <div class="fg"><label>Species or animal type</label><select class="fc" onchange="setFeedingVal('fish',this.value)">${options}</select></div>
+    <div class="fg"><label>Number of animals</label><input class="fc" type="number" min="1" max="80" value="${feedingVals.count}" oninput="setFeedingVal('count',this.value)"/></div>
+    <div class="fg"><label>Meals per day</label><select class="fc" onchange="setFeedingVal('meals',this.value)"><option value="1" ${feedingVals.meals==1?'selected':''}>1 meal</option><option value="2" ${feedingVals.meals==2?'selected':''}>2 meals</option><option value="3" ${feedingVals.meals==3?'selected':''}>3 small meals / fry grow-out</option></select></div>
+    <button class="btn bp blg" style="width:100%;justify-content:center" onclick="showFeedingResult()">Calculate Feeding Plan →</button>
+  </div>
+  <div id="feeding-result"><div style="background:#F8FAFE;border-radius:14px;border:1px solid var(--bd);padding:34px;text-align:center;color:var(--mu)"><div style="font-size:3.3rem;margin-bottom:12px">🍽</div><h4 style="color:var(--pd)">Build a feeding plan</h4><p style="font-size:.86rem">This tool favors safe portions and clear waste-control rules.</p></div></div>
+</div>`;
+}
+function initFeeding(){}
+function setFeedingVal(k,v){ feedingVals[k]=k==='count'||k==='meals'?Math.max(1,Number(v)||1):v; }
+function showFeedingResult(){
+  const f=toolFishProfiles()[feedingVals.fish]||toolFishProfiles().betta;
+  const count=Math.max(1,Number(feedingVals.count)||1);
+  const meals=Math.max(1,Number(feedingVals.meals)||1);
+  const seconds=Math.min(180, Math.max(30, Math.round((f.adult*count*16)/meals)));
+  const foodType=f.name.includes('Shrimp')?'biofilm, shrimp pellets and blanched vegetables':f.name.includes('Snail')?'algae wafers, biofilm, calcium foods and vegetables':f.name.includes('Goldfish')?'sinking pellets and vegetables':'quality pellets/flakes plus occasional frozen or vegetable foods';
+  document.getElementById('feeding-result').innerHTML=`<div class="hs" style="background:#18A999"><div class="sn">${meals}× daily</div><div class="sl">Feed only what is eaten in about ${seconds} seconds per meal</div></div><div class="pr"><h4 style="color:var(--pd);margin-bottom:10px">${f.name} feeding plan</h4><div class="prow"><span class="plb">Food type</span><span class="pv">${foodType}</span><span class="bdg bgood">Suggested</span></div><div class="prow"><span class="plb">Waste rule</span><span class="pv">Remove leftovers after 2–5 minutes</span><span class="bdg bwarn">Important</span></div><p style="margin-top:12px">If nitrate rises quickly or fish look bloated, reduce portion size before changing foods. Fry and breeding tanks need smaller meals and more water testing.</p></div>`;
+}
+
+function renderPlanner() {
+  if(!Object.keys(plannerVals).length) plannerVals = {type:'freshwater',level:'beginner',goal:'community',volume:20};
+  return `
+<h2 style="color:var(--pd);margin-bottom:5px">🧭 Aquarium Planner</h2>
+<p style="margin-bottom:24px">Plan a beginner-friendly setup before buying animals. This tool creates a simple equipment, stocking and maintenance checklist.</p>
+<div class="cg">
+  <div>
+    <div class="fg"><label>Tank type</label><select class="fc" onchange="setPlannerVal('type',this.value)"><option value="freshwater" ${plannerVals.type==='freshwater'?'selected':''}>Freshwater</option><option value="saltwater" ${plannerVals.type==='saltwater'?'selected':''}>Saltwater / marine</option><option value="shrimp" ${plannerVals.type==='shrimp'?'selected':''}>Shrimp tank</option><option value="goldfish" ${plannerVals.type==='goldfish'?'selected':''}>Goldfish tank</option></select></div>
+    <div class="fg"><label>Experience level</label><select class="fc" onchange="setPlannerVal('level',this.value)"><option value="beginner" ${plannerVals.level==='beginner'?'selected':''}>Beginner</option><option value="intermediate" ${plannerVals.level==='intermediate'?'selected':''}>Intermediate</option><option value="advanced" ${plannerVals.level==='advanced'?'selected':''}>Advanced</option></select></div>
+    <div class="fg"><label>Primary goal</label><select class="fc" onchange="setPlannerVal('goal',this.value)"><option value="community" ${plannerVals.goal==='community'?'selected':''}>Peaceful community</option><option value="show" ${plannerVals.goal==='show'?'selected':''}>Showpiece fish</option><option value="breeding" ${plannerVals.goal==='breeding'?'selected':''}>Breeding / fry</option><option value="low-maintenance" ${plannerVals.goal==='low-maintenance'?'selected':''}>Low maintenance</option></select></div>
+    <div class="fg"><label>Tank volume (gallons)</label><input class="fc" type="number" min="3" max="300" value="${plannerVals.volume}" oninput="setPlannerVal('volume',this.value)"/></div>
+    <button class="btn bp blg" style="width:100%;justify-content:center" onclick="showPlannerResult()">Create Aquarium Plan →</button>
+  </div>
+  <div id="planner-result"><div style="background:#F8FAFE;border-radius:14px;border:1px solid var(--bd);padding:34px;text-align:center;color:var(--mu)"><div style="font-size:3.3rem;margin-bottom:12px">🧭</div><h4 style="color:var(--pd)">Plan before stocking</h4><p style="font-size:.86rem">You will get a practical setup path and caution notes.</p></div></div>
+</div>`;
+}
+function initPlanner(){}
+function setPlannerVal(k,v){ plannerVals[k]=k==='volume'?Math.max(3,Number(v)||20):v; }
+function showPlannerResult(){
+  const v=Math.max(3,Number(plannerVals.volume)||20);
+  const isSalt=plannerVals.type==='saltwater';
+  const isShrimp=plannerVals.type==='shrimp';
+  const isGold=plannerVals.type==='goldfish';
+  const status=v<10?'Very small':v<20?'Small':v<55?'Flexible beginner size':'Large / advanced capacity';
+  const equipment=isSalt?'marine salt mix, refractometer, heater, flow, live/dry rock, test kits':isShrimp?'sponge filter, heater if needed, moss/plants, shrimp-safe minerals, pre-filter sponge':isGold?'oversized filtration, strong aeration, large water-change tools, open swimming space':'filter, heater, thermometer, water conditioner, test kit, substrate and hiding places';
+  const stocking=isSalt?'start with hardy captive-bred marine fish after cycling; avoid tangs in small tanks':isShrimp?'start with a mature planted tank and a small shrimp colony after parameters are stable':isGold?'stock lightly; one fancy goldfish needs far more room than most bowls provide':'choose peaceful fish with matching temperature, adult size and group needs';
+  document.getElementById('planner-result').innerHTML=`<div class="hs" style="background:#0F3D6E"><div class="sn">${status}</div><div class="sl">${v} gallon ${plannerVals.type} plan</div></div><div class="pr"><h4 style="color:var(--pd);margin-bottom:10px">Setup checklist</h4><div class="prow"><span class="plb">Equipment</span><span class="pv">${equipment}</span><span class="bdg bgood">Core</span></div><div class="prow"><span class="plb">Stocking</span><span class="pv">${stocking}</span><span class="bdg bwarn">Plan</span></div><div class="prow"><span class="plb">Cycle</span><span class="pv">Do not add livestock until ammonia and nitrite are 0 ppm.</span><span class="bdg bdng">Required</span></div><p style="margin-top:12px">For ${plannerVals.goal.replace('-', ' ')} goals, prioritize stability over speed. Buy test kits before livestock, and keep the first stocking round conservative.</p></div>`;
+}
+
+// WATER CALC
+function renderCalc() {
+  if(!Object.keys(calcVals).length) PARAMS.forEach(p=>calcVals[p.k]=p.def);
+  return `
+<h2 style="color:var(--pd);margin-bottom:5px">💧 Water Parameter Calculator</h2>
+<p style="margin-bottom:24px">Enter your tank readings to get an instant health assessment. For ammonia and nitrite, the safe target is always 0 ppm.</p>
+<div class="cg">
+  <div>
+    <h4 style="margin-bottom:13px;color:var(--pd)">📊 Enter Your Readings</h4>
+    ${PARAMS.map(p=>`
+    <div class="fg">
+      <label>${p.lbl}${p.unit?` <span style="color:var(--mu);font-weight:400">(${p.unit})</span>`:''}</label>
+      <div style="display:flex;gap:8px;align-items:center">
+        <input type="range" id="rv-${p.k}" min="${p.min}" max="${p.max}" step="${p.step}" value="${calcVals[p.k]}"
+          oninput="setCalcVal('${p.k}', this.value)"
+          style="flex:1;accent-color:var(--p)"/>
+        <input type="number" id="nv-${p.k}" min="${p.min}" max="${p.max}" step="${p.step}" value="${calcVals[p.k]}"
+          class="fc" style="width:74px"
+          oninput="setCalcVal('${p.k}', this.value)"/>
+      </div>
+      <div style="font-size:.7rem;color:var(--mu);margin-top:2px">Safe target: ${p.safe[0]===p.safe[1]?`${p.safe[0]}${p.unit}`:`${p.safe[0]}${p.unit} – ${p.safe[1]}${p.unit}`}</div>
+    </div>`).join('')}
+    <button class="btn bp blg" style="width:100%;margin-top:5px;justify-content:center" onclick="showCalcResult()">Analyze Water Quality →</button>
+  </div>
+  <div id="calc-result">
+    <div style="background:#F8FAFE;border-radius:14px;border:1px solid var(--bd);padding:34px;text-align:center;color:var(--mu)">
+      <div style="font-size:3.3rem;margin-bottom:12px">💧</div>
+      <h4 style="color:var(--pd)">Enter Your Readings</h4>
+      <p style="font-size:.86rem">Adjust the sliders on the left, then click "Analyze" to see your water health score.</p>
+    </div>
+  </div>
+</div>`;
+}
+
+function initCalc() { /* sliders init inline */ }
+
+function setCalcVal(k, raw) {
+  const p = PARAMS.find(x => x.k === k);
+  if(!p) return;
+  let v = Number(raw);
+  if(!Number.isFinite(v)) v = p.def;
+  v = Math.min(p.max, Math.max(p.min, v));
+  calcVals[k] = v;
+  const numberInput = document.getElementById('nv-' + k);
+  const rangeInput = document.getElementById('rv-' + k);
+  if(numberInput && Number(numberInput.value) !== v) numberInput.value = v;
+  if(rangeInput && Number(rangeInput.value) !== v) rangeInput.value = v;
+  updateCalcResult();
+}
+
+function calcScore() {
+  const weighted = PARAMS.reduce((s,p)=>{
+    const st=getStatus(p,+calcVals[p.k]);
+    return s+(st==='good'?100:st==='warn'?45:0)*p.weight;
+  },0);
+  const totalWeight = PARAMS.reduce((s,p)=>s+p.weight,0);
+  let score = Math.round(weighted/totalWeight);
+  if(getStatus(PARAMS.find(p=>p.k==='amm'), +calcVals.amm)==='bad' || getStatus(PARAMS.find(p=>p.k==='nit2'), +calcVals.nit2)==='bad') score = Math.min(score, 45);
+  if(getStatus(PARAMS.find(p=>p.k==='amm'), +calcVals.amm)==='warn' || getStatus(PARAMS.find(p=>p.k==='nit2'), +calcVals.nit2)==='warn') score = Math.min(score, 75);
+  return score;
+}
+
+function updateCalcResult() {
+  const result = document.getElementById('calc-result');
+  if(result && result.dataset.analyzed === 'true') showCalcResult();
+}
+
+function showCalcResult() {
+  const score = calcScore();
+  const info = score>=90?{l:'Excellent',c:'#27AE60'}:score>=70?{l:'Good',c:'#2E9E7D'}:score>=50?{l:'Fair – Needs Attention',c:'#F39C12'}:{l:'Poor – Act Now',c:'#E74C3C'};
+  const rows = PARAMS.map(p=>{
+    const st=getStatus(p,+calcVals[p.k]);
+    const cls=st==='good'?'bgood':st==='warn'?'bwarn':'bdng';
+    const lbl=st==='good'?'✅ Good':st==='warn'?'⚠️ Warning':'❌ Danger';
+    return `<div class="prow"><span class="plb">${p.lbl}</span><span class="pv">${calcVals[p.k]}${p.unit}</span><span class="bdg ${cls}">${lbl}</span></div>${st!=='good'?`<p style="font-size:.77rem;color:var(--mu);padding:3px 0 6px;margin:0">${p.tips[st]}</p>`:''}`;
+  }).join('');
+  const warn = score<70?`<div style="margin-top:12px;padding:13px 16px;background:rgba(231,76,60,.06);border-radius:8px;border:1px solid rgba(231,76,60,.2)"><strong style="color:var(--er)">⚠️ Immediate Action Needed</strong><p style="font-size:.83rem;margin:4px 0 0">One or more parameters are at dangerous levels. Perform a 25–50% water change immediately using dechlorinated water at the same temperature.</p></div>`:''
+  document.getElementById('calc-result').innerHTML=`
+    <div class="hs" style="background:${info.c}"><div class="sn">${score}/100</div><div class="sl">Overall Health: ${info.l}</div></div>
+    <div class="pr"><h4 style="margin-bottom:10px;color:var(--pd)">📋 Parameter Results</h4>${rows}</div>${warn}`;
+  document.getElementById('calc-result').dataset.analyzed = 'true';
+}
+
+// COMPAT
+function renderCompat() {
+  selectedFish = [];
+  compatResults = [];
+  return `
+<h2 style="color:var(--pd);margin-bottom:5px">🔬 Fish Compatibility Checker</h2>
+<p style="margin-bottom:20px">Select 2 or more fish species to check if they can live together peacefully.</p>
+<div class="fsbox" style="position:relative">
+  <input class="fc" id="fish-inp" placeholder="Search fish (e.g. Betta, Guppy, Neon Tetra)..."
+    oninput="showFishDrop()" onfocus="showFishDrop()" onblur="setTimeout(hideFishDrop,160)"/>
+  <div class="sdrop hide" id="fish-drop"></div>
+</div>
+<div style="margin-bottom:16px">
+  <p style="font-size:.78rem;color:var(--mu);margin-bottom:6px">Popular fish:</p>
+  <div style="display:flex;flex-wrap:wrap;gap:5px">
+    ${FISH_DB.slice(0,8).map(f=>`<button onclick="addFish(${f.id})" style="background:#fff;border:1.5px solid var(--bd);border-radius:20px;padding:4px 11px;font-size:.79rem;cursor:pointer;color:var(--tx)">${f.e} ${f.name}</button>`).join('')}
+  </div>
+</div>
+<div class="ftags" id="fish-tags"></div>
+<div id="compat-add-btn">
+  <button class="btn bp" disabled id="compat-check-btn" onclick="runCompat()">Check Compatibility →</button>
+  <span style="font-size:.82rem;color:var(--mu);margin-left:10px" id="compat-hint">Add at least 2 fish</span>
+</div>
+<div id="compat-results" style="margin-top:22px"></div>
+<div style="margin-top:26px;padding:11px 15px;background:#F8FAFE;border-radius:8px;border:1px solid var(--bd);font-size:.76rem;color:var(--mu)">
+  📊 Database includes <strong>${FISH_DB.length} species</strong>. Compatibility based on aggression, pH range, temperature range, and size.
+</div>`;
+}
+
+function initCompat() { selectedFish = []; compatResults = []; }
+
+function showFishDrop() {
+  const q = document.getElementById('fish-inp').value.toLowerCase();
+  const drop = document.getElementById('fish-drop');
+  const items = FISH_DB.filter(f=>f.name.toLowerCase().includes(q)&&!selectedFish.find(s=>s.id===f.id)).slice(0,8);
+  if(!q||!items.length){drop.classList.add('hide');return;}
+  drop.innerHTML = items.map(f=>`<div class="sdi" onmousedown="addFish(${f.id})">${f.e} ${f.name} <span style="font-size:.72rem;color:var(--mu)">— ${f.care} · ${f.desc}</span></div>`).join('');
+  drop.classList.remove('hide');
+}
+
+function hideFishDrop() { document.getElementById('fish-drop')?.classList.add('hide'); }
+
+function addFish(id) {
+  if(selectedFish.find(f=>f.id===id)) return;
+  selectedFish.push(FISH_DB.find(f=>f.id===id));
+  document.getElementById('fish-inp').value='';
+  document.getElementById('fish-drop')?.classList.add('hide');
+  renderFishTags();
+  document.getElementById('compat-results').innerHTML='';
+}
+
+function removeFish(id) {
+  selectedFish = selectedFish.filter(f=>f.id!==id);
+  renderFishTags();
+  document.getElementById('compat-results').innerHTML='';
+}
+
+function renderFishTags() {
+  document.getElementById('fish-tags').innerHTML = selectedFish.map(f=>`<span class="ftag">${f.e} ${f.name}<button onclick="removeFish(${f.id})">×</button></span>`).join('');
+  const btn = document.getElementById('compat-check-btn');
+  const hint = document.getElementById('compat-hint');
+  if(btn){ btn.disabled = selectedFish.length<2; }
+  if(hint){ hint.style.display = selectedFish.length<2?'':'none'; }
+}
+
+function runCompat() {
+  const results = checkCompat(selectedFish);
+  const SI={good:'✅',warn:'⚠️',bad:'❌'}, ST={good:'Compatible',warn:'Use Caution',bad:'Not Compatible'}, SC={good:'var(--ok)',warn:'var(--wn)',bad:'var(--er)'};
+  const html = results.map(r=>`
+    <div class="cr ${r.status}">
+      <span style="font-size:1.3rem">${SI[r.status]}</span>
+      <div><strong style="display:block;margin-bottom:2px;font-size:.9rem">${r.a} + ${r.b}: <span style="color:${SC[r.status]}">${ST[r.status]}</span></strong>
+      <span style="font-size:.83rem;color:var(--mu)">${r.msg}</span></div>
+    </div>`).join('');
+  const allGood = results.every(r=>r.status==='good');
+  document.getElementById('compat-results').innerHTML = `
+    <div style="height:1px;background:var(--bd);margin-bottom:18px"></div>
+    <h4 style="color:var(--pd);margin-bottom:15px">📋 Compatibility Results</h4>
+    ${html}
+    ${allGood?`<div style="margin-top:14px;padding:13px 17px;background:rgba(39,174,96,.07);border-radius:8px;border:1px solid rgba(39,174,96,.25);text-align:center"><strong style="color:var(--ok)">🎉 All selected fish are compatible!</strong><p style="margin:5px 0 0;font-size:.83rem;color:var(--mu)">Provide adequate space and hiding spots.</p></div>`:''}
+    <div style="margin-top:13px;text-align:right"><button class="btn bo bsm" onclick="initCompatReset()">Start Over</button></div>`;
+}
+
+function initCompatReset() {
+  selectedFish=[];
+  document.getElementById('page-tools').innerHTML = renderTools(currentToolTab);
+}
+
+// ═══════════════════════════════════════════════
+// BLOG
+// ═══════════════════════════════════════════════
+let blogCat = 'All';
+const BCATS = ['All','Species Guide','Getting Started','Water Quality','Tank Planning','Algae Control','Invertebrates','Amphibians','Decoration'];
+
+function renderBlog() {
+  const posts = blogCat==='All'?POSTS:POSTS.filter(p=>p.cat===blogCat);
+  const featured = POSTS[0];
+  const featuredImg = blogImage(featured.slug);
+  return `
+<div class="bhero">
+  <div class="con">
+    <div class="tag" style="color:rgba(255,255,255,.9);background:rgba(255,255,255,.15)">📚 Expert Guides</div>
+    <h1>Aquarium Care Guides & Articles</h1>
+    <p>Expert-written guides covering fish, algae, shrimp, snails, amphibians, tank setup, water quality, decoration, and more.</p>
+  </div>
+</div>
+<div class="con" style="padding:38px 22px">
+  <div class="bfilts">
+    ${BCATS.map(c=>`<button class="fbtn${blogCat===c?' act':''}" onclick="setBlogCat('${c}')">${c}</button>`).join('')}
+  </div>
+  ${blogCat==='All'?`
+  <a title="${featured.title}" class="card feature-card" href="${staticGuideHref(featured.slug)}" style="display:grid;grid-template-columns:1fr 1.3fr;overflow:hidden;margin-bottom:26px;cursor:pointer;color:inherit">
+    <div class="aimg" style="height:auto;min-height:245px"><img src="${featuredImg[0]}" alt="${featuredImg[1]}" loading="lazy" onerror="this.onerror=null;this.src='/assets/freshwater-fish-care-hero-optimized.jpg';"></div>
+    <div style="padding:26px 22px">
+      <div class="tag">⭐ Featured Guide</div>
+      <h2 style="color:var(--pd);font-size:1.3rem;margin:7px 0 9px">${featured.title}</h2>
+      <p style="margin-bottom:13px">${featured.exc}</p>
+      <div class="amet" style="margin-bottom:16px"><span>✍️ ${featured.author}</span><span>📅 ${featured.date}</span><span>⏱ ${featured.time}</span></div>
+      <span class="btn bp bsm">Read Full Guide →</span>
+    </div>
+  </a>`:''
+  }
+  <div class="g3">
+    ${(blogCat==='All'?posts.slice(1):posts).map(p=>`
+    <a title="${p.title}" class="card ac" href="${staticGuideHref(p.slug)}" onclick="${staticGuideHref(p.slug)==='#' ? `event.preventDefault();gotoPost('${p.slug}')` : ''}" style="cursor:pointer;color:inherit">
+      <div class="aimg"><img src="${blogImage(p.slug)[0]}" alt="${blogImage(p.slug)[1]}" loading="lazy" onerror="this.onerror=null;this.src='/assets/freshwater-fish-care-hero-optimized.jpg';"></div>
+      <div class="cb"><div class="acat">${p.cat}</div><h3>${p.title}</h3><p>${p.exc.slice(0,105)}…</p>
+      <div class="amet"><span>📅 ${p.date}</span><span>⏱ ${p.time}</span></div></div>
+    </a>`).join('')}
+  </div>
+</div>`;
+}
+
+function setBlogCat(c) { blogCat=c; document.getElementById('page-blog').innerHTML=renderBlog(); }
+
+// ═══════════════════════════════════════════════
+// POST
+// ═══════════════════════════════════════════════
+const ARTICLE_GUIDES = {
+  goldfish:{
+    primary:'goldfish care',
+    overview:'Goldfish care is often misunderstood because goldfish are sold as small starter pets, but healthy adult goldfish need space, oxygen, filtration, and a steady maintenance routine. A small bowl usually leads to poor water quality, stunted growth, and frequent illness.',
+    sections:[
+      ['Tank size and setup',['Use at least 20 gallons for one fancy goldfish and more space for each additional fish. Common goldfish grow larger and are better suited to ponds or very large aquariums.','Choose a strong filter because goldfish produce more waste than many small tropical fish. Add gentle decor, open swimming space, and a secure lid.','Goldfish do not need a heater in most homes, but they do need stable temperature and excellent oxygen exchange.']],
+      ['Water quality',['Keep ammonia and nitrite at 0 ppm. Nitrate should stay low through water changes, careful feeding, and proper filtration.','Change 25-40% of the water weekly in many goldfish tanks, adjusting based on test results and stocking level.','Do not rinse filter media under tap water because chlorine can damage beneficial bacteria.']],
+      ['Feeding',['Use high-quality sinking goldfish pellets as the main diet. Floating food can cause some fancy goldfish to swallow air.','Offer small portions once or twice daily and include vegetables such as blanched peas or leafy greens.','Remove uneaten food quickly because extra food becomes ammonia.']],
+      ['Common health issues',['Buoyancy trouble often comes from diet, body shape, constipation, or water quality stress.','Fin damage, red streaks, and lethargy usually mean water testing should happen before medication.','Quarantine new fish and avoid mixing goldfish with tropical fish that need warmer water.']]
+    ],
+    table:[['Topic','Recommended range'],['Tank','20+ gallons for one fancy goldfish'],['Temperature','65-75°F'],['pH','7.0-8.4'],['Diet','Sinking pellets, vegetables, occasional treats'],['Best tank mates','Other goldfish of similar body type']],
+    faqs:[['Can goldfish live in a bowl?','A bowl is not a good long-term home for goldfish because waste builds quickly and oxygen is limited. A filtered aquarium or pond is much safer.'],['How often should I feed goldfish?','Feed small portions once or twice daily. The fish should finish food quickly, and uneaten food should be removed.'],['Do goldfish need a heater?','Most goldfish do not need tropical heat, but they do need stable temperature and clean, oxygen-rich water.']]
+  },
+  guppy:{
+    primary:'guppy fish care',
+    overview:'Guppy fish care is beginner friendly when the tank is cycled, warm, and not overcrowded. Guppies are active livebearers, so planning sex ratios, fry control, and water quality matters from the start.',
+    sections:[
+      ['Tank setup',['Keep guppies in a cycled aquarium of at least 10 gallons for a small group. Larger tanks are easier to keep stable.','Use a heater around 74-82°F, gentle filtration, and plants for cover.','Keep a lid because guppies can jump when startled.']],
+      ['Water and groups',['Guppies usually prefer moderately hard, alkaline water. Sudden swings are more dangerous than stable numbers.','Keep groups with more females than males if both sexes are present, or choose an all-male group to avoid constant breeding.','Test ammonia, nitrite, and nitrate regularly, especially in tanks with fry.']],
+      ['Feeding',['Offer quality flakes or micro pellets, plus occasional frozen or live foods.','Feed small portions so every fish eats without leaving waste.','Young fry need tiny foods more often, but extra feeding requires extra water care.']],
+      ['Breeding and fry',['Females can store sperm and produce multiple batches of fry.','Dense plants or a separate grow-out tank improve fry survival.','Avoid letting the tank become crowded, because overcrowding quickly weakens water quality.']]
+    ],
+    table:[['Topic','Recommended range'],['Tank','10+ gallons'],['Temperature','74-82°F'],['pH','7.0-8.2'],['Group','6+ guppies, with sex ratio planning'],['Diet','Flakes, micro pellets, frozen foods']],
+    faqs:[['Are guppies good beginner fish?','Yes, guppies are good beginner fish if the tank is cycled and water is stable.'],['Do guppies breed easily?','Yes. Guppies breed very easily, so plan ahead for fry or keep one sex only.'],['Can guppies live with bettas?','Sometimes, but it is risky because bettas may nip colorful guppies or see them as rivals.']]
+  },
+  molly:{
+    primary:'molly fish care',
+    overview:'Molly fish care depends on stable, mineral-rich water, enough swimming room, and a smart group plan. Mollies are hardy in the right setup but often struggle in soft, unstable, or crowded aquariums.',
+    sections:[
+      ['Tank setup',['Use a 20 gallon or larger aquarium for most molly groups. Sailfin mollies need more room.','Provide warm water, steady filtration, and open swimming space with planted cover.','Mollies are active livebearers, so avoid tiny tanks and weak filtration.']],
+      ['Water needs',['Mollies often do best in harder, alkaline water. Very soft water can cause long-term stress.','Keep ammonia and nitrite at 0 ppm, and use regular water changes to control nitrate.','Match new water temperature and treat tap water with conditioner.']],
+      ['Feeding',['Use a varied diet with quality flakes or pellets plus vegetable matter such as spirulina.','Avoid overfeeding because mollies are eager eaters and waste rises quickly.','Offer small meals once or twice daily.']],
+      ['Breeding',['Keep more females than males to reduce harassment.','Provide plant cover for fry, or use a separate grow-out tank.','Do not allow breeding to overcrowd the aquarium.']]
+    ],
+    table:[['Topic','Recommended range'],['Tank','20+ gallons'],['Temperature','75-82°F'],['pH','7.5-8.5'],['Hardness','Moderate to hard'],['Group','More females than males']],
+    faqs:[['Are mollies beginner fish?','Mollies can be beginner friendly if the water is hard enough and the tank is not overcrowded.'],['Do mollies need salt?','Many mollies tolerate salt, but aquarium salt is not required in every tank. Stable hard water is more important.'],['How many mollies should be kept together?','Keep a small group with careful sex ratios, usually more females than males.']]
+  },
+  swordtail:{
+    primary:'swordtail fish care',
+    overview:'Swordtail fish care is similar to other livebearers, but swordtails are larger, faster, and more active than many beginners expect. They need swimming length, a secure lid, and a breeding plan.',
+    sections:[
+      ['Tank setup',['Choose a long aquarium of at least 20 gallons for a small group.','Use a lid because swordtails are strong jumpers.','Add plants, open water, and steady filtration.']],
+      ['Water and behavior',['Keep water warm, clean, and moderately hard.','Avoid keeping too many males together in a small tank because chasing can stress females and weaker fish.','Watch for fin damage, hiding, or constant harassment.']],
+      ['Feeding',['Feed quality flakes or pellets with vegetable content, plus occasional frozen foods.','Small portions once or twice daily are better than heavy meals.','Healthy swordtails are active and quick to eat.']],
+      ['Breeding',['Use more females than males to reduce pressure on females.','Floating plants help fry survive.','Move fry only if you can maintain a separate cycled grow-out tank.']]
+    ],
+    table:[['Topic','Recommended range'],['Tank','20+ gallons, longer is better'],['Temperature','72-82°F'],['pH','7.0-8.3'],['Group','One male with multiple females'],['Diet','Flakes, pellets, vegetable matter']],
+    faqs:[['Are swordtails aggressive?','Swordtails are usually peaceful, but males can chase females and compete with each other.'],['Do swordtails need a lid?','Yes. Swordtails are active jumpers and should be kept in a covered aquarium.'],['How often do swordtails breed?','Healthy females can produce fry repeatedly, so plan for population control.']]
+  },
+  koi:{
+    primary:'koi fish care',
+    overview:'Koi fish care is pond care as much as fish care. Koi can live for decades and grow very large, so they need deep outdoor water, strong filtration, oxygen, and seasonal planning.',
+    sections:[
+      ['Pond size',['Koi are not aquarium fish for most homes. They need a pond with enough volume, depth, and swimming space.','Deeper ponds protect koi from temperature swings and predators.','Avoid adding koi to small decorative ponds without filtration.']],
+      ['Filtration and oxygen',['Use strong mechanical and biological filtration.','Add aeration, waterfalls, or surface movement to maintain oxygen, especially in warm weather.','Monitor ammonia, nitrite, nitrate, and pH throughout the season.']],
+      ['Feeding',['Feed koi food based on water temperature and season.','Do not feed heavily in cold water when digestion slows.','Remove uneaten food and avoid polluting the pond.']],
+      ['Seasonal care',['Plan for winter depth, predator protection, and summer oxygen demand.','Quarantine new koi before adding them to a pond.','Inspect fish regularly for ulcers, parasites, and abnormal swimming.']]
+    ],
+    table:[['Topic','Recommended range'],['Home','Outdoor pond'],['Depth','Deep enough for local climate'],['Temperature','Seasonal, avoid rapid swings'],['Diet','Seasonal koi pellets'],['Key need','Filtration and oxygen']],
+    faqs:[['Can koi live in an aquarium?','Young koi can be kept temporarily in large indoor systems, but adult koi need ponds.'],['How often should koi be fed?','Feed based on water temperature and appetite. Avoid heavy feeding in cold conditions.'],['Do koi need oxygen?','Yes. Koi have high oxygen needs, especially in warm water and crowded ponds.']]
+  },
+  danio:{
+    primary:'danio fish care',
+    overview:'Danio fish care is beginner friendly when danios are kept in groups with open swimming space. Zebra danios are hardy, active schooling fish, but they still need a cycled tank and clean water.',
+    sections:[
+      ['Tank setup',['Use at least 10 gallons for a small school, with longer tanks preferred for active swimming.','Keep a secure lid because danios can jump.','Provide open swimming space plus plants around the edges.']],
+      ['Schooling behavior',['Keep at least six danios. Larger groups reduce stress and chasing.','Avoid slow, long-finned tank mates if danios become nippy.','Danios are active and may overwhelm very calm fish.']],
+      ['Feeding',['Feed small flakes, micro pellets, and occasional frozen foods.','Danios eat quickly, so make sure slower tank mates also get food.','Do not overfeed; clean water is still the main care requirement.']],
+      ['Water quality',['Danios are hardy but not immune to ammonia or nitrite.','Cycle the aquarium before normal stocking.','Weekly water changes help keep nitrate and dissolved waste low.']]
+    ],
+    table:[['Topic','Recommended range'],['Tank','10+ gallons'],['Temperature','64-78°F'],['pH','6.5-7.8'],['Group','6+ danios'],['Diet','Flakes, micro pellets, frozen foods']],
+    faqs:[['Are zebra danios good beginner fish?','Yes, they are hardy beginner fish when kept in a cycled tank and proper school.'],['How many danios should be together?','Keep at least six, with larger groups preferred.'],['Do danios need a heater?','They tolerate cooler water than many tropical fish, but stable temperature is still important.']]
+  },
+  discus:{
+    primary:'discus fish care',
+    overview:'Discus fish care is more demanding than most beginner aquarium care. Discus need warm water, excellent stability, calm tank mates, and a keeper willing to maintain very clean conditions.',
+    sections:[
+      ['Tank setup',['Use a large, mature aquarium with stable filtration and gentle flow.','Keep discus in groups to reduce stress, but provide enough space.','Avoid noisy, aggressive, or fast-feeding tank mates.']],
+      ['Water requirements',['Warm water is essential, often around 82-88°F.','Stable parameters matter more than chasing perfect numbers.','Ammonia and nitrite must remain 0 ppm, and nitrate should be controlled with consistent maintenance.']],
+      ['Feeding',['Offer quality discus pellets, frozen foods, and a varied diet.','Feed carefully because heavy feeding can damage water quality.','Young discus may need more frequent feeding and more maintenance.']],
+      ['Health and quarantine',['Quarantine new discus and avoid mixing unknown sources.','Watch for dark color, clamped fins, white feces, hiding, or refusal to eat.','Most discus problems begin with stress or unstable water.']]
+    ],
+    table:[['Topic','Recommended range'],['Tank','55+ gallons for a group'],['Temperature','82-88°F'],['pH','Stable, often slightly acidic'],['Care level','Advanced'],['Key need','Warm, clean, stable water']],
+    faqs:[['Are discus fish for beginners?','Discus are usually not ideal first fish because they require warm, stable, very clean water.'],['How warm should discus water be?','Many discus tanks are kept around 82-88°F, depending on source and setup.'],['What tank mates work with discus?','Calm, warm-water species that do not outcompete discus for food are best.']]
+  },
+  angelfish:{
+    primary:'angelfish care',
+    overview:'Angelfish care requires a tall, warm aquarium and careful community planning. Freshwater angelfish are cichlids, so they can be peaceful when young but territorial as they mature.',
+    sections:[
+      ['Tank setup',['Use a tall aquarium because angelfish have long fins and deep bodies.','A 29 gallon tank can work for a pair, but larger tanks are better for communities.','Add plants, driftwood, and open swimming space.']],
+      ['Tank mates',['Avoid tiny fish that adult angelfish may eat.','Avoid fin nippers that damage long fins.','Watch pairs during breeding because they may defend territory.']],
+      ['Feeding',['Feed quality flakes, pellets, frozen foods, and occasional live foods.','Offer a varied diet for color, growth, and breeding condition.','Do not overfeed, because cichlids quickly pollute water.']],
+      ['Breeding behavior',['Pairs may clean a vertical surface and lay eggs.','Parents may guard eggs and become defensive.','Community tanks often lose fry unless a separate breeding setup is used.']]
+    ],
+    table:[['Topic','Recommended range'],['Tank','29+ gallons, tall tank'],['Temperature','76-82°F'],['pH','6.8-7.8'],['Tank mates','Medium peaceful fish'],['Diet','Flakes, pellets, frozen foods']],
+    faqs:[['Are angelfish aggressive?','They are cichlids and can become territorial, especially when pairing or breeding.'],['Can angelfish live with neon tetras?','Adult angelfish may eat small tetras, especially if they fit in the mouth.'],['Do angelfish need a tall tank?','Yes, a taller tank suits their body shape and long fins.']]
+  },
+  oscar:{
+    primary:'oscar fish care',
+    overview:'Oscar fish care is for keepers prepared for a large, messy, intelligent cichlid. Oscars need large aquariums, powerful filtration, secure lids, and long-term planning.',
+    sections:[
+      ['Tank size',['Use a large aquarium, often 75 gallons or more for one adult oscar.','Bigger tanks are easier because oscars produce heavy waste.','Use a sturdy lid because oscars can jump and move equipment.']],
+      ['Filtration and maintenance',['Use strong filtration and regular water changes.','Test water often because nitrate can rise quickly.','Secure heaters and decor so the fish cannot break or move them.']],
+      ['Feeding',['Feed high-quality cichlid pellets as the staple diet.','Avoid feeder fish because they can bring disease and poor nutrition.','Offer variety such as shrimp, worms, or appropriate frozen foods.']],
+      ['Tank mates',['Choose tank mates carefully. Many fish are too small, too aggressive, or too delicate.','Large peaceful fish may work in very large aquariums.','Have a backup plan if aggression appears.']]
+    ],
+    table:[['Topic','Recommended range'],['Tank','75+ gallons for one adult'],['Temperature','74-81°F'],['pH','6.0-8.0'],['Care level','Intermediate'],['Diet','Cichlid pellets, varied protein']],
+    faqs:[['Are oscars beginner fish?','Oscars are not ideal beginner fish because they grow large and create heavy waste.'],['How big do oscars get?','Many oscars reach around 10-12 inches or more.'],['Can oscars live with small fish?','No. Small fish are likely to be eaten or stressed.']]
+  },
+  'tank-setup':{
+    primary:'fish tank setup',
+    overview:'A good fish tank setup starts before fish are added. The safest beginner aquarium is cycled, filtered, heated if needed, tested, and stocked slowly.',
+    sections:[
+      ['Choose the tank',['Pick the fish species before buying equipment so tank size matches adult size.','Bigger tanks are usually more stable for beginners.','Place the aquarium away from direct sun, drafts, and unstable furniture.']],
+      ['Install equipment',['Add substrate, decor, filter, heater if needed, thermometer, and dechlorinated water.','Run equipment before adding fish and check for leaks or temperature swings.','Use decor that will not tear fins or change water chemistry unexpectedly.']],
+      ['Cycle the aquarium',['Cycling builds bacteria that process toxic ammonia and nitrite.','Use a test kit to confirm ammonia and nitrite are 0 ppm before normal stocking.','Add fish slowly so the filter can adjust to new waste.']],
+      ['Stock carefully',['Research compatibility, adult size, group size, and temperature needs.','Quarantine new fish when possible.','Avoid buying many fish on the same day.']]
+    ],
+    table:[['Step','Goal'],['Tank choice','Match adult fish size'],['Filter','Biological waste processing'],['Heater','Stable temperature for tropical fish'],['Cycle','0 ammonia and 0 nitrite'],['Stocking','Slow and compatible']],
+    faqs:[['How long does it take to set up a fish tank?','Physical setup can take a day, but cycling usually takes several weeks.'],['Can I add fish immediately?','It is safer to cycle the tank first. If fish are already added, test daily and change water as needed.'],['What is the most important beginner tool?','A liquid test kit is one of the most useful tools because it reveals water problems before fish die.']]
+  },
+  water:{
+    primary:'aquarium water parameters',
+    overview:'Aquarium water parameters are the hidden foundation of fish care. Clear water can still contain ammonia, nitrite, nitrate, unstable pH, or temperature stress.',
+    sections:[
+      ['Ammonia and nitrite',['Ammonia and nitrite should always be 0 ppm in a cycled aquarium.','Any detectable amount can burn gills, cause gasping, and weaken fish.','If either appears, reduce feeding, change water, condition tap water, and check the cycle.']],
+      ['Nitrate',['Nitrate is less toxic than ammonia or nitrite but should not be ignored.','Many freshwater tanks aim to keep nitrate below 20-40 ppm, depending on species.','Water changes, plants, and lower waste help control nitrate.']],
+      ['pH and hardness',['Stable pH is usually more important than chasing an exact number.','Hardness matters for species such as mollies, guppies, discus, and soft-water fish.','Make changes slowly and research species-specific needs.']],
+      ['Temperature and oxygen',['Warm water holds less oxygen, so aeration matters during heat or medication.','Use a thermometer instead of guessing.','Keep surface movement strong enough for gas exchange.']]
+    ],
+    table:[['Parameter','Target for many community tanks'],['Ammonia','0 ppm'],['Nitrite','0 ppm'],['Nitrate','Usually below 20-40 ppm'],['pH','Stable and species appropriate'],['Temperature','Species appropriate and stable']],
+    faqs:[['How often should I test aquarium water?','Test weekly in stable tanks and more often in new, sick, or changing tanks.'],['Is clear water safe?','Not always. Clear water can still contain invisible toxins.'],['What should I do if ammonia appears?','Stop overfeeding, do a partial water change, condition the water, and test again.']]
+  },
+  compat:{
+    primary:'fish compatibility',
+    overview:'Fish compatibility depends on adult size, temperament, temperature, water chemistry, swimming level, group size, and diet. A peaceful community aquarium is planned before fish are bought.',
+    sections:[
+      ['Match water needs',['Do not mix fish that need very different temperatures, pH, or hardness.','Goldfish and tropical fish are usually a poor match.','Discus need warmer, calmer conditions than many active community fish.']],
+      ['Match temperament',['Avoid pairing fin nippers with long-finned fish.','Do not keep tiny fish with predators large enough to eat them.','Give territorial fish enough space and visual barriers.']],
+      ['Match group size',['Schooling fish need groups, often six or more.','Livebearers need sex-ratio planning to reduce stress.','Bottom dwellers need substrate and hiding places that fit their behavior.']],
+      ['Plan for adult size',['Many fish are sold young. Always research adult size before buying.','A tank that works for juvenile fish may fail as fish mature.','Have a rehoming or upgrade plan for large species.']]
+    ],
+    table:[['Compatibility factor','Question to ask'],['Temperature','Do all fish share the same range?'],['Adult size','Will any fish eat another?'],['Temperament','Peaceful, nippy, territorial, or predatory?'],['Group size','Does the species need a school?'],['Diet','Will slow fish get enough food?']],
+    faqs:[['What fish can live together?','Fish with similar water needs, compatible temperaments, and suitable adult sizes are best.'],['Can bettas live with other fish?','Sometimes, but it depends on the betta, tank size, and tank mate choice.'],['Can goldfish live with tropical fish?','Usually no, because goldfish prefer cooler water and produce heavy waste.']]
+  }
+};
+
+function articleDataFor(slug) {
+  const base = ARTICLE_GUIDES[slug];
+  if(base) return base;
+  return {
+    primary:(POSTS.find(p=>p.slug===slug)?.title || 'fish care').toLowerCase(),
+    overview:'This complete fish care guide explains the setup, water quality, feeding routine, health signs, and maintenance habits needed for a safer freshwater aquarium.',
+    sections:[
+      ['Tank setup',['Choose a tank that matches adult fish size and swimming behavior.','Use reliable filtration, stable temperature, and safe decor.','Cycle the aquarium before normal stocking whenever possible.']],
+      ['Water quality',['Keep ammonia and nitrite at 0 ppm.','Use regular testing and water changes to control nitrate.','Avoid sudden changes in pH, temperature, or hardness.']],
+      ['Feeding',['Feed species-appropriate food in small portions.','Remove uneaten food and avoid overfeeding.','Vary the diet when the species benefits from plant or protein foods.']],
+      ['Health and maintenance',['Watch daily behavior, breathing, appetite, fins, and color.','Quarantine new fish when possible.','Fix water problems before reaching for medication.']]
+    ],
+    table:[['Care area','Beginner target'],['Water','Stable and tested'],['Food','Small species-appropriate meals'],['Tank','Matched to adult size'],['Maintenance','Weekly checks and water changes'],['Health','Act early when behavior changes']],
+    faqs:[['What is the most important part of fish care?','Stable, clean water is the most important part of fish care.'],['How often should I change water?','Many beginner tanks need a 20-30% weekly water change, adjusted by test results.'],['Should I add more fish right away?','No. Add fish slowly so the filter bacteria and water quality can keep up.']]
+  };
+}
+
+function renderFullArticlePost(p, slug) {
+  const data = articleDataFor(slug);
+  const rel = POSTS.filter(x=>x.slug!==slug).slice(0,4);
+  return `
+<div style="background:linear-gradient(135deg,#0F3D5E,#1B5E8B);padding:42px 22px">
+  <div class="con" style="max-width:900px">
+    <button class="back-btn" onclick="goto('blog')">← Back to Guides</button>
+    <div class="tag" style="color:rgba(255,255,255,.9);background:rgba(255,255,255,.15)">${p.cat}</div>
+    <h1 style="color:#fff;margin-top:7px;margin-bottom:13px;font-size:clamp(1.55rem,3.8vw,2.55rem)">${p.title}</h1>
+    <div class="amet">${['✍️ '+p.author,'📅 '+p.date,'⏱ '+p.time].map(s=>`<span style="color:rgba(255,255,255,.75);font-size:.83rem">${s}</span>`).join('')}</div>
+  </div>
+</div>
+<div class="con" style="max-width:900px;padding:32px 22px">
+  <p style="font-size:1.05rem;line-height:1.85;color:var(--mu)">${data.overview}</p>
+  <div class="tcta">
+    <h4>Quick care focus: ${data.primary}</h4>
+    <p>Use this guide with the Water Calculator and Compatibility Checker before adding new fish or changing your aquarium routine.</p>
+    <button class="btn" onclick="gotoTools('water')">Check Water Parameters →</button>
+  </div>
+  ${data.sections.map(([heading,items])=>`
+    <h2 style="color:var(--pd);margin:32px 0 12px;font-size:1.35rem">${heading}</h2>
+    <div class="list">${items.map(item=>`<div class="item"><p>${item}</p></div>`).join('')}</div>
+  `).join('')}
+  <h2 style="color:var(--pd);margin:32px 0 12px;font-size:1.35rem">Care summary table</h2>
+  <table class="setup-table">
+    <tbody>${data.table.map((row,i)=>`<tr>${row.map(cell=>i===0?`<th>${cell}</th>`:`<td>${cell}</td>`).join('')}</tr>`).join('')}</tbody>
+  </table>
+  <h2 style="color:var(--pd);margin:32px 0 12px;font-size:1.35rem">FAQ</h2>
+  ${data.faqs.map(([q,a])=>`<h3 style="color:var(--tx);margin:18px 0 6px">${q}</h3><p style="line-height:1.8;color:var(--mu)">${a}</p>`).join('')}
+  <div class="tcta">
+    <h4>Need a practical next step?</h4>
+    <p>Use the free tool center to check tank size, water readings, compatibility, feeding portions, and setup priorities.</p>
+    <button class="btn" onclick="gotoTools('tank')">Open Tank Size Calculator →</button>
+  </div>
+  <h3 style="color:var(--pd);margin:28px 0 16px">Related Fish Care Guides</h3>
+  <div class="g2">
+    ${rel.map(r=>`<div class="card" style="padding:13px 16px;display:flex;gap:11px;align-items:center;cursor:pointer" onclick="gotoPost('${r.slug}')">
+      <span style="font-size:1.8rem">${r.e}</span>
+      <div><div style="font-size:.69rem;color:var(--s);font-weight:600;text-transform:uppercase">${r.cat}</div>
+      <div style="font-size:.83rem;font-weight:600;color:var(--tx);line-height:1.35">${r.title.slice(0,64)}…</div></div>
+    </div>`).join('')}
+  </div>
+</div>`;
+}
+
+function renderPost(slug) {
+  if(slug==='fish-care-beginners') return renderBeginnerFishCarePost();
+  if(slug==='fish-care-bowl') return renderFishBowlCarePost();
+  if(slug==='fish-without-oxygen') return renderFishWithoutOxygenPost();
+  if(slug==='betta') return renderBettaPost();
+  const p = POSTS.find(x=>x.slug===slug);
+  if(!p) return '';
+  return renderFullArticlePost(p, slug);
+}
+
+function renderBeginnerFishCarePost() {
+  const rel = POSTS.filter(p=>p.slug!=='fish-care-beginners').slice(0,4);
+  return `
+<div style="background:linear-gradient(135deg,#0F3D5E,#1B5E8B);padding:42px 22px">
+  <div class="con" style="max-width:900px">
+    <button class="back-btn" onclick="goto('blog')">← Back to Guides</button>
+    <div class="tag" style="color:rgba(255,255,255,.9);background:rgba(255,255,255,.15)">Getting Started</div>
+    <h1 style="color:#fff;margin-top:7px;margin-bottom:13px;font-size:clamp(1.55rem,3.8vw,2.55rem)">How to Take Care of a Fish for Beginners: Complete First Tank Guide</h1>
+    <div style="display:flex;gap:16px;flex-wrap:wrap">${['✍️ Dr. Sarah Mitchell','📅 June 23, 2026','⏱ 14 min read'].map(s=>`<span style="color:rgba(255,255,255,.75);font-size:.83rem">${s}</span>`).join('')}</div>
+  </div>
+</div>
+<div class="con" style="max-width:900px;padding:32px 22px">
+  <div class="artlay">
+    <article class="artc">
+      <p>If you are searching for <strong>how to take care of a fish for beginners</strong>, start with one rule: healthy fish come from healthy water. Food, decorations, and colorful fish matter, but water quality, tank size, filtration, and patience decide whether a beginner aquarium succeeds.</p>
+      <p>This guide gives you a simple first-tank plan: choose the right fish, cycle the aquarium, test the water, feed correctly, clean safely, and avoid the mistakes that cause most beginner fish losses.</p>
+
+      <h2 id="choose">1. Choose the Right Beginner Fish</h2>
+      <p>Beginners should choose fish that match their tank size and water conditions. Betta fish, zebra danios, mollies, platies, guppies, corydoras, and some tetras are common starter choices, but no fish is maintenance-free. Koi, oscars, and discus are beautiful, but they need larger systems and more planning.</p>
+      <table class="ptbl">
+        <thead><tr><th>Fish</th><th>Beginner Fit</th><th>Important Note</th></tr></thead>
+        <tbody>
+          <tr><td>Betta fish</td><td>Good</td><td>Needs heat, gentle filter, and usually 5+ gallons.</td></tr>
+          <tr><td>Zebra danio</td><td>Good</td><td>Needs a group and open swimming space.</td></tr>
+          <tr><td>Molly fish</td><td>Moderate</td><td>Prefers stable, mineral-rich water and breeds quickly.</td></tr>
+          <tr><td>Koi fish</td><td>Not for small tanks</td><td>Needs a pond, oxygen, filtration, and long-term space.</td></tr>
+          <tr><td>Discus fish</td><td>Advanced</td><td>Requires warm, very stable, clean water.</td></tr>
+        </tbody>
+      </table>
+
+      <h2 id="tank">2. Set Up the Tank Before Buying Fish</h2>
+      <p>A beginner fish tank should be fully prepared before fish come home. Rinse the tank, add substrate and decorations, install the filter and heater, fill with dechlorinated water, and run the equipment. Do not add fish to untreated tap water because chlorine and chloramine can damage gills and beneficial bacteria.</p>
+      <ul>
+        <li><strong>Tank size:</strong> Choose the largest practical tank. Larger water volume is more stable.</li>
+        <li><strong>Filter:</strong> Keeps water moving and holds beneficial bacteria.</li>
+        <li><strong>Heater:</strong> Required for tropical fish such as bettas, mollies, angelfish, and discus.</li>
+        <li><strong>Lid:</strong> Prevents jumping, especially for danios, bettas, and swordtails.</li>
+        <li><strong>Hiding places:</strong> Plants, caves, and cover reduce stress.</li>
+      </ul>
+
+      <div class="tcta">
+        <h4>💧 Check Your Water Before Adding Fish</h4>
+        <p>Use the Water Parameter Calculator to understand pH, ammonia, nitrite, nitrate, temperature, and hardness.</p>
+        <button class="btn" onclick="gotoTools('water')">Open Water Calculator →</button>
+      </div>
+
+      <h2 id="cycle">3. Cycle the Aquarium</h2>
+      <p>The nitrogen cycle is the process that turns toxic fish waste into less harmful nitrate. New tanks do not have enough beneficial bacteria yet, so ammonia and nitrite can build up quickly. A fishless cycle is the safest beginner method because it prepares the filter before livestock are added.</p>
+      <ol>
+        <li>Add dechlorinated water and run the filter.</li>
+        <li>Add a small ammonia source or bottled bacteria according to product directions.</li>
+        <li>Test ammonia, nitrite, and nitrate several times per week.</li>
+        <li>Wait until ammonia and nitrite read 0 ppm and nitrate is present.</li>
+        <li>Add fish slowly instead of stocking the whole tank at once.</li>
+      </ol>
+
+      <h2 id="feed">4. Feed Lightly and Consistently</h2>
+      <p>Most beginner fish are overfed. Feed once or twice daily, only what fish can eat in about two minutes. Uneaten food breaks down into ammonia, clouds the water, and can trigger disease. Use species-appropriate food: betta pellets for bettas, quality flakes or micro pellets for community fish, sinking tablets for bottom feeders, and controlled seasonal feeding for koi.</p>
+
+      <h2 id="clean">5. Clean the Tank Without Crashing It</h2>
+      <p>Good fish care does not mean scrubbing everything sterile. Beneficial bacteria live in the filter media, substrate, and surfaces. For most beginner tanks, change 20-30% of the water weekly or every other week, vacuum debris from the gravel, and rinse filter media only in removed tank water.</p>
+      <ul>
+        <li>Never wash filter media under untreated tap water.</li>
+        <li>Match new water temperature closely to tank temperature.</li>
+        <li>Use water conditioner every time tap water is added.</li>
+        <li>Test water after problems such as cloudy water, fish gasping, or sudden illness.</li>
+      </ul>
+
+      <h2 id="compat">6. Check Compatibility Before Adding Tank Mates</h2>
+      <p>Beginner fish care includes planning who can live together. Male bettas may attack bright or long-finned fish. Swordtails and mollies can breed quickly. Oscars may eat smaller fish. Goldfish and tropical fish usually need different temperatures. Always compare adult size, temperament, temperature, pH, and swimming level before adding new fish.</p>
+      <div class="tcta">
+        <h4>🔬 Plan a Peaceful Tank</h4>
+        <p>Use the Fish Compatibility Checker before adding new fish to a beginner aquarium.</p>
+        <button class="btn" onclick="gotoTools('compat')">Check Compatibility →</button>
+      </div>
+
+      <h2 id="routine">7. Follow a Simple Beginner Routine</h2>
+      <table class="ptbl">
+        <thead><tr><th>Schedule</th><th>Task</th></tr></thead>
+        <tbody>
+          <tr><td>Daily</td><td>Check fish behavior, temperature, filter flow, and appetite.</td></tr>
+          <tr><td>2-3 times weekly</td><td>Test water in new tanks or after adding fish.</td></tr>
+          <tr><td>Weekly</td><td>Change 20-30% of water if needed and remove visible debris.</td></tr>
+          <tr><td>Monthly</td><td>Inspect equipment, trim plants, and gently service filter media.</td></tr>
+        </tbody>
+      </table>
+
+      <h2 id="mistakes">Common Beginner Fish Care Mistakes</h2>
+      <ul>
+        <li>Adding fish before the tank is cycled.</li>
+        <li>Choosing fish that outgrow the aquarium.</li>
+        <li>Overfeeding because fish always look hungry.</li>
+        <li>Replacing all filter media at once.</li>
+        <li>Mixing incompatible fish because they look peaceful in a store tank.</li>
+        <li>Ignoring ammonia or nitrite readings above 0 ppm.</li>
+      </ul>
+
+      <h2 id="faq">Beginner Fish Care FAQ</h2>
+      <h3>How hard is it to take care of a fish for beginners?</h3>
+      <p>It is manageable if you choose an appropriate species, cycle the tank, test water, and avoid overstocking. The hardest part is learning that water care comes before fish care.</p>
+      <h3>How often should beginners clean a fish tank?</h3>
+      <p>Most beginner aquariums do well with a 20-30% water change weekly or every other week, but the correct schedule depends on tank size, stocking, plants, filtration, and nitrate levels.</p>
+      <h3>Can beginners keep fish in a bowl?</h3>
+      <p>Bowls are usually too small and unstable. Most fish need a filtered, heated, cycled tank with enough room to swim and enough water volume to dilute waste. If you already have one, read our <button class="btn bo bsm" style="margin-left:6px" onclick="gotoPost('fish-care-bowl')">fish bowl care guide</button>.</p>
+
+      <div class="abox">
+        <div class="aav">👩‍🔬</div>
+        <div>
+          <strong style="display:block;margin-bottom:2px">Dr. Sarah Mitchell</strong>
+          <p style="font-size:.83rem;margin:0">Aquatic biology specialist with 12 years of freshwater fishkeeping experience. Reviews FishCare beginner guides for clarity and practical safety.</p>
+        </div>
+      </div>
+
+      <h3 style="color:var(--pd);margin:30px 0 15px">📚 Next Guides to Read</h3>
+      <div class="g2">
+        ${rel.map(r=>`<div class="card" style="padding:13px 16px;display:flex;gap:11px;align-items:center;cursor:pointer" onclick="gotoPost('${r.slug}')">
+          <span style="font-size:1.8rem">${r.e}</span>
+          <div><div style="font-size:.69rem;color:var(--s);font-weight:600;text-transform:uppercase">${r.cat}</div>
+          <div style="font-size:.83rem;font-weight:600;color:var(--tx);line-height:1.35">${r.title.slice(0,58)}…</div></div>
+        </div>`).join('')}
+      </div>
+    </article>
+    <aside>
+      <div class="toc">
+        <h4>📋 In This Guide</h4>
+        ${[['choose','Choose Fish'],['tank','Set Up Tank'],['cycle','Cycle Aquarium'],['feed','Feeding'],['clean','Cleaning'],['compat','Compatibility'],['routine','Routine'],['mistakes','Mistakes'],['faq','FAQ']].map(([id,l])=>`<a title="${l}" href="#${id}">${l}</a>`).join('')}
+      </div>
+      <div style="margin-top:16px;padding:16px;background:var(--bg);border-radius:14px;border:1px solid var(--bd)">
+        <h5 style="margin-bottom:10px;color:var(--pd);font-size:.82rem">Beginner Tools</h5>
+        ${[['tank','Tank Size Calculator'],['water','Water Parameter Checker'],['compat','Compatibility Checker'],['feeding','Feeding Calculator'],['planner','Aquarium Planner']].map(([tab,lbl])=>`
+        <div onclick="gotoTools('${tab}')" style="display:block;padding:7px 10px;background:#fff;border-radius:8px;border:1px solid var(--bd);margin-bottom:6px;font-size:.82rem;color:var(--tx);font-weight:500;cursor:pointer">${lbl}</div>`).join('')}
+      </div>
+    </aside>
+  </div>
+</div>`;
+}
+
+function renderFishBowlCarePost() {
+  const rel = POSTS.filter(p=>p.slug!=='fish-care-bowl').slice(0,4);
+  return `
+<div style="background:linear-gradient(135deg,#0F3D5E,#1B5E8B);padding:42px 22px">
+  <div class="con" style="max-width:900px">
+    <button class="back-btn" onclick="goto('blog')">← Back to Guides</button>
+    <div class="tag" style="color:rgba(255,255,255,.9);background:rgba(255,255,255,.15)">Getting Started</div>
+    <h1 style="color:#fff;margin-top:7px;margin-bottom:13px;font-size:clamp(1.55rem,3.8vw,2.55rem)">How to Take Care of a Fish in a Bowl: Safe Bowl Care and Better Alternatives</h1>
+    <div style="display:flex;gap:16px;flex-wrap:wrap">${['✍️ Dr. Sarah Mitchell','📅 June 23, 2026','⏱ 12 min read'].map(s=>`<span style="color:rgba(255,255,255,.75);font-size:.83rem">${s}</span>`).join('')}</div>
+  </div>
+</div>
+<div class="con" style="max-width:900px;padding:32px 22px">
+  <div class="artlay">
+    <article class="artc">
+      <p>If you are searching for <strong>how to take care of a fish in a bowl</strong>, the most important answer is honest: a bowl is usually harder and riskier than a filtered aquarium. Small water volume changes temperature quickly, waste builds up fast, and most bowls do not have enough oxygen, filtration, or swimming space.</p>
+      <p>Still, many people already have a fish in a bowl and need immediate help. This guide explains how to reduce harm, what to do daily, how often to change water, which fish should not be kept in bowls, and when to upgrade to a proper tank.</p>
+
+      <div class="tcta">
+        <h4>Best Long-Term Advice</h4>
+        <p>Use bowl care as a temporary plan whenever possible. A cycled, filtered tank is safer, easier to maintain, and healthier for fish.</p>
+        <button class="btn" onclick="gotoPost('fish-care-beginners')">Read First Tank Guide →</button>
+      </div>
+
+      <h2 id="truth">1. Are Fish Bowls Safe?</h2>
+      <p>Fish bowls can work only in very limited situations, usually with no fish or with temporary holding during a move or emergency. For daily fish care, bowls are difficult because they usually lack filtration and stable water volume. Even hardy fish can suffer from ammonia, low oxygen, stress, and temperature swings.</p>
+      <p>Goldfish should not live in bowls. Koi, oscars, angelfish, mollies, swordtails, discus, and most schooling fish should not live in bowls either. Bettas are often sold in small containers, but they still need warm, clean, filtered water and usually do best in at least a 5-gallon tank.</p>
+
+      <h2 id="minimum">2. Minimum Bowl Care Checklist</h2>
+      <ul>
+        <li><strong>Use the largest bowl possible:</strong> More water means slower waste buildup and more stable temperature.</li>
+        <li><strong>Use dechlorinated water:</strong> Treat all tap water before it touches the fish.</li>
+        <li><strong>Keep temperature stable:</strong> Avoid sunny windows, cold drafts, heaters, and air conditioners.</li>
+        <li><strong>Feed lightly:</strong> Overfeeding pollutes a bowl very quickly.</li>
+        <li><strong>Test water often:</strong> Ammonia and nitrite should always be 0 ppm.</li>
+        <li><strong>Plan an upgrade:</strong> A filtered aquarium is the real solution for most fish.</li>
+      </ul>
+
+      <h2 id="water">3. How Often Should You Change Water in a Fish Bowl?</h2>
+      <p>Without a filter, fish bowls usually need small, frequent water changes. A common starting point is 25-50% water changes several times per week, but the correct schedule depends on bowl size, fish size, feeding, temperature, and water test results. If ammonia or nitrite is above 0 ppm, change water immediately with dechlorinated water at the same temperature.</p>
+      <table class="ptbl">
+        <thead><tr><th>Bowl Situation</th><th>Water Change Guidance</th><th>Warning</th></tr></thead>
+        <tbody>
+          <tr><td>No filter, one small fish</td><td>Test often; 25-50% changes several times weekly may be needed.</td><td>Upgrade as soon as possible.</td></tr>
+          <tr><td>Cloudy water or odor</td><td>Do an immediate partial change and reduce feeding.</td><td>Cloudiness can mean waste buildup.</td></tr>
+          <tr><td>Ammonia or nitrite detected</td><td>Change water immediately and use conditioner.</td><td>Any detectable amount can harm fish.</td></tr>
+          <tr><td>Fish gasping at surface</td><td>Check temperature, oxygen, and water quality right away.</td><td>This can be urgent.</td></tr>
+        </tbody>
+      </table>
+
+      <div class="tcta">
+        <h4>Check Bowl Water Safety</h4>
+        <p>Enter pH, ammonia, nitrite, nitrate, temperature, and hardness in the Water Calculator before deciding whether the bowl is safe.</p>
+        <button class="btn" onclick="gotoTools('water')">Open Water Calculator →</button>
+      </div>
+
+      <h2 id="feeding">4. How to Feed a Fish in a Bowl</h2>
+      <p>Feed less than you think. In a bowl, leftover food quickly becomes ammonia. Offer a tiny amount once daily and remove anything uneaten after two minutes. Skip feeding for a day if the water is cloudy or if you are trying to stabilize water quality. Use food made for the fish species, not random crumbs or human food.</p>
+
+      <h2 id="clean">5. How to Clean a Fish Bowl Safely</h2>
+      <ol>
+        <li>Prepare fresh water with conditioner and match the temperature.</li>
+        <li>Move slowly so the fish is not shocked by sudden changes.</li>
+        <li>Remove part of the old water, not all of it, unless there is an emergency.</li>
+        <li>Wipe algae with a clean aquarium-only sponge.</li>
+        <li>Do not use soap, bleach, kitchen cleaners, or scented products.</li>
+        <li>Refill gently and watch the fish for stress.</li>
+      </ol>
+      <p>If the bowl has gravel, gently remove debris without completely sterilizing every surface. Beneficial bacteria are limited in bowls, but wiping everything spotless can still make water stability worse.</p>
+
+      <h2 id="fish">6. What Fish Can Live in a Bowl?</h2>
+      <p>The better question is what fish can thrive in a bowl, and the answer is: very few. Most aquarium fish need a filtered tank. A planted bowl may be suitable for aquatic plants or some invertebrates in certain setups, but fish need oxygen, space, stable temperature, and safe water chemistry.</p>
+      <ul>
+        <li><strong>Avoid goldfish bowls:</strong> Goldfish produce heavy waste and need much more space.</li>
+        <li><strong>Avoid tropical fish without heat:</strong> Bettas, mollies, angelfish, and discus need warm water.</li>
+        <li><strong>Avoid schooling fish:</strong> Danios, tetras, and many small community fish need groups and swimming space.</li>
+        <li><strong>Avoid large fish:</strong> Koi, oscars, and plecos are never bowl fish.</li>
+      </ul>
+
+      <h2 id="upgrade">7. When to Upgrade From a Bowl</h2>
+      <p>Upgrade immediately if the fish is gasping, clamped, lethargic, losing color, developing fin damage, or if ammonia or nitrite appears on a test kit. A 5-10 gallon filtered tank is a much better beginner setup for many small fish, while goldfish, koi, oscars, discus, and angelfish need larger species-specific systems.</p>
+      <table class="ptbl">
+        <thead><tr><th>Current Bowl Problem</th><th>Best Upgrade</th></tr></thead>
+        <tbody>
+          <tr><td>Betta in tiny bowl</td><td>5+ gallon heated, filtered aquarium with gentle flow.</td></tr>
+          <tr><td>Goldfish in bowl</td><td>Large filtered tank or pond planning, depending on species.</td></tr>
+          <tr><td>Cloudy bowl water</td><td>Cycled aquarium with filter and routine water testing.</td></tr>
+          <tr><td>Temperature swings</td><td>Appropriate tank size, heater if tropical, stable location.</td></tr>
+        </tbody>
+      </table>
+
+      <h2 id="faq">Fish Bowl Care FAQ</h2>
+      <h3>Can a fish live in a bowl without a filter?</h3>
+      <p>Some fish may survive for a while, but survival is not the same as good care. Without a filter, waste builds up quickly, oxygen can be low, and the water is harder to keep stable.</p>
+      <h3>How do you keep a fish bowl from smelling?</h3>
+      <p>Smell usually means excess waste, overfeeding, or poor water quality. Feed less, remove uneaten food, test water, and do frequent partial water changes with dechlorinated water.</p>
+      <h3>Is a bowl okay for a betta fish?</h3>
+      <p>A bowl is not ideal for a betta. Bettas need warm, clean, stable water and usually do best in a heated, filtered aquarium of at least 5 gallons.</p>
+
+      <div class="abox">
+        <div class="aav">👩‍🔬</div>
+        <div>
+          <strong style="display:block;margin-bottom:2px">Dr. Sarah Mitchell</strong>
+          <p style="font-size:.83rem;margin:0">Aquatic biology specialist with 12 years of freshwater fishkeeping experience. Reviews FishCare beginner guides for practical safety and humane care.</p>
+        </div>
+      </div>
+
+      <h3 style="color:var(--pd);margin:30px 0 15px">Related Guides</h3>
+      <div class="g2">
+        ${rel.map(r=>`<div class="card" style="padding:13px 16px;display:flex;gap:11px;align-items:center;cursor:pointer" onclick="gotoPost('${r.slug}')">
+          <span style="font-size:1.8rem">${r.e}</span>
+          <div><div style="font-size:.69rem;color:var(--s);font-weight:600;text-transform:uppercase">${r.cat}</div>
+          <div style="font-size:.83rem;font-weight:600;color:var(--tx);line-height:1.35">${r.title.slice(0,58)}…</div></div>
+        </div>`).join('')}
+      </div>
+    </article>
+    <aside>
+      <div class="toc">
+        <h4>In This Guide</h4>
+        ${[['truth','Are Bowls Safe?'],['minimum','Minimum Care'],['water','Water Changes'],['feeding','Feeding'],['clean','Cleaning'],['fish','Fish Choice'],['upgrade','Upgrade Plan'],['faq','FAQ']].map(([id,l])=>`<a title="${l}" href="#${id}">${l}</a>`).join('')}
+      </div>
+      <div style="margin-top:16px;padding:16px;background:var(--bg);border-radius:14px;border:1px solid var(--bd)">
+        <h5 style="margin-bottom:10px;color:var(--pd);font-size:.82rem">Bowl Care Tools</h5>
+        ${[['water','Water Parameter Checker'],['tank','Tank Size Calculator'],['compat','Compatibility Checker'],['feeding','Feeding Calculator'],['planner','Aquarium Planner']].map(([tab,lbl])=>`
+        <div onclick="gotoTools('${tab}')" style="display:block;padding:7px 10px;background:#fff;border-radius:8px;border:1px solid var(--bd);margin-bottom:6px;font-size:.82rem;color:var(--tx);font-weight:500;cursor:pointer">${lbl}</div>`).join('')}
+      </div>
+    </aside>
+  </div>
+</div>`;
+}
+
+function renderFishWithoutOxygenPost() {
+  const rel = POSTS.filter(p=>p.slug!=='fish-without-oxygen').slice(0,4);
+  return `
+<div style="background:linear-gradient(135deg,#0F3D5E,#1B5E8B);padding:42px 22px">
+  <div class="con" style="max-width:900px">
+    <button class="back-btn" onclick="goto('blog')">← Back to Guides</button>
+    <div class="tag" style="color:rgba(255,255,255,.9);background:rgba(255,255,255,.15)">Water Quality</div>
+    <h1 style="color:#fff;margin-top:7px;margin-bottom:13px;font-size:clamp(1.55rem,3.8vw,2.55rem)">How to Take Care of Fish Without Oxygen: Emergency Care and Aeration Guide</h1>
+    <div style="display:flex;gap:16px;flex-wrap:wrap">${['✍️ James Chen','📅 June 23, 2026','⏱ 12 min read'].map(s=>`<span style="color:rgba(255,255,255,.75);font-size:.83rem">${s}</span>`).join('')}</div>
+  </div>
+</div>
+<div class="con" style="max-width:900px;padding:32px 22px">
+  <div class="artlay">
+    <article class="artc">
+      <p>If you are searching for <strong>how to take care of fish without oxygen</strong>, treat it as an emergency. Fish do need oxygen. What most people mean is that the air pump stopped, power went out, the water has low oxygen, or fish are gasping at the surface. Your goal is to restore oxygen quickly and keep the water safe until equipment works again.</p>
+      <p>Low oxygen can kill fish fast, especially in warm water, crowded tanks, dirty bowls, ponds at night, and aquariums with no surface movement. This guide explains warning signs, immediate steps, what not to do, and how to prevent the problem from coming back.</p>
+
+      <div class="tcta">
+        <h4>Emergency First Step</h4>
+        <p>Increase surface movement immediately. Pour treated tank-temperature water gently back into the tank, lower the water level slightly so the filter splashes, or add a battery air pump if available.</p>
+        <button class="btn" onclick="gotoTools('water')">Check Water Parameters →</button>
+      </div>
+
+      <h2 id="signs">1. Signs Your Fish Need More Oxygen</h2>
+      <ul>
+        <li>Fish gasping at the surface or hanging near filter outflow.</li>
+        <li>Rapid gill movement, lethargy, or sudden stress.</li>
+        <li>Bottom fish leaving the bottom and moving upward.</li>
+        <li>Fish crowding around bubbles, waterfalls, or splashing areas.</li>
+        <li>Symptoms worsening at night or early morning in planted tanks or ponds.</li>
+      </ul>
+      <p>These signs can also overlap with ammonia, nitrite, high temperature, disease, or toxins, so test the water as soon as the fish are stable.</p>
+
+      <h2 id="quick">2. Quick Emergency Fixes for Low Oxygen</h2>
+      <ol>
+        <li><strong>Create surface agitation:</strong> Point the filter output at the surface or gently stir the top layer of water.</li>
+        <li><strong>Use a cup method:</strong> Scoop tank water and pour it back from a small height to add oxygen through splashing.</li>
+        <li><strong>Add a battery air pump:</strong> This is one of the best emergency tools for power outages.</li>
+        <li><strong>Remove uneaten food and waste:</strong> Decaying matter consumes oxygen and worsens water quality.</li>
+        <li><strong>Stop feeding temporarily:</strong> Fish can usually skip food for a day, but polluted water is dangerous.</li>
+        <li><strong>Cool carefully if water is too warm:</strong> Warmer water holds less oxygen, but avoid sudden temperature shocks.</li>
+      </ol>
+
+      <h2 id="dont">3. What Not to Do</h2>
+      <ul>
+        <li>Do not dump untreated tap water into the tank.</li>
+        <li>Do not add chemicals unless you know what problem you are treating.</li>
+        <li>Do not overfeed because fish look stressed.</li>
+        <li>Do not move fish into a tiny bowl unless the main tank is toxic and you have prepared safe water.</li>
+        <li>Do not assume labyrinth fish, like bettas, can live in poor water just because they breathe air.</li>
+      </ul>
+
+      <h2 id="causes">4. Common Causes of Low Oxygen</h2>
+      <table class="ptbl">
+        <thead><tr><th>Cause</th><th>Why It Happens</th><th>Fix</th></tr></thead>
+        <tbody>
+          <tr><td>Power outage</td><td>Filter and air pump stop moving water.</td><td>Use battery air pump or manual splashing.</td></tr>
+          <tr><td>Overstocking</td><td>Too many fish consume oxygen and produce waste.</td><td>Reduce stock and upgrade tank size.</td></tr>
+          <tr><td>Warm water</td><td>Warm water holds less dissolved oxygen.</td><td>Stabilize temperature and increase aeration.</td></tr>
+          <tr><td>Dirty tank</td><td>Waste breakdown consumes oxygen.</td><td>Remove debris, test water, and improve maintenance.</td></tr>
+          <tr><td>Still bowl water</td><td>No filter, no surface movement, low water volume.</td><td>Upgrade to a filtered aquarium.</td></tr>
+        </tbody>
+      </table>
+
+      <h2 id="outage">5. How to Take Care of Fish During a Power Outage</h2>
+      <p>During an outage, keep the lid closed except when aerating manually, avoid feeding, and do not clean the filter media. If the outage lasts more than a short period, use a battery air pump. In cold rooms, wrap the tank sides with towels to slow heat loss, but keep oxygen exchange at the surface available.</p>
+      <p>For large tanks, ponds, heavily stocked aquariums, koi, goldfish, oscars, and discus, plan ahead with battery aeration or a generator because oxygen demand can be high.</p>
+
+      <h2 id="bowl">6. What If the Fish Is in a Bowl With No Oxygen?</h2>
+      <p>A bowl without filtration or surface movement is one of the hardest setups to keep oxygenated. Use frequent partial water changes with dechlorinated, temperature-matched water, feed very lightly, and move the fish to a filtered aquarium as soon as possible.</p>
+      <div class="tcta">
+        <h4>Fish in a Bowl?</h4>
+        <p>Read the bowl-specific care guide for water change frequency, feeding control, and upgrade advice.</p>
+        <button class="btn" onclick="gotoPost('fish-care-bowl')">Read Fish Bowl Care Guide →</button>
+      </div>
+
+      <h2 id="prevent">7. How to Prevent Low Oxygen Long Term</h2>
+      <ul>
+        <li>Use a filter with visible surface movement.</li>
+        <li>Keep an emergency battery air pump and spare batteries.</li>
+        <li>Avoid overstocking and overfeeding.</li>
+        <li>Keep temperature in the correct species range.</li>
+        <li>Test ammonia, nitrite, nitrate, and pH regularly.</li>
+        <li>Use live plants carefully; planted tanks still need night-time oxygen planning.</li>
+      </ul>
+
+      <h2 id="faq">Low Oxygen Fish Care FAQ</h2>
+      <h3>Can fish survive without oxygen?</h3>
+      <p>No. Fish need oxygen, usually dissolved in water. Some species can gulp air, but they still need clean, oxygenated water for long-term health.</p>
+      <h3>How long can fish live without an air pump?</h3>
+      <p>It depends on tank size, stocking, temperature, filtration, and surface movement. Some tanks can be fine without a separate air pump if the filter agitates the surface. A crowded warm tank can become dangerous much faster.</p>
+      <h3>Does changing water add oxygen?</h3>
+      <p>Partial water changes can help if done safely with dechlorinated, temperature-matched water. Splashing and surface movement add oxygen more directly.</p>
+
+      <div class="abox">
+        <div class="aav">💧</div>
+        <div>
+          <strong style="display:block;margin-bottom:2px">James Chen</strong>
+          <p style="font-size:.83rem;margin:0">Freshwater aquarium educator focused on water quality, cycling, emergency tank care, and beginner-friendly maintenance systems.</p>
+        </div>
+      </div>
+
+      <h3 style="color:var(--pd);margin:30px 0 15px">Related Guides</h3>
+      <div class="g2">
+        ${rel.map(r=>`<div class="card" style="padding:13px 16px;display:flex;gap:11px;align-items:center;cursor:pointer" onclick="gotoPost('${r.slug}')">
+          <span style="font-size:1.8rem">${r.e}</span>
+          <div><div style="font-size:.69rem;color:var(--s);font-weight:600;text-transform:uppercase">${r.cat}</div>
+          <div style="font-size:.83rem;font-weight:600;color:var(--tx);line-height:1.35">${r.title.slice(0,58)}…</div></div>
+        </div>`).join('')}
+      </div>
+    </article>
+    <aside>
+      <div class="toc">
+        <h4>In This Guide</h4>
+        ${[['signs','Warning Signs'],['quick','Quick Fixes'],['dont','What Not To Do'],['causes','Causes'],['outage','Power Outage'],['bowl','Fish Bowl'],['prevent','Prevention'],['faq','FAQ']].map(([id,l])=>`<a title="${l}" href="#${id}">${l}</a>`).join('')}
+      </div>
+      <div style="margin-top:16px;padding:16px;background:var(--bg);border-radius:14px;border:1px solid var(--bd)">
+        <h5 style="margin-bottom:10px;color:var(--pd);font-size:.82rem">Emergency Tools</h5>
+        ${[['water','Water Parameter Checker'],['tank','Tank Size Calculator'],['compat','Compatibility Checker'],['feeding','Feeding Calculator'],['planner','Aquarium Planner']].map(([tab,lbl])=>`
+        <div onclick="gotoTools('${tab}')" style="display:block;padding:7px 10px;background:#fff;border-radius:8px;border:1px solid var(--bd);margin-bottom:6px;font-size:.82rem;color:var(--tx);font-weight:500;cursor:pointer">${lbl}</div>`).join('')}
+      </div>
+    </aside>
+  </div>
+</div>`;
+}
+
+function renderBettaPost() {
+  const rel = POSTS.filter(p=>p.slug!=='betta').slice(0,4);
+  return `
+<div style="background:linear-gradient(135deg,#0F3D5E,#1B5E8B);padding:42px 22px">
+  <div class="con" style="max-width:860px">
+    <button class="back-btn" onclick="goto('blog')">← Back to Guides</button>
+    <div class="tag" style="color:rgba(255,255,255,.9);background:rgba(255,255,255,.15)">Species Guide</div>
+    <h1 style="color:#fff;margin-top:7px;margin-bottom:13px;font-size:clamp(1.4rem,3.5vw,2.2rem)">Betta Fish Care for Beginners: Tank Setup, Feeding, Diseases & More</h1>
+    <div style="display:flex;gap:16px;flex-wrap:wrap">${['✍️ Dr. Sarah Mitchell','📅 June 15, 2026','⏱ 12 min read'].map(s=>`<span style="color:rgba(255,255,255,.75);font-size:.83rem">${s}</span>`).join('')}</div>
+  </div>
+</div>
+<div class="con" style="max-width:860px;padding:32px 22px">
+  <div class="artlay">
+    <article class="artc">
+      <p>Betta fish (<em>Betta splendens</em>) are one of the most popular aquarium fish in the world. Their stunning colors and flowing fins make them a favorite for beginners and experts alike. However, bettas require specific care to truly thrive.</p>
+      <p>This complete 2026 guide covers everything from tank setup to feeding and common diseases.</p>
+
+      <h2 id="before">What You Need to Know Before Getting a Betta</h2>
+      <p>Bettas originate from shallow rice paddies and slow-moving streams of Southeast Asia. Understanding their natural habitat helps us recreate ideal conditions.</p>
+      <ul>
+        <li><strong>Lifespan:</strong> 2–5 years with proper care</li>
+        <li><strong>Adult size:</strong> 2.5–3 inches (6–7.5 cm)</li>
+        <li><strong>Temperament:</strong> Territorial, aggressive toward other bettas</li>
+        <li><strong>Special trait:</strong> Labyrinth organ — can breathe air directly, but still needs a filter!</li>
+      </ul>
+
+      <div class="tcta">
+        <h4>🔬 Check Fish Compatibility Instantly</h4>
+        <p>Wondering what fish can live with your betta? Use our free Compatibility Checker to find safe tankmates.</p>
+        <button class="btn" onclick="gotoTools('compat')">Try Compatibility Checker →</button>
+      </div>
+
+      <h2 id="tank">Best Tank Setup for Betta Fish</h2>
+      <h3>Tank Size</h3>
+      <p>The <strong>minimum tank size is 5 gallons</strong>, though 10 gallons is significantly better. Never keep bettas in vases or tiny bowls — these cause severe stress and dramatically shorten their lifespan.</p>
+
+      <h3>Water Parameters</h3>
+      <table class="ptbl">
+        <thead><tr><th>Parameter</th><th>Ideal Range</th><th>Critical Limit</th></tr></thead>
+        <tbody>
+          <tr><td>Temperature</td><td>76–82°F (24–28°C)</td><td>Never below 65°F or above 86°F</td></tr>
+          <tr><td>pH</td><td>6.5–7.5</td><td>Avoid sudden swings</td></tr>
+          <tr><td>Ammonia</td><td>0 ppm</td><td>Any detectable amount is dangerous</td></tr>
+          <tr><td>Nitrite</td><td>0 ppm</td><td>Any detectable amount is dangerous</td></tr>
+          <tr><td>Nitrate</td><td>&lt;20 ppm</td><td>Above 40 ppm causes chronic stress</td></tr>
+        </tbody>
+      </table>
+
+      <div class="tcta">
+        <h4>💧 Check Your Water Parameters Free</h4>
+        <p>Enter your readings into our Water Calculator to instantly see if your water is safe for your betta.</p>
+        <button class="btn" onclick="gotoTools('water')">Open Water Calculator →</button>
+      </div>
+
+      <h3>Filtration & Heating</h3>
+      <p>Bettas need a filter but <strong>cannot handle strong currents</strong>. Use a sponge filter or an adjustable flow filter set to low. Maintain temperature at 78°F with a reliable submersible heater.</p>
+
+      <h2 id="feeding">Feeding Your Betta</h2>
+      <p>Feed <strong>once or twice daily</strong>, only what the betta can eat in 2–3 minutes. Remove uneaten food promptly.</p>
+      <ul>
+        <li><strong>Staple:</strong> High-high-quality betta pellets (high-quality betta pellets)</li>
+        <li><strong>Treats 2–3×/week:</strong> Frozen bloodworms, daphnia, brine shrimp</li>
+        <li><strong>Tip:</strong> Skip feeding one day per week to prevent constipation</li>
+      </ul>
+
+      <h2 id="diseases">Common Betta Fish Diseases</h2>
+      <h3>Fin Rot</h3>
+      <p>Ragged, dissolving fin edges — almost always caused by poor water quality. First, do a 50% water change. If severe, treat with Maracyn or Kanaplex.</p>
+      <h3>Ich (White Spot Disease)</h3>
+      <p>Tiny white dots on body and fins. Raise temperature to 86°F + aquarium salt (1 tbsp/5 gal), or use Ich-X medication for 2 weeks.</p>
+      <h3>Velvet</h3>
+      <p>Gold or rust-colored dust, visible only with a flashlight. Highly contagious — treat immediately with Cupramine copper medication and darken the tank for 2 weeks.</p>
+
+      <h2 id="tankmates">Betta Tankmates</h2>
+      <ul>
+        <li>✅ <strong>Generally safe:</strong> Corydoras catfish, nerite snails, mystery snails</li>
+        <li>⚠️ <strong>Use caution:</strong> Small tetras (depends on individual betta)</li>
+        <li>❌ <strong>Never:</strong> Other bettas, guppies, tiger barbs (fin nippers)</li>
+      </ul>
+
+      
+
+      <div class="abox">
+        <div class="aav">👩‍🔬</div>
+        <div>
+          <strong style="display:block;margin-bottom:2px">Dr. Sarah Mitchell</strong>
+          <p style="font-size:.83rem;margin:0">Aquatic biology specialist with 12 years of experience in freshwater fishkeeping. Reviews all FishCare species guides for scientific accuracy.</p>
+        </div>
+      </div>
+
+      <h3 style="color:var(--pd);margin:30px 0 15px">📚 Related Articles</h3>
+      <div class="g2">
+        ${rel.map(r=>`<div class="card" style="padding:13px 16px;display:flex;gap:11px;align-items:center;cursor:pointer" onclick="gotoPost('${r.slug}')">
+          <span style="font-size:1.8rem">${r.e}</span>
+          <div><div style="font-size:.69rem;color:var(--s);font-weight:600;text-transform:uppercase">${r.cat}</div>
+          <div style="font-size:.83rem;font-weight:600;color:var(--tx);line-height:1.35">${r.title.slice(0,56)}…</div></div>
+        </div>`).join('')}
+      </div>
+    </article>
+    <aside>
+      <div class="toc">
+        <h4>📋 In This Guide</h4>
+        ${[['before','Before You Start'],['tank','Tank Setup'],['feeding','Feeding'],['diseases','Diseases'],['tankmates','Tankmates']].map(([id,l])=>`<a title="${l}" href="#${id}">${l}</a>`).join('')}
+      </div>
+      <div style="margin-top:16px;padding:16px;background:var(--bg);border-radius:14px;border:1px solid var(--bd)">
+        <h5 style="margin-bottom:10px;color:var(--pd);font-size:.82rem">🛠 Quick Tools</h5>
+        ${[['tank','📏 Tank Size'],['water','💧 Water Parameters'],['compat','🔬 Compatibility'],['feeding','🍽 Feeding'],['planner','🧭 Planner']].map(([tab,lbl])=>`
+        <div onclick="gotoTools('${tab}')" style="display:block;padding:7px 10px;background:#fff;border-radius:8px;border:1px solid var(--bd);margin-bottom:6px;font-size:.82rem;color:var(--tx);font-weight:500;cursor:pointer">${lbl}</div>`).join('')}
+      </div>
+    </aside>
+  </div>
+</div>`;
+}
+
+// ═══════════════════════════════════════════════
+
+// ═══════════════════════════════════════════════
+// ABOUT / CONTACT
+// ═══════════════════════════════════════════════
+function renderAbout() {
+  return `
+<div class="bhero">
+  <div class="con">
+    <div class="tag" style="color:rgba(255,255,255,.9);background:rgba(255,255,255,.15)">About FishCare</div>
+    <h1>About Us</h1>
+    <p>Practical freshwater fish care guides, tools, and education for healthier aquariums.</p>
+  </div>
+</div>
+<section class="sec sec-w">
+  <div class="con">
+    <div class="g2" style="align-items:start;gap:32px">
+      <div>
+        <div class="tag">Our Mission</div>
+        <h2 style="color:var(--pd);margin-bottom:14px">Clear fish care advice for real aquarium keepers</h2>
+        <p>FishCare was built to make fish care easier to understand. Many beginners search for broad terms like fish care, betta fish care, molly fish care, koi fish care, discus fish care, or oscar fish care and land on advice that is either too thin or too confusing. Our goal is to connect each species guide with practical tank setup, water quality, feeding, compatibility, and breeding information.</p>
+        <p>We focus on freshwater aquariums and ponds, including bettas, mollies, swordtails, zebra danios, koi, discus, angelfish, and oscars. Each guide is written to help readers act carefully, test water, avoid impulse stocking, and understand the long-term needs of their fish.</p>
+      </div>
+      <div class="card" style="padding:24px">
+        <h3 style="color:var(--pd);margin-bottom:12px">What We Cover</h3>
+        <ul style="margin-left:18px;color:var(--mu);line-height:1.8">
+          <li>Species care guides and beginner tank setup</li>
+          <li>Water parameters, cycling, filtration, and maintenance</li>
+          <li>Fish compatibility and community tank planning</li>
+          <li>Livebearer breeding for mollies and swordtails</li>
+          <li>Higher-care species such as discus, koi, and oscars</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="sec">
+  <div class="con">
+    <div class="sh"><div class="tag">Editorial Standards</div><h2>How we create care content</h2><p>FishCare pages are designed to be useful first: specific, readable, and clear about risk.</p></div>
+    <div class="g3">
+      ${[['Helpful','Every guide starts with the reader problem: tank size, water quality, feeding, tank mates, disease signs, or breeding.'],['Practical','We prefer clear setup ranges, simple maintenance steps, and warnings that prevent common beginner mistakes.'],['Transparent','Tools and guides are educational. Serious disease, pond, or water quality problems may require a qualified aquatic veterinarian or local expert.']].map(([t,d])=>`<div class="card tc"><h3>${t}</h3><p>${d}</p></div>`).join('')}
+    </div>
+  </div>
+</section>`;
+}
+
+function renderContact() {
+  return `
+<div class="bhero">
+  <div class="con">
+    <div class="tag" style="color:rgba(255,255,255,.9);background:rgba(255,255,255,.15)">Contact</div>
+    <h1>Contact FishCare</h1>
+    <p>Questions, corrections, topic requests, and partnership inquiries are welcome.</p>
+  </div>
+</div>
+<section class="sec sec-w">
+  <div class="con">
+    <div class="g2" style="gap:32px;align-items:start">
+      <form class="card" name="contact" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="bot-field" style="padding:24px" onsubmit="submitNetlifyForm(event,'contact')">
+        <input type="hidden" name="form-name" value="contact"/>
+        <input type="hidden" name="source" value="contact-page"/>
+        <p style="display:none"><label>Do not fill this out: <input name="bot-field"/></label></p>
+        <h2 style="color:var(--pd);margin-bottom:16px">Send a message</h2>
+        <div class="fg"><label for="contact-name">Name</label><input class="fc" id="contact-name" name="name" required placeholder="Your name"/></div>
+        <div class="fg"><label for="contact-email">Email</label><input class="fc" id="contact-email" name="email" type="email" required placeholder="you@fishcareai.com"/></div>
+        <div class="fg"><label for="contact-topic">Topic</label><select class="fc" id="contact-topic" name="topic"><option>Fish care question</option><option>Guide correction</option><option>Partnership</option><option>Technical issue</option></select></div>
+        <div class="fg"><label for="contact-message">Message</label><textarea class="fc" id="contact-message" name="message" required rows="6" style="resize:vertical" placeholder="Tell us what you need help with."></textarea></div>
+        <button class="btn bp" type="submit">Send Message →</button>
+      </form>
+      <div>
+        <div class="card" style="padding:24px;margin-bottom:18px">
+          <h3 style="color:var(--pd);margin-bottom:10px">Before you contact us</h3>
+          <p>For urgent fish health issues, test ammonia, nitrite, nitrate, pH, and temperature first. Include those readings in your message so the advice can be more specific.</p>
+          <button class="btn bo bsm" onclick="gotoTools('water')">Open Water Calculator</button>
+        </div>
+        <div class="card" style="padding:24px">
+          <h3 style="color:var(--pd);margin-bottom:10px">Common requests</h3>
+          <p>We often help with betta fish care, molly fish care, swordtail breeding, koi pond basics, zebra danio stocking, discus tank setup, angelfish tank mates, and oscar filtration planning.</p>
+          <button class="btn bp bsm" onclick="gotoTools('planner')">Open Aquarium Planner</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>`;
+}
+
+// ═══════════════════════════════════════════════
+// RENDER ENGINE
+// ═══════════════════════════════════════════════
+async function submitNetlifyForm(event, formName) {
+  event.preventDefault();
+  const form = event.currentTarget;
+  const data = new FormData(form);
+  data.set('form-name', formName);
+  data.set('submitted_at', new Date().toISOString());
+  const button = form.querySelector('button[type="submit"]');
+  if (button) {
+    button.disabled = true;
+    button.textContent = 'Sending...';
+  }
+  try {
+    const response = await fetch('/__forms.html', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(data).toString()
+    });
+    if (!response.ok) throw new Error('Form submission failed');
+    if (formName === 'newsletter') {
+      form.innerHTML = '<p style="color:#7DD9FF;font-weight:700;padding:10px;font-size:1rem">Thanks for subscribing. We saved your email.</p>';
+    } else {
+      form.innerHTML = '<h2 style="color:var(--pd);margin-bottom:8px">Thanks for reaching out.</h2><p>Your message has been saved. We will review it soon.</p>';
+    }
+  } catch (error) {
+    if (button) {
+      button.disabled = false;
+      button.textContent = formName === 'newsletter' ? 'Subscribe →' : 'Send Message →';
+    }
+    alert('The form could not be submitted in this preview. After Netlify deployment, submissions will appear in the Forms dashboard.');
+  }
+}
+
+function renderPage(page, sub) {
+  const el = document.getElementById('page-' + page);
+  if(page==='home')     el.innerHTML = renderHome();
+  if(page==='tools')    el.innerHTML = renderTools(sub);
+  if(page==='blog')     el.innerHTML = renderBlog();
+  if(page==='post')     el.innerHTML = renderPost(sub);
+  if(page==='about')    el.innerHTML = renderAbout();
+  if(page==='contact')  el.innerHTML = renderContact();
+}
+
+function toggleFaq(i) {
+  const a = document.getElementById('fqa'+i);
+  const q = document.getElementById('fqq'+i);
+  const arr = document.getElementById('farr'+i);
+  a.classList.toggle('hide');
+  arr.textContent = a.classList.contains('hide') ? '▾' : '▴';
+}
+
+// INIT
+(function initSite() {
+  const toolRoutes = {
+    '/tools/tank-size-calculator/': 'tank',
+    '/tools/fish-compatibility-checker/': 'compat',
+    '/tools/water-parameter-checker/': 'water',
+    '/tools/fish-feeding-calculator/': 'feeding',
+    '/tools/aquarium-planner/': 'planner'
+  };
+  const normalizedPath = window.location.pathname.endsWith('/') ? window.location.pathname : window.location.pathname + '/';
+  if(toolRoutes[normalizedPath]) {
+    goto('tools', toolRoutes[normalizedPath]);
+  } else if(window.location.hash === '#tools') {
+    goto('tools');
+  } else {
+    renderPage('home');
+  }
+})();
+</script>
+</body>
+</html>

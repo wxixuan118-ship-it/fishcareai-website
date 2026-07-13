@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Freshwater aquarium fish illustration</title>
+  <desc id="desc">A clean fallback illustration of colorful aquarium fish and aquatic plants.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e8f7ff"/>
+      <stop offset=".55" stop-color="#c8efff"/>
+      <stop offset="1" stop-color="#effff5"/>
+    </linearGradient>
+    <linearGradient id="fish1" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff7a45"/>
+      <stop offset="1" stop-color="#f43f5e"/>
+    </linearGradient>
+    <linearGradient id="fish2" x1="0" x2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="520" fill="url(#bg)"/>
+  <g opacity=".35" fill="#fff">
+    <circle cx="155" cy="116" r="15"/>
+    <circle cx="225" cy="210" r="9"/>
+    <circle cx="965" cy="96" r="13"/>
+    <circle cx="1042" cy="202" r="8"/>
+  </g>
+  <g opacity=".9">
+    <path d="M82 510c20-122 44-202 88-272 32 98 36 188 17 272z" fill="#20a66b"/>
+    <path d="M164 510c8-104 38-188 90-252 20 92 2 182-30 252z" fill="#168a5b"/>
+    <path d="M990 510c-4-110 22-198 75-270 31 94 28 183-6 270z" fill="#26a66b"/>
+    <path d="M1082 510c-4-86 12-158 48-214 28 78 29 148 7 214z" fill="#188a5b"/>
+    <ellipse cx="600" cy="506" rx="610" ry="38" fill="#d8c7a1" opacity=".55"/>
+  </g>
+  <g transform="translate(165 105)">
+    <path d="M210 165c-74-52-132-80-205-84 40 45 75 77 116 102-42 25-77 55-105 99 78 1 139-26 194-76z" fill="#fb7185"/>
+    <ellipse cx="420" cy="190" rx="230" ry="112" fill="url(#fish1)"/>
+    <path d="M594 154c58-42 121-62 192-67-20 75-66 128-139 161z" fill="#f97316"/>
+    <path d="M590 247c62 30 120 70 174 120-6-84-42-148-106-193z" fill="#ef4444" opacity=".82"/>
+    <circle cx="604" cy="176" r="24" fill="#fff"/>
+    <circle cx="611" cy="176" r="13" fill="#172554"/>
+    <path d="M224 154c96 42 193 67 291 74M220 208c98 34 194 51 288 50" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".25"/>
+  </g>
+  <g transform="translate(326 286) scale(.72)">
+    <path d="M174 120C112 82 60 61 0 59c34 35 64 61 98 80-35 22-64 48-87 83 66-1 117-23 163-62z" fill="#60a5fa"/>
+    <ellipse cx="340" cy="142" rx="185" ry="82" fill="url(#fish2)"/>
+    <path d="M486 112c44-31 93-47 146-51-15 56-50 96-105 122z" fill="#3b82f6"/>
+    <circle cx="492" cy="131" r="19" fill="#fff"/>
+    <circle cx="498" cy="131" r="10" fill="#0f172a"/>
+  </g>
+</svg>

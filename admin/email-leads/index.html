@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="robots" content="noindex,nofollow"/>
+<title>Email Leads Backend | FishCare AI</title>
+<style>
+:root{--p:#1B5E8B;--pd:#0F3D5E;--s:#2E9E7D;--bg:#F0F7FF;--tx:#1A2B3C;--mu:#5A7A94;--bd:#D0E4F0;--wn:#F39C12}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,'Segoe UI',Arial,sans-serif;background:var(--bg);color:var(--tx);line-height:1.6}
+a{color:var(--p);font-weight:700}
+.con{max-width:980px;margin:0 auto;padding:42px 22px}
+.hero{background:linear-gradient(135deg,var(--pd),var(--p));color:#fff;padding:44px 22px}
+.hero .con{padding:0}
+.hero p{color:rgba(255,255,255,.84)}
+h1{font-size:2.2rem;margin-bottom:10px}
+h2{color:var(--pd);font-size:1.35rem;margin-bottom:12px}
+p{color:var(--mu);margin-bottom:12px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:24px}
+.card{background:#fff;border:1px solid var(--bd);border-radius:10px;padding:22px;box-shadow:0 4px 14px rgba(27,94,139,.09)}
+.tag{display:inline-block;background:rgba(46,158,125,.12);color:var(--s);border-radius:999px;padding:4px 10px;font-size:.78rem;font-weight:800;margin-bottom:10px}
+ol,ul{padding-left:22px;color:var(--mu)}
+li{margin-bottom:8px}
+code{background:#eef7ff;border:1px solid var(--bd);border-radius:6px;padding:2px 6px;color:var(--pd)}
+.warn{border-left:4px solid var(--wn)}
+@media(max-width:760px){.grid{grid-template-columns:1fr}}
+</style>
+<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260713-checklist-table-fix"/>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1L92P7VP30"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-1L92P7VP30');
+</script>
+</head>
+<body>
+  <header class="hero">
+    <div class="con">
+      <div class="tag">Private Backend</div>
+      <h1>Email Leads Backend</h1>
+      <p>This page documents how FishCare AI collects newsletter emails and contact form messages after deployment.</p>
+    </div>
+  </header>
+  <main class="con">
+    <div class="grid">
+      <section class="card">
+        <h2>Collected Forms</h2>
+        <ul>
+          <li><strong>newsletter</strong>: homepage email subscriptions.</li>
+          <li><strong>contact</strong>: contact page messages and email addresses.</li>
+        </ul>
+        <p>Both forms include a honeypot spam field and a submission timestamp.</p>
+      </section>
+      <section class="card">
+        <h2>Where to View Leads</h2>
+        <ol>
+          <li>Open your Netlify project dashboard.</li>
+          <li>Go to <strong>Forms</strong>.</li>
+          <li>Choose <code>newsletter</code> or <code>contact</code>.</li>
+          <li>Export submissions as CSV when needed.</li>
+        </ol>
+      </section>
+      <section class="card">
+        <h2>Recommended Notifications</h2>
+        <p>In Netlify, add an email notification so every new lead is forwarded to your inbox.</p>
+        <p>Path: <strong>Project configuration → Notifications → Form submission notifications</strong>.</p>
+      </section>
+      <section class="card warn">
+        <h2>Privacy Note</h2>
+        <p>This admin page is marked <code>noindex,nofollow</code> and blocked in robots.txt. It should not be used as a public lead viewer. Actual submissions live in Netlify Forms.</p>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
