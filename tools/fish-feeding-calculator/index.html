@@ -316,7 +316,7 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
 .back-btn{display:inline-flex;align-items:center;gap:6px;color:rgba(255,255,255,.75);font-size:.85rem;cursor:pointer;border:none;background:none;margin-bottom:14px}
 .back-btn:hover{color:#fff}
 </style>
-<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260713-checklist-table-fix"/>
+<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260720-tool-seo"/>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1L92P7VP30"></script>
 <script>
@@ -838,29 +838,57 @@ function toolLandingData(tab) {
 
 function renderToolSeoContent(tab) {
   const d = toolLandingData(tab);
+  const seo = {
+    tank: {
+      problem:'This tool solves the problem of choosing the right aquarium capacity and checking whether a fish tank has enough long-term space. It supports the keyword groups water tank calculator, tank gallon calculator, aquarium calculator, aquarium volume calculator, aquarium size calculator, fish tank volume calculator, fish tank dimensions, and how many fish in a tank calculator.',
+      inputs:'Prepare the inside length, width and water height, tank shape, fish species, number of animals, and whether substrate or decorations displace water.',
+      steps:'Measure the tank inside the glass, select the shape, enter dimensions and livestock, then review gallons, litres, minimum size and stocking notes.',
+      use:'Use the result to compare 5, 10, 20, 29, 40, 50, 75 and 90 gallon tank dimensions, plan equipment, estimate usable water volume, and choose a safer upgrade size.',
+      bad:'Results are weaker when outside dimensions are entered, adult size is ignored, water displacement is omitted, or a simple fish-per-gallon rule is used for territorial or schooling fish.',
+      diff:'It calculates capacity and space. The Compatibility Checker evaluates tank mates, while the Aquarium Planner creates a complete equipment and cycling plan.'
+    },
+    compat: {
+      problem:'This tool solves the problem of deciding which fish can share an aquarium before purchase. It targets fish compatibility checker, fish compatibility chart, aquarium fish stocking calculator, saltwater fish compatibility chart, marine fish compatibility chart, freshwater fish compatibility chart, and what fish can go together.',
+      inputs:'Prepare both species, adult sizes, tank volume, temperature, pH, hardness, group requirements and any shrimp, snails or fry already in the aquarium.',
+      steps:'Select both fish, enter tank size and water conditions, compare aggression and temperature notes, then read the reasons behind the compatibility rating.',
+      use:'Use the result to build peaceful freshwater combinations, review marine fish compatibility, compare 15 or 20 gallon options, and plan caves, plants or visual breaks.',
+      bad:'Compatibility is less certain in an overcrowded tank, during breeding, with unusually aggressive individuals, or when users compare juvenile fish instead of adult fish.',
+      diff:'It evaluates behavior and environmental overlap. Tank Size Calculator evaluates capacity, Water Parameter Checker evaluates measurements, and Planner coordinates the setup.'
+    },
+    water: {
+      problem:'This tool solves the problem of interpreting aquarium test results instead of guessing why fish are stressed. It supports fish tank water test kit, aquarium water test, pH test kit fish tank, aquarium water quality test kit, freshwater test kit and saltwater aquarium test kit searches.',
+      inputs:'Prepare current pH, ammonia, nitrite, nitrate, temperature, hardness and, for marine tanks, salinity. Use fresh test-kit readings rather than estimates.',
+      steps:'Test the water, enter each reading, select the aquarium context, review the overall score and follow the parameter-specific action notes.',
+      use:'Use the result to decide whether to perform a partial water change, improve aeration, reduce feeding, inspect the filter or delay adding fish.',
+      bad:'Results can be misleading when kits are expired, samples are contaminated, salinity is ignored, or users change several parameters at the same time.',
+      diff:'It interprets current water chemistry. A test kit takes the measurement, the Feeding Calculator reduces waste, and the Tank Size Calculator checks space.'
+    },
+    feeding: {
+      problem:'This tool solves the problem of deciding how much and how often to feed fish without creating leftover food and water-quality problems. It targets fish feeding calculator, how much to feed fish, aquarium feeding schedule, fish food calculator, betta feeding calculator, guppy feeding schedule and shrimp feeding calculator searches.',
+      inputs:'Prepare species, number of animals, age or life stage, meals per day, food type and whether shrimp, snails or strong feeders share the tank.',
+      steps:'Choose the animal, enter quantity and life stage, select food and meals, follow the conservative portion guidance, and remove leftovers.',
+      use:'Use the result as a daily feeding routine, fry-feeding schedule, vacation plan, or comparison between pellets, flakes, frozen food and live food.',
+      bad:'Estimates are less accurate when fish vary greatly in size, strong feeders steal food, automatic feeders dispense incorrectly, or users treat the result as an exact gram measurement.',
+      diff:'It plans portions. Water Parameter Checker shows the water consequence, Compatibility Checker identifies competition, and Planner covers the entire aquarium.'
+    },
+    planner: {
+      problem:'This tool solves the problem of turning an aquarium idea into an equipment, cycling, stocking and maintenance checklist. It targets aquarium planner, fish tank planner, aquarium design, aquascape design, aquarium planning, freshwater tank design and saltwater aquarium planner searches.',
+      inputs:'Prepare tank type, capacity, freshwater or saltwater goal, target species, plants, substrate, decorations, budget and existing equipment.',
+      steps:'Choose aquarium type and volume, select the goal, review equipment and stocking guidance, then complete cycling before adding livestock.',
+      use:'Use the result as a shopping list, first aquarium checklist, planted tank plan, shrimp setup outline, freshwater design brief or saltwater setup outline.',
+      bad:'Results are weaker when tank volume is guessed, adult size is ignored, marine salinity is omitted, or the checklist is treated as permission to stock immediately.',
+      diff:'It coordinates the whole setup. Tank Size Calculator focuses on capacity, Compatibility Checker focuses on tank mates, Water Checker focuses on readings, and Feeding Calculator focuses on food.'
+    }
+  }[tab] || {};
   return `
-  <section style="margin-top:30px">
+  <section class="tool-seo-content" aria-labelledby="tool-seo-title">
     <div class="g2">
-      <div class="card tc">
-        <div class="tag">${d.keyword}</div>
-        <h2>What this tool gives you</h2>
-        <p>${d.promise}</p>
-        <ul style="margin:12px 0 0 18px;color:var(--mu);line-height:1.8">
-          ${d.bestFor.map(x=>`<li>${x}</li>`).join('')}
-        </ul>
-      </div>
-      <div class="card tc">
-        <div class="tag">Related guides</div>
-        <h2>Read next</h2>
-        <p>Use the calculator result as a starting point, then confirm details in the species or setup guide.</p>
-        <div style="display:flex;flex-direction:column;gap:8px;margin-top:12px">
-          ${d.links.map(([label,href])=>`<a class="btn bo bsm" style="justify-content:flex-start" href="${href}">${label} →</a>`).join('')}
-        </div>
-      </div>
+      <div class="card tc"><div class="tag">${d.keyword}</div><h2 id="tool-seo-title">What problem does this tool solve?</h2><p>${seo.problem}</p><h3>What inputs do you need?</h3><p>${seo.inputs}</p><h3>How to use it</h3><p>${seo.steps}</p></div>
+      <div class="card tc"><div class="tag">Tool result</div><h2>How can you use the result?</h2><p>${seo.use}</p><h3>When can results be less accurate?</h3><p>${seo.bad}</p><h3>How is it different?</h3><p>${seo.diff}</p><div style="margin-top:14px"><strong>Related guides</strong><div style="display:flex;flex-direction:column;gap:8px;margin-top:10px">${d.links.map(([label,href])=>`<a class="btn bo bsm" style="justify-content:flex-start" href="${href}">${label} →</a>`).join('')}</div></div></div>
     </div>
+    <div class="card tc tool-faq"><div class="tag">FAQ</div><h2>Frequently asked questions</h2><details><summary>Is the result a guarantee?</summary><p>No. It is an educational planning aid. Adult size, individual behavior, maintenance quality, equipment condition and water stability still matter.</p></details><details><summary>Should I use the tool before buying fish?</summary><p>Yes. Planning first gives you time to cycle the tank, buy suitable equipment and choose livestock that fits the long-term setup.</p></details><details><summary>What if the result conflicts with a shop recommendation?</summary><p>Compare adult size, water requirements and the evidence behind each recommendation. When uncertain, choose more space and slower stocking.</p></details></div>
   </section>`;
 }
-
 function switchTab(tab) {
   if(tab === 'ai') tab = 'tank';
   currentToolTab = tab;
