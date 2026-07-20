@@ -1,0 +1,62 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/partners/(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, follow" }
+      ]
+    },
+    {
+      "source": "/admin/(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
+      ]
+    },
+    {
+      "source": "/thank-you/(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
+      ]
+    }
+  ],
+  "redirects": [
+    { "source": "/encyclopedia", "destination": "/wiki/", "permanent": true },
+    { "source": "/encyclopedia/", "destination": "/wiki/", "permanent": true },
+    { "source": "/wiki/betta-fish/", "destination": "/guides/betta-fish-care/", "permanent": true },
+    { "source": "/wiki/goldfish/", "destination": "/guides/goldfish-care/", "permanent": true },
+    { "source": "/wiki/guppy/", "destination": "/guides/guppy-fish-care/", "permanent": true },
+    { "source": "/wiki/angelfish/", "destination": "/guides/angelfish-care/", "permanent": true },
+    { "source": "/wiki/molly/", "destination": "/guides/molly-fish-care/", "permanent": true },
+    { "source": "/wiki/oscar/", "destination": "/guides/oscar-fish-care/", "permanent": true },
+    { "source": "/wiki/zebra-danio/", "destination": "/guides/zebra-danio-fish-care/", "permanent": true },
+    { "source": "/wiki/discus/", "destination": "/guides/discus-fish-care-requirements/", "permanent": true },
+    { "source": "/wiki/swordtail/", "destination": "/guides/swordtail-fish-care-and-breeding/", "permanent": true },
+    { "source": "/wiki/koi/", "destination": "/guides/koi-fish-care/", "permanent": true },
+    { "source": "/guides/guppies/", "destination": "/guides/guppy-fish-care/", "permanent": true },
+    { "source": "/guides/betta-care-guide/", "destination": "/guides/betta-fish-care/", "permanent": true },
+    { "source": "/guides/guppy-care-guide/", "destination": "/guides/guppy-fish-care/", "permanent": true },
+    { "source": "/guides/goldfish-care-guide/", "destination": "/guides/goldfish-care/", "permanent": true },
+    { "source": "/guides/discus-care-guide/", "destination": "/guides/discus-fish-care-requirements/", "permanent": true },
+    { "source": "/guides/angelfish-care-guide/", "destination": "/guides/angelfish-care/", "permanent": true },
+    { "source": "/guides/swordtail-care-guide/", "destination": "/guides/swordtail-fish-care-and-breeding/", "permanent": true },
+    { "source": "/guides/molly-care-guide/", "destination": "/guides/molly-fish-care/", "permanent": true },
+    { "source": "/guides/oscar-care-guide/", "destination": "/guides/oscar-fish-care/", "permanent": true },
+    { "source": "/FishCare.html", "destination": "/", "permanent": true },
+    { "source": "/guides/petco-fish-care/", "destination": "/guides/", "permanent": true }
+  ]
+}
