@@ -316,7 +316,7 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
 .back-btn{display:inline-flex;align-items:center;gap:6px;color:rgba(255,255,255,.75);font-size:.85rem;cursor:pointer;border:none;background:none;margin-bottom:14px}
 .back-btn:hover{color:#fff}
 </style>
-<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260720-tool-seo"/>
+<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260723-mobile-ux"/>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -334,7 +334,7 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
 }
 </script>
 <meta name="google-adsense-account" content="ca-pub-6697313643773879">
-<script defer src="/assets/site-compliance.js"></script>
+<script defer src="/assets/site-compliance.js?v=20260723-platforms"></script>
 </head>
 <body class="tools-dark-page">
 
@@ -1127,7 +1127,7 @@ function renderCompat() {
 <div style="margin-bottom:16px">
   <p style="font-size:.78rem;color:var(--mu);margin-bottom:6px">Popular fish:</p>
   <div style="display:flex;flex-wrap:wrap;gap:5px">
-    ${FISH_DB.slice(0,8).map(f=>`<button onclick="addFish(${f.id})" style="background:#fff;border:1.5px solid var(--bd);border-radius:20px;padding:4px 11px;font-size:.79rem;cursor:pointer;color:var(--tx)">${f.e} ${f.name}</button>`).join('')}
+    ${FISH_DB.slice(0,8).map(f=>`<button onclick="addFish(${f.id})" style="background:#fff;border:1.5px solid var(--bd);border-radius:22px;min-height:44px;padding:8px 13px;font-size:.79rem;cursor:pointer;color:var(--tx)">${f.e} ${f.name}</button>`).join('')}
   </div>
 </div>
 <div class="ftags" id="fish-tags"></div>

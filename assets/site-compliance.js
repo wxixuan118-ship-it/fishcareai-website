@@ -3,6 +3,9 @@
 
   var CONSENT_KEY = 'fishcare-consent-v1';
   var ADSENSE_CLIENT = 'ca-pub-6697313643773879';
+  // Add the public Microsoft Clarity project ID here after creating the project.
+  // Clarity is optional analytics and loads only after consent.
+  var CLARITY_PROJECT_ID = 'xqyo3mgsli';
 
   window.dataLayer = window.dataLayer || [];
   window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
@@ -30,6 +33,18 @@
     loadScript('https://www.googletagmanager.com/gtag/js?id=G-1L92P7VP30', 'fishcare-ga');
     window.gtag('js', new Date());
     window.gtag('config', 'G-1L92P7VP30', { anonymize_ip: true });
+    enableClarity();
+  }
+
+  function enableClarity() {
+    if (!CLARITY_PROJECT_ID || document.getElementById('fishcare-clarity')) return;
+    window.clarity = window.clarity || function () {
+      (window.clarity.q = window.clarity.q || []).push(arguments);
+    };
+    loadScript(
+      'https://www.clarity.ms/tag/' + encodeURIComponent(CLARITY_PROJECT_ID),
+      'fishcare-clarity'
+    );
   }
 
   function enableAds() {
@@ -128,9 +143,34 @@
     });
   }
 
+  function ensureContentSchema() {
+    if (document.querySelector('script[type="application/ld+json"]')) return;
+    if (!/^\/(guides|wiki)\//.test(window.location.pathname)) return;
+
+    var canonical = document.querySelector('link[rel="canonical"]');
+    var description = document.querySelector('meta[name="description"]');
+    var headline = document.querySelector('h1');
+    if (!canonical || !headline) return;
+
+    var schema = {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: headline.textContent.trim(),
+      description: description ? description.content : '',
+      mainEntityOfPage: canonical.href,
+      author: { '@type': 'Organization', name: 'FishCare AI Editorial Team' },
+      publisher: { '@type': 'Organization', name: 'FishCare AI', url: 'https://www.fishcareai.com/' }
+    };
+    var script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(schema);
+    document.head.appendChild(script);
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     setupMobileNavigation();
     addLegalLinks();
+    ensureContentSchema();
     setupConsentBanner();
   });
 })();
