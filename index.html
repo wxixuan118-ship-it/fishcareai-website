@@ -314,7 +314,7 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
 .back-btn{display:inline-flex;align-items:center;gap:6px;color:rgba(255,255,255,.75);font-size:.85rem;cursor:pointer;border:none;background:none;margin-bottom:14px}
 .back-btn:hover{color:#fff}
 </style>
-<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260720-tool-seo"/>
+<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260723-search-color"/>
 <meta name="google-adsense-account" content="ca-pub-6697313643773879">
 <script defer src="/assets/site-compliance.js"></script>
 </head>
@@ -558,6 +558,10 @@ function getStatus(p, v) {
   return 'bad';
 }
 
+function escapeHTML(value) {
+  return String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+}
+
 function checkCompat(list) {
   const out = [];
   for(let i=0;i<list.length;i++) for(let j=i+1;j<list.length;j++) {
@@ -611,8 +615,8 @@ function renderHome() {
     <h1>Clear aquarium care guidance for healthier tanks.</h1>
     <p>Find practical answers for fish care, algae control, shrimp and snail care, tank setup, water quality, feeding, compatibility, and aquarium decoration.</p>
     <div class="hsrch">
-      <input id="sq" placeholder="Search fish, algae, shrimp, snails, tank setup..." onkeydown="if(event.key==='Enter')goto('blog')"/>
-      <button onclick="goto('blog')">Search →</button>
+      <input id="sq" placeholder="Search fish, algae, shrimp, snails, tank setup..." onkeydown="if(event.key==='Enter'){event.preventDefault();searchHome()}"/>
+      <button onclick="searchHome()">Search →</button>
     </div>
     <div class="hstats">
       ${[['61','Aquarium Profiles'],['5','Free Tools'],['30+','Care Guides'],['Weekly','Updates']].map(([v,l])=>`<div class="hstat"><strong>${v}</strong><span>${l}</span></div>`).join('')}
@@ -1186,12 +1190,23 @@ function initCompatReset() {
 // BLOG
 // ═══════════════════════════════════════════════
 let blogCat = 'All';
+let blogQuery = '';
 const BCATS = ['All','Species Guide','Getting Started','Water Quality','Tank Planning','Algae Control','Invertebrates','Amphibians','Decoration'];
 
+function searchHome() {
+  const input = document.getElementById('sq');
+  blogQuery = input ? input.value.trim() : '';
+  blogCat = 'All';
+  goto('blog');
+}
+
 function renderBlog() {
-  const posts = blogCat==='All'?POSTS:POSTS.filter(p=>p.cat===blogCat);
+  const query = blogQuery.toLowerCase();
+  const categoryPosts = blogCat==='All'?POSTS:POSTS.filter(p=>p.cat===blogCat);
+  const posts = query ? categoryPosts.filter(p => `${p.title} ${p.exc} ${p.cat}`.toLowerCase().includes(query)) : categoryPosts;
   const featured = POSTS[0];
   const featuredImg = blogImage(featured.slug);
+  const safeQuery = escapeHTML(blogQuery);
   return `
 <div class="bhero">
   <div class="con">
@@ -1204,7 +1219,8 @@ function renderBlog() {
   <div class="bfilts">
     ${BCATS.map(c=>`<button class="fbtn${blogCat===c?' act':''}" onclick="setBlogCat('${c}')">${c}</button>`).join('')}
   </div>
-  ${blogCat==='All'?`
+  ${query?`<div class="search-summary" role="status"><strong>${posts.length}</strong> result${posts.length===1?'':'s'} for “${safeQuery}” <button onclick="clearBlogSearch()">Clear search</button></div>`:''}
+  ${blogCat==='All'&&!query?`
   <a title="${featured.title}" class="card feature-card" href="${staticGuideHref(featured.slug)}" style="display:grid;grid-template-columns:1fr 1.3fr;overflow:hidden;margin-bottom:26px;cursor:pointer;color:inherit">
     <div class="aimg" style="height:auto;min-height:245px"><img src="${featuredImg[0]}" alt="${featuredImg[1]}" loading="lazy" onerror="this.onerror=null;this.src='/assets/freshwater-fish-care-hero-optimized.jpg';"></div>
     <div style="padding:26px 22px">
@@ -1217,17 +1233,19 @@ function renderBlog() {
   </a>`:''
   }
   <div class="g3">
-    ${(blogCat==='All'?posts.slice(1):posts).map(p=>`
+    ${(blogCat==='All'&&!query?posts.slice(1):posts).map(p=>`
     <a title="${p.title}" class="card ac" href="${staticGuideHref(p.slug)}" onclick="${staticGuideHref(p.slug)==='#' ? `event.preventDefault();gotoPost('${p.slug}')` : ''}" style="cursor:pointer;color:inherit">
       <div class="aimg"><img src="${blogImage(p.slug)[0]}" alt="${blogImage(p.slug)[1]}" loading="lazy" onerror="this.onerror=null;this.src='/assets/freshwater-fish-care-hero-optimized.jpg';"></div>
       <div class="cb"><div class="acat">${p.cat}</div><h3>${p.title}</h3><p>${p.exc.slice(0,105)}…</p>
       <div class="amet"><span>📅 ${p.date}</span><span>⏱ ${p.time}</span></div></div>
     </a>`).join('')}
   </div>
+  ${posts.length===0?`<div class="card" style="text-align:center;padding:36px"><h2>No matching guides yet</h2><p>Try a fish name, “tank setup,” “water,” “algae,” “shrimp,” or “snail.”</p><button class="btn bp" onclick="clearBlogSearch()">View all guides</button></div>`:''}
 </div>`;
 }
 
 function setBlogCat(c) { blogCat=c; document.getElementById('page-blog').innerHTML=renderBlog(); }
+function clearBlogSearch() { blogQuery=''; document.getElementById('page-blog').innerHTML=renderBlog(); }
 
 // ═══════════════════════════════════════════════
 // POST

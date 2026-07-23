@@ -311,6 +311,36 @@ a{color:#7DEBFF}
 }
 .wiki-search input::placeholder,input::placeholder,textarea::placeholder{color:rgba(234,251,255,.55)!important}
 
+/* The homepage search uses a light field, so it needs dark input text even
+   though most controls in the glass theme sit on dark surfaces. */
+.seohero .hsrch input{
+  color:#071827!important;
+  caret-color:#071827!important;
+  -webkit-text-fill-color:#071827!important;
+}
+.seohero .hsrch input::placeholder{
+  color:#526779!important;
+  -webkit-text-fill-color:#526779!important;
+  opacity:1;
+}
+.search-summary{
+  margin:18px 0 22px;
+  padding:12px 16px;
+  border:1px solid rgba(125,235,255,.26);
+  border-radius:14px;
+  background:rgba(7,44,68,.72);
+  color:#EAFBFF;
+}
+.search-summary button{
+  margin-left:10px;
+  padding:5px 10px;
+  color:#071827!important;
+  background:#EAFBFF!important;
+  border:0;
+  border-radius:999px;
+  font-weight:700;
+}
+
 .wiki-empty-cta{
   margin:0 auto!important;
   padding:44px 24px!important;
