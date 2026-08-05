@@ -1,5 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".",
   "headers": [
     {
       "source": "/(.*)",
@@ -34,7 +36,21 @@
       ]
     }
   ],
+  "rewrites": [
+    {
+      "source": "/species/:path*",
+      "destination": "https://species-app.vercel.app/species/:path*"
+    }
+  ],
   "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "fishcareai.com" }],
+      "destination": "https://www.fishcareai.com/:path*",
+      "permanent": true
+    },
+    { "source": "/species/betta-fish/care-guide", "destination": "/guides/betta-fish-care/", "permanent": true },
+    { "source": "/species/betta-fish/care-guide/", "destination": "/guides/betta-fish-care/", "permanent": true },
     { "source": "/encyclopedia", "destination": "/wiki/", "permanent": true },
     { "source": "/encyclopedia/", "destination": "/wiki/", "permanent": true },
     { "source": "/wiki/betta-fish/", "destination": "/guides/betta-fish-care/", "permanent": true },
