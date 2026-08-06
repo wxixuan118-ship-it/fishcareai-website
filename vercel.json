@@ -6,33 +6,54 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Frame-Options", "value": "DENY" },
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
       ]
     },
     {
       "source": "/assets/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     },
     {
       "source": "/partners/(.*)",
       "headers": [
-        { "key": "X-Robots-Tag", "value": "noindex, follow" }
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
       ]
     },
     {
       "source": "/admin/(.*)",
       "headers": [
-        { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
       ]
     },
     {
       "source": "/thank-you/(.*)",
       "headers": [
-        { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
       ]
     }
   ],
@@ -48,35 +69,460 @@
   ],
   "redirects": [
     {
+      "source": "/wiki/black-skirt-tetra/",
+      "destination": "/species/black-skirt-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/black-skirt-tetra",
+      "destination": "/species/black-skirt-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/bristlenose-pleco/",
+      "destination": "/species/bristlenose-pleco",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/bristlenose-pleco",
+      "destination": "/species/bristlenose-pleco",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/cardinal-tetra/",
+      "destination": "/species/cardinal-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/cardinal-tetra",
+      "destination": "/species/cardinal-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/clown-loach/",
+      "destination": "/species/clown-loach",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/clown-loach",
+      "destination": "/species/clown-loach",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/dwarf-gourami/",
+      "destination": "/species/dwarf-gourami",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/dwarf-gourami",
+      "destination": "/species/dwarf-gourami",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/german-blue-ram/",
+      "destination": "/species/german-blue-ram",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/german-blue-ram",
+      "destination": "/species/german-blue-ram",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/jack-dempsey/",
+      "destination": "/species/jack-dempsey",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/jack-dempsey",
+      "destination": "/species/jack-dempsey",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/kribensis/",
+      "destination": "/species/kribensis",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/kribensis",
+      "destination": "/species/kribensis",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/neon-tetra/",
+      "destination": "/species/neon-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/neon-tetra",
+      "destination": "/species/neon-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/platy/",
+      "destination": "/species/platy",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/platy",
+      "destination": "/species/platy",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/clownfish/",
+      "destination": "/species/ocellaris-clownfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/clownfish",
+      "destination": "/species/ocellaris-clownfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/corydoras/",
+      "destination": "/species/bronze-cory",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/corydoras",
+      "destination": "/species/bronze-cory",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/bala-shark/",
+      "destination": "/species/bala-shark",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/bala-shark",
+      "destination": "/species/bala-shark",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/blood-parrot-cichlid/",
+      "destination": "/species/blood-parrot-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/blood-parrot-cichlid",
+      "destination": "/species/blood-parrot-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/celestial-pearl-danio/",
+      "destination": "/species/celestial-pearl-danio",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/celestial-pearl-danio",
+      "destination": "/species/celestial-pearl-danio",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/cherry-barb/",
+      "destination": "/species/cherry-barb",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/cherry-barb",
+      "destination": "/species/cherry-barb",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/convict-cichlid/",
+      "destination": "/species/convict-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/convict-cichlid",
+      "destination": "/species/convict-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/endlers-livebearer/",
+      "destination": "/species/endlers-livebearer",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/endlers-livebearer",
+      "destination": "/species/endlers-livebearer",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/firemouth-cichlid/",
+      "destination": "/species/firemouth-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/firemouth-cichlid",
+      "destination": "/species/firemouth-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/flowerhorn-cichlid/",
+      "destination": "/species/flowerhorn-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/flowerhorn-cichlid",
+      "destination": "/species/flowerhorn-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/harlequin-rasbora/",
+      "destination": "/species/harlequin-rasbora",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/harlequin-rasbora",
+      "destination": "/species/harlequin-rasbora",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/kuhli-loach/",
+      "destination": "/species/kuhli-loach",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/kuhli-loach",
+      "destination": "/species/kuhli-loach",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/moorish-idol/",
+      "destination": "/species/moorish-idol",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/moorish-idol",
+      "destination": "/species/moorish-idol",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/otocinclus/",
+      "destination": "/species/otocinclus",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/otocinclus",
+      "destination": "/species/otocinclus",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/pearl-gourami/",
+      "destination": "/species/pearl-gourami",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/pearl-gourami",
+      "destination": "/species/pearl-gourami",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/pictus-catfish/",
+      "destination": "/species/pictus-catfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/pictus-catfish",
+      "destination": "/species/pictus-catfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/rainbow-shark/",
+      "destination": "/species/rainbow-shark",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/rainbow-shark",
+      "destination": "/species/rainbow-shark",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/rummy-nose-tetra/",
+      "destination": "/species/rummy-nose-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/rummy-nose-tetra",
+      "destination": "/species/rummy-nose-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/tiger-barb/",
+      "destination": "/species/tiger-barb",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/tiger-barb",
+      "destination": "/species/tiger-barb",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/white-cloud-mountain-minnow/",
+      "destination": "/species/white-cloud-mountain-minnow",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/white-cloud-mountain-minnow",
+      "destination": "/species/white-cloud-mountain-minnow",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/rainbow-fish/",
+      "destination": "/species/rainbow-fish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/rainbow-fish",
+      "destination": "/species/rainbow-fish",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
-      "has": [{ "type": "host", "value": "fishcareai.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "fishcareai.com"
+        }
+      ],
       "destination": "https://www.fishcareai.com/:path*",
       "permanent": true
     },
-    { "source": "/species/betta-fish/care-guide", "destination": "/guides/betta-fish-care/", "permanent": true },
-    { "source": "/species/betta-fish/care-guide/", "destination": "/guides/betta-fish-care/", "permanent": true },
-    { "source": "/encyclopedia", "destination": "/wiki/", "permanent": true },
-    { "source": "/encyclopedia/", "destination": "/wiki/", "permanent": true },
-    { "source": "/wiki/betta-fish/", "destination": "/guides/betta-fish-care/", "permanent": true },
-    { "source": "/wiki/goldfish/", "destination": "/guides/goldfish-care/", "permanent": true },
-    { "source": "/wiki/guppy/", "destination": "/guides/guppy-fish-care/", "permanent": true },
-    { "source": "/wiki/angelfish/", "destination": "/guides/angelfish-care/", "permanent": true },
-    { "source": "/wiki/molly/", "destination": "/guides/molly-fish-care/", "permanent": true },
-    { "source": "/wiki/oscar/", "destination": "/guides/oscar-fish-care/", "permanent": true },
-    { "source": "/wiki/zebra-danio/", "destination": "/guides/zebra-danio-fish-care/", "permanent": true },
-    { "source": "/wiki/discus/", "destination": "/guides/discus-fish-care-requirements/", "permanent": true },
-    { "source": "/wiki/swordtail/", "destination": "/guides/swordtail-fish-care-and-breeding/", "permanent": true },
-    { "source": "/wiki/koi/", "destination": "/guides/koi-fish-care/", "permanent": true },
-    { "source": "/guides/guppies/", "destination": "/guides/guppy-fish-care/", "permanent": true },
-    { "source": "/guides/betta-care-guide/", "destination": "/guides/betta-fish-care/", "permanent": true },
-    { "source": "/guides/guppy-care-guide/", "destination": "/guides/guppy-fish-care/", "permanent": true },
-    { "source": "/guides/goldfish-care-guide/", "destination": "/guides/goldfish-care/", "permanent": true },
-    { "source": "/guides/discus-care-guide/", "destination": "/guides/discus-fish-care-requirements/", "permanent": true },
-    { "source": "/guides/angelfish-care-guide/", "destination": "/guides/angelfish-care/", "permanent": true },
-    { "source": "/guides/swordtail-care-guide/", "destination": "/guides/swordtail-fish-care-and-breeding/", "permanent": true },
-    { "source": "/guides/molly-care-guide/", "destination": "/guides/molly-fish-care/", "permanent": true },
-    { "source": "/guides/oscar-care-guide/", "destination": "/guides/oscar-fish-care/", "permanent": true },
-    { "source": "/FishCare.html", "destination": "/", "permanent": true },
-    { "source": "/guides/petco-fish-care/", "destination": "/guides/", "permanent": true }
+    {
+      "source": "/species/betta-fish/care-guide",
+      "destination": "/guides/betta-fish-care/",
+      "permanent": true
+    },
+    {
+      "source": "/species/betta-fish/care-guide/",
+      "destination": "/guides/betta-fish-care/",
+      "permanent": true
+    },
+    {
+      "source": "/encyclopedia",
+      "destination": "/species/",
+      "permanent": true
+    },
+    {
+      "source": "/encyclopedia/",
+      "destination": "/species/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/",
+      "destination": "/species/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki",
+      "destination": "/species/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/betta-fish/",
+      "destination": "/guides/betta-fish-care/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/goldfish/",
+      "destination": "/guides/goldfish-care/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/guppy/",
+      "destination": "/guides/guppy-fish-care/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/angelfish/",
+      "destination": "/guides/angelfish-care/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/molly/",
+      "destination": "/guides/molly-fish-care/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/oscar/",
+      "destination": "/guides/oscar-fish-care/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/zebra-danio/",
+      "destination": "/guides/zebra-danio-fish-care/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/discus/",
+      "destination": "/guides/discus-fish-care-requirements/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/swordtail/",
+      "destination": "/guides/swordtail-fish-care-and-breeding/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/koi/",
+      "destination": "/guides/koi-fish-care/",
+      "permanent": true
+    },
+    {
+      "source": "/guides/guppies/",
+      "destination": "/guides/guppy-fish-care/",
+      "permanent": true
+    },
+    {
+      "source": "/guides/betta-care-guide/",
+      "destination": "/guides/betta-fish-care/",
+      "permanent": true
+    },
+    {
+      "source": "/guides/guppy-care-guide/",
+      "destination": "/guides/guppy-fish-care/",
+      "permanent": true
+    },
+    {
+      "source": "/guides/goldfish-care-guide/",
+      "destination": "/guides/goldfish-care/",
+      "permanent": true
+    },
+    {
+      "source": "/guides/discus-care-guide/",
+      "destination": "/guides/discus-fish-care-requirements/",
+      "permanent": true
+    },
+    {
+      "source": "/guides/angelfish-care-guide/",
+      "destination": "/guides/angelfish-care/",
+      "permanent": true
+    },
+    {
+      "source": "/guides/swordtail-care-guide/",
+      "destination": "/guides/swordtail-fish-care-and-breeding/",
+      "permanent": true
+    },
+    {
+      "source": "/guides/molly-care-guide/",
+      "destination": "/guides/molly-fish-care/",
+      "permanent": true
+    },
+    {
+      "source": "/guides/oscar-care-guide/",
+      "destination": "/guides/oscar-fish-care/",
+      "permanent": true
+    },
+    {
+      "source": "/FishCare.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/guides/petco-fish-care/",
+      "destination": "/guides/",
+      "permanent": true
+    }
   ]
 }
