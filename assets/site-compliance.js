@@ -130,6 +130,43 @@
     });
   }
 
+  function setupGlobalNavigation() {
+    if (/^\/(?:admin\/|__forms\.html$|yandex_[^/]+\.html$)/.test(window.location.pathname)) return;
+
+    var navs = document.querySelectorAll('body > nav.nb, body > nav.site-nav');
+    var nav = navs[0];
+
+    if (!nav) {
+      nav = document.createElement('nav');
+      document.body.insertBefore(nav, document.body.firstChild);
+    }
+
+    navs.forEach(function (duplicate, index) {
+      if (index > 0) duplicate.remove();
+    });
+
+    var path = window.location.pathname;
+    var section = path === '/' ? 'home' :
+      path.indexOf('/guides/') === 0 ? 'guides' :
+      path.indexOf('/wiki/') === 0 || path.indexOf('/encyclopedia/') === 0 ? 'wiki' :
+      path.indexOf('/tools/') === 0 ? 'tools' :
+      path.indexOf('/about/') === 0 ? 'about' : '';
+
+    nav.className = 'nb fishcare-global-nav';
+    nav.id = 'fishcare-global-navigation';
+    nav.setAttribute('aria-label', 'Main navigation');
+    nav.innerHTML =
+      '<a class="brand" href="/" aria-label="FishCare AI home">' +
+      '<img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"></a>' +
+      '<div class="nlinks" id="nlinks">' +
+      '<a class="nl' + (section === 'home' ? ' act' : '') + '" href="/">Home</a>' +
+      '<a class="nl' + (section === 'guides' ? ' act' : '') + '" href="/guides/">Guides</a>' +
+      '<a class="nl' + (section === 'wiki' ? ' act' : '') + '" href="/wiki/">Encyclopedia</a>' +
+      '<a class="nl' + (section === 'tools' ? ' act' : '') + '" href="/tools/fish-compatibility-checker/">Tools</a>' +
+      '<a class="nl' + (section === 'about' ? ' act' : '') + '" href="/about/">About</a>' +
+      '</div>';
+  }
+
   function addLegalLinks() {
     document.querySelectorAll('footer').forEach(function (footer) {
       if (footer.querySelector('.legal-links')) return;
@@ -168,6 +205,7 @@
   }
 
   document.addEventListener('DOMContentLoaded', function () {
+    setupGlobalNavigation();
     setupMobileNavigation();
     addLegalLinks();
     ensureContentSchema();

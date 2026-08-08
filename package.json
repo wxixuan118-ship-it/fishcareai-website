@@ -1,5 +1,7 @@
 {
   "scripts": {
+    "build": "node scripts/sync-cms.mjs",
+    "build:cms:check": "CMS_DRY_RUN=1 node scripts/sync-cms.mjs",
     "start": "sh -c 'python3 -m http.server ${PORT:-3000} --bind 0.0.0.0'",
     "start:4173": "python3 -m http.server 4173 --bind 127.0.0.1",
     "indexnow": "node indexnow-submit.js",

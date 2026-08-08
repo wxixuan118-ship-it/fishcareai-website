@@ -185,6 +185,29 @@
   status = 301
   force = true
 
+# ── Species Module (Phase 2) ──────────────────────────────────────────────────
+# Species that already have care guides on main site → redirect to existing pages
+# Add more entries here as new species with existing guides are identified.
+[[redirects]]
+  from = "/species/betta-fish/care-guide"
+  to = "/guides/betta-fish-care/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/species/betta-fish/care-guide/"
+  to = "/guides/betta-fish-care/"
+  status = 301
+  force = true
+
+# All other /species/* → proxy to Next.js species app on Vercel
+[[redirects]]
+  from = "/species/*"
+  to = "https://fishcareai-species.vercel.app/species/:splat"
+  status = 200
+  force = true
+
+# ── Catch-all (keep last) ─────────────────────────────────────────────────────
 [[redirects]]
   from = "/*"
   to = "/index.html"

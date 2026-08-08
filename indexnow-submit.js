@@ -25,6 +25,7 @@ function changedPageUrls() {
 
   return [...new Set(`${tracked}\n${untracked}`.split(/\r?\n/))]
     .filter(file => file === 'index.html' || file.endsWith('/index.html'))
+    .filter(file => !file.startsWith('admin/') && file !== 'thank-you/index.html')
     .map(file => file === 'index.html' ? `https://${host}/` : `https://${host}/${file.replace(/index\.html$/, '')}`);
 }
 

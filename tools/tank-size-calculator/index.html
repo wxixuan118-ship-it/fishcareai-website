@@ -5,19 +5,19 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <base href="/">
-<title>Water Tank Calculator | Tank Gallon & Fish Tank Size Calculator</title>
-<meta name="description" content="Free water tank calculator for tank gallons, litres, round tank capacity, cylinder tanks, square tanks, and aquarium fish tank size planning."/>
+<title>Aquarium Tank Size Calculator: Gallons, Litres & Usable Volume</title>
+<meta name="description" content="Calculate aquarium volume from inside dimensions. Supports rectangular, cube, vertical cylinder and horizontal cylinder tanks, partial fill, displacement, gallons and litres."/>
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <link rel="canonical" href="https://www.fishcareai.com/tools/tank-size-calculator/"/>
 <link rel="preload" as="image" href="assets/freshwater-fish-care-hero-optimized.jpg"/>
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="Water Tank Calculator"/>
-<meta property="og:description" content="Calculate water tank capacity in gallons and litres for square, rectangular, round, and cylinder tanks, plus aquarium fish tank size guidance."/>
+<meta property="og:title" content="Aquarium Tank Size & Volume Calculator"/>
+<meta property="og:description" content="Calculate total and usable aquarium volume in US gallons, UK gallons and litres, including partial fill and decor displacement."/>
 <meta property="og:url" content="https://www.fishcareai.com/tools/tank-size-calculator/"/>
 <meta property="og:image" content="https://www.fishcareai.com/assets/freshwater-fish-care-hero-optimized.jpg"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Water Tank Calculator"/>
-<meta name="twitter:description" content="Calculate water tank capacity in gallons and litres for square, rectangular, round, and cylinder tanks, plus aquarium fish tank size guidance."/>
+<meta name="twitter:title" content="Aquarium Tank Size & Volume Calculator"/>
+<meta name="twitter:description" content="Calculate total and usable aquarium volume in US gallons, UK gallons and litres, including partial fill and decor displacement."/>
 <meta name="twitter:image" content="https://www.fishcareai.com/assets/freshwater-fish-care-hero-optimized.jpg"/>
 <script type="application/ld+json">
 {
@@ -316,7 +316,7 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
 .back-btn{display:inline-flex;align-items:center;gap:6px;color:rgba(255,255,255,.75);font-size:.85rem;cursor:pointer;border:none;background:none;margin-bottom:14px}
 .back-btn:hover{color:#fff}
 </style>
-<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260723-mobile-ux"/>
+<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260801-global-nav"/>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -334,7 +334,7 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
 }
 </script>
 <meta name="google-adsense-account" content="ca-pub-6697313643773879">
-<script defer src="/assets/site-compliance.js?v=20260723-platforms"></script>
+<script defer src="/assets/site-compliance.js?v=20260801-global-nav"></script>
 </head>
 <body class="tools-dark-page">
 
@@ -344,7 +344,7 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
   <div class="nlinks" id="nlinks">
     <a title="Home" class="nl" href="/" onclick="event.preventDefault();goto('home')" data-page="home">Home</a>
     <a title="Guides" class="nl" href="guides/" onclick="event.preventDefault();goto('blog')" data-page="blog">Guides</a>
-    <a title="Aquarium Encyclopedia" class="nl" href="/wiki/">Encyclopedia</a>
+    <a title="Aquarium Encyclopedia" class="nl" href="/species/">Encyclopedia</a>
     <a title="Tools" class="nl" href="#tools" onclick="event.preventDefault();goto('tools')" data-page="tools">Tools</a>
     <a title="About Us" class="nl" href="#about" onclick="event.preventDefault();goto('about')" data-page="about">About Us</a>
     <a title="Contact" class="nl" href="#contact" onclick="event.preventDefault();goto('contact')" data-page="contact">Contact</a>
@@ -787,12 +787,12 @@ function renderTools(tab) {
 function toolLandingData(tab) {
   const data = {
     tank: {
-      h1:'Water Tank Calculator & Fish Tank Size Calculator',
-      intro:'Use this free water tank calculator to estimate aquarium size, tank gallons, water tank capacity in litres, and round, cylinder, square, or rectangular tank volume.',
-      keyword:'water tank calculator · tank gallon calculator',
-      promise:'You will get a practical fish tank size estimate plus a water tank capacity calculator for gallons and litres. The page also shows round water tank capacity calculation formula, cylinder tank gallon calculator formula, and square tank capacity calculator formula.',
-      bestFor:['Choosing a first aquarium or fish tank','Calculating tank gallons from length, width, height, diameter or radius','Finding how to calculate water tank capacity in litres without downloading a water tank capacity calculation formula PDF'],
-      links:[['Betta fish care','/guides/betta-fish-care/'],['Goldfish care','/guides/goldfish-care/'],['Aquarium water parameters','/guides/aquarium-water-parameters/']]
+      h1:'Aquarium Tank Size & Volume Calculator',
+      intro:'Enter inside dimensions to calculate total capacity, filled volume and estimated usable water in US gallons, UK gallons and litres—then compare it with species space needs.',
+      keyword:'aquarium size calculator · tank volume calculator',
+      promise:'You will get gross capacity, filled volume, usable aquarium water, unit conversions and a separate species-based planning estimate.',
+      bestFor:['Measuring an existing aquarium','Sizing filters, heaters and water changes','Comparing physical volume with adult fish requirements'],
+      links:[['Discus minimum tank size','/guides/discus-minimum-tank-size/'],['Betta fish care','/guides/betta-fish-care/'],['Goldfish care','/guides/goldfish-care/'],['Aquarium water parameters','/guides/aquarium-water-parameters/']]
     },
     compat: {
       h1:'Fish Compatibility Checker',
@@ -895,7 +895,7 @@ Keep a record of the result. Save the dimensions, calculated gallons, litres, wa
       <div class="card tc"><div class="tag">${d.keyword}</div><h2 id="tool-seo-title">What problem does this tool solve?</h2><p>${seo.problem}</p><h3>What inputs do you need?</h3><p>${seo.inputs}</p><h3>How to use it</h3><p>${seo.steps}</p></div>
       <div class="card tc"><div class="tag">Tool result</div><h2>How can you use the result?</h2><p>${seo.use}</p><h3>When can results be less accurate?</h3><p>${seo.bad}</p><h3>How is it different?</h3><p>${seo.diff}</p><div style="margin-top:14px"><strong>Related guides</strong><div style="display:flex;flex-direction:column;gap:8px;margin-top:10px">${d.links.map(([label,href])=>`<a class="btn bo bsm" style="justify-content:flex-start" href="${href}">${label} →</a>`).join('')}</div></div></div>
     </div>
-    <div class="card tc tool-faq"><div class="tag">FAQ</div><h2>Frequently asked questions</h2><details><summary>Is the result a guarantee?</summary><p>No. It is an educational planning aid. Adult size, individual behavior, maintenance quality, equipment condition and water stability still matter.</p></details><details><summary>Should I use the tool before buying fish?</summary><p>Yes. Planning first gives you time to cycle the tank, buy suitable equipment and choose livestock that fits the long-term setup.</p></details><details><summary>What if the result conflicts with a shop recommendation?</summary><p>Compare adult size, water requirements and the evidence behind each recommendation. When uncertain, choose more space and slower stocking.</p></details></div><div class="card tc tool-seo-long"><div class="tag">In-depth guide</div><h2>Practical aquarium volume guidance</h2>${longSeo.split('\n\n').map(p=>`<p>${p}</p>`).join('')}</div>
+    <div class="card tc tool-faq"><div class="tag">FAQ</div><h2>Frequently asked questions</h2><details><summary>Is the result a guarantee?</summary><p>No. It is an educational planning aid. Adult size, individual behavior, maintenance quality, equipment condition and water stability still matter.</p></details><details><summary>Should I use the tool before buying fish?</summary><p>Yes. Planning first gives you time to cycle the tank, buy suitable equipment and choose livestock that fits the long-term setup.</p></details><details><summary>What if the result conflicts with a shop recommendation?</summary><p>Compare adult size, water requirements and the evidence behind each recommendation. When uncertain, choose more space and slower stocking.</p></details></div><div class="card tc tool-seo-long"><div class="tag">In-depth guide</div><h2>Practical aquarium volume guidance</h2><div class="tool-seo-scroll" tabindex="0" aria-label="Scrollable aquarium volume guide">${longSeo.split('\n\n').map(p=>`<p>${p}</p>`).join('')}</div></div>
   </section>`;
 }
 function switchTab(tab) {
@@ -941,43 +941,47 @@ function toolFishProfiles() {
 function renderTankSize() {
   const fish = toolFishProfiles();
   if(!Object.keys(tankCalcVals).length) tankCalcVals = {fish:'betta',count:1,style:'standard'};
-  if(!Object.keys(capacityVals).length) capacityVals = {shape:'rectangle',unit:'in',length:24,width:12,height:12,diameter:18,radius:9};
+  if(!Object.keys(capacityVals).length) capacityVals = {shape:'rectangle',unit:'in',length:24,width:12,height:12,fillDepth:11,diameter:18,displacement:10,waterType:'freshwater'};
   const options = Object.entries(fish).map(([id,f])=>`<option value="${id}" ${tankCalcVals.fish===id?'selected':''}>${f.name}</option>`).join('');
   return `
-<h2 style="color:var(--pd);margin-bottom:5px">📏 Tank Size Calculator</h2>
-<p style="margin-bottom:24px">Estimate a practical minimum aquarium size from species, count, adult size and swimming behavior. This is a planning tool, not a stocking guarantee.</p>
+<h2 style="color:var(--pd);margin-bottom:5px">💧 Aquarium Volume Calculator</h2>
+<p style="margin-bottom:24px">Measure inside the glass. Calculate the tank's full geometric capacity, its volume at the current water line, and a more realistic usable-water estimate after substrate and decor.</p>
+<div class="cg">
+  <div>
+    <div class="fg"><label for="capacity-shape">Tank shape</label><select class="fc" id="capacity-shape" onchange="setCapacityShape(this.value)"><option value="rectangle" ${capacityVals.shape==='rectangle'?'selected':''}>Rectangular aquarium</option><option value="cube" ${capacityVals.shape==='cube'?'selected':''}>Cube aquarium</option><option value="vertical-cylinder" ${capacityVals.shape==='vertical-cylinder'?'selected':''}>Vertical cylinder</option><option value="horizontal-cylinder" ${capacityVals.shape==='horizontal-cylinder'?'selected':''}>Horizontal cylinder</option></select></div>
+    <div class="fg"><label for="capacity-unit">Dimension unit</label><select class="fc" id="capacity-unit" onchange="setCapacityVal('unit',this.value)"><option value="in" ${capacityVals.unit==='in'?'selected':''}>Inches</option><option value="cm" ${capacityVals.unit==='cm'?'selected':''}>Centimetres</option><option value="mm" ${capacityVals.unit==='mm'?'selected':''}>Millimetres</option><option value="ft" ${capacityVals.unit==='ft'?'selected':''}>Feet</option><option value="m" ${capacityVals.unit==='m'?'selected':''}>Metres</option></select></div>
+    ${capacityVals.shape==='rectangle'?`<div class="fg"><label>Inside length</label><input class="fc" type="number" min="0" step="0.1" value="${capacityVals.length}" oninput="setCapacityVal('length',this.value)"/></div><div class="fg"><label>Inside width</label><input class="fc" type="number" min="0" step="0.1" value="${capacityVals.width}" oninput="setCapacityVal('width',this.value)"/></div>`:''}
+    ${capacityVals.shape==='cube'?`<div class="fg"><label>Inside side length</label><input class="fc" type="number" min="0" step="0.1" value="${capacityVals.length}" oninput="setCapacityVal('length',this.value)"/></div>`:''}
+    ${capacityVals.shape.includes('cylinder')?`<div class="fg"><label>Inside diameter</label><input class="fc" type="number" min="0" step="0.1" value="${capacityVals.diameter}" oninput="setCapacityVal('diameter',this.value)"/></div>`:''}
+    ${capacityVals.shape==='horizontal-cylinder'?`<div class="fg"><label>Inside cylinder length</label><input class="fc" type="number" min="0" step="0.1" value="${capacityVals.length}" oninput="setCapacityVal('length',this.value)"/></div>`:''}
+    ${capacityVals.shape!=='horizontal-cylinder'?`<div class="fg"><label>Inside tank height</label><input class="fc" type="number" min="0" step="0.1" value="${capacityVals.height}" oninput="setCapacityVal('height',this.value)"/></div>`:''}
+    <div class="fg"><label>Actual water depth (optional)</label><input class="fc" type="number" min="0" step="0.1" value="${capacityVals.fillDepth}" oninput="setCapacityVal('fillDepth',this.value)"/><small style="color:var(--mu)">${capacityVals.shape==='horizontal-cylinder'?'0 to the inside diameter':'0 to the inside tank height'}</small></div>
+    <div class="fg"><label>Substrate & decor displacement</label><select class="fc" onchange="setCapacityVal('displacement',this.value)"><option value="0" ${capacityVals.displacement==0?'selected':''}>0% — bare tank</option><option value="5" ${capacityVals.displacement==5?'selected':''}>5% — light decor</option><option value="10" ${capacityVals.displacement==10?'selected':''}>10% — typical aquarium</option><option value="15" ${capacityVals.displacement==15?'selected':''}>15% — planted / hardscape</option><option value="20" ${capacityVals.displacement==20?'selected':''}>20% — heavy hardscape</option></select></div>
+    <div class="fg"><label>Water type (weight estimate)</label><select class="fc" onchange="setCapacityVal('waterType',this.value)"><option value="freshwater" ${capacityVals.waterType==='freshwater'?'selected':''}>Freshwater</option><option value="saltwater" ${capacityVals.waterType==='saltwater'?'selected':''}>Saltwater</option></select></div>
+    <button class="btn bp blg" style="width:100%;justify-content:center" onclick="showCapacityResult()">Calculate Aquarium Volume →</button>
+  </div>
+  <div id="capacity-result"><div style="background:#F8FAFE;border-radius:14px;border:1px solid var(--bd);padding:34px;text-align:center;color:var(--mu)"><div style="font-size:3.3rem;margin-bottom:12px">💧</div><h4 style="color:var(--pd)">Enter inside dimensions</h4><p style="font-size:.86rem">Results will show total capacity, current filled volume and estimated usable water.</p></div></div>
+</div>
+<div style="height:28px"></div>
+<h2 style="color:var(--pd);margin-bottom:5px">🐠 Fish Tank Size Planner</h2>
+<p style="margin-bottom:24px">Now compare physical volume with a conservative species-based space estimate. This is a planning aid, not a stocking guarantee.</p>
 <div class="cg">
   <div>
     <div class="fg"><label>Species</label><select class="fc" id="tank-fish" onchange="setTankVal('fish',this.value)">${options}</select></div>
     <div class="fg"><label>Number of animals</label><input class="fc" type="number" min="1" max="50" value="${tankCalcVals.count}" id="tank-count" oninput="setTankVal('count',this.value)"/></div>
     <div class="fg"><label>Tank style</label><select class="fc" id="tank-style" onchange="setTankVal('style',this.value)"><option value="standard" ${tankCalcVals.style==='standard'?'selected':''}>Standard rectangle</option><option value="long" ${tankCalcVals.style==='long'?'selected':''}>Long swimming tank</option><option value="tall" ${tankCalcVals.style==='tall'?'selected':''}>Tall tank</option><option value="nano" ${tankCalcVals.style==='nano'?'selected':''}>Nano tank</option></select></div>
-    <button class="btn bp blg" style="width:100%;justify-content:center" onclick="showTankResult()">Calculate Tank Size →</button>
+    <button class="btn bp blg" style="width:100%;justify-content:center" onclick="showTankResult()">Estimate Species Space →</button>
   </div>
-  <div id="tank-result"><div style="background:#F8FAFE;border-radius:14px;border:1px solid var(--bd);padding:34px;text-align:center;color:var(--mu)"><div style="font-size:3.3rem;margin-bottom:12px">📏</div><h4 style="color:var(--pd)">Choose a species</h4><p style="font-size:.86rem">The result will show minimum gallons, safer upgrade size, and setup notes.</p></div></div>
-</div>
-<div style="height:28px"></div>
-<h2 style="color:var(--pd);margin-bottom:5px">💧 Water Tank Capacity Calculator</h2>
-<p style="margin-bottom:24px">Use this water tank capacity calculator as a tank gallon calculator, square tank gallon calculator, cylinder tank gallon calculator, or round water tank capacity calculator. It converts common tank dimensions into US gallons and litres.</p>
-<div class="cg">
-  <div>
-    <div class="fg"><label>Tank shape</label><select class="fc" onchange="setCapacityVal('shape',this.value)"><option value="rectangle" ${capacityVals.shape==='rectangle'?'selected':''}>Rectangle / square tank</option><option value="cylinder" ${capacityVals.shape==='cylinder'?'selected':''}>Round / cylinder tank</option></select></div>
-    <div class="fg"><label>Measurement unit</label><select class="fc" onchange="setCapacityVal('unit',this.value)"><option value="in" ${capacityVals.unit==='in'?'selected':''}>Inches</option><option value="cm" ${capacityVals.unit==='cm'?'selected':''}>Centimeters</option><option value="ft" ${capacityVals.unit==='ft'?'selected':''}>Feet</option></select></div>
-    <div class="fg"><label>Length</label><input class="fc" type="number" min="0" step="0.1" value="${capacityVals.length}" oninput="setCapacityVal('length',this.value)"/></div>
-    <div class="fg"><label>Width</label><input class="fc" type="number" min="0" step="0.1" value="${capacityVals.width}" oninput="setCapacityVal('width',this.value)"/></div>
-    <div class="fg"><label>Height / water depth</label><input class="fc" type="number" min="0" step="0.1" value="${capacityVals.height}" oninput="setCapacityVal('height',this.value)"/></div>
-    <div class="fg"><label>Diameter for round tank</label><input class="fc" type="number" min="0" step="0.1" value="${capacityVals.diameter}" oninput="setCapacityVal('diameter',this.value)"/></div>
-    <button class="btn bp blg" style="width:100%;justify-content:center" onclick="showCapacityResult()">Calculate Water Tank Capacity →</button>
-  </div>
-  <div id="capacity-result"><div style="background:#F8FAFE;border-radius:14px;border:1px solid var(--bd);padding:34px;text-align:center;color:var(--mu)"><div style="font-size:3.3rem;margin-bottom:12px">💧</div><h4 style="color:var(--pd)">Enter tank dimensions</h4><p style="font-size:.86rem">Calculate tank capacity in gallons and litres for rectangular, square, round, or cylinder tanks.</p></div></div>
+  <div id="tank-result"><div style="background:#F8FAFE;border-radius:14px;border:1px solid var(--bd);padding:34px;text-align:center;color:var(--mu)"><div style="font-size:3.3rem;margin-bottom:12px">🐠</div><h4 style="color:var(--pd)">Choose a species</h4><p style="font-size:.86rem">The result will show a minimum estimate, safer upgrade and setup notes.</p></div></div>
 </div>
 <div class="card tc" style="margin-top:24px">
-  <div class="tag">water tank capacity calculation formula</div>
-  <h2>Water tank capacity formulas</h2>
-  <p><strong>Rectangle or square tank capacity calculator formula:</strong> length × width × height. If measured in inches, divide cubic inches by 231 to get US gallons. If measured in centimeters, divide cubic centimeters by 1000 to get litres.</p>
-  <p><strong>Round water tank capacity calculation formula:</strong> π × radius² × height. This is also the cylinder tank gallon calculator formula. Use radius = diameter ÷ 2.</p>
-  <p><strong>How to calculate water tank capacity in litres:</strong> for centimeters, multiply length × width × height for a square tank, or π × radius² × height for a round tank, then divide by 1000.</p>
-  <p><strong>How many gallons in a round tank calculator:</strong> calculate cylinder cubic inches with π × radius² × height, then divide by 231. This aquarium calculator is for water tanks and fish tanks, not a propane tank gallon calculator.</p>
-  <p style="font-size:.84rem;color:var(--mu)">Need a water tank capacity calculation formula PDF? You can print this page or save it as PDF from your browser.</p>
+  <div class="tag">transparent calculations</div>
+  <h2>Tank volume formulas and assumptions</h2>
+  <p><strong>Rectangular tank:</strong> length × width × water depth. A cube uses side² × water depth. A vertical cylinder uses π × radius² × water depth.</p>
+  <p><strong>Part-filled horizontal cylinder:</strong> the calculator finds the circular-segment area at the entered water depth, then multiplies it by cylinder length.</p>
+  <p><strong>Conversions:</strong> 1 US gallon = 3.785411784 litres; 1 UK gallon = 4.54609 litres. Measurements should be inside dimensions, not the outside frame size.</p>
+  <p><strong>Usable water:</strong> filled volume minus your selected displacement allowance. This is still an estimate because irregular rocks, filters, glass thickness and curved panels vary.</p>
+  <p style="font-size:.84rem;color:var(--mu)">Water weight excludes the aquarium, stand, substrate, rocks and equipment. Ask a qualified professional if floor or stand loading is a concern.</p>
 </div>`;
 }
 function initTankCalc(){}
@@ -990,26 +994,53 @@ function showTankResult(){
   const upgrade=Math.ceil(base*1.5/5)*5;
   document.getElementById('tank-result').innerHTML=`<div class="hs" style="background:#1687C7"><div class="sn">${base}+ gal</div><div class="sl">Practical minimum for ${count} ${f.name}${count>1?'s':''}</div></div><div class="pr"><h4 style="color:var(--pd);margin-bottom:10px">Recommended upgrade: ${upgrade}+ gallons</h4><div class="prow"><span class="plb">Temperature</span><span class="pv">${f.temp}</span><span class="bdg bgood">Target</span></div><div class="prow"><span class="plb">Group plan</span><span class="pv">${f.group}</span><span class="bdg bwarn">Check</span></div><p style="margin-top:12px">${styleNote} Always plan around adult size, filtration, oxygen and maintenance.</p></div>`;
 }
-function setCapacityVal(k,v){ capacityVals[k]=(k==='shape'||k==='unit')?v:Math.max(0,Number(v)||0); }
+function setCapacityVal(k,v){
+  capacityVals[k]=(k==='shape'||k==='unit'||k==='waterType')?v:Math.max(0,Number(v)||0);
+}
+function setCapacityShape(shape){
+  capacityVals.shape=shape;
+  const maxDepth=shape==='horizontal-cylinder'?Number(capacityVals.diameter):shape==='cube'?Number(capacityVals.length):Number(capacityVals.height);
+  if(!Number(capacityVals.fillDepth)||Number(capacityVals.fillDepth)>maxDepth) capacityVals.fillDepth=maxDepth||0;
+  document.getElementById('tool-panel').innerHTML=renderTankSize();
+}
 function showCapacityResult(){
   const unit=capacityVals.unit||'in';
   const shape=capacityVals.shape||'rectangle';
   const l=Number(capacityVals.length)||0, w=Number(capacityVals.width)||0, h=Number(capacityVals.height)||0, d=Number(capacityVals.diameter)||0;
-  let cubic, formula;
-  if(shape==='cylinder'){
+  const maxDepth=shape==='horizontal-cylinder'?d:shape==='cube'?l:h;
+  const requestedDepth=Number(capacityVals.fillDepth);
+  const f=Math.min(maxDepth, requestedDepth>0?requestedDepth:maxDepth);
+  const displacement=Math.min(50,Number(capacityVals.displacement)||0);
+  let totalCubic=0, filledCubic=0, formula='';
+  if(shape==='vertical-cylinder'){
+    const r=d/2; totalCubic=Math.PI*r*r*h; filledCubic=Math.PI*r*r*f;
+    formula='π × radius² × depth';
+  } else if(shape==='horizontal-cylinder'){
     const r=d/2;
-    cubic=Math.PI*r*r*h;
-    formula=`π × (${r.toFixed(2)})² × ${h}`;
+    totalCubic=Math.PI*r*r*l;
+    const segmentDepth=Math.min(d,Math.max(0,f));
+    const segmentArea=r*r*Math.acos((r-segmentDepth)/r)-(r-segmentDepth)*Math.sqrt(Math.max(0,2*r*segmentDepth-segmentDepth*segmentDepth));
+    filledCubic=segmentArea*l;
+    formula='circular segment area × cylinder length';
+  } else if(shape==='cube'){
+    totalCubic=l*l*l; filledCubic=l*l*f; formula='side × side × depth';
   } else {
-    cubic=l*w*h;
-    formula=`${l} × ${w} × ${h}`;
+    totalCubic=l*w*h; filledCubic=l*w*f; formula='length × width × depth';
   }
-  let gallons, litres;
-  if(unit==='in'){ gallons=cubic/231; litres=gallons*3.78541; }
-  else if(unit==='cm'){ litres=cubic/1000; gallons=litres/3.78541; }
-  else { gallons=cubic*7.48052; litres=gallons*3.78541; }
-  const label=shape==='cylinder'?'Round / cylinder tank':'Rectangle / square tank';
-  document.getElementById('capacity-result').innerHTML=`<div class="hs" style="background:#0F8FB8"><div class="sn">${gallons.toFixed(1)} gal</div><div class="sl">${litres.toFixed(1)} litres · ${label}</div></div><div class="pr"><h4 style="color:var(--pd);margin-bottom:10px">Capacity calculation</h4><div class="prow"><span class="plb">Formula used</span><span class="pv">${formula}</span><span class="bdg bgood">${unit}</span></div><div class="prow"><span class="plb">US gallons</span><span class="pv">${gallons.toFixed(2)}</span><span class="bdg bgood">Result</span></div><div class="prow"><span class="plb">Litres</span><span class="pv">${litres.toFixed(2)}</span><span class="bdg bgood">Result</span></div><p style="margin-top:12px">For aquariums, actual usable water volume is lower after substrate, rocks, decor, filters and air gap. For safety, plan livestock using a slightly smaller real volume.</p></div>`;
+  if(!Number.isFinite(totalCubic)||!Number.isFinite(filledCubic)||totalCubic<=0){
+    document.getElementById('capacity-result').innerHTML='<div class="pr"><h4 style="color:var(--er)">Check the dimensions</h4><p>Enter positive inside dimensions. Water depth cannot be greater than the tank height or diameter.</p></div>';
+    return;
+  }
+  const litresPerCubic={mm:0.000001,cm:0.001,m:1000,in:0.016387064,ft:28.316846592}[unit]||0.016387064;
+  const totalLitres=totalCubic*litresPerCubic;
+  const filledLitres=filledCubic*litresPerCubic;
+  const usableLitres=filledLitres*(1-displacement/100);
+  const usGallons=usableLitres/3.785411784;
+  const ukGallons=usableLitres/4.54609;
+  const waterKg=usableLitres*(capacityVals.waterType==='saltwater'?1.025:0.998);
+  const fillPercent=Math.min(100,(filledLitres/totalLitres)*100);
+  const label={rectangle:'Rectangular aquarium',cube:'Cube aquarium','vertical-cylinder':'Vertical cylinder','horizontal-cylinder':'Horizontal cylinder'}[shape];
+  document.getElementById('capacity-result').innerHTML=`<div class="hs" style="background:#0F8FB8"><div class="sn">${usGallons.toFixed(1)} US gal</div><div class="sl">${usableLitres.toFixed(1)} litres estimated usable water</div></div><div class="pr"><h4 style="color:var(--pd);margin-bottom:10px">${label}</h4><div class="prow"><span class="plb">Full geometric capacity</span><span class="pv">${totalLitres.toFixed(1)} L / ${(totalLitres/3.785411784).toFixed(1)} US gal</span><span class="bdg bgood">100%</span></div><div class="prow"><span class="plb">At entered water line</span><span class="pv">${filledLitres.toFixed(1)} L</span><span class="bdg bgood">${fillPercent.toFixed(0)}%</span></div><div class="prow"><span class="plb">After ${displacement}% displacement</span><span class="pv">${usableLitres.toFixed(1)} L / ${ukGallons.toFixed(1)} UK gal</span><span class="bdg bwarn">Estimate</span></div><div class="prow"><span class="plb">Water-only weight</span><span class="pv">${waterKg.toFixed(1)} kg / ${(waterKg*2.2046226218).toFixed(1)} lb</span><span class="bdg bwarn">Excludes tank</span></div><div class="prow"><span class="plb">Formula</span><span class="pv">${formula}</span><span class="bdg bgood">${unit}</span></div><p style="margin-top:12px"><strong>Do not use gallons alone to stock fish.</strong> Check adult size, group needs, swimming footprint, territory, filtration and water quality in the relevant care guide.</p></div>`;
 }
 
 function renderFeeding() {

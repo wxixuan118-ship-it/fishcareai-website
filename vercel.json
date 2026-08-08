@@ -63,6 +63,14 @@
       "destination": "https://species-app.vercel.app/_next/:path*"
     },
     {
+      "source": "/species",
+      "destination": "https://species-app.vercel.app/species"
+    },
+    {
+      "source": "/species/",
+      "destination": "https://species-app.vercel.app/species/"
+    },
+    {
       "source": "/species/:path*",
       "destination": "https://species-app.vercel.app/species/:path*"
     }
