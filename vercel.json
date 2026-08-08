@@ -387,17 +387,6 @@
       "permanent": true
     },
     {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "fishcareai.com"
-        }
-      ],
-      "destination": "https://www.fishcareai.com/:path*",
-      "permanent": true
-    },
-    {
       "source": "/species/betta-fish/care-guide",
       "destination": "/guides/betta-fish-care/",
       "permanent": true
