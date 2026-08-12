@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Fish Tank Size Calculators — Species-Specific Aquarium Sizing | FishCare AI</title>
+<meta name="description" content="Calculate exactly how many gallons your fish need. Species-specific tank size calculators for betta, goldfish, guppy, oscar, angelfish, koi, discus, molly, swordtail, and zebra danio."/>
+<link rel="canonical" href="https://www.fishcareai.com/calculators/"/>
+<meta property="og:title" content="Fish Tank Size Calculators | FishCare AI"/>
+<meta property="og:description" content="Species-specific tank size calculators for 10 popular freshwater fish. Find out exactly how many gallons you need."/>
+<meta property="og:url" content="https://www.fishcareai.com/calculators/"/>
+<meta property="og:type" content="website"/>
+<meta name="twitter:card" content="summary"/>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What size tank do I need for fish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tank size depends on the species. Betta fish need 5\u201310 gallons solo; goldfish need 20\u201340 gallons per fish; oscars need 75\u2013100 gallons; guppies need 10\u201320 gallons for a group. Use the species-specific calculators above for exact recommendations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many gallons per fish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no single gallons-per-fish rule. The correct tank size depends on adult fish size, bioload, schooling requirements, and aggression. Use species-specific calculators for accurate sizing."
+      }
+    }
+  ]
+}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "FishCare AI",
+      "item": "https://www.fishcareai.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Fish Tank Size Calculators",
+      "item": "https://www.fishcareai.com/calculators/"
+    }
+  ]
+}</script>
+<meta name="google-adsense-account" content="ca-pub-6697313643773879">
+<script defer src="/assets/site-compliance.js?v=20260812-fish-health"></script>
+<style>:root{
+  --bg:#061b2c;--panel:#0c3349;--panel2:#112e48;--text:#dff0fa;--muted:#8aaec2;
+  --line:rgba(62,140,180,.28);--cyan:#2bd4c4;--warm:#f4a23e;--max:1180px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;background:var(--bg);color:var(--text);
+  font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.72}
+a{color:var(--cyan)}a:hover{text-decoration:underline}
+
+/* NAV */
+.nb{height:62px;display:flex;align-items:center;justify-content:space-between;
+  padding:0 28px;position:sticky;top:0;z-index:30;
+  background:rgba(5,22,38,.92);backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line)}
+.brand img{display:block;vertical-align:middle}
+.nlinks{display:flex;gap:4px;align-items:center}
+.nlinks a{color:rgba(223,240,250,.82);font-weight:700;padding:7px 12px;border-radius:999px;
+  font-size:.87rem;text-decoration:none}
+.nlinks a:hover{background:rgba(43,212,196,.14);color:#fff}
+.nlinks .cta{background:linear-gradient(135deg,var(--cyan),#5b7efc);color:#fff!important}
+
+/* HERO */
+.hero{padding:42px max(20px,calc((100% - var(--max))/2)) 38px;
+  background:radial-gradient(circle at 70% 40%,rgba(43,212,196,.16) 0,transparent 38%),
+             linear-gradient(145deg,#051728,#0c3d5c)}
+.bc{font-size:.78rem;color:var(--muted);margin-bottom:14px}
+.bc a{color:var(--muted);text-decoration:none}.bc a:hover{color:var(--cyan)}
+.bc span{margin:0 6px}
+h1{font-size:clamp(1.8rem,4vw,2.9rem);line-height:1.15;margin:0 0 12px;font-weight:800}
+.hero p{color:var(--muted);font-size:1.05rem;max-width:680px;margin:0}
+
+/* LAYOUT */
+.wrap{max-width:var(--max);margin:0 auto;padding:32px 20px 80px;
+  display:grid;grid-template-columns:1fr 340px;gap:28px;align-items:start}
+
+/* CALC CARD */
+.calc{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:28px}
+.calc h2{font-size:1.1rem;font-weight:800;margin:0 0 18px;color:#fff}
+
+/* TABS */
+.tabs{display:flex;background:rgba(0,0,0,.3);border-radius:12px;padding:4px;margin-bottom:22px}
+.tab{flex:1;padding:9px 12px;border:none;background:transparent;cursor:pointer;
+  color:var(--muted);border-radius:9px;font-weight:700;font-size:.85rem;transition:.2s}
+.tab.act{background:var(--panel2);color:#fff;box-shadow:0 2px 8px rgba(0,0,0,.4)}
+
+/* STEPPER */
+.field-lbl{font-size:.82rem;color:var(--muted);font-weight:700;letter-spacing:.06em;
+  text-transform:uppercase;margin-bottom:8px}
+.stepper{display:flex;align-items:center;gap:0;background:rgba(0,0,0,.35);
+  border:1px solid var(--line);border-radius:12px;overflow:hidden;width:fit-content}
+.stepper button{width:42px;height:44px;border:none;background:transparent;color:var(--cyan);
+  cursor:pointer;font-size:1.3rem;font-weight:700;transition:background .15s}
+.stepper button:hover{background:rgba(43,212,196,.12)}
+.stepper span{min-width:60px;text-align:center;font-size:1.1rem;font-weight:700;color:#fff}
+.unit{font-size:.8rem;color:var(--muted);margin-left:10px;align-self:center}
+.field-row{display:flex;align-items:center;margin-bottom:20px}
+
+/* SELECT */
+.tank-select{background:rgba(0,0,0,.35);border:1px solid var(--line);
+  color:#fff;padding:10px 14px;border-radius:12px;font-size:1rem;font-weight:700;
+  cursor:pointer;appearance:none;width:100%;max-width:220px}
+
+/* RESULT */
+.result{margin-top:18px;display:grid;gap:10px}
+.res-box{border-radius:14px;padding:16px 18px}
+.res-box.min{background:rgba(244,162,62,.1);border:1px solid rgba(244,162,62,.45)}
+.res-box.rec{background:rgba(43,212,196,.1);border:1px solid rgba(43,212,196,.45)}
+.res-box .label{font-size:.72rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+  margin-bottom:4px}
+.res-box.min .label{color:var(--warm)}
+.res-box.rec .label{color:var(--cyan)}
+.res-box .val{font-size:1.65rem;font-weight:800;color:#fff}
+.res-box .sub{font-size:.83rem;color:var(--muted);margin-top:2px}
+.note-box{background:rgba(43,212,196,.07);border-left:3px solid var(--cyan);
+  border-radius:0 10px 10px 0;padding:12px 14px;font-size:.87rem;color:var(--muted);margin-top:14px}
+.note-box strong{color:#fff}
+
+/* SPECS SIDEBAR */
+.specs{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:22px}
+.specs h2{font-size:1rem;font-weight:800;color:#fff;margin:0 0 14px}
+.specs table{width:100%;border-collapse:collapse}
+.specs td{padding:7px 0;border-bottom:1px solid var(--line);font-size:.88rem;vertical-align:top}
+.specs tr:last-child td{border-bottom:0}
+.specs td:first-child{color:var(--muted);padding-right:12px;white-space:nowrap}
+.specs td:last-child{color:#fff;font-weight:600;text-align:right}
+
+/* CONTENT */
+.content{grid-column:1/-1;display:grid;gap:20px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,36px)}
+.card h2{font-size:clamp(1.25rem,2.5vw,1.7rem);margin:0 0 14px;color:#fff}
+.card p{color:var(--muted);margin:0 0 14px}
+.card p:last-child{margin-bottom:0}
+.card strong{color:#fff}
+.card em{color:var(--cyan);font-style:normal}
+
+/* FAQ */
+.faq-item{border-bottom:1px solid var(--line)}
+.faq-item:last-child{border-bottom:0}
+.faq-q{cursor:pointer;padding:16px 0;display:flex;align-items:center;
+  justify-content:space-between;gap:14px;font-weight:700;color:#fff;list-style:none;
+  font-size:.97rem}
+.faq-q::after{content:"+";color:var(--cyan);font-size:1.3rem;flex-shrink:0;transition:.2s}
+.faq-item.open .faq-q::after{content:"−"}
+.faq-a{display:none;padding-bottom:16px;color:var(--muted);font-size:.93rem;line-height:1.7}
+.faq-item.open .faq-a{display:block}
+
+/* LINKS */
+.link-pair{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.link-btn{display:flex;align-items:center;justify-content:space-between;
+  border-radius:14px;padding:16px 20px;text-decoration:none;font-weight:700;
+  border:1px solid var(--line);transition:.2s;gap:10px}
+.link-btn:hover{transform:translateY(-1px)}
+.link-btn.guide{background:rgba(27,94,139,.3);border-color:#2b6fa0}
+.link-btn.wiki{background:rgba(46,158,125,.2);border-color:#2e9e7d}
+.link-btn .lbl{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;
+  color:var(--muted);margin-bottom:3px}
+.link-btn .ttl{color:#fff;font-size:.95rem}
+.link-btn .arr{font-size:1.3rem;color:var(--cyan);flex-shrink:0}
+
+/* FOOTER */
+footer{background:#04111c;border-top:1px solid var(--line);padding:28px;
+  text-align:center;font-size:.83rem;color:var(--muted)}
+footer a{color:var(--muted);margin:0 8px}footer a:hover{color:#fff}
+
+@media(max-width:860px){
+  .wrap{grid-template-columns:1fr}
+  .specs{order:-1}
+  .link-pair{grid-template-columns:1fr}
+  .nlinks{display:none}
+}
+@media(max-width:520px){
+  .hero{padding:32px 16px 28px}
+  .calc,.specs{padding:20px}
+  .tab{padding:8px 8px;font-size:.8rem}
+}
+.hub-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:28px}
+.hub-card{display:flex;flex-direction:column;gap:14px;
+  background:var(--panel);border:1px solid var(--line);border-radius:20px;
+  padding:22px;text-decoration:none;transition:.2s;color:var(--text)}
+.hub-card:hover{border-color:var(--cyan);transform:translateY(-2px);box-shadow:0 8px 28px rgba(0,0,0,.4)}
+.hub-top{display:flex;gap:14px;align-items:center}
+.hc-em{font-size:2rem;line-height:1}
+.hc-name{font-weight:800;color:#fff;font-size:1.05rem}
+.hc-sci{font-size:.78rem;color:var(--muted);font-style:italic;margin-top:2px}
+.hc-detail{background:rgba(0,0,0,.2);border-radius:12px;padding:12px 14px}
+.hc-row{display:flex;justify-content:space-between;font-size:.85rem;padding:3px 0}
+.hc-row span:first-child{color:var(--muted)}
+.hc-row span:last-child{color:#fff;font-weight:600}
+.hc-tag{font-size:.72rem;font-weight:700;color:var(--cyan);margin-top:8px;text-transform:uppercase;letter-spacing:.06em}
+.hc-cta{font-weight:800;color:var(--cyan);font-size:.9rem;margin-top:auto}
+.hub-intro{max-width:760px;color:var(--muted);font-size:1.02rem;line-height:1.7;margin-top:10px}
+</style>
+</head>
+<body>
+
+<nav class="nb">
+  <a class="brand" href="/" title="FishCare AI">
+    <img src="/assets/fishcare-logo.svg" alt="FishCare AI" width="130" height="33"/>
+  </a>
+  <div class="nlinks">
+    <a href="/">Home</a>
+    <a href="/guides/">Guides</a>
+    <a href="/species/">Encyclopedia</a>
+    <a href="/fish-health/">Fish Health</a>
+    <a href="/tools/tank-size-calculator/">Tools</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <nav class="bc" aria-label="Breadcrumb">
+    <a href="/">Home</a><span>›</span><span>Calculators</span>
+  </nav>
+  <h1>Fish Tank Size Calculators</h1>
+  <p class="hub-intro">Species-specific aquarium sizing — not a generic rule, but the exact gallons each species actually needs. Select your fish below.</p>
+</div>
+
+<div style="max-width:var(--max);margin:0 auto;padding:28px 20px 80px">
+  <div class="hub-grid">
+<a class="hub-card" href="/calculators/betta-fish-tank-size/">
+  <div class="hub-top">
+    <span class="hc-em">🐠</span>
+    <div>
+      <div class="hc-name">Betta Fish</div>
+      <div class="hc-sci">Betta splendens</div>
+    </div>
+  </div>
+  <div class="hc-detail">
+    <div class="hc-row"><span class="hc-lbl">Adult size</span><span>2–3 inches (5–7 cm)</span></div>
+    <div class="hc-row"><span class="hc-lbl">Min tank</span><span>5 gal</span></div>
+    <div class="hc-tag">1 male · female sorority</div>
+  </div>
+  <span class="hc-cta">Calculate →</span>
+</a>
+<a class="hub-card" href="/calculators/goldfish-tank-size/">
+  <div class="hub-top">
+    <span class="hc-em">🐡</span>
+    <div>
+      <div class="hc-name">Goldfish</div>
+      <div class="hc-sci">Carassius auratus</div>
+    </div>
+  </div>
+  <div class="hc-detail">
+    <div class="hc-row"><span class="hc-lbl">Adult size</span><span>6–14 inches depending on variety</span></div>
+    <div class="hc-row"><span class="hc-lbl">Min tank</span><span>20 gal</span></div>
+    <div class="hc-tag">Fancy & single-tail</div>
+  </div>
+  <span class="hc-cta">Calculate →</span>
+</a>
+<a class="hub-card" href="/calculators/guppy-tank-size/">
+  <div class="hub-top">
+    <span class="hc-em">🐟</span>
+    <div>
+      <div class="hc-name">Guppy Fish</div>
+      <div class="hc-sci">Poecilia reticulata</div>
+    </div>
+  </div>
+  <div class="hc-detail">
+    <div class="hc-row"><span class="hc-lbl">Adult size</span><span>1.5–2.5 inches (4–6 cm)</span></div>
+    <div class="hc-row"><span class="hc-lbl">Min tank</span><span>10 gal</span></div>
+    <div class="hc-tag">Min group: 5</div>
+  </div>
+  <span class="hc-cta">Calculate →</span>
+</a>
+<a class="hub-card" href="/calculators/oscar-fish-tank-size/">
+  <div class="hub-top">
+    <span class="hc-em">🐠</span>
+    <div>
+      <div class="hc-name">Oscar Fish</div>
+      <div class="hc-sci">Astronotus ocellatus</div>
+    </div>
+  </div>
+  <div class="hc-detail">
+    <div class="hc-row"><span class="hc-lbl">Adult size</span><span>12–14 inches (30–36 cm)</span></div>
+    <div class="hc-row"><span class="hc-lbl">Min tank</span><span>75 gal</span></div>
+    <div class="hc-tag">Min group: 1</div>
+  </div>
+  <span class="hc-cta">Calculate →</span>
+</a>
+<a class="hub-card" href="/calculators/angelfish-tank-size/">
+  <div class="hub-top">
+    <span class="hc-em">🐡</span>
+    <div>
+      <div class="hc-name">Angelfish</div>
+      <div class="hc-sci">Pterophyllum scalare</div>
+    </div>
+  </div>
+  <div class="hc-detail">
+    <div class="hc-row"><span class="hc-lbl">Adult size</span><span>6 inches body, up to 10 inches tall</span></div>
+    <div class="hc-row"><span class="hc-lbl">Min tank</span><span>29 gal</span></div>
+    <div class="hc-tag">Min group: 2</div>
+  </div>
+  <span class="hc-cta">Calculate →</span>
+</a>
+<a class="hub-card" href="/calculators/koi-fish-tank-size/">
+  <div class="hub-top">
+    <span class="hc-em">🐟</span>
+    <div>
+      <div class="hc-name">Koi Fish</div>
+      <div class="hc-sci">Cyprinus rubrofuscus</div>
+    </div>
+  </div>
+  <div class="hc-detail">
+    <div class="hc-row"><span class="hc-lbl">Adult size</span><span>24–36 inches (60–90 cm)</span></div>
+    <div class="hc-row"><span class="hc-lbl">Min tank</span><span>500 gal</span></div>
+    <div class="hc-tag">Pond calculator</div>
+  </div>
+  <span class="hc-cta">Calculate →</span>
+</a>
+<a class="hub-card" href="/calculators/discus-fish-tank-size/">
+  <div class="hub-top">
+    <span class="hc-em">🐠</span>
+    <div>
+      <div class="hc-name">Discus Fish</div>
+      <div class="hc-sci">Symphysodon spp.</div>
+    </div>
+  </div>
+  <div class="hc-detail">
+    <div class="hc-row"><span class="hc-lbl">Adult size</span><span>8–10 inches (20–25 cm)</span></div>
+    <div class="hc-row"><span class="hc-lbl">Min tank</span><span>55 gal</span></div>
+    <div class="hc-tag">Group fish · 4+ required</div>
+  </div>
+  <span class="hc-cta">Calculate →</span>
+</a>
+<a class="hub-card" href="/calculators/molly-fish-tank-size/">
+  <div class="hub-top">
+    <span class="hc-em">🐡</span>
+    <div>
+      <div class="hc-name">Molly Fish</div>
+      <div class="hc-sci">Poecilia sphenops</div>
+    </div>
+  </div>
+  <div class="hc-detail">
+    <div class="hc-row"><span class="hc-lbl">Adult size</span><span>3–5 inches (7–12 cm)</span></div>
+    <div class="hc-row"><span class="hc-lbl">Min tank</span><span>20 gal</span></div>
+    <div class="hc-tag">Min group: 4</div>
+  </div>
+  <span class="hc-cta">Calculate →</span>
+</a>
+<a class="hub-card" href="/calculators/swordtail-fish-tank-size/">
+  <div class="hub-top">
+    <span class="hc-em">🐟</span>
+    <div>
+      <div class="hc-name">Swordtail Fish</div>
+      <div class="hc-sci">Xiphophorus hellerii</div>
+    </div>
+  </div>
+  <div class="hc-detail">
+    <div class="hc-row"><span class="hc-lbl">Adult size</span><span>4–6 inches (10–15 cm)</span></div>
+    <div class="hc-row"><span class="hc-lbl">Min tank</span><span>20 gal</span></div>
+    <div class="hc-tag">Min group: 4</div>
+  </div>
+  <span class="hc-cta">Calculate →</span>
+</a>
+<a class="hub-card" href="/calculators/zebra-danio-tank-size/">
+  <div class="hub-top">
+    <span class="hc-em">🐡</span>
+    <div>
+      <div class="hc-name">Zebra Danio</div>
+      <div class="hc-sci">Danio rerio</div>
+    </div>
+  </div>
+  <div class="hc-detail">
+    <div class="hc-row"><span class="hc-lbl">Adult size</span><span>2–2.5 inches (5–6 cm)</span></div>
+    <div class="hc-row"><span class="hc-lbl">Min tank</span><span>20 gal</span></div>
+    <div class="hc-tag">Min group: 6</div>
+  </div>
+  <span class="hc-cta">Calculate →</span>
+</a>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 FishCare AI &nbsp;·&nbsp;
+    <a href="/privacy/">Privacy</a>
+    <a href="/editorial-policy/">Editorial Policy</a>
+    <a href="/guides/">Guides</a>
+    <a href="/species/">Encyclopedia</a>
+    <a href="/tools/tank-size-calculator/">Volume Calculator</a>
+  </p>
+</footer>
+</body>
+</html>
