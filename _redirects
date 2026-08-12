@@ -41,14 +41,5 @@
 /wiki/white-cloud-mountain-minnow/ /species/white-cloud-mountain-minnow 301
 /wiki/rainbow-fish/             /species/rainbow-fish       301
 
-# Redirects: wiki guide pages → /guides/
-/wiki/betta-fish/   /guides/betta-fish-care/                    301
-/wiki/goldfish/     /guides/goldfish-care/                      301
-/wiki/guppy/        /guides/guppy-fish-care/                    301
-/wiki/angelfish/    /guides/angelfish-care/                     301
-/wiki/molly/        /guides/molly-fish-care/                    301
-/wiki/oscar/        /guides/oscar-fish-care/                    301
-/wiki/zebra-danio/  /guides/zebra-danio-fish-care/              301
-/wiki/discus/       /guides/discus-fish-care-requirements/      301
-/wiki/swordtail/    /guides/swordtail-fish-care-and-breeding/   301
-/wiki/koi/          /guides/koi-fish-care/                      301
+# NOTE: wiki species-profile pages now serve their own content.
+# /wiki/betta-fish/, /wiki/discus/ etc. → served from wiki/*/index.html directly.

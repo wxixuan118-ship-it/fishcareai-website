@@ -58,66 +58,8 @@
   to = "/wiki/"
   status = 301
 
-# Consolidate duplicate species pages into the established care guides.
-[[redirects]]
-  from = "/wiki/betta-fish/"
-  to = "/guides/betta-fish-care/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/wiki/goldfish/"
-  to = "/guides/goldfish-care/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/wiki/guppy/"
-  to = "/guides/guppy-fish-care/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/wiki/angelfish/"
-  to = "/guides/angelfish-care/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/wiki/molly/"
-  to = "/guides/molly-fish-care/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/wiki/oscar/"
-  to = "/guides/oscar-fish-care/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/wiki/zebra-danio/"
-  to = "/guides/zebra-danio-fish-care/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/wiki/discus/"
-  to = "/guides/discus-fish-care-requirements/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/wiki/swordtail/"
-  to = "/guides/swordtail-fish-care-and-breeding/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/wiki/koi/"
-  to = "/guides/koi-fish-care/"
-  status = 301
-  force = true
+# wiki species-profile pages now serve their own content (index,follow + canonical to self).
+# Removed: /wiki/{fish}/ → /guides/{fish}/ redirects that were killing wiki indexation.
 
 [[redirects]]
   from = "/guides/guppies/"
