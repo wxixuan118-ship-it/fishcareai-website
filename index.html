@@ -327,6 +327,7 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
     <a title="Home" class="nl" href="/" onclick="event.preventDefault();goto('home')" data-page="home">Home</a>
     <a title="Guides" class="nl" href="guides/" onclick="event.preventDefault();goto('blog')" data-page="blog">Guides</a>
     <a title="Aquarium Encyclopedia" class="nl" href="/species/">Encyclopedia</a><a title="Fish Health" class="nl" href="/fish-health/">Fish Health</a>
+    <a title="Fish Identification - Identify any fish species by photo" class="nl nl-fish-id" href="https://wxixuan118-ship-it.github.io/fish-identification/" target="_blank" rel="noopener">🔍 Fish ID</a>
     <a title="Tools" class="nl" href="#tools" onclick="event.preventDefault();goto('tools')" data-page="tools">Tools</a>
     <a title="About Us" class="nl" href="#about" onclick="event.preventDefault();goto('about')" data-page="about">About Us</a>
     <a title="Contact" class="nl" href="#contact" onclick="event.preventDefault();goto('contact')" data-page="contact">Contact</a>
@@ -355,7 +356,7 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
       <div class="ftbr"><div class="logo"><img class="fishcare-footer-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="150" height="38"/></div><p>Your trusted resource for fish care guides, free tools, and practical aquarium advice. Helping beginners build healthier freshwater tanks since 2026.</p></div>
       <div class="ftcol"><h5>Guides</h5><a title="All Guides" href="guides/">All Guides</a><a title="Best Fish for Beginners" href="guides/best-freshwater-fish-for-beginners/">Best Beginner Fish</a><a title="How to Set Up a Fish Tank" href="guides/how-to-set-up-a-fish-tank/">Tank Setup Guide</a><a title="Aquarium Water Parameters" href="guides/aquarium-water-parameters/">Water Parameters</a><a title="Goldfish Care" href="guides/goldfish-care/">Goldfish Care</a><a title="Beginner Checklist" href="guides/beginner-fish-care-checklist/">Beginner Checklist</a></div><div class="ftcol"><h5>Species Guides</h5><a title="Guppy Fish Care" href="guides/guppy-fish-care/">Guppies</a><a title="Goldfish Care" href="guides/goldfish-care/">Goldfish Care</a><a title="Betta Fish Care" href="guides/betta-fish-care/">Betta Fish Care</a><a title="Molly Fish Care" href="guides/molly-fish-care/">Molly Fish Care</a><a title="Koi Fish Care" href="guides/koi-fish-care/">Koi Fish Care</a><a title="Angelfish Care" href="guides/angelfish-care/">Angelfish Care</a></div>
       <div class="ftcol"><h5>Encyclopedia</h5><a href="/wiki/">All Species</a><a href="/wiki/neon-tetra/">Neon Tetra</a><a href="/wiki/clownfish/">Clownfish</a><a href="/wiki/corydoras/">Corydoras</a><a href="/wiki/cherry-barb/">Cherry Barb</a><a href="/wiki/dwarf-gourami/">Dwarf Gourami</a></div>
-      <div class="ftcol"><h5>Tools</h5><a title="Tank Size Calculator" href="/tools/tank-size-calculator/">Tank Size Calculator</a><a title="Compatibility Checker" href="/tools/fish-compatibility-checker/">Compatibility Checker</a><a title="Water Parameter Checker" href="/tools/water-parameter-checker/">Water Parameter Checker</a><a title="Feeding Calculator" href="/tools/fish-feeding-calculator/">Feeding Calculator</a><a title="Aquarium Planner" href="/tools/aquarium-planner/">Aquarium Planner</a></div>
+      <div class="ftcol"><h5>Tools</h5><a title="Tank Size Calculator" href="/tools/tank-size-calculator/">Tank Size Calculator</a><a title="Compatibility Checker" href="/tools/fish-compatibility-checker/">Compatibility Checker</a><a title="Water Parameter Checker" href="/tools/water-parameter-checker/">Water Parameter Checker</a><a title="Feeding Calculator" href="/tools/fish-feeding-calculator/">Feeding Calculator</a><a title="Aquarium Planner" href="/tools/aquarium-planner/">Aquarium Planner</a><a title="Fish Identification" href="https://wxixuan118-ship-it.github.io/fish-identification/" target="_blank" rel="noopener">Fish Identification</a></div>
       <div class="ftcol"><h5>More</h5><a title="About Us" href="#about" onclick="event.preventDefault();goto('about')">About Us</a><a title="Contact" href="#contact" onclick="event.preventDefault();goto('contact')">Contact</a><a title="Partners" href="partners/">Partners</a><a title="Privacy Policy" href="privacy/">Privacy Policy</a></div>
     </div>
     <div class="ftb">© 2026 FishCare. All rights reserved.</div>
@@ -619,7 +620,7 @@ function renderHome() {
       <button onclick="searchHome()">Search →</button>
     </div>
     <div class="hstats">
-      ${[['61','Aquarium Profiles'],['5','Free Tools'],['30+','Care Guides'],['Weekly','Updates']].map(([v,l])=>`<div class="hstat"><strong>${v}</strong><span>${l}</span></div>`).join('')}
+      ${[['61','Aquarium Profiles'],['6','Free Tools'],['30+','Care Guides'],['Weekly','Updates']].map(([v,l])=>`<div class="hstat"><strong>${v}</strong><span>${l}</span></div>`).join('')}
     </div>
   </div>
 </section>
@@ -703,6 +704,12 @@ function renderHome() {
     <div class="g3">
       ${[['Tank Size Calculator','Estimate minimum aquarium size from fish species, count, adult size and activity level.','tank'],['Compatibility Checker','Select multiple fish and check whether they can safely share an aquarium.','compat'],['Water Parameter Checker','Enter pH, ammonia, nitrite, nitrate, temperature and hardness for a quick health score.','water'],['Feeding Calculator','Estimate daily food portions and feeding frequency without overfeeding.','feeding'],['Aquarium Planner','Plan tank type, stocking level, equipment and setup priorities.','planner']].map(([t,d,tab])=>`
       <div class="card tc"><h3>${t}</h3><p>${d}</p><a class="btn bp bsm" style="align-self:flex-start" href="${toolHref(tab)}">Open Tool →</a></div>`).join('')}
+      <div class="card tc" style="background:linear-gradient(135deg,rgba(24,169,153,.08),rgba(22,135,199,.08));border-color:rgba(24,169,153,.3)">
+        <div class="ti">🔬</div>
+        <h3>Fish Identification</h3>
+        <p>Explore 866 fish species in an interactive 3D embedding space. Identify species by visual similarity and compare up to 5 fish side-by-side with AI-powered recognition.</p>
+        <a class="btn bp bsm" style="align-self:flex-start;background:linear-gradient(135deg,var(--s),#0E8077)" href="https://wxixuan118-ship-it.github.io/fish-identification/" target="_blank" rel="noopener">Open Fish ID →</a>
+      </div>
     </div>
   </div>
 </section>
