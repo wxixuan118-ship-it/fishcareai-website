@@ -1,45 +1,7 @@
-# Proxy species-app
+# Proxy: /species/* and /_next/* → Next.js species app on Vercel
 /species/*  https://species-app.vercel.app/species/:splat  200
 /_next/*    https://species-app.vercel.app/_next/:splat    200
 
-# Redirects: /wiki/ index and /encyclopedia → /species/
-/wiki       /species/   301
-/wiki/      /species/   301
-/encyclopedia   /species/   301
-/encyclopedia/  /species/   301
-
-# Redirects: individual wiki slugs → /species/
-/wiki/black-skirt-tetra/        /species/black-skirt-tetra  301
-/wiki/bristlenose-pleco/        /species/bristlenose-pleco  301
-/wiki/cardinal-tetra/           /species/cardinal-tetra     301
-/wiki/clown-loach/              /species/clown-loach        301
-/wiki/dwarf-gourami/            /species/dwarf-gourami      301
-/wiki/german-blue-ram/          /species/german-blue-ram    301
-/wiki/jack-dempsey/             /species/jack-dempsey       301
-/wiki/kribensis/                /species/kribensis          301
-/wiki/neon-tetra/               /species/neon-tetra         301
-/wiki/platy/                    /species/platy              301
-/wiki/clownfish/                /species/ocellaris-clownfish 301
-/wiki/corydoras/                /species/bronze-cory        301
-/wiki/bala-shark/               /species/bala-shark         301
-/wiki/blood-parrot-cichlid/     /species/blood-parrot-cichlid 301
-/wiki/celestial-pearl-danio/    /species/celestial-pearl-danio 301
-/wiki/cherry-barb/              /species/cherry-barb        301
-/wiki/convict-cichlid/          /species/convict-cichlid    301
-/wiki/endlers-livebearer/       /species/endlers-livebearer 301
-/wiki/firemouth-cichlid/        /species/firemouth-cichlid  301
-/wiki/flowerhorn-cichlid/       /species/flowerhorn-cichlid 301
-/wiki/harlequin-rasbora/        /species/harlequin-rasbora  301
-/wiki/kuhli-loach/              /species/kuhli-loach        301
-/wiki/moorish-idol/             /species/moorish-idol       301
-/wiki/otocinclus/               /species/otocinclus         301
-/wiki/pearl-gourami/            /species/pearl-gourami      301
-/wiki/pictus-catfish/           /species/pictus-catfish     301
-/wiki/rainbow-shark/            /species/rainbow-shark      301
-/wiki/rummy-nose-tetra/         /species/rummy-nose-tetra   301
-/wiki/tiger-barb/               /species/tiger-barb         301
-/wiki/white-cloud-mountain-minnow/ /species/white-cloud-mountain-minnow 301
-/wiki/rainbow-fish/             /species/rainbow-fish       301
-
-# NOTE: wiki species-profile pages now serve their own content.
-# /wiki/betta-fish/, /wiki/discus/ etc. → served from wiki/*/index.html directly.
+# /encyclopedia/ → /wiki/ (all species encyclopedia content now lives at /wiki/)
+/encyclopedia   /wiki/  301
+/encyclopedia/  /wiki/  301
