@@ -1,7 +1,0 @@
-# Proxy: /species/* and /_next/* → Next.js species app on Vercel
-/species/*  https://species-app.vercel.app/species/:splat  200
-/_next/*    https://species-app.vercel.app/_next/:splat    200
-
-# /encyclopedia/ → /wiki/ (all species encyclopedia content now lives at /wiki/)
-/encyclopedia   /wiki/  301
-/encyclopedia/  /wiki/  301
