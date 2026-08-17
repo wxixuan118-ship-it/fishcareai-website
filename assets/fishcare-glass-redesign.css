@@ -103,8 +103,20 @@ a{color:#7DEBFF}
     align-items:stretch!important;
     gap:4px!important;
     border-radius:18px!important;
+    background:rgba(4,22,36,.97)!important;
+    border:1px solid rgba(125,235,255,.2)!important;
+    box-shadow:0 20px 60px rgba(0,0,0,.5)!important;
   }
-  .nb .nlinks.open a,.nb .nav.open a{display:block!important;padding:10px 12px!important;margin:0!important}
+  .nb .nlinks.open a,.nb .nav.open a{
+    display:block!important;
+    padding:10px 12px!important;
+    margin:0!important;
+    color:rgba(234,251,255,.82)!important;
+  }
+  .nb .nlinks.open a:hover,.nb .nav.open a:hover{
+    background:rgba(125,235,255,.15)!important;
+    color:#fff!important;
+  }
   .consent-banner{
     left:8px;
     right:8px;
