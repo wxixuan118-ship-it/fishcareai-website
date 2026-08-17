@@ -411,15 +411,50 @@ a{color:#7DEBFF}
 }
 .ft a,footer a{color:rgba(234,251,255,.72)!important}
 
-table,.ptbl,.qf-table{
+table,.ptbl,.qf-table,.cmpt,.cmp-table,.setup-table,.facts{
   background:rgba(6,28,45,.52)!important;
   border-color:rgba(125,235,255,.16)!important;
+  max-width:100%;
 }
 th{
   background:rgba(37,215,255,.12)!important;
   color:#fff!important;
+  border-color:rgba(125,235,255,.16)!important;
 }
-td{border-color:rgba(125,235,255,.12)!important}
+/* ── Fix: zebra-row #F8FAFE becomes invisible against white forced body text ── */
+td{
+  border-color:rgba(125,235,255,.12)!important;
+  color:rgba(220,246,255,.82)!important;
+  background:rgba(7,44,68,.52)!important;
+}
+td:first-child{color:rgba(234,251,255,.95)!important}
+tr:nth-child(even) td,
+.ptbl tr:nth-child(even) td,
+.cmpt tr:nth-child(even) td,
+.cmp-table tr:nth-child(even) td,
+.setup-table tr:nth-child(even) td,
+.facts tr:nth-child(even) td{
+  background:rgba(4,22,36,.7)!important;
+  color:rgba(220,246,255,.82)!important;
+}
+/* Links and inline elements inside table cells */
+table a,td a{color:#7DEBFF!important}
+table p,table strong,table span,table em{color:inherit!important}
+/* Responsive: allow horizontal scroll on narrow viewports */
+@media(max-width:640px){
+  .ptbl,.cmpt,.cmp-table,.setup-table,.facts{
+    display:block;
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+  }
+}
+/* ── Sidebar cards: make dark to match table bg ── */
+.qf-card,.toc-card,.article-toc{
+  background:rgba(6,28,45,.72)!important;
+  border-color:rgba(125,235,255,.16)!important;
+}
+.qf-table td:first-child{color:rgba(234,251,255,.95)!important}
+.qf-table td:last-child{color:rgba(220,246,255,.82)!important}
 
 body.tools-dark-page{
   background:
