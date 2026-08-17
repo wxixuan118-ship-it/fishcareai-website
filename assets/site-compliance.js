@@ -163,6 +163,7 @@
       '<a class="nl' + (section === 'guides' ? ' act' : '') + '" href="/guides/">Guides</a>' +
       '<a class="nl' + (section === 'wiki' ? ' act' : '') + '" href="/wiki/">Encyclopedia</a>' +
       '<a class="nl' + (section === 'fish-health' ? ' act' : '') + '" href="/fish-health/">Fish Health</a>' +
+      '<a class="nl nl-fish-id" href="https://fish-identification-d558af.anysites.app/" target="_blank" rel="noopener">🔍 Fish ID</a>' +
       '<a class="nl' + (section === 'tools' ? ' act' : '') + '" href="/tools/fish-compatibility-checker/">Tools</a>' +
       '<a class="nl' + (section === 'about' ? ' act' : '') + '" href="/about/">About</a>' +
       '</div>';
