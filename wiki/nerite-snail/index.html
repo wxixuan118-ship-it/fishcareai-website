@@ -19,7 +19,20 @@
 <script defer src="/assets/site-compliance.js?v=20260812-fish-health"></script>
 </head>
 <body>
-<nav class="nb"><a class="brand" href="/"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"/></a><div class="nav"><a href="/">Home</a><a href="/guides/">Guides</a><a class="act" href="/species/">Encyclopedia</a><a title="Fish Health" class="nl" href="/fish-health/">Fish Health</a><a href="/#tools">Tools</a><a href="/about.html">About</a></div></nav>
+<nav class="nb" id="navbar">
+  <a title="FishCare AI" class="brand" href="/"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"/></a>
+  <div class="nlinks" id="nlinks">
+    <a title="Home" class="nl" href="/">Home</a>
+    <a title="Care Guides" class="nl" href="/guides/">Guides</a>
+    <a title="Aquarium Encyclopedia" class="nl act" href="/wiki/">Encyclopedia</a>
+    <a title="Fish Health" class="nl" href="/fish-health/">Fish Health</a>
+    <a title="Tools" class="nl" href="/tools/">Tools</a>
+    <a title="About Us" class="nl" href="/about/">About Us</a>
+    <a title="Contact" class="nl" href="/contact/">Contact</a>
+    <a title="Try AI Free" class="btn bp bsm nb-cta" href="/tools/fish-compatibility-checker/">Try AI Free</a>
+  </div>
+  <button class="hbg" type="button" aria-label="Open navigation menu" onclick="document.getElementById('nlinks').classList.toggle('open')"><span></span><span></span><span></span></button>
+</nav>
 <section class="hero"><img src="/assets/encyclopedia/real/otocinclus-catfish-wikimedia-real.jpg" alt="Nerite snail algae eater in freshwater aquarium"/><div class="hero-inner"><span class="pill">Snails &amp; Shrimp Profile</span><h1>Nerite Snail</h1><p><em>Neritina spp.</em> · Nerite snails are small algae grazers that work well in many peaceful freshwater aquariums. They do not reproduce successfully in pure freshwater, which makes them popular for planted tanks.</p></div></section>
 <main class="wrap">
   <div class="grid">
