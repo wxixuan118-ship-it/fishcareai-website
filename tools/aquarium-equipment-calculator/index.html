@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en" data-adsense-content="true">
+<head>
+<meta charset="UTF-8"/>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<base href="/">
+<title>Aquarium Equipment Calculator - Heater, Filter &amp; Pump Size</title>
+<meta name="description" content="Calculate the right heater, filter, and pump size for your aquarium with our free equipment calculator. Get exact wattage, GPH, and sizing for any tank."/>
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"/>
+<link rel="canonical" href="https://www.fishcareai.com/tools/aquarium-equipment-calculator/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Aquarium Equipment Calculator - Heater, Filter &amp; Pump Size"/>
+<meta property="og:description" content="Calculate the right heater wattage, filter GPH, and pump size for any aquarium with this free equipment sizing tool."/>
+<meta property="og:url" content="https://www.fishcareai.com/tools/aquarium-equipment-calculator/"/>
+<meta property="og:image" content="https://www.fishcareai.com/assets/freshwater-fish-care-hero-optimized.jpg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Aquarium Equipment Calculator - Heater, Filter &amp; Pump Size"/>
+<meta name="twitter:description" content="Free aquarium equipment calculator for heater wattage, filter GPH, and pump sizing by tank type and volume."/>
+<meta name="twitter:image" content="https://www.fishcareai.com/assets/freshwater-fish-care-hero-optimized.jpg"/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Aquarium Equipment Calculator",
+  "url": "https://www.fishcareai.com/tools/aquarium-equipment-calculator/",
+  "applicationCategory": "UtilityApplication",
+  "operatingSystem": "Any",
+  "description": "Free aquarium equipment calculator for heater wattage, filter GPH, and pump sizing. Enter tank volume and type to get instant equipment recommendations.",
+  "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+  "featureList": ["Heater wattage calculator", "Filter GPH sizing", "Pump size recommendations", "Freshwater and saltwater support", "Lighting coverage guide"]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I calculate the right heater for my aquarium?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use the watts-per-gallon rule: about 5W per gallon in cool rooms (60–65°F), 3–4W per gallon in moderate rooms (65–72°F), and 2–3W per gallon in warm rooms (72°F+). Always round up to the next standard heater size (25W, 50W, 75W, 100W, 150W, 200W, 300W, 500W). For tanks over 40 gallons, consider two heaters for redundancy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What GPH filter do I need for a 20-gallon tank?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a 20-gallon community freshwater tank, aim for a minimum of 80 GPH (4× turnover) and ideally 120 GPH (6× turnover). For goldfish, you need 160–200 GPH due to their high waste output. For saltwater, aim for 200–400 GPH minimum."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need an air pump if I have a filter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not always, but it depends on your filter type. Hang-on-back and canister filters that disrupt the water surface provide adequate gas exchange for most tanks. If your filter does not create surface movement, or if you have a high bioload, dense planting, or a saltwater tank, adding an air pump improves oxygenation significantly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many watts per gallon does my heater need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The standard guideline is 3–5 watts per gallon depending on how warm or cool your room is. Cool rooms (60–65°F) need about 5W per gallon. Moderate rooms (65–72°F) need 3–4W per gallon. Warm rooms above 72°F need 2–3W per gallon. Saltwater tanks need 15–20% more wattage to compensate for evaporative cooling."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is turnover rate for aquarium filters?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Turnover rate is how many times per hour your filter processes the total tank volume. A 4× turnover on a 20-gallon tank means the filter moves 80 GPH. Community fish need 4–6× turnover, goldfish need 8–10×, and saltwater tanks need 10–20× because of the higher biological load and oxygenation demands."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do goldfish need a heater?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Goldfish are cold-water fish that thrive between 65–75°F and do not need a heater in most homes. In fact, keeping goldfish too warm (above 75°F) shortens their lifespan, promotes disease, and reduces dissolved oxygen. If your home stays below 60°F in winter, a low-wattage heater set to 65°F can be used as a floor, not for tropical heat."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How big of a filter do I need for a saltwater tank?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Saltwater and reef tanks need 10–20× turnover per hour due to high biological demand and oxygenation requirements. For a 30-gallon saltwater tank, aim for a minimum of 300 GPH and ideally 600 GPH or more using a sump and return pump combined. In reef tanks, additional powerheads for circulation are also recommended."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long should aquarium lights be on per day?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most freshwater community tanks, 8–10 hours per day is standard. Planted tanks may benefit from 8–12 hours with moderate to high light intensity (2–4W per gallon). Reef tanks require specialized LED fixtures tuned to coral needs — light duration varies by coral type. Always use a timer to maintain a consistent photoperiod, which reduces algae blooms and stress."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fishcareai.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Tools", "item": "https://www.fishcareai.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Aquarium Equipment Calculator", "item": "https://www.fishcareai.com/tools/aquarium-equipment-calculator/"}
+  ]
+}
+</script>
+
+<style>
+:root{--p:#1687C7;--pl:#46B6E8;--pd:#0F3D6E;--s:#18A999;--a:#0F3D6E;--ad:#08294C;--bg:#EAF8FF;--tx:#123047;--mu:#527895;--bd:#BFE4F6;--ok:#27AE60;--wn:#F39C12;--er:#E74C3C;--water:#D9F4FF;--foam:#F7FCFF;--eq:#18A999}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,'Segoe UI',Arial,sans-serif;background:radial-gradient(circle at 10% 4%,rgba(125,217,255,.7),transparent 24%),radial-gradient(circle at 86% 12%,rgba(24,169,153,.28),transparent 28%),linear-gradient(180deg,#F7FCFF 0%,#DDF5FF 34%,#F4FBFF 100%);color:var(--tx);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--p);text-decoration:none}
+button{cursor:pointer;font-family:inherit}
+input,select{font-family:inherit}
+.hide{display:none!important}
+.con{max-width:1180px;margin:0 auto;padding:0 22px}
+h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:800;line-height:1.2}
+h2{font-size:clamp(1.3rem,3vw,2rem);font-weight:700;line-height:1.25}
+h3{font-size:1.15rem;font-weight:700}
+h4{font-size:1rem;font-weight:700}
+p{margin-bottom:.85rem;color:var(--mu)}
+p:last-child{margin-bottom:0}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:10px 20px;border-radius:999px;font-size:.9rem;font-weight:700;border:none;cursor:pointer;transition:all .18s;white-space:nowrap;box-shadow:0 10px 24px rgba(15,61,110,.12)}
+.bp{background:linear-gradient(135deg,var(--pd),#155C98);color:#fff}.bp:hover{background:linear-gradient(135deg,#08294C,var(--pd));transform:translateY(-1px);box-shadow:0 14px 28px rgba(15,61,110,.2)}
+.bo{background:rgba(255,255,255,.65);color:var(--pd);border:2px solid rgba(15,61,110,.9)}.bo:hover{background:var(--pd);color:#fff;border-color:var(--pd)}
+.bsm{padding:7px 14px;font-size:.82rem}
+.blg{padding:13px 28px;font-size:.97rem;border-radius:10px}
+.sec{padding:68px 0;position:relative}
+.sec-w{background:linear-gradient(180deg,rgba(255,255,255,.88),rgba(221,245,255,.86))}
+.sh{text-align:center;margin-bottom:42px}
+.sh h2{color:var(--pd);margin-bottom:10px}
+.sh p{max-width:580px;margin:0 auto;font-size:1rem}
+.tag{display:inline-block;background:rgba(22,135,199,.12);color:var(--pd);padding:4px 12px;border-radius:999px;font-size:.73rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px;border:1px solid rgba(22,135,199,.12)}
+.g2{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media(max-width:900px){.g3{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.g3,.g2{grid-template-columns:1fr}.con{padding:0 14px}}
+.card{background:rgba(255,255,255,.9);border-radius:22px;box-shadow:0 16px 42px rgba(15,61,110,.09);border:1px solid rgba(191,228,246,.95);transition:box-shadow .22s,transform .22s,border-color .22s;overflow:hidden;backdrop-filter:blur(14px)}
+.card:hover{box-shadow:0 22px 52px rgba(15,61,110,.18);transform:translateY(-4px);border-color:rgba(70,182,232,.95)}
+.bdg{display:inline-block;padding:3px 9px;border-radius:20px;font-size:.74rem;font-weight:600}
+.bgood{background:rgba(39,174,96,.12);color:var(--ok)}.bwarn{background:rgba(243,156,18,.12);color:var(--wn)}.bdng{background:rgba(231,76,60,.12);color:var(--er)}
+input.fc,select.fc{width:100%;padding:9px 13px;border:1.5px solid var(--bd);border-radius:8px;font-size:.9rem;background:#fff;color:var(--tx);outline:none;transition:border-color .2s}
+input.fc:focus,select.fc:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(22,135,199,.14)}
+.fg{margin-bottom:16px}
+.fg label{display:block;font-weight:600;margin-bottom:5px;font-size:.86rem}
+/* NAVBAR */
+.nb{position:sticky;top:0;z-index:100;background:rgba(247,252,255,.86);backdrop-filter:blur(20px);border-bottom:1px solid rgba(191,228,246,.9);padding:0 22px;height:68px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 10px 30px rgba(15,61,110,.08)}
+.brand{display:flex;align-items:center;gap:8px;font-size:1.2rem;font-weight:800;color:var(--p);cursor:pointer;border:none;background:none;text-decoration:none}
+.nlinks{display:flex;align-items:center;gap:2px}
+.nl{padding:7px 13px;border-radius:999px;font-weight:600;font-size:.86rem;color:var(--mu);cursor:pointer;border:none;background:none;transition:all .15s;text-decoration:none}
+.nl:hover,.nl.act{color:var(--pd);background:rgba(22,135,199,.11)}
+.hbg{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:7px;border:none;background:none}
+.hbg span{display:block;width:21px;height:2px;background:var(--tx);border-radius:2px}
+@media(max-width:760px){.nlinks{display:none;position:absolute;top:64px;left:0;right:0;background:#fff;flex-direction:column;padding:12px;border-bottom:1px solid var(--bd);gap:3px;box-shadow:0 4px 20px rgba(27,94,139,.12)}.nlinks.open{display:flex}.hbg{display:flex}}
+/* HERO */
+.phero{background:linear-gradient(135deg,#0F3D5E,#1B5E8B);padding:64px 22px 56px;text-align:center;position:relative;overflow:hidden}
+.phero::before{content:'';position:absolute;inset:0;opacity:.15;background-image:radial-gradient(circle at 20% 30%,rgba(255,255,255,.7) 0 1px,transparent 2px),radial-gradient(circle at 75% 20%,rgba(125,217,255,.55) 0 1px,transparent 2px);background-size:44px 44px,68px 68px}
+.phero-inner{position:relative;z-index:1;max-width:740px;margin:0 auto}
+.phero-inner h1{color:#fff;margin-bottom:14px}
+.phero-inner h1 span{color:#9DEBFF}
+.phero-inner > p{color:rgba(255,255,255,.85);font-size:1.05rem;margin-bottom:28px;max-width:620px;margin-left:auto;margin-right:auto}
+.phero-badges{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:4px}
+.phero-badge{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:999px;color:rgba(255,255,255,.9);font-size:.8rem;font-weight:600;padding:6px 14px}
+/* CALCULATOR SECTION */
+.calc-wrap{background:linear-gradient(180deg,#0A2540 0%,#0d3060 100%);padding:42px 0 56px}
+.calc-con{max-width:1100px;margin:0 auto;padding:0 22px}
+.cg{display:grid;grid-template-columns:1fr 1.4fr;gap:24px;margin-bottom:10px}
+@media(max-width:720px){.cg{grid-template-columns:1fr}}
+.calc-box{background:rgba(255,255,255,.97);border-radius:18px;padding:28px;border:1px solid rgba(191,228,246,.9)}
+.calc-heading{color:#fff;margin-bottom:6px;font-size:clamp(1.1rem,2.5vw,1.45rem);font-weight:700}
+.calc-sub{color:rgba(255,255,255,.75);font-size:.9rem;margin-bottom:28px}
+/* TOOL TABS ROW */
+.tool-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px}
+.tool-tab-link{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;border-radius:999px;font-size:.83rem;font-weight:600;text-decoration:none;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.85);transition:all .18s}
+.tool-tab-link:hover{background:rgba(255,255,255,.22);color:#fff}
+.tool-tab-link.active{background:rgba(255,255,255,.95);color:var(--pd)}
+/* EQUIPMENT CARDS */
+.eq-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+@media(max-width:560px){.eq-cards{grid-template-columns:1fr}}
+.eq-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.15);border-radius:18px;padding:24px 20px;display:flex;flex-direction:column;gap:10px;backdrop-filter:blur(10px);transition:background .22s,border-color .22s}
+.eq-card:hover{background:rgba(255,255,255,.1);border-color:rgba(24,169,153,.5)}
+.eq-icon{font-size:2.4rem;line-height:1;margin-bottom:2px}
+.eq-card h4{color:#fff;font-size:1rem;margin:0}
+.eq-val{font-size:2rem;font-weight:800;color:#18A999;line-height:1.1;letter-spacing:-.02em}
+.eq-note{font-size:.82rem;color:rgba(255,255,255,.7);line-height:1.55;margin:0}
+.eq-tip{font-size:.79rem;color:rgba(24,169,153,.9);font-style:italic;margin:0}
+.eq-placeholder{text-align:center;padding:48px 32px;color:rgba(255,255,255,.5)}
+.eq-placeholder .eq-icon{font-size:3rem}
+.eq-placeholder p{margin-top:14px;font-size:.88rem;color:rgba(255,255,255,.45)}
+/* RESULT BADGES inside dark section */
+.bdg-dark-good{display:inline-block;padding:3px 9px;border-radius:20px;font-size:.74rem;font-weight:600;background:rgba(39,174,96,.18);color:#5EE89A}
+.bdg-dark-warn{display:inline-block;padding:3px 9px;border-radius:20px;font-size:.74rem;font-weight:600;background:rgba(243,156,18,.18);color:#F5C057}
+/* SEO CONTENT CARDS */
+.tc{padding:24px;display:flex;flex-direction:column;gap:10px}
+.tc h3{color:var(--pd)}
+.tc p{font-size:.86rem;flex:1}
+/* PROW */
+.pr{background:#F8FAFE;border-radius:12px;padding:18px}
+.prow{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--bd);flex-wrap:wrap}
+.prow:last-child{border-bottom:none}
+.plb{font-size:.8rem;font-weight:600;color:var(--pd);flex:0 0 auto;min-width:120px}
+.pv{font-size:.83rem;color:var(--mu);flex:1}
+/* FAQ */
+.faq-item{border-bottom:1px solid var(--bd)}
+.faq-q{width:100%;background:none;border:none;text-align:left;padding:16px 0;font-size:.95rem;font-weight:700;color:var(--pd);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.faq-q:hover{color:var(--p)}
+.faq-arrow{font-size:1.1rem;transition:transform .22s;flex-shrink:0}
+.faq-a{font-size:.88rem;color:var(--mu);padding:0 0 16px;display:none;line-height:1.7}
+.faq-item.open .faq-a{display:block}
+.faq-item.open .faq-arrow{transform:rotate(180deg)}
+/* HOW IT WORKS */
+.hw-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:16px}
+@media(max-width:700px){.hw-steps{grid-template-columns:1fr}}
+.hw-step{background:rgba(255,255,255,.9);border-radius:18px;padding:28px 24px;border:1px solid rgba(191,228,246,.95);box-shadow:0 12px 32px rgba(15,61,110,.08);text-align:center}
+.hw-num{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--pd),var(--p));color:#fff;font-size:1.1rem;font-weight:800;display:flex;align-items:center;justify-content:center;margin:0 auto 14px}
+.hw-step h3{color:var(--pd);margin-bottom:8px}
+.hw-step p{font-size:.87rem;margin:0}
+/* RESULTS EXPLANATION SECTION */
+.res-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+@media(max-width:1000px){.res-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.res-grid{grid-template-columns:1fr}}
+.res-card{background:rgba(255,255,255,.9);border-radius:16px;padding:22px;border:1px solid rgba(191,228,246,.95);box-shadow:0 10px 28px rgba(15,61,110,.08)}
+.res-icon{font-size:2rem;margin-bottom:10px}
+.res-card h4{color:var(--pd);margin-bottom:6px}
+.res-card p{font-size:.83rem;margin:0}
+/* INTERNAL LINKS */
+.int-links-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media(max-width:700px){.int-links-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:440px){.int-links-grid{grid-template-columns:1fr}}
+.int-link-card{display:block;background:rgba(255,255,255,.9);border-radius:14px;border:1px solid var(--bd);padding:16px 18px;text-decoration:none;transition:all .2s;color:inherit}
+.int-link-card:hover{box-shadow:0 10px 28px rgba(15,61,110,.12);transform:translateY(-3px);border-color:rgba(22,135,199,.4)}
+.int-link-card .il-icon{font-size:1.5rem;margin-bottom:6px}
+.int-link-card h4{color:var(--pd);font-size:.9rem;margin-bottom:3px}
+.int-link-card p{font-size:.78rem;color:var(--mu);margin:0}
+/* FOOTER */
+.ft{background:linear-gradient(180deg,#08294C,#0F3D6E);color:rgba(255,255,255,.75);padding:56px 0 32px}
+.ftg{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:32px;margin-bottom:36px}
+@media(max-width:900px){.ftg{grid-template-columns:1fr 1fr}}
+@media(max-width:500px){.ftg{grid-template-columns:1fr}}
+.ftbr p{font-size:.84rem;margin-top:12px;color:rgba(255,255,255,.6)}
+.ftcol h5{color:#fff;font-size:.84rem;margin-bottom:12px;font-weight:700}
+.ftcol a{display:block;font-size:.82rem;color:rgba(255,255,255,.6);margin-bottom:7px;transition:color .15s}
+.ftcol a:hover{color:#fff}
+.ftb{font-size:.78rem;color:rgba(255,255,255,.4);text-align:center;padding-top:24px;border-top:1px solid rgba(255,255,255,.08)}
+.legal-links{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;padding:14px 22px;font-size:.78rem}
+.legal-links a{color:rgba(255,255,255,.45)}
+.legal-links a:hover{color:rgba(255,255,255,.8)}
+</style>
+<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260801-global-nav"/>
+<meta name="google-adsense-account" content="ca-pub-6697313643773879"/>
+<script defer src="/assets/site-compliance.js?v=20260812-fish-health"></script>
+</head>
+<body class="tools-dark-page">
+
+<!-- NAVBAR -->
+<nav class="nb" id="navbar">
+  <a title="FishCare AI" class="brand" href="/"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"/></a>
+  <div class="nlinks" id="nlinks">
+    <a title="Home" class="nl" href="/">Home</a>
+    <a title="Guides" class="nl" href="/guides/">Guides</a>
+    <a title="Aquarium Encyclopedia" class="nl" href="/species/">Encyclopedia</a>
+    <a title="Fish Health" class="nl" href="/fish-health/">Fish Health</a>
+    <a title="Tools" class="nl act" href="/tools/">Tools</a>
+    <a title="About Us" class="nl" href="/about/">About Us</a>
+  </div>
+  <button class="hbg" type="button" onclick="document.getElementById('nlinks').classList.toggle('open')" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+</nav>
+
+<!-- HERO -->
+<section class="phero">
+  <div class="phero-inner">
+    <div class="tag" style="color:rgba(255,255,255,.9);background:rgba(255,255,255,.15);border-color:rgba(255,255,255,.2)">⚙️ Free Tool</div>
+    <h1>Aquarium <span>Equipment Calculator</span></h1>
+    <p>Enter your tank volume and type to instantly calculate the right heater wattage, filter GPH, air pump LPH, and lighting for your setup.</p>
+    <div class="phero-badges">
+      <span class="phero-badge">Heater Wattage</span>
+      <span class="phero-badge">Filter GPH</span>
+      <span class="phero-badge">Air Pump LPH</span>
+      <span class="phero-badge">Freshwater &amp; Saltwater</span>
+      <span class="phero-badge">Lighting Guide</span>
+    </div>
+  </div>
+</section>
+
+<!-- EQUIPMENT CALCULATOR TOOL -->
+<div class="calc-wrap">
+  <div class="calc-con">
+
+    <!-- Tool Navigation -->
+    <div class="tool-tabs">
+      <a href="/tools/aquarium-size-calculator/" class="tool-tab-link">📐 Size Calc</a>
+      <a href="/tools/fish-compatibility-checker/" class="tool-tab-link">🔬 Compatibility</a>
+      <a href="/tools/water-parameter-checker/" class="tool-tab-link">💧 Water Test</a>
+      <a href="/tools/fish-feeding-calculator/" class="tool-tab-link">🍽 Feeding</a>
+      <a href="/tools/aquarium-planner/" class="tool-tab-link">🧭 Planner</a>
+      <a href="/tools/aquarium-equipment-calculator/" class="tool-tab-link active">⚙️ Equipment</a>
+    </div>
+
+    <h2 class="calc-heading">⚙️ Aquarium Equipment Calculator</h2>
+    <p class="calc-sub">Enter your tank details below to get instant heater, filter, air pump, and lighting recommendations.</p>
+
+    <div class="cg">
+      <!-- INPUTS -->
+      <div class="calc-box">
+        <div class="fg">
+          <label for="eq-volume">Tank volume (gallons)</label>
+          <input class="fc" id="eq-volume" type="number" min="1" max="300" value="20" step="1" oninput="setEquipVal('volume', this.value)"/>
+          <small style="color:var(--mu);font-size:.76rem;margin-top:4px;display:block">Enter volume in US gallons. 1–300 gallon range.</small>
+        </div>
+        <div class="fg">
+          <label for="eq-type">Tank type</label>
+          <select class="fc" id="eq-type" onchange="setEquipVal('type', this.value)">
+            <option value="community">Freshwater Community</option>
+            <option value="saltwater">Saltwater / Marine</option>
+            <option value="planted">Planted Tank</option>
+            <option value="goldfish">Goldfish</option>
+            <option value="shrimp">Shrimp Tank</option>
+          </select>
+        </div>
+        <div class="fg">
+          <label for="eq-room">Room temperature</label>
+          <select class="fc" id="eq-room" onchange="setEquipVal('room', this.value)">
+            <option value="cool">Cool (60–65°F / 16–18°C)</option>
+            <option value="moderate" selected>Moderate (65–72°F / 18–22°C)</option>
+            <option value="warm">Warm (72°F+ / 22°C+)</option>
+          </select>
+          <small style="color:var(--mu);font-size:.76rem;margin-top:4px;display:block">Ambient room temp affects heater sizing.</small>
+        </div>
+        <button class="btn bp blg" style="width:100%;justify-content:center;margin-top:6px" onclick="calcEquipment()">Calculate Equipment Sizes →</button>
+      </div>
+
+      <!-- RESULTS -->
+      <div id="equip-result">
+        <div class="eq-placeholder">
+          <div class="eq-icon">⚙️</div>
+          <p>Fill in your tank details and click <strong style="color:rgba(255,255,255,.7)">Calculate Equipment Sizes</strong> to see your heater, filter, pump, and lighting recommendations.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Helper note -->
+    <div style="background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:16px 20px;margin-top:20px">
+      <p style="color:rgba(255,255,255,.6);font-size:.8rem;margin:0">
+        <strong style="color:rgba(255,255,255,.85)">Note:</strong> These recommendations follow widely used aquarium care guidelines. Always verify against your specific fish species requirements. For tanks over 40 gallons, consider using two smaller heaters for redundancy and even heat distribution.
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<!-- HOW IT WORKS -->
+<section class="sec sec-w">
+  <div class="con">
+    <div class="sh">
+      <div class="tag">How It Works</div>
+      <h2>Three steps to the right aquarium equipment</h2>
+      <p>Our aquarium equipment calculator uses established fishkeeping formulas to give you practical, immediately actionable sizing guidance.</p>
+    </div>
+    <div class="hw-steps">
+      <div class="hw-step">
+        <div class="hw-num">1</div>
+        <h3>Enter tank volume and type</h3>
+        <p>Input your tank's volume in US gallons and select the tank type — community freshwater, saltwater, planted, goldfish, or shrimp. Each type has different equipment demands.</p>
+      </div>
+      <div class="hw-step">
+        <div class="hw-num">2</div>
+        <h3>Set your room temperature</h3>
+        <p>Room temperature is the single biggest factor in heater sizing. A tank in a 60°F basement needs roughly twice the wattage of the same tank in a 75°F living room.</p>
+      </div>
+      <div class="hw-step">
+        <div class="hw-num">3</div>
+        <h3>Read your equipment recommendations</h3>
+        <p>The calculator returns the next standard heater size, minimum and recommended filter GPH with turnover rates, air pump LPH, and a photoperiod guide for lighting.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS EXPLANATION -->
+<section class="sec">
+  <div class="con">
+    <div class="sh">
+      <div class="tag">Understanding Your Results</div>
+      <h2>What each equipment result means</h2>
+      <p>Here is how to interpret the four cards the aquarium equipment calculator produces and how to apply them when shopping.</p>
+    </div>
+    <div class="res-grid">
+      <div class="res-card">
+        <div class="res-icon">🌡️</div>
+        <h4>Heater (Watts)</h4>
+        <p>The wattage shown is the next standard commercial size at or above the calculated target. Choose a heater with a built-in thermostat and set it to your target temperature. For tanks over 50 gallons, two half-wattage heaters placed at opposite ends give more even heating and a safety backup if one fails.</p>
+      </div>
+      <div class="res-card">
+        <div class="res-icon">🔄</div>
+        <h4>Filter (GPH)</h4>
+        <p>GPH — gallons per hour — tells you how much water the filter moves. The minimum figure is the floor; the recommended figure gives a safe buffer. When comparing filter specs, use the flow rate with media installed, not the manufacturer's peak rating in empty water.</p>
+      </div>
+      <div class="res-card">
+        <div class="res-icon">💨</div>
+        <h4>Air Pump (LPH)</h4>
+        <p>LPH — liters per hour — is the standard rating for air pumps. The figure shown is a baseline for surface aeration. If you are running multiple sponge filters, air stones, or a protein skimmer off the same pump, step up one size on the chart. Saltwater tanks need roughly double the air volume of freshwater setups.</p>
+      </div>
+      <div class="res-card">
+        <div class="res-icon">💡</div>
+        <h4>Lighting (Hours &amp; Intensity)</h4>
+        <p>The lighting card shows daily photoperiod and intensity guidance, not a specific fixture recommendation. Planted tanks need more intense, longer-duration light. Reef tanks require specialized spectrum LED fixtures. Always use a timer — a consistent photoperiod prevents algae spikes and reduces fish stress.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEO CONTENT SECTION -->
+<section class="sec sec-w">
+  <div class="con">
+    <div class="sh">
+      <div class="tag">Equipment Sizing Guide</div>
+      <h2>Complete aquarium equipment sizing guide</h2>
+      <p>In-depth reference for heater wattage, filter GPH, air pump sizing, lighting, and when to upgrade your equipment.</p>
+    </div>
+    <div class="g3">
+
+      <div class="card tc">
+        <div class="tag">Aquarium equipment calculator</div>
+        <h3>What Is an Aquarium Equipment Calculator?</h3>
+        <p>An aquarium equipment calculator is a sizing tool that takes your tank's volume and environment as inputs and returns specific equipment recommendations — heater wattage, filter flow rate, air pump output, and lighting duration. Proper equipment sizing is one of the most overlooked aspects of fish keeping. Undersized heaters cannot maintain stable temperature; undersized filters allow ammonia and nitrate to build up; and inconsistent lighting causes algae blooms and stresses both fish and plants.</p>
+        <p>The calculator on this page covers four categories: heater wattage in watts, filter flow rate in gallons per hour (GPH), air pump output in liters per hour (LPH), and a lighting photoperiod and intensity guide. It adjusts recommendations by tank type — freshwater community, saltwater, planted, goldfish, and shrimp — because each has meaningfully different equipment demands.</p>
+      </div>
+
+      <div class="card tc">
+        <div class="tag">Heater size calculator</div>
+        <h3>Heater Size Guide for Aquariums</h3>
+        <p>The most widely used heater sizing formula is watts per gallon. In a moderate room (65–72°F), plan for 3–4W per gallon. In a cool room (60–65°F), increase to 5W per gallon. In a warm room above 72°F, 2–2.5W per gallon is often sufficient.</p>
+        <p>Always round up to the next standard commercial size: 25W, 50W, 75W, 100W, 150W, 200W, 300W, or 500W. A heater that runs continuously at full power is working too hard; you want a heater rated slightly above your calculated need so it cycles on and off. For tanks over 40 gallons, two smaller heaters provide redundancy — if one fails in winter, the second prevents a temperature crash that could kill your fish overnight. Saltwater tanks lose heat faster through evaporation, so add 15–20% to your calculated wattage.</p>
+        <p>Goldfish are the exception: they are cold-water fish that do not need a heater in most homes. Keeping goldfish above 75°F shortens their lifespan, lowers dissolved oxygen, and increases disease susceptibility.</p>
+      </div>
+
+      <div class="card tc">
+        <div class="tag">Aquarium filter size</div>
+        <h3>Aquarium Filter Size: GPH and Turnover Rate</h3>
+        <p>GPH — gallons per hour — measures how much water your filter processes. Turnover rate divides GPH by tank volume to tell you how many times per hour the full tank volume passes through the filter media. Most community freshwater tanks need 4–6× turnover per hour. A 30-gallon tank therefore needs a filter rated at 120–180 GPH minimum.</p>
+        <p>Goldfish are exceptionally messy and need 8–10× turnover — double most community fish. Planted tanks do best at 4× turnover with gentle flow that does not uproot plants or disturb CO2 levels. Saltwater and reef tanks need 10–20× turnover because marine biological filtration demands are much higher and saltwater holds less dissolved oxygen than fresh.</p>
+        <p>Shrimp tanks should use sponge filters with a pre-filter sponge over the intake. Fine shrimp and fry can be sucked into standard hang-on-back or canister filters if the intake is unprotected.</p>
+        <p>When comparing filter specifications, always look for the rated GPH with media installed — not the peak flow in an empty test tank. Real-world flow through activated carbon, ceramic rings, or sponge media is typically 20–40% lower than the peak rating.</p>
+      </div>
+
+      <div class="card tc">
+        <div class="tag">Air pump size calculator</div>
+        <h3>Choosing the Right Air Pump Size</h3>
+        <p>Air pumps are rated in liters per hour (LPH) and drive bubbles through air stones, sponge filters, or protein skimmers. The baseline formula is approximately 0.5 liters of air per liter of tank water per hour for freshwater setups. Saltwater tanks need double this rate because saltwater holds less dissolved oxygen and marine inhabitants are more sensitive to oxygen fluctuation.</p>
+        <p>Standard commercial air pump sizes are 40, 60, 100, 150, 200, and 400 LPH. Always choose the next size above your calculated need — running an air pump at its upper limit creates back-pressure, reduces pump lifespan, and produces more heat and noise.</p>
+        <p>If you already have a hang-on-back or canister filter that creates vigorous surface agitation, a separate air pump may not be necessary for a standard freshwater community tank. Air pumps become more critical in heavily stocked tanks, summertime when oxygen solubility drops with temperature, and in tanks housing high-oxygen-demand species like rainbowfish or danios.</p>
+      </div>
+
+      <div class="card tc">
+        <div class="tag">Aquarium lighting guide</div>
+        <h3>Aquarium Lighting Guide</h3>
+        <p>Lighting serves three functions in an aquarium: supporting live plants, providing natural day/night signals for fish behavior, and creating a visually appealing display. Light requirements vary significantly by tank type.</p>
+        <p>Standard freshwater community tanks do best with 8–10 hours of moderate light per day at 1–2W per gallon equivalent. Planted tanks need 8–12 hours and 2–4W per gallon to support photosynthesis, though this must be balanced with CO2 and fertilizer to prevent algae explosions. Saltwater reef tanks require specialized full-spectrum LED fixtures that deliver the right wavelengths for coral photosynthesis — consult species-specific requirements before choosing a reef light.</p>
+        <p>The most important lighting habit you can build is using a timer. Inconsistent photoperiods confuse fish, trigger algae blooms, and stress plants. A simple 24-hour mechanical or digital timer set to the same on/off time daily makes a visible difference in tank health within weeks.</p>
+      </div>
+
+      <div class="card tc">
+        <div class="tag">Equipment upgrade signs</div>
+        <h3>Signs You Need to Upgrade Your Equipment</h3>
+        <p>Equipment that worked well for your tank six months ago may now be inadequate if you have added livestock, plants, or upgraded to a larger tank. Watch for these warning signs that your heater, filter, or pump needs replacement or a size upgrade.</p>
+        <p><strong>Heater:</strong> Temperature swings of more than 2°F between morning and evening, a heater that runs continuously without reaching the set temperature, or a thermostat that reads correctly but actual water temperature differs by more than 1–2°F.</p>
+        <p><strong>Filter:</strong> Nitrate levels above 20 ppm between weekly water changes, persistent cloudiness despite regular maintenance, fish hovering at the surface for oxygen, or visible uneaten food remaining on the substrate 30 minutes after feeding.</p>
+        <p><strong>Air pump:</strong> Reduced bubble output, increased operating noise, fish showing signs of low oxygen (gasping, lethargy), or a pump that runs hot to the touch. Air pump diaphragms typically last 1–2 years in continuous operation and are often inexpensive to replace rather than the whole unit.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section class="sec">
+  <div class="con" style="max-width:780px">
+    <div class="sh">
+      <div class="tag">FAQ</div>
+      <h2>Aquarium equipment calculator — frequently asked questions</h2>
+      <p>Answers to the most common questions about heater wattage, filter GPH, air pump sizing, turnover rate, and lighting.</p>
+    </div>
+    <div id="faq-list">
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">How do I calculate the right heater for my aquarium? <span class="faq-arrow">▾</span></button>
+        <div class="faq-a">Use the watts-per-gallon rule: about 5W per gallon in cool rooms (60–65°F), 3–4W per gallon in moderate rooms (65–72°F), and 2–3W per gallon in warm rooms (72°F+). Always round up to the next standard heater size (25W, 50W, 75W, 100W, 150W, 200W, 300W, 500W). For tanks over 40 gallons, consider two heaters for redundancy and even heat distribution.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">What GPH filter do I need for a 20-gallon tank? <span class="faq-arrow">▾</span></button>
+        <div class="faq-a">For a 20-gallon community freshwater tank, aim for a minimum of 80 GPH (4× turnover) and ideally 120 GPH (6× turnover). For goldfish, you need 160–200 GPH due to their high waste output. For saltwater, aim for 200–400 GPH minimum. When comparing filter specs, look for the rated flow with media installed, not the manufacturer's peak rating.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">Do I need an air pump if I have a filter? <span class="faq-arrow">▾</span></button>
+        <div class="faq-a">Not always. Hang-on-back and canister filters that create vigorous surface agitation provide adequate gas exchange for most community tanks. However, if your filter does not disturb the water surface, if you have a high bioload, a densely planted tank, a saltwater setup, or summer temperatures, adding an air pump significantly improves oxygenation and fish health.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">How many watts per gallon does my heater need? <span class="faq-arrow">▾</span></button>
+        <div class="faq-a">The standard guideline is 3–5 watts per gallon depending on your room temperature. Cool rooms (60–65°F) need about 5W per gallon. Moderate rooms (65–72°F) need 3–4W per gallon. Warm rooms above 72°F need 2–3W per gallon. Saltwater tanks need 15–20% more wattage to compensate for evaporative cooling. Always choose the next commercial size above your calculated target.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">What is turnover rate for aquarium filters? <span class="faq-arrow">▾</span></button>
+        <div class="faq-a">Turnover rate is how many times per hour the filter processes the total tank volume. A filter rated at 80 GPH on a 20-gallon tank gives a 4× turnover rate. Community freshwater tanks need 4–6× turnover. Goldfish need 8–10× because they are high-waste producers. Saltwater tanks need 10–20×. Planted tanks do well at 4× with gentle flow that does not uproot plants.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">Do goldfish need a heater? <span class="faq-arrow">▾</span></button>
+        <div class="faq-a">No. Goldfish are cold-water fish that thrive between 65–75°F and do not need a heater in most homes. Keeping goldfish in heated tropical water (above 76°F) shortens their lifespan, reduces dissolved oxygen, and makes them more susceptible to bacterial infections. If your home drops below 60°F in winter, a low-wattage heater set to 65°F can serve as a cold-floor safety device.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">How big of a filter do I need for a saltwater tank? <span class="faq-arrow">▾</span></button>
+        <div class="faq-a">Saltwater tanks need 10–20× turnover per hour. For a 30-gallon saltwater tank, target a minimum of 300 GPH and ideally 600 GPH using a sump-and-return pump setup. Reef tanks typically add separate powerheads for additional flow over corals on top of the main filtration. A protein skimmer is also essential for marine setups and is not included in the filter GPH calculation.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">How long should aquarium lights be on per day? <span class="faq-arrow">▾</span></button>
+        <div class="faq-a">For most freshwater community tanks, 8–10 hours per day is the standard recommendation. Planted tanks benefit from 8–12 hours with higher intensity (2–4W per gallon equivalent). Reef tanks require specialist LED fixtures with species-specific settings — duration varies by coral type. Always use a programmable timer for a consistent photoperiod, which prevents algae blooms and reduces fish stress.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INTERNAL LINKS -->
+<section class="sec sec-w">
+  <div class="con">
+    <div class="sh">
+      <div class="tag">Related Resources</div>
+      <h2>Guides and tools to pair with this calculator</h2>
+      <p>Use these guides and tools alongside the aquarium equipment calculator to build a complete, well-equipped setup.</p>
+    </div>
+    <div class="int-links-grid">
+      <a class="int-link-card" href="/guides/how-to-set-up-a-fish-tank/">
+        <div class="il-icon">🐠</div>
+        <h4>How to Set Up a Fish Tank</h4>
+        <p>Step-by-step guide covering equipment placement, cycling, and stocking your first tank safely.</p>
+      </a>
+      <a class="int-link-card" href="/wiki/">
+        <div class="il-icon">📖</div>
+        <h4>Aquarium Encyclopedia</h4>
+        <p>Species profiles with temperature ranges, tank size minimums, and equipment compatibility notes.</p>
+      </a>
+      <a class="int-link-card" href="/tools/aquarium-size-calculator/">
+        <div class="il-icon">📐</div>
+        <h4>Aquarium Size Calculator</h4>
+        <p>Calculate your tank's actual volume in US gallons, UK gallons, and litres before sizing equipment.</p>
+      </a>
+      <a class="int-link-card" href="/tools/aquarium-planner/">
+        <div class="il-icon">🧭</div>
+        <h4>Aquarium Planner</h4>
+        <p>Build a complete equipment, cycling, and stocking checklist before purchasing your setup.</p>
+      </a>
+      <a class="int-link-card" href="/tools/water-parameter-checker/">
+        <div class="il-icon">💧</div>
+        <h4>Water Parameter Checker</h4>
+        <p>Test pH, ammonia, nitrite, nitrate, and temperature readings for instant water quality assessment.</p>
+      </a>
+      <a class="int-link-card" href="/guides/goldfish-care/">
+        <div class="il-icon">🐟</div>
+        <h4>Goldfish Care Guide</h4>
+        <p>Why goldfish need different equipment — high filtration, no heater, and cool water — explained in full.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="ft" id="site-footer">
+  <div class="con">
+    <div class="ftg">
+      <div class="ftbr">
+        <div><img class="fishcare-footer-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="150" height="38"/></div>
+        <p>Your trusted resource for fish care guides, free tools, and practical aquarium advice. Helping beginners build healthier freshwater tanks since 2026.</p>
+      </div>
+      <div class="ftcol">
+        <h5>Guides</h5>
+        <a href="/guides/">All Guides</a>
+        <a href="/guides/best-freshwater-fish-for-beginners/">Best Beginner Fish</a>
+        <a href="/guides/how-to-set-up-a-fish-tank/">Tank Setup Guide</a>
+        <a href="/guides/aquarium-water-parameters/">Water Parameters</a>
+        <a href="/guides/goldfish-care/">Goldfish Care</a>
+        <a href="/guides/beginner-fish-care-checklist/">Beginner Checklist</a>
+      </div>
+      <div class="ftcol">
+        <h5>Encyclopedia</h5>
+        <a href="/wiki/">All Species</a>
+        <a href="/wiki/neon-tetra/">Neon Tetra</a>
+        <a href="/wiki/clownfish/">Clownfish</a>
+        <a href="/wiki/corydoras/">Corydoras</a>
+        <a href="/wiki/cherry-barb/">Cherry Barb</a>
+        <a href="/wiki/dwarf-gourami/">Dwarf Gourami</a>
+      </div>
+      <div class="ftcol">
+        <h5>Tools</h5>
+        <a href="/tools/aquarium-size-calculator/">Aquarium Size Calculator</a>
+        <a href="/tools/tank-size-calculator/">Tank Size Calculator</a>
+        <a href="/tools/fish-compatibility-checker/">Compatibility Checker</a>
+        <a href="/tools/water-parameter-checker/">Water Parameter Checker</a>
+        <a href="/tools/fish-feeding-calculator/">Feeding Calculator</a>
+        <a href="/tools/aquarium-planner/">Aquarium Planner</a>
+        <a href="/tools/aquarium-equipment-calculator/">Equipment Calculator</a>
+      </div>
+      <div class="ftcol">
+        <h5>More</h5>
+        <a href="/about/">About Us</a>
+        <a href="/contact/">Contact</a>
+        <a href="/partners/">Partners</a>
+        <a href="/privacy/">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="ftb">© 2026 FishCare. All rights reserved.</div>
+  </div>
+  <nav class="legal-links" aria-label="Legal and company information">
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+    <a href="/editorial-policy/">Editorial Policy</a>
+    <a href="/privacy/">Privacy</a>
+    <a href="/image-credits/">Image Credits</a>
+  </nav>
+</footer>
+
+<script>
+// ── Equipment Calculator State ─────────────────────────────────────────────
+let equipVals = {volume: 20, type: 'community', room: 'moderate'};
+
+function setEquipVal(k, v) {
+  equipVals[k] = k === 'volume' ? Math.max(1, Math.min(300, Number(v) || 20)) : v;
+}
+
+function calcEquipment() {
+  const vol = Math.max(1, Math.min(300, Number(equipVals.volume) || 20));
+  const type = equipVals.type;
+  const room = equipVals.room;
+
+  // ── HEATER ────────────────────────────────────────────────────────────────
+  let heaterW = 0;
+  let heaterNote = '';
+  let heaterStatus = 'good';
+
+  if (type === 'goldfish') {
+    heaterNote = 'Goldfish are cold-water fish and do not require a heater in most homes. Maintain 65–75°F without artificial heating.';
+    heaterStatus = 'neutral';
+  } else {
+    const wPerGal = room === 'cool' ? 5 : room === 'moderate' ? 4 : 2.5;
+    const rawW = Math.ceil(vol * wPerGal);
+    const saltMultiplier = type === 'saltwater' ? 1.2 : 1;
+    const targetW = Math.ceil(rawW * saltMultiplier);
+    const SIZES = [25, 50, 75, 100, 150, 200, 300, 500];
+    heaterW = SIZES.find(s => s >= targetW) || 500;
+    const roomLabel = room === 'cool' ? 'cool (60–65°F)' : room === 'moderate' ? 'moderate (65–72°F)' : 'warm (72°F+)';
+    heaterNote = `${heaterW}W heater recommended for a ${vol}-gallon ${type === 'saltwater' ? 'saltwater' : type === 'planted' ? 'planted' : type === 'shrimp' ? 'shrimp' : 'community'} tank in a ${roomLabel} room.${type === 'saltwater' ? ' (Includes +20% for evaporative cooling.)' : ''}${vol > 40 ? ' Consider two heaters for even heat distribution and redundancy.' : ''}`;
+    heaterStatus = heaterW >= 300 ? 'warn' : 'good';
+  }
+
+  // ── FILTER ────────────────────────────────────────────────────────────────
+  const turnoverMin = type === 'goldfish' ? 8 : type === 'saltwater' ? 10 : 4;
+  const turnoverRec = type === 'goldfish' ? 10 : type === 'saltwater' ? 20 : type === 'planted' ? 4 : type === 'shrimp' ? 4 : 6;
+  const filterMin  = Math.ceil(vol * turnoverMin);
+  const filterRec  = Math.ceil(vol * turnoverRec);
+  const filterNote = type === 'shrimp'    ? 'Use a sponge filter with a pre-filter intake cover to protect shrimp and fry.' :
+                     type === 'saltwater' ? 'High turnover is critical for marine tanks. Use a sump, canister, or multiple filters.' :
+                     type === 'goldfish'  ? 'Goldfish produce heavy waste — high turnover and regular media cleaning are essential.' : '';
+
+  // ── AIR PUMP ──────────────────────────────────────────────────────────────
+  const litres = vol * 3.785;
+  const lphBase = Math.ceil(litres * (type === 'saltwater' ? 1.0 : 0.5));
+  const PUMP_SIZES = [40, 60, 100, 150, 200, 400, 800];
+  const pumpLPH = PUMP_SIZES.find(s => s >= lphBase) || 800;
+
+  // ── LIGHTING ──────────────────────────────────────────────────────────────
+  const lightHours = type === 'planted'  ? '8–12 hours / day'
+                   : type === 'saltwater' ? 'Reef-specific LED (consult species)'
+                   : '8–10 hours / day';
+  const lightWatts = type === 'planted'  ? '2–4W per gallon equivalent'
+                   : type === 'saltwater' ? 'Specialized reef LED fixture'
+                   : '1–2W per gallon equivalent';
+  const lightNote  = type === 'planted'  ? 'Balance light intensity with CO₂ and fertilizers to prevent algae.'
+                   : type === 'saltwater' ? 'Coral-safe PAR levels vary by species. Research individual coral needs.'
+                   : 'Use a timer for a consistent photoperiod — this prevents algae blooms and reduces fish stress.';
+
+  // ── RENDER ────────────────────────────────────────────────────────────────
+  document.getElementById('equip-result').innerHTML = `
+    <div class="eq-cards">
+      <div class="eq-card">
+        <div class="eq-icon">🌡️</div>
+        <h4>Heater</h4>
+        ${type === 'goldfish'
+          ? `<div class="eq-val" style="font-size:1.2rem;color:#F5C057">No heater needed</div>
+             <p class="eq-note">${heaterNote}</p>
+             <span class="bdg-dark-warn">Cold-water species</span>`
+          : `<div class="eq-val">${heaterW}W</div>
+             <p class="eq-note">${heaterNote}</p>
+             <span class="${heaterStatus === 'warn' ? 'bdg-dark-warn' : 'bdg-dark-good'}">${heaterStatus === 'warn' ? 'Consider dual heaters' : 'Recommended size'}</span>`
+        }
+      </div>
+      <div class="eq-card">
+        <div class="eq-icon">🔄</div>
+        <h4>Filter</h4>
+        <div class="eq-val">${filterRec} GPH</div>
+        <p class="eq-note">
+          Minimum: <strong style="color:rgba(255,255,255,.85)">${filterMin} GPH</strong> (${turnoverMin}× turnover)<br>
+          Recommended: <strong style="color:rgba(255,255,255,.85)">${filterRec} GPH</strong> (${turnoverRec}× turnover)
+        </p>
+        ${filterNote ? `<p class="eq-tip">${filterNote}</p>` : ''}
+        <span class="bdg-dark-good">Recommended flow</span>
+      </div>
+      <div class="eq-card">
+        <div class="eq-icon">💨</div>
+        <h4>Air Pump</h4>
+        <div class="eq-val">${pumpLPH} LPH</div>
+        <p class="eq-note">Baseline aeration for a ${vol}-gallon ${type === 'saltwater' ? 'marine' : 'freshwater'} tank (${Math.round(litres)} L). ${type === 'saltwater' ? 'Saltwater needs higher oxygenation — size up if running a skimmer.' : 'Scale up if adding multiple air stones or sponge filters.'}</p>
+        <span class="bdg-dark-warn">Minimum guideline</span>
+      </div>
+      <div class="eq-card">
+        <div class="eq-icon">💡</div>
+        <h4>Lighting</h4>
+        <div class="eq-val" style="font-size:1.15rem">${lightHours}</div>
+        <p class="eq-note">${lightWatts}. ${lightNote}</p>
+        <span class="bdg-dark-good">Guideline</span>
+      </div>
+    </div>`;
+}
+
+// ── FAQ toggle ──────────────────────────────────────────────────────────────
+function toggleFaq(btn) {
+  const item = btn.closest('.faq-item');
+  const wasOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(el => el.classList.remove('open'));
+  if (!wasOpen) item.classList.add('open');
+}
+
+// ── Auto-calculate on page load ─────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', function() {
+  calcEquipment();
+});
+</script>
+
+</body>
+</html>
