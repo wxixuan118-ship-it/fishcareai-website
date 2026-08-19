@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en" data-adsense-content="true">
+<head>
+<meta charset="UTF-8"/>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<base href="/">
+<title>Aquarium Size Calculator - Gallons, Litres &amp; Tank Volume</title>
+<meta name="description" content="Free aquarium size calculator for US gallons, UK gallons and litres. Enter inside tank dimensions to get total capacity, filled volume and usable water — plus a fish tank size planner by species."/>
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<link rel="canonical" href="https://www.fishcareai.com/tools/aquarium-size-calculator/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Aquarium Size Calculator - Gallons, Litres &amp; Tank Volume"/>
+<meta property="og:description" content="Calculate aquarium volume in US gallons, UK gallons and litres. Supports rectangular, cube, cylinder tanks, partial fill and decor displacement."/>
+<meta property="og:url" content="https://www.fishcareai.com/tools/aquarium-size-calculator/"/>
+<meta property="og:image" content="https://www.fishcareai.com/assets/freshwater-fish-care-hero-optimized.jpg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Aquarium Size Calculator - Gallons, Litres &amp; Tank Volume"/>
+<meta name="twitter:description" content="Calculate aquarium volume in US gallons, UK gallons and litres. Supports rectangular, cube, cylinder tanks, partial fill and decor displacement."/>
+<meta name="twitter:image" content="https://www.fishcareai.com/assets/freshwater-fish-care-hero-optimized.jpg"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "FishCare AI",
+  "url": "https://www.fishcareai.com/",
+  "description": "Aquarium care guides and practical tools for fish, algae, shrimp, snails, amphibians, tank setup, water quality, feeding, compatibility, and decoration."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "FishCare AI",
+  "url": "https://www.fishcareai.com/"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Aquarium Size Calculator",
+  "url": "https://www.fishcareai.com/tools/aquarium-size-calculator/",
+  "description": "Free aquarium size calculator. Enter inside dimensions to calculate total capacity, filled volume and usable water in US gallons, UK gallons and litres. Supports rectangular, cube, vertical cylinder and horizontal cylinder aquariums with partial fill and decor displacement.",
+  "applicationCategory": "LifestyleApplication",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "featureList": [
+    "US gallon calculation",
+    "UK gallon calculation",
+    "Litre calculation",
+    "Rectangular, cube, cylinder tank shapes",
+    "Partial fill / water height support",
+    "Substrate and decor displacement estimate",
+    "Species-based fish tank size planner",
+    "Water weight estimate"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I use an aquarium size calculator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Measure the inside dimensions of your tank (length, width and water height), select the tank shape and your preferred unit (inches or centimetres), then click Calculate. The aquarium size calculator shows total capacity, filled volume and estimated usable water in US gallons, UK gallons and litres."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between US gallons and UK gallons in the aquarium size calculator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "One US gallon equals approximately 3.785 litres. One UK (Imperial) gallon equals approximately 4.546 litres — about 20% larger. If you are in the United Kingdom, use the UK gallon figure when comparing aquarium size calculator results with tank labels sold in UK shops. The calculator shows both values so you can use whichever applies to your region."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the aquarium size calculator handle litres?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The aquarium size calculator converts all measurements to litres using the exact formula: 1 cubic inch = 0.016387 litres, 1 cubic centimetre = 0.001 litres. The litre result reflects usable water after the entered displacement percentage is deducted. This is the most widely used unit internationally."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why should I use inside dimensions in the aquarium size calculator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Glass panels, frames and trim take up space. Outside measurements can overstate volume by 5–15% depending on glass thickness. Always measure from inside surface to inside surface. Most standard tank labels print the nominal volume calculated from outside dimensions, so your actual usable water will be somewhat less."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What displacement percentage should I use for an aquarium size calculator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A bare tank with no substrate uses 0%. A typical aquarium with sand or gravel, a few decorations and a small filter uses about 10%. A heavily planted or hardscape tank with driftwood, rocks and an internal filter can displace 15–20% of total volume. Choosing 10% (the default) is a safe middle estimate for most setups."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I convert aquarium gallons to litres?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Multiply US gallons by 3.785 to get litres. Multiply UK gallons by 4.546 to get litres. The aquarium size calculator does this automatically — you do not need to convert manually."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the aquarium size calculator result the same as what is printed on the tank label?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually not. Tank labels typically print the gross volume using outside dimensions and a full fill height, which overstates the actual usable water. The aquarium size calculator uses the measurements you enter and deducts displacement, giving a more realistic estimate of the water your fish actually swim in."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use this as a fish aquarium size calculator for stocking decisions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The page includes a fish tank size planner below the volume calculator where you select a species, enter the number of animals and review a minimum and recommended size estimate. Volume alone is not sufficient — also consider adult size, group needs, filtration and water quality."
+      }
+    }
+  ]
+}
+</script>
+<style>
+:root{--p:#1687C7;--pl:#46B6E8;--pd:#0F3D6E;--s:#18A999;--a:#0F3D6E;--ad:#08294C;--bg:#EAF8FF;--tx:#123047;--mu:#527895;--bd:#BFE4F6;--ok:#27AE60;--wn:#F39C12;--er:#E74C3C;--water:#D9F4FF;--foam:#F7FCFF}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,'Segoe UI',Arial,sans-serif;background:radial-gradient(circle at 10% 4%,rgba(125,217,255,.7),transparent 24%),radial-gradient(circle at 86% 12%,rgba(24,169,153,.28),transparent 28%),linear-gradient(180deg,#F7FCFF 0%,#DDF5FF 34%,#F4FBFF 100%);color:var(--tx);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--p);text-decoration:none}
+button{cursor:pointer;font-family:inherit}
+input,select{font-family:inherit}
+.hide{display:none!important}
+.con{max-width:1180px;margin:0 auto;padding:0 22px}
+h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:800;line-height:1.2}
+h2{font-size:clamp(1.3rem,3vw,2rem);font-weight:700;line-height:1.25}
+h3{font-size:1.15rem;font-weight:700}
+h4{font-size:1rem;font-weight:700}
+p{margin-bottom:.85rem;color:var(--mu)}
+p:last-child{margin-bottom:0}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:10px 20px;border-radius:999px;font-size:.9rem;font-weight:700;border:none;cursor:pointer;transition:all .18s;white-space:nowrap;box-shadow:0 10px 24px rgba(15,61,110,.12)}
+.bp{background:linear-gradient(135deg,var(--pd),#155C98);color:#fff}.bp:hover{background:linear-gradient(135deg,#08294C,var(--pd));transform:translateY(-1px);box-shadow:0 14px 28px rgba(15,61,110,.2)}
+.bo{background:rgba(255,255,255,.65);color:var(--pd);border:2px solid rgba(15,61,110,.9)}.bo:hover{background:var(--pd);color:#fff;border-color:var(--pd)}
+.bsm{padding:7px 14px;font-size:.82rem}
+.blg{padding:13px 28px;font-size:.97rem;border-radius:10px}
+.sec{padding:68px 0;position:relative}
+.sec-w{background:linear-gradient(180deg,rgba(255,255,255,.88),rgba(221,245,255,.86))}
+.sh{text-align:center;margin-bottom:42px}
+.sh h2{color:var(--pd);margin-bottom:10px}
+.sh p{max-width:560px;margin:0 auto;font-size:1rem}
+.tag{display:inline-block;background:rgba(22,135,199,.12);color:var(--pd);padding:4px 12px;border-radius:999px;font-size:.73rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px;border:1px solid rgba(22,135,199,.12)}
+.g2{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media(max-width:900px){.g3{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.g3,.g2{grid-template-columns:1fr}.con{padding:0 14px}}
+.card{background:rgba(255,255,255,.9);border-radius:22px;box-shadow:0 16px 42px rgba(15,61,110,.09);border:1px solid rgba(191,228,246,.95);transition:box-shadow .22s,transform .22s,border-color .22s;overflow:hidden;backdrop-filter:blur(14px)}
+.card:hover{box-shadow:0 22px 52px rgba(15,61,110,.18);transform:translateY(-4px);border-color:rgba(70,182,232,.95)}
+.bdg{display:inline-block;padding:3px 9px;border-radius:20px;font-size:.74rem;font-weight:600}
+.bgood{background:rgba(39,174,96,.12);color:var(--ok)}.bwarn{background:rgba(243,156,18,.12);color:var(--wn)}.bdng{background:rgba(231,76,60,.12);color:var(--er)}
+input.fc,select.fc{width:100%;padding:9px 13px;border:1.5px solid var(--bd);border-radius:8px;font-size:.9rem;background:#fff;color:var(--tx);outline:none;transition:border-color .2s}
+input.fc:focus,select.fc:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(22,135,199,.14)}
+.fg{margin-bottom:16px}
+.fg label{display:block;font-weight:600;margin-bottom:5px;font-size:.86rem}
+/* NAVBAR */
+.nb{position:sticky;top:0;z-index:100;background:rgba(247,252,255,.86);backdrop-filter:blur(20px);border-bottom:1px solid rgba(191,228,246,.9);padding:0 22px;height:68px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 10px 30px rgba(15,61,110,.08)}
+.brand{display:flex;align-items:center;gap:8px;font-size:1.2rem;font-weight:800;color:var(--p);cursor:pointer;border:none;background:none}
+.nlinks{display:flex;align-items:center;gap:2px}
+.nl{padding:7px 13px;border-radius:999px;font-weight:600;font-size:.86rem;color:var(--mu);cursor:pointer;border:none;background:none;transition:all .15s;text-decoration:none}
+.nl:hover,.nl.act{color:var(--pd);background:rgba(22,135,199,.11)}
+.hbg{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:7px;border:none;background:none}
+.hbg span{display:block;width:21px;height:2px;background:var(--tx);border-radius:2px}
+@media(max-width:760px){.nlinks{display:none;position:absolute;top:64px;left:0;right:0;background:#fff;flex-direction:column;padding:12px;border-bottom:1px solid var(--bd);gap:3px;box-shadow:0 4px 20px rgba(27,94,139,.12)}.nlinks.open{display:flex}.hbg{display:flex}.nb-cta{display:none}}
+/* HERO */
+.phero{background:linear-gradient(135deg,#0F3D5E,#1B5E8B);padding:64px 22px 56px;text-align:center;position:relative;overflow:hidden}
+.phero::before{content:'';position:absolute;inset:0;opacity:.15;background-image:radial-gradient(circle at 20% 30%,rgba(255,255,255,.7) 0 1px,transparent 2px),radial-gradient(circle at 75% 20%,rgba(125,217,255,.55) 0 1px,transparent 2px);background-size:44px 44px,68px 68px}
+.phero-inner{position:relative;z-index:1;max-width:740px;margin:0 auto}
+.phero-inner h1{color:#fff;margin-bottom:14px}
+.phero-inner h1 span{color:#9DEBFF}
+.phero-inner>p{color:rgba(255,255,255,.85);font-size:1.05rem;margin-bottom:28px;max-width:620px;margin-left:auto;margin-right:auto}
+.phero-badges{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:4px}
+.phero-badge{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:999px;color:rgba(255,255,255,.9);font-size:.8rem;font-weight:600;padding:6px 14px}
+/* CALCULATOR SECTION */
+.calc-wrap{background:linear-gradient(180deg,#08294C 0%,#0d3060 100%);padding:42px 0 56px}
+.calc-con{max-width:1100px;margin:0 auto;padding:0 22px}
+.cg{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:10px}
+@media(max-width:700px){.cg{grid-template-columns:1fr}}
+.calc-box{background:rgba(255,255,255,.97);border-radius:18px;padding:28px;border:1px solid rgba(191,228,246,.9)}
+.calc-box h2{color:var(--pd);margin-bottom:6px;font-size:1.25rem}
+.calc-box>p{font-size:.88rem;margin-bottom:20px}
+.calc-heading{color:#fff;margin-bottom:6px;font-size:clamp(1.1rem,2.5vw,1.45rem);font-weight:700}
+.calc-sub{color:rgba(255,255,255,.75);font-size:.9rem;margin-bottom:28px}
+.result-placeholder{background:#F8FAFE;border-radius:14px;border:1px solid var(--bd);padding:34px;text-align:center;color:var(--mu)}
+.result-icon{font-size:3.3rem;margin-bottom:12px}
+.hs{border-radius:12px;padding:22px 24px;margin-bottom:16px;text-align:center}
+.sn{font-size:2.4rem;font-weight:800;color:#fff;line-height:1}
+.sl{font-size:.85rem;color:rgba(255,255,255,.85);margin-top:5px}
+.pr{background:#F8FAFE;border-radius:12px;padding:18px}
+.prow{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--bd);flex-wrap:wrap}
+.prow:last-child{border-bottom:none}
+.plb{font-size:.8rem;font-weight:600;color:var(--pd);flex:0 0 auto;min-width:120px}
+.pv{font-size:.83rem;color:var(--mu);flex:1}
+.formula-note{background:rgba(255,255,255,.92);border-radius:14px;border:1px solid rgba(191,228,246,.9);padding:20px 24px;margin-top:20px}
+.formula-note h3{color:var(--pd);margin-bottom:8px;font-size:.95rem}
+.formula-note p{font-size:.83rem;margin-bottom:.5rem}
+/* TOOL TABS ROW */
+.tool-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px}
+.tool-tab-link{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;border-radius:999px;font-size:.83rem;font-weight:600;text-decoration:none;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.85);transition:all .18s}
+.tool-tab-link:hover{background:rgba(255,255,255,.22);color:#fff}
+.tool-tab-link.active{background:rgba(255,255,255,.95);color:var(--pd)}
+/* SEO CONTENT */
+.tc{padding:24px;display:flex;flex-direction:column;gap:10px}
+.tc h3{color:var(--pd)}
+.tc p{font-size:.86rem;flex:1}
+/* FAQ */
+.faq-item{border-bottom:1px solid var(--bd)}
+.faq-q{width:100%;background:none;border:none;text-align:left;padding:16px 0;font-size:.95rem;font-weight:700;color:var(--pd);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.faq-q:hover{color:var(--p)}
+.faq-arrow{font-size:1.1rem;transition:transform .22s;flex-shrink:0}
+.faq-a{font-size:.88rem;color:var(--mu);padding:0 0 16px;display:none;line-height:1.7}
+.faq-item.open .faq-a{display:block}
+.faq-item.open .faq-arrow{transform:rotate(180deg)}
+/* SPECIES CARDS */
+.spec-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+@media(max-width:900px){.spec-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:500px){.spec-grid{grid-template-columns:repeat(2,1fr)}}
+.spec-card{background:rgba(255,255,255,.9);border-radius:14px;border:1px solid var(--bd);padding:14px;text-align:center;transition:box-shadow .2s,transform .2s}
+.spec-card:hover{box-shadow:0 8px 24px rgba(15,61,110,.12);transform:translateY(-3px)}
+.spec-card .em{font-size:2.2rem;margin-bottom:6px;display:block}
+.spec-card h4{color:var(--pd);font-size:.84rem;margin-bottom:3px}
+.spec-card p{font-size:.73rem;margin:0}
+/* FOOTER */
+.ft{background:linear-gradient(180deg,#08294C,#0F3D6E);color:rgba(255,255,255,.75);padding:56px 0 32px}
+.ftg{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:32px;margin-bottom:36px}
+@media(max-width:900px){.ftg{grid-template-columns:1fr 1fr}}
+@media(max-width:500px){.ftg{grid-template-columns:1fr}}
+.ftbr p{font-size:.84rem;margin-top:12px;color:rgba(255,255,255,.6)}
+.ftcol h5{color:#fff;font-size:.84rem;margin-bottom:12px;font-weight:700}
+.ftcol a{display:block;font-size:.82rem;color:rgba(255,255,255,.6);margin-bottom:7px;transition:color .15s}
+.ftcol a:hover{color:#fff}
+.ftb{font-size:.78rem;color:rgba(255,255,255,.4);text-align:center;padding-top:24px;border-top:1px solid rgba(255,255,255,.08)}
+.legal-links{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;padding:14px 22px;font-size:.78rem}
+.legal-links a{color:rgba(255,255,255,.45)}
+.legal-links a:hover{color:rgba(255,255,255,.8)}
+</style>
+<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260801-global-nav"/>
+<meta name="google-adsense-account" content="ca-pub-6697313643773879">
+<script defer src="/assets/site-compliance.js?v=20260812-fish-health"></script>
+</head>
+<body class="tools-dark-page">
+
+<!-- NAVBAR -->
+<nav class="nb" id="navbar">
+  <a title="FishCare AI" class="brand" href="/"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"/></a>
+  <div class="nlinks" id="nlinks">
+    <a title="Home" class="nl" href="/">Home</a>
+    <a title="Guides" class="nl" href="/guides/">Guides</a>
+    <a title="Aquarium Encyclopedia" class="nl" href="/species/">Encyclopedia</a>
+    <a title="Fish Health" class="nl" href="/fish-health/">Fish Health</a>
+    <a title="Fish Identification" class="nl" href="https://fish-identification-d558af.anysites.app/" target="_blank" rel="noopener">🔍 Fish ID</a>
+    <a title="Tools" class="nl act" href="/tools/tank-size-calculator/">Tools</a>
+    <a title="About Us" class="nl" href="/about/">About Us</a>
+    <a title="Contact" class="nl" href="/contact/">Contact</a>
+  </div>
+  <button class="hbg" type="button" aria-label="Open navigation menu" onclick="this.closest('nav').querySelector('#nlinks').classList.toggle('open')"><span></span><span></span><span></span></button>
+</nav>
+
+<!-- HERO -->
+<section class="phero">
+  <div class="phero-inner">
+    <div class="tag" style="color:rgba(255,255,255,.9);background:rgba(255,255,255,.15);border-color:rgba(255,255,255,.2)">📐 Free Tool</div>
+    <h1>Aquarium <span>Size Calculator</span></h1>
+    <p>Enter your tank's inside dimensions to get total capacity, filled volume and usable water in US gallons, UK gallons and litres — instantly.</p>
+    <div class="phero-badges">
+      <span class="phero-badge">US &amp; UK Gallons</span>
+      <span class="phero-badge">Litres</span>
+      <span class="phero-badge">Rectangular, Cube &amp; Cylinder</span>
+      <span class="phero-badge">Partial Fill</span>
+      <span class="phero-badge">Species Planner</span>
+    </div>
+  </div>
+</section>
+
+<!-- CALCULATOR -->
+<div class="calc-wrap">
+  <div class="calc-con">
+
+    <!-- Tool navigation row -->
+    <div class="tool-tabs">
+      <a href="/tools/aquarium-size-calculator/" class="tool-tab-link active">📐 Aquarium Size</a>
+      <a href="/tools/tank-size-calculator/" class="tool-tab-link">📏 Tank Size</a>
+      <a href="/tools/fish-compatibility-checker/" class="tool-tab-link">🔬 Compatibility</a>
+      <a href="/tools/water-parameter-checker/" class="tool-tab-link">💧 Water Params</a>
+      <a href="/tools/fish-feeding-calculator/" class="tool-tab-link">🍽 Feeding</a>
+      <a href="/tools/aquarium-planner/" class="tool-tab-link">🧭 Planner</a>
+    </div>
+
+    <!-- Volume Calculator -->
+    <h2 class="calc-heading">💧 Aquarium Volume Calculator</h2>
+    <p class="calc-sub">Measure inside the glass. Get total capacity, filled volume and usable water in gallons (US &amp; UK) and litres.</p>
+
+    <div class="cg">
+      <div class="calc-box">
+        <div class="fg"><label for="cap-shape">Tank shape</label><select class="fc" id="cap-shape" onchange="setShape(this.value)"><option value="rectangle">Rectangular aquarium</option><option value="cube">Cube aquarium</option><option value="vertical-cylinder">Vertical cylinder</option><option value="horizontal-cylinder">Horizontal cylinder</option></select></div>
+        <div class="fg"><label for="cap-unit">Dimension unit</label><select class="fc" id="cap-unit"><option value="in">Inches</option><option value="cm">Centimetres</option><option value="mm">Millimetres</option><option value="ft">Feet</option><option value="m">Metres</option></select></div>
+        <div id="dim-fields">
+          <div class="fg" id="dim-length"><label>Inside length</label><input class="fc" id="cap-length" type="number" min="0" step="0.1" value="24"/></div>
+          <div class="fg" id="dim-width"><label>Inside width</label><input class="fc" id="cap-width" type="number" min="0" step="0.1" value="12"/></div>
+          <div class="fg" id="dim-diameter" style="display:none"><label>Inside diameter</label><input class="fc" id="cap-diameter" type="number" min="0" step="0.1" value="18"/></div>
+          <div class="fg" id="dim-height"><label>Inside tank height</label><input class="fc" id="cap-height" type="number" min="0" step="0.1" value="12"/></div>
+        </div>
+        <div class="fg"><label for="cap-fill">Actual water depth <span style="font-weight:400;color:var(--mu)">(optional)</span></label><input class="fc" id="cap-fill" type="number" min="0" step="0.1" value="11"/><small style="color:var(--mu);font-size:.76rem;margin-top:3px;display:block">Leave blank to use full tank height</small></div>
+        <div class="fg"><label for="cap-displace">Substrate &amp; decor displacement</label><select class="fc" id="cap-displace"><option value="0">0% — bare tank</option><option value="5">5% — light decor</option><option value="10" selected>10% — typical aquarium</option><option value="15">15% — planted / hardscape</option><option value="20">20% — heavy hardscape</option></select></div>
+        <div class="fg"><label for="cap-water">Water type</label><select class="fc" id="cap-water"><option value="freshwater">Freshwater</option><option value="saltwater">Saltwater</option></select></div>
+        <button class="btn bp blg" style="width:100%;justify-content:center;margin-top:4px" onclick="calcVolume()">Calculate Aquarium Volume →</button>
+      </div>
+      <div id="vol-result">
+        <div class="result-placeholder">
+          <div class="result-icon">💧</div>
+          <h4 style="color:var(--pd)">Enter inside dimensions</h4>
+          <p style="font-size:.86rem">Results will show US gallons, UK gallons, litres and water weight.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Formulas -->
+    <div class="formula-note">
+      <h3>Volume formulas &amp; unit conversions</h3>
+      <p><strong>Rectangular / cube:</strong> length × width × depth &nbsp;|&nbsp; <strong>Vertical cylinder:</strong> π × radius² × depth &nbsp;|&nbsp; <strong>Horizontal cylinder:</strong> circular segment area × length</p>
+      <p><strong>Conversions:</strong> 1 US gallon = 3.785411784 L &nbsp;|&nbsp; 1 UK gallon = 4.54609 L &nbsp;|&nbsp; Measure inside the glass, not the outer frame.</p>
+      <p style="font-size:.8rem;color:var(--mu)">Water weight excludes the tank, stand, substrate, rocks and equipment. Consult a qualified professional if floor or stand loading is a concern.</p>
+    </div>
+
+    <!-- Divider -->
+    <div style="height:48px"></div>
+
+    <!-- Species Planner -->
+    <h2 class="calc-heading">🐠 Fish Tank Size Planner</h2>
+    <p class="calc-sub">Compare physical volume with a conservative species-based space estimate. Planning aid only — not a stocking guarantee.</p>
+
+    <div class="cg">
+      <div class="calc-box">
+        <div class="fg"><label>Species</label><select class="fc" id="plan-fish">
+          <option value="betta">Betta</option>
+          <option value="guppy">Guppy</option>
+          <option value="goldfish">Goldfish</option>
+          <option value="discus">Discus</option>
+          <option value="angelfish">Angelfish</option>
+          <option value="swordtail">Swordtail</option>
+          <option value="molly">Molly</option>
+          <option value="platy">Platy</option>
+          <option value="neon">Neon Tetra</option>
+          <option value="cory">Corydoras</option>
+          <option value="clownfish">Clownfish</option>
+          <option value="shrimp">Cherry Shrimp</option>
+          <option value="snail">Nerite Snail</option>
+        </select></div>
+        <div class="fg"><label>Number of animals</label><input class="fc" id="plan-count" type="number" min="1" max="50" value="1"/></div>
+        <div class="fg"><label>Tank style</label><select class="fc" id="plan-style">
+          <option value="standard">Standard rectangle</option>
+          <option value="long">Long swimming tank</option>
+          <option value="tall">Tall tank</option>
+          <option value="nano">Nano tank</option>
+        </select></div>
+        <button class="btn bp blg" style="width:100%;justify-content:center;margin-top:4px" onclick="calcPlanner()">Estimate Species Space →</button>
+      </div>
+      <div id="plan-result">
+        <div class="result-placeholder">
+          <div class="result-icon">🐠</div>
+          <h4 style="color:var(--pd)">Choose a species</h4>
+          <p style="font-size:.86rem">Results show minimum and recommended tank size with care notes.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- SEO CONTENT SECTION -->
+<section class="sec sec-w">
+  <div class="con">
+    <div class="sh">
+      <div class="tag">How to use this tool</div>
+      <h2>Aquarium size calculator — what it measures and how to use the result</h2>
+      <p>A practical guide to getting the most accurate aquarium gallon and litre estimates from your inside dimensions.</p>
+    </div>
+    <div class="g3">
+      <div class="card tc">
+        <div class="tag">Aquarium size calculator gallons</div>
+        <h3>US gallons and UK gallons</h3>
+        <p>The aquarium size calculator shows both US gallons (3.785 L each) and UK Imperial gallons (4.546 L each). If you are in the United Kingdom, use the UK gallon figure — UK fish-tank labels and many UK fish-keeping guides quote Imperial gallons, not US gallons. A 40 US gallon tank is only about 33 UK gallons.</p>
+      </div>
+      <div class="card tc">
+        <div class="tag">Aquarium size calculator litres</div>
+        <h3>Litres — the international standard</h3>
+        <p>Litres are the most widely used unit in Europe, Australia and most of Asia. This fish aquarium size calculator converts all measurements automatically — no manual conversion needed. Usable litres are shown after deducting the displacement percentage you chose for substrate and decor.</p>
+      </div>
+      <div class="card tc">
+        <div class="tag">Aquarium water size calculator</div>
+        <h3>Measuring usable water, not box size</h3>
+        <p>Tank labels print gross volume from outside dimensions. Actual usable water is always less. Measure inside the glass, enter the real water depth, and choose a displacement allowance for your gravel, rocks and equipment. The aquarium water size calculator then gives a conservative, realistic estimate of what your fish actually swim in.</p>
+      </div>
+      <div class="card tc">
+        <div class="tag">Inside dimensions matter</div>
+        <h3>Why inside measurement is essential</h3>
+        <p>Glass panels, silicone seams and external trim can reduce effective volume by 5–15% compared with outside dimensions. Enter length, width and height measured from the inner glass surfaces. For a cube aquarium enter only one side — the calculator handles the geometry automatically.</p>
+      </div>
+      <div class="card tc">
+        <div class="tag">Fish aquarium size calculator</div>
+        <h3>Connecting volume to fish space</h3>
+        <p>Volume alone does not tell you how many fish can live safely. Use the species planner below the volume section to connect gallons to species-specific minimums. Adult size, territory, group requirements, filtration and oxygen all affect the stocking limit — gallons are the starting point, not the conclusion.</p>
+      </div>
+      <div class="card tc">
+        <div class="tag">Aquarium gallon size calculator</div>
+        <h3>Common size benchmarks</h3>
+        <p>Standard aquarium sizes: 10 US gal (37.9 L / 8.3 UK gal) · 20 US gal (75.7 L) · 29 US gal (109.8 L) · 55 US gal (208.2 L) · 75 US gal (283.9 L). Use the calculator to verify your actual usable volume if substrate, equipment or a lower fill line reduces what is shown on the label.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RELATED SPECIES CALCULATORS -->
+<section class="sec">
+  <div class="con">
+    <div class="sh">
+      <div class="tag">Species Calculators</div>
+      <h2>Tank size calculators by species</h2>
+      <p>Each species has its own space requirements. These calculators give you a minimum and recommended size — not a generic rule of thumb.</p>
+    </div>
+    <div class="spec-grid">
+      <a class="spec-card" href="/calculators/betta-fish-tank-size/" style="color:inherit"><span class="em">🐟</span><h4>Betta Fish</h4><p>5–30 gal</p></a>
+      <a class="spec-card" href="/calculators/goldfish-tank-size/" style="color:inherit"><span class="em">🐟</span><h4>Goldfish</h4><p>20–40 gal first fish</p></a>
+      <a class="spec-card" href="/calculators/guppy-tank-size/" style="color:inherit"><span class="em">🐠</span><h4>Guppy</h4><p>10 gal minimum</p></a>
+      <a class="spec-card" href="/calculators/angelfish-tank-size/" style="color:inherit"><span class="em">🐠</span><h4>Angelfish</h4><p>29 gal per pair</p></a>
+      <a class="spec-card" href="/calculators/molly-fish-tank-size/" style="color:inherit"><span class="em">🐠</span><h4>Molly Fish</h4><p>20 gal minimum</p></a>
+      <a class="spec-card" href="/calculators/swordtail-fish-tank-size/" style="color:inherit"><span class="em">🐡</span><h4>Swordtail</h4><p>20 gal minimum</p></a>
+      <a class="spec-card" href="/calculators/oscar-fish-tank-size/" style="color:inherit"><span class="em">🐟</span><h4>Oscar Fish</h4><p>75 gal per fish</p></a>
+      <a class="spec-card" href="/calculators/discus-fish-tank-size/" style="color:inherit"><span class="em">🐠</span><h4>Discus Fish</h4><p>55 gal group of 4</p></a>
+      <a class="spec-card" href="/calculators/koi-fish-tank-size/" style="color:inherit"><span class="em">🐠</span><h4>Koi</h4><p>250 gal per koi</p></a>
+      <a class="spec-card" href="/calculators/zebra-danio-tank-size/" style="color:inherit"><span class="em">🐡</span><h4>Zebra Danio</h4><p>10 gal for 6</p></a>
+    </div>
+    <div style="text-align:center;margin-top:26px"><a class="btn bo" href="/calculators/">View All Species Calculators →</a></div>
+  </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section class="sec sec-w">
+  <div class="con" style="max-width:780px">
+    <div class="sh">
+      <div class="tag">FAQ</div>
+      <h2>Aquarium size calculator — frequently asked questions</h2>
+      <p>Answers about US gallons, UK gallons, litres, displacement and how to interpret your result.</p>
+    </div>
+    <div id="faq-list">
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">How do I use an aquarium size calculator? <span class="faq-arrow">▾</span></button><div class="faq-a">Measure the inside dimensions of your tank — length, width and water height — in inches or centimetres. Select the tank shape and your unit, then click Calculate. The aquarium size calculator shows total capacity, filled volume and estimated usable water in US gallons, UK gallons and litres instantly.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">What is the difference between US gallons and UK gallons? <span class="faq-arrow">▾</span></button><div class="faq-a">One US gallon equals approximately 3.785 litres. One UK Imperial gallon equals approximately 4.546 litres — about 20% larger. If you are in the United Kingdom, use the UK gallon figure when comparing aquarium size calculator results with tank labels sold in UK pet shops. A tank described as "40 gallons" in the US holds about 33 UK gallons of water.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Why does the aquarium size calculator show less volume than the tank label? <span class="faq-arrow">▾</span></button><div class="faq-a">Tank labels typically print the gross volume using outside dimensions and a full fill height. The aquarium size calculator uses your actual inside measurements and deducts a displacement allowance for substrate and decor, giving a more realistic estimate of the water your fish actually swim in.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">How does the aquarium size calculator handle litres? <span class="faq-arrow">▾</span></button><div class="faq-a">The calculator converts measurements to litres using exact factors: 1 cubic inch = 0.016387 litres, 1 cubic centimetre = 0.001 litres. The litre result shown is usable water after deducting your chosen displacement percentage. Litres are the standard unit in Europe, Australia and most of Asia.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">What displacement percentage should I choose? <span class="faq-arrow">▾</span></button><div class="faq-a">A bare tank with no substrate: 0%. A typical tank with sand or gravel and a few decorations: 10%. A heavily planted or hardscape setup with driftwood, rocks and an internal filter: 15–20%. The default 10% is a safe starting point for most freshwater community tanks.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Can I use this aquarium size calculator for a UK setup? <span class="faq-arrow">▾</span></button><div class="faq-a">Yes. The aquarium size calculator UK result is shown alongside the US gallon and litre figures. Enter your dimensions in inches or centimetres — both work. UK fishkeeping guides and many UK shop labels use Imperial gallons, so look at the UK gallon row in the results when comparing sizes sold in the UK.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">How do I convert aquarium gallons to litres manually? <span class="faq-arrow">▾</span></button><div class="faq-a">Multiply US gallons by 3.785 to get litres. Multiply UK gallons by 4.546 to get litres. The aquarium size calculator does this automatically, but if you need a quick mental check: a 10 US gallon tank holds about 37.9 litres, and a 10 UK gallon tank holds about 45.5 litres.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Is this a fish aquarium size calculator for stocking decisions? <span class="faq-arrow">▾</span></button><div class="faq-a">The volume result is the starting point. The species planner section on this page connects gallons to species minimums for betta, guppy, goldfish, discus, angelfish and more. Volume alone is not sufficient — also consider adult size, group needs, filtration capacity and water-change frequency.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Does the calculator work for cylinder tanks? <span class="faq-arrow">▾</span></button><div class="faq-a">Yes. Choose "Vertical cylinder" for a column-style tank and enter the inside diameter and height. Choose "Horizontal cylinder" for a tank lying on its side — a common shape for some decorative aquariums. The calculator uses the circular-segment formula to correctly handle partial fills in horizontal cylinders.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- RELATED TOOLS -->
+<section class="sec">
+  <div class="con">
+    <div class="sh">
+      <div class="tag">Free Tools</div>
+      <h2>More aquarium tools</h2>
+      <p>Use these alongside the aquarium size calculator to plan a complete, healthier setup.</p>
+    </div>
+    <div class="g3">
+      <a class="card tc" href="/tools/fish-compatibility-checker/" style="color:inherit;text-decoration:none"><h3>🔬 Compatibility Checker</h3><p>Check whether selected fish can share a tank — temperament, temperature, pH and size rules.</p><span class="btn bp bsm" style="align-self:flex-start;margin-top:4px">Open Tool →</span></a>
+      <a class="card tc" href="/tools/water-parameter-checker/" style="color:inherit;text-decoration:none"><h3>💧 Water Parameter Checker</h3><p>Enter pH, ammonia, nitrite, nitrate and temperature for an instant water-quality score.</p><span class="btn bp bsm" style="align-self:flex-start;margin-top:4px">Open Tool →</span></a>
+      <a class="card tc" href="/tools/fish-feeding-calculator/" style="color:inherit;text-decoration:none"><h3>🍽 Feeding Calculator</h3><p>Estimate daily feeding frequency and portion rules to avoid overfeeding and water-quality problems.</p><span class="btn bp bsm" style="align-self:flex-start;margin-top:4px">Open Tool →</span></a>
+      <a class="card tc" href="/tools/aquarium-planner/" style="color:inherit;text-decoration:none"><h3>🧭 Aquarium Planner</h3><p>Build a complete equipment, cycling and stocking checklist before buying animals.</p><span class="btn bp bsm" style="align-self:flex-start;margin-top:4px">Open Tool →</span></a>
+      <a class="card tc" href="/tools/tank-size-calculator/" style="color:inherit;text-decoration:none"><h3>📏 Tank Size Calculator</h3><p>Full-featured calculator with five tools on one page — volume, species planner, compatibility, water and feeding.</p><span class="btn bp bsm" style="align-self:flex-start;margin-top:4px">Open Tool →</span></a>
+      <a class="card tc" href="/guides/aquarium-water-parameters/" style="color:inherit;text-decoration:none"><h3>📚 Water Parameters Guide</h3><p>Expert guide to pH, ammonia, nitrite, nitrate, temperature and hardness for freshwater tanks.</p><span class="btn bp bsm" style="align-self:flex-start;margin-top:4px">Read Guide →</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="ft" id="site-footer">
+  <div class="con">
+    <div class="ftg">
+      <div class="ftbr"><div><img class="fishcare-footer-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="150" height="38"/></div><p>Your trusted resource for fish care guides, free tools, and practical aquarium advice. Helping beginners build healthier freshwater tanks since 2026.</p></div>
+      <div class="ftcol"><h5>Guides</h5><a href="/guides/">All Guides</a><a href="/guides/best-freshwater-fish-for-beginners/">Best Beginner Fish</a><a href="/guides/how-to-set-up-a-fish-tank/">Tank Setup Guide</a><a href="/guides/aquarium-water-parameters/">Water Parameters</a><a href="/guides/goldfish-care/">Goldfish Care</a><a href="/guides/beginner-fish-care-checklist/">Beginner Checklist</a></div>
+      <div class="ftcol"><h5>Encyclopedia</h5><a href="/wiki/">All Species</a><a href="/wiki/neon-tetra/">Neon Tetra</a><a href="/wiki/clownfish/">Clownfish</a><a href="/wiki/corydoras/">Corydoras</a><a href="/wiki/cherry-barb/">Cherry Barb</a><a href="/wiki/dwarf-gourami/">Dwarf Gourami</a></div>
+      <div class="ftcol"><h5>Tools</h5><a href="/tools/aquarium-size-calculator/">Aquarium Size Calculator</a><a href="/tools/tank-size-calculator/">Tank Size Calculator</a><a href="/tools/fish-compatibility-checker/">Compatibility Checker</a><a href="/tools/water-parameter-checker/">Water Parameter Checker</a><a href="/tools/fish-feeding-calculator/">Feeding Calculator</a><a href="/tools/aquarium-planner/">Aquarium Planner</a></div>
+      <div class="ftcol"><h5>More</h5><a href="/about/">About Us</a><a href="/contact/">Contact</a><a href="/partners/">Partners</a><a href="/privacy/">Privacy Policy</a></div>
+    </div>
+    <div class="ftb">© 2026 FishCare. All rights reserved.</div>
+  </div>
+  <nav class="legal-links" aria-label="Legal and company information"><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/editorial-policy/">Editorial Policy</a><a href="/privacy/">Privacy</a><a href="/image-credits/">Image Credits</a></nav>
+</footer>
+
+<script>
+// ── Fish profiles ──────────────────────────────────────────────────────────
+const FISH_PROFILES = {
+  betta:    {name:'Betta',      adult:2.5, activity:1.0,  min:5,  temp:'76–81°F', group:'solo or carefully planned community'},
+  guppy:    {name:'Guppy',     adult:2,   activity:1.2,  min:10, temp:'74–82°F', group:'6+ with sex ratio planning'},
+  goldfish: {name:'Goldfish',  adult:8,   activity:1.7,  min:20, temp:'65–75°F', group:'same body type only'},
+  discus:   {name:'Discus',    adult:6,   activity:1.35, min:55, temp:'82–88°F', group:'calm groups in warm water'},
+  angelfish:{name:'Angelfish', adult:6,   activity:1.35, min:29, temp:'76–82°F', group:'pairs or planned community'},
+  swordtail:{name:'Swordtail', adult:4,   activity:1.45, min:20, temp:'72–82°F', group:'female-heavy livebearer group'},
+  molly:    {name:'Molly',     adult:4,   activity:1.35, min:20, temp:'75–82°F', group:'mineral-rich livebearer group'},
+  platy:    {name:'Platy',     adult:2.5, activity:1.15, min:10, temp:'70–82°F', group:'peaceful livebearer group'},
+  neon:     {name:'Neon Tetra',adult:1.5, activity:1.25, min:10, temp:'72–78°F', group:'6+ schooling fish'},
+  cory:     {name:'Corydoras', adult:2.5, activity:1.15, min:20, temp:'72–78°F', group:'6+ on soft substrate'},
+  clownfish:{name:'Clownfish', adult:3.5, activity:1.2,  min:20, temp:'75–80°F', group:'marine pair or small plan'},
+  shrimp:   {name:'Cherry Shrimp',adult:1.2,activity:.65,min:5, temp:'68–78°F', group:'mature planted colony'},
+  snail:    {name:'Nerite Snail',adult:1, activity:.45,  min:5,  temp:'72–78°F', group:'algae grazer with calcium'}
+};
+
+// ── Capacity state ─────────────────────────────────────────────────────────
+let currentShape = 'rectangle';
+
+function setShape(shape) {
+  currentShape = shape;
+  const isHcyl  = shape === 'horizontal-cylinder';
+  const isVcyl  = shape.includes('cylinder');
+  const isCube  = shape === 'cube';
+
+  document.getElementById('dim-length').style.display  = (!isVcyl || isHcyl) ? '' : 'none';
+  document.getElementById('dim-width').style.display   = (!isVcyl && !isCube)  ? '' : 'none';
+  document.getElementById('dim-diameter').style.display= isVcyl ? '' : 'none';
+  document.getElementById('dim-height').style.display  = isHcyl ? 'none' : '';
+
+  const heightLabel = document.querySelector('#dim-height label');
+  if (heightLabel) heightLabel.textContent = isCube ? 'Inside side length' : 'Inside tank height';
+
+  const fillHint = document.querySelector('#cap-fill + small');
+  if (fillHint) fillHint.textContent = isHcyl ? 'Max = inside diameter' : 'Leave blank to use full tank height';
+}
+
+function calcVolume() {
+  const shape    = currentShape;
+  const unit     = document.getElementById('cap-unit').value;
+  const l        = +document.getElementById('cap-length').value  || 0;
+  const w        = +document.getElementById('cap-width').value   || 0;
+  const h        = +document.getElementById('cap-height').value  || 0;
+  const d        = +document.getElementById('cap-diameter').value|| 0;
+  const fillRaw  = +document.getElementById('cap-fill').value    || 0;
+  const displace = Math.min(50, +document.getElementById('cap-displace').value || 0);
+  const isSalt   = document.getElementById('cap-water').value === 'saltwater';
+
+  const maxDepth = shape === 'horizontal-cylinder' ? d : (shape === 'cube' ? l : h);
+  const fill     = fillRaw > 0 ? Math.min(maxDepth, fillRaw) : maxDepth;
+
+  let totalCubic = 0, filledCubic = 0, formula = '';
+
+  if (shape === 'vertical-cylinder') {
+    const r = d / 2;
+    totalCubic  = Math.PI * r * r * h;
+    filledCubic = Math.PI * r * r * fill;
+    formula = 'π × radius² × depth';
+  } else if (shape === 'horizontal-cylinder') {
+    const r = d / 2;
+    totalCubic = Math.PI * r * r * l;
+    const sd = Math.min(d, Math.max(0, fill));
+    const segArea = r*r*Math.acos((r - sd)/r) - (r - sd)*Math.sqrt(Math.max(0, 2*r*sd - sd*sd));
+    filledCubic = segArea * l;
+    formula = 'circular segment area × length';
+  } else if (shape === 'cube') {
+    totalCubic  = l * l * l;
+    filledCubic = l * l * fill;
+    formula = 'side × side × depth';
+  } else {
+    totalCubic  = l * w * h;
+    filledCubic = l * w * fill;
+    formula = 'length × width × depth';
+  }
+
+  if (!Number.isFinite(totalCubic) || totalCubic <= 0) {
+    document.getElementById('vol-result').innerHTML = '<div class="pr"><h4 style="color:var(--er)">Check your dimensions</h4><p>Enter positive inside dimensions. Water depth cannot exceed the tank height or diameter.</p></div>';
+    return;
+  }
+
+  const lpcu = {mm:0.000001,cm:0.001,m:1000,in:0.016387064,ft:28.316846592}[unit] || 0.016387064;
+  const totalL   = totalCubic  * lpcu;
+  const filledL  = filledCubic * lpcu;
+  const usableL  = filledL * (1 - displace / 100);
+  const usGal    = usableL / 3.785411784;
+  const ukGal    = usableL / 4.54609;
+  const fillPct  = Math.min(100, (filledL / totalL) * 100).toFixed(0);
+  const wKg      = usableL * (isSalt ? 1.025 : 0.998);
+  const shapeName= {rectangle:'Rectangular aquarium',cube:'Cube aquarium','vertical-cylinder':'Vertical cylinder','horizontal-cylinder':'Horizontal cylinder'}[shape];
+
+  document.getElementById('vol-result').innerHTML = `
+    <div class="hs" style="background:#0F8FB8">
+      <div class="sn">${usGal.toFixed(1)} US gal</div>
+      <div class="sl">${usableL.toFixed(1)} litres &nbsp;·&nbsp; ${ukGal.toFixed(1)} UK gal — estimated usable water</div>
+    </div>
+    <div class="pr">
+      <h4 style="color:var(--pd);margin-bottom:10px">${shapeName}</h4>
+      <div class="prow"><span class="plb">Full capacity</span><span class="pv">${totalL.toFixed(1)} L &nbsp;/&nbsp; ${(totalL/3.785411784).toFixed(1)} US gal &nbsp;/&nbsp; ${(totalL/4.54609).toFixed(1)} UK gal</span><span class="bdg bgood">100%</span></div>
+      <div class="prow"><span class="plb">At water line</span><span class="pv">${filledL.toFixed(1)} L</span><span class="bdg bgood">${fillPct}%</span></div>
+      <div class="prow"><span class="plb">After ${displace}% displacement</span><span class="pv">${usableL.toFixed(1)} L &nbsp;/&nbsp; ${ukGal.toFixed(1)} UK gal &nbsp;/&nbsp; ${usGal.toFixed(1)} US gal</span><span class="bdg bwarn">Usable estimate</span></div>
+      <div class="prow"><span class="plb">Water weight</span><span class="pv">${wKg.toFixed(1)} kg &nbsp;/&nbsp; ${(wKg*2.2046).toFixed(1)} lb</span><span class="bdg bwarn">Water only</span></div>
+      <div class="prow"><span class="plb">Formula</span><span class="pv">${formula} · unit: ${unit}</span><span class="bdg bgood">Exact</span></div>
+      <p style="margin-top:12px;font-size:.82rem"><strong>Do not use gallons alone to stock fish.</strong> Check adult size, group needs, filtration and water quality in the relevant care guide.</p>
+    </div>`;
+}
+
+// ── Species Planner ────────────────────────────────────────────────────────
+function calcPlanner() {
+  const key   = document.getElementById('plan-fish').value;
+  const f     = FISH_PROFILES[key] || FISH_PROFILES.betta;
+  const count = Math.max(1, +document.getElementById('plan-count').value || 1);
+  const style = document.getElementById('plan-style').value;
+
+  const base    = Math.max(f.min, Math.ceil((f.adult * count * f.activity * 2.2) / 5) * 5);
+  const upgrade = Math.ceil(base * 1.5 / 5) * 5;
+  const baseL   = (base  * 3.785411784).toFixed(0);
+  const upL     = (upgrade * 3.785411784).toFixed(0);
+
+  const styleNote = style === 'long'  ? 'A long footprint gives active swimmers more cruising distance.' :
+                    style === 'tall'  ? 'Tall tanks provide vertical territory but less horizontal space — better for some cichlids than schooling fish.' :
+                    style === 'nano'  ? 'Nano tanks are less stable. Stock very lightly and test water frequently.' :
+                    'A standard rectangle is the safest beginner default for most species.';
+
+  document.getElementById('plan-result').innerHTML = `
+    <div class="hs" style="background:#1687C7">
+      <div class="sn">${base}+ gal &nbsp;<span style="font-size:1.2rem;font-weight:500">(${baseL}+ L)</span></div>
+      <div class="sl">Practical minimum for ${count} ${f.name}${count > 1 ? 's' : ''}</div>
+    </div>
+    <div class="pr">
+      <h4 style="color:var(--pd);margin-bottom:10px">Recommended upgrade: ${upgrade}+ gal (${upL}+ L)</h4>
+      <div class="prow"><span class="plb">Temperature</span><span class="pv">${f.temp}</span><span class="bdg bgood">Target</span></div>
+      <div class="prow"><span class="plb">Group plan</span><span class="pv">${f.group}</span><span class="bdg bwarn">Check</span></div>
+      <p style="margin-top:12px">${styleNote} Always plan around adult size, filtration, oxygen and maintenance routine.</p>
+    </div>`;
+}
+
+// ── FAQ toggle ─────────────────────────────────────────────────────────────
+function toggleFaq(btn) {
+  const item = btn.closest('.faq-item');
+  item.classList.toggle('open');
+}
+</script>
+</body>
+</html>
