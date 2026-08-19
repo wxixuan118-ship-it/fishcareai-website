@@ -184,10 +184,11 @@ input.fc:focus,select.fc:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(2
 .calc-heading{color:#fff;margin-bottom:6px;font-size:clamp(1.1rem,2.5vw,1.45rem);font-weight:700}
 .calc-sub{color:rgba(255,255,255,.75);font-size:.9rem;margin-bottom:28px}
 /* TOOL TABS ROW */
-.tool-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px}
-.tool-tab-link{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;border-radius:999px;font-size:.83rem;font-weight:600;text-decoration:none;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.85);transition:all .18s}
-.tool-tab-link:hover{background:rgba(255,255,255,.22);color:#fff}
-.tool-tab-link.active{background:rgba(255,255,255,.95);color:var(--pd)}
+.tool-nav{position:sticky;top:62px;z-index:98;background:#071827;border-bottom:1px solid rgba(255,255,255,.08);padding:10px 22px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.tnav-btn{display:inline-flex;align-items:center;gap:5px;padding:7px 15px;border-radius:999px;font-size:.83rem;font-weight:600;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);color:rgba(255,255,255,.65);transition:all .18s;text-decoration:none;white-space:nowrap}
+.tnav-btn:hover{color:#fff;background:rgba(22,135,199,.22);border-color:rgba(22,135,199,.5)}
+.tnav-btn.active{color:#fff;background:rgba(22,135,199,.28);border-color:#1687C7;font-weight:700}
+@media(max-width:600px){.tool-nav{gap:6px;padding:8px 14px}.tnav-btn{font-size:.76rem;padding:5px 10px}}
 /* EQUIPMENT CARDS */
 .eq-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
 @media(max-width:560px){.eq-cards{grid-template-columns:1fr}}
@@ -301,14 +302,14 @@ input.fc:focus,select.fc:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(2
   <div class="calc-con">
 
     <!-- Tool Navigation -->
-    <div class="tool-tabs">
-      <a href="/tools/aquarium-size-calculator/" class="tool-tab-link">📐 Size Calc</a>
-      <a href="/tools/fish-compatibility-checker/" class="tool-tab-link">🔬 Compatibility</a>
-      <a href="/tools/water-parameter-checker/" class="tool-tab-link">💧 Water Test</a>
-      <a href="/tools/fish-feeding-calculator/" class="tool-tab-link">🍽 Feeding</a>
-      <a href="/tools/aquarium-planner/" class="tool-tab-link">🧭 Planner</a>
-      <a href="/tools/aquarium-equipment-calculator/" class="tool-tab-link active">⚙️ Equipment</a>
-    </div>
+    <nav class="tool-nav" aria-label="Tool navigation">
+  <a href="/tools/aquarium-size-calculator/" class="tnav-btn">📐 Size Calc</a>
+  <a href="/tools/fish-compatibility-checker/" class="tnav-btn">🔬 Compatibility</a>
+  <a href="/tools/water-parameter-checker/" class="tnav-btn">💧 Water Test</a>
+  <a href="/tools/fish-feeding-calculator/" class="tnav-btn">🍽 Feeding</a>
+  <a href="/tools/aquarium-planner/" class="tnav-btn">🧭 Planner</a>
+  <a href="/tools/aquarium-equipment-calculator/" class="tnav-btn active">⚙️ Equipment</a>
+</nav>
 
     <h2 class="calc-heading">⚙️ Aquarium Equipment Calculator</h2>
     <p class="calc-sub">Enter your tank details below to get instant heater, filter, air pump, and lighting recommendations.</p>
