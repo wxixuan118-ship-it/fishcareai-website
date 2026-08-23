@@ -210,6 +210,8 @@
 
   function setupAppBanner() {
     if (/^\/(?:app\/|admin\/|__forms\.html$|yandex_[^/]+\.html$)/.test(window.location.pathname)) return;
+    // iOS Safari already gets the native Smart App Banner; skip the custom popup there
+    if (/iP(?:hone|ad|od)/.test(navigator.userAgent) && /Safari/.test(navigator.userAgent) && !/CriOS|FxiOS/.test(navigator.userAgent)) return;
     var KEY = 'fishcare-app-banner-v1';
     try { if (localStorage.getItem(KEY) === 'dismissed') return; } catch (e) {}
     setTimeout(function () {
