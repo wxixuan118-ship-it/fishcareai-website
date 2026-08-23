@@ -230,6 +230,23 @@ body{
 .ap-plan.free .ap-plan-cta{background:rgba(22,135,199,.15);color:var(--c-blue-lt)!important;border:1px solid rgba(22,135,199,.3)}
 .ap-plan.plus .ap-plan-cta{background:var(--c-teal);color:#04111D!important}
 .ap-plan-cta:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(0,0,0,.3)}
+/* BILLING TOGGLE */
+.ap-billing-toggle{display:flex;align-items:center;justify-content:center;gap:0;margin-bottom:40px}
+.ap-toggle-track{
+  display:flex;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);
+  border-radius:50px;padding:4px;gap:4px;
+}
+.ap-toggle-opt{
+  padding:8px 22px;border-radius:44px;font-size:.85rem;font-weight:700;
+  cursor:pointer;transition:background .2s,color .2s;color:var(--c-muted);border:none;background:transparent;
+}
+.ap-toggle-opt.active{background:var(--c-blue);color:#fff}
+.ap-toggle-save{
+  display:inline-block;margin-left:8px;
+  background:rgba(94,232,247,.18);border:1px solid rgba(94,232,247,.35);
+  color:var(--c-teal);font-size:.7rem;font-weight:800;letter-spacing:.04em;
+  padding:3px 9px;border-radius:20px;vertical-align:middle;
+}
 .ap-annual-note{text-align:center;margin-top:16px;font-size:.8rem;color:var(--c-muted)!important}
 
 /* DOWNLOAD CTA */
@@ -398,6 +415,15 @@ body{
   <div class="ap-section-label">Pricing</div>
   <h2 class="ap-section-title">Start free. Go deeper with Plus.</h2>
   <p class="ap-section-desc">Core Tank Check and water tracking are free forever. Upgrade for multi-tank support, AI photos, and advanced health records.</p>
+
+  <!-- billing toggle -->
+  <div class="ap-billing-toggle">
+    <div class="ap-toggle-track">
+      <button class="ap-toggle-opt" id="tog-monthly" type="button">Monthly</button>
+      <button class="ap-toggle-opt active" id="tog-annual" type="button">Annual <span class="ap-toggle-save">Save 44%</span></button>
+    </div>
+  </div>
+
   <div class="ap-pricing-grid">
     <div class="ap-plan free">
       <div class="ap-plan-name">Free</div>
@@ -415,8 +441,8 @@ body{
     <div class="ap-plan plus">
       <div class="ap-plan-badge">Most Popular</div>
       <div class="ap-plan-name">FishCare Plus</div>
-      <div class="ap-plan-price">$5.99</div>
-      <div class="ap-plan-period">per month — or $39.99/year</div>
+      <div class="ap-plan-price" id="plus-price">$3.33</div>
+      <div class="ap-plan-period" id="plus-period">per month &mdash; billed $39.99/year</div>
       <ul class="ap-plan-features">
         <li>Unlimited tanks</li>
         <li>Everything in Free</li>
@@ -429,9 +455,32 @@ body{
       <a href="https://apps.apple.com/app/fishcare-ai/id6793299571" target="_blank" rel="noopener" class="ap-plan-cta">Start Free Trial</a>
     </div>
   </div>
-  <p class="ap-annual-note">Save 44% with the annual plan &middot; Cancel anytime &middot; No commitment</p>
+  <p class="ap-annual-note" id="pricing-note">Billed as $39.99/year &middot; Cancel anytime &middot; No commitment</p>
 </div>
 </section>
+<script>
+(function(){
+  var togM=document.getElementById('tog-monthly');
+  var togA=document.getElementById('tog-annual');
+  var price=document.getElementById('plus-price');
+  var period=document.getElementById('plus-period');
+  var note=document.getElementById('pricing-note');
+  function setAnnual(){
+    togA.classList.add('active'); togM.classList.remove('active');
+    price.textContent='$3.33';
+    period.innerHTML='per month &mdash; billed $39.99/year';
+    note.innerHTML='Billed as $39.99/year &middot; Cancel anytime &middot; No commitment';
+  }
+  function setMonthly(){
+    togM.classList.add('active'); togA.classList.remove('active');
+    price.textContent='$5.99';
+    period.innerHTML='per month, billed monthly';
+    note.innerHTML='Switch to annual and save 44% &middot; Cancel anytime';
+  }
+  togA.addEventListener('click',setAnnual);
+  togM.addEventListener('click',setMonthly);
+})();
+</script>
 
 <!-- ── DOWNLOAD CTA ── -->
 <section class="ap-cta" id="download">
