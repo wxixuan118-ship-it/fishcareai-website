@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FishCare AI App — Fish Health Tracker for iPhone</title>
+<meta name="description" content="FishCare AI iPhone app: AI-powered Tank Check, water quality tracking, care reminders and health records. Know exactly what to do when your fish needs help.">
+<link rel="canonical" href="https://www.fishcareai.com/app/">
+<meta property="og:title" content="FishCare AI App — Your Fish Doctor on iPhone">
+<meta property="og:description" content="Tank Check diagnoses fish symptoms in seconds, tracks water quality, and sends care reminders — so you always know what to do.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260823-app">
+<script defer src="/assets/site-compliance.js?v=20260823-app"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --c-navy:#04111D;
+  --c-navy2:#071C2F;
+  --c-navy3:#0D2538;
+  --c-blue:#1687C7;
+  --c-blue-lt:#22A8F0;
+  --c-teal:#5EE8F7;
+  --c-white:#EAFBFF;
+  --c-muted:rgba(234,251,255,.65);
+  --c-glass:rgba(255,255,255,.06);
+  --c-border:rgba(94,232,247,.15);
+}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+  background:var(--c-navy);
+  color:var(--c-white);
+  line-height:1.6;
+}
+.ap-container{max-width:1120px;margin:0 auto;padding:0 24px}
+
+/* HERO */
+.ap-hero{
+  background:linear-gradient(160deg,#04111D 0%,#071C2F 55%,#061524 100%);
+  padding:80px 0 100px;
+  position:relative;
+  overflow:hidden;
+}
+.ap-hero::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:
+    radial-gradient(ellipse 55% 60% at 75% 50%,rgba(22,135,199,.1),transparent),
+    radial-gradient(ellipse 30% 40% at 20% 20%,rgba(94,232,247,.05),transparent);
+  pointer-events:none;
+}
+.ap-hero .ap-container{display:flex;align-items:center;gap:64px;position:relative}
+.ap-hero-text{flex:1;min-width:0}
+.ap-eyebrow{
+  display:inline-flex;align-items:center;gap:7px;
+  font-size:.8rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--c-teal);margin-bottom:20px;
+  background:rgba(94,232,247,.08);border:1px solid rgba(94,232,247,.2);
+  border-radius:20px;padding:5px 14px;
+}
+.ap-hero-text h1{
+  font-size:clamp(2.2rem,5vw,3.5rem);font-weight:900;line-height:1.1;
+  color:#fff;margin-bottom:20px;text-wrap:balance;
+}
+.ap-lead{
+  font-size:1.1rem;color:var(--c-muted);max-width:460px;
+  margin-bottom:36px;line-height:1.75;
+}
+.ap-store-btn{
+  display:inline-flex;align-items:center;gap:13px;
+  background:#fff;color:#000;border-radius:16px;
+  padding:13px 22px 13px 18px;text-decoration:none;
+  transition:transform .15s,box-shadow .15s;
+  margin-bottom:36px;
+  box-shadow:0 4px 20px rgba(0,0,0,.25);
+}
+.ap-store-btn:hover{transform:translateY(-3px);box-shadow:0 12px 36px rgba(0,0,0,.35)}
+.ap-store-btn-sub{font-size:.65rem;font-weight:500;opacity:.55;line-height:1}
+.ap-store-btn-main{font-size:1rem;font-weight:800;line-height:1.3}
+.ap-stats{display:flex;gap:36px;flex-wrap:wrap}
+.ap-stat strong{display:block;font-size:1.6rem;font-weight:900;color:var(--c-teal);line-height:1}
+.ap-stat span{font-size:.72rem;color:var(--c-muted);font-weight:600;letter-spacing:.05em;text-transform:uppercase;margin-top:2px;display:block}
+
+/* PHONE MOCKUP */
+.ap-phone-wrap{flex-shrink:0;display:flex;justify-content:center;align-items:center}
+.ap-phone{
+  width:260px;height:530px;
+  background:#081925;
+  border-radius:46px;
+  border:2px solid rgba(94,232,247,.22);
+  box-shadow:
+    0 0 0 8px rgba(4,17,29,.85),
+    0 50px 120px rgba(0,0,0,.6),
+    inset 0 0 0 1px rgba(255,255,255,.04);
+  position:relative;overflow:hidden;padding:14px;
+}
+.ap-phone-notch{
+  position:absolute;top:0;left:50%;transform:translateX(-50%);
+  width:110px;height:28px;
+  background:#081925;border-radius:0 0 20px 20px;z-index:10;
+  display:flex;align-items:center;justify-content:center;gap:6px;
+}
+.ap-phone-notch::after{content:'';width:10px;height:10px;border-radius:50%;background:#162a3c}
+.ap-screen{
+  background:linear-gradient(180deg,#061829,#08203a);
+  border-radius:34px;height:100%;overflow:hidden;
+  padding:36px 14px 14px;
+  display:flex;flex-direction:column;gap:8px;font-size:.76rem;
+}
+.ap-screen-bar{
+  background:rgba(22,135,199,.15);border:1px solid rgba(22,135,199,.25);
+  border-radius:10px;padding:7px 10px;
+  display:flex;align-items:center;gap:6px;
+  color:var(--c-teal);font-weight:700;font-size:.7rem;letter-spacing:.03em;
+}
+.ap-screen-title{font-size:.95rem;font-weight:900;color:#fff}
+.ap-screen-sub{font-size:.65rem;color:rgba(234,251,255,.45);margin-top:-4px}
+.ap-screen-card{
+  background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.09);
+  border-radius:11px;padding:9px 11px;color:rgba(234,251,255,.8);
+}
+.ap-screen-card.warn{background:rgba(255,140,0,.1);border-color:rgba(255,140,0,.28);color:#FFB347}
+.ap-screen-card.good{background:rgba(46,204,113,.08);border-color:rgba(46,204,113,.25);color:#2ecc71}
+.ap-screen-urgency{
+  display:inline-flex;align-items:center;gap:4px;
+  background:rgba(255,80,65,.13);border:1px solid rgba(255,80,65,.32);
+  border-radius:7px;padding:4px 10px;
+  color:#ff8a7a;font-size:.65rem;font-weight:800;letter-spacing:.04em;
+}
+.ap-screen-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 8px;margin-top:6px;font-size:.67rem}
+.ap-screen-grid .ok{color:#2ecc71}
+.ap-screen-grid .hi{color:#ff9080}
+.ap-screen-checklist{display:flex;flex-direction:column;gap:5px;margin-top:6px}
+.ap-screen-check{display:flex;gap:5px;align-items:flex-start;font-size:.66rem;color:rgba(234,251,255,.75)}
+.ap-screen-check-done{color:#2ecc71;flex-shrink:0}
+.ap-screen-check-todo{color:rgba(234,251,255,.35);flex-shrink:0}
+.ap-screen-label{font-size:.65rem;font-weight:700;color:rgba(234,251,255,.55);text-transform:uppercase;letter-spacing:.06em;margin-bottom:3px}
+
+/* SECTION SHARED */
+.ap-section-label{font-size:.74rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--c-blue);margin-bottom:10px}
+.ap-section-title{font-size:clamp(1.6rem,3vw,2.2rem);font-weight:900;line-height:1.2;margin-bottom:14px;text-wrap:balance}
+.ap-section-desc{font-size:.97rem;max-width:520px;margin-bottom:48px;line-height:1.75}
+
+/* HOW IT WORKS */
+.ap-how{background:var(--c-navy);padding:80px 0}
+.ap-how .ap-section-label{color:var(--c-blue-lt)}
+.ap-how .ap-section-title{color:#fff!important}
+.ap-how .ap-section-desc{color:var(--c-muted)!important}
+.ap-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.ap-step{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:22px;padding:28px 22px}
+.ap-step-num{
+  width:42px;height:42px;border-radius:13px;
+  background:var(--c-blue);color:#fff;
+  font-size:.9rem;font-weight:900;
+  display:flex;align-items:center;justify-content:center;
+  margin-bottom:14px;
+}
+.ap-step h3{font-size:.97rem;font-weight:800;color:#fff!important;margin-bottom:6px}
+.ap-step p{font-size:.85rem;color:var(--c-muted)!important;line-height:1.65}
+
+/* FEATURES */
+.ap-features{background:var(--c-navy2);padding:80px 0}
+.ap-features .ap-section-title{color:#fff}
+.ap-features .ap-section-label{color:var(--c-teal)}
+.ap-features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:48px}
+.ap-feature-card{
+  background:var(--c-glass);border:1px solid var(--c-border);
+  border-radius:22px;padding:28px 22px;
+  transition:border-color .2s,transform .2s;
+}
+.ap-feature-card:hover{border-color:rgba(94,232,247,.4);transform:translateY(-4px)}
+.ap-feature-icon{font-size:2.1rem;margin-bottom:14px;display:block}
+.ap-feature-card h3{font-size:.97rem;font-weight:800;color:#fff;margin-bottom:8px}
+.ap-feature-card p{font-size:.845rem;color:var(--c-muted);line-height:1.7}
+.ap-feature-badge{
+  display:inline-block;margin-top:10px;
+  background:rgba(22,135,199,.15);border:1px solid rgba(22,135,199,.3);
+  border-radius:6px;padding:2px 9px;
+  font-size:.66rem;font-weight:800;color:var(--c-blue-lt);letter-spacing:.05em;text-transform:uppercase;
+}
+
+/* SAFETY BANNER */
+.ap-safety{
+  background:linear-gradient(135deg,rgba(5,20,35,1),rgba(8,30,50,1));
+  border-top:1px solid var(--c-border);border-bottom:1px solid var(--c-border);
+  padding:56px 0;
+}
+.ap-safety-inner{display:flex;gap:36px;align-items:flex-start;max-width:860px;margin:0 auto}
+.ap-safety-icon{font-size:2.8rem;flex-shrink:0;margin-top:2px}
+.ap-safety h2{font-size:1.25rem;font-weight:800;color:#fff;margin-bottom:10px}
+.ap-safety p{font-size:.9rem;color:var(--c-muted);line-height:1.75}
+.ap-safety code{
+  background:rgba(94,232,247,.1);border:1px solid rgba(94,232,247,.2);
+  border-radius:5px;padding:1px 7px;
+  color:var(--c-teal);font-family:monospace;font-size:.85rem;
+}
+
+/* PRICING */
+.ap-pricing{background:var(--c-navy);padding:80px 0}
+.ap-pricing .ap-section-label{color:var(--c-teal);text-align:center}
+.ap-pricing .ap-section-title{color:#fff!important;text-align:center}
+.ap-pricing .ap-section-desc{color:var(--c-muted)!important;text-align:center;margin:0 auto 48px}
+.ap-pricing-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:760px;margin:0 auto}
+.ap-plan{border-radius:26px;padding:32px;position:relative;border:2px solid}
+.ap-plan.free{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.12)}
+.ap-plan.plus{background:linear-gradient(160deg,#0F2A42,#142E47);border-color:rgba(94,232,247,.4)}
+.ap-plan-badge{
+  position:absolute;top:-13px;left:50%;transform:translateX(-50%);
+  background:var(--c-teal);color:#04111D;
+  font-size:.66rem;font-weight:900;letter-spacing:.07em;text-transform:uppercase;
+  padding:4px 16px;border-radius:20px;white-space:nowrap;
+}
+.ap-plan-name{font-size:.75rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;opacity:.55;margin-bottom:8px;color:var(--c-white)!important}
+.ap-plan.plus .ap-plan-name{color:var(--c-teal)!important;opacity:1}
+.ap-plan-price{font-size:2.6rem;font-weight:900;line-height:1;margin-bottom:4px;color:#fff!important}
+.ap-plan-period{font-size:.82rem;opacity:.5;margin-bottom:24px;color:var(--c-muted)!important}
+.ap-plan-features{list-style:none;display:flex;flex-direction:column;gap:10px;margin-bottom:28px;font-size:.875rem}
+.ap-plan.free .ap-plan-features{color:var(--c-muted)!important}
+.ap-plan.plus .ap-plan-features{color:rgba(234,251,255,.9)!important}
+.ap-plan-features li{display:flex;gap:8px;align-items:flex-start;line-height:1.55}
+.ap-plan-features li::before{content:'✓';flex-shrink:0;font-weight:800;margin-top:.05em}
+.ap-plan.free .ap-plan-features li::before{color:var(--c-blue-lt)}
+.ap-plan.plus .ap-plan-features li::before{color:var(--c-teal)}
+.ap-plan-cta{
+  display:block;text-align:center;padding:13px;border-radius:14px;
+  font-weight:800;font-size:.92rem;text-decoration:none;
+  transition:transform .15s,box-shadow .15s;
+}
+.ap-plan.free .ap-plan-cta{background:rgba(22,135,199,.15);color:var(--c-blue-lt)!important;border:1px solid rgba(22,135,199,.3)}
+.ap-plan.plus .ap-plan-cta{background:var(--c-teal);color:#04111D!important}
+.ap-plan-cta:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(0,0,0,.3)}
+.ap-annual-note{text-align:center;margin-top:16px;font-size:.8rem;color:var(--c-muted)!important}
+
+/* DOWNLOAD CTA */
+.ap-cta{
+  background:linear-gradient(160deg,#04111D,#071C2F 50%,#04111D 100%);
+  padding:90px 0;text-align:center;
+  border-top:1px solid rgba(94,232,247,.1);
+}
+.ap-cta h2{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:900;color:#fff;margin-bottom:14px;text-wrap:balance}
+.ap-cta p{font-size:1rem;color:var(--c-muted);max-width:440px;margin:0 auto 38px;line-height:1.7}
+.ap-cta-buttons{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+.ap-btn-primary{
+  display:inline-flex;align-items:center;gap:9px;
+  background:var(--c-teal);color:#04111D;
+  border-radius:16px;padding:14px 28px;
+  font-size:.97rem;font-weight:900;text-decoration:none;
+  transition:transform .15s,box-shadow .15s;
+}
+.ap-btn-primary:hover{transform:translateY(-3px);box-shadow:0 14px 36px rgba(94,232,247,.22)}
+.ap-btn-secondary{
+  display:inline-flex;align-items:center;gap:9px;
+  background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.18);
+  color:#fff;border-radius:16px;padding:14px 28px;
+  font-size:.97rem;font-weight:600;text-decoration:none;
+  transition:transform .15s,background .15s;
+}
+.ap-btn-secondary:hover{background:rgba(255,255,255,.14);transform:translateY(-3px)}
+
+/* RESPONSIVE */
+@media(max-width:760px){
+  .ap-hero .ap-container{flex-direction:column;text-align:center;gap:40px}
+  .ap-lead,.ap-stats{margin-left:auto;margin-right:auto}
+  .ap-stats{justify-content:center}
+  .ap-phone-wrap{order:-1}
+  .ap-phone{width:210px;height:420px}
+  .ap-screen{font-size:.68rem;padding:28px 12px 12px}
+  .ap-safety-inner{flex-direction:column;text-align:center}
+  .ap-pricing-grid{grid-template-columns:1fr;max-width:380px;margin:0 auto}
+  .ap-pricing-grid .ap-plan.plus{margin-top:16px}
+}
+</style>
+</head>
+<body>
+
+<!-- nav injected by site-compliance.js -->
+
+<!-- ── HERO ── -->
+<section class="ap-hero">
+<div class="ap-container">
+  <div class="ap-hero-text">
+    <div class="ap-eyebrow">🐠 Now on iPhone</div>
+    <h1>Your Fish Doctor,<br>Always Ready</h1>
+    <p class="ap-lead">Tank Check diagnoses fish symptoms in seconds, tracks water quality, and sends care reminders — so you always know what to do, not just hope for the best.</p>
+    <a href="#download" class="ap-store-btn">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      <div>
+        <div class="ap-store-btn-sub">Download on the</div>
+        <div class="ap-store-btn-main">App Store</div>
+      </div>
+    </a>
+    <div class="ap-stats">
+      <div class="ap-stat"><strong>Tank Check</strong><span>AI Health Triage</span></div>
+      <div class="ap-stat"><strong>5+</strong><span>Care Plan Types</span></div>
+      <div class="ap-stat"><strong>24/7</strong><span>Safety Rules</span></div>
+    </div>
+  </div>
+  <div class="ap-phone-wrap">
+    <div class="ap-phone">
+      <div class="ap-phone-notch"></div>
+      <div class="ap-screen">
+        <div class="ap-screen-bar">🐠 FishCare AI &nbsp;·&nbsp; Tank Check</div>
+        <div class="ap-screen-title">Tank Check</div>
+        <div class="ap-screen-sub">My Guppy Tank &middot; Just now</div>
+        <div class="ap-screen-card warn">⚠️ Lethargy + clamped fins</div>
+        <div class="ap-screen-card">
+          <div class="ap-screen-label">Water Readings</div>
+          <div class="ap-screen-grid">
+            <span>NH₃ 0.25 ppm</span><span class="hi">HIGH ⚠</span>
+            <span>Nitrite 0</span><span class="ok">OK ✓</span>
+            <span>pH 7.4</span><span class="ok">OK ✓</span>
+          </div>
+        </div>
+        <div class="ap-screen-urgency">🚨 Acute Risk — Act Now</div>
+        <div class="ap-screen-card">
+          <div class="ap-screen-label">Action Checklist</div>
+          <div class="ap-screen-checklist">
+            <div class="ap-screen-check"><span class="ap-screen-check-done">✓</span>30% water change immediately</div>
+            <div class="ap-screen-check"><span class="ap-screen-check-done">✓</span>Remove activated carbon</div>
+            <div class="ap-screen-check"><span class="ap-screen-check-todo">○</span>Retest ammonia in 2h</div>
+          </div>
+        </div>
+        <div class="ap-screen-card good">✓ Follow-up recheck scheduled</div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ── HOW IT WORKS ── -->
+<section class="ap-how" style="border-top:1px solid rgba(94,232,247,.1);border-bottom:1px solid rgba(94,232,247,.1)">
+<div class="ap-container">
+  <div class="ap-section-label">How It Works</div>
+  <h2 class="ap-section-title">From symptom to action in 3 steps</h2>
+  <p class="ap-section-desc">Tank Check combines AI observation with hard safety rules — so you get clear, prioritized guidance instead of generic advice.</p>
+  <div class="ap-steps">
+    <div class="ap-step">
+      <div class="ap-step-num">1</div>
+      <h3>Describe what you see</h3>
+      <p>Type symptoms: lethargy, color change, clamped fins, floating, spots, or loss of appetite. Log water readings to unlock full triage.</p>
+    </div>
+    <div class="ap-step">
+      <div class="ap-step-num">2</div>
+      <h3>Get urgency & diagnosis</h3>
+      <p>Safety rules run first. Ammonia ≥ 0.25 ppm or any nitrite triggers "Acute Risk" automatically — AI cannot override these hard rules.</p>
+    </div>
+    <div class="ap-step">
+      <div class="ap-step-num">3</div>
+      <h3>Follow the action checklist</h3>
+      <p>Step-by-step tasks, ordered by priority. A Follow-up recheck is scheduled automatically to confirm recovery.</p>
+    </div>
+    <div class="ap-step">
+      <div class="ap-step-num">4</div>
+      <h3>Track progress over time</h3>
+      <p>Health timeline with before/after photos, water trends, and care history — all stored per tank, all private to you.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ── FEATURES ── -->
+<section class="ap-features">
+<div class="ap-container">
+  <div class="ap-section-label">Features</div>
+  <h2 class="ap-section-title">Everything your fish needs</h2>
+  <div class="ap-features-grid">
+    <div class="ap-feature-card">
+      <span class="ap-feature-icon">🩺</span>
+      <h3>Tank Check</h3>
+      <p>AI-powered health triage. Describe symptoms, log water readings, and get a prioritized action checklist with clear urgency level — every time.</p>
+    </div>
+    <div class="ap-feature-card">
+      <span class="ap-feature-icon">💧</span>
+      <h3>Water Quality Tracker</h3>
+      <p>Log pH, ammonia, nitrite, nitrate, and temperature. Visual trends show how parameters change over time, with alerts when values drift out of range.</p>
+    </div>
+    <div class="ap-feature-card">
+      <span class="ap-feature-icon">📅</span>
+      <h3>Care Reminders</h3>
+      <p>iOS push notifications for feeding, water changes, medicine doses, and filter cleaning — custom schedules for each tank.</p>
+    </div>
+    <div class="ap-feature-card">
+      <span class="ap-feature-icon">📸</span>
+      <h3>Health Records & Photos</h3>
+      <p>A full timeline of every health event with photos. Compare before/after to see recovery progress at a glance.</p>
+      <span class="ap-feature-badge">Plus</span>
+    </div>
+    <div class="ap-feature-card">
+      <span class="ap-feature-icon">🔬</span>
+      <h3>AI Photo Analysis</h3>
+      <p>Upload photos of your fish and describe visible symptoms. The AI identifies potential conditions — always deferring to safety rules when life-threatening parameters are detected.</p>
+      <span class="ap-feature-badge">Plus</span>
+    </div>
+    <div class="ap-feature-card">
+      <span class="ap-feature-icon">🏠</span>
+      <h3>Multi-Tank Management</h3>
+      <p>Switch between tanks instantly. Each tank has completely isolated data — health records, water logs, and care plans stay separate.</p>
+      <span class="ap-feature-badge">Plus</span>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ── SAFETY ── -->
+<section class="ap-safety">
+<div class="ap-container">
+  <div class="ap-safety-inner">
+    <div class="ap-safety-icon">🛡️</div>
+    <div>
+      <h2>Rule-based safety, AI-enhanced insights</h2>
+      <p>Critical water parameters trigger hard safety rules that no AI can override. <code>Ammonia ≥ 0.25 ppm</code> always means Acute Risk. <code>Nitrite &gt; 0</code> is always Dangerous. When fish lives are at stake, rules are deterministic — the AI adds context and personalization on top, never in place of safety.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ── PRICING ── -->
+<section class="ap-pricing">
+<div class="ap-container">
+  <div class="ap-section-label">Pricing</div>
+  <h2 class="ap-section-title">Start free. Go deeper with Plus.</h2>
+  <p class="ap-section-desc">Core Tank Check and water tracking are free forever. Upgrade for multi-tank support, AI photos, and advanced health records.</p>
+  <div class="ap-pricing-grid">
+    <div class="ap-plan free">
+      <div class="ap-plan-name">Free</div>
+      <div class="ap-plan-price">$0</div>
+      <div class="ap-plan-period">forever</div>
+      <ul class="ap-plan-features">
+        <li>1 fish tank</li>
+        <li>Tank Check with safety rules</li>
+        <li>Emergency action checklists</li>
+        <li>Water parameter logging</li>
+        <li>Basic care reminders</li>
+      </ul>
+      <a href="#download" class="ap-plan-cta">Download Free</a>
+    </div>
+    <div class="ap-plan plus">
+      <div class="ap-plan-badge">Most Popular</div>
+      <div class="ap-plan-name">FishCare Plus</div>
+      <div class="ap-plan-price">$5.99</div>
+      <div class="ap-plan-period">per month — or $39.99/year</div>
+      <ul class="ap-plan-features">
+        <li>Unlimited tanks</li>
+        <li>Everything in Free</li>
+        <li>AI photo symptom analysis</li>
+        <li>Full health record timeline</li>
+        <li>Before/after photo comparison</li>
+        <li>Personalized care plans</li>
+        <li>Advanced water parameter trends</li>
+      </ul>
+      <a href="#download" class="ap-plan-cta">Start Free Trial</a>
+    </div>
+  </div>
+  <p class="ap-annual-note">Save 44% with the annual plan &middot; Cancel anytime &middot; No commitment</p>
+</div>
+</section>
+
+<!-- ── DOWNLOAD CTA ── -->
+<section class="ap-cta" id="download">
+<div class="ap-container">
+  <h2>Give your fish the care they deserve</h2>
+  <p>Download FishCare AI on iPhone and know exactly what to do the next time something seems off.</p>
+  <div class="ap-cta-buttons">
+    <a href="#" class="ap-btn-primary">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      Download on App Store
+    </a>
+    <a href="/tools/" class="ap-btn-secondary">🌊 Try Web Tools Free</a>
+  </div>
+</div>
+</section>
+
+<footer>
+  <!-- legal links injected by site-compliance.js -->
+</footer>
+
+</body>
+</html>

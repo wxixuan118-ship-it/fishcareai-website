@@ -150,6 +150,7 @@
       path.indexOf('/guides/') === 0 ? 'guides' :
       path.indexOf('/wiki/') === 0 || path.indexOf('/encyclopedia/') === 0 ? 'wiki' :
       path.indexOf('/tools/') === 0 ? 'tools' :
+      path.indexOf('/app/') === 0 ? 'app' :
       path.indexOf('/about/') === 0 ? 'about' : '';
 
     nav.className = 'nb fishcare-global-nav';
@@ -166,6 +167,7 @@
       '<a class="nl" href="https://identify.fishcareai.com/">Fish Identify</a>' +
       '<a class="nl' + (section === 'tools' ? ' act' : '') + '" href="/tools/fish-compatibility-checker/">Tools</a>' +
       '<a class="nl' + (section === 'about' ? ' act' : '') + '" href="/about/">About</a>' +
+      '<a class="nl nl-app-btn' + (section === 'app' ? ' act' : '') + '" href="/app/">📱 App</a>' +
       '</div>';
   }
 
@@ -206,11 +208,39 @@
     document.head.appendChild(script);
   }
 
+  function setupAppBanner() {
+    if (/^\/(?:app\/|admin\/|__forms\.html$|yandex_[^/]+\.html$)/.test(window.location.pathname)) return;
+    var KEY = 'fishcare-app-banner-v1';
+    try { if (localStorage.getItem(KEY) === 'dismissed') return; } catch (e) {}
+    setTimeout(function () {
+      var banner = document.createElement('div');
+      banner.id = 'fishcare-app-banner';
+      banner.innerHTML =
+        '<div class="fab-content">' +
+        '<span class="fab-icon">🐠</span>' +
+        '<div class="fab-text">' +
+        '<strong>FishCare AI is now on iPhone</strong>' +
+        '<span>AI-powered Tank Check &amp; fish health tracking</span>' +
+        '</div>' +
+        '<a class="fab-cta" href="/app/">Get App &rarr;</a>' +
+        '<button class="fab-close" type="button" aria-label="Dismiss">&times;</button>' +
+        '</div>';
+      document.body.appendChild(banner);
+      setTimeout(function () { banner.classList.add('fab-show'); }, 60);
+      banner.querySelector('.fab-close').addEventListener('click', function () {
+        banner.classList.remove('fab-show');
+        setTimeout(function () { banner.remove(); }, 350);
+        try { localStorage.setItem(KEY, 'dismissed'); } catch (e) {}
+      });
+    }, 3000);
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     setupGlobalNavigation();
     setupMobileNavigation();
     addLegalLinks();
     ensureContentSchema();
     setupConsentBanner();
+    setupAppBanner();
   });
 })();
