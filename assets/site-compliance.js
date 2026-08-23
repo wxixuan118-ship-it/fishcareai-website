@@ -219,12 +219,16 @@
       banner.id = 'fishcare-app-banner';
       banner.innerHTML =
         '<div class="fab-content">' +
-        '<span class="fab-icon">🐠</span>' +
+        '<div class="fab-icon">🐠</div>' +
         '<div class="fab-text">' +
-        '<strong>FishCare AI is now on iPhone</strong>' +
-        '<span>AI-powered Tank Check &amp; fish health tracking</span>' +
+        '<div class="fab-text-top">' +
+        '<span class="fab-text-store">App Store</span>' +
+        '<span class="fab-text-stars">★★★★★</span>' +
         '</div>' +
-        '<a class="fab-cta" href="/app/">Get App &rarr;</a>' +
+        '<div class="fab-text-name">FishCare AI</div>' +
+        '<div class="fab-text-sub">Fish health tracker &amp; Tank Check</div>' +
+        '</div>' +
+        '<a class="fab-cta" href="https://apps.apple.com/app/fishcare-ai/id6793299571" target="_blank" rel="noopener">Get the app</a>' +
         '<button class="fab-close" type="button" aria-label="Dismiss">&times;</button>' +
         '</div>';
       document.body.appendChild(banner);
