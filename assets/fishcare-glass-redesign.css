@@ -187,7 +187,7 @@ a{color:#7DEBFF}
   overflow:hidden!important;
 }
 .seohero{
-  min-height:700px!important;
+  min-height:0!important;
   background:
     radial-gradient(circle at 18% 24%,rgba(37,215,255,.34),transparent 28%),
     radial-gradient(circle at 78% 18%,rgba(139,92,246,.28),transparent 26%),
