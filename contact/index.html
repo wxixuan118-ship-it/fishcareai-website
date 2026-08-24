@@ -1,47 +1,88 @@
-<!doctype html>
-<html lang="en" data-adsense-content="false">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-<meta name="apple-itunes-app" content="app-id=6793299571">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Contact FishCare AI</title>
-  <meta name="description" content="Contact FishCare AI about corrections, aquarium topics, privacy or technical issues.">
-  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
-  <meta name="google-adsense-account" content="ca-pub-6697313643773879">
-  <link rel="canonical" href="https://www.fishcareai.com/contact/">
-  <link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260823-screenshot">
-  <style>
-    .page{max-width:820px;margin:auto;padding:56px 22px}
-    .contact-form{padding:26px;margin-top:24px}
-    .contact-form label{display:block;margin:14px 0 6px}
-    .contact-form input,.contact-form select,.contact-form textarea{display:block;width:100%;padding:12px}
-    .contact-form button{margin-top:18px;padding:11px 20px}
-    #contact-status{padding:16px;margin-top:22px;color:#8a2b16;border-color:#e8a08c}
-  </style>
-  <script defer src="/assets/site-compliance.js?v=20260824-dark-fix"></script>
-  <script defer src="/assets/contact-form.js"></script>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Contact FishCare AI: Get in Touch</title>
+<meta name="description" content="Have a question about aquarium care or feedback for FishCare AI? Send us a message. We read every inquiry."/>
+<link rel="canonical" href="https://www.fishcareai.com/contact/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Contact FishCare AI"/>
+<meta property="og:description" content="Send us your question or feedback. We respond within 2–3 business days."/>
+<meta property="og:url" content="https://www.fishcareai.com/contact/"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="robots" content="index,follow"/>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<style>
+:root{--p:#1687C7;--pd:#0F3D6E;--bg:#EAF8FF;--tx:#123047;--mu:#527895;--bd:#BFE4F6}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,'Segoe UI',Arial,sans-serif;background:#EAF8FF;color:var(--tx);line-height:1.6}
+a{color:var(--p);text-decoration:none}
+.con{max-width:900px;margin:0 auto;padding:0 22px}
+h1{font-size:2rem;font-weight:800;margin-bottom:20px;color:var(--pd)}
+p{margin-bottom:16px;color:var(--mu);line-height:1.8}
+.sec{padding:60px 22px}
+.hero{background:linear-gradient(135deg,#08294C 0%,#0F3D6E 48%,#1687C7 100%);color:#fff;padding:80px 22px;text-align:center}
+.hero h1{color:#fff;font-size:2.4rem}
+.hero p{color:rgba(255,255,255,.85);font-size:1.1rem}
+.form-group{margin-bottom:18px}
+.form-group label{display:block;font-weight:600;margin-bottom:6px;font-size:0.95rem;color:var(--tx)}
+.form-group input,.form-group textarea{width:100%;padding:10px 12px;border:1.5px solid var(--bd);border-radius:6px;font-size:0.95rem;font-family:inherit;background:#fff;color:var(--tx);outline:none;transition:border-color .2s}
+.form-group input:focus,.form-group textarea:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(22,135,199,.1)}
+.form-group textarea{resize:vertical;min-height:150px}
+.btn{display:inline-block;background:linear-gradient(135deg,var(--pd),#155C98);color:#fff;padding:12px 28px;border-radius:6px;font-weight:600;cursor:pointer;border:none;font-size:0.95rem;text-decoration:none;margin-top:10px}
+.btn:hover{background:linear-gradient(135deg,#08294C,var(--pd))}
+.note{margin-top:24px;padding:16px;background:#F8FAFE;border-left:3px solid var(--p);border-radius:4px;font-size:0.9rem;color:var(--mu)}
+@media(max-width:760px){h1{font-size:1.4rem}.hero h1{font-size:1.8rem}}
+</style>
+<script defer src="/assets/site-compliance.js?v=20260824-dark-fix"></script>
 </head>
 <body>
-  <nav class="nb">
-    <a class="brand" href="/"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI"></a>
-    <div class="nlinks"><a href="/">Home</a><a href="/guides/">Guides</a><a href="/species/">Encyclopedia</a><a title="Fish Health" class="nl" href="/fish-health/">Fish Health</a><a title="Fish Identification" class="nl" href="https://fish-identification-d558af.anysites.app/" target="_blank" rel="noopener">🔍 Fish ID</a><a href="/about/">About</a><a href="/contact/" class="act">Contact</a></div>
-  </nav>
-  <main class="page">
-    <p class="tag">Contact</p>
-    <h1>Contact FishCare AI</h1>
-    <p>Use this form for corrections, source requests, topic suggestions, privacy questions or technical issues. For an urgent animal-health concern, contact an aquatic veterinarian or qualified local aquarium professional.</p>
-    <p id="contact-status" class="card" role="alert" hidden></p>
-    <form class="card contact-form" name="contact" method="post" action="/api/contact" data-vercel-contact>
-      <input type="hidden" name="source" value="contact-page">
-      <p hidden><label>Do not fill this out: <input name="bot-field" autocomplete="off" tabindex="-1"></label></p>
-      <label for="name">Name</label><input id="name" name="name" autocomplete="name" minlength="2" maxlength="100" required>
-      <label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" maxlength="254" required>
-      <label for="topic">Topic</label>
-      <select id="topic" name="topic"><option>Guide correction</option><option>Source request</option><option>Topic suggestion</option><option>Privacy request</option><option>Technical issue</option></select>
-      <label for="message">Message</label><textarea id="message" name="message" rows="7" minlength="10" maxlength="5000" required></textarea>
-      <button type="submit">Send message</button>
-    </form>
-  </main>
-  <footer class="ft">© 2026 FishCare AI.<nav class="legal-links" aria-label="Legal and company information"><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/editorial-policy/">Editorial Policy</a><a href="/privacy/">Privacy</a><a href="/image-credits/">Image Credits</a></nav></footer>
+
+<section class="hero">
+  <div class="con">
+    <h1>Contact Us</h1>
+    <p>Have a question? Found an error? We'd love to hear from you.</p>
+  </div>
+</section>
+
+<div class="con">
+<section class="sec" style="max-width:600px">
+  <p style="text-align:center;margin-bottom:32px">Send us a message below. We read every inquiry and typically respond within 2–3 business days.</p>
+
+  <form style="background:#fff;border-radius:12px;padding:32px;border:1px solid var(--bd);box-shadow:0 4px 12px rgba(15,61,110,.08)" action="https://formspree.io/f/m placeholder-form-id" method="POST">
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required/>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required/>
+    </div>
+
+    <div class="form-group">
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" placeholder="Question, feedback, partnership..."/>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required placeholder="Tell us what's on your mind..."></textarea>
+    </div>
+
+    <button type="submit" class="btn">Send Message</button>
+
+    <div class="note">
+      ✓ We read every message and try to respond quickly. For urgent technical issues, please describe them in detail so we can help faster.
+    </div>
+  </form>
+
+  <p style="margin-top:40px;padding-top:32px;border-top:1px solid var(--bd);text-align:center;font-size:0.9rem;color:var(--mu)">
+    Or email us directly at <strong>hello@fishcareai.com</strong>
+  </p>
+</section>
+</div>
+
 </body>
 </html>
