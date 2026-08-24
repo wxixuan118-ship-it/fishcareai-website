@@ -161,11 +161,11 @@
       '<img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"></a>' +
       '<div class="nlinks" id="nlinks">' +
       '<a class="nl' + (section === 'home' ? ' act' : '') + '" href="/">Home</a>' +
+      '<a class="nl' + (section === 'tools' ? ' act' : '') + '" href="/tools/fish-compatibility-checker/">Tools</a>' +
       '<a class="nl' + (section === 'guides' ? ' act' : '') + '" href="/guides/">Guides</a>' +
       '<a class="nl' + (section === 'wiki' ? ' act' : '') + '" href="/wiki/">Encyclopedia</a>' +
       '<a class="nl' + (section === 'fish-health' ? ' act' : '') + '" href="/fish-health/">Fish Health</a>' +
       '<a class="nl" href="https://identify.fishcareai.com/">Fish Identify</a>' +
-      '<a class="nl' + (section === 'tools' ? ' act' : '') + '" href="/tools/fish-compatibility-checker/">Tools</a>' +
       '<a class="nl' + (section === 'about' ? ' act' : '') + '" href="/about/">About</a>' +
       '<a class="nl nl-app-btn' + (section === 'app' ? ' act' : '') + '" href="/app/">📱 App</a>' +
       '</div>';

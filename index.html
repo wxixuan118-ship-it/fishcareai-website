@@ -317,7 +317,7 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
 </style>
 <link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260823-screenshot"/>
 <meta name="google-adsense-account" content="ca-pub-6697313643773879">
-<script defer src="/assets/site-compliance.js?v=20260823-screenshot"></script>
+<script defer src="/assets/site-compliance.js?v=20260824-nav-tools"></script>
 </head>
 <body>
 
@@ -326,10 +326,10 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
   <a title="FishCare AI" class="brand" href="/"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"/></a>
   <div class="nlinks" id="nlinks">
     <a title="Home" class="nl" href="/" onclick="event.preventDefault();goto('home')" data-page="home">Home</a>
+    <a title="Tools" class="nl" href="#tools" onclick="event.preventDefault();goto('tools')" data-page="tools">Tools</a>
     <a title="Guides" class="nl" href="guides/" onclick="event.preventDefault();goto('blog')" data-page="blog">Guides</a>
     <a title="Aquarium Encyclopedia" class="nl" href="/species/">Encyclopedia</a><a title="Fish Health" class="nl" href="/fish-health/">Fish Health</a>
     <a title="Fish Identification - Identify any fish species by photo" class="nl nl-fish-id" href="https://fish-identification-d558af.anysites.app/" target="_blank" rel="noopener">🔍 Fish ID</a>
-    <a title="Tools" class="nl" href="#tools" onclick="event.preventDefault();goto('tools')" data-page="tools">Tools</a>
     <a title="About Us" class="nl" href="#about" onclick="event.preventDefault();goto('about')" data-page="about">About Us</a>
     <a title="Contact" class="nl" href="#contact" onclick="event.preventDefault();goto('contact')" data-page="contact">Contact</a>
     <a title="Try AI Free" class="btn bp bsm nb-cta" href="#tools" onclick="event.preventDefault();goto('tools')">Try AI Free</a>
@@ -352,6 +352,44 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
     <p>Find practical answers for fish care, algae control, shrimp and snail care, tank setup, water quality, feeding, compatibility, and aquarium decoration.</p>
   </div>
 </section>
+<section class="sec sec-w" style="padding:60px 0 50px">
+<div class="con">
+<div class="sh"><div class="tag">Everything on FishCare AI</div><h2>Five ways to get aquarium help</h2><p>Whether you need a care guide, a species profile, a health answer, fish identification, or a free planning tool — start here.</p></div>
+<div class="g3" style="margin-top:8px">
+  <a href="/tools/fish-compatibility-checker/" class="card tc" style="color:inherit;text-decoration:none">
+    <div class="ti">🛠️</div><h3 style="color:var(--pd)">Tools</h3>
+    <p style="font-size:.88rem">Five free interactive tools: Tank Size Calculator, Compatibility Checker, Water Parameter Checker, Feeding Calculator, and Aquarium Planner. Get specific answers for your tank in seconds.</p>
+    <span style="color:var(--p);font-size:.82rem;font-weight:700">Open Tools →</span>
+  </a>
+  <a href="/guides/" class="card tc" style="color:inherit;text-decoration:none">
+    <div class="ti">📚</div><h3 style="color:var(--pd)">Guides</h3>
+    <p style="font-size:.88rem">30+ in-depth care guides covering species setup, tank cycling, water quality, algae control, feeding, and aquarium decoration. Written for beginners and experienced keepers.</p>
+    <span style="color:var(--p);font-size:.82rem;font-weight:700">Browse Guides →</span>
+  </a>
+  <a href="/species/" class="card tc" style="color:inherit;text-decoration:none">
+    <div class="ti">🔬</div><h3 style="color:var(--pd)">Encyclopedia</h3>
+    <p style="font-size:.88rem">Detailed profiles for 257 freshwater and marine species — tank size, water parameters, diet, compatibility, breeding notes, and care difficulty at a glance.</p>
+    <span style="color:var(--p);font-size:.82rem;font-weight:700">Explore Species →</span>
+  </a>
+  <a href="/fish-health/" class="card tc" style="color:inherit;text-decoration:none">
+    <div class="ti">🏥</div><h3 style="color:var(--pd)">Fish Health</h3>
+    <p style="font-size:.88rem">7,700+ fish health articles covering symptoms, diseases, treatments, and prevention for freshwater species. Find answers when your fish is acting strangely or showing visible signs of illness.</p>
+    <span style="color:var(--p);font-size:.82rem;font-weight:700">Search Fish Health →</span>
+  </a>
+  <a href="https://identify.fishcareai.com/" class="card tc" style="color:inherit;text-decoration:none" target="_blank" rel="noopener">
+    <div class="ti">🔍</div><h3 style="color:var(--pd)">Fish Identify</h3>
+    <p style="font-size:.88rem">AI-powered fish identification across 866 species. Upload a photo or browse an interactive visual embedding space to identify any fish by appearance and compare species side by side.</p>
+    <span style="color:var(--p);font-size:.82rem;font-weight:700">Try Fish ID →</span>
+  </a>
+  <a href="/app/" class="card tc" style="color:inherit;text-decoration:none">
+    <div class="ti">📱</div><h3 style="color:var(--pd)">App</h3>
+    <p style="font-size:.88rem">FishCare AI on iPhone — AI Tank Check, water quality logging, care reminders, health records, and multi-tank support. Free to download on the App Store.</p>
+    <span style="color:var(--p);font-size:.82rem;font-weight:700">Get the App →</span>
+  </a>
+</div>
+</div>
+</section>
+
 <section class="sec sec-w">
 <div class="con" style="max-width:800px">
 <h2 style="color:var(--pd);margin-bottom:18px">Aquarium care guides and free tools for healthier freshwater tanks</h2>
@@ -679,6 +717,20 @@ function renderHome() {
     </div>
     <div class="hstats">
       ${[['61','Aquarium Profiles'],['6','Free Tools'],['30+','Care Guides'],['Weekly','Updates']].map(([v,l])=>`<div class="hstat"><strong>${v}</strong><span>${l}</span></div>`).join('')}
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-w" style="padding:60px 0 50px">
+  <div class="con">
+    <div class="sh"><div class="tag">Everything on FishCare AI</div><h2>Five ways to get aquarium help</h2><p>Whether you need a care guide, a species profile, a health answer, fish identification, or a free planning tool — start here.</p></div>
+    <div class="g3" style="margin-top:8px">
+      <a href="${toolHref('tank')}" class="card tc" style="color:inherit;text-decoration:none"><div class="ti">🛠️</div><h3 style="color:var(--pd)">Tools</h3><p style="font-size:.88rem">Five free interactive tools: Tank Size Calculator, Compatibility Checker, Water Parameter Checker, Feeding Calculator, and Aquarium Planner. Get specific answers for your tank in seconds.</p><span style="color:var(--p);font-size:.82rem;font-weight:700" onclick="event.preventDefault();gotoTools('tank')">Open Tools →</span></a>
+      <a href="guides/" class="card tc" style="color:inherit;text-decoration:none"><div class="ti">📚</div><h3 style="color:var(--pd)">Guides</h3><p style="font-size:.88rem">30+ in-depth care guides covering species setup, tank cycling, water quality, algae control, feeding, and decoration. Written for beginners and experienced keepers.</p><span style="color:var(--p);font-size:.82rem;font-weight:700">Browse Guides →</span></a>
+      <a href="/species/" class="card tc" style="color:inherit;text-decoration:none"><div class="ti">🔬</div><h3 style="color:var(--pd)">Encyclopedia</h3><p style="font-size:.88rem">Detailed profiles for 257 freshwater and marine species — tank size, water parameters, diet, compatibility, breeding notes, and care difficulty at a glance.</p><span style="color:var(--p);font-size:.82rem;font-weight:700">Explore Species →</span></a>
+      <a href="/fish-health/" class="card tc" style="color:inherit;text-decoration:none"><div class="ti">🏥</div><h3 style="color:var(--pd)">Fish Health</h3><p style="font-size:.88rem">7,700+ fish health articles covering symptoms, diseases, treatments, and prevention for freshwater species. Find answers when your fish shows visible signs of illness.</p><span style="color:var(--p);font-size:.82rem;font-weight:700">Search Fish Health →</span></a>
+      <a href="https://identify.fishcareai.com/" class="card tc" style="color:inherit;text-decoration:none" target="_blank" rel="noopener"><div class="ti">🔍</div><h3 style="color:var(--pd)">Fish Identify</h3><p style="font-size:.88rem">AI-powered fish identification across 866 species. Upload a photo or browse an interactive visual embedding space to identify any fish by appearance.</p><span style="color:var(--p);font-size:.82rem;font-weight:700">Try Fish ID →</span></a>
+      <a href="/app/" class="card tc" style="color:inherit;text-decoration:none"><div class="ti">📱</div><h3 style="color:var(--pd)">App</h3><p style="font-size:.88rem">FishCare AI on iPhone — AI Tank Check, water quality logging, care reminders, health records, and multi-tank support. Free to download on the App Store.</p><span style="color:var(--p);font-size:.82rem;font-weight:700">Get the App →</span></a>
     </div>
   </div>
 </section>
