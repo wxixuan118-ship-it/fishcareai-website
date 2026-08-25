@@ -73,9 +73,31 @@
     {
       "source": "/species/:path*",
       "destination": "https://species-app.vercel.app/species/:path*"
+    },
+    {
+      "source": "/fish-health",
+      "destination": "https://species-app.vercel.app/fish-health"
+    },
+    {
+      "source": "/fish-health/",
+      "destination": "https://species-app.vercel.app/fish-health/"
+    },
+    {
+      "source": "/fish-health/:path*",
+      "destination": "https://species-app.vercel.app/fish-health/:path*"
     }
   ],
   "redirects": [
+    {
+      "source": "/aquarium-fish-diseases/",
+      "destination": "/fish-health/",
+      "permanent": true
+    },
+    {
+      "source": "/aquarium-fish-diseases",
+      "destination": "/fish-health/",
+      "permanent": true
+    },
     {
       "source": "/wiki/black-skirt-tetra/",
       "destination": "/species/black-skirt-tetra",
