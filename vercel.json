@@ -542,6 +542,616 @@
       "source": "/guides/petco-fish-care/",
       "destination": "/guides/",
       "permanent": true
+    },
+    {
+      "source": "/guides/discus-fish-care",
+      "destination": "/guides/discus-fish-care-requirements/",
+      "permanent": true
+    },
+    {
+      "source": "/guides/discus-fish-care/",
+      "destination": "/guides/discus-fish-care-requirements/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/african-butterfly-fish/",
+      "destination": "/species/african-butterfly-fish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/african-butterfly-fish",
+      "destination": "/species/african-butterfly-fish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/black-ghost-knifefish/",
+      "destination": "/species/black-ghost-knifefish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/black-ghost-knifefish",
+      "destination": "/species/black-ghost-knifefish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/black-neon-tetra/",
+      "destination": "/species/black-neon-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/black-neon-tetra",
+      "destination": "/species/black-neon-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/black-phantom-tetra/",
+      "destination": "/species/black-phantom-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/black-phantom-tetra",
+      "destination": "/species/black-phantom-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/black-ruby-barb/",
+      "destination": "/species/black-ruby-barb",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/black-ruby-barb",
+      "destination": "/species/black-ruby-barb",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/blue-tang/",
+      "destination": "/species/blue-tang",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/blue-tang",
+      "destination": "/species/blue-tang",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/bolivian-ram/",
+      "destination": "/species/bolivian-ram",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/bolivian-ram",
+      "destination": "/species/bolivian-ram",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/bosemans-rainbowfish/",
+      "destination": "/species/bosemans-rainbowfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/bosemans-rainbowfish",
+      "destination": "/species/bosemans-rainbowfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/clown-knifefish/",
+      "destination": "/species/clown-knifefish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/clown-knifefish",
+      "destination": "/species/clown-knifefish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/clown-pleco/",
+      "destination": "/species/clown-pleco",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/clown-pleco",
+      "destination": "/species/clown-pleco",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/congo-tetra/",
+      "destination": "/species/congo-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/congo-tetra",
+      "destination": "/species/congo-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/coral-beauty/",
+      "destination": "/species/coral-beauty",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/coral-beauty",
+      "destination": "/species/coral-beauty",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/denison-barb/",
+      "destination": "/species/denison-barb",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/denison-barb",
+      "destination": "/species/denison-barb",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/diamond-tetra/",
+      "destination": "/species/diamond-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/diamond-tetra",
+      "destination": "/species/diamond-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/dwarf-chain-loach/",
+      "destination": "/species/dwarf-chain-loach",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/dwarf-chain-loach",
+      "destination": "/species/dwarf-chain-loach",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/electric-yellow-cichlid/",
+      "destination": "/species/electric-yellow-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/electric-yellow-cichlid",
+      "destination": "/species/electric-yellow-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/fire-eel/",
+      "destination": "/species/fire-eel",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/fire-eel",
+      "destination": "/species/fire-eel",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/firefish-goby/",
+      "destination": "/species/firefish-goby",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/firefish-goby",
+      "destination": "/species/firefish-goby",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/flame-angelfish/",
+      "destination": "/species/flame-angelfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/flame-angelfish",
+      "destination": "/species/flame-angelfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/foxface-rabbitfish/",
+      "destination": "/species/foxface-rabbitfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/foxface-rabbitfish",
+      "destination": "/species/foxface-rabbitfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/frontosa-cichlid/",
+      "destination": "/species/frontosa-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/frontosa-cichlid",
+      "destination": "/species/frontosa-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/giant-danio/",
+      "destination": "/species/giant-danio",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/giant-danio",
+      "destination": "/species/giant-danio",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/glass-catfish/",
+      "destination": "/species/glass-catfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/glass-catfish",
+      "destination": "/species/glass-catfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/glowlight-danio/",
+      "destination": "/species/glowlight-danio",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/glowlight-danio",
+      "destination": "/species/glowlight-danio",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/glowlight-tetra/",
+      "destination": "/species/glowlight-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/glowlight-tetra",
+      "destination": "/species/glowlight-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/green-terror-cichlid/",
+      "destination": "/species/green-terror-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/green-terror-cichlid",
+      "destination": "/species/green-terror-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/hillstream-loach/",
+      "destination": "/species/hillstream-loach",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/hillstream-loach",
+      "destination": "/species/hillstream-loach",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/jewel-cichlid/",
+      "destination": "/species/jewel-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/jewel-cichlid",
+      "destination": "/species/jewel-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/julii-cory/",
+      "destination": "/species/julii-cory",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/julii-cory",
+      "destination": "/species/julii-cory",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/keyhole-cichlid/",
+      "destination": "/species/keyhole-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/keyhole-cichlid",
+      "destination": "/species/keyhole-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/lemon-tetra/",
+      "destination": "/species/lemon-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/lemon-tetra",
+      "destination": "/species/lemon-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/lionfish/",
+      "destination": "/species/lionfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/lionfish",
+      "destination": "/species/lionfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/moonlight-gourami/",
+      "destination": "/species/moonlight-gourami",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/moonlight-gourami",
+      "destination": "/species/moonlight-gourami",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/neon-rainbowfish/",
+      "destination": "/species/neon-rainbowfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/neon-rainbowfish",
+      "destination": "/species/neon-rainbowfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/pajama-cardinalfish/",
+      "destination": "/species/pajama-cardinalfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/pajama-cardinalfish",
+      "destination": "/species/pajama-cardinalfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/panda-cory/",
+      "destination": "/species/panda-cory",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/panda-cory",
+      "destination": "/species/panda-cory",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/peacock-cichlid/",
+      "destination": "/species/peacock-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/peacock-cichlid",
+      "destination": "/species/peacock-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/pearl-danio/",
+      "destination": "/species/pearl-danio",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/pearl-danio",
+      "destination": "/species/pearl-danio",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/peppered-cory/",
+      "destination": "/species/peppered-cory",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/peppered-cory",
+      "destination": "/species/peppered-cory",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/percula-clownfish/",
+      "destination": "/species/percula-clownfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/percula-clownfish",
+      "destination": "/species/percula-clownfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/red-eye-tetra/",
+      "destination": "/species/red-eye-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/red-eye-tetra",
+      "destination": "/species/red-eye-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/rosy-barb/",
+      "destination": "/species/rosy-barb",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/rosy-barb",
+      "destination": "/species/rosy-barb",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/royal-gramma/",
+      "destination": "/species/royal-gramma",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/royal-gramma",
+      "destination": "/species/royal-gramma",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/senegal-bichir/",
+      "destination": "/species/senegal-bichir",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/senegal-bichir",
+      "destination": "/species/senegal-bichir",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/serpae-tetra/",
+      "destination": "/species/serpae-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/serpae-tetra",
+      "destination": "/species/serpae-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/severum-cichlid/",
+      "destination": "/species/severum-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/severum-cichlid",
+      "destination": "/species/severum-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/silver-arowana/",
+      "destination": "/species/silver-arowana",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/silver-arowana",
+      "destination": "/species/silver-arowana",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/silver-dollar/",
+      "destination": "/species/silver-dollar",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/silver-dollar",
+      "destination": "/species/silver-dollar",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/sparkling-gourami/",
+      "destination": "/species/sparkling-gourami",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/sparkling-gourami",
+      "destination": "/species/sparkling-gourami",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/sterbai-cory/",
+      "destination": "/species/sterbai-cory",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/sterbai-cory",
+      "destination": "/species/sterbai-cory",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/texas-cichlid/",
+      "destination": "/species/texas-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/texas-cichlid",
+      "destination": "/species/texas-cichlid",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/threadfin-rainbowfish/",
+      "destination": "/species/threadfin-rainbowfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/threadfin-rainbowfish",
+      "destination": "/species/threadfin-rainbowfish",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/three-spot-gourami/",
+      "destination": "/species/three-spot-gourami",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/three-spot-gourami",
+      "destination": "/species/three-spot-gourami",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/watchman-goby/",
+      "destination": "/species/watchman-goby",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/watchman-goby",
+      "destination": "/species/watchman-goby",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/weather-loach/",
+      "destination": "/species/weather-loach",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/weather-loach",
+      "destination": "/species/weather-loach",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/x-ray-tetra/",
+      "destination": "/species/x-ray-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/x-ray-tetra",
+      "destination": "/species/x-ray-tetra",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/yellow-tang/",
+      "destination": "/species/yellow-tang",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/yellow-tang",
+      "destination": "/species/yellow-tang",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/yoyo-loach/",
+      "destination": "/species/yoyo-loach",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/yoyo-loach",
+      "destination": "/species/yoyo-loach",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/zebra-loach/",
+      "destination": "/species/zebra-loach",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/zebra-loach",
+      "destination": "/species/zebra-loach",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/zebra-pleco/",
+      "destination": "/species/zebra-pleco",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/zebra-pleco",
+      "destination": "/species/zebra-pleco",
+      "permanent": true
     }
   ]
 }
