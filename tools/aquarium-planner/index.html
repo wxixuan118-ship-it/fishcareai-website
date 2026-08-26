@@ -2048,17 +2048,13 @@ function renderContact() {
 <section class="sec sec-w">
   <div class="con">
     <div class="g2" style="gap:32px;align-items:start">
-      <form class="card" name="contact" method="POST" action="/api/contact" data-vercel-contact style="padding:24px" onsubmit="submitNetlifyForm(event,'contact')">
-        
-        <input type="hidden" name="source" value="contact-page"/>
-        <p style="display:none"><label>Do not fill this out: <input name="bot-field"/></label></p>
+      <div class="card" style="padding:24px">
         <h2 style="color:var(--pd);margin-bottom:16px">Send a message</h2>
-        <div class="fg"><label for="contact-name">Name</label><input class="fc" id="contact-name" name="name" required placeholder="Your name"/></div>
-        <div class="fg"><label for="contact-email">Email</label><input class="fc" id="contact-email" name="email" type="email" required placeholder="you@fishcareai.com"/></div>
-        <div class="fg"><label for="contact-topic">Topic</label><select class="fc" id="contact-topic" name="topic"><option>Fish care question</option><option>Guide correction</option><option>Partnership</option><option>Technical issue</option></select></div>
-        <div class="fg"><label for="contact-message">Message</label><textarea class="fc" id="contact-message" name="message" required rows="6" style="resize:vertical" placeholder="Tell us what you need help with."></textarea></div>
-        <button class="btn bp" type="submit">Send Message →</button>
-      </form>
+        <p>Email us and we'll take it from there. We read every message and typically respond within 2–3 business days.</p>
+        <p style="font-size:1.2rem;font-weight:700;color:var(--pd);margin-bottom:18px"><a href="mailto:dev@evetrend.com">dev@evetrend.com</a></p>
+        <a class="btn bp" href="mailto:dev@evetrend.com?subject=FishCare%20AI%20enquiry">Email dev@evetrend.com →</a>
+        <p style="margin-top:16px;margin-bottom:0;font-size:0.9rem">Put what you need in the subject line — fish care question, guide correction, partnership, or technical issue.</p>
+      </div>
       <div>
         <div class="card" style="padding:24px;margin-bottom:18px">
           <h3 style="color:var(--pd);margin-bottom:10px">Before you contact us</h3>
