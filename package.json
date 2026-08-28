@@ -6,7 +6,9 @@
     "start:4173": "python3 -m http.server 4173 --bind 127.0.0.1",
     "indexnow": "node indexnow-submit.js",
     "indexnow:changed": "node indexnow-submit.js --changed",
-    "indexnow:preview": "node indexnow-submit.js --changed --dry-run"
+    "indexnow:preview": "node indexnow-submit.js --changed --dry-run",
+    "indexnow:all": "node indexnow-submit.js --sitemap",
+    "indexnow:all:preview": "node indexnow-submit.js --sitemap --dry-run"
   },
   "private": true
 }
