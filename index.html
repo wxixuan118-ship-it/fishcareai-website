@@ -6,17 +6,17 @@
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>FishCare AI: Aquarium Guides, Fish Encyclopedia & Free Tools</title>
-<meta name="description" content="FishCare AI answers practical fish and aquarium care questions — care guides, species encyclopedia, and free tools for tank setup, water quality, feeding, and compatibility."/>
+<meta name="description" content="FishCare AI answers practical fish and aquarium care questions — guides, a species encyclopedia, and free tools for tank setup, water quality and feeding."/>
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <link rel="canonical" href="https://www.fishcareai.com/"/>
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="FishCare AI: Aquarium Guides, Fish Encyclopedia & Free Tools"/>
-<meta property="og:description" content="FishCare AI answers practical fish and aquarium care questions — care guides, species encyclopedia, and free tools for tank setup, water quality, feeding, and compatibility."/>
+<meta property="og:description" content="FishCare AI answers practical fish and aquarium care questions — guides, a species encyclopedia, and free tools for tank setup, water quality and feeding."/>
 <meta property="og:url" content="https://www.fishcareai.com/"/>
 <meta property="og:image" content="https://www.fishcareai.com/assets/freshwater-fish-care-hero-optimized.jpg"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="FishCare AI: Aquarium Guides, Fish Encyclopedia & Free Tools"/>
-<meta name="twitter:description" content="FishCare AI answers practical fish and aquarium care questions — care guides, species encyclopedia, and free tools for tank setup, water quality, feeding, and compatibility."/>
+<meta name="twitter:description" content="FishCare AI answers practical fish and aquarium care questions — guides, a species encyclopedia, and free tools for tank setup, water quality and feeding."/>
 <meta name="twitter:image" content="https://www.fishcareai.com/assets/freshwater-fish-care-hero-optimized.jpg"/>
 <script type="application/ld+json">
 {
@@ -25,15 +25,6 @@
   "name": "FishCare AI",
   "url": "https://www.fishcareai.com/",
   "description": "Aquarium care guides and practical tools for fish, algae, shrimp, snails, amphibians, tank setup, water quality, feeding, compatibility, and decoration."
-  },
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": {
-      "@type": "EntryPoint",
-      "urlTemplate": "https://www.fishcareai.com/search?q={search_term_string}"
-    },
-    "query-input": "required name=search_term_string"
-  }
 }
 </script>
 <script type="application/ld+json">
@@ -353,100 +344,215 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
 <span id="about"></span>
 <span id="contact"></span>
 <div id="page-home">
-<!-- pre-rendered static HTML for search-engine first-pass; JS re-renders with full interactivity -->
-<section class="hero seohero" style="min-height:0;padding:56px 22px 48px">
+<!--prerender:start-->
+<section class="hero seohero">
+  <span class="hero-fish f1" aria-hidden="true"></span>
+  <span class="hero-fish f2" aria-hidden="true"></span>
+  <span class="hero-fish f3" aria-hidden="true"></span>
   <div class="hc">
     <div class="tag">Aquarium Care Guides</div>
-    <h1><span>FishCare AI:</span> Aquarium Care Guides, Fish Encyclopedia & Free Aquarium Tools</h1>
+    <h1><span>FishCare AI:</span> Aquarium Care Guides, Fish Encyclopedia &amp; Free Aquarium Tools</h1>
     <p>Find practical answers for fish care, algae control, shrimp and snail care, tank setup, water quality, feeding, compatibility, and aquarium decoration.</p>
+    <div class="hsrch">
+      <input id="sq" placeholder="Search fish, algae, shrimp, snails, tank setup..." onkeydown="if(event.key==='Enter'){event.preventDefault();searchHome()}">
+      <button onclick="searchHome()">Search →</button>
+    </div>
+    <div class="hstats">
+      <div class="hstat"><strong>61</strong><span>Aquarium Profiles</span></div><div class="hstat"><strong>6</strong><span>Free Tools</span></div><div class="hstat"><strong>30+</strong><span>Care Guides</span></div><div class="hstat"><strong>Weekly</strong><span>Updates</span></div>
+    </div>
   </div>
 </section>
+
+<section class="sec" style="padding:56px 0 10px">
+  <div class="con" style="max-width:880px">
+    <h2 style="color:var(--pd);margin-bottom:16px">What is FishCare AI?</h2>
+    <p>FishCare AI is a free fish care and aquarium resource built around the questions keepers actually ask: why a fish stopped eating, whether two species can share a tank, how many gallons a tank really holds, and what to do when a water test comes back wrong. Those answers are usually scattered across forum threads of varying quality. FishCare AI collects them into care guides, a species encyclopedia and a set of free calculators that all work from the same numbers.</p>
+    <p>The care guides cover the species people keep most — betta, goldfish, guppy, angelfish, discus, koi and dozens more — with the tank size, temperature, water chemistry and tank mates each one needs as an adult, not as the juvenile sold in the shop. The encyclopedia goes wider, with profiles for freshwater and saltwater species, shrimp, snails and the algae that shows up alongside them.</p>
+    <p>The tools handle the arithmetic that fish care depends on: usable water volume, stocking limits, feeding portions, equipment sizing, and whether your pH, ammonia, nitrite and nitrate readings sit inside safe ranges. Everything is free, needs no account, and is written to be checked against a test kit rather than trusted blindly.</p>
+  </div>
+</section>
+
 <section class="sec sec-w" style="padding:60px 0 50px">
-<div class="con">
-<div class="sh"><div class="tag">Everything on FishCare AI</div><h2>Five ways to get aquarium help</h2><p>Whether you need a care guide, a species profile, a health answer, fish identification, or a free planning tool — start here.</p></div>
-<div class="g3" style="margin-top:8px">
-  <a href="/tools/fish-compatibility-checker/" class="card tc" style="color:inherit;text-decoration:none">
-    <div class="ti">🛠️</div><h3 style="color:var(--pd)">Tools</h3>
-    <p style="font-size:.88rem">Five free interactive tools: Tank Size Calculator, Compatibility Checker, Water Parameter Checker, Feeding Calculator, and Aquarium Planner. Get specific answers for your tank in seconds.</p>
-    <span style="color:var(--p);font-size:.82rem;font-weight:700">Open Tools →</span>
-  </a>
-  <a href="/guides/" class="card tc" style="color:inherit;text-decoration:none">
-    <div class="ti">📚</div><h3 style="color:var(--pd)">Guides</h3>
-    <p style="font-size:.88rem">30+ in-depth care guides covering species setup, tank cycling, water quality, algae control, feeding, and aquarium decoration. Written for beginners and experienced keepers.</p>
-    <span style="color:var(--p);font-size:.82rem;font-weight:700">Browse Guides →</span>
-  </a>
-  <a href="/species/" class="card tc" style="color:inherit;text-decoration:none">
-    <div class="ti">🔬</div><h3 style="color:var(--pd)">Encyclopedia</h3>
-    <p style="font-size:.88rem">Detailed profiles for 257 freshwater and marine species — tank size, water parameters, diet, compatibility, breeding notes, and care difficulty at a glance.</p>
-    <span style="color:var(--p);font-size:.82rem;font-weight:700">Explore Species →</span>
-  </a>
-  <a href="/fish-health/" class="card tc" style="color:inherit;text-decoration:none">
-    <div class="ti">🏥</div><h3 style="color:var(--pd)">Fish Health</h3>
-    <p style="font-size:.88rem">7,700+ fish health articles covering symptoms, diseases, treatments, and prevention for freshwater species. Find answers when your fish is acting strangely or showing visible signs of illness.</p>
-    <span style="color:var(--p);font-size:.82rem;font-weight:700">Search Fish Health →</span>
-  </a>
-  <a href="https://identify.fishcareai.com/" class="card tc" style="color:inherit;text-decoration:none" target="_blank" rel="noopener">
-    <div class="ti">🔍</div><h3 style="color:var(--pd)">Fish Identify</h3>
-    <p style="font-size:.88rem">AI-powered fish identification across 866 species. Upload a photo or browse an interactive visual embedding space to identify any fish by appearance and compare species side by side.</p>
-    <span style="color:var(--p);font-size:.82rem;font-weight:700">Try Fish ID →</span>
-  </a>
-  <a href="/app/" class="card tc" style="color:inherit;text-decoration:none">
-    <div class="ti">📱</div><h3 style="color:var(--pd)">App</h3>
-    <p style="font-size:.88rem">FishCare AI on iPhone — AI Tank Check, water quality logging, care reminders, health records, and multi-tank support. Free to download on the App Store.</p>
-    <span style="color:var(--p);font-size:.82rem;font-weight:700">Get the App →</span>
-  </a>
-</div>
-</div>
+  <div class="con">
+    <div class="sh"><div class="tag">Everything on FishCare AI</div><h2>Five ways to get aquarium help</h2><p>Whether you need a care guide, a species profile, a health answer, fish identification, or a free planning tool — start here.</p></div>
+    <div class="g3" style="margin-top:8px">
+      <a href="/tools/aquarium-size-calculator/" class="card tc" style="color:inherit;text-decoration:none"><div class="ti">🛠️</div><h3 style="color:var(--pd)">Tools</h3><p style="font-size:.88rem">Five free interactive tools: Tank Size Calculator, Compatibility Checker, Water Parameter Checker, Feeding Calculator, and Aquarium Planner. Get specific answers for your tank in seconds.</p><span style="color:var(--p);font-size:.82rem;font-weight:700" onclick="event.preventDefault();gotoTools('tank')">Open Tools →</span></a>
+      <a href="guides/" class="card tc" style="color:inherit;text-decoration:none"><div class="ti">📚</div><h3 style="color:var(--pd)">Guides</h3><p style="font-size:.88rem">30+ in-depth care guides covering species setup, tank cycling, water quality, algae control, feeding, and decoration. Written for beginners and experienced keepers.</p><span style="color:var(--p);font-size:.82rem;font-weight:700">Browse Guides →</span></a>
+      <a href="/species/" class="card tc" style="color:inherit;text-decoration:none"><div class="ti">🔬</div><h3 style="color:var(--pd)">Encyclopedia</h3><p style="font-size:.88rem">Detailed profiles for 257 freshwater and marine species — tank size, water parameters, diet, compatibility, breeding notes, and care difficulty at a glance.</p><span style="color:var(--p);font-size:.82rem;font-weight:700">Explore Species →</span></a>
+      <a href="/fish-health/" class="card tc" style="color:inherit;text-decoration:none"><div class="ti">🏥</div><h3 style="color:var(--pd)">Fish Health</h3><p style="font-size:.88rem">7,700+ fish health articles covering symptoms, diseases, treatments, and prevention for freshwater species. Find answers when your fish shows visible signs of illness.</p><span style="color:var(--p);font-size:.82rem;font-weight:700">Search Fish Health →</span></a>
+      <a href="/tools/fish-identification/" class="card tc" style="color:inherit;text-decoration:none"><div class="ti">🔍</div><h3 style="color:var(--pd)">Fish Identify</h3><p style="font-size:.88rem">AI-powered fish identification across 866 species. Upload a photo or browse an interactive visual embedding space to identify any fish by appearance.</p><span style="color:var(--p);font-size:.82rem;font-weight:700">Try Fish ID →</span></a>
+      <a href="/app/" class="card tc" style="color:inherit;text-decoration:none"><div class="ti">📱</div><h3 style="color:var(--pd)">App</h3><p style="font-size:.88rem">FishCare AI on iPhone — AI Tank Check, water quality logging, care reminders, health records, and multi-tank support. Free to download on the App Store.</p><span style="color:var(--p);font-size:.82rem;font-weight:700">Get the App →</span></a>
+    </div>
+  </div>
 </section>
 
 <section class="sec sec-w">
-<div class="con" style="max-width:800px">
-<h2 style="color:var(--pd);margin-bottom:18px">Aquarium care guides and free tools for healthier freshwater tanks</h2>
-<p>FishCare AI provides practical aquarium care guidance for beginners and experienced fishkeepers. Whether you are setting up your first tank, troubleshooting a water quality problem, choosing compatible fish, or learning how to care for a specific species, you will find clear, practical answers here.</p>
-<p>The guides on this site cover freshwater fish care from initial setup through daily maintenance routines. Browse species guides for betta fish, guppies, mollies, goldfish, angelfish, discus, koi, and many more. Find detailed answers about aquarium water parameters including pH, ammonia, nitrite, nitrate, temperature, and water hardness. Use the free tools for tank sizing, compatibility checking, feeding calculations, and water quality scoring.</p>
-<p>New to fishkeeping? Start with the <a href="/guides/how-to-take-care-of-a-fish-for-beginners/">beginner fish care guide</a>, which walks through tank cycling, choosing the right equipment, testing your water, feeding schedules, and what to watch for when your fish behave differently. If you already have fish, the <a href="/guides/fish-care-tips/">fish care tips guide</a> covers the practical habits that prevent most common aquarium problems.</p>
-<p>Beyond fish, the site covers the full freshwater and marine aquarium ecosystem. Read about <a href="/wiki/cherry-shrimp/">cherry shrimp</a>, <a href="/wiki/nerite-snail/">nerite snails</a>, and <a href="/wiki/african-dwarf-frog/">African dwarf frogs</a> for invertebrate and amphibian care. The algae guides cover <a href="/wiki/brown-algae/">brown algae</a>, <a href="/wiki/hair-algae/">hair algae</a>, and <a href="/wiki/black-beard-algae/">black beard algae</a> with identification, causes, and practical cleanup steps. Decoration guides include <a href="/wiki/aquarium-driftwood/">aquarium driftwood</a> and <a href="/wiki/live-rock/">live rock for saltwater tanks</a>.</p>
-<h2 style="color:var(--pd);margin:32px 0 14px">Popular fish care topics</h2>
-<ul style="color:var(--mu);line-height:2;padding-left:20px">
-  <li><a href="/guides/betta-fish-care/"><strong>Betta fish care</strong></a> — heat, gentle filtration, calm water flow, and clean water are the foundation. Bettas need a cycled aquarium with surface access and no fin-nipping tank mates.</li>
-  <li><a href="/guides/guppy-fish-care/"><strong>Guppy fish care</strong></a> — guppies are hardy and forgiving, making them ideal for beginners. They prefer stable, slightly alkaline water and need room to swim and breed.</li>
-  <li><a href="/guides/molly-fish-care/"><strong>Molly fish care</strong></a> — mollies thrive in mineral-rich water with planted cover and enough space for livebearing fry to develop safely.</li>
-  <li><a href="/guides/goldfish-care/"><strong>Goldfish care</strong></a> — goldfish need more space and filtration than most people expect. Fancy and single-tail varieties have different tank requirements and temperature preferences.</li>
-  <li><a href="/guides/angelfish-care/"><strong>Angelfish care</strong></a> — freshwater angelfish need a tall, warm aquarium and carefully chosen tank mates as they grow and develop more territorial behavior.</li>
-  <li><a href="/guides/discus-fish-care-requirements/"><strong>Discus fish care</strong></a> — discus require warm, pristine water, excellent filtration, calm tank mates, and a consistent maintenance schedule to stay healthy.</li>
-  <li><a href="/guides/koi-fish-care/"><strong>Koi fish care</strong></a> — koi are long-lived pond fish that need strong biological filtration, steady oxygen levels, and seasonal care planning as they grow large.</li>
-  <li><a href="/guides/oscar-fish-care/"><strong>Oscar fish care</strong></a> — oscars need a very large aquarium, powerful filtration, and long-term planning for an intelligent and demanding cichlid species.</li>
-</ul>
-<h2 style="color:var(--pd);margin:32px 0 14px">Fish care FAQ</h2>
-<div itemscope itemtype="https://schema.org/FAQPage">
-<div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" style="margin-bottom:18px">
-  <h3 itemprop="name" style="color:var(--pd);font-size:1rem">How often should I feed my fish?</h3>
-  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Most aquarium fish should be fed once or twice daily, only as much as they can eat in about two minutes. Uneaten food breaks down into ammonia and harms water quality, so remove any leftovers after feeding.</p></div>
-</div>
-<div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" style="margin-bottom:18px">
-  <h3 itemprop="name" style="color:var(--pd);font-size:1rem">How often should I change aquarium water?</h3>
-  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Most beginner tanks do well with a 20–30% water change every week or every other week. The right schedule depends on tank size, fish load, live plants, filtration, and nitrate readings. Always use dechlorinated, temperature-matched water.</p></div>
-</div>
-<div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" style="margin-bottom:18px">
-  <h3 itemprop="name" style="color:var(--pd);font-size:1rem">What water parameters are most important for fish?</h3>
-  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Ammonia and nitrite should always be 0 ppm in a cycled aquarium. Nitrate should stay below 20–40 ppm depending on species. Temperature, pH, and hardness should match the fish you keep, and sudden changes should always be avoided.</p></div>
-</div>
-<div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" style="margin-bottom:18px">
-  <h3 itemprop="name" style="color:var(--pd);font-size:1rem">Why are my fish gasping at the surface?</h3>
-  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Fish gasping at the surface usually indicates low dissolved oxygen, ammonia or nitrite poisoning, high water temperature, overcrowding, or poor surface circulation. Increase surface agitation immediately, test the water, and stop feeding until the cause is identified.</p></div>
-</div>
-<div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" style="margin-bottom:18px">
-  <h3 itemprop="name" style="color:var(--pd);font-size:1rem">Can fish live in a bowl?</h3>
-  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Most fish should not live in bowls long-term because bowls are small, thermally unstable, and usually lack filtration and adequate oxygen exchange. If a fish is already in a bowl, maintain clean water with frequent partial changes and plan an upgrade to a filtered, cycled aquarium.</p></div>
-</div>
-<div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-  <h3 itemprop="name" style="color:var(--pd);font-size:1rem">How do I know if my fish is sick?</h3>
-  <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Warning signs include clamped fins, white spots or patches, torn fins, rapid breathing, loss of appetite, hiding, buoyancy problems, faded color, or unusual swimming. Test water quality first because most fish health problems begin with poor water parameters.</p></div>
-</div>
-</div>
-<p style="margin-top:24px"><a href="/guides/" class="btn bp bsm">Browse all care guides →</a></p>
-</div>
+  <div class="con">
+    <div class="sh"><div class="tag">Start Here</div><h2>Popular aquarium care topics for new and growing tanks</h2><p>Use this homepage as a map to fish care, algae control, invertebrates, amphibians, tank decoration, water quality, filtration, diet, compatible tank mates, health issues, and breeding notes.</p></div>
+    <p style="text-align:center;margin:-18px auto 24px;max-width:760px;font-size:.9rem">New keeper? Start with <a title="how to take care of a fish for beginners" href="guides/how-to-take-care-of-a-fish-for-beginners/">how to take care of a fish for beginners</a>, bowl owners can read <a title="fish bowl care" href="guides/how-to-take-care-of-a-fish-in-a-bowl/">fish bowl care</a>, and urgent aeration issues belong in the <a title="low oxygen fish care guide" href="guides/how-to-take-care-of-fish-without-oxygen/">low oxygen fish care guide</a>.</p>
+    <div class="g3">
+      
+      <div class="card tc photo-card" style="--photo:url('/assets/encyclopedia/real/betta-fish-wikimedia-real.jpg')">
+        <div class="photo-card-content"><div class="tag">Betta</div><h3>Betta fish care guide</h3><p>Heat, gentle filtration, calm water flow, cover, and clean water are the foundation of betta fish care.</p>
+        <a title="Betta fish care guide" class="btn bp bsm" style="align-self:flex-start;margin-top:8px" href="guides/betta-fish-care/">Read Guide →</a>
+        </div>
+      </div>
+      <div class="card tc photo-card" style="--photo:url('/assets/encyclopedia/real/betta-fish-wikimedia-real.jpg')">
+        <div class="photo-card-content"><div class="tag">Betta Lifespan</div><h3>How long do betta fish live?</h3><p>Learn how long betta fish live in a tank and what helps bettas live longer.</p>
+        <a title="How long do betta fish live?" class="btn bp bsm" style="align-self:flex-start;margin-top:8px" href="guides/how-long-do-betta-fish-live/">Read Guide →</a>
+        </div>
+      </div>
+      <div class="card tc photo-card" style="--photo:url('/assets/encyclopedia/real/guppy-wikimedia-real.jpg')">
+        <div class="photo-card-content"><div class="tag">Guppy</div><h3>Guppy fish care guide</h3><p>Guppies, baby guppies, group size, guppy vs molly, and Bubble Guppies explained.</p>
+        <a title="Guppy fish care guide" class="btn bp bsm" style="align-self:flex-start;margin-top:8px" href="guides/guppy-fish-care/">Read Guide →</a>
+        </div>
+      </div>
+      <div class="card tc photo-card" style="--photo:url('/assets/encyclopedia/real/molly-fish-wikimedia-real.jpg')">
+        <div class="photo-card-content"><div class="tag">Molly</div><h3>Molly fish care</h3><p>Mollies prefer stable, mineral-rich water, plant cover, and groups with enough swimming space.</p>
+        <a title="Molly fish care" class="btn bp bsm" style="align-self:flex-start;margin-top:8px" href="guides/molly-fish-care/">Read Guide →</a>
+        </div>
+      </div>
+      <div class="card tc photo-card" style="--photo:url('/assets/encyclopedia/real/swordtail-wikimedia-real.jpg')">
+        <div class="photo-card-content"><div class="tag">Swordtail</div><h3>Swordtail fish care guide</h3><p>Swordtails are active livebearers, so they need room, clean water, and smart male-to-female ratios.</p>
+        <a title="Swordtail fish care guide" class="btn bp bsm" style="align-self:flex-start;margin-top:8px" href="guides/swordtail-fish-care-and-breeding/">Read Guide →</a>
+        </div>
+      </div>
+      <div class="card tc photo-card" style="--photo:url('/assets/encyclopedia/real/koi-fish-wikimedia-real.jpg')">
+        <div class="photo-card-content"><div class="tag">Koi</div><h3>Koi fish care</h3><p>Koi need outdoor pond space, strong filtration, seasonal feeding, and steady oxygen levels.</p>
+        <a title="Koi fish care" class="btn bp bsm" style="align-self:flex-start;margin-top:8px" href="guides/koi-fish-care/">Read Guide →</a>
+        </div>
+      </div>
+      <div class="card tc photo-card" style="--photo:url('/assets/encyclopedia/real/discus-wikimedia-real.jpg')">
+        <div class="photo-card-content"><div class="tag">Discus</div><h3>Discus fish care requirements</h3><p>Discus need warm, stable water, excellent filtration, and calm tank mates.</p>
+        <a title="Discus fish care requirements" class="btn bp bsm" style="align-self:flex-start;margin-top:8px" href="guides/discus-fish-care-requirements/">Read Guide →</a>
+        </div>
+      </div>
+      <div class="card tc photo-card" style="--photo:url('/assets/encyclopedia/real/zebra-danio-wikimedia-real.jpg')">
+        <div class="photo-card-content"><div class="tag">Danio</div><h3>Danio fish care guide</h3><p>Zebra danios are hardy but still need a cycled tank, groups, and open swimming lanes.</p>
+        <a title="Danio fish care guide" class="btn bp bsm" style="align-self:flex-start;margin-top:8px" href="guides/zebra-danio-fish-care/">Read Guide →</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
+
+<section class="sec sec-w photo-band">
+  <div class="con">
+    <div class="sh problem-heading"><div class="tag">Choose a Path</div><h2>Start with the problem you need to solve</h2><p>Set up a first tank, compare species, prepare essential supplies or respond to an urgent water-quality problem.</p></div>
+    <div class="g4">
+      <div class="card tc photo-card" style="--photo:url('/assets/encyclopedia/real/guppy-wikimedia-real.jpg')"><div class="photo-card-content"><h3>Beginner Fish Care</h3><p>Start with tank setup, cycling, feeding, water changes, and a weekly checklist before buying more fish.</p><p><a title="fish care for beginners" href="guides/fish-care-for-beginners/">fish care for beginners</a> · <a title="how to take care of a fish for beginners" href="guides/how-to-take-care-of-a-fish-for-beginners/">first tank guide</a> · <a title="beginner fish care checklist" href="guides/beginner-fish-care-checklist/">checklist</a></p></div></div>
+      <div class="card tc photo-card" style="--photo:url('/assets/freshwater-fish-care-hero-optimized.jpg')"><div class="photo-card-content"><h3>Freshwater Species Care</h3><p>Compare species needs before choosing fish, tank mates, temperature, group size, or adult tank size.</p><p><a title="freshwater fish care" href="guides/freshwater-fish-care/">freshwater fish care</a> · <a title="betta fish care" href="guides/betta-fish-care/">betta fish care</a> · <a title="molly fish care" href="guides/molly-fish-care/">molly fish care</a></p></div></div>
+      <div class="card tc photo-card" style="--photo:url('/assets/freshwater-fish-care-hero-optimized.jpg')"><div class="photo-card-content"><h3>Algae and Plant Balance</h3><p>Identify brown algae, hair algae, black beard algae, green water, and cyanobacteria before choosing a fix.</p><p><a title="brown algae aquarium guide" href="/wiki/brown-algae/">brown algae</a> · <a title="hair algae aquarium guide" href="/wiki/hair-algae/">hair algae</a> · <a title="black beard algae guide" href="/wiki/black-beard-algae/">black beard algae</a></p></div></div>
+      <div class="card tc photo-card" style="--photo:url('/assets/encyclopedia/real/corydoras-wikimedia-real.jpg')"><div class="photo-card-content"><h3>Shrimp, Snails and Amphibians</h3><p>Add cleanup crew and special-care animals with better planning for water stability, food, hiding places, and tank mates.</p><p><a title="cherry shrimp care" href="/wiki/cherry-shrimp/">cherry shrimp</a> · <a title="nerite snail care" href="/wiki/nerite-snail/">nerite snail</a> · <a title="african dwarf frog care" href="/wiki/african-dwarf-frog/">African dwarf frog</a></p></div></div>
+      <div class="card tc photo-card" style="--photo:url('/assets/encyclopedia/real/clownfish-wikimedia-real.jpg')"><div class="photo-card-content"><h3>Freshwater and Marine Decoration</h3><p>Choose substrate, driftwood, stones, live plants, reef sand, and live rock with water chemistry and livestock safety in mind.</p><p><a title="aquarium driftwood guide" href="/wiki/aquarium-driftwood/">driftwood</a> · <a title="aquarium sand guide" href="/wiki/aquarium-sand/">sand</a> · <a title="live rock guide" href="/wiki/live-rock/">live rock</a></p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec tools-photo-section">
+  <div class="con">
+    <div class="sh"><div class="tag">Practical Guides</div><h2>Answers for everyday aquarium care</h2><p>Use these focused guides when you need a quick comparison, a beginner routine, safer bowl care or a checklist of essential supplies.</p></div>
+    <div class="g3">
+      <a title="Fish care chart" class="card tc" href="guides/fish-care-chart/" style="color:inherit"><h3>Fish care chart</h3><p>Compare tank size, temperature, feeding, and difficulty.</p></a><a title="Fish care for beginners" class="card tc" href="guides/fish-care-for-beginners/" style="color:inherit"><h3>Fish care for beginners</h3><p>Simple first aquarium steps for new fishkeepers.</p></a><a title="Freshwater fish care" class="card tc" href="guides/freshwater-fish-care/" style="color:inherit"><h3>Freshwater fish care</h3><p>Freshwater tank setup, feeding, water quality, and compatibility.</p></a><a title="Fish care tips" class="card tc" href="guides/fish-care-tips/" style="color:inherit"><h3>Fish care tips</h3><p>Practical aquarium habits that prevent common problems.</p></a><a title="How to take care of a fish for kids" class="card tc" href="guides/how-to-take-care-of-a-fish-for-kids/" style="color:inherit"><h3>How to take care of a fish for kids</h3><p>Kid-friendly care tasks with adult supervision.</p></a><a title="Fish care kit" class="card tc" href="guides/fish-care-kit/" style="color:inherit"><h3>Fish care kit</h3><p>What supplies beginners should keep ready at home.</p></a><a title="How to take care of a fish in a bowl" class="card tc" href="guides/how-to-take-care-of-a-fish-in-a-bowl/" style="color:inherit"><h3>How to take care of a fish in a bowl</h3><p>Safe bowl care and better long-term alternatives.</p></a>
+    </div>
+  </div>
+</section>
+
+<section class="sec species-showcase">
+  <div class="con">
+    <div class="sh"><div class="tag">Species Guides</div><h2>Know what each fish really needs</h2><p>Compare space, water, diet, social behavior and long-term care before choosing fish for your aquarium or pond.</p></div>
+    <div class="kgrid">
+      <a title="Betta Fish care guide" class="card kcard" href="guides/betta-fish-care/"><img class="kcard-img" src="/assets/encyclopedia/real/betta-fish-wikimedia-real.jpg" alt="Real Betta fish swimming in a freshwater aquarium" loading="lazy" width="420" height="260" onerror="this.onerror=null;this.src='/assets/fish-images/fishcare-image-fallback.svg';"><div class="kcard-body"><h3>Betta Fish</h3><p>A heated, cycled aquarium with gentle flow, clean water and resting places near the surface helps bettas stay active and healthy.</p><p style="font-size:.78rem;color:var(--s);font-weight:700;margin-top:auto">Tank size · water · feeding</p></div></a><a title="Molly Fish care guide" class="card kcard" href="guides/molly-fish-care/"><img class="kcard-img" src="/assets/encyclopedia/real/molly-fish-wikimedia-real.jpg" alt="Real Molly fish in freshwater" loading="lazy" width="420" height="260" onerror="this.onerror=null;this.src='/assets/fish-images/fishcare-image-fallback.svg';"><div class="kcard-body"><h3>Molly Fish</h3><p>Mollies do best in stable, mineral-rich water with enough swimming room, plant cover and a plan for fast-growing fry.</p><p style="font-size:.78rem;color:var(--s);font-weight:700;margin-top:auto">Varieties · breeding · tank mates</p></div></a><a title="Swordtail Fish care guide" class="card kcard" href="guides/swordtail-fish-care-and-breeding/"><img class="kcard-img" src="/assets/encyclopedia/real/swordtail-wikimedia-real.jpg" alt="Real Swordtail fish swimming in freshwater" loading="lazy" width="420" height="260" onerror="this.onerror=null;this.src='/assets/fish-images/fishcare-image-fallback.svg';"><div class="kcard-body"><h3>Swordtail Fish</h3><p>Active swordtails need a long aquarium, a secure lid and a female-heavy group that reduces persistent chasing.</p><p style="font-size:.78rem;color:var(--s);font-weight:700;margin-top:auto">Group ratio · fry · feeding</p></div></a><a title="Koi care guide" class="card kcard" href="guides/koi-fish-care/"><img class="kcard-img" src="/assets/encyclopedia/real/koi-fish-wikimedia-real.jpg" alt="Real Koi fish in a pond" loading="lazy" width="420" height="260" onerror="this.onerror=null;this.src='/assets/fish-images/fishcare-image-fallback.svg';"><div class="kcard-body"><h3>Koi</h3><p>Koi are long-lived pond fish that need strong biological filtration, steady oxygen and seasonal care as they grow.</p><p style="font-size:.78rem;color:var(--s);font-weight:700;margin-top:auto">Pond size · filtration · seasons</p></div></a><a title="Zebra Danio care guide" class="card kcard" href="guides/zebra-danio-fish-care/"><img class="kcard-img" src="/assets/encyclopedia/real/zebra-danio-wikimedia-real.jpg" alt="Real Zebra Danio fish" loading="lazy" width="420" height="260" onerror="this.onerror=null;this.src='/assets/fish-images/fishcare-image-fallback.svg';"><div class="kcard-body"><h3>Zebra Danio</h3><p>Zebra danios are hardy schooling fish, but they still need a cycled tank, open swimming space and a secure lid.</p><p style="font-size:.78rem;color:var(--s);font-weight:700;margin-top:auto">School size · temperature · setup</p></div></a><a title="Discus care guide" class="card kcard" href="guides/discus-fish-care-requirements/"><img class="kcard-img" src="/assets/encyclopedia/real/discus-wikimedia-real.jpg" alt="Real Blue Discus fish" loading="lazy" width="420" height="260" onerror="this.onerror=null;this.src='/assets/fish-images/fishcare-image-fallback.svg';"><div class="kcard-body"><h3>Discus</h3><p>Discus require warm, stable water, excellent filtration, calm tank mates and a consistent maintenance routine.</p><p style="font-size:.78rem;color:var(--s);font-weight:700;margin-top:auto">Temperature · water quality · diet</p></div></a><a title="Angelfish care guide" class="card kcard" href="guides/angelfish-care/"><img class="kcard-img" src="/assets/encyclopedia/real/angelfish-wikimedia-real.jpg" alt="Real freshwater Angelfish" loading="lazy" width="420" height="260" onerror="this.onerror=null;this.src='/assets/fish-images/fishcare-image-fallback.svg';"><div class="kcard-body"><h3>Angelfish</h3><p>Freshwater angelfish need a tall, warm aquarium and carefully chosen tank mates as their territorial behavior develops.</p><p style="font-size:.78rem;color:var(--s);font-weight:700;margin-top:auto">Tall tanks · pairing · compatibility</p></div></a><a title="Oscar Fish care guide" class="card kcard" href="guides/oscar-fish-care/"><img class="kcard-img" src="/assets/encyclopedia/real/oscar-fish-wikimedia-real.jpg" alt="Real Oscar fish" loading="lazy" width="420" height="260" onerror="this.onerror=null;this.src='/assets/fish-images/fishcare-image-fallback.svg';"><div class="kcard-body"><h3>Oscar Fish</h3><p>Oscars need a very large aquarium, powerful filtration, a secure lid and long-term planning for an intelligent cichlid.</p><p style="font-size:.78rem;color:var(--s);font-weight:700;margin-top:auto">Tank size · filtration · enrichment</p></div></a>
+    </div>
+    <div style="text-align:center;margin-top:26px"><button class="btn bo" onclick="goto('blog')">View All Species Guides →</button></div>
+  </div>
+</section>
+
+<section class="sec sec-w">
+  <div class="con">
+    <div class="sh"><div class="tag">Tank Setup</div><h2>Core setup essentials by species</h2><p>This table gives readers quick answers and supports deeper care guides.</p></div>
+    <div style="overflow-x:auto">
+      <table class="setup-table">
+        <thead><tr><th>Guide</th><th>Core setup</th><th>Care focus</th></tr></thead>
+        <tbody>
+          <tr><td><a title="Betta fish care" href="guides/betta-fish-care/"><strong>Betta fish care</strong></a></td><td>Heated, cycled aquarium with gentle flow and surface access.</td><td>Prevent stress, fin damage, cold water, and ammonia exposure.</td></tr>
+          <tr><td><a title="Molly fish care guide varieties and breeding" href="guides/molly-fish-care/"><strong>Molly fish care guide varieties and breeding</strong></a></td><td>Roomy planted tank with stable hardness and livebearer fry cover.</td><td>Manage breeding, sex ratios, and mineral balance.</td></tr>
+          <tr><td><a title="Swordtail fish care and breeding tips" href="guides/swordtail-fish-care-and-breeding/"><strong>Swordtail fish care and breeding tips</strong></a></td><td>Long aquarium, lid, plants, and a group ratio that reduces harassment.</td><td>Encourage healthy breeding without overcrowding.</td></tr>
+          <tr><td><a title="Koi fish care" href="guides/koi-fish-care/"><strong>Koi fish care</strong></a></td><td>Outdoor pond with depth, filtration, oxygen, and seasonal planning.</td><td>Support large adult size and long lifespan.</td></tr>
+          <tr><td><a title="Discus fish care requirements and tank setup" href="guides/discus-fish-care-requirements/"><strong>Discus fish care requirements and tank setup</strong></a></td><td>Warm, stable, clean aquarium with calm surroundings.</td><td>Keep water quality consistent and reduce stress.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="con">
+    <div class="sh"><div class="tag">Free Tools</div><h2>Tools that support better aquarium decisions</h2><p>Use the interactive tools when a care guide is not enough. They help with tank size, compatibility, water safety, feeding portions, and first tank planning.</p></div>
+    <div class="g3">
+      
+      <div class="card tc"><h3>Tank Size Calculator</h3><p>Estimate minimum aquarium size from fish species, count, adult size and activity level.</p><a class="btn bp bsm" style="align-self:flex-start" href="/tools/aquarium-size-calculator/">Open Tool →</a></div>
+      <div class="card tc"><h3>Compatibility Checker</h3><p>Select multiple fish and check whether they can safely share an aquarium.</p><a class="btn bp bsm" style="align-self:flex-start" href="/tools/fish-compatibility-checker/">Open Tool →</a></div>
+      <div class="card tc"><h3>Water Parameter Checker</h3><p>Enter pH, ammonia, nitrite, nitrate, temperature and hardness for a quick health score.</p><a class="btn bp bsm" style="align-self:flex-start" href="/tools/water-parameter-checker/">Open Tool →</a></div>
+      <div class="card tc"><h3>Feeding Calculator</h3><p>Estimate daily food portions and feeding frequency without overfeeding.</p><a class="btn bp bsm" style="align-self:flex-start" href="/tools/fish-feeding-calculator/">Open Tool →</a></div>
+      <div class="card tc"><h3>Aquarium Planner</h3><p>Plan tank type, stocking level, equipment and setup priorities.</p><a class="btn bp bsm" style="align-self:flex-start" href="/tools/aquarium-planner/">Open Tool →</a></div>
+      <div class="card tc" style="background:linear-gradient(135deg,rgba(24,169,153,.08),rgba(22,135,199,.08));border-color:rgba(24,169,153,.3)">
+        <div class="ti">🔬</div>
+        <h3>Fish Identification</h3>
+        <p>Explore 866 fish species in an interactive 3D embedding space. Identify species by visual similarity and compare up to 5 fish side-by-side with AI-powered recognition.</p>
+        <a class="btn bp bsm" style="align-self:flex-start;background:linear-gradient(135deg,var(--s),#0E8077)" href="https://fish-identification-d558af.anysites.app/" target="_blank" rel="noopener">Open Fish ID →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-w">
+  <div class="con" style="max-width:720px">
+    <div class="sh"><div class="tag">FAQ</div><h2>Fish care FAQ</h2><p>Quick answers to common aquarium care questions about feeding, water changes, oxygen, bowls, and fish health.</p></div>
+    
+    <div class="fqi">
+      <button class="fqq" onclick="toggleFaq(0)" id="fqq0">How often should I feed my fish? <span id="farr0">▾</span></button>
+      <div class="fqa hide" id="fqa0">Most aquarium fish should be fed once or twice daily, only as much as they can eat in about two minutes. Uneaten food should be removed because it breaks down into ammonia and can quickly harm water quality.</div>
+    </div>
+    <div class="fqi">
+      <button class="fqq" onclick="toggleFaq(1)" id="fqq1">How often should I change aquarium water? <span id="farr1">▾</span></button>
+      <div class="fqa hide" id="fqa1">Many beginner tanks do well with a 20-30% water change every week or every other week, but the right schedule depends on tank size, fish load, plants, filtration, and nitrate readings. Always use dechlorinated, temperature-matched water.</div>
+    </div>
+    <div class="fqi">
+      <button class="fqq" onclick="toggleFaq(2)" id="fqq2">What water parameters are most important for fish care? <span id="farr2">▾</span></button>
+      <div class="fqa hide" id="fqa2">Ammonia and nitrite should always be 0 ppm. Nitrate should usually stay below 20-40 ppm, depending on the species. Temperature, pH, and hardness should match the fish you keep, and sudden changes should be avoided.</div>
+    </div>
+    <div class="fqi">
+      <button class="fqq" onclick="toggleFaq(3)" id="fqq3">Why are my fish gasping at the surface? <span id="farr3">▾</span></button>
+      <div class="fqa hide" id="fqa3">Fish gasping at the surface may indicate low oxygen, ammonia or nitrite poisoning, high temperature, overcrowding, or poor circulation. Increase surface movement, test the water immediately, and stop feeding until the cause is clear.</div>
+    </div>
+    <div class="fqi">
+      <button class="fqq" onclick="toggleFaq(4)" id="fqq4">Can fish live in a bowl? <span id="farr4">▾</span></button>
+      <div class="fqa hide" id="fqa4">Most fish should not live in bowls long term because bowls are small, unstable, and usually lack filtration and oxygen exchange. If a fish is already in a bowl, keep water clean with frequent partial changes and plan an upgrade to a filtered aquarium.</div>
+    </div>
+    <div class="fqi">
+      <button class="fqq" onclick="toggleFaq(5)" id="fqq5">How do I know if my fish is sick? <span id="farr5">▾</span></button>
+      <div class="fqa hide" id="fqa5">Warning signs include clamped fins, white spots, torn fins, rapid breathing, loss of appetite, hiding, floating problems, faded color, or unusual swimming. Test water first because many fish health problems begin with poor water quality.</div>
+    </div>
+    <div style="text-align:center;margin-top:22px"><button class="btn bo" onclick="goto('blog')">Browse All Guides →</button></div>
+  </div>
+</section>
+
+<section class="nls">
+  <div class="con" style="max-width:640px">
+    <div class="tag" style="color:rgba(255,255,255,.9);background:rgba(255,255,255,.15)">📧 Newsletter</div>
+    <h2>Get Weekly Fish Care Tips</h2>
+    <p>Get practical care tips, new guide alerts and aquarium tool updates. Free, with an unsubscribe link in every email.</p>
+    <form class="nlf" name="newsletter" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="bot-field" onsubmit="submitNetlifyForm(event,'newsletter')">
+      <input type="hidden" name="form-name" value="newsletter">
+      <input type="hidden" name="source" value="homepage-newsletter">
+      <p style="display:none"><label>Do not fill this out: <input name="bot-field"></label></p>
+      <input type="email" name="email" placeholder="Enter your email" required="">
+      <button type="submit">Subscribe →</button>
+    </form>
+  </div>
+</section>
+<!--prerender:end-->
 </div>
 <div id="page-tools" class="hide"></div>
 <div id="page-blog" class="hide"></div>
@@ -459,10 +565,10 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
   <div class="con">
     <div class="ftg">
       <div class="ftbr"><div class="logo"><img class="fishcare-footer-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="150" height="38"/></div><p>Your trusted resource for fish care guides, free tools, and practical aquarium advice. Helping beginners build healthier freshwater tanks since 2026.</p></div>
-      <div class="ftcol"><h5>Guides</h5><a title="All Guides" href="guides/">All Guides</a><a title="Best Fish for Beginners" href="guides/best-freshwater-fish-for-beginners/">Best Beginner Fish</a><a title="How to Set Up a Fish Tank" href="guides/how-to-set-up-a-fish-tank/">Tank Setup Guide</a><a title="Aquarium Water Parameters" href="guides/aquarium-water-parameters/">Water Parameters</a><a title="Goldfish Care" href="guides/goldfish-care/">Goldfish Care</a><a title="Beginner Checklist" href="guides/beginner-fish-care-checklist/">Beginner Checklist</a></div><div class="ftcol"><h5>Species Guides</h5><a title="Guppy Fish Care" href="guides/guppy-fish-care/">Guppies</a><a title="Goldfish Care" href="guides/goldfish-care/">Goldfish Care</a><a title="Betta Fish Care" href="guides/betta-fish-care/">Betta Fish Care</a><a title="Molly Fish Care" href="guides/molly-fish-care/">Molly Fish Care</a><a title="Koi Fish Care" href="guides/koi-fish-care/">Koi Fish Care</a><a title="Angelfish Care" href="guides/angelfish-care/">Angelfish Care</a></div>
-      <div class="ftcol"><h5>Encyclopedia</h5><a href="/species/">All Species</a><a href="/species/neon-tetra">Neon Tetra</a><a href="/species/ocellaris-clownfish">Clownfish</a><a href="/species/bronze-cory">Corydoras</a><a href="/species/cherry-barb">Cherry Barb</a><a href="/species/dwarf-gourami">Dwarf Gourami</a></div>
-      <div class="ftcol"><h5>Tools</h5><a title="Tank Size Calculator" href="/tools/aquarium-size-calculator/">Tank Size Calculator</a><a title="Compatibility Checker" href="/tools/fish-compatibility-checker/">Compatibility Checker</a><a title="Water Parameter Checker" href="/tools/water-parameter-checker/">Water Parameter Checker</a><a title="Feeding Calculator" href="/tools/fish-feeding-calculator/">Feeding Calculator</a><a title="Aquarium Planner" href="/tools/aquarium-planner/">Aquarium Planner</a><a title="Fish Identification" href="/tools/fish-identification/">Fish Identification</a></div>
-      <div class="ftcol"><h5>More</h5><a title="About Us" href="/about/">About Us</a><a title="Contact" href="/contact/">Contact</a><a title="Partners" href="partners/">Partners</a><a title="Privacy Policy" href="privacy/">Privacy Policy</a></div>
+      <div class="ftcol"><h3>Guides</h3><a title="All Guides" href="guides/">All Guides</a><a title="Best Fish for Beginners" href="guides/best-freshwater-fish-for-beginners/">Best Beginner Fish</a><a title="How to Set Up a Fish Tank" href="guides/how-to-set-up-a-fish-tank/">Tank Setup Guide</a><a title="Aquarium Water Parameters" href="guides/aquarium-water-parameters/">Water Parameters</a><a title="Goldfish Care" href="guides/goldfish-care/">Goldfish Care</a><a title="Beginner Checklist" href="guides/beginner-fish-care-checklist/">Beginner Checklist</a></div><div class="ftcol"><h3>Species Guides</h3><a title="Guppy Fish Care" href="guides/guppy-fish-care/">Guppies</a><a title="Goldfish Care" href="guides/goldfish-care/">Goldfish Care</a><a title="Betta Fish Care" href="guides/betta-fish-care/">Betta Fish Care</a><a title="Molly Fish Care" href="guides/molly-fish-care/">Molly Fish Care</a><a title="Koi Fish Care" href="guides/koi-fish-care/">Koi Fish Care</a><a title="Angelfish Care" href="guides/angelfish-care/">Angelfish Care</a></div>
+      <div class="ftcol"><h3>Encyclopedia</h3><a href="/species/">All Species</a><a href="/species/neon-tetra">Neon Tetra</a><a href="/species/ocellaris-clownfish">Clownfish</a><a href="/species/bronze-cory">Corydoras</a><a href="/species/cherry-barb">Cherry Barb</a><a href="/species/dwarf-gourami">Dwarf Gourami</a></div>
+      <div class="ftcol"><h3>Tools</h3><a title="Tank Size Calculator" href="/tools/aquarium-size-calculator/">Tank Size Calculator</a><a title="Compatibility Checker" href="/tools/fish-compatibility-checker/">Compatibility Checker</a><a title="Water Parameter Checker" href="/tools/water-parameter-checker/">Water Parameter Checker</a><a title="Feeding Calculator" href="/tools/fish-feeding-calculator/">Feeding Calculator</a><a title="Aquarium Planner" href="/tools/aquarium-planner/">Aquarium Planner</a><a title="Fish Identification" href="/tools/fish-identification/">Fish Identification</a></div>
+      <div class="ftcol"><h3>More</h3><a title="About Us" href="/about/">About Us</a><a title="Contact" href="/contact/">Contact</a><a title="Partners" href="partners/">Partners</a><a title="Privacy Policy" href="privacy/">Privacy Policy</a></div>
     </div>
     <div class="ftb">© 2026 FishCare. All rights reserved.</div>
   </div>
@@ -727,6 +833,15 @@ function renderHome() {
     <div class="hstats">
       ${[['61','Aquarium Profiles'],['6','Free Tools'],['30+','Care Guides'],['Weekly','Updates']].map(([v,l])=>`<div class="hstat"><strong>${v}</strong><span>${l}</span></div>`).join('')}
     </div>
+  </div>
+</section>
+
+<section class="sec" style="padding:56px 0 10px">
+  <div class="con" style="max-width:880px">
+    <h2 style="color:var(--pd);margin-bottom:16px">What is FishCare AI?</h2>
+    <p>FishCare AI is a free fish care and aquarium resource built around the questions keepers actually ask: why a fish stopped eating, whether two species can share a tank, how many gallons a tank really holds, and what to do when a water test comes back wrong. Those answers are usually scattered across forum threads of varying quality. FishCare AI collects them into care guides, a species encyclopedia and a set of free calculators that all work from the same numbers.</p>
+    <p>The care guides cover the species people keep most — betta, goldfish, guppy, angelfish, discus, koi and dozens more — with the tank size, temperature, water chemistry and tank mates each one needs as an adult, not as the juvenile sold in the shop. The encyclopedia goes wider, with profiles for freshwater and saltwater species, shrimp, snails and the algae that shows up alongside them.</p>
+    <p>The tools handle the arithmetic that fish care depends on: usable water volume, stocking limits, feeding portions, equipment sizing, and whether your pH, ammonia, nitrite and nitrate readings sit inside safe ranges. Everything is free, needs no account, and is written to be checked against a test kit rather than trusted blindly.</p>
   </div>
 </section>
 

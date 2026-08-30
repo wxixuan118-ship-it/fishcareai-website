@@ -79,6 +79,23 @@ def _zone(slug, record):
     return "mid"
 
 
+def _clip(text, limit=360):
+    """Trim an overview to `limit` characters on a sentence boundary.
+
+    A plain text[:360] slice cut mid-word on 30 of the hub pages — readers saw
+    lines ending "can be seen darting aroun". Prefer the last complete
+    sentence; fall back to the last whole word with an ellipsis.
+    """
+    text = (text or "").strip()
+    if len(text) <= limit:
+        return text
+    window = text[:limit]
+    cut = max(window.rfind(". "), window.rfind("! "), window.rfind("? "))
+    if cut >= limit * 0.6:
+        return window[: cut + 1]
+    return window[: window.rfind(" ")].rstrip(",;:") + "…"
+
+
 def load_catalogue():
     raw = json.loads(RAW_DATA.read_text(encoding="utf-8"))
     missing = [slug for slug in V2_ADDITIONS if slug not in raw]
@@ -108,7 +125,7 @@ def load_catalogue():
             "eats_small": size_cm >= 15 or _temperament(row) == "aggressive",
             "wiki": f"/wiki/{slug}/", "zone": _zone(slug, row),
             "min_tank_gal": max(5, round(float(env["min_tank_liters"]) / 3.785)),
-            "desc": row.get("sections", {}).get("overview", "")[:360],
+            "desc": _clip(row.get("sections", {}).get("overview", "")),
         }
 
     for slug, fish in v1.SPECIES.items():

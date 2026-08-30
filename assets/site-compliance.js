@@ -160,7 +160,7 @@
     var links = items.map(function (item) {
       return '<a href="' + item.href + '">' + item.label + '</a>';
     }).join('');
-    return '<div class="ftcol"><h5>' + heading + '</h5>' + links + '</div>';
+    return '<div class="ftcol"><h3>' + heading + '</h3>' + links + '</div>';
   }
 
   // ── Inject global header ───────────────────────────────────────────────────

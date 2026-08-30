@@ -37,9 +37,24 @@ const TARGETS = [
     containerId: 'page-tools',
     emptyAnchor: '<div id="page-tools" class="hide"></div>',
   },
+  {
+    // The homepage shipped a hand-maintained copy of renderHome()'s output,
+    // which had already drifted from the function that produces it. It is
+    // generated from here now so the two cannot diverge again.
+    //
+    // renderCall is required here: this page's renderPage() deliberately
+    // skips the first home render (`if (el.dataset.jsRendered)`) so the
+    // prerendered markup survives first paint, which means reading the
+    // container back would just return what is already in the file.
+    file: 'index.html',
+    url: 'https://www.fishcareai.com/',
+    containerId: 'page-home',
+    emptyAnchor: '<div id="page-home"></div>',
+    renderCall: 'renderHome()',
+  },
 ];
 
-async function renderContainer(html, url, containerId) {
+async function renderContainer(html, url, containerId, renderCall) {
   const dom = new JSDOM(html, {
     url,
     runScripts: 'dangerously',
@@ -56,6 +71,16 @@ async function renderContainer(html, url, containerId) {
 
   const el = dom.window.document.getElementById(containerId);
   if (!el) throw new Error(`#${containerId} not found after render`);
+
+  // Pages whose router leaves the container untouched on first load have to be
+  // rendered by calling their render function directly.
+  if (renderCall) {
+    const out = dom.window.eval(renderCall);
+    if (typeof out !== 'string' || !out.trim()) {
+      throw new Error(`${renderCall} returned no markup`);
+    }
+    el.innerHTML = out;
+  }
 
   el.querySelectorAll('script').forEach((n) => n.remove());
 
@@ -98,7 +123,7 @@ let changed = 0;
 for (const target of TARGETS) {
   const file = path.join(root, target.file);
   const before = await readFile(file, 'utf8');
-  const rendered = await renderContainer(before, target.url, target.containerId);
+  const rendered = await renderContainer(before, target.url, target.containerId, target.renderCall);
   const after = inject(before, rendered, target);
 
   const words = rendered.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().split(' ').filter(Boolean).length;
