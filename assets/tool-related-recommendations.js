@@ -1,14 +1,8 @@
 (() => {
   const path = window.location.pathname.replace(/\/$/, '');
   const recommendations = {
-    '/tools/tank-size-calculator': {
-      targets: ['#vol-result'],
-      eyebrow: 'Related tool',
-      title: 'Now calculate how many fish you can stock',
-      description: 'Compare adult size, water needs and temperament before adding fish.',
-      href: '/tools/fish-compatibility-checker/',
-      button: 'Fish Compatibility Checker →'
-    },
+    // /tools/tank-size-calculator was merged into /tools/aquarium-size-calculator
+    // and now 301s there, so it no longer needs its own entry.
     '/tools/aquarium-size-calculator': {
       targets: ['#vol-result'],
       eyebrow: 'Related tool',
@@ -22,8 +16,8 @@
       eyebrow: 'Related tool',
       title: 'Confirm your tank has enough water volume',
       description: 'Calculate usable gallons before finalising a fish combination.',
-      href: '/tools/tank-size-calculator/',
-      button: 'Tank Size Calculator →'
+      href: '/tools/aquarium-size-calculator/',
+      button: 'Aquarium Size Calculator →'
     },
     '/tools/fish-feeding-calculator': {
       targets: ['#feeding-result'],
@@ -54,8 +48,8 @@
       eyebrow: 'Related tool',
       title: 'Calculate your aquarium’s usable water',
       description: 'Turn the recommended tank size into real gallons, litres and water weight.',
-      href: '/tools/tank-size-calculator/',
-      button: 'Tank Size Calculator →'
+      href: '/tools/aquarium-size-calculator/',
+      button: 'Aquarium Size Calculator →'
     }
   };
 

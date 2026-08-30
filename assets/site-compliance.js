@@ -26,7 +26,7 @@
     { label: 'Fish Identify', href: 'https://identify.fishcareai.com/' },
   ];
   var FOOTER_TOOLS = [
-    { label: 'Tank Size Calculator',      href: '/tools/tank-size-calculator/' },
+    { label: 'Aquarium Size Calculator',  href: '/tools/aquarium-size-calculator/' },
     { label: 'Fish Compatibility Checker',href: '/tools/fish-compatibility-checker/' },
     { label: 'Water Parameter Checker',   href: '/tools/water-parameter-checker/' },
     { label: 'Fish Feeding Calculator',   href: '/tools/fish-feeding-calculator/' },

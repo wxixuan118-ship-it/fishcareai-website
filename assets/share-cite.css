@@ -1,0 +1,84 @@
+/* Share / Cite module — appended to guide pages and tool pages.
+ *
+ * The module is always a white card, on both the light guide layout and the
+ * dark tool-page background. It must therefore NOT inherit the host theme:
+ * body.tools-dark-page paints headings, paragraphs and links near-white for
+ * the dark background, which would make them invisible on this card. Colours
+ * are literal rather than var() for that reason.
+ *
+ * Two conventions carry the overrides, and neither is decoration:
+ *   !important        — fishcare-glass-redesign.css:257 forces every <button>
+ *                       to a purple gradient with !important, and the
+ *                       dark-page text rules use it too.
+ *   .sharecite twice  — a specificity bump to (0,2,x), which outranks
+ *                       `body.tools-dark-page h2` at (0,1,2) regardless of
+ *                       stylesheet load order.
+ */
+.sharecite.sharecite{
+  margin:40px 0 8px;padding:26px 24px;border-radius:16px;
+  background:#fff!important;border:1px solid #BFE4F6;
+  box-shadow:0 4px 16px rgba(15,61,110,.08);
+}
+.sharecite.sharecite.sharecite h2{
+  font-size:1.15rem;font-weight:800;margin:0 0 4px;
+  color:#0F3D6E!important;
+}
+.sharecite.sharecite p.sc-hint{
+  font-size:.86rem;margin:0 0 16px;line-height:1.5;
+  color:#527895!important;
+}
+.sharecite.sharecite.sharecite h3{
+  font-size:.78rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+  margin:22px 0 9px;color:#527895!important;
+}
+.sharecite.sharecite.sharecite h3:first-of-type{margin-top:18px}
+
+.sharecite.sharecite .sc-row{display:flex;flex-wrap:wrap;gap:9px}
+
+.sharecite.sharecite a.sc-btn,
+.sharecite.sharecite button.sc-btn{
+  display:inline-flex;align-items:center;gap:7px;
+  padding:9px 15px;
+  font-size:.85rem;font-weight:700;font-family:inherit;line-height:1.2;
+  cursor:pointer;text-decoration:none;transition:all .16s;
+  border-radius:999px!important;
+  background:#fff!important;
+  color:#0F3D6E!important;
+  border:1.5px solid #BFE4F6!important;
+  box-shadow:none!important;
+}
+.sharecite.sharecite a.sc-btn:hover,
+.sharecite.sharecite button.sc-btn:hover{
+  background:#0F3D6E!important;
+  color:#fff!important;
+  border-color:#0F3D6E!important;
+  transform:translateY(-1px);
+}
+.sharecite.sharecite a.sc-btn.is-done,
+.sharecite.sharecite button.sc-btn.is-done{
+  background:#27AE60!important;
+  border-color:#27AE60!important;
+  color:#fff!important;
+}
+
+/* citation + embed snippet blocks */
+.sharecite.sharecite .sc-box{
+  background:#EAF8FF!important;border:1px solid #BFE4F6;
+  border-radius:10px;padding:13px 15px;
+  font-size:.85rem;line-height:1.6;
+  color:#123047!important;
+  word-break:break-word;
+}
+.sharecite.sharecite .sc-box em{color:#123047!important;font-style:italic}
+.sharecite.sharecite .sc-box code{
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:.8rem;white-space:pre-wrap;word-break:break-all;
+  background:none!important;color:#123047!important;
+}
+.sharecite.sharecite .sc-box + .sc-row{margin-top:10px}
+
+@media(max-width:600px){
+  .sharecite.sharecite{padding:20px 16px;margin:30px 0 8px}
+  .sharecite.sharecite a.sc-btn,
+  .sharecite.sharecite button.sc-btn{padding:8px 13px;font-size:.8rem}
+}

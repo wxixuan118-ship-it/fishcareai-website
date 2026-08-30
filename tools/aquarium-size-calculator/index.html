@@ -14,11 +14,11 @@
 <meta property="og:title" content="Aquarium Size Calculator - Gallons, Litres &amp; Tank Volume"/>
 <meta property="og:description" content="Calculate aquarium volume in US gallons, UK gallons and litres. Supports rectangular, cube, cylinder tanks, partial fill and decor displacement."/>
 <meta property="og:url" content="https://www.fishcareai.com/tools/aquarium-size-calculator/"/>
-<meta property="og:image" content="https://www.fishcareai.com/assets/freshwater-fish-care-hero-optimized.jpg"/>
+<meta property="og:image" content="https://www.fishcareai.com/assets/tool-cards/aquarium-size-calculator-tool-card.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="Aquarium Size Calculator - Gallons, Litres &amp; Tank Volume"/>
 <meta name="twitter:description" content="Calculate aquarium volume in US gallons, UK gallons and litres. Supports rectangular, cube, cylinder tanks, partial fill and decor displacement."/>
-<meta name="twitter:image" content="https://www.fishcareai.com/assets/freshwater-fish-care-hero-optimized.jpg"/>
+<meta name="twitter:image" content="https://www.fishcareai.com/assets/tool-cards/aquarium-size-calculator-tool-card.png"/>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -59,7 +59,12 @@
     "Substrate and decor displacement estimate",
     "Species-based fish tank size planner",
     "Water weight estimate"
-  ]
+  ],
+  "image": [
+    "https://www.fishcareai.com/assets/tool-cards/aquarium-size-calculator-tool-card.png",
+    "https://www.fishcareai.com/assets/tool-cards/aquarium-size-calculator-tool-card-square.png"
+  ],
+  "screenshot": "https://www.fishcareai.com/assets/tool-cards/aquarium-size-calculator-tool-card.png"
 }
 </script>
 <script type="application/ld+json">
@@ -129,6 +134,22 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Yes. The page includes a fish tank size planner below the volume calculator where you select a species, enter the number of animals and review a minimum and recommended size estimate. Volume alone is not sufficient — also consider adult size, group needs, filtration and water quality."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use this as a fish tank gallon calculator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A fish tank gallon calculator and an aquarium size calculator are the same tool under different names. Enter your inside length, width and water height and the result is shown in US gallons, UK gallons and litres at the same time, so you do not need a separate converter."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this a tank volume calculator in litres?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every result includes litres alongside US and UK gallons. If you measure in centimetres, the calculator works in metric throughout — length x width x height in centimetres divided by 1000 gives litres directly, and the displacement allowance is applied the same way."
       }
     }
   ]
@@ -272,7 +293,7 @@ input.fc::placeholder,select.fc option{color:rgba(220,246,255,.5);background:#07
     <a title="Aquarium Encyclopedia" class="nl" href="/species/">Encyclopedia</a>
     <a title="Fish Health" class="nl" href="/fish-health/">Fish Health</a>
     <a title="Fish Identification" class="nl" href="https://fish-identification-d558af.anysites.app/" target="_blank" rel="noopener">🔍 Fish ID</a>
-    <a title="Tools" class="nl act" href="/tools/tank-size-calculator/">Tools</a>
+    <a title="Tools" class="nl act" href="/tools/aquarium-size-calculator/">Tools</a>
     <a title="About Us" class="nl" href="/about/">About Us</a>
     <a title="Contact" class="nl" href="/contact/">Contact</a>
   </div>
@@ -458,6 +479,16 @@ input.fc::placeholder,select.fc option{color:rgba(220,246,255,.5);background:#07
   </div>
 </section>
 
+<!-- TANK VS AQUARIUM TERMINOLOGY -->
+<section class="sec">
+  <div class="con" style="max-width:840px">
+    <h2>Tank size calculator vs aquarium size calculator: what&rsquo;s the difference?</h2>
+    <p>There is no difference. A <strong>tank size calculator</strong>, a <strong>fish tank size calculator</strong> and an <strong>aquarium size calculator</strong> all answer the same question: how much water does this glass box actually hold? People reach for different words &mdash; some search &ldquo;fish tank gallon calculator&rdquo;, others &ldquo;aquarium volume calculator&rdquo; or &ldquo;tank volume calculator in litres&rdquo; &mdash; but the arithmetic is identical. This page handles all of them.</p>
+    <p>What does change the answer is <em>how</em> you measure. A tank labelled 20 gallons rarely holds 20 gallons of water. Manufacturers name tanks by their nominal outside size, while the number you need for stocking, dosing and heater sizing is the usable water volume &mdash; measured inside the glass, minus what substrate, rock and equipment displace. That is the figure this calculator returns.</p>
+    <p>So whether you came here looking for a fish tank size calculator or an aquarium size calculator, use the same three steps: measure inside the glass, enter length, width and water height, then apply a displacement allowance for substrate and hardscape. The result is the volume your fish, filter and test kit actually live with.</p>
+  </div>
+</section>
+
 <!-- FAQ SECTION -->
 <section class="sec sec-w">
   <div class="con" style="max-width:780px">
@@ -476,6 +507,8 @@ input.fc::placeholder,select.fc option{color:rgba(220,246,255,.5);background:#07
       <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">How do I convert aquarium gallons to litres manually? <span class="faq-arrow">▾</span></button><div class="faq-a">Multiply US gallons by 3.785 to get litres. Multiply UK gallons by 4.546 to get litres. The aquarium size calculator does this automatically, but if you need a quick mental check: a 10 US gallon tank holds about 37.9 litres, and a 10 UK gallon tank holds about 45.5 litres.</div></div>
       <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Is this a fish aquarium size calculator for stocking decisions? <span class="faq-arrow">▾</span></button><div class="faq-a">The volume result is the starting point. The species planner section on this page connects gallons to species minimums for betta, guppy, goldfish, discus, angelfish and more. Volume alone is not sufficient — also consider adult size, group needs, filtration capacity and water-change frequency.</div></div>
       <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Does the calculator work for cylinder tanks? <span class="faq-arrow">▾</span></button><div class="faq-a">Yes. Choose "Vertical cylinder" for a column-style tank and enter the inside diameter and height. Choose "Horizontal cylinder" for a tank lying on its side — a common shape for some decorative aquariums. The calculator uses the circular-segment formula to correctly handle partial fills in horizontal cylinders.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Can I use this as a fish tank gallon calculator? <span class="faq-arrow">▾</span></button><div class="faq-a">Yes. A fish tank gallon calculator and an aquarium size calculator are the same tool under different names. Enter your inside length, width and water height and the result is shown in US gallons, UK gallons and litres at the same time, so you do not need a separate converter.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="toggleFaq(this)">Is this a tank volume calculator in litres? <span class="faq-arrow">▾</span></button><div class="faq-a">Yes. Every result includes litres alongside US and UK gallons. If you measure in centimetres, the calculator works in metric throughout — length x width x height in centimetres divided by 1000 gives litres directly, and the displacement allowance is applied the same way.</div></div>
     </div>
   </div>
 </section>
@@ -493,7 +526,7 @@ input.fc::placeholder,select.fc option{color:rgba(220,246,255,.5);background:#07
       <a class="card tc" href="/tools/water-parameter-checker/" style="color:inherit;text-decoration:none"><h3>💧 Water Parameter Checker</h3><p>Enter pH, ammonia, nitrite, nitrate and temperature for an instant water-quality score.</p><span class="btn bp bsm" style="align-self:flex-start;margin-top:4px">Open Tool →</span></a>
       <a class="card tc" href="/tools/fish-feeding-calculator/" style="color:inherit;text-decoration:none"><h3>🍽 Feeding Calculator</h3><p>Estimate daily feeding frequency and portion rules to avoid overfeeding and water-quality problems.</p><span class="btn bp bsm" style="align-self:flex-start;margin-top:4px">Open Tool →</span></a>
       <a class="card tc" href="/tools/aquarium-planner/" style="color:inherit;text-decoration:none"><h3>🧭 Aquarium Planner</h3><p>Build a complete equipment, cycling and stocking checklist before buying animals.</p><span class="btn bp bsm" style="align-self:flex-start;margin-top:4px">Open Tool →</span></a>
-      <a class="card tc" href="/tools/tank-size-calculator/" style="color:inherit;text-decoration:none"><h3>📏 Tank Size Calculator</h3><p>Full-featured calculator with five tools on one page — volume, species planner, compatibility, water and feeding.</p><span class="btn bp bsm" style="align-self:flex-start;margin-top:4px">Open Tool →</span></a>
+      
       <a class="card tc" href="/guides/aquarium-water-parameters/" style="color:inherit;text-decoration:none"><h3>📚 Water Parameters Guide</h3><p>Expert guide to pH, ammonia, nitrite, nitrate, temperature and hardness for freshwater tanks.</p><span class="btn bp bsm" style="align-self:flex-start;margin-top:4px">Read Guide →</span></a>
     </div>
   </div>
@@ -506,7 +539,7 @@ input.fc::placeholder,select.fc option{color:rgba(220,246,255,.5);background:#07
       <div class="ftbr"><div><img class="fishcare-footer-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="150" height="38"/></div><p>Your trusted resource for fish care guides, free tools, and practical aquarium advice. Helping beginners build healthier freshwater tanks since 2026.</p></div>
       <div class="ftcol"><h5>Guides</h5><a href="/guides/">All Guides</a><a href="/guides/best-freshwater-fish-for-beginners/">Best Beginner Fish</a><a href="/guides/how-to-set-up-a-fish-tank/">Tank Setup Guide</a><a href="/guides/aquarium-water-parameters/">Water Parameters</a><a href="/guides/goldfish-care/">Goldfish Care</a><a href="/guides/beginner-fish-care-checklist/">Beginner Checklist</a></div>
       <div class="ftcol"><h5>Encyclopedia</h5><a href="/species/">All Species</a><a href="/species/neon-tetra">Neon Tetra</a><a href="/species/ocellaris-clownfish">Clownfish</a><a href="/species/bronze-cory">Corydoras</a><a href="/species/cherry-barb">Cherry Barb</a><a href="/species/dwarf-gourami">Dwarf Gourami</a></div>
-      <div class="ftcol"><h5>Tools</h5><a href="/tools/aquarium-size-calculator/">Aquarium Size Calculator</a><a href="/tools/tank-size-calculator/">Tank Size Calculator</a><a href="/tools/fish-compatibility-checker/">Compatibility Checker</a><a href="/tools/water-parameter-checker/">Water Parameter Checker</a><a href="/tools/fish-feeding-calculator/">Feeding Calculator</a><a href="/tools/aquarium-planner/">Aquarium Planner</a></div>
+      <div class="ftcol"><h5>Tools</h5><a href="/tools/aquarium-size-calculator/">Aquarium Size Calculator</a><a href="/tools/fish-compatibility-checker/">Compatibility Checker</a><a href="/tools/water-parameter-checker/">Water Parameter Checker</a><a href="/tools/fish-feeding-calculator/">Feeding Calculator</a><a href="/tools/aquarium-planner/">Aquarium Planner</a></div>
       <div class="ftcol"><h5>More</h5><a href="/about/">About Us</a><a href="/contact/">Contact</a><a href="/partners/">Partners</a><a href="/privacy/">Privacy Policy</a></div>
     </div>
     <div class="ftb">© 2026 FishCare. All rights reserved.</div>
