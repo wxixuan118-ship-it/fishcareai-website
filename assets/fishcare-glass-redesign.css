@@ -812,6 +812,12 @@ body.tools-dark-page .tool-seo-content li{color:rgba(226,247,255,.82)!important}
 body.tools-dark-page .tool-faq details{border-top:1px solid rgba(125,235,255,.18);padding:12px 0}
 body.tools-dark-page .tool-faq summary{cursor:pointer;color:#EAFBFF!important;font-weight:700}
 
+/* Compatibility pages keep their FAQ markup inline, where the legacy dark
+   text token survives the glass-card redesign. Restore readable contrast. */
+.card.faq summary{color:#EAFBFF!important}
+.card.faq summary::after{color:#7DEBFF!important}
+.card.faq details p{color:rgba(220,246,255,.78)!important}
+
 /* Guide articles also use .guide-content with .ptbl tables. Override the
    legacy white zebra rows so every table remains readable in dark mode. */
 body:has(.guide-content) .guide-content table,
