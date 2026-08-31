@@ -77,6 +77,16 @@
 }
 .sharecite.sharecite .sc-box + .sc-row{margin-top:10px}
 
+/* Compact guide controls sit directly under a page title without becoming a content block. */
+.sharecite.sharecite.sharecite--compact{
+  margin:0 0 20px;padding:0;background:transparent!important;
+  border:0;box-shadow:none;
+}
+.sharecite.sharecite.sharecite--compact .sc-row{gap:7px}
+.sharecite.sharecite.sharecite--compact button.sc-btn{
+  padding:7px 11px;font-size:.78rem;
+}
+
 @media(max-width:600px){
   .sharecite.sharecite{padding:20px 16px;margin:30px 0 8px}
   .sharecite.sharecite a.sc-btn,
