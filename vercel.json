@@ -629,6 +629,21 @@
       "statusCode": 301
     },
     {
+      "source": "/tools/fish-identification",
+      "destination": "https://identify.fishcareai.com/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tools/fish-identification/",
+      "destination": "https://identify.fishcareai.com/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tools/fish-identification/index.html",
+      "destination": "https://identify.fishcareai.com/",
+      "statusCode": 301
+    },
+    {
       "source": "/tools/tank-size-calculator",
       "destination": "/tools/aquarium-size-calculator/",
       "statusCode": 301
