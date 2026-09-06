@@ -304,7 +304,8 @@
 
   // ── App popup banner ───────────────────────────────────────────────────────
   function setupAppBanner() {
-    if (window.location.pathname === '/calculators/zebra-danio-tank-size/') return;
+    // pages that opt out of the app popup (they also drop the iOS smart-banner meta)
+    if (['/calculators/zebra-danio-tank-size/', '/guides/fish-care-for-beginners/'].indexOf(window.location.pathname) !== -1) return;
     if (/^\/(?:app\/|admin\/|aquarium-fish-diseases\/|tools\/|__forms\.html$|yandex_[^/]+\.html$)/.test(window.location.pathname)) return;
     // iOS Safari already shows the native Smart App Banner
     if (/iP(?:hone|ad|od)/.test(navigator.userAgent) &&

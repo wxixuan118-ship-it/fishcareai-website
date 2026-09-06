@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650" role="img" aria-labelledby="title desc"><title id="title">The nitrogen cycle: what tests may show</title><desc id="desc">Illustrative curves, not measured data or a fixed schedule: ammonia rises and falls, nitrite peaks later and falls, and nitrate accumulates. Confirm processing of a measured ammonia input before stocking.</desc><rect width="900" height="650" rx="18" fill="#EFF7FD"/><path d="M18 0H882Q900 0 900 18V98H0V18Q0 0 18 0" fill="#12507C"/><g font-family="Segoe UI,Helvetica,Arial,sans-serif"><text x="32" y="44" font-size="29" font-weight="700" fill="white">The nitrogen cycle: what tests may show</text><text x="32" y="76" font-size="18" fill="#DAEEFF">Fishless cycling • illustrative trends, not measured data or a timetable</text>
+<g font-size="19" font-weight="700"><path d="M70 130h40" stroke="#B75A12" stroke-width="5"/><text x="122" y="136" fill="#8C430C">Ammonia</text><path d="M342 130h40" stroke="#7451AA" stroke-width="5" stroke-dasharray="12 6"/><text x="394" y="136" fill="#644195">Nitrite</text><path d="M614 130h40" stroke="#237C62" stroke-width="5" stroke-dasharray="3 7"/><text x="666" y="136" fill="#1B684F">Nitrate</text></g>
+<rect x="90" y="178" width="738" height="248" fill="white"/>
+<path d="M90 240H828M90 302H828M90 364H828" stroke="#D8E5EF"/>
+<path d="M90 178V426H828" fill="none" stroke="#597D96" stroke-width="2"/>
+<text transform="translate(35 308) rotate(-90)" text-anchor="middle" font-size="17" fill="#36566D">Relative level (no ppm scale)</text>
+<text x="73" y="432" font-size="16" fill="#36566D">0</text>
+<path d="M90 414C120 350 140 213 200 205S280 258 320 345S410 423 490 423H828" fill="none" stroke="#B75A12" stroke-width="5"/>
+<path d="M90 423H200C265 423 285 388 320 300S390 200 425 221S490 285 530 371C555 416 615 423 700 423H828" fill="none" stroke="#7451AA" stroke-width="5" stroke-dasharray="12 6"/>
+<path d="M90 423H270C345 423 370 410 410 376S500 317 565 288S710 229 828 195" fill="none" stroke="#237C62" stroke-width="5" stroke-dasharray="3 7"/>
+<g font-size="17" fill="#36566D"><text x="90" y="457">Early cycle</text><text x="450" y="457" text-anchor="middle">Biofilter develops</text><text x="828" y="457" text-anchor="end">Later cycle</text><text x="450" y="487" text-anchor="middle">Time → duration and curve shapes vary between aquariums</text></g>
+<rect x="28" y="513" width="844" height="109" rx="12" fill="#E0F2EB" stroke="#9BCDBA"/>
+<text x="48" y="543" font-size="22" font-weight="700" fill="#185B47">Readiness check: test a measured ammonia input</text>
+<text x="48" y="571" font-size="18" fill="#244D40">Both ammonia and nitrite must return to 0 ppm in your method’s test window.</text>
+<text x="48" y="598" font-size="18" fill="#244D40">Nitrate alone is not proof. Plants, source water and water changes affect it.</text>
+</g></svg>

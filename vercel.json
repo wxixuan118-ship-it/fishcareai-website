@@ -89,6 +89,96 @@
   ],
   "redirects": [
     {
+      "source": "/guides/how-to-take-care-of-a-fish-for-beginners/",
+      "destination": "/guides/fish-care-for-beginners/",
+      "statusCode": 301
+    },
+    {
+      "source": "/guides/how-to-take-care-of-a-fish-for-beginners",
+      "destination": "/guides/fish-care-for-beginners/",
+      "statusCode": 301
+    },
+    {
+      "source": "/guides/how-to-take-care-of-a-fish-for-beginners/index.html",
+      "destination": "/guides/fish-care-for-beginners/",
+      "statusCode": 301
+    },
+    {
+      "source": "/guides/how-to-take-care-of-fish/",
+      "destination": "/guides/fish-care-for-beginners/",
+      "statusCode": 301
+    },
+    {
+      "source": "/guides/how-to-take-care-of-fish",
+      "destination": "/guides/fish-care-for-beginners/",
+      "statusCode": 301
+    },
+    {
+      "source": "/guides/how-to-take-care-of-fish/index.html",
+      "destination": "/guides/fish-care-for-beginners/",
+      "statusCode": 301
+    },
+    {
+      "source": "/guides/freshwater-fish-care/",
+      "destination": "/guides/fish-care-for-beginners/",
+      "statusCode": 301
+    },
+    {
+      "source": "/guides/freshwater-fish-care",
+      "destination": "/guides/fish-care-for-beginners/",
+      "statusCode": 301
+    },
+    {
+      "source": "/guides/freshwater-fish-care/index.html",
+      "destination": "/guides/fish-care-for-beginners/",
+      "statusCode": 301
+    },
+    {
+      "source": "/guides/fish-care-tips/",
+      "destination": "/guides/fish-care-for-beginners/",
+      "statusCode": 301
+    },
+    {
+      "source": "/guides/fish-care-tips",
+      "destination": "/guides/fish-care-for-beginners/",
+      "statusCode": 301
+    },
+    {
+      "source": "/guides/fish-care-tips/index.html",
+      "destination": "/guides/fish-care-for-beginners/",
+      "statusCode": 301
+    },
+    {
+      "source": "/guides/beginner-fish-care-checklist/",
+      "destination": "/guides/fish-care-for-beginners/",
+      "statusCode": 301
+    },
+    {
+      "source": "/guides/beginner-fish-care-checklist",
+      "destination": "/guides/fish-care-for-beginners/",
+      "statusCode": 301
+    },
+    {
+      "source": "/guides/beginner-fish-care-checklist/index.html",
+      "destination": "/guides/fish-care-for-beginners/",
+      "statusCode": 301
+    },
+    {
+      "source": "/guides/discus-minimum-tank-size/",
+      "destination": "/guides/discus-fish-care/tank-size/",
+      "statusCode": 301
+    },
+    {
+      "source": "/guides/discus-minimum-tank-size",
+      "destination": "/guides/discus-fish-care/tank-size/",
+      "statusCode": 301
+    },
+    {
+      "source": "/guides/discus-minimum-tank-size/index.html",
+      "destination": "/guides/discus-fish-care/tank-size/",
+      "statusCode": 301
+    },
+    {
       "source": "/aquarium-fish-diseases/",
       "destination": "/fish-health/",
       "permanent": true

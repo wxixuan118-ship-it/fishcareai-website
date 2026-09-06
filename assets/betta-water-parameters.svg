@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" width="900" height="580" role="img" aria-labelledby="title desc">
+<title id="title">Betta temperature and water quality</title>
+<desc id="desc">Recommended temperature 76 to 81 degrees Fahrenheit, approximately 24 to 27 Celsius. Keep pH stable at 6.5 to 7.8, ammonia and nitrite at zero ppm, and nitrate low through partial water changes. The temperature band shows a care target, not an abrupt safety threshold.</desc>
+<rect width="900" height="580" rx="18" fill="#F0F7FF"/>
+<path d="M18 0H882Q900 0 900 18V102H0V18Q0 0 18 0" fill="#12507C"/>
+<g font-family="Segoe UI,Helvetica,Arial,sans-serif">
+<text x="32" y="46" font-size="30" font-weight="700" fill="white">Warm, stable water. Zero ammonia.</text>
+<text x="32" y="78" font-size="18" fill="#D8EEFF">Betta splendens • everyday water targets</text>
+<text x="450" y="146" text-anchor="middle" font-size="25" font-weight="700" fill="#0F3D5E">76–81°F / about 24–27°C</text>
+<text x="450" y="173" text-anchor="middle" font-size="17" fill="#36566D">Use a thermostatic heater and a separate thermometer</text>
+<rect x="60" y="194" width="240" height="40" fill="#D4E7F7"/>
+<rect x="300" y="194" width="300" height="40" fill="#237C62"/>
+<rect x="600" y="194" width="240" height="40" fill="#F9DFC2"/>
+<g font-size="16" font-weight="700" text-anchor="middle">
+<text x="180" y="220" fill="#26465D">Below target</text><text x="450" y="220" fill="white">Recommended range</text><text x="720" y="220" fill="#684018">Above target</text>
+</g>
+<g font-size="17" text-anchor="middle" fill="#26465D">
+<text x="60" y="262">72°F</text><text x="300" y="262">76°F</text><text x="600" y="262">81°F</text><text x="840" y="262">85°F</text>
+</g>
+<text x="450" y="294" text-anchor="middle" font-size="16" fill="#36566D">Care targets, not abrupt safety thresholds. Avoid sudden temperature changes.</text>
+<rect x="28" y="316" width="844" height="224" rx="12" fill="white" stroke="#CFE3F1"/>
+<path d="M28 372H872M28 428H872M28 484H872" stroke="#CFE3F1"/>
+<text x="48" y="351" font-size="19" font-weight="700" fill="#0F3D5E">Ammonia + nitrite</text><text x="315" y="351" font-size="21" font-weight="700" fill="#12507C">0 ppm each</text><text x="550" y="351" font-size="17" fill="#36566D">Test first if behavior changes</text>
+<text x="48" y="407" font-size="19" font-weight="700" fill="#0F3D5E">pH</text><text x="315" y="407" font-size="21" font-weight="700" fill="#12507C">6.5–7.8</text><text x="550" y="407" font-size="17" fill="#36566D">Prioritize stability</text>
+<text x="48" y="463" font-size="19" font-weight="700" fill="#0F3D5E">Nitrate</text><text x="315" y="463" font-size="21" font-weight="700" fill="#12507C">Keep low</text><text x="550" y="463" font-size="17" fill="#36566D">Monitor with a water test</text>
+<text x="48" y="519" font-size="19" font-weight="700" fill="#0F3D5E">Water changes</text><text x="315" y="519" font-size="21" font-weight="700" fill="#12507C">20–30% weekly</text><text x="550" y="519" font-size="17" fill="#36566D">Dechlorinate; match temperature</text>
+<text x="450" y="565" text-anchor="middle" font-size="15" fill="#36566D">Adjust maintenance to test results and the needs of your aquarium.</text></g></svg>
