@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="Aquarium water parameter reference table listing ideal ranges and notes for temperature, pH, ammonia, nitrite, nitrate, general hardness and carbonate hardness.">
+<defs><linearGradient id="hd2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0F3D5E"/><stop offset="1" stop-color="#1B6E9E"/></linearGradient></defs>
+<rect width="900" height="520" rx="18" fill="#F7FBFF"/>
+<rect width="900" height="96" rx="18" fill="url(#hd2)"/><rect y="64" width="900" height="32" fill="#1B6E9E"/>
+<g font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<text x="450" y="44" text-anchor="middle" font-size="27" font-weight="800" fill="#FFFFFF">Aquarium Water Parameters</text>
+<text x="450" y="72" text-anchor="middle" font-size="14.5" font-weight="600" fill="#BFE3F8" letter-spacing="1.2">THE KEY TO A THRIVING AQUARIUM</text>
+
+<rect x="28" y="120" width="844" height="42" rx="8" fill="#D8ECF9"/>
+<text x="112" y="147" font-size="14" font-weight="700" fill="#0F3D5E">Parameter</text>
+<text x="470" y="147" text-anchor="middle" font-size="14" font-weight="700" fill="#0F3D5E">Ideal range</text>
+<text x="620" y="147" font-size="14" font-weight="700" fill="#0F3D5E">Notes</text>
+
+<g font-size="13.5" fill="#1A2B3C">
+<rect x="28" y="166" width="844" height="44" fill="#FFFFFF"/>
+<circle cx="62" cy="188" r="15" fill="#C0392B"/><text x="62" y="193" text-anchor="middle" font-size="11" font-weight="700" fill="#FFF">°F</text>
+<text x="90" y="193" font-weight="700">Temperature</text>
+<text x="470" y="193" text-anchor="middle" font-weight="700" fill="#12507C">74–80°F (23–27°C)</text>
+<text x="620" y="186" font-size="12.5" fill="#2A4A63">Varies by species. Keep it stable —</text>
+<text x="620" y="202" font-size="12.5" fill="#2A4A63">under 4°F change per day.</text>
+
+<rect x="28" y="210" width="844" height="44" fill="#F2F8FD"/>
+<circle cx="62" cy="232" r="15" fill="#1B7A45"/><text x="62" y="237" text-anchor="middle" font-size="11" font-weight="700" fill="#FFF">pH</text>
+<text x="90" y="237" font-weight="700">pH</text>
+<text x="470" y="237" text-anchor="middle" font-weight="700" fill="#12507C">6.8–7.8</text>
+<text x="620" y="230" font-size="12.5" fill="#2A4A63">Most community fish. Stability beats</text>
+<text x="620" y="246" font-size="12.5" fill="#2A4A63">any exact target number.</text>
+
+<rect x="28" y="254" width="844" height="44" fill="#FFFFFF"/>
+<circle cx="62" cy="276" r="15" fill="#E8A317"/><text x="62" y="281" text-anchor="middle" font-size="10" font-weight="700" fill="#3B2A00">NH₃</text>
+<text x="90" y="274" font-weight="700">Ammonia</text><text x="90" y="289" font-size="11.5" fill="#5A7A94">(NH₃ / NH₄⁺)</text>
+<text x="470" y="281" text-anchor="middle" font-weight="700" fill="#C0392B">0 ppm</text>
+<text x="620" y="274" font-size="12.5" fill="#2A4A63">Highly toxic. Always 0 — water change</text>
+<text x="620" y="290" font-size="12.5" fill="#2A4A63">the moment it registers.</text>
+
+<rect x="28" y="298" width="844" height="44" fill="#F2F8FD"/>
+<circle cx="62" cy="320" r="15" fill="#7E57C2"/><text x="62" y="325" text-anchor="middle" font-size="10" font-weight="700" fill="#FFF">NO₂</text>
+<text x="90" y="318" font-weight="700">Nitrite</text><text x="90" y="333" font-size="11.5" fill="#5A7A94">(NO₂⁻)</text>
+<text x="470" y="325" text-anchor="middle" font-weight="700" fill="#C0392B">0 ppm</text>
+<text x="620" y="318" font-size="12.5" fill="#2A4A63">Toxic. Causes gasping and brown gills</text>
+<text x="620" y="334" font-size="12.5" fill="#2A4A63">by blocking oxygen transport.</text>
+
+<rect x="28" y="342" width="844" height="44" fill="#FFFFFF"/>
+<circle cx="62" cy="364" r="15" fill="#2E84C0"/><text x="62" y="369" text-anchor="middle" font-size="10" font-weight="700" fill="#FFF">NO₃</text>
+<text x="90" y="362" font-weight="700">Nitrate</text><text x="90" y="377" font-size="11.5" fill="#5A7A94">(NO₃⁻)</text>
+<text x="470" y="369" text-anchor="middle" font-weight="700" fill="#1B7A45">&lt; 20 ppm</text>
+<text x="620" y="362" font-size="12.5" fill="#2A4A63">Keep low to limit stress and algae.</text>
+<text x="620" y="378" font-size="12.5" fill="#2A4A63">Weekly 25–30% water changes.</text>
+
+<rect x="28" y="386" width="844" height="44" fill="#F2F8FD"/>
+<circle cx="62" cy="408" r="15" fill="#5A7A94"/><text x="62" y="413" text-anchor="middle" font-size="11" font-weight="700" fill="#FFF">GH</text>
+<text x="90" y="406" font-weight="700">General Hardness</text><text x="90" y="421" font-size="11.5" fill="#5A7A94">(GH)</text>
+<text x="470" y="413" text-anchor="middle" font-weight="700" fill="#12507C">4–12 dGH</text>
+<text x="620" y="406" font-size="12.5" fill="#2A4A63">Calcium and magnesium. Soft-water</text>
+<text x="620" y="422" font-size="12.5" fill="#2A4A63">species want less, cichlids want more.</text>
+
+<rect x="28" y="430" width="844" height="44" fill="#FFFFFF"/>
+<circle cx="62" cy="452" r="15" fill="#2E9E7D"/><text x="62" y="457" text-anchor="middle" font-size="11" font-weight="700" fill="#FFF">KH</text>
+<text x="90" y="450" font-weight="700">Carbonate Hardness</text><text x="90" y="465" font-size="11.5" fill="#5A7A94">(KH)</text>
+<text x="470" y="457" text-anchor="middle" font-weight="700" fill="#12507C">4–8 dKH</text>
+<text x="620" y="450" font-size="12.5" fill="#2A4A63">Your pH buffer. Below 3 dKH the tank</text>
+<text x="620" y="466" font-size="12.5" fill="#2A4A63">can crash overnight.</text>
+</g>
+<rect x="28" y="120" width="844" height="354" rx="8" fill="none" stroke="#CFE3F1"/>
+<text x="450" y="502" text-anchor="middle" font-size="12.5" font-weight="600" fill="#5A7A94">Test regularly · Keep it stable · fishcareai.com</text>
+</g>
+</svg>
