@@ -19,6 +19,8 @@ CLUSTER_NAV = [
     ("/guides/betta-fish-care/tank-mates/",   "🐟 Tank Mates"),
     ("/guides/betta-fish-care/feeding/",      "🦐 Feeding Guide"),
     ("/guides/betta-fish-care/temperature/",  "🌡️ Temperature & Water"),
+    ("/guides/betta-fish-care/male-vs-female/", "♀♂ Male vs Female"),
+    ("/guides/betta-fish-care/types/",         "🎨 Betta Types"),
     ("/guides/how-long-do-betta-fish-live/",  "⏳ Betta Lifespan"),
 ]
 
@@ -183,7 +185,7 @@ def page(
 <script type="application/ld+json">{article_json}</script>
 <script type="application/ld+json">{faq_json(faqs)}</script>
 <style>{CSS}</style>
-<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260815-betta-cluster"/>
+<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260908-artc-contrast"/>
 <meta name="google-adsense-account" content="ca-pub-6697313643773879">
 <script defer src="/assets/site-compliance.js?v=20260812-fish-health"></script>
 </head>

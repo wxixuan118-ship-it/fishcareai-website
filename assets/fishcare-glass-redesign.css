@@ -710,6 +710,62 @@ body.tools-dark-page .hsrch{
   color:#EAFBFF!important;
 }
 
+/* Cluster guides (betta / discus sub-guides, .artlay markup) use .artc for the
+   article panel and .cluster-nav in the sidebar. Both were missed by the rules
+   above, so they kept their light inline background while the global ink rules
+   forced near-white text on top of it. Paint them like .guide-content. */
+body:has(.guide-hero) .artc,
+body:has(.guide-hero) .cluster-nav,
+body:has(.guide-hero) .toc,
+body:has(.guide-hero) .fqq,
+body:has(.guide-hero) .fqa{
+  background:linear-gradient(145deg,rgba(10,57,86,.84),rgba(4,23,38,.84))!important;
+  border-color:rgba(125,235,255,.24)!important;
+  box-shadow:0 24px 80px rgba(0,10,22,.36),inset 0 1px 0 rgba(255,255,255,.08)!important;
+  color:#EAFBFF!important;
+}
+body:has(.guide-hero) .artc h2,
+body:has(.guide-hero) .artc h3{
+  color:#F5FDFF!important;
+  border-top-color:rgba(125,235,255,.2)!important;
+}
+body:has(.guide-hero) .artc p,
+body:has(.guide-hero) .artc li{
+  color:rgba(226,247,255,.8)!important;
+}
+body:has(.guide-hero) .artc a,
+body:has(.guide-hero) .cluster-nav a,
+body:has(.guide-hero) .toc a{
+  color:#7DEBFF!important;
+}
+/* ...except the white pill links, which keep their own light background */
+body:has(.guide-hero) .guide-links a,
+body:has(.guide-hero) .tool-card a{
+  color:#0B3E5D!important;
+}
+body:has(.guide-hero) .cluster-nav a.cur,
+body:has(.guide-hero) .cluster-nav a.pillar{
+  color:#FFFFFF!important;
+  background:rgba(37,215,255,.14)!important;
+}
+/* The discus cluster template paints its editorial-review box with an inline
+   light background, which no class selector can reach. Match the inline style
+   the same way the tools-dark-page rules do. */
+body:has(.guide-hero) .artc [style*="background:rgba(248,250,254"],
+body:has(.guide-hero) .artc [style*="background:rgba(255,255,255"],
+body:has(.guide-hero) .artc [style*="background:#F8FAFE"],
+body:has(.guide-hero) .artc [style*="background:#fff"]{
+  background:rgba(7,44,68,.62)!important;
+  border-color:rgba(125,235,255,.2)!important;
+}
+body:has(.guide-hero) .artc [style*="background:rgba(248,250,254"] strong,
+body:has(.guide-hero) .artc [style*="background:rgba(248,250,254"] p,
+body:has(.guide-hero) .artc [style*="color:var(--pd)"],
+body:has(.guide-hero) .artc [style*="color:var(--tx)"],
+body:has(.guide-hero) .artc [style*="color:var(--mu)"]{
+  color:rgba(234,251,255,.92)!important;
+}
+
 /* Standalone guide articles use the legacy .hero/.content markup. Keep the
    article panel dark as well so the white hero typography never lands on a
    white card after navigation. */
