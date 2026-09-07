@@ -133,6 +133,21 @@ export const TOOLS = {
     cta: 'Size My Equipment',
     result: ['160+ GPH filter', '150 W heater · medium light'],
   },
+  substrate: {
+    out: 'aquarium-substrate-calculator-tool-card.png',
+    eyebrow: 'FREE TOOL',
+    icon: '\u{1FAA8}',
+    title: 'Aquarium Substrate Calculator',
+    sub: 'How much gravel, sand or soil your tank footprint needs.',
+    chips: ['Gravel & sand', 'Litres & pounds', 'Flat or sloped'],
+    fields: [
+      ['Tank length \u00d7 width (in)', '30 \u00d7 12'],
+      ['Substrate type', 'Gravel'],
+    ],
+    input: ['Substrate depth (inches)', '2'],
+    cta: 'Calculate Substrate',
+    result: ['41.6 lb \u00b7 18.9 kg', '11.8 litres \u00b7 buy about 46 lb'],
+  },
   fishid: {
     out: 'fish-identification-tool-card.png',
     eyebrow: 'FREE TOOL',

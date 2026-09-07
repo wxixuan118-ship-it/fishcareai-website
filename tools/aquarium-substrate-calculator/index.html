@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="en" data-adsense-content="true">
+<head>
+<meta charset="UTF-8"/>
+<meta name="apple-itunes-app" content="app-id=6793299571">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<base href="/">
+<title>Aquarium Substrate Calculator – Gravel &amp; Sand Calculator</title>
+<meta name="description" content="Calculate how much substrate your aquarium needs. Enter your tank dimensions and substrate depth to estimate gravel, sand, soil, volume, and weight."/>
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"/>
+<link rel="canonical" href="https://www.fishcareai.com/tools/aquarium-substrate-calculator/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Aquarium Substrate Calculator – Gravel &amp; Sand Calculator"/>
+<meta property="og:description" content="Enter your tank dimensions and substrate depth to estimate gravel, sand or soil volume and weight."/>
+<meta property="og:url" content="https://www.fishcareai.com/tools/aquarium-substrate-calculator/"/>
+<meta property="og:image" content="https://www.fishcareai.com/assets/tool-cards/aquarium-substrate-calculator-tool-card.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Aquarium Substrate Calculator – Gravel &amp; Sand Calculator"/>
+<meta name="twitter:description" content="Enter your tank dimensions and substrate depth to estimate gravel, sand or soil volume and weight."/>
+<meta name="twitter:image" content="https://www.fishcareai.com/assets/tool-cards/aquarium-substrate-calculator-tool-card.png"/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Aquarium Substrate Calculator",
+  "url": "https://www.fishcareai.com/tools/aquarium-substrate-calculator/",
+  "applicationCategory": "UtilityApplication",
+  "operatingSystem": "Any",
+  "browserRequirements": "Requires JavaScript",
+  "description": "Free aquarium substrate calculator that estimates gravel, sand, aquarium soil, crushed coral and aragonite volume and weight from tank length, width and substrate bed depth.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "featureList": [
+    "Aquarium gravel calculator",
+    "Aquarium sand calculator",
+    "Flat and sloped substrate beds",
+    "Inches and centimetres input",
+    "Volume in litres, US gallons and cubic inches",
+    "Estimated weight in pounds and kilograms",
+    "Standard aquarium footprint presets"
+  ],
+  "image": [
+    "https://www.fishcareai.com/assets/tool-cards/aquarium-substrate-calculator-tool-card.png",
+    "https://www.fishcareai.com/assets/tool-cards/aquarium-substrate-calculator-tool-card-square.png"
+  ],
+  "screenshot": "https://www.fishcareai.com/assets/tool-cards/aquarium-substrate-calculator-tool-card.png"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much gravel do I need for my aquarium? ▾",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Multiply the inside length of the tank by its inside width to get the footprint, then multiply by the bed depth you want. A 30 × 12 inch footprint with a 2 inch bed is 720 cubic inches, which is about 11.8 litres of gravel and roughly 41 lb (18.9 kg) at a typical gravel bulk density of about 1.6 g/cm³. Enter your own measurements in the calculator for a figure that matches your tank rather than a generic gallon estimate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much substrate do I need for a 10 gallon tank? ▾",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A standard 10 gallon aquarium has a 20 × 10 inch footprint. A 1 inch bed is about 3.3 litres, and a 2 inch bed is about 6.6 litres, which works out to roughly 23 lb (10.5 kg) of gravel or about 20 lb (9.2 kg) of aquarium soil. Measure your own tank if it is not a standard shape."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much substrate do I need for a 20 gallon tank? ▾",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on which 20 gallon you have. A 20 gallon long is 30 × 12 inches, so a 2 inch bed is about 11.8 litres or roughly 41 lb (18.9 kg) of gravel. A 20 gallon high is 24 × 12 inches, so the same 2 inch bed is only about 9.4 litres or roughly 33 lb (15.1 kg). Same capacity, different footprint, different substrate requirement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much gravel do I need for a 55 gallon aquarium? ▾",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A standard 55 gallon aquarium is 48 × 13 inches. A 2 inch gravel bed is about 20.5 litres, or roughly 72 lb (32.7 kg) at a typical gravel bulk density. A 3 inch bed is about 30.7 litres, or roughly 108 lb (49 kg). Buying about 10 percent extra makes levelling and sloping easier."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How deep should aquarium substrate be? ▾",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most freshwater community tanks 1 to 2 inches is a common starting point. Planted tanks usually run 2 to 3 inches so roots have something to hold, and deep-rooted plants such as large swords or crypts often do better at 3 to 4 inches. Sand beds are usually kept shallower, around 1 to 2 inches. These are general starting points, not rules, and the right depth depends on your plants, aquascape and livestock."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much sand do I need for my aquarium? ▾",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sand is calculated exactly like gravel: footprint multiplied by bed depth. Sand beds are usually shallower, so a 30 × 12 inch tank with a 1.5 inch sand bed needs about 8.8 litres, roughly 30 lb (13.7 kg) at a typical aquarium sand bulk density of about 1.55 g/cm³. Select Sand in the calculator to use a sand density instead of a gravel density."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is 2 inches of substrate enough for a planted tank? ▾",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Two inches is workable for many stem plants, carpeting plants and small rosette plants. Deep-rooted species such as Amazon swords, larger crypts and vallisneria generally do better with 3 inches or more, especially towards the back of the tank. A sloped bed is a common compromise: shallower at the front for viewing, deeper at the back for roots. Enter a front and back depth in the calculator to size a sloped bed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does aquarium gravel weigh the same as sand? ▾",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, and neither is a fixed number. Bulk density is what matters, and it varies by grain size, shape, moisture and manufacturer. Typical dry values are roughly 1.6 g/cm³ for gravel, about 1.55 g/cm³ for aquarium sand, about 1.35 g/cm³ for crushed coral and about 0.75 g/cm³ for baked aquarium soil, which is far lighter for the same volume. Volume is the reliable comparison between products."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I calculate substrate using tank gallons? ▾",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only very roughly. Substrate sits on the bottom of the tank, so it is determined by the footprint and the bed depth, not by how tall the tank is. A 20 gallon long and a 20 gallon high hold the same water but need noticeably different amounts of substrate. Measure the inside length and width and enter those instead."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fishcareai.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Tools", "item": "https://www.fishcareai.com/tools/"},
+    {"@type": "ListItem", "position": 3, "name": "Aquarium Substrate Calculator", "item": "https://www.fishcareai.com/tools/aquarium-substrate-calculator/"}
+  ]
+}
+</script>
+
+<style>
+:root{--p:#1687C7;--pl:#46B6E8;--pd:#0F3D6E;--s:#18A999;--a:#0F3D6E;--ad:#08294C;--bg:#04111D;--tx:#EAFBFF;--mu:rgba(220,246,255,.72);--bd:rgba(255,255,255,.12);--ok:#27AE60;--wn:#F39C12;--er:#E74C3C;--water:#D9F4FF;--foam:#F7FCFF}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,'Segoe UI',Arial,sans-serif;background:linear-gradient(180deg,#04111D,#071C2F,#04111D);color:var(--tx);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--p);text-decoration:none}
+button{cursor:pointer;font-family:inherit}
+input,select{font-family:inherit}
+.hide{display:none!important}
+.con{max-width:1180px;margin:0 auto;padding:0 22px}
+h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:800;line-height:1.2}
+h2{font-size:clamp(1.3rem,3vw,2rem);font-weight:700;line-height:1.25}
+h3{font-size:1.15rem;font-weight:700}
+h4{font-size:1rem;font-weight:700}
+p{margin-bottom:.85rem;color:var(--mu)}
+p:last-child{margin-bottom:0}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:10px 20px;border-radius:999px;font-size:.9rem;font-weight:700;border:none;cursor:pointer;transition:all .18s;white-space:nowrap;box-shadow:0 10px 24px rgba(15,61,110,.12)}
+.bp{background:linear-gradient(135deg,var(--pd),#155C98);color:#fff}.bp:hover{background:linear-gradient(135deg,#08294C,var(--pd));transform:translateY(-1px);box-shadow:0 14px 28px rgba(15,61,110,.2)}
+.bo{background:rgba(255,255,255,.08);color:#EAFBFF;border:1.5px solid rgba(125,235,255,.4)}.bo:hover{background:rgba(125,235,255,.16);border-color:#7DEBFF}
+.bsm{padding:7px 14px;font-size:.82rem}
+.blg{padding:13px 28px;font-size:.97rem;border-radius:10px}
+.sec{padding:64px 0;position:relative}
+.sec-w{background:rgba(255,255,255,.03)}
+.sh{text-align:center;margin-bottom:38px}
+.sh h2{color:#fff;margin-bottom:10px}
+.sh p{max-width:620px;margin:0 auto;font-size:1rem}
+.tag{display:inline-block;background:rgba(22,135,199,.12);color:var(--pd);padding:4px 12px;border-radius:999px;font-size:.73rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px;border:1px solid rgba(22,135,199,.12)}
+.g2{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media(max-width:900px){.g3{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.g3,.g2{grid-template-columns:1fr}.con{padding:0 14px}}
+.card{background:rgba(255,255,255,.06);border-radius:22px;box-shadow:0 16px 42px rgba(0,0,0,.3);border:1px solid rgba(255,255,255,.1);transition:box-shadow .22s,transform .22s,border-color .22s;overflow:hidden;backdrop-filter:blur(14px)}
+.card:hover{box-shadow:0 22px 52px rgba(0,0,0,.4);transform:translateY(-4px);border-color:rgba(22,135,199,.4)}
+input.fc,select.fc{width:100%;padding:9px 13px;border:1.5px solid rgba(255,255,255,.15);border-radius:8px;font-size:.95rem;background:rgba(255,255,255,.08);color:#EAFBFF;outline:none;transition:border-color .2s}
+input.fc:focus,select.fc:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(22,135,199,.14)}
+input.fc[aria-invalid="true"]{border-color:#E9887E}
+.fg{margin-bottom:16px}
+.fg label{display:block;font-weight:600;margin-bottom:5px;font-size:.86rem}
+.fhint{color:rgba(220,246,255,.6);font-size:.76rem;margin-top:5px;display:block;line-height:1.45}
+.fld-err{color:#FFB3AA;font-size:.78rem;margin-top:5px;min-height:0;line-height:1.45}
+.fld-err:empty{display:none}
+/* 16px keeps iOS Safari from zooming the viewport when a field is focused. */
+@media(max-width:600px){input.fc,select.fc{font-size:16px}}
+/* NAVBAR */
+.nb{position:sticky;top:0;z-index:100;background:rgba(4,17,29,.92);backdrop-filter:blur(20px);border-bottom:1px solid rgba(255,255,255,.08);padding:0 22px;height:68px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 10px 30px rgba(0,0,0,.3)}
+.brand{display:flex;align-items:center;gap:8px;font-size:1.2rem;font-weight:800;color:var(--p);cursor:pointer;border:none;background:none;text-decoration:none}
+.nlinks{display:flex;align-items:center;gap:2px}
+.nl{padding:7px 13px;border-radius:999px;font-weight:600;font-size:.86rem;color:rgba(255,255,255,.7);cursor:pointer;border:none;background:none;transition:all .15s;text-decoration:none}
+.nl:hover,.nl.act{color:#fff;background:rgba(22,135,199,.2)}
+.hbg{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:7px;border:none;background:none}
+.hbg span{display:block;width:21px;height:2px;background:rgba(255,255,255,.8);border-radius:2px}
+@media(max-width:760px){.nlinks{display:none;position:absolute;top:64px;left:0;right:0;background:rgba(4,17,29,.97);flex-direction:column;padding:12px;border-bottom:1px solid rgba(255,255,255,.08);gap:3px;box-shadow:0 4px 20px rgba(0,0,0,.4)}.nlinks.open{display:flex}.hbg{display:flex}}
+/* TOOL TABS ROW */
+.tool-nav{position:sticky;top:62px;z-index:98;background:#071827;border-bottom:1px solid rgba(255,255,255,.08);padding:10px 22px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.tnav-btn{display:inline-flex;align-items:center;gap:5px;padding:7px 15px;border-radius:999px;font-size:.83rem;font-weight:600;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);color:rgba(255,255,255,.65);transition:all .18s;text-decoration:none;white-space:nowrap}
+.tnav-btn:hover{color:#fff;background:rgba(22,135,199,.22);border-color:rgba(22,135,199,.5)}
+.tnav-btn.active{color:#fff;background:rgba(22,135,199,.28);border-color:#1687C7;font-weight:700}
+@media(max-width:600px){.tool-nav{gap:6px;padding:8px 14px}.tnav-btn{font-size:.76rem;padding:5px 10px}}
+/* HERO */
+.phero{background:linear-gradient(135deg,#0F3D5E,#1B5E8B);padding:34px 22px 44px;text-align:center;position:relative;overflow:hidden}
+.phero::before{content:'';position:absolute;inset:0;opacity:.15;background-image:radial-gradient(circle at 20% 30%,rgba(255,255,255,.7) 0 1px,transparent 2px),radial-gradient(circle at 75% 20%,rgba(125,217,255,.55) 0 1px,transparent 2px);background-size:44px 44px,68px 68px}
+.phero-inner{position:relative;z-index:1;max-width:760px;margin:0 auto}
+.phero-inner h1{color:#fff;margin-bottom:14px}
+.phero-inner h1 span{color:#9DEBFF}
+.phero-inner > p{color:rgba(255,255,255,.88);font-size:1.05rem;margin-bottom:22px;max-width:660px;margin-left:auto;margin-right:auto}
+.phero-badges{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:4px}
+.phero-badge{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:999px;color:rgba(255,255,255,.9);font-size:.8rem;font-weight:600;padding:6px 14px}
+/* BREADCRUMB */
+.breadcrumb{margin-bottom:16px}
+.breadcrumb ol{list-style:none;display:flex;flex-wrap:wrap;justify-content:center;gap:4px;font-size:.8rem;color:rgba(255,255,255,.6)}
+.breadcrumb li+li::before{content:'/';margin-right:4px;color:rgba(255,255,255,.4)}
+.breadcrumb a{color:rgba(255,255,255,.75);transition:color .2s}
+.breadcrumb a:hover{color:#fff}
+.breadcrumb li[aria-current]{color:rgba(255,255,255,.92)}
+/* CALCULATOR */
+.calc-wrap{background:linear-gradient(180deg,#0A2540 0%,#0d3060 100%);padding:34px 0 48px}
+.calc-con{max-width:1100px;margin:0 auto;padding:0 22px}
+.cg{display:grid;grid-template-columns:1fr 1.15fr;gap:24px;align-items:start}
+@media(max-width:820px){.cg{grid-template-columns:1fr}}
+.calc-box{background:rgba(255,255,255,.06);border-radius:18px;padding:26px;border:1px solid rgba(255,255,255,.12);backdrop-filter:blur(12px)}
+.calc-heading{color:#fff;margin-bottom:6px;font-size:clamp(1.1rem,2.5vw,1.45rem);font-weight:700}
+.calc-sub{color:rgba(255,255,255,.75);font-size:.9rem;margin-bottom:22px}
+.unit-toggle{position:relative;display:flex;gap:0;border:1px solid rgba(125,235,255,.32);border-radius:999px;overflow:hidden;width:max-content;margin-bottom:16px}
+.unit-toggle input{position:absolute;opacity:0;width:1px;height:1px}
+.unit-toggle label{display:inline-block;padding:7px 18px;font-size:.83rem;font-weight:700;color:rgba(234,251,255,.72);cursor:pointer;margin:0;transition:background .18s,color .18s}
+.unit-toggle input:checked + label{background:rgba(22,135,199,.55);color:#fff}
+.unit-toggle input:focus-visible + label{outline:2px solid #7DEBFF;outline-offset:-2px}
+fieldset{border:none;padding:0;margin:0}
+legend{font-weight:600;font-size:.86rem;margin-bottom:6px;color:#fff}
+.dim-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:420px){.dim-row{grid-template-columns:1fr}}
+.calc-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+.calc-actions .btn{flex:1 1 auto;justify-content:center}
+/* RESULT PANEL */
+.res-panel{background:linear-gradient(150deg,rgba(22,135,199,.22),rgba(24,169,153,.16));border:1px solid rgba(125,235,255,.28);border-radius:18px;padding:28px 26px;backdrop-filter:blur(12px);min-height:100%}
+.res-eyebrow{font-size:.78rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:rgba(157,235,255,.95);margin-bottom:10px}
+.res-weight{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;line-height:1.05}
+.res-lb{font-size:clamp(2.4rem,7vw,3.4rem);font-weight:800;color:#fff;letter-spacing:-.02em}
+.res-kg{font-size:clamp(1.2rem,3.5vw,1.6rem);font-weight:700;color:rgba(157,235,255,.95)}
+.res-of{font-size:1rem;color:rgba(255,255,255,.85);margin-top:6px;font-weight:600}
+.res-stats{margin-top:20px;border-top:1px solid rgba(125,235,255,.2);padding-top:14px}
+.res-row{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-bottom:1px solid rgba(125,235,255,.1);font-size:.87rem}
+.res-row:last-child{border-bottom:none}
+.res-row dt{color:rgba(234,251,255,.75)}
+.res-row dd{color:#fff;font-weight:700;text-align:right}
+.res-buy{margin-top:18px;background:rgba(4,17,29,.4);border:1px solid rgba(125,235,255,.22);border-radius:12px;padding:14px 16px}
+.res-buy .rb-label{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:rgba(157,235,255,.9)}
+.res-buy .rb-val{font-size:1.5rem;font-weight:800;color:#fff;margin:2px 0 6px}
+.res-buy p{font-size:.79rem;color:rgba(234,251,255,.7);margin:0;line-height:1.5}
+.res-sentence{margin-top:16px;font-size:.9rem;color:rgba(234,251,255,.9);line-height:1.6}
+.res-error{background:rgba(231,76,60,.12);border:1px solid rgba(233,136,126,.5);border-radius:14px;padding:22px}
+.res-error h3{color:#FFD6D1;margin-bottom:8px;font-size:1rem}
+.res-error ul{margin:0;padding-left:18px}
+.res-error li{color:rgba(255,214,209,.9);font-size:.86rem;margin-bottom:4px}
+/* PRESETS */
+.preset-block{margin-top:24px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:22px 24px}
+.preset-block h2{color:#fff;font-size:1.05rem;margin-bottom:6px}
+.preset-block > p{font-size:.84rem;margin-bottom:14px}
+.preset-grid{display:flex;flex-wrap:wrap;gap:8px}
+.preset-btn{background:rgba(255,255,255,.07);border:1px solid rgba(125,235,255,.25);color:#EAFBFF;border-radius:999px;padding:8px 14px;font-size:.82rem;font-weight:600;transition:all .18s;line-height:1.2}
+.preset-btn:hover{background:rgba(22,135,199,.3);border-color:#7DEBFF}
+.preset-btn small{display:block;font-size:.7rem;color:rgba(234,251,255,.6);font-weight:500}
+.preset-btn[aria-pressed="true"]{background:rgba(22,135,199,.45);border-color:#7DEBFF;color:#fff}
+/* HOW IT WORKS */
+.hw-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:16px}
+@media(max-width:900px){.hw-steps{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.hw-steps{grid-template-columns:1fr}}
+.hw-step{background:rgba(255,255,255,.06);border-radius:18px;padding:24px 20px;border:1px solid rgba(255,255,255,.1);backdrop-filter:blur(10px);text-align:center}
+.hw-num{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--pd),var(--p));color:#fff;font-size:1.05rem;font-weight:800;display:flex;align-items:center;justify-content:center;margin:0 auto 12px}
+.hw-step h3{color:#fff;margin-bottom:8px;font-size:1rem}
+.hw-step p{font-size:.85rem;margin:0}
+/* CONTENT CARDS */
+.tc{padding:24px;display:flex;flex-direction:column;gap:10px}
+.tc h3{color:#fff}
+.tc p{font-size:.88rem}
+.prose{max-width:860px;margin:0 auto}
+.prose p{font-size:.94rem}
+.prose h3{color:#fff;margin:20px 0 8px;font-size:1.02rem}
+.prose ul{margin:0 0 14px 20px}
+.prose li{color:var(--mu);font-size:.92rem;margin-bottom:6px}
+/* TABLES */
+.ptbl{width:100%;border-collapse:collapse;margin:16px 0;font-size:.86rem;background:rgba(4,17,29,.4);border-radius:12px;overflow:hidden}
+.ptbl caption{caption-side:top;text-align:left;font-size:.82rem;color:rgba(220,246,255,.6);padding-bottom:8px}
+.ptbl th{background:linear-gradient(135deg,var(--pd),var(--p));color:#fff;padding:10px 12px;text-align:left;font-weight:700;white-space:nowrap}
+.ptbl td{padding:10px 12px;border-bottom:1px solid rgba(125,235,255,.14);color:var(--mu);vertical-align:top}
+.ptbl tbody tr:last-child td{border-bottom:none}
+.ptbl tbody tr:nth-child(even) td{background:rgba(255,255,255,.03)}
+.tbl-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
+/* FORMULA */
+.formula{background:rgba(4,17,29,.5);border:1px solid rgba(125,235,255,.22);border-left:4px solid var(--p);border-radius:10px;padding:16px 18px;margin:14px 0;font-size:.92rem;color:#EAFBFF;line-height:1.8;overflow-x:auto}
+.formula code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.88rem;color:#9DEBFF;white-space:nowrap}
+/* FAQ */
+.faq-item{border-bottom:1px solid rgba(255,255,255,.1)}
+.faq-q{width:100%;background:none;border:none;text-align:left;padding:16px 0;font-size:.95rem;font-weight:700;color:#fff;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.faq-q:hover{color:#46B6E8}
+.faq-arrow{font-size:1.1rem;transition:transform .22s;flex-shrink:0}
+.faq-a{font-size:.9rem;color:rgba(220,246,255,.78);padding:0 0 16px;display:none;line-height:1.7}
+.faq-item.open .faq-a{display:block}
+.faq-item.open .faq-arrow{transform:rotate(180deg)}
+/* INTERNAL LINKS */
+.int-links-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+@media(max-width:900px){.int-links-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:440px){.int-links-grid{grid-template-columns:1fr}}
+.int-link-card{display:block;background:rgba(255,255,255,.06);border-radius:14px;border:1px solid rgba(255,255,255,.1);padding:18px;text-decoration:none;transition:all .2s;color:inherit;backdrop-filter:blur(8px)}
+.int-link-card:hover{box-shadow:0 10px 28px rgba(0,0,0,.3);transform:translateY(-3px);border-color:rgba(22,135,199,.4)}
+.int-link-card .il-icon{font-size:1.5rem;margin-bottom:6px}
+.int-link-card h3{color:#fff;font-size:.94rem;margin-bottom:4px}
+.int-link-card p{font-size:.8rem;color:rgba(220,246,255,.65);margin:0}
+/* METHODOLOGY */
+.method{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:22px 24px;max-width:860px;margin:0 auto}
+.method h2{color:#fff;font-size:1.05rem;margin-bottom:10px}
+.method p{font-size:.86rem}
+/* INFO FIGURES */
+.info-fig{margin:22px auto 0;max-width:900px}
+.fig-scroll{max-width:100%}
+.info-fig img{display:block;width:100%;height:auto;border-radius:14px}
+.info-fig figcaption{padding:12px 4px 0;font-size:.84rem;line-height:1.6;color:rgba(220,246,255,.72)}
+.info-fig figcaption a{text-decoration:underline}
+/* Below ~700px the 900px artwork scales past legibility, so pan it like the wide tables. */
+@media(max-width:700px){.info-fig{max-width:calc(100vw - 40px)}.fig-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}.info-fig img{min-width:660px}}
+/* FOOTER */
+.ft{background:linear-gradient(180deg,#08294C,#0F3D6E);color:rgba(255,255,255,.75);padding:56px 0 32px}
+.ftg{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:32px;margin-bottom:36px}
+@media(max-width:900px){.ftg{grid-template-columns:1fr 1fr}}
+@media(max-width:500px){.ftg{grid-template-columns:1fr}}
+.ftbr p{font-size:.84rem;margin-top:12px;color:rgba(255,255,255,.6)}
+.ftcol h5{color:#fff;font-size:.84rem;margin-bottom:12px;font-weight:700}
+.ftcol a{display:block;font-size:.82rem;color:rgba(255,255,255,.6);margin-bottom:7px;transition:color .15s}
+.ftcol a:hover{color:#fff}
+.ftb{font-size:.78rem;color:rgba(255,255,255,.4);text-align:center;padding-top:24px;border-top:1px solid rgba(255,255,255,.08)}
+.legal-links{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;padding:14px 22px;font-size:.78rem}
+.legal-links a{color:rgba(255,255,255,.45)}
+.legal-links a:hover{color:rgba(255,255,255,.8)}
+</style>
+<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260823-screenshot"/>
+<meta name="google-adsense-account" content="ca-pub-6697313643773879"/>
+<script defer src="/assets/site-compliance.js?v=20260824-dark-fix"></script>
+<script defer src="/assets/tool-related-recommendations.js?v=20260825"></script>
+</head>
+<body class="tools-dark-page">
+
+<!-- NAVBAR -->
+<nav class="nb" id="navbar">
+  <a title="FishCare AI" class="brand" href="/"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"/></a>
+  <div class="nlinks" id="nlinks">
+    <a title="Home" class="nl" href="/">Home</a>
+    <a title="Guides" class="nl" href="/guides/">Guides</a>
+    <a title="Aquarium Encyclopedia" class="nl" href="/species">Encyclopedia</a>
+    <a title="Fish Health" class="nl" href="/fish-health/">Fish Health</a>
+    <a title="Tools" class="nl act" href="/tools/">Tools</a>
+    <a title="About Us" class="nl" href="/about/">About Us</a>
+  </div>
+  <button class="hbg" type="button" onclick="document.getElementById('nlinks').classList.toggle('open')" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+</nav>
+<nav class="tool-nav" aria-label="Tool navigation">
+  <a href="/tools/aquarium-size-calculator/" class="tnav-btn">📐 Size Calc</a>
+  <a href="/tools/fish-compatibility-checker/" class="tnav-btn">🔬 Compatibility</a>
+  <a href="/tools/water-parameter-checker/" class="tnav-btn">💧 Water Test</a>
+  <a href="/tools/fish-feeding-calculator/" class="tnav-btn">🍽 Feeding</a>
+  <a href="/tools/aquarium-planner/" class="tnav-btn">🧭 Planner</a>
+  <a href="/tools/aquarium-equipment-calculator/" class="tnav-btn">⚙️ Equipment</a>
+  <a href="/tools/aquarium-substrate-calculator/" class="tnav-btn active" aria-current="page">🪨 Substrate</a>
+</nav>
+
+<!-- HERO -->
+<section class="phero">
+  <div class="phero-inner">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li aria-current="page">Aquarium Substrate Calculator</li>
+      </ol>
+    </nav>
+    <h1>Aquarium Substrate Calculator</h1>
+    <p>Calculate how much gravel, sand, soil, or other substrate you need for your aquarium. Enter your tank dimensions and desired substrate depth to get the estimated volume and weight.</p>
+    <div class="phero-badges">
+      <span class="phero-badge">Gravel &amp; sand</span>
+      <span class="phero-badge">Flat or sloped beds</span>
+      <span class="phero-badge">Inches or centimetres</span>
+      <span class="phero-badge">Always free</span>
+    </div>
+  </div>
+</section>
+
+<!-- CALCULATOR -->
+<div class="calc-wrap">
+  <div class="calc-con">
+    <h2 class="calc-heading">🪨 Substrate Calculator</h2>
+    <p class="calc-sub">Results update as you type. Substrate is worked out from the tank footprint and bed depth, so tank height is not needed.</p>
+
+    <div class="cg">
+      <!-- INPUTS -->
+      <form class="calc-box" id="sub-form" novalidate>
+        <fieldset class="unit-fieldset">
+          <legend>Measurement units</legend>
+          <div class="unit-toggle" role="group">
+            <input type="radio" name="sub-unit" id="sub-unit-in" value="in" checked>
+            <label for="sub-unit-in">Inches</label>
+            <input type="radio" name="sub-unit" id="sub-unit-cm" value="cm">
+            <label for="sub-unit-cm">Centimetres</label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Tank footprint</legend>
+          <div class="dim-row">
+            <div class="fg">
+              <label for="sub-length">Tank length (<span class="unit-lbl">in</span>)</label>
+              <input class="fc" id="sub-length" name="sub-length" type="number" inputmode="decimal" min="0" step="any" value="24" aria-describedby="err-length">
+              <p class="fld-err" id="err-length"></p>
+            </div>
+            <div class="fg">
+              <label for="sub-width">Tank width / front-to-back (<span class="unit-lbl">in</span>)</label>
+              <input class="fc" id="sub-width" name="sub-width" type="number" inputmode="decimal" min="0" step="any" value="12" aria-describedby="err-width">
+              <p class="fld-err" id="err-width"></p>
+            </div>
+          </div>
+          <p class="fhint" style="margin-top:-6px;margin-bottom:16px">Measure the inside of the tank. Height is not required — substrate depends on the footprint, not the water volume.</p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Substrate depth</legend>
+          <div class="dim-row">
+            <div class="fg">
+              <label for="sub-depth-front">Front depth (<span class="unit-lbl">in</span>)</label>
+              <input class="fc" id="sub-depth-front" name="sub-depth-front" type="number" inputmode="decimal" min="0" step="any" value="2" aria-describedby="err-depth-front">
+              <p class="fld-err" id="err-depth-front"></p>
+            </div>
+            <div class="fg">
+              <label for="sub-depth-back">Back depth (<span class="unit-lbl">in</span>) <span style="font-weight:400;color:rgba(234,251,255,.6)">— optional</span></label>
+              <input class="fc" id="sub-depth-back" name="sub-depth-back" type="number" inputmode="decimal" min="0" step="any" value="" placeholder="Leave blank for a flat bed" aria-describedby="err-depth-back">
+              <p class="fld-err" id="err-depth-back"></p>
+            </div>
+          </div>
+          <p class="fhint" style="margin-top:-6px;margin-bottom:16px">Leave the back depth blank for a flat bed. If you fill in both, the calculator uses the average depth — <strong>(front + back) ÷ 2</strong> — which is the correct volume for an evenly sloped bed.</p>
+        </fieldset>
+
+        <div class="fg">
+          <label for="sub-type">Substrate type</label>
+          <select class="fc" id="sub-type" name="sub-type">
+            <option value="gravel" selected>Gravel (2–5 mm) — 1.60 g/cm³</option>
+            <option value="fine-gravel">Fine gravel (1–3 mm) — 1.65 g/cm³</option>
+            <option value="sand">Sand — 1.55 g/cm³</option>
+            <option value="soil">Aquarium soil — 0.75 g/cm³</option>
+            <option value="crushed-coral">Crushed coral — 1.35 g/cm³</option>
+            <option value="aragonite">Aragonite — 1.45 g/cm³</option>
+            <option value="custom">Custom density…</option>
+          </select>
+          <span class="fhint">Densities are typical dry bulk values. Real products vary with grain size, moisture and manufacturer, so treat the weight as an estimate.</span>
+        </div>
+
+        <div class="fg hide" id="sub-custom-wrap">
+          <label for="sub-density">Custom bulk density (g/cm³, same as kg/L)</label>
+          <input class="fc" id="sub-density" name="sub-density" type="number" inputmode="decimal" min="0" step="any" value="1.6" aria-describedby="err-density">
+          <p class="fld-err" id="err-density"></p>
+          <span class="fhint">Most bagged aquarium substrates fall between 0.6 and 1.8 g/cm³. Check the bag: weight ÷ volume gives the density.</span>
+        </div>
+
+        <div class="calc-actions">
+          <button type="submit" class="btn bp blg" id="sub-calc-btn">Calculate Substrate →</button>
+          <button type="button" class="btn bo blg" id="sub-reset-btn">Reset</button>
+        </div>
+      </form>
+
+      <!-- RESULT -->
+      <div id="sub-result" role="status" aria-live="polite" tabindex="-1"></div>
+    </div>
+
+    <!-- QUICK PRESETS -->
+    <div class="preset-block">
+      <h2>Quick tank presets</h2>
+      <p>Selecting a preset fills in the standard footprint for that tank, not its capacity. Tank capacity alone isn't enough to calculate substrate accurately because aquariums with the same volume can have different footprints — a 20&nbsp;gallon long and a 20&nbsp;gallon high hold the same water but need noticeably different amounts of gravel.</p>
+      <div class="preset-grid" id="sub-presets"></div>
+    </div>
+  </div>
+</div>
+
+<!-- HOW TO USE -->
+<section class="sec sec-w">
+  <div class="con">
+    <div class="sh">
+      <div class="tag">How it works</div>
+      <h2>How to Use the Aquarium Substrate Calculator</h2>
+      <p>Four short steps from tank measurements to a gravel, sand or soil shopping figure.</p>
+    </div>
+    <div class="hw-steps">
+      <div class="hw-step">
+        <div class="hw-num">1</div>
+        <h3>Enter length and width</h3>
+        <p>Measure the inside of the tank, front to back and side to side, in inches or centimetres. Height is not needed.</p>
+      </div>
+      <div class="hw-step">
+        <div class="hw-num">2</div>
+        <h3>Choose a substrate depth</h3>
+        <p>Two inches suits most community tanks. Add a back depth as well if you want a bed that slopes up towards the rear.</p>
+      </div>
+      <div class="hw-step">
+        <div class="hw-num">3</div>
+        <h3>Select your substrate</h3>
+        <p>Gravel, fine gravel, sand, aquarium soil, crushed coral or aragonite — or enter a custom density from the bag.</p>
+      </div>
+      <div class="hw-step">
+        <div class="hw-num">4</div>
+        <h3>Read volume and weight</h3>
+        <p>You get bed volume in litres, US gallons and cubic inches, an estimated weight in pounds and kilograms, and a suggested purchase amount.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW MUCH SUBSTRATE -->
+<section class="sec">
+  <div class="con prose">
+    <h2 style="color:#fff;margin-bottom:12px">How Much Substrate Do I Need for My Aquarium?</h2>
+    <p>The relationship is simple: <strong>tank footprint × substrate depth = substrate volume</strong>. The footprint is the inside length multiplied by the inside width — the area of glass the substrate actually covers. Multiply that area by the depth of bed you want and you have the volume you need to buy.</p>
+    <p>This is why a fish tank substrate calculator asks for dimensions rather than gallons. Substrate lies on the bottom pane, so the tank's height contributes nothing to the amount you need. Two aquariums rated at the same capacity can require very different quantities: a 20&nbsp;gallon long has a 30&nbsp;×&nbsp;12&nbsp;inch footprint, while a 20&nbsp;gallon high is 24&nbsp;×&nbsp;12&nbsp;inches. At a 2&nbsp;inch bed depth that is 11.8&nbsp;litres versus 9.4&nbsp;litres — about 25% more substrate for the same nominal tank size.</p>
+    <p>So when you ask "how much substrate do I need," the honest answer is that it depends on the shape of the bottom of your tank and how deep you want the bed to be. Measure the inside dimensions with a tape measure — outside measurements include the glass thickness and the trim, and on a rimmed tank that can add half an inch or more to each side.</p>
+    <p>One more practical point: the volume the calculator returns is the volume of the bed <em>after</em> it settles flat. Rocks, driftwood and large decorations displace some substrate, while a sloped or terraced aquascape needs a little more than a flat bed of the same average depth. That is what the 10% purchase buffer in the result panel is for.</p>
+    <p>Not sure your tank is the right size in the first place? The <a href="/tools/aquarium-size-calculator/">Tank Size Calculator</a> converts the same dimensions into US gallons and litres of water volume.</p>
+  </div>
+</section>
+
+<!-- GRAVEL -->
+<section class="sec sec-w">
+  <div class="con prose">
+    <h2 style="color:#fff;margin-bottom:12px">Aquarium Gravel Calculator</h2>
+    <p>Used as an aquarium gravel calculator, this tool works out gravel quantity the same way it handles every other substrate: it multiplies the tank footprint by the bed depth to get a volume, then multiplies that volume by gravel's bulk density to estimate weight. Gravel is sold by weight, so the weight figure is the one you take to the shop; the volume figure is the one that stays true no matter which brand you buy.</p>
+    <h3>Typical gravel depths</h3>
+    <p>Most freshwater community tanks run 1–2&nbsp;inches of gravel. That is enough to anchor decorations, hide the base of the tank and give beneficial bacteria a surface to colonise, without creating pockets deep enough to go anaerobic. Planted tanks with gravel usually go deeper, 2–3&nbsp;inches, so root systems have somewhere to sit. Below about an inch, gravel tends to shift and expose the glass whenever fish dig or you run a siphon.</p>
+    <h3>Why gravel density varies</h3>
+    <p>Aquarium gravel is usually quartz or river stone with a solid density around 2.6&nbsp;g/cm³, but a bag of gravel is not solid rock — roughly 40% of it is air between the grains. That gives a bulk density near 1.6&nbsp;g/cm³ for standard 2–5&nbsp;mm gravel. Finer grades pack more tightly and come in slightly heavier per litre; large, irregular or coated decorative gravels can be lighter. Damp gravel weighs more than dry gravel straight from the bag.</p>
+    <h3>Treat the number as an estimate</h3>
+    <p>Because bulk density shifts with grain size, shape, coating and moisture, two 20&nbsp;lb bags of "aquarium gravel" from different manufacturers will not fill the same space. The calculator's weight output is a good planning figure, typically within about 10% for common gravels, and the purchase buffer is there to absorb the rest. If a product lists both weight and volume on the bag, entering that as a custom density gives you the most accurate result.</p>
+  </div>
+</section>
+
+<!-- SAND -->
+<section class="sec">
+  <div class="con prose">
+    <h2 style="color:#fff;margin-bottom:12px">Aquarium Sand Calculator</h2>
+    <p>The same tool doubles as an aquarium sand calculator — select <strong>Sand</strong> from the substrate list and the density switches from a gravel value to a sand value of about 1.55&nbsp;g/cm³. The geometry does not change; only the weight per litre does.</p>
+    <ul>
+      <li><strong>Shallow beds work better.</strong> Sand grains sit tightly together, so 1–2&nbsp;inches is the usual range. Deep, undisturbed sand can develop anaerobic pockets, which is why sand beds are generally kept shallower than gravel beds unless you are deliberately running a deep sand bed in a marine system.</li>
+      <li><strong>Planted tanks.</strong> Sand alone holds few nutrients, so planted setups often cap a nutrient-rich soil layer with sand, or use root tabs. If you are layering, run the calculator once for each layer's depth and add the results.</li>
+      <li><strong>Compaction.</strong> Sand settles and compacts more than gravel, so a freshly poured bed loses a little depth in the first few weeks. Stirring lightly during water changes, or keeping burrowing snails or Malaysian trumpet snails, keeps it turned over.</li>
+      <li><strong>Density differences.</strong> Fine silica sand, play sand, aragonite sand and black diamond blasting sand all weigh different amounts per litre. Aragonite is around 1.45&nbsp;g/cm³ and also raises hardness and pH, which suits African cichlid and marine tanks but not soft-water community tanks.</li>
+    </ul>
+    <p>Once your bed is in, keep an eye on the water while it clears — the <a href="/tools/water-parameter-checker/">Water Parameter Checker</a> is a quick way to confirm pH and hardness have not shifted after adding a mineral-based substrate such as crushed coral or aragonite.</p>
+  </div>
+</section>
+
+<!-- DEPTH TABLE -->
+<section class="sec sec-w">
+  <div class="con prose">
+    <h2 style="color:#fff;margin-bottom:12px">What Substrate Depth Should I Use?</h2>
+    <p>Aquarium substrate depth is the input people are least sure about, so here are the ranges most setups fall into.</p>
+    <div class="tbl-scroll">
+      <table class="ptbl">
+        <caption>Common aquarium substrate depth ranges by setup type.</caption>
+        <thead>
+          <tr><th scope="col">Aquarium setup</th><th scope="col">Typical substrate depth</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Bare-bottom / minimal</td><td>0–0.5 in (0–1.3 cm)</td></tr>
+          <tr><td>Decorative gravel</td><td>1–2 in (2.5–5 cm)</td></tr>
+          <tr><td>Standard freshwater aquarium</td><td>1–2 in (2.5–5 cm)</td></tr>
+          <tr><td>Planted aquarium</td><td>2–3 in (5–7.6 cm)</td></tr>
+          <tr><td>Deep-rooted planted aquarium</td><td>3–4 in (7.6–10 cm)</td></tr>
+          <tr><td>Sand bed</td><td>1–2 in (2.5–5 cm)</td></tr>
+        </tbody>
+      </table>
+    </div>
+<figure class="info-fig"><div class="fig-scroll"><img src="/assets/aquarium-substrate-depth-profiles.svg" alt="Six aquarium cross-sections at the same scale showing bed depths from bare-bottom at 0 to 0.5 inches up to a deep-rooted planted bed at 3 to 4 inches." width="900" height="560" loading="lazy" decoding="async"/></div><figcaption>Schematic, drawn to a common scale. General starting points — the right depth depends on plant species, aquascape design, livestock and substrate type. <a href="/assets/aquarium-substrate-depth-profiles.svg" target="_blank" rel="noopener">Open full-size diagram</a>.</figcaption></figure>
+    <p><strong>Note:</strong> these are general starting points, not strict rules. Substrate depth depends on plant species, aquascape design, livestock, and substrate type. Burrowing fish and loaches need enough depth to dig without hitting glass; bare-bottom setups are common in breeding and quarantine tanks precisely because they are easier to keep clean.</p>
+  </div>
+</section>
+
+<!-- COMPARISON -->
+<section class="sec">
+  <div class="con prose">
+    <h2 style="color:#fff;margin-bottom:12px">Gravel vs Sand vs Aquarium Soil</h2>
+    <p>Weight is only half the decision. Here is how the four most common substrate families compare in practice.</p>
+    <div class="tbl-scroll">
+      <table class="ptbl">
+        <caption>Practical comparison of common aquarium substrates.</caption>
+        <thead>
+          <tr>
+            <th scope="col">Substrate</th>
+            <th scope="col">Best for</th>
+            <th scope="col">Typical depth</th>
+            <th scope="col">Advantages</th>
+            <th scope="col">Considerations</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Gravel</td>
+            <td>General freshwater community tanks</td>
+            <td>1–2 in</td>
+            <td>Cheap, easy to vacuum, water flows through it, anchors decorations well</td>
+            <td>Food and waste fall between grains; inert, so rooted plants need root tabs</td>
+          </tr>
+          <tr>
+            <td>Sand</td>
+            <td>Corydoras, loaches, cichlids, natural biotopes</td>
+            <td>1–2 in</td>
+            <td>Safe for barbel-feeding bottom dwellers, natural look, waste stays on top where it is easy to remove</td>
+            <td>Compacts over time, can cloud the water when disturbed, needs gentle cleaning technique</td>
+          </tr>
+          <tr>
+            <td>Aquarium soil</td>
+            <td>Planted and aquascaped tanks</td>
+            <td>2–3 in</td>
+            <td>Holds nutrients for roots, lightweight per litre, often buffers pH downward for soft-water plants and shrimp</td>
+            <td>Most expensive option, breaks down over 1–3 years, can leach ammonia when new so tanks need cycling</td>
+          </tr>
+          <tr>
+            <td>Crushed coral</td>
+            <td>African cichlids, brackish and marine tanks, hard-water species</td>
+            <td>1–2 in</td>
+            <td>Raises carbonate hardness and stabilises pH, durable, does not break down</td>
+            <td>Unsuitable for soft-water fish and plants; coarse pieces trap debris</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Mixing is normal. A common approach is a nutrient layer capped with 1&nbsp;inch of sand or fine gravel — calculate each layer separately and add the volumes together.</p>
+  </div>
+</section>
+
+<!-- FORMULA -->
+<section class="sec sec-w">
+  <div class="con prose">
+    <h2 style="color:#fff;margin-bottom:12px">How Is Aquarium Substrate Calculated?</h2>
+    <p>Nothing here is hidden. These are the exact formulas the calculator runs.</p>
+    <h3>Flat substrate bed</h3>
+    <div class="formula"><code>Substrate Volume = Tank Length × Tank Width × Substrate Depth</code></div>
+    <h3>Sloped substrate bed</h3>
+    <div class="formula">
+      <code>Average Depth = (Front Depth + Back Depth) ÷ 2</code><br>
+      <code>Substrate Volume = Tank Length × Tank Width × Average Depth</code>
+    </div>
+    <h3>Estimated weight</h3>
+    <div class="formula"><code>Estimated Weight = Substrate Volume × Bulk Density</code></div>
+<figure class="info-fig"><div class="fig-scroll"><img src="/assets/aquarium-substrate-volume-diagram.svg" alt="Cross-sections of a flat and a sloped aquarium substrate bed. A flat bed is length times width times depth; a sloped bed averages the front and back depth first." width="900" height="520" loading="lazy" decoding="async"/></div><figcaption>Schematic. A sloped bed holds the same volume as a flat bed set at the average of its front and back depth. Weight then follows the bulk density of the product you actually buy. <a href="/assets/aquarium-substrate-volume-diagram.svg" target="_blank" rel="noopener">Open full-size diagram</a>.</figcaption></figure>
+    <h3>Worked example</h3>
+    <p>A 20&nbsp;gallon long aquarium with a flat gravel bed:</p>
+    <ul>
+      <li>Tank footprint: <strong>30 × 12 inches</strong></li>
+      <li>Substrate depth: <strong>2 inches</strong></li>
+      <li>Volume: 30 × 12 × 2 = <strong>720 cubic inches</strong></li>
+      <li>Converted: 720 × 16.387 cm³ = 11,799 cm³ = <strong>11.8 litres</strong> (3.12 US gallons)</li>
+      <li>Weight at a gravel bulk density of 1.60 g/cm³: 11.8 × 1.60 = <strong>18.9 kg ≈ 41.6 lb</strong></li>
+      <li>With a 10% buffer: <strong>about 46 lb (20.8 kg)</strong> to buy</li>
+    </ul>
+    <p>Change only the substrate and the weight changes with it. The same 11.8&nbsp;litre bed is roughly 18.3&nbsp;kg (40.3&nbsp;lb) in sand, about 15.9&nbsp;kg (35.1&nbsp;lb) in crushed coral, and only about 8.8&nbsp;kg (19.5&nbsp;lb) in baked aquarium soil. Volume is the constant; weight follows the material.</p>
+    <div class="tbl-scroll">
+      <table class="ptbl">
+        <caption>Bulk density values used by this calculator (typical dry values).</caption>
+        <thead>
+          <tr><th scope="col">Substrate type</th><th scope="col">Bulk density used</th><th scope="col">Weight of a 10 L bed</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Gravel (2–5 mm)</td><td>1.60 g/cm³</td><td>16.0 kg (35.3 lb)</td></tr>
+          <tr><td>Fine gravel (1–3 mm)</td><td>1.65 g/cm³</td><td>16.5 kg (36.4 lb)</td></tr>
+          <tr><td>Sand</td><td>1.55 g/cm³</td><td>15.5 kg (34.2 lb)</td></tr>
+          <tr><td>Aquarium soil</td><td>0.75 g/cm³</td><td>7.5 kg (16.5 lb)</td></tr>
+          <tr><td>Crushed coral</td><td>1.35 g/cm³</td><td>13.5 kg (29.8 lb)</td></tr>
+          <tr><td>Aragonite</td><td>1.45 g/cm³</td><td>14.5 kg (32.0 lb)</td></tr>
+          <tr><td>Custom</td><td>Your value</td><td>Depends on the value entered</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- BY TANK SIZE -->
+<section class="sec">
+  <div class="con prose">
+    <h2 style="color:#fff;margin-bottom:12px">Aquarium Substrate Amount by Tank Size</h2>
+    <p>Volumes below are for standard aquarium footprints. They are shown as volume rather than weight because a litre of aquarium soil and a litre of gravel weigh very different amounts — pick your substrate in the calculator to convert any of these into pounds and kilograms.</p>
+    <div class="tbl-scroll">
+      <table class="ptbl">
+        <caption>Substrate volume required for standard aquarium footprints at three common bed depths.</caption>
+        <thead>
+          <tr>
+            <th scope="col">Tank size</th>
+            <th scope="col">Typical footprint</th>
+            <th scope="col">1-inch bed</th>
+            <th scope="col">2-inch bed</th>
+            <th scope="col">3-inch bed</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>5 gallon</td><td>16 × 8 in</td><td>2.1 L (128 in³)</td><td>4.2 L (256 in³)</td><td>6.3 L (384 in³)</td></tr>
+          <tr><td>10 gallon</td><td>20 × 10 in</td><td>3.3 L (200 in³)</td><td>6.6 L (400 in³)</td><td>9.8 L (600 in³)</td></tr>
+          <tr><td>20 gallon long</td><td>30 × 12 in</td><td>5.9 L (360 in³)</td><td>11.8 L (720 in³)</td><td>17.7 L (1,080 in³)</td></tr>
+          <tr><td>29 gallon</td><td>30 × 12 in</td><td>5.9 L (360 in³)</td><td>11.8 L (720 in³)</td><td>17.7 L (1,080 in³)</td></tr>
+          <tr><td>40 gallon breeder</td><td>36 × 18 in</td><td>10.6 L (648 in³)</td><td>21.2 L (1,296 in³)</td><td>31.9 L (1,944 in³)</td></tr>
+          <tr><td>55 gallon</td><td>48 × 13 in</td><td>10.2 L (624 in³)</td><td>20.5 L (1,248 in³)</td><td>30.7 L (1,872 in³)</td></tr>
+          <tr><td>75 gallon</td><td>48 × 18 in</td><td>14.2 L (864 in³)</td><td>28.3 L (1,728 in³)</td><td>42.5 L (2,592 in³)</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Notice the 29&nbsp;gallon and the 20&nbsp;gallon long: same footprint, same substrate requirement, 9&nbsp;gallons apart in capacity. And the 55&nbsp;gallon needs slightly <em>less</em> substrate than a 40&nbsp;gallon breeder despite holding more water, because the breeder is wider front to back.</p>
+    <p>These estimates are based on standard footprints. Measure your actual aquarium for the most accurate result.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec sec-w">
+  <div class="con" style="max-width:820px">
+    <div class="sh">
+      <div class="tag">FAQ</div>
+      <h2>Frequently Asked Questions</h2>
+      <p>Common questions about substrate quantity, gravel weight and bed depth.</p>
+    </div>
+    <div id="faq-list">
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">How much gravel do I need for my aquarium? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">Multiply the inside length of the tank by its inside width to get the footprint, then multiply by the bed depth you want. A 30 × 12 inch footprint with a 2 inch bed is 720 cubic inches, which is about 11.8 litres of gravel and roughly 41 lb (18.9 kg) at a typical gravel bulk density of about 1.6 g/cm³. Enter your own measurements in the calculator for a figure that matches your tank rather than a generic gallon estimate.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">How much substrate do I need for a 10 gallon tank? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">A standard 10 gallon aquarium has a 20 × 10 inch footprint. A 1 inch bed is about 3.3 litres, and a 2 inch bed is about 6.6 litres, which works out to roughly 23 lb (10.5 kg) of gravel or about 20 lb (9.2 kg) of aquarium soil. Measure your own tank if it is not a standard shape.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">How much substrate do I need for a 20 gallon tank? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">It depends on which 20 gallon you have. A 20 gallon long is 30 × 12 inches, so a 2 inch bed is about 11.8 litres or roughly 41 lb (18.9 kg) of gravel. A 20 gallon high is 24 × 12 inches, so the same 2 inch bed is only about 9.4 litres or roughly 33 lb (15.1 kg). Same capacity, different footprint, different substrate requirement.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">How much gravel do I need for a 55 gallon aquarium? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">A standard 55 gallon aquarium is 48 × 13 inches. A 2 inch gravel bed is about 20.5 litres, or roughly 72 lb (32.7 kg) at a typical gravel bulk density. A 3 inch bed is about 30.7 litres, or roughly 108 lb (49 kg). Buying about 10 percent extra makes levelling and sloping easier.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">How deep should aquarium substrate be? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">For most freshwater community tanks 1 to 2 inches is a common starting point. Planted tanks usually run 2 to 3 inches so roots have something to hold, and deep-rooted plants such as large swords or crypts often do better at 3 to 4 inches. Sand beds are usually kept shallower, around 1 to 2 inches. These are general starting points, not rules, and the right depth depends on your plants, aquascape and livestock.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">How much sand do I need for my aquarium? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">Sand is calculated exactly like gravel: footprint multiplied by bed depth. Sand beds are usually shallower, so a 30 × 12 inch tank with a 1.5 inch sand bed needs about 8.8 litres, roughly 30 lb (13.7 kg) at a typical aquarium sand bulk density of about 1.55 g/cm³. Select Sand in the calculator to use a sand density instead of a gravel density.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">Is 2 inches of substrate enough for a planted tank? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">Two inches is workable for many stem plants, carpeting plants and small rosette plants. Deep-rooted species such as Amazon swords, larger crypts and vallisneria generally do better with 3 inches or more, especially towards the back of the tank. A sloped bed is a common compromise: shallower at the front for viewing, deeper at the back for roots. Enter a front and back depth in the calculator to size a sloped bed.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">Does aquarium gravel weigh the same as sand? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">No, and neither is a fixed number. Bulk density is what matters, and it varies by grain size, shape, moisture and manufacturer. Typical dry values are roughly 1.6 g/cm³ for gravel, about 1.55 g/cm³ for aquarium sand, about 1.35 g/cm³ for crushed coral and about 0.75 g/cm³ for baked aquarium soil, which is far lighter for the same volume. Volume is the reliable comparison between products.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">Can I calculate substrate using tank gallons? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">Only very roughly. Substrate sits on the bottom of the tank, so it is determined by the footprint and the bed depth, not by how tall the tank is. A 20 gallon long and a 20 gallon high hold the same water but need noticeably different amounts of substrate. Measure the inside length and width and enter those instead.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RELATED TOOLS -->
+<section class="sec">
+  <div class="con">
+    <div class="sh">
+      <div class="tag">Free tools</div>
+      <h2>Related Aquarium Tools</h2>
+      <p>Use these alongside the substrate calculator to plan the rest of the setup.</p>
+    </div>
+    <div class="int-links-grid">
+      <a class="int-link-card" href="/tools/aquarium-size-calculator/">
+        <div class="il-icon" aria-hidden="true">📐</div>
+        <h3>Tank Size Calculator</h3>
+        <p>Turn the same length and width measurements into water volume in US gallons and litres.</p>
+      </a>
+      <a class="int-link-card" href="/tools/aquarium-planner/">
+        <div class="il-icon" aria-hidden="true">🧭</div>
+        <h3>Aquarium Planner</h3>
+        <p>Build a full setup checklist — equipment, cycling and stocking — before you buy anything.</p>
+      </a>
+      <a class="int-link-card" href="/tools/water-parameter-checker/">
+        <div class="il-icon" aria-hidden="true">💧</div>
+        <h3>Water Parameter Checker</h3>
+        <p>Check pH, ammonia, nitrite and nitrate after adding a new substrate or soil layer.</p>
+      </a>
+      <a class="int-link-card" href="/tools/fish-compatibility-checker/">
+        <div class="il-icon" aria-hidden="true">🔬</div>
+        <h3>Fish Compatibility Checker</h3>
+        <p>See which species can share the tank once the aquascape and substrate are settled.</p>
+      </a>
+    </div>
+    <p style="max-width:860px;margin:22px auto 0;text-align:center;font-size:.9rem">Also useful: the <a href="/tools/fish-feeding-calculator/">Fish Feeding Calculator</a> for portion sizes once your tank is stocked, the <a href="/tools/aquarium-equipment-calculator/">Aquarium Equipment Calculator</a> for filter and heater sizing, and the <a href="/guides/how-to-set-up-a-fish-tank/">tank setup guide</a> for the order to do everything in.</p>
+  </div>
+</section>
+
+<!-- METHODOLOGY -->
+<section class="sec sec-w">
+  <div class="con">
+    <div class="method">
+      <h2>Methodology and accuracy</h2>
+      <p>Substrate volume is calculated from the aquarium footprint and desired bed depth. Weight estimates use approximate bulk density and may vary by product, grain size, moisture content, and packing.</p>
+      <p>The volume half of this calculation is pure geometry and is exact for the dimensions you enter — length × width × depth, with unit conversions carried out at full precision internally and rounded only for display (1&nbsp;in = 2.54&nbsp;cm, 1&nbsp;L = 1,000&nbsp;cm³ = 0.264172&nbsp;US&nbsp;gal, 1&nbsp;kg = 2.20462&nbsp;lb). The weight half is an estimate, because bulk density is a property of the specific product in the bag rather than of "gravel" or "sand" as categories. The densities listed above are typical dry values for common aquarium substrates; if your bag states both a weight and a volume, entering that figure under <strong>Custom density</strong> will give you a closer answer.</p>
+      <p>The depth ranges and substrate comparisons on this page are practical recommendations drawn from common freshwater aquarium practice, not measured results. They are starting points to adapt to your own plants, livestock and aquascape.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="ft" id="site-footer">
+  <div class="con">
+    <div class="ftg">
+      <div class="ftbr">
+        <div><img class="fishcare-footer-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="150" height="38"/></div>
+        <p>Your trusted resource for fish care guides, free tools, and practical aquarium advice. Helping beginners build healthier freshwater tanks since 2026.</p>
+      </div>
+      <div class="ftcol">
+        <h5>Guides</h5>
+        <a href="/guides/">All Guides</a>
+        <a href="/guides/best-freshwater-fish-for-beginners/">Best Beginner Fish</a>
+        <a href="/guides/how-to-set-up-a-fish-tank/">Tank Setup Guide</a>
+        <a href="/guides/aquarium-water-parameters/">Water Parameters</a>
+        <a href="/guides/goldfish-care/">Goldfish Care</a>
+        <a href="/guides/fish-care-for-beginners/#beginner-fish-care-checklist">Beginner Checklist</a>
+      </div>
+      <div class="ftcol">
+        <h5>Encyclopedia</h5>
+        <a href="/species">All Species</a>
+        <a href="/species/neon-tetra">Neon Tetra</a>
+        <a href="/species/ocellaris-clownfish">Clownfish</a>
+        <a href="/species/bronze-cory">Corydoras</a>
+        <a href="/species/cherry-barb">Cherry Barb</a>
+        <a href="/species/dwarf-gourami">Dwarf Gourami</a>
+      </div>
+      <div class="ftcol">
+        <h5>Tools</h5>
+        <a href="/tools/aquarium-size-calculator/">Aquarium Size Calculator</a>
+        <a href="/tools/aquarium-substrate-calculator/">Substrate Calculator</a>
+        <a href="/tools/fish-compatibility-checker/">Compatibility Checker</a>
+        <a href="/tools/water-parameter-checker/">Water Parameter Checker</a>
+        <a href="/tools/fish-feeding-calculator/">Feeding Calculator</a>
+        <a href="/tools/aquarium-planner/">Aquarium Planner</a>
+        <a href="/tools/aquarium-equipment-calculator/">Equipment Calculator</a>
+      </div>
+      <div class="ftcol">
+        <h5>More</h5>
+        <a href="/about/">About Us</a>
+        <a href="/contact/">Contact</a>
+        <a href="/partners/">Partners</a>
+        <a href="/privacy/">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="ftb">© 2026 FishCare. All rights reserved.</div>
+  </div>
+  <nav class="legal-links" aria-label="Legal and company information">
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+    <a href="/editorial-policy/">Editorial Policy</a>
+    <a href="/privacy/">Privacy</a>
+    <a href="/image-credits/">Image Credits</a>
+  </nav>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  // ── Constants ────────────────────────────────────────────────────────────
+  var CM_PER_IN   = 2.54;
+  var CM3_PER_IN3 = 16.387064;          // 2.54^3
+  var L_PER_USGAL = 3.785411784;
+  var LB_PER_KG   = 2.20462262185;
+
+  // Typical dry bulk densities in g/cm3 (identical to kg/L). These are
+  // planning figures: real products vary with grain size, shape, coating and
+  // moisture, which is why "Custom" exists and why the copy calls the weight
+  // an estimate.
+  var SUBSTRATES = {
+    'gravel':        { label: 'aquarium gravel',  density: 1.60 },
+    'fine-gravel':   { label: 'fine gravel',      density: 1.65 },
+    'sand':          { label: 'aquarium sand',    density: 1.55 },
+    'soil':          { label: 'aquarium soil',    density: 0.75 },
+    'crushed-coral': { label: 'crushed coral',    density: 1.35 },
+    'aragonite':     { label: 'aragonite',        density: 1.45 },
+    'custom':        { label: 'substrate',        density: null }
+  };
+
+  // Standard US aquarium footprints, in inches.
+  var PRESETS = [
+    { name: '5 gallon',          l: 16, w: 8  },
+    { name: '10 gallon',         l: 20, w: 10 },
+    { name: '20 gallon long',    l: 30, w: 12 },
+    { name: '20 gallon high',    l: 24, w: 12 },
+    { name: '29 gallon',         l: 30, w: 12 },
+    { name: '40 gallon breeder', l: 36, w: 18 },
+    { name: '55 gallon',         l: 48, w: 13 },
+    { name: '75 gallon',         l: 48, w: 18 },
+    { name: '125 gallon',        l: 72, w: 18 }
+  ];
+
+  var DEFAULTS = { unit: 'in', length: '24', width: '12', front: '2', back: '', type: 'gravel', density: '1.6' };
+
+  // Sanity ceilings so a stray keypress cannot produce a nonsense answer.
+  var MAX_SIDE_CM  = 762;  // 300 in — larger than any home aquarium
+  var MAX_DEPTH_CM = 30.5; // 12 in
+
+  var unit = DEFAULTS.unit;
+
+  var $ = function (id) { return document.getElementById(id); };
+  var els = {
+    form:    $('sub-form'),
+    length:  $('sub-length'),
+    width:   $('sub-width'),
+    front:   $('sub-depth-front'),
+    back:    $('sub-depth-back'),
+    type:    $('sub-type'),
+    density: $('sub-density'),
+    custom:  $('sub-custom-wrap'),
+    result:  $('sub-result'),
+    presets: $('sub-presets')
+  };
+  if (!els.form || !els.result) return;
+
+  // ── Helpers ──────────────────────────────────────────────────────────────
+  function num(n, dp) {
+    if (!isFinite(n)) return '—';
+    return n.toLocaleString('en-US', { minimumFractionDigits: dp, maximumFractionDigits: dp });
+  }
+  function esc(s) {
+    return String(s).replace(/[&<>"]/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+    });
+  }
+  function unitLabel() { return unit === 'cm' ? 'cm' : 'in'; }
+  function toCm(v) { return unit === 'cm' ? v : v * CM_PER_IN; }
+  function fromCm(v) { return unit === 'cm' ? v : v / CM_PER_IN; }
+
+  // Reads one field. Returns {empty, valid, value} so callers can tell an
+  // empty optional field apart from a typo.
+  function read(el) {
+    var raw = (el.value || '').trim();
+    if (raw === '') return { empty: true, valid: false, value: NaN };
+    var v = Number(raw);
+    if (!isFinite(v)) return { empty: false, valid: false, value: NaN };
+    return { empty: false, valid: true, value: v };
+  }
+
+  function setError(id, msg, inputEl) {
+    var box = $(id);
+    if (box) box.textContent = msg || '';
+    if (inputEl) {
+      if (msg) inputEl.setAttribute('aria-invalid', 'true');
+      else inputEl.removeAttribute('aria-invalid');
+    }
+  }
+
+  // ── Validation ───────────────────────────────────────────────────────────
+  function validate() {
+    var errors = [];
+    var u = unitLabel();
+    var maxSide = Math.round(fromCm(MAX_SIDE_CM));
+    var maxDepth = unit === 'cm' ? 30 : 12;
+
+    function side(el, errId, name) {
+      var r = read(el), msg = '';
+      if (r.empty) msg = 'Enter a tank ' + name + '.';
+      else if (!r.valid) msg = 'Enter a tank ' + name + ' as a number.';
+      else if (r.value <= 0) msg = 'Enter a tank ' + name + ' greater than 0.';
+      else if (r.value > maxSide) msg = 'That ' + name + ' looks too large — enter a value up to ' + maxSide + ' ' + u + '.';
+      setError(errId, msg, el);
+      if (msg) errors.push(msg);
+      return msg ? null : r.value;
+    }
+
+    var length = side(els.length, 'err-length', 'length');
+    var width  = side(els.width,  'err-width',  'width');
+
+    var fr = read(els.front), frontMsg = '';
+    if (fr.empty) frontMsg = 'Enter a substrate depth.';
+    else if (!fr.valid) frontMsg = 'Enter the substrate depth as a number.';
+    else if (fr.value <= 0) frontMsg = 'Enter a substrate depth greater than 0.';
+    else if (fr.value > maxDepth) frontMsg = 'That depth looks too deep — enter a value up to ' + maxDepth + ' ' + u + '.';
+    setError('err-depth-front', frontMsg, els.front);
+    if (frontMsg) errors.push(frontMsg);
+
+    var bk = read(els.back), backMsg = '', back = null;
+    if (!bk.empty) {
+      if (!bk.valid) backMsg = 'Enter the back depth as a number, or leave it blank for a flat bed.';
+      else if (bk.value <= 0) backMsg = 'Enter a back depth greater than 0, or leave it blank for a flat bed.';
+      else if (bk.value > maxDepth) backMsg = 'That back depth looks too deep — enter a value up to ' + maxDepth + ' ' + u + '.';
+      else back = bk.value;
+    }
+    setError('err-depth-back', backMsg, els.back);
+    if (backMsg) errors.push(backMsg);
+
+    var key = els.type.value;
+    var density = SUBSTRATES[key] ? SUBSTRATES[key].density : null;
+    if (key === 'custom') {
+      var d = read(els.density), dMsg = '';
+      if (d.empty) dMsg = 'Enter a bulk density, or pick a substrate from the list.';
+      else if (!d.valid) dMsg = 'Enter the bulk density as a number.';
+      else if (d.value <= 0) dMsg = 'Enter a bulk density greater than 0.';
+      else if (d.value > 5) dMsg = 'That density is higher than solid rock — enter a value up to 5 g/cm³.';
+      else density = d.value;
+      setError('err-density', dMsg, els.density);
+      if (dMsg) errors.push(dMsg);
+    } else {
+      setError('err-density', '', els.density);
+    }
+
+    if (errors.length) return { ok: false, errors: errors };
+    return { ok: true, length: length, width: width, front: fr.value, back: back, key: key, density: density };
+  }
+
+  // ── Calculation ──────────────────────────────────────────────────────────
+  function compute(v) {
+    var lengthCm = toCm(v.length);
+    var widthCm  = toCm(v.width);
+    var avg      = v.back === null ? v.front : (v.front + v.back) / 2;
+    var avgCm    = toCm(avg);
+
+    var volCm3 = lengthCm * widthCm * avgCm;      // cubic centimetres
+    var litres = volCm3 / 1000;
+    var kg     = litres * v.density;              // g/cm3 == kg/L
+
+    return {
+      avg: avg,
+      sloped: v.back !== null,
+      footprint: v.length * v.width,              // in display units
+      volCm3: volCm3,
+      volIn3: volCm3 / CM3_PER_IN3,
+      litres: litres,
+      usGal: litres / L_PER_USGAL,
+      kg: kg,
+      lb: kg * LB_PER_KG,
+      buyKg: kg * 1.1,
+      buyLb: kg * 1.1 * LB_PER_KG
+    };
+  }
+
+  // ── Rendering ────────────────────────────────────────────────────────────
+  function renderErrors(errors) {
+    els.result.innerHTML =
+      '<div class="res-error">' +
+        '<h3>Check your measurements</h3>' +
+        '<ul>' + errors.map(function (e) { return '<li>' + esc(e) + '</li>'; }).join('') + '</ul>' +
+      '</div>';
+  }
+
+  function renderResult(v, r) {
+    var u = unitLabel();
+    var name = SUBSTRATES[v.key].label;
+    var volUnitLine = unit === 'cm'
+      ? num(r.volCm3, 0) + ' cm³'
+      : num(r.volIn3, 0) + ' in³';
+    var areaUnit = unit === 'cm' ? 'cm²' : 'sq in';
+    var depthText = num(r.avg, r.avg < 1 ? 2 : 1) + ' ' + u;
+
+    var sentence =
+      'For a ' + num(v.length, v.length % 1 ? 1 : 0) + ' × ' + num(v.width, v.width % 1 ? 1 : 0) + ' ' + u +
+      ' aquarium with a ' + depthText + (r.sloped ? ' average (sloped) ' : ' ') + 'substrate bed, you’ll need approximately ' +
+      num(r.lb, 1) + ' lb (' + num(r.kg, 1) + ' kg) of ' + name + '. Buying around ' +
+      num(Math.ceil(r.buyLb * 10) / 10, 1) + ' lb gives you a small buffer for levelling and settling.';
+
+    els.result.innerHTML =
+      '<div class="res-panel">' +
+        '<p class="res-eyebrow">You need approximately</p>' +
+        '<p class="res-weight"><span class="res-lb">' + num(r.lb, 1) + ' lb</span><span class="res-kg">' + num(r.kg, 1) + ' kg</span></p>' +
+        '<p class="res-of">of ' + esc(name) + '</p>' +
+        '<dl class="res-stats">' +
+          '<div class="res-row"><dt>Substrate volume</dt><dd>' + num(r.litres, 1) + ' L · ' + num(r.usGal, 2) + ' US gal</dd></div>' +
+          '<div class="res-row"><dt>Volume (' + (unit === 'cm' ? 'cubic cm' : 'cubic inches') + ')</dt><dd>' + volUnitLine + '</dd></div>' +
+          '<div class="res-row"><dt>Tank footprint</dt><dd>' + num(r.footprint, 0) + ' ' + areaUnit + '</dd></div>' +
+          '<div class="res-row"><dt>' + (r.sloped ? 'Average substrate depth' : 'Substrate depth') + '</dt><dd>' + depthText + (r.sloped ? ' (sloped)' : ' (flat)') + '</dd></div>' +
+          '<div class="res-row"><dt>Bulk density used</dt><dd>' + num(v.density, 2) + ' g/cm³</dd></div>' +
+        '</dl>' +
+        '<div class="res-buy">' +
+          '<div class="rb-label">Recommended purchase amount</div>' +
+          '<div class="rb-val">' + num(Math.ceil(r.buyLb * 10) / 10, 1) + ' lb · ' + num(Math.ceil(r.buyKg * 10) / 10, 1) + ' kg</div>' +
+          '<p>We recommend buying about 10% extra to account for settling, slopes, decoration placement, and differences between substrate brands.</p>' +
+        '</div>' +
+        '<p class="res-sentence">' + sentence + '</p>' +
+      '</div>';
+  }
+
+  function calculate() {
+    var v = validate();
+    if (!v.ok) { renderErrors(v.errors); return; }
+    renderResult(v, compute(v));
+  }
+
+  // ── Unit switching (values are converted, never discarded) ───────────────
+  function switchUnit(next) {
+    if (next === unit) return;
+    var factor = next === 'cm' ? CM_PER_IN : 1 / CM_PER_IN;
+    [els.length, els.width, els.front, els.back].forEach(function (el) {
+      var r = read(el);
+      if (r.valid) el.value = String(Math.round(r.value * factor * 100) / 100);
+    });
+    unit = next;
+    Array.prototype.forEach.call(document.querySelectorAll('.unit-lbl'), function (s) {
+      s.textContent = unitLabel();
+    });
+    calculate();
+  }
+
+  // ── Presets ──────────────────────────────────────────────────────────────
+  function renderPresets() {
+    els.presets.innerHTML = PRESETS.map(function (p, i) {
+      return '<button type="button" class="preset-btn" data-preset="' + i + '" aria-pressed="false">' +
+        esc(p.name) + '<small>' + p.l + ' × ' + p.w + ' in</small></button>';
+    }).join('');
+  }
+
+  function applyPreset(i) {
+    var p = PRESETS[i];
+    if (!p) return;
+    var f = unit === 'cm' ? CM_PER_IN : 1;
+    els.length.value = String(Math.round(p.l * f * 100) / 100);
+    els.width.value  = String(Math.round(p.w * f * 100) / 100);
+    Array.prototype.forEach.call(els.presets.querySelectorAll('.preset-btn'), function (b) {
+      b.setAttribute('aria-pressed', b.getAttribute('data-preset') === String(i) ? 'true' : 'false');
+    });
+    calculate();
+  }
+
+  function clearPresetState() {
+    Array.prototype.forEach.call(els.presets.querySelectorAll('.preset-btn'), function (b) {
+      b.setAttribute('aria-pressed', 'false');
+    });
+  }
+
+  // ── Wiring ───────────────────────────────────────────────────────────────
+  renderPresets();
+
+  els.presets.addEventListener('click', function (e) {
+    var btn = e.target.closest('.preset-btn');
+    if (btn) applyPreset(Number(btn.getAttribute('data-preset')));
+  });
+
+  [els.length, els.width, els.front, els.back, els.density].forEach(function (el) {
+    el.addEventListener('input', function () {
+      if (el === els.length || el === els.width) clearPresetState();
+      calculate();
+    });
+  });
+
+  els.type.addEventListener('change', function () {
+    els.custom.classList.toggle('hide', els.type.value !== 'custom');
+    calculate();
+  });
+
+  Array.prototype.forEach.call(document.querySelectorAll('input[name="sub-unit"]'), function (radio) {
+    radio.addEventListener('change', function () { if (radio.checked) switchUnit(radio.value); });
+  });
+
+  els.form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    calculate();
+    els.result.focus();
+  });
+
+  $('sub-reset-btn').addEventListener('click', function () {
+    unit = DEFAULTS.unit;
+    var inRadio = $('sub-unit-in');
+    if (inRadio) inRadio.checked = true;
+    Array.prototype.forEach.call(document.querySelectorAll('.unit-lbl'), function (s) { s.textContent = 'in'; });
+    els.length.value  = DEFAULTS.length;
+    els.width.value   = DEFAULTS.width;
+    els.front.value   = DEFAULTS.front;
+    els.back.value    = DEFAULTS.back;
+    els.type.value    = DEFAULTS.type;
+    els.density.value = DEFAULTS.density;
+    els.custom.classList.add('hide');
+    clearPresetState();
+    calculate();
+    els.length.focus();
+  });
+
+  calculate();
+})();
+
+// ── FAQ toggle ─────────────────────────────────────────────────────────────
+function toggleFaq(btn) {
+  var item = btn.closest('.faq-item');
+  var wasOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(function (el) {
+    el.classList.remove('open');
+    var q = el.querySelector('.faq-q');
+    if (q) q.setAttribute('aria-expanded', 'false');
+  });
+  if (!wasOpen) {
+    item.classList.add('open');
+    btn.setAttribute('aria-expanded', 'true');
+  }
+}
+</script>
+
+</body>
+</html>

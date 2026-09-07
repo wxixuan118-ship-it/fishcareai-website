@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" role="img" aria-labelledby="title desc"><title id="title">Why overfeeding shows up in your water test</title><desc id="desc">A causal chain: uneaten food settles, ammonia rises, nitrite spikes, gill stress and algae follow, ending in illness and cloudy water. Prevention: feed what is eaten in sixty to ninety seconds, one or two small feeds per day, and siphon leftovers at the next water change.</desc>
+<rect width="900" height="480" rx="18" fill="#EFF7FD"/><path d="M18 0H882Q900 0 900 18V98H0V18Q0 0 18 0" fill="#12507C"/>
+<g font-family="Segoe UI,Helvetica,Arial,sans-serif">
+<text x="32" y="44" font-size="29" font-weight="700" fill="white">Why overfeeding shows up in your water test</text>
+<text x="32" y="76" font-size="18" fill="#DAEEFF">Food you cannot see is still in the nitrogen cycle</text>
+
+<g transform="translate(28,120)">
+<rect width="844" height="170" rx="14" fill="#FFFFFF" stroke="#CFE3F1"/>
+<text x="24" y="34" font-size="20" font-weight="700" fill="#0F3D5E">What happens after the food lands</text>
+
+<g text-anchor="middle" font-size="13.5" fill="#0F3D5E">
+<g><rect x="36" y="60" width="140" height="84" rx="10" fill="#F6FBFF" stroke="#CFE3F1"/><rect x="36" y="60" width="140" height="5" rx="2.5" fill="#2E84C0"/><text x="106" y="98">Uneaten food</text><text x="106" y="118">settles</text></g>
+<g><rect x="194" y="60" width="140" height="84" rx="10" fill="#F6FBFF" stroke="#CFE3F1"/><rect x="194" y="60" width="140" height="5" rx="2.5" fill="#B8791A"/><text x="264" y="98">Ammonia</text><text x="264" y="118">rises</text></g>
+<g><rect x="352" y="60" width="140" height="84" rx="10" fill="#F6FBFF" stroke="#CFE3F1"/><rect x="352" y="60" width="140" height="5" rx="2.5" fill="#7451AA"/><text x="422" y="98">Nitrite</text><text x="422" y="118">spike</text></g>
+<g><rect x="510" y="60" width="140" height="84" rx="10" fill="#F6FBFF" stroke="#CFE3F1"/><rect x="510" y="60" width="140" height="5" rx="2.5" fill="#C0392B"/><text x="580" y="92">Gill stress</text><text x="580" y="110">and algae</text><text x="580" y="128">bloom</text></g>
+<g><rect x="668" y="60" width="140" height="84" rx="10" fill="#F8E4E1" stroke="#E0A79F"/><rect x="668" y="60" width="140" height="5" rx="2.5" fill="#8E2820"/><text x="738" y="92">Illness and</text><text x="738" y="110">cloudy</text><text x="738" y="128">water</text></g>
+</g>
+<g stroke="#8C7A6B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M180 95 189 102 180 109M338 95 347 102 338 109M496 95 505 102 496 109M654 95 663 102 654 109"/></g>
+</g>
+
+<g transform="translate(28,310)">
+<rect width="844" height="110" rx="14" fill="#E0F2EB" stroke="#9BCDBA"/>
+<text x="24" y="34" font-size="18" font-weight="700" fill="#185B47">Prevention — it all happens before the food hits the substrate</text>
+<g font-size="14" fill="#244D40">
+<rect x="24" y="50" width="252" height="40" rx="20" fill="#FFFFFF" stroke="#9BCDBA"/><text x="150" y="75" text-anchor="middle">Feed what is eaten in 60–90 s</text>
+<rect x="296" y="50" width="232" height="40" rx="20" fill="#FFFFFF" stroke="#9BCDBA"/><text x="412" y="75" text-anchor="middle">1–2 small feeds per day</text>
+<rect x="548" y="50" width="272" height="40" rx="20" fill="#FFFFFF" stroke="#9BCDBA"/><text x="684" y="75" text-anchor="middle">Siphon leftovers at the next change</text>
+</g>
+</g>
+
+<text x="450" y="456" text-anchor="middle" font-size="15" fill="#36566D">Portion sizes vary by species, age and food type. A skipped feeding day is far safer than a doubled one.</text>
+</g></svg>

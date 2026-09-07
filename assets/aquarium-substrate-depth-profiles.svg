@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc"><title id="title">Typical aquarium substrate depths</title><desc id="desc">Six aquarium cross-sections drawn to the same scale: bare-bottom 0 to 0.5 inches, decorative gravel 1 to 2 inches, standard freshwater 1 to 2 inches, planted 2 to 3 inches, deep-rooted planted 3 to 4 inches, and a sand bed 1 to 2 inches. General starting points, not strict rules.</desc>
+<rect width="900" height="560" rx="18" fill="#EFF7FD"/><path d="M18 0H882Q900 0 900 18V98H0V18Q0 0 18 0" fill="#12507C"/>
+<g font-family="Segoe UI,Helvetica,Arial,sans-serif">
+<text x="32" y="44" font-size="29" font-weight="700" fill="white">Typical aquarium substrate depths</text>
+<text x="32" y="76" font-size="18" fill="#DAEEFF">Same tank, same scale — only the bed depth changes</text>
+
+<g transform="translate(28,120)">
+<rect width="272" height="182" rx="14" fill="#FFFFFF" stroke="#CFE3F1"/>
+<text x="20" y="32" font-size="17" font-weight="700" fill="#0F3D5E">Bare-bottom / minimal</text>
+<text x="20" y="54" font-size="16" font-weight="800" fill="#B75A12">0–0.5 in · 0–1.3 cm</text>
+<rect x="22" y="70" width="228" height="88" fill="#DCEEFB"/><rect x="22" y="154" width="228" height="4" fill="#B75A12"/>
+<rect x="20" y="68" width="232" height="92" fill="none" stroke="#12507C" stroke-width="3"/>
+<text x="20" y="176" font-size="13" fill="#36566D">Breeding and quarantine tanks</text>
+</g>
+
+<g transform="translate(314,120)">
+<rect width="272" height="182" rx="14" fill="#FFFFFF" stroke="#CFE3F1"/>
+<text x="20" y="32" font-size="17" font-weight="700" fill="#0F3D5E">Decorative gravel</text>
+<text x="20" y="54" font-size="16" font-weight="800" fill="#B75A12">1–2 in · 2.5–5 cm</text>
+<rect x="22" y="70" width="228" height="72" fill="#DCEEFB"/><rect x="22" y="142" width="228" height="16" fill="#B75A12"/>
+<rect x="20" y="68" width="232" height="92" fill="none" stroke="#12507C" stroke-width="3"/>
+<text x="20" y="176" font-size="13" fill="#36566D">Hides the base, anchors decor</text>
+</g>
+
+<g transform="translate(600,120)">
+<rect width="272" height="182" rx="14" fill="#FFFFFF" stroke="#CFE3F1"/>
+<text x="20" y="32" font-size="17" font-weight="700" fill="#0F3D5E">Standard freshwater</text>
+<text x="20" y="54" font-size="16" font-weight="800" fill="#B75A12">1–2 in · 2.5–5 cm</text>
+<rect x="22" y="70" width="228" height="72" fill="#DCEEFB"/><rect x="22" y="142" width="228" height="16" fill="#B75A12"/>
+<rect x="20" y="68" width="232" height="92" fill="none" stroke="#12507C" stroke-width="3"/>
+<text x="20" y="176" font-size="13" fill="#36566D">Enough surface for bacteria</text>
+</g>
+
+<g transform="translate(28,318)">
+<rect width="272" height="182" rx="14" fill="#FFFFFF" stroke="#CFE3F1"/>
+<text x="20" y="32" font-size="17" font-weight="700" fill="#0F3D5E">Planted aquarium</text>
+<text x="20" y="54" font-size="16" font-weight="800" fill="#237C62">2–3 in · 5–7.6 cm</text>
+<rect x="22" y="70" width="228" height="64" fill="#DCEEFB"/><rect x="22" y="134" width="228" height="24" fill="#8A5A2B"/>
+<g stroke="#237C62" stroke-width="2" fill="none"><path d="M70 134v18M70 134c-8 6-10 12-10 18M70 134c8 6 10 12 10 18"/><path d="M180 134v18M180 134c-8 6-10 12-10 18M180 134c8 6 10 12 10 18"/></g>
+<g fill="#237C62"><path d="M64 128c6-10 12-10 12-10s-2 10-12 10Z"/><path d="M174 128c6-10 12-10 12-10s-2 10-12 10Z"/></g>
+<rect x="20" y="68" width="232" height="92" fill="none" stroke="#12507C" stroke-width="3"/>
+<text x="20" y="176" font-size="13" fill="#36566D">Room for stem and carpet roots</text>
+</g>
+
+<g transform="translate(314,318)">
+<rect width="272" height="182" rx="14" fill="#FFFFFF" stroke="#CFE3F1"/>
+<text x="20" y="32" font-size="17" font-weight="700" fill="#0F3D5E">Deep-rooted planted</text>
+<text x="20" y="54" font-size="16" font-weight="800" fill="#237C62">3–4 in · 7.6–10 cm</text>
+<rect x="22" y="70" width="228" height="54" fill="#DCEEFB"/><rect x="22" y="124" width="228" height="34" fill="#8A5A2B"/>
+<g stroke="#237C62" stroke-width="2" fill="none"><path d="M80 124v30M80 124c-12 10-14 20-14 30M80 124c12 10 14 20 14 30"/><path d="M190 124v30M190 124c-12 10-14 20-14 30M190 124c12 10 14 20 14 30"/></g>
+<g fill="#237C62"><path d="M72 118c8-14 16-14 16-14s-2 14-16 14Z"/><path d="M182 118c8-14 16-14 16-14s-2 14-16 14Z"/></g>
+<rect x="20" y="68" width="232" height="92" fill="none" stroke="#12507C" stroke-width="3"/>
+<text x="20" y="176" font-size="13" fill="#36566D">Swords, larger crypts, vallisneria</text>
+</g>
+
+<g transform="translate(600,318)">
+<rect width="272" height="182" rx="14" fill="#FFFFFF" stroke="#CFE3F1"/>
+<text x="20" y="32" font-size="17" font-weight="700" fill="#0F3D5E">Sand bed</text>
+<text x="20" y="54" font-size="16" font-weight="800" fill="#B75A12">1–2 in · 2.5–5 cm</text>
+<rect x="22" y="70" width="228" height="72" fill="#DCEEFB"/><rect x="22" y="142" width="228" height="16" fill="#D8C08A"/>
+<rect x="20" y="68" width="232" height="92" fill="none" stroke="#12507C" stroke-width="3"/>
+<text x="20" y="176" font-size="13" fill="#36566D">Kept shallow — sand compacts</text>
+</g>
+
+<text x="450" y="536" text-anchor="middle" font-size="15" fill="#36566D">General starting points, not strict rules. Depth depends on plant species, aquascape, livestock and substrate type.</text>
+</g></svg>

@@ -263,6 +263,14 @@ input.fc::placeholder,select.fc option{color:rgba(220,246,255,.5);background:#07
 .spec-card .em{font-size:2.2rem;margin-bottom:6px;display:block}
 .spec-card h4{color:#fff;font-size:.84rem;margin-bottom:3px}
 .spec-card p{font-size:.73rem;margin:0;color:rgba(220,246,255,.65)}
+/* INFO FIGURES */
+.info-fig{margin:22px auto 0;max-width:900px}
+.fig-scroll{max-width:100%}
+.info-fig img{display:block;width:100%;height:auto;border-radius:14px}
+.info-fig figcaption{padding:12px 4px 0;font-size:.84rem;line-height:1.6;color:rgba(220,246,255,.72)}
+.info-fig figcaption a{text-decoration:underline}
+/* Below ~700px the 900px artwork scales past legibility, so pan it like the wide tables. */
+@media(max-width:700px){.info-fig{max-width:calc(100vw - 40px)}.fig-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}.info-fig img{min-width:660px}}
 /* FOOTER */
 .ft{background:linear-gradient(180deg,#051525,#071D33);color:rgba(255,255,255,.75);padding:56px 0 32px}
 .ftg{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:32px;margin-bottom:36px}
@@ -306,6 +314,7 @@ input.fc::placeholder,select.fc option{color:rgba(220,246,255,.5);background:#07
   <a href="/tools/fish-feeding-calculator/" class="tnav-btn">🍽 Feeding</a>
   <a href="/tools/aquarium-planner/" class="tnav-btn">🧭 Planner</a>
   <a href="/tools/aquarium-equipment-calculator/" class="tnav-btn">⚙️ Equipment</a>
+  <a href="/tools/aquarium-substrate-calculator/" class="tnav-btn">🪨 Substrate</a>
 </nav>
 
 
@@ -420,6 +429,7 @@ input.fc::placeholder,select.fc option{color:rgba(220,246,255,.5);background:#07
       <h2>Aquarium size calculator — what it measures and how to use the result</h2>
       <p>A practical guide to getting the most accurate aquarium gallon and litre estimates from your inside dimensions.</p>
     </div>
+<figure class="info-fig"><div class="fig-scroll"><img src="/assets/aquarium-measuring-points-diagram.svg" alt="An aquarium in three-quarter view with five numbered measuring points: inside length, inside width, water height rather than tank height, and the substrate and decor that displace volume." width="900" height="560" loading="lazy" decoding="async"/></div><figcaption>Schematic. Measure inside the glass and use the water height, not the height of the tank — substrate and hardscape then displace part of what is left. <a href="/assets/aquarium-measuring-points-diagram.svg" target="_blank" rel="noopener">Open full-size diagram</a>.</figcaption></figure>
     <div class="g3">
       <div class="card tc">
         <div class="tag">Aquarium size calculator gallons</div>
@@ -485,7 +495,7 @@ input.fc::placeholder,select.fc option{color:rgba(220,246,255,.5);background:#07
     <h2>Tank size calculator vs aquarium size calculator: what&rsquo;s the difference?</h2>
     <p>There is no difference. A <strong>tank size calculator</strong>, a <strong>fish tank size calculator</strong> and an <strong>aquarium size calculator</strong> all answer the same question: how much water does this glass box actually hold? People reach for different words &mdash; some search &ldquo;fish tank gallon calculator&rdquo;, others &ldquo;aquarium volume calculator&rdquo; or &ldquo;tank volume calculator in litres&rdquo; &mdash; but the arithmetic is identical. This page handles all of them.</p>
     <p>What does change the answer is <em>how</em> you measure. A tank labelled 20 gallons rarely holds 20 gallons of water. Manufacturers name tanks by their nominal outside size, while the number you need for stocking, dosing and heater sizing is the usable water volume &mdash; measured inside the glass, minus what substrate, rock and equipment displace. That is the figure this calculator returns.</p>
-    <p>So whether you came here looking for a fish tank size calculator or an aquarium size calculator, use the same three steps: measure inside the glass, enter length, width and water height, then apply a displacement allowance for substrate and hardscape. The result is the volume your fish, filter and test kit actually live with.</p>
+    <p>So whether you came here looking for a fish tank size calculator or an aquarium size calculator, use the same three steps: measure inside the glass, enter length, width and water height, then apply a displacement allowance for substrate and hardscape. The result is the volume your fish, filter and test kit actually live with. Sizing that substrate layer is a separate job — the <a href="/tools/aquarium-substrate-calculator/">aquarium substrate calculator</a> turns the same footprint into the gravel or sand quantity you need to buy.</p>
   </div>
 </section>
 
@@ -526,7 +536,7 @@ input.fc::placeholder,select.fc option{color:rgba(220,246,255,.5);background:#07
       <a class="card tc" href="/tools/water-parameter-checker/" style="color:inherit;text-decoration:none"><h3>💧 Water Parameter Checker</h3><p>Enter pH, ammonia, nitrite, nitrate and temperature for an instant water-quality score.</p><span class="btn bp bsm" style="align-self:flex-start;margin-top:4px">Open Tool →</span></a>
       <a class="card tc" href="/tools/fish-feeding-calculator/" style="color:inherit;text-decoration:none"><h3>🍽 Feeding Calculator</h3><p>Estimate daily feeding frequency and portion rules to avoid overfeeding and water-quality problems.</p><span class="btn bp bsm" style="align-self:flex-start;margin-top:4px">Open Tool →</span></a>
       <a class="card tc" href="/tools/aquarium-planner/" style="color:inherit;text-decoration:none"><h3>🧭 Aquarium Planner</h3><p>Build a complete equipment, cycling and stocking checklist before buying animals.</p><span class="btn bp bsm" style="align-self:flex-start;margin-top:4px">Open Tool →</span></a>
-      
+      <a class="card tc" href="/tools/aquarium-substrate-calculator/" style="color:inherit;text-decoration:none"><h3>🪨 Aquarium Substrate Calculator</h3><p>Work out how much gravel, sand or aquarium soil your tank footprint needs, in litres and pounds.</p><span class="btn bp bsm" style="align-self:flex-start;margin-top:4px">Open Tool →</span></a>
       <a class="card tc" href="/guides/aquarium-water-parameters/" style="color:inherit;text-decoration:none"><h3>📚 Water Parameters Guide</h3><p>Expert guide to pH, ammonia, nitrite, nitrate, temperature and hardness for freshwater tanks.</p><span class="btn bp bsm" style="align-self:flex-start;margin-top:4px">Read Guide →</span></a>
     </div>
   </div>
@@ -539,7 +549,7 @@ input.fc::placeholder,select.fc option{color:rgba(220,246,255,.5);background:#07
       <div class="ftbr"><div><img class="fishcare-footer-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="150" height="38"/></div><p>Your trusted resource for fish care guides, free tools, and practical aquarium advice. Helping beginners build healthier freshwater tanks since 2026.</p></div>
       <div class="ftcol"><h3>Guides</h3><a href="/guides/">All Guides</a><a href="/guides/best-freshwater-fish-for-beginners/">Best Beginner Fish</a><a href="/guides/how-to-set-up-a-fish-tank/">Tank Setup Guide</a><a href="/guides/aquarium-water-parameters/">Water Parameters</a><a href="/guides/goldfish-care/">Goldfish Care</a><a href="/guides/fish-care-for-beginners/#beginner-fish-care-checklist">Beginner Checklist</a></div>
       <div class="ftcol"><h3>Encyclopedia</h3><a href="/species">All Species</a><a href="/species/neon-tetra">Neon Tetra</a><a href="/species/ocellaris-clownfish">Clownfish</a><a href="/species/bronze-cory">Corydoras</a><a href="/species/cherry-barb">Cherry Barb</a><a href="/species/dwarf-gourami">Dwarf Gourami</a></div>
-      <div class="ftcol"><h3>Tools</h3><a href="/tools/aquarium-size-calculator/">Aquarium Size Calculator</a><a href="/tools/fish-compatibility-checker/">Compatibility Checker</a><a href="/tools/water-parameter-checker/">Water Parameter Checker</a><a href="/tools/fish-feeding-calculator/">Feeding Calculator</a><a href="/tools/aquarium-planner/">Aquarium Planner</a></div>
+      <div class="ftcol"><h3>Tools</h3><a href="/tools/aquarium-size-calculator/">Aquarium Size Calculator</a><a href="/tools/aquarium-substrate-calculator/">Substrate Calculator</a><a href="/tools/fish-compatibility-checker/">Compatibility Checker</a><a href="/tools/water-parameter-checker/">Water Parameter Checker</a><a href="/tools/fish-feeding-calculator/">Feeding Calculator</a><a href="/tools/aquarium-planner/">Aquarium Planner</a></div>
       <div class="ftcol"><h3>More</h3><a href="/about/">About Us</a><a href="/contact/">Contact</a><a href="/partners/">Partners</a><a href="/privacy/">Privacy Policy</a></div>
     </div>
     <div class="ftb">© 2026 FishCare. All rights reserved.</div>

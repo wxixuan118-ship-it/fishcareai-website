@@ -263,6 +263,14 @@ input.fc:focus,select.fc:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(2
 .int-link-card .il-icon{font-size:1.5rem;margin-bottom:6px}
 .int-link-card h4{color:#fff;font-size:.9rem;margin-bottom:3px}
 .int-link-card p{font-size:.78rem;color:rgba(220,246,255,.65);margin:0}
+/* INFO FIGURES */
+.info-fig{margin:22px auto 0;max-width:900px}
+.fig-scroll{max-width:100%}
+.info-fig img{display:block;width:100%;height:auto;border-radius:14px}
+.info-fig figcaption{padding:12px 4px 0;font-size:.84rem;line-height:1.6;color:rgba(220,246,255,.72)}
+.info-fig figcaption a{text-decoration:underline}
+/* Below ~700px the 900px artwork scales past legibility, so pan it like the wide tables. */
+@media(max-width:700px){.info-fig{max-width:calc(100vw - 40px)}.fig-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}.info-fig img{min-width:660px}}
 /* FOOTER */
 .ft{background:linear-gradient(180deg,#08294C,#0F3D6E);color:rgba(255,255,255,.75);padding:56px 0 32px}
 .ftg{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:32px;margin-bottom:36px}
@@ -304,6 +312,7 @@ input.fc:focus,select.fc:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(2
   <a href="/tools/fish-feeding-calculator/" class="tnav-btn">🍽 Feeding</a>
   <a href="/tools/aquarium-planner/" class="tnav-btn">🧭 Planner</a>
   <a href="/tools/aquarium-equipment-calculator/" class="tnav-btn active">⚙️ Equipment</a>
+  <a href="/tools/aquarium-substrate-calculator/" class="tnav-btn">🪨 Substrate</a>
 </nav>
 
 
@@ -417,6 +426,7 @@ input.fc:focus,select.fc:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(2
       <h2>What each equipment result means</h2>
       <p>Here is how to interpret the four cards the aquarium equipment calculator produces and how to apply them when shopping.</p>
     </div>
+<figure class="info-fig"><div class="fig-scroll"><img src="/assets/aquarium-equipment-placement-diagram.svg" alt="An aquarium cross-section with the heater at one end, the filter intake at the opposite end, the filter outlet breaking the surface, an air stone, and a thermometer away from the heater." width="900" height="580" loading="lazy" decoding="async"/></div><figcaption>Schematic. Placement follows common practice; the wattage and GPH figures are rules of thumb to size from, not manufacturer specifications. <a href="/assets/aquarium-equipment-placement-diagram.svg" target="_blank" rel="noopener">Open full-size diagram</a>.</figcaption></figure>
     <div class="res-grid">
       <div class="res-card">
         <div class="res-icon">🌡️</div>
@@ -622,6 +632,7 @@ input.fc:focus,select.fc:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(2
       <div class="ftcol">
         <h5>Tools</h5>
         <a href="/tools/aquarium-size-calculator/">Aquarium Size Calculator</a>
+        <a href="/tools/aquarium-substrate-calculator/">Substrate Calculator</a>
         
         <a href="/tools/fish-compatibility-checker/">Compatibility Checker</a>
         <a href="/tools/water-parameter-checker/">Water Parameter Checker</a>

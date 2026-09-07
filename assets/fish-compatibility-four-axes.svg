@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="580" viewBox="0 0 900 580" role="img" aria-labelledby="title desc"><title id="title">How fish compatibility is judged</title><desc id="desc">Four range comparisons between two fish: temperature, pH, adult size and temperament. Temperature and pH overlap, but a five times adult size difference and a two level temperament gap both fail. Overlap on all four suggests compatibility; a gap on two or more means avoid the pairing.</desc>
+<rect width="900" height="580" rx="18" fill="#EFF7FD"/><path d="M18 0H882Q900 0 900 18V98H0V18Q0 0 18 0" fill="#12507C"/>
+<g font-family="Segoe UI,Helvetica,Arial,sans-serif">
+<text x="32" y="44" font-size="29" font-weight="700" fill="white">How fish compatibility is judged</text>
+<text x="32" y="76" font-size="18" fill="#DAEEFF">Four ranges must overlap — not just temperament</text>
+
+<g transform="translate(28,120)">
+<rect width="844" height="340" rx="14" fill="#FFFFFF" stroke="#CFE3F1"/>
+<g><rect x="24" y="22" width="14" height="14" rx="3" fill="#12507C"/><text x="44" y="34" font-size="13" fill="#36566D">Fish A</text><rect x="100" y="22" width="14" height="14" rx="3" fill="#7451AA"/><text x="120" y="34" font-size="13" fill="#36566D">Fish B</text><rect x="176" y="22" width="14" height="14" rx="3" fill="#237C62" opacity=".25"/><text x="196" y="34" font-size="13" fill="#36566D">Overlap = workable</text><rect x="326" y="22" width="14" height="14" rx="3" fill="#C0392B" opacity=".25"/><text x="346" y="34" font-size="13" fill="#36566D">Gap = problem</text></g>
+<path d="M186 56V328" stroke="#D8E5EF" stroke-width="1"/>
+
+<g font-size="16" font-weight="700" fill="#0F3D5E"><text x="24" y="80">Temperature</text><text x="24" y="148">pH</text><text x="24" y="216">Adult size</text><text x="24" y="284">Temperament</text></g>
+<g font-size="12.5" fill="#36566D"><text x="24" y="98">scale 60–86 °F</text><text x="24" y="166">scale 5.5–9.0</text><text x="24" y="234">scale 0–14 in</text><text x="24" y="302">4 levels</text></g>
+
+<rect x="518" y="66" width="136" height="41" fill="#237C62" opacity=".18"/>
+<rect x="518" y="66" width="136" height="41" fill="none" stroke="#237C62" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="472" y="70" width="182" height="13" rx="6.5" fill="#12507C"/>
+<rect x="518" y="90" width="181" height="13" rx="6.5" fill="#7451AA"/>
+<text x="660" y="81" font-size="12" fill="#36566D">A 72–80 °F</text>
+<text x="705" y="101" font-size="12" fill="#36566D">B 74–82 °F</text>
+
+<rect x="453" y="134" width="135" height="41" fill="#237C62" opacity=".18"/>
+<rect x="453" y="134" width="135" height="41" fill="none" stroke="#237C62" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="369" y="138" width="219" height="13" rx="6.5" fill="#12507C"/>
+<rect x="453" y="158" width="236" height="13" rx="6.5" fill="#7451AA"/>
+<text x="594" y="149" font-size="12" fill="#36566D">A 6.5–7.8</text>
+<text x="695" y="169" font-size="12" fill="#36566D">B 7.0–8.4</text>
+
+<rect x="284" y="202" width="337" height="41" fill="#C0392B" opacity=".14"/>
+<rect x="284" y="202" width="337" height="41" fill="none" stroke="#C0392B" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="200" y="206" width="84" height="13" rx="6.5" fill="#12507C"/>
+<rect x="200" y="226" width="421" height="13" rx="6.5" fill="#7451AA"/>
+<text x="292" y="217" font-size="12" fill="#36566D">A 2 in</text>
+<text x="628" y="237" font-size="12" fill="#36566D">B 10 in</text>
+<text x="452" y="257" text-anchor="middle" font-size="12.5" font-weight="700" fill="#A33327">5× adult size difference — predation risk</text>
+
+<g font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+<rect x="200" y="270" width="147" height="24" fill="#237C62"/><text x="273" y="286">Peaceful</text>
+<rect x="349" y="270" width="146" height="24" fill="#B8791A"/><text x="422" y="286">Semi-aggressive</text>
+<rect x="497" y="270" width="146" height="24" fill="#C0392B"/><text x="570" y="286">Aggressive</text>
+<rect x="645" y="270" width="145" height="24" fill="#8E2820"/><text x="717" y="286">Predatory</text>
+</g>
+<path d="M273 306 267 298h12Z" fill="#12507C"/><text x="286" y="306" font-size="12" font-weight="700" fill="#12507C">A</text>
+<path d="M570 306 564 298h12Z" fill="#7451AA"/><text x="583" y="306" font-size="12" font-weight="700" fill="#7451AA">B</text>
+<text x="452" y="326" text-anchor="middle" font-size="12.5" font-weight="700" fill="#A33327">Two levels apart — temperament gap</text>
+</g>
+
+<g transform="translate(28,478)">
+<rect width="268" height="76" rx="12" fill="#E0F2EB" stroke="#9BCDBA"/>
+<text x="22" y="32" font-size="16" font-weight="700" fill="#185B47">Overlap on all four</text>
+<text x="22" y="56" font-size="14" fill="#244D40">Likely compatible</text>
+</g>
+<g transform="translate(316,478)">
+<rect width="268" height="76" rx="12" fill="#FBF0DC" stroke="#DFC183"/>
+<text x="22" y="32" font-size="16" font-weight="700" fill="#8A5200">Gap on one axis</text>
+<text x="22" y="56" font-size="14" fill="#6E4405">Workable with care and space</text>
+</g>
+<g transform="translate(604,478)">
+<rect width="268" height="76" rx="12" fill="#F8E4E1" stroke="#E0A79F"/>
+<text x="22" y="32" font-size="16" font-weight="700" fill="#8E2820">Gap on two or more</text>
+<text x="22" y="56" font-size="14" fill="#7A2B22">Avoid the pairing</text>
+</g>
+</g></svg>

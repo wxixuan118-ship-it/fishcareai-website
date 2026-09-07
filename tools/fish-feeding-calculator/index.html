@@ -252,6 +252,14 @@ p:last-child{margin-bottom:0}
 .link-card h4{color:#fff;font-size:.9rem;margin:0}
 .link-card p{color:rgba(255,255,255,.5);font-size:.78rem;margin:0}
 
+/* INFO FIGURES */
+.info-fig{margin:22px auto 0;max-width:900px}
+.fig-scroll{max-width:100%}
+.info-fig img{display:block;width:100%;height:auto;border-radius:14px}
+.info-fig figcaption{padding:12px 4px 0;font-size:.84rem;line-height:1.6;color:rgba(220,246,255,.72)}
+.info-fig figcaption a{text-decoration:underline}
+/* Below ~700px the 900px artwork scales past legibility, so pan it like the wide tables. */
+@media(max-width:700px){.info-fig{max-width:calc(100vw - 40px)}.fig-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}.info-fig img{min-width:660px}}
 /* FOOTER */
 .ft{background:#071122;padding:52px 22px 20px;border-top:1px solid rgba(255,255,255,.08)}
 .ftg{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:28px;margin-bottom:36px}
@@ -308,6 +316,7 @@ p:last-child{margin-bottom:0}
   <a href="/tools/fish-feeding-calculator/" class="tnav-btn active">🍽 Feeding</a>
   <a href="/tools/aquarium-planner/" class="tnav-btn">🧭 Planner</a>
   <a href="/tools/aquarium-equipment-calculator/" class="tnav-btn">⚙️ Equipment</a>
+  <a href="/tools/aquarium-substrate-calculator/" class="tnav-btn">🪨 Substrate</a>
 </nav>
 
 <!-- BREADCRUMB -->
@@ -380,7 +389,7 @@ p:last-child{margin-bottom:0}
         <h2>&#128203; Your Feeding Plan</h2>
         <div id="feeding-result">
           <div class="result-placeholder">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,.4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            <svg aria-hidden="true" focusable="false" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,.4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
             <p style="color:rgba(255,255,255,.35);font-size:.87rem;margin:0">Select your species and fish count,<br/>then click <strong style="color:rgba(255,255,255,.5)">Calculate Feeding Plan</strong></p>
           </div>
         </div>
@@ -425,6 +434,7 @@ p:last-child{margin-bottom:0}
       <h2>What your feeding plan output means</h2>
       <p>Each result field gives you a different piece of the feeding puzzle. Here is what each one tells you.</p>
     </div>
+<figure class="info-fig"><div class="fig-scroll"><img src="/assets/overfeeding-water-quality-chain.svg" alt="A causal chain from uneaten food settling, to ammonia rising, a nitrite spike, gill stress and algae, and finally illness and cloudy water, with three prevention habits." width="900" height="480" loading="lazy" decoding="async"/></div><figcaption>Schematic of the causal chain, not measured data. Portion sizes vary by species, age and food type. <a href="/assets/overfeeding-water-quality-chain.svg" target="_blank" rel="noopener">Open full-size diagram</a>.</figcaption></figure>
     <div class="explain-grid">
       <div class="explain-card">
         <div class="explain-icon">&#9202;</div>
@@ -707,6 +717,7 @@ p:last-child{margin-bottom:0}
       <div class="ftcol">
         <h5>Tools</h5>
         <a title="Tank Size Calculator" href="/tools/aquarium-size-calculator/">Tank Size Calculator</a>
+        <a href="/tools/aquarium-substrate-calculator/">Substrate Calculator</a>
         <a title="Compatibility Checker" href="/tools/fish-compatibility-checker/">Compatibility Checker</a>
         <a title="Water Parameter Checker" href="/tools/water-parameter-checker/">Water Parameter Checker</a>
         <a title="Fish Feeding Calculator" href="/tools/fish-feeding-calculator/">Feeding Calculator</a>

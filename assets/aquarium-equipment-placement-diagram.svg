@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="580" viewBox="0 0 900 580" role="img" aria-labelledby="title desc"><title id="title">Where aquarium equipment goes, and how it is sized</title><desc id="desc">An aquarium cross-section showing heater placement at one end, filter intake at the opposite end, filter output breaking the water surface, an air stone, and a thermometer kept away from the heater. Sizing rules: heater watts equal gallons times three to five; filter GPH equals gallons times turnover rate.</desc>
+<rect width="900" height="580" rx="18" fill="#EFF7FD"/><path d="M18 0H882Q900 0 900 18V98H0V18Q0 0 18 0" fill="#12507C"/>
+<g font-family="Segoe UI,Helvetica,Arial,sans-serif">
+<text x="32" y="44" font-size="29" font-weight="700" fill="white">Where equipment goes, and how it is sized</text>
+<text x="32" y="76" font-size="18" fill="#DAEEFF">Placement drives circulation • volume drives capacity</text>
+
+<g transform="translate(28,120)">
+<rect width="520" height="350" rx="14" fill="#FFFFFF" stroke="#CFE3F1"/>
+<text x="24" y="36" font-size="20" font-weight="700" fill="#0F3D5E">Placement</text>
+
+<rect x="80" y="50" width="360" height="10" rx="4" fill="#F0C040"/>
+<g stroke="#B9903A" stroke-width="2"><path d="M104 60v16M416 60v16"/></g>
+<g stroke="#E0A800" stroke-width="2.5" opacity=".75"><path d="M150 62v12M210 62v12M270 62v12M330 62v12M390 62v12"/></g>
+<rect x="43" y="100" width="434" height="134" fill="#DCEEFB"/>
+<rect x="43" y="234" width="434" height="27" fill="#B75A12"/>
+<rect x="40" y="76" width="440" height="188" fill="none" stroke="#12507C" stroke-width="3"/>
+
+<path d="M452 71 447 98" stroke="#12507C" stroke-width="2"/><rect x="480" y="86" width="34" height="68" rx="4" fill="#4A6C82"/>
+<path d="M480 92h-20v10h20Z" fill="#4A6C82"/><path d="M464 102v10" stroke="#1B7FB8" stroke-width="7" opacity=".65"/>
+<path d="M466 148V214" stroke="#4A6C82" stroke-width="6"/>
+<rect x="458" y="210" width="16" height="20" rx="3" fill="#4A6C82"/>
+<g fill="none" stroke="#1B7FB8" stroke-width="2"><path d="M420 104q8-7 16 0M392 108q8-7 16 0M446 110q8-7 16 0"/></g>
+
+<rect x="60" y="126" width="14" height="96" rx="7" fill="#C0392B"/><path d="M67 126V82" stroke="#597D96" stroke-width="2"/>
+<rect x="330" y="120" width="9" height="46" rx="4" fill="#FFFFFF" stroke="#597D96" stroke-width="2"/><circle cx="334" cy="172" r="7" fill="#C0392B"/>
+<ellipse cx="230" cy="232" rx="19" ry="6" fill="#8FA3AD"/>
+<g fill="#FFFFFF" stroke="#1B7FB8" stroke-width="1.5"><circle cx="230" cy="214" r="4"/><circle cx="237" cy="192" r="3.5"/><circle cx="226" cy="172" r="3.5"/><circle cx="233" cy="150" r="3"/><circle cx="227" cy="128" r="3"/></g>
+
+<g fill="#12507C"><circle cx="67" cy="108" r="13"/><circle cx="437" cy="200" r="13"/><circle cx="452" cy="58" r="13"/><circle cx="264" cy="240" r="13"/><circle cx="334" cy="104" r="13"/></g>
+<g fill="#FFFFFF" font-size="14" font-weight="700" text-anchor="middle"><text x="67" y="113">1</text><text x="437" y="205">2</text><text x="452" y="63">3</text><text x="264" y="245">4</text><text x="334" y="109">5</text></g>
+
+<g font-size="13.5" fill="#36566D"><text x="24" y="296">1  Heater — one end, in the flow</text><text x="272" y="296">4  Air stone — extra oxygen</text><text x="24" y="318">2  Intake — the opposite end</text><text x="272" y="318">5  Thermometer — away from 1</text><text x="24" y="340">3  Output — breaks the surface</text></g>
+</g>
+
+<g transform="translate(568,120)">
+<rect width="304" height="350" rx="14" fill="#FFFFFF" stroke="#CFE3F1"/>
+<text x="24" y="36" font-size="20" font-weight="700" fill="#0F3D5E">Sizing</text>
+
+<text x="24" y="76" font-size="16" font-weight="700" fill="#12507C">Heater</text>
+<rect x="20" y="88" width="264" height="56" rx="8" fill="#F4FAFF" stroke="#CFE3F1"/>
+<text x="36" y="112" font-size="15" font-weight="700" fill="#0F3D5E">watts ≈ gallons × 3–5</text>
+<text x="36" y="132" font-size="13" fill="#36566D">cool room 5 W/gal · warm room 2–3</text>
+
+<text x="24" y="180" font-size="16" font-weight="700" fill="#12507C">Filter</text>
+<rect x="20" y="192" width="264" height="76" rx="8" fill="#F4FAFF" stroke="#CFE3F1"/>
+<text x="36" y="216" font-size="15" font-weight="700" fill="#0F3D5E">GPH = gallons × turnover</text>
+<text x="36" y="236" font-size="13" fill="#36566D">community 4–6× · goldfish 8–10×</text>
+<text x="36" y="256" font-size="13" fill="#36566D">saltwater and reef 10–20×</text>
+
+<text x="24" y="304" font-size="16" font-weight="700" fill="#12507C">Light</text>
+<rect x="20" y="316" width="264" height="34" rx="8" fill="#F4FAFF" stroke="#CFE3F1"/>
+<text x="36" y="338" font-size="13" fill="#36566D">8–10 h/day on a timer</text>
+</g>
+
+<rect x="28" y="488" width="844" height="70" rx="12" fill="#E0F2EB" stroke="#9BCDBA"/>
+<text x="48" y="518" font-size="19" font-weight="700" fill="#185B47">Rated GPH is measured empty — real flow through media runs 20–40% lower</text>
+<text x="48" y="544" font-size="15" fill="#244D40">Size from usable gallons, then round up to the next standard heater or filter.</text>
+</g></svg>

@@ -43,6 +43,14 @@
       href: '/tools/water-parameter-checker/',
       button: 'Water Parameter Checker →'
     },
+    '/tools/aquarium-substrate-calculator': {
+      targets: ['#sub-result'],
+      eyebrow: 'Related tool',
+      title: 'Check the water volume behind that footprint',
+      description: 'Turn the same length and width into usable gallons and litres.',
+      href: '/tools/aquarium-size-calculator/',
+      button: 'Aquarium Size Calculator →'
+    },
     '/tools/aquarium-planner': {
       targets: ['#tank-result'],
       eyebrow: 'Related tool',
