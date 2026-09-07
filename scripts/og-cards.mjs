@@ -88,6 +88,21 @@ export const TOOLS = {
     cta: 'Check Water Quality',
     result: ['Needs attention', 'Ammonia above safe range'],
   },
+  betta: {
+    out: 'betta-water-parameters-tool-card.png',
+    eyebrow: 'FREE TOOL',
+    icon: '\u{1F420}',
+    title: 'Betta Water Parameters',
+    sub: 'Score your readings against betta-specific ranges, not generic ones.',
+    chips: ['76\u201381\u00B0F', 'pH 6.5\u20137.8', '0 ppm ammonia'],
+    fields: [
+      ['Temperature (\u00B0F)', '74'],
+      ['pH', '7.2'],
+    ],
+    input: ['Ammonia (ppm)', '0.25'],
+    cta: "Check My Betta's Water",
+    result: ['Needs attention', 'Too cool \u00b7 ammonia above 0 ppm'],
+  },
   feeding: {
     out: 'fish-feeding-calculator-tool-card.png',
     eyebrow: 'FREE TOOL',

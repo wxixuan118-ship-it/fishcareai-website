@@ -27,6 +27,14 @@
       href: '/tools/water-parameter-checker/',
       button: 'Water Parameter Checker →'
     },
+    '/tools/betta-fish-water-parameters': {
+      targets: ['#betta-result'],
+      eyebrow: 'Related tool',
+      title: 'Compare against general community ranges',
+      description: 'Score the same readings against a mixed community tank instead of a betta.',
+      href: '/tools/water-parameter-checker/',
+      button: 'Water Parameter Checker →'
+    },
     '/tools/water-parameter-checker': {
       targets: ['#calc-result'],
       eyebrow: 'Related tool',
