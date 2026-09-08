@@ -188,7 +188,11 @@
     if (/^\/(?:admin\/|__forms\.html$|yandex_[^/]+\.html$)/.test(window.location.pathname)) return;
 
     var footer = document.querySelector('body > footer.ft');
-    if (!footer) return; // page has its own custom footer, skip
+    if (!footer) {
+      footer = document.createElement('footer');
+      footer.className = 'ft';
+      document.body.appendChild(footer);
+    }
 
     // If footer already has the full grid, don't duplicate
     if (footer.querySelector('.ftg')) return;
