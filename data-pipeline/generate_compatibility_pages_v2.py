@@ -177,8 +177,12 @@ def enhanced_compat(slug_a, slug_b):
         positives.append("Both species can be maintained together at about 82°F in soft, clean water.")
     if temp < 35: issues.append("Their preferred temperature ranges have little or no safe overlap.")
     else: positives.append("A stable shared temperature range is available.")
-    if ph < 35: issues.append("Their preferred pH ranges are difficult to reconcile.")
-    else: positives.append("Their pH requirements overlap.")
+    if ph < 35:
+        issues.append("Their preferred pH ranges are difficult to reconcile.")
+    elif ph < 75:
+        issues.append("Their usable pH overlap is narrow and requires stable water conditions.")
+    else:
+        positives.append("Their pH requirements overlap.")
     if temperament >= 75: positives.append("Temperament risk is relatively low when normal group sizes are maintained.")
     verdict = "compatible" if score >= 75 else "caution" if score >= 45 else "incompatible"
     color = {"compatible": "#27AE60", "caution": "#F39C12", "incompatible": "#E74C3C"}[verdict]
@@ -198,6 +202,30 @@ def tank_scenarios(a, b):
     )
 
 
+def related_guides(sa, sb):
+    """Return useful pair pages sharing either species, excluding this pair."""
+    candidates = []
+    for shared in (sa, sb):
+        for other in v1.SPECIES:
+            if other in (sa, sb):
+                continue
+            pair = "-and-".join(sorted((shared, other)))
+            result = enhanced_compat(shared, other)
+            priority = POPULARITY.get(other, 35)
+            candidates.append((priority, result["score"], pair, shared, other))
+    candidates.sort(key=lambda row: (-row[0], -row[1], row[2]))
+    selected = []
+    seen = set()
+    for _, _, pair, shared, other in candidates:
+        if pair in seen:
+            continue
+        seen.add(pair)
+        selected.append((pair, f"{v1.SPECIES[shared]['name']} + {v1.SPECIES[other]['name']}"))
+        if len(selected) == 6:
+            break
+    return selected
+
+
 def round_up(value):
     for gallons in (10, 15, 20, 29, 40, 55, 75, 90, 100, 125, 150, 180, 220, 300):
         if gallons >= value: return gallons
@@ -212,16 +240,14 @@ def seo_priority(sa, sb, result):
 
 def inject_v2(html_text, sa, sb, result):
     a, b = v1.SPECIES[sa], v1.SPECIES[sb]
-    score_rows = "".join(f"<tr><td>{label.replace('_',' ').title()}</td><td>{value}/100</td></tr>" for label, value in result["subscores"].items())
     scenarios = "".join(f"<tr><td><strong>{html.escape(label)}</strong></td><td>{gallons} gal</td><td>{html.escape(note)}</td></tr>" for label, gallons, note in tank_scenarios(a, b))
-    section = f'''<section class="card v2-analysis"><h2>Compatibility score breakdown</h2>
-<p>The overall score is weighted across water chemistry, behavior, adult size, swimming zone, and social needs. A score is a planning aid—not a guarantee for individual fish.</p>
-<table class="cmp-table"><thead><tr><th>Factor</th><th>Score</th></tr></thead><tbody>{score_rows}</tbody></table></section>
-<section class="card"><h2>Tank size scenarios</h2><p>Use the scenario that matches the actual group sizes and temperament you plan to keep.</p>
+    related = "".join(f'<a href="/compatibility/{pair}/">🔗 {html.escape(label)}</a>' for pair, label in related_guides(sa, sb))
+    section = f'''<section class="card"><h2>Tank size scenarios</h2><p>Use the scenario that matches the actual group sizes and temperament you plan to keep.</p>
 <table class="cmp-table"><thead><tr><th>Scenario</th><th>Tank</th><th>When it applies</th></tr></thead><tbody>{scenarios}</tbody></table></section>'''
     marker = '<div class="guide-links">'
+    related_block = f'<div class="related-pairs"><h3>More pair guides</h3><div class="guide-links">{related}</div></div>'
     pos = html_text.find(marker)
-    return html_text[:pos] + section + html_text[pos:] if pos >= 0 else html_text.replace("</main>", section + "</main>")
+    return html_text[:pos] + section + related_block + html_text[pos:] if pos >= 0 else html_text.replace("</main>", section + related_block + "</main>")
 
 
 def species_hub(slug, ranked):
@@ -235,7 +261,7 @@ def species_hub(slug, ranked):
 <link rel="canonical" href="https://www.fishcareai.com/compatibility/{slug}/"><link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260818-compat-v2">
 <style>{v1.CSS}.hub{{max-width:960px;margin:32px auto;padding:0 22px}}.pair{{display:flex;justify-content:space-between;gap:16px;background:#fff;border:1px solid var(--bd);border-radius:12px;padding:14px 16px;margin:8px 0;color:var(--tx)}}.pair small{{display:block;color:var(--mu)}}@media(max-width:620px){{.pair{{display:block}}}}</style></head><body>
 <header class="hero"><div class="con"><div class="breadcrumb"><a href="/">Home</a><span>›</span><a href="/compatibility/">Compatibility</a><span>›</span>{html.escape(fish['name'])}</div><h1>{html.escape(fish['name'])} Tank Mates</h1><p style="color:#dceef8">All 90 pair guides, ordered by search value and practical compatibility.</p></div></header>
-<main class="hub"><section class="card"><h2>Care baseline</h2><p>{html.escape(fish['desc'])}</p><table class="cmp-table"><tr><td>Temperature</td><td>{fish['temp_min']}–{fish['temp_max']}°F</td></tr><tr><td>pH</td><td>{fish['ph_min']}–{fish['ph_max']}</td></tr><tr><td>Adult size</td><td>{fish['size']} in</td></tr><tr><td>Minimum group</td><td>{fish['min_group']}</td></tr></table></section><h2>Compatibility guides</h2>{''.join(cards)}</main></body></html>'''
+<main class="hub"><section class="card"><h2>Care baseline</h2><p>{html.escape(fish['desc'])}</p><table class="cmp-table"><tr><td>Temperature</td><td>{fish['temp_min']}–{fish['temp_max']}°F</td></tr><tr><td>pH</td><td>{fish['ph_min']}–{fish['ph_max']}</td></tr><tr><td>Adult size</td><td>{fish['size']} in</td></tr><tr><td>Minimum group</td><td>{fish['min_group']}</td></tr></table></section>{'<section class="card shrimp-cluster"><h2>Betta &amp; Shrimp</h2><p>Compare the most common shrimp tank-mate options. Amano shrimp are usually the more robust choice; cherry and ghost shrimp remain individual-temperament risks.</p><div class="guide-links"><a href="/compatibility/betta-fish-and-amano-shrimp/">Betta &amp; Amano Shrimp</a><a href="/compatibility/betta-fish-and-cherry-shrimp/">Betta &amp; Cherry Shrimp</a><a href="/compatibility/betta-fish-and-ghost-shrimp/">Betta &amp; Ghost Shrimp</a></div></section>' if slug == 'betta-fish' else ''}<h2>Compatibility guides</h2>{''.join(cards)}</main></body></html>'''
 
 
 def rebuild_sitemap(pair_rows):

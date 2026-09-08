@@ -537,6 +537,8 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
 .card ul{margin:8px 0 12px 18px}
 .card li{font-size:.94rem;line-height:1.7;color:var(--mu);margin-bottom:5px}
 .card strong{color:var(--tx)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .cmp-table{width:100%;border-collapse:collapse;font-size:.86rem;margin:10px 0}
 .cmp-table th{background:var(--p);color:#fff;padding:9px 13px;text-align:left}
 .cmp-table td{padding:9px 13px;border-bottom:1px solid var(--bd);color:var(--mu);vertical-align:top}
@@ -573,7 +575,11 @@ def min_tank_size(a, b):
     base = max(a.get("min_group",1), b.get("min_group",1))
     size_a = a["size"]
     size_b = b["size"]
-    # rough rule: big_fish × 10 + schooling bonus
+    # Small community fish should not inherit an inflated size-only estimate.
+    # The old rule made a 3-inch betta plus guppies come out at 40 gal.
+    if max(size_a, size_b) <= 3:
+        return 20
+    # rough rule for larger fish: big_fish × 8 + schooling bonus
     needed = max(size_a, size_b) * 8
     if base > 1:
         needed += base * 3
@@ -629,14 +635,14 @@ def make_page(slug_a, slug_b):
     temp_cls = "ok" if temp_v.startswith("✅") else ("wn" if temp_v.startswith("⚠️") else "er")
 
     positives_html = "".join(
-        f'<div class="point point-ok"><span class="point-icon">✅</span><span>{p}</span></div>'
+        f'<div class="point point-ok"><span class="point-icon" aria-hidden="true">✅</span><span>{p}</span></div>'
         for p in compat["positives"]
-    ) or '<div class="point point-ok"><span class="point-icon">✅</span><span>No specific synergy notes; compatibility is primarily water-parameter based.</span></div>'
+    ) or '<div class="point point-ok"><span class="point-icon" aria-hidden="true">✅</span><span>No specific synergy notes; compatibility is primarily water-parameter based.</span></div>'
 
     issues_html = "".join(
-        f'<div class="point point-{"er" if verdict=="incompatible" else "wn"}"><span class="point-icon">{"❌" if verdict=="incompatible" else "⚠️"}</span><span>{i}</span></div>'
+        f'<div class="point point-{"er" if verdict=="incompatible" else "wn"}"><span class="point-icon" aria-hidden="true">{"❌" if verdict=="incompatible" else "⚠️"}</span><span>{i}</span></div>'
         for i in compat["issues"]
-    ) or '<div class="point point-ok"><span class="point-icon">✅</span><span>No major compatibility issues identified for this pair.</span></div>'
+    ) or '<div class="point point-ok"><span class="point-icon" aria-hidden="true">✅</span><span>No major compatibility issues identified for this pair.</span></div>'
 
     # Verdict paragraph
     if verdict == "compatible":
@@ -654,8 +660,8 @@ def make_page(slug_a, slug_b):
     else:
         verdict_para = (
             f"{a['name']} and {b['name']} are generally not recommended to be housed together. "
-            f"The issues listed above — whether water parameter incompatibility, predation risk, or aggression — "
-            f"create conditions where one or both fish are likely to suffer harm or chronic stress."
+            f"The specific risks listed above create conditions where one or both fish may suffer harm or chronic stress. "
+            f"Review the behavior and water details before deciding whether to attempt the pairing."
         )
 
     # FAQs
@@ -681,9 +687,11 @@ def make_page(slug_a, slug_b):
     ], ensure_ascii=False)
 
     canon = f"https://www.fishcareai.com/compatibility/{slug_a}-and-{slug_b}/"
-    title = f"Can {a['name']} Live With {b['name']}? Compatibility Guide | FishCare AI"
-    meta_desc = (f"{v_emoji} {v_text}: {a['name']} and {b['name']} compatibility — "
-                 f"temperature, pH, aggression risk, tank size, and verdict for keeping them together.")
+    title = ("Betta and Guppy Together? Why It Usually Fails | FishCare AI"
+             if frozenset((slug_a, slug_b)) == frozenset(("betta-fish", "guppy"))
+             else f"Can {a['name']} Live With {b['name']}? Compatibility Guide | FishCare AI")
+    meta_desc = (f"{v_text}: {a['name']} and {b['name']} compatibility, tank size, "
+                 f"temperature, pH, aggression risk, and safer setup advice.")[:155]
 
     breadcrumb_json = json.dumps({
         "@context":"https://schema.org","@type":"BreadcrumbList",
@@ -697,15 +705,28 @@ def make_page(slug_a, slug_b):
     article_json = json.dumps({
         "@context":"https://schema.org","@type":"Article",
         "headline":title,"description":meta_desc,
-        "datePublished":"2026-08-15","dateModified":"2026-08-15",
+        "datePublished":"2026-08-15","dateModified":"2026-08-18",
         "author":{"@type":"Organization","name":"FishCare AI Editorial Team"},
-        "publisher":{"@type":"Organization","name":"FishCare AI","url":"https://www.fishcareai.com"}
+        "publisher":{"@type":"Organization","name":"FishCare AI","url":"https://www.fishcareai.com","logo":{"@type":"ImageObject","url":"https://www.fishcareai.com/assets/fishcare-logo.svg"}},
+        "image":"https://www.fishcareai.com/assets/freshwater-fish-care-hero-optimized.jpg",
+        "mainEntityOfPage":{"@type":"WebPage","@id":canon}
     })
 
     faq_schema = json.dumps({
         "@context":"https://schema.org","@type":"FAQPage",
         "mainEntity":json.loads(faq_json_entities)
     })
+
+    editorial_html = ""
+    if frozenset((slug_a, slug_b)) == frozenset(("betta-fish", "guppy")):
+        editorial_html = '''
+    <div class="card editorial-note">
+      <h2>What changes the answer?</h2>
+      <p><strong>Betta sex and guppy tail shape matter.</strong> A female betta is not automatically community-safe, and male guppies with large flowing tails are the most likely to trigger chasing or fin damage. Short-finned, mostly female guppies reduce—but do not remove—the risk.</p>
+      <p><strong>Guppy fry are also vulnerable.</strong> Guppies are livebearers, and a betta may eat newborn fry. A breeder box or dense plants cannot turn this into a reliable breeding setup.</p>
+      <p>If attempted despite the risks, use a long, heavily planted aquarium with a cycled filter, a separate tank ready, and daily observation. Separate immediately for repeated chasing, torn fins, hiding, clamped fins, refusal to eat, or rapid breathing.</p>
+      <p><a href="/editorial-policy/">Read our editorial policy and care standards</a></p>
+    </div>'''
 
     return f"""<!DOCTYPE html>
 <html lang="en" data-adsense-content="true">
@@ -721,7 +742,14 @@ def make_page(slug_a, slug_b):
 <meta property="og:title" content="{title}"/>
 <meta property="og:description" content="{meta_desc}"/>
 <meta property="og:url" content="{canon}"/>
-<meta name="twitter:card" content="summary"/>
+<meta property="og:site_name" content="FishCare AI"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:image" content="https://www.fishcareai.com/assets/freshwater-fish-care-hero-optimized.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:image:alt" content="Freshwater aquarium fish care guide"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.fishcareai.com/assets/freshwater-fish-care-hero-optimized.jpg"/>
 <script type="application/ld+json">{breadcrumb_json}</script>
 <script type="application/ld+json">{article_json}</script>
 <script type="application/ld+json">{faq_schema}</script>
@@ -751,6 +779,7 @@ def make_page(slug_a, slug_b):
     </div>
     <div class="tag">🐠 Fish Compatibility Guide</div>
     <h1>Can {a['name']} Live With {b['name']}?</h1>
+    <p class="updated" style="color:rgba(255,255,255,.7);font-size:.82rem">Updated August 18, 2026 · FishCare AI Editorial Team</p>
     <div class="verdict-chip" style="background:{color}">{v_emoji} {v_text} — Compatibility Score: {score}/100</div>
     <div class="score-row">
       <div class="score-bar-wrap">
@@ -766,24 +795,24 @@ def make_page(slug_a, slug_b):
     <div class="card">
       <h2>Compatibility Overview</h2>
       <p>{verdict_para}</p>
-      <table class="cmp-table">
-        <tr><th>Factor</th><th>{a['name']}</th><th>{b['name']}</th><th>Verdict</th></tr>
+      <table class="cmp-table"><caption class="sr-only">Compatibility factors for {a['name']} and {b['name']}</caption>
+        <thead><tr><th scope="col">Factor</th><th scope="col">{a['name']}</th><th scope="col">{b['name']}</th><th scope="col">Verdict</th></tr></thead><tbody>
         <tr><td>Temperature</td><td>{a['temp_min']}–{a['temp_max']}°F</td><td>{b['temp_min']}–{b['temp_max']}°F</td><td class="{tv_cls}">{tv}</td></tr>
         <tr><td>pH Range</td><td>{a['ph_min']}–{a['ph_max']}</td><td>{b['ph_min']}–{b['ph_max']}</td><td class="{pv_cls}">{pv}</td></tr>
         <tr><td>Temperament</td><td style="text-transform:capitalize">{a['temperament']}</td><td style="text-transform:capitalize">{b['temperament']}</td><td class="{temp_cls}">{temp_v}</td></tr>
         <tr><td>Adult Size</td><td>{a['size']} in</td><td>{b['size']} in</td><td class="{size_cls}">{size_v}</td></tr>
         <tr><td>Min. Group</td><td>{a['min_group']}+</td><td>{b['min_group']}+</td><td>See below</td></tr>
         <tr><td>Min. Tank Size</td><td colspan="2" style="text-align:center">{min_tank} gallons (for both species)</td><td>—</td></tr>
-      </table>
+      </tbody></table>
     </div>
 
     <div class="card">
-      <h2>✅ Compatibility Positives</h2>
+      <h2>Compatibility Positives</h2>
       {positives_html}
     </div>
 
     <div class="card">
-      <h2>{'⚠️ Caution Points' if verdict!='incompatible' else '❌ Incompatibility Reasons'}</h2>
+      <h2>{'Caution Points' if verdict!='incompatible' else 'Incompatibility Reasons'}</h2>
       {issues_html}
     </div>
 
@@ -796,6 +825,8 @@ def make_page(slug_a, slug_b):
       <p>{b['desc']}</p>
       <p><a href="{b['wiki']}">→ Full {b['name']} care guide</a></p>
     </div>
+
+{editorial_html}
 
     <div class="card faq">
       <h2>Frequently Asked Questions</h2>
