@@ -871,6 +871,44 @@ body:has(.checklist) .content table th{
   color:#F5FDFF!important;
 }
 
+/* Checklist cards (.ck / .ck-mini), figure captions and breadcrumbs on the
+   legacy .hero/.content guides still ship light backgrounds from their inline
+   page CSS. The dark theme forces their text near-white, so without these the
+   copy lands white-on-white. Screen only: the guides print a paper checklist,
+   and their @media print block repaints these cards white with #111 text. */
+@media screen{
+  body:has(.hero) .ck,
+  body:has(.hero) .ck-mini{
+    background:linear-gradient(145deg,rgba(10,57,86,.84),rgba(4,23,38,.84))!important;
+    border-color:rgba(125,235,255,.24)!important;
+    box-shadow:0 24px 80px rgba(0,10,22,.36),inset 0 1px 0 rgba(255,255,255,.08)!important;
+  }
+  body:has(.hero) .ck strong,
+  body:has(.hero) .ck-mini strong{color:#F5FDFF!important}
+  body:has(.hero) .ck p,
+  body:has(.hero) .ck-mini p{color:rgba(226,247,255,.82)!important}
+  body:has(.hero) .ck-box{
+    background:rgba(4,24,39,.55)!important;
+    border-color:#7DEBFF!important;
+  }
+  /* Matched on the inline value so only the captions that actually carry the
+     light #F8FAFE band are repainted; captions with no background of their own
+     already read correctly against the dark article panel. */
+  body:has(.hero) .content figcaption[style*="#F8FAFE"]{
+    background:rgba(4,28,46,.88)!important;
+    border-top:1px solid rgba(125,235,255,.16)!important;
+  }
+  /* .byline span keeps the light-theme muted ink (#5A7A94) even though the
+     card behind it is now dark glass — only ~4:1, so lift it to the panel's
+     own muted tone. */
+  body:has(.hero) .byline span{color:rgba(226,247,255,.82)!important}
+  body:has(.hero) .byline strong{color:#F5FDFF!important}
+  body:has(.hero) .breadcrumb li,
+  body:has(.hero) .breadcrumb [aria-current]{color:rgba(226,247,255,.72)!important}
+  body:has(.hero) .breadcrumb a{color:#7DEBFF!important}
+  body:has(.hero) .breadcrumb li+li::before{color:rgba(125,235,255,.4)!important}
+}
+
 body.tools-dark-page .tool-seo-content{margin-top:32px}
 body.tools-dark-page .con{max-width:1440px}
 body.tools-dark-page .tool-seo-content .card{background:linear-gradient(145deg,rgba(10,57,86,.84),rgba(4,23,38,.84))!important;border-color:rgba(125,235,255,.24)!important;color:#EAFBFF!important}
