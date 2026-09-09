@@ -282,7 +282,7 @@ POND_SETUP_BODY = """    <p>A koi pond is not a scaled-up goldfish pond. Koi rea
       <tr><td>3,500 gal</td><td>7&ndash;14 koi</td><td>Stable temperature, room for adult growth</td></tr>
       <tr><td>5,000 gal+</td><td>10&ndash;20 koi</td><td>Show-quality territory; supports jumbo koi</td></tr>
     </table>
-    <p>To convert dimensions to volume: <strong>length &times; width &times; average depth (feet) &times; 7.48 = gallons</strong>. A 10 &times; 6 &times; 3 ft pond holds about 1,346 gallons. Our <a href="/calculators/koi-fish-tank-size/">koi pond size calculator</a> does this for you and cross-checks it against your koi count.</p>
+    <p>To convert dimensions to volume: <strong>length &times; width &times; average depth (feet) &times; 7.48 = gallons</strong>. A 10 &times; 6 &times; 3 ft pond holds about 1,346 gallons. Our <a href="/tools/koi-pond-calculator/">koi pond calculator</a> does this for you for rectangular, circular, oval and irregular ponds, and the <a href="/tools/koi-pond-stocking-calculator/">koi pond stocking calculator</a> cross-checks the result against your koi count and filtration.</p>
     <div class="callout"><strong>Surface area matters as much as volume.</strong> Oxygen enters through the surface, so a wide shallow-ish pond gases better than a narrow deep well of the same volume. Aim for at least 1 square foot of surface per inch of adult koi length before counting on mechanical aeration.</div>
 
     <h2 id="pond-depth">Koi Pond Depth: 3 Feet Minimum</h2>
@@ -310,6 +310,7 @@ POND_SETUP_BODY = """    <p>A koi pond is not a scaled-up goldfish pond. Koi rea
 
     <h2 id="filtration">Filtration and Turnover</h2>
     <p>Koi ponds are filtration projects with fish in them. Target a <strong>full turnover of pond volume every 1&ndash;2 hours</strong> &mdash; a 2,000-gallon pond wants a pump moving 1,000&ndash;2,000 GPH after head loss, not on the box rating.</p>
+    <p>The <a href="/tools/koi-pond-pump-calculator/">koi pond pump size calculator</a> works out that head loss from your pipe diameter, run length and elbows, so you can compare pumps on flow <em>at</em> the head they will actually see.</p>
     <ul>
       <li><strong>Mechanical stage:</strong> settlement chamber, sieve or drum filter. Removes solids before they rot into ammonia. This stage does most of the work in a koi pond.</li>
       <li><strong>Biological stage:</strong> moving-bed media (K1), bioballs or matting. Size for the feed load, not the volume &mdash; heavily fed koi need more biomedia than the pond size alone suggests.</li>
@@ -369,7 +370,10 @@ POND_SETUP = {
          "Yes. The pump and the air pump run 24 hours a day year-round. Biological filter bacteria die within hours without flow, and oxygen levels fall fastest overnight when a stopped pump does the most damage."),
     ],
     "related": [
-        ("/calculators/koi-fish-tank-size/", "Koi Pond Size Calculator"),
+        ("/tools/koi-pond-calculator/", "Koi Pond Calculator"),
+        ("/tools/koi-pond-stocking-calculator/", "Koi Pond Stocking Calculator"),
+        ("/tools/koi-pond-pump-calculator/", "Koi Pond Pump Size Calculator"),
+        ("/tools/koi-pond-liner-calculator/", "Koi Pond Liner Calculator"),
         ("/guides/koi-fish-care/water-parameters/", "Koi Water Parameters"),
         ("/guides/koi-fish-care/", "Koi Fish Care Guide"),
         ("/guides/koi-fish-tank/", "Koi Fish Tank Guide"),
@@ -535,6 +539,7 @@ FEEDING_BODY = """    <p>Koi are omnivores with an appetite that runs on water t
 
     <h2 id="how-much">How Much to Feed</h2>
     <p>Two methods, both sound. The <strong>5-minute rule</strong> &mdash; feed what disappears in five minutes &mdash; is what most keepers use day to day. The <strong>body-weight method</strong> is more precise for grow-out ponds: feed roughly 1% of total koi body weight per day at 60&deg;F, rising to about 3% at 75&deg;F, split across the day's meals.</p>
+    <p>The <a href="/tools/koi-feeding-calculator/">koi feeding calculator</a> applies the body-weight method for you: enter how many koi you have, their average length and the water temperature, and it returns the daily weight in grams, the number of feedings and the food type for that temperature band.</p>
     <p>Overfeeding rarely harms the fish directly; it harms the water. Uneaten pellets and the extra waste from overfed koi push ammonia up and oxygen down, which is what actually causes the losses blamed on food.</p>
 
     <h2 id="not-eating">Koi Not Eating</h2>
@@ -581,6 +586,7 @@ FEEDING = {
     "related": [
         ("/guides/koi-fish-care/water-parameters/", "Koi Water Parameters"),
         ("/guides/koi-fish-care/size-growth/", "Koi Size & Growth Rate"),
+        ("/tools/koi-feeding-calculator/", "Koi Feeding Calculator"),
         ("/tools/fish-feeding-calculator/", "Fish Feeding Calculator"),
         ("/guides/koi-fish-care/", "Koi Fish Care Guide"),
     ],
@@ -1167,8 +1173,8 @@ MATES_BODY = """    <p>Koi are peaceful, but they are large, coldwater, and cons
       <tr><td>Fancy goldfish (oranda, ryukin)</td><td>&#9888;&#65039; Not with adult koi</td><td>Too slow to compete for food; koi bump and outcompete them</td></tr>
       <tr><td>Weather loach (dojo)</td><td>&#9989; Good in mild climates</td><td>Coldwater bottom dweller, peaceful, hides in substrate</td></tr>
       <tr><td>Rosy red minnows</td><td>&#9888;&#65039; Feeder fish</td><td>Will be eaten by adult koi; useful only in a heavily planted pond</td></tr>
-      <tr><td>Plecos and tropical catfish</td><td>&#10060; No (outdoors)</td><td>Tropical; will not survive pond winters</td></tr>
-      <tr><td>Turtles</td><td>&#10060; No</td><td>Bite fins and tails; opportunistic predators of smaller koi</td></tr>
+      <tr><td><a href="/compatibility/koi-and-pleco/">Plecos</a> and tropical catfish</td><td>&#10060; No &mdash; 0/100</td><td>Tropical; will not survive pond winters</td></tr>
+      <tr><td><a href="/compatibility/koi-and-turtles/">Turtles</a></td><td>&#10060; No &mdash; 18/100</td><td>Bite fins and tails; opportunistic predators of smaller koi</td></tr>
       <tr><td>Tropical community fish (tetras, guppies, gouramis)</td><td>&#10060; No</td><td>Wrong temperature; small enough to be eaten</td></tr>
       <tr><td>Cichlids of any kind</td><td>&#10060; No</td><td>Tropical, territorial, and aggressive toward slow-moving koi</td></tr>
     </table>
@@ -1185,6 +1191,7 @@ MATES_BODY = """    <p>Koi are peaceful, but they are large, coldwater, and cons
     </ul>
 
     <h2 id="turtles">Koi and Turtles</h2>
+    <p><strong>Verdict: not compatible &mdash; 18/100.</strong> Full scoring and the husbandry conflicts are on the <a href="/compatibility/koi-and-turtles/">koi and turtles compatibility page</a>.</p>
     <p>Do not keep turtles with koi. Red-eared sliders, painted turtles and snapping turtles are all opportunistic carnivores, and a pond of slow-moving, long-finned fish is exactly what they will act on.</p>
     <ul>
       <li>Turtles bite fins and tails, causing wounds that turn into bacterial ulcers even when the fish survives the bite.</li>
@@ -1195,6 +1202,7 @@ MATES_BODY = """    <p>Koi are peaceful, but they are large, coldwater, and cons
     <p>If you want both, keep them in separate systems. A juvenile turtle in a big pond may coexist for a while &mdash; that is a delay, not compatibility.</p>
 
     <h2 id="pleco">Koi and Plecos</h2>
+    <p><strong>Verdict: not compatible &mdash; 0/100.</strong> Full scoring and the indoor-tank exception are on the <a href="/compatibility/koi-and-pleco/">koi and pleco compatibility page</a>.</p>
     <p>Plecos are tropical South American catfish that need 74&ndash;80&deg;F. In an outdoor koi pond in any temperate climate, a pleco will die over winter, so this pairing is only ever an <strong>indoor, heated aquarium</strong> question &mdash; and an indoor tank is already a poor long-term home for koi.</p>
     <ul>
       <li><strong>Temperature conflict:</strong> koi do best at 59&ndash;77&deg;F, plecos at 74&ndash;80&deg;F. The overlap is narrow and suits neither well.</li>
@@ -1244,6 +1252,8 @@ MATES = {
     "related": [
         ("/compatibility/koi/", "Koi Compatibility Guides"),
         ("/compatibility/goldfish-and-koi/", "Koi and Goldfish"),
+        ("/compatibility/koi-and-turtles/", "Koi and Turtles"),
+        ("/compatibility/koi-and-pleco/", "Koi and Plecos"),
         ("/tools/fish-compatibility-checker/", "Compatibility Checker"),
         ("/guides/koi-fish-care/pond-setup/", "Koi Pond Size & Setup"),
     ],
