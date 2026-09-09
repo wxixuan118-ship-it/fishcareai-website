@@ -293,6 +293,18 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
 .ftcol button,.ftcol a{display:block;color:rgba(255,255,255,.55);font-size:.8rem;margin-bottom:7px;cursor:pointer;border:none;background:none;text-align:left;transition:color .15s;padding:0}
 .ftcol button:hover,.ftcol a:hover{color:#fff}
 .ftb{border-top:1px solid rgba(255,255,255,.1);padding-top:16px;text-align:center;color:rgba(255,255,255,.35);font-size:.75rem}
+/* FOOTER BADGE RAIL */
+.badge-rail-wrap{position:relative;display:flex;align-items:center;gap:6px;margin-top:8px}
+.badge-rail{display:flex;align-items:center;gap:12px;overflow-x:auto;scroll-behavior:smooth;flex:1;padding:4px 2px;-ms-overflow-style:none;scrollbar-width:none}
+.badge-rail::-webkit-scrollbar{display:none}
+.badge-rail>a{flex:0 0 auto;display:inline-flex;align-items:center;opacity:.9;transition:opacity .15s,transform .15s}
+.badge-rail>a:hover{opacity:1;transform:translateY(-1px)}
+.badge-rail>a img{height:44px!important;width:auto!important;max-width:none!important;display:block}
+.badge-nav{flex:0 0 auto;width:30px;height:30px;border-radius:50%;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.08);color:#fff;font-size:1rem;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s,opacity .15s}
+.badge-nav:hover{background:rgba(255,255,255,.18)}
+.badge-nav[disabled]{opacity:.25;cursor:default}
+.badge-nav[hidden]{display:none}
+@media(max-width:600px){.badge-rail>a img{height:38px!important}.badge-nav{width:26px;height:26px}}
 @media(max-width:760px){.ftg{grid-template-columns:1fr 1fr}}
 @media(max-width:480px){.ftg{grid-template-columns:1fr}}
 /* TOOLS */
@@ -717,7 +729,9 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
       <div class="ftcol"><h3>More</h3><a title="About Us" href="/about/">About Us</a><a title="Contact" href="/contact/">Contact</a><a title="Partners" href="partners/">Partners</a><a title="Privacy Policy" href="privacy/">Privacy Policy</a></div>
     </div>
     <div class="ftb">© 2026 FishCare. All rights reserved.</div>
-    <div class="ftb" style="margin-top:8px"><a href="https://aidreamhub.com" target="_blank" rel="noopener"><img src="https://aidreamhub.com/api/badge" alt="Featured on AI Dreamhub" width="200" height="54" loading="lazy" decoding="async" style="max-width:100%;height:auto"></a>
+    <div class="ftb badge-rail-wrap" style="margin-top:8px">
+      <button class="badge-nav" type="button" id="badgePrev" aria-label="Scroll badges left" aria-controls="badgeRail">&#8249;</button>
+      <div class="badge-rail" id="badgeRail"><a href="https://aidreamhub.com" target="_blank" rel="noopener"><img src="https://aidreamhub.com/api/badge" alt="Featured on AI Dreamhub" width="200" height="54" loading="lazy" decoding="async" style="max-width:100%;height:auto"></a>
       <a href="https://auraplusplus.com/projects/fishcare-ai-aquarium-fish-care-guide" target="_blank" rel="noopener" title="View this project on Aura++">
         <img src="https://auraplusplus.com/images/badges/featured-on-light.svg" alt="Featured on Aura++" width="265" height="58" />
       </a>
@@ -760,8 +774,33 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
       <a href="https://saaspa.ge/product/cmtrsd6nj000ald04lsfaoczo" target="_blank" rel="nofollow">
         <img src="https://saaspa.ge/api/embed/product/cmtrsd6nj000ald04lsfaoczo/badge.png?theme=white" alt="Featured on Saaspa.ge" width="200" height="60" />
       </a>
+      </div>
+      <button class="badge-nav" type="button" id="badgeNext" aria-label="Scroll badges right" aria-controls="badgeRail">&#8250;</button>
     </div>
   </div>
+<script>
+(function(){
+  var rail=document.getElementById('badgeRail'),
+      prev=document.getElementById('badgePrev'),
+      next=document.getElementById('badgeNext');
+  if(!rail||!prev||!next)return;
+  function step(){return Math.max(160,Math.round(rail.clientWidth*0.8));}
+  function sync(){
+    var max=rail.scrollWidth-rail.clientWidth-1;
+    prev.disabled=rail.scrollLeft<=0;
+    next.disabled=rail.scrollLeft>=max;
+    var hide=max<=0;
+    prev.hidden=next.hidden=hide;
+  }
+  prev.addEventListener('click',function(){rail.scrollBy({left:-step(),behavior:'smooth'});});
+  next.addEventListener('click',function(){rail.scrollBy({left:step(),behavior:'smooth'});});
+  rail.addEventListener('scroll',sync,{passive:true});
+  window.addEventListener('resize',sync);
+  window.addEventListener('load',sync);
+  rail.querySelectorAll('img').forEach(function(img){img.addEventListener('load',sync);});
+  sync();
+})();
+</script>
 <nav class="legal-links" aria-label="Legal and company information"><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/editorial-policy/">Editorial Policy</a><a href="/privacy/">Privacy</a><a href="/image-credits/">Image Credits</a></nav></footer>
 
 <script>
