@@ -51,6 +51,56 @@
       href: '/tools/water-parameter-checker/',
       button: 'Water Parameter Checker →'
     },
+    // Koi pond cluster. Each tool hands off to the one whose answer it needs
+    // next, so the six pages form a loop rather than all pointing at the hub.
+    '/tools/koi-pond-calculator': {
+      targets: ['#pond-result'],
+      eyebrow: 'Related tool',
+      title: 'Turn that volume into a stocking limit',
+      description: 'See how many koi the pond supports once the fish reach adult size.',
+      href: '/tools/koi-pond-stocking-calculator/',
+      button: 'Koi Stocking Calculator \u2192'
+    },
+    '/tools/koi-pond-stocking-calculator': {
+      targets: ['#stock-result'],
+      eyebrow: 'Related tool',
+      title: 'Work out what that stocking level eats',
+      description: 'Daily food weight for these fish, set by the water temperature.',
+      href: '/tools/koi-feeding-calculator/',
+      button: 'Koi Feeding Calculator \u2192'
+    },
+    '/tools/koi-pond-pump-calculator': {
+      targets: ['#pump-result'],
+      eyebrow: 'Related tool',
+      title: 'Check the pond volume behind that flow rate',
+      description: 'Turnover is only as accurate as the gallon figure it is based on.',
+      href: '/tools/koi-pond-calculator/',
+      button: 'Koi Pond Calculator \u2192'
+    },
+    '/tools/koi-pond-liner-calculator': {
+      targets: ['#liner-result'],
+      eyebrow: 'Related tool',
+      title: 'How much water will that pond hold?',
+      description: 'The same length, width and depth converted into gallons and litres.',
+      href: '/tools/koi-pond-calculator/',
+      button: 'Koi Pond Calculator \u2192'
+    },
+    '/tools/koi-pond-salt-calculator': {
+      targets: ['#salt-result'],
+      eyebrow: 'Related tool',
+      title: 'Check the readings before you treat',
+      description: 'Ammonia, nitrite, nitrate and pH often explain what salt cannot fix.',
+      href: '/tools/water-parameter-checker/',
+      button: 'Water Parameter Checker \u2192'
+    },
+    '/tools/koi-feeding-calculator': {
+      targets: ['#feed-result'],
+      eyebrow: 'Related tool',
+      title: 'Is the pond carrying too many fish?',
+      description: 'Feeding problems and stocking problems usually turn out to be the same one.',
+      href: '/tools/koi-pond-stocking-calculator/',
+      button: 'Koi Stocking Calculator \u2192'
+    },
     '/tools/aquarium-substrate-calculator': {
       targets: ['#sub-result'],
       eyebrow: 'Related tool',

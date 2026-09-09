@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en" data-adsense-content="true">
+<head>
+<meta charset="UTF-8"/>
+<meta name="apple-itunes-app" content="app-id=6793299571">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<base href="/">
+<title>Koi Pond Pump Size Calculator – GPH &amp; Head Height</title>
+<meta name="description" content="Free koi pond pump size calculator. Get the GPH your pond needs at its real head height, including friction loss from pipe size, run length and elbows, plus waterfall flow."/>
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"/>
+<link rel="canonical" href="https://www.fishcareai.com/tools/koi-pond-pump-calculator/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Koi Pond Pump Size Calculator – GPH &amp; Head Height"/>
+<meta property="og:description" content="Work out the GPH your koi pond pump needs at its real head height, including friction loss from pipe size, run length and elbows."/>
+<meta property="og:url" content="https://www.fishcareai.com/tools/koi-pond-pump-calculator/"/>
+<meta property="og:image" content="https://www.fishcareai.com/assets/tool-cards/koi-pond-pump-tool-card.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Koi Pond Pump Size Calculator – GPH &amp; Head Height"/>
+<meta name="twitter:description" content="Work out the GPH your koi pond pump needs at its real head height, including friction loss from pipe size, run length and elbows."/>
+<meta name="twitter:image" content="https://www.fishcareai.com/assets/tool-cards/koi-pond-pump-tool-card.png"/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Koi Pond Pump Size Calculator",
+  "url": "https://www.fishcareai.com/tools/koi-pond-pump-calculator/",
+  "applicationCategory": "UtilityApplication",
+  "operatingSystem": "Any",
+  "browserRequirements": "Requires JavaScript",
+  "description": "Free koi pond pump size calculator that converts pond volume and turnover rate into a required flow in GPH, then adds friction loss from pipe diameter, run length and fittings to give the total dynamic head the pump has to work against.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "featureList": [
+    "Required GPH from pond volume and turnover rate",
+    "Total dynamic head including friction loss",
+    "Pipe diameter and elbow allowance",
+    "Water velocity warning for undersized pipe",
+    "Waterfall flow requirement",
+    "Pump size chart by pond volume"
+  ],
+  "image": [
+    "https://www.fishcareai.com/assets/tool-cards/koi-pond-pump-tool-card.png",
+    "https://www.fishcareai.com/assets/tool-cards/koi-pond-pump-tool-card-square.png"
+  ],
+  "screenshot": "https://www.fishcareai.com/assets/tool-cards/koi-pond-pump-tool-card.png"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What size pump do I need for my koi pond? ▾",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Size for one full turnover of the pond volume per hour, so a 3,000 US gallon pond needs about 3,000 GPH. The important detail is that the flow must be delivered at your actual head height, not at zero head where pumps are rated. Add the vertical lift to the friction loss from pipe length, diameter and elbows to get the total dynamic head, then pick a pump whose published curve shows your required flow at that head."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is total dynamic head on a pond pump? ▾",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Total dynamic head is everything the pump pushes against, measured in feet of water. It is the vertical lift from the water surface to the highest point in the system, plus friction loss in the pipe, plus friction loss in the fittings. A typical koi pond with a 4 foot waterfall, 20 feet of 2 inch pipe and four elbows runs around 5 to 6 feet of total head, and a pump rated at zero head will deliver noticeably less than its headline figure at that point on its curve."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many times per hour should a koi pond turn over? ▾",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Once per hour is the standard koi pond target and the rate most filters are rated against. Heavily stocked ponds may justify 1.5 times per hour, and show ponds with large multi-stage filtration sometimes run at twice per hour. Going far beyond that rarely helps: water passes through the media too fast for good biological contact, solids get driven through the settlement stage instead of dropping out, and the running cost rises for a pump that never stops."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does pipe size affect pond pump performance? ▾",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Substantially. At 3,000 GPH, 1½ inch PVC loses about 19 feet of head per 100 feet of run, 2 inch loses about 4.7 feet, and 3 inch loses less than a foot. Undersized pipe costs flow every hour the pump runs, and the loss is permanent once the plumbing is buried. Aim to keep water velocity under about 5 feet per second, which usually means 2 inch pipe from around 2,000 GPH and 3 inch from around 4,000 GPH."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much flow does a pond waterfall need? ▾",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About 1,500 GPH per foot of spillway width for a full sheet of water, 1,000 to 1,200 for a moderate flow, and around 750 for a thin decorative veil. A 3 foot wide waterfall running as a full sheet needs roughly 4,500 GPH on its own, which will often exceed the flow the filter is rated for — the usual fix is a separate waterfall pump so the filter circuit keeps its designed flow."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I run my koi pond pump 24 hours a day? ▾",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The biological filter depends on a continuous supply of oxygenated water carrying ammonia to the bacteria; switching the pump off starves them, and colonies begin to die back within hours. Running the pump only during the day is a common cause of a filter that never fully matures. If running cost is the concern, the answer is a more efficient pump and larger pipework rather than intermittent running."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a separate air pump if I already have a big water pump? ▾",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In a stocked koi pond, generally yes. A water pump circulating below the surface adds far less dissolved oxygen than a modest air pump with a diffuser, and oxygen is what limits a heavily stocked pond on a warm summer night when water holds less of it and the fish need more. Aeration is a separate job from turnover, and it is inexpensive insurance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is my pond pump not moving as much water as it should? ▾",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most common causes are head height that was never accounted for, undersized or partly blocked pipework, a clogged pre-filter or pump strainer, too many sharp elbows in the run, and an air leak on the suction side of an external pump. Work through them in that order: clean the strainer and filter first, then measure the true head and pipe run and compare the figure against the pump curve rather than the box rating."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.fishcareai.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Tools",
+      "item": "https://www.fishcareai.com/tools/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Koi Pond Pump Size Calculator",
+      "item": "https://www.fishcareai.com/tools/koi-pond-pump-calculator/"
+    }
+  ]
+}
+</script>
+
+<style>
+:root{--p:#1687C7;--pl:#46B6E8;--pd:#0F3D6E;--s:#18A999;--a:#0F3D6E;--ad:#08294C;--bg:#04111D;--tx:#EAFBFF;--mu:rgba(220,246,255,.72);--bd:rgba(255,255,255,.12);--ok:#27AE60;--wn:#F39C12;--er:#E74C3C;--water:#D9F4FF;--foam:#F7FCFF}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,'Segoe UI',Arial,sans-serif;background:linear-gradient(180deg,#04111D,#071C2F,#04111D);color:var(--tx);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--p);text-decoration:none}
+button{cursor:pointer;font-family:inherit}
+input,select{font-family:inherit}
+.hide{display:none!important}
+.con{max-width:1180px;margin:0 auto;padding:0 22px}
+h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:800;line-height:1.2}
+h2{font-size:clamp(1.3rem,3vw,2rem);font-weight:700;line-height:1.25}
+h3{font-size:1.15rem;font-weight:700}
+h4{font-size:1rem;font-weight:700}
+p{margin-bottom:.85rem;color:var(--mu)}
+p:last-child{margin-bottom:0}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:10px 20px;border-radius:999px;font-size:.9rem;font-weight:700;border:none;cursor:pointer;transition:all .18s;white-space:nowrap;box-shadow:0 10px 24px rgba(15,61,110,.12)}
+.bp{background:linear-gradient(135deg,var(--pd),#155C98);color:#fff}.bp:hover{background:linear-gradient(135deg,#08294C,var(--pd));transform:translateY(-1px);box-shadow:0 14px 28px rgba(15,61,110,.2)}
+.bo{background:rgba(255,255,255,.08);color:#EAFBFF;border:1.5px solid rgba(125,235,255,.4)}.bo:hover{background:rgba(125,235,255,.16);border-color:#7DEBFF}
+.bsm{padding:7px 14px;font-size:.82rem}
+.blg{padding:13px 28px;font-size:.97rem;border-radius:10px}
+.sec{padding:64px 0;position:relative}
+.sec-w{background:rgba(255,255,255,.03)}
+.sh{text-align:center;margin-bottom:38px}
+.sh h2{color:#fff;margin-bottom:10px}
+.sh p{max-width:620px;margin:0 auto;font-size:1rem}
+.tag{display:inline-block;background:rgba(22,135,199,.12);color:var(--pd);padding:4px 12px;border-radius:999px;font-size:.73rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px;border:1px solid rgba(22,135,199,.12)}
+.g2{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media(max-width:900px){.g3{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.g3,.g2{grid-template-columns:1fr}.con{padding:0 14px}}
+.card{background:rgba(255,255,255,.06);border-radius:22px;box-shadow:0 16px 42px rgba(0,0,0,.3);border:1px solid rgba(255,255,255,.1);transition:box-shadow .22s,transform .22s,border-color .22s;overflow:hidden;backdrop-filter:blur(14px)}
+.card:hover{box-shadow:0 22px 52px rgba(0,0,0,.4);transform:translateY(-4px);border-color:rgba(22,135,199,.4)}
+input.fc,select.fc{width:100%;padding:9px 13px;border:1.5px solid rgba(255,255,255,.15);border-radius:8px;font-size:.95rem;background:rgba(255,255,255,.08);color:#EAFBFF;outline:none;transition:border-color .2s}
+input.fc:focus,select.fc:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(22,135,199,.14)}
+input.fc[aria-invalid="true"]{border-color:#E9887E}
+.fg{margin-bottom:16px}
+.fg label{display:block;font-weight:600;margin-bottom:5px;font-size:.86rem}
+.fhint{color:rgba(220,246,255,.6);font-size:.76rem;margin-top:5px;display:block;line-height:1.45}
+.fld-err{color:#FFB3AA;font-size:.78rem;margin-top:5px;min-height:0;line-height:1.45}
+.fld-err:empty{display:none}
+/* 16px keeps iOS Safari from zooming the viewport when a field is focused. */
+@media(max-width:600px){input.fc,select.fc{font-size:16px}}
+/* NAVBAR */
+.nb{position:sticky;top:0;z-index:100;background:rgba(4,17,29,.92);backdrop-filter:blur(20px);border-bottom:1px solid rgba(255,255,255,.08);padding:0 22px;height:68px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 10px 30px rgba(0,0,0,.3)}
+.brand{display:flex;align-items:center;gap:8px;font-size:1.2rem;font-weight:800;color:var(--p);cursor:pointer;border:none;background:none;text-decoration:none}
+.nlinks{display:flex;align-items:center;gap:2px}
+.nl{padding:7px 13px;border-radius:999px;font-weight:600;font-size:.86rem;color:rgba(255,255,255,.7);cursor:pointer;border:none;background:none;transition:all .15s;text-decoration:none}
+.nl:hover,.nl.act{color:#fff;background:rgba(22,135,199,.2)}
+.hbg{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:7px;border:none;background:none}
+.hbg span{display:block;width:21px;height:2px;background:rgba(255,255,255,.8);border-radius:2px}
+@media(max-width:760px){.nlinks{display:none;position:absolute;top:64px;left:0;right:0;background:rgba(4,17,29,.97);flex-direction:column;padding:12px;border-bottom:1px solid rgba(255,255,255,.08);gap:3px;box-shadow:0 4px 20px rgba(0,0,0,.4)}.nlinks.open{display:flex}.hbg{display:flex}}
+/* TOOL TABS ROW */
+.tool-nav{position:sticky;top:62px;z-index:98;background:#071827;border-bottom:1px solid rgba(255,255,255,.08);padding:10px 22px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.tnav-btn{display:inline-flex;align-items:center;gap:5px;padding:7px 15px;border-radius:999px;font-size:.83rem;font-weight:600;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);color:rgba(255,255,255,.65);transition:all .18s;text-decoration:none;white-space:nowrap}
+.tnav-btn:hover{color:#fff;background:rgba(22,135,199,.22);border-color:rgba(22,135,199,.5)}
+.tnav-btn.active{color:#fff;background:rgba(22,135,199,.28);border-color:#1687C7;font-weight:700}
+@media(max-width:600px){.tool-nav{gap:6px;padding:8px 14px}.tnav-btn{font-size:.76rem;padding:5px 10px}}
+/* HERO */
+.phero{background:linear-gradient(135deg,#0F3D5E,#1B5E8B);padding:34px 22px 44px;text-align:center;position:relative;overflow:hidden}
+.phero::before{content:'';position:absolute;inset:0;opacity:.15;background-image:radial-gradient(circle at 20% 30%,rgba(255,255,255,.7) 0 1px,transparent 2px),radial-gradient(circle at 75% 20%,rgba(125,217,255,.55) 0 1px,transparent 2px);background-size:44px 44px,68px 68px}
+.phero-inner{position:relative;z-index:1;max-width:760px;margin:0 auto}
+.phero-inner h1{color:#fff;margin-bottom:14px}
+.phero-inner h1 span{color:#9DEBFF}
+.phero-inner > p{color:rgba(255,255,255,.88);font-size:1.05rem;margin-bottom:22px;max-width:660px;margin-left:auto;margin-right:auto}
+.phero-badges{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:4px}
+.phero-badge{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:999px;color:rgba(255,255,255,.9);font-size:.8rem;font-weight:600;padding:6px 14px}
+/* BREADCRUMB */
+.breadcrumb{margin-bottom:16px}
+.breadcrumb ol{list-style:none;display:flex;flex-wrap:wrap;justify-content:center;gap:4px;font-size:.8rem;color:rgba(255,255,255,.6)}
+.breadcrumb li+li::before{content:'/';margin-right:4px;color:rgba(255,255,255,.4)}
+.breadcrumb a{color:rgba(255,255,255,.75);transition:color .2s}
+.breadcrumb a:hover{color:#fff}
+.breadcrumb li[aria-current]{color:rgba(255,255,255,.92)}
+/* CALCULATOR */
+.calc-wrap{background:linear-gradient(180deg,#0A2540 0%,#0d3060 100%);padding:34px 0 48px}
+.calc-con{max-width:1100px;margin:0 auto;padding:0 22px}
+.cg{display:grid;grid-template-columns:1fr 1.15fr;gap:24px;align-items:start}
+@media(max-width:820px){.cg{grid-template-columns:1fr}}
+.calc-box{background:rgba(255,255,255,.06);border-radius:18px;padding:26px;border:1px solid rgba(255,255,255,.12);backdrop-filter:blur(12px)}
+.calc-heading{color:#fff;margin-bottom:6px;font-size:clamp(1.1rem,2.5vw,1.45rem);font-weight:700}
+.calc-sub{color:rgba(255,255,255,.75);font-size:.9rem;margin-bottom:22px}
+.unit-toggle{position:relative;display:flex;gap:0;border:1px solid rgba(125,235,255,.32);border-radius:999px;overflow:hidden;width:max-content;margin-bottom:16px}
+.unit-toggle input{position:absolute;opacity:0;width:1px;height:1px}
+.unit-toggle label{display:inline-block;padding:7px 18px;font-size:.83rem;font-weight:700;color:rgba(234,251,255,.72);cursor:pointer;margin:0;transition:background .18s,color .18s}
+.unit-toggle input:checked + label{background:rgba(22,135,199,.55);color:#fff}
+.unit-toggle input:focus-visible + label{outline:2px solid #7DEBFF;outline-offset:-2px}
+fieldset{border:none;padding:0;margin:0}
+legend{font-weight:600;font-size:.86rem;margin-bottom:6px;color:#fff}
+.dim-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:420px){.dim-row{grid-template-columns:1fr}}
+.calc-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+.calc-actions .btn{flex:1 1 auto;justify-content:center}
+/* RESULT PANEL */
+.res-panel{background:linear-gradient(150deg,rgba(22,135,199,.22),rgba(24,169,153,.16));border:1px solid rgba(125,235,255,.28);border-radius:18px;padding:28px 26px;backdrop-filter:blur(12px);min-height:100%}
+.res-eyebrow{font-size:.78rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:rgba(157,235,255,.95);margin-bottom:10px}
+.res-weight{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;line-height:1.05}
+.res-lb{font-size:clamp(2.4rem,7vw,3.4rem);font-weight:800;color:#fff;letter-spacing:-.02em}
+.res-kg{font-size:clamp(1.2rem,3.5vw,1.6rem);font-weight:700;color:rgba(157,235,255,.95)}
+.res-of{font-size:1rem;color:rgba(255,255,255,.85);margin-top:6px;font-weight:600}
+.res-stats{margin-top:20px;border-top:1px solid rgba(125,235,255,.2);padding-top:14px}
+.res-row{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-bottom:1px solid rgba(125,235,255,.1);font-size:.87rem}
+.res-row:last-child{border-bottom:none}
+.res-row dt{color:rgba(234,251,255,.75)}
+.res-row dd{color:#fff;font-weight:700;text-align:right}
+.res-buy{margin-top:18px;background:rgba(4,17,29,.4);border:1px solid rgba(125,235,255,.22);border-radius:12px;padding:14px 16px}
+.res-buy .rb-label{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:rgba(157,235,255,.9)}
+.res-buy .rb-val{font-size:1.5rem;font-weight:800;color:#fff;margin:2px 0 6px}
+.res-buy p{font-size:.79rem;color:rgba(234,251,255,.7);margin:0;line-height:1.5}
+.res-sentence{margin-top:16px;font-size:.9rem;color:rgba(234,251,255,.9);line-height:1.6}
+.res-error{background:rgba(231,76,60,.12);border:1px solid rgba(233,136,126,.5);border-radius:14px;padding:22px}
+.res-error h3{color:#FFD6D1;margin-bottom:8px;font-size:1rem}
+.res-error ul{margin:0;padding-left:18px}
+.res-error li{color:rgba(255,214,209,.9);font-size:.86rem;margin-bottom:4px}
+/* PRESETS */
+.preset-block{margin-top:24px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:22px 24px}
+.preset-block h2{color:#fff;font-size:1.05rem;margin-bottom:6px}
+.preset-block > p{font-size:.84rem;margin-bottom:14px}
+.preset-grid{display:flex;flex-wrap:wrap;gap:8px}
+.preset-btn{background:rgba(255,255,255,.07);border:1px solid rgba(125,235,255,.25);color:#EAFBFF;border-radius:999px;padding:8px 14px;font-size:.82rem;font-weight:600;transition:all .18s;line-height:1.2}
+.preset-btn:hover{background:rgba(22,135,199,.3);border-color:#7DEBFF}
+.preset-btn small{display:block;font-size:.7rem;color:rgba(234,251,255,.6);font-weight:500}
+.preset-btn[aria-pressed="true"]{background:rgba(22,135,199,.45);border-color:#7DEBFF;color:#fff}
+/* HOW IT WORKS */
+.hw-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:16px}
+@media(max-width:900px){.hw-steps{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.hw-steps{grid-template-columns:1fr}}
+.hw-step{background:rgba(255,255,255,.06);border-radius:18px;padding:24px 20px;border:1px solid rgba(255,255,255,.1);backdrop-filter:blur(10px);text-align:center}
+.hw-num{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--pd),var(--p));color:#fff;font-size:1.05rem;font-weight:800;display:flex;align-items:center;justify-content:center;margin:0 auto 12px}
+.hw-step h3{color:#fff;margin-bottom:8px;font-size:1rem}
+.hw-step p{font-size:.85rem;margin:0}
+/* CONTENT CARDS */
+.tc{padding:24px;display:flex;flex-direction:column;gap:10px}
+.tc h3{color:#fff}
+.tc p{font-size:.88rem}
+.prose{max-width:860px;margin:0 auto}
+.prose p{font-size:.94rem}
+.prose h3{color:#fff;margin:20px 0 8px;font-size:1.02rem}
+.prose ul{margin:0 0 14px 20px}
+.prose li{color:var(--mu);font-size:.92rem;margin-bottom:6px}
+/* TABLES */
+.ptbl{width:100%;border-collapse:collapse;margin:16px 0;font-size:.86rem;background:rgba(4,17,29,.4);border-radius:12px;overflow:hidden}
+.ptbl caption{caption-side:top;text-align:left;font-size:.82rem;color:rgba(220,246,255,.6);padding-bottom:8px}
+.ptbl th{background:linear-gradient(135deg,var(--pd),var(--p));color:#fff;padding:10px 12px;text-align:left;font-weight:700;white-space:nowrap}
+.ptbl td{padding:10px 12px;border-bottom:1px solid rgba(125,235,255,.14);color:var(--mu);vertical-align:top}
+.ptbl tbody tr:last-child td{border-bottom:none}
+.ptbl tbody tr:nth-child(even) td{background:rgba(255,255,255,.03)}
+.tbl-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
+/* FORMULA */
+.formula{background:rgba(4,17,29,.5);border:1px solid rgba(125,235,255,.22);border-left:4px solid var(--p);border-radius:10px;padding:16px 18px;margin:14px 0;font-size:.92rem;color:#EAFBFF;line-height:1.8;overflow-x:auto}
+.formula code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.88rem;color:#9DEBFF;white-space:nowrap}
+/* FAQ */
+.faq-item{border-bottom:1px solid rgba(255,255,255,.1)}
+.faq-q{width:100%;background:none;border:none;text-align:left;padding:16px 0;font-size:.95rem;font-weight:700;color:#fff;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.faq-q:hover{color:#46B6E8}
+.faq-arrow{font-size:1.1rem;transition:transform .22s;flex-shrink:0}
+.faq-a{font-size:.9rem;color:rgba(220,246,255,.78);padding:0 0 16px;display:none;line-height:1.7}
+.faq-item.open .faq-a{display:block}
+.faq-item.open .faq-arrow{transform:rotate(180deg)}
+/* INTERNAL LINKS */
+.int-links-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+@media(max-width:900px){.int-links-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:440px){.int-links-grid{grid-template-columns:1fr}}
+.int-link-card{display:block;background:rgba(255,255,255,.06);border-radius:14px;border:1px solid rgba(255,255,255,.1);padding:18px;text-decoration:none;transition:all .2s;color:inherit;backdrop-filter:blur(8px)}
+.int-link-card:hover{box-shadow:0 10px 28px rgba(0,0,0,.3);transform:translateY(-3px);border-color:rgba(22,135,199,.4)}
+.int-link-card .il-icon{font-size:1.5rem;margin-bottom:6px}
+.int-link-card h3{color:#fff;font-size:.94rem;margin-bottom:4px}
+.int-link-card p{font-size:.8rem;color:rgba(220,246,255,.65);margin:0}
+/* METHODOLOGY */
+.method{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:22px 24px;max-width:860px;margin:0 auto}
+.method h2{color:#fff;font-size:1.05rem;margin-bottom:10px}
+.method p{font-size:.86rem}
+/* INFO FIGURES */
+.info-fig{margin:22px auto 0;max-width:900px}
+.fig-scroll{max-width:100%}
+.info-fig img{display:block;width:100%;height:auto;border-radius:14px}
+.info-fig figcaption{padding:12px 4px 0;font-size:.84rem;line-height:1.6;color:rgba(220,246,255,.72)}
+.info-fig figcaption a{text-decoration:underline}
+/* Below ~700px the 900px artwork scales past legibility, so pan it like the wide tables. */
+@media(max-width:700px){.info-fig{max-width:calc(100vw - 40px)}.fig-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}.info-fig img{min-width:660px}}
+/* FOOTER */
+.ft{background:linear-gradient(180deg,#08294C,#0F3D6E);color:rgba(255,255,255,.75);padding:56px 0 32px}
+.ftg{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:32px;margin-bottom:36px}
+@media(max-width:900px){.ftg{grid-template-columns:1fr 1fr}}
+@media(max-width:500px){.ftg{grid-template-columns:1fr}}
+.ftbr p{font-size:.84rem;margin-top:12px;color:rgba(255,255,255,.6)}
+.ftcol h3,.ftcol h5{color:#fff;font-size:.84rem;margin-bottom:12px;font-weight:700}
+.ftcol a{display:block;font-size:.82rem;color:rgba(255,255,255,.6);margin-bottom:7px;transition:color .15s}
+.ftcol a:hover{color:#fff}
+.ftb{font-size:.78rem;color:rgba(255,255,255,.4);text-align:center;padding-top:24px;border-top:1px solid rgba(255,255,255,.08)}
+.legal-links{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;padding:14px 22px;font-size:.78rem}
+.legal-links a{color:rgba(255,255,255,.45)}
+.legal-links a:hover{color:rgba(255,255,255,.8)}
+</style>
+<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260823-screenshot"/>
+<meta name="google-adsense-account" content="ca-pub-6697313643773879"/>
+<script defer src="/assets/site-compliance.js?v=20260824-dark-fix"></script>
+<script defer src="/assets/tool-related-recommendations.js?v=20260908-koi"></script>
+</head>
+<body class="tools-dark-page">
+
+<!-- NAVBAR -->
+<nav class="nb" id="navbar">
+  <a title="FishCare AI" class="brand" href="/"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"/></a>
+  <div class="nlinks" id="nlinks">
+    <a title="Home" class="nl" href="/">Home</a>
+    <a title="Guides" class="nl" href="/guides/">Guides</a>
+    <a title="Aquarium Encyclopedia" class="nl" href="/species">Encyclopedia</a>
+    <a title="Fish Health" class="nl" href="/fish-health/">Fish Health</a>
+    <a title="Tools" class="nl act" href="/tools/">Tools</a>
+    <a title="About Us" class="nl" href="/about/">About Us</a>
+  </div>
+  <button class="hbg" type="button" onclick="document.getElementById('nlinks').classList.toggle('open')" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+</nav>
+<nav class="tool-nav" aria-label="Koi pond tool navigation">
+  <a href="/tools/koi-pond-calculator/" class="tnav-btn">🪷 Pond Size</a>
+  <a href="/tools/koi-pond-stocking-calculator/" class="tnav-btn">🐟 Stocking</a>
+  <a href="/tools/koi-pond-pump-calculator/" class="tnav-btn active" aria-current="page">🌀 Pump</a>
+  <a href="/tools/koi-pond-liner-calculator/" class="tnav-btn">📐 Liner</a>
+  <a href="/tools/koi-pond-salt-calculator/" class="tnav-btn">🧂 Salt</a>
+  <a href="/tools/koi-feeding-calculator/" class="tnav-btn">🍽 Feeding</a>
+</nav>
+
+<!-- HERO -->
+<section class="phero">
+  <div class="phero-inner">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li aria-current="page">Koi Pond Pump Size Calculator</li>
+      </ol>
+    </nav>
+    <h1>Koi Pond Pump Size Calculator</h1>
+    <p>Work out the flow your koi pond pump actually has to deliver — not the number on the box. Enter your pond volume, turnover target and plumbing, and get a GPH figure at the head height the pump will really be working against.</p>
+    <div class="phero-badges">
+      <span class="phero-badge">GPH at real head</span>
+      <span class="phero-badge">Friction loss included</span>
+      <span class="phero-badge">Waterfall sizing</span>
+      <span class="phero-badge">Always free</span>
+    </div>
+  </div>
+</section>
+
+<!-- CALCULATOR -->
+<div class="calc-wrap">
+  <div class="calc-con">
+    <h2 class="calc-heading">🌀 Koi Pond Pump Calculator</h2>
+    <p class="calc-sub">Results update as you type. The answer is a flow rate <em>at a head height</em> — both numbers matter when you compare pumps.</p>
+
+    <div class="cg">
+      <!-- INPUTS -->
+      <form class="calc-box" id="pump-form" novalidate>
+        <fieldset>
+          <legend>Pond</legend>
+          <div class="dim-row">
+            <div class="fg">
+              <label for="pump-volume">Pond volume</label>
+              <input class="fc" id="pump-volume" name="pump-volume" type="number" inputmode="decimal" min="0" step="any" value="3000" aria-describedby="err-volume">
+              <p class="fld-err" id="err-volume"></p>
+            </div>
+            <div class="fg">
+              <label for="pump-unit">Volume unit</label>
+              <select class="fc" id="pump-unit" name="pump-unit">
+                <option value="usgal" selected>US gallons</option>
+                <option value="impgal">Imperial (UK) gallons</option>
+                <option value="litres">Litres</option>
+              </select>
+            </div>
+          </div>
+          <div class="fg">
+            <label for="pump-turnover">Turnover rate</label>
+            <select class="fc" id="pump-turnover" name="pump-turnover">
+              <option value="0.5">Every 2 hours — lightly stocked, planted pond</option>
+              <option value="1" selected>Once per hour — standard koi pond</option>
+              <option value="1.5">1.5× per hour — heavily stocked</option>
+              <option value="2">Twice per hour — show pond, very heavy stocking</option>
+            </select>
+            <span class="fhint">Once per hour is the usual koi target. Going far above twice per hour rarely improves filtration and can push solids through the filter instead of settling them out.</span>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Plumbing</legend>
+          <div class="dim-row">
+            <div class="fg">
+              <label for="pump-lift">Vertical lift (ft)</label>
+              <input class="fc" id="pump-lift" name="pump-lift" type="number" inputmode="decimal" min="0" step="any" value="4" aria-describedby="err-lift">
+              <p class="fld-err" id="err-lift"></p>
+            </div>
+            <div class="fg">
+              <label for="pump-pipe">Pipe diameter (in)</label>
+              <select class="fc" id="pump-pipe" name="pump-pipe">
+                <option value="1">1 in</option>
+                <option value="1.25">1¼ in</option>
+                <option value="1.5">1½ in</option>
+                <option value="2" selected>2 in</option>
+                <option value="2.5">2½ in</option>
+                <option value="3">3 in</option>
+                <option value="4">4 in</option>
+              </select>
+            </div>
+          </div>
+          <p class="fhint" style="margin-top:-6px;margin-bottom:16px">Vertical lift is the height from the water surface to the highest point the water is pushed to — usually the top of the waterfall or the filter inlet.</p>
+          <div class="dim-row">
+            <div class="fg">
+              <label for="pump-run">Total pipe run (ft)</label>
+              <input class="fc" id="pump-run" name="pump-run" type="number" inputmode="decimal" min="0" step="any" value="20" aria-describedby="err-run">
+              <p class="fld-err" id="err-run"></p>
+            </div>
+            <div class="fg">
+              <label for="pump-elbows">Number of 90° elbows</label>
+              <input class="fc" id="pump-elbows" name="pump-elbows" type="number" inputmode="numeric" min="0" step="1" value="4" aria-describedby="err-elbows">
+              <p class="fld-err" id="err-elbows"></p>
+            </div>
+          </div>
+          <p class="fhint" style="margin-top:-6px;margin-bottom:16px">Measure the pipe run along the pipe, including the horizontal sections. Each 90° elbow is counted as roughly 30 pipe diameters of extra length — sweep bends cost about half as much and are worth using.</p>
+        </fieldset>
+
+        <div class="fg">
+          <label for="pump-waterfall">Waterfall width (ft) <span style="font-weight:400;color:rgba(234,251,255,.6)">— optional</span></label>
+          <input class="fc" id="pump-waterfall" name="pump-waterfall" type="number" inputmode="decimal" min="0" step="any" value="" placeholder="Leave blank if there is no waterfall" aria-describedby="err-waterfall">
+          <p class="fld-err" id="err-waterfall"></p>
+          <span class="fhint">Width of the spillway lip. A full sheet of water needs about 1,500&nbsp;GPH per foot of width; a thin decorative veil needs around 750. If the waterfall needs more flow than the turnover target, the waterfall wins.</span>
+        </div>
+
+        <div class="calc-actions">
+          <button type="submit" class="btn bp blg" id="pump-calc-btn">Calculate Pump Size →</button>
+          <button type="button" class="btn bo blg" id="pump-reset-btn">Reset</button>
+        </div>
+      </form>
+
+      <!-- RESULT -->
+      <div id="pump-result" role="status" aria-live="polite" tabindex="-1"></div>
+    </div>
+
+    <!-- QUICK PRESETS -->
+    <div class="preset-block">
+      <h2>Common pond volumes</h2>
+      <p>Set the pond volume from a typical size, then adjust the plumbing figures to match your own installation.</p>
+      <div class="preset-grid" id="pump-presets"></div>
+    </div>
+  </div>
+</div>
+
+<!-- HOW TO USE -->
+<section class="sec sec-w">
+  <div class="con">
+    <div class="sh">
+      <div class="tag">How it works</div>
+      <h2>How to Use the Koi Pond Pump Calculator</h2>
+      <p>Four measurements turn a pond volume into a pump you can actually shop for.</p>
+    </div>
+    <div class="hw-steps">
+      <div class="hw-step">
+        <div class="hw-num">1</div>
+        <h3>Enter pond volume</h3>
+        <p>Include the filter chambers if they are plumbed into the loop. This sets the base flow the pump has to move.</p>
+      </div>
+      <div class="hw-step">
+        <div class="hw-num">2</div>
+        <h3>Pick a turnover rate</h3>
+        <p>Once per hour is the standard koi target. Heavier stocking justifies more; a lightly stocked planted pond needs less.</p>
+      </div>
+      <div class="hw-step">
+        <div class="hw-num">3</div>
+        <h3>Measure the plumbing</h3>
+        <p>Vertical lift, total pipe length, pipe diameter and the number of elbows. These decide how much of the pump's output survives the trip.</p>
+      </div>
+      <div class="hw-step">
+        <div class="hw-num">4</div>
+        <h3>Match a pump curve</h3>
+        <p>You get a flow and a head figure. Find those two numbers together on the manufacturer's pump curve, not on the headline rating.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT SIZE -->
+<section class="sec">
+  <div class="con">
+    <div class="prose">
+      <h2 style="color:#fff;margin-bottom:12px">What Size Pump Does a Koi Pond Need?</h2>
+      <p>The starting rule is <strong>one full turnover of the pond volume every hour</strong>. A 3,000 US gallon pond wants a pump moving about 3,000 gallons per hour. That is the number almost every koi keeper and filter manufacturer works from, and it exists because biological filtration works on contact time — the whole pond needs to pass through the filter media often enough that ammonia and nitrite never get ahead of the bacteria processing them.</p>
+      <p>The complication is that a pump rated 3,000&nbsp;GPH does not deliver 3,000&nbsp;GPH in your pond. That rating is measured at zero head — no lift, no pipe, no fittings. Add a 4&nbsp;foot climb to a waterfall, 20&nbsp;feet of pipe and four elbows, and the real output can drop by a quarter to a third. Buy on the headline rating and the pond quietly runs at two thirds of the turnover you designed it for.</p>
+      <p>So the right way to size a koi pond pump is in two numbers:</p>
+      <ul>
+        <li><strong>Required flow</strong> — pond volume × turnover rate, in GPH.</li>
+        <li><strong>Total dynamic head</strong> — the vertical lift plus the friction losses in the pipe and fittings, in feet.</li>
+      </ul>
+      <p>Then find a pump whose published curve shows the required flow <em>at</em> that head. A pump curve is a graph of flow against head, and it is the only honest way to compare two pumps.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TURNOVER -->
+<section class="sec sec-w">
+  <div class="con">
+    <div class="prose">
+      <h2 style="color:#fff;margin-bottom:12px">Pond Turnover Rate Explained</h2>
+      <p>Turnover is how many times the full pond volume passes through the filter in an hour. Higher is not automatically better.</p>
+      <ul>
+        <li><strong>Every two hours (0.5×)</strong> — lightly stocked, heavily planted ponds and wildlife ponds. Too slow for a stocked koi pond.</li>
+        <li><strong>Once per hour (1×)</strong> — the standard koi pond target, and the figure most filters are rated against.</li>
+        <li><strong>1.5× per hour</strong> — heavily stocked ponds, or ponds where the filter is at the small end of its rating.</li>
+        <li><strong>Twice per hour (2×)</strong> — show ponds with dense stocking and large multi-stage filtration.</li>
+      </ul>
+      <p>Pushing much beyond twice an hour usually costs more than it returns. Water moves through the media too fast for good contact, solids that should settle out in a settlement chamber get driven through into the biological stage, and the electricity bill rises for a pump that runs continuously. If the filter is struggling, the answer is normally a bigger filter or fewer fish rather than more flow.</p>
+      <p>One thing turnover does not measure is oxygen. A high-flow pump circulating water below the surface adds far less dissolved oxygen than a modest air pump with a diffuser, and oxygen is what limits a heavily stocked pond on a warm summer night. Treat aeration as a separate item, not something the main pump handles.</p>
+    </div>
+  </div>
+</section>
+
+<!-- HEAD -->
+<section class="sec">
+  <div class="con">
+    <div class="prose">
+      <h2 style="color:#fff;margin-bottom:12px">Total Dynamic Head: Why the Box Rating Is Not What You Get</h2>
+      <p>Total dynamic head is everything the pump has to push against, measured in feet of water. It has two parts.</p>
+      <h3>Static head</h3>
+      <p>The vertical distance from the pond water surface to the highest point the water reaches — normally the top of the waterfall or the filter inlet. This is fixed by your build, and it is the part most people already account for.</p>
+      <h3>Friction loss</h3>
+      <p>The resistance of the water rubbing along the pipe walls and turning through fittings. It rises steeply with flow and falls steeply with pipe diameter, which is why undersized pipe is the most expensive mistake in pond plumbing: it costs you flow every hour the pump runs, forever.</p>
+      <div class="formula">
+        <strong>Total dynamic head</strong><br>
+        <code>vertical lift (ft) + friction loss in pipe (ft) + friction loss in fittings (ft) = TDH</code>
+      </div>
+      <p>Fittings are converted to an equivalent length of straight pipe. A 90° elbow is roughly 30 pipe diameters — 5&nbsp;feet of equivalent pipe on a 2&nbsp;inch line, 10&nbsp;feet on a 4&nbsp;inch one. Sweep bends cost about half as much as sharp elbows, and a run with four sharp elbows swapped for sweeps can gain back several percent of flow for the price of a few fittings.</p>
+
+      <h3>Pipe size and friction loss</h3>
+      <p>Head loss in feet per 100 feet of smooth PVC pipe, at the flow rates typical of koi ponds. The jump from 1½&nbsp;inch to 2&nbsp;inch pipe is the single largest gain available in most builds.</p>
+      <div class="tbl-scroll">
+        <table class="ptbl">
+          <caption>Friction loss in feet of head per 100 feet of PVC pipe, calculated with the Hazen-Williams equation at C&nbsp;=&nbsp;150.</caption>
+          <thead>
+            <tr><th>Flow rate</th><th>1½ in pipe</th><th>2 in pipe</th><th>3 in pipe</th><th>4 in pipe</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1,000 GPH (16.7 GPM)</td><td>2.5 ft</td><td>0.6 ft</td><td>0.09 ft</td><td>0.02 ft</td></tr>
+            <tr><td>2,000 GPH (33.3 GPM)</td><td>9.1 ft</td><td>2.2 ft</td><td>0.3 ft</td><td>0.08 ft</td></tr>
+            <tr><td>3,000 GPH (50 GPM)</td><td>19.1 ft</td><td>4.7 ft</td><td>0.7 ft</td><td>0.16 ft</td></tr>
+            <tr><td>4,000 GPH (66.7 GPM)</td><td>32.7 ft</td><td>8.1 ft</td><td>1.1 ft</td><td>0.28 ft</td></tr>
+            <tr><td>5,000 GPH (83.3 GPM)</td><td>49.4 ft</td><td>12.2 ft</td><td>1.7 ft</td><td>0.42 ft</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Read the 3,000&nbsp;GPH row across. Through 1½&nbsp;inch pipe you lose 19&nbsp;feet of head per 100&nbsp;feet of run; through 3&nbsp;inch pipe you lose less than a foot. The pipe is a one-off cost of a few pounds or dollars a foot. The lost flow is permanent.</p>
+      <p>The calculator also flags water velocity. Above about 5&nbsp;feet per second the plumbing gets noisy and friction losses climb sharply; above 7&nbsp;ft/s the pipe is clearly undersized for the flow. Keeping velocity under 5&nbsp;ft/s is a good target for a pond that runs continuously.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PUMP BY VOLUME -->
+<section class="sec sec-w">
+  <div class="con">
+    <div class="prose">
+      <h2 style="color:#fff;margin-bottom:12px">Koi Pond Pump Size by Volume</h2>
+      <p>Target flow at one turnover per hour, with a suggested pipe size and an estimated total dynamic head for a typical installation.</p>
+      <div class="tbl-scroll">
+        <table class="ptbl">
+          <caption>Estimated head assumes a 4 ft vertical lift, a 20 ft pipe run and four 90° elbows at the suggested pipe size.</caption>
+          <thead>
+            <tr><th>Pond volume</th><th>Target flow (1×/hr)</th><th>Suggested pipe</th><th>Estimated TDH</th><th>Water velocity</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1,000 US gal</td><td>1,000 GPH</td><td>1½ in</td><td>≈ 4.9 ft</td><td>3.0 ft/s</td></tr>
+            <tr><td>2,000 US gal</td><td>2,000 GPH</td><td>2 in</td><td>≈ 4.9 ft</td><td>3.4 ft/s</td></tr>
+            <tr><td>3,000 US gal</td><td>3,000 GPH</td><td>2 in</td><td>≈ 5.9 ft</td><td>5.1 ft/s</td></tr>
+            <tr><td>4,000 US gal</td><td>4,000 GPH</td><td>3 in</td><td>≈ 4.6 ft</td><td>3.0 ft/s</td></tr>
+            <tr><td>5,000 US gal</td><td>5,000 GPH</td><td>3 in</td><td>≈ 4.8 ft</td><td>3.8 ft/s</td></tr>
+            <tr><td>7,500 US gal</td><td>7,500 GPH</td><td>4 in</td><td>≈ 4.4 ft</td><td>3.2 ft/s</td></tr>
+            <tr><td>10,000 US gal</td><td>10,000 GPH</td><td>4 in</td><td>≈ 4.9 ft</td><td>4.3 ft/s</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Notice that the estimated head barely changes down the table, because the pipe size grows with the flow. That is the design goal: choose the pipe so that friction loss stays small, and the pump only has to deal with the vertical lift you actually built.</p>
+    </div>
+  </div>
+</section>
+
+<!-- WATERFALL + PUMP TYPES -->
+<section class="sec">
+  <div class="con">
+    <div class="prose">
+      <h2 style="color:#fff;margin-bottom:12px">Sizing a Pump for a Waterfall</h2>
+      <p>A waterfall has its own flow requirement, set by the width of the spillway lip rather than by the pond volume:</p>
+      <ul>
+        <li><strong>Thin decorative veil</strong> — about 750&nbsp;GPH per foot of width.</li>
+        <li><strong>Moderate flow</strong> — about 1,000 to 1,200&nbsp;GPH per foot.</li>
+        <li><strong>Full sheet of water</strong> — about 1,500&nbsp;GPH per foot.</li>
+      </ul>
+      <p>A 3&nbsp;foot wide waterfall running as a full sheet needs roughly 4,500&nbsp;GPH on its own. If your pond only needs 3,000&nbsp;GPH for turnover, the waterfall is now setting the pump size — and a 4,500&nbsp;GPH flow through a filter rated for 3,000 will push solids straight through it. The usual solution is two circuits: one pump sized for the filter, a second for the waterfall, which also lets you turn the waterfall off at night without stopping filtration.</p>
+
+      <h2 style="color:#fff;margin:26px 0 12px">External or Submersible?</h2>
+      <p>Both work. The trade-offs are practical rather than absolute.</p>
+      <ul>
+        <li><strong>Submersible pumps</strong> are simple to install, need no priming and cost less up front. They sit in the pond, so servicing means getting wet, and they transfer their waste heat into the water — noticeable in a small pond in summer.</li>
+        <li><strong>External pumps</strong> are generally more efficient at the flows koi ponds need, run cooler, are easier to service and last longer. They need a dry chamber, correct plumbing and, on a gravity-fed system, a properly designed bottom drain and pipework.</li>
+      </ul>
+      <p>Whichever you choose, look at the wattage at your working flow rather than the headline power. A pond pump runs every hour of every day, so the difference between two pumps of the same output is a bill you pay for years. And size for the pump curve, not the box: a pump advertised at 5,000&nbsp;GPH that delivers 3,200&nbsp;GPH at 6&nbsp;feet of head is a 3,200&nbsp;GPH pump for your pond.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec sec-w">
+  <div class="con">
+    <div class="sh">
+      <div class="tag">FAQ</div>
+      <h2>Frequently Asked Questions</h2>
+      <p>The pump sizing questions that decide whether a pond runs well or runs loud, hot and slow.</p>
+    </div>
+    <div class="prose">
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">What size pump do I need for my koi pond? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">Size for one full turnover of the pond volume per hour, so a 3,000 US gallon pond needs about 3,000 GPH. The important detail is that the flow must be delivered at your actual head height, not at zero head where pumps are rated. Add the vertical lift to the friction loss from pipe length, diameter and elbows to get the total dynamic head, then pick a pump whose published curve shows your required flow at that head.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">What is total dynamic head on a pond pump? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">Total dynamic head is everything the pump pushes against, measured in feet of water. It is the vertical lift from the water surface to the highest point in the system, plus friction loss in the pipe, plus friction loss in the fittings. A typical koi pond with a 4 foot waterfall, 20 feet of 2 inch pipe and four elbows runs around 5 to 6 feet of total head, and a pump rated at zero head will deliver noticeably less than its headline figure at that point on its curve.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">How many times per hour should a koi pond turn over? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">Once per hour is the standard koi pond target and the rate most filters are rated against. Heavily stocked ponds may justify 1.5 times per hour, and show ponds with large multi-stage filtration sometimes run at twice per hour. Going far beyond that rarely helps: water passes through the media too fast for good biological contact, solids get driven through the settlement stage instead of dropping out, and the running cost rises for a pump that never stops.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">Does pipe size affect pond pump performance? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">Substantially. At 3,000 GPH, 1½ inch PVC loses about 19 feet of head per 100 feet of run, 2 inch loses about 4.7 feet, and 3 inch loses less than a foot. Undersized pipe costs flow every hour the pump runs, and the loss is permanent once the plumbing is buried. Aim to keep water velocity under about 5 feet per second, which usually means 2 inch pipe from around 2,000 GPH and 3 inch from around 4,000 GPH.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">How much flow does a pond waterfall need? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">About 1,500 GPH per foot of spillway width for a full sheet of water, 1,000 to 1,200 for a moderate flow, and around 750 for a thin decorative veil. A 3 foot wide waterfall running as a full sheet needs roughly 4,500 GPH on its own, which will often exceed the flow the filter is rated for — the usual fix is a separate waterfall pump so the filter circuit keeps its designed flow.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">Should I run my koi pond pump 24 hours a day? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">Yes. The biological filter depends on a continuous supply of oxygenated water carrying ammonia to the bacteria; switching the pump off starves them, and colonies begin to die back within hours. Running the pump only during the day is a common cause of a filter that never fully matures. If running cost is the concern, the answer is a more efficient pump and larger pipework rather than intermittent running.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">Do I need a separate air pump if I already have a big water pump? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">In a stocked koi pond, generally yes. A water pump circulating below the surface adds far less dissolved oxygen than a modest air pump with a diffuser, and oxygen is what limits a heavily stocked pond on a warm summer night when water holds less of it and the fish need more. Aeration is a separate job from turnover, and it is inexpensive insurance.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">Why is my pond pump not moving as much water as it should? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">The most common causes are head height that was never accounted for, undersized or partly blocked pipework, a clogged pre-filter or pump strainer, too many sharp elbows in the run, and an air leak on the suction side of an external pump. Work through them in that order: clean the strainer and filter first, then measure the true head and pipe run and compare the figure against the pump curve rather than the box rating.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RELATED TOOLS -->
+<section class="sec">
+  <div class="con">
+    <div class="sh">
+      <div class="tag">Free tools</div>
+      <h2>Related Koi Pond Tools</h2>
+      <p>Pump flow is set by pond volume and stocking. These set both.</p>
+    </div>
+    <div class="int-links-grid">
+      <a class="int-link-card" href="/tools/koi-pond-calculator/">
+        <div class="il-icon" aria-hidden="true">🪷</div>
+        <h3>Koi Pond Calculator</h3>
+        <p>Get the pond volume that sets your turnover target in the first place.</p>
+      </a>
+      <a class="int-link-card" href="/tools/koi-pond-stocking-calculator/">
+        <div class="il-icon" aria-hidden="true">🐟</div>
+        <h3>Koi Pond Stocking Calculator</h3>
+        <p>Heavier stocking justifies a higher turnover rate — check where yours sits.</p>
+      </a>
+      <a class="int-link-card" href="/tools/koi-pond-liner-calculator/">
+        <div class="il-icon" aria-hidden="true">📐</div>
+        <h3>Koi Pond Liner Calculator</h3>
+        <p>Sizing a new build? Work out the liner sheet alongside the plumbing.</p>
+      </a>
+      <a class="int-link-card" href="/tools/water-parameter-checker/">
+        <div class="il-icon" aria-hidden="true">💧</div>
+        <h3>Water Parameter Checker</h3>
+        <p>Confirm the filter is keeping up once the pump is running at the right flow.</p>
+      </a>
+    </div>
+    <p style="max-width:860px;margin:22px auto 0;text-align:center;font-size:.9rem">Start with the <a href="/tools/koi-pond-calculator/">koi pond calculator</a> if you do not have a volume figure, check your <a href="/tools/koi-pond-stocking-calculator/">stocking level</a> before deciding on a turnover rate, and see the <a href="/guides/koi-fish-care/">koi fish care guide</a> for how filtration and oxygen fit together across the seasons.</p>
+  </div>
+</section>
+
+<!-- METHODOLOGY -->
+<section class="sec sec-w">
+  <div class="con">
+    <div class="method">
+      <h2>Methodology and accuracy</h2>
+      <p>Required flow is pond volume × turnover rate. Turnover options of 0.5×, 1×, 1.5× and 2× per hour reflect common koi pond practice, with one turnover per hour as the standard target most pond filters are rated against.</p>
+      <p>Friction loss in straight pipe is calculated with the Hazen-Williams equation at a roughness coefficient of C = 150, the usual value for smooth PVC: head loss in feet per 100 feet = 0.2083 × (100/C)^1.852 × Q^1.852 ÷ d^4.8655, with Q in US gallons per minute and d the internal diameter in inches. Real pipe runs vary with material, age, internal roughness and fitting quality, so treat the result as a close estimate rather than a measurement.</p>
+      <p>Fittings are converted to equivalent straight pipe at 30 pipe diameters per 90° elbow, a standard engineering approximation. Sweep bends and long-radius elbows cost roughly half as much and will make the true loss lower than the figure shown.</p>
+      <p>Water velocity is calculated as 0.4085 × Q ÷ d², with Q in GPM and d in inches. Velocities above about 5 ft/s are flagged as high and above 7 ft/s as undersized, which are practical pond-plumbing guidelines rather than hard limits.</p>
+      <p>Waterfall flow uses 1,500 GPH per foot of spillway width for a full sheet of water. Nominal pipe sizes are used as internal diameters, which is a close approximation for PVC pond pipe but not exact for every schedule and standard.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="ft" id="site-footer">
+  <div class="con">
+    <div class="ftg">
+      <div class="ftbr">
+        <div><img class="fishcare-footer-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="150" height="38"/></div>
+        <p>Your trusted resource for fish care guides, free tools, and practical aquarium advice. Helping beginners build healthier freshwater tanks since 2026.</p>
+      </div>
+      <div class="ftcol">
+        <h3>Guides</h3>
+        <a href="/guides/">All Guides</a>
+        <a href="/guides/best-freshwater-fish-for-beginners/">Best Beginner Fish</a>
+        <a href="/guides/how-to-set-up-a-fish-tank/">Tank Setup Guide</a>
+        <a href="/guides/aquarium-water-parameters/">Water Parameters</a>
+        <a href="/guides/goldfish-care/">Goldfish Care</a>
+        <a href="/guides/fish-care-for-beginners/#beginner-fish-care-checklist">Beginner Checklist</a>
+      </div>
+      <div class="ftcol">
+        <h3>Encyclopedia</h3>
+        <a href="/species">All Species</a>
+        <a href="/species/neon-tetra">Neon Tetra</a>
+        <a href="/species/ocellaris-clownfish">Clownfish</a>
+        <a href="/species/bronze-cory">Corydoras</a>
+        <a href="/species/cherry-barb">Cherry Barb</a>
+        <a href="/species/dwarf-gourami">Dwarf Gourami</a>
+      </div>
+      <div class="ftcol">
+        <h3>Tools</h3>
+        <a href="/tools/aquarium-size-calculator/">Aquarium Size Calculator</a>
+        <a href="/tools/aquarium-substrate-calculator/">Substrate Calculator</a>
+        <a href="/tools/fish-compatibility-checker/">Compatibility Checker</a>
+        <a href="/tools/water-parameter-checker/">Water Parameter Checker</a>
+        <a href="/tools/fish-feeding-calculator/">Feeding Calculator</a>
+        <a href="/tools/aquarium-planner/">Aquarium Planner</a>
+        <a href="/tools/aquarium-equipment-calculator/">Equipment Calculator</a>
+      </div>
+      <div class="ftcol">
+        <h3>More</h3>
+        <a href="/about/">About Us</a>
+        <a href="/contact/">Contact</a>
+        <a href="/partners/">Partners</a>
+        <a href="/privacy/">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="ftb">© 2026 FishCare. All rights reserved.</div>
+  </div>
+  <nav class="legal-links" aria-label="Legal and company information">
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+    <a href="/editorial-policy/">Editorial Policy</a>
+    <a href="/privacy/">Privacy</a>
+    <a href="/image-credits/">Image Credits</a>
+  </nav>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  // ── Constants ────────────────────────────────────────────────────────────
+  var L_PER_USGAL  = 3.785411784;
+  var L_PER_IMPGAL = 4.54609;
+
+  // Hazen-Williams for smooth PVC (C = 150), pre-folded into one coefficient:
+  //   0.2083 * (100/150)^1.852 = 0.09830
+  // head loss (ft per 100 ft) = COEFF * Q^1.852 / d^4.8655   [Q in GPM, d in in]
+  var HW_COEFF = 0.09830;
+
+  var ELBOW_DIAMETERS  = 30;    // equivalent straight pipe per 90 degree elbow
+  var WATERFALL_GPH_FT = 1500;  // full sheet of water, per foot of lip width
+
+  // Practical pond plumbing velocity guidelines, in ft/s.
+  var VEL_HIGH = 5;
+  var VEL_MAX  = 7;
+
+  var UNITS = {
+    usgal:  { label: 'US gallons',       toUsGal: function (v) { return v; } },
+    impgal: { label: 'imperial gallons', toUsGal: function (v) { return v * L_PER_IMPGAL / L_PER_USGAL; } },
+    litres: { label: 'litres',           toUsGal: function (v) { return v / L_PER_USGAL; } }
+  };
+
+  var PRESETS = [1000, 2000, 3000, 4000, 5000, 7500, 10000];
+
+  var DEFAULTS = {
+    volume: '3000', unit: 'usgal', turnover: '1',
+    lift: '4', pipe: '2', run: '20', elbows: '4', waterfall: ''
+  };
+
+  var $ = function (id) { return document.getElementById(id); };
+  var els = {
+    form:      $('pump-form'),
+    volume:    $('pump-volume'),
+    unit:      $('pump-unit'),
+    turnover:  $('pump-turnover'),
+    lift:      $('pump-lift'),
+    pipe:      $('pump-pipe'),
+    run:       $('pump-run'),
+    elbows:    $('pump-elbows'),
+    waterfall: $('pump-waterfall'),
+    result:    $('pump-result'),
+    presets:   $('pump-presets')
+  };
+  if (!els.form || !els.result) return;
+
+  // ── Helpers ──────────────────────────────────────────────────────────────
+  function num(n, dp) {
+    if (!isFinite(n)) return '—';
+    return n.toLocaleString('en-US', { minimumFractionDigits: dp, maximumFractionDigits: dp });
+  }
+  function esc(s) {
+    return String(s).replace(/[&<>"]/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+    });
+  }
+
+  function read(el) {
+    var raw = (el.value || '').trim();
+    if (raw === '') return { empty: true, valid: false, value: NaN };
+    var v = Number(raw);
+    if (!isFinite(v)) return { empty: false, valid: false, value: NaN };
+    return { empty: false, valid: true, value: v };
+  }
+
+  function setError(id, msg, inputEl) {
+    var box = $(id);
+    if (box) box.textContent = msg || '';
+    if (inputEl) {
+      if (msg) inputEl.setAttribute('aria-invalid', 'true');
+      else inputEl.removeAttribute('aria-invalid');
+    }
+  }
+
+  // Shared numeric field check. `opts.optional` allows a blank field.
+  function field(el, errId, name, max, opts) {
+    opts = opts || {};
+    var r = read(el), msg = '';
+    if (r.empty) {
+      if (opts.optional) { setError(errId, '', el); return { ok: true, value: null }; }
+      msg = 'Enter the ' + name + '.';
+    } else if (!r.valid) {
+      msg = 'Enter the ' + name + ' as a number.';
+    } else if (r.value < 0) {
+      msg = 'The ' + name + ' cannot be negative.';
+    } else if (opts.positive && r.value <= 0) {
+      msg = 'Enter a ' + name + ' greater than 0.';
+    } else if (r.value > max) {
+      msg = 'That ' + name + ' looks too large — enter a value up to ' + num(max, 0) + '.';
+    }
+    setError(errId, msg, el);
+    return msg ? { ok: false, msg: msg } : { ok: true, value: r.value };
+  }
+
+  // ── Validation ───────────────────────────────────────────────────────────
+  function validate() {
+    var errors = [];
+    var unitKey = els.unit.value;
+    var maxVol = unitKey === 'litres' ? 500000 : 150000;
+
+    var checks = {
+      volume:    field(els.volume,    'err-volume',    'pond volume',   maxVol, { positive: true }),
+      lift:      field(els.lift,      'err-lift',      'vertical lift', 60),
+      run:       field(els.run,       'err-run',       'pipe run',      500),
+      elbows:    field(els.elbows,    'err-elbows',    'number of elbows', 50),
+      waterfall: field(els.waterfall, 'err-waterfall', 'waterfall width',  30, { optional: true })
+    };
+
+    Object.keys(checks).forEach(function (k) {
+      if (!checks[k].ok) errors.push(checks[k].msg);
+    });
+
+    if (errors.length) return { ok: false, errors: errors };
+    return {
+      ok: true,
+      usGal:     UNITS[unitKey].toUsGal(checks.volume.value),
+      turnover:  Number(els.turnover.value),
+      lift:      checks.lift.value,
+      pipe:      Number(els.pipe.value),
+      run:       checks.run.value,
+      elbows:    Math.round(checks.elbows.value),
+      waterfall: checks.waterfall.value
+    };
+  }
+
+  // ── Calculation ──────────────────────────────────────────────────────────
+  function compute(v) {
+    var turnoverGph  = v.usGal * v.turnover;
+    var waterfallGph = v.waterfall ? v.waterfall * WATERFALL_GPH_FT : 0;
+    // The waterfall and the filter share one pump here, so the larger demand
+    // sets the flow. The copy explains when to split them onto two circuits.
+    var gph = Math.max(turnoverGph, waterfallGph);
+    var gpm = gph / 60;
+
+    var equivElbowFt = v.elbows * ELBOW_DIAMETERS * v.pipe / 12;
+    var totalPipeFt  = v.run + equivElbowFt;
+    var lossPer100   = HW_COEFF * Math.pow(gpm, 1.852) / Math.pow(v.pipe, 4.8655);
+    var friction     = lossPer100 * totalPipeFt / 100;
+    var tdh          = v.lift + friction;
+
+    var velocity = 0.4085 * gpm / (v.pipe * v.pipe);
+
+    return {
+      turnoverGph: turnoverGph,
+      waterfallGph: waterfallGph,
+      waterfallDrives: waterfallGph > turnoverGph,
+      gph: gph,
+      gpm: gpm,
+      equivElbowFt: equivElbowFt,
+      totalPipeFt: totalPipeFt,
+      lossPer100: lossPer100,
+      friction: friction,
+      tdh: tdh,
+      velocity: velocity,
+      velocityFlag: velocity > VEL_MAX ? 'undersized' : velocity > VEL_HIGH ? 'high' : 'ok'
+    };
+  }
+
+  // ── Rendering ────────────────────────────────────────────────────────────
+  function renderErrors(errors) {
+    els.result.innerHTML =
+      '<div class="res-error">' +
+        '<h3>Check your entries</h3>' +
+        '<ul>' + errors.map(function (e) { return '<li>' + esc(e) + '</li>'; }).join('') + '</ul>' +
+      '</div>';
+  }
+
+  function renderResult(v, r) {
+    var notes = [];
+    if (r.velocityFlag === 'undersized') {
+      notes.push('Water velocity in ' + v.pipe + ' in pipe would be ' + num(r.velocity, 1) +
+        ' ft/s at this flow, which is well above the 5 ft/s target. Step up a pipe size — it will cut ' +
+        'the friction loss sharply and quieten the plumbing.');
+    } else if (r.velocityFlag === 'high') {
+      notes.push('Water velocity is ' + num(r.velocity, 1) + ' ft/s, at the upper end of what is comfortable ' +
+        'for pond plumbing. The next pipe size up would reduce friction loss noticeably.');
+    }
+    if (r.waterfallDrives) {
+      notes.push('The waterfall needs ' + num(r.waterfallGph, 0) + ' GPH, more than the ' + num(r.turnoverGph, 0) +
+        ' GPH the turnover target calls for, so it is setting the pump size. Consider a second pump for the ' +
+        'waterfall so the filter keeps its designed flow.');
+    }
+    if (!notes.length) {
+      notes.push('Compare pumps on their published curve: you need ' + num(r.gph, 0) + ' GPH at ' + num(r.tdh, 1) +
+        ' ft of head, which is not the same as a pump advertised at ' + num(r.gph, 0) + ' GPH.');
+    }
+
+    els.result.innerHTML =
+      '<div class="res-panel">' +
+        '<p class="res-eyebrow">Your pump must deliver</p>' +
+        '<p class="res-weight"><span class="res-lb">' + num(r.gph, 0) + '</span><span class="res-kg">GPH</span></p>' +
+        '<p class="res-of">at ' + num(r.tdh, 1) + ' ft of total dynamic head</p>' +
+        '<dl class="res-stats">' +
+          '<div class="res-row"><dt>Required flow</dt><dd>' + num(r.gph, 0) + ' GPH · ' + num(r.gpm, 1) + ' GPM</dd></div>' +
+          '<div class="res-row"><dt>Turnover target</dt><dd>' + num(r.turnoverGph, 0) + ' GPH (' + v.turnover + '×/hr)</dd></div>' +
+          (r.waterfallGph
+            ? '<div class="res-row"><dt>Waterfall demand</dt><dd>' + num(r.waterfallGph, 0) + ' GPH</dd></div>'
+            : '') +
+          '<div class="res-row"><dt>Vertical lift (static head)</dt><dd>' + num(v.lift, 1) + ' ft</dd></div>' +
+          '<div class="res-row"><dt>Friction loss</dt><dd>' + num(r.friction, 1) + ' ft</dd></div>' +
+          '<div class="res-row"><dt>Equivalent pipe length</dt><dd>' + num(r.totalPipeFt, 0) + ' ft (incl. ' + v.elbows + ' elbows)</dd></div>' +
+          '<div class="res-row"><dt>Loss per 100 ft of pipe</dt><dd>' + num(r.lossPer100, 1) + ' ft</dd></div>' +
+          '<div class="res-row"><dt>Water velocity</dt><dd>' + num(r.velocity, 1) + ' ft/s in ' + v.pipe + ' in pipe</dd></div>' +
+        '</dl>' +
+        '<div class="res-buy">' +
+          '<div class="rb-label">Shop for a pump rated</div>' +
+          '<div class="rb-val">' + num(r.gph, 0) + ' GPH @ ' + num(r.tdh, 1) + ' ft</div>' +
+          '<p>Find both numbers together on the manufacturer’s pump curve. A pump’s headline GPH is measured at zero head and is not what it will deliver in your pond.</p>' +
+        '</div>' +
+        '<p class="res-sentence">' + notes.map(esc).join(' ') + '</p>' +
+      '</div>';
+  }
+
+  function calculate() {
+    var v = validate();
+    if (!v.ok) { renderErrors(v.errors); return; }
+    renderResult(v, compute(v));
+  }
+
+  // ── Unit switching (the number is converted, not just relabelled) ────────
+  var currentUnit = DEFAULTS.unit;
+  function switchUnit(next) {
+    if (next === currentUnit) return;
+    var r = read(els.volume);
+    if (r.valid) {
+      var usGal = UNITS[currentUnit].toUsGal(r.value);
+      var out = next === 'usgal'  ? usGal
+              : next === 'impgal' ? usGal * L_PER_USGAL / L_PER_IMPGAL
+              :                     usGal * L_PER_USGAL;
+      els.volume.value = String(Math.round(out));
+    }
+    currentUnit = next;
+    clearPresetState();
+    calculate();
+  }
+
+  // ── Presets ──────────────────────────────────────────────────────────────
+  function renderPresets() {
+    els.presets.innerHTML = PRESETS.map(function (g, i) {
+      return '<button type="button" class="preset-btn" data-preset="' + i + '" aria-pressed="false">' +
+        num(g, 0) + ' US gal<small>' + num(g, 0) + ' GPH at 1×/hr</small></button>';
+    }).join('');
+  }
+
+  function applyPreset(i) {
+    var g = PRESETS[i];
+    if (g === undefined) return;
+    els.unit.value = 'usgal';
+    currentUnit = 'usgal';
+    els.volume.value = String(g);
+    Array.prototype.forEach.call(els.presets.querySelectorAll('.preset-btn'), function (b) {
+      b.setAttribute('aria-pressed', b.getAttribute('data-preset') === String(i) ? 'true' : 'false');
+    });
+    calculate();
+  }
+
+  function clearPresetState() {
+    Array.prototype.forEach.call(els.presets.querySelectorAll('.preset-btn'), function (b) {
+      b.setAttribute('aria-pressed', 'false');
+    });
+  }
+
+  // ── Wiring ───────────────────────────────────────────────────────────────
+  renderPresets();
+
+  els.presets.addEventListener('click', function (e) {
+    var btn = e.target.closest('.preset-btn');
+    if (btn) applyPreset(Number(btn.getAttribute('data-preset')));
+  });
+
+  [els.volume, els.lift, els.run, els.elbows, els.waterfall].forEach(function (el) {
+    el.addEventListener('input', function () {
+      if (el === els.volume) clearPresetState();
+      calculate();
+    });
+  });
+
+  [els.turnover, els.pipe].forEach(function (el) {
+    el.addEventListener('change', calculate);
+  });
+
+  els.unit.addEventListener('change', function () { switchUnit(els.unit.value); });
+
+  els.form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    calculate();
+    els.result.focus();
+  });
+
+  $('pump-reset-btn').addEventListener('click', function () {
+    els.volume.value    = DEFAULTS.volume;
+    els.unit.value      = DEFAULTS.unit;
+    currentUnit         = DEFAULTS.unit;
+    els.turnover.value  = DEFAULTS.turnover;
+    els.lift.value      = DEFAULTS.lift;
+    els.pipe.value      = DEFAULTS.pipe;
+    els.run.value       = DEFAULTS.run;
+    els.elbows.value    = DEFAULTS.elbows;
+    els.waterfall.value = DEFAULTS.waterfall;
+    clearPresetState();
+    calculate();
+    els.volume.focus();
+  });
+
+  calculate();
+})();
+</script>
+
+<script>
+// ── FAQ toggle ─────────────────────────────────────────────────────────────
+function toggleFaq(btn) {
+  var item = btn.closest('.faq-item');
+  var wasOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(function (el) {
+    el.classList.remove('open');
+    var q = el.querySelector('.faq-q');
+    if (q) q.setAttribute('aria-expanded', 'false');
+  });
+  if (!wasOpen) {
+    item.classList.add('open');
+    btn.setAttribute('aria-expanded', 'true');
+  }
+}
+</script>
+
+</body>
+</html>
