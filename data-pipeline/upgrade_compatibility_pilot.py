@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import json
 import re
 from pathlib import Path
 
@@ -49,8 +50,56 @@ PILOT_PAGES = {
     "foxface-rabbitfish-and-zebra-danio": ("water", "Foxface Rabbitfish are marine fish and Zebra Danios are freshwater fish.", "Use species-appropriate marine and freshwater communities instead."),
     "clown-loach-and-silver-dollar": ("compatible", "These active fish can share warm freshwater when their large adult size, schooling needs, and tank footprint are respected.", "Use a long aquarium, full groups, and robust filtration before considering the combination."),
     "goldfish-and-percula-clownfish": ("water", "Goldfish are freshwater fish and Percula Clownfish are marine fish.", "Keep the Goldfish in a cool freshwater setup and the Clownfish in a mature saltwater aquarium."),
+    "goldfish-and-molly": ("temperature", "Goldfish stay healthiest in cool water while Mollies need steady tropical warmth and hard, alkaline conditions, so one species is always kept outside its range.", "Keep Mollies in a heated, hard-water tropical tank and give Goldfish a cool, heavily filtered setup of their own."),
+    "goldfish-and-oscar": ("temperature", "Oscars need warm tropical water that Goldfish cannot tolerate long term, and an Oscar will also take any tank mate small enough to swallow.", "House the Oscar with robust, similarly sized tropical tank mates and keep Goldfish in a cool-water tank or pond."),
+    "betta-fish-and-pea-puffer": ("territory", "Pea Puffers are persistent fin-nippers and a male Betta's trailing fins are an obvious target, while the Betta's own territorial displays keep both fish under constant stress.", "Keep Pea Puffers in a densely planted species-only tank and give the Betta either its own tank or calm, short-finned companions."),
+    "green-terror-cichlid-and-senegal-bichir": ("territory", "Green Terrors are aggressive, strongly territorial cichlids, and a slow bottom-dwelling Senegal Bichir cannot avoid sustained harassment once the cichlid claims the floor of the tank.", "Give the Green Terror a species tank or fast, robust cichlid companions, and keep the Senegal Bichir with calm, similarly sized fish that stay out of its way."),
 }
 
+
+VERDICTS = {
+    "water": "No. These species need different water types, so a single aquarium cannot meet both sets of requirements.",
+    "temperature": "No. Their temperature ranges do not overlap safely, so one of the two would spend its life outside its healthy range.",
+    "predation": "No. The adult size difference makes this a predator-and-prey pairing rather than a community one.",
+    "territory": "No. Territorial behaviour, rather than tank size, is what makes this pairing fail.",
+    "compatible": "Usually, yes — provided their shared water range, group sizes and adult space needs are all met.",
+    "caution": "Sometimes, but treat it as a cautious pairing that needs a purpose-built setup rather than a default recommendation.",
+}
+
+
+# Long-form copy for pages that need real depth rather than another restatement
+# of the risk line. Written to lean on varied referents ("the pair", "the puffer")
+# so that adding words lowers keyword density instead of raising it.
+PILOT_DETAIL = {
+    "goldfish-and-molly": (
+        "What Actually Goes Wrong",
+        "<p>The temperature gap is the part that cannot be designed around. One side of this pair is a cool-water fish that does best between 65 and 72&nbsp;&deg;F; the other is a tropical livebearer that wants 75 to 82&nbsp;&deg;F. Setting a heater to a compromise near 74&nbsp;&deg;F leaves both animals mildly stressed rather than either one comfortable &mdash; the cool-water fish runs a faster metabolism than it should, while the livebearer sits at the bottom of its range, where it becomes noticeably more prone to fungal and bacterial infection.</p>"
+        "<p>Hardness pulls in the same direction. Livebearers do best in mineral-rich water above pH&nbsp;7.5, which the other fish tolerates but does not need. The problem is holding that chemistry steady: a heavy waste producer in the small, warm tank the livebearer prefers will swing pH and nitrate faster than a weekly change can correct.</p>"
+        "<p>A size and feeding mismatch then shows up later. A mature specimen reaches six inches or more in the body and will sample anything that fits in its mouth, starting with fry and eventually including an adult livebearer that swims too slowly to get out of the way. The pairing often looks fine for a first year, while both fish are still small, and fails as the larger one grows.</p>"
+        "<p>If the goal is one tank rather than two, choose the temperature bracket first and stock around it. A cool-water setup works with white cloud mountain minnows or hillstream loaches; a heated, hard-water setup works with platies and swordtails.</p>"
+    ),
+    "goldfish-and-oscar": (
+        "What Actually Goes Wrong",
+        "<p>Temperature is the first blocker and the one the calculator scores hardest. A large South American cichlid is kept between 74 and 81&nbsp;&deg;F, while the other fish here is a cool-water species that is healthiest below 72&nbsp;&deg;F and can be kept unheated in most rooms. There is no overlap that serves both animals; a heater set for the cichlid keeps the cool-water fish permanently over-warmed, which shortens its life without ever producing an obvious symptom.</p>"
+        "<p>Adult size settles the rest. The cichlid reaches twelve to fourteen inches and swallows anything that fits. Feeder fish are sold for precisely this purpose, and the practice is worth avoiding on its own merits: they are typically raised at high density, arrive carrying parasites, and a diet built on them contributes to thiaminase-linked deficiency in the predator. What looks like a stocking decision is really a feeding decision.</p>"
+        "<p>Waste load is the third strike. Both species are unusually heavy producers for their size, and combining them in one system means sizing filtration for the pair rather than for either fish &mdash; on top of a temperature setting that is already wrong for one of them.</p>"
+        "<p>Keep the cichlid in a warm 75-gallon or larger tank with robust, similarly sized companions, and keep the cool-water fish in an unheated tank or a pond.</p>"
+    ),
+    "betta-fish-and-pea-puffer": (
+        "Why This Pairing Fails in a Small Tank",
+        "<p>Both fish are small, which makes this look like an easier pairing than it is. Size is not what drives the outcome here &mdash; hunting style is. The puffer is a micro-predator that spends its day picking at snails, biofilm and anything that drifts slowly past, and it investigates with its teeth. Long, unpaired, slow-moving fins are exactly the kind of target that behaviour is built around.</p>"
+        "<p>The pressure runs both ways. A male betta flares and holds station at a chosen spot, and a puffer does not read that display as a reason to leave. Neither animal retreats, so instead of one clear aggressor and one victim you get sustained low-level conflict, which shows up as clamped fins, hiding and refused food long before any visible bite appears.</p>"
+        "<p>Tank shape matters more than raw volume. Broken sightlines &mdash; dense stem plants, wood, floating cover &mdash; do more to reduce contact than an extra ten gallons of open water, because the conflict is driven by encounters rather than by crowding.</p>"
+        "<p>Diet is the quieter problem. Pufferfish teeth grow continuously and need hard-shelled food, so a steady supply of small snails is part of routine care. That feeding regime does not fit a betta&rsquo;s needs, and a tank stocked with snails for one fish gives the other a permanent source of competition and mess.</p>"
+    ),
+    "green-terror-cichlid-and-senegal-bichir": (
+        "Why the Bottom of the Tank Is the Problem",
+        "<p>These two are often proposed together because they are similar in size and both are sold as tough fish. Adult length is not the constraint. Both occupy the same part of the tank, and only one of them defends it.</p>"
+        "<p>The cichlid claims and patrols the substrate, and it does so continuously rather than in response to a specific intruder. The bichir is a slow, nocturnal, scent-driven feeder that has no way to answer that pressure &mdash; it cannot outswim a patrolling cichlid, and it will not compete for food dropped in open water. In practice the bottom-dweller stops feeding properly, which is easy to miss because it feeds at night in the first place.</p>"
+        "<p>Spawning is when the arrangement breaks outright. A paired cichlid claims a territory measured in feet, not inches, and drives everything else out of it. In a tank that has one floor, there is nowhere for the displaced fish to go, and its armoured scales prevent obvious injury while damage accumulates around the eyes and fins.</p>"
+        "<p>If both fish are already owned, a very long tank of 125 gallons or more with separate caves at each end, night-time target feeding, and a divider ready before breeding season is the minimum that makes the attempt defensible.</p>"
+    ),
+}
 
 PROFILE_LABELS = {
     "water": "Water Type Makes This Pair Impossible",
@@ -71,39 +120,54 @@ def page_names(text: str) -> tuple[str, str]:
     return html.unescape(match.group(1)), html.unescape(match.group(2))
 
 
-def replace_once(text: str, pattern: str, replacement: str, label: str) -> str:
+def replace_once(text: str, pattern: str, replacement, label: str) -> str:
     result, count = re.subn(pattern, replacement, text, count=1, flags=re.S | re.I)
     if count != 1:
         raise ValueError(f"Expected one {label} replacement, found {count}")
     return result
 
 
-def faq_html(a: str, b: str, kind: str, risk: str, action: str) -> str:
+def faq_items(a: str, b: str, kind: str, risk: str, action: str) -> list[tuple[str, str]]:
     if kind == "compatible":
-        questions = [
-            (f"Can {a} live with {b} long term?", f"Usually, yes, when their shared water range, group sizes, and adult space needs are met. {risk}"),
+        return [
+            (f"Can {a} live with {b} long term?", VERDICTS[kind]),
+            (f"What is worth watching with {a} and {b}?", risk),
             (f"What tank setup helps {a} and {b} coexist?", action),
-            (f"What should I monitor after adding {a} and {b}?", "Monitor feeding access, chasing, water quality, and whether every animal can use its preferred swimming or resting area."),
             (f"When should {a} and {b} be separated?", "Separate them if aggression, repeated food competition, injury, or declining water quality appears."),
         ]
-    elif kind == "caution":
-        questions = [
-            (f"Can {a} live with {b}?", f"They may coexist, but this is a cautious pairing rather than a default recommendation. {risk}"),
+    if kind == "caution":
+        return [
+            (f"Can {a} live with {b}?", VERDICTS[kind]),
             (f"What is the main risk with {a} and {b}?", risk),
             (f"What setup reduces conflict between {a} and {b}?", action),
             (f"When should I avoid keeping {a} and {b} together?", "Avoid the pairing in a small tank, with incomplete social groups, or when either species shows persistent stress or aggression."),
         ]
-    else:
-        questions = [
-            (f"Can {a} live with {b}?", f"No, this is not a suitable long-term pairing. {risk}"),
-            (f"What is the biggest risk for {a} and {b}?", risk),
-            (f"Would a larger tank make {a} and {b} compatible?", "More space can reduce some conflict, but it cannot solve incompatible water type, temperature, predation, or core welfare needs."),
-            (f"What is a safer alternative to keeping {a} and {b} together?", action),
-        ]
+    return [
+        (f"Can {a} live with {b}?", VERDICTS[kind]),
+        (f"What is the biggest risk for {a} and {b}?", risk),
+        (f"Would a larger tank make {a} and {b} compatible?", "More space can reduce some conflict, but it cannot solve incompatible water type, temperature, predation, or core welfare needs."),
+        (f"What is a safer alternative to keeping {a} and {b} together?", action),
+    ]
+
+
+def faq_html(items: list[tuple[str, str]]) -> str:
     return "\n".join(
         f"<details><summary>{html.escape(question)}</summary><p>{html.escape(answer)}</p></details>"
-        for question, answer in questions
+        for question, answer in items
     )
+
+
+def faq_jsonld(items: list[tuple[str, str]]) -> str:
+    payload = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": q,
+             "acceptedAnswer": {"@type": "Answer", "text": a}}
+            for q, a in items
+        ],
+    }
+    return json.dumps(payload, ensure_ascii=False)
 
 
 def clip_words(text: str, limit: int) -> str:
@@ -141,14 +205,38 @@ def upgrade_page(path: Path, kind: str, risk: str, action: str) -> None:
     )
 
     text = replace_once(text, r"<title>.*?</title>", f"<title>{html.escape(title)}</title>", "title")
-    text = replace_once(text, r'(<meta name="description" content=").*?("/>)', rf'\g<1>{html.escape(description, quote=True)}\2', "description")
-    text = replace_once(text, r'(<meta property="og:title" content=").*?("/>)', rf'\g<1>{html.escape(title, quote=True)}\2', "Open Graph title")
-    text = replace_once(text, r'(<meta property="og:description" content=").*?("/>)', rf'\g<1>{html.escape(description, quote=True)}\2', "Open Graph description")
+    text = replace_once(text, r'(<meta name="description" content=").*?("\s*/?>)', rf'\g<1>{html.escape(description, quote=True)}\2', "description")
+    text = replace_once(text, r'(<meta property="og:title" content=").*?("\s*/?>)', rf'\g<1>{html.escape(title, quote=True)}\2', "Open Graph title")
+    text = replace_once(text, r'(<meta property="og:description" content=").*?("\s*/?>)', rf'\g<1>{html.escape(description, quote=True)}\2', "Open Graph description")
     text = replace_once(text, r'("@type": "Article", "headline": ").*?("\s*,\s*"description": ").*?("\s*,\s*"datePublished")', rf'\g<1>{html.escape(title, quote=True)}\2{html.escape(description, quote=True)}\3', "Article schema")
     text = replace_once(text, r"<h1>.*?</h1>", f"<h1>{html.escape(question)}</h1>", "H1")
     text = replace_once(text, r"<div class=\"card\">\s*<h2>(?:Compatibility Overview|Can .*? Live Together\?)</h2>\s*<p>.*?</p>", f'<div class="card"><h2>{html.escape(question)}</h2><p>{html.escape(overview)}</p>', "overview")
-    text = replace_once(text, r"(<div class=\"card faq\">\s*<h2>Frequently Asked Questions</h2>).*?(</div>\s*<div class=\"card\">\s*<h2>Related Compatibility Guides</h2>)", rf"\1\n{faq_html(a, b, kind, risk, action)}\n\2", "FAQ")
-    existing_risks = r'<div class="card"><h2>(?:' + "|".join(re.escape(label) for label in PROFILE_LABELS.values()) + r')</h2><p>.*?</p></div><div class="card"><h2>A Safer Plan for .*?</h2><p>.*?</p></div>\s*'
+    items = faq_items(a, b, kind, risk, action)
+    text = replace_once(text, r"(<div class=\"card faq\">\s*<h2>Frequently Asked Questions</h2>).*?(</div>\s*<div class=\"card\">\s*<h2>Related Compatibility Guides</h2>)", rf"\1\n{faq_html(items)}\n\2", "FAQ")
+    # The FAQPage block had drifted away from the questions actually on the page,
+    # which breaks Google's requirement that schema match visible content.
+    # Not every pair page ships a FAQPage block, so sync it only where one exists.
+    text, _ = re.subn(
+        r'(<script type="application/ld\+json">)\{"@context": "https://schema\.org", "@type": "FAQPage".*?\}(</script>)',
+        lambda m: m.group(1) + faq_jsonld(items) + m.group(2),
+        text,
+        count=1,
+        flags=re.S,
+    )
+    detail = PILOT_DETAIL.get(path.parent.name)
+    if detail:
+        heading, body = detail
+        risk_section += f'<div class="card"><h2>{html.escape(heading)}</h2>{body}</div>'
+
+    detail_headings = {heading for heading, _ in PILOT_DETAIL.values()}
+    # Re-runs must consume the previously inserted detail card too, or each run
+    # would append another copy of it.
+    existing_risks = (
+        r'<div class="card"><h2>(?:' + "|".join(re.escape(label) for label in PROFILE_LABELS.values())
+        + r')</h2><p>.*?</p></div><div class="card"><h2>A Safer Plan for .*?</h2><p>.*?</p></div>'
+        + r'(?:<div class="card"><h2>(?:' + "|".join(re.escape(h) for h in detail_headings) + r')</h2>.*?</div>)?'
+        + r'\s*'
+    )
     text, replaced = re.subn(existing_risks, risk_section + "\n", text, count=1, flags=re.S)
     if replaced == 0:
         text = replace_once(text, r"(<div class=\"card\">\s*<h2>Species Profiles</h2>)", risk_section + r"\n\1", "risk sections")
