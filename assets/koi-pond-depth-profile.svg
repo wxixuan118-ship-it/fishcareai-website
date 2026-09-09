@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img" aria-labelledby="t d">
+<title id="t">Koi pond depth zones in cross-section</title>
+<desc id="d">A pond cross-section with a depth ruler from 0 to 6 feet. Under 2 feet is unsafe because it freezes or overheats and herons can wade in. Two to three feet is marginal and workable only in mild climates with netting. Three to four feet is the standard recommendation. Four to six feet is best, giving a reliable winter refuge below the heron wading line at roughly 2 feet.</desc>
+<rect width="900" height="540" rx="18" fill="#EFF7FD"/>
+<path d="M18 0H882Q900 0 900 18V98H0V18Q0 0 18 0" fill="#12507C"/>
+<g font-family="Segoe UI,Helvetica,Arial,sans-serif">
+<text x="32" y="44" font-size="29" font-weight="700" fill="#FFFFFF">Koi pond depth: what each zone buys you</text>
+<text x="32" y="76" font-size="18" fill="#DAEEFF">3 ft minimum &#183; 4 ft standard &#183; 4&#8211;6 ft best in cold or predator-prone sites</text>
+
+<!-- depth ruler -->
+<g font-size="14" fill="#5A7A94">
+  <line x1="86" y1="132" x2="86" y2="472" stroke="#9FC4DC" stroke-width="1.5"/>
+  <g stroke="#9FC4DC" stroke-width="1.5">
+    <line x1="80" y1="132" x2="92" y2="132"/><line x1="80" y1="188.7" x2="92" y2="188.7"/>
+    <line x1="80" y1="245.3" x2="92" y2="245.3"/><line x1="80" y1="302" x2="92" y2="302"/>
+    <line x1="80" y1="358.7" x2="92" y2="358.7"/><line x1="80" y1="415.3" x2="92" y2="415.3"/>
+    <line x1="80" y1="472" x2="92" y2="472"/>
+  </g>
+  <text x="72" y="137" text-anchor="end">0 ft</text><text x="72" y="193.7" text-anchor="end">1 ft</text>
+  <text x="72" y="250.3" text-anchor="end">2 ft</text><text x="72" y="307" text-anchor="end">3 ft</text>
+  <text x="72" y="363.7" text-anchor="end">4 ft</text><text x="72" y="420.3" text-anchor="end">5 ft</text>
+  <text x="72" y="477" text-anchor="end">6 ft</text>
+</g>
+
+<!-- water column, banded by depth zone -->
+<rect x="104" y="132" width="512" height="113.3" fill="#F2C8BC"/>
+<rect x="104" y="245.3" width="512" height="56.7" fill="#F7DFB4"/>
+<rect x="104" y="302" width="512" height="56.7" fill="#B6E3CD"/>
+<rect x="104" y="358.7" width="512" height="113.3" fill="#7FCBAA"/>
+<rect x="104" y="132" width="512" height="340" fill="none" stroke="#0F3D5E" stroke-width="2" rx="4"/>
+
+<!-- winter ice cap -->
+<rect x="104" y="132" width="512" height="14" fill="#DCEEFA"/>
+<line x1="104" y1="146" x2="616" y2="146" stroke="#9FC4DC" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="116" y="143" font-size="12" font-weight="700" fill="#12507C">WINTER ICE</text>
+
+<!-- heron reach -->
+<line x1="104" y1="245.3" x2="616" y2="245.3" stroke="#B03A22" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="608" y="238" font-size="14" font-weight="700" fill="#B03A22" text-anchor="end">Heron wading reach &#8776; 2 ft</text>
+
+<!-- koi resting in the deep zone -->
+<g transform="translate(300,405)">
+  <ellipse cx="0" cy="0" rx="46" ry="14" fill="#F0F6FA"/>
+  <ellipse cx="-14" cy="0" rx="22" ry="12" fill="#E8663C"/>
+  <path d="M44 0L64 -13V13Z" fill="#F0F6FA"/>
+  <circle cx="-32" cy="-3" r="2.6" fill="#0F3D5E"/>
+</g>
+<text x="300" y="443" font-size="13" font-weight="700" fill="#0F3D5E" text-anchor="middle">Koi hold here in heat, cold and danger</text>
+
+<!-- zone labels -->
+<g font-size="15">
+  <text x="636" y="176" font-size="17" font-weight="700" fill="#B03A22">&#10060; Under 2 ft &#8212; unsafe</text>
+  <text x="636" y="198" fill="#5A7A94">Freezes or overheats; herons wade in</text>
+  <text x="636" y="268" font-size="17" font-weight="700" fill="#B7791F">&#9888; 2&#8211;3 ft &#8212; marginal</text>
+  <text x="636" y="290" fill="#5A7A94">Mild climates with netting only</text>
+  <text x="636" y="325" font-size="17" font-weight="700" fill="#1E7D53">&#10004; 3&#8211;4 ft &#8212; standard</text>
+  <text x="636" y="347" fill="#5A7A94">Stable temperature; below heron reach</text>
+  <text x="636" y="400" font-size="17" font-weight="700" fill="#14603F">&#10004; 4&#8211;6 ft &#8212; best</text>
+  <text x="636" y="422" fill="#5A7A94">Winter refuge; supports jumbo koi</text>
+</g>
+<text x="32" y="506" font-size="15" fill="#5A7A94">Design tip: a 4&#8211;5 ft deep centre with narrow 2 ft planting shelves &#8212; a wide shallow ledge is a heron platform.</text>
+</g>
+</svg>

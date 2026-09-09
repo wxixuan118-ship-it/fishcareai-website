@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="t d">
+<title id="t">Koi pond size and realistic stocking</title>
+<desc id="d">Five pond volumes drawn to the same scale with the koi count each supports: under 500 gallons is not a koi pond, 1,000 gallons holds 2 to 4 koi, 2,000 gallons holds 4 to 8, 3,500 gallons holds 7 to 14, and 5,000 gallons or more holds 10 to 20. Allow 250 gallons per koi as an absolute minimum and 500 gallons per koi as the target.</desc>
+<rect width="900" height="500" rx="18" fill="#EFF7FD"/>
+<path d="M18 0H882Q900 0 900 18V98H0V18Q0 0 18 0" fill="#12507C"/>
+<g font-family="Segoe UI,Helvetica,Arial,sans-serif">
+<text x="32" y="44" font-size="29" font-weight="700" fill="#FFFFFF">Koi pond size and realistic stocking</text>
+<text x="32" y="76" font-size="18" fill="#DAEEFF">Bars drawn to scale &#183; 250 gal per koi is the floor, 500 gal per koi is the target</text>
+
+<g transform="translate(0,122)">
+  <rect x="32" y="0" width="836" height="52" rx="12" fill="#FFFFFF" stroke="#CFE3F1"/>
+  <text x="48" y="31" font-size="17" font-weight="700" fill="#0F3D5E">Under 500 gal</text>
+  <rect x="196" y="14" width="52" height="24" rx="6" fill="#E7B4A6"/>
+  <text x="262" y="31" font-size="16" font-weight="700" fill="#B03A22">&#10060; Not a koi pond</text>
+  <text x="452" y="31" font-size="15" fill="#5A7A94">Goldfish or juvenile grow-out only</text>
+</g>
+<g transform="translate(0,186)">
+  <rect x="32" y="0" width="836" height="52" rx="12" fill="#FFFFFF" stroke="#CFE3F1"/>
+  <text x="48" y="31" font-size="17" font-weight="700" fill="#0F3D5E">1,000 gal</text>
+  <rect x="196" y="14" width="104" height="24" rx="6" fill="#7FC4E8"/>
+  <text x="314" y="31" font-size="16" font-weight="700" fill="#0F3D5E">2&#8211;4 koi</text>
+  <text x="452" y="31" font-size="15" fill="#5A7A94">Practical starter pond; disciplined filtration</text>
+</g>
+<g transform="translate(0,250)">
+  <rect x="32" y="0" width="836" height="52" rx="12" fill="#FFFFFF" stroke="#CFE3F1"/>
+  <text x="48" y="31" font-size="17" font-weight="700" fill="#0F3D5E">2,000 gal</text>
+  <rect x="196" y="14" width="208" height="24" rx="6" fill="#4FA8D8"/>
+  <text x="418" y="31" font-size="16" font-weight="700" fill="#0F3D5E">4&#8211;8 koi</text>
+  <text x="530" y="31" font-size="15" fill="#5A7A94">Comfortable first serious pond</text>
+</g>
+<g transform="translate(0,314)">
+  <rect x="32" y="0" width="836" height="52" rx="12" fill="#FFFFFF" stroke="#CFE3F1"/>
+  <text x="48" y="31" font-size="17" font-weight="700" fill="#0F3D5E">3,500 gal</text>
+  <rect x="196" y="14" width="364" height="24" rx="6" fill="#2E84C0"/>
+  <text x="574" y="31" font-size="16" font-weight="700" fill="#0F3D5E">7&#8211;14 koi</text>
+  <text x="686" y="31" font-size="15" fill="#5A7A94">Stable temperature</text>
+</g>
+<g transform="translate(0,378)">
+  <rect x="32" y="0" width="836" height="52" rx="12" fill="#FFFFFF" stroke="#CFE3F1"/>
+  <text x="48" y="31" font-size="17" font-weight="700" fill="#0F3D5E">5,000 gal+</text>
+  <rect x="196" y="14" width="520" height="24" rx="6" fill="#1B5E8B"/>
+  <text x="730" y="31" font-size="16" font-weight="700" fill="#0F3D5E">10&#8211;20 koi</text>
+</g>
+<text x="32" y="462" font-size="15" fill="#5A7A94">Volume = length &#215; width &#215; average depth (ft) &#215; 7.48 &#183; a 10 &#215; 6 &#215; 3 ft pond holds about 1,346 gallons</text>
+</g>
+</svg>

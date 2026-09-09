@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" role="img" aria-labelledby="t d">
+<title id="t">Koi pond filtration flow path</title>
+<desc id="d">Water leaves the pond through a bottom drain and a surface skimmer, passes through the pump, then a mechanical stage such as a settlement chamber, sieve or drum filter, then a biological stage of moving-bed media, bioballs or matting, then an optional UV clarifier, before returning to the pond. Target a full turnover of pond volume every one to two hours measured after head loss.</desc>
+<rect width="900" height="470" rx="18" fill="#EFF7FD"/>
+<path d="M18 0H882Q900 0 900 18V98H0V18Q0 0 18 0" fill="#12507C"/>
+<g font-family="Segoe UI,Helvetica,Arial,sans-serif">
+<text x="32" y="44" font-size="29" font-weight="700" fill="#FFFFFF">Koi pond filtration: the flow path</text>
+<text x="32" y="76" font-size="18" fill="#DAEEFF">Solids out first, then biology &#8212; a koi pond is a filtration project with fish in it</text>
+<g font-size="15">
+<g transform="translate(32,124)"><rect width="262" height="118" rx="14" fill="#FFFFFF" stroke="#CFE3F1"/><text x="20" y="34" font-size="18" font-weight="700" fill="#0F3D5E">1 &#183; Bottom drain</text><text x="20" y="58" font-size="18" font-weight="700" fill="#0F3D5E">&#160;&#160;&#160;&#160;&#43; skimmer</text><text x="20" y="86" fill="#5A7A94">Solids off the floor, debris</text><text x="20" y="106" fill="#5A7A94">off the surface.</text></g>
+<g transform="translate(319,124)"><rect width="262" height="118" rx="14" fill="#FFFFFF" stroke="#CFE3F1"/><text x="20" y="34" font-size="18" font-weight="700" fill="#0F3D5E">2 &#183; Pump</text><text x="20" y="64" fill="#5A7A94">Rate the pump on flow at</text><text x="20" y="84" fill="#5A7A94">real head loss, not on the</text><text x="20" y="104" fill="#5A7A94">box rating.</text></g>
+<g transform="translate(606,124)"><rect width="262" height="118" rx="14" fill="#FFFFFF" stroke="#CFE3F1"/><text x="20" y="34" font-size="18" font-weight="700" fill="#0F3D5E">3 &#183; Mechanical</text><text x="20" y="64" fill="#5A7A94">Settlement, sieve or drum.</text><text x="20" y="84" fill="#5A7A94">Does most of the work in</text><text x="20" y="104" fill="#5A7A94">a koi pond.</text></g>
+<g transform="translate(32,306)"><rect width="262" height="118" rx="14" fill="#FFFFFF" stroke="#CFE3F1"/><text x="20" y="34" font-size="18" font-weight="700" fill="#0F3D5E">4 &#183; Biological</text><text x="20" y="64" fill="#5A7A94">K1 moving bed, bioballs or</text><text x="20" y="84" fill="#5A7A94">matting. Size for the feed</text><text x="20" y="104" fill="#5A7A94">load, not the volume.</text></g>
+<g transform="translate(319,306)"><rect width="262" height="118" rx="14" fill="#F7FBFF" stroke="#CFE3F1" stroke-dasharray="6 4"/><text x="20" y="34" font-size="18" font-weight="700" fill="#0F3D5E">5 &#183; UV clarifier</text><text x="20" y="64" fill="#5A7A94">10 W per 1,000 gal for</text><text x="20" y="84" fill="#5A7A94">green water. Optional; it</text><text x="20" y="104" fill="#5A7A94">treats no parasites.</text></g>
+<g transform="translate(606,306)"><rect width="262" height="118" rx="14" fill="#EDF7FF" stroke="#7FC4E8"/><text x="20" y="34" font-size="18" font-weight="700" fill="#0F3D5E">6 &#183; Return to pond</text><text x="20" y="64" fill="#5A7A94">Waterfall or jet adds a</text><text x="20" y="84" fill="#5A7A94">second gas-exchange</text><text x="20" y="104" fill="#5A7A94">surface.</text></g>
+</g>
+<g fill="#9FC4DC">
+<path d="M296 183h12l-6 -8 15 8 -15 8 6 -8h-12z"/><path d="M583 183h12l-6 -8 15 8 -15 8 6 -8h-12z"/>
+<path d="M296 365h12l-6 -8 15 8 -15 8 6 -8h-12z"/><path d="M583 365h12l-6 -8 15 8 -15 8 6 -8h-12z"/>
+</g>
+<path d="M737 248V272H163V300" fill="none" stroke="#9FC4DC" stroke-width="2.5"/>
+<path d="M163 306l-8 -13h16z" fill="#9FC4DC"/>
+<rect x="32" y="440" width="836" height="0.1" fill="none"/>
+<text x="32" y="452" font-size="16" font-weight="700" fill="#12507C">Target turnover: the full pond volume every 1&#8211;2 hours &#8212; a 2,000 gal pond wants 1,000&#8211;2,000 GPH after head loss.</text>
+</g>
+</svg>
