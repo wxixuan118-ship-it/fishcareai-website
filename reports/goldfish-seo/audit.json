@@ -1,0 +1,209 @@
+{
+  "checkedAt": "2026-09-09",
+  "scope": "Local on-page HTML checks; not a ranking, live redirect or Core Web Vitals certification",
+  "pages": [
+    {
+      "url": "/guides/goldfish-care/lifespan/",
+      "title": "Goldfish Lifespan: How Long Do Goldfish Live?",
+      "descriptionLength": 142,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/guides/goldfish-care/size-growth/",
+      "title": "Goldfish Size and Growth Rate: Adult Size Guide",
+      "descriptionLength": 133,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/guides/goldfish-care/tank-setup/",
+      "title": "Goldfish Tank Setup: Aquarium Size, Bowls and Filters",
+      "descriptionLength": 139,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/guides/goldfish-care/pond/",
+      "title": "Goldfish Pond Care: Setup, Summer and Winter",
+      "descriptionLength": 129,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/guides/goldfish-care/water-parameters/",
+      "title": "Goldfish Water Parameters: Temperature, pH and Quality",
+      "descriptionLength": 136,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/guides/goldfish-care/feeding/",
+      "title": "Goldfish Food and Feeding Chart: What and How Much",
+      "descriptionLength": 136,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/guides/goldfish-care/types/",
+      "title": "Types of Goldfish: Fancy Breeds and Varieties",
+      "descriptionLength": 143,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/guides/goldfish-care/breeding/",
+      "title": "Goldfish Breeding: Male vs Female, Eggs and Baby Care",
+      "descriptionLength": 145,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/guides/goldfish-care/not-eating/",
+      "title": "Goldfish Not Eating or Hiding: What to Check",
+      "descriptionLength": 131,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/guides/goldfish-care/bottom-sitting/",
+      "title": "Goldfish Lying on the Bottom: Causes and Next Steps",
+      "descriptionLength": 136,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/guides/goldfish-care/gasping/",
+      "title": "Goldfish Gasping at the Surface: Urgent Water Checks",
+      "descriptionLength": 136,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/guides/goldfish-care/swim-bladder/",
+      "title": "Goldfish Swim Bladder Problems: Floating and Sinking",
+      "descriptionLength": 138,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/guides/goldfish-care/bloating-dropsy/",
+      "title": "Goldfish Bloating, Dropsy and Pineconing: Warning Signs",
+      "descriptionLength": 128,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/guides/goldfish-care/spots-colour/",
+      "title": "Goldfish White Spots and Colour Changes: What They Mean",
+      "descriptionLength": 132,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/guides/goldfish-care/injuries/",
+      "title": "Goldfish Fin Rot, Cloudy Eye and Red Streaks",
+      "descriptionLength": 128,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/guides/goldfish-care/behaviour/",
+      "title": "Goldfish Flashing, Jumping and Chasing Other Fish",
+      "descriptionLength": 128,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/guides/goldfish-care/tank-mate-groups/",
+      "title": "Goldfish Tank Mates: Tetras, Plecos, Shrimp and Turtles",
+      "descriptionLength": 147,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/guides/goldfish-care/",
+      "title": "Goldfish Care Guide: Tank Size, Feeding & Lifespan",
+      "descriptionLength": 157,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/calculators/goldfish-tank-size/",
+      "title": "Goldfish Tank Size Calculator: How Many Gallons? | FishCare AI",
+      "descriptionLength": 149,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/wiki/comet-goldfish/",
+      "title": "Comet Goldfish Care: Pond Setup, Tank Size and Lifespan",
+      "descriptionLength": 152,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/wiki/black-moor-goldfish/",
+      "title": "Black Moor Goldfish Care: Tank Size, Diet and Eye Safety",
+      "descriptionLength": 144,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/aquarium-fish-diseases/goldfish-diseases/",
+      "title": "Goldfish Diseases: Symptoms, Causes & Guides",
+      "descriptionLength": 101,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/compatibility/goldfish/",
+      "title": "Goldfish Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "descriptionLength": 131,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/compatibility/goldfish-and-koi/",
+      "title": "Can Goldfish Live With Koi? Compatibility Guide | FishCare AI",
+      "descriptionLength": 130,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/compatibility/betta-fish-and-goldfish/",
+      "title": "Can Betta Fish Live With Goldfish? Compatibility Guide",
+      "descriptionLength": 141,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/compatibility/goldfish-and-guppy/",
+      "title": "Can Goldfish Live With Guppy? Compatibility Guide | FishCare AI",
+      "descriptionLength": 136,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/compatibility/corydoras-and-goldfish/",
+      "title": "Can Corydoras Live With Goldfish? Compatibility Guide",
+      "descriptionLength": 148,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/compatibility/angelfish-and-goldfish/",
+      "title": "Can Angelfish Live With Goldfish? Compatibility Guide",
+      "descriptionLength": 140,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "url": "/compatibility/goldfish-and-molly/",
+      "title": "Can Goldfish Live With Molly? Compatibility Guide | FishCare AI",
+      "descriptionLength": 136,
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

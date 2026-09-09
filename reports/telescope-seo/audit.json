@@ -1,0 +1,104 @@
+{
+  "checkedAt": "2026-09-09",
+  "scope": "14 newly created local HTML pages; checks do not certify deployment, indexing, rankings, live status or Core Web Vitals.",
+  "pages": [
+    {
+      "url": "https://www.fishcareai.com/guides/telescope-goldfish-care/",
+      "titleLength": 53,
+      "descriptionLength": 152,
+      "articleWords": 472,
+      "errors": []
+    },
+    {
+      "url": "https://www.fishcareai.com/guides/telescope-goldfish-care/tank-size/",
+      "titleLength": 47,
+      "descriptionLength": 155,
+      "articleWords": 449,
+      "errors": []
+    },
+    {
+      "url": "https://www.fishcareai.com/guides/telescope-goldfish-care/water-parameters/",
+      "titleLength": 55,
+      "descriptionLength": 148,
+      "articleWords": 429,
+      "errors": []
+    },
+    {
+      "url": "https://www.fishcareai.com/guides/telescope-goldfish-care/feeding/",
+      "titleLength": 41,
+      "descriptionLength": 144,
+      "articleWords": 456,
+      "errors": []
+    },
+    {
+      "url": "https://www.fishcareai.com/guides/telescope-goldfish-care/lifespan/",
+      "titleLength": 51,
+      "descriptionLength": 142,
+      "articleWords": 396,
+      "errors": []
+    },
+    {
+      "url": "https://www.fishcareai.com/guides/telescope-goldfish-care/size-growth/",
+      "titleLength": 39,
+      "descriptionLength": 154,
+      "articleWords": 386,
+      "errors": []
+    },
+    {
+      "url": "https://www.fishcareai.com/guides/telescope-goldfish-care/types/",
+      "titleLength": 53,
+      "descriptionLength": 154,
+      "articleWords": 385,
+      "errors": []
+    },
+    {
+      "url": "https://www.fishcareai.com/guides/telescope-goldfish-care/breeding/",
+      "titleLength": 49,
+      "descriptionLength": 148,
+      "articleWords": 455,
+      "errors": []
+    },
+    {
+      "url": "https://www.fishcareai.com/guides/telescope-goldfish-care/eye-problems/",
+      "titleLength": 54,
+      "descriptionLength": 148,
+      "articleWords": 449,
+      "errors": []
+    },
+    {
+      "url": "https://www.fishcareai.com/guides/telescope-goldfish-care/diseases/",
+      "titleLength": 52,
+      "descriptionLength": 145,
+      "articleWords": 426,
+      "errors": []
+    },
+    {
+      "url": "https://www.fishcareai.com/guides/telescope-goldfish-care/not-eating/",
+      "titleLength": 54,
+      "descriptionLength": 155,
+      "articleWords": 429,
+      "errors": []
+    },
+    {
+      "url": "https://www.fishcareai.com/guides/telescope-goldfish-care/swim-bladder/",
+      "titleLength": 53,
+      "descriptionLength": 153,
+      "articleWords": 461,
+      "errors": []
+    },
+    {
+      "url": "https://www.fishcareai.com/guides/telescope-goldfish-care/color-change/",
+      "titleLength": 49,
+      "descriptionLength": 154,
+      "articleWords": 391,
+      "errors": []
+    },
+    {
+      "url": "https://www.fishcareai.com/guides/telescope-goldfish-care/tank-mates/",
+      "titleLength": 51,
+      "descriptionLength": 151,
+      "articleWords": 540,
+      "errors": []
+    }
+  ]
+}
