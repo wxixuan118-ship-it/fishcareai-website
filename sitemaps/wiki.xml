@@ -8,7 +8,7 @@
   </ns0:url>
   <ns0:url>
     <ns0:loc>https://www.fishcareai.com/wiki/pea-puffer/</ns0:loc>
-    <ns0:lastmod>2026-08-15</ns0:lastmod>
+    <ns0:lastmod>2026-09-09</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>
@@ -57,6 +57,12 @@
   <ns0:url>
     <ns0:loc>https://www.fishcareai.com/wiki/dragon-stone/</ns0:loc>
     <ns0:lastmod>2026-08-26</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://www.fishcareai.com/wiki/snakehead-fish/</ns0:loc>
+    <ns0:lastmod>2026-09-09</ns0:lastmod>
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.8</ns0:priority>
   </ns0:url>

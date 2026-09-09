@@ -63,6 +63,20 @@ def write(path: Path, content: str) -> None:
     path.write_text(content, encoding="utf-8")
 
 
+SPECIES_GUIDES: dict[str, list[tuple[str, str, str]]] = {'dwarf-puffer': [('/guides/puffer-fish-care/pea-puffer/', 'Pea Puffer Care Guide', 'Tank size, water parameters, diet and tank mates.'), ('/guides/puffer-fish-care/diseases/', 'Puffer Fish Diseases', 'Half-dose medication rules for scaleless fish.'), ('/guides/puffer-fish-care/not-eating/', 'Puffer Not Eating', 'Water, teeth and parasite checks in order.'), ('/guides/puffer-fish-care/', 'Puffer Fish Care Guide', 'The full 24-part puffer care series.')], 'figure-eight-puffer': [('/guides/puffer-fish-care/figure-8-puffer/', 'Figure 8 Puffer Care Guide', 'Brackish salinity, tank size and diet.'), ('/guides/puffer-fish-care/diseases/', 'Puffer Fish Diseases', 'Half-dose medication rules for scaleless fish.'), ('/guides/puffer-fish-care/water-parameters/', 'Puffer Water Parameters', 'Temperature, pH and specific gravity targets.'), ('/guides/puffer-fish-care/', 'Puffer Fish Care Guide', 'The full 24-part puffer care series.')], 'porcupine-puffer': [('/guides/puffer-fish-care/saltwater/', 'Saltwater Puffer Fish Care', 'Marine puffer species, tank size and diet.'), ('/guides/puffer-fish-care/diseases/', 'Puffer Fish Diseases', 'Why copper is unsafe on scaleless fish.'), ('/guides/puffer-fish-care/teeth/', 'Puffer Teeth & Trimming', 'Preventing and treating beak overgrowth.'), ('/guides/puffer-fish-care/', 'Puffer Fish Care Guide', 'The full 24-part puffer care series.')]}
+
+
+def species_guide_section(species_slug: str, species_name: str) -> str:
+    entries = SPECIES_GUIDES.get(species_slug)
+    if not entries:
+        return ""
+    cards = "".join(
+        f'<a class="card" href="{href}"><h3>{html.escape(title)}</h3><p>{html.escape(desc)}</p></a>'
+        for href, title, desc in entries
+    )
+    return f'<section><h2>{html.escape(species_name)} care guides</h2><div class="grid">{cards}</div></section>'
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("coverage", type=Path)
@@ -105,7 +119,7 @@ def main() -> None:
 <section class="hero"><h1>{html.escape(species_name)} Diseases: Symptoms, Causes &amp; Guides</h1><p>Browse {len(pages)} currently indexed symptom and disease guides for {html.escape(species_name)}. Check water quality first and use symptoms only to narrow possible causes.</p></section>
 <section class="notice"><strong>Important:</strong> Similar symptoms may have infectious, environmental, nutritional or physical causes. These guides are educational and are not a veterinary diagnosis.</section>
 <section><h2>{html.escape(species_name)} symptom and disease guides</h2><div class="grid">{cards}</div></section>
-<section><h2>What to check before treatment</h2><ol><li>Test ammonia, nitrite, nitrate, pH and temperature.</li><li>Record the symptom, duration and changes in behaviour.</li><li>Check whether other fish are affected and whether new fish, plants or equipment were added.</li><li>Avoid mixing medications based on one visible symptom alone.</li></ol></section>
+{species_guide_section(species, species_name)}<section><h2>What to check before treatment</h2><ol><li>Test ammonia, nitrite, nitrate, pH and temperature.</li><li>Record the symptom, duration and changes in behaviour.</li><li>Check whether other fish are affected and whether new fish, plants or equipment were added.</li><li>Avoid mixing medications based on one visible symptom alone.</li></ol></section>
 <section><h2>Frequently asked questions</h2><h3>How should I use these fish symptom guides?</h3><p>Start with water test results, the fish species and visible symptoms. Similar signs can have different causes, so these pages are educational starting points rather than a diagnosis.</p><h3>When should I seek professional help?</h3><p>Contact an aquatic veterinarian or fish-health professional for severe breathing difficulty, open ulcers, rapid deterioration, repeated deaths or symptoms that persist after water conditions are corrected.</p></section>'''
         schema = [
             {"@context": "https://schema.org", "@type": "CollectionPage", "name": f"{species_name} Diseases", "url": hub_url},

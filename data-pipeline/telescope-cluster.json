@@ -1,0 +1,656 @@
+{
+  "pages": [
+    {
+      "slug": "",
+      "title": "Telescope Goldfish Care Guide: Eyes, Tank and Feeding",
+      "desc": "Learn telescope goldfish care, from protecting delicate eyes and choosing a roomy tank to feeding, water quality, health checks and peaceful companions.",
+      "keywords": [
+        "telescope fish",
+        "telescope goldfish",
+        "telescope eye goldfish",
+        "telescope eye fish",
+        "telescope goldfish care",
+        "telescope fish care",
+        "how to care for telescope goldfish",
+        "telescope goldfish care guide"
+      ],
+      "sections": [
+        [
+          "overview",
+          "What is a telescope goldfish?",
+          "<p>A telescope goldfish is a fancy variety of <em>Carassius auratus</em> with protruding eyes and a double tail. In aquarium searches, “telescope fish” usually means this goldfish. It is a freshwater fish, and its eye shape affects the way you should arrange its home and feed it.</p><p>Black Moors belong to this group, but telescopes also come in red, white, calico and mixed patterns. Colour does not change the basic care routine. Telescope eyes are not the fluid-filled sacs of bubble-eye goldfish; do not treat a normal, longstanding eye shape as an infection.</p>"
+        ],
+        [
+          "routine",
+          "How to care for telescope goldfish",
+          "<p>Start with a fully cycled, spacious aquarium, gentle circulation and smooth decor. Allow extra clearance around ornaments so the fish can turn without brushing its eyes. A protected filter intake and a predictable feeding spot make daily care easier.</p><p>Each day, watch swimming, breathing and feeding before adding food. Check that every fish finds its portion. Remove leftovers and investigate changes from that fish’s normal behaviour. Test ammonia and nitrite immediately if a fish is distressed; both should be undetectable.</p><p>Each week, review water tests, remove trapped waste and change enough conditioned water to control nitrate. Match replacement-water temperature. Clean filter media gently without replacing all biological media at once.</p>"
+        ],
+        [
+          "planning",
+          "Plan for an adult fish",
+          "<p>Choose a long, broad tank instead of a narrow decorative container. Our starting planning allowance is around 30 US gallons for one telescope and 40–50 gallons for a compatible pair, with more space as adult size demands. These are planning allowances, not a guarantee that any tank of that volume is suitable.</p><p>Prepare for a fish that may approach 20 cm in body length, plus fins, and a commitment of roughly 10–15 years under good care. Individual size and longevity vary. Read the tank and growth guides before buying a juvenile.</p>"
+        ],
+        [
+          "next",
+          "Choose the guide for your current question",
+          "<p>For a new aquarium, start with <a href=\"tank-size/\">tank size and setup</a> and <a href=\"water-parameters/\">water parameters</a>. For day-to-day care, use the <a href=\"feeding/\">feeding guide</a>.</p><p>If an eye suddenly changes or a fish cannot swim normally, use the <a href=\"eye-problems/\">eye problem guide</a> or <a href=\"swim-bladder/\">buoyancy guide</a> rather than assuming the unusual appearance is normal.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Are telescope fish and telescope goldfish the same?",
+          "In aquarium care searches, these names usually refer to telescope-eye goldfish, a fancy variety of Carassius auratus."
+        ],
+        [
+          "Are telescope goldfish suitable for beginners?",
+          "They require careful feeding and an eye-safe setup. A prepared keeper with a cycled, spacious aquarium can meet those needs; bowls are unsuitable."
+        ]
+      ]
+    },
+    {
+      "slug": "tank-size",
+      "title": "Telescope Goldfish Tank Size and Aquarium Setup",
+      "desc": "Plan a telescope goldfish tank with enough adult space, gentle filtration, protected intakes and smooth decor, plus practical setup and maintenance checks.",
+      "keywords": [
+        "telescope goldfish tank",
+        "telescope goldfish tank size",
+        "telescope fish tank size",
+        "telescope goldfish aquarium"
+      ],
+      "sections": [
+        [
+          "space",
+          "How big should a telescope goldfish tank be?",
+          "<p>As a starting planning allowance, choose around 30 US gallons (114 litres) for one telescope, or 40–50 gallons (151–189 litres) for a compatible pair. Larger adults and groups need substantially more room. Tank length and width must let each fish turn without touching ornaments or other fish.</p><p>Published advice varies. Practical Fishkeeping recommends at least a 120 × 60 cm footprint for three adult telescopes, with an example 45 cm depth. That is about 324 litres before substrate and headspace. This adult-group example is more useful than scaling up a tiny juvenile tank.</p>"
+        ],
+        [
+          "layout",
+          "Build an aquarium that protects the eyes",
+          "<p>Keep an open swimming route through the middle. Inspect ornaments by hand for sharp edges and remove narrow openings. Avoid abrasive rock and stiff, pointed artificial plants. Use smooth, aquarium-safe surfaces and leave room for fish to forage.</p><p>Fine aquarium sand or a carefully maintained bare bottom can simplify cleaning. Avoid mouth-sized stones that could lodge in the mouth. Place intake guards so a slow fish cannot be pinned to the filter.</p>"
+        ],
+        [
+          "filter",
+          "Cycle the filter before adding fish",
+          "<p>A filter needs established biological media; clear water alone does not show that a tank is cycled. Use a fishless cycling process and water tests before stocking. Goldfish create a substantial waste load, so select adequate biological filtration and maintain good surface movement.</p><p>Strong filtration need not mean a forceful current. Baffle the outlet or distribute the return flow if fish struggle to hold position. Add aeration if surface movement is insufficient. Protect air lines and equipment so they cannot create eye-catching gaps.</p>"
+        ],
+        [
+          "maintenance",
+          "Check whether the setup still fits",
+          "<p>Measure nitrate trends and watch feeding access as fish grow. Regularly siphon accumulated debris and replace conditioned water. The necessary change volume depends on stocking and tests, rather than a universal calendar percentage.</p><p>Persistent crowding, deteriorating water quality or repeated eye collisions are reasons to upgrade or reduce stocking. Use the <a href=\"/calculators/goldfish-tank-size/\">goldfish tank calculator</a> as a general estimate, then apply these telescope-specific footprint and eye-safety checks.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Can a telescope goldfish live in a bowl?",
+          "A bowl is unsuitable for long-term care because adult space, filtration and stable water quality are difficult to provide."
+        ],
+        [
+          "Is a tall tank better for telescope goldfish?",
+          "A broad footprint generally offers more useful swimming and turning room. Volume alone does not determine suitability."
+        ]
+      ]
+    },
+    {
+      "slug": "water-parameters",
+      "title": "Telescope Goldfish Water Temperature, pH and Parameters",
+      "desc": "Check telescope goldfish temperature, pH, ammonia and nitrite targets. Learn how to keep water stable and respond when aquarium test results change.",
+      "keywords": [
+        "telescope goldfish water temperature",
+        "telescope goldfish temperature",
+        "telescope goldfish water parameters",
+        "telescope goldfish pH"
+      ],
+      "sections": [
+        [
+          "targets",
+          "Practical water targets",
+          "<p>For indoor fancy goldfish, a stable 20–23°C (68–74°F) is a practical starting range. Aqueon gives 68–74°F for fancy goldfish; RSPCA gives 20–24°C for goldfish generally. These overlapping recommendations are guidance, not abrupt boundaries between safe and unsafe water.</p><p>Aim for undetectable ammonia and nitrite. Keep nitrate low through water changes, using below about 20–40 mg/L as a practical management target. Do not wait for a high reading if a fish is distressed.</p>"
+        ],
+        [
+          "ph",
+          "What pH should telescope goldfish have?",
+          "<p>A stable pH around 7.0–8.0 is a useful practical target for many home aquariums. Sources give different wider ranges, so avoid repeatedly adding pH-adjusting chemicals simply to hit one number. Compare the aquarium with conditioned source water and assess carbonate hardness if pH drifts.</p><p>A sudden change matters even when both readings look acceptable in a care chart. Record temperature, pH and nitrogen-compound tests together so changes can be interpreted in context.</p>"
+        ],
+        [
+          "heater",
+          "Does the aquarium need a heater?",
+          "<p>Use a thermometer to check daily and overnight conditions. A thermostatic heater can prevent chilling in a cold or unstable room. A consistently suitable room may not require one. Protect the heater and position it where fish cannot wedge themselves behind it.</p><p>During hot weather, increase gas exchange and cool the room gradually. Do not add ice directly or make a sudden temperature change. Warm water holds less oxygen, and rapid gill movement is a reason to investigate promptly.</p>"
+        ],
+        [
+          "response",
+          "What to do after a bad water test",
+          "<p>Check that the filter is running and increase surface movement. If ammonia or nitrite is detected, change an appropriate portion of water with temperature-matched, conditioned water and retest. Check the replacement water too if readings persist.</p><p>Reduce waste input, remove uneaten food and preserve biological media. Do not replace the whole filter or add several medications together. Use the <a href=\"/tools/water-parameter-checker/\">water parameter checker</a> to organise results; it cannot diagnose disease.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Can telescope goldfish live in tropical temperatures?",
+          "They are normally kept in cooler conditions than many tropical species. Choose a stable fancy-goldfish range and companions whose full care needs match."
+        ],
+        [
+          "Should I add salt routinely?",
+          "Routine salt is not necessary for a well-managed freshwater setup. Use any treatment only for a defined reason and with an appropriate protocol."
+        ]
+      ]
+    },
+    {
+      "slug": "feeding",
+      "title": "Telescope Goldfish Food and Feeding Guide",
+      "desc": "Find suitable telescope goldfish food, learn how often to feed and make sure slower fish locate each meal without leaving waste in the aquarium.",
+      "keywords": [
+        "telescope goldfish food",
+        "what do telescope goldfish eat",
+        "what to feed telescope goldfish",
+        "best food for telescope goldfish",
+        "how often to feed telescope goldfish",
+        "telescope goldfish feeding"
+      ],
+      "sections": [
+        [
+          "diet",
+          "What do telescope goldfish eat?",
+          "<p>Use a complete food formulated for goldfish as the staple. Small sinking pellets or a nutritionally complete gel food are practical options for a telescope that struggles to locate floating food. Check that the food pieces fit comfortably in its mouth.</p><p>Occasional suitable vegetables and thawed aquatic foods can add variety, but they should not displace a balanced staple. Peas are not a complete diet or a proven cure for every buoyancy problem. Avoid bread, mammal meat and wild-collected foods of uncertain origin.</p>"
+        ],
+        [
+          "frequency",
+          "How often should you feed telescope goldfish?",
+          "<p>For a healthy adult in a stable indoor aquarium, start with one or two small meals daily. Divide the daily ration if feeding twice; do not double it. Observe body condition, water quality and actual intake, then adjust.</p><p>Offer a little at a time and watch it being swallowed. A rough two-minute feeding window can help limit waste, but a slow-sighted fish may need food delivered nearby rather than a larger ration. Remove food that remains uneaten.</p>"
+        ],
+        [
+          "access",
+          "Help a telescope find its food",
+          "<p>Use the same accessible feeding area and keep it clear of rough ornaments. Distribute food at more than one spot when companions rush the first portion. Watch the telescope itself eat before concluding that a communal meal was successful.</p><p>If it misses repeatedly, try a sinking gel portion placed in a clean dish or gently release pellets close to the fish without touching its eyes. Avoid chasing the fish with feeding tools. Record whether difficulty began after moving decor or adding a faster companion.</p>"
+        ],
+        [
+          "troubleshooting",
+          "When a feeding change needs investigation",
+          "<p>A telescope that approaches food but misses it needs a different assessment from one that ignores food entirely. Compare the <a href=\"../not-eating/\">not-eating guide</a> with the <a href=\"../eye-problems/\">eye health guide</a>.</p><p>Persistent loss of appetite, weight loss, unusual breathing or a swollen abdomen warrants prompt assessment. Increasing food or adding supplements can worsen waste without addressing the cause. Use a dated record of meals, water tests and behaviour to support veterinary advice.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "What is the best food for telescope goldfish?",
+          "A complete goldfish food that the individual can find and swallow is the best starting point. Sinking pellets or complete gel foods are practical formats."
+        ],
+        [
+          "Do telescope goldfish need a weekly fast?",
+          "There is no universal need for a weekly fast. Adjust normal portions to the fish and seek advice for recurring digestive or buoyancy problems."
+        ]
+      ]
+    },
+    {
+      "slug": "lifespan",
+      "title": "Telescope Goldfish Lifespan: How Long Do They Live?",
+      "desc": "Learn what affects telescope goldfish lifespan, how to plan for years of care and which daily changes matter more than a promised maximum age.",
+      "keywords": [
+        "telescope goldfish lifespan",
+        "telescope fish lifespan",
+        "how long do telescope goldfish live"
+      ],
+      "sections": [
+        [
+          "years",
+          "How long do telescope goldfish live?",
+          "<p>Roughly 10–15 years is a sensible long-term care planning horizon, based on general goldfish guidance. Some goldfish live longer. Reliable telescope-only population data are limited, so this is not a measured average for every telescope strain or a guarantee for an individual fish.</p><p>A short life in poor conditions should not be considered normal for the variety. Conversely, the exceptional age of a record-setting goldfish does not predict how long a particular fancy goldfish will live.</p>"
+        ],
+        [
+          "factors",
+          "What affects lifespan?",
+          "<p>Water stability, adequate adult space, consistent feeding access and early recognition of illness all contribute to long-term welfare. Telescope eye shape also makes injury prevention important. Repeated collisions or missed meals deserve a change in the setup.</p><p>Individual genetics, previous rearing conditions and chronic disease matter too. A keeper cannot control every outcome, but can avoid overcrowding, abrupt chemical changes and delayed attention to new symptoms.</p>"
+        ],
+        [
+          "records",
+          "Build a useful long-term care record",
+          "<p>Keep purchase information, dated photographs and a simple log of water results and major changes. Photograph the fish from the same side to compare body condition and eye appearance over time. A photo is often more useful than relying on memory.</p><p>Prepare holiday feeding and emergency filtration plans before travel. Show a caregiver the normal portion and the fish’s usual behaviour. Premeasured meals reduce accidental overfeeding.</p>"
+        ],
+        [
+          "older",
+          "Caring for an older telescope",
+          "<p>Review access to food and resting areas as the fish ages. Maintain familiar, clear routes rather than rearranging the whole aquarium. Track weight or body condition where feasible without unnecessary handling.</p><p>Do not dismiss persistent bottom sitting, lost appetite or laboured breathing as old age. Check water and equipment, then seek advice if the problem persists. The <a href=\"../not-eating/\">appetite and bottom-sitting guide</a> explains useful observations.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Can a telescope goldfish live more than 10 years?",
+          "Yes, a decade or more is a reasonable commitment to plan for, although individual outcomes vary."
+        ],
+        [
+          "Can you tell a telescope goldfish’s age by its size?",
+          "Size alone is unreliable because genetics, feeding, rearing history and health affect growth."
+        ]
+      ]
+    },
+    {
+      "slug": "size-growth",
+      "title": "Telescope Goldfish Size and Growth Rate",
+      "desc": "Plan for adult telescope goldfish size and understand why growth varies with genetics, feeding and care instead of following a fixed monthly growth chart.",
+      "keywords": [
+        "telescope goldfish size",
+        "how big do telescope goldfish get",
+        "telescope goldfish growth rate"
+      ],
+      "sections": [
+        [
+          "adult",
+          "How big do telescope goldfish get?",
+          "<p>A telescope can approach about 20 cm (8 inches) in body length, excluding its tail. Some fish stay smaller; fin length makes total length greater. Practical Fishkeeping uses this adult body size when advising on telescope aquarium dimensions.</p><p>Always ask whether a quoted size includes the tail. Comparing a shop’s total-length measurement with a body-length estimate can make a healthy fish appear unusually large or small.</p>"
+        ],
+        [
+          "growth",
+          "How fast do telescope goldfish grow?",
+          "<p>There is no reliable universal centimetres-per-month schedule for pet telescopes. Young fish may change rapidly, while growth usually slows with maturity. Genetics, nutrition, temperature, health and rearing history interact.</p><p>Do not raise temperature or overfeed simply to accelerate growth. Increased waste can overwhelm filtration. Slow growth alongside thinness, poor appetite or poor water results calls for a care review rather than a growth booster.</p>"
+        ],
+        [
+          "measure",
+          "Measure growth without stressing the fish",
+          "<p>Take periodic side photographs against a fixed reference outside the glass. Note that perspective can distort measurements; keep camera position consistent. Record approximate body length separately from total length.</p><p>Use the same observation session to check body condition and symmetrical swimming. Avoid netting repeatedly for a more exact number, especially when protruding eyes could catch in mesh.</p>"
+        ],
+        [
+          "upgrade",
+          "Buy housing for the adult",
+          "<p>A juvenile’s current length is not a long-term stocking rule. Check turning room, floor area and feeding access as it grows. The <a href=\"../tank-size/\">tank setup guide</a> includes adult planning allowances and an example group footprint.</p><p>Review filter maintenance and water-change needs as biomass increases. A tank may become inadequate through declining water quality before a fish visibly runs out of swimming space. Prepare an upgrade in advance rather than waiting for chronic problems.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Do telescope goldfish grow to fit their tank?",
+          "A small tank is not a healthy way to control adult size. Poor space and water quality can impair welfare and growth."
+        ],
+        [
+          "Does a long tail mean a larger body?",
+          "No. Record body length and total length separately because fin shape varies between telescope varieties."
+        ]
+      ]
+    },
+    {
+      "slug": "types",
+      "title": "Telescope Goldfish Types, Colours and Butterfly Tails",
+      "desc": "Compare red, white, calico, panda and butterfly telescope goldfish. Understand colour patterns, tail shapes and how they relate to the black moor variety.",
+      "keywords": [
+        "types of telescope goldfish",
+        "telescope goldfish varieties",
+        "telescope goldfish colors",
+        "red telescope goldfish",
+        "white telescope goldfish",
+        "calico telescope goldfish",
+        "butterfly telescope goldfish",
+        "panda telescope goldfish"
+      ],
+      "sections": [
+        [
+          "features",
+          "Eye shape, colour and tail are separate traits",
+          "<p>Telescope describes the protruding eyes. Colour names describe pigmentation, while butterfly describes a tail shape most clearly appreciated from above. A fish can therefore be both calico and butterfly-tailed, with telescope eyes.</p><p>These are selectively bred goldfish varieties, not separate species with independent water requirements. Seller labels are not always consistent, so inspect the actual fish and ask about its recent health and feeding.</p>"
+        ],
+        [
+          "colours",
+          "Red, white, calico and panda telescopes",
+          "<p>Red or orange telescopes have warm pigmentation, sometimes with white areas. White telescopes have predominantly pale bodies; a normal white variety should not be confused with a formerly coloured fish that suddenly becomes pale and unwell.</p><p>Calico describes a mixed pattern with several colours and often a mottled appearance. Panda usually means a black-and-white pattern. Neither pattern guarantees permanent colour: pigment can change as the fish develops. See <a href=\"../color-change/\">colour change and turning white</a> for the difference between a pattern and a symptom.</p>"
+        ],
+        [
+          "butterfly",
+          "Butterfly telescope goldfish",
+          "<p>Butterfly tails spread broadly when viewed from above. Tail carriage and symmetry vary between individuals and breeding lines. Assess whether the fish swims and rests comfortably rather than selecting only for an extreme outline.</p><p>Allow generous clearance around decor and avoid suction or current that traps long fins. A shallow viewing angle does not mean the fish belongs in a small container. It still needs an adult-sized, filtered aquarium.</p>"
+        ],
+        [
+          "moor",
+          "Where do Black Moors fit?",
+          "<p>Black Moors are black telescope-type goldfish. Use the existing <a href=\"/wiki/black-moor-goldfish/\">Black Moor profile</a> for this variety; a colour-specific duplicate care page is unnecessary.</p><p>Whether a telescope is black, red or calico, eye protection and access to meals remain priorities. Compare companions by speed, adult size and behaviour rather than matching colours.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Is a panda telescope a different species?",
+          "No. Panda describes a black-and-white pattern in a selectively bred goldfish variety."
+        ],
+        [
+          "Will a panda telescope keep its black markings?",
+          "Not necessarily. Pigment can change with development, so the seller cannot guarantee a permanent pattern."
+        ]
+      ]
+    },
+    {
+      "slug": "breeding",
+      "title": "Telescope Goldfish Breeding, Sexing, Eggs and Fry",
+      "desc": "Learn male and female telescope goldfish clues, spawning behaviour, egg protection and fry care, including when chasing or swelling needs attention.",
+      "keywords": [
+        "male vs female telescope goldfish",
+        "telescope goldfish male or female",
+        "telescope goldfish breeding",
+        "telescope goldfish eggs",
+        "telescope goldfish mating",
+        "baby telescope goldfish"
+      ],
+      "sections": [
+        [
+          "sexing",
+          "Male vs female telescope goldfish",
+          "<p>Sex is difficult to determine in juveniles. Mature males may develop small breeding tubercles on the gill covers and leading pectoral-fin rays. Females carrying eggs may appear fuller, but body shape alone is not a reliable test.</p><p>A few localised breeding tubercles should be distinguished from widespread new white spots, rubbing or respiratory distress. Do not squeeze the abdomen or press around the vent to check sex. If signs are ambiguous, leave the fish unsexed.</p>"
+        ],
+        [
+          "spawning",
+          "Telescope goldfish mating and chasing",
+          "<p>Goldfish scatter adhesive eggs and fertilise them externally. Mature fish may spawn after seasonal changes under suitable conditions. Chasing can accompany spawning, but persistent pursuit that exhausts or injures a telescope is a reason to separate fish safely.</p><p>Before encouraging breeding, arrange cycled rearing space, suitable first foods and homes for offspring. Avoid abrupt temperature manipulation. Rounded bodies or protruding eyes do not make a fish exempt from the normal welfare costs of repeated spawning.</p>"
+        ],
+        [
+          "eggs",
+          "What to do with telescope goldfish eggs",
+          "<p>Adults may eat eggs and do not provide parental care. Eggs attached to spawning material can be transferred with that material to a prepared aquarium with matched water and gentle aeration. Keep intakes protected.</p><p>Development time varies with temperature. Viable eggs usually develop over several days; opaque or fungus-covered eggs may be nonviable and should be removed carefully to reduce fouling. Do not promise that every clear egg will hatch or add medication without a specific need.</p>"
+        ],
+        [
+          "fry",
+          "Caring for baby telescope goldfish",
+          "<p>Newly hatched larvae initially use a yolk supply. Once free-swimming, offer suitable very small foods in frequent, controlled portions. Fry need food sized for their mouths, excellent water quality and gentle filtration such as a mature sponge filter.</p><p>Remove waste carefully and protect fry during water changes. Separate markedly different sizes if smaller fry lose access to food. Telescope features and colour develop with age; not every offspring will resemble its parents.</p>"
+        ],
+        [
+          "swelling",
+          "A swollen female is not automatically full of eggs",
+          "<p>Rapid bloating, raised scales, poor appetite or difficulty swimming should be assessed as health signs. Do not assume a fish is pregnant: goldfish lay eggs. See the <a href=\"../swim-bladder/\">bloating and buoyancy guide</a> when swelling accompanies distress.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Do telescope goldfish give birth to live babies?",
+          "No. They lay eggs that develop outside the female’s body."
+        ],
+        [
+          "Can I sex a baby telescope by eye size?",
+          "No. Eye size is not a reliable way to determine sex, especially in juveniles."
+        ]
+      ]
+    },
+    {
+      "slug": "eye-problems",
+      "title": "Telescope Goldfish Eye Problems: Injury and Cloudiness",
+      "desc": "Assess telescope goldfish swollen, cloudy, injured or missing eyes. Learn what to check first, how to prevent trauma and when to contact a fish vet.",
+      "keywords": [
+        "telescope goldfish eye problems",
+        "telescope goldfish swollen eye",
+        "telescope goldfish injured eye",
+        "telescope goldfish cloudy eye",
+        "telescope goldfish missing eye"
+      ],
+      "sections": [
+        [
+          "normal",
+          "Normal telescope eyes or a new problem?",
+          "<p>Prominent eyes are part of the variety, but a sudden change is not. Compare with older photographs: look for new asymmetry, surface haze, redness, bleeding or a change in the fish’s ability to find food.</p><p>One eye affected after a collision suggests a different history from both eyes changing alongside poor water results. Neither pattern proves the cause. A photograph can document appearance but cannot confirm a bacterial infection.</p>"
+        ],
+        [
+          "first",
+          "First checks for a swollen or cloudy eye",
+          "<p>Test ammonia and nitrite, review pH and temperature changes, and check that the filter and aeration work. Correct water problems with appropriate conditioned-water changes. Inspect decor, intakes and companions for a source of trauma.</p><p>Watch from a distance to see whether the fish rubs its face, is chased or misses meals. Record when the change began and whether one or both eyes are involved. Cloudiness may reflect irritation, injury or disease; selecting an antibiotic from appearance alone can miss the cause.</p>"
+        ],
+        [
+          "injury",
+          "Injured or missing eye: protect the fish",
+          "<p>Active bleeding, a ruptured eye, deep injury or rapidly worsening swelling needs prompt veterinary attention. Do not push an eye back, remove tissue, apply household antiseptic or put human eye drops into the tank.</p><p>If separation is necessary, use a cycled, temperature-matched hospital setup with gentle flow and protected equipment. Move the fish in a suitable container where possible; avoid entangling protruding eyes in coarse netting.</p>"
+        ],
+        [
+          "recovery",
+          "Feeding and recovery with impaired vision",
+          "<p>A fish with permanent sight loss may adapt, but needs assessment of comfort, infection risk and food access. Keep a consistent arrangement and feeding location. Confirm that it actually swallows food, rather than assuming leftovers disappeared because it ate.</p><p>The prognosis depends on the extent and cause of damage. A missing eye will not regrow into a normal eye. Persistent distress or inability to eat requires veterinary guidance about welfare and ongoing care.</p>"
+        ],
+        [
+          "prevention",
+          "Prevent repeat eye injuries",
+          "<p>Remove pointed or abrasive ornaments and narrow gaps. Keep calm companions and enough turning space. Use the <a href=\"../tank-size/\">eye-safe tank setup guide</a> and <a href=\"../tank-mates/\">tank-mate comparisons</a> when adjusting the aquarium.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Are all swollen eyes normal in telescope goldfish?",
+          "No. A stable inherited shape differs from new swelling, redness, cloudiness or injury."
+        ],
+        [
+          "Can a one-eyed telescope goldfish survive?",
+          "Some adapt, but the injury needs assessment and the fish must remain comfortable and able to eat."
+        ]
+      ]
+    },
+    {
+      "slug": "diseases",
+      "title": "Telescope Goldfish Diseases, Fin Rot and White Spots",
+      "desc": "Recognise telescope goldfish health problems, fin damage and possible ich. Start with water checks and use symptoms to guide a proper assessment.",
+      "keywords": [
+        "telescope goldfish diseases",
+        "telescope goldfish health problems",
+        "telescope goldfish fin rot",
+        "telescope goldfish white spots",
+        "telescope goldfish ich"
+      ],
+      "sections": [
+        [
+          "triage",
+          "Start with the fish and its water",
+          "<p>Disease names cannot be assigned reliably from one symptom. Record appetite, breathing, swimming, skin changes and whether other fish are affected. Test ammonia, nitrite, pH and temperature before choosing treatment.</p><p>If several fish deteriorate together, investigate shared water or equipment problems promptly. New fish, filter disruption and recent chemical additions are important details. Increase gas exchange while correcting a suspected oxygen problem.</p>"
+        ],
+        [
+          "fin-rot",
+          "Fin rot or physical fin damage?",
+          "<p>Fraying or missing tissue can follow nipping, abrasion, water-quality problems or infection. Compare dated photographs to see whether loss is progressing. Redness, ulceration or continuing tissue loss warrants professional advice.</p><p>Remove sharp surfaces and aggressive companions, restore water quality and monitor. Antibiotic choice should follow a suitable assessment; indiscriminate treatment may harm filtration and fail to address ongoing trauma.</p>"
+        ],
+        [
+          "white-spots",
+          "White spots and possible ich",
+          "<p>Ich is a parasitic disease, but visible spots alone are not a definitive test. Widespread salt-like spots with rubbing or breathing changes raise concern. Breeding tubercles typically occur in a more localised pattern on mature males, especially gill covers and leading pectoral rays.</p><p>An aquatic veterinarian can use skin or gill examination to distinguish parasites and other conditions. Ich treatment must address its life cycle in the aquarium. Follow a product protocol appropriate to the confirmed problem, water conditions and all inhabitants; do not simply raise heat or combine salt and medicines.</p>"
+        ],
+        [
+          "quarantine",
+          "Preventing and managing outbreaks",
+          "<p>Quarantine newcomers in a separate, established setup and observe before mixing equipment or fish. A bucket without biological filtration can create a second water-quality problem. Keep equipment separate where practical.</p><p>For a sick fish, use the symptom-specific guides: <a href=\"../eye-problems/\">eyes</a>, <a href=\"../not-eating/\">not eating or sitting at the bottom</a>, and <a href=\"../swim-bladder/\">floating or bloating</a>. Document any treatment already used, including product, amount and date.</p>"
+        ],
+        [
+          "urgent",
+          "When to seek urgent help",
+          "<p>Laboured breathing, collapse, bleeding, severe swelling or rapid deterioration needs prompt help. General care information cannot replace a diagnosis. The <a href=\"/aquarium-fish-diseases/goldfish-diseases/\">goldfish disease directory</a> provides broader symptom navigation.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Are white spots always ich?",
+          "No. Breeding tubercles and other skin changes can resemble white spots. Distribution, behaviour and examination help distinguish them."
+        ],
+        [
+          "Should I treat the whole tank?",
+          "That depends on the diagnosis and treatment protocol. Some parasites require aquarium-wide management; an isolated traumatic injury may not."
+        ]
+      ]
+    },
+    {
+      "slug": "not-eating",
+      "title": "Telescope Goldfish Not Eating or Sitting at the Bottom",
+      "desc": "Check a telescope goldfish that is not eating, lying on the bottom or lethargic. Compare feeding access, water quality, breathing and changes in behaviour.",
+      "keywords": [
+        "telescope goldfish not eating",
+        "telescope goldfish lying on bottom",
+        "telescope goldfish sitting at bottom",
+        "telescope goldfish lethargic"
+      ],
+      "sections": [
+        [
+          "distinguish",
+          "Resting, missing food or becoming ill?",
+          "<p>Brief rest during the dark period differs from prolonged daytime bottom sitting with clamped fins or unusual breathing. Observe without tapping the glass. Compare the fish with its normal pattern rather than judging one still photograph.</p><p>A telescope may want to eat but fail to locate food, especially after a layout change or when fast companions take every pellet. Watch a small meal closely: does the fish approach, miss, spit out food or ignore it?</p>"
+        ],
+        [
+          "checks",
+          "Check water and equipment first",
+          "<p>Test ammonia and nitrite immediately, then temperature and pH. Check filter output and surface movement. If other fish are also lethargic or breathing rapidly, treat shared water conditions as a priority.</p><p>Correct detected water problems with conditioned, temperature-matched water and retest. Remove accumulated food. Do not leave extra pellets on the bottom for a fish that is not eating; they can worsen the environment.</p>"
+        ],
+        [
+          "access",
+          "Try a controlled feeding observation",
+          "<p>Offer a small amount of suitable sinking food at a familiar, clear spot. Temporarily distract faster companions at the other end. If the telescope eats readily when competition is reduced, change the feeding arrangement and review stocking.</p><p>If it approaches but repeatedly misses, check for new eye cloudiness or injury. If it cannot stay upright or reach food, follow the <a href=\"../swim-bladder/\">buoyancy guide</a>. Avoid force-feeding without professional instruction.</p>"
+        ],
+        [
+          "escalate",
+          "When bottom sitting needs prompt assessment",
+          "<p>Persistent food refusal with weight loss, swollen abdomen, skin damage or laboured breathing needs advice from an aquatic veterinarian. A fish that collapses or deteriorates quickly should not wait through a fixed number of fasting days.</p><p>Provide the tank size, number of fish, water results, timing of the last normal meal and any recent additions. A short video showing breathing and swimming is useful. Distinguish a longstanding disability from a sudden change.</p>"
+        ],
+        [
+          "prevention",
+          "Reduce recurring feeding stress",
+          "<p>Maintain a predictable routine, smooth decor and several feeding locations. Review the <a href=\"../feeding/\">feeding guide</a> for portion control and the <a href=\"../tank-mates/\">tank-mate guide</a> for competition risks.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Is sitting at the bottom always swim bladder disease?",
+          "No. Resting, poor water, respiratory distress, injury and other illnesses can also cause bottom sitting."
+        ],
+        [
+          "Should I keep adding food until it eats?",
+          "No. Offer a small observed portion and remove leftovers while investigating the cause."
+        ]
+      ]
+    },
+    {
+      "slug": "swim-bladder",
+      "title": "Telescope Goldfish Swim Bladder Problems and Bloating",
+      "desc": "Understand telescope goldfish floating, sideways or upside-down swimming and bloating. Check water, document symptoms and know when a fish vet is needed.",
+      "keywords": [
+        "telescope goldfish floating",
+        "telescope goldfish swimming sideways",
+        "telescope goldfish swimming upside down",
+        "telescope goldfish bloated",
+        "telescope goldfish swim bladder"
+      ],
+      "sections": [
+        [
+          "signs",
+          "Buoyancy trouble is a symptom",
+          "<p>Floating uncontrollably, sinking, swimming sideways or turning upside down describes a loss of normal buoyancy or balance. It does not establish the cause. Fancy body shape can complicate swimming, but a new change still deserves assessment.</p><p>Possible causes include anatomical problems, digestive issues, infection, internal masses or environmental stress. A fish veterinarian may need imaging or other tests. A photograph cannot tell whether the swim bladder itself is damaged.</p>"
+        ],
+        [
+          "support",
+          "First actions for a struggling telescope",
+          "<p>Test water, confirm filtration and aeration, and note recent meals or temperature changes. Keep flow gentle enough that the fish is not exhausted. Remove surfaces against which it repeatedly rubs.</p><p>If a hospital setup is needed, it must have stable, matched water and biological filtration. Water depth can sometimes be adjusted under professional guidance to help access food, but a shallow unfiltered container is not a treatment.</p>"
+        ],
+        [
+          "bloating",
+          "Bloating and raised scales",
+          "<p>A fuller belly after feeding is different from persistent or rapidly increasing swelling. View the fish from above for raised, pinecone-like scales and record changes in appetite, breathing and waste.</p><p>Dropsy describes a syndrome involving fluid accumulation, not a single diagnosis. Swelling with raised scales or marked lethargy warrants prompt veterinary help. Do not assume every swollen fish is constipated or carrying eggs.</p>"
+        ],
+        [
+          "diet",
+          "Why peas and fasting are not universal cures",
+          "<p>Food format and portion size can matter, particularly when signs follow feeding. Discuss a consistent, appropriate diet with a professional if problems recur. Replacing all food with peas can create an unbalanced diet.</p><p>Do not use prolonged fasting, puncture the fish, attach weights or build a restraint to hold it upright. These approaches can cause additional injury and delay diagnosis. Medication should target an identified problem rather than the label “swim bladder”.</p>"
+        ],
+        [
+          "record",
+          "What to record for a vet",
+          "<p>Capture a short video of normal attempts to swim and rest. Record onset, water tests, diet, tank mates and any abdominal change. Explain whether the problem is constant or follows a meal.</p><p>Use the <a href=\"../feeding/\">feeding guide</a> to review meal access, and the <a href=\"../diseases/\">health guide</a> when skin changes or respiratory signs occur too.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Will peas cure an upside-down telescope goldfish?",
+          "There is no universal pea cure. Buoyancy problems have several causes, and persistent or severe cases need assessment."
+        ],
+        [
+          "Is a bloated telescope goldfish pregnant?",
+          "Goldfish lay eggs. A swollen abdomen can have several causes, including illness, so do not infer egg carrying from shape alone."
+        ]
+      ]
+    },
+    {
+      "slug": "color-change",
+      "title": "Telescope Goldfish Losing Colour or Turning White",
+      "desc": "Understand telescope goldfish colour changes, fading black markings and turning white. Learn when pigment changes differ from lesions or signs of illness.",
+      "keywords": [
+        "telescope goldfish losing color",
+        "telescope goldfish turning white"
+      ],
+      "sections": [
+        [
+          "pigment",
+          "Why telescope goldfish change colour",
+          "<p>Pigment and patterns can change as goldfish mature. Black markings in particular may fade, revealing orange or pale areas beneath. A fish sold with a panda pattern may not keep that exact appearance.</p><p>Lighting and camera settings also change perceived colour. Compare photographs under similar light before assuming a rapid biological change. Avoid judging pigment solely from an overexposed image.</p>"
+        ],
+        [
+          "compare",
+          "Normal fading or a health warning?",
+          "<p>Gradual, smooth colour change in an active fish with intact skin differs from a new white film, fuzzy patch, ulcer or scattered spots. Check skin texture as well as colour, without catching or handling the fish unnecessarily.</p><p>Loss of colour accompanied by clamped fins, poor appetite, rapid breathing or rubbing needs investigation. Test water and inspect for injury. Use the <a href=\"../diseases/\">white-spot and disease guide</a> for raised or spot-like changes.</p>"
+        ],
+        [
+          "black",
+          "Black Moors and panda telescopes",
+          "<p>A telescope does not stop being a telescope if black pigment changes. Eye structure and swimming needs remain. The existing <a href=\"/wiki/black-moor-goldfish/\">Black Moor profile</a> covers the black variety.</p><p>Do not try to preserve black colouring by keeping the fish in poor light or chasing a particular pH. Stable husbandry and a complete diet take priority over a permanent ornamental pattern.</p>"
+        ],
+        [
+          "action",
+          "What to do when your fish turns white",
+          "<p>Record how quickly the change occurred and whether it affects skin, fins or the eye surface. Review recent water changes, treatments and lighting changes. Correct measurable environmental problems and keep a dated photo log.</p><p>Avoid colour-enhancing products as a response to suspected illness. A sudden pale appearance with distress should be assessed promptly; a healthy fish slowly changing pattern can usually be monitored. Compare <a href=\"../types/\">telescope colour varieties</a> for terminology.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "Is a white telescope goldfish sick?",
+          "Not necessarily. White is also a normal colour variety. New skin texture changes or illness signs are more concerning than colour alone."
+        ],
+        [
+          "Can food guarantee that black markings stay black?",
+          "No. A complete diet supports health but cannot guarantee a genetically and developmentally determined colour pattern."
+        ]
+      ]
+    },
+    {
+      "slug": "tank-mates",
+      "title": "Telescope Goldfish Tank Mates: 10 Pairings Compared",
+      "desc": "Compare telescope goldfish with black moors, orandas, ranchu, fantails, ryukins, common goldfish, comets, koi, plecos and corydoras before mixing fish.",
+      "keywords": [
+        "telescope goldfish tank mates",
+        "best tank mates for telescope goldfish",
+        "what fish can live with telescope goldfish",
+        "telescope goldfish and black moor",
+        "telescope goldfish and oranda",
+        "telescope goldfish and ranchu",
+        "telescope goldfish and fantail",
+        "telescope goldfish and ryukin",
+        "telescope goldfish and common goldfish",
+        "telescope goldfish and comet goldfish",
+        "telescope goldfish and koi",
+        "telescope goldfish and pleco",
+        "telescope goldfish and corydoras"
+      ],
+      "sections": [
+        [
+          "choose",
+          "Choose by feeding access and swimming ability",
+          "<p>Other calm telescope-type goldfish of similar size are a practical first choice. Black Moors belong to this group. A pairing is successful only when both fish feed, rest and swim comfortably in adequate adult space.</p><p>Quarantine newcomers, compare size and behaviour, and have a separate cycled setup available if mixing fails. Even peaceful goldfish may chase during spawning or monopolise a meal.</p>"
+        ],
+        [
+          "fancies",
+          "Black Moor, oranda, ranchu, fantail and ryukin",
+          "<p><strong>Telescope goldfish and Black Moor:</strong> generally a sensible match when size and feeding speed are similar. Different colours do not create a separate compatibility problem.</p><p><strong>Telescope goldfish and oranda:</strong> potentially suitable, but a large oranda may outcompete a smaller telescope. Observe both fish eating at separate locations.</p><p><strong>Telescope goldfish and ranchu:</strong> often a workable slow-fancy pairing, subject to individual size, mobility and space. Neither fish should be pushed against decor or left without food.</p><p><strong>Telescope goldfish and fantail:</strong> possible, but an active fantail can take food faster. Multiple feeding spots and careful observation matter.</p><p><strong>Telescope goldfish and ryukin:</strong> more caution is appropriate with a vigorous or pushy individual. Separate if chasing, bumping or food exclusion occurs; breed labels cannot guarantee temperament.</p>"
+        ],
+        [
+          "fast",
+          "Common goldfish, comets and koi",
+          "<p><strong>Telescope goldfish and common goldfish:</strong> a poor default choice for a typical aquarium. Faster swimming and growth can leave the telescope at a feeding disadvantage.</p><p><strong>Telescope goldfish and comet goldfish:</strong> similar concerns apply, with energetic movement and substantial adult space needs. A juvenile combination that looks calm may change as fish mature.</p><p><strong>Telescope goldfish and koi:</strong> not recommended as a routine pairing. Koi need pond-scale accommodation, and size, activity and feeding differences complicate telescope welfare. General goldfish-and-koi compatibility advice should not be applied automatically to this delicate fancy variety.</p>"
+        ],
+        [
+          "catfish",
+          "Plecos and corydoras",
+          "<p><strong>Telescope goldfish and pleco:</strong> “pleco” covers many species with different sizes and temperature needs. Some may rasp the slime coat of slow fish, particularly at rest. We do not recommend an unspecified pleco as a telescope companion or algae-control solution.</p><p><strong>Telescope goldfish and corydoras:</strong> not a recommended default. Requirements vary by species, small catfish may be mouthed by a larger goldfish, and defensive spines create an injury hazard. Temperature overlap alone is insufficient.</p>"
+        ],
+        [
+          "monitor",
+          "How to judge a trial pairing",
+          "<p>Watch each meal and inspect fins and eyes after introductions. Food theft, repeated collisions, hiding or one fish losing condition are reasons to intervene. Extra filtration cannot solve behavioural incompatibility.</p><p>For a safer plan, prioritise compatible fancies and use the <a href=\"../tank-size/\">telescope tank setup guide</a> for shared adult space. The <a href=\"/tools/fish-compatibility-checker/\">compatibility checker</a> offers general comparisons; these telescope-specific observations still matter.</p>"
+        ]
+      ],
+      "faq": [
+        [
+          "What are the best tank mates for telescope goldfish?",
+          "Calm telescopes or Black Moors of similar size and swimming ability are a practical starting point, with adequate adult space and observed feeding."
+        ],
+        [
+          "Can telescope goldfish live with orandas?",
+          "Potentially, if neither fish is bullied or outcompeted. Assess size, behaviour and food access rather than assuming all individuals are compatible."
+        ]
+      ]
+    }
+  ]
+}
