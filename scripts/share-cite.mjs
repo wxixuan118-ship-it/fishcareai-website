@@ -123,6 +123,11 @@ for (const rel of files) {
     skipped++;
     continue;
   }
+  // Preserve intentionally custom share controls and their title-adjacent placement.
+  if (before.includes('data-sharecite-custom="true"')) {
+    skipped++;
+    continue;
+  }
   const { url, title } = pageMeta(before, rel);
   if (!title) {
     console.warn(`  ! ${rel} — no title/h1 found, skipped`);
