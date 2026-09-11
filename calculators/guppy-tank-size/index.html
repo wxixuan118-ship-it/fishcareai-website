@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<meta name="apple-itunes-app" content="app-id=6793299571">
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>Guppy Tank Size Calculator: How Many Gallons?</title>
 <meta name="robots" content="index,follow,max-image-preview:large"/>
@@ -102,7 +101,7 @@
   ]
 }</script>
 <meta name="google-adsense-account" content="ca-pub-6697313643773879">
-<script defer src="/assets/site-compliance.js?v=20260824-dark-fix"></script>
+<script defer src="/assets/site-compliance.js?v=20260911-guppy"></script>
 <style>:root{
   --bg:#061b2c;--panel:#0c3349;--panel2:#112e48;--text:#dff0fa;--muted:#8aaec2;
   --line:rgba(62,140,180,.28);--cyan:#2bd4c4;--warm:#f4a23e;--max:1180px;
@@ -235,17 +234,41 @@ h1{font-size:clamp(1.8rem,4vw,2.9rem);line-height:1.15;margin:0 0 12px;font-weig
 .link-btn .ttl{color:#fff;font-size:.95rem}
 .link-btn .arr{font-size:1.3rem;color:var(--cyan);flex-shrink:0}
 
-/* FOOTER */
-footer{background:#04111c;border-top:1px solid var(--line);padding:28px;
-  text-align:center;font-size:.83rem;color:var(--muted)}
-footer a{color:var(--muted);margin:0 8px}footer a:hover{color:#fff}
+/* FOOTER (filled by site-compliance.js) */
+.ft{background:#04111c;border-top:1px solid var(--line);padding:48px 22px 24px;font-size:.83rem;color:var(--muted)}
+.ft .con{max-width:var(--max);margin:0 auto}
+.ft a{color:rgba(234,251,255,.72);text-decoration:none}.ft a:hover{color:#fff}
+.ftg{display:grid;grid-template-columns:2fr repeat(3,1fr);gap:32px;margin-bottom:36px;text-align:left}
+.ftbr .logo{font-size:1.2rem;font-weight:800;color:#fff;margin-bottom:9px}
+.ftbr p{max-width:280px;font-size:.84rem;line-height:1.65;margin:0}
+.ftcol h3{margin:0 0 12px;color:#fff;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em}
+.ftcol a{display:block;font-size:.82rem;margin-bottom:8px}
+.ftb{border-top:1px solid rgba(255,255,255,.1);padding-top:16px;text-align:center;color:rgba(255,255,255,.45);font-size:.76rem}
+.legal-links{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:18px}
+.legal-links a{font-size:.84rem}
+
+/* CONSENT BANNER (injected by site-compliance.js) */
+.consent-banner{position:fixed;z-index:1000;left:18px;right:18px;bottom:18px;display:flex;align-items:center;
+  justify-content:space-between;gap:20px;max-width:980px;margin:auto;padding:18px 20px;color:#fff;
+  background:rgba(4,25,41,.97);border:1px solid rgba(125,235,255,.35);border-radius:18px;box-shadow:0 24px 80px rgba(0,0,0,.52)}
+.consent-banner[hidden]{display:none}
+.consent-banner p{margin:4px 0 0;font-size:.88rem;color:rgba(255,255,255,.8)}
+.consent-banner a{color:var(--cyan)}
+.consent-actions{display:flex;gap:10px;flex-shrink:0}
+.consent-actions button{padding:9px 14px;font-size:.82rem;font-weight:700;border-radius:999px;cursor:pointer;
+  border:1px solid rgba(255,255,255,.45);background:transparent;color:#fff}
+.consent-actions button.consent-accept{background:var(--cyan);border-color:var(--cyan);color:#061b2c}
 
 @media(max-width:860px){
   .wrap{grid-template-columns:1fr}
+  .ftg{grid-template-columns:1fr 1fr;gap:24px}
+  .consent-banner{left:8px;right:8px;bottom:8px;gap:10px;padding:10px 12px;border-radius:13px}
+  .consent-banner p{font-size:.72rem}
   .link-pair{grid-template-columns:1fr}
   .nlinks{display:none}
 }
 @media(max-width:520px){
+  .ftg{grid-template-columns:1fr}
   .hero{padding:32px 16px 28px}
   .calc,.specs{padding:20px}
   .tab{padding:8px 8px;font-size:.8rem}
@@ -436,16 +459,8 @@ footer a{color:var(--muted);margin:0 8px}footer a:hover{color:#fff}
 </div><!-- /wrap -->
 </main>
 
-<!-- FOOTER -->
-<footer>
-  <p>© 2026 FishCare AI &nbsp;·&nbsp;
-    <a href="/privacy/">Privacy</a>
-    <a href="/editorial-policy/">Editorial Policy</a>
-    <a href="/calculators/">All Calculators</a>
-    <a href="/guides/">Guides</a>
-    <a href="/species">Encyclopedia</a>
-  </p>
-</footer>
+<!-- FOOTER (global footer rendered by site-compliance.js) -->
+<footer class="ft"></footer>
 
 <script>
 const FISH={"mode": "standard", "name": "Guppy Fish", "plural": "Guppies", "schoolMin": 5, "schoolRec": 8, "minFirst": 10, "recFirst": 20, "perAdditional": 2};
