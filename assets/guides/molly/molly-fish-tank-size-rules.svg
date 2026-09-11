@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-labelledby="t2 d2">
+<title id="t2">Molly fish tank size rules: 4 gallons per molly, sailfins from 30 gallons, 1 male to 2–3 females</title>
+<desc id="d2">Three panels: one molly next to a four gallon water block; a larger sailfin molly next to a thirty gallon minimum label; one male molly with three females.</desc>
+<defs><linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient></defs>
+<rect width="1200" height="420" rx="24" fill="url(#bg2)"/>
+<rect x="40" y="40" width="360" height="340" rx="18" fill="#0c3349" stroke="#3e8cb4" stroke-opacity=".45" stroke-width="2"/>
+<text x="66" y="86" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="22" font-weight="800" fill="#fff">The 4-gallon rule</text>
+<text x="66" y="112" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="13.5" fill="#8aaec2">Each adult molly needs about 4 US gallons (15 L).</text>
+<rect x="420" y="40" width="360" height="340" rx="18" fill="#0c3349" stroke="#3e8cb4" stroke-opacity=".45" stroke-width="2"/>
+<text x="446" y="86" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="22" font-weight="800" fill="#fff">Sailfin mollies</text>
+<text x="446" y="112" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="13.5" fill="#8aaec2">P. latipinna / velifera reach 5–6 in. Start at 30 gal.</text>
+<rect x="800" y="40" width="360" height="340" rx="18" fill="#0c3349" stroke="#3e8cb4" stroke-opacity=".45" stroke-width="2"/>
+<text x="826" y="86" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="22" font-weight="800" fill="#fff">Mixed-sex ratio</text>
+<text x="826" y="112" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="13.5" fill="#8aaec2">Keep 1 male to 2–3 females to spread chasing.</text>
+<g transform="translate(120.0,225.0) scale(2.6,2.6)"><path d="M-14,0 L-8,-6 L-7,0 L-8,6 Z" fill="#2bd4c4" opacity=".85"/><path d="M-2,-5 L2,-10 L7,-5 Z" fill="#2bd4c4" opacity=".8"/><ellipse cx="3" cy="0" rx="9" ry="5" fill="#2bd4c4"/><circle cx="8.5" cy="-1.2" r="1.3" fill="#061b2c"/></g>
+<text x="185" y="236" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="34" font-weight="800" fill="#fff">=</text>
+<rect x="235" y="170" width="120" height="110" rx="12" fill="#1b6f8f" opacity=".55" stroke="#2bd4c4" stroke-width="2"/>
+<text x="295" y="233" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#fff">4 gal</text>
+<text x="66" y="340" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#dff0fa">20 gal → 5 · 40 gal → 10 · 55 gal → 13</text>
+<g transform="translate(520,228) scale(3.4)"><path d="M-14,0 L-8,-6 L-7,0 L-8,6 Z" fill="#f4a23e" opacity=".85"/><path d="M-6,-5 L-2,-16 L9,-14 L8,-5 Z" fill="#f4a23e" opacity=".75"/><ellipse cx="3" cy="0" rx="9" ry="5" fill="#f4a23e"/><circle cx="8.5" cy="-1.2" r="1.3" fill="#061b2c"/></g>
+<text x="640" y="220" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#fff">30 gal+</text>
+<text x="640" y="248" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#8aaec2">≈ 6 gal per fish</text>
+<text x="446" y="340" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#dff0fa">Take the calculator result and add ~50%.</text>
+<g transform="translate(870.0,225.0) scale(2.2,2.2)"><path d="M-14,0 L-8,-6 L-7,0 L-8,6 Z" fill="#f4a23e" opacity=".85"/><path d="M-2,-5 L2,-10 L7,-5 Z" fill="#f4a23e" opacity=".8"/><ellipse cx="3" cy="0" rx="9" ry="5" fill="#f4a23e"/><circle cx="8.5" cy="-1.2" r="1.3" fill="#061b2c"/></g>
+<text x="870" y="278" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#f4a23e">1 male</text>
+<text x="925" y="236" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="34" font-weight="800" fill="#fff">:</text>
+<g transform="translate(990.0,225.0) scale(1.9,1.9)"><path d="M-14,0 L-8,-6 L-7,0 L-8,6 Z" fill="#8aaec2" opacity=".85"/><path d="M-2,-5 L2,-10 L7,-5 Z" fill="#8aaec2" opacity=".8"/><ellipse cx="3" cy="0" rx="9" ry="5" fill="#8aaec2"/><circle cx="8.5" cy="-1.2" r="1.3" fill="#061b2c"/></g>
+<g transform="translate(1055.0,225.0) scale(1.9,1.9)"><path d="M-14,0 L-8,-6 L-7,0 L-8,6 Z" fill="#8aaec2" opacity=".85"/><path d="M-2,-5 L2,-10 L7,-5 Z" fill="#8aaec2" opacity=".8"/><ellipse cx="3" cy="0" rx="9" ry="5" fill="#8aaec2"/><circle cx="8.5" cy="-1.2" r="1.3" fill="#061b2c"/></g>
+<g transform="translate(1120.0,225.0) scale(1.9,1.9)"><path d="M-14,0 L-8,-6 L-7,0 L-8,6 Z" fill="#8aaec2" opacity=".85"/><path d="M-2,-5 L2,-10 L7,-5 Z" fill="#8aaec2" opacity=".8"/><ellipse cx="3" cy="0" rx="9" ry="5" fill="#8aaec2"/><circle cx="8.5" cy="-1.2" r="1.3" fill="#061b2c"/></g>
+<text x="1055" y="278" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="700" fill="#8aaec2">2–3 females</text>
+<text x="826" y="340" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#dff0fa">Fry every ~30 days — size for growth.</text>
+</svg>
