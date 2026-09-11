@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Oscar fish tank size: how many oscars per tank?</title>
+<desc id="d">Planning rule: 75 gallons (100 recommended) for the first adult, then 50 gallons per additional oscar. Filter rated for twice the tank.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b6f8f" stop-opacity=".55"/><stop offset="1" stop-color="#0d3550" stop-opacity=".9"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">Oscar fish tank size: how many oscars per tank?</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">Planning rule: 75 gallons (100 recommended) for the first adult, then 50 gallons per additional oscar. Filter rated for twice the tank.</text>
+<rect x="48.0" y="300.0" width="187.2" height="170" rx="10" fill="url(#water)" stroke="#3e8cb4" stroke-opacity=".6" stroke-width="2"/>
+<rect x="48.0" y="300.0" width="187.2" height="14" rx="6" fill="#2bd4c4" opacity=".18"/>
+<g transform="translate(141.6,365.0) scale(2.2,2.2)"><path d="M-16,0 L-11,-6 L-10,0 L-11,6 Z" fill="#2bd4c4" opacity=".85"/><path d="M-6,-5 Q0,-10 8,-5 Z" fill="#2bd4c4" opacity=".7"/><ellipse cx="2" cy="0" rx="12" ry="6.5" fill="#2bd4c4"/><circle cx="-9" cy="-1" r="2" fill="#f4a23e" stroke="#061b2c" stroke-width=".8"/><circle cx="10" cy="-1.5" r="1.4" fill="#061b2c"/></g>
+<text x="141.6" y="504" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="20" font-weight="800" fill="#ffffff">75 gal</text>
+<text x="141.6" y="528" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#8aaec2">284 L · 48 in</text>
+<text x="141.6" y="560" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#2bd4c4">1 oscar</text>
+<rect x="263.2" y="280.0" width="243.3" height="190" rx="10" fill="url(#water)" stroke="#3e8cb4" stroke-opacity=".6" stroke-width="2"/>
+<rect x="263.2" y="280.0" width="243.3" height="14" rx="6" fill="#2bd4c4" opacity=".18"/>
+<g transform="translate(384.8,345.0) scale(2.2,2.2)"><path d="M-16,0 L-11,-6 L-10,0 L-11,6 Z" fill="#2bd4c4" opacity=".85"/><path d="M-6,-5 Q0,-10 8,-5 Z" fill="#2bd4c4" opacity=".7"/><ellipse cx="2" cy="0" rx="12" ry="6.5" fill="#2bd4c4"/><circle cx="-9" cy="-1" r="2" fill="#f4a23e" stroke="#061b2c" stroke-width=".8"/><circle cx="10" cy="-1.5" r="1.4" fill="#061b2c"/></g>
+<g transform="translate(390.8,415.0) scale(-2.2,2.2)"><path d="M-16,0 L-11,-6 L-10,0 L-11,6 Z" fill="#f4a23e" opacity=".85"/><path d="M-6,-5 Q0,-10 8,-5 Z" fill="#f4a23e" opacity=".7"/><ellipse cx="2" cy="0" rx="12" ry="6.5" fill="#f4a23e"/><circle cx="-9" cy="-1" r="2" fill="#f4a23e" stroke="#061b2c" stroke-width=".8"/><circle cx="10" cy="-1.5" r="1.4" fill="#061b2c"/></g>
+<text x="384.8" y="504" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="20" font-weight="800" fill="#ffffff">125 gal</text>
+<text x="384.8" y="528" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#8aaec2">473 L · 72 in</text>
+<text x="384.8" y="560" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#2bd4c4">1–2 oscars</text>
+<rect x="534.5" y="255.0" width="280.7" height="215" rx="10" fill="url(#water)" stroke="#3e8cb4" stroke-opacity=".6" stroke-width="2"/>
+<rect x="534.5" y="255.0" width="280.7" height="14" rx="6" fill="#2bd4c4" opacity=".18"/>
+<g transform="translate(612.1,320.0) scale(2.2,2.2)"><path d="M-16,0 L-11,-6 L-10,0 L-11,6 Z" fill="#2bd4c4" opacity=".85"/><path d="M-6,-5 Q0,-10 8,-5 Z" fill="#2bd4c4" opacity=".7"/><ellipse cx="2" cy="0" rx="12" ry="6.5" fill="#2bd4c4"/><circle cx="-9" cy="-1" r="2" fill="#f4a23e" stroke="#061b2c" stroke-width=".8"/><circle cx="10" cy="-1.5" r="1.4" fill="#061b2c"/></g>
+<g transform="translate(737.5,320.0) scale(-2.2,2.2)"><path d="M-16,0 L-11,-6 L-10,0 L-11,6 Z" fill="#f4a23e" opacity=".85"/><path d="M-6,-5 Q0,-10 8,-5 Z" fill="#f4a23e" opacity=".7"/><ellipse cx="2" cy="0" rx="12" ry="6.5" fill="#f4a23e"/><circle cx="-9" cy="-1" r="2" fill="#f4a23e" stroke="#061b2c" stroke-width=".8"/><circle cx="10" cy="-1.5" r="1.4" fill="#061b2c"/></g>
+<g transform="translate(618.1,390.0) scale(2.2,2.2)"><path d="M-16,0 L-11,-6 L-10,0 L-11,6 Z" fill="#5b7efc" opacity=".85"/><path d="M-6,-5 Q0,-10 8,-5 Z" fill="#5b7efc" opacity=".7"/><ellipse cx="2" cy="0" rx="12" ry="6.5" fill="#5b7efc"/><circle cx="-9" cy="-1" r="2" fill="#f4a23e" stroke="#061b2c" stroke-width=".8"/><circle cx="10" cy="-1.5" r="1.4" fill="#061b2c"/></g>
+<text x="674.8" y="504" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="20" font-weight="800" fill="#ffffff">180 gal</text>
+<text x="674.8" y="528" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#8aaec2">681 L · 72 in</text>
+<text x="674.8" y="560" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#2bd4c4">3 oscars</text>
+<rect x="843.2" y="240.0" width="308.8" height="230" rx="10" fill="url(#water)" stroke="#3e8cb4" stroke-opacity=".6" stroke-width="2"/>
+<rect x="843.2" y="240.0" width="308.8" height="14" rx="6" fill="#2bd4c4" opacity=".18"/>
+<g transform="translate(927.9,305.0) scale(2.2,2.2)"><path d="M-16,0 L-11,-6 L-10,0 L-11,6 Z" fill="#2bd4c4" opacity=".85"/><path d="M-6,-5 Q0,-10 8,-5 Z" fill="#2bd4c4" opacity=".7"/><ellipse cx="2" cy="0" rx="12" ry="6.5" fill="#2bd4c4"/><circle cx="-9" cy="-1" r="2" fill="#f4a23e" stroke="#061b2c" stroke-width=".8"/><circle cx="10" cy="-1.5" r="1.4" fill="#061b2c"/></g>
+<g transform="translate(1067.3,305.0) scale(-2.2,2.2)"><path d="M-16,0 L-11,-6 L-10,0 L-11,6 Z" fill="#f4a23e" opacity=".85"/><path d="M-6,-5 Q0,-10 8,-5 Z" fill="#f4a23e" opacity=".7"/><ellipse cx="2" cy="0" rx="12" ry="6.5" fill="#f4a23e"/><circle cx="-9" cy="-1" r="2" fill="#f4a23e" stroke="#061b2c" stroke-width=".8"/><circle cx="10" cy="-1.5" r="1.4" fill="#061b2c"/></g>
+<g transform="translate(933.9,375.0) scale(2.2,2.2)"><path d="M-16,0 L-11,-6 L-10,0 L-11,6 Z" fill="#5b7efc" opacity=".85"/><path d="M-6,-5 Q0,-10 8,-5 Z" fill="#5b7efc" opacity=".7"/><ellipse cx="2" cy="0" rx="12" ry="6.5" fill="#5b7efc"/><circle cx="-9" cy="-1" r="2" fill="#f4a23e" stroke="#061b2c" stroke-width=".8"/><circle cx="10" cy="-1.5" r="1.4" fill="#061b2c"/></g>
+<text x="997.6" y="504" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="20" font-weight="800" fill="#ffffff">220 gal</text>
+<text x="997.6" y="528" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#8aaec2">833 L · 72 in</text>
+<text x="997.6" y="560" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#2bd4c4">3 oscars</text>
+<line x1="48" y1="471" x2="1152" y2="471" stroke="#3e8cb4" stroke-opacity=".5" stroke-width="2"/>
+<text x="48" y="612" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#6f93a8">A 55-gallon is a juvenile grow-out only. Two oscars must be raised together and evenly matched. fishcareai.com</text>
+</svg>

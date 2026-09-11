@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Goldfish tank size: how many fancy goldfish per tank?</title>
+<desc id="d">Planning rule: 20 gallons for the first fancy goldfish (40 for a single-tail), then 10 gallons for every goldfish after that.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b6f8f" stop-opacity=".55"/><stop offset="1" stop-color="#0d3550" stop-opacity=".9"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">Goldfish tank size: how many fancy goldfish per tank?</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">Planning rule: 20 gallons for the first fancy goldfish (40 for a single-tail), then 10 gallons for every goldfish after that.</text>
+<rect x="48.0" y="310.0" width="192.5" height="160" rx="10" fill="url(#water)" stroke="#3e8cb4" stroke-opacity=".6" stroke-width="2"/>
+<rect x="48.0" y="310.0" width="192.5" height="14" rx="6" fill="#2bd4c4" opacity=".18"/>
+<g transform="translate(144.2,370.0) scale(2.0,2.0)"><path d="M-8,0 Q-14,-9 -20,-6 Q-15,0 -20,6 Q-14,9 -8,0 Z" fill="#2bd4c4" opacity=".8"/><path d="M-3,-5 Q1,-10 5,-5 Z" fill="#2bd4c4" opacity=".7"/><ellipse cx="0" cy="0" rx="9" ry="6" fill="#2bd4c4"/><circle cx="6" cy="-1.5" r="1.4" fill="#061b2c"/></g>
+<text x="144.2" y="504" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="20" font-weight="800" fill="#ffffff">20 gal</text>
+<text x="144.2" y="528" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#8aaec2">76 L</text>
+<text x="144.2" y="560" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#2bd4c4">1 fancy</text>
+<rect x="268.5" y="285.0" width="230.9" height="185" rx="10" fill="url(#water)" stroke="#3e8cb4" stroke-opacity=".6" stroke-width="2"/>
+<rect x="268.5" y="285.0" width="230.9" height="14" rx="6" fill="#2bd4c4" opacity=".18"/>
+<g transform="translate(333.7,345.0) scale(2.0,2.0)"><path d="M-8,0 Q-14,-9 -20,-6 Q-15,0 -20,6 Q-14,9 -8,0 Z" fill="#2bd4c4" opacity=".8"/><path d="M-3,-5 Q1,-10 5,-5 Z" fill="#2bd4c4" opacity=".7"/><ellipse cx="0" cy="0" rx="9" ry="6" fill="#2bd4c4"/><circle cx="6" cy="-1.5" r="1.4" fill="#061b2c"/></g>
+<g transform="translate(434.2,345.0) scale(-2.0,2.0)"><path d="M-8,0 Q-14,-9 -20,-6 Q-15,0 -20,6 Q-14,9 -8,0 Z" fill="#f4a23e" opacity=".8"/><path d="M-3,-5 Q1,-10 5,-5 Z" fill="#f4a23e" opacity=".7"/><ellipse cx="0" cy="0" rx="9" ry="6" fill="#f4a23e"/><circle cx="6" cy="-1.5" r="1.4" fill="#061b2c"/></g>
+<text x="383.9" y="504" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="20" font-weight="800" fill="#ffffff">30 gal</text>
+<text x="383.9" y="528" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#8aaec2">114 L</text>
+<text x="383.9" y="560" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#2bd4c4">1–2 fancy</text>
+<rect x="527.4" y="295.0" width="279.1" height="175" rx="10" fill="url(#water)" stroke="#3e8cb4" stroke-opacity=".6" stroke-width="2"/>
+<rect x="527.4" y="295.0" width="279.1" height="14" rx="6" fill="#2bd4c4" opacity=".18"/>
+<g transform="translate(604.7,355.0) scale(2.0,2.0)"><path d="M-8,0 Q-14,-9 -20,-6 Q-15,0 -20,6 Q-14,9 -8,0 Z" fill="#2bd4c4" opacity=".8"/><path d="M-3,-5 Q1,-10 5,-5 Z" fill="#2bd4c4" opacity=".7"/><ellipse cx="0" cy="0" rx="9" ry="6" fill="#2bd4c4"/><circle cx="6" cy="-1.5" r="1.4" fill="#061b2c"/></g>
+<g transform="translate(729.2,355.0) scale(-2.0,2.0)"><path d="M-8,0 Q-14,-9 -20,-6 Q-15,0 -20,6 Q-14,9 -8,0 Z" fill="#f4a23e" opacity=".8"/><path d="M-3,-5 Q1,-10 5,-5 Z" fill="#f4a23e" opacity=".7"/><ellipse cx="0" cy="0" rx="9" ry="6" fill="#f4a23e"/><circle cx="6" cy="-1.5" r="1.4" fill="#061b2c"/></g>
+<g transform="translate(610.7,415.0) scale(2.0,2.0)"><path d="M-8,0 Q-14,-9 -20,-6 Q-15,0 -20,6 Q-14,9 -8,0 Z" fill="#5b7efc" opacity=".8"/><path d="M-3,-5 Q1,-10 5,-5 Z" fill="#5b7efc" opacity=".7"/><ellipse cx="0" cy="0" rx="9" ry="6" fill="#5b7efc"/><circle cx="6" cy="-1.5" r="1.4" fill="#061b2c"/></g>
+<text x="666.9" y="504" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="20" font-weight="800" fill="#ffffff">40 gal breeder</text>
+<text x="666.9" y="528" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#8aaec2">151 L</text>
+<text x="666.9" y="560" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#2bd4c4">2–3 fancy</text>
+<rect x="834.5" y="255.0" width="317.5" height="215" rx="10" fill="url(#water)" stroke="#3e8cb4" stroke-opacity=".6" stroke-width="2"/>
+<rect x="834.5" y="255.0" width="317.5" height="14" rx="6" fill="#2bd4c4" opacity=".18"/>
+<g transform="translate(921.3,315.0) scale(2.0,2.0)"><path d="M-8,0 Q-14,-9 -20,-6 Q-15,0 -20,6 Q-14,9 -8,0 Z" fill="#2bd4c4" opacity=".8"/><path d="M-3,-5 Q1,-10 5,-5 Z" fill="#2bd4c4" opacity=".7"/><ellipse cx="0" cy="0" rx="9" ry="6" fill="#2bd4c4"/><circle cx="6" cy="-1.5" r="1.4" fill="#061b2c"/></g>
+<g transform="translate(1065.1,315.0) scale(-2.0,2.0)"><path d="M-8,0 Q-14,-9 -20,-6 Q-15,0 -20,6 Q-14,9 -8,0 Z" fill="#f4a23e" opacity=".8"/><path d="M-3,-5 Q1,-10 5,-5 Z" fill="#f4a23e" opacity=".7"/><ellipse cx="0" cy="0" rx="9" ry="6" fill="#f4a23e"/><circle cx="6" cy="-1.5" r="1.4" fill="#061b2c"/></g>
+<g transform="translate(927.3,375.0) scale(2.0,2.0)"><path d="M-8,0 Q-14,-9 -20,-6 Q-15,0 -20,6 Q-14,9 -8,0 Z" fill="#5b7efc" opacity=".8"/><path d="M-3,-5 Q1,-10 5,-5 Z" fill="#5b7efc" opacity=".7"/><ellipse cx="0" cy="0" rx="9" ry="6" fill="#5b7efc"/><circle cx="6" cy="-1.5" r="1.4" fill="#061b2c"/></g>
+<g transform="translate(1071.1,375.0) scale(2.0,2.0)"><path d="M-8,0 Q-14,-9 -20,-6 Q-15,0 -20,6 Q-14,9 -8,0 Z" fill="#ff7a9e" opacity=".8"/><path d="M-3,-5 Q1,-10 5,-5 Z" fill="#ff7a9e" opacity=".7"/><ellipse cx="0" cy="0" rx="9" ry="6" fill="#ff7a9e"/><circle cx="6" cy="-1.5" r="1.4" fill="#061b2c"/></g>
+<text x="993.2" y="504" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="20" font-weight="800" fill="#ffffff">55 gal</text>
+<text x="993.2" y="528" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#8aaec2">208 L</text>
+<text x="993.2" y="560" text-anchor="middle" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#2bd4c4">3–4 fancy</text>
+<line x1="48" y1="471" x2="1152" y2="471" stroke="#3e8cb4" stroke-opacity=".5" stroke-width="2"/>
+<text x="48" y="612" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#6f93a8">Single-tail comets and commons reach 10–14 inches and belong in a pond as adults. Bowls are not on this chart. fishcareai.com</text>
+</svg>
