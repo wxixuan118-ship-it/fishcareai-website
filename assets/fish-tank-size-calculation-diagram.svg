@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc"><title id="title">How the fish tank size calculator works</title><desc id="desc">Left: a front-view cross-section of a rectangular aquarium showing the inside length measured between the glass panels, the water height measured from the inside base to the water line rather than the tank height, and the substrate and rock that displace water; plus a top view for inside width and the cylinder formulas. Right: the four-step fish tank size calculation — length × width × water height, convert to litres, subtract displacement, convert to US and UK gallons — worked for a 23.6 × 11.6 × 14 inch fill: 3,833 cubic inches, 62.8 litres, 56.5 litres usable, 14.9 US gallons, 12.4 UK gallons. A tank sold as 20 gallons gives about 15 gallons of usable water.</desc>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#7DEBFF"/></marker>
+<marker id="ahm" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#7F9BB0"/></marker>
+<marker id="ahg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 10 5 0 10z" fill="#18A999"/></marker>
+<linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#46B6E8" stop-opacity=".45"/><stop offset="1" stop-color="#1687C7" stop-opacity=".55"/></linearGradient>
+<pattern id="sand" width="10" height="8" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#E3B27A" opacity=".7"/><circle cx="7" cy="6" r="1" fill="#E3B27A" opacity=".5"/></pattern>
+<style>
+text{font-family:-apple-system,'Segoe UI',Arial,sans-serif;fill:#EAFBFF}
+.t{font-size:20px;font-weight:800}
+.h{font-size:14px;font-weight:700;fill:#7DEBFF;letter-spacing:.04em;text-transform:uppercase}
+.l{font-size:13px;font-weight:700}
+.s{font-size:11.5px;fill:#B8DCEB}
+.m{font-size:11.5px;fill:#7F9BB0}
+.f{font-size:13px;font-weight:700;fill:#fff}
+.n{font-size:12px;fill:#0A2540;font-weight:800}
+.mono{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;fill:#9DEBFF}
+</style>
+</defs>
+
+<!-- canvas -->
+<rect width="900" height="560" rx="16" fill="#0A2540"/>
+<rect x=".5" y=".5" width="899" height="559" rx="16" fill="none" stroke="#ffffff" stroke-opacity=".12"/>
+<text x="30" y="40" class="t">How the fish tank size calculator works</text>
+<text x="30" y="60" class="m">Measure inside the glass → multiply → convert → subtract displacement → usable water in litres and gallons</text>
+
+<!-- ───────── LEFT: what to measure ───────── -->
+<text x="60" y="92" class="h">What to measure</text>
+
+<!-- outside "tank height" (the wrong one) -->
+<line x1="42" y1="104" x2="42" y2="352" stroke="#7F9BB0" stroke-width="1.5" marker-start="url(#ahm)" marker-end="url(#ahm)" stroke-dasharray="4 3"/>
+<text transform="translate(34 228) rotate(-90)" class="m" text-anchor="middle">tank height — not this</text>
+
+<!-- rim / trim -->
+<rect x="54" y="100" width="396" height="8" rx="2" fill="#1B3A5A" stroke="#7DEBFF" stroke-opacity=".35"/>
+<!-- glass walls + base (thickness exaggerated) -->
+<rect x="62" y="108" width="8" height="244" fill="#3E6C8E" fill-opacity=".9"/>
+<rect x="434" y="108" width="8" height="244" fill="#3E6C8E" fill-opacity=".9"/>
+<rect x="62" y="344" width="380" height="8" fill="#3E6C8E" fill-opacity=".9"/>
+<!-- water -->
+<rect x="70" y="140" width="364" height="204" fill="url(#water)"/>
+<line x1="70" y1="140" x2="434" y2="140" stroke="#7DEBFF" stroke-width="1.5" stroke-dasharray="6 4"/>
+<!-- substrate -->
+<path d="M70 312 Q120 304 170 310 T270 308 T370 312 T434 308 V344 H70Z" fill="#8C5A32"/>
+<path d="M70 312 Q120 304 170 310 T270 308 T370 312 T434 308 V344 H70Z" fill="url(#sand)"/>
+<!-- rock -->
+<path d="M300 312 L318 262 L352 248 L392 268 L402 312Z" fill="#4C5F6E" stroke="#7F9BB0" stroke-width="1"/>
+<path d="M330 312 L340 284 L364 278 L380 296 L384 312Z" fill="#617586"/>
+<!-- plant -->
+<path d="M130 312 C126 290 118 276 112 262 M130 312 C132 288 140 274 150 262 M130 312 C128 296 122 286 116 282" fill="none" stroke="#18A999" stroke-width="3" stroke-linecap="round"/>
+
+<!-- inside length arrow -->
+<line x1="72" y1="124" x2="432" y2="124" stroke="#7DEBFF" stroke-width="1.5" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<rect x="196" y="112" width="112" height="20" rx="10" fill="#0A2540" stroke="#7DEBFF" stroke-opacity=".4"/>
+<text x="252" y="126" class="l" text-anchor="middle">L  inside length</text>
+
+<!-- water height arrow (inside, base → water line) -->
+<line x1="418" y1="143" x2="418" y2="341" stroke="#7DEBFF" stroke-width="1.5" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<rect x="448" y="206" width="88" height="64" rx="8" fill="#0A2540" stroke="#7DEBFF" stroke-opacity=".4"/>
+<text x="492" y="225" class="l" text-anchor="middle">h  water</text>
+<text x="492" y="240" class="l" text-anchor="middle">height</text>
+<text x="492" y="254" class="m" text-anchor="middle">base to</text>
+<text x="492" y="266" class="m" text-anchor="middle">water line</text>
+<line x1="448" y1="238" x2="424" y2="238" stroke="#7DEBFF" stroke-opacity=".6" stroke-width="1.2"/>
+
+<!-- glass callout -->
+<line x1="66" y1="200" x2="98" y2="176" stroke="#F9C74F" stroke-width="1.2"/>
+<rect x="98" y="164" width="150" height="24" rx="6" fill="#0A2540" stroke="#F9C74F" stroke-opacity=".6"/>
+<text x="106" y="180" class="s">inside surface, not frame</text>
+
+<!-- displacement callout -->
+<line x1="380" y1="290" x2="392" y2="256" stroke="#F9C74F" stroke-width="1.2" stroke-opacity="0"/>
+<rect x="150" y="322" width="176" height="20" rx="6" fill="#0A2540" stroke="#F9C74F" stroke-opacity=".6"/>
+<text x="238" y="336" class="s" text-anchor="middle">substrate + rock displace 5–20%</text>
+
+<!-- captions under tank -->
+<text x="60" y="376" class="s">Glass, silicone and trim eat 5–15% of the outside size. Measure between the inside surfaces,</text>
+<text x="60" y="393" class="s">and use the water line you actually run — not the height of the tank.</text>
+
+<!-- top view -->
+<text x="60" y="422" class="h" style="font-size:11px">Top view</text>
+<rect x="60" y="430" width="196" height="96" rx="3" fill="#1B3A5A" stroke="#7DEBFF" stroke-opacity=".35"/>
+<rect x="67" y="437" width="182" height="82" fill="url(#water)"/>
+<line x1="69" y1="510" x2="247" y2="510" stroke="#7DEBFF" stroke-width="1.5" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<text x="158" y="505" class="l" text-anchor="middle" style="font-size:12px">L</text>
+<line x1="238" y1="440" x2="238" y2="516" stroke="#7DEBFF" stroke-width="1.5" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<text x="224" y="482" class="l" text-anchor="middle" style="font-size:12px">W</text>
+<text x="80" y="470" class="m">W = inside width,</text>
+<text x="80" y="485" class="m">front glass to back glass</text>
+
+<!-- other shapes -->
+<rect x="280" y="430" width="240" height="96" rx="10" fill="#ffffff" fill-opacity=".04" stroke="#ffffff" stroke-opacity=".12"/>
+<text x="294" y="450" class="l">Other shapes</text>
+<text x="294" y="470" class="s">Cube: side × side × h</text>
+<text x="294" y="487" class="s">Vertical cylinder: π × (d ÷ 2)² × h</text>
+<text x="294" y="504" class="s">Horizontal cylinder: segment area × L</text>
+<text x="294" y="519" class="m">d = inside diameter of the tank</text>
+
+<!-- ───────── RIGHT: the calculation ───────── -->
+<line x1="540" y1="84" x2="540" y2="530" stroke="#ffffff" stroke-opacity=".1"/>
+<text x="560" y="92" class="h">The calculation</text><text x="860" y="92" class="m" text-anchor="end">worked: 23.6 × 11.6 × 14 in</text>
+
+
+<!-- step 1 -->
+<rect x="560" y="104" width="300" height="58" rx="10" fill="#ffffff" fill-opacity=".05" stroke="#7DEBFF" stroke-opacity=".35"/>
+<circle cx="580" cy="133" r="11" fill="#7DEBFF"/><text x="580" y="137" class="n" text-anchor="middle">1</text>
+<text x="600" y="127" class="f">Filled volume = L × W × h</text>
+<text x="600" y="148" class="mono">23.6 × 11.6 × 14 = 3,833 in³</text>
+<line x1="710" y1="164" x2="710" y2="184" stroke="#18A999" stroke-width="2" marker-end="url(#ahg)"/>
+
+<!-- step 2 -->
+<rect x="560" y="188" width="300" height="58" rx="10" fill="#ffffff" fill-opacity=".05" stroke="#7DEBFF" stroke-opacity=".35"/>
+<circle cx="580" cy="217" r="11" fill="#7DEBFF"/><text x="580" y="221" class="n" text-anchor="middle">2</text>
+<text x="600" y="211" class="f">Convert to litres <tspan class="m" style="font-weight:400">(cm³ ÷ 1000)</tspan></text>
+<text x="600" y="232" class="mono">3,833 in³ × 0.016387 = 62.8 L</text>
+<line x1="710" y1="248" x2="710" y2="268" stroke="#18A999" stroke-width="2" marker-end="url(#ahg)"/>
+
+<!-- step 3 -->
+<rect x="560" y="272" width="300" height="58" rx="10" fill="#ffffff" fill-opacity=".05" stroke="#7DEBFF" stroke-opacity=".35"/>
+<circle cx="580" cy="301" r="11" fill="#7DEBFF"/><text x="580" y="305" class="n" text-anchor="middle">3</text>
+<text x="600" y="295" class="f">Subtract displacement</text>
+<text x="600" y="316" class="mono">62.8 × (1 − 10%) = 56.5 L usable</text>
+<line x1="710" y1="332" x2="710" y2="352" stroke="#18A999" stroke-width="2" marker-end="url(#ahg)"/>
+
+<!-- step 4 -->
+<rect x="560" y="356" width="300" height="58" rx="10" fill="#ffffff" fill-opacity=".05" stroke="#7DEBFF" stroke-opacity=".35"/>
+<circle cx="580" cy="385" r="11" fill="#7DEBFF"/><text x="580" y="389" class="n" text-anchor="middle">4</text>
+<text x="600" y="379" class="f">Convert to gallons</text>
+<text x="600" y="400" class="mono">÷3.785 = 14.9 US · ÷4.546 = 12.4 UK</text>
+<line x1="710" y1="416" x2="710" y2="436" stroke="#18A999" stroke-width="2" marker-end="url(#ahg)"/>
+
+<!-- result -->
+<rect x="560" y="440" width="300" height="86" rx="12" fill="#18A999" fill-opacity=".14" stroke="#18A999" stroke-opacity=".8" stroke-width="1.5"/>
+<text x="576" y="463" class="h" style="fill:#5EE8C8">Usable water</text>
+<text x="576" y="486" class="f" style="font-size:16px">56.5 L · 14.9 US gal · 12.4 UK gal</text>
+<text x="576" y="506" class="s">Sold as a “20 gallon” tank → plan stocking, heater</text>
+<text x="576" y="520" class="s">and dosing around ~15 gallons, not 20.</text>
+</svg>
