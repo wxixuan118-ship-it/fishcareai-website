@@ -135,15 +135,15 @@ a{color:inherit;text-decoration:none}
 .con{max-width:1100px;margin:0 auto;padding:0 22px}
 
 /* Hero */
-.hero{background:linear-gradient(135deg,#0F3D5E,#1B5E8B);padding:110px 22px 70px;text-align:center}
-.hero-badge{display:inline-block;background:rgba(22,135,199,.25);border:1px solid rgba(22,135,199,.45);color:#5EC7F8;font-size:.78rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:5px 14px;border-radius:20px;margin-bottom:18px}
-.hero h1{font-size:clamp(1.9rem,4vw,2.9rem);font-weight:800;color:#fff;margin-bottom:14px;line-height:1.2}
-.hero p{font-size:1.05rem;color:rgba(255,255,255,.75);max-width:620px;margin:0 auto 22px}
+.hero{background:linear-gradient(135deg,#0F3D5E,#1B5E8B);padding:16px 22px 22px;text-align:center}
+.hero-badge{display:inline-block;margin-top:4px;background:rgba(22,135,199,.25);border:1px solid rgba(22,135,199,.45);color:#5EC7F8;font-size:.78rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:5px 14px;border-radius:20px;margin-bottom:18px}
+.hero h1{font-size:clamp(1.6rem,3.2vw,2.3rem);font-weight:800;color:#fff;margin:6px 0 6px;line-height:1.2}
+.hero p{font-size:.95rem;color:rgba(255,255,255,.75);max-width:720px;margin:0 auto 8px;line-height:1.5}
 .hero-meta{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;font-size:.82rem;color:rgba(255,255,255,.6)}
 .hero-meta span{display:flex;align-items:center;gap:5px}
 
 /* Breadcrumb */
-.breadcrumb{background:#0A2540;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.07)}
+.breadcrumb{padding:0;text-align:left;line-height:1.3}
 .breadcrumb ol{list-style:none;display:flex;flex-wrap:wrap;gap:4px;font-size:.8rem;color:rgba(255,255,255,.5)}
 .breadcrumb li+li::before{content:' / ';margin-right:4px;color:rgba(255,255,255,.3)}
 .breadcrumb a{color:rgba(255,255,255,.6);transition:color .2s}
@@ -158,7 +158,7 @@ a{color:inherit;text-decoration:none}
 @media(max-width:600px){.tool-nav{gap:6px;padding:8px 14px}.tnav-btn{font-size:.76rem;padding:5px 10px}}
 
 /* Tool section */
-.tool-section{background:#0A2540;padding:50px 0}
+.tool-section{background:#0A2540;padding:22px 0 50px}
 .tool-wrap{max-width:900px;margin:0 auto;padding:0 22px}
 .tool-card{background:rgba(255,255,255,.05);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:30px 28px}
 .tool-label{display:block;font-size:.82rem;font-weight:600;color:rgba(255,255,255,.6);text-transform:uppercase;letter-spacing:.05em;margin-bottom:7px}
@@ -278,7 +278,7 @@ details[open] .cp-summary::after{transform:rotate(90deg)}
 .fishcare-footer-logo-img{opacity:.8}
 
 @media(max-width:600px){
-  .hero{padding:88px 18px 50px}
+  .hero{padding:12px 18px 16px}
   .tool-card{padding:20px 16px}
   .steps{grid-template-columns:1fr}
   .result-key-grid{grid-template-columns:1fr}
@@ -317,6 +317,13 @@ details[open] .cp-summary::after{transform:rotate(90deg)}
 <!-- Hero -->
 <section class="hero" aria-labelledby="hero-h1">
   <div class="con">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li aria-current="page">Fish Compatibility Checker</li>
+      </ol>
+    </nav>
     <span class="hero-badge">Free Aquarium Tool</span>
     <h1 id="hero-h1">Which Fish Can Share Your Tank? Check Instantly.</h1>
     <p>Instantly test whether your aquarium fish can safely share a tank. Check aggression levels, pH ranges, and temperature needs for 20+ popular freshwater species.</p>
@@ -328,17 +335,6 @@ details[open] .cp-summary::after{transform:rotate(90deg)}
     </div>
   </div>
 </section>
-
-<!-- Breadcrumb -->
-<nav class="breadcrumb" aria-label="Breadcrumb">
-  <div class="con">
-    <ol>
-      <li><a href="/">Home</a></li>
-      <li><a href="/tools/">Tools</a></li>
-      <li aria-current="page">Fish Compatibility Checker</li>
-    </ol>
-  </div>
-</nav>
 
 <!-- Tool Nav -->
 <!-- Tool Section -->
