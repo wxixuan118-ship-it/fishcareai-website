@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="64" viewBox="0 0 220 64" role="img" aria-label="Listed on FishCare AI">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="220" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F3D5E"/><stop offset="1" stop-color="#0B2A45"/>
+    </linearGradient>
+    <linearGradient id="ic" x1="10" y1="12" x2="50" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10D7FF"/><stop offset=".52" stop-color="#188CFF"/><stop offset="1" stop-color="#7957FF"/>
+    </linearGradient>
+    <linearGradient id="fi" x1="17" y1="26" x2="45" y2="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3FBFF"/><stop offset=".58" stop-color="#B9E8FF"/><stop offset="1" stop-color="#63D7FF"/>
+    </linearGradient>
+  </defs>
+  <rect x=".5" y=".5" width="219" height="63" rx="12" fill="url(#bg)" stroke="#1B5E8B"/>
+  <rect x="10" y="12" width="40" height="40" rx="12" fill="url(#ic)"/>
+  <path d="M18.6 32c3.6-5.4 9.4-7 14.6-4.6 3.7 1.6 6 4.3 8.9 4.6-2.9.4-5.2 3-8.9 4.6-5.2 2.4-11 .8-14.6-4.6Z" fill="url(#fi)"/>
+  <path d="M19.6 32 13.6 26.8c-1.5 3-1.5 7.4 0 10.4l6-5.2Z" fill="#EAFBFF" opacity=".96"/>
+  <circle cx="36" cy="30" r="2.3" fill="#064D8D"/><circle cx="36.6" cy="29.4" r=".8" fill="#fff"/>
+  <text x="62" y="28" font-family="-apple-system,'Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#9FD3F0" letter-spacing=".08em">LISTED ON</text>
+  <text x="62" y="47" font-family="-apple-system,'Segoe UI',Arial,sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">FishCare AI</text>
+</svg>

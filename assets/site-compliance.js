@@ -38,6 +38,8 @@
     { label: 'Privacy Policy',href: '/privacy/' },
     { label: 'Terms',         href: '/terms/' },
     { label: 'Editorial Policy', href: '/editorial-policy/' },
+    { label: 'Resources',     href: '/resources/' },
+    { label: 'Add Your Site', href: '/add-your-site/' },
   ];
 
   // ── Analytics / Ads ───────────────────────────────────────────────────────
@@ -214,6 +216,7 @@
           '<a href="/about/">About</a><a href="/contact/">Contact</a>' +
           '<a href="/editorial-policy/">Editorial Policy</a><a href="/privacy/">Privacy</a>' +
           '<a href="/image-credits/">Image Credits</a>' +
+          '<a href="/add-your-site/">Add Your Site</a>' +
         '</nav>' +
       '</div>';
 
@@ -229,7 +232,8 @@
       nav.innerHTML =
         '<a href="/about/">About</a><a href="/contact/">Contact</a>' +
         '<a href="/editorial-policy/">Editorial Policy</a><a href="/privacy/">Privacy</a>' +
-        '<a href="/image-credits/">Image Credits</a>';
+        '<a href="/image-credits/">Image Credits</a>' +
+        '<a href="/add-your-site/">Add Your Site</a>';
       footer.appendChild(nav);
     });
   }
