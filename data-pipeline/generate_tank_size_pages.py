@@ -177,6 +177,21 @@ TANKS = {
              "For a 40 gallon fish tank, use a canister or HOB filter rated for 80–100 gallons. The Fluval 307 (rated up to 70 gal, but performs well beyond in practice) or the AquaClear 110 are popular choices. Over-filtering is rarely a problem and provides a safety buffer if you miss a water change."),
         ],
     },
+    # Hub-card data only: the 50 gallon page itself lives at /tank-sizes/.
+    50: {
+        "slug": "50-gallon",
+        "title_kw": "50 Gallon Fish Tank",
+        "dims": {"l": 36, "w": 18, "h": 19, "notes": "Standard 3-ft 50-gal; long and rimless variants exist"},
+        "level": "intermediate",
+        "level_note": "Deep 36×18 footprint — planted tanks and dwarf cichlids",
+        "best_fish": [
+            ("Apistogramma (trio)", "/species/cockatoo-cichlid", ""),
+            ("Angelfish (pair)", "/species/angelfish", ""),
+            ("Honey Gourami", "/species/honey-gourami", ""),
+        ],
+        "avoid": [], "filter": "", "heater": "", "lighting": "", "cycle_time": "",
+        "stocking_rule": "", "water_changes": "", "cost_est": "", "faqs": [],
+    },
     55: {
         "slug": "55-gallon",
         "title_kw": "55 Gallon Fish Tank",
@@ -374,7 +389,20 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
 .ft{background:#0F3D5E;padding:28px 22px;margin-top:40px;text-align:center}
 .ftb{color:rgba(255,255,255,.4);font-size:.76rem}"""
 
-CLUSTER_SIZES = [5, 10, 20, 29, 40, 55, 75, 100, 125]
+CLUSTER_SIZES = [5, 10, 20, 29, 40, 50, 55, 75, 100, 125]
+
+# Sizes covered by the /tank-sizes/ SEO experiment (data-pipeline/tank_sizes/).
+# The hub and cluster nav link to those pages; this script no longer writes
+# /tanks/ pages for them (the old URLs 301 to the new ones in vercel.json and
+# nginx.conf). Do not add sizes here until the experiment has been evaluated.
+EXPERIMENT_SIZES = {50, 55, 100}
+
+
+def tank_url(sz):
+    if sz in EXPERIMENT_SIZES:
+        return f"/tank-sizes/{sz}-gallon-fish-tank/"
+    return f"/tanks/{TANKS[sz]['slug']}-fish-tank/"
+
 
 def cluster_nav_html(current_size):
     items = []
@@ -382,7 +410,7 @@ def cluster_nav_html(current_size):
         t = TANKS[sz]
         is_act = "act" if sz == current_size else ""
         items.append(
-            f'<a href="/tanks/{t["slug"]}-fish-tank/" class="{is_act}">'
+            f'<a href="{tank_url(sz)}" class="{is_act}">'
             f'{sz} Gallon Fish Tank<span class="gal">{sz} gal</span></a>'
         )
     return "\n".join(items)
@@ -589,7 +617,7 @@ def make_index():
         badge_cls = f'badge-{t["level"]}'
         fish_preview = ", ".join(f[0].split("(")[0].strip() for f in t["best_fish"][:3])
         cards_html += (
-            f'<a href="/tanks/{t["slug"]}-fish-tank/" '
+            f'<a href="{tank_url(sz)}" '
             f'style="display:block;background:#fff;border:1px solid var(--bd);border-radius:14px;'
             f'padding:20px 22px;transition:border-color .15s,box-shadow .15s;color:var(--tx)">'
             f'<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">'
@@ -674,6 +702,8 @@ def main():
 
     # Generate individual tank pages
     for size in CLUSTER_SIZES:
+        if size in EXPERIMENT_SIZES:
+            continue  # served from /tank-sizes/ (see EXPERIMENT_SIZES)
         t = TANKS[size]
         page_dir = OUT / f"{t['slug']}-fish-tank"
         page_dir.mkdir(parents=True, exist_ok=True)
@@ -684,7 +714,7 @@ def main():
     (OUT / "index.html").write_text(make_index(), encoding="utf-8")
     print(f"  ✓ /tanks/ (hub)")
 
-    print(f"\nDone — {len(CLUSTER_SIZES)} tank size pages + hub.")
+    print(f"\nDone — {len(CLUSTER_SIZES) - len(EXPERIMENT_SIZES)} tank size pages + hub.")
 
 
 if __name__ == "__main__":

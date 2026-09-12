@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ts-diagram-title-50 ts-diagram-desc-50">
+<title id="ts-diagram-title-50">50 gallon fish tank dimensions diagram: 36 × 18 × 19 inches (91 × 46 × 48 cm)</title>
+<desc id="ts-diagram-desc-50">Simple 3D outline of a Standard 50 gallon aquarium showing length 36 in (91 cm), width 18 in (46 cm) and height 19 in (48 cm), with the water line drawn near the top of the glass.</desc>
+<defs>
+<linearGradient id="glass-50" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#25D7FF" stop-opacity=".18"/><stop offset="1" stop-color="#8B5CF6" stop-opacity=".22"/></linearGradient>
+<linearGradient id="water-50" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#25D7FF" stop-opacity=".42"/><stop offset="1" stop-color="#0B6FA4" stop-opacity=".55"/></linearGradient>
+</defs>
+<g stroke="#7DEBFF" stroke-width="1.6" stroke-linejoin="round" fill="none">
+<polygon points="96.0,93.0 203.8,30.3 596.0,30.3 488.2,93.0" fill="url(#glass-50)" opacity=".9"/>
+<polygon points="488.2,300.0 596.0,237.3 596.0,30.3 488.2,93.0" fill="url(#glass-50)" opacity=".75"/>
+<polygon points="96.0,122.0 488.2,122.0 488.2,300.0 96.0,300.0" fill="url(#water-50)" stroke="none"/>
+<polygon points="488.2,122.0 596.0,59.3 596.0,237.3 488.2,300.0" fill="url(#water-50)" stroke="none" opacity=".7"/>
+<polygon points="96.0,300.0 488.2,300.0 488.2,93.0 96.0,93.0" fill="none"/>
+<line x1="96.0" y1="122.0" x2="488.2" y2="122.0" stroke="#39F2C5" stroke-dasharray="5 4" stroke-width="1.2"/>
+<line x1="96.0" y1="93.0" x2="203.8" y2="30.3"/>
+<line x1="488.2" y1="93.0" x2="596.0" y2="30.3"/>
+<line x1="488.2" y1="300.0" x2="596.0" y2="237.3"/>
+<line x1="203.8" y1="30.3" x2="596.0" y2="30.3"/>
+<line x1="596.0" y1="30.3" x2="596.0" y2="237.3"/>
+</g>
+<g stroke="rgba(234,251,255,.55)" stroke-width="1" fill="none">
+<line x1="96.0" y1="334.0" x2="488.2" y2="334.0"/>
+<line x1="96.0" y1="326.0" x2="96.0" y2="342.0"/>
+<line x1="488.2" y1="326.0" x2="488.2" y2="342.0"/>
+<line x1="62.0" y1="300.0" x2="62.0" y2="93.0"/>
+<line x1="54.0" y1="300.0" x2="70.0" y2="300.0"/>
+<line x1="54.0" y1="93.0" x2="70.0" y2="93.0"/>
+<line x1="514.2" y1="314.0" x2="622.0" y2="251.3"/>
+</g>
+<g font-family="-apple-system,'Segoe UI',Arial,sans-serif" fill="#EAFBFF" font-size="19" font-weight="700" text-anchor="middle">
+<text x="292.1" y="362.0">Length 36 in <tspan fill="rgba(234,251,255,.65)" font-weight="500">(91 cm)</tspan></text>
+<text transform="translate(40.0,196.5) rotate(-90)">Height 19 in <tspan fill="rgba(234,251,255,.65)" font-weight="500">(48 cm)</tspan></text>
+<text x="610.0" y="292.6" text-anchor="start">Width 18 in <tspan fill="rgba(234,251,255,.65)" font-weight="500">(46 cm)</tspan></text>
+<text x="292.1" y="71.0" font-size="15" fill="rgba(234,251,255,.7)" font-weight="600">Standard 50 gallon aquarium — typical dimensions, not a manufacturer specification</text>
+</g>
+</svg>

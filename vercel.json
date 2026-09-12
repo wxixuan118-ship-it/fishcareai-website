@@ -1102,6 +1102,46 @@
       "source": "/species/betta-fish/care-guide",
       "destination": "/guides/betta-fish-care/",
       "statusCode": 301
+    },
+    {
+      "source": "/tanks/55-gallon-fish-tank",
+      "destination": "/tank-sizes/55-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tanks/55-gallon-fish-tank/",
+      "destination": "/tank-sizes/55-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tanks/55-gallon-fish-tank/index.html",
+      "destination": "/tank-sizes/55-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tanks/100-gallon-fish-tank",
+      "destination": "/tank-sizes/100-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tanks/100-gallon-fish-tank/",
+      "destination": "/tank-sizes/100-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tanks/100-gallon-fish-tank/index.html",
+      "destination": "/tank-sizes/100-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tank-sizes",
+      "destination": "/tanks/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tank-sizes/",
+      "destination": "/tanks/",
+      "statusCode": 301
     }
   ]
 }

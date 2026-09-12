@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ts-diagram-title-55 ts-diagram-desc-55">
+<title id="ts-diagram-title-55">55 gallon fish tank dimensions diagram: 48 × 13 × 21 inches (122 × 33 × 53 cm)</title>
+<desc id="ts-diagram-desc-55">Simple 3D outline of a Standard 55 gallon aquarium showing length 48 in (122 cm), width 13 in (33 cm) and height 21 in (53 cm), with the water line drawn near the top of the glass.</desc>
+<defs>
+<linearGradient id="glass-55" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#25D7FF" stop-opacity=".18"/><stop offset="1" stop-color="#8B5CF6" stop-opacity=".22"/></linearGradient>
+<linearGradient id="water-55" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#25D7FF" stop-opacity=".42"/><stop offset="1" stop-color="#0B6FA4" stop-opacity=".55"/></linearGradient>
+</defs>
+<g stroke="#7DEBFF" stroke-width="1.6" stroke-linejoin="round" fill="none">
+<polygon points="96.0,109.6 160.8,71.9 596.0,71.9 531.2,109.6" fill="url(#glass-55)" opacity=".9"/>
+<polygon points="531.2,300.0 596.0,262.3 596.0,71.9 531.2,109.6" fill="url(#glass-55)" opacity=".75"/>
+<polygon points="96.0,136.3 531.2,136.3 531.2,300.0 96.0,300.0" fill="url(#water-55)" stroke="none"/>
+<polygon points="531.2,136.3 596.0,98.5 596.0,262.3 531.2,300.0" fill="url(#water-55)" stroke="none" opacity=".7"/>
+<polygon points="96.0,300.0 531.2,300.0 531.2,109.6 96.0,109.6" fill="none"/>
+<line x1="96.0" y1="136.3" x2="531.2" y2="136.3" stroke="#39F2C5" stroke-dasharray="5 4" stroke-width="1.2"/>
+<line x1="96.0" y1="109.6" x2="160.8" y2="71.9"/>
+<line x1="531.2" y1="109.6" x2="596.0" y2="71.9"/>
+<line x1="531.2" y1="300.0" x2="596.0" y2="262.3"/>
+<line x1="160.8" y1="71.9" x2="596.0" y2="71.9"/>
+<line x1="596.0" y1="71.9" x2="596.0" y2="262.3"/>
+</g>
+<g stroke="rgba(234,251,255,.55)" stroke-width="1" fill="none">
+<line x1="96.0" y1="334.0" x2="531.2" y2="334.0"/>
+<line x1="96.0" y1="326.0" x2="96.0" y2="342.0"/>
+<line x1="531.2" y1="326.0" x2="531.2" y2="342.0"/>
+<line x1="62.0" y1="300.0" x2="62.0" y2="109.6"/>
+<line x1="54.0" y1="300.0" x2="70.0" y2="300.0"/>
+<line x1="54.0" y1="109.6" x2="70.0" y2="109.6"/>
+<line x1="557.2" y1="314.0" x2="622.0" y2="276.3"/>
+</g>
+<g font-family="-apple-system,'Segoe UI',Arial,sans-serif" fill="#EAFBFF" font-size="19" font-weight="700" text-anchor="middle">
+<text x="313.6" y="362.0">Length 48 in <tspan fill="rgba(234,251,255,.65)" font-weight="500">(122 cm)</tspan></text>
+<text transform="translate(40.0,204.8) rotate(-90)">Height 21 in <tspan fill="rgba(234,251,255,.65)" font-weight="500">(53 cm)</tspan></text>
+<text x="610.0" y="305.1" text-anchor="start">Width 13 in <tspan fill="rgba(234,251,255,.65)" font-weight="500">(33 cm)</tspan></text>
+<text x="313.6" y="87.6" font-size="15" fill="rgba(234,251,255,.7)" font-weight="600">Standard 55 gallon aquarium — typical dimensions, not a manufacturer specification</text>
+</g>
+</svg>
