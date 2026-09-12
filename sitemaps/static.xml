@@ -229,6 +229,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://www.fishcareai.com/resources/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://www.fishcareai.com/image-credits/</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
