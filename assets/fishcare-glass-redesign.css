@@ -1218,3 +1218,23 @@ body>.fishcare-global-nav .nlinks .nl.nl-app-btn.act{
   .fab-icon{width:44px;height:44px;font-size:1.4rem}
   .fab-cta{padding:7px 14px}
 }
+
+/* Species compatibility hubs (/compatibility/<species>/): the inline page CSS
+   paints each .pair link card #fff while the theme above forces strong to
+   --fc-ink, so the pair names rendered white-on-white. Repaint the cards to
+   the dark glass panel and lift the inline status colours for contrast. */
+.hub .pair{
+  background:linear-gradient(145deg,rgba(10,57,86,.84),rgba(4,23,38,.84))!important;
+  border:1px solid rgba(125,235,255,.24)!important;
+  color:var(--fc-ink)!important;
+  box-shadow:0 12px 40px rgba(0,10,22,.3),inset 0 1px 0 rgba(255,255,255,.08)!important;
+  text-decoration:none!important;
+  transition:border-color .15s,transform .15s;
+}
+.hub .pair:hover{border-color:rgba(125,235,255,.48)!important;transform:translateY(-2px)}
+.hub .pair span,.hub .pair strong{color:var(--fc-ink)!important}
+.hub .pair small{color:var(--fc-muted)!important}
+.hub .pair b[style*="#E74C3C"]{color:#FF8C82!important}
+.hub .pair b[style*="#F39C12"]{color:#FFC94D!important}
+.hub .pair b[style*="#27AE60"]{color:#4ADE80!important}
+@media(max-width:620px){.hub .pair b{display:block;margin-top:4px}}
