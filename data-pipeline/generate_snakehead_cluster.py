@@ -33,7 +33,7 @@ CLUSTER_NAV = [
 ]
 
 TOOL_LINKS = [
-    ("/tools/tank-size-calculator/",       "Tank Size Calculator"),
+    ("/tools/aquarium-size-calculator/",       "Tank Size Calculator"),
     ("/tools/water-parameter-checker/",    "Water Parameter Checker"),
     ("/tools/fish-compatibility-checker/", "Compatibility Checker"),
 ]
@@ -94,17 +94,17 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
 @media(max-width:600px){.guide-links{grid-template-columns:1fr}}
 .sidebar{display:flex;flex-direction:column;gap:16px}
 .toc{background:rgba(255,255,255,.9);border-radius:16px;padding:18px;border:1px solid var(--bd);position:sticky;top:84px;box-shadow:0 4px 18px rgba(27,94,139,.07)}
-.toc h4{color:var(--pd);margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.toc .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
 .toc a{display:block;padding:5px 0 5px 10px;font-size:.82rem;color:var(--mu);border-left:2px solid transparent;transition:all .15s;line-height:1.4}
 .toc a:hover{color:var(--p);border-left-color:var(--p)}
 .cluster-nav{background:rgba(255,255,255,.9);border-radius:16px;padding:18px;border:1px solid var(--bd);box-shadow:0 4px 18px rgba(27,94,139,.07)}
-.cluster-nav h4{color:var(--pd);margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.cluster-nav .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
 .cluster-nav a{display:block;padding:6px 8px;font-size:.82rem;color:var(--mu);border-radius:6px;transition:all .12s;line-height:1.4;margin-bottom:2px}
 .cluster-nav a:hover{color:var(--p);background:rgba(27,94,139,.06)}
 .cluster-nav a.pillar{color:var(--pd);font-weight:700;border-bottom:1px solid var(--bd);padding-bottom:9px;margin-bottom:7px;display:block}
 .cluster-nav a.cur{color:var(--p);background:rgba(27,94,139,.07);font-weight:600}
 .tool-card{background:linear-gradient(135deg,rgba(27,94,139,.08),rgba(46,158,125,.06));border-radius:16px;padding:18px;border:1px solid var(--bd)}
-.tool-card h4{color:var(--pd);margin-bottom:10px;font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.tool-card .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:10px;font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
 .tool-card a{display:flex;align-items:center;justify-content:space-between;padding:9px 12px;border-radius:8px;font-size:.84rem;font-weight:600;margin-bottom:7px;background:#fff;border:1px solid var(--bd);color:var(--p);transition:all .15s}
 .tool-card a:hover{border-color:var(--p);box-shadow:0 3px 10px rgba(27,94,139,.1)}
 .fig{margin:18px 0;border-radius:16px;overflow:hidden;border:1px solid rgba(128,160,190,.35);background:transparent;box-shadow:0 12px 30px rgba(15,61,110,.08)}
@@ -132,8 +132,8 @@ def cluster_nav_html(current_slug: str) -> str:
     return "\n      ".join(items)
 
 
-def toc_html(sections):
-    return "\n      ".join(f'<a href="#{sid}">{label}</a>' for sid, label in sections)
+def toc_html(sections, page_path):
+    return "\n      ".join(f'<a href="{page_path}#{sid}">{label}</a>' for sid, label in sections)
 
 
 def tool_links_html():
@@ -202,6 +202,7 @@ def page(slug, title, meta_desc, h1, hero_tag, hero_meta,
 
     full_body = body_html.rstrip() + "\n\n" + faq_visible_html(faqs) + "\n\n" + related_html(related)
     toc = list(toc_sections) + [("faq", "FAQ")]
+    page_path = canonical.replace("https://www.fishcareai.com", "")
 
     return f"""<!DOCTYPE html>
 <html lang="en" data-adsense-content="true">
@@ -248,6 +249,7 @@ def page(slug, title, meta_desc, h1, hero_tag, hero_meta,
   </button>
 </nav>
 
+<main>
 <section class="guide-hero">
   <div class="con">
     <div class="breadcrumb">
@@ -268,19 +270,20 @@ def page(slug, title, meta_desc, h1, hero_tag, hero_meta,
 
   <aside class="sidebar">
     <div class="cluster-nav">
-      <h4>Snakehead Fish Care</h4>
+      <p class="sb-h">Snakehead Fish Care</p>
       {cluster_nav_html(slug)}
     </div>
     <div class="toc">
-      <h4>On this page</h4>
-      {toc_html(toc)}
+      <p class="sb-h">On this page</p>
+      {toc_html(toc, page_path)}
     </div>
     <div class="tool-card">
-      <h4>Snakehead Tools</h4>
+      <p class="sb-h">Snakehead Tools</p>
       {tool_links_html()}
     </div>
   </aside>
 </div>
+</main>
 
 <footer class="ft">
   <div class="con"><div class="ftb">&copy; 2026 FishCare AI. Practical freshwater fish care guides and tools.</div></div>
@@ -370,7 +373,7 @@ PILLAR_BODY = """    <p>Snakeheads (family Channidae) are air-breathing ambush p
       <li><strong>Heavy cover.</strong> Caves, driftwood tangles, leaf litter and dense floating plants. A snakehead with nowhere to hide stays skittish and jumps.</li>
       <li><strong>Oversized filtration.</strong> A predator fed whole seafood produces a heavy waste load. Rate the filter for at least 1.5&times; tank volume and change 30&ndash;50% of the water weekly.</li>
     </ul>
-    <p>Full dimensions by species and a lid checklist: <a href="/guides/snakehead-fish-care/tank-size/">snakehead fish tank size guide</a>. Our <a href="/tools/tank-size-calculator/">tank size calculator</a> converts dimensions to gallons.</p>
+    <p>Full dimensions by species and a lid checklist: <a href="/guides/snakehead-fish-care/tank-size/">snakehead fish tank size guide</a>. Our <a href="/tools/aquarium-size-calculator/">tank size calculator</a> converts dimensions to gallons.</p>
 
     <h2 id="water">Water Parameters and Temperature</h2>
     <p>There is no single &ldquo;snakehead fish temperature&rdquo;. The genus spans the tropics to temperate China, and keeping a subtropical species at tropical temperatures year-round is one of the commonest slow-killers in the hobby.</p>
@@ -644,7 +647,7 @@ TANK_BODY = """    <p>There is no single snakehead fish tank size, because the g
     <h2 id="rule">The Sizing Rule</h2>
     <p>Ambush predators need room to turn, not room to swim laps. Size the footprint first:</p>
     <div class="callout"><strong>Tank length &ge; 3&times; adult body length. Tank width &ge; 1.5&times; adult body length.</strong> Height is almost irrelevant &mdash; 18&ndash;24 inches is plenty for any species, and a shallower tank makes the mandatory trip to the surface for air easier.</div>
-    <p>Work from the <em>adult</em> size of your species, not the fish in the bag. Snakeheads do not stop growing to fit the tank; a stunted snakehead is a deformed one with a shortened life. Check adult sizes on the <a href="/guides/snakehead-fish-care/types/">types and species page</a> and confirm your gallons with the <a href="/tools/tank-size-calculator/">tank size calculator</a>.</p>
+    <p>Work from the <em>adult</em> size of your species, not the fish in the bag. Snakeheads do not stop growing to fit the tank; a stunted snakehead is a deformed one with a shortened life. Check adult sizes on the <a href="/guides/snakehead-fish-care/types/">types and species page</a> and confirm your gallons with the <a href="/tools/aquarium-size-calculator/">tank size calculator</a>.</p>
 
     <h2 id="by-species">Snakehead Tank Size by Species</h2>
     <table class="ptbl">
@@ -736,7 +739,7 @@ TANK = {
          "Very little. Channa come from sluggish swamps, paddy field margins and slow forest streams, so strong flow keeps them unsettled and hiding. Use filtration rated 1.5-2x tank volume for waste capacity, but baffle the return so the water in the tank is nearly still."),
     ],
     "related": [
-        ("/tools/tank-size-calculator/", "Tank Size Calculator"),
+        ("/tools/aquarium-size-calculator/", "Tank Size Calculator"),
         ("/guides/snakehead-fish-care/types/", "Snakehead Types & Species"),
         ("/guides/snakehead-fish-care/water-parameters/", "Water & Temperature"),
         ("/guides/snakehead-fish-care/", "Snakehead Care Guide"),
@@ -992,7 +995,7 @@ SIZE_BODY = """    <p>&ldquo;How big do snakehead fish get?&rdquo; has no single
 
     <h2 id="measuring">Measuring and Tracking Growth</h2>
     <p>Fish are measured as <strong>total length</strong> (snout to the tip of the tail) in the snakehead hobby unless stated otherwise. The practical way to track one without netting it &mdash; netting stresses snakeheads badly and invites a jump &mdash; is to tape a strip of paper marked in inches along the outside of the glass and photograph the fish beside it when it settles on the bottom. Log the number monthly.</p>
-    <p>Once you know the adult size, size the tank from the <a href="/guides/snakehead-fish-care/tank-size/">snakehead tank size guide</a>: length at least three times the adult body length. Our <a href="/tools/tank-size-calculator/">tank size calculator</a> turns dimensions into gallons.</p>
+    <p>Once you know the adult size, size the tank from the <a href="/guides/snakehead-fish-care/tank-size/">snakehead tank size guide</a>: length at least three times the adult body length. Our <a href="/tools/aquarium-size-calculator/">tank size calculator</a> turns dimensions into gallons.</p>
 
     <h2 id="maximise">Growing a Healthy Snakehead</h2>
     <ul>
@@ -1035,7 +1038,7 @@ SIZE = {
         ("/guides/snakehead-fish-care/types/", "Snakehead Types & Species"),
         ("/guides/snakehead-fish-care/tank-size/", "Snakehead Tank Size"),
         ("/guides/snakehead-fish-care/lifespan/", "Snakehead Lifespan"),
-        ("/tools/tank-size-calculator/", "Tank Size Calculator"),
+        ("/tools/aquarium-size-calculator/", "Tank Size Calculator"),
     ],
 }
 

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Blood parrot cichlid water parameters: temperature, pH, hardness and nitrate targets</title>
+<desc id="d">Parrot fish care water targets: temperature 76 to 84 degrees Fahrenheit (24 to 29 Celsius), pH 6.5 to 7.4, hardness 6 to 18 dGH, ammonia and nitrite always 0 ppm, nitrate under 30 ppm, with a 25 to 30 percent water change every week.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient>
+<linearGradient id="ok" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2bd4c4"/><stop offset="1" stop-color="#27ae60"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">Blood parrot cichlid water parameters: the safe range at a glance</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">Warm, stable and clean. Blood parrots tolerate a wide range but not swings &#8212; hold one value and keep nitrate low with weekly water changes.</text>
+<g font-family="Inter,-apple-system,Segoe UI,sans-serif">
+<!-- row template: label x=48, track x=330..1020, value x=1040 -->
+<text x="48" y="168" font-size="20" font-weight="700" fill="#e8f3f9">Temperature</text>
+<rect x="330" y="150" width="690" height="26" rx="13" fill="#ffffff" fill-opacity=".08"/>
+<rect x="510" y="150" width="300" height="26" rx="13" fill="url(#ok)"/>
+<text x="330" y="200" font-size="13" fill="#5f8299">64&#176;F</text><text x="1020" y="200" text-anchor="end" font-size="13" fill="#5f8299">90&#176;F</text>
+<text x="1040" y="168" font-size="20" font-weight="800" fill="#2bd4c4">76&#8211;84&#176;F</text>
+<text x="1040" y="190" font-size="13" fill="#8aaec2">24&#8211;29&#176;C</text>
+
+<text x="48" y="248" font-size="20" font-weight="700" fill="#e8f3f9">pH</text>
+<rect x="330" y="230" width="690" height="26" rx="13" fill="#ffffff" fill-opacity=".08"/>
+<rect x="502" y="230" width="207" height="26" rx="13" fill="url(#ok)"/>
+<text x="330" y="280" font-size="13" fill="#5f8299">5.5</text><text x="1020" y="280" text-anchor="end" font-size="13" fill="#5f8299">8.5</text>
+<text x="1040" y="248" font-size="20" font-weight="800" fill="#2bd4c4">6.5&#8211;7.4</text>
+<text x="1040" y="270" font-size="13" fill="#8aaec2">stable beats perfect</text>
+
+<text x="48" y="328" font-size="20" font-weight="700" fill="#e8f3f9">Hardness</text>
+<rect x="330" y="310" width="690" height="26" rx="13" fill="#ffffff" fill-opacity=".08"/>
+<rect x="468" y="310" width="276" height="26" rx="13" fill="url(#ok)"/>
+<text x="330" y="360" font-size="13" fill="#5f8299">0 dGH</text><text x="1020" y="360" text-anchor="end" font-size="13" fill="#5f8299">30 dGH</text>
+<text x="1040" y="328" font-size="20" font-weight="800" fill="#2bd4c4">6&#8211;18 dGH</text>
+<text x="1040" y="350" font-size="13" fill="#8aaec2">moderately hard</text>
+
+<text x="48" y="408" font-size="20" font-weight="700" fill="#e8f3f9">Ammonia / nitrite</text>
+<rect x="330" y="390" width="690" height="26" rx="13" fill="#ffffff" fill-opacity=".08"/>
+<rect x="330" y="390" width="30" height="26" rx="13" fill="url(#ok)"/>
+<rect x="360" y="390" width="660" height="26" rx="13" fill="#e74c3c" fill-opacity=".35"/>
+<text x="330" y="440" font-size="13" fill="#5f8299">0 ppm</text><text x="1020" y="440" text-anchor="end" font-size="13" fill="#5f8299">any reading = water change now</text>
+<text x="1040" y="408" font-size="20" font-weight="800" fill="#2bd4c4">0 ppm</text>
+<text x="1040" y="430" font-size="13" fill="#8aaec2">always</text>
+
+<text x="48" y="488" font-size="20" font-weight="700" fill="#e8f3f9">Nitrate</text>
+<rect x="330" y="470" width="690" height="26" rx="13" fill="#ffffff" fill-opacity=".08"/>
+<rect x="330" y="470" width="259" height="26" rx="13" fill="url(#ok)"/>
+<rect x="589" y="470" width="431" height="26" rx="13" fill="#f39c12" fill-opacity=".35"/>
+<text x="330" y="520" font-size="13" fill="#5f8299">0 ppm</text><text x="1020" y="520" text-anchor="end" font-size="13" fill="#5f8299">80 ppm</text>
+<text x="1040" y="488" font-size="20" font-weight="800" fill="#2bd4c4">&lt; 30 ppm</text>
+<text x="1040" y="510" font-size="13" fill="#8aaec2">high nitrate fades color</text>
+</g>
+<rect x="48" y="548" width="1104" height="52" rx="12" fill="#ffffff" fill-opacity=".06" stroke="#3e8cb4" stroke-opacity=".35"/>
+<text x="72" y="581" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="18" fill="#e8f3f9"><tspan font-weight="800" fill="#2bd4c4">Routine:</tspan> 25&#8211;30% water change every week, test nitrate before the change, never chase pH with chemicals.</text>
+<text x="1152" y="626" text-anchor="end" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="13" fill="#5f8299">fishcareai.com &#183; parrot fish care</text>
+</svg>

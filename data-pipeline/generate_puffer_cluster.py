@@ -50,7 +50,7 @@ CLUSTER_NAV = [
 ]
 
 TOOL_LINKS = [
-    ("/tools/tank-size-calculator/",       "Tank Size Calculator"),
+    ("/tools/aquarium-size-calculator/",       "Tank Size Calculator"),
     ("/tools/water-parameter-checker/",    "Water Parameter Checker"),
     ("/tools/fish-compatibility-checker/", "Compatibility Checker"),
     ("/tools/fish-feeding-calculator/",    "Feeding Calculator"),
@@ -113,17 +113,17 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
 @media(max-width:600px){.guide-links{grid-template-columns:1fr}}
 .sidebar{display:flex;flex-direction:column;gap:16px}
 .toc{background:rgba(255,255,255,.9);border-radius:16px;padding:18px;border:1px solid var(--bd);position:sticky;top:84px;box-shadow:0 4px 18px rgba(27,94,139,.07)}
-.toc h4{color:var(--pd);margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.toc .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
 .toc a{display:block;padding:5px 0 5px 10px;font-size:.82rem;color:var(--mu);border-left:2px solid transparent;transition:all .15s;line-height:1.4}
 .toc a:hover{color:var(--p);border-left-color:var(--p)}
 .cluster-nav{background:rgba(255,255,255,.9);border-radius:16px;padding:18px;border:1px solid var(--bd);box-shadow:0 4px 18px rgba(27,94,139,.07)}
-.cluster-nav h4{color:var(--pd);margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.cluster-nav .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
 .cluster-nav a{display:block;padding:6px 8px;font-size:.82rem;color:var(--mu);border-radius:6px;transition:all .12s;line-height:1.4;margin-bottom:2px}
 .cluster-nav a:hover{color:var(--p);background:rgba(27,94,139,.06)}
 .cluster-nav a.pillar{color:var(--pd);font-weight:700;border-bottom:1px solid var(--bd);padding-bottom:9px;margin-bottom:7px;display:block}
 .cluster-nav a.cur{color:var(--p);background:rgba(27,94,139,.07);font-weight:600}
 .tool-card{background:linear-gradient(135deg,rgba(27,94,139,.08),rgba(46,158,125,.06));border-radius:16px;padding:18px;border:1px solid var(--bd)}
-.tool-card h4{color:var(--pd);margin-bottom:10px;font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.tool-card .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:10px;font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
 .tool-card a{display:flex;align-items:center;justify-content:space-between;padding:9px 12px;border-radius:8px;font-size:.84rem;font-weight:600;margin-bottom:7px;background:#fff;border:1px solid var(--bd);color:var(--p);transition:all .15s}
 .tool-card a:hover{border-color:var(--p);box-shadow:0 3px 10px rgba(27,94,139,.1)}
 .fig{margin:18px 0;border-radius:16px;overflow:hidden;border:1px solid rgba(128,160,190,.35);background:transparent;box-shadow:0 12px 30px rgba(15,61,110,.08)}
@@ -151,8 +151,8 @@ def cluster_nav_html(current_slug: str) -> str:
     return "\n      ".join(items)
 
 
-def toc_html(sections):
-    return "\n      ".join(f'<a href="#{sid}">{label}</a>' for sid, label in sections)
+def toc_html(sections, page_path):
+    return "\n      ".join(f'<a href="{page_path}#{sid}">{label}</a>' for sid, label in sections)
 
 
 def tool_links_html():
@@ -223,6 +223,7 @@ def page(slug, title, meta_desc, h1, hero_tag, hero_meta,
 
     full_body = body_html.rstrip() + "\n\n" + faq_visible_html(faqs) + "\n\n" + related_html(related)
     toc = list(toc_sections) + [("faq", "FAQ")]
+    page_path = canonical.replace("https://www.fishcareai.com", "")
 
     return f"""<!DOCTYPE html>
 <html lang="en" data-adsense-content="true">
@@ -269,6 +270,7 @@ def page(slug, title, meta_desc, h1, hero_tag, hero_meta,
   </button>
 </nav>
 
+<main>
 <section class="guide-hero">
   <div class="con">
     <div class="breadcrumb">
@@ -289,19 +291,20 @@ def page(slug, title, meta_desc, h1, hero_tag, hero_meta,
 
   <aside class="sidebar">
     <div class="cluster-nav">
-      <h4>Puffer Fish Care</h4>
+      <p class="sb-h">Puffer Fish Care</p>
       {cluster_nav_html(slug)}
     </div>
     <div class="toc">
-      <h4>On this page</h4>
-      {toc_html(toc)}
+      <p class="sb-h">On this page</p>
+      {toc_html(toc, page_path)}
     </div>
     <div class="tool-card">
-      <h4>Puffer Fish Tools</h4>
+      <p class="sb-h">Puffer Fish Tools</p>
       {tool_links_html()}
     </div>
   </aside>
 </div>
+</main>
 
 <footer class="ft">
   <div class="con"><div class="ftb">&copy; 2026 FishCare AI. Practical freshwater fish care guides and tools.</div></div>
@@ -792,7 +795,7 @@ TANK_BODY = """    <p>There is no single puffer fish tank size, because the fami
       <tr><td>Porcupine puffer (marine)</td><td>12&ndash;14 in</td><td>125 gal</td><td>180 gal</td><td>72&times;18 in</td></tr>
       <tr><td>Dogface puffer (marine)</td><td>12&ndash;13 in</td><td>180 gal</td><td>240 gal</td><td>72&times;24 in</td></tr>
     </table></div>
-    <p>Convert dimensions to gallons or litres with the <a href="/tools/tank-size-calculator/">tank size calculator</a>, or plan a whole build with the <a href="/tools/aquarium-planner/">aquarium planner</a>.</p>
+    <p>Convert dimensions to gallons or litres with the <a href="/tools/aquarium-size-calculator/">tank size calculator</a>, or plan a whole build with the <a href="/tools/aquarium-planner/">aquarium planner</a>.</p>
 
     <h2 id="pea-tank">Pea Puffer Tank Size in Detail</h2>
     <p>The pea puffer is the one puffer where stocking arithmetic actually matters, because people keep them in groups. The working rules:</p>
@@ -862,7 +865,7 @@ TANK = {
          "Sand for burrowing species such as the congo puffer, which needs three to four inches to bury in. Fine sand or smooth small gravel suits everything else. Avoid sharp substrate and hardscape, because puffers have no scales to protect their skin."),
     ],
     "related": [
-        ("/tools/tank-size-calculator/", "Tank Size Calculator"),
+        ("/tools/aquarium-size-calculator/", "Tank Size Calculator"),
         ("/guides/puffer-fish-care/water-parameters/", "Water Parameters"),
         ("/guides/puffer-fish-care/size-growth/", "Puffer Size & Growth"),
         ("/guides/puffer-fish-care/", "Puffer Fish Care Guide"),
@@ -1210,7 +1213,7 @@ SIZE_BODY = """    <p>&ldquo;How big do puffer fish get?&rdquo; has no single an
     <ul>
       <li>Measure standard length &mdash; snout to the base of the tail &mdash; not total length including the caudal fin. Most published sizes are standard length.</li>
       <li>Photograph the fish against the same tank background every month; a side-by-side after six months shows growth that day-to-day observation misses.</li>
-      <li>Track the tank at the same time: work out the volume you actually have with the <a href="/tools/tank-size-calculator/">tank size calculator</a> and compare it to what the adult will need.</li>
+      <li>Track the tank at the same time: work out the volume you actually have with the <a href="/tools/aquarium-size-calculator/">tank size calculator</a> and compare it to what the adult will need.</li>
     </ul>
 
     <h2 id="slow">Why Is My Puffer Not Growing?</h2>
@@ -1258,7 +1261,7 @@ SIZE = {
         ("/guides/puffer-fish-care/tank-size/", "Puffer Tank Size"),
         ("/guides/puffer-fish-care/lifespan/", "Puffer Lifespan"),
         ("/guides/puffer-fish-care/types/", "Types of Puffer Fish"),
-        ("/tools/tank-size-calculator/", "Tank Size Calculator"),
+        ("/tools/aquarium-size-calculator/", "Tank Size Calculator"),
     ],
 }
 
@@ -1377,7 +1380,7 @@ PEA_BODY = """    <p>The pea puffer (<em>Carinotetraodon travancoricus</em>) is 
       <li><strong>Sand or fine gravel</strong>, driftwood, leaf litter and caves.</li>
       <li><strong>Lid required.</strong> They are small, curious and jump when startled.</li>
     </ul>
-    <p>Work out your exact volume with the <a href="/tools/tank-size-calculator/">tank size calculator</a>.</p>
+    <p>Work out your exact volume with the <a href="/tools/aquarium-size-calculator/">tank size calculator</a>.</p>
 
     <h2 id="water">Pea Puffer Water Parameters</h2>
     <p>Pea puffers want ordinary hard tap water: <strong>74&ndash;82&deg;F (23&ndash;28&deg;C), pH 7.0&ndash;8.0, 8&ndash;15 dGH</strong>. Target 77&ndash;79&deg;F. They are scaleless, so ammonia and nitrite must read zero and nitrate should stay under 20 ppm. A 10-gallon pea puffer tank needs 30&ndash;50% weekly water changes because the diet is entirely protein.</p>
@@ -1823,7 +1826,7 @@ FAHAKA_BODY = """    <p>The fahaka puffer (<em>Tetraodon lineatus</em>) is the l
       <li><strong>Hardscape:</strong> sand, heavy smooth rock and large driftwood, all placed so a digging fish cannot bring it down. Nothing sharp &mdash; fahakas rub and scrape.</li>
       <li><strong>Heater:</strong> guarded or in the sump. Fahakas have broken heaters.</li>
     </ul>
-    <p>Check dimensions against volume with the <a href="/tools/tank-size-calculator/">tank size calculator</a>.</p>
+    <p>Check dimensions against volume with the <a href="/tools/aquarium-size-calculator/">tank size calculator</a>.</p>
 
     <h2 id="solitary">Why Fahakas Are Kept Alone</h2>
     <p>A fahaka puffer will eventually kill anything you put with it, including fish far larger than itself. Juveniles sometimes tolerate company for months, which persuades people it will work; the change when it comes is fast and fatal. Plan a single-specimen tank from the start.</p>

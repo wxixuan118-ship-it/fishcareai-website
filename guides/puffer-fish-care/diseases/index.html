@@ -78,17 +78,17 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
 @media(max-width:600px){.guide-links{grid-template-columns:1fr}}
 .sidebar{display:flex;flex-direction:column;gap:16px}
 .toc{background:rgba(255,255,255,.9);border-radius:16px;padding:18px;border:1px solid var(--bd);position:sticky;top:84px;box-shadow:0 4px 18px rgba(27,94,139,.07)}
-.toc h4{color:var(--pd);margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.toc .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
 .toc a{display:block;padding:5px 0 5px 10px;font-size:.82rem;color:var(--mu);border-left:2px solid transparent;transition:all .15s;line-height:1.4}
 .toc a:hover{color:var(--p);border-left-color:var(--p)}
 .cluster-nav{background:rgba(255,255,255,.9);border-radius:16px;padding:18px;border:1px solid var(--bd);box-shadow:0 4px 18px rgba(27,94,139,.07)}
-.cluster-nav h4{color:var(--pd);margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.cluster-nav .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
 .cluster-nav a{display:block;padding:6px 8px;font-size:.82rem;color:var(--mu);border-radius:6px;transition:all .12s;line-height:1.4;margin-bottom:2px}
 .cluster-nav a:hover{color:var(--p);background:rgba(27,94,139,.06)}
 .cluster-nav a.pillar{color:var(--pd);font-weight:700;border-bottom:1px solid var(--bd);padding-bottom:9px;margin-bottom:7px;display:block}
 .cluster-nav a.cur{color:var(--p);background:rgba(27,94,139,.07);font-weight:600}
 .tool-card{background:linear-gradient(135deg,rgba(27,94,139,.08),rgba(46,158,125,.06));border-radius:16px;padding:18px;border:1px solid var(--bd)}
-.tool-card h4{color:var(--pd);margin-bottom:10px;font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.tool-card .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:10px;font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
 .tool-card a{display:flex;align-items:center;justify-content:space-between;padding:9px 12px;border-radius:8px;font-size:.84rem;font-weight:600;margin-bottom:7px;background:#fff;border:1px solid var(--bd);color:var(--p);transition:all .15s}
 .tool-card a:hover{border-color:var(--p);box-shadow:0 3px 10px rgba(27,94,139,.1)}
 .fig{margin:18px 0;border-radius:16px;overflow:hidden;border:1px solid rgba(128,160,190,.35);background:transparent;box-shadow:0 12px 30px rgba(15,61,110,.08)}
@@ -121,6 +121,7 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
   </button>
 </nav>
 
+<main>
 <section class="guide-hero">
   <div class="con">
     <div class="breadcrumb">
@@ -217,7 +218,7 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
 
   <aside class="sidebar">
     <div class="cluster-nav">
-      <h4>Puffer Fish Care</h4>
+      <p class="sb-h">Puffer Fish Care</p>
       <a href="/guides/puffer-fish-care/" class="pillar">🐡 Puffer Fish Care Guide</a>
       <a href="/guides/puffer-fish-care/types/" class="">🎨 Types & Species</a>
       <a href="/guides/puffer-fish-care/freshwater/" class="">💧 Freshwater Puffers</a>
@@ -246,17 +247,17 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
       <a href="/compatibility/pea-puffer/" class="">🤝 Pea Puffer Pairings</a>
     </div>
     <div class="toc">
-      <h4>On this page</h4>
-      <a href="#common">Diseases at a Glance</a>
-      <a href="#ich">White Spots (Ich)</a>
-      <a href="#parasites">Internal Parasites</a>
-      <a href="#finrot">Fin Rot</a>
-      <a href="#eye">Cloudy Eye</a>
-      <a href="#quarantine">Quarantine Protocol</a>
-      <a href="#faq">FAQ</a>
+      <p class="sb-h">On this page</p>
+      <a href="/guides/puffer-fish-care/diseases/#common">Diseases at a Glance</a>
+      <a href="/guides/puffer-fish-care/diseases/#ich">White Spots (Ich)</a>
+      <a href="/guides/puffer-fish-care/diseases/#parasites">Internal Parasites</a>
+      <a href="/guides/puffer-fish-care/diseases/#finrot">Fin Rot</a>
+      <a href="/guides/puffer-fish-care/diseases/#eye">Cloudy Eye</a>
+      <a href="/guides/puffer-fish-care/diseases/#quarantine">Quarantine Protocol</a>
+      <a href="/guides/puffer-fish-care/diseases/#faq">FAQ</a>
     </div>
     <div class="tool-card">
-      <h4>Puffer Fish Tools</h4>
+      <p class="sb-h">Puffer Fish Tools</p>
       <a href="/tools/aquarium-size-calculator/">Tank Size Calculator <span>&rarr;</span></a>
       <a href="/tools/water-parameter-checker/">Water Parameter Checker <span>&rarr;</span></a>
       <a href="/tools/fish-compatibility-checker/">Compatibility Checker <span>&rarr;</span></a>
@@ -264,6 +265,7 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
     </div>
   </aside>
 </div>
+</main>
 
 <footer class="ft">
   <div class="con"><div class="ftb">&copy; 2026 FishCare AI. Practical freshwater fish care guides and tools.</div></div>

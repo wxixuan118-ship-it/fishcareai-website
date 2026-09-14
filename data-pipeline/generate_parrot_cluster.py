@@ -28,11 +28,11 @@ CLUSTER_NAV = [
     ("/guides/parrot-fish-care/tank-mates/",       "\U0001F420 Tank Mates"),
     ("/guides/parrot-fish-care/breeding/",         "\U0001F95A Breeding & Babies"),
     ("/guides/parrot-fish-care/black-spots/",      "⚫ Black Spots"),
-    ("/wiki/blood-parrot-cichlid/",                "\U0001F4D6 Species Profile"),
+    ("/species/blood-parrot-cichlid",                "\U0001F4D6 Species Profile"),
 ]
 
 TOOL_LINKS = [
-    ("/tools/tank-size-calculator/",       "Tank Size Calculator"),
+    ("/tools/aquarium-size-calculator/",   "Tank Size Calculator"),
     ("/tools/water-parameter-checker/",    "Water Parameter Checker"),
     ("/tools/fish-compatibility-checker/", "Compatibility Checker"),
 ]
@@ -93,17 +93,17 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
 @media(max-width:600px){.guide-links{grid-template-columns:1fr}}
 .sidebar{display:flex;flex-direction:column;gap:16px}
 .toc{background:rgba(255,255,255,.9);border-radius:16px;padding:18px;border:1px solid var(--bd);position:sticky;top:84px;box-shadow:0 4px 18px rgba(27,94,139,.07)}
-.toc h4{color:var(--pd);margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.toc .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
 .toc a{display:block;padding:5px 0 5px 10px;font-size:.82rem;color:var(--mu);border-left:2px solid transparent;transition:all .15s;line-height:1.4}
 .toc a:hover{color:var(--p);border-left-color:var(--p)}
 .cluster-nav{background:rgba(255,255,255,.9);border-radius:16px;padding:18px;border:1px solid var(--bd);box-shadow:0 4px 18px rgba(27,94,139,.07)}
-.cluster-nav h4{color:var(--pd);margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.cluster-nav .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
 .cluster-nav a{display:block;padding:6px 8px;font-size:.82rem;color:var(--mu);border-radius:6px;transition:all .12s;line-height:1.4;margin-bottom:2px}
 .cluster-nav a:hover{color:var(--p);background:rgba(27,94,139,.06)}
 .cluster-nav a.pillar{color:var(--pd);font-weight:700;border-bottom:1px solid var(--bd);padding-bottom:9px;margin-bottom:7px;display:block}
 .cluster-nav a.cur{color:var(--p);background:rgba(27,94,139,.07);font-weight:600}
 .tool-card{background:linear-gradient(135deg,rgba(27,94,139,.08),rgba(46,158,125,.06));border-radius:16px;padding:18px;border:1px solid var(--bd)}
-.tool-card h4{color:var(--pd);margin-bottom:10px;font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.tool-card .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:10px;font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
 .tool-card a{display:flex;align-items:center;justify-content:space-between;padding:9px 12px;border-radius:8px;font-size:.84rem;font-weight:600;margin-bottom:7px;background:#fff;border:1px solid var(--bd);color:var(--p);transition:all .15s}
 .tool-card a:hover{border-color:var(--p);box-shadow:0 3px 10px rgba(27,94,139,.1)}
 .ft{background:#0F3D5E;padding:32px 22px 20px;margin-top:60px}
@@ -124,8 +124,8 @@ def cluster_nav_html(current_slug: str) -> str:
     return "\n      ".join(items)
 
 
-def toc_html(sections):
-    return "\n      ".join(f'<a href="#{sid}">{label}</a>' for sid, label in sections)
+def toc_html(sections, page_path):
+    return "\n      ".join(f'<a href="{page_path}#{sid}">{label}</a>' for sid, label in sections)
 
 
 def tool_links_html():
@@ -146,7 +146,7 @@ def faq_json(faqs):
 
 def faq_visible_html(faqs):
     rows = [f"    <h3>{q}</h3>\n    <p>{a}</p>" for q, a in faqs]
-    return '    <h2 id="faq">Frequently Asked Questions</h2>\n' + "\n".join(rows)
+    return '    <h2 id="faq">Parrot Fish Care FAQ</h2>\n' + "\n".join(rows)
 
 
 def related_html(links):
@@ -194,6 +194,7 @@ def page(slug, title, meta_desc, h1, hero_tag, hero_meta,
 
     full_body = body_html.rstrip() + "\n\n" + faq_visible_html(faqs) + "\n\n" + related_html(related)
     toc = list(toc_sections) + [("faq", "FAQ")]
+    page_path = canonical.replace("https://www.fishcareai.com", "")
 
     return f"""<!DOCTYPE html>
 <html lang="en" data-adsense-content="true">
@@ -240,6 +241,7 @@ def page(slug, title, meta_desc, h1, hero_tag, hero_meta,
   </button>
 </nav>
 
+<main>
 <section class="guide-hero">
   <div class="con">
     <div class="breadcrumb">
@@ -260,19 +262,20 @@ def page(slug, title, meta_desc, h1, hero_tag, hero_meta,
 
   <aside class="sidebar">
     <div class="cluster-nav">
-      <h4>Parrot Fish Care</h4>
+      <p class="sb-h">Parrot Fish Care</p>
       {cluster_nav_html(slug)}
     </div>
     <div class="toc">
-      <h4>On this page</h4>
-      {toc_html(toc)}
+      <p class="sb-h">On this page</p>
+      {toc_html(toc, page_path)}
     </div>
     <div class="tool-card">
-      <h4>Parrot Fish Tools</h4>
+      <p class="sb-h">Parrot Fish Tools</p>
       {tool_links_html()}
     </div>
   </aside>
 </div>
+</main>
 
 <footer class="ft">
   <div class="con"><div class="ftb">&copy; 2026 FishCare AI. Practical freshwater fish care guides and tools.</div></div>
@@ -285,10 +288,12 @@ def page(slug, title, meta_desc, h1, hero_tag, hero_meta,
 # ════════════════════════════════════════════════════════════════
 # PILLAR — Parrot Fish Care Guide
 # ════════════════════════════════════════════════════════════════
-PILLAR_BODY = """    <p>Search "parrot fish" and you get two completely different animals. In the aquarium hobby it almost always means the <strong>blood parrot cichlid</strong> &mdash; the round, bright orange, permanently smiling hybrid sold in fish stores. In the ocean it means the <strong>marine parrotfish</strong> (family Scaridae), the beaked reef grazer that turns coral into sand. This guide covers the aquarium fish in full, and explains the marine species on the <a href="/guides/parrot-fish-care/types/">types and colors page</a>.</p>
+PILLAR_BODY = """    <p><strong>Parrot fish care</strong> in the aquarium hobby means caring for the <strong>blood parrot cichlid</strong> &mdash; the round, bright orange, permanently smiling hybrid sold in almost every fish store. This blood parrot cichlid care guide covers the tank, water, food, tank mates, colors and health of the parrot fish.</p>
+    <p>The short version: a 30-gallon-plus tank, warm stable water at 76&ndash;84&deg;F, sinking food its deformed mouth can actually eat, calm tank mates, and an eye on the health problems that come with a hybrid body. If you were looking for the beaked reef grazer, that is the <strong>marine parrotfish</strong> (family Scaridae) &mdash; a different animal, covered on the <a href="/guides/parrot-fish-care/types/">types and colors page</a>.</p>
+    <figure style="margin:22px 0;border-radius:10px;overflow:hidden;line-height:0;"><img src="/assets/encyclopedia/real/blood-parrot-cichlid-wikimedia-real.jpg" alt="Blood parrot cichlid (aquarium parrot fish) showing the round orange body and permanently open mouth that shape its care" width="1600" height="1161" loading="lazy" decoding="async" style="width:100%;height:260px;object-fit:cover;display:block;"/></figure>
 
     <h2 id="what-is">What Is a Blood Parrot Fish?</h2>
-    <p>The blood parrot cichlid is a <strong>man-made hybrid</strong>, first bred in Taiwan around 1986. It has no scientific name and no wild population, because it does not exist in nature. The parent species are generally accepted to be the midas cichlid (<em>Amphilophus citrinellus</em>) crossed with the redhead cichlid (<em>Paraneetroplus synspilus</em>), though breeders have never published the exact line.</p>
+    <p>The blood parrot cichlid is a <strong>man-made hybrid</strong>, first bred in Taiwan around 1986. It has no scientific name and no wild population, because it does not exist in nature. The parent species are generally accepted to be the midas cichlid (<em>Amphilophus citrinellus</em>) crossed with the redhead cichlid (<em>Paraneetroplus synspilus</em>), though breeders have never published the exact line (see the <a href="https://en.wikipedia.org/wiki/Blood_parrot_cichlid" target="_blank" rel="noopener">blood parrot cichlid entry on Wikipedia</a> for the competing theories).</p>
     <p>The hybrid inherited a set of physical quirks that define how you have to keep it:</p>
     <ul>
       <li><strong>A deformed mouth</strong> that only opens into a narrow vertical slit and cannot fully close. Parrot fish cannot bite, tear or chase food properly &mdash; they suck it in from close range.</li>
@@ -296,9 +301,9 @@ PILLAR_BODY = """    <p>Search "parrot fish" and you get two completely differen
       <li><strong>A reduced swim bladder cavity</strong> in some individuals, making them prone to buoyancy problems if overfed.</li>
       <li><strong>Male sterility.</strong> Almost all male blood parrots are infertile, so pairs lay eggs that never hatch. See <a href="/guides/parrot-fish-care/breeding/">breeding blood parrot fish</a>.</li>
     </ul>
-    <p>None of that makes them hard to keep. It makes them a fish with specific requirements &mdash; sinking food, gentle tank mates, and enough space &mdash; and a personality that most cichlid keepers rate as the friendliest in the family.</p>
+    <p>None of that makes blood parrot cichlid care hard. It makes them a fish with specific requirements &mdash; sinking food, gentle tank mates, and enough space &mdash; and a personality that most cichlid keepers rate as the friendliest in the family.</p>
 
-    <h2 id="quick-facts">Blood Parrot Fish Care at a Glance</h2>
+    <h2 id="quick-facts">Parrot Fish Care at a Glance (Blood Parrot Cichlid)</h2>
     <table class="ptbl">
       <tr><th>Care factor</th><th>Requirement</th></tr>
       <tr><td>Adult size</td><td>7&ndash;8 inches (18&ndash;20 cm), occasionally 10 inches</td></tr>
@@ -314,17 +319,19 @@ PILLAR_BODY = """    <p>Search "parrot fish" and you get two completely differen
       <tr><td>Care level</td><td>Beginner to intermediate</td></tr>
     </table>
 
-    <h2 id="tank">Tank Size and Setup</h2>
-    <p>A single blood parrot needs <strong>30 gallons minimum</strong>, a pair needs 55&ndash;75 gallons, and a small group needs 100 gallons or more. They are wide-bodied fish that grow to 8 inches and produce a heavy waste load, so a long tank beats a tall one every time.</p>
+    <h2 id="tank">Parrot Fish Tank Size and Setup</h2>
+    <p>The first rule of parrot fish care is tank length. A single blood parrot cichlid needs <strong>30 gallons minimum</strong>, a pair needs 55&ndash;75 gallons, and a small group needs 100 gallons or more. They are wide-bodied fish that grow to 8 inches and produce a heavy waste load, so a long tank beats a tall one every time.</p>
+    <figure style="margin:22px 0;border-radius:10px;overflow:hidden;line-height:0;"><img src="/assets/guides/parrot/blood-parrot-cichlid-tank-size-chart.svg" alt="Parrot fish care tank size chart: 30 gallons for one blood parrot cichlid, 55 to 75 gallons for a pair, 100 gallons or more for a group" width="1200" height="640" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;"/></figure>
     <p>Set the tank up around their weaknesses: soft sand or smooth rounded gravel (they dig), plenty of caves and driftwood for hiding, and <strong>moderate flow</strong> &mdash; a poor swimmer pinned against the outflow of an oversized powerhead is a stressed fish. Filtration should be rated for at least 1.5&times; the tank volume, with the return baffled if it is strong. Full detail is on the <a href="/guides/parrot-fish-care/tank-size/">parrot fish tank size guide</a>.</p>
     <div class="callout"><strong>Hiding is normal at first.</strong> Newly added blood parrots often spend two or three weeks wedged behind a rock. Add caves before the fish, keep the lights dim for the first week, and they come out. A parrot fish with nowhere to hide stays skittish permanently.</div>
 
-    <h2 id="water">Water Parameters and Temperature</h2>
-    <p>Blood parrots want warm, stable, clean water: <strong>76&ndash;84&deg;F (24&ndash;29&deg;C)</strong>, pH 6.5&ndash;7.4, and nitrate under 30 ppm. They tolerate a wide pH range, but they do not tolerate swings &mdash; a stable 7.6 is better than a pH you keep chasing back to 7.0 with chemicals.</p>
+    <h2 id="water">Parrot Fish Water Parameters and Temperature</h2>
+    <p>Blood parrot cichlids want warm, stable, clean water: <strong>76&ndash;84&deg;F (24&ndash;29&deg;C)</strong>, pH 6.5&ndash;7.4, and nitrate under 30 ppm. They tolerate a wide pH range, but they do not tolerate swings &mdash; a stable 7.6 is better than a pH you keep chasing back to 7.0 with chemicals.</p>
+    <figure style="margin:22px 0;border-radius:10px;overflow:hidden;line-height:0;"><img src="/assets/guides/parrot/blood-parrot-cichlid-water-parameters.svg" alt="Blood parrot cichlid water parameters chart: 76 to 84 F, pH 6.5 to 7.4, 6 to 18 dGH, zero ammonia and nitrite, nitrate under 30 ppm" width="1200" height="640" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;"/></figure>
     <p>Change 25&ndash;30% of the water weekly. Their appetite and waste output are high for their size, and nitrate creep is the most common reason a parrot fish loses color. See <a href="/guides/parrot-fish-care/water-parameters/">parrot fish temperature and water parameters</a>.</p>
 
-    <h2 id="food">Food and Feeding</h2>
-    <p>Feed <strong>sinking</strong> pellets sized for the mouth &mdash; that mouth cannot chase floating food across the surface, and a parrot fish gulping air at the top is a buoyancy problem waiting to happen. A good weekly rotation:</p>
+    <h2 id="food">Parrot Fish Food and Feeding</h2>
+    <p>Feeding is where blood parrot cichlid care differs most from other cichlids. Feed <strong>sinking</strong> pellets sized for the mouth &mdash; that mouth cannot chase floating food across the surface, and a parrot fish gulping air at the top is a buoyancy problem waiting to happen. A good weekly rotation:</p>
     <ul>
       <li><strong>Staple:</strong> sinking cichlid pellets with astaxanthin and spirulina for color, twice a day, as much as they finish in 2 minutes.</li>
       <li><strong>Protein:</strong> frozen bloodworms, brine shrimp or mysis 2&ndash;3 times a week.</li>
@@ -333,16 +340,17 @@ PILLAR_BODY = """    <p>Search "parrot fish" and you get two completely differen
     </ul>
     <p>Full feeding schedule and color-food comparison: <a href="/guides/parrot-fish-care/food/">best food for parrot fish</a>.</p>
 
-    <h2 id="mates">Tank Mates</h2>
-    <p>Blood parrots are the contradiction of the cichlid world &mdash; territorial enough to chase, too timid and too badly built to fight well. The best tank mates are <strong>calm fish of similar size that are neither aggressive nor bite-sized</strong>: severums, silver dollars, larger tetras such as Congo tetras, giant danios, bristlenose plecos and corydoras.</p>
+    <h2 id="mates">Parrot Fish Tank Mates</h2>
+    <p>Blood parrot cichlids are the contradiction of the cichlid world &mdash; territorial enough to chase, too timid and too badly built to fight well. The best tank mates are <strong>calm fish of similar size that are neither aggressive nor bite-sized</strong>: severums, silver dollars, larger tetras such as Congo tetras, giant danios, bristlenose plecos and corydoras.</p>
     <p>Avoid neon tetras and other small fish (they get eaten), tiger barbs and serpae tetras (they nip the slow-moving fins), and genuinely aggressive cichlids such as red devils, jaguars and Jack Dempseys. Oscars are the popular question &mdash; possible in 125 gallons or more, risky below that, and covered on the <a href="/guides/parrot-fish-care/tank-mates/">parrot fish tank mates page</a>.</p>
 
-    <h2 id="colors">Color, Types and Dyed Fish</h2>
+    <h2 id="colors">Parrot Fish Colors, Types and Dyed Fish</h2>
     <p>Blood parrots hatch brown-grey and turn orange at around 5&ndash;6 months. Natural colors are <strong>orange, red, yellow and occasionally a calico-style mix</strong>. There is no naturally blue, purple or green blood parrot.</p>
     <div class="callout callout-warn"><strong>Dyed parrot fish.</strong> "Jellybean", "blueberry", "purple" and "grape" parrots are dyed &mdash; the fish are injected with or dipped in dye, which is painful, damages the slime coat and shortens life. Many die within months. The blue and green parrot fish you find in image searches are marine parrotfish, not aquarium fish. Never buy dyed stock; the trade only continues because it sells.</div>
     <p>See <a href="/guides/parrot-fish-care/types/">types of parrot fish and colors</a> for the hybrid varieties (king kong, red mammon, short-body, heart parrot) and the marine parrotfish species.</p>
 
-    <h2 id="health">Common Health Problems</h2>
+    <h2 id="health">Common Parrot Fish Health Problems</h2>
+    <p>Most parrot fish care problems are not diseases at all &mdash; they are the hybrid body reacting to overfeeding, stale water or stress. Work through these in order before reaching for medication:</p>
     <ul>
       <li><strong>Faded or washed-out color</strong> &mdash; almost always stress, poor diet, or nitrate build-up rather than disease.</li>
       <li><strong>Black spots or black patches</strong> &mdash; usually healing ammonia burn or stress marbling, not an infection. Diagnostic walkthrough: <a href="/guides/parrot-fish-care/black-spots/">parrot fish black spots</a>.</li>
@@ -352,22 +360,22 @@ PILLAR_BODY = """    <p>Search "parrot fish" and you get two completely differen
     </ul>
     <p>Species-specific disease detail: <a href="/aquarium-fish-diseases/blood-parrot-cichlid-diseases/">blood parrot cichlid diseases</a>.</p>
 
-    <h2 id="lifespan">Lifespan and Size</h2>
+    <h2 id="lifespan">Parrot Fish Lifespan and Size</h2>
     <p>A well-kept blood parrot lives <strong>10&ndash;15 years</strong> and reaches 7&ndash;8 inches, with growth largely finished by year three. Fish kept in undersized tanks and fed a flake-only diet commonly die at 3&ndash;5 years, which is why the "5 year lifespan" figure circulates. See <a href="/guides/parrot-fish-care/lifespan/">parrot fish lifespan</a> and <a href="/guides/parrot-fish-care/size-growth/">how big parrot fish get</a>.</p>
 
-    <h2 id="ethics">The Hybrid Question</h2>
-    <p>Blood parrots are controversial. Their deformities are the direct result of selective hybrid breeding, and some countries and retailers refuse to stock them. That is a fair debate to have before you buy. What is not debatable is the standard once you own one: a fish with a mouth that barely works and a spine that limits its swimming deserves an appropriately sized tank, sinking food it can actually eat, and tank mates that will not outcompete or bully it.</p>
+    <h2 id="ethics">The Hybrid Question: Should You Keep a Parrot Fish?</h2>
+    <p>Blood parrot cichlids are controversial. Their deformities are the direct result of selective hybrid breeding, and some countries and retailers refuse to stock them (Aquarium Co-Op's <a href="https://www.aquariumcoop.com/blogs/aquarium/blood-parrot-cichlid" target="_blank" rel="noopener">blood parrot care guide</a> makes the case for keeping them well rather than not at all). That is a fair debate to have before you buy. What is not debatable is the standard once you own one: a fish with a mouth that barely works and a spine that limits its swimming deserves an appropriately sized tank, sinking food it can actually eat, and tank mates that will not outcompete or bully it.</p>
 """
 
 PILLAR = {
     "slug": "",
-    "title": "Parrot Fish Care Guide: Blood Parrot Cichlid Tank, Food & Lifespan",
-    "meta_desc": "Complete parrot fish care guide: blood parrot cichlid tank size, water temperature, best food, tank mates, colors, lifespan and health problems explained.",
-    "h1": "Parrot Fish Care Guide (Blood Parrot Cichlid)",
+    "title": "Parrot Fish Care: Blood Parrot Cichlid Tank, Food & Lifespan",
+    "meta_desc": "Parrot fish care made simple: blood parrot cichlid tank size, water temperature, sinking food, safe tank mates, real vs dyed colors, lifespan and health.",
+    "h1": "Parrot Fish Care: The Complete Blood Parrot Cichlid Guide",
     "hero_tag": "Parrot Fish Care Guide",
     "hero_meta": "\U0001F4CF 7&ndash;8 inches &nbsp;|&nbsp; \U0001F5C3️ 30 gal minimum &nbsp;|&nbsp; ⏳ 10&ndash;15 years &nbsp;|&nbsp; \U0001F321️ 76&ndash;84&deg;F",
     "toc_sections": [
-        ("what-is", "What Is a Parrot Fish?"),
+        ("what-is", "What Is a Blood Parrot Fish?"),
         ("quick-facts", "Care at a Glance"),
         ("tank", "Tank Size & Setup"),
         ("water", "Water & Temperature"),
@@ -397,7 +405,7 @@ PILLAR = {
         ("/guides/parrot-fish-care/tank-size/", "Parrot Fish Tank Size"),
         ("/guides/parrot-fish-care/tank-mates/", "Parrot Fish Tank Mates"),
         ("/guides/parrot-fish-care/food/", "Best Food for Parrot Fish"),
-        ("/wiki/blood-parrot-cichlid/", "Blood Parrot Species Profile"),
+        ("/species/blood-parrot-cichlid", "Blood Parrot Species Profile"),
     ],
 }
 
@@ -418,7 +426,7 @@ TANK_SIZE_BODY = """    <p>The single most common blood parrot mistake is a 20-g
       <tr><td>100&ndash;125 gal</td><td>4&ndash;5</td><td>Group or mixed cichlid community; needed for oscars</td></tr>
       <tr><td>150 gal+</td><td>6&ndash;8</td><td>Full community with severums, silver dollars and plecos</td></tr>
     </table>
-    <p>Run your own stocking numbers with the <a href="/tools/tank-size-calculator/">tank size calculator</a>.</p>
+    <p>Run your own stocking numbers with the <a href="/tools/aquarium-size-calculator/">tank size calculator</a>.</p>
     <div class="callout"><strong>Footprint beats gallons.</strong> A 40-gallon breeder (36 &times; 18 in) is a far better parrot fish tank than a 40-gallon tall column, because blood parrots swim horizontally and claim floor territory. When two tanks hold the same volume, pick the longer, wider one.</div>
 
     <h2 id="juveniles">"But Mine Is Tiny"</h2>
@@ -490,7 +498,7 @@ TANK_SIZE = {
          "Yes. They need 76-84 degrees Fahrenheit year-round, so a heater rated 3-5 watts per gallon set to 80 degrees is required in almost every home aquarium."),
     ],
     "related": [
-        ("/tools/tank-size-calculator/", "Tank Size Calculator"),
+        ("/tools/aquarium-size-calculator/", "Tank Size Calculator"),
         ("/guides/parrot-fish-care/water-parameters/", "Water & Temperature"),
         ("/guides/parrot-fish-care/size-growth/", "Parrot Fish Size & Growth"),
         ("/guides/parrot-fish-care/", "Parrot Fish Care Guide"),
@@ -853,7 +861,7 @@ SIZE_BODY = """    <p>Blood parrot cichlids are sold at 1&ndash;2 inches and end
     <div class="callout callout-warn"><strong>Stunting is not "keeping it small".</strong> The idea that a fish grows to the size of its tank is a myth in the form it is usually told. Blood parrots in undersized tanks show suppressed external growth with continued internal growth, spinal curvature and dramatically shortened lifespan. Size the tank for the adult from the start &mdash; see <a href="/guides/parrot-fish-care/tank-size/">parrot fish tank size</a>.</div>
 
     <h2 id="body-shape">Why the Body Shape Matters for Stocking</h2>
-    <p>Standard stocking rules built around slim community fish underestimate blood parrots badly. An 8-inch parrot fish has roughly the body mass of a 12-inch slim-bodied fish and eats accordingly, which is why the tank guidance is 30 gallons for one fish rather than the 20 an "inch per gallon" rule would suggest. Plug your numbers into the <a href="/tools/tank-size-calculator/">tank size calculator</a> rather than counting inches.</p>
+    <p>Standard stocking rules built around slim community fish underestimate blood parrots badly. An 8-inch parrot fish has roughly the body mass of a 12-inch slim-bodied fish and eats accordingly, which is why the tank guidance is 30 gallons for one fish rather than the 20 an "inch per gallon" rule would suggest. Plug your numbers into the <a href="/tools/aquarium-size-calculator/">tank size calculator</a> rather than counting inches.</p>
 
     <h2 id="growing-out">Growing Out a Healthy Parrot Fish</h2>
     <ol>
@@ -897,7 +905,7 @@ SIZE = {
         ("/guides/parrot-fish-care/tank-size/", "Parrot Fish Tank Size"),
         ("/guides/parrot-fish-care/lifespan/", "Parrot Fish Lifespan"),
         ("/guides/parrot-fish-care/food/", "Best Food for Parrot Fish"),
-        ("/tools/tank-size-calculator/", "Tank Size Calculator"),
+        ("/tools/aquarium-size-calculator/", "Tank Size Calculator"),
     ],
 }
 
@@ -1095,7 +1103,7 @@ TYPES = {
     "related": [
         ("/guides/parrot-fish-care/", "Parrot Fish Care Guide"),
         ("/guides/parrot-fish-care/food/", "Feeding for Colour"),
-        ("/wiki/blood-parrot-cichlid/", "Blood Parrot Species Profile"),
+        ("/species/blood-parrot-cichlid", "Blood Parrot Species Profile"),
         ("/guides/blue-tang-care-guide/", "Blue Tang Care Guide"),
     ],
 }

@@ -77,17 +77,17 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
 @media(max-width:600px){.guide-links{grid-template-columns:1fr}}
 .sidebar{display:flex;flex-direction:column;gap:16px}
 .toc{background:rgba(255,255,255,.9);border-radius:16px;padding:18px;border:1px solid var(--bd);position:sticky;top:84px;box-shadow:0 4px 18px rgba(27,94,139,.07)}
-.toc h4{color:var(--pd);margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.toc .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
 .toc a{display:block;padding:5px 0 5px 10px;font-size:.82rem;color:var(--mu);border-left:2px solid transparent;transition:all .15s;line-height:1.4}
 .toc a:hover{color:var(--p);border-left-color:var(--p)}
 .cluster-nav{background:rgba(255,255,255,.9);border-radius:16px;padding:18px;border:1px solid var(--bd);box-shadow:0 4px 18px rgba(27,94,139,.07)}
-.cluster-nav h4{color:var(--pd);margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.cluster-nav .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
 .cluster-nav a{display:block;padding:6px 8px;font-size:.82rem;color:var(--mu);border-radius:6px;transition:all .12s;line-height:1.4;margin-bottom:2px}
 .cluster-nav a:hover{color:var(--p);background:rgba(27,94,139,.06)}
 .cluster-nav a.pillar{color:var(--pd);font-weight:700;border-bottom:1px solid var(--bd);padding-bottom:9px;margin-bottom:7px;display:block}
 .cluster-nav a.cur{color:var(--p);background:rgba(27,94,139,.07);font-weight:600}
 .tool-card{background:linear-gradient(135deg,rgba(27,94,139,.08),rgba(46,158,125,.06));border-radius:16px;padding:18px;border:1px solid var(--bd)}
-.tool-card h4{color:var(--pd);margin-bottom:10px;font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.tool-card .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:10px;font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
 .tool-card a{display:flex;align-items:center;justify-content:space-between;padding:9px 12px;border-radius:8px;font-size:.84rem;font-weight:600;margin-bottom:7px;background:#fff;border:1px solid var(--bd);color:var(--p);transition:all .15s}
 .tool-card a:hover{border-color:var(--p);box-shadow:0 3px 10px rgba(27,94,139,.1)}
 .ft{background:#0F3D5E;padding:32px 22px 20px;margin-top:60px}
@@ -113,6 +113,7 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
   </button>
 </nav>
 
+<main>
 <section class="guide-hero">
   <div class="con">
     <div class="breadcrumb">
@@ -188,7 +189,7 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
       <li>Test monthly even when everything looks fine &mdash; the point is to catch the problem before the fish shows it.</li>
     </ul>
 
-    <h2 id="faq">Frequently Asked Questions</h2>
+    <h2 id="faq">Parrot Fish Care FAQ</h2>
     <h3>Why does my blood parrot fish have black spots?</h3>
     <p>The most common cause is melanin left behind as ammonia or nitrite burns heal, which is why the marks often appear after a water quality problem has already passed. Stress marbling and natural calico genetics account for most of the rest.</p>
     <h3>Will black spots on my parrot fish go away?</h3>
@@ -206,7 +207,7 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
 
   <aside class="sidebar">
     <div class="cluster-nav">
-      <h4>Parrot Fish Care</h4>
+      <p class="sb-h">Parrot Fish Care</p>
       <a href="/guides/parrot-fish-care/" class="pillar">🐟 Parrot Fish Care Guide</a>
       <a href="/guides/parrot-fish-care/tank-size/" class="">🗃️ Tank Size & Setup</a>
       <a href="/guides/parrot-fish-care/water-parameters/" class="">🌡️ Water & Temperature</a>
@@ -217,26 +218,27 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
       <a href="/guides/parrot-fish-care/tank-mates/" class="">🐠 Tank Mates</a>
       <a href="/guides/parrot-fish-care/breeding/" class="">🥚 Breeding & Babies</a>
       <a href="/guides/parrot-fish-care/black-spots/" class="cur">⚫ Black Spots</a>
-      <a href="/wiki/blood-parrot-cichlid/" class="">📖 Species Profile</a>
+      <a href="/species/blood-parrot-cichlid" class="">📖 Species Profile</a>
     </div>
     <div class="toc">
-      <h4>On this page</h4>
-      <a href="#causes">Causes Ranked</a>
-      <a href="#ammonia">Ammonia Burn</a>
-      <a href="#stress">Stress & Genetics</a>
-      <a href="#disease">Black Spot Disease</a>
-      <a href="#diagnose">Diagnostic Walkthrough</a>
-      <a href="#prevent">Prevention</a>
-      <a href="#faq">FAQ</a>
+      <p class="sb-h">On this page</p>
+      <a href="/guides/parrot-fish-care/black-spots/#causes">Causes Ranked</a>
+      <a href="/guides/parrot-fish-care/black-spots/#ammonia">Ammonia Burn</a>
+      <a href="/guides/parrot-fish-care/black-spots/#stress">Stress & Genetics</a>
+      <a href="/guides/parrot-fish-care/black-spots/#disease">Black Spot Disease</a>
+      <a href="/guides/parrot-fish-care/black-spots/#diagnose">Diagnostic Walkthrough</a>
+      <a href="/guides/parrot-fish-care/black-spots/#prevent">Prevention</a>
+      <a href="/guides/parrot-fish-care/black-spots/#faq">FAQ</a>
     </div>
     <div class="tool-card">
-      <h4>Parrot Fish Tools</h4>
+      <p class="sb-h">Parrot Fish Tools</p>
       <a href="/tools/aquarium-size-calculator/">Tank Size Calculator <span>&rarr;</span></a>
       <a href="/tools/water-parameter-checker/">Water Parameter Checker <span>&rarr;</span></a>
       <a href="/tools/fish-compatibility-checker/">Compatibility Checker <span>&rarr;</span></a>
     </div>
   </aside>
 </div>
+</main>
 
 <footer class="ft">
   <div class="con"><div class="ftb">&copy; 2026 FishCare AI. Practical freshwater fish care guides and tools.</div></div>
