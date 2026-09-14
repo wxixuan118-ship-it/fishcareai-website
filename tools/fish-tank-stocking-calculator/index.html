@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en" data-adsense-content="true">
+<head>
+<meta charset="UTF-8"/>
+<meta name="apple-itunes-app" content="app-id=6793299571">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<base href="/">
+<title>Fish Tank Stocking Calculator – How Many Fish Per Gallon</title>
+<meta name="description" content="Free fish tank stocking calculator. Add your fish and tank size to see how heavily your aquarium is stocked, with adult size, bioload and minimum tank checks."/>
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"/>
+<link rel="canonical" href="https://www.fishcareai.com/tools/fish-tank-stocking-calculator/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Fish Tank Stocking Calculator – How Many Fish Per Gallon"/>
+<meta property="og:description" content="Add your fish and tank volume to see how heavily your aquarium is stocked, with adult-size and bioload adjustments, minimum tank and school-size checks."/>
+<meta property="og:url" content="https://www.fishcareai.com/tools/fish-tank-stocking-calculator/"/>
+<meta property="og:image" content="https://www.fishcareai.com/assets/tool-cards/fish-tank-stocking-tool-card.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Fish Tank Stocking Calculator – How Many Fish Per Gallon"/>
+<meta name="twitter:description" content="Add your fish and tank volume to see how heavily your aquarium is stocked, with adult-size and bioload adjustments, minimum tank and school-size checks."/>
+<meta name="twitter:image" content="https://www.fishcareai.com/assets/tool-cards/fish-tank-stocking-tool-card.png"/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Fish Tank Stocking Calculator",
+  "url": "https://www.fishcareai.com/tools/fish-tank-stocking-calculator/",
+  "applicationCategory": "UtilityApplication",
+  "operatingSystem": "Any",
+  "browserRequirements": "Requires JavaScript",
+  "description": "Free fish tank stocking calculator that works out how heavily an aquarium is stocked from its volume, the species and number of fish added, and the filtration installed. Uses adult size and bioload per species rather than the one inch per gallon rule, and flags fish that need a larger tank or a bigger group.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "featureList": [
+    "Stocking level as a percentage of tank capacity",
+    "40 common aquarium species with adult size and bioload",
+    "Adjusts for filtration and live plants",
+    "US gallons, imperial gallons or litres",
+    "Minimum tank size and school size warnings",
+    "One inch per gallon cross-check",
+    "Fish tank stocking chart by tank size"
+  ],
+  "image": [
+    "https://www.fishcareai.com/assets/tool-cards/fish-tank-stocking-tool-card.png",
+    "https://www.fishcareai.com/assets/tool-cards/fish-tank-stocking-tool-card-square.png"
+  ],
+  "screenshot": "https://www.fishcareai.com/assets/tool-cards/fish-tank-stocking-tool-card.png"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How many fish per gallon can I keep?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no single number, because a neon tetra and a goldfish are not the same fish. As a planning figure, small slim-bodied community fish under 2 inches work out at roughly one fish per gallon, medium fish of 3 to 4 inches at one per 3 to 5 gallons, and heavy-bodied fish such as fancy goldfish at one per 10 to 12 gallons. This calculator assigns each species a gallons-per-fish figure based on its adult size and waste output, then compares the total against your tank."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many fish can I put in a 10 gallon tank?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Around eight small schooling fish such as neon tetras, ember tetras or chili rasboras, or a single betta with six small rasboras, or six pygmy corydoras with a small school of tetras. A 10 gallon tank is too small for goldfish, angelfish, most gouramis larger than a honey gourami, and any fish that reaches 4 inches. Stock it in two or three stages a few weeks apart so the filter can catch up."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many fish in a 20 gallon tank?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A well stocked 20 gallon community tank is typically one school of eight to ten small tetras or rasboras plus a group of six corydoras, or a centrepiece fish such as a dwarf gourami with a school of ten small fish. A 20 gallon long is a better shape than a 20 gallon high for the same volume, because the extra floor space gives bottom dwellers and schooling fish more room to move."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the one inch per gallon rule accurate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only for small, slim fish in a tank with ordinary filtration. It undercounts the waste of deep-bodied fish — a 6 inch fancy goldfish produces many times the waste of four 1.5 inch tetras — and it ignores swimming room, so it would allow a 10 inch oscar in a 10 gallon tank. This calculator uses adult size and a bioload factor per species instead, and shows the plain inch-per-gallon figure alongside so you can see where the two disagree."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a bigger filter let me keep more fish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Up to a point. An oversized canister filter or sump processes more ammonia and nitrite, and live plants take up some of the nitrogen the fish produce, so a heavily filtered and planted tank can carry around 20 to 30 percent more than the same tank on a small sponge filter. What filtration cannot change is swimming space and territory, which is why the calculator also checks each species against a minimum tank size that no filter overrides."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if my fish tank is overstocked?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The clearest signs are nitrate that climbs quickly between water changes, ammonia or nitrite that will not stay at zero on a mature filter, fish gasping at the surface in the morning, algae you cannot get on top of, and more frequent disease outbreaks. If your stocking level here comes out above 100 percent and you are seeing any of those, the fix is fewer fish or a larger tank rather than more chemicals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do shrimp and snails count toward stocking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Barely. Dwarf shrimp and nerite snails produce very little waste, and a colony of cherry shrimp adds less bioload than a single small tetra. Larger snails such as mystery snails and apple snails do count, roughly as a small fish each. The calculator includes common invertebrates with a low load figure so a planted shrimp tank comes out realistically rather than showing as empty."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many goldfish per gallon?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The usual guideline is 20 gallons for the first fancy goldfish and 10 gallons for each additional one, so two fancies in a 30 gallon tank or three in a 40. Single-tail goldfish such as commons and comets grow to 12 inches and are pond fish in practice — plan on 75 gallons or more for a small group. Goldfish are the clearest example of why the inch-per-gallon rule fails: they are heavy-bodied, messy and long-lived."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.fishcareai.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Tools",
+      "item": "https://www.fishcareai.com/tools/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Fish Tank Stocking Calculator",
+      "item": "https://www.fishcareai.com/tools/fish-tank-stocking-calculator/"
+    }
+  ]
+}
+</script>
+
+<style>
+:root{--p:#1687C7;--pl:#46B6E8;--pd:#0F3D6E;--s:#18A999;--a:#0F3D6E;--ad:#08294C;--bg:#04111D;--tx:#EAFBFF;--mu:rgba(220,246,255,.72);--bd:rgba(255,255,255,.12);--ok:#27AE60;--wn:#F39C12;--er:#E74C3C;--water:#D9F4FF;--foam:#F7FCFF}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,'Segoe UI',Arial,sans-serif;background:linear-gradient(180deg,#04111D,#071C2F,#04111D);color:var(--tx);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--p);text-decoration:none}
+button{cursor:pointer;font-family:inherit}
+input,select{font-family:inherit}
+.hide{display:none!important}
+.con{max-width:1180px;margin:0 auto;padding:0 22px}
+h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:800;line-height:1.2}
+h2{font-size:clamp(1.3rem,3vw,2rem);font-weight:700;line-height:1.25}
+h3{font-size:1.15rem;font-weight:700}
+h4{font-size:1rem;font-weight:700}
+p{margin-bottom:.85rem;color:var(--mu)}
+p:last-child{margin-bottom:0}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:10px 20px;border-radius:999px;font-size:.9rem;font-weight:700;border:none;cursor:pointer;transition:all .18s;white-space:nowrap;box-shadow:0 10px 24px rgba(15,61,110,.12)}
+.bp{background:linear-gradient(135deg,var(--pd),#155C98);color:#fff}.bp:hover{background:linear-gradient(135deg,#08294C,var(--pd));transform:translateY(-1px);box-shadow:0 14px 28px rgba(15,61,110,.2)}
+.bo{background:rgba(255,255,255,.08);color:#EAFBFF;border:1.5px solid rgba(125,235,255,.4)}.bo:hover{background:rgba(125,235,255,.16);border-color:#7DEBFF}
+.bsm{padding:7px 14px;font-size:.82rem}
+.blg{padding:13px 28px;font-size:.97rem;border-radius:10px}
+.sec{padding:64px 0;position:relative}
+.sec-w{background:rgba(255,255,255,.03)}
+.sh{text-align:center;margin-bottom:38px}
+.sh h2{color:#fff;margin-bottom:10px}
+.sh p{max-width:620px;margin:0 auto;font-size:1rem}
+.tag{display:inline-block;background:rgba(22,135,199,.12);color:var(--pd);padding:4px 12px;border-radius:999px;font-size:.73rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px;border:1px solid rgba(22,135,199,.12)}
+.g2{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media(max-width:900px){.g3{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.g3,.g2{grid-template-columns:1fr}.con{padding:0 14px}}
+.card{background:rgba(255,255,255,.06);border-radius:22px;box-shadow:0 16px 42px rgba(0,0,0,.3);border:1px solid rgba(255,255,255,.1);transition:box-shadow .22s,transform .22s,border-color .22s;overflow:hidden;backdrop-filter:blur(14px)}
+.card:hover{box-shadow:0 22px 52px rgba(0,0,0,.4);transform:translateY(-4px);border-color:rgba(22,135,199,.4)}
+input.fc,select.fc{width:100%;padding:9px 13px;border:1.5px solid rgba(255,255,255,.15);border-radius:8px;font-size:.95rem;background:rgba(255,255,255,.08);color:#EAFBFF;outline:none;transition:border-color .2s}
+select.fc option,select.fc optgroup{color:#123047;background:#fff}
+input.fc:focus,select.fc:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(22,135,199,.14)}
+input.fc[aria-invalid="true"]{border-color:#E9887E}
+.fg{margin-bottom:16px}
+.fg label{display:block;font-weight:600;margin-bottom:5px;font-size:.86rem}
+.fhint{color:rgba(220,246,255,.6);font-size:.76rem;margin-top:5px;display:block;line-height:1.45}
+.fld-err{color:#FFB3AA;font-size:.78rem;margin-top:5px;min-height:0;line-height:1.45}
+.fld-err:empty{display:none}
+/* 16px keeps iOS Safari from zooming the viewport when a field is focused. */
+@media(max-width:600px){input.fc,select.fc{font-size:16px}}
+/* NAVBAR */
+.nb{position:sticky;top:0;z-index:100;background:rgba(4,17,29,.92);backdrop-filter:blur(20px);border-bottom:1px solid rgba(255,255,255,.08);padding:0 22px;height:68px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 10px 30px rgba(0,0,0,.3)}
+.brand{display:flex;align-items:center;gap:8px;font-size:1.2rem;font-weight:800;color:var(--p);cursor:pointer;border:none;background:none;text-decoration:none}
+.nlinks{display:flex;align-items:center;gap:2px}
+.nl{padding:7px 13px;border-radius:999px;font-weight:600;font-size:.86rem;color:rgba(255,255,255,.7);cursor:pointer;border:none;background:none;transition:all .15s;text-decoration:none}
+.nl:hover,.nl.act{color:#fff;background:rgba(22,135,199,.2)}
+.hbg{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:7px;border:none;background:none}
+.hbg span{display:block;width:21px;height:2px;background:rgba(255,255,255,.8);border-radius:2px}
+@media(max-width:760px){.nlinks{display:none;position:absolute;top:64px;left:0;right:0;background:rgba(4,17,29,.97);flex-direction:column;padding:12px;border-bottom:1px solid rgba(255,255,255,.08);gap:3px;box-shadow:0 4px 20px rgba(0,0,0,.4)}.nlinks.open{display:flex}.hbg{display:flex}}
+/* TOOL TABS ROW */
+.tool-nav{position:sticky;top:62px;z-index:98;background:#071827;border-bottom:1px solid rgba(255,255,255,.08);padding:10px 22px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.tnav-btn{display:inline-flex;align-items:center;gap:5px;padding:7px 15px;border-radius:999px;font-size:.83rem;font-weight:600;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);color:rgba(255,255,255,.65);transition:all .18s;text-decoration:none;white-space:nowrap}
+.tnav-btn:hover{color:#fff;background:rgba(22,135,199,.22);border-color:rgba(22,135,199,.5)}
+.tnav-btn.active{color:#fff;background:rgba(22,135,199,.28);border-color:#1687C7;font-weight:700}
+@media(max-width:600px){.tool-nav{gap:6px;padding:8px 14px}.tnav-btn{font-size:.76rem;padding:5px 10px}}
+/* HERO */
+.phero{background:linear-gradient(135deg,#0F3D5E,#1B5E8B);padding:34px 22px 44px;text-align:center;position:relative;overflow:hidden}
+.phero::before{content:'';position:absolute;inset:0;opacity:.15;background-image:radial-gradient(circle at 20% 30%,rgba(255,255,255,.7) 0 1px,transparent 2px),radial-gradient(circle at 75% 20%,rgba(125,217,255,.55) 0 1px,transparent 2px);background-size:44px 44px,68px 68px}
+.phero-inner{position:relative;z-index:1;max-width:760px;margin:0 auto}
+.phero-inner h1{color:#fff;margin-bottom:14px}
+.phero-inner h1 span{color:#9DEBFF}
+.phero-inner > p{color:rgba(255,255,255,.88);font-size:1.05rem;margin-bottom:22px;max-width:660px;margin-left:auto;margin-right:auto}
+.phero-badges{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:4px}
+.phero-badge{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:999px;color:rgba(255,255,255,.9);font-size:.8rem;font-weight:600;padding:6px 14px}
+/* BREADCRUMB */
+.breadcrumb{margin-bottom:16px}
+.breadcrumb ol{list-style:none;display:flex;flex-wrap:wrap;justify-content:center;gap:4px;font-size:.8rem;color:rgba(255,255,255,.6)}
+.breadcrumb li+li::before{content:'/';margin-right:4px;color:rgba(255,255,255,.4)}
+.breadcrumb a{color:rgba(255,255,255,.75);transition:color .2s}
+.breadcrumb a:hover{color:#fff}
+.breadcrumb li[aria-current]{color:rgba(255,255,255,.92)}
+/* CALCULATOR */
+.calc-wrap{background:linear-gradient(180deg,#0A2540 0%,#0d3060 100%);padding:34px 0 48px}
+.calc-con{max-width:1100px;margin:0 auto;padding:0 22px}
+.cg{display:grid;grid-template-columns:1fr 1.15fr;gap:24px;align-items:start}
+@media(max-width:820px){.cg{grid-template-columns:1fr}}
+.calc-box{background:rgba(255,255,255,.06);border-radius:18px;padding:26px;border:1px solid rgba(255,255,255,.12);backdrop-filter:blur(12px)}
+.calc-heading{color:#fff;margin-bottom:6px;font-size:clamp(1.1rem,2.5vw,1.45rem);font-weight:700}
+.calc-sub{color:rgba(255,255,255,.75);font-size:.9rem;margin-bottom:22px}
+fieldset{border:none;padding:0;margin:0}
+legend{font-weight:600;font-size:.86rem;margin-bottom:6px;color:#fff}
+.dim-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:420px){.dim-row{grid-template-columns:1fr}}
+.calc-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+.calc-actions .btn{flex:1 1 auto;justify-content:center}
+/* FISH LIST */
+.add-row{display:grid;grid-template-columns:1fr 84px auto;gap:10px;align-items:end}
+@media(max-width:420px){.add-row{grid-template-columns:1fr 84px}.add-row .btn{grid-column:1 / -1}}
+.add-row .fg{margin-bottom:0}
+.fish-list{list-style:none;margin:14px 0 4px;border-top:1px solid rgba(125,235,255,.18)}
+.fish-row{display:grid;grid-template-columns:1fr 78px 34px;gap:10px;align-items:center;padding:9px 0;border-bottom:1px solid rgba(125,235,255,.12)}
+.fish-row .fr-name{font-size:.9rem;font-weight:600;color:#fff;line-height:1.3}
+.fish-row .fr-meta{display:block;font-size:.72rem;color:rgba(220,246,255,.55);font-weight:500}
+.fish-row input.fc{padding:6px 9px;font-size:.9rem;text-align:center}
+.fr-del{width:32px;height:32px;border-radius:50%;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);color:rgba(255,255,255,.75);font-size:1.05rem;line-height:1;transition:all .15s}
+.fr-del:hover{background:rgba(231,76,60,.28);border-color:#E9887E;color:#fff}
+.fish-empty{padding:14px 0;font-size:.84rem;color:rgba(220,246,255,.6)}
+.fish-empty:empty{display:none}
+/* RESULT PANEL */
+.res-panel{background:linear-gradient(150deg,rgba(22,135,199,.22),rgba(24,169,153,.16));border:1px solid rgba(125,235,255,.28);border-radius:18px;padding:28px 26px;backdrop-filter:blur(12px);min-height:100%}
+.res-eyebrow{font-size:.78rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:rgba(157,235,255,.95);margin-bottom:10px}
+.res-weight{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;line-height:1.05}
+.res-lb{font-size:clamp(2.4rem,7vw,3.4rem);font-weight:800;color:#fff;letter-spacing:-.02em}
+.res-kg{font-size:clamp(1.2rem,3.5vw,1.6rem);font-weight:700;color:rgba(157,235,255,.95)}
+.res-of{font-size:1rem;color:rgba(255,255,255,.85);margin-top:6px;font-weight:600}
+.res-meter{margin-top:16px;height:12px;border-radius:999px;background:rgba(4,17,29,.5);border:1px solid rgba(125,235,255,.2);overflow:hidden;position:relative}
+.res-meter span{display:block;height:100%;border-radius:999px;transition:width .3s}
+.res-meter[data-band="light"] span{background:linear-gradient(90deg,#18A999,#46B6E8)}
+.res-meter[data-band="well"] span{background:linear-gradient(90deg,#27AE60,#18A999)}
+.res-meter[data-band="full"] span{background:linear-gradient(90deg,#F39C12,#F5B041)}
+.res-meter[data-band="heavy"] span{background:linear-gradient(90deg,#E67E22,#E74C3C)}
+.res-meter[data-band="over"] span{background:linear-gradient(90deg,#E74C3C,#C0392B)}
+.res-meter-scale{display:flex;justify-content:space-between;font-size:.7rem;color:rgba(220,246,255,.55);margin-top:4px}
+.res-stats{margin-top:20px;border-top:1px solid rgba(125,235,255,.2);padding-top:14px}
+.res-row{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-bottom:1px solid rgba(125,235,255,.1);font-size:.87rem}
+.res-row:last-child{border-bottom:none}
+.res-row dt{color:rgba(234,251,255,.75)}
+.res-row dd{color:#fff;font-weight:700;text-align:right}
+.res-buy{margin-top:18px;background:rgba(4,17,29,.4);border:1px solid rgba(125,235,255,.22);border-radius:12px;padding:14px 16px}
+.res-buy .rb-label{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:rgba(157,235,255,.9)}
+.res-buy .rb-val{font-size:1.5rem;font-weight:800;color:#fff;margin:2px 0 6px}
+.res-buy p{font-size:.79rem;color:rgba(234,251,255,.7);margin:0;line-height:1.5}
+.res-sentence{margin-top:16px;font-size:.9rem;color:rgba(234,251,255,.9);line-height:1.6}
+.res-warn{margin-top:16px;list-style:none}
+.res-warn li{position:relative;padding:8px 0 8px 26px;font-size:.86rem;color:rgba(255,229,214,.95);line-height:1.5;border-top:1px solid rgba(255,255,255,.08)}
+.res-warn li::before{content:'⚠';position:absolute;left:0;top:8px;color:#F5B041}
+.res-error{background:rgba(231,76,60,.12);border:1px solid rgba(233,136,126,.5);border-radius:14px;padding:22px}
+.res-error h3{color:#FFD6D1;margin-bottom:8px;font-size:1rem}
+.res-error ul{margin:0;padding-left:18px}
+.res-error li{color:rgba(255,214,209,.9);font-size:.86rem;margin-bottom:4px}
+/* PRESETS */
+.preset-block{margin-top:24px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:22px 24px}
+.preset-block h2{color:#fff;font-size:1.05rem;margin-bottom:6px}
+.preset-block > p{font-size:.84rem;margin-bottom:14px}
+.preset-grid{display:flex;flex-wrap:wrap;gap:8px}
+.preset-btn{background:rgba(255,255,255,.07);border:1px solid rgba(125,235,255,.25);color:#EAFBFF;border-radius:999px;padding:8px 14px;font-size:.82rem;font-weight:600;transition:all .18s;line-height:1.2}
+.preset-btn:hover{background:rgba(22,135,199,.3);border-color:#7DEBFF}
+.preset-btn small{display:block;font-size:.7rem;color:rgba(234,251,255,.6);font-weight:500}
+.preset-btn[aria-pressed="true"]{background:rgba(22,135,199,.45);border-color:#7DEBFF;color:#fff}
+/* HOW IT WORKS */
+.hw-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:16px}
+@media(max-width:900px){.hw-steps{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.hw-steps{grid-template-columns:1fr}}
+.hw-step{background:rgba(255,255,255,.06);border-radius:18px;padding:24px 20px;border:1px solid rgba(255,255,255,.1);backdrop-filter:blur(10px);text-align:center}
+.hw-num{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--pd),var(--p));color:#fff;font-size:1.05rem;font-weight:800;display:flex;align-items:center;justify-content:center;margin:0 auto 12px}
+.hw-step h3{color:#fff;margin-bottom:8px;font-size:1rem}
+.hw-step p{font-size:.85rem;margin:0}
+/* CONTENT CARDS */
+.tc{padding:24px;display:flex;flex-direction:column;gap:10px}
+.tc h3{color:#fff}
+.tc p{font-size:.88rem}
+.prose{max-width:860px;margin:0 auto}
+.prose p{font-size:.94rem}
+.prose h3{color:#fff;margin:20px 0 8px;font-size:1.02rem}
+.prose ul{margin:0 0 14px 20px}
+.prose li{color:var(--mu);font-size:.92rem;margin-bottom:6px}
+/* TABLES */
+.ptbl{width:100%;border-collapse:collapse;margin:16px 0;font-size:.86rem;background:rgba(4,17,29,.4);border-radius:12px;overflow:hidden}
+.ptbl caption{caption-side:top;text-align:left;font-size:.82rem;color:rgba(220,246,255,.6);padding-bottom:8px}
+.ptbl th{background:linear-gradient(135deg,var(--pd),var(--p));color:#fff;padding:10px 12px;text-align:left;font-weight:700;white-space:nowrap}
+.ptbl td{padding:10px 12px;border-bottom:1px solid rgba(125,235,255,.14);color:var(--mu);vertical-align:top}
+.ptbl tbody tr:last-child td{border-bottom:none}
+.ptbl tbody tr:nth-child(even) td{background:rgba(255,255,255,.03)}
+.tbl-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
+/* FORMULA */
+.formula{background:rgba(4,17,29,.5);border:1px solid rgba(125,235,255,.22);border-left:4px solid var(--p);border-radius:10px;padding:16px 18px;margin:14px 0;font-size:.92rem;color:#EAFBFF;line-height:1.8;overflow-x:auto}
+.formula code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.88rem;color:#9DEBFF;white-space:nowrap}
+/* FAQ */
+.faq-item{border-bottom:1px solid rgba(255,255,255,.1)}
+.faq-q{width:100%;background:none;border:none;text-align:left;padding:16px 0;font-size:.95rem;font-weight:700;color:#fff;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.faq-q:hover{color:#46B6E8}
+.faq-arrow{font-size:1.1rem;transition:transform .22s;flex-shrink:0}
+.faq-a{font-size:.9rem;color:rgba(220,246,255,.78);padding:0 0 16px;display:none;line-height:1.7}
+.faq-item.open .faq-a{display:block}
+.faq-item.open .faq-arrow{transform:rotate(180deg)}
+/* INTERNAL LINKS */
+.int-links-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+@media(max-width:900px){.int-links-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:440px){.int-links-grid{grid-template-columns:1fr}}
+.int-link-card{display:block;background:rgba(255,255,255,.06);border-radius:14px;border:1px solid rgba(255,255,255,.1);padding:18px;text-decoration:none;transition:all .2s;color:inherit;backdrop-filter:blur(8px)}
+.int-link-card:hover{box-shadow:0 10px 28px rgba(0,0,0,.3);transform:translateY(-3px);border-color:rgba(22,135,199,.4)}
+.int-link-card .il-icon{font-size:1.5rem;margin-bottom:6px}
+.int-link-card h3{color:#fff;font-size:.94rem;margin-bottom:4px}
+.int-link-card p{font-size:.8rem;color:rgba(220,246,255,.65);margin:0}
+/* METHODOLOGY */
+.method{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:22px 24px;max-width:860px;margin:0 auto}
+.method h2{color:#fff;font-size:1.05rem;margin-bottom:10px}
+.method p{font-size:.86rem}
+/* INFO FIGURES */
+.info-fig{margin:22px auto 0;max-width:900px}
+.fig-scroll{max-width:100%}
+.info-fig img{display:block;width:100%;height:auto;border-radius:14px}
+.info-fig figcaption{padding:12px 4px 0;font-size:.84rem;line-height:1.6;color:rgba(220,246,255,.72)}
+.info-fig figcaption a{text-decoration:underline}
+/* Below ~700px the 900px artwork scales past legibility, so pan it like the wide tables. */
+@media(max-width:700px){.info-fig{max-width:calc(100vw - 40px)}.fig-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}.info-fig img{min-width:660px}}
+/* FOOTER */
+.ft{background:linear-gradient(180deg,#08294C,#0F3D6E);color:rgba(255,255,255,.75);padding:56px 0 32px}
+.ftg{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:32px;margin-bottom:36px}
+@media(max-width:900px){.ftg{grid-template-columns:1fr 1fr}}
+@media(max-width:500px){.ftg{grid-template-columns:1fr}}
+.ftbr p{font-size:.84rem;margin-top:12px;color:rgba(255,255,255,.6)}
+.ftcol h3,.ftcol h5{color:#fff;font-size:.84rem;margin-bottom:12px;font-weight:700}
+.ftcol a{display:block;font-size:.82rem;color:rgba(255,255,255,.6);margin-bottom:7px;transition:color .15s}
+.ftcol a:hover{color:#fff}
+.ftb{font-size:.78rem;color:rgba(255,255,255,.4);text-align:center;padding-top:24px;border-top:1px solid rgba(255,255,255,.08)}
+.legal-links{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;padding:14px 22px;font-size:.78rem}
+.legal-links a{color:rgba(255,255,255,.45)}
+.legal-links a:hover{color:rgba(255,255,255,.8)}
+</style>
+<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260823-screenshot"/>
+<meta name="google-adsense-account" content="ca-pub-6697313643773879"/>
+<script defer src="/assets/site-compliance.js?v=20260824-dark-fix"></script>
+<script defer src="/assets/tool-related-recommendations.js?v=20260914-stocking"></script>
+</head>
+<body class="tools-dark-page">
+
+<!-- NAVBAR -->
+<nav class="nb" id="navbar">
+  <a title="FishCare AI" class="brand" href="/"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"/></a>
+  <div class="nlinks" id="nlinks">
+    <a title="Home" class="nl" href="/">Home</a>
+    <a title="Guides" class="nl" href="/guides/">Guides</a>
+    <a title="Aquarium Encyclopedia" class="nl" href="/species">Encyclopedia</a>
+    <a title="Fish Health" class="nl" href="/fish-health/">Fish Health</a>
+    <a title="Tools" class="nl act" href="/tools/">Tools</a>
+    <a title="About Us" class="nl" href="/about/">About Us</a>
+  </div>
+  <button class="hbg" type="button" onclick="document.getElementById('nlinks').classList.toggle('open')" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+</nav>
+<nav class="tool-nav" aria-label="Tool navigation">
+  <a href="/tools/aquarium-size-calculator/" class="tnav-btn">📐 Size Calc</a>
+  <a href="/tools/fish-tank-stocking-calculator/" class="tnav-btn active" aria-current="page">🐠 Stocking</a>
+  <a href="/tools/fish-compatibility-checker/" class="tnav-btn">🔬 Compatibility</a>
+  <a href="/tools/water-parameter-checker/" class="tnav-btn">💧 Water Test</a>
+  <a href="/tools/fish-feeding-calculator/" class="tnav-btn">🍽 Feeding</a>
+  <a href="/tools/aquarium-planner/" class="tnav-btn">🧭 Planner</a>
+  <a href="/tools/aquarium-equipment-calculator/" class="tnav-btn">⚙️ Equipment</a>
+  <a href="/tools/aquarium-substrate-calculator/" class="tnav-btn">🪨 Substrate</a>
+</nav>
+
+<!-- HERO -->
+<section class="phero">
+  <div class="phero-inner">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><a href="/tools/">Tools</a></li>
+        <li aria-current="page">Fish Tank Stocking Calculator</li>
+      </ol>
+    </nav>
+    <h1>Fish Tank Stocking Calculator</h1>
+    <p>Find out how heavily your aquarium is stocked before you add another fish. Enter your tank volume, add the fish you keep or plan to keep, and this fish tank stocking calculator scores the tank on adult size and waste output — not the one inch per gallon rule.</p>
+    <div class="phero-badges">
+      <span class="phero-badge">40 common species</span>
+      <span class="phero-badge">Adult size &amp; bioload</span>
+      <span class="phero-badge">Filtration-adjusted</span>
+      <span class="phero-badge">Always free</span>
+    </div>
+  </div>
+</section>
+
+<!-- CALCULATOR -->
+<div class="calc-wrap">
+  <div class="calc-con">
+    <h2 class="calc-heading">🐠 Aquarium Stocking Calculator</h2>
+    <p class="calc-sub">Results update as you add fish. Every species is scored at its adult size, because that is the size your filter will be dealing with in a year. The same method works as a fish tank stocking calculator for a 5 gallon betta tank or a 125 gallon cichlid tank.</p>
+
+    <div class="cg">
+      <!-- INPUTS -->
+      <form class="calc-box" id="stock-form" novalidate>
+        <div class="dim-row">
+          <div class="fg">
+            <label for="stock-volume">Tank volume</label>
+            <input class="fc" id="stock-volume" name="stock-volume" type="number" inputmode="decimal" min="0" step="any" value="20" aria-describedby="err-volume">
+            <p class="fld-err" id="err-volume"></p>
+          </div>
+          <div class="fg">
+            <label for="stock-unit">Volume unit</label>
+            <select class="fc" id="stock-unit" name="stock-unit">
+              <option value="usgal" selected>US gallons</option>
+              <option value="impgal">Imperial (UK) gallons</option>
+              <option value="litres">Litres</option>
+            </select>
+          </div>
+        </div>
+        <span class="fhint" style="margin-top:-8px;margin-bottom:16px">Use the actual water volume if you know it. Substrate and decor usually displace 10 to 15 percent of the figure on the box — the <a href="/tools/aquarium-size-calculator/">tank size calculator</a> works it out from the dimensions.</span>
+
+        <div class="fg">
+          <label for="stock-filter">Filtration</label>
+          <select class="fc" id="stock-filter" name="stock-filter">
+            <option value="basic">Basic — small sponge or internal filter, or a hang-on-back below the tank's rating</option>
+            <option value="good" selected>Good — hang-on-back or canister rated for the tank, cycled and maintained</option>
+            <option value="advanced">Advanced — oversized canister or sump, 8× or more turnover per hour</option>
+          </select>
+          <span class="fhint">Filtration decides how much waste the tank can process, not how much room the fish have. The calculator adjusts capacity by about 15 percent either side of a correctly rated filter.</span>
+        </div>
+
+        <div class="fg">
+          <label for="stock-plants">Live plants</label>
+          <select class="fc" id="stock-plants" name="stock-plants">
+            <option value="none" selected>None or a few</option>
+            <option value="some">Moderately planted</option>
+            <option value="heavy">Heavily planted — fast growers, floating plants</option>
+          </select>
+        </div>
+
+        <fieldset>
+          <legend>Fish in the tank</legend>
+          <div class="add-row">
+            <div class="fg">
+              <label for="stock-species">Species</label>
+              <select class="fc" id="stock-species" name="stock-species"></select>
+            </div>
+            <div class="fg">
+              <label for="stock-count">How many</label>
+              <input class="fc" id="stock-count" name="stock-count" type="number" inputmode="numeric" min="1" max="200" step="1" value="6">
+            </div>
+            <button type="button" class="btn bp" id="stock-add-btn">Add fish</button>
+          </div>
+          <ul class="fish-list" id="stock-list" aria-label="Fish added to the tank"></ul>
+          <p class="fish-empty" id="stock-empty"></p>
+        </fieldset>
+
+        <div class="calc-actions">
+          <button type="submit" class="btn bp blg" id="stock-calc-btn">Calculate Stocking →</button>
+          <button type="button" class="btn bo blg" id="stock-reset-btn">Reset</button>
+        </div>
+      </form>
+
+      <!-- RESULT -->
+      <div id="stock-result" role="status" aria-live="polite" tabindex="-1"></div>
+    </div>
+
+    <!-- QUICK PRESETS -->
+    <div class="preset-block">
+      <h2>Common tank sizes</h2>
+      <p>Jump straight to a standard aquarium size. These are US gallon figures for the tank as sold — switch the unit above if you work in litres.</p>
+      <div class="preset-grid" id="stock-presets"></div>
+    </div>
+  </div>
+</div>
+
+<!-- HOW TO USE -->
+<section class="sec sec-w">
+  <div class="con">
+    <div class="sh">
+      <div class="tag">How it works</div>
+      <h2>How to Use the Fish Tank Stocking Calculator</h2>
+      <p>Four inputs, one honest answer about whether the tank can carry the fish you want.</p>
+    </div>
+    <div class="hw-steps">
+      <div class="hw-step">
+        <div class="hw-num">1</div>
+        <h3>Enter tank volume</h3>
+        <p>Use the real water volume if you can. A "20 gallon" tank with gravel, rock and a filter intake holds around 17 gallons of water.</p>
+      </div>
+      <div class="hw-step">
+        <div class="hw-num">2</div>
+        <h3>Describe the filter</h3>
+        <p>Be honest. A cycled canister rated for the tank is "good". A sponge filter on a 40 gallon is "basic" no matter what the shop said.</p>
+      </div>
+      <div class="hw-step">
+        <div class="hw-num">3</div>
+        <h3>Add your fish</h3>
+        <p>Pick each species and how many. Include the fish already in the tank as well as the ones you are thinking of buying.</p>
+      </div>
+      <div class="hw-step">
+        <div class="hw-num">4</div>
+        <h3>Read the percentage</h3>
+        <p>Under 90 percent leaves room. Over 100 means the tank is full at adult size, whatever the fish look like today.</p>
+      </div>
+    </div>
+    <figure class="info-fig"><div class="fig-scroll"><img src="/assets/fish-tank-stocking-calculation-diagram.svg" alt="Fish tank stocking calculator principle diagram: two aquariums holding the same six inches of fish — four neon tetras at 4 gallons of load against one fancy goldfish at 12 — beside the four-step calculation worked for a 20 gallon tank: capacity 20 gallons of load, fish load 8 neon tetras plus 6 corydoras equals 17, stocking 85 percent, well stocked, then the minimum tank and group size checks and a stocking meter." width="900" height="560" loading="lazy" decoding="async"/></div><figcaption>How the calculation works. Left: why the tool scores each species by gallons of load rather than inches — the same six inches of fish can be three times the waste. Right: the four steps the calculator runs, worked for a 20 gallon tank with 8 neon tetras and 6 corydoras. <a href="/assets/fish-tank-stocking-calculation-diagram.svg" target="_blank" rel="noopener">Open full-size diagram</a>.</figcaption></figure>
+  </div>
+</section>
+
+<!-- HOW MANY FISH PER GALLON -->
+<section class="sec">
+  <div class="con">
+    <div class="prose">
+      <h2 style="color:#fff;margin-bottom:12px">How Many Fish Per Gallon?</h2>
+      <p>The rule everyone learns first is <strong>one inch of fish per gallon of water</strong>. It is easy to remember and it is roughly right for the fish it was written about — small, slim community fish like tetras, rasboras and guppies in a tank with an ordinary filter. Ten neon tetras in a 10 gallon tank is about where that rule lands, and it is a reasonable stocking level.</p>
+      <p>The rule breaks the moment the fish get bigger or heavier. A fancy goldfish at 6 inches has perhaps ten times the body mass of four 1.5 inch tetras, eats far more, and produces waste in proportion. The inch rule counts them the same. Worse, it says nothing about swimming room: one 10 inch oscar "fits" a 10 gallon tank by the arithmetic, and no oscar keeper would put one in anything under 75.</p>
+      <p>Stocking is really three separate limits:</p>
+      <ul>
+        <li><strong>Biological load.</strong> Ammonia and nitrite have to be processed as fast as the fish produce them. This is the limit that filtration and plants can move.</li>
+        <li><strong>Nitrate and water changes.</strong> The end product of the nitrogen cycle builds up between water changes in proportion to the bioload. More fish means bigger or more frequent changes.</li>
+        <li><strong>Physical space.</strong> Schooling fish need a length of tank to swim, bottom dwellers need floor area, and territorial fish need space to avoid each other. Nothing but a bigger tank moves this limit.</li>
+      </ul>
+      <p>This calculator handles the first two by giving every species a <strong>gallons-per-fish figure</strong> that reflects its adult size and how much waste it produces, then adjusts that for your filter and plants. It handles the third by checking each species against a minimum tank size that no amount of filtration overrides.</p>
+
+      <h3>Working figures by fish size</h3>
+      <p>If you want a quick planning number without the calculator, these are the gallons per fish the tool works from, for a tank with a correctly rated filter.</p>
+      <div class="tbl-scroll">
+        <table class="ptbl">
+          <caption>Approximate gallons of tank per adult fish, by body size and type, in a community tank with a filter rated for the volume.</caption>
+          <thead>
+            <tr><th>Type of fish</th><th>Adult size</th><th>Gallons per fish</th><th>Examples</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Nano schooling fish</td><td>Under 1 in</td><td>0.6 – 0.8</td><td>Chili rasbora, ember tetra, pygmy cory</td></tr>
+            <tr><td>Small schooling fish</td><td>1 – 2 in</td><td>1 – 1.5</td><td>Neon tetra, harlequin rasbora, guppy, zebra danio</td></tr>
+            <tr><td>Small centrepiece or bottom fish</td><td>2 – 3 in</td><td>2 – 3</td><td>Betta, platy, corydoras, German blue ram</td></tr>
+            <tr><td>Medium community fish</td><td>3 – 5 in</td><td>3 – 6</td><td>Molly, dwarf gourami, kribensis, rainbowfish</td></tr>
+            <tr><td>Large or heavy-bodied fish</td><td>5 – 7 in</td><td>8 – 12</td><td>Angelfish, discus, bristlenose pleco, fancy goldfish</td></tr>
+            <tr><td>Very large fish</td><td>10 in and over</td><td>40 – 60</td><td>Oscar, common goldfish, common pleco</td></tr>
+            <tr><td>Invertebrates</td><td>Any</td><td>0.15 – 1.5</td><td>Cherry shrimp, nerite snail, mystery snail</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 10 GALLON -->
+<section class="sec sec-w">
+  <div class="con">
+    <div class="prose">
+      <h2 style="color:#fff;margin-bottom:12px">How Many Fish in a 10 Gallon Tank?</h2>
+      <p>A 10 gallon tank comfortably holds <strong>one small school of eight nano or small fish</strong>, or a single centrepiece fish with a small school around it. It does not hold goldfish, angelfish, any gourami bigger than a honey gourami, or anything that reaches 4 inches, regardless of how small the fish are when you buy them.</p>
+      <div class="tbl-scroll">
+        <table class="ptbl">
+          <caption>Example stockings for a 10 US gallon (38 litre) tank with a correctly rated filter, scored by this calculator.</caption>
+          <thead>
+            <tr><th>Stocking</th><th>Stocking level</th><th>Notes</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>8 neon tetras</td><td>80%</td><td>The classic 10 gallon school. Room for a few shrimp or a nerite snail.</td></tr>
+            <tr><td>1 betta + 6 chili rasboras</td><td>66%</td><td>Works if the betta is placid. Add the rasboras first, the betta last.</td></tr>
+            <tr><td>6 male guppies</td><td>90%</td><td>Males only, or the fry will overstock the tank within months.</td></tr>
+            <tr><td>6 pygmy corydoras + 8 ember tetras</td><td>96%</td><td>Full. Both species stay under an inch, so it looks emptier than it is.</td></tr>
+            <tr><td>1 honey gourami + 8 ember tetras</td><td>73%</td><td>Calm centrepiece with a nano school. Heavy planting suits both.</td></tr>
+            <tr><td>1 fancy goldfish</td><td>120% — not suitable</td><td>Needs 20 gallons minimum. Goldfish are the most common 10 gallon mistake.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Whatever you choose, stock a 10 gallon in two stages a few weeks apart. Small volumes swing fast, and a newly cycled filter needs time to grow into a full load. If a fish on your list comes out as "needs a larger tank" here, the answer is a larger tank — the <a href="/tools/aquarium-size-calculator/">tank size calculator</a> will tell you how large.</p>
+    </div>
+  </div>
+</section>
+
+<!-- STOCKING CHART -->
+<section class="sec">
+  <div class="con">
+    <div class="prose">
+      <h2 style="color:#fff;margin-bottom:12px">Fish Tank Stocking Chart by Tank Size</h2>
+      <p>A well stocked example for each standard aquarium size, assuming a filter rated for the tank and a light to moderate amount of plants. Each of these lands between 80 and 96 percent on the calculator — full, with a little margin.</p>
+      <div class="tbl-scroll">
+        <table class="ptbl">
+          <caption>Example community stockings by tank size, scored between 80 and 96 percent by this calculator at "good" filtration.</caption>
+          <thead>
+            <tr><th>Tank size</th><th>Litres</th><th>Example stocking</th><th>Level</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>5 US gal</td><td>19</td><td>1 betta + a cherry shrimp colony</td><td>90%</td></tr>
+            <tr><td>10 US gal</td><td>38</td><td>8 neon tetras + 2 nerite snails</td><td>86%</td></tr>
+            <tr><td>20 US gal long</td><td>76</td><td>8 neon tetras + 6 bronze corydoras</td><td>85%</td></tr>
+            <tr><td>29 US gal</td><td>110</td><td>1 dwarf gourami + 10 harlequin rasboras + 6 corydoras</td><td>86%</td></tr>
+            <tr><td>40 US gal breeder</td><td>151</td><td>1 pearl gourami + 12 rummy nose tetras + 8 corydoras</td><td>90%</td></tr>
+            <tr><td>55 US gal</td><td>208</td><td>2 angelfish + 10 cardinal tetras + 8 corydoras + 1 bristlenose</td><td>96%</td></tr>
+            <tr><td>75 US gal</td><td>284</td><td>6 Boesemani rainbowfish + 12 cardinals + 8 corydoras + 1 bristlenose</td><td>88%</td></tr>
+            <tr><td>125 US gal</td><td>473</td><td>1 oscar + 1 common pleco</td><td>92%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Tank shape matters as much as volume, and a fish tank stocking calculator cannot see shape. A 20 gallon long has twice the floor space of a 20 gallon high and suits schooling fish and corydoras far better; a 40 gallon breeder is the best-shaped tank on this list for the money. These are ceilings for the layout shown, not shopping lists — every combination still needs checking for temperament and water chemistry in the <a href="/tools/fish-compatibility-checker/">fish compatibility checker</a>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- OVERSTOCKING -->
+<section class="sec sec-w">
+  <div class="con">
+    <div class="prose">
+      <h2 style="color:#fff;margin-bottom:12px">Signs Your Fish Tank Is Overstocked</h2>
+      <p>An overstocked aquarium rarely fails all at once. It shows up as a tank that is harder to keep stable than it should be.</p>
+      <ul>
+        <li><strong>Nitrate climbing fast between water changes.</strong> If a 25 percent weekly change no longer keeps nitrate under 20 to 40 ppm, the bioload has outgrown the routine.</li>
+        <li><strong>Ammonia or nitrite that will not stay at zero.</strong> A mature filter on a correctly stocked tank reads zero for both. Persistent traces mean the filter cannot keep up.</li>
+        <li><strong>Fish at the surface in the morning.</strong> Dissolved oxygen is lowest just before the lights come on. Gasping at dawn is the classic low-oxygen signature of a crowded tank.</li>
+        <li><strong>Algae you cannot get on top of.</strong> More fish means more dissolved nutrients, whatever the lighting schedule.</li>
+        <li><strong>Constant chasing and torn fins.</strong> Crowding removes the space fish use to avoid each other, so aggression that would be harmless in a bigger tank becomes constant.</li>
+        <li><strong>Recurring ich, fin rot and unexplained losses.</strong> Chronic stress suppresses the immune response and keeps parasites circulating.</li>
+      </ul>
+      <p>If you are seeing these, test first. The <a href="/tools/water-parameter-checker/">water parameter checker</a> will tell you whether ammonia, nitrite, nitrate or pH is the immediate problem, but if the readings keep drifting back after every water change, the fix is fewer fish or more water rather than more chemistry.</p>
+
+      <figure class="info-fig"><div class="fig-scroll"><img src="/assets/fish-tank-stocking-levels-bands.svg" alt="Fish tank stocking meter from 0 to over 150 percent in five bands — lightly, well, fully, heavily and overstocked — with the water change each needs and a 20 gallon example for each: 8 neon tetras at 40 percent, 8 neons and 6 corydoras at 85, plus a dwarf gourami at 105, 10 neons with corydoras and gourami at 115, and 8 neons, corydoras and an angelfish at 135 percent where the angelfish also fails the 29 gallon minimum tank." width="900" height="500" loading="lazy" decoding="async"/></div><figcaption>What each band of the result means, and how the same 20 gallon tank moves through them as fish are added. Well stocked is the target; anything over 100 percent is full at adult size. <a href="/assets/fish-tank-stocking-levels-bands.svg" target="_blank" rel="noopener">Open full-size diagram</a>.</figcaption></figure>
+
+      <h3>Stock in stages</h3>
+      <p>Even a tank that scores well here should not be filled in one afternoon. A cycled filter carries the bacteria for the load it was cycled with, and it takes a week or two to grow into a bigger one. Add a third to a half of the planned fish, wait two to three weeks, test, then add the next group. Schooling fish should be added as a complete group, so plan the stages around whole schools rather than splitting one.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec sec-w">
+  <div class="con">
+    <div class="sh">
+      <div class="tag">FAQ</div>
+      <h2>Frequently Asked Questions</h2>
+      <p>Stocking questions, answered with the numbers behind them.</p>
+    </div>
+    <div class="prose">
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">How many fish per gallon can I keep? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">There is no single number, because a neon tetra and a goldfish are not the same fish. As a planning figure, small slim-bodied community fish under 2 inches work out at roughly one fish per gallon, medium fish of 3 to 4 inches at one per 3 to 5 gallons, and heavy-bodied fish such as fancy goldfish at one per 10 to 12 gallons. This calculator assigns each species a gallons-per-fish figure based on its adult size and waste output, then compares the total against your tank.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">How many fish can I put in a 10 gallon tank? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">Around eight small schooling fish such as neon tetras, ember tetras or chili rasboras, or a single betta with six small rasboras, or six pygmy corydoras with a small school of tetras. A 10 gallon tank is too small for goldfish, angelfish, most gouramis larger than a honey gourami, and any fish that reaches 4 inches. Stock it in two or three stages a few weeks apart so the filter can catch up.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">How many fish in a 20 gallon tank? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">A well stocked 20 gallon community tank is typically one school of eight to ten small tetras or rasboras plus a group of six corydoras, or a centrepiece fish such as a dwarf gourami with a school of ten small fish. A 20 gallon long is a better shape than a 20 gallon high for the same volume, because the extra floor space gives bottom dwellers and schooling fish more room to move.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">Is the one inch per gallon rule accurate? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">Only for small, slim fish in a tank with ordinary filtration. It undercounts the waste of deep-bodied fish — a 6 inch fancy goldfish produces many times the waste of four 1.5 inch tetras — and it ignores swimming room, so it would allow a 10 inch oscar in a 10 gallon tank. This calculator uses adult size and a bioload factor per species instead, and shows the plain inch-per-gallon figure alongside so you can see where the two disagree.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">Does a bigger filter let me keep more fish? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">Up to a point. An oversized canister filter or sump processes more ammonia and nitrite, and live plants take up some of the nitrogen the fish produce, so a heavily filtered and planted tank can carry around 20 to 30 percent more than the same tank on a small sponge filter. What filtration cannot change is swimming space and territory, which is why the calculator also checks each species against a minimum tank size that no filter overrides.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">How do I know if my fish tank is overstocked? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">The clearest signs are nitrate that climbs quickly between water changes, ammonia or nitrite that will not stay at zero on a mature filter, fish gasping at the surface in the morning, algae you cannot get on top of, and more frequent disease outbreaks. If your stocking level here comes out above 100 percent and you are seeing any of those, the fix is fewer fish or a larger tank rather than more chemicals.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">Do shrimp and snails count toward stocking? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">Barely. Dwarf shrimp and nerite snails produce very little waste, and a colony of cherry shrimp adds less bioload than a single small tetra. Larger snails such as mystery snails and apple snails do count, roughly as a small fish each. The calculator includes common invertebrates with a low load figure so a planted shrimp tank comes out realistically rather than showing as empty.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false" onclick="toggleFaq(this)">How many goldfish per gallon? <span class="faq-arrow" aria-hidden="true">▾</span></button>
+        <div class="faq-a">The usual guideline is 20 gallons for the first fancy goldfish and 10 gallons for each additional one, so two fancies in a 30 gallon tank or three in a 40. Single-tail goldfish such as commons and comets grow to 12 inches and are pond fish in practice — plan on 75 gallons or more for a small group. Goldfish are the clearest example of why the inch-per-gallon rule fails: they are heavy-bodied, messy and long-lived.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RELATED TOOLS -->
+<section class="sec">
+  <div class="con">
+    <div class="sh">
+      <div class="tag">Free tools</div>
+      <h2>Related Aquarium Tools</h2>
+      <p>Stocking is one part of the plan. These cover the rest of the tank.</p>
+    </div>
+    <div class="int-links-grid">
+      <a class="int-link-card" href="/tools/aquarium-size-calculator/">
+        <div class="il-icon" aria-hidden="true">📐</div>
+        <h3>Fish Tank Size Calculator</h3>
+        <p>Work out the real water volume from your tank dimensions, after substrate and decor.</p>
+      </a>
+      <a class="int-link-card" href="/tools/fish-compatibility-checker/">
+        <div class="il-icon" aria-hidden="true">🔬</div>
+        <h3>Fish Compatibility Checker</h3>
+        <p>Check that the fish on your list get along — temperament, temperature and pH.</p>
+      </a>
+      <a class="int-link-card" href="/tools/fish-feeding-calculator/">
+        <div class="il-icon" aria-hidden="true">🍽</div>
+        <h3>Fish Feeding Calculator</h3>
+        <p>How much and how often to feed the stocking level you have settled on.</p>
+      </a>
+      <a class="int-link-card" href="/tools/water-parameter-checker/">
+        <div class="il-icon" aria-hidden="true">💧</div>
+        <h3>Water Parameter Checker</h3>
+        <p>Check whether the readings say your stocking level has outgrown the filter.</p>
+      </a>
+    </div>
+    <p style="max-width:860px;margin:22px auto 0;text-align:center;font-size:.9rem">Planning a pond rather than a tank? The <a href="/tools/koi-pond-stocking-calculator/">koi pond stocking calculator</a> uses pond-specific figures. For a full setup checklist from cycling to first fish, start with the <a href="/tools/aquarium-planner/">aquarium planner</a>, and the <a href="/guides/how-to-set-up-a-fish-tank/">tank setup guide</a> covers the order to do it in.</p>
+  </div>
+</section>
+
+<!-- METHODOLOGY -->
+<section class="sec sec-w">
+  <div class="con">
+    <div class="method">
+      <h2>Methodology and accuracy</h2>
+      <p>Each species carries a gallons-per-fish figure that reflects its adult length and body mass, and therefore its waste output, in a community tank with a filter rated for the volume. The figures range from 0.15 gallons for a cherry shrimp through 1 gallon for a neon tetra, 3 for a betta, 10 for an angelfish and 12 for a fancy goldfish, to 55 to 60 for an oscar or common pleco. They are planning conventions drawn from widely used hobby guidelines rather than measured carrying capacities, and sources vary either side of them.</p>
+      <p>Stocking level is the sum of gallons-per-fish across all fish, divided by the tank volume after the filtration and plant adjustments, expressed as a percentage. Filtration multiplies capacity by 0.85 for a basic filter, 1.0 for a correctly rated cycled filter, and 1.15 for an oversized canister or sump. Live plants multiply it by 1.05 for a moderately planted tank and 1.15 for a heavily planted one. The adjustments are deliberately small: filtration and plants change the biological limit, not the amount of swimming space.</p>
+      <p>Minimum tank sizes and minimum group sizes are checked separately and are not affected by filtration. A species that needs 20 gallons is flagged in any tank under 20 gallons however lightly stocked it is. The one inch per gallon cross-check sums adult lengths and compares them to the raw volume; it is shown because it is the figure most people know, not because it is the better guide.</p>
+      <p>Volume conversions are exact: 1 US gallon = 3.785411784 litres, 1 imperial gallon = 4.54609 litres. The calculator does not check temperament, temperature or water chemistry compatibility — use the <a href="/tools/fish-compatibility-checker/">fish compatibility checker</a> for that. It estimates capacity; it is not a substitute for testing your own water.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="ft" id="site-footer">
+  <div class="con">
+    <div class="ftg">
+      <div class="ftbr">
+        <div><img class="fishcare-footer-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="150" height="38"/></div>
+        <p>Your trusted resource for fish care guides, free tools, and practical aquarium advice. Helping beginners build healthier freshwater tanks since 2026.</p>
+      </div>
+      <div class="ftcol">
+        <h3>Guides</h3>
+        <a href="/guides/">All Guides</a>
+        <a href="/guides/best-freshwater-fish-for-beginners/">Best Beginner Fish</a>
+        <a href="/guides/how-to-set-up-a-fish-tank/">Tank Setup Guide</a>
+        <a href="/guides/aquarium-water-parameters/">Water Parameters</a>
+        <a href="/guides/goldfish-care/">Goldfish Care</a>
+        <a href="/guides/fish-care-for-beginners/#beginner-fish-care-checklist">Beginner Checklist</a>
+      </div>
+      <div class="ftcol">
+        <h3>Encyclopedia</h3>
+        <a href="/species">All Species</a>
+        <a href="/species/neon-tetra">Neon Tetra</a>
+        <a href="/species/ocellaris-clownfish">Clownfish</a>
+        <a href="/species/bronze-cory">Corydoras</a>
+        <a href="/species/cherry-barb">Cherry Barb</a>
+        <a href="/species/dwarf-gourami">Dwarf Gourami</a>
+      </div>
+      <div class="ftcol">
+        <h3>Tools</h3>
+        <a href="/tools/aquarium-size-calculator/">Aquarium Size Calculator</a>
+        <a href="/tools/fish-tank-stocking-calculator/">Stocking Calculator</a>
+        <a href="/tools/aquarium-substrate-calculator/">Substrate Calculator</a>
+        <a href="/tools/fish-compatibility-checker/">Compatibility Checker</a>
+        <a href="/tools/water-parameter-checker/">Water Parameter Checker</a>
+        <a href="/tools/fish-feeding-calculator/">Feeding Calculator</a>
+        <a href="/tools/aquarium-planner/">Aquarium Planner</a>
+        <a href="/tools/aquarium-equipment-calculator/">Equipment Calculator</a>
+      </div>
+      <div class="ftcol">
+        <h3>More</h3>
+        <a href="/about/">About Us</a>
+        <a href="/contact/">Contact</a>
+        <a href="/partners/">Partners</a>
+        <a href="/privacy/">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="ftb">© 2026 FishCare. All rights reserved.</div>
+  </div>
+  <nav class="legal-links" aria-label="Legal and company information">
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+    <a href="/editorial-policy/">Editorial Policy</a>
+    <a href="/privacy/">Privacy</a>
+    <a href="/image-credits/">Image Credits</a>
+  </nav>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  // ── Constants ────────────────────────────────────────────────────────────
+  var L_PER_USGAL  = 3.785411784;
+  var L_PER_IMPGAL = 4.54609;
+
+  // gal    US gallons of tank each adult needs at "good" filtration — the
+  //        bioload figure the stocking percentage is built from.
+  // adult  adult length in inches, used only for the inch-per-gallon cross-check.
+  // min    minimum tank in US gallons; flagged regardless of stocking level.
+  // group  minimum sensible group size; 1 for fish kept singly or in pairs.
+  // Planning conventions, documented in the methodology section.
+  var SPECIES = [
+    { grp: 'Tetras & rasboras', items: [
+      { key: 'neon',     name: 'Neon tetra',            gal: 1,    adult: 1.5, min: 10, group: 6 },
+      { key: 'cardinal', name: 'Cardinal tetra',        gal: 1.3,  adult: 2,   min: 15, group: 6 },
+      { key: 'ember',    name: 'Ember tetra',           gal: 0.6,  adult: 0.8, min: 10, group: 8 },
+      { key: 'rummy',    name: 'Rummy nose tetra',      gal: 1.5,  adult: 2,   min: 20, group: 6 },
+      { key: 'harlequin',name: 'Harlequin rasbora',     gal: 1.2,  adult: 1.8, min: 10, group: 6 },
+      { key: 'chili',    name: 'Chili rasbora',         gal: 0.6,  adult: 0.8, min: 5,  group: 8 },
+      { key: 'wcmm',     name: 'White cloud minnow',    gal: 1,    adult: 1.5, min: 10, group: 6 }
+    ]},
+    { grp: 'Livebearers', items: [
+      { key: 'guppy',    name: 'Guppy',                 gal: 1.5,  adult: 2,   min: 10, group: 3 },
+      { key: 'endler',   name: "Endler's livebearer",   gal: 1,    adult: 1.2, min: 5,  group: 3 },
+      { key: 'platy',    name: 'Platy',                 gal: 2,    adult: 2.5, min: 10, group: 3 },
+      { key: 'molly',    name: 'Molly',                 gal: 3,    adult: 4,   min: 20, group: 3 },
+      { key: 'sword',    name: 'Swordtail',             gal: 3,    adult: 4,   min: 20, group: 3 }
+    ]},
+    { grp: 'Bettas & gouramis', items: [
+      { key: 'betta',    name: 'Betta (one per tank)',  gal: 3,    adult: 2.5, min: 5,  group: 1 },
+      { key: 'honey',    name: 'Honey gourami',         gal: 2.5,  adult: 2,   min: 10, group: 1 },
+      { key: 'dwarfg',   name: 'Dwarf gourami',         gal: 4,    adult: 3.5, min: 10, group: 1 },
+      { key: 'pearlg',   name: 'Pearl gourami',         gal: 6,    adult: 4.5, min: 30, group: 1 }
+    ]},
+    { grp: 'Barbs & danios', items: [
+      { key: 'cherryb',  name: 'Cherry barb',           gal: 1.5,  adult: 2,   min: 20, group: 6 },
+      { key: 'tigerb',   name: 'Tiger barb',            gal: 2.5,  adult: 2.5, min: 20, group: 6 },
+      { key: 'zebra',    name: 'Zebra danio',           gal: 1.5,  adult: 2,   min: 10, group: 6 }
+    ]},
+    { grp: 'Bottom dwellers', items: [
+      { key: 'cory',     name: 'Corydoras (bronze, panda, sterbai)', gal: 1.5, adult: 2.5, min: 20, group: 6 },
+      { key: 'pygmyc',   name: 'Pygmy corydoras',       gal: 0.8,  adult: 1,   min: 10, group: 6 },
+      { key: 'kuhli',    name: 'Kuhli loach',           gal: 2,    adult: 4,   min: 20, group: 5 },
+      { key: 'oto',      name: 'Otocinclus',            gal: 1,    adult: 1.5, min: 10, group: 4 },
+      { key: 'bn',       name: 'Bristlenose pleco',     gal: 8,    adult: 5,   min: 25, group: 1 },
+      { key: 'commonpl', name: 'Common pleco',          gal: 60,   adult: 15,  min: 100, group: 1 }
+    ]},
+    { grp: 'Cichlids', items: [
+      { key: 'angel',    name: 'Angelfish',             gal: 10,   adult: 6,   min: 29, group: 1 },
+      { key: 'discus',   name: 'Discus',                gal: 12,   adult: 6,   min: 55, group: 5 },
+      { key: 'gbr',      name: 'German blue ram',       gal: 3,    adult: 2.5, min: 20, group: 1 },
+      { key: 'bolram',   name: 'Bolivian ram',          gal: 4,    adult: 3,   min: 20, group: 1 },
+      { key: 'krib',     name: 'Kribensis',             gal: 5,    adult: 3.5, min: 20, group: 1 },
+      { key: 'yellowlab',name: 'Electric yellow cichlid', gal: 6,  adult: 4,   min: 30, group: 1 },
+      { key: 'oscar',    name: 'Oscar',                 gal: 55,   adult: 12,  min: 75, group: 1 }
+    ]},
+    { grp: 'Goldfish & rainbowfish', items: [
+      { key: 'fancygf',  name: 'Fancy goldfish',        gal: 12,   adult: 6,   min: 20, group: 1 },
+      { key: 'commongf', name: 'Common or comet goldfish', gal: 40, adult: 12, min: 75, group: 1 },
+      { key: 'boes',     name: 'Boesemani rainbowfish', gal: 5,    adult: 4,   min: 40, group: 6 }
+    ]},
+    { grp: 'Invertebrates', items: [
+      { key: 'cherrys',  name: 'Cherry shrimp',         gal: 0.15, adult: 1,   min: 5,  group: 5 },
+      { key: 'amano',    name: 'Amano shrimp',          gal: 0.3,  adult: 2,   min: 10, group: 3 },
+      { key: 'nerite',   name: 'Nerite snail',          gal: 0.3,  adult: 1,   min: 5,  group: 1 },
+      { key: 'mystery',  name: 'Mystery snail',         gal: 1.5,  adult: 2,   min: 5,  group: 1 }
+    ]},
+    { grp: 'Marine', items: [
+      { key: 'clown',    name: 'Ocellaris clownfish',   gal: 6,    adult: 3.5, min: 20, group: 1 }
+    ]}
+  ];
+  var BY_KEY = {};
+  SPECIES.forEach(function (g) { g.items.forEach(function (s) { BY_KEY[s.key] = s; }); });
+
+  var FILTERS = {
+    basic:    { label: 'basic filtration',    factor: 0.85 },
+    good:     { label: 'good filtration',     factor: 1.0 },
+    advanced: { label: 'advanced filtration', factor: 1.15 }
+  };
+  var PLANTS = {
+    none:  { label: 'few plants',        factor: 1.0 },
+    some:  { label: 'moderately planted', factor: 1.05 },
+    heavy: { label: 'heavily planted',   factor: 1.15 }
+  };
+
+  var UNITS = {
+    usgal:  { label: 'US gallons',       toUsGal: function (v) { return v; } },
+    impgal: { label: 'imperial gallons', toUsGal: function (v) { return v * L_PER_IMPGAL / L_PER_USGAL; } },
+    litres: { label: 'litres',           toUsGal: function (v) { return v / L_PER_USGAL; } }
+  };
+
+  var BANDS = [
+    { max: 60,  key: 'light', label: 'lightly stocked',  change: '20–25% weekly' },
+    { max: 90,  key: 'well',  label: 'well stocked',     change: '25% weekly' },
+    { max: 110, key: 'full',  label: 'fully stocked',    change: '30–40% weekly' },
+    { max: 130, key: 'heavy', label: 'heavily stocked',  change: '40–50% weekly, or twice a week' },
+    { max: Infinity, key: 'over', label: 'overstocked',  change: 'not sustainable long term' }
+  ];
+
+  var PRESETS = [5, 10, 20, 29, 40, 55, 75, 125];
+
+  var DEFAULTS = { volume: '20', unit: 'usgal', filter: 'good', plants: 'none',
+                   stock: [{ key: 'neon', count: 8 }, { key: 'cory', count: 6 }] };
+
+  var $ = function (id) { return document.getElementById(id); };
+  var els = {
+    form:    $('stock-form'),
+    volume:  $('stock-volume'),
+    unit:    $('stock-unit'),
+    filter:  $('stock-filter'),
+    plants:  $('stock-plants'),
+    species: $('stock-species'),
+    count:   $('stock-count'),
+    addBtn:  $('stock-add-btn'),
+    list:    $('stock-list'),
+    empty:   $('stock-empty'),
+    result:  $('stock-result'),
+    presets: $('stock-presets')
+  };
+  if (!els.form || !els.result) return;
+
+  var stock = [];
+
+  // ── Helpers ──────────────────────────────────────────────────────────────
+  function num(n, dp) {
+    if (!isFinite(n)) return '—';
+    return n.toLocaleString('en-US', { minimumFractionDigits: dp, maximumFractionDigits: dp });
+  }
+  function esc(s) {
+    return String(s).replace(/[&<>"]/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+    });
+  }
+  function plural(n, one, many) { return n === 1 ? one : many; }
+
+  function read(el) {
+    var raw = (el.value || '').trim();
+    if (raw === '') return { empty: true, valid: false, value: NaN };
+    var v = Number(raw);
+    if (!isFinite(v)) return { empty: false, valid: false, value: NaN };
+    return { empty: false, valid: true, value: v };
+  }
+
+  function setError(id, msg, inputEl) {
+    var box = $(id);
+    if (box) box.textContent = msg || '';
+    if (inputEl) {
+      if (msg) inputEl.setAttribute('aria-invalid', 'true');
+      else inputEl.removeAttribute('aria-invalid');
+    }
+  }
+
+  // ── Validation ───────────────────────────────────────────────────────────
+  function validate() {
+    var errors = [];
+    var unitKey = els.unit.value;
+    var unitLabel = UNITS[unitKey].label;
+    // 10,000 litres is past any home aquarium and stops a stray zero.
+    var max = unitKey === 'litres' ? 10000 : 2500;
+
+    var v = read(els.volume), volMsg = '';
+    if (v.empty) volMsg = 'Enter your tank volume.';
+    else if (!v.valid) volMsg = 'Enter the tank volume as a number.';
+    else if (v.value <= 0) volMsg = 'Enter a tank volume greater than 0.';
+    else if (v.value > max) volMsg = 'That volume looks too large — enter a value up to ' + num(max, 0) + ' ' + unitLabel + '.';
+    setError('err-volume', volMsg, els.volume);
+    if (volMsg) errors.push(volMsg);
+
+    if (errors.length) return { ok: false, errors: errors };
+    return {
+      ok: true,
+      usGal: UNITS[unitKey].toUsGal(v.value),
+      unitKey: unitKey,
+      filterKey: els.filter.value,
+      plantsKey: els.plants.value
+    };
+  }
+
+  // ── Calculation ──────────────────────────────────────────────────────────
+  function compute(v) {
+    var filter = FILTERS[v.filterKey];
+    var plants = PLANTS[v.plantsKey];
+    var capacity = v.usGal * filter.factor * plants.factor;
+
+    var load = 0, inches = 0, fishCount = 0, warnings = [];
+    stock.forEach(function (row) {
+      var s = BY_KEY[row.key];
+      load += s.gal * row.count;
+      inches += s.adult * row.count;
+      fishCount += row.count;
+      if (s.min > v.usGal) {
+        warnings.push(s.name + ' needs a tank of at least ' + s.min + ' US gallons at adult size (' +
+          s.adult + ' in). No filter changes that — this one needs a larger tank.');
+      }
+      if (s.group > 1 && row.count < s.group) {
+        warnings.push(s.name + ' is a group fish — keep at least ' + s.group + ' together. ' +
+          row.count + ' will be stressed and shy however clean the water is.');
+      }
+      if (s.key === 'betta' && row.count > 1) {
+        warnings.push('Male bettas fight; keep one per tank. If these are females, a sorority needs 20 gallons or more and heavy planting.');
+      }
+    });
+
+    var pct = capacity > 0 ? (load / capacity) * 100 : 0;
+    var band = BANDS[0];
+    for (var i = 0; i < BANDS.length; i++) { if (pct < BANDS[i].max) { band = BANDS[i]; break; } }
+
+    // Goldfish and white clouds are coldwater; invertebrates go either way.
+    var NOT_TROPICAL = { fancygf: 1, commongf: 1, wcmm: 1, cherrys: 1, amano: 1, nerite: 1, mystery: 1 };
+    var hasGoldfish = stock.some(function (r) { return r.key === 'fancygf' || r.key === 'commongf'; });
+    var hasTropical = stock.some(function (r) { return !NOT_TROPICAL[r.key]; });
+    if (hasGoldfish && hasTropical) {
+      warnings.push('Goldfish are coldwater fish and most of the other species listed are tropical. Check the combination in the fish compatibility checker before mixing them.');
+    }
+
+    return {
+      capacity: capacity,
+      load: load,
+      pct: pct,
+      band: band,
+      inches: inches,
+      fishCount: fishCount,
+      headroom: Math.max(0, capacity - load),
+      inchRule: inches / v.usGal * 100,
+      filterLabel: filter.label,
+      plantsLabel: plants.label,
+      warnings: warnings
+    };
+  }
+
+  // ── Rendering ────────────────────────────────────────────────────────────
+  function renderErrors(errors) {
+    els.result.innerHTML =
+      '<div class="res-error">' +
+        '<h3>Check your entries</h3>' +
+        '<ul>' + errors.map(function (e) { return '<li>' + esc(e) + '</li>'; }).join('') + '</ul>' +
+      '</div>';
+  }
+
+  function renderResult(v, r) {
+    if (!stock.length) {
+      els.result.innerHTML =
+        '<div class="res-panel">' +
+          '<p class="res-eyebrow">This tank is</p>' +
+          '<p class="res-weight"><span class="res-lb">0%</span><span class="res-kg">stocked</span></p>' +
+          '<p class="res-of">' + num(v.usGal, 0) + ' US gal · ' + num(v.usGal * L_PER_USGAL, 0) + ' L · ' + esc(r.filterLabel) + '</p>' +
+          '<p class="res-sentence">Add fish to compare against this tank. As a rough guide, a ' + num(v.usGal, 0) +
+          ' gallon tank with a correctly rated filter carries about ' + num(r.capacity, 0) +
+          ' gallons of fish load — roughly ' + Math.floor(r.capacity / BY_KEY.neon.gal) + ' neon-tetra-sized fish, or ' +
+          Math.floor(r.capacity / BY_KEY.fancygf.gal) + ' ' + plural(Math.floor(r.capacity / BY_KEY.fancygf.gal), 'fancy goldfish', 'fancy goldfish') + '.</p>' +
+        '</div>';
+      return;
+    }
+
+    var advice;
+    switch (r.band.key) {
+      case 'light':
+        advice = 'There is room for more. About ' + num(r.headroom, 1) + ' gallons of fish load remain — roughly ' +
+          Math.floor(r.headroom / BY_KEY.neon.gal) + ' more neon-tetra-sized fish, or one fish that needs up to ' + num(r.headroom, 0) + ' gallons on its own.';
+        break;
+      case 'well':
+        advice = 'This is the sweet spot: the tank is full enough to look lively and the filter has margin for a missed water change. ' +
+          'About ' + num(r.headroom, 1) + ' gallons of load remain — enough for a few shrimp or snails, or to round out a school.';
+        break;
+      case 'full':
+        advice = 'The tank is full at adult size. Do not add more fish; keep up a weekly water change of 30 to 40 percent and test nitrate monthly.';
+        break;
+      case 'heavy':
+        advice = 'Heavier than the tank can carry comfortably. It can be run with large twice-weekly water changes and an oversized filter, but it has no margin — a missed change or a filter failure will show up fast. Remove a group or upgrade the tank.';
+        break;
+      default:
+        advice = 'This stocking is not sustainable in this volume. Water quality will deteriorate faster than any maintenance routine can keep up with. The tank needs to be about ' +
+          num(r.load / (FILTERS[v.filterKey].factor * PLANTS[v.plantsKey].factor) / 0.9, 0) + ' US gallons for these fish, or the list needs to shrink.';
+    }
+
+    els.result.innerHTML =
+      '<div class="res-panel">' +
+        '<p class="res-eyebrow">This tank is</p>' +
+        '<p class="res-weight"><span class="res-lb">' + num(r.pct, 0) + '%</span><span class="res-kg">stocked</span></p>' +
+        '<p class="res-of">' + esc(r.band.label) + ' · ' + r.fishCount + ' ' + plural(r.fishCount, 'animal', 'animals') + ' · ' + esc(r.filterLabel) + '</p>' +
+        '<div class="res-meter" data-band="' + r.band.key + '" role="img" aria-label="Stocking meter at ' + num(r.pct, 0) + ' percent"><span style="width:' + Math.min(100, r.pct / 1.5) + '%"></span></div>' +
+        '<div class="res-meter-scale"><span>0%</span><span>50%</span><span>100%</span><span>150%+</span></div>' +
+        '<dl class="res-stats">' +
+          '<div class="res-row"><dt>Tank volume</dt><dd>' + num(v.usGal, 0) + ' US gal · ' + num(v.usGal * L_PER_USGAL, 0) + ' L</dd></div>' +
+          '<div class="res-row"><dt>Capacity after filter &amp; plants</dt><dd>' + num(r.capacity, 1) + ' gal of fish load</dd></div>' +
+          '<div class="res-row"><dt>Fish load at adult size</dt><dd>' + num(r.load, 1) + ' gal</dd></div>' +
+          '<div class="res-row"><dt>Total adult length</dt><dd>' + num(r.inches, 1) + ' in · ' + num(r.inches * 2.54, 0) + ' cm</dd></div>' +
+          '<div class="res-row"><dt>1 inch per gallon cross-check</dt><dd>' + num(r.inchRule, 0) + '%</dd></div>' +
+        '</dl>' +
+        '<div class="res-buy">' +
+          '<div class="rb-label">Suggested water change</div>' +
+          '<div class="rb-val">' + esc(r.band.change) + '</div>' +
+          '<p>' + esc(advice) + '</p>' +
+        '</div>' +
+        (r.warnings.length
+          ? '<ul class="res-warn">' + r.warnings.map(function (w) { return '<li>' + esc(w) + '</li>'; }).join('') + '</ul>'
+          : '<p class="res-sentence">Every species here fits the tank size and its group size. Stock in two or three stages a few weeks apart so the filter can grow into the load, and check the combination in the compatibility checker for temperament and water chemistry.</p>') +
+      '</div>';
+  }
+
+  function calculate() {
+    var v = validate();
+    if (!v.ok) { renderErrors(v.errors); return; }
+    renderResult(v, compute(v));
+  }
+
+  // ── Fish list ────────────────────────────────────────────────────────────
+  function renderSpeciesOptions() {
+    els.species.innerHTML = SPECIES.map(function (g) {
+      return '<optgroup label="' + esc(g.grp) + '">' + g.items.map(function (s) {
+        return '<option value="' + s.key + '">' + esc(s.name) + ' — ' + s.adult + ' in</option>';
+      }).join('') + '</optgroup>';
+    }).join('');
+    els.species.value = 'neon';
+  }
+
+  function renderList() {
+    if (!stock.length) {
+      els.list.innerHTML = '';
+      els.empty.textContent = 'No fish added yet. Choose a species and how many, then press Add fish.';
+      return;
+    }
+    els.empty.textContent = '';
+    els.list.innerHTML = stock.map(function (row, i) {
+      var s = BY_KEY[row.key];
+      return '<li class="fish-row">' +
+        '<div class="fr-name">' + esc(s.name) + '<span class="fr-meta">' + s.adult + ' in adult · ' + s.gal + ' gal each · min ' + s.min + ' gal</span></div>' +
+        '<input class="fc" type="number" inputmode="numeric" min="1" max="200" step="1" value="' + row.count + '" data-idx="' + i + '" aria-label="Number of ' + esc(s.name) + '">' +
+        '<button type="button" class="fr-del" data-del="' + i + '" aria-label="Remove ' + esc(s.name) + '">×</button>' +
+      '</li>';
+    }).join('');
+  }
+
+  function addFish() {
+    var key = els.species.value;
+    var c = read(els.count);
+    var count = c.valid ? Math.max(1, Math.min(200, Math.round(c.value))) : 1;
+    if (!BY_KEY[key]) return;
+    var existing = stock.filter(function (r) { return r.key === key; })[0];
+    if (existing) existing.count = Math.min(200, existing.count + count);
+    else stock.push({ key: key, count: count });
+    els.count.value = String(count);
+    renderList();
+    calculate();
+  }
+
+  // ── Unit switching (the number is converted, not just relabelled) ────────
+  var currentUnit = DEFAULTS.unit;
+  function switchUnit(next) {
+    if (next === currentUnit) return;
+    var r = read(els.volume);
+    if (r.valid) {
+      var usGal = UNITS[currentUnit].toUsGal(r.value);
+      var out = next === 'usgal'  ? usGal
+              : next === 'impgal' ? usGal * L_PER_USGAL / L_PER_IMPGAL
+              :                     usGal * L_PER_USGAL;
+      els.volume.value = String(Math.round(out));
+    }
+    currentUnit = next;
+    clearPresetState();
+    calculate();
+  }
+
+  // ── Presets ──────────────────────────────────────────────────────────────
+  function renderPresets() {
+    els.presets.innerHTML = PRESETS.map(function (g, i) {
+      return '<button type="button" class="preset-btn" data-preset="' + i + '" aria-pressed="false">' +
+        num(g, 0) + ' US gal<small>' + num(g * L_PER_USGAL, 0) + ' litres</small></button>';
+    }).join('');
+  }
+
+  function applyPreset(i) {
+    var g = PRESETS[i];
+    if (g === undefined) return;
+    els.unit.value = 'usgal';
+    currentUnit = 'usgal';
+    els.volume.value = String(g);
+    Array.prototype.forEach.call(els.presets.querySelectorAll('.preset-btn'), function (b) {
+      b.setAttribute('aria-pressed', b.getAttribute('data-preset') === String(i) ? 'true' : 'false');
+    });
+    calculate();
+  }
+
+  function clearPresetState() {
+    Array.prototype.forEach.call(els.presets.querySelectorAll('.preset-btn'), function (b) {
+      b.setAttribute('aria-pressed', 'false');
+    });
+  }
+
+  function reset() {
+    els.volume.value = DEFAULTS.volume;
+    els.unit.value   = DEFAULTS.unit;
+    currentUnit      = DEFAULTS.unit;
+    els.filter.value = DEFAULTS.filter;
+    els.plants.value = DEFAULTS.plants;
+    els.species.value = 'neon';
+    els.count.value = '6';
+    stock = DEFAULTS.stock.map(function (r) { return { key: r.key, count: r.count }; });
+    clearPresetState();
+    renderList();
+    calculate();
+  }
+
+  // ── Wiring ───────────────────────────────────────────────────────────────
+  renderSpeciesOptions();
+  renderPresets();
+
+  els.presets.addEventListener('click', function (e) {
+    var btn = e.target.closest('.preset-btn');
+    if (btn) applyPreset(Number(btn.getAttribute('data-preset')));
+  });
+
+  els.volume.addEventListener('input', function () { clearPresetState(); calculate(); });
+  [els.filter, els.plants].forEach(function (el) { el.addEventListener('change', calculate); });
+  els.unit.addEventListener('change', function () { switchUnit(els.unit.value); });
+
+  els.addBtn.addEventListener('click', addFish);
+  els.count.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') { e.preventDefault(); addFish(); }
+  });
+
+  els.list.addEventListener('input', function (e) {
+    var inp = e.target.closest('input[data-idx]');
+    if (!inp) return;
+    var row = stock[Number(inp.getAttribute('data-idx'))];
+    var c = read(inp);
+    if (row && c.valid && c.value >= 1) { row.count = Math.min(200, Math.round(c.value)); calculate(); }
+  });
+
+  els.list.addEventListener('click', function (e) {
+    var btn = e.target.closest('button[data-del]');
+    if (!btn) return;
+    stock.splice(Number(btn.getAttribute('data-del')), 1);
+    renderList();
+    calculate();
+  });
+
+  els.form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    calculate();
+    els.result.focus();
+  });
+
+  $('stock-reset-btn').addEventListener('click', function () {
+    reset();
+    els.volume.focus();
+  });
+
+  reset();
+})();
+</script>
+
+<script>
+// ── FAQ toggle ─────────────────────────────────────────────────────────────
+function toggleFaq(btn) {
+  var item = btn.closest('.faq-item');
+  var wasOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(function (el) {
+    el.classList.remove('open');
+    var q = el.querySelector('.faq-q');
+    if (q) q.setAttribute('aria-expanded', 'false');
+  });
+  if (!wasOpen) {
+    item.classList.add('open');
+    btn.setAttribute('aria-expanded', 'true');
+  }
+}
+</script>
+
+</body>
+</html>

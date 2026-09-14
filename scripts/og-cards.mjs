@@ -238,6 +238,21 @@ export const TOOLS = {
     cta: 'Size My Equipment',
     result: ['160+ GPH filter', '150 W heater · medium light'],
   },
+  stocking: {
+    out: 'fish-tank-stocking-tool-card.png',
+    eyebrow: 'FREE TOOL',
+    icon: '\u{1F420}',
+    title: 'Fish Tank Stocking Calculator',
+    sub: 'How full your aquarium really is once every fish reaches adult size.',
+    chips: ['40 species', 'Adult size', 'Filtration'],
+    fields: [
+      ['Fish', '8 neon tetra \u00b7 6 corydoras'],
+      ['Filtration', 'Good'],
+    ],
+    input: ['Tank volume (US gal)', '20'],
+    cta: 'Calculate Stocking',
+    result: ['85% stocked', 'Well stocked \u00b7 room for a few shrimp'],
+  },
   substrate: {
     out: 'aquarium-substrate-calculator-tool-card.png',
     eyebrow: 'FREE TOOL',

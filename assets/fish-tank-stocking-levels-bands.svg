@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc"><title id="title">Fish tank stocking levels: what each band means</title><desc id="desc">A horizontal stocking meter from 0 to 150 percent and over, divided into five bands — lightly stocked under 60 percent, well stocked 60 to 90, fully stocked 90 to 110, heavily stocked 110 to 130, and overstocked above 130 — with a card under each band giving the suggested water change, what to do, and a worked 20 gallon example: 8 neon tetras at 40 percent; 8 neon tetras and 6 corydoras at 85 percent; the same plus a dwarf gourami at 105 percent; 10 neon tetras, 6 corydoras and a dwarf gourami at 115 percent; and 8 neon tetras, 6 corydoras and an angelfish at 135 percent, where the angelfish also fails the 29 gallon minimum tank check.</desc>
+<defs>
+<style>
+text{font-family:-apple-system,'Segoe UI',Arial,sans-serif;fill:#EAFBFF}
+.t{font-size:20px;font-weight:800}
+.h{font-size:14px;font-weight:700;fill:#7DEBFF;letter-spacing:.04em;text-transform:uppercase}
+.l{font-size:13px;font-weight:700}
+.s{font-size:11.5px;fill:#B8DCEB}
+.m{font-size:11.5px;fill:#7F9BB0}
+.f{font-size:13px;font-weight:700;fill:#fff}
+.b{font-size:12px;font-weight:800;fill:#0A2540}
+.k{font-size:10.5px;font-weight:700;fill:#7DEBFF;letter-spacing:.06em;text-transform:uppercase}
+.pct{font-size:18px;font-weight:800;fill:#fff}
+</style>
+</defs>
+
+<!-- canvas -->
+<rect width="900" height="500" rx="16" fill="#0A2540"/>
+<rect x=".5" y=".5" width="899" height="499" rx="16" fill="none" stroke="#ffffff" stroke-opacity=".12"/>
+<text x="30" y="40" class="t">What the stocking percentage means</text>
+<text x="30" y="60" class="m">Five bands, the water change each one needs, and a 20 gallon tank stocked to each level</text>
+
+<!-- meter: x 40..860 = 820px for 0..150% ; 1% = 5.4667px -->
+<text x="40" y="96" class="h">Stocking meter</text>
+<!-- band segments -->
+<rect x="40"  y="106" width="328" height="26" rx="13" fill="#18A999"/>
+<rect x="354" y="106" width="178" height="26" fill="#27AE60"/>
+<rect x="532" y="106" width="109" height="26" fill="#F39C12"/>
+<rect x="641" y="106" width="109" height="26" fill="#E67E22"/>
+<rect x="750" y="106" width="110" height="26" rx="13" fill="#E74C3C"/>
+<rect x="750" y="106" width="20" height="26" fill="#E74C3C"/>
+<rect x="348" y="106" width="20" height="26" fill="#18A999"/>
+<!-- band labels inside -->
+<text x="196" y="124" class="b" text-anchor="middle">LIGHTLY</text>
+<text x="450" y="124" class="b" text-anchor="middle">WELL</text>
+<text x="586" y="124" class="b" text-anchor="middle">FULLY</text>
+<text x="695" y="124" class="b" text-anchor="middle">HEAVILY</text>
+<text x="805" y="124" class="b" text-anchor="middle">OVER</text>
+<!-- ticks -->
+<g stroke="#0A2540" stroke-width="2">
+<line x1="368" y1="104" x2="368" y2="134"/>
+<line x1="532" y1="104" x2="532" y2="134"/>
+<line x1="641" y1="104" x2="641" y2="134"/>
+<line x1="750" y1="104" x2="750" y2="134"/>
+</g>
+<g class="m">
+<text x="40" y="150" class="m">0%</text>
+<text x="368" y="150" class="m" text-anchor="middle">60%</text>
+<text x="532" y="150" class="m" text-anchor="middle">90%</text>
+<text x="641" y="150" class="m" text-anchor="middle">110%</text>
+<text x="750" y="150" class="m" text-anchor="middle">130%</text>
+<text x="860" y="150" class="m" text-anchor="end">150%+</text>
+</g>
+
+<!-- five cards, each 156 wide with 8 gap: x = 40 + i*164 -->
+<!-- card 1: lightly -->
+<g>
+<rect x="40" y="170" width="156" height="300" rx="12" fill="#ffffff" fill-opacity=".05" stroke="#18A999" stroke-opacity=".7"/>
+<rect x="40" y="170" width="156" height="6" rx="3" fill="#18A999"/>
+<text x="56" y="200" class="l">Lightly stocked</text>
+<text x="56" y="216" class="m">under 60%</text>
+<text x="56" y="244" class="k">Water change</text>
+<text x="56" y="260" class="f">20–25% weekly</text>
+<text x="56" y="286" class="k">What to do</text>
+<text x="56" y="302" class="s">Room to add a school</text>
+<text x="56" y="317" class="s">or a centrepiece fish.</text>
+<text x="56" y="332" class="s">Add in stages, test</text>
+<text x="56" y="347" class="s">between groups.</text>
+<text x="56" y="376" class="k">20 gal example</text>
+<text x="56" y="392" class="s">8 neon tetras</text>
+<text x="56" y="424" class="pct">40%</text>
+<text x="56" y="442" class="m">8 gal of 20 gal load</text>
+</g>
+
+<!-- card 2: well -->
+<g>
+<rect x="204" y="170" width="156" height="300" rx="12" fill="#27AE60" fill-opacity=".10" stroke="#27AE60" stroke-opacity=".8"/>
+<rect x="204" y="170" width="156" height="6" rx="3" fill="#27AE60"/>
+<text x="220" y="200" class="l">Well stocked</text>
+<text x="220" y="216" class="m">60 – 90% · the target</text>
+<text x="220" y="244" class="k">Water change</text>
+<text x="220" y="260" class="f">25% weekly</text>
+<text x="220" y="286" class="k">What to do</text>
+<text x="220" y="302" class="s">Lively tank, filter has</text>
+<text x="220" y="317" class="s">margin for a missed</text>
+<text x="220" y="332" class="s">change. Room for shrimp</text>
+<text x="220" y="347" class="s">or to round out a school.</text>
+<text x="220" y="376" class="k">20 gal example</text>
+<text x="220" y="392" class="s">8 neon tetras</text>
+<text x="220" y="407" class="s">+ 6 corydoras</text>
+<text x="220" y="424" class="pct">85%</text>
+<text x="220" y="442" class="m">17 gal of 20 gal load</text>
+</g>
+
+<!-- card 3: fully -->
+<g>
+<rect x="368" y="170" width="156" height="300" rx="12" fill="#ffffff" fill-opacity=".05" stroke="#F39C12" stroke-opacity=".7"/>
+<rect x="368" y="170" width="156" height="6" rx="3" fill="#F39C12"/>
+<text x="384" y="200" class="l">Fully stocked</text>
+<text x="384" y="216" class="m">90 – 110%</text>
+<text x="384" y="244" class="k">Water change</text>
+<text x="384" y="260" class="f">30–40% weekly</text>
+<text x="384" y="286" class="k">What to do</text>
+<text x="384" y="302" class="s">Full at adult size.</text>
+<text x="384" y="317" class="s">No more fish. Test</text>
+<text x="384" y="332" class="s">nitrate monthly and</text>
+<text x="384" y="347" class="s">never skip a change.</text>
+<text x="384" y="376" class="k">20 gal example</text>
+<text x="384" y="392" class="s">8 neon + 6 corydoras</text>
+<text x="384" y="407" class="s">+ 1 dwarf gourami</text>
+<text x="384" y="424" class="pct">105%</text>
+<text x="384" y="442" class="m">21 gal of 20 gal load</text>
+</g>
+
+<!-- card 4: heavily -->
+<g>
+<rect x="532" y="170" width="156" height="300" rx="12" fill="#ffffff" fill-opacity=".05" stroke="#E67E22" stroke-opacity=".7"/>
+<rect x="532" y="170" width="156" height="6" rx="3" fill="#E67E22"/>
+<text x="548" y="200" class="l">Heavily stocked</text>
+<text x="548" y="216" class="m">110 – 130%</text>
+<text x="548" y="244" class="k">Water change</text>
+<text x="548" y="260" class="f">40–50% weekly</text>
+<text x="548" y="275" class="m">or twice a week</text>
+<text x="548" y="298" class="k">What to do</text>
+<text x="548" y="314" class="s">No margin — a filter</text>
+<text x="548" y="329" class="s">failure shows up fast.</text>
+<text x="548" y="344" class="s">Remove a group or</text>
+<text x="548" y="359" class="s">upgrade the tank.</text>
+<text x="548" y="384" class="k">20 gal example</text>
+<text x="548" y="400" class="s">10 neon + 6 corydoras</text>
+<text x="548" y="415" class="s">+ 1 dwarf gourami</text>
+<text x="548" y="436" class="pct">115%</text>
+<text x="548" y="454" class="m">23 gal of 20 gal load</text>
+</g>
+
+<!-- card 5: over -->
+<g>
+<rect x="696" y="170" width="164" height="300" rx="12" fill="#E74C3C" fill-opacity=".10" stroke="#E74C3C" stroke-opacity=".8"/>
+<rect x="696" y="170" width="164" height="6" rx="3" fill="#E74C3C"/>
+<text x="712" y="200" class="l">Overstocked</text>
+<text x="712" y="216" class="m">over 130%</text>
+<text x="712" y="244" class="k">Water change</text>
+<text x="712" y="260" class="f">Not sustainable</text>
+<text x="712" y="286" class="k">What to do</text>
+<text x="712" y="302" class="s">Water quality drops</text>
+<text x="712" y="317" class="s">faster than any routine</text>
+<text x="712" y="332" class="s">keeps up. Rehome fish</text>
+<text x="712" y="347" class="s">or buy a bigger tank.</text>
+<text x="712" y="376" class="k">20 gal example</text>
+<text x="712" y="392" class="s">8 neon + 6 corydoras</text>
+<text x="712" y="407" class="s">+ 1 angelfish ⚠ min 29 gal</text>
+<text x="712" y="424" class="pct">135%</text>
+<text x="712" y="442" class="m">27 gal of 20 gal load</text>
+</g>
+</svg>

@@ -101,6 +101,14 @@
       href: '/tools/koi-pond-stocking-calculator/',
       button: 'Koi Stocking Calculator \u2192'
     },
+    '/tools/fish-tank-stocking-calculator': {
+      targets: ['#stock-result'],
+      eyebrow: 'Related tool',
+      title: 'Check these fish get along',
+      description: 'Stocking level is one limit. Temperament, temperature and pH are the others.',
+      href: '/tools/fish-compatibility-checker/',
+      button: 'Fish Compatibility Checker →'
+    },
     '/tools/aquarium-substrate-calculator': {
       targets: ['#sub-result'],
       eyebrow: 'Related tool',
