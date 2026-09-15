@@ -1,0 +1,779 @@
+{
+  "subject": "tang fish",
+  "type": "fish",
+  "aliases": [
+    "tang",
+    "surgeonfish"
+  ],
+  "keywords": [
+    {
+      "keyword": "achilles tang",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "are surgeonfish dangerous",
+      "group": "behavior",
+      "source": "suggest"
+    },
+    {
+      "keyword": "are surgeonfish poisonous",
+      "group": "behavior",
+      "source": "suggest"
+    },
+    {
+      "keyword": "are tangs reef safe",
+      "group": "tank-mates",
+      "source": "extra"
+    },
+    {
+      "keyword": "are tangs surgeonfish",
+      "group": "pillar",
+      "source": "suggest"
+    },
+    {
+      "keyword": "best looking tang fish",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "best tang fish",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "blue tang care",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "blue tang fish care",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can blue tang fish live in freshwater",
+      "group": "water",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can surgeonfish hurt you",
+      "group": "behavior",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can tangs live in freshwater",
+      "group": "water",
+      "source": "extra"
+    },
+    {
+      "keyword": "cheapest tang",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "do blue tang fish and clownfish get along",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "head and lateral line erosion tang",
+      "group": "health",
+      "source": "extra"
+    },
+    {
+      "keyword": "hippo tang",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "how to care for tang fish",
+      "group": "pillar",
+      "source": "template"
+    },
+    {
+      "keyword": "kole tang",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "most beautiful tang fish",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "naso tang",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "powder blue tang",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "purple tang care",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "sailfin tang",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "smallest tang",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang",
+      "group": "pillar",
+      "source": "suggest"
+    },
+    {
+      "keyword": "tang aggression",
+      "group": "behavior",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang black spots",
+      "group": "health",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang care",
+      "group": "pillar",
+      "source": "suggest"
+    },
+    {
+      "keyword": "tang care guide",
+      "group": "pillar",
+      "source": "suggest"
+    },
+    {
+      "keyword": "tang fish",
+      "group": "pillar",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish care",
+      "group": "pillar",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish care guide",
+      "group": "pillar",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish facts",
+      "group": "pillar",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish for beginners",
+      "group": "pillar",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish freshwater",
+      "group": "water",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang fish list",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang fish poisonous",
+      "group": "behavior",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang fish reef safe",
+      "group": "tank-mates",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang fish saltwater",
+      "group": "water",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang fish sting",
+      "group": "behavior",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang hlle",
+      "group": "health",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang nori",
+      "group": "food",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang red spots",
+      "group": "health",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang scales",
+      "group": "pillar",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang scalpel",
+      "group": "behavior",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang spine",
+      "group": "behavior",
+      "source": "extra"
+    },
+    {
+      "keyword": "what is a surgeonfish",
+      "group": "pillar",
+      "source": "suggest"
+    },
+    {
+      "keyword": "why are tang fish so expensive",
+      "group": "pillar",
+      "source": "suggest"
+    },
+    {
+      "keyword": "yellow tang care",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "yellow tang fish care",
+      "group": "pillar",
+      "source": "suggest"
+    },
+    {
+      "keyword": "6 foot tank for tang",
+      "group": "tank-size",
+      "source": "extra"
+    },
+    {
+      "keyword": "how many tang fish in a 10 gallon tank",
+      "group": "tank-size",
+      "source": "template"
+    },
+    {
+      "keyword": "how many tang fish in a 20 gallon tank",
+      "group": "tank-size",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish minimum tank size",
+      "group": "tank-size",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish tank",
+      "group": "tank-size",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish tank setup",
+      "group": "tank-size",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish tank size",
+      "group": "tank-size",
+      "source": "template"
+    },
+    {
+      "keyword": "tang for 40 gallon",
+      "group": "tank-size",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang for 55 gallon",
+      "group": "tank-size",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang for 75 gallon",
+      "group": "tank-size",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang for nano tank",
+      "group": "tank-size",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang tank length",
+      "group": "tank-size",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang fish ph",
+      "group": "water",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish temperature",
+      "group": "water",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish water hardness",
+      "group": "water",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish water parameters",
+      "group": "water",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish water temperature",
+      "group": "water",
+      "source": "template"
+    },
+    {
+      "keyword": "best food for tang fish",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "best tang fish food",
+      "group": "food",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can we eat surgeonfish",
+      "group": "food",
+      "source": "suggest"
+    },
+    {
+      "keyword": "do tang fish eat algae",
+      "group": "food",
+      "source": "suggest"
+    },
+    {
+      "keyword": "do tang fish eat coral",
+      "group": "food",
+      "source": "suggest"
+    },
+    {
+      "keyword": "how often to feed tang fish",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "how to feed nori to tang",
+      "group": "food",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang fish feeding",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish food",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish not eating",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "what do tang fish eat",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "what to feed tang fish",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "how big do tang fish get",
+      "group": "size",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish full size",
+      "group": "size",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish growth rate",
+      "group": "size",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish size",
+      "group": "size",
+      "source": "template"
+    },
+    {
+      "keyword": "how long do tang fish live",
+      "group": "lifespan",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish lifespan",
+      "group": "lifespan",
+      "source": "template"
+    },
+    {
+      "keyword": "tang lifespan in captivity",
+      "group": "lifespan",
+      "source": "extra"
+    },
+    {
+      "keyword": "best tang fish for beginners",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "how to identify surgeonfish",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "tang fish colors",
+      "group": "types",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish species",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang fish types",
+      "group": "types",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish varieties",
+      "group": "types",
+      "source": "template"
+    },
+    {
+      "keyword": "types of tang fish",
+      "group": "types",
+      "source": "template"
+    },
+    {
+      "keyword": "blue tang fish male vs female",
+      "group": "sex",
+      "source": "suggest"
+    },
+    {
+      "keyword": "how to tell if tang fish is male or female",
+      "group": "sex",
+      "source": "template"
+    },
+    {
+      "keyword": "male vs female tang fish",
+      "group": "sex",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish male or female",
+      "group": "sex",
+      "source": "template"
+    },
+    {
+      "keyword": "baby tang fish",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "how to breed tang fish",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "pregnant tang fish",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish breeding",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish eggs",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish fry",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish mating",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "best tank mates for tang fish",
+      "group": "tank-mates",
+      "source": "template"
+    },
+    {
+      "keyword": "can blue tang fish live with clownfish",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "tang fish compatibility",
+      "group": "tank-mates",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish tank mates",
+      "group": "tank-mates",
+      "source": "template"
+    },
+    {
+      "keyword": "what fish can live with tang fish",
+      "group": "tank-mates",
+      "source": "template"
+    },
+    {
+      "keyword": "do tang fish sleep",
+      "group": "behavior",
+      "source": "suggest"
+    },
+    {
+      "keyword": "tang fish aggressive",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish at top of tank",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish behavior",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish chasing other fish",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish hiding",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish jumping",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish lying at bottom of tank",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish swimming erratically",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "black ich tang",
+      "group": "health",
+      "source": "extra"
+    },
+    {
+      "keyword": "marine ich tang",
+      "group": "health",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang fish bloated",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish cloudy eye",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish diseases",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish dropsy",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish dying",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish fin rot",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish gasping for air",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish ich",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish losing color",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish popeye",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish swim bladder",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish turning white",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish white spots",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "tang ich",
+      "group": "health",
+      "source": "extra"
+    },
+    {
+      "keyword": "why is my tang fish not moving",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "adding tangs together",
+      "group": "setup",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang acclimation",
+      "group": "setup",
+      "source": "extra"
+    },
+    {
+      "keyword": "tang quarantine",
+      "group": "maintenance",
+      "source": "extra"
+    },
+    {
+      "keyword": "how many tang fish per gallon",
+      "group": "sizing",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish feeding calculator",
+      "group": "sizing",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish tank size calculator",
+      "group": "sizing",
+      "source": "template"
+    }
+  ],
+  "dropped": [
+    {
+      "keyword": "buy tang fish",
+      "group": "commercial",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish for sale",
+      "group": "commercial",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish near me",
+      "group": "commercial",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish petco",
+      "group": "commercial",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish petsmart",
+      "group": "commercial",
+      "source": "template"
+    },
+    {
+      "keyword": "tang fish price",
+      "group": "commercial",
+      "source": "template"
+    }
+  ],
+  "offtopic": [
+    "tang fish farm",
+    "tang fish dory",
+    "can you eat tang fish",
+    "how to draw blue tang fish",
+    "how to draw a tang fish",
+    "can tang fish be eaten",
+    "can you eat blue tang fish",
+    "wu tang fish",
+    "wu tang fish connections",
+    "wu tang fish meaning",
+    "wu tang fisherman hat",
+    "wu tang fishscale",
+    "wu tang fish song",
+    "can you eat tang fish",
+    "can tang fish be eaten",
+    "can you eat tang fish",
+    "tang fish and chips",
+    "tang fish or currency",
+    "can you eat tang fish",
+    "tang fish and chips",
+    "tang fish in abyss",
+    "tang fish in spanish",
+    "tang fish in tagalog",
+    "tang fish in abyss roblox",
+    "how to pronounce surgeonfish",
+    "how to draw a surgeonfish",
+    "can you eat surgeonfish",
+    "can you eat surgeonfish",
+    "are surgeonfish edible",
+    "can you eat surgeonfish"
+  ]
+}

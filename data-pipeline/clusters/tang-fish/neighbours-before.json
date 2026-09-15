@@ -1,0 +1,111 @@
+{
+  "/compatibility/blue-tang/": {
+    "score": 57.0,
+    "keyword": "Blue Tang Tank Mates",
+    "red": [
+      "kw_h1",
+      "kw_h2",
+      "kw_body",
+      "kw_density",
+      "h1_count",
+      "paragraphs",
+      "page_skeleton",
+      "image_present",
+      "schema_present",
+      "schema_valid",
+      "schema_type_match"
+    ],
+    "yellow": [
+      "desc_keyword",
+      "kw_intro",
+      "kw_url",
+      "topic_focus",
+      "external_present"
+    ]
+  },
+  "/compatibility/yellow-tang/": {
+    "score": 55.3,
+    "keyword": "Yellow Tang Tank Mates",
+    "red": [
+      "kw_h1",
+      "kw_h2",
+      "kw_body",
+      "kw_density",
+      "h1_count",
+      "paragraphs",
+      "page_skeleton",
+      "image_present",
+      "schema_present",
+      "schema_valid",
+      "schema_type_match"
+    ],
+    "yellow": [
+      "title_length",
+      "desc_keyword",
+      "kw_intro",
+      "kw_url",
+      "topic_focus",
+      "external_present"
+    ]
+  },
+  "/guides/blue-tang-care-guide/": {
+    "score": 69.1,
+    "keyword": "Blue Tang Care Guide",
+    "red": [
+      "title_length",
+      "robots_meta",
+      "kw_h1",
+      "kw_density",
+      "topic_focus",
+      "h1_count"
+    ],
+    "yellow": [
+      "kw_h2",
+      "kw_intro",
+      "word_count",
+      "paragraphs",
+      "page_skeleton",
+      "internal_count",
+      "dimensions",
+      "delivery"
+    ]
+  },
+  "/guides/yellow-tang-care-guide/": {
+    "score": 69.1,
+    "keyword": "Yellow Tang Care Guide",
+    "red": [
+      "title_length",
+      "robots_meta",
+      "kw_h1",
+      "kw_density",
+      "topic_focus",
+      "h1_count"
+    ],
+    "yellow": [
+      "kw_h2",
+      "kw_intro",
+      "word_count",
+      "paragraphs",
+      "page_skeleton",
+      "internal_count",
+      "dimensions",
+      "delivery"
+    ]
+  },
+  "/guides/clownfish-care-guide/": {
+    "score": 84.1,
+    "keyword": "Clownfish Care Guide",
+    "red": [
+      "kw_h1",
+      "h1_count",
+      "dead_hrefs"
+    ],
+    "yellow": [
+      "kw_h2",
+      "kw_intro",
+      "kw_alt",
+      "topic_focus",
+      "page_skeleton"
+    ]
+  }
+}

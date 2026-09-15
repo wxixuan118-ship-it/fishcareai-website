@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Tang fish food and feeding schedule</title>
+<desc id="d">Tang fish food chart: nori daily on a clip, herbivore pellets once or twice a day, frozen mysis two or three times a week, constant algae grazing on live rock</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient><linearGradient id="ok" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2bd4c4"/><stop offset="1" stop-color="#27ae60"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">Tang fish food and feeding schedule</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">Grazers, not gulpers. Feed little and often, with algae available most of the day.</text>
+<rect x="48" y="150" width="1104" height="62" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="188" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Nori (dried seaweed)</text>
+<rect x="420" y="164" width="330" height="34" rx="9" fill="url(#ok)"/>
+<text x="436" y="188" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">daily, on a clip</text>
+<text x="780" y="188" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">green or purple, 2–4 hours available</text>
+<rect x="48" y="222" width="1104" height="62" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="260" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Herbivore pellets / flakes</text>
+<rect x="420" y="236" width="330" height="34" rx="9" fill="url(#ok)"/>
+<text x="436" y="260" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">1–2× daily</text>
+<text x="780" y="260" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">spirulina-based, small pieces</text>
+<rect x="48" y="294" width="1104" height="62" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="332" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Frozen mysis or brine</text>
+<rect x="420" y="308" width="330" height="34" rx="9" fill="url(#ok)"/>
+<text x="436" y="332" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">2–3× per week</text>
+<text x="780" y="332" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">protein top-up, rinse first</text>
+<rect x="48" y="366" width="1104" height="62" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="404" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Live rock algae</text>
+<rect x="420" y="380" width="330" height="34" rx="9" fill="url(#ok)"/>
+<text x="436" y="404" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">constant</text>
+<text x="780" y="404" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">film algae and turf they graze between meals</text>
+<rect x="48" y="438" width="1104" height="62" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Garlic-soaked food</text>
+<rect x="420" y="452" width="330" height="34" rx="9" fill="url(#ok)"/>
+<text x="436" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">when new or ill</text>
+<text x="780" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">helps a tang start eating</text>
+<text x="48" y="600" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#8aaec2">A tang that eats well is a tang that resists marine ich. Feeding is the first line of disease prevention.</text>
+<text x="1152" y="618" text-anchor="end" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#5f8aa3">fishcareai.com</text>
+</svg>

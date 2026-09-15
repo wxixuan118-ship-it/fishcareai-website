@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Tang fish behavior: what each signal means</title>
+<desc id="d">Tang fish behavior chart: raised scalpel means aggression, pale colour at night and wedging in rock are normal, glass pacing means a short tank, flashing means parasites, gasping means oxygen or velvet, jumping means startle</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient><linearGradient id="ok" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2bd4c4"/><stop offset="1" stop-color="#27ae60"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">Tang fish behavior: what each signal means</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">Most tang behaviour is normal reef behaviour in a glass box. These are the ones to read.</text>
+<rect x="48" y="150" width="1104" height="54" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="184" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Scalpel raised, sideways swipes</text>
+<rect x="420" y="164" width="330" height="26" rx="9" fill="url(#ok)"/>
+<text x="436" y="184" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">aggression</text>
+<text x="780" y="184" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">territory; another tang nearby</text>
+<rect x="48" y="214" width="1104" height="54" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="248" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Pale colour at night</text>
+<rect x="420" y="228" width="330" height="26" rx="9" fill="url(#ok)"/>
+<text x="436" y="248" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">normal</text>
+<text x="780" y="248" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">tangs blanch to sleep</text>
+<rect x="48" y="278" width="1104" height="54" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="312" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Wedged in rock, upside down</text>
+<rect x="420" y="292" width="330" height="26" rx="9" fill="url(#ok)"/>
+<text x="436" y="312" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">normal (blue tang)</text>
+<text x="780" y="312" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">hiding to rest or when new</text>
+<rect x="48" y="342" width="1104" height="54" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="376" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Glass pacing, same short run</text>
+<rect x="420" y="356" width="330" height="26" rx="9" fill="url(#ok)"/>
+<text x="436" y="376" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">stress</text>
+<text x="780" y="376" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">tank too short</text>
+<rect x="48" y="406" width="1104" height="54" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="440" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Flashing on rock</text>
+<rect x="420" y="420" width="330" height="26" rx="9" fill="url(#ok)"/>
+<text x="436" y="440" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">parasite</text>
+<text x="780" y="440" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">ich, velvet or black ich</text>
+<rect x="48" y="470" width="1104" height="54" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="504" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Hanging in flow, gasping</text>
+<rect x="420" y="484" width="330" height="26" rx="9" fill="url(#ok)"/>
+<text x="436" y="504" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">oxygen or velvet</text>
+<text x="780" y="504" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">test, add flow, look for dust</text>
+<rect x="48" y="534" width="1104" height="54" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="568" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Jumping</text>
+<rect x="420" y="548" width="330" height="26" rx="9" fill="url(#ok)"/>
+<text x="436" y="568" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">startle</text>
+<text x="780" y="568" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">lights on suddenly, new tank; fit a lid</text>
+<text x="1152" y="618" text-anchor="end" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#5f8aa3">fishcareai.com</text>
+</svg>

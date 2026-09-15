@@ -1,0 +1,1272 @@
+{
+  "subject": "Tang Fish",
+  "subject_slug": "tang-fish",
+  "type": "fish",
+  "emoji": "🐟",
+  "base": "/guides/tang-fish-care/",
+  "cluster_label": "Tang Fish Care",
+  "hero_img": "/assets/encyclopedia/real/tang-fish-wikimedia-real.jpg",
+  "hero_img_size": [
+    1600,
+    1067
+  ],
+  "hero_alt": "Blue tang (Paracanthurus hepatus) swimming past coral in a reef aquarium",
+  "date": "2026-09-15",
+  "hub_section": "saltwater-species",
+  "hub_card": {
+    "blurb": "surgeonfish · 75–180+ gal · nori daily · ich-prone",
+    "alt": "Blue tang surgeonfish with yellow tail in a reef aquarium"
+  },
+  "cluster_nav": [
+    [
+      "/guides/tang-fish-care/",
+      "🐟 Tang Fish Care Guide",
+      "pillar"
+    ],
+    [
+      "/guides/tang-fish-care/tank-size/",
+      "🗃️ Tank Size & Length"
+    ],
+    [
+      "/guides/tang-fish-care/water-parameters/",
+      "🌡️ Water Parameters"
+    ],
+    [
+      "/guides/tang-fish-care/food/",
+      "🍚 Food & Feeding"
+    ],
+    [
+      "/guides/tang-fish-care/types/",
+      "🎨 Types of Tang Fish"
+    ],
+    [
+      "/guides/tang-fish-care/size-growth/",
+      "📏 Size & Growth"
+    ],
+    [
+      "/guides/tang-fish-care/lifespan/",
+      "⏳ Lifespan"
+    ],
+    [
+      "/guides/tang-fish-care/tank-mates/",
+      "🐠 Tank Mates"
+    ],
+    [
+      "/guides/tang-fish-care/breeding/",
+      "🥚 Breeding & Sexing"
+    ],
+    [
+      "/guides/tang-fish-care/behavior/",
+      "👀 Behavior & Aggression"
+    ],
+    [
+      "/guides/tang-fish-care/diseases/",
+      "🩺 Diseases & Ich"
+    ],
+    [
+      "/calculators/tang-fish-tank-size/",
+      "🧮 Tank Size Calculator"
+    ],
+    [
+      "/compatibility/blue-tang/",
+      "🐠 Blue Tang Tank Mates"
+    ],
+    [
+      "/species/blue-tang",
+      "📖 Blue Tang Profile"
+    ],
+    [
+      "/species/yellow-tang",
+      "📖 Yellow Tang Profile"
+    ]
+  ],
+  "tool_links": [
+    [
+      "/calculators/tang-fish-tank-size/",
+      "Tang Tank Size Calculator"
+    ],
+    [
+      "/tools/fish-compatibility-checker/",
+      "Compatibility Checker"
+    ],
+    [
+      "/tools/fish-tank-stocking-calculator/",
+      "Stocking Calculator"
+    ]
+  ],
+  "pages": [
+    {
+      "slug": "",
+      "kind": "article",
+      "keyword": "tang fish care",
+      "secondary": [
+        "tang fish",
+        "surgeonfish",
+        "how to care for tang fish"
+      ],
+      "title": "Tang Fish Care: Tank Size, Food, Ich & Surgeonfish Guide",
+      "meta_desc": "Tang fish care guide for surgeonfish: 75–180 gallon tank length, reef water parameters, daily nori, marine ich prevention, species compared and tank mates.",
+      "h1": "Tang Fish Care Guide (Surgeonfish)",
+      "hero_tag": "Care Guide",
+      "hero_meta": "🌊 Saltwater only &nbsp;|&nbsp; 📏 75–180+ gal, 4–6 ft &nbsp;|&nbsp; 🌡 75–80°F &nbsp;|&nbsp; ⏳ 10–30 years",
+      "toc": [
+        [
+          "what-is",
+          "What Is a Tang Fish"
+        ],
+        [
+          "glance",
+          "Care at a Glance"
+        ],
+        [
+          "tank",
+          "Tank Size"
+        ],
+        [
+          "water",
+          "Water Parameters"
+        ],
+        [
+          "food",
+          "Food"
+        ],
+        [
+          "types",
+          "Types"
+        ],
+        [
+          "mates",
+          "Tank Mates"
+        ],
+        [
+          "health",
+          "Ich & Health"
+        ],
+        [
+          "mistakes",
+          "Common Mistakes"
+        ]
+      ],
+      "body_file": "pages/index.html",
+      "faqs": [
+        [
+          "Are tang fish hard to care for?",
+          "Tang fish care is intermediate. The fish themselves are hardy eaters and long-lived; the difficulty is the setup they demand: a 4–6 foot saltwater tank, stable reef parameters, a strict quarantine routine because tangs catch marine ich first, and seaweed every day."
+        ],
+        [
+          "Can tang fish live in freshwater?",
+          "No. Every tang and surgeonfish is a marine reef fish and dies within hours in freshwater. The blue tang from Finding Nemo is a saltwater fish that needs a 125-gallon reef aquarium, not a bowl."
+        ],
+        [
+          "What size tank does a tang fish need?",
+          "A minimum of 75 gallons and 4 feet for the small Zebrasoma tangs (yellow, purple, kole), 125 gallons and 6 feet for blue, powder blue and achilles tangs, and 180 gallons or more for naso and sohal tangs. Length matters more than volume."
+        ],
+        [
+          "Are tangs and surgeonfish the same thing?",
+          "Yes. Tang, surgeonfish and doctorfish are common names for the same family, Acanthuridae. The names refer to the scalpel-like spine on each side of the tail, which the fish raises when threatened."
+        ],
+        [
+          "Why are tang fish so expensive?",
+          "Almost all tangs are wild-caught by hand on reefs in Hawaii, the Indo-Pacific and the Red Sea, then shipped alive. Hawaiian collection has been restricted since 2021, which is why yellow tang prices tripled. Captive-bred yellow and blue tangs exist but remain limited."
+        ],
+        [
+          "How long do tang fish live?",
+          "Ten to twenty years in a well-run aquarium, and several wild surgeonfish species are documented past 30. A tang bought as a juvenile is a two-decade commitment."
+        ],
+        [
+          "Can tang fish sting you?",
+          "The tail spine can cut skin deeply and some species carry mild venom, so the cut hurts more than its size suggests. Never handle a tang by the tail; net it in a container or a fine net with the spine folded."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/tang-fish-care/tank-size/",
+          "Tang Fish Tank Size"
+        ],
+        [
+          "/guides/tang-fish-care/water-parameters/",
+          "Tang Fish Water Parameters"
+        ],
+        [
+          "/guides/tang-fish-care/types/",
+          "Types of Tang Fish"
+        ],
+        [
+          "/guides/tang-fish-care/food/",
+          "Tang Fish Food & Feeding"
+        ],
+        [
+          "/guides/tang-fish-care/tank-mates/",
+          "Tang Fish Tank Mates"
+        ],
+        [
+          "/guides/tang-fish-care/diseases/",
+          "Tang Fish Diseases & Ich"
+        ],
+        [
+          "/guides/tang-fish-care/behavior/",
+          "Tang Fish Behavior"
+        ],
+        [
+          "/guides/tang-fish-care/lifespan/",
+          "Tang Fish Lifespan"
+        ],
+        [
+          "/guides/tang-fish-care/breeding/",
+          "Tang Fish Breeding"
+        ],
+        [
+          "/guides/tang-fish-care/size-growth/",
+          "Tang Fish Size"
+        ],
+        [
+          "/calculators/tang-fish-tank-size/",
+          "Tang Tank Size Calculator"
+        ],
+        [
+          "/compatibility/blue-tang/",
+          "Blue Tang Tank Mates"
+        ]
+      ]
+    },
+    {
+      "slug": "tank-size",
+      "kind": "article",
+      "keyword": "tang fish tank size",
+      "secondary": [
+        "tang fish minimum tank size",
+        "tang tank length",
+        "tang for 55 gallon"
+      ],
+      "title": "Tang Fish Tank Size: Minimum Gallons and Length by Species",
+      "meta_desc": "Tang fish tank size by species: 75 gallons and 4 feet for yellow and kole tangs, 125 gallons and 6 feet for blue tangs, 180+ for naso. Why length beats volume.",
+      "h1": "Tang Fish Tank Size: Minimum Gallons and Tank Length",
+      "hero_tag": "Tank Size",
+      "hero_meta": "📏 75 gal / 4 ft minimum &nbsp;|&nbsp; 🐟 125 gal / 6 ft for most species &nbsp;|&nbsp; 🚫 No nano or 40-gallon tangs",
+      "toc": [
+        [
+          "by-species",
+          "By Species"
+        ],
+        [
+          "length",
+          "Why Length Matters"
+        ],
+        [
+          "common-tanks",
+          "40, 55, 75 and 125 Gallon Tanks"
+        ],
+        [
+          "multiple",
+          "Multiple Tangs"
+        ],
+        [
+          "setup",
+          "Setting Up the Tank"
+        ]
+      ],
+      "body_file": "pages/tank-size.html",
+      "faqs": [
+        [
+          "What is the minimum tank size for a tang fish?",
+          "75 gallons and 4 feet long for the smallest species (yellow, purple, kole, tomini), 125 gallons and 6 feet for blue, powder blue, achilles and convict tangs, and 180 gallons with 6–8 feet for naso, sohal and unicorn tangs."
+        ],
+        [
+          "Can I keep a tang in a 55 gallon tank?",
+          "No. A standard 55 is 4 feet long but only 13 inches front to back, which leaves a 6-inch tang unable to turn comfortably. A 75 gallon (4 ft × 18 in) is the honest minimum for a small tang; a 55 should hold no tang at all."
+        ],
+        [
+          "Can a tang live in a 40 gallon breeder?",
+          "Not long-term. A 40 breeder is 3 feet long. A juvenile tang will seem fine for a few months, then stunt, stress and often develop HLLE or ich. Buy the tang when you have the 4-foot tank, not before."
+        ],
+        [
+          "How many tangs can I keep in a 125 gallon tank?",
+          "Two, from different genera and added at the same time — for example a yellow tang and a blue tang. Three is possible in a 180 gallon; a proper shoal needs 300 gallons or more."
+        ],
+        [
+          "Is tank length more important than gallons for tangs?",
+          "Yes. Tangs are open-water swimmers that cruise in straight lines. A 6-foot, 125-gallon tank suits a blue tang better than a 5-foot, 150-gallon tall tank. Measure length first, then volume."
+        ],
+        [
+          "Does a reef tank need to be bigger for a tang?",
+          "Add about 20%. Rockwork takes swimming lanes away, so a reef-scaped 125 gives a tang the room of an empty 100. Keep an open lane along the front glass."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/tang-fish-care/",
+          "Tang Fish Care Guide"
+        ],
+        [
+          "/calculators/tang-fish-tank-size/",
+          "Tang Tank Size Calculator"
+        ],
+        [
+          "/guides/tang-fish-care/types/",
+          "Types of Tang Fish"
+        ],
+        [
+          "/guides/tang-fish-care/food/",
+          "Tang Fish Food"
+        ],
+        [
+          "/tools/aquarium-size-calculator/",
+          "Aquarium Size Calculator"
+        ],
+        [
+          "/tank-sizes/100-gallon-fish-tank/",
+          "100 Gallon Fish Tank Guide"
+        ]
+      ]
+    },
+    {
+      "slug": "types",
+      "kind": "article",
+      "keyword": "types of tang fish",
+      "secondary": [
+        "tang fish species",
+        "best tang fish for beginners",
+        "tang fish list"
+      ],
+      "title": "Types of Tang Fish: 15 Surgeonfish Species Compared",
+      "meta_desc": "Types of tang fish compared: yellow, blue, purple, kole, powder blue, achilles, naso and sailfin, with adult size, minimum tank, hardiness and best beginner.",
+      "h1": "Types of Tang Fish: 15 Species by Size, Tank and Hardiness",
+      "hero_tag": "Types",
+      "hero_meta": "🎨 3 genera that matter &nbsp;|&nbsp; 📏 4–24 inches &nbsp;|&nbsp; ⭐ Best beginner tang: yellow or kole",
+      "toc": [
+        [
+          "genera",
+          "The Three Genera"
+        ],
+        [
+          "table",
+          "Species Table"
+        ],
+        [
+          "zebrasoma",
+          "Zebrasoma Tangs"
+        ],
+        [
+          "acanthurus",
+          "Acanthurus Tangs"
+        ],
+        [
+          "naso",
+          "Naso and Sohal"
+        ],
+        [
+          "beginners",
+          "Best Tang for Beginners"
+        ]
+      ],
+      "body_file": "pages/types.html",
+      "faqs": [
+        [
+          "What is the best tang fish for beginners?",
+          "The yellow tang or the kole (yellow-eye) tang. Both stay under 8 inches, accept a 75-gallon 4-foot tank, eat prepared food within days and resist ich better than Acanthurus species. Avoid the powder blue and achilles tang until you have run a reef for a couple of years."
+        ],
+        [
+          "What is the smallest tang fish?",
+          "The tomini tang (Ctenochaetus tominiensis) at about 6 inches, followed by the kole tang at 7 and the yellow tang at 7–8. None is a nano fish; the smallest tang still needs 4 feet of swimming length."
+        ],
+        [
+          "Which tang is the hardiest?",
+          "Zebrasoma tangs (yellow, scopas, purple, sailfin) and the bristletooth Ctenochaetus tangs (kole, tomini) are the hardiest. Acanthurus tangs, especially the powder blue and achilles, are the most ich-prone and the most sensitive to shipping."
+        ],
+        [
+          "How many types of tang fish are there?",
+          "Around 80 species in the family Acanthuridae. About 15 are regularly sold for aquariums, split across three groups: Zebrasoma, Acanthurus and Ctenochaetus, plus the larger Naso unicornfish."
+        ],
+        [
+          "Is a blue tang a good beginner fish?",
+          "Not really. The blue (hippo) tang grows to 12 inches, needs 125 gallons and 6 feet, and is one of the first fish to break out in marine ich. It is a good second tang for an established, quarantined reef."
+        ],
+        [
+          "Are there captive-bred tangs?",
+          "Yes, in small numbers. Yellow tangs were first bred at the Oceanic Institute in Hawaii in 2015 and blue tangs in Florida in 2016. Captive-bred fish cost more but arrive eating and free of wild parasites."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/tang-fish-care/",
+          "Tang Fish Care Guide"
+        ],
+        [
+          "/guides/tang-fish-care/tank-size/",
+          "Tang Fish Tank Size"
+        ],
+        [
+          "/species/yellow-tang",
+          "Yellow Tang Profile"
+        ],
+        [
+          "/species/blue-tang",
+          "Blue Tang Profile"
+        ],
+        [
+          "/species/kole-tang",
+          "Kole Tang Profile"
+        ],
+        [
+          "/species/naso-tang",
+          "Naso Tang Profile"
+        ],
+        [
+          "/guides/tang-fish-care/diseases/",
+          "Tang Fish Diseases"
+        ]
+      ]
+    },
+    {
+      "slug": "food",
+      "kind": "article",
+      "keyword": "tang fish food",
+      "secondary": [
+        "what do tang fish eat",
+        "how often to feed tang fish",
+        "tang nori"
+      ],
+      "title": "Tang Fish Food: What Tangs Eat and How Often to Feed",
+      "meta_desc": "Tang fish food explained: nori on a clip daily, spirulina pellets, mysis for protein, what tangs eat on the reef, how often to feed, and why fed tangs beat ich.",
+      "h1": "Tang Fish Food: What Do Tang Fish Eat and How Often?",
+      "hero_tag": "Food & Feeding",
+      "hero_meta": "🌿 Nori every day &nbsp;|&nbsp; 🍚 Pellets 1–2× daily &nbsp;|&nbsp; 🦐 Mysis 2–3× a week",
+      "toc": [
+        [
+          "wild",
+          "What Tangs Eat on the Reef"
+        ],
+        [
+          "best",
+          "Best Tang Fish Food"
+        ],
+        [
+          "nori",
+          "How to Feed Nori"
+        ],
+        [
+          "schedule",
+          "How Often to Feed"
+        ],
+        [
+          "not-eating",
+          "Tang Not Eating"
+        ],
+        [
+          "coral",
+          "Do Tangs Eat Coral?"
+        ]
+      ],
+      "body_file": "pages/food.html",
+      "faqs": [
+        [
+          "What do tang fish eat?",
+          "On the reef, tangs graze algae all day: filamentous turf, film algae and macroalgae, plus the tiny animals living in it. In the aquarium the core tang fish food is dried seaweed (nori) on a clip, spirulina-based pellets or flakes, and frozen mysis for protein."
+        ],
+        [
+          "How often should I feed a tang?",
+          "Offer nori daily so it is available for 2–4 hours, feed pellets or flakes once or twice a day, and add frozen mysis or brine shrimp two or three times a week. Tangs have small stomachs and graze constantly, so several small feeds beat one large one."
+        ],
+        [
+          "Can tangs eat nori from the supermarket?",
+          "Yes, if it is plain, unseasoned and unsalted — check the label for oil, salt or MSG. Sushi nori is the same seaweed (Porphyra) sold as aquarium seaweed at three times the price."
+        ],
+        [
+          "Why is my tang not eating?",
+          "New tangs often refuse food for 2–5 days from shipping stress. Beyond that, check for white spots (ich), rapid breathing, bullying by another tang, and water quality. Garlic-soaked mysis and a fresh sheet of nori tempt most tangs back."
+        ],
+        [
+          "Do tang fish eat algae in the tank?",
+          "Yes. Tangs are the best fish for controlling hair algae and film algae on live rock, which is why reef keepers add them. They will not touch cyanobacteria or bubble algae, and a tang cannot live on tank algae alone once the rock is grazed clean."
+        ],
+        [
+          "Do tangs eat coral?",
+          "Tangs are considered reef safe. A hungry or bored tang may nip at fleshy LPS corals or zoanthids, and naso tangs sometimes pick at clam mantles. Feeding nori daily stops almost all of it."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/tang-fish-care/",
+          "Tang Fish Care Guide"
+        ],
+        [
+          "/guides/tang-fish-care/diseases/",
+          "Tang Fish Diseases"
+        ],
+        [
+          "/guides/tang-fish-care/types/",
+          "Types of Tang Fish"
+        ],
+        [
+          "/tools/fish-feeding-calculator/",
+          "Fish Feeding Calculator"
+        ],
+        [
+          "/guides/tang-fish-care/tank-size/",
+          "Tang Fish Tank Size"
+        ],
+        [
+          "/species/yellow-tang",
+          "Yellow Tang Profile"
+        ]
+      ]
+    },
+    {
+      "slug": "diseases",
+      "kind": "article",
+      "keyword": "tang fish diseases",
+      "secondary": [
+        "tang fish ich",
+        "marine ich tang",
+        "tang hlle",
+        "black ich tang"
+      ],
+      "title": "Tang Fish Diseases: Marine Ich, Velvet, HLLE and Black Ich",
+      "meta_desc": "Tang fish diseases compared: marine ich, velvet, black ich, HLLE and Uronema. How to tell them apart, treatments that work for tangs, and a quarantine plan.",
+      "h1": "Tang Fish Diseases: Ich, Velvet, HLLE and Black Ich",
+      "hero_tag": "Diseases",
+      "hero_meta": "🔬 Tangs show ich first &nbsp;|&nbsp; 🧪 Copper or tank transfer cures it &nbsp;|&nbsp; 🛡 4-week quarantine prevents it",
+      "toc": [
+        [
+          "why",
+          "Why Tangs Get Sick First"
+        ],
+        [
+          "ich",
+          "Marine Ich"
+        ],
+        [
+          "velvet",
+          "Marine Velvet"
+        ],
+        [
+          "black-ich",
+          "Black Ich"
+        ],
+        [
+          "hlle",
+          "HLLE"
+        ],
+        [
+          "uronema",
+          "Uronema, Fin Rot, Bloat"
+        ],
+        [
+          "quarantine",
+          "Quarantine Plan"
+        ]
+      ],
+      "body_file": "pages/diseases.html",
+      "faqs": [
+        [
+          "Why do tangs get ich so easily?",
+          "Tangs have thin, small-scaled skin with little mucus, a fast metabolism and a strong stress response to shipping and small tanks. Cryptocaryon settles on that skin first, which is why a tang is usually the first fish in a reef to show white spots."
+        ],
+        [
+          "How do I treat ich on a tang fish?",
+          "Move the tang to a bare quarantine tank and run copper at the therapeutic level for 30 days, or use the tank-transfer method (a new clean tank every 72 hours, five times). In the display, leave the tank fishless for 76 days to starve the parasite. Reef-safe ich remedies do not cure it."
+        ],
+        [
+          "What is the difference between ich and velvet on a tang?",
+          "Ich is discrete white spots the size of salt grains that come and go over days. Velvet is a fine gold-grey dust that dulls the colour, with rapid breathing and flashing, and it kills in one to three days. Treat velvet as an emergency."
+        ],
+        [
+          "What causes HLLE in tangs?",
+          "Head and lateral line erosion is linked to poor diet (no fresh algae or vitamins), activated carbon dust, stray voltage and chronic stress in small tanks. It is not contagious and reverses partly with daily nori, vitamin-soaked food and a larger tank."
+        ],
+        [
+          "What are the black spots on my tang?",
+          "Pepper-sized black dots that move slightly between days are black ich, a turbellarian flatworm. It is mild: a 5-minute freshwater dip removes the worms, and praziquantel in quarantine clears them. Fixed black patches on a yellow tang are usually stress or ammonia marks instead."
+        ],
+        [
+          "Should I quarantine a new tang?",
+          "Always. Four weeks in a bare 30–40 gallon tank with a PVC hide, observation for the first week, then copper or tank-transfer prophylactically. Quarantine is the only reliable way to keep ich out of a reef, because you cannot treat it once it is in."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/tang-fish-care/",
+          "Tang Fish Care Guide"
+        ],
+        [
+          "/guides/tang-fish-care/food/",
+          "Tang Fish Food"
+        ],
+        [
+          "/guides/tang-fish-care/tank-size/",
+          "Tang Fish Tank Size"
+        ],
+        [
+          "/fish-health/blue-tang-white-spots",
+          "Blue Tang White Spots"
+        ],
+        [
+          "/fish-health/blue-tang-losing-color",
+          "Blue Tang Losing Color"
+        ],
+        [
+          "/tools/water-parameter-checker/",
+          "Water Parameter Checker"
+        ]
+      ]
+    },
+    {
+      "slug": "water-parameters",
+      "kind": "article",
+      "keyword": "tang fish water parameters",
+      "secondary": [
+        "tang fish temperature",
+        "tang fish ph",
+        "can tangs live in freshwater"
+      ],
+      "title": "Tang Fish Water Parameters: Temperature, Salinity and pH",
+      "meta_desc": "Tang fish water parameters: 75–80°F, salinity 1.023–1.026, pH 8.1–8.4, 8–11 dKH, nitrate under 20 ppm, high oxygen — and why stability beats numbers.",
+      "h1": "Tang Fish Water Parameters: Temperature, Salinity, pH and Oxygen",
+      "hero_tag": "Water Parameters",
+      "hero_meta": "🌡 75–80°F &nbsp;|&nbsp; 🧂 1.023–1.026 SG &nbsp;|&nbsp; ⚗️ pH 8.1–8.4 &nbsp;|&nbsp; 💨 Oxygen near saturation",
+      "toc": [
+        [
+          "targets",
+          "The Targets"
+        ],
+        [
+          "temperature",
+          "Temperature"
+        ],
+        [
+          "salinity",
+          "Salinity"
+        ],
+        [
+          "ph",
+          "pH and Alkalinity"
+        ],
+        [
+          "nitrogen",
+          "Ammonia, Nitrate, Phosphate"
+        ],
+        [
+          "oxygen",
+          "Oxygen and Flow"
+        ],
+        [
+          "freshwater",
+          "Freshwater?"
+        ],
+        [
+          "stability",
+          "Keeping It Stable"
+        ]
+      ],
+      "body_file": "pages/water-parameters.html",
+      "faqs": [
+        [
+          "What temperature do tang fish need?",
+          "75–80°F (24–27°C), held within a degree. Tangs tolerate 72–82°F briefly, but a tank that swings 3°F between day and night is a tank where the tang gets ich. Use a controller with two heaters rather than one large heater."
+        ],
+        [
+          "What salinity is best for tangs?",
+          "1.023–1.026 specific gravity (33–35 ppt), the same as a reef. Keep it steady with an auto top-off; evaporation raises salinity daily in a tang tank with strong flow, and salinity creep is a common hidden stressor."
+        ],
+        [
+          "What pH do tang fish need?",
+          "8.1–8.4, with alkalinity at 8–11 dKH to hold it there. A stable 8.1 is better than chasing 8.3 with buffers; pH swings after big water changes or from CO2 build-up in a closed room are what tangs react to."
+        ],
+        [
+          "Can tang fish live in freshwater?",
+          "No. Every tang is a marine fish with no ability to regulate salt in fresh water; it dies within hours. A brief 5-minute freshwater dip, pH- and temperature-matched, is a treatment for parasites, not a place to live."
+        ],
+        [
+          "What nitrate level is safe for tangs?",
+          "Under 20 ppm, ideally under 10 in a reef. Tangs are hardy about nitrate itself, but high nitrate goes with the poor water that triggers HLLE and ich. Phosphate under 0.1 ppm keeps the algae they graze from becoming a nuisance."
+        ],
+        [
+          "Why is oxygen so important for tangs?",
+          "Tangs come from wave-washed reef crests and have a high metabolic rate. Low dissolved oxygen shows as a tang hanging in the powerhead flow or gasping at the surface. A skimmer, 20× turnover and surface ripple keep oxygen near saturation."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/tang-fish-care/",
+          "Tang Fish Care Guide"
+        ],
+        [
+          "/guides/tang-fish-care/tank-size/",
+          "Tang Fish Tank Size"
+        ],
+        [
+          "/guides/tang-fish-care/diseases/",
+          "Tang Fish Diseases"
+        ],
+        [
+          "/tools/water-parameter-checker/",
+          "Water Parameter Checker"
+        ],
+        [
+          "/guides/aquarium-water-parameters/",
+          "Aquarium Water Parameters"
+        ],
+        [
+          "/guides/tang-fish-care/food/",
+          "Tang Fish Food"
+        ]
+      ]
+    },
+    {
+      "slug": "size-growth",
+      "kind": "article",
+      "keyword": "tang fish size",
+      "secondary": [
+        "how big do tang fish get",
+        "tang fish growth rate"
+      ],
+      "title": "Tang Fish Size: How Big Tangs Get and How Fast They Grow",
+      "meta_desc": "Tang fish size by species: 6–8 inches for kole and yellow tangs, 10–12 for blue, 15–18 for naso, up to 24 for vlamingi, with growth rates and tank needs.",
+      "h1": "Tang Fish Size: How Big Do Tang Fish Get?",
+      "hero_tag": "Size & Growth",
+      "hero_meta": "📏 6–24 inches by species &nbsp;|&nbsp; 🚀 Triple in year one &nbsp;|&nbsp; 🏁 Adult in 2–4 years",
+      "toc": [
+        [
+          "by-species",
+          "Size by Species"
+        ],
+        [
+          "growth",
+          "Growth Rate"
+        ],
+        [
+          "shop",
+          "Shop Size vs Adult Size"
+        ],
+        [
+          "stunting",
+          "Stunting"
+        ],
+        [
+          "tank",
+          "Size and the Tank"
+        ]
+      ],
+      "body_file": "pages/size-growth.html",
+      "faqs": [
+        [
+          "How big do tang fish get?",
+          "Between 6 and 24 inches depending on species: kole and tomini tangs 6–7 inches, yellow tangs 7–8, purple and powder blue 9–10, blue tangs 10–12, sailfin 12–15, naso and sohal 15–18, and the vlamingi tang up to 24 inches."
+        ],
+        [
+          "How fast do tang fish grow?",
+          "Fast at first. A 2-inch juvenile typically reaches 5–6 inches in its first year, then slows to an inch or so a year until adult size at 2–4 years. Blue tangs and naso tangs grow fastest; bristletooth tangs slowest."
+        ],
+        [
+          "What size are tang fish when sold?",
+          "Usually 2–4 inches, which is a quarter to a third of the adult size. A shop tang in a 20-gallon holding tank tells you nothing about the tank it needs; the tang fish size chart does."
+        ],
+        [
+          "Do tangs grow to the size of their tank?",
+          "No. A tang in a small tank stops growing on the outside while its organs continue to develop — stunting — and typically dies young of HLLE, ich or organ failure. Tank size limits lifespan, not adult size."
+        ],
+        [
+          "How big is a full grown yellow tang?",
+          "7–8 inches from nose to tail, occasionally 8.5 in a large tank. The tall dorsal and anal fins make it look bigger. It reaches that size in about three years."
+        ],
+        [
+          "Which is the biggest tang fish?",
+          "The vlamingi (bignose unicornfish) at 20–24 inches, followed by the naso and blonde naso at 15–18. All three need 180–300 gallon tanks and are sold as 3-inch juveniles."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/tang-fish-care/",
+          "Tang Fish Care Guide"
+        ],
+        [
+          "/guides/tang-fish-care/tank-size/",
+          "Tang Fish Tank Size"
+        ],
+        [
+          "/guides/tang-fish-care/types/",
+          "Types of Tang Fish"
+        ],
+        [
+          "/guides/tang-fish-care/lifespan/",
+          "Tang Fish Lifespan"
+        ],
+        [
+          "/calculators/tang-fish-tank-size/",
+          "Tang Tank Size Calculator"
+        ],
+        [
+          "/guides/tang-fish-care/food/",
+          "Tang Fish Food"
+        ]
+      ]
+    },
+    {
+      "slug": "lifespan",
+      "kind": "article",
+      "keyword": "tang fish lifespan",
+      "secondary": [
+        "how long do tang fish live",
+        "tang lifespan in captivity"
+      ],
+      "title": "Tang Fish Lifespan: How Long Tang Fish Live in Aquariums",
+      "meta_desc": "Tang fish lifespan is 10–20 years in an aquarium and over 30 in the wild. What shortens it (ich, short tanks, no algae) and what 20-year-old tangs share.",
+      "h1": "Tang Fish Lifespan: How Long Do Tang Fish Live?",
+      "hero_tag": "Lifespan",
+      "hero_meta": "⏳ 10–20 years in aquariums &nbsp;|&nbsp; 🌊 30+ in the wild &nbsp;|&nbsp; ⚠️ Most die in the first year",
+      "toc": [
+        [
+          "typical",
+          "Typical Lifespan"
+        ],
+        [
+          "wild",
+          "Wild vs Captive"
+        ],
+        [
+          "first-year",
+          "The First Year"
+        ],
+        [
+          "extend",
+          "How to Extend It"
+        ],
+        [
+          "age",
+          "How Old Is My Tang?"
+        ]
+      ],
+      "body_file": "pages/lifespan.html",
+      "faqs": [
+        [
+          "How long do tang fish live?",
+          "Ten to twenty years in a well-run aquarium. Yellow tangs regularly reach 20, naso tangs 25, and public aquariums have kept surgeonfish past 30. The wild record for a related species is over 40 years."
+        ],
+        [
+          "How long do blue tangs live?",
+          "Eight to twenty years in captivity; 30 or more in the wild. The spread is wide because so many blue tangs die of ich in their first year. One that survives two years in a 6-foot tank usually lives a long time."
+        ],
+        [
+          "Why do tangs die so often in the first year?",
+          "Shipping stress, no quarantine and marine ich, in that order, plus tanks that are too short. The tang fish lifespan statistic is really two numbers: a high first-year death rate, then decades for the survivors."
+        ],
+        [
+          "How can I tell how old my tang is?",
+          "You cannot read age from a tang directly; size gives a rough guide. A 2–3 inch tang is under a year old, a 5–6 inch yellow tang about two years, and full adult size means three or more. Wild-caught tangs are usually 6–18 months old when sold."
+        ],
+        [
+          "Does a bigger tank make tangs live longer?",
+          "Yes, more than any other factor. A 6-foot tank removes the chronic stress that leads to HLLE, ich outbreaks and stunting. Keepers with 20-year-old tangs almost always have them in 125 gallons or more."
+        ],
+        [
+          "Do captive-bred tangs live longer?",
+          "They tend to survive the first year far better, because they arrive without wild parasites and already eating pellets. After that, the lifespan is the same as a wild fish's — it depends on the tank."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/tang-fish-care/",
+          "Tang Fish Care Guide"
+        ],
+        [
+          "/guides/tang-fish-care/size-growth/",
+          "Tang Fish Size"
+        ],
+        [
+          "/guides/tang-fish-care/diseases/",
+          "Tang Fish Diseases"
+        ],
+        [
+          "/guides/tang-fish-care/tank-size/",
+          "Tang Fish Tank Size"
+        ],
+        [
+          "/guides/tang-fish-care/food/",
+          "Tang Fish Food"
+        ],
+        [
+          "/species/yellow-tang",
+          "Yellow Tang Profile"
+        ]
+      ]
+    },
+    {
+      "slug": "tank-mates",
+      "kind": "article",
+      "keyword": "tang fish tank mates",
+      "secondary": [
+        "what fish can live with tang fish",
+        "are tangs reef safe",
+        "adding tangs together"
+      ],
+      "title": "Tang Fish Tank Mates: What Can Live With a Tang",
+      "meta_desc": "Tang fish tank mates explained: which fish live peacefully with tangs, whether tangs are reef safe, how to keep two tangs together, and the pairings that fail.",
+      "h1": "Tang Fish Tank Mates: What Fish Can Live With Tangs?",
+      "hero_tag": "Tank Mates",
+      "hero_meta": "✅ Clownfish, gobies, wrasses &nbsp;|&nbsp; ⚠️ Other tangs: different genus, 125+ gal &nbsp;|&nbsp; 🪸 Reef safe",
+      "toc": [
+        [
+          "safe",
+          "Safe Tank Mates"
+        ],
+        [
+          "avoid",
+          "Tank Mates to Avoid"
+        ],
+        [
+          "tangs",
+          "Keeping Tangs Together"
+        ],
+        [
+          "order",
+          "Order of Introduction"
+        ],
+        [
+          "reef",
+          "Are Tangs Reef Safe?"
+        ],
+        [
+          "clownfish",
+          "Tangs and Clownfish"
+        ]
+      ],
+      "body_file": "pages/tank-mates.html",
+      "faqs": [
+        [
+          "What fish can live with tang fish?",
+          "Almost any peaceful or semi-aggressive reef fish of a different shape: clownfish, gobies, blennies, wrasses, cardinalfish, chromis, dwarf angels, foxfaces, anthias and hawkfish. Tangs ignore fish that do not look like tangs."
+        ],
+        [
+          "Can you keep two tangs together?",
+          "Yes, in 125 gallons or more, if they are from different genera with different body shapes — a yellow Zebrasoma with a kole bristletooth, or either with a blue tang — and added on the same day. Two of the same species or genus will fight in anything under 180 gallons."
+        ],
+        [
+          "Are tangs reef safe?",
+          "Yes. Tangs graze algae and leave corals, clams and shrimp alone. An underfed tang may nip at fleshy LPS or zoanthids, and naso tangs occasionally pick at clam mantles; daily nori stops it."
+        ],
+        [
+          "Do tangs get along with clownfish?",
+          "Very well. A clownfish pair and a tang are the classic reef combination; they occupy different space, eat different food and ignore each other. Add the clownfish first so they settle before the more active tang arrives."
+        ],
+        [
+          "Which tang is the most aggressive?",
+          "The sohal tang, then the clown tang, purple tang and powder blue tang. All four should be the last fish added and need 180 gallons or more with no similar-shaped tank mates. Kole, tomini, convict and yellow tangs are the mildest."
+        ],
+        [
+          "Can a tang live with a lionfish or trigger?",
+          "In a large fish-only tank, yes — a naso or sohal tang holds its own. Small tangs are bullied by triggers and eaten by large lionfish and groupers. Predators belong in a different system from a 4-inch yellow tang."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/tang-fish-care/",
+          "Tang Fish Care Guide"
+        ],
+        [
+          "/compatibility/blue-tang/",
+          "Blue Tang Tank Mates Hub"
+        ],
+        [
+          "/compatibility/yellow-tang/",
+          "Yellow Tang Tank Mates Hub"
+        ],
+        [
+          "/guides/tang-fish-care/behavior/",
+          "Tang Fish Behavior"
+        ],
+        [
+          "/guides/tang-fish-care/tank-size/",
+          "Tang Fish Tank Size"
+        ],
+        [
+          "/tools/fish-compatibility-checker/",
+          "Fish Compatibility Checker"
+        ],
+        [
+          "/guides/clownfish-care-guide/",
+          "Clownfish Care Guide"
+        ]
+      ]
+    },
+    {
+      "slug": "breeding",
+      "kind": "article",
+      "keyword": "tang fish breeding",
+      "secondary": [
+        "male vs female tang fish",
+        "tang fish eggs",
+        "pregnant tang fish"
+      ],
+      "title": "Tang Fish Breeding: Sexing, Spawning and Captive Breeding",
+      "meta_desc": "Tang fish breeding explained: how to tell male from female, how tangs spawn, why pelagic larvae cannot be raised at home, and how captive-bred tangs are made.",
+      "h1": "Tang Fish Breeding: Male vs Female, Eggs and Captive Breeding",
+      "hero_tag": "Breeding",
+      "hero_meta": "⚥ No visible sex difference &nbsp;|&nbsp; 🥚 Floating eggs, 60–80 day larvae &nbsp;|&nbsp; 🏭 Captive-bred since 2015",
+      "toc": [
+        [
+          "sexing",
+          "Male vs Female"
+        ],
+        [
+          "spawning",
+          "How Tangs Spawn"
+        ],
+        [
+          "eggs",
+          "Eggs and Larvae"
+        ],
+        [
+          "home",
+          "Breeding at Home"
+        ],
+        [
+          "captive",
+          "Captive Breeding"
+        ],
+        [
+          "pregnant",
+          "Is My Tang Pregnant?"
+        ]
+      ],
+      "body_file": "pages/breeding.html",
+      "faqs": [
+        [
+          "How do you tell a male tang from a female?",
+          "In most species you cannot by eye. Males tend to be slightly larger and, in a group, the one that displays and chases at dusk. Naso tangs are the exception: mature males grow long streamers on the tail lobes and a larger nose bump."
+        ],
+        [
+          "Can tang fish breed in a home aquarium?",
+          "Spawning occasionally happens in large tanks with a mature pair, but raising the young does not. Tang eggs float and hatch into tiny pelagic larvae that drift for 60–80 days and need live copepod nauplii; no home aquarium has raised one."
+        ],
+        [
+          "Do tang fish lay eggs?",
+          "Yes. Tangs are broadcast spawners: pairs or groups rise into open water at dusk and release eggs and sperm together. The eggs are about 0.7 mm, float in the current, and hatch within 24–30 hours."
+        ],
+        [
+          "Can a tang fish get pregnant?",
+          "No. Tangs do not carry young. A tang with a swollen belly is well fed, bloated from too much frozen food, or in rare cases carrying an internal problem. Two days of nori-only feeding clears most swollen bellies."
+        ],
+        [
+          "Are captive-bred tangs available?",
+          "Yes, in limited numbers. Yellow tangs were first raised at the Oceanic Institute in Hawaii in 2015, blue tangs at the University of Florida in 2016, and a handful of hatcheries now sell them. They cost more and arrive eating pellets."
+        ],
+        [
+          "Do tangs pair for life?",
+          "No. Most tangs spawn in groups or in temporary pairs that form at dusk and separate afterwards. A 'pair' of tangs in an aquarium is two fish that tolerate each other, not a bonded couple."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/tang-fish-care/",
+          "Tang Fish Care Guide"
+        ],
+        [
+          "/guides/tang-fish-care/types/",
+          "Types of Tang Fish"
+        ],
+        [
+          "/guides/tang-fish-care/size-growth/",
+          "Tang Fish Size"
+        ],
+        [
+          "/guides/tang-fish-care/tank-mates/",
+          "Tang Fish Tank Mates"
+        ],
+        [
+          "/guides/tang-fish-care/food/",
+          "Tang Fish Food"
+        ],
+        [
+          "/species/yellow-tang",
+          "Yellow Tang Profile"
+        ]
+      ]
+    },
+    {
+      "slug": "behavior",
+      "kind": "article",
+      "keyword": "tang fish behavior",
+      "secondary": [
+        "tang fish aggressive",
+        "tang fish sting",
+        "tang fish hiding",
+        "do tang fish sleep"
+      ],
+      "title": "Tang Fish Behavior: Aggression, Scalpel, Hiding, Jumping",
+      "meta_desc": "Tang fish behavior decoded: why tangs fight each other, how the tail scalpel works and whether it can sting, hiding, night colour change, jumping, glass pacing.",
+      "h1": "Tang Fish Behavior: Aggression, the Scalpel, Hiding and Jumping",
+      "hero_tag": "Behavior",
+      "hero_meta": "⚔️ Territorial with tangs, peaceful with others &nbsp;|&nbsp; 🔪 Tail scalpel, mild venom &nbsp;|&nbsp; 🌙 Blanches to sleep",
+      "toc": [
+        [
+          "normal",
+          "Normal Tang Behavior"
+        ],
+        [
+          "aggression",
+          "Aggression"
+        ],
+        [
+          "scalpel",
+          "The Scalpel"
+        ],
+        [
+          "hiding",
+          "Hiding and Colour Change"
+        ],
+        [
+          "stress",
+          "Stress Signals"
+        ],
+        [
+          "jumping",
+          "Jumping"
+        ]
+      ],
+      "body_file": "pages/behavior.html",
+      "faqs": [
+        [
+          "Why is my tang fish aggressive?",
+          "Tangs are territorial toward fish that look like tangs — same shape, same colour, same feeding niche. A new tang, a same-genus tang, or a tank too small to hold two territories triggers it. Toward other families tangs are peaceful, so aggression is nearly always a tang-on-tang problem."
+        ],
+        [
+          "Can a tang fish sting you?",
+          "The tail scalpel can cut deeply, and in some species the wound is mildly venomous and swells and throbs for hours. Never grab a tang by the tail; net it into a container and keep your fingers away from the tail base."
+        ],
+        [
+          "Why is my tang hiding all the time?",
+          "New tangs hide for one to three weeks. An established tang that starts hiding is being bullied, is in a tank too short for it, or is sick — check for spots and rapid breathing. Blue tangs also wedge into rock to rest, which is normal."
+        ],
+        [
+          "Do tang fish sleep?",
+          "Yes. At lights-out a tang settles into a crevice, goes pale or blotchy, and stays still until dawn. The colour change is normal; a tang that is pale during the day is stressed or ill."
+        ],
+        [
+          "Why does my tang swim up and down the glass?",
+          "Glass pacing on the same short run is a stress behaviour that usually means the tank is too short for the fish, or it can see a rival in a reflection. A 6-foot tank and an open swimming lane fix most cases."
+        ],
+        [
+          "Do tangs jump out of tanks?",
+          "Yes, especially in the first weeks, when startled by lights or a sudden movement, or when chased by another tang. A lid or mesh screen is part of standard tang fish care."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/tang-fish-care/",
+          "Tang Fish Care Guide"
+        ],
+        [
+          "/guides/tang-fish-care/tank-mates/",
+          "Tang Fish Tank Mates"
+        ],
+        [
+          "/guides/tang-fish-care/diseases/",
+          "Tang Fish Diseases"
+        ],
+        [
+          "/guides/tang-fish-care/tank-size/",
+          "Tang Fish Tank Size"
+        ],
+        [
+          "/fish-health/blue-tang-aggressive",
+          "Blue Tang Aggressive"
+        ],
+        [
+          "/fish-health/blue-tang-hiding",
+          "Blue Tang Hiding"
+        ]
+      ]
+    },
+    {
+      "slug": "",
+      "url": "/calculators/tang-fish-tank-size/",
+      "kind": "tool",
+      "keyword": "tang fish tank size calculator",
+      "secondary": [
+        "tang tank size calculator",
+        "how many tang fish per gallon"
+      ],
+      "title": "Tang Fish Tank Size Calculator: Gallons and Length",
+      "meta_desc": "Free tang fish tank size calculator: pick the species, number of tangs and reef or fish-only to get the minimum gallons and tank length, and the rule behind it.",
+      "h1": "Tang Fish Tank Size Calculator",
+      "hero_tag": "Calculator",
+      "hero_meta": "🧮 Free tool &nbsp;|&nbsp; 📏 Gallons and feet &nbsp;|&nbsp; 🐟 15 species, 1–4 tangs",
+      "toc": [
+        [
+          "tool",
+          "Calculator"
+        ],
+        [
+          "how",
+          "How It Works"
+        ],
+        [
+          "by-tank",
+          "Which Tang Fits Which Tank"
+        ],
+        [
+          "multiple",
+          "More Than One Tang"
+        ],
+        [
+          "wrong",
+          "Signs the Tank Is Too Small"
+        ]
+      ],
+      "body_file": "pages/calculator.html",
+      "tool": {
+        "heading": "🐟 Tang Fish Tank Size Calculator",
+        "html_file": "tools/calc.html",
+        "js_file": "tools/calc.js"
+      },
+      "faqs": [
+        [
+          "How does the tang fish tank size calculator work?",
+          "It starts from the species minimum (75, 125 or 180 gallons, tied to adult size and swimming style), adds 50% for each extra tang, adds 20% for a reef-scaped tank, and checks the result against the minimum length: 4 feet for small Zebrasoma and bristletooth tangs, 6 feet for everything else."
+        ],
+        [
+          "What tank size does a yellow tang need?",
+          "75 gallons and 4 feet long as a minimum for one adult, 125 gallons if you add a second tang from another genus. A standard 75 (48 × 18 × 21 inches) is the classic single yellow tang tank."
+        ],
+        [
+          "What tank size does a blue tang need?",
+          "125 gallons and 6 feet. Blue (hippo) tangs reach 10–12 inches and swim constantly; the calculator will not return anything under 6 feet for them, no matter how you set the other options."
+        ],
+        [
+          "Can I keep two tangs in a 75 gallon tank?",
+          "No. The calculator returns 113 gallons for two small tangs, which in practice means a 125. Two tangs in a 75 fight, and the loser stops eating and gets ich."
+        ],
+        [
+          "Does the calculator use inches per gallon?",
+          "No. The inch-per-gallon rule fails for active swimmers; a 7-inch yellow tang in a 10-gallon tank would pass it. The calculator uses species minimums drawn from public aquarium and hobby husbandry data instead."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/tang-fish-care/tank-size/",
+          "Tang Fish Tank Size Guide"
+        ],
+        [
+          "/guides/tang-fish-care/",
+          "Tang Fish Care Guide"
+        ],
+        [
+          "/guides/tang-fish-care/types/",
+          "Types of Tang Fish"
+        ],
+        [
+          "/tools/aquarium-size-calculator/",
+          "Aquarium Size Calculator"
+        ],
+        [
+          "/tools/fish-tank-stocking-calculator/",
+          "Fish Tank Stocking Calculator"
+        ],
+        [
+          "/calculators/",
+          "All Tank Size Calculators"
+        ]
+      ]
+    }
+  ]
+}

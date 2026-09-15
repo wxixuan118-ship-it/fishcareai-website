@@ -1,0 +1,25 @@
+    <div class="tool-grid">
+      <label>Tang species (largest you will keep)<select id="tg-sp">
+        <option value="yellow">Yellow tang (7–8 in)</option>
+        <option value="kole">Kole / yellow-eye tang (7 in)</option>
+        <option value="tomini">Tomini tang (6 in)</option>
+        <option value="scopas">Scopas tang (8 in)</option>
+        <option value="purple">Purple tang (9–10 in)</option>
+        <option value="convict">Convict tang (8 in)</option>
+        <option value="blue" selected>Blue / hippo tang (10–12 in)</option>
+        <option value="powderblue">Powder blue tang (9 in)</option>
+        <option value="chevron">Chevron tang (8–10 in)</option>
+        <option value="sailfin">Sailfin / desjardini tang (12–15 in)</option>
+        <option value="achilles">Achilles tang (9–10 in)</option>
+        <option value="naso">Naso / lipstick tang (15–18 in)</option>
+        <option value="sohal">Sohal tang (15–16 in)</option>
+        <option value="clown">Clown tang (12–14 in)</option>
+        <option value="vlamingi">Vlamingi / unicorn tang (20–24 in)</option>
+      </select></label>
+      <label>How many tangs in total<select id="tg-n"><option value="1" selected>1</option><option value="2">2 (different genera)</option><option value="3">3 (different genera)</option><option value="4">4 or more</option></select></label>
+      <label>Tank type<select id="tg-reef"><option value="1" selected>Fish-only or lightly scaped</option><option value="1.2">Reef with full rockwork</option></select></label>
+      <label>Your tank length (optional)<select id="tg-len"><option value="0" selected>Not decided yet</option><option value="3">3 ft (36 in)</option><option value="4">4 ft (48 in)</option><option value="5">5 ft (60 in)</option><option value="6">6 ft (72 in)</option><option value="8">8 ft (96 in)</option></select></label>
+    </div>
+    <button class="btn bp" id="tg-go" type="button">Calculate tang tank size</button>
+    <div class="tool-result" id="tg-result" aria-live="polite"><p>Choose a tang and press calculate.</p></div>
+    <p class="tool-note">Species minimums for one adult, +50% per extra tang, +20% for a reef, rounded up to the next standard tank that also meets the minimum length. Not a stocking calculator for the rest of the community.</p>

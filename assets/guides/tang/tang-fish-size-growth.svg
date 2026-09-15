@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Tang fish size: adult length and growth rate by species</title>
+<desc id="d">Tang fish size chart: tomini and kole 6 to 7 inches, yellow 7 to 8, blue tang 10 to 12, sailfin 12 to 15, naso 15 to 18, vlamingi 20 to 24 inches, with growth rates</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient><linearGradient id="ok" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2bd4c4"/><stop offset="1" stop-color="#27ae60"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">Tang fish size: adult length and growth rate by species</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">Sold at 2–3 inches, most tangs triple in the first year and reach adult size in 2–4 years.</text>
+<rect x="48" y="150" width="1104" height="48" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="181" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Tomini / kole tang</text>
+<rect x="420" y="164" width="330" height="20" rx="9" fill="url(#ok)"/>
+<text x="436" y="181" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">6–7 in</text>
+<text x="780" y="181" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">adult in ~2 years</text>
+<rect x="48" y="208" width="1104" height="48" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="239" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Yellow / scopas tang</text>
+<rect x="420" y="222" width="330" height="20" rx="9" fill="url(#ok)"/>
+<text x="436" y="239" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">7–8 in</text>
+<text x="780" y="239" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">1 in per year after year one</text>
+<rect x="48" y="266" width="1104" height="48" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="297" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Purple / powder blue</text>
+<rect x="420" y="280" width="330" height="20" rx="9" fill="url(#ok)"/>
+<text x="436" y="297" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">9–10 in</text>
+<text x="780" y="297" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">adult in 3 years</text>
+<rect x="48" y="324" width="1104" height="48" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="355" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Blue (hippo) tang</text>
+<rect x="420" y="338" width="330" height="20" rx="9" fill="url(#ok)"/>
+<text x="436" y="355" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">10–12 in</text>
+<text x="780" y="355" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">fast: 6 in in year one</text>
+<rect x="48" y="382" width="1104" height="48" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="413" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Sailfin / desjardini</text>
+<rect x="420" y="396" width="330" height="20" rx="9" fill="url(#ok)"/>
+<text x="436" y="413" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">12–15 in</text>
+<text x="780" y="413" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">adult in 3–4 years</text>
+<rect x="48" y="440" width="1104" height="48" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="471" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Naso / sohal / clown</text>
+<rect x="420" y="454" width="330" height="20" rx="9" fill="url(#ok)"/>
+<text x="436" y="471" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">15–18 in</text>
+<text x="780" y="471" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">keep growing past 4 years</text>
+<rect x="48" y="498" width="1104" height="48" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="529" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Vlamingi / unicorn</text>
+<rect x="420" y="512" width="330" height="20" rx="9" fill="url(#ok)"/>
+<text x="436" y="529" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">20–24 in</text>
+<text x="780" y="529" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">the largest aquarium tang</text>
+<text x="48" y="600" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#8aaec2">Buy the tank for the adult on this chart, not the juvenile in the shop.</text>
+<text x="1152" y="618" text-anchor="end" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#5f8aa3">fishcareai.com</text>
+</svg>

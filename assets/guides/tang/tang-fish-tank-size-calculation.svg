@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">How the tang fish tank size calculator works</title>
+<desc id="d">Tang fish tank size calculator diagram: species minimum of 75, 125 or 180 gallons, plus 50 percent per extra tang, tank length of 4, 6 or 8 feet, and a 20 percent reef allowance</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient><linearGradient id="ok" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2bd4c4"/><stop offset="1" stop-color="#27ae60"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">How the tang fish tank size calculator works</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">Start from the species minimum, then add for every extra tang and every foot of length you are missing.</text>
+<rect x="48" y="150" width="1104" height="62" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="188" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">1. Species minimum</text>
+<rect x="420" y="164" width="330" height="34" rx="9" fill="url(#ok)"/>
+<text x="436" y="188" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">75 / 125 / 180 gal</text>
+<text x="780" y="188" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">from adult size and swimming style</text>
+<rect x="48" y="222" width="1104" height="62" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="260" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">2. Extra tangs</text>
+<rect x="420" y="236" width="330" height="34" rx="9" fill="url(#ok)"/>
+<text x="436" y="260" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">+50% each</text>
+<text x="780" y="260" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">only from a different genus, added together</text>
+<rect x="48" y="294" width="1104" height="62" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="332" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">3. Tank length</text>
+<rect x="420" y="308" width="330" height="34" rx="9" fill="url(#ok)"/>
+<text x="436" y="332" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">4 ft / 6 ft / 8 ft</text>
+<text x="780" y="332" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">a long 90 beats a tall 120</text>
+<rect x="48" y="366" width="1104" height="62" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="404" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">4. Reef vs fish-only</text>
+<rect x="420" y="380" width="330" height="34" rx="9" fill="url(#ok)"/>
+<text x="436" y="404" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">reef: +20%</text>
+<text x="780" y="404" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">rockwork removes swimming lanes</text>
+<rect x="48" y="438" width="1104" height="62" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Result</text>
+<rect x="420" y="452" width="330" height="34" rx="9" fill="url(#ok)"/>
+<text x="436" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">gallons and feet</text>
+<text x="780" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">plus a stocking note for your combination</text>
+<text x="1152" y="618" text-anchor="end" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#5f8aa3">fishcareai.com</text>
+</svg>

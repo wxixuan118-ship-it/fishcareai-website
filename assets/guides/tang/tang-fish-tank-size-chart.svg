@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Tang fish tank size by species group</title>
+<desc id="d">Tang fish tank size chart: 75 gallons and 4 feet for yellow and kole tangs, 125 gallons and 6 feet for blue and powder blue tangs, 180 gallons or more for naso and sohal tangs</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient><linearGradient id="ok" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2bd4c4"/><stop offset="1" stop-color="#27ae60"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">Tang fish tank size by species group</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">Minimum for one adult. Length matters more than gallons: tangs swim in straight lines all day.</text>
+<rect x="48" y="150" width="1104" height="62" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="188" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Small Zebrasoma</text>
+<rect x="420" y="164" width="330" height="34" rx="9" fill="url(#ok)"/>
+<text x="436" y="188" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">75 gal · 4 ft</text>
+<text x="780" y="188" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">yellow, purple, scopas, kole, tomini</text>
+<rect x="48" y="222" width="1104" height="62" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="260" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Medium Acanthurus</text>
+<rect x="420" y="236" width="330" height="34" rx="9" fill="url(#ok)"/>
+<text x="436" y="260" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">125 gal · 6 ft</text>
+<text x="780" y="260" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">blue (hippo), powder blue, achilles, convict</text>
+<rect x="48" y="294" width="1104" height="62" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="332" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Large Zebrasoma</text>
+<rect x="420" y="308" width="330" height="34" rx="9" fill="url(#ok)"/>
+<text x="436" y="332" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">125–150 gal · 6 ft</text>
+<text x="780" y="332" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">sailfin, desjardini</text>
+<rect x="48" y="366" width="1104" height="62" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="404" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Naso and sohal</text>
+<rect x="420" y="380" width="330" height="34" rx="9" fill="url(#ok)"/>
+<text x="436" y="404" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">180+ gal · 6–8 ft</text>
+<text x="780" y="404" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">naso, unicorn, sohal, clown tang</text>
+<rect x="48" y="438" width="1104" height="62" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Two tangs together</text>
+<rect x="420" y="452" width="330" height="34" rx="9" fill="url(#ok)"/>
+<text x="436" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">+50% volume</text>
+<text x="780" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">different genus, added at once</text>
+<text x="48" y="600" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#8aaec2">40-gallon and nano tanks are too short for any tang, including a juvenile that will outgrow them in a year.</text>
+<text x="1152" y="618" text-anchor="end" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#5f8aa3">fishcareai.com</text>
+</svg>

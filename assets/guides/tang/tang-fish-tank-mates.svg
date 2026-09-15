@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Tang fish tank mates: who works and who does not</title>
+<desc id="d">Tang fish tank mates chart: clownfish, gobies, blennies, wrasses and dwarf angels are safe; same-genus tangs fight; different-genus tangs need 125 gallons and same-day introduction; corals and shrimp are safe</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient><linearGradient id="ok" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2bd4c4"/><stop offset="1" stop-color="#27ae60"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">Tang fish tank mates: who works and who does not</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">Peaceful with almost every other family; territorial with their own.</text>
+<rect x="48" y="150" width="1104" height="54" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="184" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Clownfish, gobies, blennies</text>
+<rect x="420" y="164" width="330" height="26" rx="9" fill="url(#ok)"/>
+<text x="436" y="184" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">✓ safe</text>
+<text x="780" y="184" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">ignore each other</text>
+<rect x="48" y="214" width="1104" height="54" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="248" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Wrasses, cardinals, dwarf angels</text>
+<rect x="420" y="228" width="330" height="26" rx="9" fill="url(#ok)"/>
+<text x="436" y="248" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">✓ safe</text>
+<text x="780" y="248" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">add angels before the tang</text>
+<rect x="48" y="278" width="1104" height="54" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="312" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Damsels, dottybacks</text>
+<rect x="420" y="292" width="330" height="26" rx="9" fill="url(#ok)"/>
+<text x="436" y="312" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">~ watch</text>
+<text x="780" y="312" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">small bullies; fine in 6 ft</text>
+<rect x="48" y="342" width="1104" height="54" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="376" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Other tangs, same genus</text>
+<rect x="420" y="356" width="330" height="26" rx="9" fill="url(#ok)"/>
+<text x="436" y="376" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">✗ fights</text>
+<text x="780" y="376" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">two Zebrasoma = war</text>
+<rect x="48" y="406" width="1104" height="54" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="440" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Other tangs, different genus</text>
+<rect x="420" y="420" width="330" height="26" rx="9" fill="url(#ok)"/>
+<text x="436" y="440" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">~ 125+ gal</text>
+<text x="780" y="440" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">add together, same day</text>
+<rect x="48" y="470" width="1104" height="54" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="504" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Corals, clams, shrimp</text>
+<rect x="420" y="484" width="330" height="26" rx="9" fill="url(#ok)"/>
+<text x="436" y="504" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">✓ reef safe</text>
+<text x="780" y="504" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">rare nips when underfed</text>
+<rect x="48" y="534" width="1104" height="54" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="568" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Lionfish, groupers, triggers</text>
+<rect x="420" y="548" width="330" height="26" rx="9" fill="url(#ok)"/>
+<text x="436" y="568" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">✗ / large tanks</text>
+<text x="780" y="568" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">predators or bullies</text>
+<text x="1152" y="618" text-anchor="end" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#5f8aa3">fishcareai.com</text>
+</svg>

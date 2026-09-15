@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Tang fish care at a glance: the numbers every surgeonfish needs</title>
+<desc id="d">Tang fish care chart: 75 to 180 gallon tank, 75 to 80 F, 1.023 to 1.026 salinity, pH 8.1 to 8.4, zero ammonia and nitrite, nitrate under 20 ppm, daily nori and algae</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient><linearGradient id="ok" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2bd4c4"/><stop offset="1" stop-color="#27ae60"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">Tang fish care at a glance: the numbers every surgeonfish needs</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">Saltwater only. Swimming room, oxygen and algae matter more than anything else.</text>
+<rect x="48" y="150" width="1104" height="48" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="181" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Tank size</text>
+<rect x="420" y="164" width="330" height="20" rx="9" fill="url(#ok)"/>
+<text x="436" y="181" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">75–180+ gallons</text>
+<text x="780" y="181" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">4 ft minimum, 6 ft for most species</text>
+<rect x="48" y="208" width="1104" height="48" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="239" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Temperature</text>
+<rect x="420" y="222" width="330" height="20" rx="9" fill="url(#ok)"/>
+<text x="436" y="239" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">75–80°F (24–27°C)</text>
+<text x="780" y="239" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">stable within 1°F</text>
+<rect x="48" y="266" width="1104" height="48" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="297" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Salinity</text>
+<rect x="420" y="280" width="330" height="20" rx="9" fill="url(#ok)"/>
+<text x="436" y="297" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">1.023–1.026 SG</text>
+<text x="780" y="297" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">35 ppt, no swings</text>
+<rect x="48" y="324" width="1104" height="48" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="355" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">pH / alkalinity</text>
+<rect x="420" y="338" width="330" height="20" rx="9" fill="url(#ok)"/>
+<text x="436" y="355" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">8.1–8.4 / 8–11 dKH</text>
+<text x="780" y="355" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">reef-standard</text>
+<rect x="48" y="382" width="1104" height="48" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="413" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Ammonia / nitrite</text>
+<rect x="420" y="396" width="330" height="20" rx="9" fill="url(#ok)"/>
+<text x="436" y="413" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">0 ppm</text>
+<text x="780" y="413" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">always</text>
+<rect x="48" y="440" width="1104" height="48" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="471" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Nitrate</text>
+<rect x="420" y="454" width="330" height="20" rx="9" fill="url(#ok)"/>
+<text x="436" y="471" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">under 20 ppm</text>
+<text x="780" y="471" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">10% weekly change</text>
+<rect x="48" y="498" width="1104" height="48" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="529" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Diet</text>
+<rect x="420" y="512" width="330" height="20" rx="9" fill="url(#ok)"/>
+<text x="436" y="529" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">nori and algae daily</text>
+<text x="780" y="529" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">plus pellets, mysis</text>
+<text x="48" y="600" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#8aaec2">Every number on this chart is expanded on a page of the tang fish care series.</text>
+<text x="1152" y="618" text-anchor="end" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#5f8aa3">fishcareai.com</text>
+</svg>

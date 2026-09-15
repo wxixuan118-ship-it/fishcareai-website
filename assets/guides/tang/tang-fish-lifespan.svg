@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Tang fish lifespan: what decides 5 years or 25</title>
+<desc id="d">Tang fish lifespan chart: 10 to 20 years in aquariums, decided by tank length, daily nori, quarantine and stable water; wild surgeonfish live over 30 years</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient><linearGradient id="ok" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2bd4c4"/><stop offset="1" stop-color="#27ae60"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">Tang fish lifespan: what decides 5 years or 25</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">Wild surgeonfish live 30+ years. In aquariums, four factors set the number.</text>
+<rect x="48" y="150" width="1104" height="58" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="186" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Typical aquarium lifespan</text>
+<rect x="420" y="164" width="330" height="30" rx="9" fill="url(#ok)"/>
+<text x="436" y="186" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">10–20 years</text>
+<text x="780" y="186" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">yellow tangs to 20, naso to 25</text>
+<rect x="48" y="218" width="1104" height="58" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="254" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Tank length</text>
+<rect x="420" y="232" width="330" height="30" rx="9" fill="url(#ok)"/>
+<text x="436" y="254" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">4 ft vs 6 ft</text>
+<text x="780" y="254" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">short tanks cut years off</text>
+<rect x="48" y="286" width="1104" height="58" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="322" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Diet</text>
+<rect x="420" y="300" width="330" height="30" rx="9" fill="url(#ok)"/>
+<text x="436" y="322" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">nori daily</text>
+<text x="780" y="322" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">no algae → HLLE, short life</text>
+<rect x="48" y="354" width="1104" height="58" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="390" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Quarantine</text>
+<rect x="420" y="368" width="330" height="30" rx="9" fill="url(#ok)"/>
+<text x="436" y="390" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">4 weeks every fish</text>
+<text x="780" y="390" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">ich is the #1 early killer</text>
+<rect x="48" y="422" width="1104" height="58" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="458" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Water stability</text>
+<rect x="420" y="436" width="330" height="30" rx="9" fill="url(#ok)"/>
+<text x="436" y="458" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">±1°F, ±0.001 SG</text>
+<text x="780" y="458" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">swings, not numbers</text>
+<rect x="48" y="490" width="1104" height="58" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="526" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Age at purchase</text>
+<rect x="420" y="504" width="330" height="30" rx="9" fill="url(#ok)"/>
+<text x="436" y="526" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">1–2 years old</text>
+<text x="780" y="526" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">wild-caught juveniles</text>
+<text x="48" y="600" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#8aaec2">A tang is a two-decade commitment; plan the tank for the fish it will be in year ten.</text>
+<text x="1152" y="618" text-anchor="end" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#5f8aa3">fishcareai.com</text>
+</svg>

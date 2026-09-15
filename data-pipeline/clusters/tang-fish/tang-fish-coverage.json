@@ -1,0 +1,4976 @@
+{
+  "subject": "tang fish",
+  "type": "fish",
+  "aliases": [
+    "tang",
+    "surgeonfish"
+  ],
+  "keywords": [
+    {
+      "keyword": "achilles tang",
+      "group": "types",
+      "source": "extra",
+      "status": "covered",
+      "url": "/species/achilles-tang",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "are surgeonfish dangerous",
+      "group": "behavior",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "are surgeonfish poisonous",
+      "group": "behavior",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "are tangs reef safe",
+      "group": "tank-mates",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "are tangs surgeonfish",
+      "group": "pillar",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "best looking tang fish",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "best tang fish",
+      "group": "types",
+      "source": "suggest",
+      "status": "partial",
+      "url": "/compatibility/blue-tang/",
+      "matched_on": "slug",
+      "where": "local+live",
+      "page_words": 867,
+      "page_title": "Blue Tang Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "blue tang care",
+      "group": "types",
+      "source": "extra",
+      "status": "covered",
+      "url": "/guides/blue-tang-care-guide/",
+      "matched_on": "slug",
+      "where": "local+live",
+      "page_words": 344,
+      "page_title": "Blue Tang Care Guide: Tank Size, Temperature, Food Tank Mates | FishCare AI",
+      "noindex": true
+    },
+    {
+      "keyword": "blue tang fish care",
+      "group": "types",
+      "source": "suggest",
+      "status": "partial",
+      "url": "/compatibility/blue-tang/",
+      "matched_on": "slug",
+      "where": "local+live",
+      "page_words": 867,
+      "page_title": "Blue Tang Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "can blue tang fish live in freshwater",
+      "group": "water",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "can surgeonfish hurt you",
+      "group": "behavior",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "can tangs live in freshwater",
+      "group": "water",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "cheapest tang",
+      "group": "types",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "do blue tang fish and clownfish get along",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "head and lateral line erosion tang",
+      "group": "health",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "hippo tang",
+      "group": "types",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how to care for tang fish",
+      "group": "pillar",
+      "source": "template",
+      "status": "partial",
+      "url": "/compatibility/blue-tang/",
+      "matched_on": "slug",
+      "where": "local+live",
+      "page_words": 867,
+      "page_title": "Blue Tang Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "kole tang",
+      "group": "types",
+      "source": "extra",
+      "status": "covered",
+      "url": "/species/kole-tang",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "most beautiful tang fish",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "naso tang",
+      "group": "types",
+      "source": "extra",
+      "status": "covered",
+      "url": "/species/naso-tang",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "powder blue tang",
+      "group": "types",
+      "source": "extra",
+      "status": "covered",
+      "url": "/species/powder-blue-tang",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "purple tang care",
+      "group": "types",
+      "source": "extra",
+      "status": "partial",
+      "url": "/species/purple-tang",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "sailfin tang",
+      "group": "types",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "smallest tang",
+      "group": "types",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang",
+      "group": "pillar",
+      "source": "suggest",
+      "status": "covered",
+      "url": "/compatibility/blue-tang/",
+      "matched_on": "slug",
+      "where": "local+live",
+      "page_words": 867,
+      "page_title": "Blue Tang Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "tang aggression",
+      "group": "behavior",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang black spots",
+      "group": "health",
+      "source": "extra",
+      "status": "covered",
+      "url": "/fish-health/blue-tang-black-spots",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang care",
+      "group": "pillar",
+      "source": "suggest",
+      "status": "covered",
+      "url": "/guides/blue-tang-care-guide/",
+      "matched_on": "slug",
+      "where": "local+live",
+      "page_words": 344,
+      "page_title": "Blue Tang Care Guide: Tank Size, Temperature, Food Tank Mates | FishCare AI",
+      "noindex": true
+    },
+    {
+      "keyword": "tang care guide",
+      "group": "pillar",
+      "source": "suggest",
+      "status": "covered",
+      "url": "/guides/blue-tang-care-guide/",
+      "matched_on": "slug",
+      "where": "local+live",
+      "page_words": 344,
+      "page_title": "Blue Tang Care Guide: Tank Size, Temperature, Food Tank Mates | FishCare AI",
+      "noindex": true
+    },
+    {
+      "keyword": "tang fish",
+      "group": "pillar",
+      "source": "template",
+      "status": "partial",
+      "url": "/compatibility/blue-tang/",
+      "matched_on": "slug",
+      "where": "local+live",
+      "page_words": 867,
+      "page_title": "Blue Tang Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish care",
+      "group": "pillar",
+      "source": "template",
+      "status": "partial",
+      "url": "/compatibility/blue-tang/",
+      "matched_on": "slug",
+      "where": "local+live",
+      "page_words": 867,
+      "page_title": "Blue Tang Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish care guide",
+      "group": "pillar",
+      "source": "template",
+      "status": "partial",
+      "url": "/compatibility/blue-tang/",
+      "matched_on": "slug",
+      "where": "local+live",
+      "page_words": 867,
+      "page_title": "Blue Tang Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish facts",
+      "group": "pillar",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish for beginners",
+      "group": "pillar",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish freshwater",
+      "group": "water",
+      "source": "extra",
+      "status": "partial",
+      "url": "/compatibility/blue-tang/",
+      "matched_on": "slug",
+      "where": "local+live",
+      "page_words": 867,
+      "page_title": "Blue Tang Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish list",
+      "group": "types",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish poisonous",
+      "group": "behavior",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish reef safe",
+      "group": "tank-mates",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish saltwater",
+      "group": "water",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish sting",
+      "group": "behavior",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang hlle",
+      "group": "health",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang nori",
+      "group": "food",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang red spots",
+      "group": "health",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang scales",
+      "group": "pillar",
+      "source": "extra",
+      "status": "partial",
+      "url": "/fish-health/blue-tang-missing-scales",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang scalpel",
+      "group": "behavior",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang spine",
+      "group": "behavior",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "what is a surgeonfish",
+      "group": "pillar",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "why are tang fish so expensive",
+      "group": "pillar",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "yellow tang care",
+      "group": "types",
+      "source": "extra",
+      "status": "covered",
+      "url": "/guides/yellow-tang-care-guide/",
+      "matched_on": "slug",
+      "where": "local+live",
+      "page_words": 342,
+      "page_title": "Yellow Tang Care Guide: Tank Size, Temperature, Food Tank Mates | FishCare AI",
+      "noindex": true
+    },
+    {
+      "keyword": "yellow tang fish care",
+      "group": "pillar",
+      "source": "suggest",
+      "status": "partial",
+      "url": "/compatibility/yellow-tang/",
+      "matched_on": "slug",
+      "where": "local+live",
+      "page_words": 877,
+      "page_title": "Yellow Tang Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "6 foot tank for tang",
+      "group": "tank-size",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how many tang fish in a 10 gallon tank",
+      "group": "tank-size",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how many tang fish in a 20 gallon tank",
+      "group": "tank-size",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish minimum tank size",
+      "group": "tank-size",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish tank",
+      "group": "tank-size",
+      "source": "template",
+      "status": "partial",
+      "url": "/compatibility/blue-tang/",
+      "matched_on": "slug",
+      "where": "local+live",
+      "page_words": 867,
+      "page_title": "Blue Tang Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish tank setup",
+      "group": "tank-size",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish tank size",
+      "group": "tank-size",
+      "source": "template",
+      "status": "partial",
+      "url": "/guides/blue-tang-care-guide/",
+      "matched_on": "title",
+      "where": "local+live",
+      "page_words": 344,
+      "page_title": "Blue Tang Care Guide: Tank Size, Temperature, Food Tank Mates | FishCare AI",
+      "noindex": true
+    },
+    {
+      "keyword": "tang for 40 gallon",
+      "group": "tank-size",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang for 55 gallon",
+      "group": "tank-size",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang for 75 gallon",
+      "group": "tank-size",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang for nano tank",
+      "group": "tank-size",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang tank length",
+      "group": "tank-size",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish ph",
+      "group": "water",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish temperature",
+      "group": "water",
+      "source": "template",
+      "status": "partial",
+      "url": "/guides/blue-tang-care-guide/",
+      "matched_on": "title",
+      "where": "local+live",
+      "page_words": 344,
+      "page_title": "Blue Tang Care Guide: Tank Size, Temperature, Food Tank Mates | FishCare AI",
+      "noindex": true
+    },
+    {
+      "keyword": "tang fish water hardness",
+      "group": "water",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish water parameters",
+      "group": "water",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish water temperature",
+      "group": "water",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "best food for tang fish",
+      "group": "food",
+      "source": "template",
+      "status": "partial",
+      "url": "/guides/blue-tang-care-guide/",
+      "matched_on": "title",
+      "where": "local+live",
+      "page_words": 344,
+      "page_title": "Blue Tang Care Guide: Tank Size, Temperature, Food Tank Mates | FishCare AI",
+      "noindex": true
+    },
+    {
+      "keyword": "best tang fish food",
+      "group": "food",
+      "source": "suggest",
+      "status": "partial",
+      "url": "/guides/blue-tang-care-guide/",
+      "matched_on": "title",
+      "where": "local+live",
+      "page_words": 344,
+      "page_title": "Blue Tang Care Guide: Tank Size, Temperature, Food Tank Mates | FishCare AI",
+      "noindex": true
+    },
+    {
+      "keyword": "can we eat surgeonfish",
+      "group": "food",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "do tang fish eat algae",
+      "group": "food",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "do tang fish eat coral",
+      "group": "food",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how often to feed tang fish",
+      "group": "food",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how to feed nori to tang",
+      "group": "food",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish feeding",
+      "group": "food",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish food",
+      "group": "food",
+      "source": "template",
+      "status": "partial",
+      "url": "/guides/blue-tang-care-guide/",
+      "matched_on": "title",
+      "where": "local+live",
+      "page_words": 344,
+      "page_title": "Blue Tang Care Guide: Tank Size, Temperature, Food Tank Mates | FishCare AI",
+      "noindex": true
+    },
+    {
+      "keyword": "tang fish not eating",
+      "group": "food",
+      "source": "template",
+      "status": "partial",
+      "url": "/fish-health/blue-tang-not-eating",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "what do tang fish eat",
+      "group": "food",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "what to feed tang fish",
+      "group": "food",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how big do tang fish get",
+      "group": "size",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish full size",
+      "group": "size",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish growth rate",
+      "group": "size",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish size",
+      "group": "size",
+      "source": "template",
+      "status": "partial",
+      "url": "/guides/blue-tang-care-guide/",
+      "matched_on": "title",
+      "where": "local+live",
+      "page_words": 344,
+      "page_title": "Blue Tang Care Guide: Tank Size, Temperature, Food Tank Mates | FishCare AI",
+      "noindex": true
+    },
+    {
+      "keyword": "how long do tang fish live",
+      "group": "lifespan",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish lifespan",
+      "group": "lifespan",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang lifespan in captivity",
+      "group": "lifespan",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "best tang fish for beginners",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how to identify surgeonfish",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish colors",
+      "group": "types",
+      "source": "template",
+      "status": "partial",
+      "url": "/fish-health/blue-tang-pale-color",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish species",
+      "group": "types",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish types",
+      "group": "types",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish varieties",
+      "group": "types",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "types of tang fish",
+      "group": "types",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "blue tang fish male vs female",
+      "group": "sex",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how to tell if tang fish is male or female",
+      "group": "sex",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "male vs female tang fish",
+      "group": "sex",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish male or female",
+      "group": "sex",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "baby tang fish",
+      "group": "breeding",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how to breed tang fish",
+      "group": "breeding",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "pregnant tang fish",
+      "group": "breeding",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish breeding",
+      "group": "breeding",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish eggs",
+      "group": "breeding",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish fry",
+      "group": "breeding",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish mating",
+      "group": "breeding",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "best tank mates for tang fish",
+      "group": "tank-mates",
+      "source": "template",
+      "status": "covered",
+      "url": "/compatibility/blue-tang/",
+      "matched_on": "title",
+      "where": "local+live",
+      "page_words": 867,
+      "page_title": "Blue Tang Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "can blue tang fish live with clownfish",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish compatibility",
+      "group": "tank-mates",
+      "source": "template",
+      "status": "covered",
+      "url": "/compatibility/blue-tang/",
+      "matched_on": "title",
+      "where": "local+live",
+      "page_words": 867,
+      "page_title": "Blue Tang Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish tank mates",
+      "group": "tank-mates",
+      "source": "template",
+      "status": "covered",
+      "url": "/compatibility/blue-tang/",
+      "matched_on": "title",
+      "where": "local+live",
+      "page_words": 867,
+      "page_title": "Blue Tang Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "what fish can live with tang fish",
+      "group": "tank-mates",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "do tang fish sleep",
+      "group": "behavior",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish aggressive",
+      "group": "behavior",
+      "source": "template",
+      "status": "partial",
+      "url": "/fish-health/blue-tang-aggressive",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish at top of tank",
+      "group": "behavior",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish behavior",
+      "group": "behavior",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish chasing other fish",
+      "group": "behavior",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish hiding",
+      "group": "behavior",
+      "source": "template",
+      "status": "partial",
+      "url": "/fish-health/blue-tang-hiding",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish jumping",
+      "group": "behavior",
+      "source": "template",
+      "status": "partial",
+      "url": "/fish-health/blue-tang-jumping",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish lying at bottom of tank",
+      "group": "behavior",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish swimming erratically",
+      "group": "behavior",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "black ich tang",
+      "group": "health",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "marine ich tang",
+      "group": "health",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish bloated",
+      "group": "health",
+      "source": "template",
+      "status": "partial",
+      "url": "/fish-health/blue-tang-bloated",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish cloudy eye",
+      "group": "health",
+      "source": "template",
+      "status": "partial",
+      "url": "/fish-health/blue-tang-cloudy-eyes",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish diseases",
+      "group": "health",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish dropsy",
+      "group": "health",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish dying",
+      "group": "health",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish fin rot",
+      "group": "health",
+      "source": "template",
+      "status": "partial",
+      "url": "/fish-health/blue-tang-fin-rot",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish gasping for air",
+      "group": "health",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish ich",
+      "group": "health",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish losing color",
+      "group": "health",
+      "source": "template",
+      "status": "partial",
+      "url": "/fish-health/blue-tang-losing-color",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish popeye",
+      "group": "health",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish swim bladder",
+      "group": "health",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish turning white",
+      "group": "health",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish white spots",
+      "group": "health",
+      "source": "template",
+      "status": "partial",
+      "url": "/fish-health/blue-tang-white-spots",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang ich",
+      "group": "health",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "why is my tang fish not moving",
+      "group": "health",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "adding tangs together",
+      "group": "setup",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang acclimation",
+      "group": "setup",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang quarantine",
+      "group": "maintenance",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how many tang fish per gallon",
+      "group": "sizing",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish feeding calculator",
+      "group": "sizing",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tang fish tank size calculator",
+      "group": "sizing",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    }
+  ],
+  "subject_pages": [
+    {
+      "path": "/compatibility/african-butterfly-fish-and-blue-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/african-butterfly-fish-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/angelfish-and-blue-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/angelfish-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/betta-fish-and-blue-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/betta-fish-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/black-ghost-knifefish-and-blue-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/black-ghost-knifefish-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/black-neon-tetra-and-blue-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/black-neon-tetra-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/black-phantom-tetra-and-blue-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/black-phantom-tetra-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/black-ruby-barb-and-blue-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/black-ruby-barb-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-bolivian-ram/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-bosemans-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-bristlenose-pleco/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-cardinal-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-cherry-barb/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-cherry-shrimp/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-chili-rasbora/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-clown-knifefish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-clown-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-clown-pleco/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-congo-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-coral-beauty/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-corydoras/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-denison-barb/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-diamond-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-discus/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-dwarf-chain-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-dwarf-gourami/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-electric-yellow-cichlid/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-ember-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-fire-eel/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-firefish-goby/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-flame-angelfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-foxface-rabbitfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-frontosa-cichlid/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-giant-danio/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-glass-catfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-glowlight-danio/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-glowlight-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-goldfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-green-terror-cichlid/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-guppy/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-harlequin-rasbora/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-hillstream-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-honey-gourami/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-jewel-cichlid/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-julii-cory/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-keyhole-cichlid/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-koi/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-kuhli-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-lemon-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-lionfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-molly/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-moonlight-gourami/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-mystery-snail/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-neon-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-nerite-snail/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-oscar/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-otocinclus/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-pajama-cardinalfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-panda-cory/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-pea-puffer/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-peacock-cichlid/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-pearl-danio/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-peppered-cory/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-percula-clownfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-platy/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-pygmy-corydoras/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-rainbow-shark/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-red-eye-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-rosy-barb/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-royal-gramma/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-senegal-bichir/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-serpae-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-severum-cichlid/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-silver-arowana/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-silver-dollar/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-sparkling-gourami/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-sterbai-cory/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-swordtail/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-texas-cichlid/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-three-spot-gourami/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-tiger-barb/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-watchman-goby/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-weather-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-x-ray-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-yoyo-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-zebra-danio/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-zebra-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-zebra-pleco/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang/",
+      "title": "Blue Tang Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "desc": "Compare Blue Tang with 90 aquarium species. Ranked compatibility scores, water requirements, behavior risks, and tank size guidance.",
+      "h1": "Blue Tang Tank Mates",
+      "canonical": "https://www.fishcareai.com/compatibility/blue-tang/",
+      "words": 867,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bolivian-ram-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bristlenose-pleco-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/cardinal-tetra-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/cherry-barb-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/cherry-shrimp-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/chili-rasbora-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/clown-knifefish-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/clown-loach-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/clown-pleco-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/congo-tetra-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/coral-beauty-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/corydoras-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/denison-barb-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/diamond-tetra-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/discus-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/dwarf-chain-loach-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/dwarf-gourami-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/electric-yellow-cichlid-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/ember-tetra-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/fire-eel-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/firefish-goby-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/flame-angelfish-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/foxface-rabbitfish-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/frontosa-cichlid-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/giant-danio-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/glass-catfish-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/glowlight-danio-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/glowlight-tetra-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/goldfish-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/green-terror-cichlid-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/guppy-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/harlequin-rasbora-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/hillstream-loach-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/honey-gourami-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/jewel-cichlid-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/julii-cory-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/keyhole-cichlid-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/koi-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/kuhli-loach-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/lemon-tetra-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/lionfish-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/molly-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/moonlight-gourami-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/mystery-snail-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-tetra-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/nerite-snail-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/oscar-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/otocinclus-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/pajama-cardinalfish-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/panda-cory-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/pea-puffer-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/peacock-cichlid-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/pearl-danio-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/peppered-cory-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/percula-clownfish-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/platy-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/pygmy-corydoras-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/rainbow-shark-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/red-eye-tetra-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/rosy-barb-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/royal-gramma-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/senegal-bichir-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/serpae-tetra-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/severum-cichlid-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/silver-arowana-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/silver-dollar-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/sparkling-gourami-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/sterbai-cory-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/swordtail-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/texas-cichlid-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/threadfin-rainbowfish-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/three-spot-gourami-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/tiger-barb-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/watchman-goby-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/weather-loach-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/x-ray-tetra-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/yellow-tang-and-yoyo-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/yellow-tang-and-zebra-danio/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/yellow-tang-and-zebra-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/yellow-tang-and-zebra-pleco/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/yellow-tang/",
+      "title": "Yellow Tang Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "desc": "Compare Yellow Tang with 90 aquarium species. Ranked compatibility scores, water requirements, behavior risks, and tank size guidance.",
+      "h1": "Yellow Tang Tank Mates",
+      "canonical": "https://www.fishcareai.com/compatibility/yellow-tang/",
+      "words": 877,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/fish-health/achilles-tang-aggressive",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-black-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-bloated",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-bulging-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-clamped-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-cloudy-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-coughing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-curled-body",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-darting",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-fin-rot",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-floating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-fuzzy-growth",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-gasping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-hiding",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-jumping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-lethargic",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-losing-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-missing-scales",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-mucus-coating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-not-eating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-pale-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-rapid-breathing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-red-streaks",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-rubbing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-sinking",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-spots-on-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-sunken-belly",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-swimming-sideways",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-torn-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/achilles-tang-white-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-aggressive",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-black-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-bloated",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-bulging-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-clamped-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-cloudy-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-coughing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-curled-body",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-darting",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-fin-rot",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-floating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-fuzzy-growth",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-gasping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-hiding",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-jumping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-lethargic",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-losing-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-missing-scales",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-mucus-coating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-not-eating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-pale-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-rapid-breathing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-red-streaks",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-rubbing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-sinking",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-spots-on-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-sunken-belly",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-swimming-sideways",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-torn-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/blue-tang-white-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/fish/achilles-tang",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/fish/blue-tang",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/fish/kole-tang",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/fish/naso-tang",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/fish/pacific-blue-tang",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/fish/powder-blue-tang",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/fish/purple-tang",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-aggressive",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-black-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-bloated",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-bulging-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-clamped-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-cloudy-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-coughing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-curled-body",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-darting",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-fin-rot",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-floating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-fuzzy-growth",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-gasping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-hiding",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-jumping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-lethargic",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-losing-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-missing-scales",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-mucus-coating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-not-eating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-pale-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-rapid-breathing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-red-streaks",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-rubbing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-sinking",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-spots-on-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-sunken-belly",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-swimming-sideways",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-torn-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/kole-tang-white-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-aggressive",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-black-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-bloated",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-bulging-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-clamped-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-cloudy-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-coughing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-curled-body",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-darting",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-fin-rot",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-floating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-fuzzy-growth",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-gasping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-hiding",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-jumping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-lethargic",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-losing-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-missing-scales",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-mucus-coating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-not-eating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-pale-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-rapid-breathing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-red-streaks",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-rubbing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-sinking",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-spots-on-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-sunken-belly",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-swimming-sideways",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-torn-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/naso-tang-white-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-aggressive",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-black-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-bloated",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-bulging-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-clamped-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-cloudy-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-coughing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-curled-body",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-darting",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-fin-rot",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-floating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-fuzzy-growth",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-gasping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-hiding",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-jumping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-lethargic",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-losing-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-missing-scales",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-mucus-coating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-not-eating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-pale-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-rapid-breathing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-red-streaks",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-rubbing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-sinking",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-spots-on-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-sunken-belly",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-swimming-sideways",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-torn-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/pacific-blue-tang-white-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-aggressive",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-black-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-bloated",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-bulging-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-clamped-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-cloudy-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-coughing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-curled-body",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-darting",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-fin-rot",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-floating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-fuzzy-growth",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-gasping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-hiding",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-jumping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-lethargic",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-losing-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-missing-scales",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-mucus-coating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-not-eating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-pale-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-rapid-breathing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-red-streaks",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-rubbing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-sinking",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-spots-on-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-sunken-belly",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-swimming-sideways",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-torn-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/powder-blue-tang-white-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-aggressive",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-black-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-bloated",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-bulging-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-clamped-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-cloudy-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-coughing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-curled-body",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-darting",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-fin-rot",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-floating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-fuzzy-growth",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-gasping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-hiding",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-jumping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-lethargic",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-losing-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-missing-scales",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-mucus-coating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-not-eating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-pale-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-rapid-breathing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-red-streaks",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-rubbing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-sinking",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-spots-on-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-sunken-belly",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-swimming-sideways",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-torn-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/purple-tang-white-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/guides/blue-tang-care-guide/",
+      "title": "Blue Tang Care Guide: Tank Size, Temperature, Food Tank Mates | FishCare AI",
+      "desc": "Blue Tang care guide with tank size, temperature, water quality, feeding, tank mates, setup checklist, and beginner mistakes to avoid.",
+      "h1": "Blue Tang Care Guide",
+      "canonical": "https://www.fishcareai.com/guides/blue-tang-care-guide/",
+      "words": 344,
+      "noindex": true,
+      "where": "local+live"
+    },
+    {
+      "path": "/guides/yellow-tang-care-guide/",
+      "title": "Yellow Tang Care Guide: Tank Size, Temperature, Food Tank Mates | FishCare AI",
+      "desc": "Yellow Tang care guide with tank size, temperature, water quality, feeding, tank mates, setup checklist, and beginner mistakes to avoid.",
+      "h1": "Yellow Tang Care Guide",
+      "canonical": "https://www.fishcareai.com/guides/yellow-tang-care-guide/",
+      "words": 342,
+      "noindex": true,
+      "where": "local+live"
+    },
+    {
+      "path": "/species/achilles-tang",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/species/blue-tang",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/species/kole-tang",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/species/naso-tang",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/species/pacific-blue-tang",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/species/powder-blue-tang",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/species/purple-tang",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/species/yellow-tang",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    }
+  ]
+}
