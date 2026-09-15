@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ts-diagram-title-20 ts-diagram-desc-20">
+<title id="ts-diagram-title-20">20 gallon fish tank dimensions diagram: 24 × 12 × 16 inches (61 × 30 × 41 cm)</title>
+<desc id="ts-diagram-desc-20">Simple 3D outline of a Standard 20 gallon high aquarium showing length 24 in (61 cm), width 12 in (30 cm) and height 16 in (41 cm), with the water line drawn near the top of the glass.</desc>
+<defs>
+<linearGradient id="glass-20" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#25D7FF" stop-opacity=".18"/><stop offset="1" stop-color="#8B5CF6" stop-opacity=".22"/></linearGradient>
+<linearGradient id="water-20" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#25D7FF" stop-opacity=".42"/><stop offset="1" stop-color="#0B6FA4" stop-opacity=".55"/></linearGradient>
+</defs>
+<g stroke="#7DEBFF" stroke-width="1.6" stroke-linejoin="round" fill="none">
+<polygon points="96.0,38.6 203.8,-24.2 596.0,-24.2 488.2,38.6" fill="url(#glass-20)" opacity=".9"/>
+<polygon points="488.2,300.0 596.0,237.3 596.0,-24.2 488.2,38.6" fill="url(#glass-20)" opacity=".75"/>
+<polygon points="96.0,75.2 488.2,75.2 488.2,300.0 96.0,300.0" fill="url(#water-20)" stroke="none"/>
+<polygon points="488.2,75.2 596.0,12.4 596.0,237.3 488.2,300.0" fill="url(#water-20)" stroke="none" opacity=".7"/>
+<polygon points="96.0,300.0 488.2,300.0 488.2,38.6 96.0,38.6" fill="none"/>
+<line x1="96.0" y1="75.2" x2="488.2" y2="75.2" stroke="#39F2C5" stroke-dasharray="5 4" stroke-width="1.2"/>
+<line x1="96.0" y1="38.6" x2="203.8" y2="-24.2"/>
+<line x1="488.2" y1="38.6" x2="596.0" y2="-24.2"/>
+<line x1="488.2" y1="300.0" x2="596.0" y2="237.3"/>
+<line x1="203.8" y1="-24.2" x2="596.0" y2="-24.2"/>
+<line x1="596.0" y1="-24.2" x2="596.0" y2="237.3"/>
+</g>
+<g stroke="rgba(234,251,255,.55)" stroke-width="1" fill="none">
+<line x1="96.0" y1="334.0" x2="488.2" y2="334.0"/>
+<line x1="96.0" y1="326.0" x2="96.0" y2="342.0"/>
+<line x1="488.2" y1="326.0" x2="488.2" y2="342.0"/>
+<line x1="62.0" y1="300.0" x2="62.0" y2="38.6"/>
+<line x1="54.0" y1="300.0" x2="70.0" y2="300.0"/>
+<line x1="54.0" y1="38.6" x2="70.0" y2="38.6"/>
+<line x1="514.2" y1="314.0" x2="622.0" y2="251.3"/>
+</g>
+<g font-family="-apple-system,'Segoe UI',Arial,sans-serif" fill="#EAFBFF" font-size="19" font-weight="700" text-anchor="middle">
+<text x="292.1" y="362.0">Length 24 in <tspan fill="rgba(234,251,255,.65)" font-weight="500">(61 cm)</tspan></text>
+<text transform="translate(40.0,169.3) rotate(-90)">Height 16 in <tspan fill="rgba(234,251,255,.65)" font-weight="500">(41 cm)</tspan></text>
+<text x="610.0" y="292.6" text-anchor="start">Width 12 in <tspan fill="rgba(234,251,255,.65)" font-weight="500">(30 cm)</tspan></text>
+<text x="292.1" y="16.6" font-size="15" fill="rgba(234,251,255,.7)" font-weight="600">Standard 20 gallon high aquarium — typical dimensions, not a manufacturer specification</text>
+</g>
+</svg>
