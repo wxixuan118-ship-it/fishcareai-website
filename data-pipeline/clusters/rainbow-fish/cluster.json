@@ -1,0 +1,1386 @@
+{
+  "subject": "Rainbow Fish",
+  "subject_slug": "rainbow-fish",
+  "type": "fish",
+  "emoji": "🌈",
+  "base": "/guides/rainbow-fish-care/",
+  "cluster_label": "Rainbow Fish Care",
+  "hero_img": "/assets/encyclopedia/real/rainbow-fish-wikimedia-real.jpg",
+  "hero_img_size": [
+    1600,
+    1067
+  ],
+  "hero_alt": "Boeseman's rainbowfish (Melanotaenia boesemani) showing its blue front and orange rear half",
+  "date": "2026-09-16",
+  "hub_section": "freshwater-species",
+  "hub_card": {
+    "blurb": "Melanotaenia · schools of 6+ · 30–55+ gal · hard water",
+    "alt": "Boeseman's rainbowfish with blue and orange halves in a planted aquarium"
+  },
+  "cluster_nav": [
+    [
+      "/guides/rainbow-fish-care/",
+      "🌈 Rainbow Fish Care Guide",
+      "pillar"
+    ],
+    [
+      "/guides/rainbow-fish-care/tank-size/",
+      "🗃️ Tank Size & Setup"
+    ],
+    [
+      "/guides/rainbow-fish-care/water-parameters/",
+      "🌡️ Water Parameters"
+    ],
+    [
+      "/guides/rainbow-fish-care/food/",
+      "🍚 Food & Feeding"
+    ],
+    [
+      "/guides/rainbow-fish-care/types/",
+      "🎨 Types of Rainbow Fish"
+    ],
+    [
+      "/guides/rainbow-fish-care/boesemani/",
+      "🔶 Boesemani Rainbowfish"
+    ],
+    [
+      "/guides/rainbow-fish-care/dwarf-neon/",
+      "💠 Dwarf Neon Rainbowfish"
+    ],
+    [
+      "/guides/rainbow-fish-care/size-lifespan/",
+      "📏 Size & Lifespan"
+    ],
+    [
+      "/guides/rainbow-fish-care/tank-mates/",
+      "🐠 Tank Mates"
+    ],
+    [
+      "/guides/rainbow-fish-care/breeding/",
+      "🥚 Breeding & Sexing"
+    ],
+    [
+      "/guides/rainbow-fish-care/behavior/",
+      "👀 Behavior"
+    ],
+    [
+      "/guides/rainbow-fish-care/diseases/",
+      "🩺 Diseases"
+    ],
+    [
+      "/calculators/rainbow-fish-tank-size/",
+      "🧮 Tank Size Calculator"
+    ],
+    [
+      "/compatibility/bosemans-rainbowfish/",
+      "🐠 Boesemani Tank Mates Hub"
+    ],
+    [
+      "/species/rainbow-fish",
+      "📖 Species Profile"
+    ]
+  ],
+  "tool_links": [
+    [
+      "/calculators/rainbow-fish-tank-size/",
+      "Rainbow Fish Tank Size Calculator"
+    ],
+    [
+      "/tools/fish-compatibility-checker/",
+      "Compatibility Checker"
+    ],
+    [
+      "/tools/fish-tank-stocking-calculator/",
+      "Stocking Calculator"
+    ]
+  ],
+  "pages": [
+    {
+      "slug": "",
+      "kind": "article",
+      "keyword": "rainbow fish care",
+      "secondary": [
+        "rainbowfish care",
+        "rainbow fish",
+        "melanotaenia care"
+      ],
+      "title": "Rainbow Fish Care: Tank Size, Water, Food & Schooling Guide",
+      "meta_desc": "Rainbow fish care guide for Melanotaenia: schools of six, 30–55 gallon tanks, hard alkaline water, feeding for colour, tank mates, breeding and diseases.",
+      "h1": "Rainbow Fish Care Guide (Melanotaenia Rainbowfish)",
+      "hero_tag": "Care Guide",
+      "hero_meta": "🐟 Schools of 6+ &nbsp;|&nbsp; 📏 30–55+ gal &nbsp;|&nbsp; 🌡 74–79°F, hard water &nbsp;|&nbsp; ⏳ 5–10 years",
+      "toc": [
+        [
+          "what-is",
+          "What Is a Rainbow Fish"
+        ],
+        [
+          "glance",
+          "Care at a Glance"
+        ],
+        [
+          "school",
+          "Schooling"
+        ],
+        [
+          "tank",
+          "Tank Size"
+        ],
+        [
+          "water",
+          "Water"
+        ],
+        [
+          "food",
+          "Food"
+        ],
+        [
+          "types",
+          "Types"
+        ],
+        [
+          "mates",
+          "Tank Mates"
+        ],
+        [
+          "health",
+          "Health"
+        ],
+        [
+          "mistakes",
+          "Mistakes"
+        ]
+      ],
+      "body_file": "pages/index.html",
+      "faqs": [
+        [
+          "Are rainbow fish easy to care for?",
+          "Yes. Rainbow fish care is beginner-friendly once two things are in place: a school of at least six and a tank 3 feet or longer with hard, alkaline water. They eat anything, tolerate a range of temperatures and rarely get sick if bought healthy."
+        ],
+        [
+          "How many rainbow fish should be kept together?",
+          "Six is the minimum; eight to ten is better and is when the males colour up and stop harassing one another. A single rainbow fish or a pair stays pale, hides and is stressed for life."
+        ],
+        [
+          "What size tank do rainbow fish need?",
+          "20–30 gallons for a school of dwarf species (praecox, threadfin), 40–55 gallons and 3–4 feet for boesemani and turquoise rainbowfish, 55–75 gallons for the 5–6 inch Australian and red rainbowfish. Length matters more than volume."
+        ],
+        [
+          "Why are my rainbow fish not colourful?",
+          "Juveniles are silver and colour up at 6–9 months; after that, pale fish mean stress: too few in the group, soft acidic water, a bare tank, or poor food. A school of eight over a dark substrate with colour-enhancing food shows the full colour."
+        ],
+        [
+          "Do rainbow fish need hard water?",
+          "They do best in it. Most Melanotaenia come from rivers and lakes at pH 7–8 and 8–15 dGH. They survive softer water but colour fades and breeding stops; crushed coral in the filter fixes soft tap water."
+        ],
+        [
+          "How long do rainbow fish live?",
+          "Five to eight years for most species, and boesemani rainbowfish regularly reach ten. Buy from a tank with no thin or crooked fish, because fish tuberculosis is the disease that cuts rainbowfish lives short."
+        ],
+        [
+          "Are rainbow fish aggressive?",
+          "No. Males chase each other at dawn and display constantly, which looks dramatic but does no harm in a school of six or more. Toward other species they are peaceful, if fast enough to outcompete slow feeders."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/rainbow-fish-care/tank-size/",
+          "Rainbow Fish Tank Size"
+        ],
+        [
+          "/guides/rainbow-fish-care/water-parameters/",
+          "Rainbow Fish Water Parameters"
+        ],
+        [
+          "/guides/rainbow-fish-care/food/",
+          "Rainbow Fish Food"
+        ],
+        [
+          "/guides/rainbow-fish-care/types/",
+          "Types of Rainbow Fish"
+        ],
+        [
+          "/guides/rainbow-fish-care/tank-mates/",
+          "Rainbow Fish Tank Mates"
+        ],
+        [
+          "/guides/rainbow-fish-care/breeding/",
+          "Rainbow Fish Breeding"
+        ],
+        [
+          "/guides/rainbow-fish-care/behavior/",
+          "Rainbow Fish Behavior"
+        ],
+        [
+          "/guides/rainbow-fish-care/diseases/",
+          "Rainbow Fish Diseases"
+        ],
+        [
+          "/guides/rainbow-fish-care/size-lifespan/",
+          "Rainbow Fish Size & Lifespan"
+        ],
+        [
+          "/guides/rainbow-fish-care/boesemani/",
+          "Boesemani Rainbowfish Care"
+        ],
+        [
+          "/guides/rainbow-fish-care/dwarf-neon/",
+          "Dwarf Neon Rainbowfish Care"
+        ],
+        [
+          "/calculators/rainbow-fish-tank-size/",
+          "Tank Size Calculator"
+        ]
+      ]
+    },
+    {
+      "slug": "tank-size",
+      "kind": "article",
+      "keyword": "rainbow fish tank size",
+      "secondary": [
+        "rainbow fish minimum tank size",
+        "rainbow fish for 20 gallon",
+        "rainbow fish tank setup"
+      ],
+      "title": "Rainbow Fish Tank Size: Minimum Gallons for a School",
+      "meta_desc": "Rainbow fish tank size by species: 20–30 gallons for dwarf neons, 40–55 and 3–4 feet for boesemani, 55–75 for Australian rainbowfish, plus 55/75 gal stocking.",
+      "h1": "Rainbow Fish Tank Size: Minimum Gallons and Length for a School",
+      "hero_tag": "Tank Size",
+      "hero_meta": "📏 20–30 gal dwarf · 40–55 gal medium · 55–75 gal large &nbsp;|&nbsp; 🐟 Always for a school of 6",
+      "toc": [
+        [
+          "by-species",
+          "By Species"
+        ],
+        [
+          "length",
+          "Why Length Matters"
+        ],
+        [
+          "common-tanks",
+          "10, 20, 55 and 75 Gallon Tanks"
+        ],
+        [
+          "setup",
+          "Tank Setup"
+        ],
+        [
+          "planted",
+          "Planted Tanks"
+        ]
+      ],
+      "body_file": "pages/tank-size.html",
+      "faqs": [
+        [
+          "What is the minimum tank size for rainbow fish?",
+          "20 gallons (30 inches long) for a school of dwarf rainbowfish such as praecox or threadfins; 40 gallons and 3 feet for boesemani, turquoise and celebes; 55 gallons and 4 feet for Australian, red and splendid rainbowfish. Every figure assumes six fish."
+        ],
+        [
+          "Can rainbow fish live in a 20 gallon tank?",
+          "Only the dwarf species: 8–10 dwarf neon (praecox), threadfin, forktail or Gertrude's rainbowfish in a 20-gallon long. Boesemani and other 4-inch species need 40 gallons or more."
+        ],
+        [
+          "How many rainbow fish in a 55 gallon tank?",
+          "Eight to ten boesemani or turquoise rainbowfish, or six of a 5-inch species like the Australian rainbowfish, with room for a bottom-dwelling clean-up crew. Two schools of six of different sizes also work in a 55."
+        ],
+        [
+          "How many rainbow fish in a 75 gallon tank?",
+          "Twelve medium rainbowfish, or two schools of six from different species (say boesemani and turquoise), or eight large Australian or red rainbowfish. The 4-foot length is what makes a 75 the ideal rainbowfish tank."
+        ],
+        [
+          "Can I keep rainbow fish in a 10 gallon tank?",
+          "No. Even dwarf neons need a 30-inch run and a school of eight; a 10-gallon tank is 20 inches and holds neither. Rainbowfish in a 10 stay pale, nervous and short-lived."
+        ],
+        [
+          "Do rainbow fish need a long tank?",
+          "Yes. They are open-water sprinters that cross the tank dozens of times an hour. A 30-inch 20-long beats a 20-high; a 4-foot 55 beats a 3-foot 40 breeder for the same fish."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/rainbow-fish-care/",
+          "Rainbow Fish Care Guide"
+        ],
+        [
+          "/calculators/rainbow-fish-tank-size/",
+          "Rainbow Fish Tank Size Calculator"
+        ],
+        [
+          "/guides/rainbow-fish-care/types/",
+          "Types of Rainbow Fish"
+        ],
+        [
+          "/guides/rainbow-fish-care/tank-mates/",
+          "Rainbow Fish Tank Mates"
+        ],
+        [
+          "/tools/fish-tank-stocking-calculator/",
+          "Fish Tank Stocking Calculator"
+        ],
+        [
+          "/tank-sizes/55-gallon-fish-tank/",
+          "55 Gallon Fish Tank Guide"
+        ]
+      ]
+    },
+    {
+      "slug": "water-parameters",
+      "kind": "article",
+      "keyword": "rainbow fish water parameters",
+      "secondary": [
+        "rainbow fish temperature",
+        "rainbow fish ph",
+        "rainbow fish water hardness"
+      ],
+      "title": "Rainbow Fish Water Parameters: Temperature, pH and Hardness",
+      "meta_desc": "Rainbow fish water parameters: 74–79°F, pH 7.0–8.0, 8–15 dGH, KH 5–12, nitrate under 20 ppm and moderate flow. Why hard alkaline water keeps them bright.",
+      "h1": "Rainbow Fish Water Parameters: Temperature, pH, GH and KH",
+      "hero_tag": "Water Parameters",
+      "hero_meta": "🌡 74–79°F &nbsp;|&nbsp; ⚗️ pH 7.0–8.0 &nbsp;|&nbsp; 🪨 8–15 dGH &nbsp;|&nbsp; 🌊 Moderate flow",
+      "toc": [
+        [
+          "targets",
+          "The Targets"
+        ],
+        [
+          "temperature",
+          "Temperature"
+        ],
+        [
+          "hardness",
+          "pH, GH and KH"
+        ],
+        [
+          "nitrogen",
+          "Ammonia and Nitrate"
+        ],
+        [
+          "flow",
+          "Flow"
+        ],
+        [
+          "changes",
+          "Water Changes"
+        ]
+      ],
+      "body_file": "pages/water-parameters.html",
+      "faqs": [
+        [
+          "What temperature do rainbow fish need?",
+          "74–79°F (23–26°C) for boesemani, turquoise, Australian and most Melanotaenia; 75–82°F for dwarf neons and red rainbowfish, which come from warmer lowland streams. Keep it within 2°F of the setpoint."
+        ],
+        [
+          "What pH is best for rainbow fish?",
+          "7.0–8.0. Rainbowfish come from alkaline rivers and lakes, and below pH 6.8 their colour fades and breeding stops. Most tap water in the 7.2–7.8 range is ideal without adjustment."
+        ],
+        [
+          "Do rainbow fish need hard water?",
+          "They do best at 8–15 dGH and 5–12 dKH. In soft water (under 5 dGH) add crushed coral or aragonite to the filter, or a small amount of a remineralising salt, to raise GH and hold the pH."
+        ],
+        [
+          "Do rainbow fish like current?",
+          "Yes. They come from flowing rivers and swim into the outflow for fun. Moderate flow from a hang-on or canister filter, plus a small powerhead in a long tank, suits them; avoid dead spots more than strong current."
+        ],
+        [
+          "How often should I change water for rainbow fish?",
+          "25% weekly. Rainbowfish are heavy feeders and active, and they show nitrate stress as fading colour before anything else. Match the new water's temperature and hardness."
+        ],
+        [
+          "Can rainbow fish live in brackish water?",
+          "No, and they do not need salt. A few Australian species tolerate slightly brackish estuaries in the wild, but every aquarium rainbowfish is a freshwater fish; keep salt for treating ich in a hospital tank."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/rainbow-fish-care/",
+          "Rainbow Fish Care Guide"
+        ],
+        [
+          "/guides/rainbow-fish-care/tank-size/",
+          "Rainbow Fish Tank Size"
+        ],
+        [
+          "/guides/rainbow-fish-care/diseases/",
+          "Rainbow Fish Diseases"
+        ],
+        [
+          "/tools/water-parameter-checker/",
+          "Water Parameter Checker"
+        ],
+        [
+          "/guides/aquarium-water-parameters/",
+          "Aquarium Water Parameters"
+        ],
+        [
+          "/guides/rainbow-fish-care/food/",
+          "Rainbow Fish Food"
+        ]
+      ]
+    },
+    {
+      "slug": "food",
+      "kind": "article",
+      "keyword": "rainbow fish food",
+      "secondary": [
+        "what do rainbow fish eat",
+        "how often to feed rainbow fish",
+        "best food for rainbow fish"
+      ],
+      "title": "Rainbow Fish Food: What Rainbowfish Eat and How Often",
+      "meta_desc": "Rainbow fish food guide: small flake and micro pellets twice a day, frozen daphnia and bloodworm, live food for breeding, vegetables and colour-enhancing foods.",
+      "h1": "Rainbow Fish Food: What Do Rainbow Fish Eat and How Often?",
+      "hero_tag": "Food & Feeding",
+      "hero_meta": "🍚 Small flake or pellets 2× daily &nbsp;|&nbsp; 🦐 Frozen 3–4× a week &nbsp;|&nbsp; 🌿 Veg and spirulina",
+      "toc": [
+        [
+          "wild",
+          "In the Wild"
+        ],
+        [
+          "best",
+          "Best Rainbow Fish Food"
+        ],
+        [
+          "schedule",
+          "How Often to Feed"
+        ],
+        [
+          "colour",
+          "Feeding for Colour"
+        ],
+        [
+          "not-eating",
+          "Not Eating"
+        ],
+        [
+          "plants",
+          "Do They Eat Plants or Shrimp?"
+        ]
+      ],
+      "body_file": "pages/food.html",
+      "faqs": [
+        [
+          "What do rainbow fish eat?",
+          "In the wild, insects that fall on the water, aquatic insect larvae, small crustaceans and algae. In the aquarium, the best rainbow fish food is a small-particle flake or micro pellet as the staple, frozen daphnia, bloodworm and brine shrimp for conditioning, and spirulina or blanched vegetables for the plant part of the diet."
+        ],
+        [
+          "How often should I feed rainbow fish?",
+          "Twice a day, only as much as they finish in two minutes. They have small stomachs and a fast metabolism, and they beg constantly, which makes overfeeding the commonest rainbowfish feeding mistake."
+        ],
+        [
+          "What is the best food for rainbow fish colour?",
+          "Foods with astaxanthin and spirulina — colour-enhancing flakes, krill or cyclops — fed three times a week bring out the reds and oranges. Live daphnia and brine shrimp do the same and trigger spawning."
+        ],
+        [
+          "Can rainbow fish eat large flakes or pellets?",
+          "Rainbowfish have small mouths and throats for their size and will spit out large pellets. Crush flakes between your fingers and choose 1 mm or smaller pellets; threadfin and celebes rainbowfish need powdered food."
+        ],
+        [
+          "Do rainbow fish eat plants?",
+          "They graze algae and soft plant matter but leave healthy aquarium plants alone. A rainbowfish tank can be fully planted; they even spawn in Java moss."
+        ],
+        [
+          "Will rainbow fish eat shrimp?",
+          "Adult cherry shrimp are usually left alone, but rainbowfish eat shrimplets and will pick at a molting shrimp. Dwarf neons are the safest with a shrimp colony; Australian and red rainbowfish are not."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/rainbow-fish-care/",
+          "Rainbow Fish Care Guide"
+        ],
+        [
+          "/guides/rainbow-fish-care/breeding/",
+          "Rainbow Fish Breeding"
+        ],
+        [
+          "/guides/rainbow-fish-care/diseases/",
+          "Rainbow Fish Diseases"
+        ],
+        [
+          "/tools/fish-feeding-calculator/",
+          "Fish Feeding Calculator"
+        ],
+        [
+          "/guides/rainbow-fish-care/types/",
+          "Types of Rainbow Fish"
+        ],
+        [
+          "/guides/rainbow-fish-care/tank-mates/",
+          "Rainbow Fish Tank Mates"
+        ]
+      ]
+    },
+    {
+      "slug": "size-lifespan",
+      "kind": "article",
+      "keyword": "rainbow fish size",
+      "secondary": [
+        "rainbow fish lifespan",
+        "how big do rainbow fish get",
+        "how long do rainbow fish live"
+      ],
+      "title": "Rainbow Fish Size and Lifespan: How Big and How Long",
+      "meta_desc": "Rainbow fish size by species (2 inches for dwarf neons to 6 for red rainbowfish), growth rate, a 5–10 year lifespan, and what shortens a rainbowfish's life.",
+      "h1": "Rainbow Fish Size and Lifespan: How Big Do Rainbow Fish Get?",
+      "hero_tag": "Size & Lifespan",
+      "hero_meta": "📏 2–6 inches by species &nbsp;|&nbsp; 🚀 Full size at 12–18 months &nbsp;|&nbsp; ⏳ 5–10 years",
+      "toc": [
+        [
+          "by-species",
+          "Size by Species"
+        ],
+        [
+          "growth",
+          "Growth Rate"
+        ],
+        [
+          "lifespan",
+          "Lifespan"
+        ],
+        [
+          "shorten",
+          "What Shortens It"
+        ],
+        [
+          "extend",
+          "How to Extend It"
+        ]
+      ],
+      "body_file": "pages/size-lifespan.html",
+      "faqs": [
+        [
+          "How big do rainbow fish get?",
+          "Two to six inches depending on species. Dwarf neons, threadfins and forktails stay under 2.5 inches; boesemani, turquoise and celebes reach 3–4.5; Australian, splendid and red rainbowfish reach 4–6 inches. Males are larger and deeper-bodied than females."
+        ],
+        [
+          "How fast do rainbow fish grow?",
+          "Fast. Fry reach an inch at three months, most species hit adult length at 12–18 months, and full colour at 6–9 months for dwarf species or 12–18 months for boesemani. Males keep deepening in the body for another year."
+        ],
+        [
+          "How long do rainbow fish live?",
+          "Five to eight years for most species; boesemani rainbowfish commonly reach ten, and dwarf neons and threadfins are shorter-lived at three to five. A rainbowfish that dies in its first year almost always arrived with a problem."
+        ],
+        [
+          "What size are rainbow fish when sold?",
+          "Usually 1–2 inches and silver. They look nothing like the adult; a juvenile boesemani gives no hint of the blue-and-orange fish it becomes at a year old, which is why buying a school and waiting is the way to get colour."
+        ],
+        [
+          "Do female rainbow fish grow as big as males?",
+          "No. Females stay slimmer, shallower-bodied and about half an inch shorter, with shorter fins and less colour. In an all-female school every fish looks like a juvenile."
+        ],
+        [
+          "Why did my rainbow fish die suddenly?",
+          "Sudden deaths in otherwise healthy rainbowfish are usually fish tuberculosis that had been developing for months (thin body, bent spine beforehand), a jump, or an ammonia or pH swing. Chronic slow decline points to too small a school or soft acidic water."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/rainbow-fish-care/",
+          "Rainbow Fish Care Guide"
+        ],
+        [
+          "/guides/rainbow-fish-care/types/",
+          "Types of Rainbow Fish"
+        ],
+        [
+          "/guides/rainbow-fish-care/tank-size/",
+          "Rainbow Fish Tank Size"
+        ],
+        [
+          "/guides/rainbow-fish-care/diseases/",
+          "Rainbow Fish Diseases"
+        ],
+        [
+          "/guides/rainbow-fish-care/breeding/",
+          "Rainbow Fish Breeding"
+        ],
+        [
+          "/species/rainbow-fish",
+          "Rainbowfish Species Profile"
+        ]
+      ]
+    },
+    {
+      "slug": "types",
+      "kind": "article",
+      "keyword": "types of rainbow fish",
+      "secondary": [
+        "rainbowfish species",
+        "best rainbow fish",
+        "rainbow fish colors"
+      ],
+      "title": "Types of Rainbow Fish: 12 Rainbowfish Species Compared",
+      "meta_desc": "Types of rainbow fish compared: boesemani, dwarf neon, turquoise, Australian, red, threadfin, celebes and forktail, with adult size, minimum tank and hardiness.",
+      "h1": "Types of Rainbow Fish: 12 Aquarium Rainbowfish Species Compared",
+      "hero_tag": "Types",
+      "hero_meta": "🎨 12 common species &nbsp;|&nbsp; 📏 Dwarf, medium, large &nbsp;|&nbsp; ⭐ Best first rainbowfish: boesemani",
+      "toc": [
+        [
+          "groups",
+          "The Three Groups"
+        ],
+        [
+          "table",
+          "Species Table"
+        ],
+        [
+          "medium",
+          "Boesemani, Turquoise, Celebes"
+        ],
+        [
+          "large",
+          "Australian, Red, Splendid"
+        ],
+        [
+          "dwarf",
+          "Dwarf Rainbowfish"
+        ],
+        [
+          "best",
+          "Best Rainbow Fish"
+        ]
+      ],
+      "body_file": "pages/types.html",
+      "faqs": [
+        [
+          "What is the most popular type of rainbow fish?",
+          "The boesemani rainbowfish (Melanotaenia boesemani), blue at the front and orange at the back, followed by the dwarf neon (M. praecox) and the turquoise or Lake Kutubu rainbowfish (M. lacustris)."
+        ],
+        [
+          "Which rainbow fish is best for beginners?",
+          "Boesemani: hardy, 4 inches, colours up reliably in a school of six in a 40–55 gallon tank. The Australian rainbowfish and turquoise are equally tough; dwarf neons suit a 20-gallon long."
+        ],
+        [
+          "What is the smallest rainbow fish?",
+          "The threadfin rainbowfish (Iriatherina werneri) and Gertrude's spotted blue-eye at about 1.5 inches, then the forktail blue-eye and dwarf neon at 2–2.5 inches. All need a school of eight or more."
+        ],
+        [
+          "What is the biggest rainbow fish?",
+          "The red rainbowfish (Glossolepis incisus) at 5–6 inches, and the Australian splendid and parkinson's rainbowfish at 5 inches. They need 55–75 gallon tanks."
+        ],
+        [
+          "Can different types of rainbow fish live together?",
+          "Yes, in 55 gallons or more, as long as each species has its own school of six. Boesemani and turquoise, or dwarf neons and threadfins, are classic pairs. Melanotaenia species will hybridise if kept in mixed groups too small to school properly."
+        ],
+        [
+          "Which rainbow fish are the most colourful?",
+          "Boesemani (blue and orange), red rainbowfish (solid red males), turquoise (electric blue) and dwarf neon (violet with red fins). Colour depends on a school, hard water, a dark background and good food more than on the species."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/rainbow-fish-care/",
+          "Rainbow Fish Care Guide"
+        ],
+        [
+          "/guides/rainbow-fish-care/boesemani/",
+          "Boesemani Rainbowfish Care"
+        ],
+        [
+          "/guides/rainbow-fish-care/dwarf-neon/",
+          "Dwarf Neon Rainbowfish Care"
+        ],
+        [
+          "/guides/rainbow-fish-care/tank-size/",
+          "Rainbow Fish Tank Size"
+        ],
+        [
+          "/species/turquoise-rainbowfish",
+          "Turquoise Rainbowfish Profile"
+        ],
+        [
+          "/species/australian-rainbowfish",
+          "Australian Rainbowfish Profile"
+        ],
+        [
+          "/species/threadfin-rainbowfish",
+          "Threadfin Rainbowfish Profile"
+        ]
+      ]
+    },
+    {
+      "slug": "boesemani",
+      "kind": "article",
+      "keyword": "boesemani rainbowfish care",
+      "secondary": [
+        "boesemani rainbow fish",
+        "melanotaenia boesemani"
+      ],
+      "title": "Boesemani Rainbowfish Care: Tank Size, Colour and Breeding",
+      "meta_desc": "Boesemani rainbowfish care: a school of six in 40–55 gallons, 75–79°F, pH 7–8, hard water, feeding for blue-and-orange colour, tank mates, breeding, lifespan.",
+      "h1": "Boesemani Rainbowfish Care Guide (Melanotaenia boesemani)",
+      "hero_tag": "Boesemani",
+      "hero_meta": "🔶 Blue front, orange rear &nbsp;|&nbsp; 📏 4 in, 40–55 gal &nbsp;|&nbsp; ⏳ 6–10 years",
+      "toc": [
+        [
+          "about",
+          "About the Boesemani"
+        ],
+        [
+          "glance",
+          "Care at a Glance"
+        ],
+        [
+          "tank",
+          "Tank and Water"
+        ],
+        [
+          "colour",
+          "Getting the Colour"
+        ],
+        [
+          "food",
+          "Food"
+        ],
+        [
+          "mates",
+          "Tank Mates"
+        ],
+        [
+          "breeding",
+          "Breeding"
+        ]
+      ],
+      "body_file": "pages/boesemani.html",
+      "faqs": [
+        [
+          "How many boesemani rainbowfish should be kept together?",
+          "Six at minimum, eight to ten ideally, with more females than males or an even split. Colour, confidence and lifespan all depend on the school; a pair stays pale."
+        ],
+        [
+          "What tank size do boesemani rainbowfish need?",
+          "40 gallons and 3 feet for six; 55 gallons and 4 feet is better and lets you add a second species. They reach 4 inches, sometimes 4.5, and sprint constantly."
+        ],
+        [
+          "Why is my boesemani rainbowfish not colourful?",
+          "Juveniles are silver-grey until 8–12 months. Adults fade when kept in too small a group, in soft acidic water, over a light substrate, or on a plain flake diet. Fix the school and the water first; colour returns within weeks."
+        ],
+        [
+          "Are boesemani rainbowfish aggressive?",
+          "No. Males spar and chase at dawn, which is display, not fighting. They are peaceful with any tank mate they cannot swallow and fast enough to outcompete slow feeders like discus."
+        ],
+        [
+          "How long do boesemani rainbowfish live?",
+          "Six to ten years, among the longest of any rainbowfish, provided they arrived free of fish tuberculosis. Buy from a school with no thin, crooked or pale fish."
+        ],
+        [
+          "Are boesemani rainbowfish endangered?",
+          "In the wild, yes: they live only in the Ayamaru Lakes of West Papua and are listed as endangered. Every aquarium boesemani is captive-bred, which is also why they are so hardy."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/rainbow-fish-care/",
+          "Rainbow Fish Care Guide"
+        ],
+        [
+          "/guides/rainbow-fish-care/types/",
+          "Types of Rainbow Fish"
+        ],
+        [
+          "/compatibility/bosemans-rainbowfish/",
+          "Boesemani Tank Mates Hub"
+        ],
+        [
+          "/species/boesemans-rainbowfish",
+          "Boesemani Species Profile"
+        ],
+        [
+          "/guides/rainbow-fish-care/breeding/",
+          "Rainbow Fish Breeding"
+        ],
+        [
+          "/guides/rainbow-fish-care/water-parameters/",
+          "Rainbow Fish Water Parameters"
+        ]
+      ]
+    },
+    {
+      "slug": "dwarf-neon",
+      "kind": "article",
+      "keyword": "dwarf neon rainbowfish care",
+      "secondary": [
+        "dwarf neon rainbow fish",
+        "praecox rainbowfish",
+        "neon rainbowfish care"
+      ],
+      "title": "Dwarf Neon Rainbowfish Care: Praecox Tank Size and Colour",
+      "meta_desc": "Dwarf neon rainbowfish care (Melanotaenia praecox): 8–10 fish in a 20-gallon long, 75–82°F, pH 7–8, small food for blue and red colour, tank mates and breeding.",
+      "h1": "Dwarf Neon Rainbowfish Care Guide (Melanotaenia praecox)",
+      "hero_tag": "Dwarf Neon",
+      "hero_meta": "💠 Electric blue, red fins &nbsp;|&nbsp; 📏 2.5 in, 20 gal long &nbsp;|&nbsp; 🐟 Schools of 8+",
+      "hero_img": "/assets/encyclopedia/real/rainbow-fish-dwarf-neon-wikimedia-real.jpg",
+      "toc": [
+        [
+          "about",
+          "About the Dwarf Neon"
+        ],
+        [
+          "glance",
+          "Care at a Glance"
+        ],
+        [
+          "tank",
+          "Tank and Water"
+        ],
+        [
+          "food",
+          "Food"
+        ],
+        [
+          "mates",
+          "Tank Mates"
+        ],
+        [
+          "breeding",
+          "Breeding"
+        ],
+        [
+          "problems",
+          "Common Problems"
+        ]
+      ],
+      "body_file": "pages/dwarf-neon.html",
+      "faqs": [
+        [
+          "How many dwarf neon rainbowfish should I keep?",
+          "Eight or more; ten to twelve in a 30-gallon looks best. They are a schooling species that stays nervous and pale in groups under six."
+        ],
+        [
+          "What tank size do dwarf neon rainbowfish need?",
+          "A 20-gallon long (30 inches) for eight; a 30-gallon or 40-breeder for a dozen with tank mates. A 10-gallon is too short for them to swim properly."
+        ],
+        [
+          "What temperature do dwarf neon rainbowfish like?",
+          "75–82°F, warmer than most rainbowfish, because Melanotaenia praecox comes from lowland New Guinea streams. Keep pH 7.0–8.0 and hardness 8–15 dGH like the rest of the genus."
+        ],
+        [
+          "Why are my dwarf neon rainbowfish losing colour?",
+          "Small school, soft or acidic water, a bright substrate, or bullying by a larger tank mate. Dwarf neons also lose colour at night, which is normal, and the blue only shows well under good lighting over a dark background."
+        ],
+        [
+          "Can dwarf neon rainbowfish live with a betta?",
+          "Not well. Dwarf neons are fast, busy and constantly moving, which stresses a betta, and a betta may flare at the red-finned males. Keep them with tetras, rasboras and corydoras instead."
+        ],
+        [
+          "Are dwarf neon rainbowfish hard to keep?",
+          "They are hardy once settled but ship badly and are sensitive to ammonia in a new tank. Add them to a cycled, mature tank, quarantine for three weeks, and feed small foods; then they are as tough as any rainbowfish."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/rainbow-fish-care/",
+          "Rainbow Fish Care Guide"
+        ],
+        [
+          "/guides/rainbow-fish-care/types/",
+          "Types of Rainbow Fish"
+        ],
+        [
+          "/compatibility/neon-rainbowfish/",
+          "Neon Rainbowfish Tank Mates Hub"
+        ],
+        [
+          "/species/neon-rainbowfish",
+          "Neon Rainbowfish Profile"
+        ],
+        [
+          "/guides/rainbow-fish-care/tank-size/",
+          "Rainbow Fish Tank Size"
+        ],
+        [
+          "/guides/rainbow-fish-care/food/",
+          "Rainbow Fish Food"
+        ]
+      ]
+    },
+    {
+      "slug": "breeding",
+      "kind": "article",
+      "keyword": "rainbow fish breeding",
+      "secondary": [
+        "how to breed rainbow fish",
+        "rainbow fish eggs",
+        "male vs female rainbow fish",
+        "rainbow fish fry"
+      ],
+      "title": "Rainbow Fish Breeding: Sexing, Eggs, Spawning Mops and Fry",
+      "meta_desc": "Rainbow fish breeding step by step: telling males from females, conditioning a trio, spawning mops, eggs that hatch in 7–10 days, and raising the tiny fry.",
+      "h1": "Rainbow Fish Breeding: Male vs Female, Eggs and Raising Fry",
+      "hero_tag": "Breeding",
+      "hero_meta": "⚥ Males deeper and brighter &nbsp;|&nbsp; 🥚 Daily spawning on a mop &nbsp;|&nbsp; 🐣 Hatch in 7–10 days",
+      "toc": [
+        [
+          "sexing",
+          "Male vs Female"
+        ],
+        [
+          "setup",
+          "Breeding Setup"
+        ],
+        [
+          "conditioning",
+          "Conditioning"
+        ],
+        [
+          "spawning",
+          "Spawning and Eggs"
+        ],
+        [
+          "fry",
+          "Raising the Fry"
+        ],
+        [
+          "species",
+          "Species Notes"
+        ],
+        [
+          "pregnant",
+          "Pregnant?"
+        ]
+      ],
+      "body_file": "pages/breeding.html",
+      "faqs": [
+        [
+          "How do you tell male from female rainbow fish?",
+          "Males are deeper-bodied, more colourful, and have longer, more pointed dorsal and anal fins; in most Melanotaenia the male's first dorsal fin reaches past the start of the second. Females are slimmer, paler and rounder when carrying eggs."
+        ],
+        [
+          "Do rainbow fish breed easily?",
+          "Spawning is easy: a conditioned trio in hard water at 77°F will lay eggs on a mop every morning. Raising the fry is the hard part, because they are tiny and need infusoria or liquid fry food for the first week before they can take baby brine shrimp."
+        ],
+        [
+          "How long do rainbow fish eggs take to hatch?",
+          "Seven to ten days at 75–79°F; slightly faster for dwarf neons and slower in cooler water. The eggs are clear, 1 mm, and stick to the mop by fine threads; infertile ones turn white within two days."
+        ],
+        [
+          "Do rainbow fish eat their eggs and fry?",
+          "Yes. Adults eat eggs and fry whenever they find them, so the mop is moved to a hatching container every day or two, and fry are raised separately. In a heavily planted community tank a few fry occasionally survive on their own."
+        ],
+        [
+          "Can a rainbow fish be pregnant?",
+          "No — rainbowfish are egg-layers and do not carry young. A female with a rounded belly is full of eggs (normal) or overfed. A belly that stays swollen with raised scales is dropsy."
+        ],
+        [
+          "Will different rainbow fish species crossbreed?",
+          "Yes. Melanotaenia species hybridise readily when kept in mixed groups, and the hybrids are usually drab. Keep each species as its own school of six or more, and never sell or trade hybrid fry."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/rainbow-fish-care/",
+          "Rainbow Fish Care Guide"
+        ],
+        [
+          "/guides/rainbow-fish-care/food/",
+          "Rainbow Fish Food"
+        ],
+        [
+          "/guides/rainbow-fish-care/boesemani/",
+          "Boesemani Rainbowfish Care"
+        ],
+        [
+          "/guides/rainbow-fish-care/dwarf-neon/",
+          "Dwarf Neon Rainbowfish Care"
+        ],
+        [
+          "/guides/rainbow-fish-care/water-parameters/",
+          "Rainbow Fish Water Parameters"
+        ],
+        [
+          "/guides/rainbow-fish-care/size-lifespan/",
+          "Rainbow Fish Size & Lifespan"
+        ]
+      ]
+    },
+    {
+      "slug": "tank-mates",
+      "kind": "article",
+      "keyword": "rainbow fish tank mates",
+      "secondary": [
+        "what fish can live with rainbow fish",
+        "rainbow fish with guppies",
+        "rainbow fish with angelfish",
+        "rainbow fish with betta"
+      ],
+      "title": "Rainbow Fish Tank Mates: Best Companions and Fish to Avoid",
+      "meta_desc": "Rainbow fish tank mates: the tetras, corydoras, livebearers, gouramis and angelfish that work, the discus, bettas and goldfish that do not, and mixing species.",
+      "h1": "Rainbow Fish Tank Mates: What Fish Can Live With Rainbow Fish?",
+      "hero_tag": "Tank Mates",
+      "hero_meta": "✅ Tetras, corys, livebearers, gouramis &nbsp;|&nbsp; ❌ Betta, discus, goldfish &nbsp;|&nbsp; 🐟 Each species its own school",
+      "toc": [
+        [
+          "best",
+          "Best Tank Mates"
+        ],
+        [
+          "pairings",
+          "Common Pairings Answered"
+        ],
+        [
+          "avoid",
+          "Fish to Avoid"
+        ],
+        [
+          "together",
+          "Rainbowfish With Rainbowfish"
+        ],
+        [
+          "shrimp",
+          "Shrimp and Snails"
+        ],
+        [
+          "community",
+          "A Community Plan"
+        ]
+      ],
+      "body_file": "pages/tank-mates.html",
+      "faqs": [
+        [
+          "What fish can live with rainbow fish?",
+          "Peaceful, active fish that share hard, neutral-to-alkaline water: tetras, rasboras, danios, barbs (not tiger barbs with threadfins), corydoras, bristlenose plecos, loaches, platies, mollies, swordtails, gouramis, rams and angelfish in a 55 or larger."
+        ],
+        [
+          "Can rainbow fish live with guppies?",
+          "Yes, they share the same hard water and temperature. In practice rainbowfish outcompete guppies for food and may eat guppy fry, so feed at both ends of the tank and expect few surviving fry."
+        ],
+        [
+          "Can rainbow fish live with angelfish?",
+          "Yes for medium and large rainbowfish (boesemani, Australian) in 55 gallons or more; angelfish will eat dwarf neons and threadfins. Keep the temperature at 78°F, the overlap of both ranges."
+        ],
+        [
+          "Can rainbow fish live with a betta?",
+          "Not recommended. A school of rainbowfish is too fast and busy for a betta, which becomes stressed and stops eating, and a betta may attack a red-finned dwarf neon. Choose calmer tank mates for the betta."
+        ],
+        [
+          "Can rainbow fish live with discus?",
+          "Poorly. Discus want 84°F and soft acidic water and eat slowly; rainbowfish want 76°F, hard water and eat everything in seconds. The turquoise rainbowfish is sometimes kept with discus at 80°F, but it is a compromise for both."
+        ],
+        [
+          "Can rainbow fish live with goldfish?",
+          "No. Goldfish need cooler water (65–72°F) and produce far more waste; rainbowfish at those temperatures are sluggish and colourless. Keep them in separate tanks."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/rainbow-fish-care/",
+          "Rainbow Fish Care Guide"
+        ],
+        [
+          "/compatibility/bosemans-rainbowfish/",
+          "Boesemani Tank Mates Hub"
+        ],
+        [
+          "/compatibility/neon-rainbowfish/",
+          "Neon Rainbowfish Tank Mates Hub"
+        ],
+        [
+          "/compatibility/threadfin-rainbowfish/",
+          "Threadfin Rainbowfish Tank Mates Hub"
+        ],
+        [
+          "/tools/fish-compatibility-checker/",
+          "Fish Compatibility Checker"
+        ],
+        [
+          "/guides/rainbow-fish-care/tank-size/",
+          "Rainbow Fish Tank Size"
+        ],
+        [
+          "/guides/rainbow-fish-care/behavior/",
+          "Rainbow Fish Behavior"
+        ]
+      ]
+    },
+    {
+      "slug": "behavior",
+      "kind": "article",
+      "keyword": "rainbow fish behavior",
+      "secondary": [
+        "do rainbow fish school",
+        "rainbow fish aggressive",
+        "rainbow fish jumping",
+        "do rainbow fish like current"
+      ],
+      "title": "Rainbow Fish Behavior: Schooling, Chasing, Colour, Jumping",
+      "meta_desc": "Rainbow fish behavior explained: why they school and cannot live alone, dawn chasing, colour that comes and goes, love of current, jumping, hiding and stress.",
+      "h1": "Rainbow Fish Behavior: Schooling, Chasing, Colour Changes and Jumping",
+      "hero_tag": "Behavior",
+      "hero_meta": "🐟 Schooling, never alone &nbsp;|&nbsp; ⚔️ Dawn sparring is display &nbsp;|&nbsp; 🌊 Loves current",
+      "toc": [
+        [
+          "school",
+          "Schooling"
+        ],
+        [
+          "display",
+          "Chasing and Displays"
+        ],
+        [
+          "colour",
+          "Colour Changes"
+        ],
+        [
+          "flow",
+          "Current and Flow"
+        ],
+        [
+          "jumping",
+          "Jumping"
+        ],
+        [
+          "stress",
+          "Stress Signals"
+        ]
+      ],
+      "body_file": "pages/behavior.html",
+      "faqs": [
+        [
+          "Do rainbow fish school?",
+          "Yes, tightly. In the wild Melanotaenia live in groups of dozens, and in the aquarium they need six or more of their own species to behave normally. A lone rainbowfish is pale, hides and often stops eating."
+        ],
+        [
+          "Can rainbow fish live alone?",
+          "No. A single rainbowfish, or a pair, lives in a constant state of stress. Six is the minimum, and the group should be the same species; a mixed group of singles does not count as a school."
+        ],
+        [
+          "Are rainbow fish aggressive?",
+          "No. Males chase, flare and circle each other every morning, sometimes for hours, and it looks violent. It is display: no fins are torn and no fish is injured in a proper school. Toward other species they are peaceful."
+        ],
+        [
+          "Do rainbow fish like current?",
+          "Yes. They come from rivers and will play in the filter outflow all day. Moderate flow from a canister or hang-on filter, with a powerhead in tanks over 4 feet, keeps them active and bright."
+        ],
+        [
+          "Do rainbow fish jump?",
+          "Yes, especially when startled by lights, during a spawning chase, or in the first week in a new tank. A tight-fitting lid is essential; a jumped rainbowfish is one of the commonest ways they are lost."
+        ],
+        [
+          "Why is my rainbow fish hiding?",
+          "New fish hide for a few days. An established rainbowfish that hides is alone or in too small a group, bullied by a larger tank mate, in water that has swung, or ill — check the group size first, then test the water."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/rainbow-fish-care/",
+          "Rainbow Fish Care Guide"
+        ],
+        [
+          "/guides/rainbow-fish-care/tank-mates/",
+          "Rainbow Fish Tank Mates"
+        ],
+        [
+          "/guides/rainbow-fish-care/diseases/",
+          "Rainbow Fish Diseases"
+        ],
+        [
+          "/guides/rainbow-fish-care/tank-size/",
+          "Rainbow Fish Tank Size"
+        ],
+        [
+          "/fish-health/rainbow-fish-aggressive",
+          "Rainbow Fish Aggressive"
+        ],
+        [
+          "/fish-health/rainbow-fish-hiding",
+          "Rainbow Fish Hiding"
+        ]
+      ]
+    },
+    {
+      "slug": "diseases",
+      "kind": "article",
+      "keyword": "rainbow fish diseases",
+      "secondary": [
+        "rainbow fish columnaris",
+        "rainbow fish mycobacterium",
+        "rainbow fish bent spine",
+        "rainbow fish ich"
+      ],
+      "title": "Rainbow Fish Diseases: Columnaris, Fish TB, Ich and Bloat",
+      "meta_desc": "Rainbow fish diseases explained: columnaris saddleback, fish tuberculosis (wasting, bent spine), ich, velvet, bloat and internal parasites — how to treat each.",
+      "h1": "Rainbow Fish Diseases: Columnaris, Fish TB, Ich, Velvet and Bloat",
+      "hero_tag": "Diseases",
+      "hero_meta": "🦠 Columnaris and fish TB are the killers &nbsp;|&nbsp; 🔬 Ich and velvet are treatable &nbsp;|&nbsp; 🛡 Quarantine 3–4 weeks",
+      "toc": [
+        [
+          "overview",
+          "Overview"
+        ],
+        [
+          "columnaris",
+          "Columnaris"
+        ],
+        [
+          "tb",
+          "Fish Tuberculosis"
+        ],
+        [
+          "ich",
+          "Ich and Velvet"
+        ],
+        [
+          "bloat",
+          "Bloat, Dropsy, Parasites"
+        ],
+        [
+          "colour",
+          "Losing Colour"
+        ],
+        [
+          "prevent",
+          "Prevention"
+        ]
+      ],
+      "body_file": "pages/diseases.html",
+      "faqs": [
+        [
+          "What diseases do rainbow fish get?",
+          "Columnaris (a bacterial saddleback infection), fish tuberculosis (Mycobacterium, showing as wasting and a bent spine), ich, velvet, bloat and dropsy, and internal parasites. The first two are the ones that actually kill rainbowfish; the rest are treatable."
+        ],
+        [
+          "Why does my rainbow fish have a bent spine?",
+          "A curved or kinked spine in an adult that was straight is the classic sign of fish tuberculosis (Mycobacterium marinum), usually with slow wasting and a hollow belly. There is no cure; remove the fish and disinfect nets. A spine bent from birth is a genetic deformity and harmless."
+        ],
+        [
+          "What is the white patch on my rainbow fish's back?",
+          "A grey-white saddle behind the dorsal fin, often with frayed fins and a pale mouth, is columnaris (Flavobacterium). It kills within days in warm water. Lower the temperature to 74°F, treat with kanamycin or nitrofurazone in a hospital tank, and improve water quality."
+        ],
+        [
+          "How do I treat ich on rainbow fish?",
+          "Raise the temperature slowly to 86°F for ten days with extra aeration, add 1 tablespoon of aquarium salt per 5 gallons, or use a malachite green/formalin medication. Rainbowfish tolerate all three well. Treat the whole tank; ich is in the water, not just on the fish."
+        ],
+        [
+          "Why are my rainbow fish wasting away?",
+          "Slow wasting with a normal appetite points to internal parasites (treat with metronidazole or levamisole in food); wasting with a bent spine or no appetite points to fish TB. Either way, isolate the fish and check the rest of the school."
+        ],
+        [
+          "Can fish TB from rainbow fish infect humans?",
+          "Rarely, through a cut in the skin, causing a slow-healing sore ('fish tank granuloma'). Wear gloves if you have open cuts when handling a tank that has had a wasting fish, and see a doctor about a persistent lump on the hand."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/rainbow-fish-care/",
+          "Rainbow Fish Care Guide"
+        ],
+        [
+          "/guides/rainbow-fish-care/water-parameters/",
+          "Rainbow Fish Water Parameters"
+        ],
+        [
+          "/guides/rainbow-fish-care/food/",
+          "Rainbow Fish Food"
+        ],
+        [
+          "/aquarium-fish-diseases/rainbow-fish-diseases/",
+          "Rainbow Fish Symptom Index"
+        ],
+        [
+          "/fish-health/rainbow-fish-white-spots",
+          "Rainbow Fish White Spots"
+        ],
+        [
+          "/fish-health/rainbow-fish-losing-color",
+          "Rainbow Fish Losing Color"
+        ],
+        [
+          "/tools/water-parameter-checker/",
+          "Water Parameter Checker"
+        ]
+      ]
+    },
+    {
+      "slug": "",
+      "url": "/calculators/rainbow-fish-tank-size/",
+      "kind": "tool",
+      "keyword": "rainbow fish tank size calculator",
+      "secondary": [
+        "how many rainbow fish per gallon",
+        "rainbowfish tank size"
+      ],
+      "title": "Rainbow Fish Tank Size Calculator: Gallons for Your School",
+      "meta_desc": "Free rainbow fish tank size calculator: pick the species, school size and a second species to get the minimum gallons and tank length, plus the rule behind it.",
+      "h1": "Rainbow Fish Tank Size Calculator",
+      "hero_tag": "Calculator",
+      "hero_meta": "🧮 Free tool &nbsp;|&nbsp; 📏 Gallons and tank length &nbsp;|&nbsp; 🐟 12 species, 6–20 fish",
+      "toc": [
+        [
+          "tool",
+          "Calculator"
+        ],
+        [
+          "how",
+          "How It Works"
+        ],
+        [
+          "by-tank",
+          "How Many Rainbow Fish per Tank"
+        ],
+        [
+          "two",
+          "Two Species"
+        ],
+        [
+          "wrong",
+          "Signs the Tank Is Too Small"
+        ]
+      ],
+      "body_file": "pages/calculator.html",
+      "tool": {
+        "heading": "🌈 Rainbow Fish Tank Size Calculator",
+        "html_file": "tools/calc.html",
+        "js_file": "tools/calc.js"
+      },
+      "faqs": [
+        [
+          "How does the rainbow fish tank size calculator work?",
+          "It starts from the species' minimum for a school of six (20, 40 or 55 gallons by size band), adds 12% for each fish beyond six, adds 70% of a second species' minimum if you mix two schools, and rounds up to the next standard tank that also meets the minimum length of 30, 36 or 48 inches."
+        ],
+        [
+          "How many rainbow fish per gallon?",
+          "There is no per-gallon rule that works for schooling sprinters; the calculator uses a school minimum plus a per-fish increment instead. As a rough check: dwarf neons about 2.5 gallons each beyond the first six, boesemani about 5, Australian rainbowfish about 7."
+        ],
+        [
+          "What tank do I need for 6 boesemani rainbowfish?",
+          "40 gallons and 36 inches minimum; the calculator returns a 40-breeder or a 55 depending on plants. Ten boesemani return a 55 gallon; twelve with a second species return a 75."
+        ],
+        [
+          "What tank do I need for 10 dwarf neon rainbowfish?",
+          "A 20-gallon long (30 inches). Fifteen dwarf neons need a 29 or a 30-gallon; add corydoras or tetras and the calculator moves you to a 40."
+        ],
+        [
+          "Does a planted tank change the number?",
+          "Slightly. Plants take swimming room but rainbowfish are calmer with cover, so the calculator adds 10% for a heavily planted tank rather than the 20% a reef adds for a tang."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/rainbow-fish-care/tank-size/",
+          "Rainbow Fish Tank Size Guide"
+        ],
+        [
+          "/guides/rainbow-fish-care/",
+          "Rainbow Fish Care Guide"
+        ],
+        [
+          "/guides/rainbow-fish-care/types/",
+          "Types of Rainbow Fish"
+        ],
+        [
+          "/tools/aquarium-size-calculator/",
+          "Aquarium Size Calculator"
+        ],
+        [
+          "/tools/fish-tank-stocking-calculator/",
+          "Fish Tank Stocking Calculator"
+        ],
+        [
+          "/calculators/",
+          "All Tank Size Calculators"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6780 @@
+{
+  "subject": "rainbow fish",
+  "type": "fish",
+  "aliases": [
+    "rainbowfish",
+    "melanotaenia"
+  ],
+  "keywords": [
+    {
+      "keyword": "australian rainbow fish",
+      "group": "types",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "australian rainbow fish care",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "australian rainbowfish care",
+      "group": "types",
+      "source": "suggest",
+      "status": "partial",
+      "url": "/aquarium-fish-diseases/australian-rainbowfish-diseases/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 190,
+      "page_title": "Australian Rainbowfish Diseases: Symptoms, Causes Guides",
+      "noindex": false
+    },
+    {
+      "keyword": "best rainbow fish",
+      "group": "types",
+      "source": "suggest",
+      "status": "partial",
+      "url": "/wiki/rainbow-fish/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 822,
+      "page_title": "Rainbowfish Care Guide 2026: Free Species Profile, Color Display & Boesemani Tips | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "boesemani rainbow fish",
+      "group": "types",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "boesemani rainbow fish care",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "boesemani rainbowfish",
+      "group": "types",
+      "source": "extra",
+      "status": "partial",
+      "url": "/wiki/rainbow-fish/",
+      "matched_on": "title",
+      "where": "local-only",
+      "page_words": 822,
+      "page_title": "Rainbowfish Care Guide 2026: Free Species Profile, Color Display & Boesemani Tips | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "boesemani rainbowfish care",
+      "group": "types",
+      "source": "suggest",
+      "status": "partial",
+      "url": "/wiki/rainbow-fish/",
+      "matched_on": "title",
+      "where": "local-only",
+      "page_words": 822,
+      "page_title": "Rainbowfish Care Guide 2026: Free Species Profile, Color Display & Boesemani Tips | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "boesemani rainbowfish care guide",
+      "group": "types",
+      "source": "suggest",
+      "status": "partial",
+      "url": "/wiki/rainbow-fish/",
+      "matched_on": "title",
+      "where": "local-only",
+      "page_words": 822,
+      "page_title": "Rainbowfish Care Guide 2026: Free Species Profile, Color Display & Boesemani Tips | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "can rainbow fish crossbreed",
+      "group": "breeding",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "can rainbow fish live alone",
+      "group": "tank-size",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "can rainbowfish and guppies live together",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "can rainbowfish be kept alone",
+      "group": "tank-size",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "celebes rainbow fish",
+      "group": "types",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "celebes rainbowfish care",
+      "group": "types",
+      "source": "suggest",
+      "status": "partial",
+      "url": "/species/celebes-rainbowfish",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "do rainbow fish like current",
+      "group": "water",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "do rainbow fish like flow",
+      "group": "water",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "do rainbow fish like high flow",
+      "group": "water",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "do rainbow fish school",
+      "group": "tank-size",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "dwarf neon rainbow fish",
+      "group": "types",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "dwarf rainbow fish care",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "forktail rainbowfish",
+      "group": "types",
+      "source": "extra",
+      "status": "covered",
+      "url": "/aquarium-fish-diseases/forktail-rainbowfish-diseases/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 191,
+      "page_title": "Forktail Rainbowfish Diseases: Symptoms, Causes Guides",
+      "noindex": false
+    },
+    {
+      "keyword": "forktail rainbowfish care",
+      "group": "types",
+      "source": "suggest",
+      "status": "partial",
+      "url": "/aquarium-fish-diseases/forktail-rainbowfish-diseases/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 191,
+      "page_title": "Forktail Rainbowfish Diseases: Symptoms, Causes Guides",
+      "noindex": false
+    },
+    {
+      "keyword": "how many rainbow fish should be kept together",
+      "group": "tank-size",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how to care for rainbow fish",
+      "group": "pillar",
+      "source": "template",
+      "status": "partial",
+      "url": "/wiki/rainbow-fish/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 822,
+      "page_title": "Rainbowfish Care Guide 2026: Free Species Profile, Color Display & Boesemani Tips | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "how to keep rainbowfish",
+      "group": "pillar",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "kamaka rainbow fish",
+      "group": "types",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "madagascar rainbow fish",
+      "group": "types",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "madagascar rainbow fish care",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "melanotaenia",
+      "group": "pillar",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "melanotaenia boesemani",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "melanotaenia boesemani care",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "melanotaenia care",
+      "group": "pillar",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "melanotaenia herbertaxelrodi",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "melanotaenia lacustris",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "melanotaenia maccullochi",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "melanotaenia parkinsoni",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "melanotaenia parva",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "melanotaenia praecox",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "melanotaenia praecox care",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "melanotaenia pygmaea care",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "melanotaenia splendida",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "melanotaenia trifasciata",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "millennium rainbow fish",
+      "group": "types",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "neon rainbowfish",
+      "group": "types",
+      "source": "extra",
+      "status": "covered",
+      "url": "/compatibility/neon-rainbowfish/",
+      "matched_on": "slug",
+      "where": "local+live",
+      "page_words": 834,
+      "page_title": "Neon Rainbowfish Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "neon rainbowfish care",
+      "group": "types",
+      "source": "suggest",
+      "status": "partial",
+      "url": "/compatibility/neon-rainbowfish/",
+      "matched_on": "slug",
+      "where": "local+live",
+      "page_words": 834,
+      "page_title": "Neon Rainbowfish Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "paskai rainbow fish care",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "praecox rainbowfish",
+      "group": "types",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish",
+      "group": "pillar",
+      "source": "template",
+      "status": "covered",
+      "url": "/wiki/rainbow-fish/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 822,
+      "page_title": "Rainbowfish Care Guide 2026: Free Species Profile, Color Display & Boesemani Tips | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish bent spine",
+      "group": "health",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish care",
+      "group": "pillar",
+      "source": "template",
+      "status": "partial",
+      "url": "/wiki/rainbow-fish/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 822,
+      "page_title": "Rainbowfish Care Guide 2026: Free Species Profile, Color Display & Boesemani Tips | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish care guide",
+      "group": "pillar",
+      "source": "template",
+      "status": "partial",
+      "url": "/wiki/rainbow-fish/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 822,
+      "page_title": "Rainbowfish Care Guide 2026: Free Species Profile, Color Display & Boesemani Tips | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish columnaris",
+      "group": "health",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish facts",
+      "group": "pillar",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish flashing",
+      "group": "health",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish for beginners",
+      "group": "pillar",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish hardness",
+      "group": "water",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish mycobacterium",
+      "group": "health",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish wasting",
+      "group": "health",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish with severum",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbowfish",
+      "group": "pillar",
+      "source": "suggest",
+      "status": "covered",
+      "url": "/wiki/rainbow-fish/",
+      "matched_on": "title",
+      "where": "local-only",
+      "page_words": 822,
+      "page_title": "Rainbowfish Care Guide 2026: Free Species Profile, Color Display & Boesemani Tips | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbowfish boesemani",
+      "group": "types",
+      "source": "suggest",
+      "status": "partial",
+      "url": "/wiki/rainbow-fish/",
+      "matched_on": "title",
+      "where": "local-only",
+      "page_words": 822,
+      "page_title": "Rainbowfish Care Guide 2026: Free Species Profile, Color Display & Boesemani Tips | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbowfish care",
+      "group": "pillar",
+      "source": "suggest",
+      "status": "covered",
+      "url": "/wiki/rainbow-fish/",
+      "matched_on": "title",
+      "where": "local-only",
+      "page_words": 822,
+      "page_title": "Rainbowfish Care Guide 2026: Free Species Profile, Color Display & Boesemani Tips | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbowfish care guide",
+      "group": "pillar",
+      "source": "suggest",
+      "status": "covered",
+      "url": "/wiki/rainbow-fish/",
+      "matched_on": "title",
+      "where": "local-only",
+      "page_words": 822,
+      "page_title": "Rainbowfish Care Guide 2026: Free Species Profile, Color Display & Boesemani Tips | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "red rainbow fish",
+      "group": "types",
+      "source": "extra",
+      "status": "partial",
+      "url": "/fish-health/rainbow-fish-red-streaks",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "threadfin rainbowfish",
+      "group": "types",
+      "source": "extra",
+      "status": "covered",
+      "url": "/compatibility/threadfin-rainbowfish/",
+      "matched_on": "slug",
+      "where": "local+live",
+      "page_words": 824,
+      "page_title": "Threadfin Rainbowfish Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "threadfin rainbowfish care",
+      "group": "types",
+      "source": "suggest",
+      "status": "partial",
+      "url": "/compatibility/threadfin-rainbowfish/",
+      "matched_on": "slug",
+      "where": "local+live",
+      "page_words": 824,
+      "page_title": "Threadfin Rainbowfish Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "threadfin rainbowfish care guide",
+      "group": "types",
+      "source": "suggest",
+      "status": "partial",
+      "url": "/compatibility/threadfin-rainbowfish/",
+      "matched_on": "slug",
+      "where": "local+live",
+      "page_words": 824,
+      "page_title": "Threadfin Rainbowfish Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "turquoise rainbow fish care",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "turquoise rainbowfish",
+      "group": "types",
+      "source": "extra",
+      "status": "covered",
+      "url": "/species/turquoise-rainbowfish",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "best rainbow fish for community tank",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how many rainbow fish in a 10 gallon tank",
+      "group": "tank-size",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how many rainbow fish in a 20 gallon tank",
+      "group": "tank-size",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish community tank",
+      "group": "tank-size",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish for 20 gallon",
+      "group": "tank-size",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish for 55 gallon",
+      "group": "tank-size",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish for 75 gallon",
+      "group": "tank-size",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish minimum tank size",
+      "group": "tank-size",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish tank",
+      "group": "tank-size",
+      "source": "template",
+      "status": "partial",
+      "url": "/wiki/rainbow-fish/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 822,
+      "page_title": "Rainbowfish Care Guide 2026: Free Species Profile, Color Display & Boesemani Tips | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish tank setup",
+      "group": "tank-size",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish tank size",
+      "group": "tank-size",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish kh gh",
+      "group": "water",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish ph",
+      "group": "water",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish temperature",
+      "group": "water",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish water hardness",
+      "group": "water",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish water parameters",
+      "group": "water",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish water temperature",
+      "group": "water",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "best food for rainbow fish",
+      "group": "food",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "best rainbow fish food",
+      "group": "food",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "do rainbow fish eat plants",
+      "group": "food",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "do rainbow fish eat shrimp",
+      "group": "food",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how often to feed rainbow fish",
+      "group": "food",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how often to feed rainbowfish",
+      "group": "food",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish feeding",
+      "group": "food",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish food",
+      "group": "food",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish not eating",
+      "group": "food",
+      "source": "template",
+      "status": "covered",
+      "url": "/fish-health/rainbow-fish-not-eating",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "what do rainbow fish eat",
+      "group": "food",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "what to feed rainbow fish",
+      "group": "food",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how big do rainbow fish get",
+      "group": "size",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish full size",
+      "group": "size",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish growth rate",
+      "group": "size",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish school size",
+      "group": "tank-size",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish size",
+      "group": "size",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbowfish size",
+      "group": "size",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbowfish tank size",
+      "group": "tank-size",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how long do rainbow fish live",
+      "group": "lifespan",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish lifespan",
+      "group": "lifespan",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish colors",
+      "group": "types",
+      "source": "template",
+      "status": "partial",
+      "url": "/fish-health/rainbow-fish-pale-color",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish colors fading",
+      "group": "health",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish types",
+      "group": "types",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish varieties",
+      "group": "types",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbowfish species",
+      "group": "types",
+      "source": "suggest",
+      "status": "partial",
+      "url": "/wiki/rainbow-fish/",
+      "matched_on": "title",
+      "where": "local-only",
+      "page_words": 822,
+      "page_title": "Rainbowfish Care Guide 2026: Free Species Profile, Color Display & Boesemani Tips | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbowfish types",
+      "group": "types",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "types of rainbow fish",
+      "group": "types",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how to tell if rainbow fish is male or female",
+      "group": "sex",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "male vs female rainbow fish",
+      "group": "sex",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish male or female",
+      "group": "sex",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "baby rainbow fish",
+      "group": "breeding",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "do rainbow fish breed easily",
+      "group": "breeding",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "do rainbow fish lay eggs",
+      "group": "breeding",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how to breed boesemani rainbowfish",
+      "group": "breeding",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how to breed celebes rainbowfish",
+      "group": "breeding",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how to breed dwarf neon rainbowfish",
+      "group": "breeding",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how to breed forktail rainbowfish",
+      "group": "breeding",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how to breed rainbow fish",
+      "group": "breeding",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how to breed rainbowfish",
+      "group": "breeding",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how to breed threadfin rainbowfish",
+      "group": "breeding",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how to raise rainbowfish fry",
+      "group": "breeding",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "pregnant rainbow fish",
+      "group": "breeding",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish breeding",
+      "group": "breeding",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish eggs",
+      "group": "breeding",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish eggs hatching",
+      "group": "breeding",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish fry",
+      "group": "breeding",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish fry care",
+      "group": "breeding",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish mating",
+      "group": "breeding",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish spawning mop",
+      "group": "breeding",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "best tank mates for rainbow fish",
+      "group": "tank-mates",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "best tank mates for rainbowfish",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "covered",
+      "url": "/compatibility/neon-rainbowfish/",
+      "matched_on": "title",
+      "where": "local+live",
+      "page_words": 834,
+      "page_title": "Neon Rainbowfish Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "can rainbow fish live with angelfish",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "can rainbow fish live with betta",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "can rainbow fish live with discus",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "can rainbow fish live with goldfish",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "can rainbow fish live with gourami",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "can rainbow fish live with guppies",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "can rainbow fish live with tetras",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "can rainbowfish live with angelfish",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "can rainbowfish live with goldfish",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "can rainbowfish live with guppies",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "can rainbowfish live with neon tetras",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "can rainbowfish live with platies",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "can rainbowfish live with shrimp",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "can rainbowfish live with tiger barbs",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish compatibility",
+      "group": "tank-mates",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish tank mates",
+      "group": "tank-mates",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish with angelfish",
+      "group": "tank-mates",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish with betta",
+      "group": "tank-mates",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish with cichlids",
+      "group": "tank-mates",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish with discus",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish with goldfish",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish with guppies",
+      "group": "tank-mates",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish with shrimp",
+      "group": "tank-mates",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish with tetras",
+      "group": "tank-mates",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "what fish can live with rainbow fish",
+      "group": "tank-mates",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "do rainbowfish jump",
+      "group": "behavior",
+      "source": "suggest",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish aggressive",
+      "group": "behavior",
+      "source": "template",
+      "status": "covered",
+      "url": "/fish-health/rainbow-fish-aggressive",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish at top of tank",
+      "group": "behavior",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish behavior",
+      "group": "behavior",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish chasing other fish",
+      "group": "behavior",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish hiding",
+      "group": "behavior",
+      "source": "template",
+      "status": "covered",
+      "url": "/fish-health/rainbow-fish-hiding",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish jumping",
+      "group": "behavior",
+      "source": "template",
+      "status": "covered",
+      "url": "/fish-health/rainbow-fish-jumping",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish lying at bottom of tank",
+      "group": "behavior",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish swimming erratically",
+      "group": "behavior",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish bloated",
+      "group": "health",
+      "source": "template",
+      "status": "covered",
+      "url": "/fish-health/rainbow-fish-bloated",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish cloudy eye",
+      "group": "health",
+      "source": "template",
+      "status": "covered",
+      "url": "/fish-health/rainbow-fish-cloudy-eyes",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish diseases",
+      "group": "health",
+      "source": "template",
+      "status": "covered",
+      "url": "/aquarium-fish-diseases/rainbow-fish-diseases/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 209,
+      "page_title": "Rainbow Fish Diseases: Symptoms, Causes Guides",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish dropsy",
+      "group": "health",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish dying",
+      "group": "health",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish fin rot",
+      "group": "health",
+      "source": "template",
+      "status": "covered",
+      "url": "/fish-health/rainbow-fish-fin-rot",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish gasping for air",
+      "group": "health",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish ich",
+      "group": "health",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish losing color",
+      "group": "health",
+      "source": "template",
+      "status": "covered",
+      "url": "/fish-health/rainbow-fish-losing-color",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish popeye",
+      "group": "health",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish swim bladder",
+      "group": "health",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish turning white",
+      "group": "health",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish white spots",
+      "group": "health",
+      "source": "template",
+      "status": "covered",
+      "url": "/fish-health/rainbow-fish-white-spots",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "why is my rainbow fish not moving",
+      "group": "health",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish planted tank",
+      "group": "tank-size",
+      "source": "extra",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "how many rainbow fish per gallon",
+      "group": "sizing",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish feeding calculator",
+      "group": "sizing",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "rainbow fish tank size calculator",
+      "group": "sizing",
+      "source": "template",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    }
+  ],
+  "subject_pages": [
+    {
+      "path": "/aquarium-fish-diseases/australian-rainbowfish-diseases/",
+      "title": "Australian Rainbowfish Diseases: Symptoms, Causes Guides",
+      "desc": "Browse 1 indexed Australian Rainbowfish symptom and disease guides. Compare signs, possible causes and next checks.",
+      "h1": "Australian Rainbowfish Diseases: Symptoms, Causes Guides",
+      "canonical": "https://www.fishcareai.com/aquarium-fish-diseases/australian-rainbowfish-diseases/",
+      "words": 190,
+      "noindex": false,
+      "where": "local-only"
+    },
+    {
+      "path": "/aquarium-fish-diseases/forktail-rainbowfish-diseases/",
+      "title": "Forktail Rainbowfish Diseases: Symptoms, Causes Guides",
+      "desc": "Browse 1 indexed Forktail Rainbowfish symptom and disease guides. Compare signs, possible causes and next checks.",
+      "h1": "Forktail Rainbowfish Diseases: Symptoms, Causes Guides",
+      "canonical": "https://www.fishcareai.com/aquarium-fish-diseases/forktail-rainbowfish-diseases/",
+      "words": 191,
+      "noindex": false,
+      "where": "local-only"
+    },
+    {
+      "path": "/aquarium-fish-diseases/gertrudae-rainbowfish-diseases/",
+      "title": "Gertrudae Rainbowfish Diseases: Symptoms, Causes Guides",
+      "desc": "Browse 25 indexed Gertrudae Rainbowfish symptom and disease guides. Compare signs, possible causes and next checks.",
+      "h1": "Gertrudae Rainbowfish Diseases: Symptoms, Causes Guides",
+      "canonical": "https://www.fishcareai.com/aquarium-fish-diseases/gertrudae-rainbowfish-diseases/",
+      "words": 420,
+      "noindex": false,
+      "where": "local-only"
+    },
+    {
+      "path": "/aquarium-fish-diseases/rainbow-fish-diseases/",
+      "title": "Rainbow Fish Diseases: Symptoms, Causes Guides",
+      "desc": "Browse 3 indexed Rainbow Fish symptom and disease guides. Compare signs, possible causes and next checks.",
+      "h1": "Rainbow Fish Diseases: Symptoms, Causes Guides",
+      "canonical": "https://www.fishcareai.com/aquarium-fish-diseases/rainbow-fish-diseases/",
+      "words": 209,
+      "noindex": false,
+      "where": "local-only"
+    },
+    {
+      "path": "/compatibility/african-butterfly-fish-and-bosemans-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/african-butterfly-fish-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/african-butterfly-fish-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/angelfish-and-bosemans-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/angelfish-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/angelfish-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/betta-fish-and-bosemans-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/betta-fish-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/betta-fish-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/black-ghost-knifefish-and-bosemans-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/black-ghost-knifefish-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/black-ghost-knifefish-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/black-neon-tetra-and-bosemans-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/black-neon-tetra-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/black-neon-tetra-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/black-phantom-tetra-and-bosemans-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/black-phantom-tetra-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/black-phantom-tetra-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/black-ruby-barb-and-bosemans-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/black-ruby-barb-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/black-ruby-barb-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-bosemans-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/blue-tang-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bolivian-ram-and-bosemans-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bolivian-ram-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bolivian-ram-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-bristlenose-pleco/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-cardinal-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-cherry-barb/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-cherry-shrimp/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-chili-rasbora/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-clown-knifefish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-clown-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-clown-pleco/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-congo-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-coral-beauty/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-corydoras/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-denison-barb/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-diamond-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-discus/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-dwarf-chain-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-electric-yellow-cichlid/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-ember-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-fire-eel/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-firefish-goby/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-flame-angelfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-foxface-rabbitfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-frontosa-cichlid/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-giant-danio/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-glass-catfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-glowlight-danio/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-glowlight-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-goldfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-green-terror-cichlid/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-guppy/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-harlequin-rasbora/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-hillstream-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-honey-gourami/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-jewel-cichlid/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-julii-cory/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-keyhole-cichlid/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-koi/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-kuhli-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-lemon-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-lionfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-molly/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-moonlight-gourami/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-mystery-snail/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-neon-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-nerite-snail/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-oscar/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-otocinclus/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-pajama-cardinalfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-panda-cory/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-pea-puffer/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-peacock-cichlid/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-pearl-danio/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-peppered-cory/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-percula-clownfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-platy/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-pygmy-corydoras/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-red-eye-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-rosy-barb/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-royal-gramma/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-senegal-bichir/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-serpae-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-severum-cichlid/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-silver-arowana/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-silver-dollar/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-sparkling-gourami/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-sterbai-cory/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-swordtail/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-texas-cichlid/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-three-spot-gourami/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-tiger-barb/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-watchman-goby/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-weather-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-x-ray-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-yoyo-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-zebra-danio/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-zebra-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish-and-zebra-pleco/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bosemans-rainbowfish/",
+      "title": "Bosemans Rainbowfish Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "desc": "Compare Bosemans Rainbowfish with 90 aquarium species. Ranked compatibility scores, water requirements, behavior risks, and tank size guidance.",
+      "h1": "Bosemans Rainbowfish Tank Mates",
+      "canonical": "https://www.fishcareai.com/compatibility/bosemans-rainbowfish/",
+      "words": 817,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bristlenose-pleco-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/bristlenose-pleco-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/cardinal-tetra-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/cardinal-tetra-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/cherry-barb-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/cherry-barb-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/cherry-shrimp-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/cherry-shrimp-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/chili-rasbora-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/chili-rasbora-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/clown-knifefish-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/clown-knifefish-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/clown-loach-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/clown-loach-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/clown-pleco-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/clown-pleco-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/congo-tetra-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/congo-tetra-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/coral-beauty-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/coral-beauty-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/corydoras-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/corydoras-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/denison-barb-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/denison-barb-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/diamond-tetra-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/diamond-tetra-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/discus-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/discus-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/dwarf-chain-loach-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/dwarf-chain-loach-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/electric-yellow-cichlid-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/electric-yellow-cichlid-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/ember-tetra-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/ember-tetra-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/fire-eel-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/fire-eel-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/firefish-goby-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/firefish-goby-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/flame-angelfish-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/flame-angelfish-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/foxface-rabbitfish-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/foxface-rabbitfish-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/frontosa-cichlid-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/frontosa-cichlid-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/giant-danio-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/giant-danio-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/glass-catfish-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/glass-catfish-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/glowlight-danio-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/glowlight-danio-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/glowlight-tetra-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/glowlight-tetra-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/goldfish-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/goldfish-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/green-terror-cichlid-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/green-terror-cichlid-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/guppy-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/guppy-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/harlequin-rasbora-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/harlequin-rasbora-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/hillstream-loach-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/hillstream-loach-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/honey-gourami-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/honey-gourami-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/jewel-cichlid-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/jewel-cichlid-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/julii-cory-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/julii-cory-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/keyhole-cichlid-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/keyhole-cichlid-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/koi-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/koi-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/kuhli-loach-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/kuhli-loach-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/lemon-tetra-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/lemon-tetra-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/lionfish-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/lionfish-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/molly-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/molly-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/moonlight-gourami-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/moonlight-gourami-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/mystery-snail-and-neon-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/mystery-snail-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-neon-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-nerite-snail/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-oscar/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-otocinclus/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-pajama-cardinalfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-panda-cory/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-pea-puffer/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-peacock-cichlid/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-pearl-danio/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-peppered-cory/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-percula-clownfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-platy/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-pygmy-corydoras/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-red-eye-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-rosy-barb/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-royal-gramma/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-senegal-bichir/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-serpae-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-severum-cichlid/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-silver-arowana/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-silver-dollar/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-sparkling-gourami/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-sterbai-cory/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-swordtail/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-texas-cichlid/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-three-spot-gourami/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-tiger-barb/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-watchman-goby/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-weather-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-x-ray-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-yoyo-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-zebra-danio/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-zebra-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish-and-zebra-pleco/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-rainbowfish/",
+      "title": "Neon Rainbowfish Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "desc": "Compare Neon Rainbowfish with 90 aquarium species. Ranked compatibility scores, water requirements, behavior risks, and tank size guidance.",
+      "h1": "Neon Rainbowfish Tank Mates",
+      "canonical": "https://www.fishcareai.com/compatibility/neon-rainbowfish/",
+      "words": 834,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/neon-tetra-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/nerite-snail-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/oscar-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/otocinclus-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/pajama-cardinalfish-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/panda-cory-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/pea-puffer-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/peacock-cichlid-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/pearl-danio-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/peppered-cory-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/percula-clownfish-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/platy-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/pygmy-corydoras-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/red-eye-tetra-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/rosy-barb-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/royal-gramma-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/senegal-bichir-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/serpae-tetra-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/severum-cichlid-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/silver-arowana-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/silver-dollar-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/sparkling-gourami-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/sterbai-cory-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/swordtail-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/texas-cichlid-and-threadfin-rainbowfish/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/threadfin-rainbowfish-and-three-spot-gourami/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/threadfin-rainbowfish-and-tiger-barb/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/threadfin-rainbowfish-and-watchman-goby/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/threadfin-rainbowfish-and-weather-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/threadfin-rainbowfish-and-x-ray-tetra/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/threadfin-rainbowfish-and-yellow-tang/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/threadfin-rainbowfish-and-yoyo-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/threadfin-rainbowfish-and-zebra-danio/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/threadfin-rainbowfish-and-zebra-loach/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/threadfin-rainbowfish-and-zebra-pleco/",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/compatibility/threadfin-rainbowfish/",
+      "title": "Threadfin Rainbowfish Tank Mates: 90 Compatibility Guides | FishCare AI",
+      "desc": "Compare Threadfin Rainbowfish with 90 aquarium species. Ranked compatibility scores, water requirements, behavior risks, and tank size guidance.",
+      "h1": "Threadfin Rainbowfish Tank Mates",
+      "canonical": "https://www.fishcareai.com/compatibility/threadfin-rainbowfish/",
+      "words": 824,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-aggressive",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-black-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-bloated",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-bulging-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-clamped-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-cloudy-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-coughing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-curled-body",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-darting",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-fin-rot",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-floating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-fuzzy-growth",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-gasping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-hiding",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-jumping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-lethargic",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-losing-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-missing-scales",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-mucus-coating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-not-eating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-pale-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-rapid-breathing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-red-streaks",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-rubbing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-sinking",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-spots-on-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-sunken-belly",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-swimming-sideways",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-torn-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/australian-rainbowfish-white-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-aggressive",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-black-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-bloated",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-bulging-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-clamped-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-cloudy-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-coughing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-curled-body",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-darting",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-fin-rot",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-floating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-fuzzy-growth",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-gasping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-hiding",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-jumping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-lethargic",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-losing-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-missing-scales",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-mucus-coating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-not-eating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-pale-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-rapid-breathing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-red-streaks",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-rubbing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-sinking",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-spots-on-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-sunken-belly",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-swimming-sideways",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-torn-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/boesemans-rainbowfish-white-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-aggressive",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-black-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-bloated",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-bulging-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-clamped-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-cloudy-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-coughing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-curled-body",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-darting",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-fin-rot",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-floating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-fuzzy-growth",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-gasping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-hiding",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-jumping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-lethargic",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-losing-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-missing-scales",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-mucus-coating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-not-eating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-pale-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-rapid-breathing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-red-streaks",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-rubbing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-sinking",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-spots-on-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-sunken-belly",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-swimming-sideways",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-torn-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/bosemans-rainbowfish-white-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-aggressive",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-black-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-bloated",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-bulging-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-clamped-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-cloudy-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-coughing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-curled-body",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-darting",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-fin-rot",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-floating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-fuzzy-growth",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-gasping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-hiding",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-jumping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-lethargic",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-losing-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-missing-scales",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-mucus-coating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-not-eating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-pale-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-rapid-breathing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-red-streaks",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-rubbing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-sinking",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-spots-on-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-sunken-belly",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-swimming-sideways",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-torn-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/celebes-rainbowfish-white-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-aggressive",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-black-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-bloated",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-bulging-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-clamped-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-cloudy-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-coughing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-curled-body",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-darting",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-fin-rot",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-floating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-fuzzy-growth",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-gasping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-hiding",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-jumping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-lethargic",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-losing-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-missing-scales",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-mucus-coating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-not-eating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-pale-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-rapid-breathing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-red-streaks",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-rubbing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-sinking",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-spots-on-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-sunken-belly",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-swimming-sideways",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-torn-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/eastern-rainbowfish-white-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/fish/australian-rainbowfish",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/fish/boesemans-rainbowfish",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/fish/bosemans-rainbowfish",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/fish/celebes-rainbowfish",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/fish/eastern-rainbowfish",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/fish/forktail-rainbowfish",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/fish/gertrudae-rainbowfish",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/fish/neon-rainbowfish",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/fish/rainbow-fish",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-aggressive",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-black-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-bloated",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-bulging-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-clamped-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-cloudy-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-coughing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-curled-body",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-darting",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-fin-rot",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-floating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-fuzzy-growth",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-gasping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-hiding",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-jumping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-lethargic",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-losing-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-missing-scales",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-mucus-coating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-not-eating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-pale-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-rapid-breathing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-red-streaks",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-rubbing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-sinking",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-spots-on-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-sunken-belly",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-swimming-sideways",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-torn-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/forktail-rainbowfish-white-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-aggressive",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-black-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-bloated",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-bulging-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-clamped-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-cloudy-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-coughing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-curled-body",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-darting",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-fin-rot",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-floating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-fuzzy-growth",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-gasping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-hiding",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-jumping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-lethargic",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-losing-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-missing-scales",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-mucus-coating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-not-eating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-pale-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-rapid-breathing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-red-streaks",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-rubbing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-sinking",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-spots-on-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-sunken-belly",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-swimming-sideways",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-torn-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/gertrudae-rainbowfish-white-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-aggressive",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-black-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-bloated",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-bulging-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-clamped-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-cloudy-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-coughing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-curled-body",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-darting",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-fin-rot",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-floating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-fuzzy-growth",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-gasping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-hiding",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-jumping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-lethargic",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-losing-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-missing-scales",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-mucus-coating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-not-eating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-pale-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-rapid-breathing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-red-streaks",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-rubbing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-sinking",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-spots-on-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-sunken-belly",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-swimming-sideways",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-torn-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/neon-rainbowfish-white-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-aggressive",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-black-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-bloated",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-bulging-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-clamped-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-cloudy-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-coughing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-curled-body",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-darting",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-fin-rot",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-floating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-fuzzy-growth",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-gasping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-hiding",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-jumping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-lethargic",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-losing-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-missing-scales",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-mucus-coating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-not-eating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-pale-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-rapid-breathing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-red-streaks",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-rubbing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-sinking",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-spots-on-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-sunken-belly",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-swimming-sideways",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-torn-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/rainbow-fish-white-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/species/australian-rainbowfish",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/species/boesemans-rainbowfish",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/species/bosemans-rainbowfish",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/species/celebes-rainbowfish",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/species/eastern-rainbowfish",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/species/forktail-rainbowfish",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/species/gertrudae-rainbowfish",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/species/neon-rainbowfish",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/species/rainbow-fish",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/species/threadfin-rainbowfish",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/species/turquoise-rainbowfish",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/wiki/rainbow-fish/",
+      "title": "Rainbowfish Care Guide 2026: Free Species Profile, Color Display & Boesemani Tips | FishCare AI",
+      "desc": "Free 2026 Rainbowfish care guide: Boesemani color display, schooling needs, diet for peak coloration, breeding, and popular species for Melanotaeniidae.",
+      "h1": "Rainbowfish",
+      "canonical": "https://www.fishcareai.com/wiki/rainbow-fish/",
+      "words": 822,
+      "noindex": false,
+      "where": "local-only"
+    }
+  ]
+}

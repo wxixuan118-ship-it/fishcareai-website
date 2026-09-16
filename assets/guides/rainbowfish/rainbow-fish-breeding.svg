@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Rainbow fish breeding: the egg-scatterer routine</title>
+<desc id="d">Rainbow fish breeding chart: males deeper and brighter, condition with live food, daily dawn spawning of 10 to 50 adhesive eggs on a mop, hatch in 7 to 10 days, fry need infusoria then baby brine shrimp, colour at 6 to 9 months</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient><linearGradient id="ok" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2bd4c4"/><stop offset="1" stop-color="#27ae60"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">Rainbow fish breeding: the egg-scatterer routine</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">Easy to spawn, slow to raise. The fry are the work, not the eggs.</text>
+<rect x="48" y="150" width="1104" height="62" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="188" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Sexing</text>
+<rect x="308" y="164" width="261" height="34" rx="9" fill="url(#ok)"/>
+<text x="324" y="188" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">males deeper, brighter</text>
+<text x="593" y="188" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">females slimmer, paler, shorter fins</text>
+<rect x="48" y="222" width="1104" height="62" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="260" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Conditioning</text>
+<rect x="308" y="236" width="261" height="34" rx="9" fill="url(#ok)"/>
+<text x="324" y="260" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">live food 1–2 weeks</text>
+<text x="593" y="260" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">1 male, 2 females</text>
+<rect x="48" y="294" width="1104" height="62" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="332" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Spawning</text>
+<rect x="308" y="308" width="261" height="34" rx="9" fill="url(#ok)"/>
+<text x="324" y="332" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">daily at dawn</text>
+<text x="593" y="332" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">10–50 eggs a day onto a mop or moss</text>
+<rect x="48" y="366" width="1104" height="62" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="404" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Eggs</text>
+<rect x="308" y="380" width="261" height="34" rx="9" fill="url(#ok)"/>
+<text x="324" y="404" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">adhesive, 1 mm</text>
+<text x="593" y="404" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">hatch in 7–10 days at 77°F</text>
+<rect x="48" y="438" width="1104" height="62" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Fry</text>
+<rect x="308" y="452" width="261" height="34" rx="9" fill="url(#ok)"/>
+<text x="324" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">infusoria first</text>
+<text x="593" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">baby brine shrimp from day 5–7</text>
+<rect x="48" y="510" width="1104" height="62" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="548" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Growth</text>
+<rect x="308" y="524" width="261" height="34" rx="9" fill="url(#ok)"/>
+<text x="324" y="548" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">slow</text>
+<text x="593" y="548" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">1 inch at 3 months; colour at 6–9</text>
+<text x="1152" y="618" text-anchor="end" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#5f8aa3">fishcareai.com</text>
+</svg>

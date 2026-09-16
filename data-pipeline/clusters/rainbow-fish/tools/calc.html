@@ -1,0 +1,22 @@
+    <div class="tool-grid">
+      <label>Rainbowfish species<select id="rf-sp">
+        <option value="praecox">Dwarf neon / praecox (2.5 in)</option>
+        <option value="threadfin">Threadfin rainbowfish (2 in)</option>
+        <option value="forktail">Forktail blue-eye (2 in)</option>
+        <option value="gertrudae">Gertrude's spotted blue-eye (1.5 in)</option>
+        <option value="celebes">Celebes rainbowfish (3 in)</option>
+        <option value="boesemani" selected>Boesemani rainbowfish (4 in)</option>
+        <option value="turquoise">Turquoise / Lake Kutubu (4.5 in)</option>
+        <option value="neonblue">Neon-blue / Kutubu blue (3.5 in)</option>
+        <option value="australian">Australian rainbowfish (5 in)</option>
+        <option value="splendid">Splendid / eastern (5 in)</option>
+        <option value="parkinsoni">Parkinson's rainbowfish (5 in)</option>
+        <option value="red">Red rainbowfish (6 in)</option>
+      </select></label>
+      <label>How many in the school<select id="rf-n"><option value="6" selected>6</option><option value="8">8</option><option value="10">10</option><option value="12">12</option><option value="15">15</option><option value="20">20</option></select></label>
+      <label>Second rainbowfish species<select id="rf-sp2"><option value="" selected>None</option><option value="praecox">Dwarf neon / praecox</option><option value="threadfin">Threadfin</option><option value="forktail">Forktail blue-eye</option><option value="celebes">Celebes</option><option value="boesemani">Boesemani</option><option value="turquoise">Turquoise</option><option value="neonblue">Neon-blue</option><option value="australian">Australian</option><option value="splendid">Splendid</option><option value="red">Red rainbowfish</option></select></label>
+      <label>Planting<select id="rf-plant"><option value="1" selected>Light or moderate</option><option value="1.1">Heavily planted</option></select></label>
+    </div>
+    <button class="btn bp" id="rf-go" type="button">Calculate rainbow fish tank size</button>
+    <div class="tool-result" id="rf-result" aria-live="polite"><p>Choose a species and school size, then press calculate.</p></div>
+    <p class="tool-note">School minimum per species (6 fish; 8 for dwarf species), +12% per extra fish, +70% of a second species' minimum, +10% heavily planted, rounded up to the next standard tank that also meets the minimum length.</p>

@@ -1,0 +1,1007 @@
+{
+  "subject": "rainbow fish",
+  "type": "fish",
+  "aliases": [
+    "rainbowfish",
+    "melanotaenia"
+  ],
+  "keywords": [
+    {
+      "keyword": "australian rainbow fish",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "australian rainbow fish care",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "australian rainbowfish care",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "best rainbow fish",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "boesemani rainbow fish",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "boesemani rainbow fish care",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "boesemani rainbowfish",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "boesemani rainbowfish care",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "boesemani rainbowfish care guide",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can rainbow fish crossbreed",
+      "group": "breeding",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can rainbow fish live alone",
+      "group": "tank-size",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can rainbowfish and guppies live together",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can rainbowfish be kept alone",
+      "group": "tank-size",
+      "source": "suggest"
+    },
+    {
+      "keyword": "celebes rainbow fish",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "celebes rainbowfish care",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "do rainbow fish like current",
+      "group": "water",
+      "source": "suggest"
+    },
+    {
+      "keyword": "do rainbow fish like flow",
+      "group": "water",
+      "source": "suggest"
+    },
+    {
+      "keyword": "do rainbow fish like high flow",
+      "group": "water",
+      "source": "suggest"
+    },
+    {
+      "keyword": "do rainbow fish school",
+      "group": "tank-size",
+      "source": "suggest"
+    },
+    {
+      "keyword": "dwarf neon rainbow fish",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "dwarf rainbow fish care",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "forktail rainbowfish",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "forktail rainbowfish care",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "how many rainbow fish should be kept together",
+      "group": "tank-size",
+      "source": "extra"
+    },
+    {
+      "keyword": "how to care for rainbow fish",
+      "group": "pillar",
+      "source": "template"
+    },
+    {
+      "keyword": "how to keep rainbowfish",
+      "group": "pillar",
+      "source": "suggest"
+    },
+    {
+      "keyword": "kamaka rainbow fish",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "madagascar rainbow fish",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "madagascar rainbow fish care",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "melanotaenia",
+      "group": "pillar",
+      "source": "suggest"
+    },
+    {
+      "keyword": "melanotaenia boesemani",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "melanotaenia boesemani care",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "melanotaenia care",
+      "group": "pillar",
+      "source": "suggest"
+    },
+    {
+      "keyword": "melanotaenia herbertaxelrodi",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "melanotaenia lacustris",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "melanotaenia maccullochi",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "melanotaenia parkinsoni",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "melanotaenia parva",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "melanotaenia praecox",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "melanotaenia praecox care",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "melanotaenia pygmaea care",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "melanotaenia splendida",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "melanotaenia trifasciata",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "millennium rainbow fish",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "neon rainbowfish",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "neon rainbowfish care",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "paskai rainbow fish care",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "praecox rainbowfish",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "rainbow fish",
+      "group": "pillar",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish bent spine",
+      "group": "health",
+      "source": "extra"
+    },
+    {
+      "keyword": "rainbow fish care",
+      "group": "pillar",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish care guide",
+      "group": "pillar",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish columnaris",
+      "group": "health",
+      "source": "extra"
+    },
+    {
+      "keyword": "rainbow fish facts",
+      "group": "pillar",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish flashing",
+      "group": "health",
+      "source": "extra"
+    },
+    {
+      "keyword": "rainbow fish for beginners",
+      "group": "pillar",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish hardness",
+      "group": "water",
+      "source": "extra"
+    },
+    {
+      "keyword": "rainbow fish mycobacterium",
+      "group": "health",
+      "source": "extra"
+    },
+    {
+      "keyword": "rainbow fish wasting",
+      "group": "health",
+      "source": "extra"
+    },
+    {
+      "keyword": "rainbow fish with severum",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "rainbowfish",
+      "group": "pillar",
+      "source": "suggest"
+    },
+    {
+      "keyword": "rainbowfish boesemani",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "rainbowfish care",
+      "group": "pillar",
+      "source": "suggest"
+    },
+    {
+      "keyword": "rainbowfish care guide",
+      "group": "pillar",
+      "source": "suggest"
+    },
+    {
+      "keyword": "red rainbow fish",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "threadfin rainbowfish",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "threadfin rainbowfish care",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "threadfin rainbowfish care guide",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "turquoise rainbow fish care",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "turquoise rainbowfish",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "best rainbow fish for community tank",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "how many rainbow fish in a 10 gallon tank",
+      "group": "tank-size",
+      "source": "template"
+    },
+    {
+      "keyword": "how many rainbow fish in a 20 gallon tank",
+      "group": "tank-size",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish community tank",
+      "group": "tank-size",
+      "source": "extra"
+    },
+    {
+      "keyword": "rainbow fish for 20 gallon",
+      "group": "tank-size",
+      "source": "extra"
+    },
+    {
+      "keyword": "rainbow fish for 55 gallon",
+      "group": "tank-size",
+      "source": "extra"
+    },
+    {
+      "keyword": "rainbow fish for 75 gallon",
+      "group": "tank-size",
+      "source": "extra"
+    },
+    {
+      "keyword": "rainbow fish minimum tank size",
+      "group": "tank-size",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish tank",
+      "group": "tank-size",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish tank setup",
+      "group": "tank-size",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish tank size",
+      "group": "tank-size",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish kh gh",
+      "group": "water",
+      "source": "extra"
+    },
+    {
+      "keyword": "rainbow fish ph",
+      "group": "water",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish temperature",
+      "group": "water",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish water hardness",
+      "group": "water",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish water parameters",
+      "group": "water",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish water temperature",
+      "group": "water",
+      "source": "template"
+    },
+    {
+      "keyword": "best food for rainbow fish",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "best rainbow fish food",
+      "group": "food",
+      "source": "suggest"
+    },
+    {
+      "keyword": "do rainbow fish eat plants",
+      "group": "food",
+      "source": "suggest"
+    },
+    {
+      "keyword": "do rainbow fish eat shrimp",
+      "group": "food",
+      "source": "suggest"
+    },
+    {
+      "keyword": "how often to feed rainbow fish",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "how often to feed rainbowfish",
+      "group": "food",
+      "source": "suggest"
+    },
+    {
+      "keyword": "rainbow fish feeding",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish food",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish not eating",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "what do rainbow fish eat",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "what to feed rainbow fish",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "how big do rainbow fish get",
+      "group": "size",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish full size",
+      "group": "size",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish growth rate",
+      "group": "size",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish school size",
+      "group": "tank-size",
+      "source": "extra"
+    },
+    {
+      "keyword": "rainbow fish size",
+      "group": "size",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbowfish size",
+      "group": "size",
+      "source": "suggest"
+    },
+    {
+      "keyword": "rainbowfish tank size",
+      "group": "tank-size",
+      "source": "suggest"
+    },
+    {
+      "keyword": "how long do rainbow fish live",
+      "group": "lifespan",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish lifespan",
+      "group": "lifespan",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish colors",
+      "group": "types",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish colors fading",
+      "group": "health",
+      "source": "extra"
+    },
+    {
+      "keyword": "rainbow fish types",
+      "group": "types",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish varieties",
+      "group": "types",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbowfish species",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "rainbowfish types",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "types of rainbow fish",
+      "group": "types",
+      "source": "template"
+    },
+    {
+      "keyword": "how to tell if rainbow fish is male or female",
+      "group": "sex",
+      "source": "template"
+    },
+    {
+      "keyword": "male vs female rainbow fish",
+      "group": "sex",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish male or female",
+      "group": "sex",
+      "source": "template"
+    },
+    {
+      "keyword": "baby rainbow fish",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "do rainbow fish breed easily",
+      "group": "breeding",
+      "source": "suggest"
+    },
+    {
+      "keyword": "do rainbow fish lay eggs",
+      "group": "breeding",
+      "source": "suggest"
+    },
+    {
+      "keyword": "how to breed boesemani rainbowfish",
+      "group": "breeding",
+      "source": "suggest"
+    },
+    {
+      "keyword": "how to breed celebes rainbowfish",
+      "group": "breeding",
+      "source": "suggest"
+    },
+    {
+      "keyword": "how to breed dwarf neon rainbowfish",
+      "group": "breeding",
+      "source": "suggest"
+    },
+    {
+      "keyword": "how to breed forktail rainbowfish",
+      "group": "breeding",
+      "source": "suggest"
+    },
+    {
+      "keyword": "how to breed rainbow fish",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "how to breed rainbowfish",
+      "group": "breeding",
+      "source": "suggest"
+    },
+    {
+      "keyword": "how to breed threadfin rainbowfish",
+      "group": "breeding",
+      "source": "suggest"
+    },
+    {
+      "keyword": "how to raise rainbowfish fry",
+      "group": "breeding",
+      "source": "suggest"
+    },
+    {
+      "keyword": "pregnant rainbow fish",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish breeding",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish eggs",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish eggs hatching",
+      "group": "breeding",
+      "source": "extra"
+    },
+    {
+      "keyword": "rainbow fish fry",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish fry care",
+      "group": "breeding",
+      "source": "extra"
+    },
+    {
+      "keyword": "rainbow fish mating",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish spawning mop",
+      "group": "breeding",
+      "source": "extra"
+    },
+    {
+      "keyword": "best tank mates for rainbow fish",
+      "group": "tank-mates",
+      "source": "template"
+    },
+    {
+      "keyword": "best tank mates for rainbowfish",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can rainbow fish live with angelfish",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can rainbow fish live with betta",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can rainbow fish live with discus",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can rainbow fish live with goldfish",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can rainbow fish live with gourami",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can rainbow fish live with guppies",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can rainbow fish live with tetras",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can rainbowfish live with angelfish",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can rainbowfish live with goldfish",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can rainbowfish live with guppies",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can rainbowfish live with neon tetras",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can rainbowfish live with platies",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can rainbowfish live with shrimp",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can rainbowfish live with tiger barbs",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "rainbow fish compatibility",
+      "group": "tank-mates",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish tank mates",
+      "group": "tank-mates",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish with angelfish",
+      "group": "tank-mates",
+      "source": "extra"
+    },
+    {
+      "keyword": "rainbow fish with betta",
+      "group": "tank-mates",
+      "source": "extra"
+    },
+    {
+      "keyword": "rainbow fish with cichlids",
+      "group": "tank-mates",
+      "source": "extra"
+    },
+    {
+      "keyword": "rainbow fish with discus",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "rainbow fish with goldfish",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "rainbow fish with guppies",
+      "group": "tank-mates",
+      "source": "extra"
+    },
+    {
+      "keyword": "rainbow fish with shrimp",
+      "group": "tank-mates",
+      "source": "suggest"
+    },
+    {
+      "keyword": "rainbow fish with tetras",
+      "group": "tank-mates",
+      "source": "extra"
+    },
+    {
+      "keyword": "what fish can live with rainbow fish",
+      "group": "tank-mates",
+      "source": "template"
+    },
+    {
+      "keyword": "do rainbowfish jump",
+      "group": "behavior",
+      "source": "suggest"
+    },
+    {
+      "keyword": "rainbow fish aggressive",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish at top of tank",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish behavior",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish chasing other fish",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish hiding",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish jumping",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish lying at bottom of tank",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish swimming erratically",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish bloated",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish cloudy eye",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish diseases",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish dropsy",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish dying",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish fin rot",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish gasping for air",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish ich",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish losing color",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish popeye",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish swim bladder",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish turning white",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish white spots",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "why is my rainbow fish not moving",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish planted tank",
+      "group": "tank-size",
+      "source": "extra"
+    },
+    {
+      "keyword": "how many rainbow fish per gallon",
+      "group": "sizing",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish feeding calculator",
+      "group": "sizing",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish tank size calculator",
+      "group": "sizing",
+      "source": "template"
+    }
+  ],
+  "dropped": [
+    {
+      "keyword": "buy rainbow fish",
+      "group": "commercial",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish for sale",
+      "group": "commercial",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish near me",
+      "group": "commercial",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish petco",
+      "group": "commercial",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish petsmart",
+      "group": "commercial",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbow fish price",
+      "group": "commercial",
+      "source": "template"
+    },
+    {
+      "keyword": "rainbowfish for sale",
+      "group": "commercial",
+      "source": "suggest"
+    }
+  ],
+  "offtopic": [
+    "rainbow fish book",
+    "rainbow fish costume",
+    "rainbow fish and chips",
+    "how to draw rainbow fish",
+    "why is rainbow fish book controversial",
+    "rainbowfish book",
+    "rainbowfish acnh",
+    "how to catch rainbowfish acnh"
+  ]
+}

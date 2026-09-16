@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Rainbow fish diseases: the ones that actually kill rainbowfish</title>
+<desc id="d">Rainbow fish diseases chart: columnaris saddle and frayed fins, fish tuberculosis wasting and bent spine, ich white spots, velvet gold dust, bloat and dropsy, internal parasites causing wasting</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient><linearGradient id="ok" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2bd4c4"/><stop offset="1" stop-color="#27ae60"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">Rainbow fish diseases: the ones that actually kill rainbowfish</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">Rainbowfish are hardy, but three conditions are near-untreatable once established.</text>
+<rect x="48" y="150" width="1104" height="58" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="186" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Columnaris (saddleback)</text>
+<rect x="337" y="164" width="324" height="30" rx="9" fill="url(#ok)"/>
+<text x="353" y="186" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">grey saddle, frayed fins</text>
+<text x="686" y="186" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">fast; antibiotics, cooler water</text>
+<rect x="48" y="218" width="1104" height="58" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="254" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Fish TB (Mycobacterium)</text>
+<rect x="337" y="232" width="324" height="30" rx="9" fill="url(#ok)"/>
+<text x="353" y="254" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">wasting, bent spine</text>
+<text x="686" y="254" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">no cure; cull, disinfect</text>
+<rect x="48" y="286" width="1104" height="58" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="322" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Ich</text>
+<rect x="337" y="300" width="324" height="30" rx="9" fill="url(#ok)"/>
+<text x="353" y="322" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">salt-grain white spots</text>
+<text x="686" y="322" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">86°F + salt, or meds</text>
+<rect x="48" y="354" width="1104" height="58" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="390" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Velvet</text>
+<rect x="337" y="368" width="324" height="30" rx="9" fill="url(#ok)"/>
+<text x="353" y="390" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">gold dust, scratching</text>
+<text x="686" y="390" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">copper or salt; dim lights</text>
+<rect x="48" y="422" width="1104" height="58" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="458" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Bloat / dropsy</text>
+<rect x="337" y="436" width="324" height="30" rx="9" fill="url(#ok)"/>
+<text x="353" y="458" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">swollen belly, raised scales</text>
+<text x="686" y="458" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">Epsom salt, isolate</text>
+<rect x="48" y="490" width="1104" height="58" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="526" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Internal parasites</text>
+<rect x="337" y="504" width="324" height="30" rx="9" fill="url(#ok)"/>
+<text x="353" y="526" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">wasting, clear faeces</text>
+<text x="686" y="526" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">metronidazole or levamisole</text>
+<text x="48" y="600" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#8aaec2">Buy from tanks with no thin or crooked fish. Quarantine 3–4 weeks; mycobacterium arrives with the fish.</text>
+<text x="1152" y="618" text-anchor="end" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#5f8aa3">fishcareai.com</text>
+</svg>
