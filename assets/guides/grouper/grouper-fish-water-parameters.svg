@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Grouper fish water parameters: reef water with heavy filtration</title>
+<desc id="d">Grouper fish water parameters chart: 74 to 80 F, salinity 1.023 to 1.026, pH 8.1 to 8.4, alkalinity 8 to 11 dKH, zero ammonia and nitrite, nitrate under 30 ppm, skimmer rated twice the tank volume</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient><linearGradient id="ok" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2bd4c4"/><stop offset="1" stop-color="#27ae60"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="26" font-weight="800" fill="#ffffff">Grouper fish water parameters: reef water with heavy filtration</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">Groupers are hardy about numbers but produce a huge bioload. Filtration, not chemistry, is the challenge.</text>
+<rect x="48" y="150" width="1104" height="54" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="184" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Temperature</text>
+<rect x="308" y="164" width="293" height="26" rx="9" fill="url(#ok)"/>
+<text x="324" y="184" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">74–80°F (23–27°C)</text>
+<text x="625" y="184" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">stable</text>
+<rect x="48" y="214" width="1104" height="54" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="248" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Salinity</text>
+<rect x="308" y="228" width="293" height="26" rx="9" fill="url(#ok)"/>
+<text x="324" y="248" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">1.023–1.026 SG</text>
+<text x="625" y="248" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">33–35 ppt</text>
+<rect x="48" y="278" width="1104" height="54" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="312" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">pH / alkalinity</text>
+<rect x="308" y="292" width="293" height="26" rx="9" fill="url(#ok)"/>
+<text x="324" y="312" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">8.1–8.4 / 8–11 dKH</text>
+<rect x="48" y="342" width="1104" height="54" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="376" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Ammonia / nitrite</text>
+<rect x="308" y="356" width="293" height="26" rx="9" fill="url(#ok)"/>
+<text x="324" y="376" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">0 ppm</text>
+<text x="625" y="376" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">always</text>
+<rect x="48" y="406" width="1104" height="54" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="440" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Nitrate</text>
+<rect x="308" y="420" width="293" height="26" rx="9" fill="url(#ok)"/>
+<text x="324" y="440" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">&lt;30 ppm (reef &lt;20)</text>
+<text x="625" y="440" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">large weekly changes</text>
+<rect x="48" y="470" width="1104" height="54" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="504" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Skimmer</text>
+<rect x="308" y="484" width="293" height="26" rx="9" fill="url(#ok)"/>
+<text x="324" y="504" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">rated 2× tank volume</text>
+<text x="625" y="504" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">meaty waste</text>
+<rect x="48" y="534" width="1104" height="54" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="568" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Flow</text>
+<rect x="308" y="548" width="293" height="26" rx="9" fill="url(#ok)"/>
+<text x="324" y="568" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">moderate, with calm caves</text>
+<text x="625" y="568" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">ambush predator</text>
+<text x="1152" y="618" text-anchor="end" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#5f8aa3">fishcareai.com</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Grouper fish breeding: why it happens in hatcheries, not homes</title>
+<desc id="d">Grouper fish breeding chart: born female and change to male, cannot be sexed by eye, spawn at dusk in open water, floating eggs hatch in 24 hours, 30 to 60 day pelagic larvae, bred only in commercial hatcheries</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient><linearGradient id="ok" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2bd4c4"/><stop offset="1" stop-color="#27ae60"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">Grouper fish breeding: why it happens in hatcheries, not homes</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">Protogynous hermaphrodites that spawn in open water. Sexing, spawning and the larval problem.</text>
+<rect x="48" y="150" width="1104" height="58" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="186" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Sex</text>
+<rect x="308" y="164" width="314" height="30" rx="9" fill="url(#ok)"/>
+<text x="324" y="186" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">born female, change to male</text>
+<text x="646" y="186" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">largest fish in a group becomes male</text>
+<rect x="48" y="218" width="1104" height="58" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="254" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Sexing by eye</text>
+<rect x="308" y="232" width="314" height="30" rx="9" fill="url(#ok)"/>
+<text x="324" y="254" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">not possible</text>
+<text x="646" y="254" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">size and dominance only</text>
+<rect x="48" y="286" width="1104" height="58" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="322" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Spawning</text>
+<rect x="308" y="300" width="314" height="30" rx="9" fill="url(#ok)"/>
+<text x="324" y="322" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">dusk, open water, in groups</text>
+<text x="646" y="322" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">floating eggs, no care</text>
+<rect x="48" y="354" width="1104" height="58" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="390" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Eggs</text>
+<rect x="308" y="368" width="314" height="30" rx="9" fill="url(#ok)"/>
+<text x="324" y="390" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">~0.9 mm, hatch in 24 h</text>
+<text x="646" y="390" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">carried away by current</text>
+<rect x="48" y="422" width="1104" height="58" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="458" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Larvae</text>
+<rect x="308" y="436" width="314" height="30" rx="9" fill="url(#ok)"/>
+<text x="324" y="458" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">30–60 days pelagic</text>
+<text x="646" y="458" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">need copepods, rotifers</text>
+<rect x="48" y="490" width="1104" height="58" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="526" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Captive breeding</text>
+<rect x="308" y="504" width="314" height="30" rx="9" fill="url(#ok)"/>
+<text x="324" y="526" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">commercial hatcheries</text>
+<text x="646" y="526" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">panther and coral groupers since the 1990s</text>
+<text x="48" y="600" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#8aaec2">A pregnant-looking grouper is a well-fed grouper.</text>
+<text x="1152" y="618" text-anchor="end" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#5f8aa3">fishcareai.com</text>
+</svg>

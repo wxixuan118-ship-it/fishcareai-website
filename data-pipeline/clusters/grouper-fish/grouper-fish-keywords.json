@@ -1,0 +1,729 @@
+{
+  "subject": "grouper fish",
+  "type": "fish",
+  "aliases": [
+    "grouper",
+    "aquarium grouper"
+  ],
+  "keywords": [
+    {
+      "keyword": "aquarium grouper",
+      "group": "pillar",
+      "source": "suggest"
+    },
+    {
+      "keyword": "aquarium grouper fish",
+      "group": "pillar",
+      "source": "suggest"
+    },
+    {
+      "keyword": "are groupers reef safe",
+      "group": "tank-mates",
+      "source": "extra"
+    },
+    {
+      "keyword": "best grouper fish",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "blue dot grouper care",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "blue spotted grouper",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "bumblebee grouper care",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can grouper fish live in freshwater",
+      "group": "water",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can groupers live in freshwater",
+      "group": "water",
+      "source": "suggest"
+    },
+    {
+      "keyword": "coral hind grouper",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "do grouper fish bark",
+      "group": "behavior",
+      "source": "suggest"
+    },
+    {
+      "keyword": "do grouper fish bite",
+      "group": "behavior",
+      "source": "suggest"
+    },
+    {
+      "keyword": "do grouper fish have teeth",
+      "group": "behavior",
+      "source": "suggest"
+    },
+    {
+      "keyword": "does grouper fish have scales",
+      "group": "pillar",
+      "source": "suggest"
+    },
+    {
+      "keyword": "grouper care",
+      "group": "pillar",
+      "source": "suggest"
+    },
+    {
+      "keyword": "grouper fish",
+      "group": "pillar",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish care",
+      "group": "pillar",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish care guide",
+      "group": "pillar",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish facts",
+      "group": "pillar",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish for beginners",
+      "group": "pillar",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish with mouth open",
+      "group": "pillar",
+      "source": "suggest"
+    },
+    {
+      "keyword": "grouper fish with teeth",
+      "group": "behavior",
+      "source": "suggest"
+    },
+    {
+      "keyword": "grouper in home aquarium",
+      "group": "pillar",
+      "source": "extra"
+    },
+    {
+      "keyword": "grouper with clownfish",
+      "group": "tank-mates",
+      "source": "extra"
+    },
+    {
+      "keyword": "grouper with eel",
+      "group": "tank-mates",
+      "source": "extra"
+    },
+    {
+      "keyword": "grouper with lionfish",
+      "group": "tank-mates",
+      "source": "extra"
+    },
+    {
+      "keyword": "grouper with tang",
+      "group": "tank-mates",
+      "source": "extra"
+    },
+    {
+      "keyword": "groupers",
+      "group": "pillar",
+      "source": "suggest"
+    },
+    {
+      "keyword": "how to care for grouper fish",
+      "group": "pillar",
+      "source": "template"
+    },
+    {
+      "keyword": "humpback grouper",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "leopard grouper",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "lyretail grouper",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "miniata grouper care",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "miniatus grouper",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "miniatus grouper care",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "neptune grouper care",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "panther grouper",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "panther grouper care",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "pet grouper fish",
+      "group": "pillar",
+      "source": "extra"
+    },
+    {
+      "keyword": "polka dot grouper",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "red grouper aquarium",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "saltwater aquarium grouper",
+      "group": "water",
+      "source": "suggest"
+    },
+    {
+      "keyword": "smallest grouper for aquarium",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "why are grouper fish so friendly",
+      "group": "behavior",
+      "source": "suggest"
+    },
+    {
+      "keyword": "why are groupers so curious",
+      "group": "behavior",
+      "source": "suggest"
+    },
+    {
+      "keyword": "why are groupers so friendly",
+      "group": "behavior",
+      "source": "suggest"
+    },
+    {
+      "keyword": "grouper fish minimum tank size",
+      "group": "tank-size",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish tank",
+      "group": "tank-size",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish tank setup",
+      "group": "tank-size",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish tank size",
+      "group": "tank-size",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper for reef tank",
+      "group": "tank-size",
+      "source": "extra"
+    },
+    {
+      "keyword": "how many grouper fish in a 10 gallon tank",
+      "group": "tank-size",
+      "source": "template"
+    },
+    {
+      "keyword": "how many grouper fish in a 20 gallon tank",
+      "group": "tank-size",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish ph",
+      "group": "water",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish temperature",
+      "group": "water",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish water hardness",
+      "group": "water",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish water parameters",
+      "group": "water",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish water temperature",
+      "group": "water",
+      "source": "template"
+    },
+    {
+      "keyword": "best food for grouper fish",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "can grouper eat lionfish",
+      "group": "food",
+      "source": "suggest"
+    },
+    {
+      "keyword": "grouper fish feeding",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish food",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish frozen food",
+      "group": "food",
+      "source": "extra"
+    },
+    {
+      "keyword": "grouper fish not eating",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "how often to feed grouper fish",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "what do grouper fish eat",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "what to feed grouper fish",
+      "group": "food",
+      "source": "template"
+    },
+    {
+      "keyword": "what to feed pet grouper",
+      "group": "food",
+      "source": "extra"
+    },
+    {
+      "keyword": "grouper fish aquarium size",
+      "group": "size",
+      "source": "extra"
+    },
+    {
+      "keyword": "grouper fish full size",
+      "group": "size",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish growth rate",
+      "group": "size",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish size",
+      "group": "size",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper size",
+      "group": "size",
+      "source": "suggest"
+    },
+    {
+      "keyword": "how big do grouper fish get",
+      "group": "size",
+      "source": "template"
+    },
+    {
+      "keyword": "how fast do groupers grow",
+      "group": "size",
+      "source": "extra"
+    },
+    {
+      "keyword": "grouper fish lifespan",
+      "group": "lifespan",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish lifespan in aquarium",
+      "group": "lifespan",
+      "source": "extra"
+    },
+    {
+      "keyword": "how long do grouper fish live",
+      "group": "lifespan",
+      "source": "template"
+    },
+    {
+      "keyword": "aquarium grouper species",
+      "group": "types",
+      "source": "suggest"
+    },
+    {
+      "keyword": "dwarf grouper species",
+      "group": "types",
+      "source": "extra"
+    },
+    {
+      "keyword": "grouper fish colors",
+      "group": "types",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish types",
+      "group": "types",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish varieties",
+      "group": "types",
+      "source": "template"
+    },
+    {
+      "keyword": "types of grouper fish",
+      "group": "types",
+      "source": "template"
+    },
+    {
+      "keyword": "can groupers change gender",
+      "group": "breeding",
+      "source": "suggest"
+    },
+    {
+      "keyword": "grouper fish male or female",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "how to tell if grouper fish is male or female",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "male vs female grouper fish",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "baby grouper fish",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish breeding",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish eggs",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish fry",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish mating",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "how to breed grouper fish",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "pregnant grouper fish",
+      "group": "breeding",
+      "source": "template"
+    },
+    {
+      "keyword": "best tank mates for grouper fish",
+      "group": "tank-mates",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper eating tank mates",
+      "group": "tank-mates",
+      "source": "extra"
+    },
+    {
+      "keyword": "grouper fish compatibility",
+      "group": "tank-mates",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish tank mates",
+      "group": "tank-mates",
+      "source": "template"
+    },
+    {
+      "keyword": "what fish can live with grouper fish",
+      "group": "tank-mates",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish aggressive",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish at top of tank",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish behavior",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish chasing other fish",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish hiding",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish jumping",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish lying at bottom of tank",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish swimming erratically",
+      "group": "behavior",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish bloated",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish cloudy eye",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish diseases",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish dropsy",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish dying",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish fin rot",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish gasping for air",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish ich",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish losing color",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish popeye",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish swim bladder",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish turning white",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish white spots",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "why is my grouper fish not moving",
+      "group": "health",
+      "source": "template"
+    },
+    {
+      "keyword": "can grouper fish change color",
+      "group": "behavior",
+      "source": "suggest"
+    },
+    {
+      "keyword": "can groupers change color",
+      "group": "behavior",
+      "source": "suggest"
+    },
+    {
+      "keyword": "grouper fish quarantine",
+      "group": "health",
+      "source": "extra"
+    },
+    {
+      "keyword": "grouper fish feeding calculator",
+      "group": "sizing",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish tank size calculator",
+      "group": "sizing",
+      "source": "template"
+    },
+    {
+      "keyword": "how many grouper fish per gallon",
+      "group": "sizing",
+      "source": "template"
+    }
+  ],
+  "dropped": [
+    {
+      "keyword": "aquarium grouper for sale",
+      "group": "commercial",
+      "source": "suggest"
+    },
+    {
+      "keyword": "best grouper fish near me",
+      "group": "commercial",
+      "source": "suggest"
+    },
+    {
+      "keyword": "best grouper fish sandwich near me",
+      "group": "commercial",
+      "source": "suggest"
+    },
+    {
+      "keyword": "buy grouper fish",
+      "group": "commercial",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish for sale",
+      "group": "commercial",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish near me",
+      "group": "commercial",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish petco",
+      "group": "commercial",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish petsmart",
+      "group": "commercial",
+      "source": "template"
+    },
+    {
+      "keyword": "grouper fish price",
+      "group": "commercial",
+      "source": "template"
+    }
+  ],
+  "offtopic": [
+    "grouper fish in tagalog",
+    "grouper fish taste",
+    "grouper fish in spanish",
+    "grouper fish in chinese",
+    "how to cook grouper fish",
+    "how to pronounce grouper fish",
+    "how to catch grouper fish",
+    "can grouper fish be eaten",
+    "does grouper fish taste good",
+    "best grouper fish recipe",
+    "grouper fish and chips",
+    "grouper fish in tagalog",
+    "grouper fish in spanish",
+    "grouper fish in chinese",
+    "grouper fish in tagalog",
+    "grouper careers",
+    "grouper careers ireland",
+    "grouper technology careers",
+    "grouper dublin careers",
+    "square grouper careers",
+    "how to cook grouper",
+    "how to cook grouper fillets",
+    "how to cook grouper in the oven",
+    "how to cook grouper fish",
+    "how to cook grouper in a pan",
+    "can grouper be farm raised",
+    "can grouper fish be eaten",
+    "can grouper be eaten",
+    "can grouper be eaten raw",
+    "why grouper called grouper"
+  ]
+}

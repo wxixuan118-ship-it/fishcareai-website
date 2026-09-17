@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Grouper fish tank size by species</title>
+<desc id="d">Grouper fish tank size chart: 75 to 100 gallons for dwarf hinds, 100 to 125 gallons for miniatus grouper, 180 gallons for panther grouper, 180 to 300 gallons for bluespotted and lyretail groupers, bumblebee and giant groupers unsuitable</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient><linearGradient id="ok" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2bd4c4"/><stop offset="1" stop-color="#27ae60"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">Grouper fish tank size by species</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">Minimum for one adult. Groupers grow fast and eat the tank mates you sized the tank for.</text>
+<rect x="48" y="150" width="1104" height="62" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="188" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Dwarf: blue-line, V-tail, bluespotted hind</text>
+<rect x="557" y="164" width="241" height="34" rx="9" fill="url(#ok)"/>
+<text x="573" y="188" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">75–100 gal · 4 ft</text>
+<text x="822" y="188" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">8–12 in adults</text>
+<rect x="48" y="222" width="1104" height="62" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="260" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Miniatus / coral hind, leopard hind</text>
+<rect x="557" y="236" width="241" height="34" rx="9" fill="url(#ok)"/>
+<text x="573" y="260" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">100–125 gal · 5–6 ft</text>
+<text x="822" y="260" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">12–16 in adults</text>
+<rect x="48" y="294" width="1104" height="62" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="332" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Panther / humpback grouper</text>
+<rect x="557" y="308" width="241" height="34" rx="9" fill="url(#ok)"/>
+<text x="573" y="332" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">180 gal · 6 ft</text>
+<text x="822" y="332" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">20–27 in adults</text>
+<rect x="48" y="366" width="1104" height="62" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="404" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Bluespotted, lyretail, red grouper</text>
+<rect x="557" y="380" width="241" height="34" rx="9" fill="url(#ok)"/>
+<text x="573" y="404" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">180–300 gal · 6–8 ft</text>
+<text x="822" y="404" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">20–30 in adults</text>
+<rect x="48" y="438" width="1104" height="62" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Bumblebee, giant, goliath grouper</text>
+<rect x="557" y="452" width="241" height="34" rx="9" fill="url(#ok)"/>
+<text x="573" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">not for aquariums</text>
+<text x="822" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">3–8 ft adults</text>
+<text x="48" y="600" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#8aaec2">No grouper suits a nano tank; a 3-inch juvenile is a 12-inch fish in 18 months.</text>
+<text x="1152" y="618" text-anchor="end" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#5f8aa3">fishcareai.com</text>
+</svg>

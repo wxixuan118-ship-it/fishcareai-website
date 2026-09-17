@@ -1,0 +1,1362 @@
+{
+  "subject": "Grouper Fish",
+  "subject_slug": "grouper-fish",
+  "type": "fish",
+  "emoji": "🐡",
+  "base": "/guides/grouper-fish-care/",
+  "cluster_label": "Grouper Fish Care",
+  "hero_img": "/assets/encyclopedia/real/grouper-fish-wikimedia-real.jpg",
+  "hero_img_size": [
+    1600,
+    1200
+  ],
+  "hero_alt": "Miniatus grouper (Cephalopholis miniata), orange-red with blue spots, on a coral reef",
+  "date": "2026-09-17",
+  "hub_section": "saltwater-species",
+  "hub_card": {
+    "blurb": "predator · 100–300 gal · meaty frozen food · eats small tank mates",
+    "alt": "Miniatus grouper with blue spots, the most popular aquarium grouper"
+  },
+  "cluster_nav": [
+    [
+      "/guides/grouper-fish-care/",
+      "🐡 Grouper Fish Care Guide",
+      "pillar"
+    ],
+    [
+      "/guides/grouper-fish-care/tank-size/",
+      "🗃️ Tank Size & Setup"
+    ],
+    [
+      "/guides/grouper-fish-care/water-parameters/",
+      "🌡️ Water Parameters"
+    ],
+    [
+      "/guides/grouper-fish-care/food/",
+      "🍤 Food & Feeding"
+    ],
+    [
+      "/guides/grouper-fish-care/types/",
+      "🎨 Types of Grouper"
+    ],
+    [
+      "/guides/grouper-fish-care/miniatus/",
+      "🔴 Miniatus Grouper"
+    ],
+    [
+      "/guides/grouper-fish-care/panther/",
+      "⚫ Panther Grouper"
+    ],
+    [
+      "/guides/grouper-fish-care/size-lifespan/",
+      "📏 Size & Lifespan"
+    ],
+    [
+      "/guides/grouper-fish-care/tank-mates/",
+      "🐠 Tank Mates"
+    ],
+    [
+      "/guides/grouper-fish-care/breeding/",
+      "🥚 Breeding & Sex Change"
+    ],
+    [
+      "/guides/grouper-fish-care/behavior/",
+      "👀 Behavior"
+    ],
+    [
+      "/guides/grouper-fish-care/diseases/",
+      "🩺 Diseases"
+    ],
+    [
+      "/calculators/grouper-fish-tank-size/",
+      "🧮 Tank Size Calculator"
+    ],
+    [
+      "/guides/tang-fish-care/",
+      "🐟 Tang Fish Care"
+    ],
+    [
+      "/guides/clownfish-care-guide/",
+      "🐠 Clownfish Care"
+    ]
+  ],
+  "tool_links": [
+    [
+      "/calculators/grouper-fish-tank-size/",
+      "Grouper Tank Size Calculator"
+    ],
+    [
+      "/tools/fish-compatibility-checker/",
+      "Compatibility Checker"
+    ],
+    [
+      "/tools/fish-feeding-calculator/",
+      "Feeding Calculator"
+    ]
+  ],
+  "pages": [
+    {
+      "slug": "",
+      "kind": "article",
+      "keyword": "grouper fish care",
+      "secondary": [
+        "aquarium grouper",
+        "pet grouper fish",
+        "how to care for grouper fish"
+      ],
+      "title": "Grouper Fish Care: Tank Size, Food, Tank Mates & Species",
+      "meta_desc": "Grouper fish care guide for the aquarium: species that stay small enough, 100–300 gallon tanks, reef water with heavy filtration, meaty frozen food, tank mates.",
+      "h1": "Grouper Fish Care Guide (Aquarium Groupers)",
+      "hero_tag": "Care Guide",
+      "hero_meta": "🌊 Saltwater predator &nbsp;|&nbsp; 📏 100–300 gal, 5–8 ft &nbsp;|&nbsp; 🍤 Meaty frozen food &nbsp;|&nbsp; ⏳ 10–20 years",
+      "toc": [
+        [
+          "what-is",
+          "What Is a Grouper"
+        ],
+        [
+          "glance",
+          "Care at a Glance"
+        ],
+        [
+          "species",
+          "Which Grouper"
+        ],
+        [
+          "tank",
+          "Tank Size"
+        ],
+        [
+          "water",
+          "Water"
+        ],
+        [
+          "food",
+          "Food"
+        ],
+        [
+          "mates",
+          "Tank Mates"
+        ],
+        [
+          "health",
+          "Health"
+        ],
+        [
+          "mistakes",
+          "Mistakes"
+        ]
+      ],
+      "body_file": "pages/index.html",
+      "faqs": [
+        [
+          "Can you keep a grouper fish in a home aquarium?",
+          "Yes, if you pick the right species and the right tank. Miniatus, leopard and blue-line hinds stay at 8–16 inches and live well in 100–125 gallon tanks; panther, bluespotted and lyretail groupers reach 2 feet and need 180–300 gallons. Bumblebee, giant and goliath groupers grow to 3–8 feet and belong in public aquariums only."
+        ],
+        [
+          "Are grouper fish hard to care for?",
+          "Grouper fish care is easy in every way except size. They are hardy, eat readily, tolerate a range of water and rarely get sick. The difficulty is a tank of 100 gallons or more, a skimmer that handles a meaty bioload, and tank mates too big to swallow."
+        ],
+        [
+          "What do pet grouper fish eat?",
+          "Meaty frozen seafood: silversides, lancefish, shrimp, krill, squid and clam, fed two or three times a week to adults and daily in small pieces to juveniles, soaked in a vitamin supplement. Never live freshwater feeder fish, which cause fatty liver and vitamin deficiency."
+        ],
+        [
+          "Are groupers reef safe?",
+          "With corals, yes — they ignore corals and anemones. With reef inhabitants, no: a grouper eats every shrimp, crab, small fish and goby it can fit in its mouth, usually at night. They suit a fish-only-with-live-rock or predator tank, or a coral-only reef with large fish."
+        ],
+        [
+          "How big do aquarium groupers get?",
+          "Dwarf hinds 8–12 inches, miniatus and leopard groupers 12–16, panther and bluespotted groupers 20–27, lyretail groupers up to 30 inches. Most are sold at 3–4 inches and reach a foot within 18 months."
+        ],
+        [
+          "Can grouper fish live in freshwater?",
+          "No. Every aquarium grouper is a marine reef fish and dies within hours in fresh water. A few wild groupers enter estuaries, but there is no freshwater grouper for the aquarium."
+        ],
+        [
+          "How long do grouper fish live in an aquarium?",
+          "Ten to twenty years for the medium and large species, and wild groupers of the same genera are documented past 30. A grouper is a long commitment that outgrows two or three tanks on the way."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/grouper-fish-care/tank-size/",
+          "Grouper Fish Tank Size"
+        ],
+        [
+          "/guides/grouper-fish-care/water-parameters/",
+          "Grouper Fish Water Parameters"
+        ],
+        [
+          "/guides/grouper-fish-care/food/",
+          "Grouper Fish Food"
+        ],
+        [
+          "/guides/grouper-fish-care/types/",
+          "Types of Grouper Fish"
+        ],
+        [
+          "/guides/grouper-fish-care/tank-mates/",
+          "Grouper Fish Tank Mates"
+        ],
+        [
+          "/guides/grouper-fish-care/behavior/",
+          "Grouper Fish Behavior"
+        ],
+        [
+          "/guides/grouper-fish-care/diseases/",
+          "Grouper Fish Diseases"
+        ],
+        [
+          "/guides/grouper-fish-care/size-lifespan/",
+          "Grouper Fish Size & Lifespan"
+        ],
+        [
+          "/guides/grouper-fish-care/breeding/",
+          "Grouper Fish Breeding"
+        ],
+        [
+          "/guides/grouper-fish-care/miniatus/",
+          "Miniatus Grouper Care"
+        ],
+        [
+          "/guides/grouper-fish-care/panther/",
+          "Panther Grouper Care"
+        ],
+        [
+          "/calculators/grouper-fish-tank-size/",
+          "Tank Size Calculator"
+        ]
+      ]
+    },
+    {
+      "slug": "tank-size",
+      "kind": "article",
+      "keyword": "grouper fish tank size",
+      "secondary": [
+        "grouper fish minimum tank size",
+        "grouper fish tank setup",
+        "grouper for reef tank"
+      ],
+      "title": "Grouper Fish Tank Size: Minimum Gallons by Species",
+      "meta_desc": "Grouper fish tank size by species: 75–100 gallons for dwarf hinds, 100–125 for miniatus, 180 for panther groupers, 180–300 for bluespotted and lyretail.",
+      "h1": "Grouper Fish Tank Size: Minimum Gallons and Length by Species",
+      "hero_tag": "Tank Size",
+      "hero_meta": "📏 75–100 gal dwarf · 100–125 gal medium · 180–300 gal large &nbsp;|&nbsp; 🪨 A cave it fits in",
+      "toc": [
+        [
+          "by-species",
+          "By Species"
+        ],
+        [
+          "why",
+          "Why So Big"
+        ],
+        [
+          "common-tanks",
+          "55, 75, 125 and 180 Gallon Tanks"
+        ],
+        [
+          "reef",
+          "Groupers in a Reef Tank"
+        ],
+        [
+          "setup",
+          "Tank Setup"
+        ]
+      ],
+      "body_file": "pages/tank-size.html",
+      "faqs": [
+        [
+          "What is the minimum tank size for a grouper fish?",
+          "75–100 gallons and 4 feet for the dwarf hinds (blue-line, V-tail, bluespotted hind); 100–125 gallons and 5–6 feet for miniatus and leopard groupers; 180 gallons and 6 feet for a panther grouper; 180–300 gallons for bluespotted, lyretail and red groupers. All figures are for one adult."
+        ],
+        [
+          "Can a grouper live in a 55 gallon tank?",
+          "Only a 3-inch juvenile, for a few months. Every aquarium grouper outgrows a 55 within a year; the smallest adult hinds need a 75, and most need 125 or more. Buy the adult tank first."
+        ],
+        [
+          "What size tank does a miniatus grouper need?",
+          "100 gallons minimum, 125 preferred, at least 5 feet long, for one adult at 12–16 inches. It needs a cave it can sit in and swimming room in front of it."
+        ],
+        [
+          "What size tank does a panther grouper need?",
+          "180 gallons and 6 feet minimum for an adult of 20–27 inches; 240–300 gallons if it shares the tank with other large fish. The 3-inch spotted juvenile in the shop is a 2-foot fish in three years."
+        ],
+        [
+          "Do groupers need a cave?",
+          "Yes. Groupers are ambush predators that spend the day in a rock cave or overhang and hunt from it. A cave the fish can fit its whole body into, with an open sand area in front, is the core of a grouper tank setup."
+        ],
+        [
+          "Can groupers go in a reef tank?",
+          "In a coral-only reef, yes — they ignore corals. In a reef with shrimp, crabs, snails and small fish, no; those are food. Rockwork also takes swimming room, so add 15% to the tank size for a reef-scaped grouper tank."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/grouper-fish-care/",
+          "Grouper Fish Care Guide"
+        ],
+        [
+          "/calculators/grouper-fish-tank-size/",
+          "Grouper Tank Size Calculator"
+        ],
+        [
+          "/guides/grouper-fish-care/types/",
+          "Types of Grouper Fish"
+        ],
+        [
+          "/guides/grouper-fish-care/size-lifespan/",
+          "Grouper Fish Size"
+        ],
+        [
+          "/tools/aquarium-size-calculator/",
+          "Aquarium Size Calculator"
+        ],
+        [
+          "/guides/grouper-fish-care/tank-mates/",
+          "Grouper Fish Tank Mates"
+        ]
+      ]
+    },
+    {
+      "slug": "water-parameters",
+      "kind": "article",
+      "keyword": "grouper fish water parameters",
+      "secondary": [
+        "grouper fish temperature",
+        "grouper fish ph",
+        "can grouper fish live in freshwater"
+      ],
+      "title": "Grouper Fish Water Parameters: Temperature, Salinity, pH",
+      "meta_desc": "Grouper fish water parameters: 74–80°F, salinity 1.023–1.026, pH 8.1–8.4, nitrate under 30 ppm, and the skimmer and water changes a predator's bioload demands.",
+      "h1": "Grouper Fish Water Parameters: Temperature, Salinity, pH and Filtration",
+      "hero_tag": "Water Parameters",
+      "hero_meta": "🌡 74–80°F &nbsp;|&nbsp; 🧂 1.023–1.026 SG &nbsp;|&nbsp; ⚗️ pH 8.1–8.4 &nbsp;|&nbsp; 🫧 Skimmer rated 2× the tank",
+      "toc": [
+        [
+          "targets",
+          "The Targets"
+        ],
+        [
+          "temperature",
+          "Temperature"
+        ],
+        [
+          "salinity",
+          "Salinity and pH"
+        ],
+        [
+          "bioload",
+          "Bioload and Nitrate"
+        ],
+        [
+          "filtration",
+          "Filtration"
+        ],
+        [
+          "freshwater",
+          "Freshwater?"
+        ]
+      ],
+      "body_file": "pages/water-parameters.html",
+      "faqs": [
+        [
+          "What temperature do grouper fish need?",
+          "74–80°F (23–27°C), with 76–78°F the usual setting. Groupers tolerate a wide range but not swings; a heater controller and a chiller in warm rooms keep a large predator tank stable."
+        ],
+        [
+          "What salinity do groupers need?",
+          "1.023–1.026 specific gravity, the same as a reef. Groupers are among the most salinity-tolerant marine fish, which is why hyposalinity (1.009) works as an ich treatment for them in a hospital tank."
+        ],
+        [
+          "What nitrate level is safe for grouper fish?",
+          "Under 30 ppm in a fish-only tank, under 20 in a reef. Groupers themselves shrug off 50 ppm, but the nitrate is the sign that a meaty bioload is outrunning the filtration, and that is where HLLE and cloudy eyes start."
+        ],
+        [
+          "How much filtration does a grouper tank need?",
+          "A protein skimmer rated for at least twice the tank volume, a sump with plenty of biological media, mechanical filtration you can rinse twice a week, and 20–25% weekly water changes. A grouper eating whole silversides produces the waste of a dozen small fish."
+        ],
+        [
+          "Can grouper fish live in freshwater?",
+          "No. Groupers are marine fish; a few wild species tolerate estuaries briefly, but in freshwater an aquarium grouper dies within hours. Brackish is not an option either. A short freshwater dip for parasites is a treatment, not a habitat."
+        ],
+        [
+          "Do groupers need strong flow?",
+          "Moderate flow with calm spots. Groupers are ambush predators that sit in caves and do not swim against current; strong flow everywhere stresses them. Aim the return across the open sand and keep the cave zone quiet."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/grouper-fish-care/",
+          "Grouper Fish Care Guide"
+        ],
+        [
+          "/guides/grouper-fish-care/tank-size/",
+          "Grouper Fish Tank Size"
+        ],
+        [
+          "/guides/grouper-fish-care/food/",
+          "Grouper Fish Food"
+        ],
+        [
+          "/guides/grouper-fish-care/diseases/",
+          "Grouper Fish Diseases"
+        ],
+        [
+          "/tools/water-parameter-checker/",
+          "Water Parameter Checker"
+        ],
+        [
+          "/guides/aquarium-water-parameters/",
+          "Aquarium Water Parameters"
+        ]
+      ]
+    },
+    {
+      "slug": "food",
+      "kind": "article",
+      "keyword": "grouper fish food",
+      "secondary": [
+        "what do grouper fish eat",
+        "what to feed pet grouper",
+        "how often to feed grouper fish"
+      ],
+      "title": "Grouper Fish Food: What to Feed a Pet Grouper and How Often",
+      "meta_desc": "Grouper fish food guide: frozen silversides, shrimp, krill and squid two or three times a week, vitamin soaks, pellet training, why feeder goldfish are risky.",
+      "h1": "Grouper Fish Food: What Do Grouper Fish Eat and How Often?",
+      "hero_tag": "Food & Feeding",
+      "hero_meta": "🍤 Meaty frozen seafood &nbsp;|&nbsp; 📅 2–3× a week for adults &nbsp;|&nbsp; 🚫 No feeder goldfish",
+      "toc": [
+        [
+          "wild",
+          "In the Wild"
+        ],
+        [
+          "best",
+          "Best Grouper Fish Food"
+        ],
+        [
+          "schedule",
+          "How Often to Feed"
+        ],
+        [
+          "feeders",
+          "Feeder Fish"
+        ],
+        [
+          "training",
+          "Pellet Training"
+        ],
+        [
+          "not-eating",
+          "Not Eating"
+        ]
+      ],
+      "body_file": "pages/food.html",
+      "faqs": [
+        [
+          "What do grouper fish eat?",
+          "In the wild, fish, crustaceans and cephalopods swallowed whole from ambush. In the aquarium the best grouper fish food is frozen marine seafood: silversides, lancefish, shrimp, krill, squid, clam and mussel, plus a large carnivore pellet once the fish is trained onto it."
+        ],
+        [
+          "How often should I feed a grouper?",
+          "Adults two or three times a week to a slightly rounded belly, then nothing until the belly flattens. Juveniles under 5 inches daily in small pieces. Groupers beg constantly and overfeeding leads to fatty liver and a bloated, lethargic fish."
+        ],
+        [
+          "Can I feed my grouper feeder goldfish?",
+          "No. Goldfish and rosy reds contain thiaminase, which destroys vitamin B1, and far too much fat; a grouper fed on them develops fatty liver disease and dies young. They also bring parasites. Frozen marine fish is safer, cheaper and better."
+        ],
+        [
+          "Will a grouper eat pellets?",
+          "Yes, most learn within a few weeks. Start by mixing a large sinking carnivore pellet into the frozen food, soak the pellets in the thawed juice, and offer them first when the fish is hungry. Pellets add vitamins the frozen diet lacks."
+        ],
+        [
+          "Why is my grouper not eating?",
+          "New groupers often refuse food for a week. Beyond that, check for white spots or a dusty sheen, a bullying tank mate, a water swing, or simple over-feeding — a grouper that ate three silversides on Monday may not want any on Wednesday. Try a live ghost shrimp on a feeding stick."
+        ],
+        [
+          "Do groupers eat their tank mates?",
+          "Anything that fits in the mouth, usually at night. Shrimp, crabs, small fish and even fish half the grouper's own length are food. Choose tank mates by size, not temperament."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/grouper-fish-care/",
+          "Grouper Fish Care Guide"
+        ],
+        [
+          "/guides/grouper-fish-care/tank-mates/",
+          "Grouper Fish Tank Mates"
+        ],
+        [
+          "/guides/grouper-fish-care/diseases/",
+          "Grouper Fish Diseases"
+        ],
+        [
+          "/tools/fish-feeding-calculator/",
+          "Fish Feeding Calculator"
+        ],
+        [
+          "/guides/grouper-fish-care/size-lifespan/",
+          "Grouper Fish Size"
+        ],
+        [
+          "/guides/grouper-fish-care/water-parameters/",
+          "Grouper Fish Water Parameters"
+        ]
+      ]
+    },
+    {
+      "slug": "size-lifespan",
+      "kind": "article",
+      "keyword": "grouper fish size",
+      "secondary": [
+        "how big do grouper fish get",
+        "grouper fish growth rate",
+        "grouper fish lifespan"
+      ],
+      "title": "Grouper Fish Size and Lifespan: How Big and How Fast",
+      "meta_desc": "Grouper fish size in the aquarium by species (8 inches for dwarf hinds to 30 for lyretail), growth of 6–10 inches in year one, and a lifespan of 10–20 years.",
+      "h1": "Grouper Fish Size and Lifespan: How Big Do Grouper Fish Get?",
+      "hero_tag": "Size & Lifespan",
+      "hero_meta": "📏 8–30 inches by species &nbsp;|&nbsp; 🚀 6–10 inches in year one &nbsp;|&nbsp; ⏳ 10–20 years",
+      "toc": [
+        [
+          "by-species",
+          "Size by Species"
+        ],
+        [
+          "growth",
+          "Growth Rate"
+        ],
+        [
+          "shop",
+          "Shop Size vs Adult"
+        ],
+        [
+          "lifespan",
+          "Lifespan"
+        ],
+        [
+          "extend",
+          "A Long Life"
+        ]
+      ],
+      "body_file": "pages/size-lifespan.html",
+      "faqs": [
+        [
+          "How big do grouper fish get in an aquarium?",
+          "Dwarf hinds 8–12 inches; miniatus, leopard and harlequin groupers 12–16; panther and bluespotted groupers 20–27; lyretail groupers up to 30. Bumblebee and giant groupers reach 3–8 feet and are not aquarium fish."
+        ],
+        [
+          "How fast do groupers grow?",
+          "Fast. A 3-inch juvenile typically reaches 9–12 inches in its first year and adult size in three to four years; panther groupers add nearly a foot in year one. Growth slows after the third year but never quite stops."
+        ],
+        [
+          "What size are groupers when sold?",
+          "Usually 2–4 inches, which is a fifth of the adult size for most species. A 3-inch panther grouper in a 20-gallon shop tank is a 2-foot fish that has not happened yet."
+        ],
+        [
+          "How long do grouper fish live?",
+          "Ten to twenty years in a well-run aquarium for the medium and large species, and dwarf hinds ten to twelve. Wild groupers are documented past 30 and the goliath grouper past 40."
+        ],
+        [
+          "Do groupers grow to the size of their tank?",
+          "No. A grouper in a small tank stunts, develops HLLE and a bent body, and dies young. The tank sets the lifespan, not the size."
+        ],
+        [
+          "Which grouper stays smallest?",
+          "The blue-line hind and V-tail grouper at 8–10 inches, then the bluespotted hind and the coral hind (miniatus) at 12–14 inches. Even the smallest needs a 75-gallon tank."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/grouper-fish-care/",
+          "Grouper Fish Care Guide"
+        ],
+        [
+          "/guides/grouper-fish-care/tank-size/",
+          "Grouper Fish Tank Size"
+        ],
+        [
+          "/guides/grouper-fish-care/types/",
+          "Types of Grouper Fish"
+        ],
+        [
+          "/guides/grouper-fish-care/food/",
+          "Grouper Fish Food"
+        ],
+        [
+          "/calculators/grouper-fish-tank-size/",
+          "Grouper Tank Size Calculator"
+        ],
+        [
+          "/guides/grouper-fish-care/diseases/",
+          "Grouper Fish Diseases"
+        ]
+      ]
+    },
+    {
+      "slug": "types",
+      "kind": "article",
+      "keyword": "types of grouper fish",
+      "secondary": [
+        "aquarium grouper species",
+        "dwarf grouper species",
+        "best grouper fish"
+      ],
+      "title": "Types of Grouper Fish for the Aquarium: 12 Species Compared",
+      "meta_desc": "Types of grouper fish for the aquarium: miniatus, panther, leopard, bluespotted, lyretail and blue-line hind compared by adult size, minimum tank, temperament.",
+      "h1": "Types of Grouper Fish for the Aquarium: 12 Species Compared",
+      "hero_tag": "Types",
+      "hero_meta": "🎨 12 aquarium species &nbsp;|&nbsp; 📏 8–30 inches &nbsp;|&nbsp; ⭐ Best first grouper: miniatus",
+      "toc": [
+        [
+          "bands",
+          "Three Size Bands"
+        ],
+        [
+          "table",
+          "Species Table"
+        ],
+        [
+          "dwarf",
+          "Dwarf Hinds"
+        ],
+        [
+          "medium",
+          "Miniatus and Leopard"
+        ],
+        [
+          "large",
+          "Panther, Bluespotted, Lyretail"
+        ],
+        [
+          "avoid",
+          "Groupers to Avoid"
+        ]
+      ],
+      "body_file": "pages/types.html",
+      "faqs": [
+        [
+          "What is the best grouper for a home aquarium?",
+          "The miniatus grouper (coral hind, Cephalopholis miniata): hardy, bright red with blue spots, 12–16 inches, happy in a 100–125 gallon tank. The blue-line hind is the pick for a 75-gallon; the panther grouper is the most popular but needs 180 gallons."
+        ],
+        [
+          "What is the smallest grouper fish?",
+          "Among aquarium species, the blue-line hind (Cephalopholis formosa) and V-tail grouper (Cephalopholis urodeta) at 8–10 inches. There is no grouper for a tank under 75 gallons."
+        ],
+        [
+          "Are panther groupers good aquarium fish?",
+          "Yes, with a 180-gallon tank. Panther (humpback) groupers are peaceful for groupers, hardy, and captive-bred, but the 3-inch spotted juvenile reaches 20–27 inches, and it eats anything smaller than itself."
+        ],
+        [
+          "Which groupers are not suitable for aquariums?",
+          "Bumblebee, giant, goliath, Nassau, red and black groupers of the genus Epinephelus reach 3–8 feet. They are sold as cute 4-inch juveniles and outgrow every home tank within two years."
+        ],
+        [
+          "Are any groupers reef safe?",
+          "All aquarium groupers leave corals alone; none leaves shrimp, crabs or small fish alone. The dwarf hinds are the least destructive because their mouths are smaller, but even they take cleaner shrimp."
+        ],
+        [
+          "Which grouper is the most colourful?",
+          "The miniatus grouper (red with blue spots), the leopard hind (orange with blue spots and a cream tail bar) and the lyretail grouper (violet with blue spots and a yellow-edged lyre tail). Panther groupers are black-and-white spotted."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/grouper-fish-care/",
+          "Grouper Fish Care Guide"
+        ],
+        [
+          "/guides/grouper-fish-care/miniatus/",
+          "Miniatus Grouper Care"
+        ],
+        [
+          "/guides/grouper-fish-care/panther/",
+          "Panther Grouper Care"
+        ],
+        [
+          "/guides/grouper-fish-care/tank-size/",
+          "Grouper Fish Tank Size"
+        ],
+        [
+          "/guides/grouper-fish-care/size-lifespan/",
+          "Grouper Fish Size"
+        ],
+        [
+          "/guides/grouper-fish-care/tank-mates/",
+          "Grouper Fish Tank Mates"
+        ]
+      ]
+    },
+    {
+      "slug": "miniatus",
+      "kind": "article",
+      "keyword": "miniatus grouper care",
+      "secondary": [
+        "miniatus grouper",
+        "coral hind grouper",
+        "miniata grouper care"
+      ],
+      "title": "Miniatus Grouper Care: Coral Hind Tank, Food and Tank Mates",
+      "meta_desc": "Miniatus grouper care (coral hind): a 100–125 gallon tank with a cave, reef water, frozen silversides and shrimp, tank mates it cannot swallow, 10–15 years.",
+      "h1": "Miniatus Grouper Care Guide (Coral Hind, Cephalopholis miniata)",
+      "hero_tag": "Miniatus Grouper",
+      "hero_meta": "🔴 Red with blue spots &nbsp;|&nbsp; 📏 12–16 in, 100–125 gal &nbsp;|&nbsp; ⏳ 10–15 years",
+      "toc": [
+        [
+          "about",
+          "About the Miniatus"
+        ],
+        [
+          "glance",
+          "Care at a Glance"
+        ],
+        [
+          "tank",
+          "Tank and Water"
+        ],
+        [
+          "food",
+          "Food"
+        ],
+        [
+          "mates",
+          "Tank Mates"
+        ],
+        [
+          "problems",
+          "Common Problems"
+        ]
+      ],
+      "body_file": "pages/miniatus.html",
+      "faqs": [
+        [
+          "What tank size does a miniatus grouper need?",
+          "100 gallons minimum and 125 preferred, at least 5 feet long, for one adult of 12–16 inches, with a cave it can sit inside and open sand in front. Add 25% for each large tank mate."
+        ],
+        [
+          "Are miniatus groupers aggressive?",
+          "Toward anything it can eat, yes; toward large tank mates, mildly territorial around its cave. It will not bother a lionfish, a large tang or an eel, and it never bothers corals."
+        ],
+        [
+          "What do miniatus groupers eat?",
+          "Frozen silversides, lancefish, shrimp, krill, squid and clam, two or three times a week, soaked in a vitamin supplement, plus a large carnivore pellet once trained. Never live goldfish."
+        ],
+        [
+          "Are miniatus groupers reef safe?",
+          "With corals and anemones, yes. With shrimp, crabs, snails and small fish, no — the coral hind is a night hunter that clears a reef of its clean-up crew within weeks."
+        ],
+        [
+          "How long do miniatus groupers live?",
+          "Ten to fifteen years in a 125-gallon tank with good filtration and a varied frozen diet. They are among the hardiest marine fish once past quarantine."
+        ],
+        [
+          "Why is my miniatus grouper losing its red colour?",
+          "Groupers change colour with mood and light — paler at night and when stressed. Colour that stays dull for weeks points to poor diet (add krill and vitamins), high nitrate, or a tank too small for the fish."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/grouper-fish-care/",
+          "Grouper Fish Care Guide"
+        ],
+        [
+          "/guides/grouper-fish-care/types/",
+          "Types of Grouper Fish"
+        ],
+        [
+          "/guides/grouper-fish-care/tank-size/",
+          "Grouper Fish Tank Size"
+        ],
+        [
+          "/guides/grouper-fish-care/food/",
+          "Grouper Fish Food"
+        ],
+        [
+          "/guides/grouper-fish-care/tank-mates/",
+          "Grouper Fish Tank Mates"
+        ],
+        [
+          "/guides/grouper-fish-care/panther/",
+          "Panther Grouper Care"
+        ]
+      ]
+    },
+    {
+      "slug": "panther",
+      "kind": "article",
+      "keyword": "panther grouper care",
+      "secondary": [
+        "panther grouper",
+        "humpback grouper",
+        "polka dot grouper"
+      ],
+      "title": "Panther Grouper Care: Humpback Grouper Tank Size and Growth",
+      "meta_desc": "Panther grouper care (humpback grouper): why the 3-inch spotted juvenile needs a 180-gallon tank, growth to 2 feet, feeding, tank mates and a 15–20 year life.",
+      "h1": "Panther Grouper Care Guide (Humpback Grouper, Cromileptes altivelis)",
+      "hero_tag": "Panther Grouper",
+      "hero_meta": "⚫ Black polka dots &nbsp;|&nbsp; 📏 20–27 in, 180+ gal &nbsp;|&nbsp; 🚀 A foot in year one",
+      "hero_img": "/assets/encyclopedia/real/grouper-fish-panther-wikimedia-real.jpg",
+      "toc": [
+        [
+          "about",
+          "About the Panther Grouper"
+        ],
+        [
+          "glance",
+          "Care at a Glance"
+        ],
+        [
+          "growth",
+          "Growth"
+        ],
+        [
+          "tank",
+          "Tank and Water"
+        ],
+        [
+          "food",
+          "Food"
+        ],
+        [
+          "mates",
+          "Tank Mates"
+        ],
+        [
+          "problems",
+          "Problems"
+        ]
+      ],
+      "body_file": "pages/panther.html",
+      "faqs": [
+        [
+          "How big do panther groupers get?",
+          "20–27 inches in the aquarium and 28 in the wild. The 3-inch spotted juvenile in the shop reaches a foot in its first year and 20 inches by year three."
+        ],
+        [
+          "What tank size does a panther grouper need?",
+          "180 gallons and 6 feet for one adult; 240–300 gallons with other large fish. Nothing smaller works for more than a year."
+        ],
+        [
+          "Are panther groupers aggressive?",
+          "Less than most groupers toward fish they cannot eat; they are slow, curious and often tame. Anything small enough to swallow — and the mouth opens wider than the head suggests — is eaten."
+        ],
+        [
+          "Are panther groupers reef safe?",
+          "They ignore corals and eat every mobile invertebrate and small fish. Suitable for a coral-only reef with large fish or a fish-only predator tank."
+        ],
+        [
+          "What do panther groupers eat?",
+          "Frozen silversides, lancefish, shrimp, squid and clam two or three times a week for adults, daily for juveniles, with a vitamin soak. Most take large carnivore pellets within a month."
+        ],
+        [
+          "How long do panther groupers live?",
+          "Fifteen to twenty years in a tank large enough for the adult. Most are captive-bred, which makes them hardy and free of wild parasites."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/grouper-fish-care/",
+          "Grouper Fish Care Guide"
+        ],
+        [
+          "/guides/grouper-fish-care/types/",
+          "Types of Grouper Fish"
+        ],
+        [
+          "/guides/grouper-fish-care/size-lifespan/",
+          "Grouper Fish Size & Lifespan"
+        ],
+        [
+          "/guides/grouper-fish-care/tank-size/",
+          "Grouper Fish Tank Size"
+        ],
+        [
+          "/guides/grouper-fish-care/food/",
+          "Grouper Fish Food"
+        ],
+        [
+          "/guides/grouper-fish-care/miniatus/",
+          "Miniatus Grouper Care"
+        ]
+      ]
+    },
+    {
+      "slug": "breeding",
+      "kind": "article",
+      "keyword": "grouper fish breeding",
+      "secondary": [
+        "can groupers change gender",
+        "male vs female grouper fish",
+        "grouper fish eggs"
+      ],
+      "title": "Grouper Fish Breeding: Sex Change, Spawning and Larvae",
+      "meta_desc": "Grouper fish breeding explained: born female and change to male, cannot be sexed by eye, spawn in open water, and pelagic larvae are raised only in hatcheries.",
+      "h1": "Grouper Fish Breeding: Sex Change, Male vs Female, Eggs and Larvae",
+      "hero_tag": "Breeding",
+      "hero_meta": "⚥ Born female, become male &nbsp;|&nbsp; 🥚 Floating eggs, hatch in 24 h &nbsp;|&nbsp; 🏭 Hatchery-bred since the 1990s",
+      "toc": [
+        [
+          "sex-change",
+          "Sex Change"
+        ],
+        [
+          "sexing",
+          "Male vs Female"
+        ],
+        [
+          "spawning",
+          "How Groupers Spawn"
+        ],
+        [
+          "eggs",
+          "Eggs and Larvae"
+        ],
+        [
+          "home",
+          "Breeding at Home"
+        ],
+        [
+          "hatchery",
+          "Captive Breeding"
+        ],
+        [
+          "pregnant",
+          "Pregnant?"
+        ]
+      ],
+      "body_file": "pages/breeding.html",
+      "faqs": [
+        [
+          "Can groupers change gender?",
+          "Yes. Almost all groupers are protogynous hermaphrodites: every fish matures as a female, and the largest, most dominant fish in a group later changes into a male. Remove the male and the biggest remaining female takes over within weeks."
+        ],
+        [
+          "How do you tell a male grouper from a female?",
+          "You cannot by colour or shape. The male is the largest and most dominant fish in a group; a lone aquarium grouper of any size is almost certainly female, since the change is triggered by social position."
+        ],
+        [
+          "Do grouper fish breed in aquariums?",
+          "Spawning is occasionally seen in very large public-aquarium groups; raising the young is not possible at home. Eggs float, larvae drift for a month or two and need cultured copepods and rotifers."
+        ],
+        [
+          "Do grouper fish lay eggs?",
+          "Yes, in open water at dusk, in pairs or groups, often around the full moon. The eggs are about 0.9 mm, float, and hatch in about 24 hours into helpless larvae."
+        ],
+        [
+          "Can a grouper fish be pregnant?",
+          "No. Groupers do not carry young. A rounded belly is a full stomach, a female ripe with eggs before a spawn, or fatty liver from feeder fish; a belly that stays swollen with raised scales is dropsy."
+        ],
+        [
+          "Are captive-bred groupers available?",
+          "Yes. Panther groupers have been hatchery-bred in Asia for the food trade since the 1990s and most aquarium specimens are captive-bred; coral groupers and some Epinephelus are also farmed. Captive-bred fish arrive eating and parasite-free."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/grouper-fish-care/",
+          "Grouper Fish Care Guide"
+        ],
+        [
+          "/guides/grouper-fish-care/types/",
+          "Types of Grouper Fish"
+        ],
+        [
+          "/guides/grouper-fish-care/size-lifespan/",
+          "Grouper Fish Size"
+        ],
+        [
+          "/guides/grouper-fish-care/behavior/",
+          "Grouper Fish Behavior"
+        ],
+        [
+          "/guides/grouper-fish-care/panther/",
+          "Panther Grouper Care"
+        ],
+        [
+          "/guides/grouper-fish-care/food/",
+          "Grouper Fish Food"
+        ]
+      ]
+    },
+    {
+      "slug": "tank-mates",
+      "kind": "article",
+      "keyword": "grouper fish tank mates",
+      "secondary": [
+        "what fish can live with grouper fish",
+        "are groupers reef safe",
+        "grouper with lionfish",
+        "grouper with clownfish"
+      ],
+      "title": "Grouper Fish Tank Mates: What Can Live With a Grouper",
+      "meta_desc": "Grouper fish tank mates: the lionfish, tangs, angels, triggers and eels that work, the clownfish, gobies and shrimp that get eaten, and reef safety.",
+      "h1": "Grouper Fish Tank Mates: What Fish Can Live With a Grouper?",
+      "hero_tag": "Tank Mates",
+      "hero_meta": "✅ Lionfish, large tangs, eels, triggers &nbsp;|&nbsp; ❌ Anything that fits in the mouth &nbsp;|&nbsp; 🪸 Corals safe, inverts not",
+      "toc": [
+        [
+          "rule",
+          "The Mouth Rule"
+        ],
+        [
+          "safe",
+          "Safe Tank Mates"
+        ],
+        [
+          "pairings",
+          "Common Pairings Answered"
+        ],
+        [
+          "avoid",
+          "Fish to Avoid"
+        ],
+        [
+          "reef",
+          "Are Groupers Reef Safe?"
+        ],
+        [
+          "order",
+          "Order of Introduction"
+        ]
+      ],
+      "body_file": "pages/tank-mates.html",
+      "faqs": [
+        [
+          "What fish can live with a grouper?",
+          "Fish too large to swallow and too tough to bully: lionfish, foxface and rabbitfish, large tangs, large angelfish, big wrasses, triggerfish, large puffers and moray eels. The classic grouper tank is a predator or fish-only-with-live-rock system."
+        ],
+        [
+          "Can a grouper live with clownfish?",
+          "Only while the clownfish is bigger than the grouper's mouth, which is never for long. A 3-inch grouper juvenile and a clownfish coexist for a few months; by the time the grouper is 8 inches, the clownfish is a meal."
+        ],
+        [
+          "Can groupers live with lionfish?",
+          "Yes — the most reliable grouper tank mate. Venomous spines keep the lionfish off the menu, both are slow, both eat the same frozen food, and neither bothers the other. Size the tank for both."
+        ],
+        [
+          "Can groupers live with tangs?",
+          "Large tangs (naso, sailfin, sohal, blue) in 180 gallons or more, yes; they are fast and too big to eat. Small tangs and juveniles are at risk. Add the tang before the grouper."
+        ],
+        [
+          "Can a grouper live with an eel?",
+          "Yes. Moray and snowflake eels share caves with groupers on the reef and in tanks, and neither can eat the other once both are adult. Feed the eel with a stick so the grouper does not take everything."
+        ],
+        [
+          "Are groupers reef safe?",
+          "Corals and anemones, yes. Shrimp, crabs, snails, urchins and every small fish, no. A grouper in a reef tank is a coral-only reef."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/grouper-fish-care/",
+          "Grouper Fish Care Guide"
+        ],
+        [
+          "/guides/grouper-fish-care/behavior/",
+          "Grouper Fish Behavior"
+        ],
+        [
+          "/guides/grouper-fish-care/tank-size/",
+          "Grouper Fish Tank Size"
+        ],
+        [
+          "/tools/fish-compatibility-checker/",
+          "Fish Compatibility Checker"
+        ],
+        [
+          "/guides/tang-fish-care/tank-mates/",
+          "Tang Fish Tank Mates"
+        ],
+        [
+          "/guides/clownfish-care-guide/",
+          "Clownfish Care Guide"
+        ]
+      ]
+    },
+    {
+      "slug": "behavior",
+      "kind": "article",
+      "keyword": "grouper fish behavior",
+      "secondary": [
+        "grouper fish aggressive",
+        "do grouper fish bark",
+        "why are groupers so friendly",
+        "can groupers change color"
+      ],
+      "title": "Grouper Fish Behavior: Ambush, Colour Change and Barking",
+      "meta_desc": "Grouper fish behavior explained: why they sit in caves, change colour in seconds, bark, gape, follow their keeper and bite fingers, and the signs of trouble.",
+      "h1": "Grouper Fish Behavior: Ambush, Colour Change, Barking and Tameness",
+      "hero_tag": "Behavior",
+      "hero_meta": "🪨 Sits in a cave, strikes in a blink &nbsp;|&nbsp; 🎨 Changes colour in seconds &nbsp;|&nbsp; 🤝 Learns its keeper",
+      "toc": [
+        [
+          "ambush",
+          "Ambush Predator"
+        ],
+        [
+          "colour",
+          "Colour Change"
+        ],
+        [
+          "sounds",
+          "Barking and Gaping"
+        ],
+        [
+          "tame",
+          "Tameness and Biting"
+        ],
+        [
+          "aggression",
+          "Aggression"
+        ],
+        [
+          "stress",
+          "Stress Signals"
+        ]
+      ],
+      "body_file": "pages/behavior.html",
+      "faqs": [
+        [
+          "Why does my grouper just sit in its cave?",
+          "Because that is how groupers hunt. They are ambush predators that rest in a cave or under a ledge for most of the day, watch, and strike in a fraction of a second. A grouper that sits still and comes out at feeding time is behaving normally."
+        ],
+        [
+          "Do grouper fish bark?",
+          "Yes. Groupers produce a low thump or bark by contracting muscles against the swim bladder, usually as a territorial warning or when startled; in a quiet room you can hear a large grouper through the glass."
+        ],
+        [
+          "Can groupers change colour?",
+          "Yes, within seconds. Groupers darken, pale, add bars or blotches with mood, dominance, light and camouflage. A colour change that reverses in minutes is normal; a fish that stays pale for days is stressed."
+        ],
+        [
+          "Why are groupers so friendly?",
+          "They are intelligent, curious and quick to learn that a person means food. An aquarium grouper will follow your hand, take food from a stick and let itself be watched from inches away. It will also bite a finger that looks like food, and the bite is strong."
+        ],
+        [
+          "Are grouper fish aggressive?",
+          "Toward prey, absolutely; toward fish too big to eat, mildly territorial around the cave; toward another grouper, very aggressive in anything under 300 gallons. They are not aggressive to people beyond a feeding-time bite."
+        ],
+        [
+          "Why does my grouper open its mouth wide?",
+          "Gaping stretches the jaw, signals to cleaner fish, and is a threat display to a rival. Constant gaping with rapid gill movement is different — that is breathing difficulty and needs a water test."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/grouper-fish-care/",
+          "Grouper Fish Care Guide"
+        ],
+        [
+          "/guides/grouper-fish-care/tank-mates/",
+          "Grouper Fish Tank Mates"
+        ],
+        [
+          "/guides/grouper-fish-care/diseases/",
+          "Grouper Fish Diseases"
+        ],
+        [
+          "/guides/grouper-fish-care/food/",
+          "Grouper Fish Food"
+        ],
+        [
+          "/guides/grouper-fish-care/tank-size/",
+          "Grouper Fish Tank Size"
+        ],
+        [
+          "/guides/grouper-fish-care/breeding/",
+          "Grouper Fish Breeding"
+        ]
+      ]
+    },
+    {
+      "slug": "diseases",
+      "kind": "article",
+      "keyword": "grouper fish diseases",
+      "secondary": [
+        "grouper fish ich",
+        "grouper fish white spots",
+        "grouper fish cloudy eye",
+        "grouper fish bloated"
+      ],
+      "title": "Grouper Fish Diseases: Ich, Velvet, Flukes, HLLE and Bloat",
+      "meta_desc": "Grouper fish diseases explained: marine ich, velvet, flukes, cloudy eye, HLLE and fatty-liver bloat from feeder fish — how to treat each, plus quarantine.",
+      "h1": "Grouper Fish Diseases: Ich, Velvet, Flukes, HLLE, Cloudy Eye and Bloat",
+      "hero_tag": "Diseases",
+      "hero_meta": "🔬 Hardy, but wild-caught &nbsp;|&nbsp; 🧪 Copper cures ich and velvet &nbsp;|&nbsp; 🛡 4-week quarantine",
+      "toc": [
+        [
+          "overview",
+          "Overview"
+        ],
+        [
+          "ich",
+          "Marine Ich and Velvet"
+        ],
+        [
+          "flukes",
+          "Flukes and Cloudy Eye"
+        ],
+        [
+          "hlle",
+          "HLLE"
+        ],
+        [
+          "bloat",
+          "Bloat and Fatty Liver"
+        ],
+        [
+          "quarantine",
+          "Quarantine"
+        ]
+      ],
+      "body_file": "pages/diseases.html",
+      "faqs": [
+        [
+          "What diseases do grouper fish get?",
+          "Marine ich and velvet after shipping or a temperature swing; gill and skin flukes, which show as scratching and cloudy eyes; HLLE from a poor diet; fatty liver and bloat from feeder goldfish; and cloudy eye or popeye from poor water or an injury. Groupers are otherwise hardy."
+        ],
+        [
+          "How do I treat ich on a grouper?",
+          "In a bare hospital tank with copper at the therapeutic level for 30 days, tested daily, or with hyposalinity at 1.009 for four weeks, which groupers tolerate well. Reef-safe remedies do not clear it. A 12-inch grouper needs a hospital tank of 75 gallons or more."
+        ],
+        [
+          "Why does my grouper have a cloudy eye?",
+          "One cloudy eye is usually an injury against rock or a fluke on the cornea; both eyes cloudy points to poor water quality or a bacterial infection. Test nitrate and ammonia, do a large water change, and treat with praziquantel if the fish also scratches."
+        ],
+        [
+          "Why is my grouper bloated?",
+          "Most often fatty liver from a diet of feeder goldfish or too much fatty food, or simple over-feeding. Fast the fish for a week, then feed lean marine food (silversides, squid, shrimp) with a vitamin soak. A swollen belly with raised scales is dropsy and needs antibiotics."
+        ],
+        [
+          "What causes HLLE in groupers?",
+          "Head and lateral line erosion — pits around the eyes and along the flank — comes from a diet lacking vitamins (frozen-only, no soak), activated carbon dust, stray voltage and chronic stress in a small tank. Vitamin-soaked food, a grounding probe and a bigger tank reverse early cases."
+        ],
+        [
+          "Do groupers need quarantine?",
+          "Yes, four weeks in a bare tank with a PVC hide, observation, then prophylactic copper or praziquantel. Most groupers are wild-caught and arrive with flukes and ich; treating a large fish in a display tank later is far harder."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/grouper-fish-care/",
+          "Grouper Fish Care Guide"
+        ],
+        [
+          "/guides/grouper-fish-care/food/",
+          "Grouper Fish Food"
+        ],
+        [
+          "/guides/grouper-fish-care/water-parameters/",
+          "Grouper Fish Water Parameters"
+        ],
+        [
+          "/guides/grouper-fish-care/behavior/",
+          "Grouper Fish Behavior"
+        ],
+        [
+          "/guides/tang-fish-care/diseases/",
+          "Tang Fish Diseases"
+        ],
+        [
+          "/tools/water-parameter-checker/",
+          "Water Parameter Checker"
+        ]
+      ]
+    },
+    {
+      "slug": "",
+      "url": "/calculators/grouper-fish-tank-size/",
+      "kind": "tool",
+      "keyword": "grouper fish tank size calculator",
+      "secondary": [
+        "how many grouper fish per gallon",
+        "grouper fish aquarium size"
+      ],
+      "title": "Grouper Fish Tank Size Calculator: Gallons and Length",
+      "meta_desc": "Free grouper fish tank size calculator: pick the species, add large tank mates and rockwork to get the minimum gallons and tank length for the adult fish.",
+      "h1": "Grouper Fish Tank Size Calculator",
+      "hero_tag": "Calculator",
+      "hero_meta": "🧮 Free tool &nbsp;|&nbsp; 📏 Gallons and feet for the adult &nbsp;|&nbsp; 🐡 12 species",
+      "toc": [
+        [
+          "tool",
+          "Calculator"
+        ],
+        [
+          "how",
+          "How It Works"
+        ],
+        [
+          "by-tank",
+          "Which Grouper Fits Which Tank"
+        ],
+        [
+          "mates",
+          "With Tank Mates"
+        ],
+        [
+          "wrong",
+          "Signs the Tank Is Too Small"
+        ]
+      ],
+      "body_file": "pages/calculator.html",
+      "tool": {
+        "heading": "🐡 Grouper Fish Tank Size Calculator",
+        "html_file": "tools/calc.html",
+        "js_file": "tools/calc.js"
+      },
+      "faqs": [
+        [
+          "How does the grouper fish tank size calculator work?",
+          "It starts from the species' adult size, which sets a base tank of 75, 100, 125, 180 or 300 gallons and a minimum length of 4, 5, 6 or 8 feet; adds 25% for each large tank mate; adds 15% for heavy rockwork; and rounds up to the next standard tank that also meets the length."
+        ],
+        [
+          "How many groupers per gallon?",
+          "One. Groupers are stocked one per tank except in 300-gallon-plus systems with two different genera; there is no per-gallon figure. The calculator sizes the tank for a single adult and its tank mates."
+        ],
+        [
+          "What tank does a miniatus grouper need?",
+          "The calculator returns 125 gallons and 6 feet for a miniatus alone, 180 with a lionfish, 240 with a lionfish and a large tang, and 300 with rockwork and three large tank mates."
+        ],
+        [
+          "What tank does a panther grouper need?",
+          "180 gallons and 6 feet alone; 240 with one large tank mate and 300–400 with a full predator community. The calculator will not return anything smaller for the species, whatever the other settings."
+        ],
+        [
+          "Does the juvenile's size matter?",
+          "No. The calculator always uses the adult size, because a grouper reaches most of it within two years. Buy the adult tank, or plan the upgrade before you buy the fish."
+        ]
+      ],
+      "related": [
+        [
+          "/guides/grouper-fish-care/tank-size/",
+          "Grouper Fish Tank Size Guide"
+        ],
+        [
+          "/guides/grouper-fish-care/",
+          "Grouper Fish Care Guide"
+        ],
+        [
+          "/guides/grouper-fish-care/types/",
+          "Types of Grouper Fish"
+        ],
+        [
+          "/tools/aquarium-size-calculator/",
+          "Aquarium Size Calculator"
+        ],
+        [
+          "/calculators/tang-fish-tank-size/",
+          "Tang Fish Tank Size Calculator"
+        ],
+        [
+          "/calculators/",
+          "All Tank Size Calculators"
+        ]
+      ]
+    }
+  ]
+}

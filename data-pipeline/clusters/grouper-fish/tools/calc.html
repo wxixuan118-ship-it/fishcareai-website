@@ -1,0 +1,21 @@
+    <div class="tool-grid">
+      <label>Grouper species<select id="gr-sp">
+        <option value="blueline">Blue-line hind (8–10 in)</option>
+        <option value="vtail">V-tail grouper (8–10 in)</option>
+        <option value="bshind">Bluespotted hind (10–12 in)</option>
+        <option value="leopard">Leopard hind (12–14 in)</option>
+        <option value="miniatus" selected>Miniatus / coral hind (12–16 in)</option>
+        <option value="harlequin">Harlequin grouper (14–16 in)</option>
+        <option value="panther">Panther / humpback grouper (20–27 in)</option>
+        <option value="argus">Bluespotted grouper, argus (20–24 in)</option>
+        <option value="lyretail">Lyretail grouper (24–30 in)</option>
+        <option value="red">Red grouper (24–30 in)</option>
+        <option value="giant">Bumblebee / giant / goliath grouper (3–8 ft)</option>
+      </select></label>
+      <label>Large tank mates (over half its length)<select id="gr-n"><option value="0" selected>None</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4 or more</option></select></label>
+      <label>Rockwork<select id="gr-rock"><option value="1" selected>A cave and open sand</option><option value="1.15">Heavy rockwork / reef scape</option></select></label>
+      <label>Second grouper (different genus)<select id="gr-two"><option value="0" selected>No</option><option value="1">Yes</option></select></label>
+    </div>
+    <button class="btn bp" id="gr-go" type="button">Calculate grouper tank size</button>
+    <div class="tool-result" id="gr-result" aria-live="polite"><p>Choose a grouper and press calculate.</p></div>
+    <p class="tool-note">Species base for one adult, +25% per large tank mate, +15% for heavy rockwork, a 300-gallon floor for two groupers, rounded up to the next standard tank that also meets the minimum length and width.</p>

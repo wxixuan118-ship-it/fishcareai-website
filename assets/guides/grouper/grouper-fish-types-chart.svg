@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Types of grouper fish for the aquarium</title>
+<desc id="d">Types of grouper fish chart: dwarf hinds 8 to 12 inches in 75 to 100 gallons, miniatus and leopard hind 12 to 16 inches in 100 to 125 gallons, panther, bluespotted and lyretail 20 to 30 inches in 180 to 300 gallons, bumblebee and giant groupers for public aquariums only</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient><linearGradient id="ok" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2bd4c4"/><stop offset="1" stop-color="#27ae60"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">Types of grouper fish for the aquarium</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">Three size bands. Only the first two belong in a home tank.</text>
+<rect x="48" y="150" width="1104" height="62" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="188" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Dwarf hinds (8–12 in)</text>
+<rect x="314" y="164" width="397" height="34" rx="9" fill="url(#ok)"/>
+<text x="330" y="188" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">blue-line, V-tail, bluespotted hind</text>
+<text x="736" y="188" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">75–100 gal</text>
+<rect x="48" y="222" width="1104" height="62" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="260" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Medium (12–16 in)</text>
+<rect x="314" y="236" width="397" height="34" rx="9" fill="url(#ok)"/>
+<text x="330" y="260" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">miniatus, leopard hind, harlequin</text>
+<text x="736" y="260" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">100–125 gal</text>
+<rect x="48" y="294" width="1104" height="62" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="332" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Large (20–30 in)</text>
+<rect x="314" y="308" width="397" height="34" rx="9" fill="url(#ok)"/>
+<text x="330" y="332" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">panther, bluespotted, lyretail, red</text>
+<text x="736" y="332" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">180–300 gal</text>
+<rect x="48" y="366" width="1104" height="62" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="404" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Public aquarium only</text>
+<rect x="314" y="380" width="397" height="34" rx="9" fill="url(#ok)"/>
+<text x="330" y="404" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">bumblebee, giant, goliath, Nassau</text>
+<text x="736" y="404" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">3–8 ft adults</text>
+<rect x="48" y="438" width="1104" height="62" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Best first grouper</text>
+<rect x="314" y="452" width="397" height="34" rx="9" fill="url(#ok)"/>
+<text x="330" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">miniatus (coral hind)</text>
+<text x="736" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">hardy, colourful, 100 gal</text>
+<text x="1152" y="618" text-anchor="end" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#5f8aa3">fishcareai.com</text>
+</svg>

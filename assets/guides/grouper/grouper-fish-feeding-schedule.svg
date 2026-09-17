@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Grouper fish food and feeding schedule</title>
+<desc id="d">Grouper fish food chart: frozen silversides and lancefish two to three times a week, shrimp krill squid and clam for variety, carnivore pellets weekly, vitamin soak every feed, never live freshwater feeder fish, juveniles fed daily</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient><linearGradient id="ok" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2bd4c4"/><stop offset="1" stop-color="#27ae60"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">Grouper fish food and feeding schedule</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">A gulp feeder. Feed big, feed rarely, and never feed live freshwater fish.</text>
+<rect x="48" y="150" width="1104" height="58" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="186" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Frozen silversides, lancefish</text>
+<rect x="453" y="164" width="241" height="30" rx="9" fill="url(#ok)"/>
+<text x="469" y="186" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">2–3× per week</text>
+<text x="718" y="186" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">the staple; whole fish</text>
+<rect x="48" y="218" width="1104" height="58" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="254" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Frozen shrimp, krill, squid, clam</text>
+<rect x="453" y="232" width="241" height="30" rx="9" fill="url(#ok)"/>
+<text x="469" y="254" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">2–3× per week</text>
+<text x="718" y="254" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">variety; thaw and rinse</text>
+<rect x="48" y="286" width="1104" height="58" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="322" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Large carnivore pellets</text>
+<rect x="453" y="300" width="241" height="30" rx="9" fill="url(#ok)"/>
+<text x="469" y="322" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">weekly, once trained</text>
+<text x="718" y="322" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">vitamins; soak first</text>
+<rect x="48" y="354" width="1104" height="58" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="390" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Vitamin soak (HUFA, C)</text>
+<rect x="453" y="368" width="241" height="30" rx="9" fill="url(#ok)"/>
+<text x="469" y="390" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">every feed</text>
+<text x="718" y="390" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">prevents HLLE and fatty liver</text>
+<rect x="48" y="422" width="1104" height="58" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="458" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Live feeder goldfish / rosy reds</text>
+<rect x="453" y="436" width="241" height="30" rx="9" fill="url(#ok)"/>
+<text x="469" y="458" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">never</text>
+<text x="718" y="458" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">thiaminase, fat, disease</text>
+<rect x="48" y="490" width="1104" height="58" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="526" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="700" fill="#ffffff">Juvenile under 5 in</text>
+<rect x="453" y="504" width="241" height="30" rx="9" fill="url(#ok)"/>
+<text x="469" y="526" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#03222f">daily, small pieces</text>
+<text x="718" y="526" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#b8d3e2">grows fast</text>
+<text x="48" y="600" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#8aaec2">A grouper begs constantly. Feed to a slightly rounded belly, then wait two days.</text>
+<text x="1152" y="618" text-anchor="end" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#5f8aa3">fishcareai.com</text>
+</svg>
