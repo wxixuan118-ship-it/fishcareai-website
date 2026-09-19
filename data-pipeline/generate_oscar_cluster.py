@@ -234,7 +234,7 @@ def page(slug, title, meta_desc, h1, hero_tag, hero_meta,
     <a class="nl act" href="/guides/">Guides</a>
     <a class="nl" href="/species">Encyclopedia</a>
     <a class="nl" href="/fish-health/">Fish Health</a>
-    <a title="Fish Identification" class="nl" href="https://fish-identification-d558af.anysites.app/" target="_blank" rel="noopener">&#128269; Fish ID</a>
+    <a title="Fish Identification" class="nl" href="/identify/">&#128269; Fish ID</a>
     <a class="nl" href="/#tools">Tools</a>
     <a class="nl" href="/about/">About Us</a>
   </div>

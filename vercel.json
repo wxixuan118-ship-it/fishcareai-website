@@ -630,17 +630,17 @@
     },
     {
       "source": "/tools/fish-identification",
-      "destination": "https://identify.fishcareai.com/",
+      "destination": "/identify/",
       "statusCode": 301
     },
     {
       "source": "/tools/fish-identification/",
-      "destination": "https://identify.fishcareai.com/",
+      "destination": "/identify/",
       "statusCode": 301
     },
     {
       "source": "/tools/fish-identification/index.html",
-      "destination": "https://identify.fishcareai.com/",
+      "destination": "/identify/",
       "statusCode": 301
     },
     {

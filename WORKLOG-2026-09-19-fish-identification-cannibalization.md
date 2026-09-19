@@ -30,3 +30,17 @@ identify.fishcareai.com/ (23 imp), /fish-identification-chart (16), www/tools/fi
   /caribbean-fish-identification (21 sp.), /florida-fish-identification (26), /gulf-of-mexico-fish-identification (26),
   /salmon-identification (7 + gums/spots/tail table), /parrot-fish (12, both colour phases), /butterfly-fish (13 + care table).
 - image-credits/index.html: 125 credit lines in total for the chart thumbnails (public/assets/chart/, 2.1 MB).
+
+## Same day, part 2 — subdomain → subfolder
+identify.fishcareai.com was starting from zero authority (subdomains do not inherit the root's links), and 242 www pages
+linked the raw anysites host in the nav. The identifier now lives at **https://www.fishcareai.com/identify/**.
+
+- www nginx.conf: `location ^~ /identify/` proxies to the identify app's anysites origin (same pattern as /species), sends
+  `X-FishCare-Proxy: 1`; `/identify` and the old `/tools/fish-identification/` paths 301 to `/identify/`.
+- identify app server.js: strips the `/identify` prefix; GET/HEAD on any host without the proxy header
+  (identify.fishcareai.com, *.anysites.app) 301s to `https://www.fishcareai.com/identify<path>`; localhost untouched.
+- All 11 pages: canonical/og/JSON-LD/internal links/asset paths/API path rewritten to `/identify/...`; WebSite schema → www.
+- www: 247 files updated (`/identify/` in the sitewide nav instead of the anysites URL, no target=_blank), image credits,
+  cluster generator scripts, site-compliance.js; `sitemaps/identify.xml` added to the sitemap index.
+- Deploy order: identify app first, then www (the app's old-host redirect points at /identify/, which only exists once
+  the www container has the new nginx.conf).

@@ -12,7 +12,7 @@
     { label: 'Tools',         href: '/tools/',                              section: 'tools' },
     { label: 'Encyclopedia',  href: '/wiki/',                               section: 'wiki' },
     { label: 'Fish Diseases', href: '/aquarium-fish-diseases/',              section: 'fish-diseases' },
-    { label: 'Fish Identify', href: 'https://identify.fishcareai.com/',     section: '' },
+    { label: 'Fish Identification', href: '/identify/',     section: '' },
     { label: 'About',         href: '/about/',                              section: 'about' },
     { label: '📱 App',        href: '/app/',                                section: 'app', extraClass: 'nl-app-btn' },
   ];
@@ -23,7 +23,7 @@
     { label: 'Fish Diseases', href: '/aquarium-fish-diseases/' },
     { label: 'Guides',        href: '/guides/' },
     { label: 'Aquarium Tools',href: '/tools/' },
-    { label: 'Fish Identify', href: 'https://identify.fishcareai.com/' },
+    { label: 'Fish Identification', href: '/identify/' },
   ];
   var FOOTER_TOOLS = [
     { label: 'Aquarium Size Calculator',  href: '/tools/aquarium-size-calculator/' },

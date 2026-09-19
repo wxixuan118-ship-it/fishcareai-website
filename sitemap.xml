@@ -28,4 +28,8 @@
     <loc>https://www.fishcareai.com/fish-health/sitemap.xml</loc>
     <lastmod>2026-08-24</lastmod>
   </sitemap>
+  <sitemap>
+    <loc>https://www.fishcareai.com/sitemaps/identify.xml</loc>
+    <lastmod>2026-09-19</lastmod>
+  </sitemap>
 </sitemapindex>
