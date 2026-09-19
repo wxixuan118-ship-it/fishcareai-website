@@ -1142,6 +1142,16 @@
       "source": "/tank-sizes/",
       "destination": "/tanks/",
       "statusCode": 301
+    },
+    {
+      "source": "/wiki/black-beard-algae/",
+      "destination": "/guides/black-beard-algae/",
+      "statusCode": 301
+    },
+    {
+      "source": "/wiki/black-beard-algae",
+      "destination": "/guides/black-beard-algae/",
+      "statusCode": 301
     }
   ]
 }

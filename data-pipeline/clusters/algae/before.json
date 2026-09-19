@@ -1,0 +1,130 @@
+{
+  "/wiki/hair-algae/": {
+    "score": 68.7,
+    "keyword": "Hair Algae in Aquariums",
+    "red": [
+      "kw_h1",
+      "kw_body",
+      "kw_density",
+      "h1_count",
+      "page_skeleton",
+      "dead_hrefs",
+      "image_present"
+    ],
+    "yellow": [
+      "desc_keyword",
+      "kw_h2",
+      "kw_intro",
+      "kw_url",
+      "topic_focus",
+      "internal_count"
+    ]
+  },
+  "/guides/otocinclus-care-guide/": {
+    "score": 70.7,
+    "keyword": "Otocinclus Care Guide",
+    "red": [
+      "title_length",
+      "robots_meta",
+      "kw_h1",
+      "topic_focus",
+      "h1_count"
+    ],
+    "yellow": [
+      "kw_h2",
+      "kw_intro",
+      "kw_density",
+      "word_count",
+      "paragraphs",
+      "page_skeleton",
+      "internal_count",
+      "dimensions",
+      "delivery"
+    ]
+  },
+  "/guides/bristlenose-pleco-care-guide/": {
+    "score": 69.1,
+    "keyword": "Bristlenose Pleco Care Guide",
+    "red": [
+      "title_length",
+      "robots_meta",
+      "kw_h1",
+      "kw_density",
+      "topic_focus",
+      "h1_count"
+    ],
+    "yellow": [
+      "kw_h2",
+      "kw_intro",
+      "word_count",
+      "paragraphs",
+      "page_skeleton",
+      "internal_count",
+      "dimensions",
+      "delivery"
+    ]
+  },
+  "/guides/nerite-snail-care-guide/": {
+    "score": 69.1,
+    "keyword": "Nerite Snail Care Guide",
+    "red": [
+      "title_length",
+      "robots_meta",
+      "kw_h1",
+      "kw_density",
+      "topic_focus",
+      "h1_count"
+    ],
+    "yellow": [
+      "kw_h2",
+      "kw_intro",
+      "word_count",
+      "paragraphs",
+      "page_skeleton",
+      "internal_count",
+      "dimensions",
+      "delivery"
+    ]
+  },
+  "/guides/amano-shrimp-care-guide/": {
+    "score": 69.1,
+    "keyword": "Amano Shrimp Care Guide",
+    "red": [
+      "title_length",
+      "robots_meta",
+      "kw_h1",
+      "kw_density",
+      "topic_focus",
+      "h1_count"
+    ],
+    "yellow": [
+      "kw_h2",
+      "kw_intro",
+      "word_count",
+      "paragraphs",
+      "page_skeleton",
+      "internal_count",
+      "dimensions",
+      "delivery"
+    ]
+  },
+  "/guides/pleco-care-guide/": {
+    "score": 79.7,
+    "keyword": "Pleco Care Guide",
+    "red": [
+      "kw_h1",
+      "topic_focus",
+      "h1_count"
+    ],
+    "yellow": [
+      "desc_keyword",
+      "kw_h2",
+      "kw_intro",
+      "kw_alt",
+      "page_skeleton",
+      "internal_count",
+      "dimensions",
+      "delivery"
+    ]
+  }
+}

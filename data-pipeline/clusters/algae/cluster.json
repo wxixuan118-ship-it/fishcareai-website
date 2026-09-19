@@ -1,0 +1,584 @@
+{
+ "subject": "Algae Control",
+ "subject_slug": "algae",
+ "type": "equipment",
+ "emoji": "🌿",
+ "base": "/guides/algae-eater-fish/",
+ "cluster_label": "Algae Control",
+ "hero_img": "/assets/encyclopedia/real/algae-eater-fish-wikimedia-real.jpg",
+ "hero_img_size": [
+  1600,
+  1200
+ ],
+ "hero_alt": "Otocinclus catfish, a small algae eater fish, grazing green algae from aquarium glass",
+ "date": "2026-09-19",
+ "hub_section": "cat-algae",
+ "hub_card": {
+  "blurb": "which algae eaters work · by tank size · what eats which algae",
+  "alt": "Otocinclus algae eater fish cleaning aquarium glass",
+  "name": "Algae Eater Fish"
+ },
+ "cluster_nav": [
+  [
+   "/guides/algae-eater-fish/",
+   "🐟 Algae Eater Fish",
+   "pillar"
+  ],
+  [
+   "/guides/algae-eater-fish/siamese-algae-eaters/",
+   "🦈 Siamese Algae Eaters"
+  ],
+  [
+   "/guides/how-to-get-rid-of-algae-in-fish-tank/",
+   "🧹 How to Get Rid of Algae"
+  ],
+  [
+   "/guides/black-beard-algae/",
+   "🖤 Black Beard Algae"
+  ],
+  [
+   "/guides/canister-filter/",
+   "🛢️ Canister Filter Guide"
+  ],
+  [
+   "/wiki/hair-algae/",
+   "🧵 Hair Algae"
+  ],
+  [
+   "/guides/otocinclus-care-guide/",
+   "🐠 Otocinclus Care"
+  ],
+  [
+   "/guides/bristlenose-pleco-care-guide/",
+   "🐡 Bristlenose Pleco Care"
+  ],
+  [
+   "/guides/nerite-snail-care-guide/",
+   "🐌 Nerite Snail Care"
+  ],
+  [
+   "/guides/amano-shrimp-care-guide/",
+   "🦐 Amano Shrimp Care"
+  ],
+  [
+   "/tools/aquarium-equipment-calculator/",
+   "🧮 Equipment Calculator"
+  ]
+ ],
+ "tool_links": [
+  [
+   "/tools/aquarium-equipment-calculator/",
+   "Equipment Calculator"
+  ],
+  [
+   "/tools/water-parameter-checker/",
+   "Water Parameter Checker"
+  ],
+  [
+   "/tools/fish-tank-stocking-calculator/",
+   "Stocking Calculator"
+  ]
+ ],
+ "pages": [
+  {
+   "slug": "",
+   "kind": "article",
+   "keyword": "algae eater fish",
+   "secondary": [
+    "what eats algae",
+    "algae eaters",
+    "fish that clean tanks",
+    "aquarium algae eaters",
+    "algae eating aquarium fish",
+    "freshwater algae eaters",
+    "best algae eaters"
+   ],
+   "title": "Algae Eater Fish: Best Algae Eaters for Freshwater Tanks",
+   "meta_desc": "Algae eater fish compared by tank size and algae type: otocinclus, siamese algae eater, bristlenose pleco, nerite snail and amano shrimp, plus the two to avoid.",
+   "h1": "Algae Eater Fish: The Best Algae Eaters for Every Tank Size",
+   "hero_tag": "Algae Eaters",
+   "hero_meta": "🐟 12 species compared &nbsp;|&nbsp; 🗃️ 5 to 75 gallons &nbsp;|&nbsp; 🌿 green film · diatoms · hair · black beard",
+   "toc": [
+    [
+     "what-eats-algae",
+     "What Eats Algae"
+    ],
+    [
+     "by-tank-size",
+     "Algae Eaters by Tank Size"
+    ],
+    [
+     "best",
+     "Best Algae Eaters Compared"
+    ],
+    [
+     "by-algae-type",
+     "Which Fish Eats Which Algae"
+    ],
+    [
+     "avoid",
+     "Algae Eaters to Avoid"
+    ],
+    [
+     "feeding",
+     "Feeding Algae Eaters"
+    ],
+    [
+     "mistakes",
+     "Common Mistakes"
+    ]
+   ],
+   "body_file": "pages/index.html",
+   "faqs": [
+    [
+     "What eats algae in a fish tank?",
+     "In freshwater, the reliable algae eaters are otocinclus catfish, siamese algae eaters, bristlenose plecos, nerite snails, amano shrimp and, for hair algae, American-flag fish and mollies. Each eats a different type of algae, so match the animal to the algae you have."
+    ],
+    [
+     "What is the best algae eater for a small tank?",
+     "For 5 to 10 gallons, two nerite snails or four amano shrimp. For 10 to 20 gallons, a group of six otocinclus. All three stay under 2 inches and eat the green film and diatoms small tanks get."
+    ],
+    [
+     "Which fish clean tanks the best?",
+     "No fish cleans a tank; algae eaters graze algae, not waste. The best grazers per gallon are otocinclus (diatoms and soft green film), siamese algae eaters (black beard and hair algae) and bristlenose plecos (green film on glass and wood). You still do the water changes."
+    ],
+    [
+     "Do algae eater fish need extra food?",
+     "Yes. Once the algae is gone they starve without algae wafers, blanched zucchini or repashy gel two to three times a week. Most algae eaters that die in their first month die of hunger."
+    ],
+    [
+     "Are chinese algae eaters good algae eaters?",
+     "No. They graze algae as juveniles, stop by 4 inches, grow to 10 or 11 inches and start rasping the slime coat off slow tank mates. A siamese algae eater is the fish people mean to buy."
+    ],
+    [
+     "How many algae eaters do I need?",
+     "One bristlenose pleco per 20 to 30 gallons, six or more otocinclus per 10 to 20 gallons, three or more siamese algae eaters per 30 gallons, and one nerite snail per 5 gallons. More than that and they run out of algae within weeks."
+    ],
+    [
+     "Will algae eaters get rid of black beard algae?",
+     "Only true siamese algae eaters and amano shrimp eat black beard algae, and only young, hungry ones. Fix the CO2 and flow problem behind it or it comes straight back; see the black beard algae guide."
+    ]
+   ],
+   "related": [
+    [
+     "/guides/algae-eater-fish/siamese-algae-eaters/",
+     "Siamese Algae Eaters vs Chinese Algae Eater"
+    ],
+    [
+     "/guides/how-to-get-rid-of-algae-in-fish-tank/",
+     "How to Get Rid of Algae in a Fish Tank"
+    ],
+    [
+     "/guides/black-beard-algae/",
+     "Black Beard Algae Guide"
+    ],
+    [
+     "/guides/otocinclus-care-guide/",
+     "Otocinclus Care Guide"
+    ],
+    [
+     "/guides/nerite-snail-care-guide/",
+     "Nerite Snail Care Guide"
+    ],
+    [
+     "/tools/fish-tank-stocking-calculator/",
+     "Fish Tank Stocking Calculator"
+    ]
+   ],
+   "faq_heading": "Algae Eater Fish FAQ",
+   "related_heading": "Related Algae Eater Guides and Tools"
+  },
+  {
+   "slug": "siamese-algae-eaters",
+   "kind": "article",
+   "keyword": "siamese algae eaters",
+   "secondary": [
+    "sae algae eater",
+    "chinese algae eater fish",
+    "siamese algae eater"
+   ],
+   "title": "Siamese Algae Eaters: True SAE vs Chinese Algae Eater",
+   "meta_desc": "Siamese algae eaters explained: how to tell a true SAE from the flying fox and chinese algae eater fish, what they eat, tank size and why they stop grazing.",
+   "h1": "Siamese Algae Eaters: How to Spot a True SAE and Avoid the Look-Alikes",
+   "hero_tag": "Siamese Algae Eater",
+   "hero_meta": "📏 6 in adult &nbsp;|&nbsp; 🗃️ 30 gal for 3+ &nbsp;|&nbsp; 🌡 75–79°F &nbsp;|&nbsp; ⏳ 8–10 years",
+   "toc": [
+    [
+     "identify",
+     "Identify a True SAE"
+    ],
+    [
+     "lookalikes",
+     "SAE vs Flying Fox vs False SAE"
+    ],
+    [
+     "chinese",
+     "Siamese vs Chinese Algae Eater"
+    ],
+    [
+     "what-they-eat",
+     "What They Eat"
+    ],
+    [
+     "care",
+     "Tank Size and Care"
+    ],
+    [
+     "stop-eating",
+     "Why They Stop Eating Algae"
+    ]
+   ],
+   "body_file": "pages/siamese-algae-eaters.html",
+   "faqs": [
+    [
+     "How do I know if my siamese algae eater is real?",
+     "Look at the black stripe: on a true SAE it runs through the tail fin to the fork and has a ragged zig-zag edge. On a flying fox or false SAE it stops at the base of the tail and the fins carry color. A true SAE also has clear fins and a single pair of barbels."
+    ],
+    [
+     "What is an SAE algae eater?",
+     "SAE is the hobby abbreviation for siamese algae eater, Crossocheilus oblongus (sold as C. siamensis), a 6-inch cyprinid from Thailand and Malaysia and the only common aquarium fish that eats black beard algae."
+    ],
+    [
+     "Is a chinese algae eater fish the same as a siamese algae eater?",
+     "No. The chinese algae eater (Gyrinocheilus aymonieri) is a different family with a sucker mouth, grows to 10 or 11 inches, stops eating algae at about 4 inches and becomes aggressive. Siamese algae eaters stay at 6 inches and keep grazing."
+    ],
+    [
+     "How many siamese algae eaters should I keep?",
+     "Three or more in a 30-gallon tank, five or six in 55 gallons. A single SAE is fine but nervous; in a group they spread the grazing and a dominant fish has company to chase instead of other species."
+    ],
+    [
+     "Do siamese algae eaters eat black beard algae?",
+     "Yes, young SAE under 3 inches graze black beard algae and staghorn readily. Adults that are fed flakes and wafers lose interest, so feed the tank lightly for a week when you want them to work."
+    ],
+    [
+     "Are siamese algae eaters aggressive?",
+     "Rarely. They are active and chase each other in a group, and a large adult may hog a feeding spot, but they do not nip fins or harm shrimp. The aggressive one in the shop tank is usually a flying fox or a chinese algae eater."
+    ]
+   ],
+   "related": [
+    [
+     "/guides/algae-eater-fish/",
+     "Algae Eater Fish Guide"
+    ],
+    [
+     "/guides/black-beard-algae/",
+     "Black Beard Algae Guide"
+    ],
+    [
+     "/guides/how-to-get-rid-of-algae-in-fish-tank/",
+     "How to Get Rid of Algae in a Fish Tank"
+    ],
+    [
+     "/species/siamese-algae-eater",
+     "Siamese Algae Eater Species Profile"
+    ],
+    [
+     "/species/chinese-algae-eater",
+     "Chinese Algae Eater Species Profile"
+    ],
+    [
+     "/tools/fish-compatibility-checker/",
+     "Fish Compatibility Checker"
+    ]
+   ],
+   "faq_heading": "Siamese Algae Eaters FAQ",
+   "related_heading": "Related Algae Eater Guides and Tools"
+  },
+  {
+   "slug": "how-to-get-rid-of-algae",
+   "url": "/guides/how-to-get-rid-of-algae-in-fish-tank/",
+   "kind": "article",
+   "keyword": "how to get rid of algae in fish tank",
+   "secondary": [
+    "aquarium algae control",
+    "aquarium algae control drops",
+    "tank algae control",
+    "remove algae in fish tank"
+   ],
+   "title": "How to Get Rid of Algae in Fish Tank: 7 Steps That Work",
+   "meta_desc": "How to get rid of algae in fish tank glass, gravel and plants in 7 steps: light, nutrients, water changes, scrubbing, flow, algae eaters and safe drops.",
+   "h1": "How to Get Rid of Algae in Fish Tank: A 7-Step Plan",
+   "hero_tag": "Algae Control",
+   "hero_meta": "💡 6–8 h light &nbsp;|&nbsp; 🧪 nitrate <20 ppm &nbsp;|&nbsp; 💧 25–30% weekly &nbsp;|&nbsp; ⏳ 3–4 weeks to clear",
+   "toc": [
+    [
+     "why",
+     "Why Algae Grows in a Fish Tank"
+    ],
+    [
+     "steps",
+     "The 7 Steps"
+    ],
+    [
+     "by-type",
+     "Tank Algae Control by Algae Type"
+    ],
+    [
+     "drops",
+     "Aquarium Algae Control Drops"
+    ],
+    [
+     "prevent",
+     "Keeping Algae Out of the Fish Tank"
+    ]
+   ],
+   "body_file": "pages/how-to-get-rid-of-algae.html",
+   "faqs": [
+    [
+     "What is the fastest way to get rid of algae in a fish tank?",
+     "Cut the light to 6 hours, do a 30% water change, scrub the glass and siphon the gravel, then repeat the water change every 3 days for two weeks. Most green film and diatom outbreaks clear in 10 to 14 days; black beard algae takes 3 to 4 weeks."
+    ],
+    [
+     "Are aquarium algae control drops safe for fish?",
+     "Most algaecides are safe for fish at the label dose but not for shrimp, snails or many plants, and the dying algae can crash oxygen overnight. Use them only after fixing light and nutrients, at half dose, with an airstone running."
+    ],
+    [
+     "How do I remove algae from fish tank glass?",
+     "Use an algae scraper or a magnet cleaner for glass, a razor blade for green spot algae, and an old credit card for acrylic. Do it right before a water change so the loose algae is siphoned out."
+    ],
+    [
+     "Why does algae keep coming back in my fish tank?",
+     "Because the cause is still there: too many hours of light, a window, overfeeding, nitrate over 20 ppm or a filter that has slowed down. Algae eaters and drops remove algae; only fixing the cause stops it."
+    ],
+    [
+     "Does a water change get rid of algae?",
+     "Partly. Water changes remove the nitrate and phosphate that feed algae and remove spores you have scrubbed loose, but they do not kill attached algae. Pair them with a light cut and scrubbing."
+    ],
+    [
+     "Will a blackout kill algae in a fish tank?",
+     "A 3-day blackout with the tank covered and no feeding kills green water and blue-green algae and weakens hair algae. It does little to black beard algae and stresses plants, so use it once, not routinely."
+    ]
+   ],
+   "related": [
+    [
+     "/guides/algae-eater-fish/",
+     "Algae Eater Fish Guide"
+    ],
+    [
+     "/guides/black-beard-algae/",
+     "Black Beard Algae Guide"
+    ],
+    [
+     "/wiki/hair-algae/",
+     "Hair Algae Guide"
+    ],
+    [
+     "/guides/algae-eater-fish/siamese-algae-eaters/",
+     "Siamese Algae Eaters"
+    ],
+    [
+     "/guides/aquarium-water-parameters/",
+     "Aquarium Water Parameters"
+    ],
+    [
+     "/tools/water-parameter-checker/",
+     "Water Parameter Checker"
+    ]
+   ],
+   "faq_heading": "Fish Tank Algae Removal FAQ",
+   "related_heading": "Related Algae Control Guides and Tools"
+  },
+  {
+   "slug": "black-beard-algae",
+   "url": "/guides/black-beard-algae/",
+   "kind": "article",
+   "keyword": "black beard algae",
+   "secondary": [
+    "black brush algae",
+    "black algae in fish tank",
+    "brown algae in fish tank",
+    "brown algae aquarium",
+    "green blue algae in aquarium",
+    "hairline algae",
+    "macro algae"
+   ],
+   "title": "Black Beard Algae: How to Identify and Kill BBA",
+   "meta_desc": "Black beard algae identified and treated: what causes BBA, how to kill it with hydrogen peroxide and siamese algae eaters, and how it differs from brown algae.",
+   "h1": "Black Beard Algae: Identify, Kill and Prevent BBA",
+   "hero_tag": "Black Beard Algae",
+   "hero_meta": "🔬 red algae (Audouinella) &nbsp;|&nbsp; ⚠ unstable CO2 + low flow &nbsp;|&nbsp; 🧪 3% H2O2 spot dose &nbsp;|&nbsp; ⏳ 2–4 weeks",
+   "toc": [
+    [
+     "identify",
+     "What It Looks Like"
+    ],
+    [
+     "causes",
+     "Causes"
+    ],
+    [
+     "kill",
+     "How to Kill It"
+    ],
+    [
+     "eaters",
+     "What Eats It"
+    ],
+    [
+     "other-types",
+     "vs Brown, Blue-Green and Hair Algae"
+    ],
+    [
+     "prevent",
+     "Prevention"
+    ]
+   ],
+   "body_file": "pages/black-beard-algae.html",
+   "faqs": [
+    [
+     "What causes black beard algae in a fish tank?",
+     "Fluctuating CO2 is the main trigger, in planted tanks with an unstable CO2 supply and in unplanted tanks after big pH swings, combined with low flow and organic waste. Old light bulbs and dirty filters make it worse."
+    ],
+    [
+     "How do I get rid of black beard algae fast?",
+     "Turn off the filter, spot-treat the tufts with 3% hydrogen peroxide from a syringe (1 ml per gallon of tank volume per day), wait 10 minutes, restart the filter. BBA turns red then white in 2 to 4 days. Repeat every other day for a week and fix flow and CO2."
+    ],
+    [
+     "What fish eats black beard algae?",
+     "True siamese algae eaters, amano shrimp and, less reliably, florida flag fish and young bristlenose plecos. Adult fish fed well ignore it, so feed lightly while they work."
+    ],
+    [
+     "Is black beard algae harmful to fish?",
+     "No. It is ugly and it smothers slow-growing plant leaves, but it does not hurt fish or shrimp. The hydrogen peroxide and liquid carbon used to kill it can, so dose carefully."
+    ],
+    [
+     "Is black beard algae the same as black brush algae?",
+     "Yes, black brush algae, BBA and beard algae are the same red alga (Audouinella). Staghorn algae is a related red alga that grows in branching grey strands rather than tufts."
+    ],
+    [
+     "Why is there brown algae in my fish tank?",
+     "Brown algae in a new fish tank is diatoms feeding on silicates in fresh substrate and tap water. It wipes off with a finger and usually disappears on its own after 2 to 3 months; otocinclus and nerite snails eat it."
+    ],
+    [
+     "What is the green blue algae in my aquarium?",
+     "Blue-green algae is cyanobacteria, not a true alga: slimy sheets that peel off in one piece and smell earthy. It grows when nitrate hits zero in a dirty tank. Siphon it out, do a 3-day blackout and dose nitrate to 10 ppm."
+    ]
+   ],
+   "related": [
+    [
+     "/guides/how-to-get-rid-of-algae-in-fish-tank/",
+     "How to Get Rid of Algae in a Fish Tank"
+    ],
+    [
+     "/guides/algae-eater-fish/siamese-algae-eaters/",
+     "Siamese Algae Eaters"
+    ],
+    [
+     "/guides/algae-eater-fish/",
+     "Algae Eater Fish Guide"
+    ],
+    [
+     "/wiki/hair-algae/",
+     "Hair Algae Guide"
+    ],
+    [
+     "/guides/amano-shrimp-care-guide/",
+     "Amano Shrimp Care Guide"
+    ],
+    [
+     "/guides/aquarium-plant-care/",
+     "Aquarium Plant Care"
+    ]
+   ],
+   "faq_heading": "Black Beard Algae FAQ",
+   "related_heading": "Related Algae Guides and Tools"
+  },
+  {
+   "slug": "canister-filter",
+   "url": "/guides/canister-filter/",
+   "kind": "article",
+   "keyword": "filtration canister",
+   "secondary": [
+    "tank canister filter",
+    "what type of fish tanks do aquariums use",
+    "canister filter"
+   ],
+   "title": "Filtration Canister Guide: Choosing a Tank Canister Filter",
+   "meta_desc": "Filtration canister guide: how a tank canister filter works, the flow rate per gallon, what media to load, how often to clean it and what public aquariums use.",
+   "h1": "Filtration Canister Guide: Choosing a Tank Canister Filter",
+   "hero_tag": "Canister Filter",
+   "hero_meta": "💨 4–6× tank volume per hour &nbsp;|&nbsp; 🗃️ 20 to 180 gallons &nbsp;|&nbsp; 🧽 clean every 4–8 weeks",
+   "toc": [
+    [
+     "how-it-works",
+     "How It Works"
+    ],
+    [
+     "flow",
+     "Flow Rate by Tank Size"
+    ],
+    [
+     "media",
+     "Media Order"
+    ],
+    [
+     "vs",
+     "vs Hang-On-Back and Sump"
+    ],
+    [
+     "maintenance",
+     "Cleaning"
+    ],
+    [
+     "public",
+     "What Public Aquariums Use"
+    ]
+   ],
+   "body_file": "pages/canister-filter.html",
+   "faqs": [
+    [
+     "What is a filtration canister?",
+     "An external pressurized filter that sits below the tank: water is drawn down an intake tube, pushed through trays of sponge, ceramic and chemical media inside a sealed canister and pumped back through a spray bar. It holds 5 to 10 times the media of a hang-on-back filter."
+    ],
+    [
+     "What size canister filter do I need for my tank?",
+     "Pick a rated flow of 4 to 6 times the tank volume per hour: 220 to 330 GPH for a 55 gallon, 300 to 450 GPH for a 75. Real flow with media is 30 to 50% lower than the box figure, so round up."
+    ],
+    [
+     "How often should I clean a tank canister filter?",
+     "Every 4 to 8 weeks, or when the output visibly slows. Rinse the sponges in old tank water, never tap water, replace only the floss, and leave the ceramic media alone except for a quick swish."
+    ],
+    [
+     "Is a canister filter better than a hang-on-back?",
+     "For tanks over 40 gallons, planted tanks and messy fish, yes: more media, more flow, quieter and no hardware in the tank. Under 30 gallons a hang-on-back or sponge filter does the job for a third of the price."
+    ],
+    [
+     "Can a canister filter be too strong?",
+     "Yes for bettas, fry and slow fish. Point the spray bar at the glass, add a wider outlet or turn the tap valve down a quarter. Do not throttle below half or debris settles inside the canister."
+    ],
+    [
+     "What type of fish tanks do aquariums use?",
+     "Public aquariums use acrylic tanks from a few thousand to millions of gallons with life-support systems built around sand filters, protein skimmers, ozone and UV, turning the whole volume over every one to two hours. A home filtration canister is the same idea in a bucket."
+    ]
+   ],
+   "related": [
+    [
+     "/tools/aquarium-equipment-calculator/",
+     "Aquarium Equipment Calculator"
+    ],
+    [
+     "/guides/how-to-get-rid-of-algae-in-fish-tank/",
+     "How to Get Rid of Algae in a Fish Tank"
+    ],
+    [
+     "/guides/algae-eater-fish/",
+     "Algae Eater Fish Guide"
+    ],
+    [
+     "/guides/aquarium-water-parameters/",
+     "Aquarium Water Parameters"
+    ],
+    [
+     "/guides/fish-tank-water/",
+     "Fish Tank Water Guide"
+    ],
+    [
+     "/tools/aquarium-size-calculator/",
+     "Aquarium Size Calculator"
+    ]
+   ],
+   "faq_heading": "Filtration Canister FAQ",
+   "related_heading": "Related Filtration and Algae Guides"
+  }
+ ]
+}

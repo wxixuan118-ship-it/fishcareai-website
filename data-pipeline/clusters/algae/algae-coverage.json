@@ -1,0 +1,948 @@
+{
+  "subject": "algae",
+  "type": "equipment",
+  "aliases": [
+    "algae eater",
+    "aquarium algae"
+  ],
+  "keywords": [
+    {
+      "keyword": "algae eater fish",
+      "group": "pillar",
+      "source": "user",
+      "status": "partial",
+      "url": "/aquarium-fish-diseases/chinese-algae-eater-diseases/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 215,
+      "page_title": "Chinese Algae Eater Diseases: Symptoms, Causes Guides",
+      "noindex": false
+    },
+    {
+      "keyword": "what eats algae",
+      "group": "pillar",
+      "source": "user",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "algae eaters",
+      "group": "pillar",
+      "source": "user",
+      "status": "covered",
+      "url": "/aquarium-fish-diseases/chinese-algae-eater-diseases/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 215,
+      "page_title": "Chinese Algae Eater Diseases: Symptoms, Causes Guides",
+      "noindex": false
+    },
+    {
+      "keyword": "fish that clean tanks",
+      "group": "pillar",
+      "source": "user",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "aquarium algae eaters",
+      "group": "pillar",
+      "source": "user",
+      "status": "partial",
+      "url": "/aquarium-fish-diseases/chinese-algae-eater-diseases/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 215,
+      "page_title": "Chinese Algae Eater Diseases: Symptoms, Causes Guides",
+      "noindex": false
+    },
+    {
+      "keyword": "algae eating aquarium fish",
+      "group": "pillar",
+      "source": "user",
+      "status": "partial",
+      "url": "/fish-health/chinese-algae-eater-not-eating",
+      "matched_on": "slug",
+      "where": "live-only",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "freshwater algae eaters",
+      "group": "pillar",
+      "source": "user",
+      "status": "partial",
+      "url": "/aquarium-fish-diseases/chinese-algae-eater-diseases/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 215,
+      "page_title": "Chinese Algae Eater Diseases: Symptoms, Causes Guides",
+      "noindex": false
+    },
+    {
+      "keyword": "best algae eaters",
+      "group": "pillar",
+      "source": "user",
+      "status": "partial",
+      "url": "/aquarium-fish-diseases/chinese-algae-eater-diseases/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 215,
+      "page_title": "Chinese Algae Eater Diseases: Symptoms, Causes Guides",
+      "noindex": false
+    },
+    {
+      "keyword": "siamese algae eaters",
+      "group": "siamese",
+      "source": "user",
+      "status": "covered",
+      "url": "/aquarium-fish-diseases/siamese-algae-eater-diseases/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 482,
+      "page_title": "Siamese Algae Eater Diseases: Symptoms, Causes Guides",
+      "noindex": false
+    },
+    {
+      "keyword": "sae algae eater",
+      "group": "siamese",
+      "source": "user",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "chinese algae eater fish",
+      "group": "siamese",
+      "source": "user",
+      "status": "partial",
+      "url": "/aquarium-fish-diseases/chinese-algae-eater-diseases/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 215,
+      "page_title": "Chinese Algae Eater Diseases: Symptoms, Causes Guides",
+      "noindex": false
+    },
+    {
+      "keyword": "how to get rid of algae in fish tank",
+      "group": "control",
+      "source": "user",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "aquarium algae control",
+      "group": "control",
+      "source": "user",
+      "status": "partial",
+      "url": "/wiki/bristlenose-pleco/",
+      "matched_on": "title",
+      "where": "local-only",
+      "page_words": 674,
+      "page_title": "Bristlenose Pleco Care Guide 2026: Free Species Profile & Algae Control Tips | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "aquarium algae control drops",
+      "group": "control",
+      "source": "user",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tank algae control",
+      "group": "control",
+      "source": "user",
+      "status": "partial",
+      "url": "/wiki/bristlenose-pleco/",
+      "matched_on": "title",
+      "where": "local-only",
+      "page_words": 674,
+      "page_title": "Bristlenose Pleco Care Guide 2026: Free Species Profile & Algae Control Tips | FishCare AI",
+      "noindex": false
+    },
+    {
+      "keyword": "remove algae in fish tank",
+      "group": "control",
+      "source": "user",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "black beard algae",
+      "group": "types",
+      "source": "user",
+      "status": "covered",
+      "url": "/wiki/black-beard-algae/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 176,
+      "page_title": "Black Beard Algae Aquarium Guide 2026 | FishCare AI",
+      "noindex": true
+    },
+    {
+      "keyword": "black brush algae",
+      "group": "types",
+      "source": "user",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "black algae in fish tank",
+      "group": "types",
+      "source": "user",
+      "status": "partial",
+      "url": "/wiki/black-beard-algae/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 176,
+      "page_title": "Black Beard Algae Aquarium Guide 2026 | FishCare AI",
+      "noindex": true
+    },
+    {
+      "keyword": "brown algae in fish tank",
+      "group": "types",
+      "source": "user",
+      "status": "partial",
+      "url": "/wiki/brown-algae/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 184,
+      "page_title": "Brown Algae / Diatoms Aquarium Guide 2026 | FishCare AI",
+      "noindex": true
+    },
+    {
+      "keyword": "brown algae aquarium",
+      "group": "types",
+      "source": "user",
+      "status": "partial",
+      "url": "/wiki/brown-algae/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 184,
+      "page_title": "Brown Algae / Diatoms Aquarium Guide 2026 | FishCare AI",
+      "noindex": true
+    },
+    {
+      "keyword": "green blue algae in aquarium",
+      "group": "types",
+      "source": "user",
+      "status": "partial",
+      "url": "/wiki/blue-green-algae/",
+      "matched_on": "slug",
+      "where": "local-only",
+      "page_words": 160,
+      "page_title": "Blue-Green Algae Aquarium Guide 2026 | FishCare AI",
+      "noindex": true
+    },
+    {
+      "keyword": "hairline algae",
+      "group": "types",
+      "source": "user",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "macro algae",
+      "group": "types",
+      "source": "user",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "filtration canister",
+      "group": "canister",
+      "source": "user",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "tank canister filter",
+      "group": "canister",
+      "source": "user",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    },
+    {
+      "keyword": "what type of fish tanks do aquariums use",
+      "group": "canister",
+      "source": "user",
+      "status": "new",
+      "url": "",
+      "matched_on": "",
+      "where": "",
+      "page_words": null,
+      "page_title": "",
+      "noindex": false
+    }
+  ],
+  "subject_pages": [
+    {
+      "path": "/aquarium-fish-diseases/chinese-algae-eater-diseases/",
+      "title": "Chinese Algae Eater Diseases: Symptoms, Causes Guides",
+      "desc": "Browse 3 indexed Chinese Algae Eater symptom and disease guides. Compare signs, possible causes and next checks.",
+      "h1": "Chinese Algae Eater Diseases: Symptoms, Causes Guides",
+      "canonical": "https://www.fishcareai.com/aquarium-fish-diseases/chinese-algae-eater-diseases/",
+      "words": 215,
+      "noindex": false,
+      "where": "local-only"
+    },
+    {
+      "path": "/aquarium-fish-diseases/siamese-algae-eater-diseases/",
+      "title": "Siamese Algae Eater Diseases: Symptoms, Causes Guides",
+      "desc": "Browse 28 indexed Siamese Algae Eater symptom and disease guides. Compare signs, possible causes and next checks.",
+      "h1": "Siamese Algae Eater Diseases: Symptoms, Causes Guides",
+      "canonical": "https://www.fishcareai.com/aquarium-fish-diseases/siamese-algae-eater-diseases/",
+      "words": 482,
+      "noindex": false,
+      "where": "local-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-aggressive",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-black-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-bloated",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-bulging-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-clamped-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-cloudy-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-coughing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-curled-body",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-darting",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-fin-rot",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-floating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-fuzzy-growth",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-gasping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-hiding",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-jumping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-lethargic",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-losing-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-missing-scales",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-mucus-coating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-not-eating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-pale-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-rapid-breathing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-red-streaks",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-rubbing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-sinking",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-spots-on-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-sunken-belly",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-swimming-sideways",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-torn-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/chinese-algae-eater-white-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/fish/chinese-algae-eater",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/fish/siamese-algae-eater",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-aggressive",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-black-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-bloated",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-bulging-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-clamped-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-cloudy-eyes",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-coughing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-curled-body",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-darting",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-fin-rot",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-floating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-fuzzy-growth",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-gasping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-hiding",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-jumping",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-lethargic",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-losing-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-missing-scales",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-mucus-coating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-not-eating",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-pale-color",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-rapid-breathing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-red-streaks",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-rubbing",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-sinking",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-spots-on-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-sunken-belly",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-swimming-sideways",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-torn-fins",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/fish-health/siamese-algae-eater-white-spots",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/species/chinese-algae-eater",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/species/siamese-algae-eater",
+      "title": "",
+      "h1": "",
+      "words": null,
+      "noindex": false,
+      "where": "live-only"
+    },
+    {
+      "path": "/wiki/",
+      "title": "Aquarium Encyclopedia 2026: Fish, Algae, Shrimp, Snails & Tank Decor | FishCare AI",
+      "desc": "Explore 89 aquarium profiles covering fish, algae, amphibians, shrimp, snails, freshwater plants, saltwater live rock, substrate, and tank decoration tips.",
+      "h1": "Explore the World of Aquariums",
+      "canonical": "https://www.fishcareai.com/species/",
+      "words": 1162,
+      "noindex": false,
+      "where": "local-only"
+    },
+    {
+      "path": "/wiki/black-beard-algae/",
+      "title": "Black Beard Algae Aquarium Guide 2026 | FishCare AI",
+      "desc": "Black Beard Algae aquarium guide: quick facts, setup notes, care risks, and practical maintenance tips for FishCare AI readers.",
+      "h1": "Black Beard Algae",
+      "canonical": "https://www.fishcareai.com/wiki/black-beard-algae/",
+      "words": 176,
+      "noindex": true,
+      "where": "local-only"
+    },
+    {
+      "path": "/wiki/blue-green-algae/",
+      "title": "Blue-Green Algae Aquarium Guide 2026 | FishCare AI",
+      "desc": "Blue-Green Algae aquarium guide: quick facts, setup notes, care risks, and practical maintenance tips for FishCare AI readers.",
+      "h1": "Blue-Green Algae",
+      "canonical": "https://www.fishcareai.com/wiki/blue-green-algae/",
+      "words": 160,
+      "noindex": true,
+      "where": "local-only"
+    },
+    {
+      "path": "/wiki/bristlenose-pleco/",
+      "title": "Bristlenose Pleco Care Guide 2026: Free Species Profile & Algae Control Tips | FishCare AI",
+      "desc": "Free 2026 Bristlenose Pleco care guide: algae control, tank setup, diet, breeding caves, and care for Ancistrus spp. — the best beginner pleco.",
+      "h1": "Bristlenose Pleco Care Guide 2026",
+      "canonical": "https://www.fishcareai.com/wiki/bristlenose-pleco/",
+      "words": 674,
+      "noindex": false,
+      "where": "local-only"
+    },
+    {
+      "path": "/wiki/brown-algae/",
+      "title": "Brown Algae / Diatoms Aquarium Guide 2026 | FishCare AI",
+      "desc": "Brown Algae / Diatoms aquarium guide: quick facts, setup notes, care risks, and practical maintenance tips for FishCare AI readers.",
+      "h1": "Brown Algae / Diatoms",
+      "canonical": "https://www.fishcareai.com/wiki/brown-algae/",
+      "words": 184,
+      "noindex": true,
+      "where": "local-only"
+    },
+    {
+      "path": "/wiki/green-water-algae/",
+      "title": "Green Water Algae Aquarium Guide 2026 | FishCare AI",
+      "desc": "Green Water Algae aquarium guide: quick facts, setup notes, care risks, and practical maintenance tips for FishCare AI readers.",
+      "h1": "Green Water Algae",
+      "canonical": "https://www.fishcareai.com/wiki/green-water-algae/",
+      "words": 162,
+      "noindex": true,
+      "where": "local-only"
+    },
+    {
+      "path": "/wiki/hair-algae/",
+      "title": "Hair Algae in Aquariums: Causes, Removal & Prevention",
+      "desc": "Identify and remove hair algae in freshwater planted and reef aquariums. Diagnose light, CO2, flow and nutrient causes with a practical recovery plan.",
+      "h1": "Hair Algae in Aquariums",
+      "canonical": "https://www.fishcareai.com/wiki/hair-algae/",
+      "words": 1537,
+      "noindex": false,
+      "where": "local+live"
+    },
+    {
+      "path": "/wiki/otocinclus/",
+      "title": "Otocinclus Catfish Care Guide 2026: Free Species Profile, Algae Diet Tank Setup | FishCare AI",
+      "desc": "Free 2026 Otocinclus care guide covering the algae-based diet, group size, planted-tank setup, water parameters, and health for Otocinclus vittatus.",
+      "h1": "Otocinclus Catfish Care Guide: Diet, Tank Setup Groups",
+      "canonical": "https://www.fishcareai.com/wiki/otocinclus/",
+      "words": 853,
+      "noindex": false,
+      "where": "local-only"
+    }
+  ]
+}

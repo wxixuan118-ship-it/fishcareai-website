@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Black beard algae and the other algae in a fish tank: how to tell them apart</title>
+<desc id="d">Black beard algae identification chart: BBA is black to dark red tufts on leaf edges and wood from unstable CO2; staghorn or black brush algae is grey branching strands; brown algae is a dusty diatom film in new tanks; blue-green algae is slimy sheets of cyanobacteria; hair algae is green threads; green spot algae is hard dots; macro algae is leafy marine algae grown on purpose</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient><linearGradient id="ok" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2bd4c4"/><stop offset="1" stop-color="#27ae60"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="22" font-weight="800" fill="#ffffff">Black beard algae and the other algae in a fish tank: how to tell them apart</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">Colour, texture and where it grows identify the algae; the cause tells you the fix.</text>
+<rect x="48" y="150" width="1104" height="48" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="181" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="700" fill="#ffffff">Black beard algae (BBA)</text>
+<rect x="333" y="164" width="320" height="20" rx="9" fill="url(#ok)"/>
+<text x="349" y="181" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#03222f">black to dark red tufts, 0.2–0.5 in</text>
+<text x="678" y="181" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="13" fill="#b8d3e2">leaf edges, wood, filter outlet · unstable CO2, low flow</text>
+<rect x="48" y="208" width="1104" height="48" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="239" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="700" fill="#ffffff">Staghorn / black brush algae</text>
+<rect x="333" y="222" width="320" height="20" rx="9" fill="url(#ok)"/>
+<text x="349" y="239" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#03222f">grey-black branching strands</text>
+<text x="678" y="239" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="13" fill="#b8d3e2">leaf tips · ammonia spikes, dirty filter</text>
+<rect x="48" y="266" width="1104" height="48" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="297" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="700" fill="#ffffff">Brown algae (diatoms)</text>
+<rect x="333" y="280" width="320" height="20" rx="9" fill="url(#ok)"/>
+<text x="349" y="297" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#03222f">dusty brown film, wipes off</text>
+<text x="678" y="297" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="13" fill="#b8d3e2">new tanks under 3 months · silicates, low light</text>
+<rect x="48" y="324" width="1104" height="48" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="355" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="700" fill="#ffffff">Blue-green algae</text>
+<rect x="333" y="338" width="320" height="20" rx="9" fill="url(#ok)"/>
+<text x="349" y="355" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#03222f">slimy blue-green sheets, smells</text>
+<text x="678" y="355" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="13" fill="#b8d3e2">substrate, glass line · cyanobacteria, low nitrate</text>
+<rect x="48" y="382" width="1104" height="48" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="413" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="700" fill="#ffffff">Hair algae</text>
+<rect x="333" y="396" width="320" height="20" rx="9" fill="url(#ok)"/>
+<text x="349" y="413" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#03222f">green threads, 1–3 in</text>
+<text x="678" y="413" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="13" fill="#b8d3e2">plants, wood · excess light and nutrients</text>
+<rect x="48" y="440" width="1104" height="48" rx="12" fill="rgba(255,255,255,.06)"/>
+<text x="72" y="471" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="700" fill="#ffffff">Green spot algae</text>
+<rect x="333" y="454" width="320" height="20" rx="9" fill="url(#ok)"/>
+<text x="349" y="471" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#03222f">hard green dots</text>
+<text x="678" y="471" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="13" fill="#b8d3e2">glass, anubias · low phosphate, high light</text>
+<rect x="48" y="498" width="1104" height="48" rx="12" fill="rgba(255,255,255,.1)"/>
+<text x="72" y="529" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="700" fill="#ffffff">Macro algae</text>
+<rect x="333" y="512" width="320" height="20" rx="9" fill="url(#ok)"/>
+<text x="349" y="529" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#03222f">leafy marine algae</text>
+<text x="678" y="529" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="13" fill="#b8d3e2">saltwater only · grown on purpose in refugiums</text>
+<text x="48" y="600" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#8aaec2">BBA and staghorn are red algae (Rhodophyta) despite the colour, which is why they bleach red under hydrogen peroxide.</text>
+<text x="1152" y="618" text-anchor="end" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="14" fill="#5f8aa3">fishcareai.com</text>
+</svg>

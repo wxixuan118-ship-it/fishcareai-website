@@ -1,0 +1,147 @@
+{
+ "subject": "algae",
+ "type": "equipment",
+ "aliases": [
+  "algae eater",
+  "aquarium algae"
+ ],
+ "keywords": [
+  {
+   "keyword": "algae eater fish",
+   "group": "pillar",
+   "source": "user"
+  },
+  {
+   "keyword": "what eats algae",
+   "group": "pillar",
+   "source": "user"
+  },
+  {
+   "keyword": "algae eaters",
+   "group": "pillar",
+   "source": "user"
+  },
+  {
+   "keyword": "fish that clean tanks",
+   "group": "pillar",
+   "source": "user"
+  },
+  {
+   "keyword": "aquarium algae eaters",
+   "group": "pillar",
+   "source": "user"
+  },
+  {
+   "keyword": "algae eating aquarium fish",
+   "group": "pillar",
+   "source": "user"
+  },
+  {
+   "keyword": "freshwater algae eaters",
+   "group": "pillar",
+   "source": "user"
+  },
+  {
+   "keyword": "best algae eaters",
+   "group": "pillar",
+   "source": "user"
+  },
+  {
+   "keyword": "siamese algae eaters",
+   "group": "siamese",
+   "source": "user"
+  },
+  {
+   "keyword": "sae algae eater",
+   "group": "siamese",
+   "source": "user"
+  },
+  {
+   "keyword": "chinese algae eater fish",
+   "group": "siamese",
+   "source": "user"
+  },
+  {
+   "keyword": "how to get rid of algae in fish tank",
+   "group": "control",
+   "source": "user"
+  },
+  {
+   "keyword": "aquarium algae control",
+   "group": "control",
+   "source": "user"
+  },
+  {
+   "keyword": "aquarium algae control drops",
+   "group": "control",
+   "source": "user"
+  },
+  {
+   "keyword": "tank algae control",
+   "group": "control",
+   "source": "user"
+  },
+  {
+   "keyword": "remove algae in fish tank",
+   "group": "control",
+   "source": "user"
+  },
+  {
+   "keyword": "black beard algae",
+   "group": "types",
+   "source": "user"
+  },
+  {
+   "keyword": "black brush algae",
+   "group": "types",
+   "source": "user"
+  },
+  {
+   "keyword": "black algae in fish tank",
+   "group": "types",
+   "source": "user"
+  },
+  {
+   "keyword": "brown algae in fish tank",
+   "group": "types",
+   "source": "user"
+  },
+  {
+   "keyword": "brown algae aquarium",
+   "group": "types",
+   "source": "user"
+  },
+  {
+   "keyword": "green blue algae in aquarium",
+   "group": "types",
+   "source": "user"
+  },
+  {
+   "keyword": "hairline algae",
+   "group": "types",
+   "source": "user"
+  },
+  {
+   "keyword": "macro algae",
+   "group": "types",
+   "source": "user"
+  },
+  {
+   "keyword": "filtration canister",
+   "group": "canister",
+   "source": "user"
+  },
+  {
+   "keyword": "tank canister filter",
+   "group": "canister",
+   "source": "user"
+  },
+  {
+   "keyword": "what type of fish tanks do aquariums use",
+   "group": "canister",
+   "source": "user"
+  }
+ ],
+ "dropped": [],
+ "offtopic": []
+}
