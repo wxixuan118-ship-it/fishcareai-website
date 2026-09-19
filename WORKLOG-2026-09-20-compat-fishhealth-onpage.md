@@ -45,11 +45,11 @@ corydoras-and-oscar 69.3, angelfish-and-goldfish 77.5) and the boilerplate-densi
 Not fixed (content, not template): ~480-word bodies with the Overview paragraph duplicated verbatim
 into FAQ answer 1; "Caution Points" showing "✅ No major issues" as filler; no outbound sources.
 
-## 3. Fish-health fixes (species-app repo, branch `seo/title-and-heading-fixes`, NOT deployed)
+## 3. Fish-health fixes (species-app repo, merged to main and deployed 2026-09-20 01:45)
 
-Commits `3172999` (template) and `d352826` (ISR) on top of the unmerged `3972b30`. Verified with
-`tsc` and `next build` (no DATABASE_URL); rendered with stubbed data → 87–89 on the audit
-(real 650-word bodies should land ~90).
+Commits `3172999` (template), `d352826` + `b752f76` (ISR — the first attempt still rendered per
+request; Next 14 needs a `generateStaticParams`, even an empty one, before `revalidate` applies),
+`e342c16`/`79bb8cd` (species rename migration) on top of `3972b30`.
 
 - `lib/fish-health-meta.ts`: subject = species name + problem *slug* phrase ("Neon Tetra Hiding
   Constantly", "Guppy Torn Fins", "Oscar White Spots (Ich)"); title/H1/description/alt/breadcrumb
@@ -59,7 +59,17 @@ Commits `3172999` (template) and `d352826` (ISR) on top of the unmerged `3972b30
 - `/fish-health/fish/<species>`: H2 + intro paragraph.
 - `revalidate = 3600` replaces `force-dynamic` on both routes (nothing prerenders at build).
 
-Follow-ups outside the template: species `common_name` in the DB splits the slug phrase for
-`platy` (Southern Platyfish), `weather-fish` (Dojo Loach), `otocinclus` (Otocinclus Catfish),
-`rainbow-fish` (Rainbowfish), `betta-imbellis` (Crescent Betta) — those pages score 58–62 and
-will stay there until the name or slug changes.
+Data: `supabase/migrations/002_species_common_names_match_slug.sql` renamed nine species whose
+`common_name` added words after the slug phrase (Southern Platyfish → Platy, Dojo Loach → Weather
+Fish, Otocinclus Catfish → Otocinclus, Rainbowfish → Rainbow Fish, Crescent Betta → Betta Imbellis,
+Emerald Betta → Betta Smaragdina, Coral Beauty Angelfish → Coral Beauty, Snowflake Moray Eel →
+Snowflake Moray, Archerfish → Archer Fish) and rewrote the old name inside species metadata and
+health-page copy. Run in the Supabase SQL editor, then `POST /api/migrate` on the species-app origin
+to sync the app DB (www nginx does not proxy `/api/`).
+
+Re-audit of the same 459 live pages after deploy: symptom pages **72.5 → 92.0** (385/456 in the
+90s; renamed species now 90–94), species hubs **71.3 → 80.5**. Remaining sub-70 pages are
+apostrophe/spelling species (Endler's Livebearer, Sterba's Cory, Colombian Tetra) — left alone, the
+name is right and search engines normalise those. Two audit artefacts remain on every page: the six
+in-page TOC anchors are counted as placeholder hrefs (their ids exist), and TTFB stays ~1.1–1.5 s
+until `b752f76` is deployed.
