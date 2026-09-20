@@ -864,6 +864,84 @@ let compatResults = [];
 let tankCalcVals = {};
 let feedingVals = {};
 let plannerVals = {};
+let plannerRestored = false;
+const PLANNER_DEFAULTS = {type:'freshwater',level:'beginner',goal:'community',volume:20};
+const PLANNER_OPTS = {type:['freshwater','saltwater','shrimp','goldfish'],level:['beginner','intermediate','advanced'],goal:['community','show','breeding','low-maintenance']};
+const PLANNER_STORE_KEY = 'fishcare_planner_saved';
+
+// Share URL + local save helpers (unknown or invalid values are ignored)
+function normalizePlannerVals(src){
+  if(!src||typeof src!=='object')return null;
+  const out={}; let any=false;
+  for(const k of ['type','level','goal']){
+    const v=String(src[k]==null?'':src[k]).toLowerCase();
+    if(PLANNER_OPTS[k].includes(v)){out[k]=v;any=true;}
+  }
+  const vol=Number(src.volume);
+  if(src.volume!=null&&src.volume!==''&&isFinite(vol)&&vol>=3){out.volume=Math.min(300,Math.round(vol));any=true;}
+  return any?out:null;
+}
+function plannerValsFromUrl(){
+  try{
+    const q=new URLSearchParams(location.search); const o={};
+    ['type','level','goal','volume'].forEach(k=>{if(q.has(k))o[k]=q.get(k);});
+    return normalizePlannerVals(o);
+  }catch(e){return null;}
+}
+function loadSavedPlanner(){
+  try{return normalizePlannerVals(JSON.parse(localStorage.getItem(PLANNER_STORE_KEY)||'null'));}catch(e){return null;}
+}
+function plannerTrack(name,params){
+  try{if(typeof window.gtag==='function')window.gtag('event',name,Object.assign({tool:'aquarium-planner'},params||{}));}catch(e){}
+}
+function plannerShareUrl(){
+  const u=new URL(location.origin+'/tools/aquarium-planner/');
+  ['type','level','goal','volume'].forEach(k=>{if(plannerVals[k]!=null)u.searchParams.set(k,plannerVals[k]);});
+  return u.toString();
+}
+function syncPlannerUrl(){
+  if(location.pathname.indexOf('/tools/aquarium-planner')!==0)return;
+  try{history.replaceState(null,'',plannerShareUrl());}catch(e){}
+}
+function showPlannerFeedback(msg){
+  const el=document.getElementById('planner-feedback');
+  if(!el)return;
+  el.textContent=msg;
+  clearTimeout(showPlannerFeedback._t);
+  showPlannerFeedback._t=setTimeout(()=>{el.textContent='';},2000);
+}
+function savePlannerResult(){
+  try{
+    localStorage.setItem(PLANNER_STORE_KEY,JSON.stringify(Object.assign({},plannerVals,{ts:Date.now()})));
+    showPlannerFeedback('Saved on this device');
+    plannerTrack('tool_result_saved');
+  }catch(e){showPlannerFeedback('Could not save (storage blocked)');}
+}
+async function copyPlannerLink(){
+  const url=plannerShareUrl();
+  const useShare=!!navigator.share&&window.matchMedia&&window.matchMedia('(pointer:coarse)').matches;
+  try{
+    if(useShare){
+      await navigator.share({title:'My aquarium plan – FishCare AI',url});
+      plannerTrack('tool_link_copied',{method:'share'});
+      return;
+    }
+    await navigator.clipboard.writeText(url);
+    showPlannerFeedback('Link copied');
+    plannerTrack('tool_link_copied',{method:'clipboard'});
+  }catch(e){
+    if(e&&e.name==='AbortError')return;
+    try{window.prompt('Copy this link:',url);}catch(_){}
+  }
+}
+function clearSavedPlanner(){
+  try{localStorage.removeItem(PLANNER_STORE_KEY);}catch(e){}
+  plannerRestored=false;
+  plannerVals=Object.assign({},PLANNER_DEFAULTS);
+  const panel=document.getElementById('tool-panel');
+  if(panel)panel.innerHTML=renderToolPanel('planner');
+  try{history.replaceState(null,'',location.pathname);}catch(e){}
+}
 
 function renderTools(tab) {
   if(!tab || tab === 'ai') tab = 'tank';
@@ -1146,7 +1224,7 @@ function showFeedingResult(){
 }
 
 function renderPlanner() {
-  if(!Object.keys(plannerVals).length) plannerVals = {type:'freshwater',level:'beginner',goal:'community',volume:20};
+  if(!Object.keys(plannerVals).length) plannerVals = Object.assign({},PLANNER_DEFAULTS);
   return `
 <h2 style="color:var(--pd);margin-bottom:5px">🧭 Aquarium Planner</h2>
 <p style="margin-bottom:24px">Plan a beginner-friendly setup before buying animals. This tool creates a simple equipment, stocking and maintenance checklist.</p>
@@ -1162,7 +1240,7 @@ function renderPlanner() {
 </div>`;
 }
 function initPlanner(){}
-function setPlannerVal(k,v){ plannerVals[k]=k==='volume'?Math.max(3,Number(v)||20):v; }
+function setPlannerVal(k,v){ plannerVals[k]=k==='volume'?Math.max(3,Number(v)||20):v; plannerRestored=false; syncPlannerUrl(); }
 function showPlannerResult(){
   const v=Math.max(3,Number(plannerVals.volume)||20);
   const isSalt=plannerVals.type==='saltwater';
@@ -1171,7 +1249,8 @@ function showPlannerResult(){
   const status=v<10?'Very small':v<20?'Small':v<55?'Flexible beginner size':'Large / advanced capacity';
   const equipment=isSalt?'marine salt mix, refractometer, heater, flow, live/dry rock, test kits':isShrimp?'sponge filter, heater if needed, moss/plants, shrimp-safe minerals, pre-filter sponge':isGold?'oversized filtration, strong aeration, large water-change tools, open swimming space':'filter, heater, thermometer, water conditioner, test kit, substrate and hiding places';
   const stocking=isSalt?'start with hardy captive-bred marine fish after cycling; avoid tangs in small tanks':isShrimp?'start with a mature planted tank and a small shrimp colony after parameters are stable':isGold?'stock lightly; one fancy goldfish needs far more room than most bowls provide':'choose peaceful fish with matching temperature, adult size and group needs';
-  document.getElementById('planner-result').innerHTML=`<div class="hs" style="background:#0F3D6E"><div class="sn">${status}</div><div class="sl">${v} gallon ${plannerVals.type} plan</div></div><div class="pr"><h3 style="color:var(--pd);margin-bottom:10px;font-size:1rem">Setup checklist</h3><div class="prow"><span class="plb">Equipment</span><span class="pv">${equipment}</span><span class="bdg bgood">Core</span></div><div class="prow"><span class="plb">Stocking</span><span class="pv">${stocking}</span><span class="bdg bwarn">Plan</span></div><div class="prow"><span class="plb">Cycle</span><span class="pv">Do not add livestock until ammonia and nitrite are 0 ppm.</span><span class="bdg bdng">Required</span></div><p style="margin-top:12px">For ${plannerVals.goal.replace('-', ' ')} goals, prioritize stability over speed. Buy test kits before livestock, and keep the first stocking round conservative.</p></div>`;
+  document.getElementById('planner-result').innerHTML=`<div class="hs" style="background:#0F3D6E"><div class="sn">${status}</div><div class="sl">${v} gallon ${plannerVals.type} plan</div></div><div class="pr"><h3 style="color:var(--pd);margin-bottom:10px;font-size:1rem">Setup checklist</h3><div class="prow"><span class="plb">Equipment</span><span class="pv">${equipment}</span><span class="bdg bgood">Core</span></div><div class="prow"><span class="plb">Stocking</span><span class="pv">${stocking}</span><span class="bdg bwarn">Plan</span></div><div class="prow"><span class="plb">Cycle</span><span class="pv">Do not add livestock until ammonia and nitrite are 0 ppm.</span><span class="bdg bdng">Required</span></div><p style="margin-top:12px">For ${plannerVals.goal.replace('-', ' ')} goals, prioritize stability over speed. Buy test kits before livestock, and keep the first stocking round conservative.</p>${plannerRestored?`<p style="margin-top:10px;font-size:.8rem;color:var(--mu)">Restored your last saved plan · <button type="button" onclick="clearSavedPlanner()" style="background:none;border:none;color:var(--pd);cursor:pointer;font-size:.8rem;padding:0;text-decoration:underline">Clear</button></p>`:''}<div style="margin-top:14px;display:flex;flex-wrap:wrap;gap:8px;align-items:center"><button type="button" class="btn bo bsm" onclick="savePlannerResult()">💾 Save plan</button><button type="button" class="btn bo bsm" onclick="copyPlannerLink()">🔗 Copy link</button><span id="planner-feedback" role="status" aria-live="polite" style="font-size:.8rem;color:var(--pd)"></span></div></div>`;
+  syncPlannerUrl();
 }
 
 // WATER CALC
@@ -2267,7 +2346,19 @@ function toggleFaq(i) {
   };
   const normalizedPath = window.location.pathname.endsWith('/') ? window.location.pathname : window.location.pathname + '/';
   if(toolRoutes[normalizedPath]) {
+    // Planner: restore inputs from a shared URL (?type=&level=&goal=&volume=) or the last saved plan
+    let plannerAuto = null;
+    if(toolRoutes[normalizedPath] === 'planner') {
+      const fromUrl = plannerValsFromUrl();
+      const saved = fromUrl ? null : loadSavedPlanner();
+      if(fromUrl) { plannerVals = Object.assign({}, PLANNER_DEFAULTS, fromUrl); plannerAuto = 'url'; }
+      else if(saved) { plannerVals = Object.assign({}, PLANNER_DEFAULTS, saved); plannerRestored = true; plannerAuto = 'saved'; }
+    }
     goto('tools', toolRoutes[normalizedPath]);
+    if(plannerAuto) {
+      showPlannerResult();
+      if(plannerAuto === 'url') plannerTrack('tool_opened_from_share_link');
+    }
   } else if(window.location.hash === '#tools') {
     goto('tools');
   } else {

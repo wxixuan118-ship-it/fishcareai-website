@@ -2593,6 +2593,73 @@ const FISH_DB = [
 ];
 
 let selectedFish = [];
+let compatRestored = false;
+const COMPAT_STORE_KEY = 'fishcare_compat_saved';
+
+// Share URL + local save helpers
+function fishSlug(f){return f.name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');}
+function fishFromSlug(raw){
+  const s=String(raw||'').toLowerCase().trim();
+  if(!s)return null;
+  return FISH_DB.find(f=>fishSlug(f)===s)||FISH_DB.find(f=>fishSlug(f).startsWith(s+'-'))||FISH_DB.find(f=>String(f.id)===s)||null;
+}
+function slugsToFish(list){
+  const seen=new Set();
+  return (Array.isArray(list)?list:[]).map(fishFromSlug).filter(f=>f&&!seen.has(f.id)&&seen.add(f.id));
+}
+function compatTrack(name,params){
+  try{if(typeof window.gtag==='function')window.gtag('event',name,Object.assign({tool:'fish-compatibility-checker'},params||{}));}catch(e){}
+}
+function compatShareUrl(){
+  // slugs are [a-z0-9-] so a hand-built query keeps commas readable in the shared link
+  return location.origin+location.pathname+(selectedFish.length?'?fish='+selectedFish.map(fishSlug).join(','):'');
+}
+function syncCompatUrl(){
+  try{history.replaceState(null,'',selectedFish.length?compatShareUrl():location.pathname);}catch(e){}
+}
+function fishFromUrl(){
+  try{const raw=new URLSearchParams(location.search).get('fish');return raw?slugsToFish(raw.split(',')):[];}catch(e){return [];}
+}
+function loadSavedCompat(){
+  try{const saved=JSON.parse(localStorage.getItem(COMPAT_STORE_KEY)||'null');return saved&&Array.isArray(saved.fish)?slugsToFish(saved.fish):[];}catch(e){return [];}
+}
+function showCompatFeedback(msg){
+  const el=document.getElementById('compat-feedback');
+  if(!el)return;
+  el.textContent=msg;
+  clearTimeout(showCompatFeedback._t);
+  showCompatFeedback._t=setTimeout(()=>{el.textContent='';},2000);
+}
+function saveCompatResult(){
+  if(selectedFish.length<2)return;
+  try{
+    localStorage.setItem(COMPAT_STORE_KEY,JSON.stringify({fish:selectedFish.map(fishSlug),ts:Date.now()}));
+    showCompatFeedback('Saved on this device');
+    compatTrack('tool_result_saved');
+  }catch(e){showCompatFeedback('Could not save (storage blocked)');}
+}
+async function copyCompatLink(){
+  const url=compatShareUrl();
+  const useShare=!!navigator.share&&window.matchMedia&&window.matchMedia('(pointer:coarse)').matches;
+  try{
+    if(useShare){
+      await navigator.share({title:'Fish compatibility result – FishCare AI',url});
+      compatTrack('tool_link_copied',{method:'share'});
+      return;
+    }
+    await navigator.clipboard.writeText(url);
+    showCompatFeedback('Link copied');
+    compatTrack('tool_link_copied',{method:'clipboard'});
+  }catch(e){
+    if(e&&e.name==='AbortError')return;
+    try{window.prompt('Copy this link:',url);}catch(_){}
+  }
+}
+function clearSavedCompat(){
+  try{localStorage.removeItem(COMPAT_STORE_KEY);}catch(e){}
+  compatRestored=false;
+  resetCompat();
+}
 
 // Populate quick-select buttons (first 8 from DB)
 (function initQuick(){
@@ -2623,13 +2690,17 @@ function addFish(id){
   selectedFish.push(FISH_DB.find(f=>f.id===id));
   document.getElementById('fish-inp').value='';
   document.getElementById('fish-drop')?.classList.add('hide');
+  compatRestored=false;
   renderFishTags();
+  syncCompatUrl();
   document.getElementById('compat-results').innerHTML='';
 }
 
 function removeFish(id){
   selectedFish=selectedFish.filter(f=>f.id!==id);
+  compatRestored=false;
   renderFishTags();
+  syncCompatUrl();
   document.getElementById('compat-results').innerHTML='';
 }
 
@@ -2677,11 +2748,19 @@ function runCompat(){
     <h3 style="color:#fff;margin-bottom:15px;font-size:1.05rem">📋 Compatibility Results</h3>
     ${html}
     ${allGood?`<div style="margin-top:14px;padding:13px 17px;background:rgba(39,174,96,.1);border-radius:8px;border:1px solid rgba(39,174,96,.3);text-align:center"><strong style="color:var(--ok)">🎉 All selected fish are compatible!</strong><p style="margin:5px 0 0;font-size:.83rem;color:rgba(255,255,255,.7)">Provide adequate space and hiding spots for best results.</p></div>`:''}
-    <div style="margin-top:13px;text-align:right"><button onclick="resetCompat()" style="background:transparent;border:1px solid rgba(255,255,255,.3);color:#fff;padding:7px 16px;border-radius:7px;cursor:pointer;font-size:.83rem">Start Over</button></div>`;
+    ${compatRestored?`<p style="margin:12px 0 0;font-size:.8rem;color:rgba(255,255,255,.65)">Restored your last saved result · <button type="button" onclick="clearSavedCompat()" style="background:none;border:none;color:#7DD9FF;cursor:pointer;font-size:.8rem;padding:0;text-decoration:underline">Clear</button></p>`:''}
+    <div style="margin-top:13px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:flex-end">
+      <span id="compat-feedback" role="status" aria-live="polite" style="font-size:.8rem;color:#7DD9FF;margin-right:auto"></span>
+      <button type="button" onclick="saveCompatResult()" style="background:transparent;border:1px solid rgba(255,255,255,.3);color:#fff;padding:7px 16px;border-radius:7px;cursor:pointer;font-size:.83rem">💾 Save result</button>
+      <button type="button" onclick="copyCompatLink()" style="background:transparent;border:1px solid rgba(255,255,255,.3);color:#fff;padding:7px 16px;border-radius:7px;cursor:pointer;font-size:.83rem">🔗 Copy link</button>
+      <button type="button" onclick="resetCompat()" style="background:transparent;border:1px solid rgba(255,255,255,.3);color:#fff;padding:7px 16px;border-radius:7px;cursor:pointer;font-size:.83rem">Start Over</button>
+    </div>`;
 }
 
 function resetCompat(){
   selectedFish=[];
+  compatRestored=false;
+  syncCompatUrl();
   document.getElementById('fish-inp').value='';
   document.getElementById('fish-tags').innerHTML='';
   document.getElementById('compat-results').innerHTML='';
@@ -2690,6 +2769,24 @@ function resetCompat(){
   if(btn)btn.disabled=true;
   if(hint)hint.style.display='';
 }
+
+// Restore state from a shared URL (?fish=betta,guppy) or the last saved result
+(function initCompatState(){
+  const fromUrl=fishFromUrl();
+  if(fromUrl.length){
+    selectedFish=fromUrl;
+    renderFishTags();
+    if(selectedFish.length>=2){runCompat();compatTrack('tool_opened_from_share_link');}
+    return;
+  }
+  const saved=loadSavedCompat();
+  if(saved.length>=2){
+    selectedFish=saved;
+    compatRestored=true;
+    renderFishTags();
+    runCompat();
+  }
+})();
 </script>
 </body>
 </html>

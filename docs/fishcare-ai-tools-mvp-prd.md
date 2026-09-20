@@ -332,14 +332,59 @@ MVP 阶段使用前端本地结构化数据：
 - Water Parameter Checker 依赖用户测试读数准确性。
 - Feeding Calculator 应避免给精确克数，以免误导。
 
-## 12. 后续版本
+## 12. 产品开发优先级（2026-09-20 更新）
+
+按优先级排序，P0 先做完再进入 P1。
+
+| 优先级 | 项目 | 范围 | 状态 |
+|---|---|---|---|
+| P0 | Aquarium Planner / Compatibility Checker：保存结果 + 分享 URL | 见 12.1 | 已实现（2026-09-20，待上线验证） |
+| P1 | 增加更多鱼种、虾、螺、海水鱼规则 | Compatibility Checker、Tank Size Calculator | 待排期 |
+| P1 | “保存我的鱼缸计划”邮箱收集 | Aquarium Planner，依赖 P0 的可分享结果 | 待排期 |
+| P2 | 其余工具（Water Parameter / Feeding / Tank Size）复用 P0 的 URL 状态方案 | 全部工具 | 待排期 |
+| 已完成 | 为每个工具创建独立 SEO landing page | `/tools/*/` | 已上线 |
+
+### 12.1 P0：保存结果 + 分享 URL（Planner / Compatibility Checker）
+
+背景：两个工具目前都是纯前端状态，刷新即丢，用户无法把结果发给朋友、论坛或回到自己的计划。分享 URL 同时是外链和回访入口，与 SEO 流量优先的阶段目标一致。
+
+范围（两个工具都要做）：
+
+- **URL 编码状态**：输入写进 query string，打开带参数的 URL 直接还原输入并自动运行计算。
+  - Compatibility Checker：`/tools/fish-compatibility-checker/?fish=betta,guppy,neon-tetra`（物种 slug，逗号分隔，顺序无关）。
+  - Aquarium Planner：`/tools/aquarium-planner/?type=shrimp&level=beginner&goal=community&volume=20`。
+  - 用户修改输入时用 `history.replaceState` 更新地址栏，不产生新的历史记录。
+  - 非法或未知参数静默忽略，回退到默认值，不能报错。
+- **本地保存**：结果区增加 “Save result” 按钮，把最近一次输入存到 `localStorage`（每个工具一个 key）；再次打开页面且无 URL 参数时自动恢复，并显示 “Restored your last result · Clear” 提示。无登录、无云端，不改变第 3 节的排除范围。
+- **分享**：结果区增加 “Copy link” 按钮；移动端优先调用 `navigator.share`，不支持时回退到 `navigator.clipboard.writeText`，复制后显示 2 秒 “Link copied” 反馈。
+
+SEO / 技术约束：
+
+- 带参数的 URL `<link rel="canonical">` 保持指向无参数的工具页；不在 sitemap 中列出带参数的 URL。
+- 不改变现有工具页的 title / H1 / 正文，避免影响已有排名。
+- 不引入新的第三方依赖；沿用现有内联脚本风格。
+
+埋点（补充第 10 节）：
+
+- `tool_result_saved`（tool）
+- `tool_link_copied`（tool, method = share | clipboard）
+- `tool_opened_from_share_link`（tool）：页面加载时检测到有效参数即触发。
+
+验收标准：
+
+- 打开 `?fish=betta,guppy` 后无需点击即显示 Betta × Guppy 的兼容结果。
+- 打开 `?type=saltwater&volume=40` 后 Planner 直接显示 saltwater 结果且含 marine salt mix / refractometer 提示。
+- 复制的链接在无痕窗口打开能还原完全相同的结果。
+- 无参数刷新页面后，已保存的结果自动恢复；点击 Clear 后恢复默认。
+- 移动端与桌面端按钮均可用，无控制台脚本错误。
+
+## 13. 后续版本
 
 ### v1.1
 
-- 为每个工具创建独立 SEO landing page。
 - 增加更多鱼种、虾、螺、海水鱼规则。
-- 增加结果分享链接。
-- 增加“保存我的鱼缸计划”邮箱收集。
+- 增加“保存我的鱼缸计划”邮箱收集（在 P0 分享链接基础上做）。
+- 其余三个工具复用 URL 状态与保存方案。
 
 ### v2 App 版本
 
@@ -351,7 +396,7 @@ MVP 阶段使用前端本地结构化数据：
 - AI 问答与个性化建议
 - 社区案例库
 
-## 13. MVP 发布验收清单
+## 14. MVP 发布验收清单
 
 - Tools 页面不再出现 AI Assistant。
 - 首页工具区显示 5 个工具。
