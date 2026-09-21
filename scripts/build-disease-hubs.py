@@ -13,6 +13,8 @@ from pathlib import Path
 import openpyxl
 
 SITE = "https://www.fishcareai.com"
+# Hubs rewritten by hand via scripts/build-health-problem-hubs.py — never overwrite them here.
+HANDBUILT = {"discus", "angelfish"}
 SYMPTOMS = (
     "rapid-breathing", "pale-color", "fin-rot", "losing-color", "missing-scales",
     "cloudy-eyes", "sunken-belly", "swimming-sideways", "fuzzy-growth", "white-spots",
@@ -125,6 +127,8 @@ def main() -> None:
             {"@context": "https://schema.org", "@type": "CollectionPage", "name": f"{species_name} Diseases", "url": hub_url},
             breadcrumbs([("Home", SITE + "/"), ("Aquarium Fish Diseases", SITE + "/aquarium-fish-diseases/"), (f"{species_name} Diseases", hub_url)]), item_list, faq,
         ]
+        if species in HANDBUILT:
+            continue
         write(root / "aquarium-fish-diseases" / f"{species}-diseases" / "index.html", document(f"{species_name} Diseases: Symptoms, Causes & Guides", f"Browse {len(pages)} indexed {species_name} symptom and disease guides. Compare signs, possible causes and next checks.", hub_url, schema, body))
 
     search_index = [page | {"hubUrl": f'/aquarium-fish-diseases/{page["speciesSlug"]}-diseases/'} for pages in groups.values() for page in pages]

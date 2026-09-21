@@ -6638,5 +6638,461 @@
     "slug": "twig-catfish-rapid-breathing",
     "url": "https://www.fishcareai.com/fish-health/twig-catfish-rapid-breathing",
     "hubUrl": "/aquarium-fish-diseases/twig-catfish-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Not Eating",
+    "slug": "discus-not-eating",
+    "url": "https://www.fishcareai.com/fish-health/discus-not-eating",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Hiding",
+    "slug": "discus-hiding",
+    "url": "https://www.fishcareai.com/fish-health/discus-hiding",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Lethargic",
+    "slug": "discus-lethargic",
+    "url": "https://www.fishcareai.com/fish-health/discus-lethargic",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Darting",
+    "slug": "discus-darting",
+    "url": "https://www.fishcareai.com/fish-health/discus-darting",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Rubbing",
+    "slug": "discus-rubbing",
+    "url": "https://www.fishcareai.com/fish-health/discus-rubbing",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Jumping",
+    "slug": "discus-jumping",
+    "url": "https://www.fishcareai.com/fish-health/discus-jumping",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Aggressive",
+    "slug": "discus-aggressive",
+    "url": "https://www.fishcareai.com/fish-health/discus-aggressive",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Swimming Sideways",
+    "slug": "discus-swimming-sideways",
+    "url": "https://www.fishcareai.com/fish-health/discus-swimming-sideways",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Floating",
+    "slug": "discus-floating",
+    "url": "https://www.fishcareai.com/fish-health/discus-floating",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Sinking",
+    "slug": "discus-sinking",
+    "url": "https://www.fishcareai.com/fish-health/discus-sinking",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Rapid Breathing",
+    "slug": "discus-rapid-breathing",
+    "url": "https://www.fishcareai.com/fish-health/discus-rapid-breathing",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Coughing",
+    "slug": "discus-coughing",
+    "url": "https://www.fishcareai.com/fish-health/discus-coughing",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "White Spots",
+    "slug": "discus-white-spots",
+    "url": "https://www.fishcareai.com/fish-health/discus-white-spots",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Black Spots",
+    "slug": "discus-black-spots",
+    "url": "https://www.fishcareai.com/fish-health/discus-black-spots",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Spots on Fins",
+    "slug": "discus-spots-on-fins",
+    "url": "https://www.fishcareai.com/fish-health/discus-spots-on-fins",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Pale Color",
+    "slug": "discus-pale-color",
+    "url": "https://www.fishcareai.com/fish-health/discus-pale-color",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Losing Color",
+    "slug": "discus-losing-color",
+    "url": "https://www.fishcareai.com/fish-health/discus-losing-color",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Fuzzy Growth",
+    "slug": "discus-fuzzy-growth",
+    "url": "https://www.fishcareai.com/fish-health/discus-fuzzy-growth",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Mucus Coating",
+    "slug": "discus-mucus-coating",
+    "url": "https://www.fishcareai.com/fish-health/discus-mucus-coating",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Red Streaks",
+    "slug": "discus-red-streaks",
+    "url": "https://www.fishcareai.com/fish-health/discus-red-streaks",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Bloated",
+    "slug": "discus-bloated",
+    "url": "https://www.fishcareai.com/fish-health/discus-bloated",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Sunken Belly",
+    "slug": "discus-sunken-belly",
+    "url": "https://www.fishcareai.com/fish-health/discus-sunken-belly",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Curled Body",
+    "slug": "discus-curled-body",
+    "url": "https://www.fishcareai.com/fish-health/discus-curled-body",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Fin Rot",
+    "slug": "discus-fin-rot",
+    "url": "https://www.fishcareai.com/fish-health/discus-fin-rot",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Torn Fins",
+    "slug": "discus-torn-fins",
+    "url": "https://www.fishcareai.com/fish-health/discus-torn-fins",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Clamped Fins",
+    "slug": "discus-clamped-fins",
+    "url": "https://www.fishcareai.com/fish-health/discus-clamped-fins",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Cloudy Eyes",
+    "slug": "discus-cloudy-eyes",
+    "url": "https://www.fishcareai.com/fish-health/discus-cloudy-eyes",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Discus",
+    "speciesSlug": "discus",
+    "condition": "Bulging Eyes",
+    "slug": "discus-bulging-eyes",
+    "url": "https://www.fishcareai.com/fish-health/discus-bulging-eyes",
+    "hubUrl": "/aquarium-fish-diseases/discus-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Not Eating",
+    "slug": "angelfish-not-eating",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-not-eating",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Hiding",
+    "slug": "angelfish-hiding",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-hiding",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Lethargic",
+    "slug": "angelfish-lethargic",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-lethargic",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Darting",
+    "slug": "angelfish-darting",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-darting",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Rubbing",
+    "slug": "angelfish-rubbing",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-rubbing",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Jumping",
+    "slug": "angelfish-jumping",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-jumping",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Aggressive",
+    "slug": "angelfish-aggressive",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-aggressive",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Swimming Sideways",
+    "slug": "angelfish-swimming-sideways",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-swimming-sideways",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Floating",
+    "slug": "angelfish-floating",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-floating",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Sinking",
+    "slug": "angelfish-sinking",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-sinking",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Gasping",
+    "slug": "angelfish-gasping",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-gasping",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Rapid Breathing",
+    "slug": "angelfish-rapid-breathing",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-rapid-breathing",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "White Spots",
+    "slug": "angelfish-white-spots",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-white-spots",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Black Spots",
+    "slug": "angelfish-black-spots",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-black-spots",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Spots on Fins",
+    "slug": "angelfish-spots-on-fins",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-spots-on-fins",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Pale Color",
+    "slug": "angelfish-pale-color",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-pale-color",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Losing Color",
+    "slug": "angelfish-losing-color",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-losing-color",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Fuzzy Growth",
+    "slug": "angelfish-fuzzy-growth",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-fuzzy-growth",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Mucus Coating",
+    "slug": "angelfish-mucus-coating",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-mucus-coating",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Red Streaks",
+    "slug": "angelfish-red-streaks",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-red-streaks",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Missing Scales",
+    "slug": "angelfish-missing-scales",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-missing-scales",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Bloated",
+    "slug": "angelfish-bloated",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-bloated",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Sunken Belly",
+    "slug": "angelfish-sunken-belly",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-sunken-belly",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Curled Body",
+    "slug": "angelfish-curled-body",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-curled-body",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Fin Rot",
+    "slug": "angelfish-fin-rot",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-fin-rot",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Torn Fins",
+    "slug": "angelfish-torn-fins",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-torn-fins",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Clamped Fins",
+    "slug": "angelfish-clamped-fins",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-clamped-fins",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Cloudy Eyes",
+    "slug": "angelfish-cloudy-eyes",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-cloudy-eyes",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
+  },
+  {
+    "species": "Angelfish",
+    "speciesSlug": "angelfish",
+    "condition": "Bulging Eyes",
+    "slug": "angelfish-bulging-eyes",
+    "url": "https://www.fishcareai.com/fish-health/angelfish-bulging-eyes",
+    "hubUrl": "/aquarium-fish-diseases/angelfish-diseases/"
   }
 ]
