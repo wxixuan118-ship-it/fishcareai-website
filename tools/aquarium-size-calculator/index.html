@@ -328,12 +328,12 @@ input.fc::placeholder,select.fc option{color:rgba(220,246,255,.5);background:#07
   <div class="nlinks" id="nlinks">
     <a title="Home" class="nl" href="/">Home</a>
     <a title="Guides" class="nl" href="/guides/">Guides</a>
-    <a title="Aquarium Encyclopedia" class="nl" href="/species">Encyclopedia</a>
-    <a title="Fish Health" class="nl" href="/fish-health/">Fish Health</a>
-    <a title="Fish Identification" class="nl" href="/identify/">🔍 Fish ID</a>
-    <a title="Tools" class="nl act" href="/tools/aquarium-size-calculator/">Tools</a>
-    <a title="About Us" class="nl" href="/about/">About Us</a>
-    <a title="Contact" class="nl" href="/contact/">Contact</a>
+    <a title="Tools" class="nl act" href="/tools/" aria-current="page">Tools</a>
+    <a title="Encyclopedia" class="nl" href="/wiki/">Encyclopedia</a>
+    <a title="Fish Diseases" class="nl" href="/aquarium-fish-diseases/">Fish Diseases</a>
+    <a title="Fish Identification" class="nl" href="/identify/">Fish Identification</a>
+    <a title="About" class="nl" href="/about/">About</a>
+    <a title="📱 App" class="nl nl-app-btn" href="/app/">📱 App</a>
   </div>
   <button class="hbg" type="button" aria-label="Open navigation menu" onclick="this.closest('nav').querySelector('#nlinks').classList.toggle('open')"><span></span><span></span><span></span></button>
 </nav>
@@ -379,12 +379,12 @@ input.fc::placeholder,select.fc option{color:rgba(220,246,255,.5);background:#07
         <div class="fg"><label for="cap-shape">Tank shape</label><select class="fc" id="cap-shape" onchange="setShape(this.value)"><option value="rectangle">Rectangular aquarium</option><option value="cube">Cube aquarium</option><option value="vertical-cylinder">Vertical cylinder</option><option value="horizontal-cylinder">Horizontal cylinder</option></select></div>
         <div class="fg"><label for="cap-unit">Dimension unit</label><select class="fc" id="cap-unit"><option value="in">Inches</option><option value="cm">Centimetres</option><option value="mm">Millimetres</option><option value="ft">Feet</option><option value="m">Metres</option></select></div>
         <div id="dim-fields">
-          <div class="fg" id="dim-length"><label for="cap-length">Inside length</label><input class="fc" id="cap-length" type="number" min="0" step="0.1" value="24"/></div>
-          <div class="fg" id="dim-width"><label for="cap-width">Inside width</label><input class="fc" id="cap-width" type="number" min="0" step="0.1" value="12"/></div>
-          <div class="fg" id="dim-diameter" style="display:none"><label for="cap-diameter">Inside diameter</label><input class="fc" id="cap-diameter" type="number" min="0" step="0.1" value="18"/></div>
-          <div class="fg" id="dim-height"><label for="cap-height">Inside tank height</label><input class="fc" id="cap-height" type="number" min="0" step="0.1" value="12"/></div>
+          <div class="fg" id="dim-length"><label for="cap-length">Inside length</label><input class="fc" id="cap-length" type="number" min="0" max="2400" step="0.1" value="24"/></div>
+          <div class="fg" id="dim-width"><label for="cap-width">Inside width</label><input class="fc" id="cap-width" type="number" min="0" max="2400" step="0.1" value="12"/></div>
+          <div class="fg" id="dim-diameter" style="display:none"><label for="cap-diameter">Inside diameter</label><input class="fc" id="cap-diameter" type="number" min="0" max="2400" step="0.1" value="18"/></div>
+          <div class="fg" id="dim-height"><label for="cap-height">Inside tank height</label><input class="fc" id="cap-height" type="number" min="0" max="2400" step="0.1" value="12"/></div>
         </div>
-        <div class="fg"><label for="cap-fill">Actual water depth <span style="font-weight:400;color:var(--mu)">(optional)</span></label><input class="fc" id="cap-fill" type="number" min="0" step="0.1" value="11"/><small style="color:var(--mu);font-size:.76rem;margin-top:3px;display:block">Leave blank to use full tank height</small></div>
+        <div class="fg"><label for="cap-fill">Actual water depth <span style="font-weight:400;color:var(--mu)">(optional)</span></label><input class="fc" id="cap-fill" type="number" min="0" max="2400" step="0.1" value="11"/><small style="color:var(--mu);font-size:.76rem;margin-top:3px;display:block">Leave blank to use full tank height</small></div>
         <div class="fg"><label for="cap-displace">Substrate &amp; decor displacement</label><select class="fc" id="cap-displace"><option value="0">0% — bare tank</option><option value="5">5% — light decor</option><option value="10" selected>10% — typical aquarium</option><option value="15">15% — planted / hardscape</option><option value="20">20% — heavy hardscape</option></select></div>
         <div class="fg"><label for="cap-water">Water type</label><select class="fc" id="cap-water"><option value="freshwater">Freshwater</option><option value="saltwater">Saltwater</option></select></div>
         <button class="btn bp blg" style="width:100%;justify-content:center;margin-top:4px" onclick="calcVolume()">Calculate Fish Tank Size →</button>
@@ -680,18 +680,58 @@ function setShape(shape) {
   if (fillHint) fillHint.textContent = isHcyl ? 'Max = inside diameter' : 'Leave blank to use full tank height';
 }
 
+// Metres per unit, used only for the sanity bounds below.
+const M_PER_UNIT = {mm:0.001, cm:0.01, m:1, in:0.0254, ft:0.3048};
+const MAX_DIM_M  = 10;      // 10 m inside dimension is already a public-aquarium wall
+const MAX_VOL_L  = 200000;  // 200 m3 of water
+
+// Every volume row prints the same three units in the same order.
+function trio(litres) {
+  return litres.toFixed(1) + ' L &nbsp;/&nbsp; ' + (litres / 3.785411784).toFixed(1) +
+         ' US gal &nbsp;/&nbsp; ' + (litres / 4.54609).toFixed(1) + ' UK gal';
+}
+
+function volError(msg) {
+  document.getElementById('vol-result').innerHTML =
+    '<div class="pr"><h3 style="color:var(--er)">Check your dimensions</h3><p>' + msg + '</p></div>';
+}
+
 function calcVolume() {
   const shape    = currentShape;
   const unit     = document.getElementById('cap-unit').value;
-  const l        = +document.getElementById('cap-length').value  || 0;
-  const w        = +document.getElementById('cap-width').value   || 0;
-  const h        = +document.getElementById('cap-height').value  || 0;
-  const d        = +document.getElementById('cap-diameter').value|| 0;
-  const fillRaw  = +document.getElementById('cap-fill').value    || 0;
-  const displace = Math.min(50, +document.getElementById('cap-displace').value || 0);
+  const rawOf    = id => document.getElementById(id).value.trim();
+  const numOf    = id => { const r = rawOf(id); return r === '' ? 0 : Number(r); };
+  const l        = numOf('cap-length');
+  const w        = numOf('cap-width');
+  const h        = numOf('cap-height');
+  const d        = numOf('cap-diameter');
+  const fillRaw  = numOf('cap-fill');
+  const displace = Math.min(50, Math.max(0, +document.getElementById('cap-displace').value || 0));
   const isSalt   = document.getElementById('cap-water').value === 'saltwater';
 
+  // Which boxes matter for the shape the user picked
+  const needed = shape === 'vertical-cylinder'   ? {d:'inside diameter', h:'inside tank height'}
+               : shape === 'horizontal-cylinder' ? {d:'inside diameter', l:'inside length'}
+               : shape === 'cube'                ? {l:'inside side length'}
+               : {l:'inside length', w:'inside width', h:'inside tank height'};
+  const vals = {l, w, h, d};
+  const mPer = M_PER_UNIT[unit] || M_PER_UNIT.in;
+
+  for (const key in needed) {
+    const v = vals[key];
+    if (!Number.isFinite(v) || v <= 0) return volError('Enter a positive ' + needed[key] + '.');
+    if (v * mPer > MAX_DIM_M) {
+      return volError('That ' + needed[key] + ' works out to over ' + MAX_DIM_M + ' metres. Check the number and the unit \u2014 this calculator is built for home and shop aquariums.');
+    }
+  }
+
   const maxDepth = shape === 'horizontal-cylinder' ? d : (shape === 'cube' ? l : h);
+  if (rawOf('cap-fill') !== '' && (!Number.isFinite(fillRaw) || fillRaw < 0)) {
+    return volError('Water depth cannot be negative. Leave the box blank to fill the tank to the top.');
+  }
+  if (fillRaw > maxDepth) {
+    return volError('Water depth (' + fillRaw + ' ' + unit + ') is deeper than the tank (' + maxDepth + ' ' + unit + '). Lower the water depth, or leave the box blank for a full tank.');
+  }
   const fill     = fillRaw > 0 ? Math.min(maxDepth, fillRaw) : maxDepth;
 
   let totalCubic = 0, filledCubic = 0, formula = '';
@@ -719,12 +759,14 @@ function calcVolume() {
   }
 
   if (!Number.isFinite(totalCubic) || totalCubic <= 0) {
-    document.getElementById('vol-result').innerHTML = '<div class="pr"><h3 style="color:var(--er)">Check your dimensions</h3><p>Enter positive inside dimensions. Water depth cannot exceed the tank height or diameter.</p></div>';
-    return;
+    return volError('Enter positive inside dimensions. Water depth cannot exceed the tank height or diameter.');
   }
 
   const lpcu = {mm:0.000001,cm:0.001,m:1000,in:0.016387064,ft:28.316846592}[unit] || 0.016387064;
   const totalL   = totalCubic  * lpcu;
+  if (totalL > MAX_VOL_L) {
+    return volError('That comes to ' + Math.round(totalL).toLocaleString() + ' litres, which is past what this calculator is built for. Check the unit you selected.');
+  }
   const filledL  = filledCubic * lpcu;
   const usableL  = filledL * (1 - displace / 100);
   const usGal    = usableL / 3.785411784;
@@ -736,13 +778,13 @@ function calcVolume() {
   document.getElementById('vol-result').innerHTML = `
     <div class="hs" style="background:#0F8FB8">
       <div class="sn">${usGal.toFixed(1)} US gal</div>
-      <div class="sl">${usableL.toFixed(1)} litres &nbsp;·&nbsp; ${ukGal.toFixed(1)} UK gal — estimated usable water</div>
+      <div class="sl">${usableL.toFixed(1)} litres &nbsp;·&nbsp; ${usGal.toFixed(1)} US gal &nbsp;·&nbsp; ${ukGal.toFixed(1)} UK gal — estimated usable water</div>
     </div>
     <div class="pr">
       <h3 style="margin-bottom:10px">${shapeName}</h3>
-      <div class="prow"><span class="plb">Full capacity</span><span class="pv">${totalL.toFixed(1)} L &nbsp;/&nbsp; ${(totalL/3.785411784).toFixed(1)} US gal &nbsp;/&nbsp; ${(totalL/4.54609).toFixed(1)} UK gal</span><span class="bdg bgood">100%</span></div>
-      <div class="prow"><span class="plb">At water line</span><span class="pv">${filledL.toFixed(1)} L</span><span class="bdg bgood">${fillPct}%</span></div>
-      <div class="prow"><span class="plb">After ${displace}% displacement</span><span class="pv">${usableL.toFixed(1)} L &nbsp;/&nbsp; ${ukGal.toFixed(1)} UK gal &nbsp;/&nbsp; ${usGal.toFixed(1)} US gal</span><span class="bdg bwarn">Usable estimate</span></div>
+      <div class="prow"><span class="plb">Full capacity</span><span class="pv">${trio(totalL)}</span><span class="bdg bgood">100%</span></div>
+      <div class="prow"><span class="plb">At water line</span><span class="pv">${trio(filledL)}</span><span class="bdg bgood">${fillPct}%</span></div>
+      <div class="prow"><span class="plb">After ${displace}% displacement</span><span class="pv">${trio(usableL)}</span><span class="bdg bwarn">Usable estimate</span></div>
       <div class="prow"><span class="plb">Water weight</span><span class="pv">${wKg.toFixed(1)} kg &nbsp;/&nbsp; ${(wKg*2.2046).toFixed(1)} lb</span><span class="bdg bwarn">Water only</span></div>
       <div class="prow"><span class="plb">Formula</span><span class="pv">${formula} · unit: ${unit}</span><span class="bdg bgood">Exact</span></div>
       <p style="margin-top:12px;font-size:.82rem"><strong>Do not use gallons alone to stock fish.</strong> Check adult size, group needs, filtration and water quality in the relevant care guide.</p>

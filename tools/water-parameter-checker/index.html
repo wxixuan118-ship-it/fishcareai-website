@@ -190,6 +190,13 @@ input[type=number]{width:72px;background:rgba(255,255,255,.1);border:1px solid r
 input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
 input[type=number]:focus{outline:none;border-color:var(--p)}
 .param-hint{color:rgba(255,255,255,.38);font-size:.73rem;margin-top:4px}
+/* On a phone the slider was squeezed to ~130px next to the number box, which made
+   a 0.1 step over a 0-14 range impossible to hit. Give it the full row. */
+@media(max-width:560px){
+  .param-input-row{flex-wrap:wrap;row-gap:6px}
+  .param-input-row input[type=range]{flex:1 1 100%;min-width:0;height:26px;padding:10px 0}
+  .param-input-row input[type=number]{width:96px;padding:8px}
+}
 
 /* ── Analyze button ── */
 .analyze-btn{width:100%;padding:14px;background:linear-gradient(135deg,var(--p),var(--pd));color:#fff;font-size:1rem;font-weight:700;border:none;border-radius:12px;cursor:pointer;transition:all .18s;margin-top:8px;box-shadow:0 6px 20px rgba(22,135,199,.4)}
@@ -310,6 +317,7 @@ html body .faq-sec .faq-item{background:#fff!important;border-color:#cfe1ee!impo
 .legal-links a:hover{color:rgba(255,255,255,.7)}
 </style>
 <script defer src="/assets/tool-related-recommendations.js?v=20260908-koi"></script>
+<script defer src="/assets/site-compliance.js?v=20260824-dark-fix"></script>
 </head>
 <body>
 
@@ -319,10 +327,12 @@ html body .faq-sec .faq-item{background:#fff!important;border-color:#cfe1ee!impo
   <div class="nlinks" id="nlinks">
     <a title="Home" class="nl" href="/">Home</a>
     <a title="Guides" class="nl" href="/guides/">Guides</a>
-    <a title="Aquarium Encyclopedia" class="nl" href="/species">Encyclopedia</a>
-    <a title="Fish Health" class="nl" href="/fish-health/">Fish Health</a>
-    <a title="Tools" class="nl act" href="/tools/">Tools</a>
-    <a title="About Us" class="nl" href="/about/">About Us</a>
+    <a title="Tools" class="nl act" href="/tools/" aria-current="page">Tools</a>
+    <a title="Encyclopedia" class="nl" href="/wiki/">Encyclopedia</a>
+    <a title="Fish Diseases" class="nl" href="/aquarium-fish-diseases/">Fish Diseases</a>
+    <a title="Fish Identification" class="nl" href="/identify/">Fish Identification</a>
+    <a title="About" class="nl" href="/about/">About</a>
+    <a title="📱 App" class="nl nl-app-btn" href="/app/">📱 App</a>
   </div>
   <button class="hbg" type="button" onclick="document.getElementById('nlinks').classList.toggle('open')" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
 </nav>
@@ -339,6 +349,7 @@ html body .faq-sec .faq-item{background:#fff!important;border-color:#cfe1ee!impo
   <a href="/tools/aquarium-substrate-calculator/" class="tnav-btn">🪨 Substrate</a>
 </nav>
 
+<main id="main">
 <!-- ── Hero ── -->
 <section class="hero">
   <div class="hero-inner">
@@ -487,9 +498,11 @@ html body .faq-sec .faq-item{background:#fff!important;border-color:#cfe1ee!impo
         <ul>
           <li>A parameter in the safe range scores 100 points × its weight.</li>
           <li>A parameter in the warning range scores 45 points × its weight.</li>
-          <li>A parameter in the danger range scores 0 points × its weight.</li>
+          <li>A parameter in the danger range scores 15 points × its weight.</li>
+          <li>A parameter in the critical range — pH below 5.5 or above 9.5, nitrate above 80&nbsp;ppm, temperature below 64&nbsp;°F or above 90&nbsp;°F, GH below 1 or above 25&nbsp;dGH, ammonia above 1.5&nbsp;ppm, nitrite above 1&nbsp;ppm — scores 0.</li>
         </ul>
-        <p>Ammonia and nitrite carry the highest weight (3×). If either enters the danger zone, the total score is capped at 45 regardless of other readings. A warning-level ammonia or nitrite caps the score at 75. This ensures the score always reflects what matters most — toxic nitrogen compounds are a medical emergency for fish, not a minor inconvenience.</p>
+        <p><strong>Danger readings also cap the overall grade</strong>, so a single lethal value can never hide behind five good ones. Any warning caps the score at 85, so a tank with a warning is never rated Excellent. Any danger reading caps it at 60, and any critical reading caps it at 40 — a red "Poor — Act Now" result. The badge beside the score tells you how many parameters are involved.</p>
+        <p>Ammonia and nitrite carry the highest weight (3×) and their own tighter caps: warning-level caps the score at 75, danger at 45, critical at 30. This ensures the score always reflects what matters most — toxic nitrogen compounds are a medical emergency for fish, not a minor inconvenience.</p>
         <p>A score of <strong>90+</strong> means excellent conditions. <strong>70–89</strong> means good, stable water with minor room to improve. <strong>50–69</strong> means at least one parameter needs correction soon. <strong>Below 50</strong> means act immediately.</p>
       </div>
 
@@ -613,6 +626,9 @@ html body .faq-sec .faq-item{background:#fff!important;border-color:#cfe1ee!impo
 </section>
 
 <!-- ── Footer ── -->
+
+</main>
+
 <footer class="ft" id="site-footer">
   <div class="con">
     <div class="ftg">
@@ -630,12 +646,12 @@ html body .faq-sec .faq-item{background:#fff!important;border-color:#cfe1ee!impo
 <!-- ── Tool Script ── -->
 <script>
 const PARAMS = [
-  {k:'ph', lbl:'pH', unit:'', min:0, max:14, step:.1, def:7.0, weight:1, safe:[6.5,7.5], warn:[[6.0,6.5],[7.5,8.0]], tips:{good:'✅ pH is ideal for many community tropical fish.',warn:'⚠️ Slightly off. Adjust gradually — sudden pH swings are more dangerous than a stable imperfect number.',bad:'❌ Critical pH. Do not chase numbers quickly; stabilize slowly and verify your test result.'}},
-  {k:'amm', lbl:'Ammonia (NH₃/NH₄)', unit:'ppm', min:0, max:8, step:.25, def:0, weight:3, safe:[0,0], warn:[[0.001,0.25]], tips:{good:'✅ Ammonia is 0 ppm, which is the target for a cycled aquarium.',warn:'⚠️ Any detectable ammonia is a warning. Do a partial water change, dose conditioner, and re-test.',bad:'❌ Dangerous ammonia. Stop feeding, do a 50% water change with dechlorinated temperature-matched water, and check the cycle.'}},
-  {k:'nit2', lbl:'Nitrite (NO₂)', unit:'ppm', min:0, max:5, step:.1, def:0, weight:3, safe:[0,0], warn:[[0.001,0.25]], tips:{good:'✅ Nitrite is 0 ppm, which is the target for a cycled aquarium.',warn:'⚠️ Detectable nitrite can harm fish. Dose conditioner, increase aeration, and re-test soon.',bad:'❌ Toxic nitrite. Do a large water change, add aeration, and treat this as a cycling emergency.'}},
-  {k:'nit3', lbl:'Nitrate (NO₃)', unit:'ppm', min:0, max:160, step:5, def:10, weight:1, safe:[0,20], warn:[[20,40]], tips:{good:'✅ Nitrate is well controlled.',warn:'⚠️ Elevated nitrate. Increase water change frequency and check stocking/feeding.',bad:'❌ Very high nitrate. Do a partial water change, repeat gradually if needed, and reduce waste buildup.'}},
-  {k:'temp', lbl:'Temperature', unit:'°F', min:60, max:95, step:1, def:78, weight:1.5, safe:[72,82], warn:[[65,72],[82,86]], tips:{good:'✅ Temperature is in a typical tropical community range.',warn:'⚠️ Outside the general range. Adjust gradually and check the target for your species.',bad:'❌ Dangerous temperature. Correct slowly; rapid temperature changes can shock fish.'}},
-  {k:'gh', lbl:'Hardness (GH)', unit:'dGH', min:0, max:30, step:1, def:8, weight:.75, safe:[4,12], warn:[[2,4],[12,20]], tips:{good:'✅ Water hardness is suitable for many freshwater community fish.',warn:'⚠️ Slightly outside the general range. Species such as mollies, discus, and soft-water fish need more specific targets.',bad:'❌ Extreme hardness or softness. Research your species before changing GH, and adjust gradually.'}},
+  {k:'ph', lbl:'pH', unit:'', min:0, max:14, step:.1, def:7.0, weight:1, safe:[6.5,7.5], warn:[[6.0,6.5],[7.5,8.0]], crit:[5.5,9.5], tips:{good:'✅ pH is ideal for many community tropical fish.',warn:'⚠️ Slightly off. Adjust gradually — sudden pH swings are more dangerous than a stable imperfect number.',bad:'❌ Critical pH. Do not chase numbers quickly; stabilize slowly and verify your test result.'}},
+  {k:'amm', lbl:'Ammonia (NH₃/NH₄)', unit:'ppm', min:0, max:8, step:.25, def:0, weight:3, safe:[0,0], warn:[[0.001,0.25]], crit:[0,1.5], tips:{good:'✅ Ammonia is 0 ppm, which is the target for a cycled aquarium.',warn:'⚠️ Any detectable ammonia is a warning. Do a partial water change, dose conditioner, and re-test.',bad:'❌ Dangerous ammonia. Stop feeding, do a 50% water change with dechlorinated temperature-matched water, and check the cycle.'}},
+  {k:'nit2', lbl:'Nitrite (NO₂)', unit:'ppm', min:0, max:5, step:.1, def:0, weight:3, safe:[0,0], warn:[[0.001,0.25]], crit:[0,1], tips:{good:'✅ Nitrite is 0 ppm, which is the target for a cycled aquarium.',warn:'⚠️ Detectable nitrite can harm fish. Dose conditioner, increase aeration, and re-test soon.',bad:'❌ Toxic nitrite. Do a large water change, add aeration, and treat this as a cycling emergency.'}},
+  {k:'nit3', lbl:'Nitrate (NO₃)', unit:'ppm', min:0, max:160, step:5, def:10, weight:1, safe:[0,20], warn:[[20,40]], crit:[0,80], tips:{good:'✅ Nitrate is well controlled.',warn:'⚠️ Elevated nitrate. Increase water change frequency and check stocking/feeding.',bad:'❌ Very high nitrate. Do a partial water change, repeat gradually if needed, and reduce waste buildup.'}},
+  {k:'temp', lbl:'Temperature', unit:'°F', min:60, max:95, step:1, def:78, weight:1.5, safe:[72,82], warn:[[65,72],[82,86]], crit:[64,90], tips:{good:'✅ Temperature is in a typical tropical community range.',warn:'⚠️ Outside the general range. Adjust gradually and check the target for your species.',bad:'❌ Dangerous temperature. Correct slowly; rapid temperature changes can shock fish.'}},
+  {k:'gh', lbl:'Hardness (GH)', unit:'dGH', min:0, max:30, step:1, def:8, weight:.75, safe:[4,12], warn:[[2,4],[12,20]], crit:[1,25], tips:{good:'✅ Water hardness is suitable for many freshwater community fish.',warn:'⚠️ Slightly outside the general range. Species such as mollies, discus, and soft-water fish need more specific targets.',bad:'❌ Extreme hardness or softness. Research your species before changing GH, and adjust gradually.'}},
 ];
 
 let calcVals = {};
@@ -675,6 +691,7 @@ PARAMS.forEach(p => calcVals[p.k] = p.def);
 function getStatus(p, v) {
   if(v >= p.safe[0] && v <= p.safe[1]) return 'good';
   for(const [a,b] of p.warn) if(v >= a && v <= b) return 'warn';
+  if(v < p.crit[0] || v > p.crit[1]) return 'crit';
   return 'bad';
 }
 
@@ -694,15 +711,33 @@ function setCalcVal(k, raw) {
 }
 
 function calcScore() {
-  const weighted = PARAMS.reduce((s,p) => {
-    const st = getStatus(p, +calcVals[p.k]);
-    return s + (st==='good'?100:st==='warn'?45:0) * p.weight;
-  }, 0);
+  const st = {};
+  PARAMS.forEach(p => st[p.k] = getStatus(p, +calcVals[p.k]));
+  const PTS = {good:100, warn:45, bad:15, crit:0};
+  const weighted = PARAMS.reduce((s,p) => s + PTS[st[p.k]] * p.weight, 0);
   const totalWeight = PARAMS.reduce((s,p) => s + p.weight, 0);
   let score = Math.round(weighted / totalWeight);
-  if(getStatus(PARAMS.find(p=>p.k==='amm'), +calcVals.amm)==='bad' || getStatus(PARAMS.find(p=>p.k==='nit2'), +calcVals.nit2)==='bad') score = Math.min(score, 45);
-  if(getStatus(PARAMS.find(p=>p.k==='amm'), +calcVals.amm)==='warn' || getStatus(PARAMS.find(p=>p.k==='nit2'), +calcVals.nit2)==='warn') score = Math.min(score, 75);
-  return score;
+
+  // Danger readings cap the overall grade. Without this a single lethal value only
+  // cost its own weight, so pH 14 or 160 ppm nitrate still came back "Excellent".
+  const any = v => PARAMS.some(p => st[p.k] === v);
+  if(any('warn')) score = Math.min(score, 85);   // never "Excellent" with a warning
+  if(any('bad'))  score = Math.min(score, 60);   // never green with a danger reading
+  if(any('crit')) score = Math.min(score, 40);   // life-threatening -> "Poor"
+  if(st.amm === 'warn' || st.nit2 === 'warn') score = Math.min(score, 75);
+  if(st.amm === 'bad'  || st.nit2 === 'bad')  score = Math.min(score, 45);
+  if(st.amm === 'crit' || st.nit2 === 'crit') score = Math.min(score, 30);
+  return Math.max(0, score);
+}
+
+function countByStatus() {
+  let danger = 0, warning = 0;
+  PARAMS.forEach(p => {
+    const s = getStatus(p, +calcVals[p.k]);
+    if(s === 'bad' || s === 'crit') danger++;
+    else if(s === 'warn') warning++;
+  });
+  return {danger, warning};
 }
 
 function showCalcResult() {
@@ -711,14 +746,20 @@ function showCalcResult() {
   const rows = PARAMS.map(p => {
     const st = getStatus(p, +calcVals[p.k]);
     const cls = st==='good'?'bgood':st==='warn'?'bwarn':'bdng';
-    const lbl = st==='good'?'✅ Good':st==='warn'?'⚠️ Warning':'❌ Danger';
-    return `<div class="prow"><span class="plb">${p.lbl}</span><span class="pv">${calcVals[p.k]}${p.unit}</span><span class="bdg ${cls}">${lbl}</span></div>${st!=='good'?`<p style="font-size:.77rem;color:rgba(255,255,255,.65);padding:3px 0 6px;margin:0">${p.tips[st]}</p>`:''}`;
+    const lbl = st==='good'?'✅ Good':st==='warn'?'⚠️ Warning':st==='crit'?'❌ Critical':'❌ Danger';
+    return `<div class="prow"><span class="plb">${p.lbl}</span><span class="pv">${calcVals[p.k]}${p.unit}</span><span class="bdg ${cls}">${lbl}</span></div>${st!=='good'?`<p style="font-size:.77rem;color:rgba(255,255,255,.65);padding:3px 0 6px;margin:0">${st==='crit'?'🚨 Life-threatening reading. ':''}${p.tips[st==='crit'?'bad':st]}</p>`:''}`;
   }).join('');
   const warn = score<70?`<div style="margin-top:12px;padding:13px 16px;background:rgba(231,76,60,.1);border-radius:8px;border:1px solid rgba(231,76,60,.3)"><strong style="color:#E74C3C">⚠️ Immediate Action Needed</strong><p style="font-size:.83rem;margin:4px 0 0;color:rgba(255,255,255,.7)">One or more parameters are at dangerous levels. Perform a 25–50% water change immediately using dechlorinated water at the same temperature.</p></div>`:''
+  const tally = countByStatus();
+  const flags = [
+    tally.danger?`${tally.danger} parameter${tally.danger>1?'s':''} in the danger zone`:'',
+    tally.warning?`${tally.warning} warning${tally.warning>1?'s':''}`:''
+  ].filter(Boolean).join(' · ');
   document.getElementById('calc-result').innerHTML = `
     <div style="background:${info.c};border-radius:12px;padding:22px;text-align:center;margin-bottom:16px">
       <div style="font-size:2.4rem;font-weight:700;color:#fff">${score}/100</div>
       <div style="color:rgba(255,255,255,.85);font-size:.95rem">Overall Health: ${info.l}</div>
+      ${flags?`<div style="margin-top:8px;display:inline-block;background:rgba(0,0,0,.28);border-radius:999px;padding:4px 13px;color:#fff;font-size:.8rem;font-weight:600">${tally.danger?'❌':'⚠️'} ${flags}</div>`:''}
     </div>
     <div style="background:rgba(255,255,255,.06);border-radius:12px;padding:16px">
       <h4 style="margin-bottom:10px;color:#fff;font-size:.95rem">📋 Parameter Results</h4>${rows}

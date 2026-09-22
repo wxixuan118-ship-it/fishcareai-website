@@ -379,10 +379,12 @@ legend{font-weight:600;font-size:.86rem;margin-bottom:6px;color:#fff}
   <div class="nlinks" id="nlinks">
     <a title="Home" class="nl" href="/">Home</a>
     <a title="Guides" class="nl" href="/guides/">Guides</a>
-    <a title="Aquarium Encyclopedia" class="nl" href="/species">Encyclopedia</a>
-    <a title="Fish Health" class="nl" href="/fish-health/">Fish Health</a>
-    <a title="Tools" class="nl act" href="/tools/">Tools</a>
-    <a title="About Us" class="nl" href="/about/">About Us</a>
+    <a title="Tools" class="nl act" href="/tools/" aria-current="page">Tools</a>
+    <a title="Encyclopedia" class="nl" href="/wiki/">Encyclopedia</a>
+    <a title="Fish Diseases" class="nl" href="/aquarium-fish-diseases/">Fish Diseases</a>
+    <a title="Fish Identification" class="nl" href="/identify/">Fish Identification</a>
+    <a title="About" class="nl" href="/about/">About</a>
+    <a title="📱 App" class="nl nl-app-btn" href="/app/">📱 App</a>
   </div>
   <button class="hbg" type="button" onclick="document.getElementById('nlinks').classList.toggle('open')" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
 </nav>
@@ -397,6 +399,7 @@ legend{font-weight:600;font-size:.86rem;margin-bottom:6px;color:#fff}
   <a href="/tools/aquarium-substrate-calculator/" class="tnav-btn">🪨 Substrate</a>
 </nav>
 
+<main id="main">
 <!-- HERO -->
 <section class="phero">
   <div class="phero-inner">
@@ -742,6 +745,8 @@ legend{font-weight:600;font-size:.86rem;margin-bottom:6px;color:#fff}
     </div>
   </div>
 </section>
+
+</main>
 
 <!-- FOOTER -->
 <footer class="ft" id="site-footer">
@@ -1223,12 +1228,39 @@ legend{font-weight:600;font-size:.86rem;margin-bottom:6px;color:#fff}
     if (e.key === 'Enter') { e.preventDefault(); addFish(); }
   });
 
+  // Keep the box and the maths in sync. The old code only committed values >= 1,
+  // so typing 0 left "0" on screen while the result kept using the previous count.
+  // quiet = a sweep, not a keystroke: it may add a message but must not wipe one
+  function commitCount(inp, writeBack, quiet) {
+    var row = stock[Number(inp.getAttribute('data-idx'))];
+    if (!row) return;
+    var c = read(inp);
+    if (!c.valid || c.value < 1) {
+      if (!writeBack) {                     // mid-typing - warn, but don't fight the caret
+        els.empty.textContent = c.empty ? '' : 'A species needs at least 1 fish. Use the × button to remove it from the tank.';
+        return;
+      }
+      row.count = 1;
+      inp.value = '1';
+      els.empty.textContent = 'A species needs at least 1 fish. Use the × button to remove it from the tank.';
+    } else {
+      var n = Math.min(200, Math.max(1, Math.round(c.value)));
+      row.count = n;
+      if (writeBack || n !== c.value) inp.value = String(n);
+      if (!quiet) els.empty.textContent = '';
+    }
+    calculate();
+  }
+
   els.list.addEventListener('input', function (e) {
     var inp = e.target.closest('input[data-idx]');
-    if (!inp) return;
-    var row = stock[Number(inp.getAttribute('data-idx'))];
-    var c = read(inp);
-    if (row && c.valid && c.value >= 1) { row.count = Math.min(200, Math.round(c.value)); calculate(); }
+    if (inp) commitCount(inp, false);
+  });
+
+  // change fires on blur / arrow keys / Enter - that is when we clamp and write back
+  els.list.addEventListener('change', function (e) {
+    var inp = e.target.closest('input[data-idx]');
+    if (inp) commitCount(inp, true);
   });
 
   els.list.addEventListener('click', function (e) {
@@ -1241,6 +1273,9 @@ legend{font-weight:600;font-size:.86rem;margin-bottom:6px;color:#fff}
 
   els.form.addEventListener('submit', function (e) {
     e.preventDefault();
+    Array.prototype.forEach.call(els.list.querySelectorAll('input[data-idx]'), function (inp) {
+      commitCount(inp, true, true);
+    });
     calculate();
     els.result.focus();
   });

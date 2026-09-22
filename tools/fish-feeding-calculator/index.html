@@ -298,10 +298,12 @@ p:last-child{margin-bottom:0}
   <div class="nlinks" id="nlinks">
     <a title="Home" class="nl" href="/">Home</a>
     <a title="Guides" class="nl" href="/guides/">Guides</a>
-    <a title="Aquarium Encyclopedia" class="nl" href="/species">Encyclopedia</a>
-    <a title="Fish Health" class="nl" href="/fish-health/">Fish Health</a>
-    <a title="Tools" class="nl act" href="/tools/">Tools</a>
-    <a title="About Us" class="nl" href="/about/">About</a>
+    <a title="Tools" class="nl act" href="/tools/" aria-current="page">Tools</a>
+    <a title="Encyclopedia" class="nl" href="/wiki/">Encyclopedia</a>
+    <a title="Fish Diseases" class="nl" href="/aquarium-fish-diseases/">Fish Diseases</a>
+    <a title="Fish Identification" class="nl" href="/identify/">Fish Identification</a>
+    <a title="About" class="nl" href="/about/">About</a>
+    <a title="📱 App" class="nl nl-app-btn" href="/app/">📱 App</a>
   </div>
   <button class="hbg" id="menu-btn" type="button" aria-label="Open navigation menu" onclick="document.getElementById('nlinks').classList.toggle('open')">
     <span></span><span></span><span></span>
@@ -320,6 +322,7 @@ p:last-child{margin-bottom:0}
   <a href="/tools/aquarium-substrate-calculator/" class="tnav-btn">🪨 Substrate</a>
 </nav>
 
+<main id="main">
 <!-- BREADCRUMB -->
 <div style="background:#071122;padding:0 22px">
   <div class="con breadcrumb">
@@ -369,7 +372,8 @@ p:last-child{margin-bottom:0}
         </div>
         <div class="fg">
           <label for="fish-count">Number of Fish</label>
-          <input id="fish-count" type="number" min="1" max="80" value="1" onchange="setFeedingVal('count', this.value)" oninput="setFeedingVal('count', this.value)" placeholder="e.g. 6"/>
+          <input id="fish-count" type="number" min="1" max="80" value="1" aria-describedby="fish-count-hint" onchange="setFeedingVal('count', this.value, true)" oninput="setFeedingVal('count', this.value)" placeholder="e.g. 6"/>
+          <p id="fish-count-hint" role="status" aria-live="polite" style="margin:5px 0 0;font-size:.78rem;color:rgba(255,255,255,.6);min-height:1em"></p>
         </div>
         <div class="fg">
           <label for="meals-select">Meals Per Day</label>
@@ -687,6 +691,8 @@ p:last-child{margin-bottom:0}
   </div>
 </section>
 
+</main>
+
 <!-- FOOTER -->
 <footer class="ft">
   <div class="con">
@@ -770,16 +776,50 @@ const FISH_PROFILES = {
 // ═══════════════════════════════
 let feedingVals = {fish:'betta', count:1, meals:2};
 
-function setFeedingVal(k, v) {
-  feedingVals[k] = (k === 'count' || k === 'meals') ? Math.max(1, Number(v) || 1) : v;
+// The count box is clamped to 1-80. Clamping silently used to leave the input
+// showing 0 (or 99999) while the plan was calculated from a different number,
+// so on commit we write the clamped value back and say why.
+const FISH_COUNT_MIN = 1, FISH_COUNT_MAX = 80;
+
+function setFeedingVal(k, v, commit) {
+  if (k !== 'count' && k !== 'meals') { feedingVals[k] = v; return; }
+
+  const raw = String(v).trim();
+  const n = Number(raw);
+  const hint = k === 'count' ? document.getElementById('fish-count-hint') : null;
+
+  if (raw === '' || !Number.isFinite(n)) {
+    if (hint) hint.textContent = commit ? 'Enter a number between 1 and 80.' : '';
+    if (commit) { feedingVals[k] = FISH_COUNT_MIN; if (k === 'count') setFishCountBox(FISH_COUNT_MIN); }
+    return;
+  }
+
+  const clamped = Math.min(FISH_COUNT_MAX, Math.max(FISH_COUNT_MIN, Math.round(n)));
+  feedingVals[k] = k === 'meals' ? Math.max(1, Math.round(n) || 1) : clamped;
+
+  if (hint) {
+    hint.textContent = clamped !== n
+      ? (n < FISH_COUNT_MIN ? 'At least 1 fish — set to 1.' : n > FISH_COUNT_MAX
+          ? 'This calculator tops out at 80 fish — set to 80.'
+          : 'Rounded to ' + clamped + ' fish.')
+      : '';
+    if (commit && clamped !== n) setFishCountBox(clamped);
+  }
+}
+
+function setFishCountBox(n) {
+  const el = document.getElementById('fish-count');
+  if (el && Number(el.value) !== n) el.value = String(n);
 }
 
 // ═══════════════════════════════
 // CALCULATE + RENDER
 // ═══════════════════════════════
 function showFeedingResult() {
+  const box = document.getElementById('fish-count');
+  if (box) setFeedingVal('count', box.value, true);
   const f = FISH_PROFILES[feedingVals.fish] || FISH_PROFILES.betta;
-  const count = Math.max(1, Number(feedingVals.count) || 1);
+  const count = Math.min(FISH_COUNT_MAX, Math.max(FISH_COUNT_MIN, Number(feedingVals.count) || FISH_COUNT_MIN));
   const meals = Math.max(1, Number(feedingVals.meals) || 1);
 
   // Seconds formula: scale by adult size, count, activity, split by meals, clamp 30–180
