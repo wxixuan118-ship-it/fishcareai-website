@@ -298,10 +298,12 @@ input.fc:focus,select.fc:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(2
   <div class="nlinks" id="nlinks">
     <a title="Home" class="nl" href="/">Home</a>
     <a title="Guides" class="nl" href="/guides/">Guides</a>
-    <a title="Aquarium Encyclopedia" class="nl" href="/species">Encyclopedia</a>
-    <a title="Fish Health" class="nl" href="/fish-health/">Fish Health</a>
-    <a title="Tools" class="nl act" href="/tools/">Tools</a>
-    <a title="About Us" class="nl" href="/about/">About Us</a>
+    <a title="Tools" class="nl act" href="/tools/" aria-current="page">Tools</a>
+    <a title="Encyclopedia" class="nl" href="/wiki/">Encyclopedia</a>
+    <a title="Fish Diseases" class="nl" href="/aquarium-fish-diseases/">Fish Diseases</a>
+    <a title="Fish Identification" class="nl" href="/identify/">Fish Identification</a>
+    <a title="About" class="nl" href="/about/">About</a>
+    <a title="📱 App" class="nl nl-app-btn" href="/app/">📱 App</a>
   </div>
   <button class="hbg" type="button" onclick="document.getElementById('nlinks').classList.toggle('open')" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
 </nav>
@@ -317,6 +319,7 @@ input.fc:focus,select.fc:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(2
 </nav>
 
 
+<main id="main">
 <!-- HERO -->
 <section class="phero">
   <div class="phero-inner">
@@ -603,6 +606,8 @@ input.fc:focus,select.fc:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(2
     </div>
   </div>
 </section>
+
+</main>
 
 <!-- FOOTER -->
 <footer class="ft" id="site-footer">

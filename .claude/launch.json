@@ -1,6 +1,13 @@
 {
   "version": "0.0.1",
   "configurations": [
-    { "name": "fishcare-static", "runtimeExecutable": "python3", "runtimeArgs": ["-m", "http.server", "4173"], "port": 4173 }
+    {
+      "name": "fishcare-static",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "scripts/dev-server.mjs"
+      ],
+      "port": 4173
+    }
   ]
 }

@@ -27,7 +27,7 @@
   "url": "https://www.fishcareai.com/tools/fish-compatibility-checker/",
   "applicationCategory": "UtilityApplication",
   "operatingSystem": "Any",
-  "description": "Check 20+ aquarium species in pairs for aggression, pH, temperature and compatibility results with plain-English reasons.",
+  "description": "Check 20+ aquarium species in pairs for coldwater/tropical type, pH and temperature overlap, aggression and predation, with plain-English reasons.",
   "offers": {
     "@type": "Offer",
     "price": "0",
@@ -57,17 +57,17 @@
     {
       "@type":"Question",
       "name":"How do I use the fish compatibility checker?",
-      "acceptedAnswer":{"@type":"Answer","text":"Simply search for a fish by name or click one of the quick-select buttons to add it to your list. Add at least two fish, then click \"Check Compatibility\" to instantly see whether each pair can safely share a tank based on aggression level, pH range, and temperature overlap."}
+      "acceptedAnswer":{"@type":"Answer","text":"Simply search for a fish by name or click one of the quick-select buttons to add it to your list. Add at least two fish, then click \"Check Compatibility\" to instantly see whether each pair can safely share a tank based on coldwater-versus-tropical type, pH and temperature overlap, aggression level, and predator/prey size difference."}
     },
     {
       "@type":"Question",
       "name":"What fish can live with bettas?",
-      "acceptedAnswer":{"@type":"Answer","text":"Betta fish are highly territorial and aggressive toward most tankmates, especially other bettas or fish with flowing fins. Our tool marks all betta pairings as incompatible. In practice, some aquarists keep bettas with fast bottom dwellers like corydoras in larger tanks with ample hiding spots, but it carries risk and requires careful monitoring."}
+      "acceptedAnswer":{"@type":"Answer","text":"Betta fish are highly territorial and aggressive toward most tankmates, especially other bettas or fish with flowing fins. Our tool marks betta pairings as incompatible by default, with one exception: quiet bottom dwellers with no flowing fins — corydoras, kuhli loaches and bristlenose plecos — come back as Use Caution instead, because many aquarists do keep them with a betta in a 10-gallon or larger tank with ample hiding spots. It still carries risk and requires careful monitoring."}
     },
     {
       "@type":"Question",
       "name":"What does \"Use Caution\" mean in compatibility results?",
-      "acceptedAnswer":{"@type":"Answer","text":"\"Use Caution\" means the two fish have compatible water parameters (pH and temperature ranges overlap) but one or both fish has a medium-to-high aggression level. They may coexist but you should provide plenty of hiding spots, monitor for bullying behavior, and be prepared to separate them if necessary."}
+      "acceptedAnswer":{"@type":"Answer","text":"\"Use Caution\" means the pairing is workable but has one specific catch: a medium-to-high aggression level, one fish big enough to eat the other, or a temperature or pH window that only partly overlaps. The result names which one applies. They may coexist, but you should hold the stated water range, provide plenty of hiding spots, monitor for bullying, and be prepared to separate them if necessary."}
     },
     {
       "@type":"Question",
@@ -287,6 +287,7 @@ details[open] .cp-summary::after{transform:rotate(90deg)}
 }
 </style>
 <script defer src="/assets/tool-related-recommendations.js?v=20260908-koi"></script>
+<script defer src="/assets/site-compliance.js?v=20260824-dark-fix"></script>
 </head>
 <body>
 
@@ -296,10 +297,12 @@ details[open] .cp-summary::after{transform:rotate(90deg)}
   <div class="nlinks" id="nlinks">
     <a title="Home" class="nl" href="/">Home</a>
     <a title="Guides" class="nl" href="/guides/">Guides</a>
-    <a title="Aquarium Encyclopedia" class="nl" href="/species">Encyclopedia</a>
-    <a title="Fish Health" class="nl" href="/fish-health/">Fish Health</a>
-    <a title="Tools" class="nl act" href="/tools/">Tools</a>
-    <a title="About Us" class="nl" href="/about/">About Us</a>
+    <a title="Tools" class="nl act" href="/tools/" aria-current="page">Tools</a>
+    <a title="Encyclopedia" class="nl" href="/wiki/">Encyclopedia</a>
+    <a title="Fish Diseases" class="nl" href="/aquarium-fish-diseases/">Fish Diseases</a>
+    <a title="Fish Identification" class="nl" href="/identify/">Fish Identification</a>
+    <a title="About" class="nl" href="/about/">About</a>
+    <a title="📱 App" class="nl nl-app-btn" href="/app/">📱 App</a>
   </div>
   <button class="hbg" type="button" onclick="document.getElementById('nlinks').classList.toggle('open')" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
 </nav>
@@ -313,7 +316,6 @@ details[open] .cp-summary::after{transform:rotate(90deg)}
   <a href="/tools/aquarium-equipment-calculator/" class="tnav-btn">⚙️ Equipment</a>
   <a href="/tools/aquarium-substrate-calculator/" class="tnav-btn">🪨 Substrate</a>
 </nav>
-
 
 <main id="main">
 <!-- Hero -->
@@ -404,21 +406,21 @@ details[open] .cp-summary::after{transform:rotate(90deg)}
         <span class="rk-icon">✅</span>
         <div>
           <h3>Compatible</h3>
-          <p>Both fish share overlapping pH and temperature ranges and neither has a high aggression rating. They should coexist peacefully given proper tank size, plants, and hiding spaces.</p>
+          <p>Their pH and temperature ranges overlap comfortably — not just by a sliver — and neither fish is aggressive toward or large enough to eat the other. They should coexist peacefully given proper tank size, plants, and hiding spaces.</p>
         </div>
       </div>
       <div class="rk-card warn">
         <span class="rk-icon">⚠️</span>
         <div>
           <h3>Use Caution</h3>
-          <p>Water parameters overlap, but one or both fish has an elevated aggression level. Housing them together may work in a larger tank with ample territory, but monitor closely for bullying.</p>
+          <p>Workable, but with a condition attached: a medium or high aggression level, a size difference big enough for predation, or a temperature/pH window that only partly overlaps. These pairs often succeed in a larger, well-planted tank — read the reason we give and monitor closely.</p>
         </div>
       </div>
       <div class="rk-card bad">
         <span class="rk-icon">❌</span>
         <div>
           <h3>Not Compatible</h3>
-          <p>The fish have incompatible pH or temperature ranges, or one species (like Betta) is too aggressive for any shared tank. Housing these together risks chronic stress or injury.</p>
+          <p>A coldwater fish paired with a tropical one, pH or temperature ranges that barely meet (or not at all), or a betta with anything it will attack. Housing these together risks chronic stress or injury.</p>
         </div>
       </div>
     </div>
@@ -435,7 +437,7 @@ details[open] .cp-summary::after{transform:rotate(90deg)}
       <article class="seo-card">
         <h2><span class="ci">🔬</span> What Is a Fish Compatibility Checker?</h2>
         <p>A <strong>fish compatibility checker</strong> is an online tool that tells you whether two or more aquarium fish species can safely share the same tank. Rather than guessing or spending hours reading forum posts, you simply select your fish and get an instant answer backed by species data.</p>
-        <p>Our <strong>aquarium fish compatibility checker</strong> evaluates three core factors: aggression level (low, medium, or high), pH range overlap, and temperature range overlap. If any of these factors create an unsafe mismatch, the tool flags the pairing as incompatible or caution-worthy.</p>
+        <p>Our <strong>aquarium fish compatibility checker</strong> evaluates five factors: coldwater versus tropical temperature type, how much of each species' temperature range is genuinely shared, the same for pH, aggression level (low, medium, or high), and whether one fish is large enough to eat the other. A sliver of overlap is not treated as a match — the shared window has to cover a real part of the narrower fish's range.</p>
         <p>This is especially valuable for beginner fishkeepers who may not yet know that a guppy's preferred pH range is very different from that of a Discus, or that a Betta fish will attack almost any other species it perceives as a rival — including its own reflection.</p>
       </article>
 
@@ -465,9 +467,9 @@ details[open] .cp-summary::after{transform:rotate(90deg)}
       <article class="seo-card">
         <h2><span class="ci">📊</span> Understanding Compatibility Results</h2>
         <p>The three result categories each mean something specific and actionable:</p>
-        <p><strong>Compatible (✅):</strong> The fish share compatible water parameters and neither has a high aggression rating. This is the green light to stock them together, provided your tank is appropriately sized. Remember that even compatible fish need sufficient space so territories don't overlap.</p>
-        <p><strong>Use Caution (⚠️):</strong> Water parameters overlap but one fish has a medium-to-high aggression level. Many experienced fishkeepers successfully keep these pairs in spacious, well-planted tanks. The key is providing multiple hiding spots and monitoring behavior during the first two weeks.</p>
-        <p><strong>Not Compatible (❌):</strong> One or more critical factors — pH range, temperature range, or species aggression (e.g., Betta Fish) — make cohabitation unsafe. Forcing these fish together is likely to result in injury, disease, or death. Choose an alternative species instead.</p>
+        <p><strong>Compatible (✅):</strong> The fish share a solid band of pH and temperature, and neither is aggressive or predatory toward the other. This is the green light to stock them together, provided your tank is appropriately sized. Remember that even compatible fish need sufficient space so territories don't overlap.</p>
+        <p><strong>Use Caution (⚠️):</strong> One thing stands in the way — a medium-to-high aggression level, a predator/prey size gap, or a narrow shared temperature or pH window. Many experienced fishkeepers keep these pairs successfully in spacious, well-planted tanks. The result tells you which factor triggered the warning; hold the stated water range, provide multiple hiding spots, and watch behaviour for the first two weeks.</p>
+        <p><strong>Not Compatible (❌):</strong> One or more critical factors — a coldwater/tropical mismatch, pH or temperature ranges that barely meet, or betta territoriality — make cohabitation unsafe. Forcing these fish together is likely to result in injury, disease, or death. Choose an alternative species instead.</p>
       </article>
 
       <!-- Card 5 -->
@@ -507,17 +509,17 @@ details[open] .cp-summary::after{transform:rotate(90deg)}
 
       <details class="faq-item">
         <summary>How do I use the fish compatibility checker?</summary>
-        <div class="faq-ans">Simply search for a fish by name or click one of the quick-select buttons to add it to your list. Add at least two fish, then click "Check Compatibility" to instantly see whether each pair can safely share a tank based on aggression level, pH range, and temperature overlap.</div>
+        <div class="faq-ans">Simply search for a fish by name or click one of the quick-select buttons to add it to your list. Add at least two fish, then click "Check Compatibility" to instantly see whether each pair can safely share a tank based on coldwater-versus-tropical type, pH and temperature overlap, aggression level, and predator/prey size difference.</div>
       </details>
 
       <details class="faq-item">
         <summary>What fish can live with bettas?</summary>
-        <div class="faq-ans">Betta fish are highly territorial and aggressive toward most tankmates, especially other bettas or fish with flowing fins. Our tool marks all betta pairings as incompatible. In practice, some aquarists keep bettas with fast bottom dwellers like corydoras in larger tanks with ample hiding spots, but it carries risk and requires careful monitoring. See our <a href="/guides/betta-fish-care/" style="color:var(--p)">Betta Fish Care Guide</a> for more detail.</div>
+        <div class="faq-ans">Betta fish are highly territorial and aggressive toward most tankmates, especially other bettas or fish with flowing fins. Our tool marks betta pairings as incompatible by default, with one exception: quiet bottom dwellers with no flowing fins — corydoras, kuhli loaches and bristlenose plecos — come back as Use Caution instead, because many aquarists do keep them with a betta in a 10-gallon or larger tank with ample hiding spots. It still carries risk and requires careful monitoring. See our <a href="/guides/betta-fish-care/" style="color:var(--p)">Betta Fish Care Guide</a> for more detail.</div>
       </details>
 
       <details class="faq-item">
         <summary>What does "Use Caution" mean in compatibility results?</summary>
-        <div class="faq-ans">"Use Caution" means the two fish have compatible water parameters (pH and temperature ranges overlap) but one or both fish has a medium-to-high aggression level. They may coexist but you should provide plenty of hiding spots, monitor for bullying behavior, and be prepared to separate them if necessary.</div>
+        <div class="faq-ans">"Use Caution" means the pairing is workable but has one specific catch: a medium-to-high aggression level, one fish big enough to eat the other, or a temperature or pH window that only partly overlaps. The result names which one applies. They may coexist, but you should hold the stated water range, provide plenty of hiding spots, monitor for bullying, and be prepared to separate them if necessary.</div>
       </details>
 
       <details class="faq-item">
@@ -2572,26 +2574,26 @@ details[open] .cp-summary::after{transform:rotate(90deg)}
 
 <script>
 const FISH_DB = [
-  {id:1,name:'Betta Fish',e:'🐟',agg:'high',minPH:6.0,maxPH:7.5,minT:76,maxT:82,sz:'small',care:'Beginner',desc:'Colorful and territorial'},
-  {id:2,name:'Guppy',e:'🐠',agg:'low',minPH:6.8,maxPH:7.8,minT:72,maxT:82,sz:'small',care:'Beginner',desc:'Hardy colorful livebearers'},
-  {id:3,name:'Neon Tetra',e:'🐡',agg:'low',minPH:6.0,maxPH:7.0,minT:70,maxT:81,sz:'small',care:'Beginner',desc:'Neon-colored schooling fish'},
-  {id:4,name:'Goldfish',e:'🐟',agg:'low',minPH:6.5,maxPH:7.5,minT:65,maxT:75,sz:'large',care:'Beginner',desc:'Classic, needs cool water'},
-  {id:5,name:'Angelfish',e:'🐠',agg:'medium',minPH:6.0,maxPH:7.5,minT:75,maxT:82,sz:'large',care:'Intermediate',desc:'Elegant, semi-aggressive'},
-  {id:6,name:'Corydoras Catfish',e:'🐡',agg:'low',minPH:6.0,maxPH:8.0,minT:72,maxT:80,sz:'small',care:'Beginner',desc:'Bottom dwellers, great cleaners'},
-  {id:7,name:'Platy',e:'🐟',agg:'low',minPH:7.0,maxPH:8.2,minT:70,maxT:82,sz:'small',care:'Beginner',desc:'Peaceful livebearers'},
-  {id:8,name:'Molly',e:'🐠',agg:'low',minPH:7.5,maxPH:8.5,minT:70,maxT:82,sz:'small',care:'Beginner',desc:'Adaptable and peaceful'},
-  {id:9,name:'Zebra Danio',e:'🐡',agg:'low',minPH:6.5,maxPH:7.0,minT:65,maxT:77,sz:'small',care:'Beginner',desc:'Fast, active schooling fish'},
-  {id:10,name:'Cherry Barb',e:'🐟',agg:'low',minPH:6.0,maxPH:7.5,minT:73,maxT:81,sz:'small',care:'Beginner',desc:'Peaceful, vibrant red'},
-  {id:11,name:'Tiger Barb',e:'🐠',agg:'medium',minPH:6.0,maxPH:7.5,minT:72,maxT:82,sz:'small',care:'Beginner',desc:'Fin nippers, keep in schools'},
-  {id:12,name:'Swordtail',e:'🐡',agg:'low',minPH:7.0,maxPH:8.0,minT:72,maxT:82,sz:'medium',care:'Beginner',desc:'Distinctive tail, peaceful'},
-  {id:13,name:'Dwarf Gourami',e:'🐟',agg:'low',minPH:6.0,maxPH:7.5,minT:72,maxT:82,sz:'small',care:'Beginner',desc:'Colorful and peaceful'},
-  {id:14,name:'Harlequin Rasbora',e:'🐠',agg:'low',minPH:6.0,maxPH:7.5,minT:72,maxT:80,sz:'small',care:'Beginner',desc:'Peaceful schooling fish'},
-  {id:15,name:'Bristlenose Pleco',e:'🐡',agg:'low',minPH:6.0,maxPH:7.5,minT:73,maxT:81,sz:'medium',care:'Beginner',desc:'Algae eater, stays small'},
-  {id:16,name:'Oscar Fish',e:'🐟',agg:'high',minPH:6.0,maxPH:8.0,minT:74,maxT:81,sz:'large',care:'Intermediate',desc:'Intelligent but aggressive'},
-  {id:17,name:'Discus',e:'🐠',agg:'low',minPH:6.0,maxPH:7.0,minT:82,maxT:88,sz:'large',care:'Expert',desc:'Show fish, pristine water'},
-  {id:18,name:'Kuhli Loach',e:'🐡',agg:'low',minPH:5.5,maxPH:7.0,minT:75,maxT:86,sz:'small',care:'Beginner',desc:'Eel-like, peaceful scavengers'},
-  {id:19,name:'Endler Livebearer',e:'🐟',agg:'low',minPH:7.0,maxPH:8.0,minT:72,maxT:84,sz:'small',care:'Beginner',desc:'Similar to guppies, tiny'},
-  {id:20,name:'Rainbow Fish',e:'🐠',agg:'low',minPH:7.0,maxPH:8.0,minT:72,maxT:80,sz:'medium',care:'Beginner',desc:'Shimmering colors, active'},
+  {id:1,name:'Betta Fish',e:'🐟',agg:'high',minPH:6.0,maxPH:7.5,minT:76,maxT:82,sz:'small',care:'Beginner',clim:'tropical',desc:'Colorful and territorial'},
+  {id:2,name:'Guppy',e:'🐠',agg:'low',minPH:6.8,maxPH:7.8,minT:72,maxT:82,sz:'small',care:'Beginner',clim:'tropical',desc:'Hardy colorful livebearers'},
+  {id:3,name:'Neon Tetra',e:'🐡',agg:'low',minPH:6.0,maxPH:7.0,minT:70,maxT:81,sz:'small',care:'Beginner',clim:'tropical',desc:'Neon-colored schooling fish'},
+  {id:4,name:'Goldfish',e:'🐟',agg:'low',minPH:6.5,maxPH:7.5,minT:65,maxT:75,sz:'large',care:'Beginner',clim:'coldwater',desc:'Classic, needs cool water'},
+  {id:5,name:'Angelfish',e:'🐠',agg:'medium',minPH:6.0,maxPH:7.5,minT:75,maxT:82,sz:'large',care:'Intermediate',clim:'tropical',pred:true,desc:'Elegant, semi-aggressive'},
+  {id:6,name:'Corydoras Catfish',e:'🐡',agg:'low',minPH:6.0,maxPH:8.0,minT:72,maxT:80,sz:'small',care:'Beginner',clim:'tropical',bottom:true,desc:'Bottom dwellers, great cleaners'},
+  {id:7,name:'Platy',e:'🐟',agg:'low',minPH:7.0,maxPH:8.2,minT:70,maxT:82,sz:'small',care:'Beginner',clim:'tropical',desc:'Peaceful livebearers'},
+  {id:8,name:'Molly',e:'🐠',agg:'low',minPH:7.5,maxPH:8.5,minT:70,maxT:82,sz:'small',care:'Beginner',clim:'tropical',desc:'Adaptable and peaceful'},
+  {id:9,name:'Zebra Danio',e:'🐡',agg:'low',minPH:6.5,maxPH:7.0,minT:65,maxT:77,sz:'small',care:'Beginner',clim:'subtropical',desc:'Fast, active schooling fish'},
+  {id:10,name:'Cherry Barb',e:'🐟',agg:'low',minPH:6.0,maxPH:7.5,minT:73,maxT:81,sz:'small',care:'Beginner',clim:'tropical',desc:'Peaceful, vibrant red'},
+  {id:11,name:'Tiger Barb',e:'🐠',agg:'medium',minPH:6.0,maxPH:7.5,minT:72,maxT:82,sz:'small',care:'Beginner',clim:'tropical',desc:'Fin nippers, keep in schools'},
+  {id:12,name:'Swordtail',e:'🐡',agg:'low',minPH:7.0,maxPH:8.0,minT:72,maxT:82,sz:'medium',care:'Beginner',clim:'tropical',desc:'Distinctive tail, peaceful'},
+  {id:13,name:'Dwarf Gourami',e:'🐟',agg:'low',minPH:6.0,maxPH:7.5,minT:72,maxT:82,sz:'small',care:'Beginner',clim:'tropical',desc:'Colorful and peaceful'},
+  {id:14,name:'Harlequin Rasbora',e:'🐠',agg:'low',minPH:6.0,maxPH:7.5,minT:72,maxT:80,sz:'small',care:'Beginner',clim:'tropical',desc:'Peaceful schooling fish'},
+  {id:15,name:'Bristlenose Pleco',e:'🐡',agg:'low',minPH:6.0,maxPH:7.5,minT:73,maxT:81,sz:'medium',care:'Beginner',clim:'tropical',bottom:true,desc:'Algae eater, stays small'},
+  {id:16,name:'Oscar Fish',e:'🐟',agg:'high',minPH:6.0,maxPH:8.0,minT:74,maxT:81,sz:'large',care:'Intermediate',clim:'tropical',pred:true,desc:'Intelligent but aggressive'},
+  {id:17,name:'Discus',e:'🐠',agg:'low',minPH:6.0,maxPH:7.0,minT:82,maxT:88,sz:'large',care:'Expert',clim:'tropical',desc:'Show fish, pristine water'},
+  {id:18,name:'Kuhli Loach',e:'🐡',agg:'low',minPH:5.5,maxPH:7.0,minT:75,maxT:86,sz:'small',care:'Beginner',clim:'tropical',bottom:true,desc:'Eel-like, peaceful scavengers'},
+  {id:19,name:'Endler Livebearer',e:'🐟',agg:'low',minPH:7.0,maxPH:8.0,minT:72,maxT:84,sz:'small',care:'Beginner',clim:'tropical',desc:'Similar to guppies, tiny'},
+  {id:20,name:'Rainbow Fish',e:'🐠',agg:'low',minPH:7.0,maxPH:8.0,minT:72,maxT:80,sz:'medium',care:'Beginner',clim:'tropical',desc:'Shimmering colors, active'},
 ];
 
 let selectedFish = [];
@@ -2714,21 +2716,57 @@ function renderFishTags(){
   if(hint)hint.style.display=selectedFish.length<2?'':'none';
 }
 
+// Overlap quality: how much of the NARROWER range the two species actually share.
+// "Any overlap at all" used to count as a match, so a 5 degF sliver read as a perfect fit.
+function overlapScore(aMin,aMax,bMin,bMax){
+  const lo=Math.max(aMin,bMin), hi=Math.min(aMax,bMax);
+  const span=hi-lo;
+  if(span<=0) return 0;
+  const narrower=Math.min(aMax-aMin,bMax-bMin);
+  return narrower<=0?1:span/narrower;
+}
+const BETTA_SAFER=['Corydoras Catfish','Kuhli Loach','Bristlenose Pleco'];
+
 function checkCompat(list){
   const out=[];
   for(let i=0;i<list.length;i++) for(let j=i+1;j<list.length;j++){
     const a=list[i],b=list[j];
     let status,msg;
-    const phOk=Math.max(a.minPH,b.minPH)<=Math.min(a.maxPH,b.maxPH);
-    const tOk=Math.max(a.minT,b.minT)<=Math.min(a.maxT,b.maxT);
-    if(a.name==='Betta Fish'||b.name==='Betta Fish'){
-      status='bad';msg=`Betta Fish cannot share a tank with ${a.name==='Betta Fish'?b.name:a.name}. Bettas are highly territorial and will fight or stress out tankmates.`;
-    }else if(!phOk||!tOk){
-      status='bad';msg=`Incompatible ${!phOk?'pH ranges ':''}${!tOk?'temperature ranges':''}. These fish cannot safely share a tank.`;
-    }else if(a.agg==='high'||b.agg==='high'){
-      status='warn';msg=`${a.agg==='high'?a.name:b.name} may show aggression. Provide plenty of hiding spots and monitor closely.`;
+    const phShare=overlapScore(a.minPH,a.maxPH,b.minPH,b.maxPH);
+    const tShare=overlapScore(a.minT,a.maxT,b.minT,b.maxT);
+    const tOverlap=Math.min(a.maxT,b.maxT)-Math.max(a.minT,b.minT);
+    const sharedLo=Math.max(a.minT,b.minT), sharedHi=Math.min(a.maxT,b.maxT);
+    const clim=[a.clim,b.clim];
+    const coldVsTropical=(clim.includes('coldwater')&&clim.includes('tropical'));
+    const coldVsSub=(clim.includes('coldwater')&&clim.includes('subtropical'));
+    const cold=a.clim==='coldwater'?a:b, warm=a.clim==='coldwater'?b:a;
+    const betta=a.name==='Betta Fish'?a:(b.name==='Betta Fish'?b:null);
+    const other=betta?(betta===a?b:a):null;
+    const predator=a.pred&&b.sz==='small'?a:(b.pred&&a.sz==='small'?b:null);
+    const prey=predator?(predator===a?b:a):null;
+    const aggressor=a.agg==='high'?a:(b.agg==='high'?b:(a.agg==='medium'?a:(b.agg==='medium'?b:null)));
+
+    if(coldVsTropical){
+      status='bad';msg=`${cold.name} is a coldwater fish (${cold.minT}-${cold.maxT}\u00B0F) and ${warm.name} is tropical (${warm.minT}-${warm.maxT}\u00B0F). One of them would have to live outside its safe range, which causes chronic stress.`;
+    }else if(phShare<=0||tShare<=0){
+      status='bad';msg=`Incompatible ${phShare<=0?'pH ranges':''}${phShare<=0&&tShare<=0?' and ':''}${tShare<=0?'temperature ranges':''} \u2014 there is no value that suits both fish.`;
+    }else if(phShare<0.4||tShare<0.4){
+      status='bad';msg=`${tShare<0.4?`Their temperature ranges barely meet (only ${tOverlap}\u00B0F of usable overlap)`:'Their pH ranges barely meet'}. Keeping both would push one species to the edge of its tolerance.`;
+    }else if(betta&&!BETTA_SAFER.includes(other.name)){
+      status='bad';msg=`Betta Fish cannot share a tank with ${other.name}. Bettas are highly territorial and will fight or stress out tankmates, especially anything colourful or long-finned.`;
+    }else if(betta){
+      status='warn';msg=`${other.name} is one of the few tankmates bettas tolerate \u2014 it stays on the bottom and has no flowing fins. Use a tank of 10 gallons or more, add dense cover, and separate them if the betta starts flaring.`;
+    }else if(coldVsSub){
+      status='warn';msg=`${cold.name} needs cool water and ${warm.name} only tolerates it. Hold the tank at ${sharedLo}-${sharedHi}\u00B0F, and note that ${cold.name} grows large and produces far more waste than its tankmate.`;
+    }else if(predator){
+      status='warn';msg=`${predator.name} grows large enough to eat ${prey.name}. Anything that fits in its mouth eventually will \u2014 only pair them in a big, heavily planted tank, and expect losses.`;
+    }else if(aggressor){
+      status='warn';msg=`${aggressor.name} has a ${aggressor.agg} aggression level${aggressor.name==='Tiger Barb'?' and is a known fin nipper':''}. Provide plenty of hiding spots, keep it in a proper school, and monitor closely for bullying.`;
+    }else if(tShare<0.6||phShare<0.6){
+      const narrowT=tShare<0.6;
+      status='warn';msg=`${a.name} and ${b.name} can work, but their ${narrowT?'temperature':'pH'} ranges only partly overlap. ${narrowT?`Hold the tank at ${sharedLo}-${sharedHi}\u00B0F`:`Hold pH at ${Math.max(a.minPH,b.minPH).toFixed(1)}-${Math.min(a.maxPH,b.maxPH).toFixed(1)}`} and keep it stable.`;
     }else{
-      status='good';msg=`${a.name} and ${b.name} are compatible! Similar water requirements and peaceful temperaments make them great tankmates.`;
+      status='good';msg=`${a.name} and ${b.name} are compatible. Their water requirements line up well (${sharedLo}-${sharedHi}\u00B0F suits both) and neither is aggressive toward the other.`;
     }
     out.push({a:a.name,b:b.name,status,msg});
   }

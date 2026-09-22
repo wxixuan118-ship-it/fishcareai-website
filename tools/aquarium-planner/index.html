@@ -10,7 +10,7 @@
 <meta name="description" content="Use this free aquarium planner to plan a full tank setup: equipment checklist, stocking guide and cycling timeline for freshwater, saltwater or shrimp tanks."/>
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <link rel="canonical" href="https://www.fishcareai.com/tools/aquarium-planner/"/>
-<link rel="preload" as="image" href="assets/freshwater-fish-care-hero-optimized.jpg"/>
+<link rel="preload" as="image" href="/assets/freshwater-fish-care-hero-optimized.jpg" fetchpriority="high"/>
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="Free Aquarium Planner: Setup Checklist &amp; Stocking Guide"/>
 <meta property="og:description" content="Use this free aquarium planner to plan a full tank setup: equipment checklist, stocking guide and cycling timeline for freshwater, saltwater or shrimp tanks."/>
@@ -367,14 +367,14 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
 <nav class="nb" id="navbar">
   <a title="FishCare AI" class="brand" href="/"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"/></a>
   <div class="nlinks" id="nlinks">
-    <a title="Home" class="nl" href="/" onclick="event.preventDefault();goto('home')" data-page="home">Home</a>
-    <a title="Guides" class="nl" href="guides/" onclick="event.preventDefault();goto('blog')" data-page="blog">Guides</a>
-    <a title="Aquarium Encyclopedia" class="nl" href="/species">Encyclopedia</a><a title="Fish Health" class="nl" href="/fish-health/">Fish Health</a>
-    <a title="Fish Identification" class="nl" href="/identify/">🔍 Fish ID</a>
-    <a title="Tools" class="nl" href="#tools" onclick="event.preventDefault();goto('tools')" data-page="tools">Tools</a>
-    <a title="About Us" class="nl" href="#about" onclick="event.preventDefault();goto('about')" data-page="about">About Us</a>
-    <a title="Contact" class="nl" href="#contact" onclick="event.preventDefault();goto('contact')" data-page="contact">Contact</a>
-    <a title="Try AI Free" class="btn bp bsm nb-cta" href="#tools" onclick="event.preventDefault();goto('tools')">Try AI Free</a>
+    <a title="Home" class="nl" href="/">Home</a>
+    <a title="Guides" class="nl" href="/guides/">Guides</a>
+    <a title="Tools" class="nl act" href="/tools/" aria-current="page">Tools</a>
+    <a title="Encyclopedia" class="nl" href="/wiki/">Encyclopedia</a>
+    <a title="Fish Diseases" class="nl" href="/aquarium-fish-diseases/">Fish Diseases</a>
+    <a title="Fish Identification" class="nl" href="/identify/">Fish Identification</a>
+    <a title="About" class="nl" href="/about/">About</a>
+    <a title="📱 App" class="nl nl-app-btn" href="/app/">📱 App</a>
   </div>
   <button class="hbg" type="button" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
 </nav>
@@ -399,6 +399,7 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
   <a href="/tools/aquarium-substrate-calculator/" class="tnav-btn">🪨 Substrate</a>
 </nav>
 
+<main id="main">
 <!-- PAGES -->
 <span id="home"></span>
 <span id="tools"></span>
@@ -423,10 +424,10 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
 <p style="margin-bottom:24px">Plan a beginner-friendly setup before buying animals. This tool creates a simple equipment, stocking and maintenance checklist.</p>
 <div class="cg">
   <div>
-    <div class="fg"><label>Tank type</label><select class="fc" onchange="setPlannerVal('type',this.value)"><option value="freshwater" selected="">Freshwater</option><option value="saltwater">Saltwater / marine</option><option value="shrimp">Shrimp tank</option><option value="goldfish">Goldfish tank</option></select></div>
-    <div class="fg"><label>Experience level</label><select class="fc" onchange="setPlannerVal('level',this.value)"><option value="beginner" selected="">Beginner</option><option value="intermediate">Intermediate</option><option value="advanced">Advanced</option></select></div>
-    <div class="fg"><label>Primary goal</label><select class="fc" onchange="setPlannerVal('goal',this.value)"><option value="community" selected="">Peaceful community</option><option value="show">Showpiece fish</option><option value="breeding">Breeding / fry</option><option value="low-maintenance">Low maintenance</option></select></div>
-    <div class="fg"><label>Tank volume (gallons)</label><input class="fc" type="number" min="3" max="300" value="20" oninput="setPlannerVal('volume',this.value)"></div>
+    <div class="fg"><label for="planner-type">Tank type</label><select class="fc" id="planner-type" name="planner-type" aria-label="Tank type" onchange="setPlannerVal('type',this.value)"><option value="freshwater" selected="">Freshwater</option><option value="saltwater">Saltwater / marine</option><option value="shrimp">Shrimp tank</option><option value="goldfish">Goldfish tank</option></select></div>
+    <div class="fg"><label for="planner-level">Experience level</label><select class="fc" id="planner-level" name="planner-level" aria-label="Experience level" onchange="setPlannerVal('level',this.value)"><option value="beginner" selected="">Beginner</option><option value="intermediate">Intermediate</option><option value="advanced">Advanced</option></select></div>
+    <div class="fg"><label for="planner-goal">Primary goal</label><select class="fc" id="planner-goal" name="planner-goal" aria-label="Primary goal" onchange="setPlannerVal('goal',this.value)"><option value="community" selected="">Peaceful community</option><option value="show">Showpiece fish</option><option value="breeding">Breeding / fry</option><option value="low-maintenance">Low maintenance</option></select></div>
+    <div class="fg"><label for="planner-volume">Tank volume (gallons)</label><input class="fc" id="planner-volume" name="planner-volume" type="number" min="3" max="300" value="20" aria-label="Tank volume in gallons" aria-describedby="planner-volume-hint" oninput="setPlannerVal('volume',this.value)" onchange="setPlannerVal('volume',this.value,true)"><p id="planner-volume-hint" role="status" aria-live="polite" style="margin:5px 0 0;font-size:.78rem;color:var(--mu);min-height:1em"></p></div>
     <button class="btn bp blg" style="width:100%;justify-content:center" onclick="showPlannerResult()">Create Aquarium Plan →</button>
   </div>
   <div id="planner-result"><div style="background:#F8FAFE;border-radius:14px;border:1px solid var(--bd);padding:34px;text-align:center;color:var(--mu)"><div style="font-size:3.3rem;margin-bottom:12px">🧭</div><h3 style="color:var(--pd);font-size:1rem">Plan before stocking</h3><p style="font-size:.86rem">You will get a practical setup path and caution notes.</p></div></div>
@@ -474,6 +475,8 @@ input.fc:focus,select.fc:focus,textarea.fc:focus{border-color:var(--p);box-shado
 <div id="page-post" class="hide"></div>
 <div id="page-about" class="hide"></div>
 <div id="page-contact" class="hide"></div>
+
+</main>
 
 <!-- FOOTER -->
 <footer class="ft" id="site-footer">
@@ -551,12 +554,12 @@ const POSTS = [
 ];
 
 const PARAMS = [
-  {k:'ph',   lbl:'pH',              unit:'',    min:0,  max:14,  step:.1,  def:7.0,  weight:1,   safe:[6.5,7.5], warn:[[6.0,6.5],[7.5,8.0]],tips:{good:'✅ pH is ideal for many community tropical fish.',warn:'⚠️ Slightly off. Adjust gradually — sudden pH swings are more dangerous than a stable imperfect number.',bad:'❌ Critical pH. Do not chase numbers quickly; stabilize slowly and verify your test result.'}},
-  {k:'amm',  lbl:'Ammonia (NH₃/NH₄)', unit:'ppm', min:0,  max:8,   step:.25, def:0, weight:3,   safe:[0,0],     warn:[[0.001,0.25]],tips:{good:'✅ Ammonia is 0 ppm, which is the target for a cycled aquarium.',warn:'⚠️ Any detectable ammonia is a warning. Do a partial water change, dose conditioner, and re-test.',bad:'❌ Dangerous ammonia. Stop feeding, do a 50% water change with dechlorinated temperature-matched water, and check the cycle.'}},
-  {k:'nit2', lbl:'Nitrite (NO₂)',  unit:'ppm', min:0,  max:5,   step:.1,  def:0,    weight:3,   safe:[0,0],     warn:[[0.001,0.25]],tips:{good:'✅ Nitrite is 0 ppm, which is the target for a cycled aquarium.',warn:'⚠️ Detectable nitrite can harm fish. Dose conditioner, increase aeration, and re-test soon.',bad:'❌ Toxic nitrite. Do a large water change, add aeration, and treat this as a cycling emergency.'}},
-  {k:'nit3', lbl:'Nitrate (NO₃)',  unit:'ppm', min:0,  max:160, step:5,   def:10,   weight:1,   safe:[0,20],    warn:[[20,40]],tips:{good:'✅ Nitrate is well controlled.',warn:'⚠️ Elevated nitrate. Increase water change frequency and check stocking/feeding.',bad:'❌ Very high nitrate. Do a partial water change, repeat gradually if needed, and reduce waste buildup.'}},
-  {k:'temp', lbl:'Temperature',    unit:'°F',  min:60, max:95,  step:1,   def:78,   weight:1.5, safe:[72,82],   warn:[[65,72],[82,86]],tips:{good:'✅ Temperature is in a typical tropical community range.',warn:'⚠️ Outside the general range. Adjust gradually and check the target for your species.',bad:'❌ Dangerous temperature. Correct slowly; rapid temperature changes can shock fish.'}},
-  {k:'gh',   lbl:'Hardness (GH)',  unit:'dGH', min:0,  max:30,  step:1,   def:8,    weight:.75, safe:[4,12],    warn:[[2,4],[12,20]],tips:{good:'✅ Water hardness is suitable for many freshwater community fish.',warn:'⚠️ Slightly outside the general range. Species such as mollies, discus, and soft-water fish need more specific targets.',bad:'❌ Extreme hardness or softness. Research your species before changing GH, and adjust gradually.'}},
+  {k:'ph',   lbl:'pH',              unit:'',    min:0,  max:14,  step:.1,  def:7.0,  weight:1,   safe:[6.5,7.5], warn:[[6.0,6.5],[7.5,8.0]],crit:[5.5,9.5],tips:{good:'✅ pH is ideal for many community tropical fish.',warn:'⚠️ Slightly off. Adjust gradually — sudden pH swings are more dangerous than a stable imperfect number.',bad:'❌ Critical pH. Do not chase numbers quickly; stabilize slowly and verify your test result.'}},
+  {k:'amm',  lbl:'Ammonia (NH₃/NH₄)', unit:'ppm', min:0,  max:8,   step:.25, def:0, weight:3,   safe:[0,0],     warn:[[0.001,0.25]],crit:[0,1.5],tips:{good:'✅ Ammonia is 0 ppm, which is the target for a cycled aquarium.',warn:'⚠️ Any detectable ammonia is a warning. Do a partial water change, dose conditioner, and re-test.',bad:'❌ Dangerous ammonia. Stop feeding, do a 50% water change with dechlorinated temperature-matched water, and check the cycle.'}},
+  {k:'nit2', lbl:'Nitrite (NO₂)',  unit:'ppm', min:0,  max:5,   step:.1,  def:0,    weight:3,   safe:[0,0],     warn:[[0.001,0.25]],crit:[0,1],tips:{good:'✅ Nitrite is 0 ppm, which is the target for a cycled aquarium.',warn:'⚠️ Detectable nitrite can harm fish. Dose conditioner, increase aeration, and re-test soon.',bad:'❌ Toxic nitrite. Do a large water change, add aeration, and treat this as a cycling emergency.'}},
+  {k:'nit3', lbl:'Nitrate (NO₃)',  unit:'ppm', min:0,  max:160, step:5,   def:10,   weight:1,   safe:[0,20],    warn:[[20,40]],crit:[0,80],tips:{good:'✅ Nitrate is well controlled.',warn:'⚠️ Elevated nitrate. Increase water change frequency and check stocking/feeding.',bad:'❌ Very high nitrate. Do a partial water change, repeat gradually if needed, and reduce waste buildup.'}},
+  {k:'temp', lbl:'Temperature',    unit:'°F',  min:60, max:95,  step:1,   def:78,   weight:1.5, safe:[72,82],   warn:[[65,72],[82,86]],crit:[64,90],tips:{good:'✅ Temperature is in a typical tropical community range.',warn:'⚠️ Outside the general range. Adjust gradually and check the target for your species.',bad:'❌ Dangerous temperature. Correct slowly; rapid temperature changes can shock fish.'}},
+  {k:'gh',   lbl:'Hardness (GH)',  unit:'dGH', min:0,  max:30,  step:1,   def:8,    weight:.75, safe:[4,12],    warn:[[2,4],[12,20]],crit:[1,25],tips:{good:'✅ Water hardness is suitable for many freshwater community fish.',warn:'⚠️ Slightly outside the general range. Species such as mollies, discus, and soft-water fish need more specific targets.',bad:'❌ Extreme hardness or softness. Research your species before changing GH, and adjust gradually.'}},
 ];
 
 // ═══════════════════════════════════════════════
@@ -681,6 +684,7 @@ function stars(n) {
 function getStatus(p, v) {
   if(v >= p.safe[0] && v <= p.safe[1]) return 'good';
   for(const [a,b] of p.warn) if(v >= a && v <= b) return 'warn';
+  if(v < p.crit[0] || v > p.crit[1]) return 'crit';
   return 'bad';
 }
 
@@ -729,7 +733,7 @@ function renderHome() {
   ];
   return `
 <section class="hero seohero">
-  <img onerror="this.onerror=null;this.src='/assets/fish-images/fishcare-image-fallback.svg';" class="hero-image" src="assets/freshwater-fish-care-hero-optimized.jpg" width="1400" height="933" alt="Healthy freshwater aquarium with betta fish, mollies, swordtails, danios, discus, angelfish and aquatic plants" loading="eager" fetchpriority="high"/>
+  <img onerror="this.onerror=null;this.src='/assets/fish-images/fishcare-image-fallback.svg';" class="hero-image" src="/assets/freshwater-fish-care-hero-optimized.jpg" width="1400" height="933" alt="Healthy freshwater aquarium with betta fish, mollies, swordtails, danios, discus, angelfish and aquatic plants" loading="eager" fetchpriority="high"/>
   <div class="hc">
     <div class="tag">Aquarium Care Guides</div>
     <h1>Plan Your Perfect Tank — Before You Buy a Single Fish</h1>
@@ -1230,26 +1234,76 @@ function renderPlanner() {
 <p style="margin-bottom:24px">Plan a beginner-friendly setup before buying animals. This tool creates a simple equipment, stocking and maintenance checklist.</p>
 <div class="cg">
   <div>
-    <div class="fg"><label>Tank type</label><select class="fc" onchange="setPlannerVal('type',this.value)"><option value="freshwater" ${plannerVals.type==='freshwater'?'selected':''}>Freshwater</option><option value="saltwater" ${plannerVals.type==='saltwater'?'selected':''}>Saltwater / marine</option><option value="shrimp" ${plannerVals.type==='shrimp'?'selected':''}>Shrimp tank</option><option value="goldfish" ${plannerVals.type==='goldfish'?'selected':''}>Goldfish tank</option></select></div>
-    <div class="fg"><label>Experience level</label><select class="fc" onchange="setPlannerVal('level',this.value)"><option value="beginner" ${plannerVals.level==='beginner'?'selected':''}>Beginner</option><option value="intermediate" ${plannerVals.level==='intermediate'?'selected':''}>Intermediate</option><option value="advanced" ${plannerVals.level==='advanced'?'selected':''}>Advanced</option></select></div>
-    <div class="fg"><label>Primary goal</label><select class="fc" onchange="setPlannerVal('goal',this.value)"><option value="community" ${plannerVals.goal==='community'?'selected':''}>Peaceful community</option><option value="show" ${plannerVals.goal==='show'?'selected':''}>Showpiece fish</option><option value="breeding" ${plannerVals.goal==='breeding'?'selected':''}>Breeding / fry</option><option value="low-maintenance" ${plannerVals.goal==='low-maintenance'?'selected':''}>Low maintenance</option></select></div>
-    <div class="fg"><label>Tank volume (gallons)</label><input class="fc" type="number" min="3" max="300" value="${plannerVals.volume}" oninput="setPlannerVal('volume',this.value)"/></div>
+    <div class="fg"><label for="planner-type">Tank type</label><select class="fc" id="planner-type" name="planner-type" aria-label="Tank type" onchange="setPlannerVal('type',this.value)"><option value="freshwater" ${plannerVals.type==='freshwater'?'selected':''}>Freshwater</option><option value="saltwater" ${plannerVals.type==='saltwater'?'selected':''}>Saltwater / marine</option><option value="shrimp" ${plannerVals.type==='shrimp'?'selected':''}>Shrimp tank</option><option value="goldfish" ${plannerVals.type==='goldfish'?'selected':''}>Goldfish tank</option></select></div>
+    <div class="fg"><label for="planner-level">Experience level</label><select class="fc" id="planner-level" name="planner-level" aria-label="Experience level" onchange="setPlannerVal('level',this.value)"><option value="beginner" ${plannerVals.level==='beginner'?'selected':''}>Beginner</option><option value="intermediate" ${plannerVals.level==='intermediate'?'selected':''}>Intermediate</option><option value="advanced" ${plannerVals.level==='advanced'?'selected':''}>Advanced</option></select></div>
+    <div class="fg"><label for="planner-goal">Primary goal</label><select class="fc" id="planner-goal" name="planner-goal" aria-label="Primary goal" onchange="setPlannerVal('goal',this.value)"><option value="community" ${plannerVals.goal==='community'?'selected':''}>Peaceful community</option><option value="show" ${plannerVals.goal==='show'?'selected':''}>Showpiece fish</option><option value="breeding" ${plannerVals.goal==='breeding'?'selected':''}>Breeding / fry</option><option value="low-maintenance" ${plannerVals.goal==='low-maintenance'?'selected':''}>Low maintenance</option></select></div>
+    <div class="fg"><label for="planner-volume">Tank volume (gallons)</label><input class="fc" id="planner-volume" name="planner-volume" type="number" min="3" max="300" value="${plannerVals.volume}" aria-label="Tank volume in gallons" aria-describedby="planner-volume-hint" oninput="setPlannerVal('volume',this.value)" onchange="setPlannerVal('volume',this.value,true)"/><p id="planner-volume-hint" role="status" aria-live="polite" style="margin:5px 0 0;font-size:.78rem;color:var(--mu);min-height:1em"></p></div>
     <button class="btn bp blg" style="width:100%;justify-content:center" onclick="showPlannerResult()">Create Aquarium Plan →</button>
   </div>
   <div id="planner-result"><div style="background:#F8FAFE;border-radius:14px;border:1px solid var(--bd);padding:34px;text-align:center;color:var(--mu)"><div style="font-size:3.3rem;margin-bottom:12px">🧭</div><h3 style="color:var(--pd);font-size:1rem">Plan before stocking</h3><p style="font-size:.86rem">You will get a practical setup path and caution notes.</p></div></div>
 </div>`;
 }
 function initPlanner(){}
-function setPlannerVal(k,v){ plannerVals[k]=k==='volume'?Math.max(3,Number(v)||20):v; plannerRestored=false; syncPlannerUrl(); }
+const PLANNER_VOL_MIN = 3, PLANNER_VOL_MAX = 300;
+
+// The volume box used to fall back to 20 whenever the value wasn't usable, so
+// typing 0 silently produced a "20 gallon plan" and a share link saying volume=20.
+// Now the clamped number is written back into the box and the reason is shown.
+function setPlannerVal(k,v,commit){
+  if(k!=='volume'){ plannerVals[k]=v; plannerRestored=false; syncPlannerUrl(); return; }
+
+  const hint=document.getElementById('planner-volume-hint');
+  const raw=String(v).trim();
+  const n=Number(raw);
+  const setHint=t=>{ if(hint) hint.textContent=t; };
+  const writeBack=val=>{ const el=document.getElementById('planner-volume'); if(el&&Number(el.value)!==val) el.value=String(val); };
+
+  if(raw===''||!isFinite(n)){
+    if(commit){ plannerVals.volume=PLANNER_VOL_MIN; writeBack(PLANNER_VOL_MIN); setHint('Enter a volume between 3 and 300 gallons.'); }
+    else setHint('');
+    plannerRestored=false; syncPlannerUrl(); return;
+  }
+
+  const clamped=Math.min(PLANNER_VOL_MAX,Math.max(PLANNER_VOL_MIN,Math.round(n)));
+  plannerVals.volume=clamped;
+  if(clamped!==n){
+    setHint(n<PLANNER_VOL_MIN
+      ? 'The smallest tank this planner covers is 3 gallons \u2014 set to 3.'
+      : n>PLANNER_VOL_MAX
+        ? 'This planner tops out at 300 gallons \u2014 set to 300.'
+        : 'Rounded to '+clamped+' gallons.');
+    if(commit) writeBack(clamped);
+  } else setHint('');
+  plannerRestored=false;
+  syncPlannerUrl();
+}
 function showPlannerResult(){
-  const v=Math.max(3,Number(plannerVals.volume)||20);
+  const box=document.getElementById('planner-volume');
+  if(box) setPlannerVal('volume',box.value,true);
+  const v=Math.min(PLANNER_VOL_MAX,Math.max(PLANNER_VOL_MIN,Number(plannerVals.volume)||PLANNER_VOL_MIN));
   const isSalt=plannerVals.type==='saltwater';
   const isShrimp=plannerVals.type==='shrimp';
   const isGold=plannerVals.type==='goldfish';
   const status=v<10?'Very small':v<20?'Small':v<55?'Flexible beginner size':'Large / advanced capacity';
-  const equipment=isSalt?'marine salt mix, refractometer, heater, flow, live/dry rock, test kits':isShrimp?'sponge filter, heater if needed, moss/plants, shrimp-safe minerals, pre-filter sponge':isGold?'oversized filtration, strong aeration, large water-change tools, open swimming space':'filter, heater, thermometer, water conditioner, test kit, substrate and hiding places';
-  const stocking=isSalt?'start with hardy captive-bred marine fish after cycling; avoid tangs in small tanks':isShrimp?'start with a mature planted tank and a small shrimp colony after parameters are stable':isGold?'stock lightly; one fancy goldfish needs far more room than most bowls provide':'choose peaceful fish with matching temperature, adult size and group needs';
-  document.getElementById('planner-result').innerHTML=`<div class="hs" style="background:#0F3D6E"><div class="sn">${status}</div><div class="sl">${v} gallon ${plannerVals.type} plan</div></div><div class="pr"><h3 style="color:var(--pd);margin-bottom:10px;font-size:1rem">Setup checklist</h3><div class="prow"><span class="plb">Equipment</span><span class="pv">${equipment}</span><span class="bdg bgood">Core</span></div><div class="prow"><span class="plb">Stocking</span><span class="pv">${stocking}</span><span class="bdg bwarn">Plan</span></div><div class="prow"><span class="plb">Cycle</span><span class="pv">Do not add livestock until ammonia and nitrite are 0 ppm.</span><span class="bdg bdng">Required</span></div><p style="margin-top:12px">For ${plannerVals.goal.replace('-', ' ')} goals, prioritize stability over speed. Buy test kits before livestock, and keep the first stocking round conservative.</p>${plannerRestored?`<p style="margin-top:10px;font-size:.8rem;color:var(--mu)">Restored your last saved plan · <button type="button" onclick="clearSavedPlanner()" style="background:none;border:none;color:var(--pd);cursor:pointer;font-size:.8rem;padding:0;text-decoration:underline">Clear</button></p>`:''}<div style="margin-top:14px;display:flex;flex-wrap:wrap;gap:8px;align-items:center"><button type="button" class="btn bo bsm" onclick="savePlannerResult()">💾 Save plan</button><button type="button" class="btn bo bsm" onclick="copyPlannerLink()">🔗 Copy link</button><span id="planner-feedback" role="status" aria-live="polite" style="font-size:.8rem;color:var(--pd)"></span></div></div>`;
+  const level=PLANNER_OPTS.level.indexOf(plannerVals.level)>=0?plannerVals.level:'beginner';
+  const isBeg=level==='beginner', isAdv=level==='advanced';
+  const equipmentBase=isSalt?'marine salt mix, refractometer, heater, flow, live/dry rock, test kits':isShrimp?'sponge filter, heater if needed, moss/plants, shrimp-safe minerals, pre-filter sponge':isGold?'oversized filtration, strong aeration, large water-change tools, open swimming space':'filter, heater, thermometer, water conditioner, test kit, substrate and hiding places';
+  const equipmentExtra=isBeg?' \u2014 buy the liquid test kit and dechlorinator before anything alive':level==='intermediate'?' \u2014 add a spare heater, an airline/air pump for emergencies and a quarantine bin':' \u2014 plus RO/DI or mineral control, a dosing or auto-top-off routine and logged parameters';
+  const equipment=equipmentBase+equipmentExtra;
+  const stockingBase=isSalt?'start with hardy captive-bred marine fish after cycling; avoid tangs in small tanks':isShrimp?'start with a mature planted tank and a small shrimp colony after parameters are stable':isGold?'stock lightly; one fancy goldfish needs far more room than most bowls provide':'choose peaceful fish with matching temperature, adult size and group needs';
+  const stocking=stockingBase+(isBeg?'; add one small group at a time and wait two weeks between additions':level==='intermediate'?'; quarantine new arrivals for 3\u20134 weeks and drip-acclimate them':'; you can stock faster, but only against logged test results');
+  const cycleNote=isBeg
+    ? 'Do a fishless cycle: dose ammonia to about 2 ppm and wait until both ammonia and nitrite read 0 ppm within 24 hours. Expect 3\u20136 weeks. Do not add livestock before then.'
+    : level==='intermediate'
+      ? 'Seed the filter with established media to shorten the cycle, but still confirm ammonia and nitrite hold at 0 ppm before stocking.'
+      : 'Confirm the biofilter clears a full ammonia dose in 24 hours at the stocking level you are planning, not just at 0 ppm.';
+  const levelNote=isBeg
+    ? 'Beginner plan: the biggest risk is moving too fast. Keep the species list short, skip CO2 and dosing for now, and test twice a week for the first two months.'
+    : level==='intermediate'
+      ? 'Intermediate plan: you can take on a quarantine tank, live plants and a slightly heavier bioload. Keep a written maintenance log so changes stay traceable.'
+      : 'Advanced plan: the basics are assumed. Focus the budget on redundancy \u2014 backup heater, battery air pump, spare filter media \u2014 and on measurement (calibrated test gear, logged trends) rather than on more livestock.';
+  const levelBadge=isBeg?'bgood':level==='intermediate'?'bwarn':'bdng';
+  document.getElementById('planner-result').innerHTML=`<div class="hs" style="background:#0F3D6E"><div class="sn">${status}</div><div class="sl">${v} gallon ${plannerVals.type} plan \u00B7 ${level}</div></div><div class="pr"><h3 style="color:var(--pd);margin-bottom:10px;font-size:1rem">Setup checklist</h3><div class="prow"><span class="plb">Equipment</span><span class="pv">${equipment}</span><span class="bdg bgood">Core</span></div><div class="prow"><span class="plb">Stocking</span><span class="pv">${stocking}</span><span class="bdg bwarn">Plan</span></div><div class="prow"><span class="plb">Cycle</span><span class="pv">${cycleNote}</span><span class="bdg bdng">Required</span></div><div class="prow"><span class="plb">Pace</span><span class="pv">${levelNote}</span><span class="bdg ${levelBadge}">${level}</span></div><p style="margin-top:12px">For ${plannerVals.goal.replace('-', ' ')} goals, prioritize stability over speed.${isAdv?' Keep the first stocking round conservative anyway \u2014 a new biofilter does not care how experienced you are.':' Buy test kits before livestock, and keep the first stocking round conservative.'}</p>${plannerRestored?`<p style="margin-top:10px;font-size:.8rem;color:var(--mu)">Restored your last saved plan · <button type="button" onclick="clearSavedPlanner()" style="background:none;border:none;color:var(--pd);cursor:pointer;font-size:.8rem;padding:0;text-decoration:underline">Clear</button></p>`:''}<div style="margin-top:14px;display:flex;flex-wrap:wrap;gap:8px;align-items:center"><button type="button" class="btn bo bsm" onclick="savePlannerResult()">💾 Save plan</button><button type="button" class="btn bo bsm" onclick="copyPlannerLink()">🔗 Copy link</button><span id="planner-feedback" role="status" aria-live="polite" style="font-size:.8rem;color:var(--pd)"></span></div></div>`;
   syncPlannerUrl();
 }
 
@@ -1304,15 +1358,31 @@ function setCalcVal(k, raw) {
 }
 
 function calcScore() {
-  const weighted = PARAMS.reduce((s,p)=>{
-    const st=getStatus(p,+calcVals[p.k]);
-    return s+(st==='good'?100:st==='warn'?45:0)*p.weight;
-  },0);
+  const st = {};
+  PARAMS.forEach(p => st[p.k] = getStatus(p, +calcVals[p.k]));
+  const PTS = {good:100, warn:45, bad:15, crit:0};
+  const weighted = PARAMS.reduce((s,p)=>s+PTS[st[p.k]]*p.weight,0);
   const totalWeight = PARAMS.reduce((s,p)=>s+p.weight,0);
   let score = Math.round(weighted/totalWeight);
-  if(getStatus(PARAMS.find(p=>p.k==='amm'), +calcVals.amm)==='bad' || getStatus(PARAMS.find(p=>p.k==='nit2'), +calcVals.nit2)==='bad') score = Math.min(score, 45);
-  if(getStatus(PARAMS.find(p=>p.k==='amm'), +calcVals.amm)==='warn' || getStatus(PARAMS.find(p=>p.k==='nit2'), +calcVals.nit2)==='warn') score = Math.min(score, 75);
-  return score;
+  // A danger reading caps the grade, so one lethal value can't hide behind five good ones.
+  const any = v => PARAMS.some(p => st[p.k] === v);
+  if(any('warn')) score = Math.min(score, 85);
+  if(any('bad'))  score = Math.min(score, 60);
+  if(any('crit')) score = Math.min(score, 40);
+  if(st.amm==='warn' || st.nit2==='warn') score = Math.min(score, 75);
+  if(st.amm==='bad'  || st.nit2==='bad')  score = Math.min(score, 45);
+  if(st.amm==='crit' || st.nit2==='crit') score = Math.min(score, 30);
+  return Math.max(0, score);
+}
+
+function countByStatus() {
+  let danger = 0, warning = 0;
+  PARAMS.forEach(p => {
+    const s = getStatus(p, +calcVals[p.k]);
+    if(s === 'bad' || s === 'crit') danger++;
+    else if(s === 'warn') warning++;
+  });
+  return {danger, warning};
 }
 
 function updateCalcResult() {
@@ -1326,12 +1396,12 @@ function showCalcResult() {
   const rows = PARAMS.map(p=>{
     const st=getStatus(p,+calcVals[p.k]);
     const cls=st==='good'?'bgood':st==='warn'?'bwarn':'bdng';
-    const lbl=st==='good'?'✅ Good':st==='warn'?'⚠️ Warning':'❌ Danger';
-    return `<div class="prow"><span class="plb">${p.lbl}</span><span class="pv">${calcVals[p.k]}${p.unit}</span><span class="bdg ${cls}">${lbl}</span></div>${st!=='good'?`<p style="font-size:.77rem;color:var(--mu);padding:3px 0 6px;margin:0">${p.tips[st]}</p>`:''}`;
+    const lbl=st==='good'?'✅ Good':st==='warn'?'⚠️ Warning':st==='crit'?'❌ Critical':'❌ Danger';
+    return `<div class="prow"><span class="plb">${p.lbl}</span><span class="pv">${calcVals[p.k]}${p.unit}</span><span class="bdg ${cls}">${lbl}</span></div>${st!=='good'?`<p style="font-size:.77rem;color:var(--mu);padding:3px 0 6px;margin:0">${st==='crit'?'🚨 Life-threatening reading. ':''}${p.tips[st==='crit'?'bad':st]}</p>`:''}`;
   }).join('');
   const warn = score<70?`<div style="margin-top:12px;padding:13px 16px;background:rgba(231,76,60,.06);border-radius:8px;border:1px solid rgba(231,76,60,.2)"><strong style="color:var(--er)">⚠️ Immediate Action Needed</strong><p style="font-size:.83rem;margin:4px 0 0">One or more parameters are at dangerous levels. Perform a 25–50% water change immediately using dechlorinated water at the same temperature.</p></div>`:''
   document.getElementById('calc-result').innerHTML=`
-    <div class="hs" style="background:${info.c}"><div class="sn">${score}/100</div><div class="sl">Overall Health: ${info.l}</div></div>
+    <div class="hs" style="background:${info.c}"><div class="sn">${score}/100</div><div class="sl">Overall Health: ${info.l}</div>${(()=>{const t=countByStatus();const f=[t.danger?`${t.danger} parameter${t.danger>1?'s':''} in the danger zone`:'',t.warning?`${t.warning} warning${t.warning>1?'s':''}`:''].filter(Boolean).join(' · ');return f?`<div style="margin-top:8px;display:inline-block;background:rgba(0,0,0,.25);border-radius:999px;padding:4px 13px;color:#fff;font-size:.8rem;font-weight:600">${t.danger?'❌':'⚠️'} ${f}</div>`:'';})()}</div>
     <div class="pr"><h4 style="margin-bottom:10px;color:var(--pd)">📋 Parameter Results</h4>${rows}</div>${warn}`;
   document.getElementById('calc-result').dataset.analyzed = 'true';
 }
