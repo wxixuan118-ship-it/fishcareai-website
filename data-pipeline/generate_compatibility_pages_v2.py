@@ -22,9 +22,18 @@ import generate_compatibility_pages as v1
 
 
 ROOT = Path(__file__).resolve().parent.parent
-RAW_DATA = ROOT.parent / "data-pipeline" / "output" / "08_raw.json"
+# The enrichment output lives in the older working copy, not in this
+# checkout; keep both candidates so the generator runs from either tree.
+RAW_DATA = next(
+    (path for path in (
+        ROOT.parent / "data-pipeline" / "output" / "08_raw.json",
+        ROOT.parent / "fishcare AI website" / "data-pipeline" / "output" / "08_raw.json",
+        ROOT / "data-pipeline" / "output" / "08_raw.json",
+    ) if path.exists()),
+    ROOT.parent / "data-pipeline" / "output" / "08_raw.json",
+)
 SITEMAP = ROOT / "sitemap.xml"
-TODAY = "2026-08-18"
+TODAY = "2026-09-23"
 
 # The original 31 plus these 60 commercially common/search-worthy aquarium
 # animals form the deliberately bounded v2 catalogue (91 total).
@@ -47,6 +56,89 @@ V2_ADDITIONS = (
     "royal-gramma", "pajama-cardinalfish", "foxface-rabbitfish", "lionfish",
 )
 
+# Verified replacements for the 60 v2 catalogue entries.
+#
+# The fields below used to be derived from `08_raw.json`, an LLM enrichment
+# pass that was never fact-checked.  It published the rosy barb as a 2-inch
+# 72-82°F fish that does not shoal; it is a 10 cm 16-24°C shoaler that wants a
+# group of 8-10.  Errors of that shape fed every pair page's score, comparison
+# table and tank-size advice, so the facts are pinned here instead.
+#
+# Freshwater figures are Seriously Fish species profiles (standard length,
+# quick-facts temperature/pH, and the recommended aquarium volume for a group).
+# Seriously Fish is freshwater-only; the marine entries and the five freshwater
+# species it does not cover use standard hobby references.
+#
+# temperament/min_group/zone/eats_small are editorial calls made from each
+# profile's "Behaviour and compatibility" section, not scraped strings.
+V2_FACTS = {
+    # slug: (sci, temp_min, temp_max, ph_min, ph_max, temperament, size_in,
+    #        min_group, min_tank_gal, zone, eats_small, water)
+    "african-butterfly-fish": ("Pantodon buchholzi", 73, 86, 6.0, 7.5, "semi", 4.7, 1, 21, "top", True, "freshwater"),
+    "black-ghost-knifefish": ("Apteronotus albifrons", 73, 82, 6.0, 8.0, "semi", 18.0, 1, 100, "bottom", True, "freshwater"),
+    "black-neon-tetra": ("Hyphessobrycon herbertaxelrodi", 68, 82, 5.0, 7.5, "peaceful", 1.4, 8, 19, "mid", False, "freshwater"),
+    "black-phantom-tetra": ("Hyphessobrycon megalopterus", 68, 82, 5.0, 7.0, "peaceful", 1.4, 8, 19, "mid", False, "freshwater"),
+    "black-ruby-barb": ("Pethia nigrofasciata", 68, 81, 5.5, 7.5, "peaceful", 2.2, 6, 19, "mid", False, "freshwater"),
+    "bolivian-ram": ("Mikrogeophagus altispinosus", 75, 82, 6.0, 7.5, "semi", 3.1, 2, 48, "bottom", False, "freshwater"),
+    "bosemans-rainbowfish": ("Melanotaenia boesemani", 81, 86, 7.0, 8.0, "peaceful", 4.3, 6, 29, "mid", False, "freshwater"),
+    "clown-knifefish": ("Chitala ornata", 68, 82, 6.0, 8.0, "aggressive", 39.4, 1, 300, "mid", True, "freshwater"),
+    "clown-pleco": ("Panaqolus maccus", 73, 82, 6.5, 7.8, "peaceful", 3.5, 1, 20, "bottom", False, "freshwater"),
+    "congo-tetra": ("Phenacogrammus interruptus", 73, 82, 6.0, 7.5, "peaceful", 3.1, 6, 29, "mid", False, "freshwater"),
+    "denison-barb": ("Sahyadria denisonii", 59, 77, 6.5, 7.8, "peaceful", 4.3, 6, 64, "mid", False, "freshwater"),
+    "diamond-tetra": ("Moenkhausia pittieri", 75, 82, 5.5, 7.0, "peaceful", 2.4, 6, 18, "mid", False, "freshwater"),
+    "dwarf-chain-loach": ("Ambastaia sidthimunki", 68, 86, 5.5, 7.5, "peaceful", 2.4, 6, 19, "bottom", False, "freshwater"),
+    "electric-yellow-cichlid": ("Labidochromis caeruleus", 75, 82, 7.7, 8.6, "semi", 3.9, 4, 41, "mid", False, "freshwater"),
+    "fire-eel": ("Mastacembelus erythrotaenia", 75, 82, 6.0, 7.0, "semi", 39.4, 1, 114, "bottom", True, "freshwater"),
+    "frontosa-cichlid": ("Cyphotilapia frontosa", 73, 81, 8.0, 9.0, "semi", 10.0, 5, 228, "mid", True, "freshwater"),
+    "giant-danio": ("Devario aequipinnatus", 72, 81, 6.5, 7.5, "semi", 4.0, 6, 30, "mid", False, "freshwater"),
+    "glass-catfish": ("Kryptopterus vitreolus", 68, 79, 4.0, 7.0, "peaceful", 2.6, 6, 21, "mid", False, "freshwater"),
+    "glowlight-danio": ("Danio choprae", 73, 79, 6.5, 7.5, "peaceful", 1.2, 8, 15, "mid", False, "freshwater"),
+    "glowlight-tetra": ("Hemigrammus erythrozonus", 75, 82, 5.5, 7.5, "peaceful", 1.6, 6, 18, "mid", False, "freshwater"),
+    "green-terror-cichlid": ("Andinoacara rivulatus", 68, 75, 6.5, 8.0, "aggressive", 11.8, 1, 80, "mid", True, "freshwater"),
+    "hillstream-loach": ("Sewellia lineolata", 68, 75, 6.0, 7.5, "peaceful", 2.6, 4, 18, "bottom", False, "freshwater"),
+    "jewel-cichlid": ("Hemichromis bimaculatus", 72, 82, 6.0, 7.8, "aggressive", 5.9, 2, 29, "mid", True, "freshwater"),
+    "julii-cory": ("Corydoras julii", 68, 79, 5.5, 7.5, "peaceful", 2.2, 6, 21, "bottom", False, "freshwater"),
+    "keyhole-cichlid": ("Cleithracara maronii", 70, 82, 4.0, 7.5, "peaceful", 4.3, 2, 21, "mid", False, "freshwater"),
+    "lemon-tetra": ("Hyphessobrycon pulchripinnis", 68, 82, 5.0, 7.5, "peaceful", 1.6, 8, 19, "mid", False, "freshwater"),
+    "moonlight-gourami": ("Trichopodus microlepis", 77, 86, 6.0, 7.5, "peaceful", 5.9, 1, 21, "top", False, "freshwater"),
+    "neon-rainbowfish": ("Melanotaenia praecox", 73, 82, 6.8, 7.5, "peaceful", 3.1, 6, 14, "mid", False, "freshwater"),
+    "panda-cory": ("Corydoras panda", 72, 77, 6.0, 7.4, "peaceful", 2.0, 6, 11, "bottom", False, "freshwater"),
+    "peacock-cichlid": ("Aulonocara stuartgranti", 73, 84, 7.5, 9.0, "semi", 5.1, 4, 64, "mid", True, "freshwater"),
+    "pearl-danio": ("Danio albolineatus", 72, 79, 6.5, 7.5, "peaceful", 2.5, 6, 20, "top", False, "freshwater"),
+    "peppered-cory": ("Corydoras paleatus", 72, 79, 6.0, 7.0, "peaceful", 2.8, 6, 18, "bottom", False, "freshwater"),
+    "red-eye-tetra": ("Moenkhausia sanctaefilomenae", 72, 79, 6.0, 8.0, "semi", 2.8, 6, 27, "mid", False, "freshwater"),
+    "rosy-barb": ("Pethia conchonius", 61, 75, 6.0, 8.0, "peaceful", 3.9, 8, 24, "mid", False, "freshwater"),
+    "senegal-bichir": ("Polypterus senegalus", 75, 82, 6.2, 7.8, "semi", 19.7, 1, 143, "bottom", True, "freshwater"),
+    "serpae-tetra": ("Hyphessobrycon eques", 68, 82, 5.0, 7.5, "semi", 1.6, 10, 19, "mid", False, "freshwater"),
+    "severum-cichlid": ("Heros efasciatus", 72, 84, 5.5, 7.0, "semi", 11.8, 1, 64, "mid", True, "freshwater"),
+    "silver-arowana": ("Osteoglossum bicirrhosum", 68, 86, 5.0, 7.5, "aggressive", 31.5, 1, 250, "top", True, "freshwater"),
+    "silver-dollar": ("Metynnis argenteus", 75, 82, 6.0, 7.0, "peaceful", 5.9, 5, 69, "mid", False, "freshwater"),
+    "sparkling-gourami": ("Trichopsis pumila", 72, 82, 5.0, 7.5, "peaceful", 1.6, 4, 11, "mid", False, "freshwater"),
+    "sterbai-cory": ("Corydoras sterbai", 75, 82, 6.0, 7.6, "peaceful", 2.6, 6, 11, "bottom", False, "freshwater"),
+    "texas-cichlid": ("Herichthys cyanoguttatus", 68, 82, 6.0, 7.5, "aggressive", 11.8, 1, 125, "mid", True, "freshwater"),
+    "threadfin-rainbowfish": ("Iriatherina werneri", 72, 86, 5.0, 8.0, "peaceful", 1.6, 6, 14, "mid", False, "freshwater"),
+    "three-spot-gourami": ("Trichopodus trichopterus", 75, 86, 5.5, 8.5, "semi", 5.9, 1, 21, "top", False, "freshwater"),
+    "weather-loach": ("Misgurnus anguillicaudatus", 50, 77, 6.0, 8.0, "peaceful", 11.0, 3, 64, "bottom", False, "freshwater"),
+    "x-ray-tetra": ("Pristella maxillaris", 72, 82, 6.0, 7.5, "peaceful", 1.8, 6, 14, "mid", False, "freshwater"),
+    "yoyo-loach": ("Botia almorhae", 66, 82, 6.0, 7.5, "semi", 6.3, 5, 64, "bottom", False, "freshwater"),
+    "zebra-loach": ("Botia striata", 70, 79, 6.0, 7.5, "peaceful", 3.5, 5, 29, "bottom", False, "freshwater"),
+    "zebra-pleco": ("Hypancistrus zebra", 79, 86, 6.0, 7.5, "semi", 3.1, 3, 14, "bottom", False, "freshwater"),
+    # Marine — Seriously Fish does not cover these; figures are standard
+    # reef-keeping references.  pH is the 8.1-8.4 reef band throughout.
+    "blue-tang": ("Paracanthurus hepatus", 72, 82, 8.1, 8.4, "semi", 12.0, 1, 180, "mid", False, "saltwater"),
+    "coral-beauty": ("Centropyge bispinosa", 72, 82, 8.1, 8.4, "peaceful", 4.0, 1, 55, "mid", False, "saltwater"),
+    "firefish-goby": ("Nemateleotris magnifica", 72, 82, 8.1, 8.4, "peaceful", 3.0, 1, 20, "mid", False, "saltwater"),
+    "flame-angelfish": ("Centropyge loricula", 72, 82, 8.1, 8.4, "semi", 4.0, 1, 55, "mid", False, "saltwater"),
+    "foxface-rabbitfish": ("Siganus vulpinus", 72, 82, 8.1, 8.4, "peaceful", 9.0, 1, 125, "mid", False, "saltwater"),
+    "lionfish": ("Pterois volitans", 72, 82, 8.1, 8.4, "aggressive", 15.0, 1, 120, "mid", True, "saltwater"),
+    "pajama-cardinalfish": ("Sphaeramia nematoptera", 72, 82, 8.1, 8.4, "peaceful", 3.5, 3, 30, "mid", False, "saltwater"),
+    "percula-clownfish": ("Amphiprion percula", 74, 82, 8.1, 8.4, "semi", 3.0, 2, 20, "mid", False, "saltwater"),
+    "royal-gramma": ("Gramma loreto", 72, 82, 8.1, 8.4, "semi", 3.0, 1, 30, "mid", False, "saltwater"),
+    "watchman-goby": ("Cryptocentrus cinctus", 72, 82, 8.1, 8.4, "peaceful", 4.0, 1, 20, "bottom", False, "saltwater"),
+    "yellow-tang": ("Zebrasoma flavescens", 72, 82, 8.1, 8.4, "semi", 8.0, 1, 100, "mid", False, "saltwater"),
+}
+
+
 POPULARITY = {
     "betta-fish": 100, "goldfish": 96, "guppy": 94, "neon-tetra": 92,
     "angelfish": 90, "oscar": 88, "discus": 87, "molly": 84,
@@ -57,13 +149,26 @@ POPULARITY = {
 
 
 def _number(value, default=2.0):
-    match = re.search(r"\d+(?:\.\d+)?", str(value or ""))
-    return float(match.group()) if match else default
+    """Largest number in the field.
+
+    Sizes arrive as ranges ("5-7"), and `re.search` returned the lower bound,
+    so a 10 cm rosy barb published as a 2-inch fish and every size-gap check
+    compared juveniles. Adult size is the top of the range.
+    """
+    matches = re.findall(r"\d+(?:\.\d+)?", str(value or ""))
+    return max(float(m) for m in matches) if matches else default
 
 
 def _temperament(record):
-    text = " ".join(str(x) for x in record.get("behavior", {}).values()).lower()
-    if any(word in text for word in ("high", "aggressive", "territorial")):
+    """Grade temperament from the two fields that describe temperament.
+
+    The old version joined every value in the behaviour dict, so
+    `activity_level: "moderate"` matched the "moderate" keyword and graded
+    peaceful shoalers such as the rosy barb as semi-aggressive.
+    """
+    behavior = record.get("behavior", {})
+    text = " ".join(str(behavior.get(key, "")) for key in ("temperament", "aggression_level")).lower()
+    if any(word in text for word in ("high", "aggressive", "territorial", "predator")):
         return "aggressive"
     if any(word in text for word in ("semi", "moderate", "boisterous")):
         return "semi"
@@ -105,26 +210,35 @@ def load_catalogue():
     for slug in V2_ADDITIONS:
         row = raw[slug]
         env, behavior = row["environment"], row["behavior"]
-        size_cm = _number(row.get("physical", {}).get("size_cm"), 5)
-        schooling = bool(behavior.get("schooling"))
         name = re.sub(r"\bFish\b", "Fish", slug.replace("-", " ").title())
+        # Care level and the overview paragraph still come from the enrichment
+        # pass; every figure that feeds a score or a care recommendation comes
+        # from V2_FACTS.  The old derivations stay as the fallback for a slug
+        # that has not been checked yet.
+        if slug in V2_FACTS:
+            (sci, temp_min, temp_max, ph_min, ph_max, temperament, size,
+             min_group, min_tank_gal, zone, eats_small, water) = V2_FACTS[slug]
+        else:
+            size_cm = _number(row.get("physical", {}).get("size_cm"), 5)
+            sci, temperament, size = "Aquarium species", _temperament(row), round(size_cm / 2.54, 1)
+            temp_min = round(env["temp_min_c"] * 9 / 5 + 32)
+            temp_max = round(env["temp_max_c"] * 9 / 5 + 32)
+            ph_min, ph_max = float(env["ph_min"]), float(env["ph_max"])
+            min_group = 6 if behavior.get("schooling") else 1
+            min_tank_gal = max(5, round(float(env["min_tank_liters"]) / 3.785))
+            zone, water = _zone(slug, row), "freshwater"
+            eats_small = size_cm >= 15 or temperament == "aggressive"
         v1.SPECIES[slug] = {
-            "name": name,
-            "sci": "Aquarium species",
-            "temp_min": round(env["temp_min_c"] * 9 / 5 + 32),
-            "temp_max": round(env["temp_max_c"] * 9 / 5 + 32),
-            "ph_min": float(env["ph_min"]), "ph_max": float(env["ph_max"]),
-            "temperament": _temperament(row), "size": round(size_cm / 2.54, 1),
+            "name": name, "sci": sci,
+            "temp_min": temp_min, "temp_max": temp_max,
+            "ph_min": ph_min, "ph_max": ph_max,
+            "temperament": temperament, "size": size,
             "care": row.get("difficulty_level", "intermediate"),
-            "water": "saltwater" if "salt" in slug or slug in {
-                "blue-tang", "yellow-tang", "flame-angelfish", "coral-beauty",
-                "percula-clownfish", "firefish-goby", "watchman-goby",
-                "royal-gramma", "pajama-cardinalfish", "foxface-rabbitfish", "lionfish",
-            } else "freshwater",
-            "min_group": 6 if schooling else 1, "diet": "omnivore",
-            "eats_small": size_cm >= 15 or _temperament(row) == "aggressive",
-            "wiki": f"/wiki/{slug}/", "zone": _zone(slug, row),
-            "min_tank_gal": max(5, round(float(env["min_tank_liters"]) / 3.785)),
+            "water": water,
+            "min_group": min_group, "diet": "omnivore",
+            "eats_small": eats_small,
+            "wiki": f"/wiki/{slug}/", "zone": zone,
+            "min_tank_gal": min_tank_gal,
             "desc": _clip(row.get("sections", {}).get("overview", "")),
         }
 
@@ -160,30 +274,103 @@ def enhanced_compat(slug_a, slug_b):
     score = round(temp * .20 + ph * .15 + temperament * .25 + size * .20 + zone * .08 + social * .12)
     issues, positives = [], []
     special_bad, special_warn, special_note = v1.get_special_rule(slug_a, slug_b)
-    if not same_water:
-        score = 0; issues.append("These animals require different water types and cannot share one aquarium.")
+    marine = {a["water"], b["water"]} == {"saltwater", "freshwater"} or (
+        "saltwater" in (a["water"], b["water"]) and a["water"] != b["water"])
+    if marine:
+        score = 0
+        issues.append("One of these is a marine species and the other is not; they cannot share one aquarium.")
+    elif not same_water:
+        # Goldfish and koi carry water="coldwater", and the old check treated
+        # cool-water-versus-tropical exactly like marine-versus-freshwater:
+        # 156 pages told readers that two freshwater fish "require different
+        # water types". They share a water type; what they may not share is a
+        # temperature, and the overlap score below already measures that.
+        cool = a if a["water"] == "coldwater" else b
+        warm = b if cool is a else a
+        issues.append(
+            f"{cool['name']} is a cool-water fish and {warm['name']} is tropical, "
+            "so the usable temperature range decides this pairing."
+        )
     if special_bad:
         score = min(score, 18); issues.append(special_note)
     elif special_warn:
         score = min(score, 58); issues.append(special_note)
     if ratio >= 3 and (a.get("eats_small") or b.get("eats_small")):
         score = min(score, 32); issues.append("The adult size gap creates a meaningful predation risk.")
-    trusted_pair = frozenset((slug_a, slug_b))
-    if trusted_pair == frozenset(("discus", "cardinal-tetra")):
+    # Like temperament, a missing temperature overlap is a blocker rather than
+    # one weighted input: goldfish (50-74°F) and oscar (74-81°F) share a single
+    # degree and still published as "Use Caution 58/100".
+    # `temp` is a relative score, so it reads 0 both for ranges that miss each
+    # other and for ranges that touch at a single degree. Gate on the degrees.
+    temp_gap = min(a["temp_max"], b["temp_max"]) - max(a["temp_min"], b["temp_min"])
+    if temp_gap < 0:
+        score = min(score, 38)
+        issues.append(
+            f"There is no shared temperature: {a['name']} needs {a['temp_min']}–{a['temp_max']}°F "
+            f"and {b['name']} needs {b['temp_min']}–{b['temp_max']}°F."
+        )
+    elif temp_gap < 3:
+        score = min(score, 52)
+        issues.append(
+            f"Their ranges meet only at {max(a['temp_min'], b['temp_min'])}–{min(a['temp_max'], b['temp_max'])}°F, "
+            "which leaves no margin for a heater drifting or a warm room."
+        )
+    elif temp < 35:
+        score = min(score, 58)
+        issues.append("Their preferred temperature ranges have little safe overlap.")
+    else:
+        positives.append("A stable shared temperature range is available.")
+    # Same gate as temperature, one notch softer: many species adapt to a pH
+    # outside their stated band, so a miss is a caution rather than a block.
+    # Without it, cardinal tetra (4.5-7.0) and molly (7.5-8.5) published as
+    # "Compatible" on a page whose own table read "pH Range: No overlap".
+    ph_gap = min(a["ph_max"], b["ph_max"]) - max(a["ph_min"], b["ph_min"])
+    if ph_gap < 0:
+        score = min(score, 52)
+        issues.append(
+            f"Their pH ranges do not meet: {a['name']} wants {a['ph_min']:.1f}–{a['ph_max']:.1f} "
+            f"and {b['name']} wants {b['ph_min']:.1f}–{b['ph_max']:.1f}."
+        )
+    elif ph_gap < 0.4:
+        score = min(score, 65)
+        issues.append("Their usable pH overlap is narrow and requires stable, tested water.")
+    elif ph < 75:
+        issues.append("Their pH ranges overlap only partly, so aim for the shared band and keep it steady.")
+    else:
+        positives.append("Their pH requirements overlap.")
+    # A bad temperament match is a blocker, not one weighted input among six.
+    # Weighting alone let aggressive x semi (25/100) still publish as
+    # "Compatible 78/100" with an empty Caution Points card, because nothing
+    # here ever wrote the temperament mismatch into `issues`.
+    if temperament <= 15:
+        score = min(score, 38)
+        issues.append(
+            f"{a['name']} and {b['name']} are both {'aggressive' if a['temperament'] == b['temperament'] else 'assertive'}; "
+            "housing them together invites sustained fighting rather than an occasional squabble."
+        )
+    elif temperament <= 30:
+        score = min(score, 58)
+        issues.append(
+            f"{a['name']} is {a['temperament']} and {b['name']} is {b['temperament']}. "
+            "Expect chasing and fin damage unless the tank is oversized, heavily planted, and watched closely."
+        )
+    elif temperament < 65:
+        issues.append(
+            f"Both are {a['temperament']}, so give them a larger, well-planted tank and watch how they settle in."
+            if a["temperament"] == b["temperament"] else
+            "Their temperaments differ enough that a larger, well-planted tank and regular observation are needed."
+        )
+    else:
+        positives.append("Temperament risk is relatively low when normal group sizes are maintained.")
+    # Applied last: the editorial overrides exist to beat the model, so they
+    # have to run after every cap, not before them.
+    if frozenset((slug_a, slug_b)) == frozenset(("discus", "cardinal-tetra")):
         # A widely used warm-water combination; the shared point at 82°F is
         # viable when stock is acclimated and water quality is excellent.
         score = max(score, 76)
-        issues = [item for item in issues if "temperature" not in item.lower()]
+        issues = [item for item in issues if "temperature" not in item.lower() and "°F" not in item]
         positives.append("Both species can be maintained together at about 82°F in soft, clean water.")
-    if temp < 35: issues.append("Their preferred temperature ranges have little or no safe overlap.")
-    else: positives.append("A stable shared temperature range is available.")
-    if ph < 35:
-        issues.append("Their preferred pH ranges are difficult to reconcile.")
-    elif ph < 75:
-        issues.append("Their usable pH overlap is narrow and requires stable water conditions.")
-    else:
-        positives.append("Their pH requirements overlap.")
-    if temperament >= 75: positives.append("Temperament risk is relatively low when normal group sizes are maintained.")
+
     verdict = "compatible" if score >= 75 else "caution" if score >= 45 else "incompatible"
     color = {"compatible": "#27AE60", "caution": "#F39C12", "incompatible": "#E74C3C"}[verdict]
     return {"score": score, "verdict": verdict, "color": color, "issues": issues,
@@ -271,7 +458,22 @@ PEA_PUFFER_CARD = (
 
 def rebuild_sitemap(pair_rows):
     ET.register_namespace("", "http://www.sitemaps.org/schemas/sitemap/0.9")
-    tree = ET.parse(SITEMAP); root = tree.getroot(); ns = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
+    ns = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
+    # sitemap.xml became a <sitemapindex> after the compatibility URLs were
+    # split into sitemaps/compatibility-*.xml.  Appending <url> nodes to an
+    # index would produce an invalid sitemap, so refresh the split files'
+    # lastmod instead and leave the index alone.
+    if ET.parse(SITEMAP).getroot().tag == f"{ns}sitemapindex":
+        # Rewrite the dates as text.  An ElementTree round-trip drops the
+        # files' ns0: prefix and reformats all 12,500 lines of each one, which
+        # buries a one-token change in a 50,000-line diff.
+        for path in sorted((ROOT / "sitemaps").glob("compatibility-*.xml")):
+            text = path.read_text(encoding="utf-8")
+            text, count = re.subn(r"(<(?:\w+:)?lastmod>)[^<]*(</(?:\w+:)?lastmod>)", rf"\g<1>{TODAY}\2", text)
+            path.write_text(text, encoding="utf-8")
+            print(f"refreshed {count} lastmod dates in {path.relative_to(ROOT)}")
+        return
+    tree = ET.parse(SITEMAP); root = tree.getroot()
     for node in list(root):
         loc = node.find(f"{ns}loc")
         if loc is not None and "/compatibility/" in (loc.text or ""):

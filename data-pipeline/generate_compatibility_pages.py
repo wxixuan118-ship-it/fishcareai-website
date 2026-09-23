@@ -570,6 +570,12 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
 .ftb{color:rgba(255,255,255,.4);font-size:.76rem}"""
 
 
+# Bumped whenever the catalogue or the scoring changes; the pages used to
+# claim "Updated August 18, 2026" long after both had moved on.
+UPDATED = "2026-09-23"
+UPDATED_HUMAN = "September 23, 2026"
+
+
 def min_tank_size(a, b):
     """Estimate min tank size for the pair."""
     base = max(a.get("min_group",1), b.get("min_group",1))
@@ -644,23 +650,45 @@ def make_page(slug_a, slug_b):
         for i in compat["issues"]
     ) or '<div class="point point-ok"><span class="point-icon" aria-hidden="true">✅</span><span>No major compatibility issues identified for this pair.</span></div>'
 
+    # The second sentence used to assert "neither poses a major aggression
+    # risk" on every page scored 75+, including pairs whose own comparison
+    # table three lines above read "Temperament: Risk".  Describe what the
+    # temperaments actually are.
+    calm = {"peaceful", "semi"}
+    if a["temperament"] == "peaceful" and b["temperament"] == "peaceful":
+        behaviour_line = "Both species are peaceful, and neither poses a major aggression risk to the other."
+    elif a["temperament"] in calm and b["temperament"] in calm:
+        behaviour_line = (
+            f"{a['name']} is {a['temperament']} and {b['name']} is {b['temperament']}, "
+            "so give them room and cover rather than assuming they will ignore each other."
+        )
+    else:
+        behaviour_line = (
+            f"{a['name']} is {a['temperament']} and {b['name']} is {b['temperament']}, "
+            "which is the part of this pairing to plan around."
+        )
+
     # Verdict paragraph
     if verdict == "compatible":
         verdict_para = (
             f"{a['name']} and {b['name']} can generally share an aquarium with appropriate planning. "
-            f"Both species prefer overlapping temperature and pH ranges, and neither poses a major aggression risk to the other. "
+            f"Both species prefer overlapping temperature and pH ranges. {behaviour_line} "
             f"A minimum {min_tank}-gallon tank is recommended to provide adequate territory and water volume for both species."
         )
     elif verdict == "caution":
+        # "Some combination of water parameter differences, size mismatch, or
+        # temperament issues" told the reader nothing. State the findings.
+        detail = " ".join(compat["issues"][:2]) or behaviour_line
         verdict_para = (
             f"{a['name']} and {b['name']} can potentially coexist, but the combination requires careful attention. "
-            f"Some combination of water parameter differences, size mismatch, or temperament issues make this pair challenging. "
+            f"{detail} "
             f"A larger tank (minimum {min_tank} gallons), dense planting, and close monitoring are essential."
         )
     else:
+        detail = " ".join(compat["issues"][:2]) or behaviour_line
         verdict_para = (
             f"{a['name']} and {b['name']} are generally not recommended to be housed together. "
-            f"The specific risks listed above create conditions where one or both fish may suffer harm or chronic stress. "
+            f"{detail} "
             f"Review the behavior and water details before deciding whether to attempt the pairing."
         )
 
@@ -670,10 +698,24 @@ def make_page(slug_a, slug_b):
          f"{'Yes, in a well-planned setup.' if verdict=='compatible' else ('With significant caution and a larger tank.' if verdict=='caution' else 'Generally not recommended.')} {verdict_para}"),
         (f"What tank size do I need for {a['name']} and {b['name']} together?",
          f"A minimum of {min_tank} gallons is recommended for keeping {a['name']} and {b['name']} together. A larger tank improves water stability and reduces territorial conflict."),
+        # "No overlap" on its own answered nothing; give the two ranges.
         (f"What temperature suits both {a['name']} and {b['name']}?",
-         tv.replace("✅ ","").replace("⚠️ ","").replace("❌ ","")),
+         f"There is no safe shared range: {a['name']} needs {a['temp_min']}–{a['temp_max']}°F "
+         f"and {b['name']} needs {b['temp_min']}–{b['temp_max']}°F."
+         if tv.startswith("❌") else
+         f"{tv.replace('✅ ', '').replace('⚠️ ', '')} — inside "
+         f"{a['name']}'s {a['temp_min']}–{a['temp_max']}°F and {b['name']}'s {b['temp_min']}–{b['temp_max']}°F."),
+        # Answer the aggression question with the aggression issue, not with
+        # whichever issue happened to be listed first (often a pH note).
+        # The behaviour issue already names both fish and their temperaments,
+        # so only add the prefix when there is no such issue to quote.
         (f"Is a {a['name']} aggressive toward a {b['name']}?",
-         f"{a['name']} is {a['temperament']} and {b['name']} is {b['temperament']}. {compat['issues'][0] if compat['issues'] else 'No major aggression issues are expected between these species.'}"),
+         next((issue for issue in compat["issues"]
+               if any(word in issue.lower() for word in ("chas", "fin damage", "aggress", "fight", "territor", "predation", "temperament"))),
+              f"{a['name']} is {a['temperament']} and {b['name']} is {b['temperament']}. "
+              + ("No major aggression issues are expected between these species."
+                 if a["temperament"] in calm and b["temperament"] in calm
+                 else "Watch them closely after introduction and be ready to separate them."))),
     ]
 
     faqs_html = "\n".join(
@@ -690,8 +732,10 @@ def make_page(slug_a, slug_b):
     title = ("Betta and Guppy Together? Why It Usually Fails | FishCare AI"
              if frozenset((slug_a, slug_b)) == frozenset(("betta-fish", "guppy"))
              else f"Can {a['name']} Live With {b['name']}? Compatibility Guide | FishCare AI")
-    meta_desc = (f"{v_text}: {a['name']} and {b['name']} compatibility, tank size, "
-                 f"temperature, pH, aggression risk, and safer setup advice.")[:155]
+    # No verdict and no score in the SERP: the description sets the question
+    # up, the page answers it.
+    meta_desc = (f"Can {a['name']} and {b['name']} share a tank? Compare their temperature, pH, "
+                 f"temperament and adult size, plus the tank size both species need.")[:160]
 
     breadcrumb_json = json.dumps({
         "@context":"https://schema.org","@type":"BreadcrumbList",
@@ -705,7 +749,7 @@ def make_page(slug_a, slug_b):
     article_json = json.dumps({
         "@context":"https://schema.org","@type":"Article",
         "headline":title,"description":meta_desc,
-        "datePublished":"2026-08-15","dateModified":"2026-08-18",
+        "datePublished":"2026-08-15","dateModified":UPDATED,
         "author":{"@type":"Organization","name":"FishCare AI Editorial Team"},
         "publisher":{"@type":"Organization","name":"FishCare AI","url":"https://www.fishcareai.com","logo":{"@type":"ImageObject","url":"https://www.fishcareai.com/assets/fishcare-logo.svg"}},
         "image":"https://www.fishcareai.com/assets/freshwater-fish-care-hero-optimized.jpg",
@@ -779,7 +823,7 @@ def make_page(slug_a, slug_b):
     </div>
     <div class="tag">🐠 Fish Compatibility Guide</div>
     <h1>Can {a['name']} Live With {b['name']}?</h1>
-    <p class="updated" style="color:rgba(255,255,255,.7);font-size:.82rem">Updated August 18, 2026 · FishCare AI Editorial Team</p>
+    <p class="updated" style="color:rgba(255,255,255,.7);font-size:.82rem">Updated {UPDATED_HUMAN} · FishCare AI Editorial Team</p>
     <div class="verdict-chip" style="background:{color}">{v_emoji} {v_text} — Compatibility Score: {score}/100</div>
     <div class="score-row">
       <div class="score-bar-wrap">

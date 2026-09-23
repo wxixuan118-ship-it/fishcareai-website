@@ -81,11 +81,20 @@ def build_title(a: str, b: str) -> str:
 
 
 def build_description(a: str, b: str, verdict: str, score: str) -> str:
-    verdict_text = {"Compatible": "compatible", "Caution": "possible with caution"}.get(verdict, "not compatible")
+    """Set up the question without answering it in the SERP.
+
+    The description used to open "compatibility: not compatible, score
+    38/100", which is the whole page in eleven words - a searcher who reads it
+    has no reason to click.  Name the factors that decide the pairing instead
+    and let the page give the verdict.  `verdict` and `score` stay in the
+    signature because the caller passes them and the 34 pilot pages use the
+    same shape.
+    """
     variants = [
-        f"{a} and {b} compatibility: {verdict_text}, score {score}/100. Temperature, pH, aggression risk and the tank size you need to keep them together.",
-        f"{a} and {b} compatibility: {verdict_text}, score {score}/100. Temperature, pH, aggression risk and tank size for keeping them together.",
-        f"{a} and {b}: {verdict_text}, score {score}/100. Temperature, pH, aggression risk and tank size.",
+        f"Can {a} and {b} share a tank? Compare their temperature, pH, temperament and adult size, plus the tank size both species need.",
+        f"Can {a} and {b} share a tank? Compare temperature, pH, temperament and adult size, plus the tank size both need.",
+        f"{a} and {b}: temperature, pH, temperament, adult size and tank size compared side by side.",
+        f"{a} and {b}: temperature, pH, temperament and tank size compared.",
     ]
     return next((v for v in variants if len(v) <= MAX_DESC), variants[-1])
 
