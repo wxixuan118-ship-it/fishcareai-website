@@ -100,6 +100,38 @@
     if (banner) banner.hidden = true;
   }
 
+  // ── Global chrome opt-out ─────────────────────────────────────────────────
+  // Pages that ship their own header/footer and do not load
+  // fishcare-glass-redesign.css set <html data-global-chrome="false">. They
+  // still get analytics and the consent banner, but keep their own layout.
+  function globalChromeEnabled() {
+    return document.documentElement.getAttribute('data-global-chrome') !== 'false';
+  }
+
+  // Minimal consent-banner styling for pages without the global stylesheet.
+  function injectConsentBannerStyles() {
+    if (document.getElementById('fishcare-consent-css')) return;
+    var css = document.createElement('style');
+    css.id = 'fishcare-consent-css';
+    css.textContent =
+      '.consent-banner{position:fixed;z-index:1000;left:18px;right:18px;bottom:18px;' +
+      'display:flex;align-items:center;justify-content:space-between;gap:20px;' +
+      'max-width:980px;margin:auto;padding:18px 20px;color:#fff;' +
+      'background:rgba(4,25,41,.97);border:1px solid rgba(125,235,255,.35);' +
+      'border-radius:18px;box-shadow:0 24px 80px rgba(0,0,0,.52);font-size:.88rem}' +
+      '.consent-banner[hidden]{display:none}' +
+      '.consent-banner strong{font-size:.95rem}' +
+      '.consent-banner p{margin:4px 0 0;font-size:.88rem}' +
+      '.consent-banner a{color:#7debff}' +
+      '.consent-actions{display:flex;gap:10px;flex-shrink:0}' +
+      '.consent-actions button{padding:9px 14px;font-size:.82rem;cursor:pointer;' +
+      'border-radius:10px;border:1px solid rgba(255,255,255,.45);' +
+      'background:transparent;color:#fff}' +
+      '.consent-actions button.consent-accept{background:#27AE60;border-color:#27AE60}' +
+      '@media(max-width:620px){.consent-banner{flex-direction:column;align-items:stretch}}';
+    document.head.appendChild(css);
+  }
+
   function setupConsentBanner() {
     var saved = null;
     try { saved = localStorage.getItem(CONSENT_KEY); } catch (e) {}
@@ -347,13 +379,26 @@
     }, 3000);
   }
 
-  document.addEventListener('DOMContentLoaded', function () {
-    setupGlobalNavigation();
-    setupGlobalFooter();
-    setupMobileNavigation();
-    addLegalLinks();
+  function init() {
+    if (globalChromeEnabled()) {
+      setupGlobalNavigation();
+      setupGlobalFooter();
+      setupMobileNavigation();
+      addLegalLinks();
+      setupAppBanner();
+    } else {
+      injectConsentBannerStyles();
+    }
     ensureContentSchema();
     setupConsentBanner();
-    setupAppBanner();
-  });
+  }
+
+  // The script is normally deferred, but it is also injected after load by the
+  // Next.js apps behind /species and /fish-health, where DOMContentLoaded has
+  // already fired.
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
 })();
