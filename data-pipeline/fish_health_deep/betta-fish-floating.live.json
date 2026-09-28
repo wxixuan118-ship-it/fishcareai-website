@@ -1,0 +1,17 @@
+{
+  "slug": "betta-fish-floating",
+  "species": "Betta Fish",
+  "scientific": "Betta splendens",
+  "water": "freshwater",
+  "temp": "24–28°C",
+  "ph": "6.5–7.5",
+  "care": "beginner",
+  "fish_hub": "/fish-health/fish/betta-fish",
+  "problem": "Floating at Surface",
+  "category": "physical",
+  "urgency": "urgent",
+  "hero": "https://www.fishcareai.com/assets/encyclopedia/real/betta-fish-wikimedia-real.jpg",
+  "species_profile": "/species/betta-fish",
+  "guide": null,
+  "date_published": "2026-09-19T17:32:03.220Z"
+}

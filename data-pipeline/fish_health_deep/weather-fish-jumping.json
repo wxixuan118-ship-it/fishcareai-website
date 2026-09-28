@@ -1,0 +1,208 @@
+{
+  "slug": "weather-fish-jumping",
+  "date_modified": "2026-09-28",
+  "date_modified_human": "September 28, 2026",
+  "urgency": "urgent",
+  "title": "Weather Loach Jumping? Pressure Changes, Warm Water & Lids",
+  "description": "Weather loaches get restless and jump when air pressure changes, which is how they got their name. Why yours is jumping and how to stop it escaping.",
+  "h1": "Why Is My Weather Loach Jumping Out of the Tank? Storms, Oxygen and Escape-Proofing",
+  "howto_name": "How to find out why a weather loach is jumping and stop it escaping",
+  "short_answer": "Weather loaches are famous for becoming restless and jumping when barometric pressure changes before a storm — that habit gave them their name — and they are skilled escape artists. A jumping weather loach is usually behaving normally, so <strong>seal every gap in the lid today</strong>. If the frantic swimming does not match the weather, check the temperature and oxygen: these are cool-water fish that struggle in warm tanks.",
+  "intro": [
+    "\"Weather fish\" and \"weather loach\" are names for the Misgurnus loaches, and they come from one specific behaviour. These fish become noticeably more active in response to changes in barometric pressure, and they have long been cited as a harbinger of storms.[1] Aquarium writers describe them as turning restless, swimming frantically and even jumping as pressure drops, and call them \"living barometers\".[2] The species most often sold is the oriental weather loach or dojo, <em>Misgurnus anguillicaudatus</em>; the European weatherfish, <em>Misgurnus fossilis</em>, turns up only occasionally in the trade and is protected in the EU.[3][5]",
+    "So a weather loach that suddenly shoots around the tank and leaps at the surface is often doing exactly what the name says. The risk is that it lands on the floor. These loaches are expert jumpers, and keepers are told plainly that tanks must have tight-fitting lids.[2][3] Once the tank is sealed, the job is to check whether the jumping has a cause you can fix: water that is too warm or short of oxygen, poor water quality, a bare tank with nowhere to burrow, or irritation from parasites."
+  ],
+  "causes_h2": "Why Do Weather Loaches Jump? The Common Causes",
+  "causes": [
+    {
+      "title": "Barometric Pressure Changes Before Storms",
+      "likelihood": "high",
+      "paragraphs": [
+        "The US Geological Survey's species account states that this fish becomes more active in response to changes in barometric pressure, and has frequently been cited as a harbinger of storms.[1] Hobby literature describes the same thing in more detail: restlessness, frantic swimming and jumping as pressure falls.[2] The pattern owners notice is a loach that is normally buried or resting on the bottom suddenly racing up and down the glass or darting to the surface, often on a day when a front or thunderstorm is coming through.",
+        "It is worth being honest that this is a long-standing observation rather than something that has been carefully measured in the laboratory; we found no controlled study of how or why the fish detects pressure change. But it is consistent and widely reported, and it is not a sign of illness. The practical consequence is simple: a weather loach will have bursts of jumping several times a year however well you keep it, so the lid must be escape-proof all the time."
+      ]
+    },
+    {
+      "title": "Natural Escape Behaviour and Gaps in the Lid",
+      "likelihood": "high",
+      "paragraphs": [
+        "Weather loaches are long, slippery and strong for their size, reaching around 10 to 20 cm and occasionally 28 cm,[1] and they are well known for finding their way through any opening. Seriously Fish and Practical Fishkeeping both list a tight-fitting lid as essential for this species because it jumps and escapes.[2][3] A loach will slide through the cut-outs for filters and heaters, gaps at the back of hinged lids, and the opening around an air line.",
+        "In the wild these fish live in shallow, muddy, often weedy water in ditches, ponds and slow streams,[1] where moving between pools is part of life. Many escaped loaches are found in the morning, dried and still on the floor, which is why sealing gaps matters more than any other step."
+      ]
+    },
+    {
+      "title": "Water Too Warm or Short of Oxygen",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Weather loaches are temperate fish, not tropical ones. Seriously Fish recommends keeping <em>M. anguillicaudatus</em> at roughly 18 to 23 °C and notes that it is not a tropical species;[3] Practical Fishkeeping gives 15 to 25 °C.[2] They are often kept in heated community tanks at 26 °C or more, where they are uncomfortable. Warm water also holds less oxygen than cool water.[6]",
+        "These loaches breathe air through their gut: they gulp air at the surface, pass it through a specialised section of intestine that absorbs oxygen, and release it from the vent.[7] At rest the intestine supplies about a fifth of the fish's oxygen, and warmer water and lower oxygen both make the fish rely more on air breathing.[7] A loach in warm, poorly oxygenated water therefore makes many more dashes to the surface, and fast, frantic trips to the top are where jumps and escapes happen. Fish that are short of oxygen in general gather at the surface and gulp air.[6]"
+      ]
+    },
+    {
+      "title": "Poor Water Quality or a Recent Water Change",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Weather loaches tolerate low oxygen well, but they are not immune to ammonia, nitrite or chlorine. Acute ammonia poisoning can cause neurological signs such as spinning and disorientation,[6] and fish affected by nitrite seek out oxygen and pipe at the surface.[6] Chlorine and chloramine in untreated tap water are highly toxic to fish even at very low concentrations.[6] Any of these can set off a sudden bout of frantic swimming and jumping.",
+        "If the jumping started within hours of a water change, suspect chlorine or a temperature difference. If it has built up over days in a tank that has not been cleaned, suspect ammonia. In a healthy tank ammonia should read zero at all times.[8]"
+      ]
+    },
+    {
+      "title": "A Bare Tank, Harassment or Skin Irritation",
+      "likelihood": "low",
+      "paragraphs": [
+        "Weather loaches spend much of their time buried in soft sand or mud,[1][3] and a tank of sharp gravel with nowhere to dig leaves them exposed and restless. Practical Fishkeeping advises soft sand rather than sharp gravel, which can also injure them.[2] Bright lighting with no cover and boisterous tankmates add to the stress, and aggression and crowding are recognised stressors in fish.[9]",
+        "Less often the cause is skin or gill parasites. Fish with parasitic skin irritation flash — dart and rub against objects — and may lose their appetite.[10] A loach that is jumping and also scratching itself on the sand or decor, or that has cloudy patches or white spots on its skin, needs checking for parasites."
+      ]
+    }
+  ],
+  "diagnose_h2": "How to Work Out Why Your Weather Loach Is Jumping",
+  "diagnose_intro": "Seal the lid first, then use these checks to decide whether the jumping is normal weather-driven restlessness or a sign that the tank needs fixing.",
+  "diagnose": [
+    {
+      "action": "Check the weather forecast",
+      "detail": "Look at the pressure trend or the forecast for the day. A bout of restlessness that coincides with a storm, front or sharp drop in pressure, and settles once the weather has passed, fits the behaviour the species is named for.[1][2] If the loach is frantic on calm, stable days, look for another cause."
+    },
+    {
+      "action": "Check every gap in the lid",
+      "detail": "Look at filter and heater cut-outs, cable gaps, feeding hatches and the gap behind hinged lids. Anything wider than the loach's body is an escape route. Look behind and under the tank too, in case a fish has already got out."
+    },
+    {
+      "action": "Read the thermometer",
+      "detail": "Weather loaches do best at roughly 18 to 23 °C.[3] If the tank is above about 25 °C, the loach is too warm, the water holds less oxygen and the fish will be making more trips to the surface to breathe air.[6][7] Watch how often it rises: calm, occasional gulps are normal; constant frantic dashes are not.",
+      "tool": "Aquarium thermometer"
+    },
+    {
+      "action": "Test the water",
+      "detail": "Test ammonia, nitrite, nitrate and pH, and think about whether the jumping began after a water change. Ammonia and nitrite should both read zero.[8] If you did a water change, confirm you used a dechlorinator, because chlorine is toxic to fish at very low concentrations.[6]",
+      "tool": "Water test kit"
+    },
+    {
+      "action": "Look at the substrate, tankmates and the fish itself",
+      "detail": "Check that the loach has soft sand to burrow into and cover to hide under,[2][3] and watch for tankmates chasing it. Look the loach over for white spots, cloudy skin, red marks or scratching against objects, which point to parasites or skin irritation rather than normal behaviour.[10]"
+    }
+  ],
+  "fix_h2": "How to Stop a Weather Loach Jumping Out",
+  "fix": [
+    {
+      "action": "Escape-proof the lid today",
+      "detail": "Cover the tank completely and block every cut-out with filter foam, plastic mesh or aquarium-safe tape, leaving only as much space as the equipment needs. Weather loaches must have tight-fitting lids.[2][3] Keep a small air gap between the water surface and the lid so the fish can still gulp air.[2]"
+    },
+    {
+      "action": "If a loach has jumped out: put it back straight away",
+      "detail": "Weather loaches breathe air and can survive longer out of water than most fish,[1][7] so do not assume a dry, still loach is dead. Rinse it gently in tank water and return it to the tank, keep the lights off for a day, and keep the water very clean. Time out of the water and handling damage the protective mucus and skin, and any break in the skin is an opening for infection,[9] so watch it over the next week for red patches, fungus or ragged fins."
+    },
+    {
+      "action": "Cool the tank down if it is too warm",
+      "detail": "Turn the heater down or remove it in a heated room, and bring the temperature into the high teens or low 20s °C over a day or two rather than all at once.[3] Increase surface movement with an air stone or by angling the filter outlet so the water holds more oxygen.[6] If the loaches share a tank with tropical fish that need 26 °C or more, move them to a cooler tank."
+    },
+    {
+      "action": "Fix water quality",
+      "detail": "Do partial water changes with dechlorinated, temperature-matched water until ammonia and nitrite read zero,[8] and keep the substrate clean without stripping it bare. Always dechlorinate new water.[6]"
+    },
+    {
+      "action": "Give them sand, cover and company",
+      "detail": "Replace sharp gravel with soft sand so the loaches can burrow as they would in mud,[1][2] add plants or caves for cover, and remove tankmates that chase them. Keeping weather loaches in a small group, as Practical Fishkeeping recommends, also helps them settle.[2]"
+    }
+  ],
+  "prevention_h2": "Preventing Weather Loach Escapes",
+  "prevention": "Treat a sealed lid as part of the tank, not an accessory: these are expert jumpers that become especially restless when the weather changes.[1][2] Keep them cool — high teens to low 20s °C — rather than in a warm tropical tank,[3] with good surface movement for oxygen.[6] Give them soft sand to burrow into and a small group of their own kind,[2] keep ammonia at zero,[8] and always dechlorinate new water. Check the lid after every maintenance session, because most escapes happen through a cut-out that was left open.",
+  "seek_help_h2": "When a Jumping Weather Loach Needs Help",
+  "seek_help": "<strong>Act immediately if:</strong> a loach is found out of the tank — return it to the water even if it looks dead, since these air-breathing fish can survive surprisingly long out of water.[1][7] <strong>Act today if:</strong> the loach is frantic on a calm day, the tank is warm, ammonia or nitrite is present, or the jumping started after a water change.[6][8] <strong>See a fish vet if:</strong> the fish has wounds that are not healing after an escape, or if jumping comes with scratching, white spots, cloudy skin or loss of appetite, which point to parasites or infection rather than weather.[10] Occasional restlessness around storms in a sealed tank needs no treatment.",
+  "faq": [
+    {
+      "q": "Can weather loaches really predict the weather?",
+      "a": "They react to it rather than predict it. The US Geological Survey notes that the fish becomes more active in response to changes in barometric pressure and has often been cited as a sign of approaching storms.[1] We found no controlled study showing how they sense the change, so treat it as a well-known observation rather than a proven forecasting ability."
+    },
+    {
+      "q": "How long can a weather loach survive out of water?",
+      "a": "Longer than most aquarium fish, because it can take oxygen from air through its intestine,[7] and in the wild it tolerates low-oxygen conditions by burrowing into soft mud and breathing air.[1] There is no reliable figure for how long, and a loach on a dry floor dries out and dies. If you find one outside the tank, put it back in the water immediately."
+    },
+    {
+      "q": "Why does my weather loach swim up and down the glass?",
+      "a": "Short bursts are normal, especially around weather changes and feeding time.[2] Constant frantic swimming up the glass suggests the fish is uncomfortable: check that the water is cool enough, that it is well oxygenated, and that ammonia and nitrite are zero.[3][6][8]"
+    },
+    {
+      "q": "Why does my weather loach keep going to the surface?",
+      "a": "It is breathing air. Weather loaches gulp air at the surface, absorb oxygen in the gut and release the air from the vent,[7] so regular trips to the top are normal; X-ray studies show the swallowed air travelling through the intestine as bubbles, where it also helps move gut contents along.[4] Very frequent trips mean the fish needs more oxygen than the water is giving it, usually because the water is warm or poorly aerated.[6][7]"
+    },
+    {
+      "q": "Is it the European or the oriental weather loach I have?",
+      "a": "Almost certainly the oriental weather loach, <em>Misgurnus anguillicaudatus</em>, which is the one widely sold. The European weatherfish, <em>M. fossilis</em>, appears in shops only occasionally and is a protected species in the EU.[3][5] It has a dark stripe along the side rather than spots.[3] Both behave similarly and both jump."
+    }
+  ],
+  "references": [
+    {
+      "authors": "Nico, L., Fuller, P., Neilson, M., Larson, J., Fusaro, A., Makled, T.H., Loftus, B. &amp; Bartos, A.",
+      "title": "<em>Misgurnus anguillicaudatus</em> (Cantor, 1842) — Pond Loach.",
+      "source": "U.S. Geological Survey, Nonindigenous Aquatic Species Database.",
+      "url": "https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=498",
+      "label": "nas.er.usgs.gov"
+    },
+    {
+      "authors": "Turner, E.",
+      "title": "Weather loaches and how to keep them.",
+      "source": "Practical Fishkeeping.",
+      "url": "https://www.practicalfishkeeping.co.uk/features/weather-loaches-and-how-to-keep-them/",
+      "label": "practicalfishkeeping.co.uk"
+    },
+    {
+      "authors": "Seriously Fish.",
+      "title": "<em>Misgurnus anguillicaudatus</em> – Oriental Weather Loach.",
+      "source": "SeriouslyFish.com species profile.",
+      "url": "https://www.seriouslyfish.com/species/misgurnus-anguillicaudatus/",
+      "label": "seriouslyfish.com"
+    },
+    {
+      "authors": "Qi, Z., Ma, H., Ma, L. &amp; Yang, X. (2024).",
+      "title": "The Structure of Digestive Tract Coordinating Digestion and Respiration in an Air-Breathing Weatherloach, <em>Misgurnus anguillicaudatus</em>.",
+      "source": "Biology 13(6): 381.",
+      "url": "https://doi.org/10.3390/biology13060381",
+      "label": "doi:10.3390/biology13060381"
+    },
+    {
+      "authors": "Pyrzanowski, K., Zięba, G., Dukowska, M., Smith, C. &amp; Przybylski, M. (2019).",
+      "title": "The role of detritivory as a feeding tactic in a harsh environment – a case study of weatherfish (<em>Misgurnus fossilis</em>).",
+      "source": "Scientific Reports 9: 8467.",
+      "url": "https://doi.org/10.1038/s41598-019-44911-y",
+      "label": "doi:10.1038/s41598-019-44911-y"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Environmental Diseases of Aquatic Animals in Aquatic Systems.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquatic-systems/environmental-diseases-of-aquatic-animals-in-aquatic-systems",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "McMahon, B.R. &amp; Burggren, W.W. (1987).",
+      "title": "Respiratory physiology of intestinal air breathing in the teleost fish <em>Misgurnus anguillicaudatus</em>.",
+      "source": "Journal of Experimental Biology 133(1): 371–393.",
+      "url": "https://doi.org/10.1242/jeb.133.1.371",
+      "label": "doi:10.1242/jeb.133.1.371"
+    },
+    {
+      "authors": "Francis-Floyd, R., Watson, C., Petty, D. &amp; Pouder, D.B. (2022).",
+      "title": "Ammonia in Aquatic Systems.",
+      "source": "UF/IFAS Extension, FA16.",
+      "url": "https://doi.org/10.32473/edis-fa031-2022",
+      "label": "doi:10.32473/edis-fa031-2022"
+    },
+    {
+      "authors": "Francis-Floyd, R.",
+      "title": "Stress—Its Role in Fish Disease.",
+      "source": "UF/IFAS Extension, Circular 919 (FA005).",
+      "url": "https://edis.ifas.ufl.edu/publication/FA005",
+      "label": "edis.ifas.ufl.edu"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Disorders and Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/all-other-pets/fish/disorders-and-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    }
+  ],
+  "species_overrides": {
+    "scientific": "Misgurnus anguillicaudatus"
+  }
+}

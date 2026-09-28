@@ -17,6 +17,7 @@ impressions:
                              species app (upstream, not the public URL, which
                              becomes our own page once the override is live)
                              → data-pipeline/fish_health_deep/<slug>.live.json
+  check <slug>...            validate content files without writing anything
   render [<slug>...]         build fish-health/<slug>/index.html from
                              data-pipeline/fish_health_deep/<slug>.json and
                              regenerate the nginx override block
@@ -179,6 +180,8 @@ def sidebar_link(href: str, label: str, last: bool = False) -> str:
 
 def render_page(c: dict, live: dict, shell: str) -> str:
     slug, url = c["slug"], f"{SITE}/fish-health/{c['slug']}"
+    # A content file may correct species facts the app's database gets wrong.
+    live = {**live, **c.get("species_overrides", {})}
     species, problem = live["species"], live["problem"]
     head_common = re.search(r'(<link rel="stylesheet" href="/assets/fish-health-static\.css[^>]*>)', shell).group(1)
     tail_script = re.search(r'(<script defer src="/assets/site-compliance\.js[^"]*"></script>)', shell).group(1)
@@ -428,9 +431,12 @@ def render(only: list[str]) -> None:
             failed = True
             print(f"✗ {slug}: " + "; ".join(problems))
             continue
-        rendered.append(slug)
         if only and slug not in only:
+            # Keep routing pages rendered earlier; never route to a page that has no HTML yet.
+            if (OUT / slug / "index.html").exists():
+                rendered.append(slug)
             continue
+        rendered.append(slug)
         live = json.loads((CONTENT / f"{slug}.live.json").read_text(encoding="utf-8"))
         (OUT / slug).mkdir(parents=True, exist_ok=True)
         (OUT / slug / "index.html").write_text(render_page(c, live, shell), encoding="utf-8")
@@ -447,7 +453,17 @@ def main() -> None:
     sub.add_parser("select").add_argument("export", type=Path)
     sub.add_parser("fetch").add_argument("slugs", nargs="+")
     sub.add_parser("render").add_argument("slugs", nargs="*")
+    sub.add_parser("check").add_argument("slugs", nargs="+")
     args = ap.parse_args()
+    if args.cmd == "check":
+        bad = False
+        for slug in args.slugs:
+            c = json.loads((CONTENT / f"{slug}.json").read_text(encoding="utf-8"))
+            problems = check(c)
+            words = len(plain(json.dumps(c, ensure_ascii=False)).split())
+            print(("✗ " if problems else "✓ ") + f"{slug} (~{words} words, {len(c['references'])} refs) " + "; ".join(problems))
+            bad |= bool(problems)
+        sys.exit(1 if bad else 0)
     if args.cmd == "select":
         select(args.export)
     elif args.cmd == "fetch":

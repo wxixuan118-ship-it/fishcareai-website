@@ -1,0 +1,216 @@
+{
+  "slug": "betta-fish-floating",
+  "date_modified": "2026-09-28",
+  "date_modified_human": "September 28, 2026",
+  "urgency": "monitor",
+  "title": "Betta Floating at the Top? Resting, Bloated or Sick",
+  "description": "A betta at the surface is often just resting or breathing air. How to tell normal rest from overfeeding, swim bladder trouble and a fish that is dying.",
+  "h1": "Betta Fish Floating at the Top of the Tank: Resting, Swim Bladder or Something Worse?",
+  "howto_name": "How to tell why a betta fish is floating at the surface and what to do",
+  "short_answer": "A betta that sits upright near the surface, <strong>swims down when disturbed and eats normally</strong>, is usually resting — bettas breathe air and males spend a lot of time under their bubble nests. A betta that is <strong>stuck at the top, tilted or on its side, and struggles to swim down</strong> has a buoyancy problem, most often from overfeeding. Check whether it can swim down on its own, then test the water and stop feeding for a day or two.",
+  "intro": [
+    "Bettas worry their owners more than most fish because they so often hang motionless just under the surface. Much of that is normal. The betta is a labyrinth fish: it has a paired air-breathing organ above the gills that lets it take oxygen from air, and its gills are relatively small.[1][2] In the wild it lives in shallow, warm, heavily vegetated water that is often low in oxygen,[1] so spending time at the top — taking a gulp of air, resting against a leaf, or guarding a bubble nest — is part of how the fish is built.",
+    "The question that separates normal from abnormal is not <em>where</em> the betta is but <em>whether it chose to be there</em>. A resting betta holds its body level, breathes steadily and swims off when you approach. A betta with a buoyancy problem is pinned at the surface, often tilted, with part of its back or side above water, and has to fight to get down.[4] The causes below are ordered from most to least likely, and most of them can be sorted out with a few minutes of watching and a water test."
+  ],
+  "causes_h2": "Why Is My Betta Floating at the Top? The Common Causes",
+  "causes": [
+    {
+      "title": "Normal Resting and Air Breathing",
+      "likelihood": "high",
+      "paragraphs": [
+        "Bettas rise to the surface many times an hour to breathe. Many labyrinth fishes are obligate air breathers that must reach the surface to survive,[1] and the betta's whole biology is built around warm, shallow water where oxygen can drop close to zero.[1] Research on displaying males found that the amount of oxygen taken per breath is already near its maximum at rest, so an active or excited betta simply makes more trips to the top.[2] Owners who see this for the first time often read it as gasping; it is not, unless it comes with the warning signs listed further down.",
+        "Bettas also rest near the surface. Many settle on a leaf, a floating log or the corner of the tank just under the waterline and stay still for long periods, especially at night and in the first days in a new tank. Modern long-finned bettas have a genuine reason to rest: a study of artificially selected bettas found that the larger the tail fin, the slower the fish's burst swimming speed,[3] and fish carrying heavy fins tend to park rather than patrol. A resting betta keeps its body level, its fins are relaxed rather than clamped, and it moves off normally when disturbed."
+      ]
+    },
+    {
+      "title": "Bubble Nest Building and Guarding (Males)",
+      "likelihood": "high",
+      "paragraphs": [
+        "A healthy male betta blows a bubble nest: he gulps air at the surface, coats it with mucus in his mouth and releases the bubbles among floating plants or against the glass, building a raft of foam.[2] He then spends much of his day directly beneath it, adding bubbles and fanning it. From the outside this looks like a fish that is just hovering at the top, sometimes for days.",
+        "Nest building is linked to the same air-breathing adaptation that lets bettas live in warm, low-oxygen water, and in a spawning pair the male guards the eggs and newly hatched fry in the nest.[1][2] A male does not need a female to build one. If you can see a patch of small bubbles at the surface and the betta keeps returning to it, he is healthy and in breeding condition, not floating."
+      ]
+    },
+    {
+      "title": "Overfeeding, Constipation and Swallowed Air",
+      "likelihood": "high",
+      "paragraphs": [
+        "This is the most common cause of a betta that is genuinely <em>stuck</em> at the top. Bettas will eat almost everything offered, and dry pellets and flakes swell after they are swallowed; a fish that also gulps air while snapping food from the surface can end up with a distended gut that presses on the swim bladder. The result is positive buoyancy: the fish floats, often tilted to one side or tail-up, and has to swim hard to get down.[4]",
+        "Two things point to food as the cause: a visibly round belly, and a problem that started within hours or a day of feeding. A board-certified fish veterinarian notes that feeding a sinking or neutrally buoyant diet can help reduce the risk in fish prone to buoyancy trouble,[4] and the UF/IFAS betta guide stresses avoiding overfeeding and the water fouling that follows it.[1] Most food-related cases improve within one to three days of fasting."
+      ]
+    },
+    {
+      "title": "Poor Water Quality or Water That Is Too Cold",
+      "likelihood": "medium",
+      "paragraphs": [
+        "In a small tank with little or no filtration, ammonia builds quickly from waste and uneaten food. Fish exposed to ammonia may be lethargic with a poor appetite,[8] and any measurable ammonia means the system is out of balance and needs correcting.[7] A betta that hangs at the surface, stops eating and has clamped fins in a tank that has not had a water change for a while is more likely to be poisoned than resting. Poor water quality is also one of the most common causes of buoyancy disorders in general.[4]",
+        "Temperature matters just as much. Wild bettas live in water around 27 to 31 °C, and UF/IFAS advises that bettas do not do well in cold water: an unheated betta container should not sit in a room below 22 °C.[1] A cold betta becomes sluggish and often sits still near the top. Cold also weakens the fish's immune defences,[10] so a betta kept too cool is more likely to develop infections, including those that affect the swim bladder."
+      ]
+    },
+    {
+      "title": "Swim Bladder Disease, Infection or Dropsy",
+      "likelihood": "low",
+      "paragraphs": [
+        "When floating does not improve with fasting and clean water, the cause is more likely to lie in the swim bladder or organs around it. Documented causes of buoyancy disorders in ornamental fish include bacterial infection, parasites, poor nutrition, tumours, injury and inherited defects, and several of these can only be told apart with X-rays or ultrasound.[5] Some infected fish recovered with antibiotics once the cause was identified, which is why a diagnosis beats guessing.[5]",
+        "Dropsy is a different picture: the body swells with fluid and the scales stand out like a pinecone when viewed from above.[6] A betta with raised scales that is also floating is seriously ill. Round-bodied or very heavy-finned bettas can also have lifelong buoyancy problems linked to body shape; fish with a chronic swim bladder issue can often live well with adjustments to their tank and diet.[4]"
+      ]
+    },
+    {
+      "title": "Old Age or a Dying Fish",
+      "likelihood": "low",
+      "paragraphs": [
+        "Old bettas slow down. They rest more, often near the surface, and their fins may fray and colour fade. That alone is not an illness, but a betta that is floating limply, breathing slowly or irregularly, not responding to you and not eating is likely to be dying. Sick fish often stop feeding and appear lethargic, and fish hanging listlessly or gasping at the surface are showing that something is wrong.[9]",
+        "A fish that is floating completely still, on its side or upside down, with no gill movement at all, has usually already died; dead fish float as gases form inside the body. Check closely before removing it — bettas can lie very still — but a fish that does not react to a gentle nudge with a net and shows no gill movement for a minute or more has gone."
+      ]
+    }
+  ],
+  "diagnose_h2": "How to Tell Why Your Betta Is Floating",
+  "diagnose_intro": "Work through these in order. The first two checks take a couple of minutes and settle most cases without any equipment.",
+  "diagnose": [
+    {
+      "action": "Watch whether it can swim down on its own",
+      "detail": "Approach the tank slowly or drop a small piece of food. A resting betta swims off or comes to investigate, then returns to the surface when it chooses. A betta that tries to swim down and bobs back up like a cork, or that stays tilted with its back or side above the waterline, has a buoyancy problem.[4] This is the single most useful check."
+    },
+    {
+      "action": "Look for a bubble nest",
+      "detail": "Scan the surface, especially around plants, the filter outlet and the corners, for a raft of small bubbles. A male that keeps returning to a nest is nest-guarding, not floating.[2] Bubble nests mean a male is healthy enough to breed and are not a sign of illness."
+    },
+    {
+      "action": "Check the belly and look from above for raised scales",
+      "detail": "A rounded, swollen belly in a fish that has just eaten points to food. A belly that is swollen and scales that stick out from the body when seen from above point to dropsy, which is serious.[6] Also look at the fins (clamped or relaxed?) and at the skin on the back: a fish stuck at the surface for a long time can develop sore, dry patches where the skin is exposed to air.[4]"
+    },
+    {
+      "action": "Test the water and read the thermometer",
+      "detail": "Test ammonia, nitrite and nitrate, and check the temperature. In a healthy tank ammonia should always read zero; any detectable level means the system is out of balance and needs correcting now.[7] UF/IFAS recommends testing immediately whenever a fish's appearance or behaviour changes, including reduced feeding.[7] Bettas need warm water — keep it in the mid to upper 20s °C, not in a cold room.[1]",
+      "tool": "Water test kit and aquarium thermometer"
+    },
+    {
+      "action": "Think back over the last 48 hours",
+      "detail": "Note how much and what you fed, whether you did a water change (and whether you used dechlorinator), and whether the room got colder. A floating problem that started within a day of a large meal is almost always food. One that started after a big water change or a cold night points to the water. One that has built slowly over weeks in an older fish, or that comes with raised scales, points to disease or age."
+    }
+  ],
+  "fix_h2": "What to Do for a Floating Betta",
+  "fix": [
+    {
+      "action": "If it is resting or nest-building: leave it alone",
+      "detail": "No treatment is needed. Make sure the betta can reach the surface easily — leave a gap under the lid so it can breathe air, and keep the water surface fairly calm, because bettas prefer calm water and research using flow as a stressor found that strong currents are stressful for them.[1] A floating leaf or a few floating plants give it somewhere to rest."
+    },
+    {
+      "action": "If it is stuck at the top after eating: fast for two to three days",
+      "detail": "Stop feeding for 48 to 72 hours; a healthy betta tolerates this easily. When you resume, feed a small amount — a few pellets once or twice a day — and consider soaking dry pellets in tank water for a minute first or switching to a sinking food so the fish takes in less air at the surface.[4] Lower the water level a little while it is floating so it does not have to fight so hard to move, and keep the lid on to prevent a buoyant fish from being pushed around by the filter."
+    },
+    {
+      "action": "If the water is the problem: correct it gradually",
+      "detail": "Do a partial water change with dechlorinated water at the same temperature, and repeat daily until ammonia and nitrite read zero.[7] If the tank is cold, add a heater and raise the temperature slowly over a day rather than all at once, since sudden temperature change is itself a stressor.[10] Smaller tanks need more frequent water changes to keep waste from reaching harmful levels.[1]"
+    },
+    {
+      "action": "If the skin on its back is exposed: protect it",
+      "detail": "A fish floating for days can develop sores where its skin dries in the air. Lowering the water level, adding floating plants so the fish can rest with its back wet, and keeping the water very clean all help.[4] A small amount of stress-coat style conditioner used according to the product label may also help, but clean water matters more than additives."
+    },
+    {
+      "action": "If nothing improves in three to five days: get a diagnosis",
+      "detail": "Persistent floating, raised scales, a swelling on one side or a fish that is getting thinner needs a veterinarian who treats fish. Swim bladder infections and masses are diagnosed with imaging and sometimes a fluid sample, and antibiotics work only when the cause is bacterial and the right drug is chosen.[5] UF/IFAS advises ruling out water quality, nutrition and infection before treating, because many drugs and chemicals do more harm than good when used inappropriately.[1]"
+    }
+  ],
+  "prevention_h2": "Preventing Floating Problems in Bettas",
+  "prevention": "Feed small amounts once or twice a day and skip a day each week. Vary the diet with frozen foods such as bloodworms or brine shrimp, which UF/IFAS lists as useful additions to a dry diet.[1] Keep the water warm and stable with a heater, and keep ammonia at zero with regular partial water changes; in a small or unfiltered tank that means changing water often rather than relying on the tank's size.[1][7] Leave an air gap under the lid so the betta can always reach the surface to breathe,[1] and keep the current gentle.",
+  "seek_help_h2": "When a Floating Betta Needs Expert Help",
+  "seek_help": "<strong>Act today if:</strong> the betta is stuck at the surface on its side or upside down and cannot swim down at all, if its scales are raised like a pinecone, if it has stopped eating for more than two or three days, or if it is breathing rapidly while hanging at the top. These point to a buoyancy disorder, poisoning or systemic infection rather than rest.[4][6][9] <strong>Talk to a fish vet if:</strong> floating persists after fasting and clean water, or keeps coming back, because the cause may be an infection or a mass that needs imaging to diagnose.[5] A betta that rests near the surface, swims down when disturbed and eats normally does not need treatment.",
+  "faq": [
+    {
+      "q": "Is my betta sleeping or dead?",
+      "a": "A sleeping betta is upright or resting on a leaf or the bottom, with slow gill movement, and wakes when the light comes on or you approach. A dead betta is usually on its side or upside down, with no gill movement at all, and does not react to a gentle touch with a net. Bettas often sleep near the surface, so a still fish at the top is not necessarily a sick one."
+    },
+    {
+      "q": "Why does my betta float at the top but still eat?",
+      "a": "If it eats eagerly and can swim down when it wants, it is almost certainly resting, breathing air or guarding a bubble nest.[2] If it eats but then bobs back up and struggles to get down, it has mild positive buoyancy, most often from overfeeding; fast it for two days and feed smaller amounts afterwards.[4]"
+    },
+    {
+      "q": "Do peas cure swim bladder problems in bettas?",
+      "a": "Peas are widely recommended but bettas are carnivores and many refuse them. The part of the \"pea treatment\" that actually helps is the fasting that comes before it. Two to three days without food, followed by small meals of a sinking food, is usually enough for a food-related case.[4]"
+    },
+    {
+      "q": "Why is my new betta just floating at the top?",
+      "a": "Newly bought bettas have spent weeks in small cups and shipping bags,[1] and many simply rest near the surface for the first few days in a new tank. Shipping and handling are recognised stressors in fish.[10] Keep the water warm and clean, feed lightly, and expect normal swimming within a few days. If it does not eat for more than three or four days, test the water."
+    },
+    {
+      "q": "Why is my betta floating sideways?",
+      "a": "Floating on its side, with no ability to right itself, is a sign of a buoyancy disorder rather than rest.[4] Overfeeding is the usual cause, but infections, injury and body-shape problems can do the same, and some only show up on X-rays.[5] Fast the fish, check the water, and see a fish vet if it does not improve within a few days."
+    },
+    {
+      "q": "Can a betta recover from swim bladder disorder?",
+      "a": "Yes, most food-related cases recover fully within a few days of fasting. Fish with a chronic buoyancy problem can often still live long lives with adjustments such as lower water and easy access to food.[4] Cases caused by infection may recover with the right antibiotic, chosen after diagnosis.[5]"
+    }
+  ],
+  "references": [
+    {
+      "authors": "Watson, C., DiMaggio, M., Hill, J., Tuckett, Q. &amp; Yanong, R. (2019).",
+      "title": "Evolution, Culture, and Care for <em>Betta splendens</em>.",
+      "source": "UF/IFAS Extension, FA212.",
+      "url": "https://edis.ifas.ufl.edu/publication/FA212",
+      "label": "edis.ifas.ufl.edu"
+    },
+    {
+      "authors": "Tate, M., McGoran, R.E., White, C.R. &amp; Portugal, S.J. (2017).",
+      "title": "Life in a bubble: the role of the labyrinth organ in determining territory, mating and aggressive behaviours in anabantoids.",
+      "source": "Journal of Fish Biology 91(3): 723–749.",
+      "url": "https://doi.org/10.1111/jfb.13357",
+      "label": "doi:10.1111/jfb.13357"
+    },
+    {
+      "authors": "Smith, C.P.M. &amp; Hopkins, G.R. (2026).",
+      "title": "Negative relationship between caudal fin size and burst swimming speed in artificially selected <em>Betta</em> fish.",
+      "source": "Ethology Ecology &amp; Evolution 38(4): 522–534.",
+      "url": "https://doi.org/10.1080/03949370.2026.2658495",
+      "label": "doi:10.1080/03949370.2026.2658495"
+    },
+    {
+      "authors": "Sanders, J. (DVM, DABVP Fish Practice).",
+      "title": "Swim Bladder Disease in Fish: Symptoms &amp; Treatment.",
+      "source": "PetMD.",
+      "url": "https://www.petmd.com/fish/conditions/respiratory/swim-bladder-disorders-fish",
+      "label": "petmd.com"
+    },
+    {
+      "authors": "Sirri, R., Mandrioli, L., Zamparo, S. et al. (2020).",
+      "title": "Swim Bladder Disorders in Koi Carp (<em>Cyprinus carpio</em>).",
+      "source": "Animals 10(11): 1974.",
+      "url": "https://doi.org/10.3390/ani10111974",
+      "label": "doi:10.3390/ani10111974"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Disorders and Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/all-other-pets/fish/disorders-and-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Francis-Floyd, R., Watson, C., Petty, D. &amp; Pouder, D.B. (2022).",
+      "title": "Ammonia in Aquatic Systems.",
+      "source": "UF/IFAS Extension, FA16.",
+      "url": "https://doi.org/10.32473/edis-fa031-2022",
+      "label": "doi:10.32473/edis-fa031-2022"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Environmental Diseases of Aquatic Animals in Aquatic Systems.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquatic-systems/environmental-diseases-of-aquatic-animals-in-aquatic-systems",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Francis-Floyd, R., Stilwell, N.K. &amp; Yanong, R.P.E.",
+      "title": "Introduction to Fish Health Management.",
+      "source": "UF/IFAS Extension, Circular 921 (FA004).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA004",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Francis-Floyd, R.",
+      "title": "Stress—Its Role in Fish Disease.",
+      "source": "UF/IFAS Extension, Circular 919 (FA005).",
+      "url": "https://edis.ifas.ufl.edu/publication/FA005",
+      "label": "edis.ifas.ufl.edu"
+    }
+  ]
+}

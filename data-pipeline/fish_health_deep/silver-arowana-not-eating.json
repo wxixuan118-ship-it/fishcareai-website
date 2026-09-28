@@ -1,0 +1,208 @@
+{
+  "slug": "silver-arowana-not-eating",
+  "date_modified": "2026-09-28",
+  "date_modified_human": "September 28, 2026",
+  "urgency": "monitor",
+  "title": "Silver Arowana Not Eating? New-Tank Stress or Wrong Food",
+  "description": "A new silver arowana often refuses food for days. How to tell settling-in stress and food refusal from cold water, poor water quality and illness.",
+  "h1": "Silver Arowana Not Eating: Why It Refuses Food and How to Get It Feeding Again",
+  "howto_name": "How to find out why a silver arowana has stopped eating and get it feeding",
+  "short_answer": "If the arowana is <strong>newly bought or recently moved</strong>, a few days to a week without food is common and usually not dangerous — new fish often refuse food until they settle. In an established fish, the usual causes are <strong>food it does not recognise</strong> (arowana feed at the surface on insects and small prey), cold or dirty water, or stress. Test the water first, then offer floating, insect-type food.",
+  "intro": [
+    "A silver arowana that ignores its food is alarming because arowana are usually such eager, explosive feeders. But this is a fish that is shipped long distances, grows from a few centimetres to about 90 cm,[1] and in the wild eats mostly insects and other small animals taken at or above the water surface.[2][3] Each of those facts produces its own reason for refusing food in an aquarium: shipping and new-tank stress, a tank that has become too small, and food that does not look like prey.",
+    "The first question is how long the fish has been in the tank. An experienced arowana keeper notes that new fish in new surroundings usually do not eat for days until they acclimate,[4] and a healthy arowana can go that long without harm. The second is what else has changed: a sudden drop in appetite in a fish that has been feeding well for months points to the water, the temperature or illness. Work through the causes below in order; most arowana start eating again without any medication."
+  ],
+  "causes_h2": "Why Is My Silver Arowana Not Eating? The Common Causes",
+  "causes": [
+    {
+      "title": "Settling In After Purchase or a Move",
+      "likelihood": "high",
+      "paragraphs": [
+        "This is the most common reason by far. An arowana that has been caught, bagged, shipped, held in a shop and released into a new tank has been through several of the stressors that fish-health specialists list by name: handling, shipping, a new population density and new tankmates.[5] The stress response releases hormones that mobilise the body's energy reserves,[5] and stressed or unwell fish very often stop feeding for a while.[9] The same keeper who notes this settling-in fast also found that his arowana fed poorly in tanks that were too small for them.[4]",
+        "A settling arowana usually keeps its fins spread, swims in the upper part of the tank, watches movement outside the glass and looks healthy, but ignores food or takes it and spits it out. Leave it alone in a dim, quiet tank; offer a small amount of food once a day and remove anything uneaten. Most start feeding within a week. The Merck Veterinary Manual recommends a minimum 30-day quarantine for new fish,[6] which is also a good settling-in period in a quiet tank without other fish."
+      ]
+    },
+    {
+      "title": "Food It Does Not Recognise",
+      "likelihood": "high",
+      "paragraphs": [
+        "Silver arowana are surface feeders with an upturned mouth, built to take prey from below while swimming near the surface, and they also jump to take insects out of the air and off branches.[1][3] In one Amazon study, arthropods — mainly insects — were the main food, with fish, plants, reptiles and mammals making up the rest.[2] Food that sinks quickly past the fish, or that does not move, often does not register as food at all.",
+        "The problem is worst in fish raised on live feeder fish or a single food. An arowana that has only ever eaten live fish may refuse pellets completely, and one that has only had pellets may ignore frozen food. That is a feeding habit, not an illness: the fish looks healthy, reacts to food and approaches it, but does not take it. Offering floating foods and insect-type prey such as crickets, mealworms or earthworms usually brings a response, and new foods can be introduced gradually alongside a food the fish already accepts."
+      ]
+    },
+    {
+      "title": "Water Too Cold or Poor Water Quality",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Silver arowana are tropical fish with a range of about 24 to 30 °C.[1] Fish are cold-blooded, and all of their physiological processes, including digestion, depend on water temperature,[6] so an arowana in a tank that has cooled after a heater failure or a cold spell will eat less or not at all. Cold also weakens a fish's immune defences.[5]",
+        "A large, messy, meat-eating fish also produces a lot of waste. Fish exposed to ammonia may be lethargic with poor appetites,[7] and UF/IFAS recommends testing ammonia immediately whenever fish change their behaviour, including reduced feeding.[8] In a healthy tank ammonia should always read zero.[8] Poor water quality is also the most common trigger for the disease outbreaks listed below."
+      ]
+    },
+    {
+      "title": "Stress From a Small Tank or Tankmates",
+      "likelihood": "medium",
+      "paragraphs": [
+        "A fish that grows as large as a silver arowana outgrows most home aquariums. Arowana kept in tanks that are too small are described by keepers as nervous and picky eaters, and one keeper saw an arowana in a cramped tank refuse food, stop swimming and settle on the bottom — then feed normally after being moved to much larger quarters.[4] Crowding and a lack of swimming space are recognised stressors.[5]",
+        "Tankmates can do the same. Aggressive or territorial fish, fish that steal food at the surface before the arowana reaches it, or a second arowana that dominates the first can all leave it hungry and stressed.[5] Watch a few feeding sessions closely: an arowana that goes for the food but is beaten to it is a different problem from one that is not interested."
+      ]
+    },
+    {
+      "title": "Illness: Parasites or Infection",
+      "likelihood": "low",
+      "paragraphs": [
+        "Loss of appetite is one of the first signs of illness in any fish, and sick fish often stop feeding and become lethargic before anything else shows.[9] Internal parasites cause weight loss and loss of appetite,[10] and infections are more likely after shipping, handling and crowding, which are the very conditions a new arowana has just been through.[5][10] Live feeder fish can bring parasites and bacteria into the tank as well.",
+        "Illness is the cause to suspect when refusal of food comes with other signs: weight loss along the back, stringy white faeces, cloudy eyes or skin, red streaks, rapid breathing, scratching against objects or a fish that sits on the bottom. A fish with these signs needs a proper diagnosis rather than a guess, because many medications do more harm than good when used on the wrong problem."
+      ]
+    }
+  ],
+  "diagnose_h2": "How to Find Out Why Your Arowana Won't Eat",
+  "diagnose_intro": "These checks move from the simplest and most common cause to the least likely. Most arowana are sorted out by the first three.",
+  "diagnose": [
+    {
+      "action": "Count how many days since the fish arrived or anything changed",
+      "detail": "A fish that has been in the tank for less than a week, or has just been moved, rehomed or had its tank rearranged, is most likely settling in.[4] Note any other recent change too: new tankmates, a new light, a move to a busier room or a new food."
+    },
+    {
+      "action": "Watch how it reacts to food",
+      "detail": "Drop food on the surface and watch closely. A fish that ignores it completely and hides is stressed or unwell. One that approaches, inspects and turns away, or takes it and spits it out, is usually rejecting that particular food — try a floating or insect-type food instead.[2][3] One that lunges but is beaten to the food has a tankmate problem."
+    },
+    {
+      "action": "Check the temperature and test the water",
+      "detail": "Read the thermometer and check the heater is working; the arowana's range is roughly 24 to 30 °C.[1] Test ammonia, nitrite, nitrate and pH. Ammonia should read zero; any measurable level needs correcting now.[8]",
+      "tool": "Water test kit and thermometer"
+    },
+    {
+      "action": "Look the fish over for signs of illness",
+      "detail": "Check the body condition from above (a sunken belly or a thin back), the eyes and skin (cloud, red streaks, white spots), the gills (fast breathing) and the droppings. A fish that looks healthy apart from not eating is usually stressed or rejecting its food; one with other signs may be ill.[9][10]"
+    },
+    {
+      "action": "Compare the fish with its tank",
+      "detail": "Measure the arowana against the tank. If it cannot turn around easily or bumps the glass when it swims, lack of space is a likely stressor and a reason for poor appetite.[4][5]"
+    }
+  ],
+  "fix_h2": "How to Get a Silver Arowana Eating Again",
+  "fix": [
+    {
+      "action": "For a new fish: keep the tank dim and quiet, and wait",
+      "detail": "Keep the lights low, limit traffic past the tank and do not chase the fish with a net. Offer a small amount of food once a day and remove what is not eaten within a few minutes so it does not foul the water. Most new arowana start eating within a week; a healthy fish can go that long without harm. Keep the lid on — a stressed arowana is also likely to jump.[4]"
+    },
+    {
+      "action": "Offer food that looks like its natural prey",
+      "detail": "Try floating foods and insect-type prey first: crickets, mealworms, earthworms or floating pellets made for surface feeders. Wild silver arowana feed mainly on insects,[2] so these usually work better than sinking foods. Once the fish is feeding, mix a small amount of a new food in with the accepted one and increase it over several weeks to move it onto a varied diet."
+    },
+    {
+      "action": "Warm the water and correct its quality",
+      "detail": "Bring the temperature into the mid to upper 20s °C gradually if it has dropped, and fix the heater. Do partial water changes with dechlorinated, temperature-matched water until ammonia and nitrite read zero, and review filtration for a large predator.[8] Poor water quality is a major stressor that precedes many disease outbreaks.[5]"
+    },
+    {
+      "action": "Remove competition and stress",
+      "detail": "Feed so the arowana reaches the food first, separate tankmates that harass it, and move the tank away from doors or busy areas if the fish is nervous. If the fish has outgrown its tank, plan for a larger aquarium or pond; keepers report that arowana that were fussy in cramped tanks fed normally once given space.[4]"
+    },
+    {
+      "action": "If it looks ill or still refuses food after two weeks: get help",
+      "detail": "Contact a veterinarian who treats fish. They can examine skin and gill samples and faeces for parasites and choose a treatment that fits the cause. If you do use an over-the-counter treatment, follow the product label exactly. Avoid feeding live fish while the arowana is unwell, because feeders can bring new parasites and bacteria into the tank."
+    }
+  ],
+  "prevention_h2": "Keeping a Silver Arowana Feeding Well",
+  "prevention": "Buy a fish that is already eating in the shop, and ask what it has been fed so you can offer the same at first. Quarantine it for at least 30 days before it joins other fish.[6] Keep the water warm, stable and clean, with ammonia at zero,[1][8] and feed a varied diet built around surface food such as insects and good floating pellets rather than relying on live feeder fish. Plan the tank for the adult fish, which reaches about 90 cm,[1] and choose tankmates that will not compete at the surface.",
+  "seek_help_h2": "When an Arowana That Won't Eat Needs Help",
+  "seek_help": "<strong>Watch and wait if:</strong> the fish is newly bought, looks healthy, swims normally and is simply refusing food; give it a week in a quiet tank. <strong>Act within a day if:</strong> the water tests show ammonia or nitrite, the temperature has dropped, or the fish is breathing fast at the surface.[7][8] <strong>See a fish vet if:</strong> the arowana has not eaten for two weeks, is getting visibly thinner, has cloudy eyes or skin, red streaks, white faeces, or is sitting on the bottom, because these point to infection or parasites that need diagnosis rather than guesswork.[9][10]",
+  "faq": [
+    {
+      "q": "How long can a silver arowana go without eating?",
+      "a": "A healthy adult arowana can go a week or more without food without lasting harm, and new fish often refuse food for several days while they settle.[4] Juveniles have smaller reserves and should be watched more closely. What matters more than the number of days is whether the fish looks otherwise healthy and whether it is losing weight."
+    },
+    {
+      "q": "My new arowana won't eat. Should I try live feeders?",
+      "a": "Live food can trigger a feeding response, but insects such as crickets and mealworms are closer to what wild arowana eat than feeder fish are,[2] and they do not carry fish diseases into the tank. Live feeder fish can introduce parasites and bacteria, and a fish trained to eat only live fish is harder to move onto a balanced diet later."
+    },
+    {
+      "q": "Why will my arowana only eat live food?",
+      "a": "Arowana hunt moving prey at the surface,[3] and a fish raised on live feeders learns to strike only at movement. Switch it gradually: offer the live food, then the same food freshly killed, then frozen or pelleted food moved around at the surface. Hunger helps, so do not feed live food every time it refuses something new."
+    },
+    {
+      "q": "Can an arowana starve itself to death?",
+      "a": "A healthy arowana will eat once it has settled and is offered something it recognises. Prolonged refusal to eat with weight loss is a sign that something else is wrong — usually the water, the tank or an illness — and needs investigating.[9]"
+    },
+    {
+      "q": "Does drop eye stop an arowana eating?",
+      "a": "No. Drop eye — eyes that turn permanently downward — is common in captive arowana and has been linked to diet, genetics and the fish constantly looking down, but affected fish usually keep feeding and can live a full lifespan.[4] If an arowana with drop eye stops eating, look for one of the causes above."
+    },
+    {
+      "q": "Why did my arowana stop eating after a water change?",
+      "a": "The usual reasons are a temperature drop from cold replacement water or chlorine from untreated tap water. Chlorine is highly toxic to fish even at very low levels,[7] so always use a dechlorinator and match the temperature. A large change in pH can have the same effect. The fish usually resumes eating within a day or two once conditions are stable."
+    }
+  ],
+  "references": [
+    {
+      "authors": "U.S. Fish and Wildlife Service (2017).",
+      "title": "Arawana (<em>Osteoglossum bicirrhosum</em>) Ecological Risk Screening Summary.",
+      "source": "U.S. Fish and Wildlife Service, revised August 2017.",
+      "url": "https://www.fws.gov/sites/default/files/documents/Ecological-Risk-Screening-Summary-Arawana.pdf",
+      "label": "fws.gov"
+    },
+    {
+      "authors": "Freitas, P.H.L. de, Bussons, M.R.F.M., Bussons, I.N.B., Dias, F.V.N., Garcês, L.M., Sousa, E.S. &amp; Oliveira, A.T. de (2025).",
+      "title": "Feeding Ecology of <em>Osteoglossum bicirrhosum</em> (Osteoglossiformes: Osteoglossidae) in a Central Amazon Reserve.",
+      "source": "Anais da Academia Brasileira de Ciências 97(2): e20241121.",
+      "url": "https://doi.org/10.1590/0001-3765202520241121",
+      "label": "doi:10.1590/0001-3765202520241121"
+    },
+    {
+      "authors": "Lowry, D., Wintzer, A.P., Matott, M.P., Whitenack, L.B., Huber, D.R., Dean, M. &amp; Motta, P.J. (2005).",
+      "title": "Aerial and aquatic feeding in the silver arawana, <em>Osteoglossum bicirrhosum</em>.",
+      "source": "Environmental Biology of Fishes 73(4): 453–462.",
+      "url": "https://doi.org/10.1007/s10641-005-3214-4",
+      "label": "doi:10.1007/s10641-005-3214-4"
+    },
+    {
+      "authors": "Lim, T.K.L.",
+      "title": "The South American Silver Arowana.",
+      "source": "Tropical Fish Hobbyist Magazine.",
+      "url": "https://www.tfhmagazine.com/articles/freshwater/the-south-american-silver-arowana-full-article",
+      "label": "tfhmagazine.com"
+    },
+    {
+      "authors": "Francis-Floyd, R.",
+      "title": "Stress—Its Role in Fish Disease.",
+      "source": "UF/IFAS Extension, Circular 919 (FA005).",
+      "url": "https://edis.ifas.ufl.edu/publication/FA005",
+      "label": "edis.ifas.ufl.edu"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Management of Aquarium Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Environmental Diseases of Aquatic Animals in Aquatic Systems.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquatic-systems/environmental-diseases-of-aquatic-animals-in-aquatic-systems",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Francis-Floyd, R., Watson, C., Petty, D. &amp; Pouder, D.B. (2022).",
+      "title": "Ammonia in Aquatic Systems.",
+      "source": "UF/IFAS Extension, FA16.",
+      "url": "https://doi.org/10.32473/edis-fa031-2022",
+      "label": "doi:10.32473/edis-fa031-2022"
+    },
+    {
+      "authors": "Francis-Floyd, R., Stilwell, N.K. &amp; Yanong, R.P.E.",
+      "title": "Introduction to Fish Health Management.",
+      "source": "UF/IFAS Extension, Circular 921 (FA004).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA004",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Disorders and Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/all-other-pets/fish/disorders-and-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    }
+  ]
+}

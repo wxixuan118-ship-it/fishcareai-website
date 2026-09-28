@@ -1,0 +1,209 @@
+{
+  "slug": "goldfish-jumping",
+  "date_modified": "2026-09-28",
+  "date_modified_human": "September 28, 2026",
+  "urgency": "urgent",
+  "title": "Goldfish Jumping Out of Tank? Low Oxygen or Ammonia",
+  "description": "A goldfish that jumps is usually escaping stale water: low oxygen or ammonia in a small, crowded tank. How to test, fix it today and rescue a fish on the floor.",
+  "h1": "Goldfish Jumping Out of the Tank: Why It Happens and How to Stop It",
+  "howto_name": "How to find out why a goldfish is jumping and stop it",
+  "short_answer": "A goldfish that keeps jumping is most often reacting to the water: too little oxygen, or ammonia building up in a tank that is too small or too crowded for fish that grow as large as goldfish do. Test the water today, do a partial water change if ammonia or nitrite shows, add surface movement or an air stone, and fit a lid. A goldfish found on the floor should go straight back into tank water even if it looks dead.",
+  "intro": [
+    "Goldfish are not natural jumpers in the way some tropical fish are. In the wild they live in quiet backwaters and weedy pools,[4] and a healthy goldfish in good water spends its day grazing the bottom and cruising mid-water. So when a goldfish starts hitting the lid or ends up on the floor, the most useful assumption is that something in the tank is pushing it out — and in goldfish, the thing that pushes hardest is the water.",
+    "Goldfish are big, long-lived fish. The species typically reaches 15–20 cm, commonly lives six to seven years and has been recorded at 30,[4] yet it is still sold for bowls and small starter tanks. Those fish use a lot of oxygen, especially after a meal,[2] and produce a lot of waste, which becomes ammonia.[3] A small or crowded tank can run short of oxygen and fill with ammonia faster than most owners expect. The sections below put the causes in the order they are most often behind a jumping goldfish, then walk through the checks, the fixes, and what to do with a fish you find out of the water."
+  ],
+  "causes_h2": "Why Is My Goldfish Jumping? The Common Causes",
+  "causes": [
+    {
+      "title": "Low Dissolved Oxygen in a Small or Crowded Tank",
+      "likelihood": "high",
+      "paragraphs": [
+        "This is the cause to rule out first. Fish short of oxygen come to the surface and gulp at it — the behaviour fish farmers call \"piping\"[1] — and a goldfish working hard at the surface is only a flick of the tail away from the air. Oxygen gets into water mainly by diffusion at the surface and by surface movement, and warm water holds less of it than cold: the UF/IFAS circular on dissolved oxygen notes that water at 90 °F holds only about 7.4 mg/L at saturation, compared with 11.9 mg/L at 45 °F.[1] A goldfish kept in a warm room, next to a heater or in a sunny window has less oxygen available while needing more.",
+        "Goldfish demand for oxygen is not steady, either. In one respirometry study, feeding goldfish to satiety raised their oxygen consumption by 35%, peaking about three hours after the meal, and a rise in water temperature to 30 °C roughly doubled it.[2] That pattern fits what many owners describe: jumping or gasping in the hours after a big feed, in hot weather, or early in the morning, when oxygen in planted or algae-heavy water is lowest.[1] A bowl or small tank with no filter output breaking the surface is the classic setting."
+      ]
+    },
+    {
+      "title": "Ammonia or Nitrite Build-Up",
+      "likelihood": "high",
+      "paragraphs": [
+        "Every goldfish excretes waste that breaks down to ammonia, and a large fish in a small volume of water concentrates it quickly. According to UF/IFAS, ammonia in a healthy tank should always read zero; at low concentrations it causes stress and damages the gills, and the un-ionised form becomes more toxic as pH and temperature rise.[3] Damaged gills take up oxygen less well, so ammonia and low oxygen often work together in the same tank.",
+        "The two situations to watch for are a new tank and a neglected one. A new biological filter needs six to eight weeks to build up enough bacteria to deal with ammonia and nitrite,[3] and the Merck Veterinary Manual describes \"new tank syndrome\" in the first weeks after setup and \"old tank syndrome\" when water changes are small and infrequent, both of which can leave ammonia or nitrite high enough to be toxic.[5] A goldfish that starts jumping a few weeks after the tank was set up, or after a long gap between water changes, fits this pattern."
+      ]
+    },
+    {
+      "title": "External Parasites Causing Irritation",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Parasites on the skin and gills make fish itchy. Affected fish rub against rocks and ornaments (\"flashing\"), lose their appetite, and may gasp at the surface because the gills are affected.[6] A fish veterinarian notes that fish sometimes use the water surface to scratch, and that repeated jumping together with flashing can be a sign of parasites you cannot see.[7]",
+        "Parasites are more likely if the jumping began within a few weeks of adding new fish or plants, if more than one goldfish is flashing, or if you can see white spots, a greyish film or clamped fins. Water quality problems and parasites often come together, because stressed fish are more vulnerable."
+      ]
+    },
+    {
+      "title": "Startle: Sudden Light, Movement or Vibration",
+      "likelihood": "medium",
+      "paragraphs": [
+        "A goldfish that jumps once, at a particular moment — the room light snapping on, a door slamming, someone tapping the glass, the lid being opened — is usually startled rather than sick. Abrupt light changes are measurably stressful for goldfish: in a controlled study, goldfish exposed to sudden lights-on and lights-off had higher cortisol and blood glucose than goldfish whose lighting was dimmed gradually.[8]",
+        "Startle jumps are more common in an uncovered tank filled close to the brim and in the evening, when the fish have settled in a dark room. They matter because one jump in the wrong place is enough; but unlike the water-quality causes, they do not come with gasping, flashing or poor appetite."
+      ]
+    },
+    {
+      "title": "Feeding Excitement and Spawning Chases",
+      "likelihood": "low",
+      "paragraphs": [
+        "Some fish leap at feeding time simply because they have learned that food arrives at the surface; a fish vet lists feeding excitement as one of the normal reasons fish jump.[7] Goldfish that splash at the surface when you approach, and are otherwise active and eating, fall into this group.",
+        "In spring, mature male goldfish chase females hard around the tank during spawning, and a fleeing female can break the surface at speed. This is seasonal, involves obvious chasing, and stops when spawning ends. Neither of these needs treatment, but both still need a lid."
+      ]
+    }
+  ],
+  "diagnose_h2": "How to Tell Why Your Goldfish Is Jumping",
+  "diagnose_intro": "Work through these checks in order, today. The first three take a few minutes and will identify most cases.",
+  "diagnose": [
+    {
+      "action": "Watch the fish at the surface for five minutes",
+      "detail": "A goldfish hanging at the surface with its mouth breaking the water, or several fish doing the same, is short of oxygen or has irritated gills.[1][6] A fish that swims normally and only jumps when something happens in the room is more likely startled. Note when the jumping happens — after feeding, in the early morning, when the light comes on."
+    },
+    {
+      "action": "Test ammonia, nitrite and nitrate",
+      "detail": "Ammonia and nitrite should both read zero in an established tank; any reading means the filter is not keeping up with the fish.[3] Write the numbers down along with pH and temperature, because un-ionised ammonia becomes more toxic as both rise.[3] Goldfish are cool-water fish, comfortable at about 10–22 °C.",
+      "tool": "Liquid water test kit"
+    },
+    {
+      "action": "Measure the tank against the fish",
+      "detail": "Count the goldfish and estimate their size nose to tail. A goldfish commonly reaches 15–20 cm,[4] and a single fish of that size in a bowl or a small tank will overwhelm it. If the tank is small for the number and size of fish, low oxygen and ammonia are close to certain even if today's test looks acceptable."
+    },
+    {
+      "action": "Check the surface movement and the temperature",
+      "detail": "Look at the water surface with the filter running. Surface ripple is one of the main ways oxygen gets into water;[1] a flat, still surface, a clogged filter or a filter outlet pointing downward all reduce it. A thermometer reading above the low 20s °C means less oxygen in the water and a higher oxygen demand from the fish.[1][2]",
+      "tool": "Aquarium thermometer"
+    },
+    {
+      "action": "Look closely for signs of parasites",
+      "detail": "Watch for flashing against objects, clamped fins, white spots, a greyish film on the skin or rapid gill movement.[6] If several fish are affected, or new fish were added recently, parasites move up the list.[7] A fish vet can confirm them with a skin and gill scrape under the microscope."
+    }
+  ],
+  "fix_h2": "How to Stop a Goldfish From Jumping",
+  "fix": [
+    {
+      "action": "Fit a lid or cover today",
+      "detail": "Whatever the cause, cover the tank the same day — a fitted hood, a glass or acrylic cover, or fine mesh — and close the gaps around the filter and cables. A lid does not fix the cause, but it stops the next jump from killing the fish; a fish veterinarian gives the same advice for any tank where fish jump.[7] Leave a gap between the water and the lid so that air can reach the surface."
+    },
+    {
+      "action": "If ammonia or nitrite shows: change water and cut feeding",
+      "detail": "The UF/IFAS advice when ammonia is present is to reduce or stop feeding first, then change 25–50% of the water with dechlorinated water at the same temperature, provided the new water contains no ammonia itself.[3] Repeat over the next days until ammonia and nitrite read zero. Do not clean or replace the filter media at the same time; rinse it in removed tank water if it is clogged, so the bacteria survive."
+    },
+    {
+      "action": "Raise the oxygen supply",
+      "detail": "Add an air stone or point the filter outlet so it ripples the surface, keep the tank cool, and feed smaller meals, since goldfish oxygen use climbs sharply for hours after a large one.[1][2] If fish are gasping at the surface right now, a partial water change with well-aerated, temperature-matched water gives immediate relief."
+    },
+    {
+      "action": "Give the goldfish enough room",
+      "detail": "Long term, the most effective fix for goldfish jumping is more water per fish: a larger tank with a filter rated above its volume, or fewer fish. Goldfish grow large and can live for many years,[4] and a bowl will not stay stable for them however often it is cleaned. More water dilutes waste, holds more oxygen and gives the filter time to work."
+    },
+    {
+      "action": "Treat parasites only once confirmed, and remove triggers",
+      "detail": "If flashing and gill signs point to parasites, get a diagnosis before medicating; a vet can identify the parasite and recommend the right treatment. Meanwhile, avoid sudden light changes — switch on a room light before the tank light, or use a light that ramps up gradually, since gradual dimming is less stressful for goldfish than an abrupt switch.[8]"
+    }
+  ],
+  "prevention_h2": "Preventing Goldfish From Jumping",
+  "prevention": "Keep goldfish in a tank sized for their adult length, with a filter that moves the surface, and test ammonia and nitrite regularly — they should read zero.[3] Change part of the water every week rather than letting waste build up,[5] and feed modest amounts, because a large meal raises oxygen demand for hours.[2] Keep the water cool and out of direct sun. Cover the tank with a lid that leaves an air gap, and turn lights on and off gradually or after the room light.[8] Quarantine new fish before adding them so parasites do not arrive with them.",
+  "seek_help_h2": "When a Jumping Goldfish Needs Urgent Help",
+  "seek_help": "<strong>A goldfish on the floor is an emergency.</strong> Pick it up with wet hands or slide it into a cup and put it straight back into the tank — not into fresh tap water — even if it looks dead. Out of water the gill filaments stick together and the gill lamellae collapse, so the fish cannot take up oxygen; damage and stress increase the longer it is out, and warm, dry air is worse for small fish.[9] There is no reliable safe time. Once it is back, dim the light and hold it gently upright in the water flow if it cannot stay upright, then watch it for 24–48 hours. <strong>Get help from an aquatic vet if:</strong> the fish has lost scales, has torn fins or a damaged eye, stays on its side, or develops red patches or fuzzy growths in the following days — injury and stress make bacterial infections more likely, and the right antibiotic depends on the bacteria involved.[10] If several goldfish are gasping at the surface at once, treat it as a water emergency and change water now.",
+  "faq": [
+    {
+      "q": "Why did my goldfish jump out of the tank overnight?",
+      "a": "Night and early morning are when oxygen is lowest in many tanks, especially planted ones, because plants and algae use oxygen in the dark.[1] A goldfish that jumped overnight is most likely to have been short of oxygen or reacting to ammonia. Test the water, add surface movement, and fit a lid."
+    },
+    {
+      "q": "How long can a goldfish survive out of water?",
+      "a": "There is no safe figure. As soon as a fish leaves the water its gill lamellae collapse and it cannot breathe; research on air exposure shows that damage increases with every extra second, and fisheries scientists recommend keeping air exposure under about 10 seconds for fish that are to be released.[9] Goldfish found after several minutes do sometimes recover, so always put the fish back in tank water and watch it rather than assuming it is dead."
+    },
+    {
+      "q": "My goldfish jumped out and is now lying on the bottom. Will it be okay?",
+      "a": "Lying still for some minutes to hours after being returned is common, because the fish has built up an oxygen debt and its heart rate needs time to recover.[9] Keep the lights low, make sure the water is well aerated, and do not feed for a day. If it is still on its side after a day, or wounds appear, contact an aquatic vet, since damaged skin can become infected.[10]"
+    },
+    {
+      "q": "Is my goldfish jumping because it is bored?",
+      "a": "Boredom is not a recognised cause of jumping in goldfish, and assuming it can lead owners to miss a water problem. Check oxygen and ammonia first.[1][3] A goldfish that leaps only at feeding time and is otherwise healthy is usually excited about food, which is normal.[7]"
+    },
+    {
+      "q": "Can a goldfish live in a bowl without jumping?",
+      "a": "It can survive for a while, but a bowl has a small surface for oxygen, no room for a proper filter and very little water to dilute waste, and goldfish commonly grow to 15–20 cm.[4] Those are the conditions that cause jumping in the first place. A larger filtered tank with a lid is the reliable fix."
+    },
+    {
+      "q": "Do goldfish jump when they have parasites?",
+      "a": "They can. Parasites irritate the skin and gills, and affected fish flash against objects and may gasp at the surface.[6] Repeated jumping combined with flashing, especially in several fish or after new fish arrive, is a reason to have a vet look at a skin scrape.[7]"
+    }
+  ],
+  "references": [
+    {
+      "authors": "Francis-Floyd, R.",
+      "title": "Dissolved Oxygen for Fish Production.",
+      "source": "UF/IFAS Extension, FA27 (FA002).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA002",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Herrera-Castillo, L., Vallejo-Palma, G., Saiz, N., Sánchez-Jiménez, A., Isorna, E., Ruiz-Jarabo, I. &amp; de Pedro, N. (2024).",
+      "title": "Metabolic Rate of Goldfish (<em>Carassius auratus</em>) in the Face of Common Aquaculture Challenges.",
+      "source": "Biology 13(10): 804.",
+      "url": "https://doi.org/10.3390/biology13100804",
+      "label": "doi:10.3390/biology13100804"
+    },
+    {
+      "authors": "Francis-Floyd, R., Watson, C., Petty, D. &amp; Pouder, D.B.",
+      "title": "Ammonia in Aquatic Systems.",
+      "source": "UF/IFAS Extension, FA16 (FA031).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA031",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "U.S. Geological Survey, Nonindigenous Aquatic Species Database.",
+      "title": "<em>Carassius auratus</em> (Goldfish) — Species Profile.",
+      "source": "USGS NAS Fact Sheet.",
+      "url": "https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=508",
+      "label": "nas.er.usgs.gov"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Management of Aquarium Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Disorders and Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/all-other-pets/fish/disorders-and-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Sanders, J. (2020).",
+      "title": "Why Do Fish Jump?",
+      "source": "Aquatic Veterinary Services, October 6, 2020.",
+      "url": "https://cafishvet.com/fish-health-disease/why-do-fish-jump/",
+      "label": "cafishvet.com"
+    },
+    {
+      "authors": "Ryu, H.S., Song, J.A., Park, H.-S., Choi, Y.J. &amp; Choi, C.Y. (2020).",
+      "title": "Physiological and oxidative stress response of goldfish <em>Carassius auratus</em> induced by a light dimming system.",
+      "source": "Fish Physiology and Biochemistry 46(2): 585–595.",
+      "url": "https://doi.org/10.1007/s10695-019-00733-3",
+      "label": "doi:10.1007/s10695-019-00733-3"
+    },
+    {
+      "authors": "Cook, K.V., Lennox, R.J., Hinch, S.G. &amp; Cooke, S.J. (2015).",
+      "title": "Fish Out of Water: How Much Air Is Too Much?",
+      "source": "Fisheries 40(9): 452–461.",
+      "url": "https://doi.org/10.1080/03632415.2015.1074570",
+      "label": "doi:10.1080/03632415.2015.1074570"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Bacterial Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    }
+  ]
+}

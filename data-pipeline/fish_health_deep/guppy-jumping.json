@@ -1,0 +1,208 @@
+{
+  "slug": "guppy-jumping",
+  "date_modified": "2026-09-28",
+  "date_modified_human": "September 28, 2026",
+  "urgency": "urgent",
+  "title": "Guppy Jumping Out of Tank? Natural Leaps or Harassed Females",
+  "description": "Guppies are proven jumpers, and females chased by males try hard to get away. How to tell that from bad water, and what to do for a guppy found on the floor.",
+  "h1": "Guppy Jumping Out of the Tank: Why Guppies Leap and How to Stop It",
+  "howto_name": "How to find out why a guppy is jumping and stop it",
+  "short_answer": "Guppies are genuine jumpers: wild guppies leap several body lengths into the air without any obvious trigger, so an uncovered guppy tank will eventually lose fish. If it is mainly females jumping, look at how many males you have — constant chasing by males drives females to flee. Test the water too, because a new or overstocked tank with ammonia or nitrite makes any fish try to get out.",
+  "intro": [
+    "Most fish that jump out of an aquarium are escaping something. Guppies are a partial exception. Researchers filming guppies from Trinidad found that they jump spontaneously — not to catch food, not to migrate, and without any obvious stimulus — clearing on average about three and a half body lengths above the water.[1] The authors suggest jumping evolved as a way for guppies to move between pools in the streams where they live.[1] For an owner, the practical meaning is simple: a guppy tank without a lid is a tank that will lose guppies, even when nothing is wrong.",
+    "That does not mean every jumping guppy is fine. Guppies are sold as beginner fish, often into new tanks that have not finished cycling, and they are kept in mixed-sex groups where males chase females almost constantly.[3] Both of those make jumping more frequent. The causes below are ordered by how often they explain a guppy that jumps, followed by quick checks, fixes, and what to do if you find one on the floor."
+  ],
+  "causes_h2": "Why Is My Guppy Jumping? The Common Causes",
+  "causes": [
+    {
+      "title": "Guppies Jump Naturally",
+      "likelihood": "high",
+      "paragraphs": [
+        "In the study that first described guppy jumping in detail, fish jumped from a still position: they backed up slowly using their pectoral fins, then launched with a powerful bend of the body, reaching about 6.5 cm on average — roughly 3.5 times their own body length.[1] The researchers could find no trigger. The fish were not reaching for food and were not reacting to a visible threat; they simply jumped.[1] The fish in that study were males, and the authors note that male guppies move between pools more often than females.[1]",
+        "This matters because it changes what you should conclude. A single guppy found on the floor of an open tank, with good water and no chasing, may have done nothing more than behave like a guppy. The fix is a lid, not medication. Only when jumping is frequent, involves several fish, or comes with other signs does it point to a problem in the tank."
+      ]
+    },
+    {
+      "title": "Females Escaping Constant Male Attention",
+      "likelihood": "high",
+      "paragraphs": [
+        "Male guppies spend much of the day pursuing females, both with courtship displays and with sneak mating attempts. Across poeciliid species, females spent significantly less time feeding when a male was present, and the more mating activity the male showed, the less the female fed.[3] Females in species where males attempt many sneak copulations — guppies among them — respond by staying close to other females.[4]",
+        "In wild guppies, female avoidance goes further. In a field experiment, harassment by males drove females into deeper water that they would otherwise avoid, even though that water carried a measurably higher risk of predators.[2] No study has measured jumping out of an aquarium as an escape from males, so treat this as a strong inference rather than proof: a female that cannot get away from three or four males in a small tank has nowhere left to go but up. If the jumpers are mostly females and you have as many males as females, this is the likely driver."
+      ]
+    },
+    {
+      "title": "Ammonia or Nitrite in a New or Crowded Tank",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Guppies breed quickly, and a tank that started with six fish can hold thirty a few months later. At the other end of the story, many guppies are added to tanks only days old. The Merck Veterinary Manual describes \"new tank syndrome\", a water-quality problem usually seen in the first six weeks after a tank is set up, and \"old tank syndrome\" when water changes are small and infrequent; in both, ammonia or nitrite can reach toxic levels.[5]",
+        "UF/IFAS advises that ammonia should always read zero in a healthy tank, that even low levels damage the gills, and that a new biological filter needs six to eight weeks to build enough bacteria.[6] Guppies are kept warm, at around 22–28 °C, and un-ionised ammonia becomes more toxic as temperature and pH rise.[6] Jumping by several guppies at once, with gasping or clamped fins, points here rather than to normal behaviour."
+      ]
+    },
+    {
+      "title": "Low Oxygen in Warm Water",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Warm water holds less oxygen than cool water,[7] and a warm, crowded guppy tank with a still surface can run short, particularly overnight and in the early morning, when oxygen in planted tanks is at its lowest.[7] Fish short of oxygen gather at the surface and gulp — what fish farmers call piping.[7] Guppies are surface-feeding fish that already spend time near the top, so a fish gasping at the surface is well placed to leave the tank.",
+        "Low oxygen usually affects several fish at once, gets worse after heavy feeding and in hot weather, and improves quickly when surface movement or an air stone is added."
+      ]
+    },
+    {
+      "title": "External Parasites",
+      "likelihood": "low",
+      "paragraphs": [
+        "Parasites on the skin and gills cause itching; affected fish rub against objects (\"flashing\"), lose appetite, and may gasp at the surface.[8] Guppies bought from busy shop tanks sometimes carry them. Parasites are the likely cause if the jumping began after new fish arrived and comes with flashing, white spots, clamped fins or a greyish film on the skin."
+      ]
+    }
+  ],
+  "diagnose_h2": "How to Tell Why Your Guppy Is Jumping",
+  "diagnose_intro": "These checks take ten minutes and will separate normal guppy behaviour from a problem that needs fixing today.",
+  "diagnose": [
+    {
+      "action": "Note which fish are jumping",
+      "detail": "Is it one fish or several, males or females? Males are small and brightly coloured with a pointed, rod-like anal fin; females are larger and plainer. Occasional jumping by a healthy male in an open tank fits natural guppy behaviour.[1] Repeated jumping or hiding at the top by females points to harassment.[2][3]"
+    },
+    {
+      "action": "Count the males and watch them for five minutes",
+      "detail": "If most of the fish are male, or males follow a female continuously and she spends her time fleeing or pressed against the glass or the surface, the tank is set up for harassment. In poeciliids, females feed less the more active the males around them are,[3] so a thin, pale female that is always being followed is a warning sign."
+    },
+    {
+      "action": "Test ammonia, nitrite and nitrate",
+      "detail": "Ammonia and nitrite should read zero.[6] Any reading, especially in a tank less than two months old or one that has not had a water change for weeks, points to water quality as the cause.[5] Note pH and temperature too, since both change how toxic ammonia is.[6]",
+      "tool": "Liquid water test kit"
+    },
+    {
+      "action": "Check the surface and the temperature",
+      "detail": "Several guppies hanging at the surface and gulping means low oxygen or irritated gills.[7][8] Check that the filter outlet moves the surface and that the heater is not running the tank above about 28 °C, since warmer water holds less oxygen.[7]",
+      "tool": "Aquarium thermometer"
+    },
+    {
+      "action": "Look for flashing and spots",
+      "detail": "Watch for fish rubbing against decorations, white specks, clamped fins or a dull film on the body.[8] If these are present in several fish, especially after new arrivals, parasites move up the list."
+    }
+  ],
+  "fix_h2": "How to Stop a Guppy From Jumping",
+  "fix": [
+    {
+      "action": "Cover the tank completely",
+      "detail": "Because guppies jump without any trigger,[1] a lid is the only reliable protection. Use a fitted hood or a glass or mesh cover and close the gaps around filters, heaters and cables — a guppy can get through a surprisingly small opening. Leave a small air gap above the water."
+    },
+    {
+      "action": "Fix the sex ratio",
+      "detail": "Keep more females than males — at least two females for each male is a common rule of thumb — or keep an all-male tank. Add floating and dense plants so females can break line of sight and rest. The aim is to reduce the time females spend being pursued, which is what costs them feeding time and drives them into poor places to be.[2][3][4]"
+    },
+    {
+      "action": "If ammonia or nitrite shows: water change and less food",
+      "detail": "Reduce or stop feeding for a day and change 25–50% of the water with dechlorinated water at the same temperature, as UF/IFAS recommends when ammonia is present.[6] Repeat until ammonia and nitrite read zero. In a new tank, add no more fish until the filter has matured, which takes six to eight weeks.[6]"
+    },
+    {
+      "action": "Add surface movement and control numbers",
+      "detail": "Angle the filter output to ripple the surface or add an air stone, and avoid overfeeding.[7] If the population is growing, rehome fish or separate the sexes before the tank becomes crowded — a crowded tank combines harassment, ammonia and low oxygen at once."
+    },
+    {
+      "action": "Get a diagnosis before treating parasites",
+      "detail": "If flashing and spots suggest parasites, ask an aquatic vet or experienced fish shop to confirm what they are before medicating, and quarantine new guppies in future.[8]"
+    }
+  ],
+  "prevention_h2": "Preventing Guppies From Jumping",
+  "prevention": "Assume every guppy will jump eventually and keep the tank covered.[1] Keep more females than males, give them plants to hide in, and control the population before it outgrows the tank.[2][3] Cycle a new tank fully before adding guppies, test ammonia and nitrite regularly, and change water weekly.[5][6] Keep the surface moving and the temperature within the guppy's range of about 22–28 °C.[7] Quarantine new fish so parasites stay out of the main tank.[8]",
+  "seek_help_h2": "When a Jumping Guppy Needs Urgent Help",
+  "seek_help": "<strong>A guppy on the floor is an emergency.</strong> Scoop it up with a wet hand or a cup and return it to the tank water straight away — not to fresh tap water — even if it looks dead. Out of water the gill filaments stick together and the lamellae collapse, so the fish cannot breathe; damage increases with time out of water, and warm air is harder on small fish.[9] A tiny fish like a guppy dries out fast, so seconds count. Once back, keep the lights low and watch it for a day or two. <strong>Get help if:</strong> the fish has lost scales or torn fins, stays on its side, or develops white fuzz or red patches in the following days; damaged skin is an entry point for bacterial infection, and stress and poor water make it more likely.[10] If several guppies are gasping at the surface together, treat it as a water problem and change water now.",
+  "faq": [
+    {
+      "q": "Do guppies jump out of tanks on purpose?",
+      "a": "In a sense, yes. Guppies jump spontaneously, without being startled and without reaching for food, clearing several body lengths above the water.[1] The researchers who described it think it evolved to help guppies move between stream pools. It is why guppy tanks need lids even when the water is perfect."
+    },
+    {
+      "q": "Why do my female guppies keep jumping?",
+      "a": "Look at the males. Male guppies pursue females almost constantly, and females try hard to avoid them — in the wild they even move into riskier water to get away.[2] In a small tank with too many males, a female has few places to escape to. Keep at least two females per male and add dense plants."
+    },
+    {
+      "q": "How long can a guppy survive out of water?",
+      "a": "Not long, and there is no safe figure. A fish's gills stop working almost as soon as it leaves the water, and the damage increases with every second.[9] Small fish in warm, dry air are at the greatest risk. Put it back into tank water immediately; some guppies found quickly recover fully."
+    },
+    {
+      "q": "Can baby guppies (fry) jump out of the tank?",
+      "a": "Any guppy can end up outside the water, and fry also get pulled into filter intakes and slip through gaps. Covering the tank, sponging the filter intake and giving fry floating plants to hide in protects them. Water quality matters even more for fry, so keep ammonia and nitrite at zero.[6]"
+    },
+    {
+      "q": "My guppy jumped out and now it's lying on the bottom — what should I do?",
+      "a": "Keep the lights low, make sure the water is well aerated, and don't feed it for the rest of the day. Resting on the bottom for some hours is common while the fish recovers from the oxygen debt it built up out of water.[9] If it has not improved in a day, or wounds or fuzz appear, contact an aquatic vet.[10]"
+    },
+    {
+      "q": "Is my guppy jumping because the water is bad?",
+      "a": "It can be. A new tank, an overcrowded one, or a long gap between water changes can all leave ammonia or nitrite high enough to harm fish.[5] Test the water: ammonia and nitrite should both read zero.[6] If several fish are gasping or clamping their fins, water quality is the likely cause."
+    }
+  ],
+  "references": [
+    {
+      "authors": "Soares, D. &amp; Bierman, H.S. (2013).",
+      "title": "Aerial Jumping in the Trinidadian Guppy (<em>Poecilia reticulata</em>).",
+      "source": "PLOS ONE 8(4): e61617.",
+      "url": "https://doi.org/10.1371/journal.pone.0061617",
+      "label": "doi:10.1371/journal.pone.0061617"
+    },
+    {
+      "authors": "Darden, S.K. &amp; Croft, D.P. (2008).",
+      "title": "Male harassment drives females to alter habitat use and leads to segregation of the sexes.",
+      "source": "Biology Letters 4(5): 449–451.",
+      "url": "https://doi.org/10.1098/rsbl.2008.0308",
+      "label": "doi:10.1098/rsbl.2008.0308"
+    },
+    {
+      "authors": "Plath, M., Makowicz, A.M., Schlupp, I. &amp; Tobler, M. (2007).",
+      "title": "Sexual harassment in live-bearing fishes (Poeciliidae): comparing courting and noncourting species.",
+      "source": "Behavioral Ecology 18(4): 680–688.",
+      "url": "https://doi.org/10.1093/beheco/arm030",
+      "label": "doi:10.1093/beheco/arm030"
+    },
+    {
+      "authors": "Dadda, M. (2015).",
+      "title": "Female social response to male sexual harassment in poeciliid fish: a comparison of six species.",
+      "source": "Frontiers in Psychology 6: 1453.",
+      "url": "https://doi.org/10.3389/fpsyg.2015.01453",
+      "label": "doi:10.3389/fpsyg.2015.01453"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Management of Aquarium Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Francis-Floyd, R., Watson, C., Petty, D. &amp; Pouder, D.B.",
+      "title": "Ammonia in Aquatic Systems.",
+      "source": "UF/IFAS Extension, FA16 (FA031).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA031",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Francis-Floyd, R.",
+      "title": "Dissolved Oxygen for Fish Production.",
+      "source": "UF/IFAS Extension, FA27 (FA002).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA002",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Disorders and Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/all-other-pets/fish/disorders-and-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Cook, K.V., Lennox, R.J., Hinch, S.G. &amp; Cooke, S.J. (2015).",
+      "title": "Fish Out of Water: How Much Air Is Too Much?",
+      "source": "Fisheries 40(9): 452–461.",
+      "url": "https://doi.org/10.1080/03632415.2015.1074570",
+      "label": "doi:10.1080/03632415.2015.1074570"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Bacterial Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    }
+  ]
+}

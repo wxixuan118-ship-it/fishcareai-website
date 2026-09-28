@@ -1,0 +1,214 @@
+{
+  "slug": "molly-jumping",
+  "date_modified": "2026-09-28",
+  "date_modified_human": "September 28, 2026",
+  "urgency": "urgent",
+  "title": "Molly Jumping Out of Tank? Male Harassment or Low Oxygen",
+  "description": "Female mollies flee relentless males; mollies gasping at the surface mean low oxygen. How to tell which, fix it today, and save a molly on the floor.",
+  "h1": "Molly Fish Jumping Out of the Tank: Causes, Checks and Fixes",
+  "howto_name": "How to find out why a molly is jumping and stop it",
+  "short_answer": "In mollies, the two most common reasons for jumping are females trying to escape males that chase them almost nonstop, and fish crowding at the surface because the water is short of oxygen. Check your male-to-female ratio, watch whether the fish are gulping at the surface, and test ammonia and nitrite. Fit a lid today — a molly found on the floor should go straight back into tank water.",
+  "intro": [
+    "Mollies behave differently from most community fish in two ways that matter here. First, males of several molly species barely court at all; instead they pursue females and attempt to mate with them over and over, and researchers have measured the cost to the females in lost feeding time.[2][3] Second, mollies cope with low oxygen by skimming the thin, oxygen-rich layer at the very top of the water — aquatic surface respiration.[4] Both put mollies at the surface, under pressure, which is exactly where jumps happen.",
+    "The mollies sold in shops are rarely one pure species. Black and lyretail mollies in particular are hybrids of several <em>Poecilia</em> species, including the sailfin molly, the shortfin molly and <em>P. sphenops</em>.[1] That is why this page draws on research from across the molly group. The causes are listed in the order they most often explain a jumping molly, followed by checks, fixes and what to do with a molly found outside the tank."
+  ],
+  "causes_h2": "Why Is My Molly Jumping? The Common Causes",
+  "causes": [
+    {
+      "title": "Females Escaping Constant Male Pursuit",
+      "likelihood": "high",
+      "paragraphs": [
+        "In the Atlantic (shortfin) molly, males do not court; they follow females and try to mate with them almost constantly. A study of this species found that females' feeding time dropped sharply while a male was pursuing them, and that in controlled tests females fed significantly less when kept with a male than with another female.[3] A comparison of nine livebearer species, including sailfin and shortfin mollies, found the same pattern across almost all of them: females fed less with a male present, and the more sexually active the male, the less she fed.[2]",
+        "No study has recorded mollies jumping out of aquaria to escape males, so this link is an inference, not a measured fact. But the setting is familiar to molly keepers: one or two females in a small tank with several males, the females pressed against the surface or the glass, and the jumpers almost always female. If that describes your tank, the sex ratio is the first thing to change."
+      ]
+    },
+    {
+      "title": "Low Oxygen and Surface Breathing",
+      "likelihood": "high",
+      "paragraphs": [
+        "When oxygen runs low, mollies move to the surface and ventilate the top millimetres of water. In a laboratory study, sailfin mollies switched to aquatic surface respiration immediately when water became hypoxic, and doubled their breathing rate; over weeks they partly compensated physiologically, but surface breathing was the first response.[4] Fish farmers call fish gulping at the surface \"piping\", and it is a classic sign of oxygen shortage.[5]",
+        "A molly spending its time with its mouth at the surface is already in the most dangerous position for a jump. Mollies are kept warm, around 24–28 °C, and warm water holds less oxygen than cool water.[5] Oxygen is also lowest overnight and at dawn, when plants and algae stop producing it.[5] A crowded molly tank — and mollies breed fast — with a still surface and no air stone can run short, especially in hot weather or after a heavy feed."
+      ]
+    },
+    {
+      "title": "Ammonia or Nitrite",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Mollies are large, hungry livebearers, and a growing population produces a lot of waste. In a healthy tank ammonia should always read zero; even low levels damage gills and make fish more prone to infection, and ammonia becomes more toxic as pH and temperature rise.[6] Mollies are usually kept in hard, alkaline water with pH up to about 8.5, which means any ammonia present is in its more toxic form.[6]",
+        "The Merck Veterinary Manual describes \"new tank syndrome\" in the first six weeks after a tank is set up, and \"old tank syndrome\" in tanks where water is rarely changed; both can leave ammonia or nitrite at toxic levels.[7] Water problems usually affect several fish at once and come with gasping, clamped fins or lethargy."
+      ]
+    },
+    {
+      "title": "Natural Livebearer Jumping",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Mollies' close relative, the guppy, jumps spontaneously — without a trigger, without reaching for food — clearing several body lengths above the water, probably as a way of moving between pools.[9] Mollies have not been studied in the same way, but they are strong swimmers and are known to keepers as fish that will find any gap in a lid. A single jump from an otherwise healthy molly in an open tank needs a cover, not a diagnosis."
+      ]
+    },
+    {
+      "title": "External Parasites",
+      "likelihood": "low",
+      "paragraphs": [
+        "Parasites on the skin and gills make fish itchy; affected fish rub against objects (\"flashing\"), lose their appetite and may gasp at the surface.[8] Parasites are the likely cause when jumping starts after new fish were added and comes with flashing, white spots, clamped fins or a greyish film on the skin."
+      ]
+    }
+  ],
+  "diagnose_h2": "How to Tell Why Your Molly Is Jumping",
+  "diagnose_intro": "Do these checks today, in this order. Most jumping mollies are explained by the first three.",
+  "diagnose": [
+    {
+      "action": "See which fish jump, and count males and females",
+      "detail": "Males have a gonopodium — a narrow, pointed anal fin — while females have a fan-shaped anal fin and are usually larger. If the jumpers are females and males equal or outnumber them, harassment is the most likely driver.[2][3] Watch for five minutes: a female followed by one or more males wherever she goes is being harassed."
+    },
+    {
+      "action": "Watch the surface",
+      "detail": "Mollies holding their mouths at the surface and ventilating rapidly are short of oxygen.[4][5] If several fish do this, especially in the morning or after feeding, treat low oxygen as the main suspect."
+    },
+    {
+      "action": "Test ammonia, nitrite, pH and temperature",
+      "detail": "Ammonia and nitrite should both read zero.[6] Record pH and temperature too: at the high pH mollies are kept in, a small ammonia reading is more toxic than the same reading in soft, acidic water.[6] A tank under two months old is especially likely to show a spike.[7]",
+      "tool": "Liquid water test kit"
+    },
+    {
+      "action": "Check surface movement and stocking",
+      "detail": "Make sure the filter outlet ripples the surface; a flat surface lets less oxygen in.[5] Count the fish, including juveniles — molly populations grow quickly and a tank can become crowded without anyone noticing.",
+      "tool": "Aquarium thermometer"
+    },
+    {
+      "action": "Look for flashing and spots",
+      "detail": "Rubbing against decorations, white specks, clamped fins or a dull film on the skin suggest parasites.[8] Note whether any new fish were added in the last few weeks."
+    }
+  ],
+  "fix_h2": "How to Stop a Molly From Jumping",
+  "fix": [
+    {
+      "action": "Fit a lid today",
+      "detail": "Cover the tank with a fitted hood or a glass or mesh cover and close the gaps around the filter and heater. This protects the fish while you fix the cause, and it is the only protection against the natural jumping seen in livebearers.[9] Leave an air gap above the water so the fish can still use the surface layer."
+    },
+    {
+      "action": "Change the sex ratio and add cover",
+      "detail": "Keep at least two or three females per male, or remove surplus males to a separate tank. Add floating plants and tall, dense planting so females can break line of sight. Reducing the time females spend being chased gives them time to feed and rest.[2][3]"
+    },
+    {
+      "action": "Raise oxygen immediately",
+      "detail": "Add an air stone, turn the filter outlet so it breaks the surface, and do a partial water change with temperature-matched, dechlorinated water if fish are gasping. Feed lightly for a few days, since digestion raises oxygen demand, and keep the tank from overheating.[5]"
+    },
+    {
+      "action": "If ammonia or nitrite shows: water changes and less food",
+      "detail": "Cut feeding and change 25–50% of the water, repeating until ammonia and nitrite read zero, as UF/IFAS recommends.[6] Don't replace the filter media at the same time. Reduce the population if the tank is crowded — the long-term fix for both ammonia and low oxygen is fewer fish per litre."
+    },
+    {
+      "action": "Confirm parasites before medicating",
+      "detail": "If parasites are suspected, have a vet or experienced shop identify them from a skin scrape before choosing a treatment, and quarantine future arrivals.[8]"
+    }
+  ],
+  "prevention_h2": "Preventing Mollies From Jumping",
+  "prevention": "Keep mollies in a covered tank with an air gap, in groups with more females than males, and with plenty of floating and tall plants for females to hide in.[2][3] Keep the surface moving and the temperature steady in the 24–28 °C range, and avoid overcrowding — watch the population as fry grow up.[4][5] Cycle new tanks fully, test ammonia and nitrite regularly and change water weekly.[6][7] Quarantine new fish before adding them.[8]",
+  "seek_help_h2": "When a Jumping Molly Needs Urgent Help",
+  "seek_help": "<strong>A molly on the floor is an emergency.</strong> Pick it up with wet hands or a cup and put it straight back into the tank water — not into fresh tap water — even if it is not moving. Out of water the gill filaments stick together and the lamellae collapse, so the fish cannot breathe, and the damage grows the longer it is out.[10] Keep the lights low and watch it for 24–48 hours; lying still for a while after the rescue is common. <strong>Get help from an aquatic vet if:</strong> the molly has lost scales, has torn fins or eye damage, stays on its side, or develops white fuzz, red streaks or ulcers in the following days — injury, stress and poor water all make bacterial infection more likely.[11] If several mollies are gasping at the surface, treat it as an oxygen emergency and act now.",
+  "faq": [
+    {
+      "q": "Why does my female molly keep jumping?",
+      "a": "The most likely reason is male pressure. Male mollies pursue females persistently, and in studies females lost feeding time whenever a male was chasing them.[3] In a small tank with several males she has nowhere to go. Keep at least two or three females per male and add dense plants."
+    },
+    {
+      "q": "Why is my molly staying at the top of the tank and gasping?",
+      "a": "Mollies use the top layer of water when oxygen is low — a response called aquatic surface respiration.[4] It means the water needs more oxygen: add an air stone or surface ripple, do a partial water change, and test for ammonia, which damages the gills.[5][6]"
+    },
+    {
+      "q": "How long can a molly survive out of water?",
+      "a": "There is no safe time. A fish's gills collapse almost as soon as it is out of the water, and research on air exposure shows the damage increases with every second.[10] Return the molly to tank water immediately, even if it looks dead; some recover if found quickly."
+    },
+    {
+      "q": "Do mollies jump more than other fish?",
+      "a": "Mollies have not been studied as jumpers, but they belong to the same livebearer family as guppies, which have been filmed jumping spontaneously several body lengths into the air.[9] Add harassed females and fish crowding the surface when oxygen is low, and mollies end up out of uncovered tanks often."
+    },
+    {
+      "q": "My molly jumped out and now it's lying on the bottom. What should I do?",
+      "a": "Keep the light off or low, make sure the water is well aerated, and don't feed it for the rest of the day. After time in air a fish has an oxygen debt, and its heart rate takes time to settle once it is back in water.[10] If it has not improved after a day, or wounds or fuzz appear, contact an aquatic vet.[11]"
+    },
+    {
+      "q": "Do mollies need salt to stop them jumping?",
+      "a": "No. Some molly types tolerate brackish water,[1] but salt does not fix the usual causes of jumping — male harassment, low oxygen and ammonia. Deal with those first."
+    }
+  ],
+  "references": [
+    {
+      "authors": "U.S. Geological Survey, Nonindigenous Aquatic Species Database.",
+      "title": "Lyretail black molly (<em>Poecilia</em> spp. hybrid) — Species Profile.",
+      "source": "USGS NAS Fact Sheet.",
+      "url": "https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=854",
+      "label": "nas.er.usgs.gov"
+    },
+    {
+      "authors": "Plath, M., Makowicz, A.M., Schlupp, I. &amp; Tobler, M. (2007).",
+      "title": "Sexual harassment in live-bearing fishes (Poeciliidae): comparing courting and noncourting species.",
+      "source": "Behavioral Ecology 18(4): 680–688.",
+      "url": "https://doi.org/10.1093/beheco/arm030",
+      "label": "doi:10.1093/beheco/arm030"
+    },
+    {
+      "authors": "Köhler, A., Hildenbrand, P., Schleucher, E., Riesch, R., Arias-Rodriguez, L., Streit, B. &amp; Plath, M. (2011).",
+      "title": "Effects of male sexual harassment on female time budgets, feeding behavior, and metabolic rates in a tropical livebearing fish (<em>Poecilia mexicana</em>).",
+      "source": "Behavioral Ecology and Sociobiology 65(8): 1513–1523.",
+      "url": "https://doi.org/10.1007/s00265-011-1161-y",
+      "label": "doi:10.1007/s00265-011-1161-y"
+    },
+    {
+      "authors": "Timmerman, C.M. &amp; Chapman, L.J. (2004).",
+      "title": "Behavioral and Physiological Compensation for Chronic Hypoxia in the Sailfin Molly (<em>Poecilia latipinna</em>).",
+      "source": "Physiological and Biochemical Zoology 77(4): 601–610.",
+      "url": "https://doi.org/10.1086/421754",
+      "label": "doi:10.1086/421754"
+    },
+    {
+      "authors": "Francis-Floyd, R.",
+      "title": "Dissolved Oxygen for Fish Production.",
+      "source": "UF/IFAS Extension, FA27 (FA002).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA002",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Francis-Floyd, R., Watson, C., Petty, D. &amp; Pouder, D.B.",
+      "title": "Ammonia in Aquatic Systems.",
+      "source": "UF/IFAS Extension, FA16 (FA031).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA031",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Management of Aquarium Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Disorders and Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/all-other-pets/fish/disorders-and-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Soares, D. &amp; Bierman, H.S. (2013).",
+      "title": "Aerial Jumping in the Trinidadian Guppy (<em>Poecilia reticulata</em>).",
+      "source": "PLOS ONE 8(4): e61617.",
+      "url": "https://doi.org/10.1371/journal.pone.0061617",
+      "label": "doi:10.1371/journal.pone.0061617"
+    },
+    {
+      "authors": "Cook, K.V., Lennox, R.J., Hinch, S.G. &amp; Cooke, S.J. (2015).",
+      "title": "Fish Out of Water: How Much Air Is Too Much?",
+      "source": "Fisheries 40(9): 452–461.",
+      "url": "https://doi.org/10.1080/03632415.2015.1074570",
+      "label": "doi:10.1080/03632415.2015.1074570"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Bacterial Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "goldfish-jumping",
+  "species": "Goldfish",
+  "scientific": "Carassius auratus",
+  "water": "freshwater",
+  "temp": "10–22°C",
+  "ph": "6.5–8.5",
+  "care": "beginner",
+  "fish_hub": "/fish-health/fish/goldfish",
+  "problem": "Jumping Out of Tank",
+  "category": "behavioral",
+  "urgency": "emergency",
+  "hero": "https://www.fishcareai.com/assets/encyclopedia/real/goldfish-wikimedia-real.jpg",
+  "species_profile": "/species/goldfish",
+  "guide": null,
+  "date_published": "2026-09-19T17:31:48.571Z"
+}

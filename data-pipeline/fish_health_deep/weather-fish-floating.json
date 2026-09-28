@@ -1,0 +1,219 @@
+{
+  "slug": "weather-fish-floating",
+  "date_modified": "2026-09-28",
+  "date_modified_human": "September 28, 2026",
+  "urgency": "urgent",
+  "title": "Weather Loach Floating at the Top? Too Warm or Short of Air",
+  "description": "Weather loaches gulp air, but one that hangs at the surface is usually too warm or short of oxygen. How to tell normal air breathing from real trouble.",
+  "h1": "Weather Loach Floating at the Surface: Air Breathing, Warm Water or a Sick Fish?",
+  "howto_name": "How to tell why a weather loach is floating at the surface and what to do",
+  "short_answer": "A weather loach that <strong>darts up, gulps air and swims back down</strong> is breathing normally — these loaches breathe air through their gut. One that <strong>hangs at the surface for long periods</strong> is usually telling you the water is too warm or short of oxygen, since this is a cool-water bottom dweller. Check the thermometer and the water test today; a loach floating limply or upside down is seriously ill.",
+  "intro": [
+    "Weather loaches — the dojo or oriental weather loach <em>Misgurnus anguillicaudatus</em>, and occasionally the European weatherfish <em>M. fossilis</em> — are bottom dwellers that spend much of their lives buried in soft mud or sand.[1][4] They are also air breathers. A weather loach swims to the surface, swallows a gulp of air, passes it through a specialised section of intestine that absorbs oxygen, and releases it from the vent.[2] At rest that gut supplies about a fifth of its oxygen, and the fish leans on it more when the water is warm or oxygen is low.[2]",
+    "That makes \"floating\" in this species tricky to read. Quick trips to the surface are normal breathing. Loaches also rest in odd places, draped over plants or wedged near the top of the tank. But a loach that hangs at the surface for long periods, gulping repeatedly, is showing that the water is not giving it enough oxygen — and one that floats without control, tilted or belly-up, has lost buoyancy or is dying. The causes below run from most to least likely."
+  ],
+  "causes_h2": "Why Is My Weather Loach Floating? The Common Causes",
+  "causes": [
+    {
+      "title": "Normal Air Gulping and Resting",
+      "likelihood": "high",
+      "paragraphs": [
+        "Weather loaches use their intestine as an accessory breathing organ, which lets them live in oxygen-poor waters.[1] The air moves one way through the gut, in at the mouth and out at the vent,[2] and X-ray studies have tracked the swallowed air travelling through the intestine as bubbles.[3] The result is a fish that regularly darts to the surface, takes a gulp, and then heads back down, sometimes trailing a stream of bubbles from its vent. Seriously Fish notes that the species darts to the surface to gulp air and expel intestinal gases, particularly when oxygen is low.[4]",
+        "Weather loaches also rest in unusual positions. It is common to see one lying on top of a plant, balanced on a filter intake or hanging with its head near the surface for a minute or two between breaths. If the fish is upright, moves under its own control and goes back to burrowing and foraging, it is not floating in the sense that matters."
+      ]
+    },
+    {
+      "title": "Water Too Warm or Low in Oxygen",
+      "likelihood": "high",
+      "paragraphs": [
+        "This is the most common reason for a weather loach that stays at the surface. These are temperate fish: Seriously Fish advises keeping <em>M. anguillicaudatus</em> at roughly 18 to 23 °C and stresses that it is not a tropical species,[4] and the European weatherfish lives in stagnant and slow waters in temperate Europe.[5] Yet weather loaches are often kept in heated tropical tanks at 26 °C or more.",
+        "Warm water holds less oxygen than cool water,[6] and the loach's own physiology makes the problem visible: as the water warms or its oxygen drops, the fish depends more on air breathing,[2] so it spends more and more of its time at the top. Fish that are short of oxygen in general gather at the surface and gulp air, a behaviour known as piping.[6] If several fish in the tank are near the surface, or the loach is at the top most of the day, treat it as an oxygen and temperature problem first."
+      ]
+    },
+    {
+      "title": "Ammonia, Nitrite or Chlorine",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Weather loaches can survive water that would kill many fish, but that does not make them immune to toxins. Fish exposed to ammonia may be lethargic with poor appetites,[6] and fish affected by nitrite seek out oxygen and pipe at the surface because nitrite reduces the blood's ability to carry oxygen.[6] Chlorine and chloramine from untreated tap water are highly toxic to fish at very low concentrations.[6]",
+        "A loach sitting listlessly at the surface in a tank that has not been cleaned for a while, or within hours of a water change, is likely poisoned rather than resting. In a healthy tank ammonia should always read zero, and UF/IFAS advises testing immediately whenever fish change their behaviour.[7]"
+      ]
+    },
+    {
+      "title": "Excess Gas in the Gut or Swim Bladder",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Because a weather loach fills its gut with air, anything that slows the gut can leave it too buoyant. The intestine of this species handles both digestion and breathing; research found that air breathing normally helps push food through the gut,[3] and the intestinal air also plays a part in the fish's buoyancy.[2] A loach that has gorged on dry food may hold more gas than usual and bob towards the surface, often with a visibly swollen belly.",
+        "Buoyancy disorders in fish more generally have many causes, including poor water quality, diet, infection, injury and inherited defects,[10] and a fish vet notes that poor water quality is one of the most common.[9] A food-related case improves within a day or two of fasting. A loach that stays tilted or floats belly-up for days needs a closer look."
+      ]
+    },
+    {
+      "title": "Serious Illness or a Dying Fish",
+      "likelihood": "low",
+      "paragraphs": [
+        "Sick fish often stop feeding and appear lethargic, and fish hanging listlessly or gasping at the surface are showing that something is wrong.[8] A weather loach that floats with no control, lies on its side at the top, or has red streaks, ulcers, a swollen body or cloudy skin is likely suffering a bacterial infection or organ failure. Bacterial infection has been identified as a cause of swim bladder disease in other ornamental fish.[10] Fluid swelling with raised scales (dropsy) is a sign of serious internal disease.[11]",
+        "A loach that is completely still, belly-up and not breathing has usually died. Check carefully before removing it — weather loaches can lie motionless in strange positions — but a fish that does not respond to a gentle touch with a net and shows no gill movement has gone. When one fish dies, test the water straight away to protect the others."
+      ]
+    }
+  ],
+  "diagnose_h2": "How to Tell Why Your Weather Loach Is Floating",
+  "diagnose_intro": "Watch for a few minutes first, then check temperature and water. These steps separate normal breathing from a real problem in most cases.",
+  "diagnose": [
+    {
+      "action": "Watch whether it swims back down on its own",
+      "detail": "A healthy loach rises, gulps air and swims back to the bottom within seconds, or rests upright near the top and moves off when disturbed.[2][4] A loach that stays at the surface gulping repeatedly, or that bobs back up when it tries to dive, has a problem. Also count how many trips it makes: an occasional gulp is normal, constant trips are not."
+    },
+    {
+      "action": "Read the thermometer",
+      "detail": "Weather loaches do best at about 18 to 23 °C.[4] Above about 25 °C the water holds less oxygen and the fish will rely more on air breathing, spending more time at the surface.[2][6] If the tank is heated for tropical fish, this is the most likely explanation.",
+      "tool": "Aquarium thermometer"
+    },
+    {
+      "action": "Test ammonia, nitrite and nitrate",
+      "detail": "Ammonia and nitrite should both read zero.[7] Any reading means the water is stressing the fish; nitrite in particular makes fish hang at the surface seeking oxygen.[6] Note whether the problem started after a water change, which points to chlorine or a temperature shock.",
+      "tool": "Water test kit"
+    },
+    {
+      "action": "Look at the body",
+      "detail": "Check the belly (swollen after feeding?), the body from above (scales lifting?), and the skin (red streaks, ulcers, white spots, cloudy patches). A swollen belly with no other signs points to gut gas; raised scales or sores point to infection.[10][11] Check whether the loach is upright or tilted: tilting or floating belly-up means lost buoyancy control.[9]"
+    },
+    {
+      "action": "Check the other fish",
+      "detail": "If other fish are also near the surface or breathing fast, the problem is the water — oxygen, temperature or toxins — not the loach.[6][8] If only the loach is affected and the water is fine, look to its gut, swim bladder or health."
+    }
+  ],
+  "fix_h2": "What to Do for a Floating Weather Loach",
+  "fix": [
+    {
+      "action": "Increase oxygen straight away",
+      "detail": "Add an air stone, or angle the filter outlet so it ripples the surface, and remove anything floating that blocks the surface. Keep a gap between the water and the lid so the loach can still gulp air. More oxygen in the water means less need to breathe at the surface.[2][6]"
+    },
+    {
+      "action": "Bring the temperature down gradually",
+      "detail": "If the tank is warm, turn the heater down or off and let the temperature fall into the high teens or low 20s °C over a day or two.[4] In a heat wave, float a sealed bottle of cool water in the tank and keep the lights off. If the loach shares a tank with tropical fish that need warm water, move the loach to a cooler tank long-term."
+    },
+    {
+      "action": "Do a water change and correct toxins",
+      "detail": "Change part of the water with dechlorinated water at the same temperature, and repeat daily until ammonia and nitrite read zero.[7] Always treat new water with a dechlorinator, because chlorine is toxic at very low levels.[6]"
+    },
+    {
+      "action": "Fast for two days if the belly is swollen",
+      "detail": "If the loach looks bloated and the water is fine, stop feeding for 48 hours, then offer small meals of sinking food such as frozen bloodworm or daphnia rather than floating flakes. Weather loaches forage on the bottom for small invertebrates in the wild,[5] and a fish vet recommends sinking or neutrally buoyant food for fish prone to buoyancy problems.[9]"
+    },
+    {
+      "action": "Get a diagnosis if it does not improve",
+      "detail": "A loach that is still floating after the water is cool, clean and well oxygenated, or that has sores, raised scales or a swollen body, needs a veterinarian who treats fish. Swim bladder problems caused by infection or masses need imaging and sometimes a sample to identify, and some recover with the right antibiotic once the cause is known.[10] If you use any over-the-counter treatment, follow the product label exactly."
+    }
+  ],
+  "prevention_h2": "Preventing Floating Problems in Weather Loaches",
+  "prevention": "Keep weather loaches as the cool-water fish they are, at roughly 18 to 23 °C, rather than in a warm tropical tank.[4] Give them good surface movement for oxygen, a gap under the lid so they can breathe air,[2] and soft sand to burrow into.[1] Keep ammonia and nitrite at zero with regular partial water changes,[7] always dechlorinate new water, and feed a sinking diet in small amounts. In summer, watch the temperature: a warm spell is when floating problems most often start.",
+  "seek_help_h2": "When a Floating Weather Loach Needs Help",
+  "seek_help": "<strong>Act today if:</strong> the loach is staying at the surface for long periods, the tank is warm, other fish are also at the top, or ammonia or nitrite is present — increase aeration, cool the water gradually and change water.[6][7] <strong>Act immediately if:</strong> the loach is floating on its side or belly-up, cannot swim down, or is breathing rapidly and not responding. <strong>See a fish vet if:</strong> floating continues once the water is right, or comes with red sores, raised scales or a swollen body, which point to infection or internal disease.[10][11] Quick gulps at the surface followed by a dive back down need no treatment.",
+  "faq": [
+    {
+      "q": "Why does my weather loach keep swimming to the top?",
+      "a": "To breathe. Weather loaches swallow air at the surface and absorb oxygen through the intestine, then release the air from the vent.[2] Occasional trips are normal. If they become constant, the water is probably too warm or short of oxygen, because both make the fish rely more on air breathing.[2][6]"
+    },
+    {
+      "q": "Why is my weather loach floating upside down?",
+      "a": "Occasionally a loach lies in a strange position while resting, but a loach that floats belly-up and cannot right itself has lost buoyancy control. Check the water first, since poor water quality is one of the most common causes of buoyancy problems.[9] If the fish is swollen after feeding, fast it for two days. If it is not breathing and does not respond, it has probably died."
+    },
+    {
+      "q": "Do weather loaches need a heater?",
+      "a": "Usually not. They are temperate fish that do best at roughly 18 to 23 °C and can tolerate cooler water,[4] and the species can withstand water close to freezing.[1] A heater is only needed if the room gets very cold. Warm tropical temperatures do them more harm than cool water."
+    },
+    {
+      "q": "Why are bubbles coming out of my weather loach's rear end?",
+      "a": "That is used breathing air. The air a weather loach swallows passes through the intestine, where oxygen is absorbed, and leaves through the vent.[2] It is normal and not a sign of illness."
+    },
+    {
+      "q": "Can a weather loach survive in low oxygen?",
+      "a": "Better than most fish. Weather loaches tolerate low-oxygen water by breathing air and burrowing into mud,[1] and the European weatherfish survives in harsh, oxygen-poor drainage ditches.[5] But surviving is not thriving: a loach that must breathe at the surface constantly is under stress, so keep the water well aerated."
+    },
+    {
+      "q": "Is a floating weather loach contagious to my other fish?",
+      "a": "Warm water, low oxygen and ammonia affect every fish in the tank, so if the loach is struggling the others may be too.[6] A loach floating from a bacterial infection can also be a sign of a problem that could spread, so remove any dead fish promptly, test the water and watch the others closely.[8]"
+    }
+  ],
+  "references": [
+    {
+      "authors": "Nico, L., Fuller, P., Neilson, M., Larson, J., Fusaro, A., Makled, T.H., Loftus, B. &amp; Bartos, A.",
+      "title": "<em>Misgurnus anguillicaudatus</em> (Cantor, 1842) — Pond Loach.",
+      "source": "U.S. Geological Survey, Nonindigenous Aquatic Species Database.",
+      "url": "https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=498",
+      "label": "nas.er.usgs.gov"
+    },
+    {
+      "authors": "McMahon, B.R. &amp; Burggren, W.W. (1987).",
+      "title": "Respiratory physiology of intestinal air breathing in the teleost fish <em>Misgurnus anguillicaudatus</em>.",
+      "source": "Journal of Experimental Biology 133(1): 371–393.",
+      "url": "https://doi.org/10.1242/jeb.133.1.371",
+      "label": "doi:10.1242/jeb.133.1.371"
+    },
+    {
+      "authors": "Qi, Z., Ma, H., Ma, L. &amp; Yang, X. (2024).",
+      "title": "The Structure of Digestive Tract Coordinating Digestion and Respiration in an Air-Breathing Weatherloach, <em>Misgurnus anguillicaudatus</em>.",
+      "source": "Biology 13(6): 381.",
+      "url": "https://doi.org/10.3390/biology13060381",
+      "label": "doi:10.3390/biology13060381"
+    },
+    {
+      "authors": "Seriously Fish.",
+      "title": "<em>Misgurnus anguillicaudatus</em> – Oriental Weather Loach.",
+      "source": "SeriouslyFish.com species profile.",
+      "url": "https://www.seriouslyfish.com/species/misgurnus-anguillicaudatus/",
+      "label": "seriouslyfish.com"
+    },
+    {
+      "authors": "Pyrzanowski, K., Zięba, G., Dukowska, M., Smith, C. &amp; Przybylski, M. (2019).",
+      "title": "The role of detritivory as a feeding tactic in a harsh environment – a case study of weatherfish (<em>Misgurnus fossilis</em>).",
+      "source": "Scientific Reports 9: 8467.",
+      "url": "https://doi.org/10.1038/s41598-019-44911-y",
+      "label": "doi:10.1038/s41598-019-44911-y"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Environmental Diseases of Aquatic Animals in Aquatic Systems.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquatic-systems/environmental-diseases-of-aquatic-animals-in-aquatic-systems",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Francis-Floyd, R., Watson, C., Petty, D. &amp; Pouder, D.B. (2022).",
+      "title": "Ammonia in Aquatic Systems.",
+      "source": "UF/IFAS Extension, FA16.",
+      "url": "https://doi.org/10.32473/edis-fa031-2022",
+      "label": "doi:10.32473/edis-fa031-2022"
+    },
+    {
+      "authors": "Francis-Floyd, R., Stilwell, N.K. &amp; Yanong, R.P.E.",
+      "title": "Introduction to Fish Health Management.",
+      "source": "UF/IFAS Extension, Circular 921 (FA004).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA004",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Sanders, J. (DVM, DABVP Fish Practice).",
+      "title": "Swim Bladder Disease in Fish: Symptoms &amp; Treatment.",
+      "source": "PetMD.",
+      "url": "https://www.petmd.com/fish/conditions/respiratory/swim-bladder-disorders-fish",
+      "label": "petmd.com"
+    },
+    {
+      "authors": "Sirri, R., Mandrioli, L., Zamparo, S. et al. (2020).",
+      "title": "Swim Bladder Disorders in Koi Carp (<em>Cyprinus carpio</em>).",
+      "source": "Animals 10(11): 1974.",
+      "url": "https://doi.org/10.3390/ani10111974",
+      "label": "doi:10.3390/ani10111974"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Disorders and Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/all-other-pets/fish/disorders-and-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    }
+  ],
+  "species_overrides": {
+    "scientific": "Misgurnus anguillicaudatus"
+  }
+}
