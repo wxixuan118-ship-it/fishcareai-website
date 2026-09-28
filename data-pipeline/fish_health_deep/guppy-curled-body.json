@@ -1,0 +1,205 @@
+{
+  "slug": "guppy-curled-body",
+  "date_modified": "2026-09-28",
+  "date_modified_human": "September 28, 2026",
+  "urgency": "urgent",
+  "title": "Guppy Curled or Bent Body? Genetics, Water or Fish TB",
+  "description": "A bent guppy is often born that way, but a sudden curl means test the water today. How to tell inherited curves from toxins and mycobacteriosis.",
+  "h1": "Guppy With a Curled or Bent Body: Inherited Curve, Bad Water or Disease?",
+  "howto_name": "How to work out why a guppy's body is curled or bent and what to do",
+  "short_answer": "A guppy that has always had a curved spine and still eats and swims is most likely showing an inherited deformity, which is common in heavily line-bred fancy guppies and is not contagious. A guppy that <strong>suddenly</strong> curls, twists or swims crookedly needs a water test today, because ammonia, chlorine or another toxin is the first thing to rule out. A curve that appears slowly in a fish that is also getting thinner points to mycobacteriosis, which has no cure.",
+  "intro": [
+    "Owners describe this problem in different ways — a guppy that is bent, curled, hunched, S-shaped or swimming in a C-curve — but the question that matters most is the same: <strong>how fast did the shape change?</strong> A curve that was there when you bought the fish, or that grew in slowly while the fish was young, behaves very differently from a bend that appeared overnight in an adult. Spinal curvature is the most common body deformity in bony fish in general and can be caused by genetic, nutritional and environmental factors,[2] so the timing and the other signs are what narrow it down.",
+    "Guppies have a well-documented tendency to inherited spinal curves. Researchers have even used a guppy line called <em>curveback</em> as a model for human scoliosis, because its curves appear during growth and run in families.[1][2] Most bent guppies in home aquariums fall into this group. The ones to worry about are the sudden curls, which often go with poisoning or a fish that is dying, and the slow curves that come with weight loss, which raise the possibility of mycobacteriosis.[3][4] Work through the checks below before you add any medicine."
+  ],
+  "causes_h2": "Why Is My Guppy Curled or Bent? The Common Causes",
+  "causes": [
+    {
+      "title": "Inherited Spinal Curvature (Scoliosis and Line-Breeding)",
+      "likelihood": "high",
+      "paragraphs": [
+        "Guppies are one of the few fish in which inherited spinal curvature has been studied closely. The <em>curveback</em> line was started from a single curved male crossed with a normal female. When researchers followed more than 100 of the offspring from birth to death and bred them further, they found a strong genetic influence on the curves, a female bias for the most severe curves, and wide variation in when the curve began and how far it progressed.[1] Later genetic mapping found one major recessive locus controlling susceptibility. The curve starts after birth and is usually stable by sexual maturity, roughly a month old, although it can keep increasing as the fish grows.[2]",
+        "In practice this is what most owners of a bent guppy are looking at. The typical shape is a dip behind the head with a hump further back, sometimes with a sideways twist, in a fish that is otherwise eating, active and coloured normally. Fancy guppies are bred in closed lines for fin shape and colour, and repeated breeding between relatives makes recessive faults like this more likely to show; the curveback studies themselves used sibling matings to reveal the trait.[1][2] An inherited curve is not infectious and does not spread to tankmates. It cannot be straightened, but a mildly bent guppy can live a normal life. Do not breed from affected fish."
+      ]
+    },
+    {
+      "title": "Sudden Curling From Poor Water or Toxins",
+      "likelihood": "high",
+      "paragraphs": [
+        "When an adult guppy that was straight yesterday is curled, twisting or swimming in spirals today, treat it as a water problem until proven otherwise. The Merck Veterinary Manual notes that acute ammonia poisoning can cause neurological signs such as spinning, disorientation and convulsions, and that gill damage begins at very low levels of the toxic, un-ionized form of ammonia.[3] Chlorine and chloramine from untreated tap water are highly toxic at tiny concentrations, and sudden temperature changes of only a few degrees weaken the fish's defences.[3]",
+        "The pattern that points to this cause is timing — the curl follows a water change, new decoration, a cleaning product, a dead fish left in the tank or a new tank that has not finished cycling — and more than one fish is often behaving oddly. Some fish recover if the cause is removed quickly; others have suffered too much damage. A guppy that curls into a C-shape and lies on the bottom breathing weakly is often a dying fish, whatever started the process, and that too is a reason to check the water for the sake of the others."
+      ]
+    },
+    {
+      "title": "Mycobacteriosis (“Fish TB”)",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Mycobacteriosis is a chronic bacterial infection that is common in aquarium fish, and guppies are among the species in which it has been reported and studied.[4] Its signs are variable and nonspecific: loss of appetite and weight loss, scale loss, skin ulcers, pale colour, bulging eyes, a swollen belly and skeletal deformities such as spinal curvature or stunted growth.[4] It is a slow disease, usually characterised by wasting, and it often moves through a tank one fish at a time over weeks or months.[5]",
+        "The combination to watch for is a curve that develops in an adult or young adult guppy <em>together with</em> thinning along the back and a general decline, especially if you have lost other fish in a similar way. There is no effective treatment that eliminates mycobacteria from fish.[6] There is also no reliable test on a living fish; diagnosis is made in the laboratory from a fish that has died or been euthanised.[5] Mycobacteria can infect people through cuts and scrapes on the hands, so wear gloves when working in a tank you suspect.[6]"
+      ]
+    },
+    {
+      "title": "Nutritional Deficiency (Vitamin C)",
+      "likelihood": "low",
+      "paragraphs": [
+        "Fish need vitamin C in their diet, and a lack of it causes what fish farmers call “broken back disease”: severely affected fish show extreme scoliosis, and milder cases show bent or deformed cartilage.[7] Vitamin C in fish food degrades with time, heat and exposure to air, so a tub of flakes that has been open for many months is a realistic risk factor even with a good brand.",
+        "Nutritional curves tend to appear in growing fish and affect several fish raised on the same food, rather than one adult. If you breed guppies and see bent fry and juveniles across several broods from unrelated parents, review the food before blaming genetics: use fresh food bought in small containers, store it sealed and cool, and add variety such as frozen or live foods."
+      ]
+    },
+    {
+      "title": "Newborn Fry, Injury or Old Age",
+      "likelihood": "low",
+      "paragraphs": [
+        "Guppy fry are born curled up and normally straighten and swim off within seconds to minutes. A newborn that stays curled and sinks is usually premature or weak, which is common in a stressed female or a brood delivered early, and many of these fry do not survive. That is not a disease in the tank.",
+        "A sharp kink that appears after a guppy has jumped, been caught in a net or been trapped behind a heater or filter can be a physical injury to the spine. Elderly guppies sometimes develop a hunched outline as they age, often alongside faded colour and ragged fins. In both cases the fish is alone in its problem and the water is normal."
+      ]
+    }
+  ],
+  "diagnose_h2": "How to Tell Why Your Guppy Is Bent",
+  "diagnose_intro": "These checks separate the harmless inherited curves from the problems that need action. The first two decide how urgent this is.",
+  "diagnose": [
+    {
+      "action": "Work out when the curve appeared",
+      "detail": "Look back at photos or ask the shop. A curve that was present when you got the fish, or that developed while it was growing and then stopped changing, is most likely inherited.[1][2] A bend that appeared suddenly in an adult is a different problem and moves straight to step 2. A curve that has been slowly getting worse over weeks in an adult points to step 4."
+    },
+    {
+      "action": "Test the water today",
+      "detail": "Test ammonia, nitrite, nitrate, pH and temperature. Ammonia and nitrite should read zero in an established tank; the toxic fraction of ammonia increases at higher pH and temperature, so even a small reading matters in the hard, alkaline water guppies are usually kept in.[3][9] Ask yourself what changed in the last 48 hours: a water change without dechlorinator, a new ornament, cleaning chemicals, aerosol sprays near the tank, or a dead fish.",
+      "tool": "Water test kit"
+    },
+    {
+      "action": "Check the rest of the tank",
+      "detail": "Are other fish gasping, twitching, spinning or lying on the bottom? Several fish affected at once points to water or a toxin. One fish affected, with the others completely normal, points to genetics, injury or age. A slow sequence of fish becoming thin and bent one after another points to mycobacteriosis.[5]"
+    },
+    {
+      "action": "Look at body condition and skin",
+      "detail": "View the fish from above and the side. A thin back, sunken belly, scale loss, open sores or bulging eyes alongside the curve are the warning signs of mycobacteriosis.[4] A well-fleshed, brightly coloured fish with a bend is much more likely to be an inherited curve."
+    },
+    {
+      "action": "Review the food and the breeding history",
+      "detail": "Check the date on the food and how long it has been open. If you breed your own guppies, note whether bent fish come from the same parents or line (genetics) or appear across unrelated broods fed the same food (diet).[1][7]"
+    },
+    {
+      "action": "If a fish dies, get it tested",
+      "detail": "The only way to confirm mycobacteriosis is laboratory examination. The fish most useful for testing are ones that are near death; a fish that has been dead for more than six hours is of little use. Keep a dead fish moist and chilled on ice — not frozen — and take it to an aquatic vet with a water sample and a written history of what has happened in the tank.[8]"
+    }
+  ],
+  "fix_h2": "What to Do for a Guppy With a Curled Body",
+  "fix": [
+    {
+      "action": "If the curl is sudden: fix the water first",
+      "detail": "Do a 25–50% water change with dechlorinated water at the same temperature, stop feeding for a day, and increase aeration.[9] Remove any new ornament or anything that may have contaminated the tank. Repeat water changes until ammonia and nitrite read zero. Do not add medications to an unexplained sudden illness; they stress the fish further and can damage the filter bacteria.[9]"
+    },
+    {
+      "action": "If the curve is inherited: let the fish live normally",
+      "detail": "A guppy with a stable curve that eats and swims needs no treatment. Make sure it can reach food at the surface, avoid strong currents, and keep it with peaceful tankmates. Do not breed from it or its siblings if you want to avoid more bent fry, and buy replacements from a different line.[2]"
+    },
+    {
+      "action": "If you suspect mycobacteriosis: isolate and protect yourself",
+      "detail": "Move wasting, bent fish out of the main tank, do not add new fish, and do not move plants or equipment to other tanks. Wear gloves for all tank work. Talk to an aquatic vet about testing a fish; there is no effective cure, and in serious outbreaks the recommendation is often to euthanise the affected fish and disinfect the system.[5][6]"
+    },
+    {
+      "action": "If diet may be involved: refresh the food",
+      "detail": "Throw away old food, buy small containers you will use within a couple of months, store them sealed, cool and dry, and vary the diet. This will not straighten an existing curve,[7] but it stops new ones from developing in growing fry."
+    },
+    {
+      "action": "If the fish is suffering: consider humane euthanasia",
+      "detail": "A guppy that is badly bent, cannot swim to the surface, cannot feed or is wasting will not recover. Ask an aquatic vet or an experienced fish shop about a humane method rather than leaving the fish to decline."
+    }
+  ],
+  "prevention_h2": "Preventing Spinal Problems in Guppies",
+  "prevention": "Buy guppies from breeders or shops whose fish look straight and well-built across the whole tank, and avoid lines where bent fish are common, because susceptibility to spinal curves is inherited.[1][2] If you breed guppies, outcross to unrelated stock regularly and cull obviously curved fish from your breeding group. Keep ammonia and nitrite at zero with regular water changes and always use a dechlorinator,[3][9] feed fresh, varied food, and quarantine new fish for several weeks while you watch for thinning or deformity, which are early signs of mycobacteriosis.[4]",
+  "seek_help_h2": "When a Bent Guppy Needs Expert Help",
+  "seek_help": "<strong>Act today if:</strong> the curl appeared suddenly, the fish is spinning, twitching or lying on the bottom, or other fish are also acting strangely — test and change the water immediately.[3] <strong>Talk to an aquatic vet if:</strong> fish keep becoming thin and bent one after another, which suggests mycobacteriosis, a disease with no reliable treatment that can also infect people; a vet can arrange laboratory testing of a recently dead fish.[5][8] A guppy that has had a stable curve for months and is eating well does not need a vet.",
+  "faq": [
+    {
+      "q": "Can a guppy with a bent spine live a normal life?",
+      "a": "Often, yes. If the curve is inherited and stable, the fish eats well and can swim to the surface, it can live out a normal lifespan. The curve will not straighten, but it will not spread to other fish either.[1] Keep currents gentle and make sure it gets its share of food."
+    },
+    {
+      "q": "Is a bent spine in guppies contagious?",
+      "a": "An inherited curve is not. Mycobacteriosis, which can also cause a bent spine, is infectious and spreads between fish, usually slowly. The difference is weight loss: a bent fish that is also wasting, especially when other fish have wasted and died, is the one to worry about.[4][5]"
+    },
+    {
+      "q": "Why are my guppy fry born bent?",
+      "a": "Newborn fry are born curled and should straighten within minutes. Fry that stay bent are often premature or weak. Fry that are straight at birth but develop curves as they grow point to genetics, especially if the parents are closely related,[2] or to a diet lacking vitamin C.[7]"
+    },
+    {
+      "q": "My guppy suddenly bent and is swimming in circles. What should I do?",
+      "a": "Test the water straight away. Ammonia poisoning can cause spinning, disorientation and convulsions,[3] and chlorine from untreated tap water is toxic at very low levels. Do a partial water change with dechlorinated water at the same temperature and add aeration. If only one fish is affected and the water is fine, it may be dying of another illness."
+    },
+    {
+      "q": "Can fish TB in guppies infect humans?",
+      "a": "Yes. The mycobacteria that infect fish can cause skin infections in people, usually through cuts or scrapes on the hands and arms.[6] Wear gloves when cleaning a tank where fish have been wasting, and see a doctor if you develop a sore or lump on your hand that does not heal."
+    },
+    {
+      "q": "Can a curved spine in a guppy be fixed?",
+      "a": "No treatment straightens a spine once it has bent. The aim is to find the cause: correct the water if the curve was sudden, improve the diet for growing fish,[7] and stop breeding from affected lines. A fish that cannot swim or feed should be humanely euthanised."
+    }
+  ],
+  "references": [
+    {
+      "authors": "Gorman, K.F., Tredwell, S.J. &amp; Breden, F. (2007).",
+      "title": "The mutant guppy syndrome curveback as a model for human heritable spinal curvature.",
+      "source": "Spine 32(7): 735–741.",
+      "url": "https://doi.org/10.1097/01.brs.0000259081.40354.e2",
+      "label": "doi:10.1097/01.brs.0000259081.40354.e2"
+    },
+    {
+      "authors": "Gorman, K.F., Christians, J.K., Parent, J., Ahmadi, R., Weigel, D., Dreyer, C. &amp; Breden, F. (2011).",
+      "title": "A major QTL controls susceptibility to spinal curvature in the curveback guppy.",
+      "source": "BMC Genetics 12: 16.",
+      "url": "https://doi.org/10.1186/1471-2156-12-16",
+      "label": "doi:10.1186/1471-2156-12-16"
+    },
+    {
+      "authors": "Francis-Floyd, R., Yanong, R.P.E. &amp; Petty, B.D.",
+      "title": "Environmental Diseases of Aquatic Animals in Aquatic Systems.",
+      "source": "Merck Veterinary Manual. Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquatic-systems/environmental-diseases-of-aquatic-animals-in-aquatic-systems",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Delghandi, M.R., El-Matbouli, M. &amp; Menanteau-Ledouble, S. (2020).",
+      "title": "Mycobacteriosis and Infections with Non-tuberculous Mycobacteria in Aquatic Organisms: A Review.",
+      "source": "Microorganisms 8(9): 1368.",
+      "url": "https://doi.org/10.3390/microorganisms8091368",
+      "label": "doi:10.3390/microorganisms8091368"
+    },
+    {
+      "authors": "Francis-Floyd, R. (2011).",
+      "title": "Mycobacterial Infections of Fish.",
+      "source": "Southern Regional Aquaculture Center, SRAC Publication No. 4706.",
+      "url": "https://extension.rwfm.tamu.edu/wp-content/uploads/sites/8/2013/09/SRAC-Publication-No.-4706-Mycobacterial-Infections-of-Fish.pdf",
+      "label": "srac.tamu.edu"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Bacterial Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Nutritional Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/nutritional-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Stilwell, N.K., Yanong, R.P.E. &amp; Francis-Floyd, R.",
+      "title": "Submission of Fish for Diagnostic Evaluation.",
+      "source": "UF/IFAS Extension, FA55 (FA055).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA055",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Francis-Floyd, R., Watson, C., Petty, D. &amp; Pouder, D.B.",
+      "title": "Ammonia in Aquatic Systems.",
+      "source": "UF/IFAS Extension, FA16 (FA031).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA031",
+      "label": "ask.ifas.ufl.edu"
+    }
+  ]
+}

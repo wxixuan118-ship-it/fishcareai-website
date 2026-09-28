@@ -1,0 +1,227 @@
+{
+  "slug": "koi-not-eating",
+  "date_modified": "2026-09-28",
+  "date_modified_human": "September 28, 2026",
+  "urgency": "monitor",
+  "title": "Koi Not Eating? Check the Water Temperature First",
+  "description": "Koi eat less as ponds cool and barely at all in cold water. How to tell a normal seasonal slowdown from low oxygen, parasites or koi herpesvirus.",
+  "h1": "Koi Not Eating: Cold Water, Pond Problems or Disease?",
+  "howto_name": "How to work out why koi are not eating and what to do",
+  "short_answer": "The most common reason koi stop eating is cold water: their appetite falls steeply as the pond cools, and below about 10 °C most koi need little or no food. Put a thermometer in the pond before anything else. If the water is warm and koi still refuse food — especially if they are also gasping, hiding, flashing or dying — test the water and treat it as a health problem.",
+  "intro": [
+    "Koi are cold-blooded, so their body temperature, metabolism and appetite all follow the pond. A study of common carp — the same species as koi — measured feeding from 4 to 34 °C and found that food intake peaked at 28 °C, dropped to a small fraction of that at 14 °C, and at 6 °C adult fish ate almost nothing.[1] Koi veterinarians give the same practical advice: below about 13 °C (55 °F) many koi lose interest in food, and feeding should follow the thermometer, not the calendar.[2] A pond full of koi that ignore food in late autumn or early spring is usually normal.",
+    "The problems start when temperature is not the explanation. Koi that stop eating in warm water, or that stop eating along with gasping, flashing, sores or deaths, are telling you something is wrong with the pond or the fish. Spring is the riskiest season, because koi immune defences are still suppressed by the cold while the water is warming up,[3] and the serious viral diseases of koi, including koi herpesvirus, cause outbreaks at spring and autumn temperatures.[9] Work through the checks below before feeding more or adding treatments."
+  ],
+  "causes_h2": "Why Are My Koi Not Eating? The Common Causes",
+  "causes": [
+    {
+      "title": "Cold Water and the Seasons",
+      "likelihood": "high",
+      "paragraphs": [
+        "This is by far the most common cause. In the carp feeding study, adults still took a little food at 6 °C but only about 0.01% of their body weight a day, compared with around 1.2% at 14 °C and nearly 3% at 28 °C.[1] Koi slow down in the same way. Below about 13 °C (55 °F) koi metabolism slows greatly; some fish stop eating altogether while others want only a little every few days, and most koi are feeding normally again once the water is between about 13 and 18 °C (55–65 °F).[2]",
+        "Seasonal fasting looks like this: all the koi are affected at once, they move slowly and sit near the bottom, but they look normal in colour and fins and nothing is dying. It happens in autumn as the water cools, persists through winter and ends gradually in spring. It is not a disease, and forcing food on cold koi is a mistake — uneaten food rots in the pond and fouls the water just when the filter bacteria are working slowest. Pond temperature also swings from day to day in spring and autumn, so koi that ate yesterday may refuse food after a cold night."
+      ]
+    },
+    {
+      "title": "Low Oxygen or Poor Water Quality",
+      "likelihood": "high",
+      "paragraphs": [
+        "In warm weather the most common reason for koi refusing food is the water itself. Warm water holds much less oxygen than cold water, and oxygen in a pond is lowest just before dawn; fish short of oxygen stop feeding, gather near the surface and gulp air, a behaviour called piping.[4] Crowded ponds, heavy feeding, algae blooms that crash, thunderstorms, and a pump or air pump that has failed overnight are typical triggers.",
+        "Ammonia and nitrite have the same effect. Fish exposed to ammonia may become lethargic and lose their appetite, and gill damage starts at very low concentrations of the toxic un-ionized form, which rises as pH and temperature rise.[5][6] This is common in spring, when the koi start eating again before the filter bacteria have fully woken up, in new ponds, and after a filter has been cleaned too thoroughly. Chlorine from a large top-up with tap water is also highly toxic.[5]"
+      ]
+    },
+    {
+      "title": "Stress From Moving, New Fish or Predators",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Newly bought koi often refuse food for several days after the journey and the change of water, and even established koi go off their food after being netted, moved to a new pond, or mixed with new fish. A visit from a heron, cat or otter can make koi hide and stop coming to the surface for days, sometimes with scrapes or puncture wounds on the fish as the only evidence.",
+        "Sudden changes in temperature of just a few degrees compromise fish immunity,[5] so a stressed koi that is not eating is also more vulnerable to infection. Most stressed koi start eating again within a week once they are settled; a koi that stays off its food longer, or that develops sores, needs checking for the causes below."
+      ]
+    },
+    {
+      "title": "Parasites and Bacterial Infections",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Parasites on the skin and gills are common in pond koi and are a frequent reason for poor appetite in warm water. White spot (ich) causes lethargy, clamped fins and darkened colour along with its visible white dots;[7] monogenean flukes cause flashing, rubbing and fast breathing;[7] and <em>Trichodina</em> causes excess mucus, flashing, piping and loss of condition.[7] Koi that flash against the pond sides, jump, or sit alone with clamped fins while not eating should be checked for parasites.",
+        "Bacterial disease often follows parasites, poor water or rough handling. <em>Aeromonas salmonicida</em>, the cause of goldfish ulcer disease, produces haemorrhages and deep ulcers in the skin and muscle, and successful treatment depends on appropriate antibiotics chosen by culture and sensitivity testing.[8] Spring is the classic time for these problems: low temperatures suppress the specific immune responses of fish,[3] so koi coming out of winter are poorly defended while pathogens become more active in the warming water."
+      ]
+    },
+    {
+      "title": "Koi Herpesvirus (KHV) and Spring Viraemia of Carp",
+      "likelihood": "low",
+      "paragraphs": [
+        "Koi herpesvirus disease is uncommon in a closed pond, but it is the most serious possibility and the one every koi keeper should know. Infected koi become lethargic, lie on the bottom with the dorsal fin folded and lose their appetite;[10] they may also have red and white mottled gills, sunken eyes and a notched nose.[9] Outbreaks typically happen in spring and autumn when the water is roughly 16–25 °C, often kill 80–100% of susceptible fish, and there is no treatment. Survivors should be treated as lifelong carriers.[9] The virus can hide in a latent state in survivors and reactivate when the water warms.[10]",
+        "KHV is a notifiable or listed disease in many places. In the UK you must contact the Fish Health Inspectorate if you suspect it, including unexplained deaths of carp or koi,[11] and in the United States confirmed cases must be reported to the state and federal veterinary authorities.[12] Spring viraemia of carp is another reportable viral disease of koi; unlike KHV it causes disease at cooler temperatures of about 12–22 °C, with dark skin, bulging eyes, a swollen belly, pale gills and bleeding.[12] Suspect a virus when koi stop eating and start dying one after another, particularly after new fish have been added."
+      ]
+    }
+  ],
+  "diagnose_h2": "How to Tell Why Your Koi Are Not Eating",
+  "diagnose_intro": "Do these checks in order. The first one explains most cases, and the first three together take only a few minutes.",
+  "diagnose": [
+    {
+      "action": "Measure the pond temperature",
+      "detail": "Use a pond thermometer at the depth where the koi sit, not a guess from the weather. Below about 10 °C, little or no feeding is normal; between about 10 and 13 °C, expect small, irregular appetites; above about 13–18 °C, healthy koi should be eating.[1][2] If the temperature explains the behaviour and the fish look normal, you can stop here.",
+      "tool": "Pond thermometer"
+    },
+    {
+      "action": "Check whether all the koi or only some are affected",
+      "detail": "All koi off their food at once, with no other signs, fits temperature or a water problem. One or a few koi refusing food while the rest eat points to stress, injury or illness in those fish. Many koi refusing food and some dying points to water quality or infectious disease."
+    },
+    {
+      "action": "Test the water, early in the day",
+      "detail": "Test ammonia, nitrite, pH and, if you can, dissolved oxygen. Ammonia and nitrite should read zero. Oxygen is lowest just before dawn, so fish gasping at the surface in the early morning point to low oxygen.[4] Check that pumps, air stones and waterfalls are all running.[4][6]",
+      "tool": "Pond water test kit"
+    },
+    {
+      "action": "Look at the fish closely",
+      "detail": "Net or bowl a koi if you can do it calmly. Look for flashing, clamped fins, excess mucus, white spots, red streaks, raised scales, ulcers, sunken eyes and pale or blotchy gills.[7][8][9] Sunken eyes and mottled gills in a pond at 16–25 °C are a warning sign for KHV.[9]"
+    },
+    {
+      "action": "Think about recent changes",
+      "detail": "New koi or goldfish in the last month, a koi show, a big water change or tap-water top-up, a cleaned filter, a heron visit or a spell of hot or stormy weather. Goldfish can carry KHV and pass it to koi without showing signs themselves,[9] so recent additions of either species matter."
+    },
+    {
+      "action": "If fish are dying, get a diagnosis quickly",
+      "detail": "Parasites and bacteria can be identified by a vet from skin and gill samples, and KHV is confirmed by a PCR test.[9] Contact an aquatic vet, and in the UK the Fish Health Inspectorate, rather than trying several treatments in a row.[11]"
+    }
+  ],
+  "fix_h2": "What to Do When Koi Are Not Eating",
+  "fix": [
+    {
+      "action": "If the water is cold: feed less, or not at all",
+      "detail": "Match feeding to temperature. In cold water, stop feeding or offer only a small amount every few days, and use a lower-protein food in cool water, moving to a higher-protein food only once the pond is consistently above about 18 °C (65 °F) and the koi are clearly hungry.[2] Remove any food not eaten within a few minutes. Do not fill a pond with food in spring to “build them up” before the filter has caught up."
+    },
+    {
+      "action": "If oxygen or water quality is poor: fix it today",
+      "detail": "Add aeration straight away with an air pump, fountain or waterfall, especially at night in hot weather.[4] If ammonia or nitrite is present, stop feeding and make partial water changes with dechlorinated water at a similar temperature, and check the filter is running and not blocked.[6] Avoid treatments until the water is right, because some disease treatments harm the filter bacteria.[6]"
+    },
+    {
+      "action": "If the koi are stressed: give them time and cover",
+      "detail": "Keep the water stable, provide shelter such as a pond cave or plants, and put up netting or a heron deterrent if predators are the problem. Offer small amounts of food once a day and remove what is not eaten. Most koi settle within a week."
+    },
+    {
+      "action": "If parasites or ulcers are found: treat the right thing",
+      "detail": "Have a vet or experienced koi keeper look at a skin or gill scrape under a microscope so you know what you are treating. Different parasites need different treatments, and the Merck Veterinary Manual lists specific drugs for specific parasites,[7] so treat only once you know what is there and follow the product label for the pond volume. Ulcers need antibiotics chosen after culture and sensitivity testing, which needs a vet.[8]"
+    },
+    {
+      "action": "If koi are dying and KHV is possible: stop movements and report",
+      "detail": "Do not move fish, water or equipment to other ponds, do not sell or give away fish, and contact an aquatic vet for testing. In the UK report suspected KHV to the Fish Health Inspectorate;[11] in the US confirmed cases are reported to state and federal veterinarians.[12] There is no cure for KHV, and survivors remain carriers that can infect other fish.[9]"
+    }
+  ],
+  "prevention_h2": "Preventing Appetite Problems in Koi",
+  "prevention": "Feed by temperature, not by the calendar, and cut back as the pond cools in autumn so the koi go into winter without a gut full of food.[2] Keep the pond well aerated all year, and especially on hot nights,[4] and test ammonia and nitrite in spring before feeding increases.[6] Quarantine every new koi and goldfish separately for at least 30 days in water at about 24 °C (75 °F), which is the recommended way to reduce the risk of bringing in KHV.[9] Buy from dealers who test for KHV, avoid mixing your fish with others at shows, and watch new arrivals for flashing, sores and poor appetite.",
+  "seek_help_h2": "When Koi That Are Not Eating Need Expert Help",
+  "seek_help": "<strong>Get help urgently if:</strong> koi are dying, gasping at the surface, have sunken eyes, blotchy red-and-white gills, rough skin with sloughing mucus, or deep ulcers — especially in water between about 16 and 28 °C or after new fish have been added.[9][11] Suspected KHV must be reported in the UK and some other countries.[11] <strong>Call a vet or experienced koi keeper if:</strong> koi refuse food in warm water for more than a week, or flash and rub against the pond sides, so parasites can be checked by microscope.[7] Koi that are simply quiet and uninterested in food in cold water do not need a vet.",
+  "faq": [
+    {
+      "q": "At what temperature do koi stop eating?",
+      "a": "There is no single cut-off, but appetite falls steadily as the water cools. Carp studies show intake is very low at 6 °C and a fraction of the summer level at 14 °C,[1] and koi veterinarians advise that below about 13 °C (55 °F) many koi stop eating or want only a little every few days.[2]"
+    },
+    {
+      "q": "How long can koi go without eating?",
+      "a": "In cold water, healthy koi can go through the whole winter with little or no food because their metabolism slows with the temperature.[1] In warm water a well-fed adult koi can safely miss a few days, but a koi that refuses food in warm water for more than a week has a problem that needs finding."
+    },
+    {
+      "q": "Why are my koi not eating in spring?",
+      "a": "Often because the water is still colder than it feels, or swings between warm days and cold nights. Spring is also the riskiest season for disease: cold suppresses fish immune responses,[3] ammonia can build up as koi start eating before the filter has recovered,[6] and KHV outbreaks typically occur in spring and autumn.[9]"
+    },
+    {
+      "q": "Why are my koi not eating in summer?",
+      "a": "In hot weather the usual cause is low oxygen, since warm water holds less of it and levels are lowest at dawn.[4] Check that aeration is running, test ammonia and nitrite, and look for parasites if the water is good."
+    },
+    {
+      "q": "Why is only one of my koi not eating?",
+      "a": "One koi off its food while the others eat points to that fish: stress after a move, an injury from a predator, parasites or an early infection. Look it over for sores, raised scales, flashing or clamped fins, and consider moving it to a quarantine tank for observation."
+    },
+    {
+      "q": "Is koi herpesvirus treatable?",
+      "a": "No. There is no treatment for KHV, it often kills 80–100% of susceptible fish, and survivors should be considered lifelong carriers.[9] It must be reported in the UK,[11] and prevention through quarantine of all new koi and goldfish is the only real protection."
+    }
+  ],
+  "references": [
+    {
+      "authors": "Chen, S.-B., Chen, W.-X. &amp; Fan, Z.-T. (2012).",
+      "title": "Effect of Water Temperature on Feeding Rhythm in Common Carp (<em>Cyprinus carpio haematopterus</em> Temminck et Schlegel).",
+      "source": "Journal of Northeast Agricultural University (English Edition) 19(1): 57–61.",
+      "url": "https://doi.org/10.1016/S1006-8104(12)60039-7",
+      "label": "doi:10.1016/S1006-8104(12)60039-7"
+    },
+    {
+      "authors": "Sanders, J.",
+      "title": "How to Feed Koi.",
+      "source": "Aquatic Veterinary Services (CA Fish Vet).",
+      "url": "https://cafishvet.com/koi/how-to-feed-koi/",
+      "label": "cafishvet.com"
+    },
+    {
+      "authors": "Le Morvan, C., Troutaud, D. &amp; Deschaux, P. (1998).",
+      "title": "Differential effects of temperature on specific and nonspecific immune defences in fish.",
+      "source": "Journal of Experimental Biology 201(2): 165–168.",
+      "url": "https://doi.org/10.1242/jeb.201.2.165",
+      "label": "doi:10.1242/jeb.201.2.165"
+    },
+    {
+      "authors": "Francis-Floyd, R.",
+      "title": "Dissolved Oxygen for Fish Production.",
+      "source": "UF/IFAS Extension, FA27 (FA002).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA002",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Francis-Floyd, R., Yanong, R.P.E. &amp; Petty, B.D.",
+      "title": "Environmental Diseases of Aquatic Animals in Aquatic Systems.",
+      "source": "Merck Veterinary Manual. Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquatic-systems/environmental-diseases-of-aquatic-animals-in-aquatic-systems",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Francis-Floyd, R., Watson, C., Petty, D. &amp; Pouder, D.B.",
+      "title": "Ammonia in Aquatic Systems.",
+      "source": "UF/IFAS Extension, FA16 (FA031).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA031",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Parasitic Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/parasitic-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Bacterial Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Petty, B.D., Hartman, K.H., Yanong, R.P.E., Pouder, D.B., Francis-Floyd, R. &amp; Waltzek, T.B.",
+      "title": "Koi Herpesvirus Disease (KHVD).",
+      "source": "UF/IFAS Extension, VM-149 (VM113).",
+      "url": "https://ask.ifas.ufl.edu/publication/VM113",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Rakus, K., Ouyang, P., Boutier, M., Ronsmans, M., Reschner, A., Vancsok, C., Jazowiecka-Rakus, J. &amp; Vanderplasschen, A. (2013).",
+      "title": "Cyprinid herpesvirus 3: an interesting virus for applied and fundamental research.",
+      "source": "Veterinary Research 44: 85.",
+      "url": "https://doi.org/10.1186/1297-9716-44-85",
+      "label": "doi:10.1186/1297-9716-44-85"
+    },
+    {
+      "authors": "Centre for Environment, Fisheries and Aquaculture Science (Cefas).",
+      "title": "Outbreaks of Koi herpesvirus (KHV) disease in 2026.",
+      "source": "GOV.UK.",
+      "url": "https://www.gov.uk/government/news/outbreaks-of-koi-herpesvirus-khv-disease-in-2026",
+      "label": "gov.uk"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Viral Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/viral-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    }
+  ]
+}

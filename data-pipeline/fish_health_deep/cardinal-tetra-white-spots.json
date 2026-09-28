@@ -1,0 +1,218 @@
+{
+  "slug": "cardinal-tetra-white-spots",
+  "date_modified": "2026-09-28",
+  "date_modified_human": "September 28, 2026",
+  "urgency": "urgent",
+  "title": "Cardinal Tetra White Spots? Usually Ich — Start Treating Now",
+  "description": "Salt-grain white spots on a cardinal tetra are almost always ich. How to confirm it, treat safely in soft water, and rule out velvet, cysts and columnaris.",
+  "h1": "White Spots on a Cardinal Tetra: Ich, Velvet or Something Else?",
+  "howto_name": "How to identify white spots on a cardinal tetra and treat ich safely",
+  "short_answer": "Scattered white dots the size of <strong>salt grains</strong> on the body and fins of a cardinal tetra are almost always <strong>ich</strong> (<em>Ichthyophthirius multifiliis</em>), especially within a few weeks of adding new fish. It spreads fast and can kill a whole tank, so treat the entire aquarium today and keep going until well after the last spot has gone. A fine gold or rusty dust, raised clear blisters with a coiled white thread inside, or larger cottony patches are different diseases.",
+  "intro": [
+    "Cardinal tetras are one of the most traded aquarium fish in the world, and a large share of them still come from wild fisheries in the Rio Negro and Orinoco basins.[1] Every fish in that supply chain passes through collection, holding and shipping — exactly the stresses that let a hidden ich infection break out. The University of Florida's ich circular notes that transported fish which looked healthy often develop active disease one to three weeks after shipping,[2] which is why white spots so often appear on cardinals soon after they, or their new tankmates, arrive.",
+    "Ich is the right first assumption, but it is not the only thing that looks white on a small, brightly coloured fish. Velvet leaves a finer, golden dust;[3] cardinals have their own documented skin parasite, <em>Dermocystidium</em>, which forms raised cysts rather than flat dots;[4][5] and bacterial columnaris produces pale patches and fraying rather than discrete spots.[6] The distinctions matter because the treatments differ — and because cardinals are usually kept in soft, acidic water, where some of the standard ich treatments behave differently.[2][7]"
+  ],
+  "causes_h2": "What Causes White Spots on Cardinal Tetras?",
+  "causes": [
+    {
+      "title": "Ich (White Spot Disease)",
+      "likelihood": "high",
+      "paragraphs": [
+        "<em>Ichthyophthirius multifiliis</em> is a single-celled parasite that burrows into the outer skin and gills to feed. Each white spot is one parasite sitting in a pocket it has made in the skin, and the lesions look like small white dots, blisters or grains of salt on the body and fins.[2] Before the spots are visible, infected fish often flash (rub against objects), produce extra mucus, lose their appetite and slow down; Merck adds lethargy, clamped fins and darkened colour.[2][3] By the time spots can be seen with the naked eye, the University of Florida circular warns, the fish is already very sick.[2]",
+        "The life cycle explains why ich explodes in an aquarium. The feeding stage leaves the fish, settles on surfaces and forms a cyst that divides into as many as 1,024 infective offspring; at warm aquarium temperatures this division takes less than a day and the whole cycle only a few days.[2] Only the free-swimming stage is killed by treatments — the stage under the skin and the cyst on the gravel are protected — so a single dose never works, and without treatment ich can kill every fish in the tank.[2] Survivors can carry the parasite and infect others later.[2]"
+      ]
+    },
+    {
+      "title": "Velvet (Piscinoodinium)",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Velvet is caused by a dinoflagellate, a parasitic single-celled alga. Merck describes the brownish-gold colour it gives infected fish;[3] under a torch or in side lighting the fish look dusted with fine gold or rust-coloured powder rather than dotted with white. On a cardinal the dust is easiest to see against the dark back and the blue stripe.",
+        "Velvet dots are much smaller and denser than ich spots, and fish often show rapid breathing and flashing because the gills are heavily involved. It is at least as dangerous as ich. If the \"spots\" are too fine to count individually and have a yellowish sheen, treat for velvet with a product labelled for it, and dim the lights, since the parasite is a photosynthetic alga.[3]"
+      ]
+    },
+    {
+      "title": "Columnaris and Other White Patches",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Columnaris, caused by the bacterium <em>Flavobacterium columnare</em>, is listed by Merck as one of the common bacterial diseases of characins, the group that includes tetras.[8] It does not make discrete spots. Lesions start as pale, discoloured areas on the skin, often at the base of the dorsal fin, and can spread around the body in a \"saddle\" shape; they are typically covered with yellowish-white mucus, and fins may fray from the base outwards.[6] Gill infections can kill quickly without much visible on the body.[6]",
+        "Tufts of fine white filaments on a wound are more likely to be a secondary fungal growth or the stalked protozoan <em>Epistylis</em>, which attaches to the fish rather than feeding on it.[3] A whitish, opaque area <em>inside</em> the muscle, under intact skin, is a different problem again — typically neon tetra disease, which Merck lists as a parasite of concern in tetras.[8][9]"
+      ]
+    },
+    {
+      "title": "Dermocystidium Cysts (a Cardinal-Specific Parasite)",
+      "likelihood": "low",
+      "paragraphs": [
+        "This is the look-alike most specific to cardinals. Veterinary pathologists in Germany and Austria have reported skin infection with <em>Dermocystidium salmonis</em> in cardinal tetras,[4] and a case examined for the US Joint Pathology Center describes what owners see: 10 to 20 raised, transparent nodules 2–3 mm across, each containing a coiled or elongated white, worm-like thread about 2 mm long.[5] In that aquarium of 29 species, skin scrapings from all the other species were negative — only the cardinals were affected.[5]",
+        "The clue is the shape and behaviour of the spots. <em>Dermocystidium</em> cysts are larger and raised, often look like a white squiggle inside a clear blister, and appear in modest numbers that do not double day by day. Ich spots are round, flat-to-slightly-raised, and multiply rapidly. Ich treatments do not clear <em>Dermocystidium</em>; a vet can confirm it from a skin scraping, where the cysts full of spores are distinctive.[5]"
+      ]
+    },
+    {
+      "title": "Harmless White Marks",
+      "likelihood": "low",
+      "paragraphs": [
+        "Some white marks are not disease. A single white speck that does not change for days may be a small injury or a scale that has lifted. Stressed fish produce excess mucus that can look like a greyish film. None of these multiply, and none come with flashing or rapid breathing. If in doubt, photograph the fish with a phone at close range each morning: ich spots will be clearly more numerous within 24–48 hours."
+      ]
+    }
+  ],
+  "diagnose_h2": "How to Tell If Your Cardinal Tetra Has Ich",
+  "diagnose_intro": "Look closely under good light, ideally with a magnifier or a phone camera zoomed in. These checks take minutes and tell you what to treat.",
+  "diagnose": [
+    {
+      "action": "Judge the size and shape of the spots",
+      "detail": "Salt-grain white dots on the body, fins and around the eyes: ich.[2] Much finer gold or rust dust: velvet.[3] Raised clear blisters with a white thread inside: <em>Dermocystidium</em>.[5] Larger flat pale or cottony patches, or fraying fins: columnaris or fungus.[6]"
+    },
+    {
+      "action": "Count the spots again tomorrow",
+      "detail": "Ich multiplies explosively — one parasite can produce up to 1,024 offspring[2] — so spot numbers on the tank's fish rise quickly over one to three days. Cysts and injuries stay roughly the same."
+    },
+    {
+      "action": "Watch behaviour and breathing",
+      "detail": "Flashing against plants or décor, clamped fins, fast gill movement, lethargy and reduced appetite go with ich and velvet.[2][3] Rapid breathing with few visible spots can mean the gills are heavily infected, which is more dangerous, not less."
+    },
+    {
+      "action": "Check every other fish in the tank",
+      "detail": "Ich and velvet are not species-specific, so other fish — especially other new arrivals — often show spots too. <em>Dermocystidium</em> was limited to cardinals in the documented case.[5]"
+    },
+    {
+      "action": "Think back over new additions",
+      "detail": "New fish, plants or décor from another tank in the last three weeks make ich the leading suspect, because the parasite arrives on fish, plants, substrate and equipment and often breaks out one to three weeks after shipping.[2]"
+    },
+    {
+      "action": "Test the water and note the alkalinity",
+      "detail": "Test ammonia, nitrite and pH, and measure KH (carbonate hardness/alkalinity) before you choose a treatment. Poor water quality predisposes fish to infection, and soft, low-alkalinity water changes how safe copper is to use.[2][10] Cardinals are usually kept at about 23–27 °C.[11]",
+      "tool": "Water test kit including KH"
+    }
+  ],
+  "fix_h2": "How to Treat Ich on Cardinal Tetras",
+  "fix": [
+    {
+      "action": "Treat the whole tank today",
+      "detail": "Ich is highly contagious and every fish in the tank has been exposed, so treat the display tank rather than moving one fish. Use a commercial ich remedy and follow the product label exactly; formalin and copper are the drugs of choice in veterinary practice, and three to seven treatments are often needed.[3] Remove shrimp and snails first — copper is extremely toxic to invertebrates and plants.[10] Turn off UV sterilisers and remove carbon from the filter during treatment unless the label says otherwise."
+    },
+    {
+      "action": "Be careful with copper in soft water",
+      "detail": "The University of Florida circular calls copper sulfate extremely toxic to fish, particularly in water of low alkalinity, and says never to use it without first measuring alkalinity.[2] Most cardinal tanks are soft, and copper toxicity to cardinals is strongly influenced by water chemistry — a study found it varied considerably between natural waters of different composition.[7] Copper also harms the filter bacteria, so watch for ammonia and nitrite spikes for weeks afterwards.[10] If your KH is very low, prefer a non-copper product or ask an aquatic vet."
+    },
+    {
+      "action": "Repeat treatment on schedule and keep the tank clean",
+      "detail": "Because only the free-swimming stage is killed, repeat doses must keep hitting each new generation. At warm temperatures (about 24–26 °C) the cycle runs in a few days and treatments are typically daily;[2][3] follow the label's interval. Siphon the gravel and do partial water changes between doses — daily cleaning physically removes cysts attached to debris.[2] Keep the temperature steady at the warm end of the cardinal's range; warmth speeds the parasite's cycle so treatment works sooner, but do not push cardinals above their normal range.[2][11]"
+    },
+    {
+      "action": "Use salt only with caution",
+      "detail": "The circular lists a prolonged salt bath of 4–5 g/L for 7–10 days as an effective treatment in small systems, but only \"provided the fish species can handle the increased salt concentration\".[2] We found no published salt-tolerance data for cardinals, which are adapted to extremely ion-poor water.[1] If you want to use salt, ask a vet first rather than guessing."
+    },
+    {
+      "action": "Continue beyond the last spot, then quarantine future fish",
+      "detail": "Keep treating until no new spots have appeared for several days, as the circular advises continuing until losses have stopped.[2] Afterwards, quarantine every new fish for at least 30 days before it joins the main tank[10] — the single most effective way to keep ich out. If spots do not respond, or they are raised cysts or patches rather than dots, have a vet examine a skin scraping.[5][6]"
+    }
+  ],
+  "prevention_h2": "Preventing White Spot in Cardinal Tetras",
+  "prevention": "Quarantine all new fish — cardinals and their tankmates — for at least 30 days in a separate tank with its own nets and siphon.[2][10] Ich also hitches a ride on plants, substrate and décor from other tanks, so hold new plants in a fish-free container for the length of the parasite's cycle.[2] Keep the water stable and clean, because poor water quality and sudden temperature changes are what let an ich carrier break out into disease.[2] Buy cardinals that have been in the shop for at least a week, look for any flashing or spots in the dealer's tank, and never add fish from a tank where one fish is spotted.",
+  "seek_help_h2": "When White Spots on a Cardinal Need Expert Help",
+  "seek_help": "<strong>Treat today</strong> for any cardinal with ich-like spots: this is urgent, not an emergency to wait out, because without treatment ich can kill the whole tank.[2] <strong>Treat as an emergency</strong> if fish are gasping at the surface, lying on the bottom or dying — heavy gill infections with ich or velvet kill quickly. <strong>See an aquatic vet if:</strong> the spots do not look like salt grains, if they have not improved after a full course of treatment, if you see raised blisters with white threads inside (possible <em>Dermocystidium</em>),[5] or if you see spreading pale patches with frayed fins (possible columnaris, which may need antibiotics chosen by a vet).[6] A skin scraping under a microscope settles the diagnosis in minutes.",
+  "faq": [
+    {
+      "q": "How do I know if my cardinal tetra has ich?",
+      "a": "Ich spots look like grains of salt scattered on the body, fins and head, and they increase in number over a day or two. Fish often flash against objects, clamp their fins and eat less.[2][3] Finer gold dust suggests velvet, and a few larger raised blisters that stay the same suggest something else."
+    },
+    {
+      "q": "Why did my cardinal tetras get ich after I added new fish?",
+      "a": "New fish commonly carry ich without showing it, and the stress of transport and handling can cause active disease one to three weeks after shipping.[2] Most cardinals reach shops through a long supply chain from the Amazon,[1] which is why a 30-day quarantine for every new fish is recommended.[10]"
+    },
+    {
+      "q": "Will ich go away on its own?",
+      "a": "Do not count on it. Each parasite that drops off can produce hundreds of new ones, and untreated outbreaks can kill every fish in a tank.[2] Start treatment as soon as spots are confirmed."
+    },
+    {
+      "q": "How long does it take to cure ich on cardinal tetras?",
+      "a": "At typical cardinal temperatures the parasite completes its cycle in a few days, so most outbreaks need one to two weeks of repeated treatment; Merck notes three to seven treatments are often required.[3] Keep going until several days have passed with no new spots.[2]"
+    },
+    {
+      "q": "Is copper safe for cardinal tetras?",
+      "a": "It can be, but it needs care in the soft water cardinals are usually kept in. Copper is most toxic to fish in low-alkalinity water and should never be used without knowing the alkalinity,[2] its toxicity to cardinals depends heavily on water chemistry,[7] and it kills shrimp and snails and can disrupt the biofilter.[10] Follow the product label exactly or choose a non-copper remedy."
+    },
+    {
+      "q": "What are the white worm-like spots under my cardinal's skin?",
+      "a": "Raised, clear bumps containing a coiled white thread have been documented in cardinal tetras as <em>Dermocystidium</em> cysts, a skin parasite that is not ich.[4][5] They do not respond to ich medication. A vet can confirm them from a skin scraping."
+    }
+  ],
+  "references": [
+    {
+      "authors": "Sanchez-Bernal, D., Martinez, J.G., Farias, I.P., Hrbek, T. &amp; Caballero, S. (2023).",
+      "title": "Phylogeography and population genetic structure of the cardinal tetra (<em>Paracheirodon axelrodi</em>) in the Orinoco basin and Negro River (Amazon basin): evaluating connectivity and historical patterns of diversification.",
+      "source": "PeerJ 11: e15117.",
+      "url": "https://doi.org/10.7717/peerj.15117",
+      "label": "doi:10.7717/peerj.15117"
+    },
+    {
+      "authors": "Francis-Floyd, R., Yanong, R.P.E. &amp; Pouder, D.B.",
+      "title": "<em>Ichthyophthirius multifiliis</em> (White Spot) Infections in Fish.",
+      "source": "UF/IFAS Extension, Circular 920 (FA006).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA006",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Parasitic Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/parasitic-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Langenmayer, M.C., Lewisch, E., Gotesman, M., Hoedt, W., Schneider, M., El-Matbouli, M. &amp; Hermanns, W. (2015).",
+      "title": "Cutaneous infection with <em>Dermocystidium salmonis</em> in cardinal tetra, <em>Paracheirodon axelrodi</em> (Schultz, 1956).",
+      "source": "Journal of Fish Diseases 38(5): 503–506.",
+      "url": "https://doi.org/10.1111/jfd.12281",
+      "label": "doi:10.1111/jfd.12281"
+    },
+    {
+      "authors": "Joint Pathology Center.",
+      "title": "Wednesday Slide Conference 2015–2016, Conference 13, Case 1: cardinal tetra (<em>Paracheirodon axelrodi</em>), dermocystidiosis.",
+      "source": "Joint Pathology Center, Silver Spring, MD.",
+      "url": "https://www.askjpc.org/wsco/wsc_showcase2.php?id=Y0VrSXBQZUNkbzcxaGZtbEhON20zUT09",
+      "label": "askjpc.org"
+    },
+    {
+      "authors": "Declercq, A.M., Haesebrouck, F., Van den Broeck, W., Bossier, P. &amp; Decostere, A. (2013).",
+      "title": "Columnaris disease in fish: a review with emphasis on bacterium-host interactions.",
+      "source": "Veterinary Research 44: 27.",
+      "url": "https://doi.org/10.1186/1297-9716-44-27",
+      "label": "doi:10.1186/1297-9716-44-27"
+    },
+    {
+      "authors": "Crémazy, A., Wood, C.M., Smith, D.S., Ferreira, M.S., Johannsson, O.E., Giacomin, M. &amp; Val, A.L. (2016).",
+      "title": "Investigating copper toxicity in the tropical fish cardinal tetra (<em>Paracheirodon axelrodi</em>) in natural Amazonian waters: measurements, modeling, and reality.",
+      "source": "Aquatic Toxicology 180: 353–363.",
+      "url": "https://doi.org/10.1016/j.aquatox.2016.10.011",
+      "label": "doi:10.1016/j.aquatox.2016.10.011"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Fish Taxonomy.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/fish-taxonomy",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Mycotic Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/mycotic-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Management of Aquarium Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Froese, R. &amp; Pauly, D. (eds.)",
+      "title": "<em>Paracheirodon axelrodi</em>, Cardinal tetra.",
+      "source": "FishBase.",
+      "url": "https://www.fishbase.se/summary/paracheirodon-axelrodi.html",
+      "label": "fishbase.se"
+    }
+  ]
+}

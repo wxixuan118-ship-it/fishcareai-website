@@ -1,0 +1,219 @@
+{
+  "slug": "black-neon-tetra-hiding",
+  "date_modified": "2026-09-28",
+  "date_modified_human": "September 28, 2026",
+  "urgency": "monitor",
+  "title": "Black Neon Tetra Hiding? Usually New, Alone or Outnumbered",
+  "description": "Black neon tetras hide when newly moved, kept in too small a group or with bullies. How to tell normal shyness from water problems or early disease.",
+  "h1": "Black Neon Tetra Hiding All the Time: Why It Happens and When to Worry",
+  "howto_name": "How to find out why black neon tetras are hiding and help them settle",
+  "short_answer": "Black neon tetras that hide are usually <strong>new to the tank</strong>, kept in <strong>too small a group</strong>, or wary of larger or boisterous tankmates. Give new fish one to two weeks and keep at least 8–10 together. If a fish that used to swim openly suddenly hides, stops eating, clamps its fins or rubs against objects, test the water and look closely for white spots.",
+  "intro": [
+    "Black neon tetras are mid-water shoaling fish: in aquariums they occupy the middle and upper levels of the tank,[1] and in the wild they live in small streams and floodplains lined with thick vegetation.[2] A group that spends its day tucked into the plants near the bottom, or a single fish wedged behind the filter, is behaving differently from how a settled black neon should, and that change is worth understanding.",
+    "Most of the time the explanation is social or environmental rather than medical. Newly introduced black neons behave differently from fish that know their surroundings,[3] small groups of shoaling tetras are more stressed than large ones,[4] and a tiny, peaceful fish kept with larger or faster companions spends its time staying out of their way. Hiding can also be an early sign of poor water or of ich, often before any spots are visible,[5][6] so a black neon that suddenly starts hiding after weeks of normal behaviour deserves a closer look than one that has been shy since the day it arrived."
+  ],
+  "causes_h2": "Why Is My Black Neon Tetra Hiding? The Common Causes",
+  "causes": [
+    {
+      "title": "New to the Tank",
+      "likelihood": "high",
+      "paragraphs": [
+        "Newly bought black neons almost always spend their first days in cover. They have been through shipping, a holding tank and a bag, and they are now in an unfamiliar space with unfamiliar fish. A study published in 2026 merged groups of black neons that were and were not familiar with their tank and tracked every fish: the unfamiliar fish stayed closer to their neighbours and took up the more central, protected positions in the shoal, following others more strongly than the settled fish did.[3] In a home aquarium, the same caution shows up as a tight, nervous group hanging around plants or décor.",
+        "This normally eases over one to two weeks as the fish learn the tank. It is also the period to watch for illness, because transport and handling can cause fish that looked healthy to break out with ich and similar infections one to three weeks after shipping.[6] Shyness that is getting steadily better is settling in; shyness that gets worse, with clamped fins or refusal to eat, is not."
+      ]
+    },
+    {
+      "title": "A Group That Is Too Small",
+      "likelihood": "high",
+      "paragraphs": [
+        "Shoaling fish feel safe in numbers. In a study of neon tetras kept singly, in pairs, in fives and in tens, aggression and darting were lowest, feeding was quickest and shoaling strongest in the largest groups.[4] A black neon that has lost its companions, or one of three or four in a large tank, lacks the protection of the school and often retreats into plants instead.",
+        "FishBase recommends groups of five or more,[1] and species specialists advise buying a mixed-sex group of at least eight to ten black neons.[2] If your black neons hide and you have fewer than eight, the most effective fix is usually simply to add more of the same species — after quarantine."
+      ]
+    },
+    {
+      "title": "Intimidating Tankmates or Too Little Cover",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Black neons are very peaceful and do best with similarly sized characids.[2] Larger or faster fish — big barbs, larger tetras, cichlids, even an active gourami — can chase them or simply make them wary, and a fish that is regularly chased learns to stay hidden. Watch the tank for ten minutes from a distance at feeding time: if the black neons dart out, grab food and flee back, or one fish patrols near their hiding place, the problem is a tankmate.",
+        "Paradoxically, a tank with <em>too little</em> cover can also produce hiding fish. With nowhere to retreat, shy fish stay packed into the one sheltered corner. Plenty of plants, some floating cover and a darker substrate usually make black neons more confident in open water, not less, because they know shelter is always nearby. This mirrors their natural habitat of vegetated, light brown water.[2]"
+      ]
+    },
+    {
+      "title": "Poor Water Quality",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Fish that feel unwell often stop swimming openly. The Merck Veterinary Manual describes new tank syndrome — ammonia and nitrite building up because the biological filter is not yet established — as a problem of roughly the first six weeks, in which fish become lethargic, lose their appetite and frequently die. It also describes old tank syndrome, where small, infrequent water changes let the water's buffering run out and the pH drop, sometimes suddenly.[5]",
+        "If all your black neons (and other fish) have become less active at the same time, rather than one or two individuals, water is the first thing to test. Temperature matters too: black neons are tropical fish kept at about 23–27 °C,[1] and a failed heater can make the whole group sluggish and reclusive."
+      ]
+    },
+    {
+      "title": "Early Illness: Ich, Velvet and Other Parasites",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Hiding is one of the earliest signs of external parasites. The University of Florida's ich circular notes that before the white spots become visible, fish may show irritation, flashing (rubbing against objects), increased mucus, weakness, loss of appetite and decreased activity — and that by the time spots can be seen, the fish is very sick.[6] Merck lists lethargy, clamped fins and darkened colour with ich, and describes the brownish-gold dusting of velvet.[7]",
+        "So when a black neon that was active last week starts hiding, look at it closely under a torch: salt-grain spots, fine gold dust, clamped fins or flashing change the priority from patience to prompt treatment. Bacterial outbreaks follow the same triggers of poor water, transport and stress,[8] so a newly arrived group that hides and then develops sores or ragged fins needs attention too."
+      ]
+    },
+    {
+      "title": "Neon Tetra Disease and Chronic Illness",
+      "likelihood": "low",
+      "paragraphs": [
+        "A single black neon that hides alone for weeks, loses weight and swims abnormally may have a chronic disease. Neon tetra disease, caused by the microsporidian <em>Pleistophora hyphessobryconis</em>, infects the muscles of tetras and other aquarium fish, causes abnormal swimming, and is considered untreatable.[9] Look for a whitish patch in the muscle and a curved spine. Such a fish should be removed to protect the others."
+      ]
+    }
+  ],
+  "diagnose_h2": "How to Tell Why Your Black Neon Tetra Is Hiding",
+  "diagnose_intro": "These checks take a few minutes each. Most hiding black neons are explained by the first three.",
+  "diagnose": [
+    {
+      "action": "Check the time of day",
+      "detail": "Small tetras such as neons and cardinals are inactive at night,[10] and black neons likewise rest after dark, often low among plants. Black neons seen near the bottom after dark, at dawn or just after the lights come on are resting, not hiding. Judge behaviour after the light has been on for an hour or more."
+    },
+    {
+      "action": "Note how long the fish have been in the tank",
+      "detail": "Black neons added in the last two weeks are expected to be cautious.[3] If they are gradually venturing out more each day and eating, give them time."
+    },
+    {
+      "action": "Count the group and watch the tankmates",
+      "detail": "Fewer than eight black neons is a small group for this species.[2] Watch from a distance, especially at feeding time, for any fish that chases them or guards the area near their hiding place."
+    },
+    {
+      "action": "Test the water and check the heater",
+      "detail": "Test ammonia, nitrite, nitrate and pH, and read the thermometer. Ammonia and nitrite should be zero; a tank less than two months old, or one with infrequent water changes, is the usual setting for trouble.[5]",
+      "tool": "Water test kit and thermometer"
+    },
+    {
+      "action": "Look closely at the hiding fish",
+      "detail": "Use a torch or phone camera. White salt-grain spots, fine gold dust, clamped fins, flashing, rapid breathing, ragged fins, a whitish patch in the muscle or a thin body each point to a specific disease rather than shyness.[6][7][9]"
+    },
+    {
+      "action": "Check whether it is eating",
+      "detail": "Drop a little food near the hiding place. A shy but healthy black neon will dart out and eat. A fish that ignores food for more than a day or two, particularly while hiding alone, is likely unwell."
+    }
+  ],
+  "fix_h2": "How to Help Hiding Black Neon Tetras",
+  "fix": [
+    {
+      "action": "Give new fish quiet time",
+      "detail": "Keep the lights moderate, avoid rearranging décor or netting in the tank, and feed small amounts near their cover for the first week or two. Unfamiliar black neons behave more cautiously than settled ones,[3] and most gain confidence steadily once nothing is chasing them."
+    },
+    {
+      "action": "Increase the group to at least 8–10",
+      "detail": "Add more black neons of the same species so the school provides protection; shoaling tetras are calmer and feed more readily in larger groups.[4] Quarantine the new fish for at least 30 days first, as Merck recommends,[5] so you don't introduce ich to a group you are trying to settle."
+    },
+    {
+      "action": "Remove bullies and add cover",
+      "detail": "Rehome or separate any fish that chases them, and choose similarly sized, peaceful tankmates.[2] Add plants throughout the tank, some floating plants and a darker substrate, so that shelter is always close and the fish feel safe in open water."
+    },
+    {
+      "action": "Correct the water",
+      "detail": "Fix any ammonia or nitrite with partial water changes and lighter feeding, replace a faulty heater, and keep up regular weekly changes so water quality and pH stay stable.[5]"
+    },
+    {
+      "action": "Treat or isolate sick fish",
+      "detail": "If you see ich or velvet, treat the whole tank promptly with a product labelled for it and follow the label; repeated treatments are needed because only one stage of the parasite's life cycle is vulnerable.[6][7] Remove any fish with a spreading white patch in the muscle, abnormal swimming or wasting, since neon tetra disease cannot be treated.[9]"
+    }
+  ],
+  "prevention_h2": "Keeping Black Neon Tetras Confident",
+  "prevention": "Start with a group of ten or more, bought at once and quarantined for at least 30 days before joining the main tank.[5][6] Provide a mature, densely planted aquarium with a dark substrate, floating plants and open swimming space in the middle, similar to the vegetated streams they come from.[2] Choose small, peaceful tankmates, keep the temperature steady at about 23–27 °C,[1] and keep up regular partial water changes. A black neon school that is large enough and never chased will spend most of its day in open water.",
+  "seek_help_h2": "When a Hiding Black Neon Tetra Needs Help",
+  "seek_help": "<strong>Act the same day if:</strong> the fish are hiding and also gasping, lying on the bottom, not eating, or dying, or if you see white spots or gold dust — test the water, do a partial water change and start treatment for ich or velvet if present, because these can kill a whole shoal quickly.[5][6] <strong>Talk to an aquatic vet if:</strong> black neons keep dying one at a time, or you see white patches in the muscle, sores or wasting; a vet can examine skin and gill samples or a dead fish and identify the cause.[8][9] A new group that is shy but eating and slowly exploring needs time and more companions, not medicine.",
+  "faq": [
+    {
+      "q": "Is it normal for new black neon tetras to hide?",
+      "a": "Yes. Newly introduced black neons stay closer together and in more protected positions than fish that know the tank.[3] Most become noticeably bolder within one to two weeks, especially in a group of eight or more."
+    },
+    {
+      "q": "How many black neon tetras should be kept together?",
+      "a": "At least eight to ten is the usual recommendation,[2] and more in larger tanks. Shoaling tetras show less aggression and darting and feed more readily in bigger groups.[4]"
+    },
+    {
+      "q": "Why is my black neon tetra hiding and not eating?",
+      "a": "Hiding plus refusing food suggests stress or illness rather than simple shyness. Test the water for ammonia and nitrite, check the temperature, and look closely for white spots, gold dust, clamped fins or flashing — early signs of ich and velvet.[5][6][7]"
+    },
+    {
+      "q": "Why did my black neons suddenly start hiding?",
+      "a": "A sudden change in established fish usually means something changed: a new, larger tankmate, a water-quality problem such as an ammonia spike or pH drop,[5] a heater failure, or the early stage of a parasite outbreak, which often begins with reduced activity and loss of appetite before spots appear.[6]"
+    },
+    {
+      "q": "Do black neon tetras hide at night?",
+      "a": "Yes, in the sense that they rest: small tetras are inactive after dark,[10] and black neons often settle low among plants at night. That is normal; judge behaviour once the light has been on for a while."
+    },
+    {
+      "q": "Can black neon tetras live with bettas or angelfish?",
+      "a": "They are best kept with similarly sized, peaceful characids.[2] Some bettas and angelfish ignore them, but others chase or eat small fish, and black neons that feel threatened will hide. If they have started hiding since a larger fish was added, that fish is the likely cause."
+    }
+  ],
+  "references": [
+    {
+      "authors": "Froese, R. &amp; Pauly, D. (eds.)",
+      "title": "<em>Hyphessobrycon herbertaxelrodi</em>, Black neon tetra.",
+      "source": "FishBase.",
+      "url": "https://www.fishbase.se/summary/Hyphessobrycon-herbertaxelrodi.html",
+      "label": "fishbase.se"
+    },
+    {
+      "authors": "Seriously Fish.",
+      "title": "<em>Hyphessobrycon herbertaxelrodi</em> (Black Neon Tetra) species profile.",
+      "source": "SeriouslyFish.com.",
+      "url": "https://www.seriouslyfish.com/species/hyphessobrycon-herbertaxelrodi/",
+      "label": "seriouslyfish.com"
+    },
+    {
+      "authors": "Puy, A., Gimeno, E., Beltran, F.S., Dolado, R., Ioannou, C.C., Miguel, M.C. &amp; Pastor-Satorras, R. (2026).",
+      "title": "Habituation determines spatial position in <em>Hyphessobrycon herbertaxelrodi</em> shoals through altered rules of interaction.",
+      "source": "Communications Biology.",
+      "url": "https://doi.org/10.1038/s42003-026-10861-1",
+      "label": "doi:10.1038/s42003-026-10861-1"
+    },
+    {
+      "authors": "Saxby, A., Adams, L., Snellgrove, D., Wilson, R.W. &amp; Sloman, K.A. (2010).",
+      "title": "The effect of group size on the behaviour and welfare of four fish species commonly kept in home aquaria.",
+      "source": "Applied Animal Behaviour Science 125(3–4): 195–205.",
+      "url": "https://doi.org/10.1016/j.applanim.2010.04.008",
+      "label": "doi:10.1016/j.applanim.2010.04.008"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Management of Aquarium Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Francis-Floyd, R., Yanong, R.P.E. &amp; Pouder, D.B.",
+      "title": "<em>Ichthyophthirius multifiliis</em> (White Spot) Infections in Fish.",
+      "source": "UF/IFAS Extension, Circular 920 (FA006).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA006",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Parasitic Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/parasitic-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Bacterial Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Mycotic Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/mycotic-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Lythgoe, J.N. &amp; Shand, J. (1983).",
+      "title": "Diel colour changes in the neon tetra <em>Paracheirodon innesi</em>.",
+      "source": "Environmental Biology of Fishes 8(3–4): 249–254.",
+      "url": "https://doi.org/10.1007/BF00001090",
+      "label": "doi:10.1007/BF00001090"
+    }
+  ]
+}

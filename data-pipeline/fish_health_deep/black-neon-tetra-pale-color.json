@@ -1,0 +1,226 @@
+{
+  "slug": "black-neon-tetra-pale-color",
+  "date_modified": "2026-09-28",
+  "date_modified_human": "September 28, 2026",
+  "urgency": "monitor",
+  "title": "Black Neon Tetra Pale? Why the Black Stripe Fades",
+  "description": "A black neon's dark band fades with stress, a pale bright tank and at night. How to tell normal fading from water problems or neon tetra disease.",
+  "h1": "Black Neon Tetra Pale or Faded: Why the Black Band Turns Grey and How to Fix It",
+  "howto_name": "How to find out why a black neon tetra is pale and bring back its colour",
+  "short_answer": "A black neon tetra's dark band is made by pigment cells that fade when the fish is <strong>stressed</strong>, newly moved or kept over a <strong>pale, brightly lit</strong> substrate, and it can look different at night. If the whole group is grey but eating and schooling, fix the group size, cover and lighting and the black returns within days to weeks. One fish with a persistent whitish patch, weight loss or odd swimming needs isolating.",
+  "intro": [
+    "The black neon tetra, <em>Hyphessobrycon herbertaxelrodi</em>, is not a colour form of the neon tetra but a separate species from the Paraguay River basin,[1] where it lives in small streams and floodplain waters with clear, light brown water and thick marginal vegetation.[2] Its look depends on two things: a broad, dark band that covers much of the lower half of the body, strongest above the anal fin,[2] and a thin pale, iridescent line running above it. When owners say a black neon has gone pale, they almost always mean that band has faded to grey or brown and the line above it has lost its shine.",
+    "That band is produced by melanophores — dark pigment cells that can disperse their pigment to darken the skin or pull it into a tiny dot to lighten it. Fish use exactly this mechanism to match their background and react to threats,[3] and in a close relative bright light even reduced the number of these cells in the dark stripes.[4] So most pale black neons are telling you about their surroundings: stress, a small group, a bright bare tank, or a recent move. Disease is less common, but it is the explanation to check when only one fish fades."
+  ],
+  "causes_h2": "Why Is My Black Neon Tetra Pale? The Common Causes",
+  "causes": [
+    {
+      "title": "Stress From a Move, a Small Group or Tankmates",
+      "likelihood": "high",
+      "paragraphs": [
+        "Stress is the most common reason a black neon's band turns grey. Fish adjust their colour cells in response to encounters with other fish as well as to their surroundings, under the control of nerves and hormones,[3] which is why a black neon that has just been chased, netted or moved can look washed-out almost at once. Longer-lasting stress — a tank that is still new to them, a group that is too small, or tankmates that chase or intimidate them — can keep them pale for days or weeks.",
+        "Group size matters for shoaling tetras. In a study of neon tetras, aggression and darting were lowest, and fish fed most readily, in the largest group size tested, where they shoaled most.[5] Black neons form tight, well-coordinated schools, and research published this year showed that black neons which had not yet become familiar with their tank stayed closer to their companions and in the centre of the group, behaving differently from habituated fish.[6] Keepers are advised to buy at least eight to ten.[2] Three or four black neons, especially alongside larger or faster fish, will rarely show their best colour."
+      ]
+    },
+    {
+      "title": "Pale Substrate, Bright Light and Little Cover",
+      "likelihood": "high",
+      "paragraphs": [
+        "This cause is especially relevant to black neons, because so much of their colour is melanin. Many fish lighten over a pale background and darken over a dark one by moving pigment in their melanophores, part of what researchers call chromatic adaptation to environmental hues and patterns.[3] Kept over white sand or light gravel in a brightly lit, sparsely planted tank, black neons often look grey.",
+        "Light intensity has a direct effect too. When cardinal tetras — another small South American characin with a dark band — were exposed to intense light for 12–72 hours, their dark and iridescent bands became pale because melanophore density fell, while in dim light (0–250 lux) melanophores increased and the colours intensified.[4] No equivalent experiment has been done on black neons, but the biology of their dark band is the same kind. Their natural habitat of light brown water with dense vegetation[2] is far dimmer than a typical planted-tank light."
+      ]
+    },
+    {
+      "title": "Night-Time and Resting Colour",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Small tetras look different at night, and the change can alarm people who check the tank with a torch. In the neon tetra, the iridescent stripe shifts from green in the daytime to violet-blue at night because light acts directly on the stripe's iridophores — cells packed with stacks of thin reflective plates — even in isolated skin, and the shift is reversed in darkness; disturbing the fish in the dark also changes the colour.[7] The same study distinguished these light-sensitive iridophores from others that do not change.[7]",
+        "We found no study of night colour in black neons specifically, so treat this as a likely rather than proven explanation: black neons seen at night, at dawn, or immediately after the light is switched on often look duller or greyer, with a less distinct line, and look normal again after the lights have been on for a while. If the colour recovers every day, the fish is resting, not ill."
+      ]
+    },
+    {
+      "title": "Water Quality Problems",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Black neons tolerate a fairly wide range of water — FishBase gives pH 5.5–7.5, hardness up to about 15 dGH and 23–27 °C[1] — so modest differences in hardness are rarely the problem. Toxic or unstable water is. The Merck Veterinary Manual describes new tank syndrome, in which ammonia and nitrite from an immature filter make fish lethargic, stop them eating and frequently kill them in the first weeks, and old tank syndrome, in which infrequent water changes allow the pH to fall, sometimes rapidly enough to kill.[8]",
+        "Pale colour caused by water quality usually comes with other signs: the whole group is sluggish, fins are clamped, fish hang near the surface or refuse food. That combination means test the water now, before looking for disease."
+      ]
+    },
+    {
+      "title": "Neon Tetra Disease (Pleistophora)",
+      "likelihood": "low",
+      "paragraphs": [
+        "Despite the name, neon tetra disease is not limited to neons. The microsporidian <em>Pleistophora hyphessobryconis</em> infects the skeletal muscle of tetras and many other aquarium fish; Merck describes abnormal swimming caused by muscle damage, and states that microsporidia are considered untreatable.[9] In heavily infected laboratory fish, researchers describe large depigmented regions around the dorsal fin, and fish with severe signs eventually die.[10]",
+        "On a black neon, this shows as a whitish or opaque patch that interrupts the dark band or appears near the dorsal fin, stays pale in daylight and slowly enlarges, usually in one fish at a time. Restless swimming, a curved spine, weight loss and separation from the shoal often follow. The group-wide, come-and-go fading described above is not what this disease looks like."
+      ]
+    },
+    {
+      "title": "Other Chronic Illness",
+      "likelihood": "low",
+      "paragraphs": [
+        "Mycobacteriosis is a slow bacterial disease whose signs include paleness, emaciation, skin ulcers, bulging eyes and skeletal deformities; no treatment eliminates it.[11] Bacterial outbreaks in general tend to follow poor water, handling and transport, temperature changes and other stress.[11] A black neon that is pale and wasting, rather than pale and otherwise normal, should be isolated and watched."
+      ]
+    }
+  ],
+  "diagnose_h2": "How to Tell Why Your Black Neon Tetra Is Pale",
+  "diagnose_intro": "Work through these checks in order. Most pale black neons are explained in the first three steps, and none requires medication.",
+  "diagnose": [
+    {
+      "action": "Check the colour in the middle of the day",
+      "detail": "Look after the light has been on for an hour or more and the fish are swimming and feeding. Colour judged at night, at dawn or by torchlight is unreliable because tetra iridophores and pigment cells change in the dark.[7]"
+    },
+    {
+      "action": "Make sure it isn't an albino or a different fish",
+      "detail": "An ornamental albino form of the black neon exists,[2] and it is naturally pale with a faint band. Normal black neons have a broad dark band on the lower half of the body, strongest above the anal fin.[2]"
+    },
+    {
+      "action": "Is it the whole group or one fish?",
+      "detail": "All the black neons fading together points to the environment — lighting, background, group size, tankmates or water. One fish pale while the rest are dark points to bullying, injury or disease, including neon tetra disease.[9]"
+    },
+    {
+      "action": "Look at the background, light and group size",
+      "detail": "A pale substrate, bright light and little cover encourage fish to lighten,[3][4] and fewer than eight black neons is a small group for this species.[2] Note any fish that chase them."
+    },
+    {
+      "action": "Test the water",
+      "detail": "Test ammonia, nitrite, nitrate and pH. Ammonia and nitrite should be zero. A new tank or one that has gone a long time without water changes is the usual setting for trouble.[8]",
+      "tool": "Water test kit"
+    },
+    {
+      "action": "Look closely at any fish that stays pale",
+      "detail": "Check for a whitish patch in the muscle, a bent spine, a thin back, sores, bulging eyes, jerky swimming or isolation from the shoal — the signs that separate neon tetra disease and mycobacteriosis from simple stress.[10][11]"
+    }
+  ],
+  "fix_h2": "How to Bring Back a Black Neon Tetra's Dark Band",
+  "fix": [
+    {
+      "action": "Darken the tank and add cover",
+      "detail": "Use a dark substrate or background, add dense planting and some floating plants, and reduce light intensity or duration. Fish darken their melanophores over darker surroundings,[3] and dim light increased dark-band pigment cells in a related tetra.[4] Expect improvement within days, with the full effect over a few weeks."
+    },
+    {
+      "action": "Keep a proper school and peaceful tankmates",
+      "detail": "Keep at least 8–10 black neons, more in larger tanks, and avoid fin-nippers and much larger, boisterous fish. Shoaling tetras show less aggression and darting and feed more readily in bigger groups.[5] Newly added fish behave differently until they become familiar with the tank, so give them time before judging their colour.[6]"
+    },
+    {
+      "action": "Fix and stabilise the water",
+      "detail": "Correct any ammonia or nitrite with partial water changes and lighter feeding, then keep up regular weekly changes so the pH does not drift down as buffering is used up.[8] Keep the temperature steady within roughly 23–27 °C.[1]"
+    },
+    {
+      "action": "Feed a varied diet",
+      "detail": "Black neons are omnivores that eat small invertebrates and do best on a varied menu including live or frozen foods such as bloodworm, mosquito larvae, <em>Daphnia</em> and <em>Moina</em> alongside dry food.[2] Well-fed fish in good condition show stronger colour."
+    },
+    {
+      "action": "Isolate a fish with a spreading pale patch",
+      "detail": "Remove any black neon that has a persistent whitish patch in the muscle, abnormal swimming or wasting. Neither neon tetra disease nor mycobacteriosis has a reliable treatment;[9][11] Merck recommends removing affected fish, UV sterilisation and strict biosecurity for microsporidia.[9] Do not add new tetras for several months, and ask an aquatic vet to examine a fish if others begin to show signs."
+    }
+  ],
+  "prevention_h2": "Keeping Black Neon Tetras Dark and Bright",
+  "prevention": "Buy a group of ten or more and quarantine them for at least 30 days, as Merck recommends for new fish.[8] House them in a mature, densely planted tank with a dark substrate, subdued light and floating cover, similar to the vegetated, light-brown streams they come from.[2] Keep the water clean and stable with regular partial water changes, feed a varied diet, and choose calm tankmates of a similar size. Watch new arrivals for pale patches or abnormal swimming before they join your main shoal, since neon tetra disease is untreatable.[9]",
+  "seek_help_h2": "When a Pale Black Neon Tetra Needs Expert Help",
+  "seek_help": "<strong>Act the same day if:</strong> several black neons are pale, lethargic, gasping, off their food or dying — test the water and do a partial water change immediately, because ammonia, nitrite and pH crashes kill quickly.[8] <strong>Talk to an aquatic vet if:</strong> fish develop white patches in the muscle, bent spines or sores, or waste away one after another. Neon tetra disease and mycobacteriosis are confirmed in the laboratory and have no cure; the aim is to protect the rest of the tank.[9][11] A group that is grey on a bright white substrate but eats and schools normally needs a darker, calmer tank, not medicine.",
+  "faq": [
+    {
+      "q": "Why is my black neon tetra's black stripe fading?",
+      "a": "Usually stress, a pale substrate or strong light. The black band is made by melanophores, which fish lighten over pale surroundings and when disturbed,[3] and bright light reduced dark-band pigment cells in a related tetra.[4] A dark substrate, more plants, dimmer light and a bigger group usually restore it."
+    },
+    {
+      "q": "Do black neon tetras lose color at night?",
+      "a": "They often look duller at night or first thing in the morning. In the related neon tetra, the iridescent stripe measurably changes colour between day and night and reverses when the lights come back on.[7] Judge colour in the middle of the day."
+    },
+    {
+      "q": "My new black neons are pale. Is that normal?",
+      "a": "Yes. Newly moved fish are stressed and take time to get used to a tank; recent research found unfamiliar black neons behave differently in the shoal from settled ones.[6] In a quiet, planted tank with a group of eight or more, colour usually improves within one to three weeks."
+    },
+    {
+      "q": "Can black neon tetras get neon tetra disease?",
+      "a": "The parasite that causes it, <em>Pleistophora hyphessobryconis</em>, infects tetras and many other aquarium fish, not only neons.[9][10] It usually shows as one fish with a spreading whitish patch in the muscle and abnormal swimming. There is no cure, so affected fish should be removed."
+    },
+    {
+      "q": "Is there a pale or albino black neon tetra?",
+      "a": "Yes, an ornamental albino form is sold.[2] It has pink eyes and a much lighter body. If your fish has always looked like that, it is a colour variety, not a sick fish."
+    },
+    {
+      "q": "What water do black neon tetras need to keep their color?",
+      "a": "They are adaptable: roughly pH 5.5–7.5, soft to moderately hard water and 23–27 °C.[1] Stable, clean water matters more than a precise number, so focus on zero ammonia and nitrite and regular water changes.[8]"
+    }
+  ],
+  "references": [
+    {
+      "authors": "Froese, R. &amp; Pauly, D. (eds.)",
+      "title": "<em>Hyphessobrycon herbertaxelrodi</em>, Black neon tetra.",
+      "source": "FishBase.",
+      "url": "https://www.fishbase.se/summary/Hyphessobrycon-herbertaxelrodi.html",
+      "label": "fishbase.se"
+    },
+    {
+      "authors": "Seriously Fish.",
+      "title": "<em>Hyphessobrycon herbertaxelrodi</em> (Black Neon Tetra) species profile.",
+      "source": "SeriouslyFish.com.",
+      "url": "https://www.seriouslyfish.com/species/hyphessobrycon-herbertaxelrodi/",
+      "label": "seriouslyfish.com"
+    },
+    {
+      "authors": "Fujii, R. (2000).",
+      "title": "The regulation of motile activity in fish chromatophores.",
+      "source": "Pigment Cell Research 13(5): 300–319.",
+      "url": "https://doi.org/10.1034/j.1600-0749.2000.130502.x",
+      "label": "doi:10.1034/j.1600-0749.2000.130502.x"
+    },
+    {
+      "authors": "Linhares, R.M., Pinagé, C.M.M.F. &amp; Duncan, W.P. (2018).",
+      "title": "Excessive luminosity fades the skin color of cardinal tetra.",
+      "source": "Boletim do Instituto de Pesca 44(4).",
+      "url": "https://doi.org/10.20950/1678-2305.2018.44.4.319",
+      "label": "doi:10.20950/1678-2305.2018.44.4.319"
+    },
+    {
+      "authors": "Saxby, A., Adams, L., Snellgrove, D., Wilson, R.W. &amp; Sloman, K.A. (2010).",
+      "title": "The effect of group size on the behaviour and welfare of four fish species commonly kept in home aquaria.",
+      "source": "Applied Animal Behaviour Science 125(3–4): 195–205.",
+      "url": "https://doi.org/10.1016/j.applanim.2010.04.008",
+      "label": "doi:10.1016/j.applanim.2010.04.008"
+    },
+    {
+      "authors": "Puy, A., Gimeno, E., Beltran, F.S., Dolado, R., Ioannou, C.C., Miguel, M.C. &amp; Pastor-Satorras, R. (2026).",
+      "title": "Habituation determines spatial position in <em>Hyphessobrycon herbertaxelrodi</em> shoals through altered rules of interaction.",
+      "source": "Communications Biology.",
+      "url": "https://doi.org/10.1038/s42003-026-10861-1",
+      "label": "doi:10.1038/s42003-026-10861-1"
+    },
+    {
+      "authors": "Lythgoe, J.N. &amp; Shand, J. (1982).",
+      "title": "Changes in spectral reflexions from the iridophores of the neon tetra.",
+      "source": "The Journal of Physiology 325: 23–34.",
+      "url": "https://doi.org/10.1113/jphysiol.1982.sp014132",
+      "label": "doi:10.1113/jphysiol.1982.sp014132"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Management of Aquarium Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Mycotic Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/mycotic-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Sanders, J.L., Watral, V. &amp; Kent, M.L. (2012).",
+      "title": "Microsporidiosis in zebrafish research facilities.",
+      "source": "ILAR Journal 53(2): 106–113.",
+      "url": "https://doi.org/10.1093/ilar.53.2.106",
+      "label": "doi:10.1093/ilar.53.2.106"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Bacterial Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    }
+  ]
+}

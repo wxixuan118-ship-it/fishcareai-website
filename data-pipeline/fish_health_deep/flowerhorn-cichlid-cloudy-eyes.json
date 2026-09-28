@@ -1,0 +1,201 @@
+{
+  "slug": "flowerhorn-cichlid-cloudy-eyes",
+  "date_modified": "2026-09-28",
+  "date_modified_human": "September 28, 2026",
+  "urgency": "urgent",
+  "title": "Flowerhorn Cloudy Eye? Usually Injury or Water, Not Disease",
+  "description": "A cloudy eye on a flowerhorn is most often an injury or poor water, not a disease. How to tell one eye from both, when it is infection, and what to do.",
+  "h1": "Flowerhorn Cloudy Eyes: Injury, Water Quality or Infection?",
+  "howto_name": "How to find out why a flowerhorn has cloudy eyes and treat it",
+  "short_answer": "A cloudy eye on a flowerhorn is most often a scratched cornea from charging the glass, decor or a net, or irritation from poor water — not a disease that needs medicine. <strong>One</strong> cloudy eye that appeared suddenly suggests injury; <strong>both</strong> eyes clouding points to the water. Test the water today; cloudiness with bulging eyes, spinning, dark colour or refusal to eat suggests infection and needs a vet.",
+  "intro": [
+    "A flowerhorn with a milky, grey or white film over one or both eyes looks seriously ill, and most online advice goes straight to antibiotics. But cloudy eye is a sign, not a diagnosis. The clear front of the eye — the cornea — turns cloudy when it is scratched, irritated or inflamed, and eye problems in fish can be either a local problem or one sign of disease elsewhere in the body.[1] Because fish have no eyelids, the cornea is exposed to every knock and to everything dissolved in the water.[2]",
+    "Flowerhorns are a species that invites both kinds of damage. They are large, bold and territorial, they charge the glass at movement, headbutt decor, attack nets and hands, and eat heavily enough to foul their water quickly. So the two most common causes are the unglamorous ones: injury and water quality.[2] Infection is next, and it usually announces itself with other signs. Old-age cataracts and parasites are rare in a captive-bred flowerhorn. Working out which one you have takes a few minutes and a water test, and it decides whether this fish needs clean water and time or a veterinarian."
+  ],
+  "causes_h2": "Why Does My Flowerhorn Have Cloudy Eyes? The Common Causes",
+  "causes": [
+    {
+      "title": "Eye Injury (Scratched Cornea)",
+      "likelihood": "high",
+      "paragraphs": [
+        "Physical trauma is the most common cause of cloudy eyes in pet fish, according to a board-certified fish veterinarian: fish have no eyelids, so a collision with the glass, a rock or an ornament leaves a corneal abrasion that clouds as it becomes inflamed.[2] The Merck Veterinary Manual adds that eye injuries commonly happen during transport and handling, especially when a fish struggles in a net.[3] A flowerhorn that lunges at people walking past, fights its reflection, spars through a divider or thrashes during netting is a prime candidate.",
+        "The pattern is typical: the cloudiness appears suddenly, often overnight, and is usually in one eye or much worse in one eye than the other.[2] There may be a small scuff on the head or lip, missing scales or a split fin from the same event, and the fish is otherwise eating and behaving normally. In clean water, a minor corneal scratch usually heals by itself; the main risk is that poor water slows healing and lets bacteria take hold."
+      ]
+    },
+    {
+      "title": "Poor Water Quality",
+      "likelihood": "high",
+      "paragraphs": [
+        "The cornea is in direct contact with the water, and anything that irritates the skin and gills irritates the eye too. Ammonia at low concentrations causes stress and tissue damage and leaves fish more susceptible to bacterial infection;[4] in recirculating systems generally, toxic ammonia or nitrite from a biofilter that cannot keep up with the fish load is the most common water-quality problem.[5] A large flowerhorn fed heavily in a tank that is small for its size produces exactly that load. High nitrate, low pH and dissolved organics from uneaten food add to it.",
+        "Water-driven cloudiness typically affects <strong>both</strong> eyes, often with other signs of irritation: dull colour, extra mucus, clamped fins, faster breathing or rubbing. It develops over days rather than overnight. Poor water also stops injuries from healing, so an injured eye that is getting worse instead of better is often a water problem as well.[2]"
+      ]
+    },
+    {
+      "title": "Bacterial Infection",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Bacterial infection can affect the eye directly or as part of a body-wide illness. UF/IFAS lists corneal opacity (whitish eyes) and bulging eyes (\"pop-eye\") in one or both eyes among the signs of streptococcal infection, together with erratic swimming such as spinning, loss of buoyancy control, lethargy and darkening, and notes that cichlids are among the susceptible fish.[6] Other bacterial diseases such as mycobacteriosis also cause bulging eyes along with weight loss and skin ulcers.[7]",
+        "Infection is the cause to suspect when the eye is not just cloudy but swollen, bloody, bulging or getting worse despite good water, or when the fish is also off its food, dark, lethargic or swimming abnormally. Outbreaks are usually set off by poor water, organic loading, handling, temperature swings or low oxygen,[7] so a flowerhorn with infected eyes almost always has a husbandry problem behind it. Treatment needs the organism identified and an antibiotic chosen on sensitivity testing, which is a job for a vet.[7]"
+      ]
+    },
+    {
+      "title": "Cataract (Lens Opacity)",
+      "likelihood": "low",
+      "paragraphs": [
+        "Sometimes the cloudiness is not on the surface of the eye but inside it. A cataract is opacity of the lens, and cataracts are common in fish.[3] Looking at the eye from the side with a torch helps: a surface haze over the whole front of the eye is corneal, while a dense white spot centred behind the pupil is the lens. Cataracts develop slowly, are more likely in older fish, and have been linked to nutritional deficiencies;[3][2] they do not clear with water changes or medication.",
+        "Other than surgery, which is rarely done in pet fish, there is no treatment for a cataract.[3] A flowerhorn with cataracts in both eyes may lose much of its sight, which matters because most fish feed by sight.[1] A single fish in its own tank adapts better than one competing with tank mates, and careful target feeding can keep it in good condition."
+      ]
+    },
+    {
+      "title": "Parasites and Gas Bubbles",
+      "likelihood": "low",
+      "paragraphs": [
+        "Eye flukes can make the eyes enlarged and cloudy, sometimes with tiny worms visible inside, but they are found in wild-caught fish.[3] Flowerhorns are bred in captivity, so flukes are very unlikely unless the fish has been fed wild-caught live food or kept outdoors.",
+        "Tiny gas bubbles in the cornea point to gas bubble disease, which happens when water supersaturated with dissolved gas — from very cold tap water warming up, or water under pressure — releases the gas into the fish's tissues.[3] Look closely with a torch: bubbles look like fine beads rather than a haze. It is rare in home aquaria but worth ruling out after a large water change straight from the tap."
+      ]
+    }
+  ],
+  "diagnose_h2": "How to Tell Why Your Flowerhorn's Eye Is Cloudy",
+  "diagnose_intro": "Go through these checks today. They take a few minutes, and the answers decide whether you need clean water and patience or a vet.",
+  "diagnose": [
+    {
+      "action": "Count the eyes: one or both?",
+      "detail": "One cloudy eye, especially if it appeared suddenly, points to injury.[2] Both eyes cloudy to a similar degree points to water quality or a body-wide infection. Injury can affect both eyes unevenly after a hard collision, so look at the degree of cloudiness in each.[2]"
+    },
+    {
+      "action": "Examine the eye with a torch from the front and side",
+      "detail": "A penlight shows whether the problem is in the eye itself or the tissue around it.[3] A thin haze across the surface is corneal (injury, water, infection); a white spot centred behind the pupil is a cataract; fine beads are gas bubbles; blood in the eye suggests injury or infection;[3] an eye pushed forward out of its socket is pop-eye. Look for scuffs on the head, lips or scales that suggest a collision."
+    },
+    {
+      "action": "Test the water now",
+      "detail": "Test ammonia, nitrite, nitrate, pH and temperature before doing anything else. Ammonia and nitrite should both be zero in an established tank; any reading means the filter is not keeping up with the fish and its food.[4][5] Flowerhorns do best at 26–30 °C and pH 7.0–7.8. A water sample and a clear history are also what an aquatic vet will ask for first.[8]",
+      "tool": "Water test kit"
+    },
+    {
+      "action": "Think back over the last few days",
+      "detail": "Was the fish netted, moved or transported? Did it lunge at someone, fight its reflection or a tank mate through a divider, or knock against new decor? A clear event followed by a cloudy eye within a day is almost always injury.[3] Also note any big water change straight from the tap (gas bubbles) or a missed maintenance week (water)."
+    },
+    {
+      "action": "Check the whole fish for signs of infection",
+      "detail": "Look for bulging eyes, bleeding or red patches, ulcers, darkening, lethargy, loss of appetite, and abnormal swimming such as spinning or trouble staying level. Any of these alongside cloudy eyes moves bacterial infection up the list and means you should involve a vet rather than wait.[6][7]"
+    }
+  ],
+  "fix_h2": "How to Treat Cloudy Eyes in a Flowerhorn",
+  "fix": [
+    {
+      "action": "Fix the water, whatever the cause",
+      "detail": "Do a partial water change with dechlorinated water at the same temperature, and repeat over the next days until ammonia and nitrite read zero. Reduce feeding, remove uneaten food, and clean the filter gently in tank water rather than replacing all the media, which sets back the biological filter.[5] Clean water is what lets a scratched cornea heal and it removes the stress that leaves fish open to infection.[4][9]"
+    },
+    {
+      "action": "Remove the source of injury",
+      "detail": "Take out or pad sharp decor, stop mirror play and sparring through dividers, cover part of the front glass if the fish charges people, and net only when necessary. There is no point in eye drops: they wash off in water.[2] With these changes and good water, a simple injury usually improves over one to two weeks; photograph the eye every couple of days to track it."
+    },
+    {
+      "action": "Feed a complete, varied diet",
+      "detail": "Use a quality cichlid pellet as the staple and add variety, rather than relying on one food or on feeder fish. Diets that are incomplete have been linked to eye problems, including cataracts.[2][3] If the eye is badly clouded, drop food close to the fish so it can find it."
+    },
+    {
+      "action": "Get a vet involved if infection is likely",
+      "detail": "If the eye is bulging, bloody or worsening despite good water, or the fish is dark, lethargic, off its food or spinning, contact an aquatic vet. Bacterial infections need the organism identified, and sensitivity testing is recommended before antibiotics are used.[7] Streptococcal infections of cichlids respond to specific antibiotics that require a veterinary prescription.[6] Do not stack several over-the-counter remedies: they stress the fish and the filter and rarely match the bacteria involved."
+    },
+    {
+      "action": "Accept what cannot be reversed",
+      "detail": "A deep scar can leave permanent cloudiness, and cataracts do not clear without surgery, which is rarely done in pet fish.[3] Many flowerhorns live well with reduced sight in one eye. Keep the layout stable so the fish can learn its way around, and feed where it can find the food."
+    }
+  ],
+  "prevention_h2": "Preventing Cloudy Eyes in Flowerhorns",
+  "prevention": "Give the fish a tank and filter sized for an adult flowerhorn, test ammonia and nitrite regularly, and do routine partial water changes so the biofilter keeps up with a heavy feeder.[4][5] Choose smooth decor, avoid prolonged mirror sessions and aggressive sparring through dividers, and site the tank where people are not constantly walking past the glass. Net the fish as little as possible, and use a container rather than a net for moving a large fish, since eye injuries commonly occur when fish struggle in nets.[3] Quarantine new fish for at least 30 days so infections are not introduced.[8]",
+  "seek_help_h2": "When a Flowerhorn with Cloudy Eyes Needs a Vet",
+  "seek_help": "<strong>Get help within a day if:</strong> the eye is bulging, bloody or ulcerated, both eyes are clouding quickly, or the fish is darkening, lethargic, refusing food, spinning or struggling to stay level. These are signs of bacterial infection, including streptococcal disease, which affects cichlids and needs prescription treatment.[6][7] <strong>Talk to a vet soon if:</strong> a single cloudy eye has not improved after one to two weeks of clean water. A flowerhorn with one cloudy eye after an obvious knock, which is eating and swimming normally in clean water, can usually be watched rather than medicated.[2]",
+  "faq": [
+    {
+      "q": "Will my flowerhorn's cloudy eye go away on its own?",
+      "a": "Often, if it was caused by a minor injury or by water quality and the water is corrected. Fish can repair minor corneal damage when their environment is good.[2] A deep injury can leave a permanent mark, and cataracts do not go away.[3] Photograph the eye every few days; you should see steady improvement within one to two weeks."
+    },
+    {
+      "q": "Why does my flowerhorn have one cloudy eye?",
+      "a": "One cloudy eye is most often an injury: flowerhorns charge the glass, hit decor, fight through dividers and thrash in nets, and without eyelids the cornea takes the knock.[2][3] If both eyes are cloudy, look at the water first."
+    },
+    {
+      "q": "Is cloudy eye contagious to other fish?",
+      "a": "Injury and cataracts are not. Poor water affects every fish in the tank. Bacterial infections are a different matter: streptococcal infection, for example, is an infectious disease to which cichlids are susceptible,[6] so isolate a fish whose cloudy eyes come with other signs of illness."
+    },
+    {
+      "q": "Can I use aquarium salt or antibiotics for flowerhorn cloudy eye?",
+      "a": "Antibiotics treat bacteria, and most cloudy eyes are not bacterial, so dosing them first delays the real fix. Correct the water and remove the cause of injury. If signs of infection are present, a vet can identify the bacteria and choose an antibiotic that works, which is the recommended approach.[7] If you do use any product, follow the label exactly."
+    },
+    {
+      "q": "Is my flowerhorn going blind?",
+      "a": "Corneal cloudiness from injury or water usually clears, so sight returns. A cataract or a deep scar can reduce sight permanently.[3] Because most fish feed by sight, eye problems matter,[1] but a flowerhorn kept alone in a stable tank usually learns to find food with help."
+    },
+    {
+      "q": "What does pop-eye with a cloudy eye mean?",
+      "a": "A bulging eye with cloudiness is more serious than cloudiness alone. It is a recognised sign of bacterial infections such as streptococcal disease and mycobacteriosis,[6][7] and needs a vet's help rather than waiting."
+    }
+  ],
+  "references": [
+    {
+      "authors": "Jurk, I. (2002).",
+      "title": "Ophthalmic disease of fish.",
+      "source": "Veterinary Clinics of North America: Exotic Animal Practice 5(2): 243–260.",
+      "url": "https://doi.org/10.1016/s1094-9194(02)00006-3",
+      "label": "doi:10.1016/s1094-9194(02)00006-3"
+    },
+    {
+      "authors": "Sanders, J., DVM, DABVP (Fish Practice).",
+      "title": "Fish Cloudy Eyes: Common Causes and Treatment.",
+      "source": "Aquatic Veterinary Services (cafishvet.com).",
+      "url": "https://cafishvet.com/fish-health-disease/fish-cloudy-eyes/",
+      "label": "cafishvet.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Disorders and Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/all-other-pets/fish/disorders-and-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Francis-Floyd, R., Watson, C., Petty, D. &amp; Pouder, D.B. (2022).",
+      "title": "Ammonia in Aquatic Systems.",
+      "source": "UF/IFAS Extension, FA16 (FA031).",
+      "url": "https://doi.org/10.32473/edis-fa031-2022",
+      "label": "doi:10.32473/edis-fa031-2022"
+    },
+    {
+      "authors": "Yanong, R.P.E.",
+      "title": "Fish Health Management Considerations in Recirculating Aquaculture Systems — Part 1: Introduction and General Principles.",
+      "source": "UF/IFAS Extension, Circular 120 (FA099).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA099",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Yanong, R.P.E. &amp; Francis-Floyd, R.",
+      "title": "Streptococcal Infections of Fish.",
+      "source": "UF/IFAS Extension, Circular 57 (FA057).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA057",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Bacterial Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Management of Aquarium Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Francis-Floyd, R.",
+      "title": "Stress—Its Role in Fish Disease.",
+      "source": "UF/IFAS Extension, Circular 919 (FA005).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA005",
+      "label": "ask.ifas.ufl.edu"
+    }
+  ]
+}
