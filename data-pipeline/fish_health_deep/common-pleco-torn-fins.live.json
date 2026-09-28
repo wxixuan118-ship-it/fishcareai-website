@@ -1,0 +1,17 @@
+{
+  "slug": "common-pleco-torn-fins",
+  "species": "Common Pleco",
+  "scientific": "Hypostomus plecostomus",
+  "water": "freshwater",
+  "temp": "20–28°C",
+  "ph": "6.5–7.5",
+  "care": "intermediate",
+  "fish_hub": "/fish-health/fish/common-pleco",
+  "problem": "Torn or Ragged Fins",
+  "category": "physical",
+  "urgency": "monitor",
+  "hero": "https://www.fishcareai.com/assets/encyclopedia/real/common-pleco-wikimedia-real.jpg",
+  "species_profile": "/species/common-pleco",
+  "guide": null,
+  "date_published": "2026-09-19T17:31:55.749Z"
+}

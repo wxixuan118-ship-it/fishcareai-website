@@ -1,0 +1,222 @@
+{
+  "slug": "honey-gourami-bloated",
+  "date_modified": "2026-09-28",
+  "date_modified_human": "September 28, 2026",
+  "urgency": "monitor",
+  "title": "Honey Gourami Bloated? Overfeeding, Eggs or Dropsy",
+  "description": "A tiny honey gourami bloats easily on too much dry food, and ripe females swell with eggs. How to tell these from dropsy, worms or gourami iridovirus.",
+  "h1": "Honey Gourami Bloated or Swollen? Overfed, Full of Eggs or Sick — How to Tell",
+  "howto_name": "How to tell why a honey gourami is bloated and what to do about it",
+  "short_answer": "In a honey gourami that is still eating and swimming normally, a round belly is most often <strong>overfeeding</strong> — adults weigh about a gram, so a few flakes too many show — or a <strong>female ripening with eggs</strong>. Fast it for two days: food bloat goes down. Scales lifting outward, bulging eyes, red threads at the vent or a fish hanging listlessly point to disease and need action today.",
+  "intro": [
+    "The honey gourami (<em>Trichogaster chuna</em>) is one of the smallest gouramis in the hobby. Adult broodstock in a hatchery breeding study averaged about 3.4 cm long and just over one gram in weight.[1] At that size, the difference between a satisfied fish and a bloated one is a pinch of flakes, and a single female carrying a batch of eggs can look startlingly round. Those two explanations — food and eggs — account for most swollen honey gouramis that are otherwise behaving normally.",
+    "Honey gouramis are also labyrinth fish: they breathe air from the surface as well as through their gills,[2] and the males build bubble nests and guard them.[2] Because they belong to the same gourami family as the dwarf gourami, owners often fear the untreatable dwarf gourami iridovirus when they see a swollen belly. That virus is real and serious, but it is not the most likely explanation, and the published evidence for honey gouramis specifically is thin. Work through the checks below — food, eggs, dropsy, worms — before assuming the worst."
+  ],
+  "causes_h2": "Why Is My Honey Gourami Bloated? The Common Causes",
+  "causes": [
+    {
+      "title": "Overfeeding and Constipation",
+      "likelihood": "high",
+      "paragraphs": [
+        "This is the most common cause in both sexes. Honey gouramis are small, slow, surface-feeding fish that take food readily, and they are often kept with faster fish, so owners feed extra to make sure they get some. Dry flakes and pellets also swell after they are swallowed. The result is a belly that becomes round within hours of feeding, often in more than one fish, in a gourami that is otherwise alert and swimming normally.",
+        "Rich food is not needed for a healthy honey gourami. In a nutrition trial, feeds of 30%, 40% and 50% protein produced no significant difference in growth; 30% protein with 6% lipid was adequate for normal growth, and 40% protein helped growth and reproduction.[3] In other words, more or richer food does not make a better fish. A belly that goes down after 48 hours without food was food; one that stays the same needs the other causes considered."
+      ]
+    },
+    {
+      "title": "A Female Ripening With Eggs",
+      "likelihood": "high",
+      "paragraphs": [
+        "Honey gouramis are egg layers. In a well-kept tank females develop eggs regularly, and a ripe female becomes noticeably fuller in the lower belly, rounded when seen from above and from the side. The male builds a bubble nest among floating plants and guards it,[2] and in a hatchery study honey gouramis spawned in aquaria given plants to build around, with nests built on Bermuda grass and hydrilla producing the most eggs and hatchlings.[1]",
+        "Sexing honey gouramis is usually easy once they mature. Males in breeding condition turn a rich honey-orange with a dark blue-black throat and belly; females stay a paler silvery-tan and often show a brown horizontal stripe along the side. A round female who is eating, swimming normally and holding her fins open is much more likely to be carrying eggs than to be ill. If there is a male building a nest in the tank, she will typically spawn under it and slim down afterward."
+      ]
+    },
+    {
+      "title": "Dropsy From Bacterial Infection",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Dropsy — fluid in the abdomen, sometimes called pinecone disease — is a sign of internal organ failure rather than a disease in its own right.[5] In a honey gourami it shows as a belly that keeps enlarging while the scales lift outward and stand away from the body when seen from above, often with bulging eyes, a red or swollen vent, clamped fins and a fish that hangs near the surface or sits on the bottom.",
+        "Bacterial disease outbreaks in aquarium fish are frequently associated with poor water quality and organic loading,[6] and fish exposed to low levels of ammonia over time are more susceptible to bacterial infections.[10] Because honey gouramis are small, the outlook once the scales have visibly lifted is poor even with treatment. Dropsy is the cause that needs action the same day."
+      ]
+    },
+    {
+      "title": "Intestinal Worms and Flagellates",
+      "likelihood": "medium",
+      "paragraphs": [
+        "<em>Camallanus</em> is a nematode that infects many aquarium fish; its blood-red worms can be seen protruding from the anus of affected fish, which is why it is known as red worm disease.[4] Owners of bloated honey gouramis do report seeing these red threads, particularly in newly bought fish. The flagellate <em>Spironucleus</em> is another intestinal parasite that is frequently seen in the gut of gouramis, and treatment is recommended when it comes with loss of condition.[4]",
+        "Parasites are the cause to suspect when a swollen belly comes with a thin back, stringy or pale droppings, or when fish of both sexes are affected. Wild honey gourami populations are still exploited for the trade,[1] and recently imported fish that were not quarantined are the highest-risk group."
+      ]
+    },
+    {
+      "title": "Megalocytivirus (\"Dwarf Gourami Iridovirus\")",
+      "likelihood": "low",
+      "paragraphs": [
+        "Megalocytiviruses, including the strain known as dwarf gourami iridovirus, cause systemic infections in many ornamental fish. Signs include lethargy, loss of appetite, darkening, abnormal swimming, distension of the body cavity, pale gills and heavy mortality, and there is no effective treatment.[7] The virus is well documented in dwarf gourami, which the Merck Veterinary Manual names among affected species,[9] and in Australia 18.7% of more than 2,000 imported gouramis tested positive before quarantine.[8]",
+        "What is not documented is whether honey gouramis are commonly affected. The UF/IFAS list of ornamental species reported with megalocytivirus includes dwarf, thick-lipped, banded, three-spot, pearl and moonlight gouramis but does not name the honey gourami.[7] Honey gouramis are close relatives of those species and are traded through the same channels, so the risk cannot be ruled out — but a single swollen honey gourami in an established tank is far more likely to be overfed, full of eggs or suffering from dropsy. Suspect the virus when several gouramis, particularly recent purchases, sicken and die over days to weeks."
+      ]
+    },
+    {
+      "title": "Mycobacteriosis",
+      "likelihood": "low",
+      "paragraphs": [
+        "Mycobacteriosis (fish TB) is a chronic bacterial infection that can affect any aquarium fish. Its signs are variable and nonspecific and include emaciation, ascites (fluid in the abdomen), skin ulcers, bulging eyes and paleness.[6] There is no effective treatment that eliminates it in fish, and it can infect people,[6] so wear gloves when working in a tank where it is suspected. The pattern that suggests it is a gourami that is swollen and wasting at the same time, followed by others over weeks."
+      ]
+    }
+  ],
+  "diagnose_h2": "How to Tell Why Your Honey Gourami Is Bloated",
+  "diagnose_intro": "Do these checks in order. Most bloated honey gouramis are explained by the first three, and none of them needs medication.",
+  "diagnose": [
+    {
+      "action": "Check whether it is male or female",
+      "detail": "A male in breeding colour is bright honey-orange with a dark throat and belly, and may be building a bubble nest under a floating leaf.[2] Females are paler, silvery-tan, often with a brown lateral stripe. If the fish is female, keep egg-bearing on the list; if it is male, eggs are ruled out."
+    },
+    {
+      "action": "Look at the fish from above",
+      "detail": "Scales standing out from the body like an open pinecone mean dropsy, and that changes the plan — go to the treatment section today.[5] Also look for bulging eyes and a red or swollen vent. An evenly rounded belly with flat scales points to food or eggs."
+    },
+    {
+      "action": "Watch the vent for red threads",
+      "detail": "Watch the fish for several minutes, ideally in the evening when the tank is quiet. Fine red threads extending from the vent are <em>Camallanus</em> worms.[4] If one gourami has them, assume the other fish are infected too."
+    },
+    {
+      "action": "Test the water",
+      "detail": "Test ammonia, nitrite, nitrate, pH and temperature. Ammonia is colourless and odourless even at toxic levels, so testing is the only way to know it is present.[10] Honey gouramis are comfortable at about 22–28 °C and pH 6–7 in a calm, planted tank; any detectable ammonia or nitrite needs correcting before anything else.",
+      "tool": "Water test kit"
+    },
+    {
+      "action": "Fast for 48 hours and watch",
+      "detail": "For a fish with flat scales, no worms and no other signs of illness, feed nothing for two days. A belly that shrinks was food. A female who stays round but is active and eating may simply be carrying eggs. A belly that stays the same or grows, especially with lethargy, a thin back or other gouramis becoming ill, needs the disease causes taken seriously."
+    }
+  ],
+  "fix_h2": "What to Do for a Bloated Honey Gourami",
+  "fix": [
+    {
+      "action": "If it is food: fast, then feed less and more varied",
+      "detail": "Skip feeding for one to two days, then feed a tiny amount the gouramis finish within a minute, once or twice a day. Crush flakes finely for small fish and soak dry food in tank water briefly before feeding so it expands before it is swallowed. Include small frozen or live foods such as daphnia or brine shrimp. A standard-quality small-fish food is enough; honey gouramis do not need high-protein feeds to grow and breed.[3]"
+    },
+    {
+      "action": "If she is carrying eggs: give them plants and calm water",
+      "detail": "A ripe female needs no treatment. Provide floating plants and fine-leaved plants near the surface where a male can anchor a bubble nest, keep water movement gentle, and keep the tank stable.[1][2] If a male spawns with her, she will slim down; if you do not want fry, simply let nature take its course."
+    },
+    {
+      "action": "If the scales are lifting: isolate and fix the water",
+      "detail": "Move the fish to a hospital tank with clean, dechlorinated water at the same temperature, with a lid, since gouramis need warm, humid air at the surface to breathe. Correct the main tank with partial water changes. Antibiotic choice should be based on sensitivity testing where possible,[6] which an aquatic vet can arrange. Be honest about the outlook: many small fish with visible dropsy do not recover."
+    },
+    {
+      "action": "If you see red worms: deworm the whole tank",
+      "detail": "<em>Camallanus</em> is treated with fenbendazole or levamisole.[4] Follow the product label exactly, treat every fish in the tank, repeat as the label directs, and vacuum the substrate after each round. Remove snails and shrimp first if the label warns about invertebrates."
+    },
+    {
+      "action": "If several gouramis are sickening: stop adding fish and call a vet",
+      "detail": "Megalocytivirus cannot be treated, and diagnosis requires examination of a dead or euthanised fish, usually the spleen, by a laboratory.[7][9] If it is confirmed, disinfection and depopulation of affected systems is recommended, and separate nets and equipment should be used for each tank to avoid spreading it.[7]"
+    }
+  ],
+  "prevention_h2": "Preventing Bloating in Honey Gouramis",
+  "prevention": "Feed small amounts of finely sized food once or twice a day, and vary dry foods with small frozen or live foods; richer food does not mean healthier fish.[3] Keep ammonia and nitrite at zero with regular partial water changes and a filter that does not blast the surface.[10] Quarantine new gouramis for at least 30 days before adding them,[11] watching for red threads at the vent, lost appetite and deaths during that time — gouramis are a recognised route by which megalocytivirus enters aquaria.[8] Give females floating plants and a calm surface so that ripe fish can spawn rather than carrying eggs indefinitely.",
+  "seek_help_h2": "When a Bloated Honey Gourami Needs Expert Help",
+  "seek_help": "<strong>Act today if:</strong> the scales are lifting (pinecone appearance), the eyes are bulging, the fish is hanging at the surface or lying on the bottom, or it has stopped eating. These point to dropsy or another systemic illness rather than food or eggs.[5] <strong>Talk to an aquatic vet if:</strong> more than one gourami is becoming swollen, dark, lethargic or dying over days to weeks, especially after new fish were added — megalocytivirus and mycobacteriosis both need a laboratory diagnosis, and neither can be cured.[6][7] A female who is round but eating, active and colourful does not need a vet.",
+  "faq": [
+    {
+      "q": "Is my honey gourami pregnant?",
+      "a": "Honey gouramis lay eggs rather than giving birth, so they are never pregnant, but a female can be full of eggs. A ripe female is rounder in the lower belly and usually paler than the male. The male builds a bubble nest near the surface and guards it,[2] and when she spawns under it her belly goes down."
+    },
+    {
+      "q": "How do I tell if my honey gourami is fat or full of eggs?",
+      "a": "Sex the fish first — only females carry eggs. Then fast the tank for two days. A belly that shrinks was food. A female who stays evenly round, is active and keeps eating, especially with a male building a nest, is most likely carrying eggs."
+    },
+    {
+      "q": "Can honey gouramis get dwarf gourami iridovirus?",
+      "a": "The virus is a megalocytivirus that infects many gourami species, including dwarf, pearl and three-spot gouramis.[7] Honey gouramis are close relatives, but the published species lists do not name them, so their susceptibility is not well documented. Buy from a reliable source, quarantine new gouramis, and treat several deaths in a group of new gouramis as a warning sign.[8]"
+    },
+    {
+      "q": "Why is my male honey gourami bloated?",
+      "a": "Because males do not carry eggs, a swollen male is usually overfed. If the swelling does not go down after two days without food, look for red threads at the vent (<em>Camallanus</em>) and check from above for raised scales (dropsy).[4][5]"
+    },
+    {
+      "q": "Can a honey gourami recover from dropsy?",
+      "a": "Some do if the cause is caught early and the water is corrected, but the outlook is poor once scales have visibly lifted, because the swelling reflects fluid build-up from organ failure.[5] Isolate the fish, fix the water, and ask an aquatic vet about antibiotics chosen on the basis of testing.[6]"
+    },
+    {
+      "q": "Is a bloated honey gourami contagious?",
+      "a": "Overfeeding and eggs are not. <em>Camallanus</em> worms and <em>Spironucleus</em> spread through the tank, so treat all the fish if they are found.[4] Megalocytivirus is contagious and spreads in water and on equipment,[7] and mycobacteriosis spreads between fish and can infect people.[6]"
+    }
+  ],
+  "references": [
+    {
+      "authors": "Swain, S.K., Ail, S.K.S., Jena, S.K., Bairwa, M.K. &amp; Sahoo, S.N. (2021).",
+      "title": "Preference of breeding substratum, embryonic development and seed production of honey gourami, <em>Trichogaster chuna</em> (Hamilton, 1822) – an indigenous ornamental fish in demand.",
+      "source": "Aquaculture 542: 736874.",
+      "url": "https://doi.org/10.1016/j.aquaculture.2021.736874",
+      "label": "doi:10.1016/j.aquaculture.2021.736874"
+    },
+    {
+      "authors": "Froese, R. &amp; Pauly, D. (eds.)",
+      "title": "<em>Trichogaster chuna</em> (Honey gourami) — species summary.",
+      "source": "FishBase.",
+      "url": "https://www.fishbase.se/summary/Trichogaster-chuna.html",
+      "label": "fishbase.se"
+    },
+    {
+      "authors": "Mithun, S., Vijayagopal, P., Chakraborty, K. &amp; Chan, D.P.S. (2019).",
+      "title": "Evaluation of gross protein and lipid requirements in formulated feed for honey gourami, <em>Trichogaster chuna</em> (Hamilton 1822).",
+      "source": "Journal of the World Aquaculture Society 50(4): 800–814.",
+      "url": "https://doi.org/10.1111/jwas.12557",
+      "label": "doi:10.1111/jwas.12557"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Parasitic Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/parasitic-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Disorders and Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/all-other-pets/fish/disorders-and-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Bacterial Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Yanong, R.P.E. &amp; Waltzek, T.B.",
+      "title": "Megalocytivirus Infections in Fish, with Emphasis on Ornamental Species.",
+      "source": "UF/IFAS Extension, FA182.",
+      "url": "https://ask.ifas.ufl.edu/publication/FA182",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Rimmer, A.E., Becker, J.A., Tweedie, A., Lintermans, M., Landos, M., Stephens, F. &amp; Whittington, R.J. (2015).",
+      "title": "Detection of dwarf gourami iridovirus (Infectious spleen and kidney necrosis virus) in populations of ornamental fish prior to and after importation into Australia, with the first evidence of infection in domestically farmed Platy (<em>Xiphophorus maculatus</em>).",
+      "source": "Preventive Veterinary Medicine 122(1–2): 181–194.",
+      "url": "https://doi.org/10.1016/j.prevetmed.2015.09.008",
+      "label": "doi:10.1016/j.prevetmed.2015.09.008"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Viral Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/viral-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Francis-Floyd, R., Watson, C., Petty, D. &amp; Pouder, D.B.",
+      "title": "Ammonia in Aquatic Systems.",
+      "source": "UF/IFAS Extension, FA16 (FA031).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA031",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Management of Aquarium Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+      "label": "merckvetmanual.com"
+    }
+  ]
+}

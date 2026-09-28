@@ -1,0 +1,221 @@
+{
+  "slug": "common-pleco-losing-color",
+  "date_modified": "2026-09-28",
+  "date_modified_human": "September 28, 2026",
+  "urgency": "monitor",
+  "title": "Common Pleco Losing Color? Often Normal — or Stress",
+  "description": "Plecos lighten and darken with light, background and mood. How to tell a normal colour shift from stress, bad water or infection causing pale patches.",
+  "h1": "Common Pleco Losing Color or Turning Pale? Normal Change, Stress or Disease",
+  "howto_name": "How to tell why a common pleco is losing colour and what to do about it",
+  "short_answer": "An even, all-over lightening in a common pleco that is eating and active at night is usually a normal colour change — plecos adjust their shade to light, background and mood, and often look washed out when disturbed or under bright light. Colour that stays pale for days, especially with hiding, not eating or clamped fins, points to stress or poor water; test the water. Pale or white <strong>patches</strong>, red-edged fins or ulcers are signs of infection and need action today.",
+  "intro": [
+    "Fish are not painted; their colour is made by pigment cells in the skin, and many fish can move the pigment inside those cells within minutes, spreading it out to look darker or clumping it together to look pale. This rapid colour change is used for camouflage and signalling and is controlled by the fish's nervous system and hormones.[1] Common plecos, with their dark spots and vermiculations on a lighter base, show this clearly: the same fish can look almost black while resting on dark wood and noticeably paler an hour later when it has been disturbed or the light has changed.",
+    "That makes the pattern of the colour loss more useful than the colour loss itself. An even shift in shade that comes and goes is almost always the fish adjusting. A pleco that stays pale for days is telling you something about its surroundings — usually stress or water quality. And pale or white <em>patches</em>, rather than an all-over change, are a different problem: in catfish they are a classic early sign of bacterial skin infection.[2] The checks below separate the three."
+  ],
+  "causes_h2": "Why Is My Common Pleco Losing Colour? The Common Causes",
+  "causes": [
+    {
+      "title": "Normal colour change with light, background and time of day",
+      "likelihood": "high",
+      "paragraphs": [
+        "Physiological colour change — pigment moving within the skin's pigment cells — lets fish match their background and communicate, and it can happen quickly.[1] A pleco kept on pale sand under bright lights will often be lighter than the same fish in a dim tank with dark substrate and wood, and if the background stays the same for weeks the change can become more lasting: over longer periods fish adjust the number and shape of their pigment cells, not just the position of the pigment.[3]",
+        "Time of day matters too. Plecos rest on the bottom for most of the day and do most of their moving at night,[4] and many owners notice that their pleco looks different — paler or more washed out — when they switch the light on and catch it in the open, or first thing in the morning. If the colour returns within an hour or so and the fish is eating, active at night and has clean fins, this is normal and needs no action."
+      ]
+    },
+    {
+      "title": "Stress: a new tank, a move, bullying or too little cover",
+      "likelihood": "high",
+      "paragraphs": [
+        "Stress changes colour. A newly bought pleco, one that has just been netted, or one that is chased by tank mates often turns pale and stays that way until it settles. Handling, transport and crowding are recognised stressors, and stress weakens the fish's natural defences against infection.[5] A pleco without a cave that fits it, kept in bright light with little shade, may stay paler than normal for as long as those conditions last.",
+        "Size is part of this with common plecos. They reach about 45 cm,[6] and fish sold as common plecos are often sailfin plecos (<em>Pterygoplichthys</em>), which are frequently misidentified as <em>Hypostomus</em>[7] and grow roughly 10 cm a year when young.[8] A pleco that has outgrown its tank and its caves lives under chronic stress, and a dull, washed-out colour is often one of the first visible signs."
+      ]
+    },
+    {
+      "title": "Poor water quality or low oxygen",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Ammonia is the main waste product of fish and is colourless and odourless even at harmful levels. Low concentrations cause stress and damage the gills and other tissues, and fish exposed over time become more prone to bacterial infections.[9] Large plecos produce a lot of waste, so a tank that has quietly outgrown its filter is a common background to a pleco that has gone pale and stopped coming out.",
+        "Plecos can breathe air through a specialised, blood-rich stomach,[8] and a pale pleco that is repeatedly dashing to the surface to gulp air is short of oxygen. Colour changes such as darkening, and pale gills, are among the non-specific signs a veterinarian looks for alongside a full water analysis.[10]"
+      ]
+    },
+    {
+      "title": "Bacterial skin infection (pale or white patches)",
+      "likelihood": "medium",
+      "paragraphs": [
+        "This is the cause that matters most, and it looks different from normal colour change: the loss of colour is in <em>patches</em>, not all over. In unscaled fish such as catfish, <em>Aeromonas</em> infection often shows as fraying and reddening of the fins together with irregular pale, depigmented areas anywhere on the body; the skin over these areas can be lost, leaving ulcers with ragged white margins.[2] Columnaris, another common bacterial infection of warm-water fish, causes skin lesions that often start near the dorsal fin and can spread around the body in a \"saddle\" shape, with fin erosion that starts at the base of the fin.[11]",
+        "Both infections are opportunists that take hold in stressed fish; poor water quality, organic loading, handling and marked temperature changes are the classic triggers.[12] Pale patches that are spreading, or that have a red rim, fluffy white growth or an open sore at the centre, need action the same day."
+      ]
+    },
+    {
+      "title": "Chronic illness and poor nutrition",
+      "likelihood": "low",
+      "paragraphs": [
+        "A pleco that is fading slowly over weeks while also losing weight is a different picture. Chronic bacterial disease such as mycobacteriosis can cause paleness along with emaciation, skin ulcers and bulging eyes, and there is no effective treatment that eliminates it.[12] Long-term underfeeding does the same more innocently: a pleco that has been living on tank algae alone will lose condition and colour together. Check the belly — hollow behind the front fins means it is not getting enough food."
+      ]
+    }
+  ],
+  "diagnose_h2": "How to Tell Why Your Common Pleco Is Losing Colour",
+  "diagnose_intro": "Do these checks in order. Most pale plecos turn out to be a normal colour shift or a stressed fish, and none of the checks needs medication.",
+  "diagnose": [
+    {
+      "action": "Decide whether the change is all over or in patches",
+      "detail": "Look at the fish under normal light from above and from the side. An even lightening of the whole body, with the spot pattern still visible, is colour change.[1] Distinct pale, white or greyish patches, especially with a red edge, fraying fins, fluffy growth or an open sore, suggest infection — go to the treatment section today.[2][11]"
+    },
+    {
+      "action": "Watch whether the colour comes back",
+      "detail": "Turn the lights down or off for an hour and look again, and check again the next morning before the lights come on. A pleco that darkens again once it is resting in its cave is adjusting normally. One that stays pale for several days, day and night, is stressed or unwell."
+    },
+    {
+      "action": "Test the water",
+      "detail": "Test ammonia, nitrite, nitrate, pH and temperature. Ammonia and nitrite should both read zero in an established tank; any reading means the filter is not coping.[9] Keep the temperature steady within about 20–28 °C and the pH in the 6.5–7.5 range. Note whether the pleco keeps rising to gulp air.[8]",
+      "tool": "Water test kit"
+    },
+    {
+      "action": "Check the belly, fins and behaviour",
+      "detail": "A hollow belly means the pleco is not eating enough. Clamped or frayed fins, rapid breathing, and hiding all day and night — instead of coming out after dark[4] — point to stress or illness rather than simple colour change."
+    },
+    {
+      "action": "Look at the set-up and recent changes",
+      "detail": "Ask what changed in the last few weeks: a new fish, a move, new decor, a lighter substrate, brighter lights, a missed water change or a heater problem. A vet's workup starts with the same history — how many fish are affected, for how long, and what changed.[10] Compare the fish's size with the tank and its cave; a pleco that has outgrown both is under constant stress."
+    }
+  ],
+  "fix_h2": "What to Do for a Common Pleco That Is Losing Colour",
+  "fix": [
+    {
+      "action": "If it is a normal colour shift: give it shade and leave it alone",
+      "detail": "Provide a cave that fits the fish, driftwood and some shade from plants or dimmer lighting, and avoid chasing the fish out to look at it. On a dark substrate with good cover most plecos hold a darker, richer colour.[1][3]"
+    },
+    {
+      "action": "If the water tests are off: fix the water first",
+      "detail": "For any detectable ammonia or nitrite, reduce feeding and make partial water changes of about 25–50% with dechlorinated water at the same temperature, repeating until the readings are zero, and check that the filter is sized for a large, messy fish.[9] Add aeration if the pleco is gulping air. Identifying and removing sources of stress often corrects a disease problem on its own.[2]"
+    },
+    {
+      "action": "Reduce stress from tank mates and the tank itself",
+      "detail": "Remove or rehome fish that chase the pleco, give each pleco its own cave, and feed after lights out so it does not have to compete. If the pleco has outgrown its tank — common plecos reach about 45 cm[6] — plan a larger tank or rehome it; never release it into the wild."
+    },
+    {
+      "action": "If there are pale patches, red edges or sores: isolate and get a diagnosis",
+      "detail": "Move the pleco to a hospital tank with clean, dechlorinated water at the same temperature, correct the main tank's water, and contact an aquatic veterinarian. Bacterial skin infections look alike from outside; diagnosis is by culture, and sensitivity testing before any antibiotic is used is recommended.[12] Follow any product label exactly, and never handle the fish more than necessary, since handling is itself a stressor.[5]"
+    },
+    {
+      "action": "If it is fading slowly and thin: fix the diet and watch the tank",
+      "detail": "Feed sinking wafers and blanched vegetables after dark, with some meaty food, and check the belly weekly. If the pleco keeps losing weight despite eating, or other fish start wasting too, ask a vet about testing for chronic infections such as mycobacteriosis, for which there is no effective treatment and which can infect people — wear gloves in the tank.[12]"
+    }
+  ],
+  "prevention_h2": "Keeping a Common Pleco's Colour",
+  "prevention": "Plecos keep their best colour in a tank that suits them: a darker substrate, wood, shade and a cave that fits the adult fish,[1][3] in a tank big enough for a fish that can reach 45 cm.[6] Keep ammonia and nitrite at zero with regular partial water changes and a filter sized for a heavy waste load,[9] avoid temperature swings and rough handling,[5] and feed a varied sinking diet at night so the fish keeps its condition. Quarantine new fish before adding them to avoid bringing in bacterial infections.[10]",
+  "seek_help_h2": "When a Pale Pleco Needs Expert Help",
+  "seek_help": "<strong>Act today if:</strong> the pleco has pale or white patches that are spreading, fins that are frayed and reddened, fluffy growth, ulcers, or red streaks on the body, or if it is breathing fast or gulping air. Test and correct the water immediately.[9] These are typical signs of bacterial infection in catfish.[2] <strong>Talk to an aquatic vet if:</strong> the patches do not improve within a few days of clean water, other fish are affected, or the pleco is slowly fading and losing weight — a laboratory diagnosis is the only reliable way to choose treatment.[12] A pleco whose whole body lightens under bright light and darkens again at rest is simply changing colour.",
+  "faq": [
+    {
+      "q": "Why does my pleco turn pale when the lights come on?",
+      "a": "Plecos are mainly nocturnal[4] and, like many fish, can change shade within minutes by moving pigment in their skin cells.[1] A pleco caught in the open when the light suddenly comes on often looks washed out and darkens again once it is back in shelter. If it eats and has clean fins, this is normal."
+    },
+    {
+      "q": "My pleco has white patches. Is that normal?",
+      "a": "No. Patches, as opposed to an even colour change, are a warning sign. In catfish, irregular pale areas with frayed, reddened fins are typical of <em>Aeromonas</em> infection,[2] and pale lesions near the dorsal fin can be columnaris.[11] Test the water today and contact a vet if the patches spread, have red edges or become sores."
+    },
+    {
+      "q": "Can a pleco change colour depending on the substrate?",
+      "a": "Yes. Fish match their background by adjusting pigment in the skin,[1] and if they live on the same background for a long time they adjust the number of pigment cells as well.[3] A pleco on light sand is usually paler than one on dark gravel or among dark wood."
+    },
+    {
+      "q": "Why did my new pleco lose its colour?",
+      "a": "Transport, a new tank and handling are all stressful,[5] and stressed fish often turn pale. Give the pleco a cave, keep the lights dim for the first days and feed after dark. Its colour should improve as it settles; if it stays pale for more than a week, test the water."
+    },
+    {
+      "q": "Does a pale pleco mean it is dying?",
+      "a": "Usually not. An evenly pale pleco that is eating is most often stressed or simply adjusting to its surroundings. Paleness is more worrying when it comes with weight loss, ulcers or bulging eyes, which can be signs of chronic infection such as mycobacteriosis.[12]"
+    },
+    {
+      "q": "Is my pleco getting paler as it grows?",
+      "a": "Colour and pattern often look different in a large pleco than in a juvenile, and many fish sold as common plecos are sailfin plecos rather than true <em>Hypostomus</em>,[7] so the adult may simply not look like the photo on the shop label. A gradual change in a healthy, growing fish is not a concern; a sudden change or patches are."
+    }
+  ],
+  "references": [
+    {
+      "authors": "Nilsson Sköld, H., Aspengren, S. &amp; Wallin, M. (2013).",
+      "title": "Rapid color change in fish and amphibians — function, regulation, and emerging applications.",
+      "source": "Pigment Cell &amp; Melanoma Research 26(1): 29–38.",
+      "url": "https://doi.org/10.1111/pcmr.12040",
+      "label": "doi:10.1111/pcmr.12040"
+    },
+    {
+      "authors": "Camus, A.C., Durborow, R.M., Hemstreet, W.G., Thune, R.L. &amp; Hawke, J.P. (1998).",
+      "title": "Aeromonas Bacterial Infections — Motile Aeromonad Septicemia.",
+      "source": "Southern Regional Aquaculture Center, SRAC Publication No. 478.",
+      "url": "https://srac.msstate.edu/pdfs/Fact%20Sheets/478%20Aeromonas%20Bacterial%20Infections-%20Motile%20Aeromonad%20Septicemia.pdf",
+      "label": "srac.msstate.edu"
+    },
+    {
+      "authors": "Sugimoto, M. (2002).",
+      "title": "Morphological color changes in fish: Regulation of pigment cell density and morphology.",
+      "source": "Microscopy Research and Technique 58(6): 496–503.",
+      "url": "https://doi.org/10.1002/jemt.10168",
+      "label": "doi:10.1002/jemt.10168"
+    },
+    {
+      "authors": "Pavlov, E.D., Dien, T.D. &amp; Ganzha, E.V. (2023).",
+      "title": "Spatial distribution and circadian locomotor activity of invasive armored catfish (Loricariidae) in the freshwater and brackish water.",
+      "source": "PLOS ONE 18(12): e0296222.",
+      "url": "https://doi.org/10.1371/journal.pone.0296222",
+      "label": "doi:10.1371/journal.pone.0296222"
+    },
+    {
+      "authors": "Francis-Floyd, R.",
+      "title": "Stress — Its Role in Fish Disease.",
+      "source": "UF/IFAS Extension, Circular 919 (FA005).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA005",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Hill, J.E. &amp; Yanong, R.P.E.",
+      "title": "Freshwater Ornamental Fish Commonly Cultured in Florida.",
+      "source": "UF/IFAS Extension, Circular 54 (FA054).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA054",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Nico, L. &amp; Neilson, M.",
+      "title": "<em>Hypostomus plecostomus</em> (Linnaeus, 1758) — Suckermouth Catfish.",
+      "source": "U.S. Geological Survey, Nonindigenous Aquatic Species Database, Gainesville, FL.",
+      "url": "https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=761",
+      "label": "nas.er.usgs.gov"
+    },
+    {
+      "authors": "Orfinger, A.B. &amp; Goodding, D.D. (2018).",
+      "title": "The Global Invasion of the Suckermouth Armored Catfish Genus <em>Pterygoplichthys</em> (Siluriformes: Loricariidae): Annotated List of Species, Distributional Summary, and Assessment of Impacts.",
+      "source": "Zoological Studies 57: e7.",
+      "url": "https://doi.org/10.6620/ZS.2018.57-07",
+      "label": "doi:10.6620/ZS.2018.57-07"
+    },
+    {
+      "authors": "Francis-Floyd, R., Watson, C., Petty, D. &amp; Pouder, D.B.",
+      "title": "Ammonia in Aquatic Systems.",
+      "source": "UF/IFAS Extension, FA16 (FA031).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA031",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Management of Aquarium Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Declercq, A.M., Haesebrouck, F., Van den Broeck, W., Bossier, P. &amp; Decostere, A. (2013).",
+      "title": "Columnaris disease in fish: a review with emphasis on bacterium-host interactions.",
+      "source": "Veterinary Research 44: 27.",
+      "url": "https://doi.org/10.1186/1297-9716-44-27",
+      "label": "doi:10.1186/1297-9716-44-27"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Bacterial Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    }
+  ]
+}
