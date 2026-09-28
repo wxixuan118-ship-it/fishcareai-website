@@ -357,7 +357,6 @@
       banner.id = 'fishcare-app-banner';
       banner.innerHTML =
         '<div class="fab-content">' +
-          '<div class="fab-phone"><img src="/assets/app-screenshot.png" alt="FishCare AI app" loading="lazy"></div>' +
           '<div class="fab-text">' +
             '<div class="fab-text-top">' +
               '<span class="fab-text-store">App Store</span>' +
