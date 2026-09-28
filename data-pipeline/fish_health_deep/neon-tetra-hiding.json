@@ -1,0 +1,216 @@
+{
+  "slug": "neon-tetra-hiding",
+  "date_modified": "2026-09-28",
+  "date_modified_human": "September 28, 2026",
+  "urgency": "monitor",
+  "title": "Neon Tetra Hiding? Usually Group Size, Light or a New Tank",
+  "description": "Neon tetras hide when the group is too small, the tank is bright and bare, or they are new. How to check, and when hiding points to neon tetra disease.",
+  "h1": "Why Is My Neon Tetra Hiding? Group Size, Lighting, Tankmates or Disease",
+  "howto_name": "How to find out why a neon tetra is hiding and fix it",
+  "short_answer": "Most hiding neon tetras are frightened, not sick: they are shoaling fish from shaded forest streams, and a small group, a bright bare tank or a large tankmate makes them bolt for cover.[1][2] Count the group and look at the cover first. A single neon that hides away from the others, loses its colour in patches and swims erratically is different — that pattern points to neon tetra disease or another infection and should be separated.",
+  "intro": [
+    "A neon tetra is a tiny fish with a lot of reasons to be nervous. In the wild it lives in blackwater and clearwater tributaries of the Solimões (upper Amazon), under forest shade and among roots and leaf litter, and it is a highly social species that FishBase recommends keeping in groups of five or more.[1] Its main defence against being eaten is the shoal itself: in experiments with a robotic predator, individual neons moved into the middle of the group to shelter behind their companions.[2] Take away the group, the shade or the hiding places, and a healthy neon's normal response is to disappear into the plants.",
+    "That is why the first questions for a hiding neon are about the tank, not about medicine: how many neons are there, how long have they been in the tank, how bright and open is it, and what else lives with them. Disease comes further down the list, and when it is the cause it usually shows up as one fish behaving differently from the rest — pale patches, a bent back, jerky swimming, or wasting.[3] This guide works through the causes in order of likelihood and shows how to tell a shy neon from a sick one."
+  ],
+  "causes_h2": "Why Is My Neon Tetra Hiding? The Common Causes",
+  "causes": [
+    {
+      "title": "Too Few Neons in the Group",
+      "likelihood": "high",
+      "paragraphs": [
+        "This is the single most common reason neon tetras hide. Neons are shoaling fish; the group is how they stay safe, and research on their schooling shows individuals continually adjusting their position in the shoal according to food and threat.[2] A group of three or four gives each fish very little cover, so they tend to stay tight against the plants or the back glass instead of swimming openly in the middle of the tank. FishBase gives five as a bare minimum;[1] most experienced keepers find neons only relax and spread out in groups of around ten or more.",
+        "The pattern is that the whole group hides together, and they are most skittish when you approach the glass. Losses make it worse: if two or three neons from a group of six have died, the survivors often become more reclusive, which owners then read as illness. Adding more neons — after quarantine — is often the fastest fix of anything on this page."
+      ]
+    },
+    {
+      "title": "A Bright, Open Tank With Little Cover",
+      "likelihood": "high",
+      "paragraphs": [
+        "Neons come from shaded, slow tributaries with plenty of vegetation, and dark, soft water.[1] A brightly lit tank with a pale gravel bottom, few plants and no floating cover is the opposite of that, and many neons respond by sitting in the darkest corner or behind the filter. Their colour is tied to light, too: the blue-green stripe is produced by reflecting cells whose spacing changes with light level, shifting towards violet-blue in the dark.[4] A neon resting in a dark hiding spot can look duller than one in open water, and that change reverses on its own.",
+        "Night-time behaviour catches out many new owners. After the lights go off neons stop shoaling, drift near the bottom or among plants and look faded; in the first minutes after the light comes back on they can look almost colourless before recovering. Neons that hide only at night, or only for a few minutes after the lights come on, are behaving normally."
+      ]
+    },
+    {
+      "title": "New to the Tank, or Stressed by Water Quality",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Newly bought neons have just been netted, bagged, transported and dropped into water with a different chemistry. Handling, transport and sudden temperature change are stressors in their own right, and the same list of stressors is what sets off outbreaks of bacterial disease in aquarium fish.[5] Expect new neons to hide and show washed-out colour for several days; stress hormones act directly on the pigment cells, which is why a frightened fish pales so quickly.[6]",
+        "If the tank itself is new, water quality is the bigger concern. New tank syndrome — toxic ammonia or nitrite in a tank whose filter bacteria have not established — usually happens within the first six weeks after setup, and a tropical biofilter can take up to eight weeks to mature.[7] Neons are small and are often among the first fish to show it: hiding, clamped fins, fast gill movement and fading colour."
+      ]
+    },
+    {
+      "title": "Large, Fast or Predatory Tankmates",
+      "likelihood": "medium",
+      "paragraphs": [
+        "A neon tetra is about the size of a mouthful for angelfish, larger gouramis, most cichlids and many barbs. Neons react to anything that looks like a predator by packing tightly together and heading for cover;[2] with a fish in the tank that actually eats small fish, they can spend most of the day hiding, and losses at night are a common sign that it is happening.",
+        "Fast, boisterous species do not need to be predators to have the same effect. Fin-nippers such as tiger barbs, or larger fish that dash to the front at feeding time, keep neons pinned to the plants and can stop them getting enough food. Watch the tank for ten minutes from a distance and note who is chasing whom."
+      ]
+    },
+    {
+      "title": "Neon Tetra Disease (Pleistophora)",
+      "likelihood": "low",
+      "paragraphs": [
+        "Neon tetra disease is caused by <em>Pleistophora hyphessobryconis</em>, a microsporidian parasite that lives in skeletal muscle. The Merck Veterinary Manual notes that it infects a number of aquarium fish including tetras, angelfish, rasboras, barbs and zebrafish, and that infected fish may swim abnormally because of the muscle damage.[3] Researchers who found it in laboratory zebrafish described the classic external signs: depigmented patches along the back, white or opaque areas where muscle has been replaced by parasite, and a curved spine; the parasite is known from about 20 species of freshwater fish.[8]",
+        "It spreads when fish eat spores from dead or dying fish, and spores were also found in the ovaries, raising the possibility of spread from parent to offspring.[8] In a transmission trial, spores from a single infected neon tetra infected seven of ten young zebrafish.[8] There is no reliable treatment. The typical sick neon hides alone, loses the red and blue in patches rather than all over, and swims restlessly or with a jerky, uneven motion — quite different from a group that hides together."
+      ]
+    },
+    {
+      "title": "Other Infections: Ich, Bacterial Disease and Mycobacteriosis",
+      "likelihood": "low",
+      "paragraphs": [
+        "Ich (white spot) causes lethargy, clamped fins and darkened colour, and small white dots on the skin and fins.[9] Early on, before the spots are obvious, affected neons often hide and flick against plants or gravel. Because ich spreads quickly through a shoal, several fish usually show it within days.",
+        "Mycobacteriosis is a chronic bacterial infection whose signs are variable and nonspecific — wasting, paleness, skin ulcers, bulging eyes and bent spines — and there are no effective treatments that eliminate it from fish.[5] It can look very like neon tetra disease, and the two are told apart in the laboratory, not by eye. The bacteria can also infect people through cuts, so wear gloves when working in a tank where fish are wasting."
+      ]
+    }
+  ],
+  "diagnose_h2": "How to Tell Why Your Neon Tetra Is Hiding",
+  "diagnose_intro": "Work through these checks in order. Most hiding neons are explained by the first three, and none of them needs medication.",
+  "diagnose": [
+    {
+      "action": "Count the neons and note whether they hide together",
+      "detail": "If the whole group hides together and there are fewer than about eight, group size is the most likely cause. If most of the group swims openly and one fish hides on its own, treat that fish as the problem and look closely at it in step 5."
+    },
+    {
+      "action": "Check when the hiding happens",
+      "detail": "Neons that hide only at night, or look pale and sluggish for a few minutes after the lights come on, are behaving normally — their stripe changes colour between light and dark.[4] Hiding that lasts all day, including at feeding time, is the kind that needs an explanation."
+    },
+    {
+      "action": "Look at the tank from the neons' point of view",
+      "detail": "Note how bright the light is, whether the substrate is pale, and how much plant cover and shade there is. A bright, bare tank is a long way from the shaded, vegetated streams neons come from.[1] Then watch the other fish for ten minutes from across the room: is anything chasing the neons, nipping fins, or big enough to eat them?"
+    },
+    {
+      "action": "Test the water",
+      "detail": "Test ammonia, nitrite, nitrate, pH and temperature. Ammonia and nitrite should both read zero; any reading in a tank set up in the last six to eight weeks suggests the filter is still maturing.[7] Neons are comfortable around 20–26 °C in soft, slightly acidic water.[1] Sudden changes in temperature or chemistry are stressors that make disease outbreaks more likely.[5]",
+      "tool": "Water test kit"
+    },
+    {
+      "action": "Examine any fish that hides alone",
+      "detail": "Catch it in a clear container and look at it side-on in good light. White or opaque patches in the muscle under the skin, faded patches in the red and blue, and a bent back point to neon tetra disease or mycobacteriosis.[8][5] Tiny white grains on the body and fins are ich.[9] A fish that looks normal and swims normally once it is out of its hiding place was most likely just frightened."
+    }
+  ],
+  "fix_h2": "What to Do for a Hiding Neon Tetra",
+  "fix": [
+    {
+      "action": "Enlarge the group",
+      "detail": "Bring the shoal up to ten or more neons if the tank can hold them. Buy the new fish from one tank where none look pale or thin, and quarantine them for at least 30 days first — the minimum the Merck Veterinary Manual gives[7] — because diseases such as neon tetra disease and ich usually arrive with new fish. Add them all at once so they settle in as a group."
+    },
+    {
+      "action": "Give them shade and cover",
+      "detail": "Add floating plants to break up the light, dense planting along the back and sides, and a darker substrate if you can. Leaf litter or driftwood recreate the tannin-stained streams neons come from.[1] Shorten the lighting period if the tank is lit for more than eight to ten hours. Most neons start using the open water within a week or two once they have somewhere to retreat to."
+    },
+    {
+      "action": "Correct water quality and hold it steady",
+      "detail": "If ammonia or nitrite is detectable, make partial water changes with dechlorinated, temperature-matched water and cut feeding until both read zero. Avoid big swings: poor water quality, temperature change and handling are what predispose aquarium fish to bacterial disease.[5] In a new tank, add fish slowly while the biofilter matures.[7]"
+    },
+    {
+      "action": "Rehome predators and bullies",
+      "detail": "If a larger fish is chasing, nipping or eating neons, the neons will not settle until it is gone. Move either the neons or the tankmate. Suitable companions are other small, peaceful fish — small rasboras, pencilfish, Corydoras and similar."
+    },
+    {
+      "action": "Separate a neon with signs of disease",
+      "detail": "Move a neon with patchy fading, white muscle patches or a bent spine to a separate tank straight away, and remove dead fish promptly, because neon tetra disease spreads when fish eat spores from dead tankmates.[8] There is no reliable cure, so humane euthanasia is reasonable for a fish that is clearly declining. If you see ich, treat the whole tank and repeat as the product label directs — only the free-swimming stage is killed, so a single dose is not enough.[10]"
+    }
+  ],
+  "prevention_h2": "Preventing Hiding and Stress in Neon Tetras",
+  "prevention": "Keep neons in a proper shoal — ten or more is better than the minimum — in a tank with plants, shade and a darker background.[1] Only add them to a tank whose filter has fully matured, and keep ammonia and nitrite at zero with regular partial water changes.[7] Choose tankmates that are too small to eat them and too calm to chase them. Quarantine every new fish for at least 30 days, and remove dead or dying fish promptly so that others cannot eat them, which is how neon tetra disease spreads.[7][8]",
+  "seek_help_h2": "When a Hiding Neon Tetra Needs Expert Help",
+  "seek_help": "<strong>Act the same day if:</strong> several neons are gasping, hanging at the surface or dying, or the water test shows ammonia or nitrite — that is a water-quality emergency rather than shyness.[7] <strong>Talk to an aquatic vet if:</strong> neons keep dying one at a time with patchy fading, white patches in the muscle or bent spines. Neon tetra disease and mycobacteriosis look alike and can only be told apart by examining tissue under a microscope, which a vet can do on a fish that has recently died.[3][5] A group of neons that hide together in a bright or understocked tank does not need a vet — it needs more neons and more cover.",
+  "faq": [
+    {
+      "q": "Is it normal for neon tetras to hide?",
+      "a": "Some hiding is normal, especially at night, in the first week in a new tank, and in groups of fewer than about eight fish. Neons are shoaling fish that rely on the group for protection, so a small group spends much more time in cover.[2] Constant all-day hiding by the whole group usually means the group is too small, the tank is too bright and open, or something in the tank is frightening them."
+    },
+    {
+      "q": "How many neon tetras should be kept together?",
+      "a": "FishBase recommends groups of five or more;[1] in practice, neons are noticeably bolder and more active in groups of ten or more. More fish give each individual more cover in the shoal, which is exactly what they seek when threatened.[2]"
+    },
+    {
+      "q": "Why do my neon tetras lose colour at night?",
+      "a": "It is normal. The iridescent stripe is produced by reflecting cells whose spacing changes with light: the stripe shifts from green-blue in daylight to violet-blue in darkness.[4] Neons resting at night look dull and recover their colour shortly after the lights come on. A neon that stays pale all day, or pales in patches, is a different matter."
+    },
+    {
+      "q": "How do I know if my neon tetra has neon tetra disease?",
+      "a": "The usual pattern is a single fish that hides away from the group, loses colour in patches, develops white or opaque areas in the muscle along the back, swims restlessly or jerkily, and later develops a bent spine.[8][3] A definite diagnosis needs a microscope: the spores are easy to see in a wet mount of affected muscle.[3] Mycobacteriosis can look very similar.[5]"
+    },
+    {
+      "q": "Can neon tetra disease be cured?",
+      "a": "No reliable treatment is known. The practical approach is to separate or humanely euthanise affected fish, remove dead fish quickly so the others cannot eat them, and quarantine new fish. The parasite infects around 20 species, including other tetras, rasboras, barbs and zebrafish, so the rest of the tank is at risk too.[8][3]"
+    },
+    {
+      "q": "My new neon tetras are hiding. How long until they come out?",
+      "a": "Usually a few days to two weeks. Transport and handling are stressful,[5] and new neons often hide and look pale at first. They settle faster in a well-planted tank, in a larger group, and with calm tankmates. If they are still hiding after two weeks, or any of them look thin or patchy, test the water and look at each fish closely."
+    }
+  ],
+  "references": [
+    {
+      "authors": "Froese, R. &amp; Pauly, D. (eds.).",
+      "title": "<em>Paracheirodon innesi</em> (neon tetra) species summary.",
+      "source": "FishBase.",
+      "url": "https://www.fishbase.se/summary/Paracheirodon-innesi.html",
+      "label": "fishbase.se"
+    },
+    {
+      "authors": "Romano, D. &amp; Stefanini, C. (2021).",
+      "title": "Individual neon tetras (<em>Paracheirodon innesi</em>, Myers) optimise their position in the group depending on external selective contexts: lesson learned from a fish-robot hybrid school.",
+      "source": "Biosystems Engineering 204: 170–180.",
+      "url": "https://doi.org/10.1016/j.biosystemseng.2021.01.021",
+      "label": "doi:10.1016/j.biosystemseng.2021.01.021"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Mycotic Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/mycotic-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Lythgoe, J.N. &amp; Shand, J. (1982).",
+      "title": "Changes in spectral reflexions from the iridophores of the neon tetra.",
+      "source": "Journal of Physiology 325: 23–34.",
+      "url": "https://doi.org/10.1113/jphysiol.1982.sp014132",
+      "label": "doi:10.1113/jphysiol.1982.sp014132"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Bacterial Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Ligon, R.A. &amp; McCartney, K.L. (2016).",
+      "title": "Biochemical regulation of pigment motility in vertebrate chromatophores: a review of physiological color change mechanisms.",
+      "source": "Current Zoology 62(3): 237–252.",
+      "url": "https://doi.org/10.1093/cz/zow051",
+      "label": "doi:10.1093/cz/zow051"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Management of Aquarium Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Sanders, J.L., Lawrence, C., Nichols, D.K., Brubaker, J.F., Peterson, T.S., Murray, K.N. &amp; Kent, M.L. (2010).",
+      "title": "<em>Pleistophora hyphessobryconis</em> (Microsporidia) infecting zebrafish <em>Danio rerio</em> in research facilities.",
+      "source": "Diseases of Aquatic Organisms 91(1): 47–56.",
+      "url": "https://doi.org/10.3354/dao02245",
+      "label": "doi:10.3354/dao02245"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Parasitic Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/parasitic-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Francis-Floyd, R., Yanong, R.P.E. &amp; Pouder, D.B.",
+      "title": "<em>Ichthyophthirius multifiliis</em> (White Spot) Infections in Fish.",
+      "source": "UF/IFAS Extension, Circular 920 (FA006).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA006",
+      "label": "ask.ifas.ufl.edu"
+    }
+  ]
+}

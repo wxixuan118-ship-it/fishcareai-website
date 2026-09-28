@@ -1,0 +1,17 @@
+{
+  "slug": "oscar-white-spots",
+  "species": "Oscar",
+  "scientific": "Astronotus ocellatus",
+  "water": "freshwater",
+  "temp": "23–27°C",
+  "ph": "6–7.5",
+  "care": "intermediate",
+  "fish_hub": "/fish-health/fish/oscar",
+  "problem": "White Spots (Ich)",
+  "category": "disease",
+  "urgency": "urgent",
+  "hero": "https://www.fishcareai.com/assets/encyclopedia/real/oscar-wikimedia-real.jpg",
+  "species_profile": "/species/oscar",
+  "guide": null,
+  "date_published": "2026-09-19T17:31:57.059Z"
+}

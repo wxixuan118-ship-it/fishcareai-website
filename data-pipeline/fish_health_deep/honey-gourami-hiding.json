@@ -1,0 +1,208 @@
+{
+  "slug": "honey-gourami-hiding",
+  "date_modified": "2026-09-28",
+  "date_modified_human": "September 28, 2026",
+  "urgency": "monitor",
+  "title": "Honey Gourami Hiding? Usually Shyness, Open Tanks or Bullies",
+  "description": "Honey gouramis are shy and hide in open tanks or with boisterous fish. How to tell shyness from stress or illness, and how to get yours out in the open.",
+  "h1": "Why Is My Honey Gourami Hiding? Shyness, Tankmates, Breeding or Illness",
+  "howto_name": "How to find out why a honey gourami is hiding and help it settle",
+  "short_answer": "Honey gouramis are naturally timid fish from heavily vegetated ponds and ditches, so hiding usually means the tank is too open or a tankmate is too boisterous — not that the fish is ill.[1] Give it floating plants and calm company first. Hiding with clamped fins, no appetite, rapid breathing or visible marks on the body is different and needs a water test and a closer look the same day.",
+  "intro": [
+    "The honey gourami (<em>Trichogaster chuna</em>) is one of the gentlest fish in the hobby, and also one of the shyest. In the wild it lives in India and Bangladesh in pools, ditches, flooded fields, ponds and beels — still, well-vegetated water — and like other gouramis it breathes air from the surface as well as through its gills.[1] A fish adapted to slow water thick with plants feels exposed in a brightly lit, open aquarium, and it responds the way small prey fish do: by staying in cover. Honey gouramis have been shown to react to alarm cues from injured members of their own species by becoming more active, as if searching for refuge, and to freeze when they later hear a sound they have learned to associate with danger.[2]",
+    "So when a honey gourami hides, the most useful questions are about its surroundings: how much plant cover there is (especially at the surface), who it shares the tank with, and how long it has been there. Breeding behaviour explains some hiding, particularly by females. Illness comes last, and a sick honey gourami usually shows other signs too — clamped fins, loss of appetite, gasping or changes to the skin. This guide takes the causes in order of likelihood."
+  ],
+  "causes_h2": "Why Is My Honey Gourami Hiding? The Common Causes",
+  "causes": [
+    {
+      "title": "A Tank That Is Too Open or Too Bright",
+      "likelihood": "high",
+      "paragraphs": [
+        "This is the most common reason. Honey gouramis come from still, vegetated waters,[1] and they spend most of their time in the upper and middle layers under the cover of leaves. In an aquarium with few plants, bright lighting and nothing floating at the surface, a honey gourami typically retreats behind the filter, under a decoration or into the one clump of plants and stays there. Because it also has to rise to the surface to gulp air, an open surface with nothing to hide under can make each trip feel risky.",
+        "The giveaway is that the fish looks healthy — fins open, normal colour, eating when food reaches it — but will not come out while you are near the glass. Floating plants, tall stem plants and a dimmer or shorter light period usually change its behaviour within a week or two."
+      ]
+    },
+    {
+      "title": "Boisterous, Nippy or Larger Tankmates",
+      "likelihood": "high",
+      "paragraphs": [
+        "Honey gouramis are slow and deliberate, and they lose out badly to fast, pushy fish. Tiger barbs and other fin-nippers pick at their feelers (the thread-like pelvic fins), larger gouramis bully them, and quick-feeding species take all the food before the honey gourami reaches it. A small fish that has learned the tank is dangerous will freeze or head for cover when it senses a threat — exactly the responses seen when honey gouramis were exposed to cues associated with predation.[2]",
+        "Other gouramis are a particular problem. Dwarf gouramis and three-spot gouramis are larger and more territorial, and a male of another gourami species may treat a honey gourami as a rival. Watch the tank at feeding time and for ten minutes from a distance: if the honey gourami only appears when the other fish are elsewhere, or has frayed feelers or fins, a tankmate is the cause."
+      ]
+    },
+    {
+      "title": "Breeding Behaviour",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Male honey gouramis build and defend bubble nests at the surface,[1] usually among floating plants, and in aquaculture trials the species spawned readily when given plant material such as Bermuda grass or hydrilla as nesting substrate.[3] A male in breeding condition turns a deep honey-orange with a dark throat and becomes more assertive around his nest. He may chase other honey gouramis — including the female once spawning is over — away from it.",
+        "If a female or a second, duller male is hiding while one bright male patrols a raft of bubbles, breeding behaviour is almost certainly the reason. This is normal and usually temporary, but in a small tank the chased fish may need more cover or to be moved."
+      ]
+    },
+    {
+      "title": "New to the Tank or Stressed by Water Quality",
+      "likelihood": "medium",
+      "paragraphs": [
+        "A newly bought honey gourami often hides for days. Netting, transport and new water are stressful, and Merck lists stress, poor water quality, overcrowding and failure to quarantine among the main causes of disease in pet fish.[4] In a tank set up within the last six weeks or so, new tank syndrome — ammonia or nitrite building up before the filter has matured — is a common problem,[5] and a small gourami may be the first fish to show it.",
+        "Honey gouramis are tropical fish; FishBase gives a range of about 22–28 °C.[1] A failed heater or cold water from a large water change can make them sluggish and reclusive. Hiding caused by water problems usually comes with other signs — clamped fins, fast breathing, frequent trips to the surface or sitting on the bottom."
+      ]
+    },
+    {
+      "title": "Illness: Parasites, Bacterial Infection or Virus",
+      "likelihood": "low",
+      "paragraphs": [
+        "Ich (white spot) causes lethargy, clamped fins and darkened colour with small white dots on the skin and fins,[6] and external parasites that cause flashing and loss of appetite can make a gourami withdraw before anything is visible.[6] Bacterial infections usually follow stress — outbreaks are associated with poor water, crowding, handling, transport and temperature change.[7] In surveys of aquarium fish, mycobacteria have been isolated from gouramis among many other species;[8] mycobacteriosis causes wasting, paleness, sores and bent spines and has no effective cure.[7]",
+        "Gouramis are also known carriers of megalocytiviruses, the group that includes dwarf gourami iridovirus. The Merck Veterinary Manual records a megalocytivirus that caused high mortality in farmed <em>Trichogaster</em> gouramis in Florida, with non-specific clinical signs,[9] and an Australian study detected megalocytivirus in 18.7% of imported gouramis tested before quarantine.[10] Most of that research concerns dwarf gouramis rather than honey gouramis, but a honey gourami that hides, stops eating and wastes away within days — especially one recently bought — should be kept apart from other fish."
+      ]
+    }
+  ],
+  "diagnose_h2": "How to Tell Why Your Honey Gourami Is Hiding",
+  "diagnose_intro": "Work through these checks in order. Most hiding honey gouramis are explained by the first three, and none of them needs medication.",
+  "diagnose": [
+    {
+      "action": "Look at the fish itself",
+      "detail": "When it does come out, check its fins (open or clamped?), its feelers (whole or bitten?), its body (any white dots, sores, fuzz or thinness?) and its breathing. A fish that looks normal and eats is probably shy or stressed by its surroundings. Clamped fins, white spots or rapid breathing move illness and water quality up the list.[6]"
+    },
+    {
+      "action": "Look at the tank from the fish's point of view",
+      "detail": "How much of the surface is covered by floating plants? Is there dense planting at mid-level? How bright is the light, and for how many hours? Honey gouramis come from still, heavily vegetated water,[1] and a bare, bright tank is the most common reason they hide."
+    },
+    {
+      "action": "Watch the other fish",
+      "detail": "Watch the tank for ten minutes from across the room and again at feeding time. Note any fish that chases the honey gourami, nips its feelers or takes all the food. Pay particular attention to other gourami species and fin-nipping barbs."
+    },
+    {
+      "action": "Check for a bubble nest",
+      "detail": "A patch of bubbles at the surface, usually among floating plants, guarded by a bright orange male with a dark throat, means breeding is under way.[1] If the fish that is hiding is a female or a duller male, it is probably being chased away from the nest."
+    },
+    {
+      "action": "Test the water",
+      "detail": "Test ammonia, nitrite, nitrate, pH and temperature. Ammonia and nitrite should read zero; any detectable level — especially in a tank less than two months old — means the biofilter is not keeping up.[5] Aim for about 22–28 °C.[1]",
+      "tool": "Water test kit"
+    }
+  ],
+  "fix_h2": "How to Help a Hiding Honey Gourami",
+  "fix": [
+    {
+      "action": "Add floating plants and dense cover",
+      "detail": "Cover part of the surface with floating plants such as salvinia, frogbit or water sprite, and plant the middle and back of the tank densely. This recreates the vegetated water honey gouramis come from[1] and gives them cover when they rise to breathe. Keep an open patch of surface so they can still reach air, and reduce very bright lighting."
+    },
+    {
+      "action": "Choose calm tankmates",
+      "detail": "Honey gouramis do best with small, peaceful fish — small rasboras, peaceful tetras, Corydoras and similar. Rehome fin-nippers and larger or more territorial gouramis. Honey gouramis can be kept in small groups, but give a breeding male room: in a small tank, one male with one or more females is easier than several males."
+    },
+    {
+      "action": "Correct and stabilise the water",
+      "detail": "If ammonia or nitrite is present, make partial water changes with dechlorinated, temperature-matched water and feed less until both read zero. Check the heater. Stable, clean water reduces the stress that predisposes fish to bacterial disease.[7]"
+    },
+    {
+      "action": "Let breeding run its course, or separate the fish",
+      "detail": "If a male is guarding a nest, leave the nest alone and give the other fish plenty of cover. Once eggs hatch and the fry disperse, the male usually calms down. If he chases a female relentlessly, or you do not want fry, move her to another tank for a while."
+    },
+    {
+      "action": "Isolate a fish that looks ill",
+      "detail": "Move a honey gourami with white spots, sores, wasting or bloating to a hospital tank. Ich is treated across the whole tank, with repeated doses as the product label directs.[6] For wasting, sores or sudden deaths — especially in newly bought gouramis — ask an aquatic vet about a diagnosis, because there is no treatment for megalocytivirus or mycobacteriosis and the priority becomes protecting the other fish.[9][7]"
+    }
+  ],
+  "prevention_h2": "Preventing Hiding and Stress in Honey Gouramis",
+  "prevention": "Set the tank up for a shy surface-dweller before the fish arrives: floating plants, dense planting, subdued light and calm, small tankmates.[1] Only add honey gouramis to a tank with a mature filter, and keep ammonia and nitrite at zero with regular partial water changes.[5] Quarantine new gouramis for at least 30 days, the minimum Merck recommends, and do not mix them with new fish from other sources during that time; gouramis in the trade can carry megalocytivirus without looking ill.[5][10]",
+  "seek_help_h2": "When a Hiding Honey Gourami Needs Expert Help",
+  "seek_help": "<strong>Act the same day if:</strong> the fish is gasping, lying on the bottom, not eating, or the water test shows ammonia or nitrite.[4] <strong>Talk to an aquatic vet if:</strong> newly bought gouramis are hiding, going dark or pale, swelling or dying one after another, which can indicate megalocytivirus or a bacterial disease that needs a laboratory diagnosis.[9][10] A honey gourami that hides in a bare tank or away from pushy tankmates, but eats and swims normally, does not need a vet; it needs cover and calmer company.",
+  "faq": [
+    {
+      "q": "Are honey gouramis shy?",
+      "a": "Yes. They are among the most timid community fish, adapted to still, heavily vegetated ponds and ditches.[1] In a well-planted tank with calm tankmates they become confident and inquisitive; in an open tank or with boisterous fish they spend much of the day hiding."
+    },
+    {
+      "q": "How long does it take a new honey gourami to stop hiding?",
+      "a": "Usually a few days to two weeks. Transport and new water are stressful,[4] and new honey gouramis settle faster with floating plants, dim lighting and quiet tankmates. If one is still hiding after two weeks, check the tankmates and test the water."
+    },
+    {
+      "q": "Why is my female honey gourami hiding?",
+      "a": "Most often because a male is in breeding condition. Males build and defend bubble nests at the surface[1] and will chase females and other males away from them, particularly after spawning. Give her dense cover, or separate them for a while if the chasing is relentless."
+    },
+    {
+      "q": "Can honey gouramis live with dwarf gouramis?",
+      "a": "It is not ideal. Dwarf gouramis are larger and more territorial, and males can bully honey gouramis. Dwarf gouramis are also frequently infected with megalocytivirus — one Australian study found it in 18.7% of imported gouramis before quarantine — so adding them brings a disease risk as well.[10]"
+    },
+    {
+      "q": "My honey gourami is hiding and not eating. What should I do?",
+      "a": "Test the water first, then look closely at the fish for white spots, sores, fuzz, clamped fins or rapid breathing.[6] If the water is fine and the fish looks healthy, try small, slow-sinking or floating foods placed near its hiding place, because honey gouramis are slow feeders that often lose out to faster fish. If it has not eaten for several days or is losing weight, isolate it and seek advice."
+    },
+    {
+      "q": "Is it normal for a honey gourami to go to the surface a lot?",
+      "a": "Some trips to the surface are normal: honey gouramis are labyrinth fish that breathe air as well as using their gills.[1] Constant gulping at the surface with rapid gill movement is not normal and suggests poor water quality or low oxygen, so test the water."
+    }
+  ],
+  "references": [
+    {
+      "authors": "Froese, R. &amp; Pauly, D. (eds.).",
+      "title": "<em>Trichogaster chuna</em> (honey gourami) species summary.",
+      "source": "FishBase.",
+      "url": "https://www.fishbase.se/summary/Trichogaster-chuna.html",
+      "label": "fishbase.se"
+    },
+    {
+      "authors": "Seigel, A.R., DeVriendt, I.G., Strand, M.C., Shastri, A. &amp; Wisenden, B.D. (2022).",
+      "title": "Association of predation risk with a heterospecific vocalization by an anabantoid fish.",
+      "source": "Journal of Fish Biology 100(2): 543–548.",
+      "url": "https://doi.org/10.1111/jfb.14965",
+      "label": "doi:10.1111/jfb.14965"
+    },
+    {
+      "authors": "Swain, S.K., Ail, S.K.S., Jena, S.K., Bairwa, M.K. &amp; Sahoo, S.N. (2021).",
+      "title": "Preference of breeding substratum, embryonic development and seed production of honey gourami, <em>Trichogaster chuna</em> (Hamilton, 1822) — an indigenous ornamental fish in demand.",
+      "source": "Aquaculture 542: 736874.",
+      "url": "https://doi.org/10.1016/j.aquaculture.2021.736874",
+      "label": "doi:10.1016/j.aquaculture.2021.736874"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Disorders and Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/all-other-pets/fish/disorders-and-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Management of Aquarium Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Parasitic Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/parasitic-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Bacterial Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Pate, M., Jencic, V., Zolnir-Dovc, M. &amp; Ocepek, M. (2005).",
+      "title": "Detection of mycobacteria in aquarium fish in Slovenia by culture and molecular methods.",
+      "source": "Diseases of Aquatic Organisms 64: 29–35.",
+      "url": "https://doi.org/10.3354/dao064029",
+      "label": "doi:10.3354/dao064029"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Viral Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/viral-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Rimmer, A.E., Becker, J.A., Tweedie, A., Lintermans, M., Landos, M., Stephens, F. &amp; Whittington, R.J. (2015).",
+      "title": "Detection of dwarf gourami iridovirus (<em>Infectious spleen and kidney necrosis virus</em>) in populations of ornamental fish prior to and after importation into Australia, with the first evidence of infection in domestically farmed Platy (<em>Xiphophorus maculatus</em>).",
+      "source": "Preventive Veterinary Medicine 122(1–2): 181–194.",
+      "url": "https://doi.org/10.1016/j.prevetmed.2015.09.008",
+      "label": "doi:10.1016/j.prevetmed.2015.09.008"
+    }
+  ]
+}

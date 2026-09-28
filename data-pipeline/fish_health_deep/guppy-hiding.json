@@ -1,0 +1,201 @@
+{
+  "slug": "guppy-hiding",
+  "date_modified": "2026-09-28",
+  "date_modified_human": "September 28, 2026",
+  "urgency": "monitor",
+  "title": "Guppy Hiding? Often Birth Is Close or Males Are Harassing",
+  "description": "A hiding female guppy is often close to giving birth or escaping males. How to check, fix the male-to-female ratio, and spot illness in a hiding guppy.",
+  "h1": "Why Is My Guppy Hiding? Giving Birth, Male Harassment, Stress or Illness",
+  "howto_name": "How to find out why a guppy is hiding and what to do about it",
+  "short_answer": "If the hiding guppy is a <strong>female</strong>, the two most likely reasons are that she is close to giving birth or that males are chasing her constantly — female guppies move to places they would otherwise avoid just to get away from harassing males.[1] Check her belly and count the males. A guppy of either sex that hides with clamped fins, stops eating or shows white spots is more likely unwell, and the water should be tested the same day.",
+  "intro": [
+    "Guppies are normally among the boldest fish in the tank — always at the front, always begging for food — so a guppy that suddenly spends its day behind the heater or deep in the plants gets noticed. With guppies, the first thing to establish is which fish is hiding. Most hiding guppies are females, and the reasons are usually to do with reproduction: a heavily pregnant female is slower and more vulnerable than usual,[2] and a female living with too many males is chased almost constantly.",
+    "Research on wild Trinidadian guppies has shown just how strongly harassment shapes where females go: when males were present, females chose areas with a higher predation risk but fewer males, trading one danger for another to escape the attention.[1] In a small aquarium there is nowhere to go except into cover. Once those two reasons are ruled out, the remaining causes are the ones that affect any fish — a new tank, poor water, bullying tankmates and disease — and the checks below separate them."
+  ],
+  "causes_h2": "Why Is My Guppy Hiding? The Common Causes",
+  "causes": [
+    {
+      "title": "She Is About to Give Birth",
+      "likelihood": "high",
+      "paragraphs": [
+        "Female guppies are livebearers and in a mixed tank most adult females are pregnant most of the time. Pregnancy has a real physical cost: in laboratory trials, the fast-start escape performance of female guppies — the burst of speed used to dodge a predator — declined as their pregnancy progressed and embryos added to their weight.[2] A female that can no longer outrun trouble has good reason to stay in cover, and many keepers see pregnant females become quieter and more secretive in the last days before birth.",
+        "Signs that birth is close include a large belly that looks squared off at the front when seen from above, a dark, enlarged area just in front of the anal fin, and a female who hangs near the heater, plants or a corner, sometimes with occasional shuddering or straining. She typically keeps eating, or eats a little less. After the birth her belly is visibly smaller, and newborn fry will be hiding in plants or near the surface — they hide for good reason, since adult guppies eat fry."
+      ]
+    },
+    {
+      "title": "Harassment by Male Guppies",
+      "likelihood": "high",
+      "paragraphs": [
+        "Male guppies spend a large part of their day pursuing females, displaying and attempting to mate. For females this is costly: in a five-month experiment, females exposed to high levels of harassment adapted physically to the extra swimming it forced on them.[3] Males also disrupt how females behave with each other — with a male present, female guppies spent less time with other females and were more aggressive towards them.[4] The usual result in an aquarium with more males than females, or with one female, is a female who hides in plants, behind equipment or at the surface corners, and who is followed by one or more males whenever she comes out.",
+        "The pattern gives it away. Watch the tank from a distance: if males follow a particular female closely, and she darts back into cover whenever they approach, harassment is the cause. Heavily pregnant females often suffer most because males continue to court them. The fix is about numbers and space, not medicine."
+      ]
+    },
+    {
+      "title": "New Tank, New Fish or Poor Water Quality",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Guppies that have just been moved often hide for the first few days, and a guppy in a newly set-up tank may be reacting to the water itself. New tank syndrome — toxic ammonia or nitrite before the filter bacteria have established — usually occurs within the first six weeks after setup.[5] The Merck manual lists stress, poor water quality, overcrowding and failure to quarantine among the main causes of fish disease,[6] and a guppy that is hiding because of the water tends to show other signs as well: clamped fins, fast breathing, sitting near the surface or on the bottom, and dull colour.",
+        "Guppies do best in warm, clean, fairly hard water, around 22–28 °C with a pH of about 6.8–7.8. Soft, acidic water, a sudden temperature drop after a water change, or a heater that has failed can all make them withdraw. Because this cause usually affects several fish at once, look at the whole tank, not just the one that is hiding."
+      ]
+    },
+    {
+      "title": "Bullying or Fin-Nipping Tankmates",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Male guppies, with their long, slow fins, are easy targets for fin-nipping species such as tiger barbs, some tetras and larger fish that treat trailing fins as food. A guppy with ragged, shortening fins that hides constantly is usually being nipped. Larger, territorial fish — many cichlids, bigger gouramis — can also keep guppies confined to one corner.",
+        "Males can also be pushed around by other males, especially when there are several males and few females. The subordinate male tends to hide, show duller colour and approach food last. Watch for ten minutes at feeding time to see who is chasing whom."
+      ]
+    },
+    {
+      "title": "Parasites and Infection",
+      "likelihood": "low",
+      "paragraphs": [
+        "Ich (white spot) causes lethargy, clamped fins and darkened colour, with small white dots on the skin and fins.[7] Skin flukes such as <em>Gyrodactylus</em>, a common parasite of many ornamental fish, and other external parasites make fish irritable: they flash (scratch) against objects and lose their appetite,[7] and many affected guppies also spend more time in cover. These parasites spread through the tank quickly, so several guppies are usually affected within days.",
+        "Bacterial infections usually follow stress: outbreaks in aquarium fish are associated with poor water quality, crowding, handling, transport and sudden temperature change.[8] Mycobacteriosis, which can affect any fish, causes slow wasting, paleness, skin ulcers and bent spines, and there is no effective treatment that clears it from fish.[8] A guppy that hides and is also losing weight, has sores, or is swimming abnormally belongs in this group."
+      ]
+    }
+  ],
+  "diagnose_h2": "How to Tell Why Your Guppy Is Hiding",
+  "diagnose_intro": "Do these checks in order. For most hiding guppies the first two give the answer, and neither needs medication.",
+  "diagnose": [
+    {
+      "action": "Check whether it is a male or a female",
+      "detail": "Females are larger, less colourful and have a fan-shaped anal fin; males are smaller and brighter, with a narrow, rod-like anal fin (the gonopodium). If it is a female, go to step 2. If it is a male, skip to step 4 — males hide mainly because of bullying, poor water or illness."
+    },
+    {
+      "action": "Look at her belly",
+      "detail": "Look at her from the side and from above. A large belly that looks square at the front, with a dark patch just in front of the anal fin, means she is heavily pregnant and may give birth within days. Heavily pregnant females are slower and more vulnerable than usual,[2] so hiding at this stage is expected. If she is eating and her fins are open, give her cover and wait."
+    },
+    {
+      "action": "Count the males and watch them",
+      "detail": "Count males and females, then watch from across the room for ten minutes. If males follow the hiding female whenever she comes out and she darts back into cover, harassment is the cause. Research on guppies shows females will move to otherwise unsuitable places just to avoid males.[1]"
+    },
+    {
+      "action": "Test the water",
+      "detail": "Test ammonia, nitrite, nitrate, pH and temperature. Ammonia and nitrite should read zero; any detectable level, especially in a tank less than two months old, means the filter is not coping.[5] Guppies prefer about 22–28 °C and a pH of about 6.8–7.8.",
+      "tool": "Water test kit"
+    },
+    {
+      "action": "Examine the hiding fish",
+      "detail": "Look for clamped fins, torn or shortened fins (nipping), white dots (ich), flashing against objects (external parasites), sores, a thin back or a bent spine.[7][8] A guppy with none of these that swims normally when it comes out is probably reacting to its surroundings rather than to disease."
+    }
+  ],
+  "fix_h2": "What to Do for a Hiding Guppy",
+  "fix": [
+    {
+      "action": "If she is about to give birth: give her cover, not a small box",
+      "detail": "Add dense plants — floating plants, Java moss or fine-leaved stem plants — so she has somewhere quiet and the fry have somewhere to hide. A separate, well-planted tank is kinder than a small breeder box if you want to save fry. Keep the water stable and avoid chasing her with a net; she will return to normal within a day or two of giving birth."
+    },
+    {
+      "action": "If males are harassing her: fix the ratio and add space",
+      "detail": "Aim for at least two or three females for every male, or keep an all-male or all-female tank. Harassment is energetically costly for females,[3] and spreading the males' attention across more females helps. Add plants and decorations that break lines of sight so a female can get out of view. A female who is being chased relentlessly can be moved to a separate tank to recover."
+    },
+    {
+      "action": "Correct the water",
+      "detail": "If ammonia or nitrite is present, make partial water changes with dechlorinated, temperature-matched water and feed less until both read zero. Check the heater and thermometer. Poor water quality and temperature swings are what set up bacterial disease, so fixing the water protects the rest of the tank too.[8]"
+    },
+    {
+      "action": "Remove fin-nippers and bullies",
+      "detail": "Rehome fin-nipping or aggressive tankmates, or move the guppies. Nipped fins usually regrow in clean water once the nipping stops; watch the damaged edges for white fuzz or redness, which suggest infection."
+    },
+    {
+      "action": "If you see signs of disease: identify it before treating",
+      "detail": "White dots mean ich: treat the whole tank and repeat as the product label directs, because only the free-swimming stage is killed by treatment and one dose is never enough.[9] For flashing without visible spots, or wasting, sores or bent spines, isolate the fish and ask an aquatic vet or experienced fish shop to examine a skin scraping, since the right treatment depends on what is found.[7] Wear gloves if fish are wasting, as mycobacteria can infect people.[8]"
+    }
+  ],
+  "prevention_h2": "Preventing Hiding and Stress in Guppies",
+  "prevention": "Keep more females than males — two or three females per male is a common target — or single-sex groups, and give the tank enough plants and decoration that a female can get out of sight.[1] Keep ammonia and nitrite at zero with regular partial water changes and a stable temperature.[5] Choose calm tankmates that do not nip fins. Quarantine new guppies for at least 30 days before adding them, because parasites and bacterial diseases usually arrive with new fish.[5] If your guppies breed, plan for it with dense planting or a separate grow-out tank for fry.",
+  "seek_help_h2": "When a Hiding Guppy Needs Expert Help",
+  "seek_help": "<strong>Act the same day if:</strong> several guppies are hiding, gasping or sitting on the bottom, or the water test shows ammonia or nitrite — that points to a water problem affecting the whole tank.[6] <strong>Talk to an aquatic vet if:</strong> guppies keep dying one at a time after hiding and wasting, or show sores, bent spines or bulging eyes, which can indicate mycobacteriosis or another bacterial disease that needs a laboratory diagnosis.[8] A female who is heavily pregnant, or who is simply avoiding the males, does not need a vet; she needs cover and a better male-to-female ratio.",
+  "faq": [
+    {
+      "q": "Why is my female guppy hiding?",
+      "a": "The most common reasons are that she is about to give birth or that males are chasing her. Heavily pregnant guppies are slower and less able to escape,[2] and female guppies will move into places they would normally avoid to escape harassing males.[1] Check her belly for a squared-off shape and dark patch, and watch whether males follow her."
+    },
+    {
+      "q": "Do guppies hide before giving birth?",
+      "a": "Many do. Late in pregnancy a female often stays near plants, the heater or a quiet corner, and may eat less. Her escape speed drops as the pregnancy advances,[2] so cover makes sense. Give her dense plants rather than moving her into a tiny breeder box, which is stressful in itself."
+    },
+    {
+      "q": "How many female guppies should I have per male?",
+      "a": "A common recommendation is at least two or three females per male. With fewer females, each one is chased more, and research shows harassment costs females energy and changes their behaviour towards other females.[3][4] Single-sex tanks avoid the problem entirely, and all-male tanks are colourful and peaceful."
+    },
+    {
+      "q": "Why is my male guppy hiding?",
+      "a": "Males cannot be pregnant, so a hiding male is usually being bullied — by fin-nipping tankmates or by other males — or is reacting to poor water or illness. Look for torn fins, clamped fins, white dots or flashing,[7] and test the water.[5]"
+    },
+    {
+      "q": "My new guppies are hiding. Is that normal?",
+      "a": "Yes, for the first few days. Handling and transport are stressful for fish,[8] and new guppies often hide until they learn the tank. If they are still hiding after a week, test the water and look at them closely for signs of illness, especially if the tank is newly set up.[5]"
+    },
+    {
+      "q": "Is a hiding guppy sick?",
+      "a": "Not necessarily. A hiding guppy that eats, holds its fins open and swims normally when it comes out is usually pregnant, harassed or settling in. Hiding combined with clamped fins, loss of appetite, white spots, flashing or weight loss is more likely illness.[7][6]"
+    }
+  ],
+  "references": [
+    {
+      "authors": "Darden, S.K. &amp; Croft, D.P. (2008).",
+      "title": "Male harassment drives females to alter habitat use and leads to segregation of the sexes.",
+      "source": "Biology Letters 4(5): 449–451.",
+      "url": "https://doi.org/10.1098/rsbl.2008.0308",
+      "label": "doi:10.1098/rsbl.2008.0308"
+    },
+    {
+      "authors": "Ghalambor, C.K., Reznick, D.N. &amp; Walker, J.A. (2004).",
+      "title": "Constraints on adaptive evolution: the functional trade-off between reproduction and fast-start swimming performance in the Trinidadian guppy (<em>Poecilia reticulata</em>).",
+      "source": "The American Naturalist 164(1): 38–50.",
+      "url": "https://doi.org/10.1086/421412",
+      "label": "doi:10.1086/421412"
+    },
+    {
+      "authors": "Killen, S.S., Croft, D.P., Salin, K. &amp; Darden, S.K. (2016).",
+      "title": "Male sexually coercive behaviour drives increased swimming efficiency in female guppies.",
+      "source": "Functional Ecology 30(4): 576–583.",
+      "url": "https://doi.org/10.1111/1365-2435.12527",
+      "label": "doi:10.1111/1365-2435.12527"
+    },
+    {
+      "authors": "Darden, S.K. &amp; Watts, L. (2012).",
+      "title": "Male sexual harassment alters female social behaviour towards other females.",
+      "source": "Biology Letters 8(2): 186–188.",
+      "url": "https://doi.org/10.1098/rsbl.2011.0807",
+      "label": "doi:10.1098/rsbl.2011.0807"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Management of Aquarium Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Disorders and Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/all-other-pets/fish/disorders-and-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Parasitic Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/parasitic-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Bacterial Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Francis-Floyd, R., Yanong, R.P.E. &amp; Pouder, D.B.",
+      "title": "<em>Ichthyophthirius multifiliis</em> (White Spot) Infections in Fish.",
+      "source": "UF/IFAS Extension, Circular 920 (FA006).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA006",
+      "label": "ask.ifas.ufl.edu"
+    }
+  ]
+}

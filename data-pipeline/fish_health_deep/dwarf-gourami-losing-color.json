@@ -1,0 +1,229 @@
+{
+  "slug": "dwarf-gourami-losing-color",
+  "date_modified": "2026-09-28",
+  "date_modified_human": "September 28, 2026",
+  "urgency": "monitor",
+  "title": "Dwarf Gourami Losing Color? Stress First, but Rule Out DGIV",
+  "description": "A fading dwarf gourami is usually stressed or not displaying, but dwarf gouramis often carry iridovirus (DGIV). How to tell the difference and what to do.",
+  "h1": "Why Is My Dwarf Gourami Losing Color? Stress, Social Rank, Water or DGIV",
+  "howto_name": "How to find out why a dwarf gourami is losing its colour and what to do",
+  "short_answer": "A dwarf gourami that fades but keeps eating and swimming normally is usually stressed — by a new tank, bullying, poor water or simply not being in breeding display — and its colour returns when the cause is fixed.[1] Fading together with hiding, loss of appetite, weight loss or a swollen belly is more serious: dwarf gouramis commonly carry dwarf gourami iridovirus (DGIV), which kills many infected fish and cannot be treated.[2][3]",
+  "intro": [
+    "Male dwarf gouramis are bred for colour — red-and-blue striped wild type, flame, powder blue, neon blue — so a male that turns pale or greyish is hard to miss. Colour in fish is not fixed. It is produced by pigment cells in the skin that respond within minutes to nerves and hormones, including the stress hormones released in a fight-or-flight response.[1] In many fish, dominant males in breeding condition are bright and subordinate males are drab, and the change reverses as social rank changes.[4] A dwarf gourami that fades in a new tank, after a fight or when another male takes over the tank is showing one of these normal responses.",
+    "Dwarf gouramis are also the species behind the name \"dwarf gourami iridovirus\" (DGIV), a megalocytivirus related to infectious spleen and kidney necrosis virus. The ornamental trade carries it widely: in an Australian study, the virus was found in 18.7% of imported gouramis tested before quarantine and in 21.9% of fish sampled from aquarium shops.[3] That is why fading in a dwarf gourami deserves more attention than it would in most species. The key question is whether the fish is otherwise well. Work through the causes and checks below to find out."
+  ],
+  "causes_h2": "Why Is My Dwarf Gourami Losing Color? The Common Causes",
+  "causes": [
+    {
+      "title": "Stress: New Tank, Transport or Fright",
+      "likelihood": "high",
+      "paragraphs": [
+        "The most common reason for a dwarf gourami to fade is short-term stress. Fish change colour quickly because their pigment cells are controlled by the nervous system and hormones; the catecholamines released in a fight-or-flight response act directly on those cells.[1] A newly bought dwarf gourami, one that has just been netted or moved, or one startled by a sudden change in light or activity often looks washed out for hours to days.",
+        "Stress fading is recognisable by what does not happen: the fish still eats, swims normally, holds its fins open and regains colour once it settles. Handling, transport and temperature changes are also the stressors that predispose fish to bacterial disease,[5] so it is worth keeping conditions calm and stable while it recovers."
+      ]
+    },
+    {
+      "title": "Social Rank, Bullying and Breeding Display",
+      "likelihood": "high",
+      "paragraphs": [
+        "Male dwarf gouramis build and guard bubble nests at the surface,[6] and a male in breeding condition shows his most intense colour. In fish with this kind of social system, bright colour goes with dominance: in a well-studied cichlid, only the dominant, territorial males are brightly coloured, subordinate males are drab, and individuals can switch between the two states repeatedly within their lifetime.[4] A dwarf gourami male that loses a contest with another male, or is harassed by a larger gourami or cichlid, commonly fades and hides in the same way.",
+        "This cause is likely when there are two or more male dwarf gouramis in the tank, when the fading fish is being chased, or when it happens after a new fish was added. Females are naturally much duller — silvery-grey with faint stripes — and are sometimes mistaken for faded males. A male that is not breeding is also less intensely coloured than the fish in shop photographs."
+      ]
+    },
+    {
+      "title": "Poor Water Quality or Wrong Temperature",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Ammonia, nitrite, low oxygen or water that is too cold all cause stress fading, usually with other signs: clamped fins, faster breathing, more frequent trips to the surface and less interest in food. New tank syndrome — ammonia or nitrite in a filter that has not yet matured — typically appears within the first six weeks, and a tropical biofilter can take up to eight weeks to establish.[7]",
+        "Dwarf gouramis are warm-water fish; FishBase gives a temperature range of 25–28 °C.[6] A dwarf gourami kept cool, or exposed to repeated temperature swings from a failing heater or cold water changes, will often look dull. Because these problems affect the whole tank, look at the other fish as well."
+      ]
+    },
+    {
+      "title": "Dwarf Gourami Iridovirus (DGIV)",
+      "likelihood": "medium",
+      "paragraphs": [
+        "DGIV is a megalocytivirus — a strain of infectious spleen and kidney necrosis virus — described in dwarf gouramis imported into Japan from farms in Malaysia, where affected fish showed characteristic damage to the spleen and blood-forming tissue.[8] The Merck Veterinary Manual records megalocytivirus in dwarf gouramis, oscars, angelfish and other cichlids, notes that it caused high mortality in farmed gouramis in Florida in the 1990s, and says infected fish show non-specific signs.[2] Systemic iridovirus infection in farmed gouramis in Israel caused haemorrhagic dropsy — a swollen, fluid-filled body.[9]",
+        "In practice, owners of infected dwarf gouramis most often report a fish that fades or darkens, hides, stops eating, loses weight and may develop a swollen belly or sores, typically within weeks or months of purchase. None of these signs is specific, and the virus can only be confirmed by laboratory tests. There is no treatment. Ornamental fish can carry ISKNV with or without clinical disease,[10] and the Australian study detected it in fish before, during and after import quarantine, including in wholesalers and shops.[3] Fading with no appetite and weight loss in a recently bought dwarf gourami should be taken seriously."
+      ]
+    },
+    {
+      "title": "Mycobacteriosis and Other Bacterial Disease",
+      "likelihood": "low",
+      "paragraphs": [
+        "Mycobacteriosis is a chronic bacterial infection that can affect any fish. Its signs are variable and nonspecific and include emaciation, paleness, skin ulcers, bulging eyes and a bent spine; there are no effective treatments that eliminate the bacteria from fish, and they can infect people.[5] Mycobacteria were isolated from 29 of 35 aquarium fish examined in one survey, which included dwarf gouramis and three-spot gouramis.[11]",
+        "Mycobacteriosis usually progresses slowly — a fish that gradually fades and thins over weeks — whereas DGIV often causes faster decline. Both are diagnosed in the laboratory, not by eye."
+      ]
+    },
+    {
+      "title": "Parasites",
+      "likelihood": "low",
+      "paragraphs": [
+        "Ich causes lethargy, clamped fins and dark coloration, with visible white dots on the skin.[12] Other external and intestinal parasites cause flashing, reduced appetite and loss of condition,[12] and a fish in poor condition rarely holds its full colour. Look closely for white spots, a dusty or velvety sheen, flashing against objects, or long white stringy faeces, which point towards a parasite rather than a virus or stress."
+      ]
+    }
+  ],
+  "diagnose_h2": "How to Tell Why Your Dwarf Gourami Is Losing Color",
+  "diagnose_intro": "Work through these checks in order. The first two separate harmless fading from the kind that needs action.",
+  "diagnose": [
+    {
+      "action": "Check whether it is eating and behaving normally",
+      "detail": "Feed a small amount and watch. A dwarf gourami that eats eagerly, swims normally and holds its fins open is most likely stress-faded or subordinate, and its colour should return as conditions improve.[1] One that refuses food, hides constantly, hangs at the surface or bottom, or has clamped fins needs the rest of these checks today."
+    },
+    {
+      "action": "Confirm the sex and look at the social situation",
+      "detail": "Females are naturally silvery-grey and much duller than males. If it is a male, count the other male dwarf gouramis and watch for chasing, especially near a bubble nest.[6] Subordinate males in many fish are drab and brighten again when they are no longer being dominated.[4]"
+    },
+    {
+      "action": "Test the water and check the temperature",
+      "detail": "Test ammonia, nitrite, nitrate and pH, and check the thermometer. Ammonia and nitrite should read zero;[7] temperature should be around 25–28 °C for this species.[6]",
+      "tool": "Water test kit"
+    },
+    {
+      "action": "Look closely at the body",
+      "detail": "Look for white dots (ich),[12] sores or red patches, raised scales or a swollen belly, bulging eyes, a thin back or a bent spine. Swelling, sores and wasting point towards DGIV or bacterial disease rather than stress.[9][5]"
+    },
+    {
+      "action": "Consider how recently it was bought",
+      "detail": "Fading, loss of appetite and weight loss in a dwarf gourami bought within the last few months raises the likelihood of DGIV, which is common in the ornamental trade.[3] Note whether any other fish bought at the same time has died."
+    }
+  ],
+  "fix_h2": "What to Do for a Dwarf Gourami Losing Color",
+  "fix": [
+    {
+      "action": "Reduce stress and give it cover",
+      "detail": "Add floating plants and dense planting, dim very bright lighting, and keep the area around the tank quiet. Dwarf gouramis come from slow waters with plenty of vegetation,[6] and cover lets a stressed fish settle and colour up again."
+    },
+    {
+      "action": "Sort out the social problem",
+      "detail": "Keep only one male dwarf gourami unless the tank is large and well planted, and rehome larger gouramis, cichlids or fin-nippers that chase it. A subordinate male usually regains colour once he is no longer being dominated.[4]"
+    },
+    {
+      "action": "Correct the water and temperature",
+      "detail": "If ammonia or nitrite is present, make partial water changes with dechlorinated, temperature-matched water and feed less until both read zero. Set the heater to keep the tank stable in the mid-20s °C. Stable water reduces the stress that allows bacterial disease to take hold.[5]"
+    },
+    {
+      "action": "If DGIV or bacterial disease is suspected: isolate and get a diagnosis",
+      "detail": "Move a fading dwarf gourami that is not eating, is losing weight or is swelling to a hospital tank, and do not add new fish to the main tank. There is no treatment for megalocytivirus,[2] and none that eliminates mycobacteria;[5] an aquatic vet can arrange laboratory testing on a fish that has died, which tells you what the rest of the tank has been exposed to. Wear gloves if mycobacteriosis is possible. Humane euthanasia is reasonable for a fish that is clearly declining."
+    },
+    {
+      "action": "If you see parasites: treat the specific problem",
+      "detail": "Treat ich across the whole tank with a product labelled for it, repeating doses as the label directs.[12] Do not add antibiotics or multiple medications on the chance they help; they will not reverse stress fading or a viral infection."
+    }
+  ],
+  "prevention_h2": "Preventing Colour Loss in Dwarf Gouramis",
+  "prevention": "Buy dwarf gouramis that are eating and fully coloured in the shop, and ask whether the batch has had losses. Quarantine new fish for at least 30 days before adding them to the main tank,[7] and do not add new dwarf gouramis to a tank where DGIV has occurred — ornamental fish can carry the virus without obvious illness.[10] Keep one male per tank unless there is plenty of space, avoid boisterous tankmates, maintain warm, stable, clean water, and provide floating plants. A varied diet of good-quality flake or pellets plus some frozen foods supports colour and condition.",
+  "seek_help_h2": "When a Fading Dwarf Gourami Needs Expert Help",
+  "seek_help": "<strong>Act the same day if:</strong> the fading comes with loss of appetite, hiding, a swollen belly, sores or rapid breathing, or the water test shows ammonia or nitrite. <strong>Talk to an aquatic vet if:</strong> more than one gourami has faded, wasted or died, especially fish bought recently. DGIV and mycobacteriosis both need laboratory confirmation, and knowing which one you have determines whether the rest of the tank is at risk.[2][5] Be realistic: a dwarf gourami with advanced DGIV rarely recovers. A male that fades after a fight or a move, but eats and swims normally, only needs time and a calmer tank.",
+  "faq": [
+    {
+      "q": "Why is my dwarf gourami turning pale?",
+      "a": "Usually stress — a new tank, being chased by another fish, poor water or a sudden fright. Fish change colour within minutes because their pigment cells respond to stress hormones.[1] If the fish still eats and swims normally, fix the cause and the colour normally returns within days."
+    },
+    {
+      "q": "Do male dwarf gouramis lose colour when they are not breeding?",
+      "a": "Yes, to a degree. Males show their strongest colours when they are dominant and in breeding condition, building and guarding bubble nests.[6] In fish with this kind of system, subordinate or non-breeding males are noticeably duller, and colour can switch back and forth with social status.[4]"
+    },
+    {
+      "q": "What are the signs of dwarf gourami iridovirus?",
+      "a": "The signs are non-specific.[2] Owners typically see a fish that fades or darkens, hides, stops eating and loses weight, sometimes with a swollen belly or sores; in farmed gouramis, systemic iridovirus caused fluid-filled swelling (dropsy).[9] Only laboratory testing confirms the virus."
+    },
+    {
+      "q": "Can dwarf gourami iridovirus be treated?",
+      "a": "No. There is no treatment for megalocytivirus infection in fish,[2] and many infected dwarf gouramis die. The priorities are to isolate sick fish, avoid adding new fish, and get a laboratory diagnosis from a vet if several fish are affected."
+    },
+    {
+      "q": "How common is DGIV in dwarf gouramis?",
+      "a": "Common enough to matter. In an Australian study, megalocytivirus was detected in 18.7% of 2,086 imported gouramis tested before quarantine, in 68.6% of moribund or dead ornamental fish tested during quarantine, and in 21.9% of fish sampled from aquarium shops.[3]"
+    },
+    {
+      "q": "Will my dwarf gourami's colour come back?",
+      "a": "If the fading is caused by stress, social rank or water quality, yes — usually within days to a couple of weeks of fixing the cause.[1][4] Colour lost because of DGIV or mycobacteriosis rarely returns, because the fish is chronically ill."
+    }
+  ],
+  "references": [
+    {
+      "authors": "Ligon, R.A. &amp; McCartney, K.L. (2016).",
+      "title": "Biochemical regulation of pigment motility in vertebrate chromatophores: a review of physiological color change mechanisms.",
+      "source": "Current Zoology 62(3): 237–252.",
+      "url": "https://doi.org/10.1093/cz/zow051",
+      "label": "doi:10.1093/cz/zow051"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Viral Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/viral-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Rimmer, A.E., Becker, J.A., Tweedie, A., Lintermans, M., Landos, M., Stephens, F. &amp; Whittington, R.J. (2015).",
+      "title": "Detection of dwarf gourami iridovirus (<em>Infectious spleen and kidney necrosis virus</em>) in populations of ornamental fish prior to and after importation into Australia, with the first evidence of infection in domestically farmed Platy (<em>Xiphophorus maculatus</em>).",
+      "source": "Preventive Veterinary Medicine 122(1–2): 181–194.",
+      "url": "https://doi.org/10.1016/j.prevetmed.2015.09.008",
+      "label": "doi:10.1016/j.prevetmed.2015.09.008"
+    },
+    {
+      "authors": "Maruska, K.P. &amp; Fernald, R.D. (2013).",
+      "title": "Social regulation of male reproductive plasticity in an African cichlid fish.",
+      "source": "Integrative and Comparative Biology 53(6): 938–950.",
+      "url": "https://doi.org/10.1093/icb/ict017",
+      "label": "doi:10.1093/icb/ict017"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Bacterial Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Froese, R. &amp; Pauly, D. (eds.).",
+      "title": "<em>Trichogaster lalius</em> (dwarf gourami) species summary.",
+      "source": "FishBase.",
+      "url": "https://www.fishbase.se/summary/Trichogaster-lalius.html",
+      "label": "fishbase.se"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Management of Aquarium Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Sudthongkong, C., Miyata, M. &amp; Miyazaki, T. (2002).",
+      "title": "Iridovirus disease in two ornamental tropical freshwater fishes: African lampeye and dwarf gourami.",
+      "source": "Diseases of Aquatic Organisms 48: 163–173.",
+      "url": "https://doi.org/10.3354/dao048163",
+      "label": "doi:10.3354/dao048163"
+    },
+    {
+      "authors": "Paperna, I., Vilenkin, M. &amp; Alves de Matos, A.P. (2001).",
+      "title": "Iridovirus infections in farm-reared tropical ornamental fish.",
+      "source": "Diseases of Aquatic Organisms 48: 17–25.",
+      "url": "https://doi.org/10.3354/dao048017",
+      "label": "doi:10.3354/dao048017"
+    },
+    {
+      "authors": "Fusianto, C.K., Becker, J.A., Subramaniam, K., Whittington, R.J., Koda, S.A., Waltzek, T.B., Murwantoko &amp; Hick, P.M. (2023).",
+      "title": "Genotypic characterization of <em>Infectious spleen and kidney necrosis virus</em> (ISKNV) in Southeast Asian aquaculture.",
+      "source": "Transboundary and Emerging Diseases 2023: 6643006.",
+      "url": "https://doi.org/10.1155/2023/6643006",
+      "label": "doi:10.1155/2023/6643006"
+    },
+    {
+      "authors": "Pate, M., Jencic, V., Zolnir-Dovc, M. &amp; Ocepek, M. (2005).",
+      "title": "Detection of mycobacteria in aquarium fish in Slovenia by culture and molecular methods.",
+      "source": "Diseases of Aquatic Organisms 64: 29–35.",
+      "url": "https://doi.org/10.3354/dao064029",
+      "label": "doi:10.3354/dao064029"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Parasitic Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/parasitic-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    }
+  ]
+}
