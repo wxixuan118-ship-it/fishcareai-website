@@ -1,0 +1,205 @@
+{
+  "slug": "guppy-bloated",
+  "date_modified": "2026-09-28",
+  "date_modified_human": "September 28, 2026",
+  "urgency": "monitor",
+  "title": "Guppy Bloated? Pregnant, Overfed or Dropsy — How to Tell",
+  "description": "A bloated female guppy is usually pregnant. How to check the gravid spot, and how to tell overfeeding, Camallanus worms and dropsy apart.",
+  "h1": "Guppy Bloated or Swollen? Pregnant, Overfed or Sick — How to Tell",
+  "howto_name": "How to tell why a guppy is bloated and what to do about it",
+  "short_answer": "If the swollen guppy is a <strong>female</strong> that is eating and swimming normally, she is most likely pregnant — look for a dark gravid spot behind the belly. A <strong>male</strong> guppy cannot be pregnant, so a swollen male points to overfeeding, internal parasites or disease. Scales that stick out like a pinecone mean dropsy, which is serious and needs action today.",
+  "intro": [
+    "A bloated guppy sends most owners straight to the medicine shelf, but the first question is not what disease it has — it is whether the fish is male or female. Guppies are livebearers: females carry developing young internally for roughly four weeks and swell steadily as they do, with a dark patch behind the belly that grows as the embryos mature.[1][2] Females also store sperm and can keep producing broods for months after the last male has gone,[3] so a pregnant guppy in a tank with no males is common and not a mystery.",
+    "Once pregnancy is ruled out, the remaining causes separate by speed and by what comes with the swelling. A belly that appears after a big meal and goes down within a day or two is food. Swelling with red threads trailing from the vent is Camallanus worms.[4] Swelling with scales lifting away from the body is dropsy, a sign of internal organ failure rather than a disease in its own right.[6][7] A fish that is swollen and wasting at the same time — big belly, thin back — raises the possibility of mycobacteriosis, which cannot be cured.[6] Work through the checks below before adding anything to the water."
+  ],
+  "causes_h2": "Why Is My Guppy Bloated? The Common Causes",
+  "causes": [
+    {
+      "title": "Pregnancy (females only)",
+      "likelihood": "high",
+      "paragraphs": [
+        "In a female guppy this is by far the most common explanation. Guppies give birth to free-swimming fry after an internal gestation of roughly three to five weeks, and the length of that gestation varies with water temperature and even with which male she mated — females paired with more attractive males carried their broods for a shorter time in one controlled study.[2] Through the pregnancy the abdomen enlarges from the gills backwards, and in the last days before birth many females look distinctly square or \"boxy\" when viewed from above.",
+        "The reliable external sign is the gravid spot: the dark patch just in front of the anal fin. Research on a closely related livebearer showed that the spot is the pigmented ovarian sac seen through the body wall, and that it darkens as the embryos develop — pale early in the brood, darkest when birth is close.[1] In guppies with light bodies you can sometimes see the eyes of the fry as tiny black dots in that area near the end. Because females store sperm, a female can deliver several broods about a month apart without any male in the tank.[3] A pregnant guppy keeps eating, swims normally and holds her fins open; that combination is what separates her from a sick fish."
+      ]
+    },
+    {
+      "title": "Overfeeding and Constipation",
+      "likelihood": "high",
+      "paragraphs": [
+        "The second most common cause, and the usual one in males. Guppies beg constantly and will eat far more than they need; dry flakes and pellets also swell after they are swallowed. The result is a round belly that appears within hours of feeding, sometimes with long trailing faeces or none at all, in a fish that is otherwise alert.",
+        "The pattern is what gives it away: the swelling is symmetrical, it is worse after meals, several fish in the tank often look the same, and it goes down after a day or two of light or no feeding. A guppy that stays swollen after 48 hours without food is not simply full, and the other causes below move up the list."
+      ]
+    },
+    {
+      "title": "Camallanus and Other Internal Worms",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Camallanus roundworms are among the internal parasites most often found in livebearers, and small fish such as guppies are hit hard by them. The Merck Veterinary Manual gives the diagnostic sign plainly: blood-red worms visible protruding from the anus.[4] They are most obvious after the fish has been still for a while, and infected fish may show a swollen or uneven belly, weight loss along the back, and poor growth.",
+        "Small numbers of nematodes are often found in fish that seem healthy, but heavy burdens cause illness and death,[5] and because the worms spread through the tank, one infected guppy usually means others are carrying them too. Worms are the cause to suspect when bloating comes with weight loss, when it affects fish of both sexes, or when new fish were added in the last few months without quarantine."
+      ]
+    },
+    {
+      "title": "Dropsy (Fluid in the Body Cavity)",
+      "likelihood": "medium",
+      "paragraphs": [
+        "Dropsy is not a single disease. It is the name for fluid collecting in the body cavity, and it happens when the kidneys or other organs can no longer keep water out — most often as a result of bacterial infection such as <em>Aeromonas</em>.[7] The swelling pushes the scales outward, so that from above the fish looks like a pinecone; the eyes may bulge and the vent can look red or swollen.",
+        "This is the one bloated-guppy cause that needs action the same day. Bacterial disease outbreaks are usually triggered by poor water quality, overcrowding, temperature swings or other stress,[6] so a case of dropsy is also a warning about the tank. By the time scales have visibly lifted the internal damage is advanced, and many fish do not recover even with treatment; the realistic goals are to isolate the fish, correct the water and protect the rest of the tank."
+      ]
+    },
+    {
+      "title": "Mycobacteriosis and Tumours",
+      "likelihood": "low",
+      "paragraphs": [
+        "Mycobacteriosis (\"fish TB\") is a chronic bacterial infection that is well known in livebearers. Its signs are variable and nonspecific and can include fluid in the abdomen, emaciation, skin ulcers, bulging eyes, pale colour and a bent spine.[6] The combination that should make you think of it is a swollen belly on a fish that is otherwise wasting away, often one fish after another over weeks.",
+        "There is no effective treatment that eliminates mycobacteria in fish, and the bacteria can infect people through cuts on the hands — wear gloves when working in a tank you suspect.[6] Tumours are less common again; they usually show as a lopsided lump on one side of an older guppy rather than even swelling, and they progress slowly."
+      ]
+    }
+  ],
+  "diagnose_h2": "How to Tell Why Your Guppy Is Bloated",
+  "diagnose_intro": "Do these checks in order. Most bloated guppies are identified by the first two, and none of them needs medication.",
+  "diagnose": [
+    {
+      "action": "Check whether the fish is male or female",
+      "detail": "Males are smaller, more colourful and have a gonopodium — the anal fin is a narrow, pointed rod rather than the fan-shaped fin a female has. If the fish is male, pregnancy is off the list and you can go straight to step 3. If it is female, carry on to step 2 before assuming anything is wrong."
+    },
+    {
+      "action": "Look for the gravid spot and the boxy shape",
+      "detail": "Look at the belly just in front of the anal fin under good light. A dark, triangular or crescent-shaped patch that has been getting larger and darker is the gravid spot of a pregnant female.[1] Seen from above, a female close to giving birth looks square at the front of the belly rather than rounded. If she is eating and swimming normally, treat her as pregnant, not sick: photograph her side-on every few days and you will see the spot darken and the belly grow until she drops fry, roughly a month after the swelling first appeared.[2]"
+    },
+    {
+      "action": "Look at the fish from above for raised scales",
+      "detail": "Scales sticking out from the body like an open pinecone mean dropsy, and that changes everything — go to step 1 of the treatment section today.[7] Also note the eyes (bulging?) and the vent (red, swollen, or with anything protruding)."
+    },
+    {
+      "action": "Watch the vent for red threads",
+      "detail": "Watch the fish for several minutes, ideally in the evening or after the lights have been off, when the fish are resting. Fine red or reddish-brown threads extending from the vent are Camallanus worms.[4] Check the other fish too; if one guppy has them, assume the tank does."
+    },
+    {
+      "action": "Test the water",
+      "detail": "Test ammonia, nitrite, nitrate, pH and temperature before you treat anything. In an established tank ammonia and nitrite should both read zero;[9] any detectable level means the biological filter is overloaded and the fish is under stress that makes bacterial disease more likely.[6] Guppies do best between about 22 and 28 °C. Water analysis and a full history are where a veterinary fish workup starts.[8]",
+      "tool": "Water test kit"
+    },
+    {
+      "action": "Try 48 hours of fasting and see if the swelling goes down",
+      "detail": "For a fish with no raised scales, no worms and no gravid spot, stop feeding it (or the tank) for two days. A belly that shrinks noticeably was food. One that stays the same or grows, particularly with weight loss along the back or other fish affected, needs the worm, dropsy and mycobacteriosis possibilities taken seriously."
+    }
+  ],
+  "fix_h2": "What to Do for a Bloated Guppy",
+  "fix": [
+    {
+      "action": "If she is pregnant: reduce stress and plan for the fry",
+      "detail": "A pregnant guppy needs no treatment. Keep the water stable and clean, and give her dense cover — floating plants or fine-leaved plants — so that she and the fry have somewhere to hide, because adult guppies eat newborn fry. Avoid moving her into a small breeder box early; the stress of confinement can cause problems of its own. If you do not want fry, separate the sexes, but remember she may still deliver a few more broods from stored sperm.[3]"
+    },
+    {
+      "action": "If it is food: fast, then feed less",
+      "detail": "Skip feeding for one to two days, then feed an amount the fish finish in about a minute, once or twice a day. Soaking dry food in tank water for a minute before feeding lets it expand before it is swallowed. Include some frozen or live foods such as daphnia or brine shrimp, which pass through more easily than dense pellets."
+    },
+    {
+      "action": "If you see red worms: deworm the whole tank",
+      "detail": "Camallanus is treated with fenbendazole or levamisole.[4] Both work best mixed into food, and because a single dose does not remove every stage, treatment is normally repeated after an interval — follow the product's label exactly. Treat every fish in the tank, not just the one that is showing, vacuum the substrate thoroughly after each round to remove expelled worms, and remove snails and shrimp first because dewormers can harm them. Heavy infestations kill small fish, so start as soon as the worms are seen.[5]"
+    },
+    {
+      "action": "If the scales are raised: isolate, fix the water and get help",
+      "detail": "Move the fish to a hospital tank with clean, dechlorinated water at the same temperature, and correct the main tank's water quality with partial water changes, since bacterial outbreaks are usually set off by poor water and stress.[6] Antibiotics are the treatment for a bacterial cause, but choosing the right drug needs a diagnosis; an aquatic veterinarian can take samples and select an effective antibiotic rather than guessing.[6] Be honest about the prognosis: once the scales have lifted, many fish do not recover."
+    },
+    {
+      "action": "If fish keep wasting and swelling: suspect mycobacteriosis",
+      "detail": "Remove affected fish promptly, do not add new fish, and ask a veterinarian about testing a fish that has died — mycobacteriosis is diagnosed in the laboratory, not by eye. There is no cure,[6] so the goal is to stop it spreading and to protect yourself: wear gloves for tank maintenance and cover any cuts on your hands."
+    }
+  ],
+  "prevention_h2": "Preventing Bloating in Guppies",
+  "prevention": "Feed small amounts once or twice a day — no more than the fish finish in about a minute — and vary the diet so it is not all dry food. Keep ammonia and nitrite at zero with regular partial water changes and a filter sized for the tank, because stress and poor water are what let bacterial infections take hold.[6][9] Quarantine new guppies for at least four weeks before adding them, and watch them for red threads at the vent during that time; Camallanus usually arrives with new fish.[4] If you keep males and females together, expect regular pregnancies and plan for them with plants and space rather than treating every round belly as illness.",
+  "seek_help_h2": "When a Bloated Guppy Needs Expert Help",
+  "seek_help": "<strong>Get help today if:</strong> the scales are lifting (pinecone appearance), the eyes are bulging, the fish is lying on the bottom or struggling to stay upright, or it has stopped eating. These point to dropsy or another systemic illness rather than pregnancy or overeating.[7] <strong>Talk to an aquatic vet if:</strong> several fish are becoming swollen or thin over a few weeks, which raises the possibility of mycobacteriosis — a disease with no reliable treatment that can also infect people.[6] A female with a darkening gravid spot who is eating and swimming normally does not need a vet; she needs a quiet tank and somewhere for her fry to hide.",
+  "faq": [
+    {
+      "q": "How do I know if my guppy is pregnant or just fat?",
+      "a": "Check the sex and the gravid spot. Only females get pregnant, and a pregnant female has a dark patch just in front of the anal fin that grows larger and darker over the weeks, because it is the pigmented ovarian sac showing through the body wall.[1] Late in pregnancy she looks square at the front of the belly when viewed from above. A fish that is just full has an even, round belly with no dark patch, and it shrinks after a day or two of fasting."
+    },
+    {
+      "q": "My guppy is pregnant but there are no males in the tank. How?",
+      "a": "Female guppies store sperm and can produce several broods from a single mating, and in wild populations some fry are sired by males that died months earlier.[3] A female bought from a mixed tank at the shop may give birth several times over the following months without ever seeing another male."
+    },
+    {
+      "q": "Why is my male guppy bloated?",
+      "a": "Because males cannot be pregnant, a swollen male is usually overfed, especially on dry food. If the swelling does not go down after 48 hours without food, look for red threads at the vent (Camallanus worms) and check from above for raised scales (dropsy).[4][7]"
+    },
+    {
+      "q": "How long are guppies pregnant?",
+      "a": "Usually around four weeks, but it varies. Warmer water shortens gestation and cooler water lengthens it, and in one study gestation was even shorter in females that had mated with more attractive, colourful males.[2] A female can deliver another brood about a month later from stored sperm.[3]"
+    },
+    {
+      "q": "Can a guppy recover from dropsy?",
+      "a": "Some do, if the cause is caught early and the water is corrected, but the outlook is poor once the scales have visibly lifted, because the swelling is a sign of internal organ failure.[7] Isolate the fish, fix the water quality, and ask an aquatic vet about antibiotics — the right drug depends on the bacteria involved.[6]"
+    },
+    {
+      "q": "Is a bloated guppy contagious to my other fish?",
+      "a": "Pregnancy and overfeeding are not. Camallanus worms spread through the tank, so treat every fish if one has them.[4] Dropsy itself is a sign rather than a disease, but the bacterial infections behind it are more likely in a stressed, dirty tank, so the other fish are at risk from the same conditions.[6] Mycobacteriosis spreads between fish and can infect people.[6]"
+    }
+  ],
+  "references": [
+    {
+      "authors": "Norazmi-Lokman, N.H., Purser, G.J. &amp; Patil, J.G. (2016).",
+      "title": "Gravid Spot Predicts Developmental Progress and Reproductive Output in a Livebearing Fish, <em>Gambusia holbrooki</em>.",
+      "source": "PLOS ONE 11(1): e0147711.",
+      "url": "https://doi.org/10.1371/journal.pone.0147711",
+      "label": "doi:10.1371/journal.pone.0147711"
+    },
+    {
+      "authors": "Sato, A., Aihara, R. &amp; Karino, K. (2021).",
+      "title": "Male coloration affects female gestation period and timing of fertilization in the guppy (<em>Poecilia reticulata</em>).",
+      "source": "PLOS ONE 16(12): e0261004.",
+      "url": "https://doi.org/10.1371/journal.pone.0261004",
+      "label": "doi:10.1371/journal.pone.0261004"
+    },
+    {
+      "authors": "López-Sepulcre, A., Gordon, S.P., Paterson, I.G., Bentzen, P. &amp; Reznick, D.N. (2013).",
+      "title": "Beyond lifetime reproductive success: the posthumous reproductive dynamics of male Trinidadian guppies.",
+      "source": "Proceedings of the Royal Society B 280(1763): 20131116.",
+      "url": "https://doi.org/10.1098/rspb.2013.1116",
+      "label": "doi:10.1098/rspb.2013.1116"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Parasitic Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/parasitic-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Yanong, R.P.E.",
+      "title": "Nematode (Roundworm) Infections in Fish.",
+      "source": "UF/IFAS Extension, Circular 91 (FA091).",
+      "url": "https://ask.ifas.ufl.edu/publication/FA091",
+      "label": "ask.ifas.ufl.edu"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Bacterial Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Disorders and Diseases of Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/all-other-pets/fish/disorders-and-diseases-of-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Merck Veterinary Manual.",
+      "title": "Management of Aquarium Fish.",
+      "source": "Merck &amp; Co., Inc.",
+      "url": "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+      "label": "merckvetmanual.com"
+    },
+    {
+      "authors": "Yanong, R.P.E.",
+      "title": "Fish Health Management Considerations in Recirculating Aquaculture Systems — Part 1: Introduction and General Principles.",
+      "source": "UF/IFAS Extension, Circular 120.",
+      "url": "https://edis.ifas.ufl.edu/publication/FA099",
+      "label": "edis.ifas.ufl.edu"
+    }
+  ]
+}
