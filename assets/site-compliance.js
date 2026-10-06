@@ -390,6 +390,20 @@
     }
     ensureContentSchema();
     setupConsentBanner();
+    registerServiceWorker();
+  }
+
+  // Makes the site installable (PWA) and serves /offline.html when a page
+  // can't load. sw.js only intercepts failed navigations, so it is safe for
+  // the proxied /species, /fish-health and /identify apps too.
+  function registerServiceWorker() {
+    if (!('serviceWorker' in navigator) || location.hostname !== 'www.fishcareai.com') return;
+    var register = function () {
+      navigator.serviceWorker.register('/sw.js').catch(function () {});
+    };
+    // The Next.js apps inject this script after the load event has fired.
+    if (document.readyState === 'complete') register();
+    else window.addEventListener('load', register);
   }
 
   // The script is normally deferred, but it is also injected after load by the

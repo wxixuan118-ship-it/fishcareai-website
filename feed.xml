@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+  <title>FishCare AI — Aquarium Care Guides</title>
+  <link>https://www.fishcareai.com/</link>
+  <atom:link href="https://www.fishcareai.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>New aquarium fish care guides, species care sheets and fish health troubleshooting from FishCare AI.</description>
+  <language>en-us</language>
+  <lastBuildDate>Mon, 28 Sep 2026 10:17:16 GMT</lastBuildDate>
+  <ttl>1440</ttl>
+  <image>
+    <url>https://www.fishcareai.com/assets/pwa/icon-192.png</url>
+    <title>FishCare AI — Aquarium Care Guides</title>
+    <link>https://www.fishcareai.com/</link>
+  </image>
+  <item>
+    <title>Oscar White Spots? Ich or Hole-in-the-Head — How to Tell</title>
+    <link>https://www.fishcareai.com/fish-health/oscar-white-spots</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/oscar-white-spots</guid>
+    <pubDate>Mon, 28 Sep 2026 10:17:16 GMT</pubDate>
+    <description>Salt-grain white spots all over an oscar are usually ich; pale pits on the head are hole-in-the-head (HLLE). How to tell them apart and treat each one.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/oscar-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Neon Tetra Hiding? Usually Group Size, Light or a New Tank</title>
+    <link>https://www.fishcareai.com/fish-health/neon-tetra-hiding</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/neon-tetra-hiding</guid>
+    <pubDate>Mon, 28 Sep 2026 10:17:16 GMT</pubDate>
+    <description>Neon tetras hide when the group is too small, the tank is bright and bare, or they are new. How to check, and when hiding points to neon tetra disease.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/neon-tetra-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Honey Gourami Hiding? Usually Shyness, Open Tanks or Bullies</title>
+    <link>https://www.fishcareai.com/fish-health/honey-gourami-hiding</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/honey-gourami-hiding</guid>
+    <pubDate>Mon, 28 Sep 2026 10:17:16 GMT</pubDate>
+    <description>Honey gouramis are shy and hide in open tanks or with boisterous fish. How to tell shyness from stress or illness, and how to get yours out in the open.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/honey-gourami-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Guppy Hiding? Often Birth Is Close or Males Are Harassing</title>
+    <link>https://www.fishcareai.com/fish-health/guppy-hiding</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/guppy-hiding</guid>
+    <pubDate>Mon, 28 Sep 2026 10:17:16 GMT</pubDate>
+    <description>A hiding female guppy is often close to giving birth or escaping males. How to check, fix the male-to-female ratio, and spot illness in a hiding guppy.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/guppy-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Dwarf Gourami Losing Color? Stress First, but Rule Out DGIV</title>
+    <link>https://www.fishcareai.com/fish-health/dwarf-gourami-losing-color</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/dwarf-gourami-losing-color</guid>
+    <pubDate>Mon, 28 Sep 2026 10:17:16 GMT</pubDate>
+    <description>A fading dwarf gourami is usually stressed or not displaying, but dwarf gouramis often carry iridovirus (DGIV). How to tell the difference and what to do.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/dwarf-gourami-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Koi Not Eating? Check the Water Temperature First</title>
+    <link>https://www.fishcareai.com/fish-health/koi-not-eating</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/koi-not-eating</guid>
+    <pubDate>Mon, 28 Sep 2026 10:15:10 GMT</pubDate>
+    <description>Koi eat less as ponds cool and barely at all in cold water. How to tell a normal seasonal slowdown from low oxygen, parasites or koi herpesvirus.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/koi-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Guppy Breathing Fast? Test Ammonia and Oxygen First</title>
+    <link>https://www.fishcareai.com/fish-health/guppy-rapid-breathing</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/guppy-rapid-breathing</guid>
+    <pubDate>Mon, 28 Sep 2026 10:15:10 GMT</pubDate>
+    <description>A guppy breathing fast is usually reacting to ammonia, nitrite, low oxygen or heat. What to test first, when it is gill flukes, and how to fix it today.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/guppy-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Guppy Curled or Bent Body? Genetics, Water or Fish TB</title>
+    <link>https://www.fishcareai.com/fish-health/guppy-curled-body</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/guppy-curled-body</guid>
+    <pubDate>Mon, 28 Sep 2026 10:15:10 GMT</pubDate>
+    <description>A bent guppy is often born that way, but a sudden curl means test the water today. How to tell inherited curves from toxins and mycobacteriosis.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/guppy-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Flowerhorn Losing Color? Often Fading, Not Disease</title>
+    <link>https://www.fishcareai.com/fish-health/flowerhorn-cichlid-losing-color</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/flowerhorn-cichlid-losing-color</guid>
+    <pubDate>Mon, 28 Sep 2026 10:15:10 GMT</pubDate>
+    <description>A flowerhorn losing its black markings is usually a natural fader. How to tell fading from stress, boosted shop colour, diet and water problems.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/flowerhorn-cichlid-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Flowerhorn Cloudy Eye? Usually Injury or Water, Not Disease</title>
+    <link>https://www.fishcareai.com/fish-health/flowerhorn-cichlid-cloudy-eyes</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/flowerhorn-cichlid-cloudy-eyes</guid>
+    <pubDate>Mon, 28 Sep 2026 10:15:10 GMT</pubDate>
+    <description>A cloudy eye on a flowerhorn is most often an injury or poor water, not a disease. How to tell one eye from both, when it is infection, and what to do.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/flowerhorn-cichlid-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Flowerhorn Suddenly Aggressive? Often Breeding or Territory</title>
+    <link>https://www.fishcareai.com/fish-health/flowerhorn-cichlid-aggressive</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/flowerhorn-cichlid-aggressive</guid>
+    <pubDate>Mon, 28 Sep 2026 10:15:10 GMT</pubDate>
+    <description>A flowerhorn that turns aggressive is usually maturing, ready to breed or defending new territory. How to find the trigger and keep tank mates safe.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/flowerhorn-cichlid-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Ember Tetra Losing Color? Settling In, Stress or Diet</title>
+    <link>https://www.fishcareai.com/fish-health/ember-tetra-losing-color</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/ember-tetra-losing-color</guid>
+    <pubDate>Mon, 28 Sep 2026 10:15:10 GMT</pubDate>
+    <description>Pale ember tetras are usually young, female, new or stressed. How to bring back the orange-red with the right group, tank, diet and water.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/ember-tetra-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Cardinal Tetra White Spots? Usually Ich — Start Treating Now</title>
+    <link>https://www.fishcareai.com/fish-health/cardinal-tetra-white-spots</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/cardinal-tetra-white-spots</guid>
+    <pubDate>Mon, 28 Sep 2026 10:15:10 GMT</pubDate>
+    <description>Salt-grain white spots on a cardinal tetra are almost always ich. How to confirm it, treat safely in soft water, and rule out velvet, cysts and columnaris.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/cardinal-tetra-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Cardinal Tetra Losing Color? Usually Night Fade or Stress</title>
+    <link>https://www.fishcareai.com/fish-health/cardinal-tetra-losing-color</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/cardinal-tetra-losing-color</guid>
+    <pubDate>Mon, 28 Sep 2026 10:15:10 GMT</pubDate>
+    <description>Cardinal tetras fade every night and when stressed. How to tell normal pallor from bright-light, water or neon tetra disease problems, and what to fix.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/cardinal-tetra-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Blood Parrot Swimming Sideways? Buoyancy, Food or Water</title>
+    <link>https://www.fishcareai.com/fish-health/blood-parrot-cichlid-swimming-sideways</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/blood-parrot-cichlid-swimming-sideways</guid>
+    <pubDate>Mon, 28 Sep 2026 10:15:10 GMT</pubDate>
+    <description>Blood parrots are prone to buoyancy problems from their hybrid body shape. How to tell a feeding issue from bad water or infection, and what to do today.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/blood-parrot-cichlid-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Blood Parrot Losing Color? Often Shop Color or Dye Fading</title>
+    <link>https://www.fishcareai.com/fish-health/blood-parrot-cichlid-losing-color</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/blood-parrot-cichlid-losing-color</guid>
+    <pubDate>Mon, 28 Sep 2026 10:15:10 GMT</pubDate>
+    <description>A blood parrot that fades after purchase is usually losing colour food or dye, not sick. How to read the colour change and when it signals a problem.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/blood-parrot-cichlid-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Black Neon Tetra Pale? Why the Black Stripe Fades</title>
+    <link>https://www.fishcareai.com/fish-health/black-neon-tetra-pale-color</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/black-neon-tetra-pale-color</guid>
+    <pubDate>Mon, 28 Sep 2026 10:15:10 GMT</pubDate>
+    <description>A black neon's dark band fades with stress, a pale bright tank and at night. How to tell normal fading from water problems or neon tetra disease.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/black-neon-tetra-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Black Neon Tetra Hiding? Usually New, Alone or Outnumbered</title>
+    <link>https://www.fishcareai.com/fish-health/black-neon-tetra-hiding</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/black-neon-tetra-hiding</guid>
+    <pubDate>Mon, 28 Sep 2026 10:15:10 GMT</pubDate>
+    <description>Black neon tetras hide when newly moved, kept in too small a group or with bullies. How to tell normal shyness from water problems or early disease.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/black-neon-tetra-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Betta Black Spots? Usually Marble Genes or Healing Pigment</title>
+    <link>https://www.fishcareai.com/fish-health/betta-fish-black-spots</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/betta-fish-black-spots</guid>
+    <pubDate>Mon, 28 Sep 2026 10:15:10 GMT</pubDate>
+    <description>Flat black patches on a betta are usually marble colour genes or pigment returning after injury. When it is ammonia, a tumour or true black spot disease.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/betta-fish-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Honey Gourami Bloated? Overfeeding, Eggs or Dropsy</title>
+    <link>https://www.fishcareai.com/fish-health/honey-gourami-bloated</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/honey-gourami-bloated</guid>
+    <pubDate>Mon, 28 Sep 2026 10:12:44 GMT</pubDate>
+    <description>A tiny honey gourami bloats easily on too much dry food, and ripe females swell with eggs. How to tell these from dropsy, worms or gourami iridovirus.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/honey-gourami-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Giant Gourami Bloated? Diet, Eggs or Infection</title>
+    <link>https://www.fishcareai.com/fish-health/giant-gourami-bloated</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/giant-gourami-bloated</guid>
+    <pubDate>Mon, 28 Sep 2026 10:12:44 GMT</pubDate>
+    <description>A bloated giant gourami is usually overfed on rich food; mature females also fill with eggs. How to tell these from bacterial infection and ISKNV.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/giant-gourami-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Common Pleco Torn Fins? Usually Injury — or Fin Rot</title>
+    <link>https://www.fishcareai.com/fish-health/common-pleco-torn-fins</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/common-pleco-torn-fins</guid>
+    <pubDate>Mon, 28 Sep 2026 10:12:44 GMT</pubDate>
+    <description>Torn fins on a common pleco usually come from tank mates, tight caves or nets. How to tell a clean injury from fin rot, and how to help fins regrow.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/common-pleco-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Common Pleco Not Eating? Often It Feeds at Night</title>
+    <link>https://www.fishcareai.com/fish-health/common-pleco-not-eating</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/common-pleco-not-eating</guid>
+    <pubDate>Mon, 28 Sep 2026 10:12:44 GMT</pubDate>
+    <description>Most plecos that seem to refuse food are eating after dark or losing food to tank mates. How to check the belly, what to feed, and when it is illness.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/common-pleco-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Common Pleco Losing Color? Often Normal — or Stress</title>
+    <link>https://www.fishcareai.com/fish-health/common-pleco-losing-color</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/common-pleco-losing-color</guid>
+    <pubDate>Mon, 28 Sep 2026 10:12:44 GMT</pubDate>
+    <description>Plecos lighten and darken with light, background and mood. How to tell a normal colour shift from stress, bad water or infection causing pale patches.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/common-pleco-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Common Pleco Hiding? Usually Normal — When to Worry</title>
+    <link>https://www.fishcareai.com/fish-health/common-pleco-hiding</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/common-pleco-hiding</guid>
+    <pubDate>Mon, 28 Sep 2026 10:12:44 GMT</pubDate>
+    <description>Common plecos hide by day because they are nocturnal. How to confirm yours is feeding at night, and the signs that hiding means stress or illness.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/common-pleco-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Bristlenose Pleco Torn Fins? Often Males Fighting</title>
+    <link>https://www.fishcareai.com/fish-health/bristlenose-pleco-torn-fins</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/bristlenose-pleco-torn-fins</guid>
+    <pubDate>Mon, 28 Sep 2026 10:12:44 GMT</pubDate>
+    <description>Torn fins on a bristlenose pleco usually mean males fighting over caves. How to tell fight damage from fin rot, and how many caves and males to keep.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/bristlenose-pleco-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Bristlenose Pleco Pale? Normal Colour Change or Stress</title>
+    <link>https://www.fishcareai.com/fish-health/bristlenose-pleco-pale-color</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/bristlenose-pleco-pale-color</guid>
+    <pubDate>Mon, 28 Sep 2026 10:12:44 GMT</pubDate>
+    <description>Bristlenose plecos lighten and darken to match their background, so brief paleness is normal. How to tell it from stress, bad water or disease.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/bristlenose-pleco-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Bristlenose Pleco Not Eating? Check for Night Grazing</title>
+    <link>https://www.fishcareai.com/fish-health/bristlenose-pleco-not-eating</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/bristlenose-pleco-not-eating</guid>
+    <pubDate>Mon, 28 Sep 2026 10:12:44 GMT</pubDate>
+    <description>Most bristlenose that seem not to eat are grazing at night, settling in, or a male guarding eggs. How to check droppings and belly, and when to worry.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/bristlenose-pleco-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Bristlenose Pleco Bloated? Eggs, Overfeeding or Dropsy</title>
+    <link>https://www.fishcareai.com/fish-health/bristlenose-pleco-bloated</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/bristlenose-pleco-bloated</guid>
+    <pubDate>Mon, 28 Sep 2026 10:12:44 GMT</pubDate>
+    <description>A round-bellied bristlenose is usually overfed or a female full of eggs. How to sex it, check the belly and tell diet bloat from dropsy or parasites.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/bristlenose-pleco-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Weather Loach Jumping? Pressure Changes, Warm Water &amp; Lids</title>
+    <link>https://www.fishcareai.com/fish-health/weather-fish-jumping</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/weather-fish-jumping</guid>
+    <pubDate>Mon, 28 Sep 2026 10:10:23 GMT</pubDate>
+    <description>Weather loaches get restless and jump when air pressure changes, which is how they got their name. Why yours is jumping and how to stop it escaping.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/weather-fish-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Weather Loach Floating at the Top? Too Warm or Short of Air</title>
+    <link>https://www.fishcareai.com/fish-health/weather-fish-floating</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/weather-fish-floating</guid>
+    <pubDate>Mon, 28 Sep 2026 10:10:23 GMT</pubDate>
+    <description>Weather loaches gulp air, but one that hangs at the surface is usually too warm or short of oxygen. How to tell normal air breathing from real trouble.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/weather-fish-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Silver Arowana Not Eating? New-Tank Stress or Wrong Food</title>
+    <link>https://www.fishcareai.com/fish-health/silver-arowana-not-eating</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/silver-arowana-not-eating</guid>
+    <pubDate>Mon, 28 Sep 2026 10:10:23 GMT</pubDate>
+    <description>A new silver arowana often refuses food for days. How to tell settling-in stress and food refusal from cold water, poor water quality and illness.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/silver-arowana-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Silver Arowana Jumping? It's Hunting Instinct — Lid It Now</title>
+    <link>https://www.fishcareai.com/fish-health/silver-arowana-jumping</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/silver-arowana-jumping</guid>
+    <pubDate>Mon, 28 Sep 2026 10:10:23 GMT</pubDate>
+    <description>Silver arowana leap from the water to catch insects in the wild, so jumping in a tank is instinct. Why it happens, what triggers it and how to stop injuries.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/silver-arowana-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Oscar Fish Jumping? Startled by Lights, Feeding or Bad Water</title>
+    <link>https://www.fishcareai.com/fish-health/oscar-jumping</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/oscar-jumping</guid>
+    <pubDate>Mon, 28 Sep 2026 10:10:23 GMT</pubDate>
+    <description>Oscars jump when startled, often by lights switched on in a dark room, or when lunging for food. How to stop it and rescue an oscar on the floor.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/oscar-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Molly Jumping Out of Tank? Male Harassment or Low Oxygen</title>
+    <link>https://www.fishcareai.com/fish-health/molly-jumping</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/molly-jumping</guid>
+    <pubDate>Mon, 28 Sep 2026 10:10:23 GMT</pubDate>
+    <description>Female mollies flee relentless males; mollies gasping at the surface mean low oxygen. How to tell which, fix it today, and save a molly on the floor.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/molly-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Guppy Jumping Out of Tank? Natural Leaps or Harassed Females</title>
+    <link>https://www.fishcareai.com/fish-health/guppy-jumping</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/guppy-jumping</guid>
+    <pubDate>Mon, 28 Sep 2026 10:10:23 GMT</pubDate>
+    <description>Guppies are proven jumpers, and females chased by males try hard to get away. How to tell that from bad water, and what to do for a guppy found on the floor.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/guppy-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Goldfish Jumping Out of Tank? Low Oxygen or Ammonia</title>
+    <link>https://www.fishcareai.com/fish-health/goldfish-jumping</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/goldfish-jumping</guid>
+    <pubDate>Mon, 28 Sep 2026 10:10:23 GMT</pubDate>
+    <description>A goldfish that jumps is usually escaping stale water: low oxygen or ammonia in a small, crowded tank. How to test, fix it today and rescue a fish on the floor.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/goldfish-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Betta Fish Jumping? Open Tops, Strong Current or Bad Water</title>
+    <link>https://www.fishcareai.com/fish-health/betta-fish-jumping</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/betta-fish-jumping</guid>
+    <pubDate>Mon, 28 Sep 2026 10:10:23 GMT</pubDate>
+    <description>Bettas live at the surface and jump readily. Why yours leaps — open tank, strong filter, cold or dirty water — and how to rescue a betta found on the floor.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/betta-fish-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Betta Floating at the Top? Resting, Bloated or Sick</title>
+    <link>https://www.fishcareai.com/fish-health/betta-fish-floating</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/betta-fish-floating</guid>
+    <pubDate>Mon, 28 Sep 2026 10:10:23 GMT</pubDate>
+    <description>A betta at the surface is often just resting or breathing air. How to tell normal rest from overfeeding, swim bladder trouble and a fish that is dying.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/betta-fish-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Guppy Bloated? Pregnant, Overfed or Dropsy — How to Tell</title>
+    <link>https://www.fishcareai.com/fish-health/guppy-bloated</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/fish-health/guppy-bloated</guid>
+    <pubDate>Mon, 28 Sep 2026 09:47:01 GMT</pubDate>
+    <description>A bloated female guppy is usually pregnant. How to check the gravid spot, and how to tell overfeeding, Camallanus worms and dropsy apart.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/guppy-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>How to Get Rid of Algae in Fish Tank: 7 Steps That Work</title>
+    <link>https://www.fishcareai.com/guides/how-to-get-rid-of-algae-in-fish-tank/</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/guides/how-to-get-rid-of-algae-in-fish-tank/</guid>
+    <pubDate>Sat, 19 Sep 2026 07:05:16 GMT</pubDate>
+    <description>How to get rid of algae in fish tank glass, gravel and plants in 7 steps: light, nutrients, water changes, scrubbing, flow, algae eaters and safe drops.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/algae-eater-fish-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Filtration Canister Guide: Choosing a Tank Canister Filter</title>
+    <link>https://www.fishcareai.com/guides/canister-filter/</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/guides/canister-filter/</guid>
+    <pubDate>Sat, 19 Sep 2026 07:05:16 GMT</pubDate>
+    <description>Filtration canister guide: how a tank canister filter works, the flow rate per gallon, what media to load, how often to clean it and what public aquariums use.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/algae-eater-fish-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Black Beard Algae: How to Identify and Kill BBA</title>
+    <link>https://www.fishcareai.com/guides/black-beard-algae/</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/guides/black-beard-algae/</guid>
+    <pubDate>Sat, 19 Sep 2026 07:05:16 GMT</pubDate>
+    <description>Black beard algae identified and treated: what causes BBA, how to kill it with hydrogen peroxide and siamese algae eaters, and how it differs from brown algae.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/algae-eater-fish-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Siamese Algae Eaters: True SAE vs Chinese Algae Eater</title>
+    <link>https://www.fishcareai.com/guides/algae-eater-fish/siamese-algae-eaters/</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/guides/algae-eater-fish/siamese-algae-eaters/</guid>
+    <pubDate>Sat, 19 Sep 2026 07:05:16 GMT</pubDate>
+    <description>Siamese algae eaters explained: how to tell a true SAE from the flying fox and chinese algae eater fish, what they eat, tank size and why they stop grazing.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/algae-eater-fish-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Algae Eater Fish: Best Algae Eaters for Freshwater Tanks</title>
+    <link>https://www.fishcareai.com/guides/algae-eater-fish/</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/guides/algae-eater-fish/</guid>
+    <pubDate>Sat, 19 Sep 2026 07:05:16 GMT</pubDate>
+    <description>Algae eater fish compared by tank size and algae type: otocinclus, siamese algae eater, bristlenose pleco, nerite snail and amano shrimp, plus the two to avoid.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/algae-eater-fish-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Grouper Fish Water Parameters: Temperature, Salinity, pH</title>
+    <link>https://www.fishcareai.com/guides/grouper-fish-care/water-parameters/</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/guides/grouper-fish-care/water-parameters/</guid>
+    <pubDate>Thu, 17 Sep 2026 14:43:15 GMT</pubDate>
+    <description>Grouper fish water parameters: 74–80°F, salinity 1.023–1.026, pH 8.1–8.4, nitrate under 30 ppm, and the skimmer and water changes a predator's bioload demands.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/grouper-fish-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Types of Grouper Fish for the Aquarium: 12 Species Compared</title>
+    <link>https://www.fishcareai.com/guides/grouper-fish-care/types/</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/guides/grouper-fish-care/types/</guid>
+    <pubDate>Thu, 17 Sep 2026 14:43:15 GMT</pubDate>
+    <description>Types of grouper fish for the aquarium: miniatus, panther, leopard, bluespotted, lyretail and blue-line hind compared by adult size, minimum tank, temperament.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/grouper-fish-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Grouper Fish Tank Size: Minimum Gallons by Species</title>
+    <link>https://www.fishcareai.com/guides/grouper-fish-care/tank-size/</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/guides/grouper-fish-care/tank-size/</guid>
+    <pubDate>Thu, 17 Sep 2026 14:43:15 GMT</pubDate>
+    <description>Grouper fish tank size by species: 75–100 gallons for dwarf hinds, 100–125 for miniatus, 180 for panther groupers, 180–300 for bluespotted and lyretail.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/grouper-fish-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Grouper Fish Tank Mates: What Can Live With a Grouper</title>
+    <link>https://www.fishcareai.com/guides/grouper-fish-care/tank-mates/</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/guides/grouper-fish-care/tank-mates/</guid>
+    <pubDate>Thu, 17 Sep 2026 14:43:15 GMT</pubDate>
+    <description>Grouper fish tank mates: the lionfish, tangs, angels, triggers and eels that work, the clownfish, gobies and shrimp that get eaten, and reef safety.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/grouper-fish-wikimedia-real.jpg" medium="image"/>
+  </item>
+  <item>
+    <title>Grouper Fish Size and Lifespan: How Big and How Fast</title>
+    <link>https://www.fishcareai.com/guides/grouper-fish-care/size-lifespan/</link>
+    <guid isPermaLink="true">https://www.fishcareai.com/guides/grouper-fish-care/size-lifespan/</guid>
+    <pubDate>Thu, 17 Sep 2026 14:43:15 GMT</pubDate>
+    <description>Grouper fish size in the aquarium by species (8 inches for dwarf hinds to 30 for lyretail), growth of 6–10 inches in year one, and a lifespan of 10–20 years.</description>
+    <media:content url="https://www.fishcareai.com/assets/encyclopedia/real/grouper-fish-wikimedia-real.jpg" medium="image"/>
+  </item>
+</channel>
+</rss>

@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "FishCare AI — Aquarium Care Guides & Tools",
+  "short_name": "FishCare AI",
+  "description": "Aquarium fish care guides, a species encyclopedia, fish health troubleshooting and free tools for tank size, stocking, water quality and compatibility.",
+  "lang": "en-US",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#061827",
+  "theme_color": "#061827",
+  "categories": ["education", "lifestyle", "utilities"],
+  "icons": [
+    { "src": "/assets/pwa/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/pwa/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/pwa/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Care Guides", "url": "/guides/", "icons": [{ "src": "/assets/pwa/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Aquarium Tools", "url": "/tools/", "icons": [{ "src": "/assets/pwa/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Fish Identification", "url": "/identify/", "icons": [{ "src": "/assets/pwa/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Fish Health", "url": "/fish-health/", "icons": [{ "src": "/assets/pwa/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
