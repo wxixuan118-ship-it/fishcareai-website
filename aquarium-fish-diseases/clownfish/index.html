@@ -1,683 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Clownfish Diseases: Symptoms, Diagnosis & Treatment Guide</title>
-<meta name="description" content="Identify common clownfish diseases and symptoms: not eating, sinking, losing color, swimming sideways. Find causes, treatment options, and species-specific guides for ocellaris, percula, and maroon clownfish.">
-<link rel="canonical" href="https://www.fishcareai.com/aquarium-fish-diseases/clownfish/">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Clownfish Diseases: Symptoms, Diagnosis & Treatment">
-<meta property="og:description" content="Complete guide to clownfish diseases and health problems, including diagnosis steps and treatment recommendations for ocellaris, percula, and maroon clownfish.">
-<meta property="og:url" content="https://www.fishcareai.com/aquarium-fish-diseases/clownfish/">
-<meta property="og:site_name" content="FishCare AI">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Clownfish Diseases: Symptoms, Diagnosis & Treatment">
-<meta name="twitter:description" content="Identify and treat common clownfish health problems with our comprehensive species guides.">
-<style>
-body {
-  background: #07192D !important;
-  color: #D8EAF5 !important;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-}
-
-.con {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.hero {
-  background: linear-gradient(135deg, rgba(5,28,42,.95) 0%, rgba(11,50,80,.85) 100%);
-  padding: 60px 20px;
-  text-align: center;
-  border-bottom: 1px solid rgba(122,170,190,.2);
-}
-
-.hero h1 {
-  font-size: 2.4em;
-  margin: 20px 0 10px;
-  color: #D8EAF5 !important;
-  font-weight: 700;
-}
-
-.hero p {
-  font-size: 1.1em;
-  color: #7AAABE !important;
-  margin: 15px 0;
-}
-
-.breadcrumb {
-  color: #7AAABE !important;
-  font-size: 0.9em;
-  margin-bottom: 20px;
-}
-
-.breadcrumb a {
-  color: #7ecaf5 !important;
-  text-decoration: none;
-}
-
-.breadcrumb a:hover {
-  text-decoration: underline;
-}
-
-.breadcrumb span {
-  margin: 0 8px;
-}
-
-section {
-  padding: 40px 0;
-  border-bottom: 1px solid rgba(122,170,190,.15);
-}
-
-section h2 {
-  font-size: 1.8em;
-  margin: 0 0 25px;
-  color: #D8EAF5 !important;
-  font-weight: 700;
-}
-
-section h3 {
-  font-size: 1.3em;
-  margin: 20px 0 15px;
-  color: #7ecaf5 !important;
-  font-weight: 600;
-}
-
-section p {
-  margin: 12px 0;
-  color: #D8EAF5 !important;
-  font-size: 1em;
-}
-
-.table-wrapper {
-  overflow-x: auto;
-  margin: 20px 0;
-  background: #0D2741 !important;
-  border: 1px solid #1A3A5C !important;
-  border-radius: 8px;
-  padding: 0;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  background: #0D2741 !important;
-}
-
-table th {
-  background: #0F3D6E !important;
-  color: #D8EAF5 !important;
-  padding: 14px;
-  text-align: left;
-  font-weight: 600;
-  border-bottom: 2px solid #1A3A5C !important;
-  font-size: 0.95em;
-}
-
-table td {
-  padding: 12px 14px;
-  border-bottom: 1px solid #1A3A5C !important;
-  color: #D8EAF5 !important;
-}
-
-table tr:hover {
-  background: rgba(26,58,92,.5) !important;
-}
-
-table a {
-  color: #7ecaf5 !important;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-table a:hover {
-  text-decoration: underline;
-}
-
-.symptom-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 16px;
-  margin: 20px 0;
-}
-
-.symptom-card {
-  background: #0D2741 !important;
-  border: 1px solid #1A3A5C !important;
-  border-radius: 8px;
-  padding: 18px;
-  text-decoration: none;
-  color: inherit;
-  transition: all 0.2s;
-}
-
-.symptom-card:hover {
-  background: #0F3D6E !important;
-  border-color: #2A9CD8 !important;
-  transform: translateY(-2px);
-}
-
-.symptom-card h4 {
-  margin: 0 0 8px;
-  color: #7ecaf5 !important;
-  font-size: 1em;
-  font-weight: 600;
-}
-
-.symptom-card p {
-  margin: 0;
-  font-size: 0.9em;
-  color: rgba(160,205,235,.82) !important;
-}
-
-.species-section {
-  background: rgba(13,39,65,.5) !important;
-  border: 1px solid #1A3A5C !important;
-  border-radius: 8px;
-  padding: 20px;
-  margin: 20px 0;
-}
-
-.species-section h3 {
-  margin-top: 0;
-}
-
-.faq-item {
-  margin: 20px 0;
-  background: #0D2741 !important;
-  border-left: 4px solid #2A9CD8 !important;
-  padding: 16px;
-  border-radius: 4px;
-}
-
-.faq-item strong {
-  color: #7ecaf5 !important;
-  display: block;
-  margin-bottom: 8px;
-  font-size: 1.05em;
-}
-
-.faq-item p {
-  margin: 8px 0;
-  font-size: 0.95em;
-}
-
-.sources {
-  background: rgba(13,39,65,.5) !important;
-  border: 1px solid #1A3A5C !important;
-  border-radius: 8px;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-.sources ul {
-  margin: 10px 0;
-  padding-left: 20px;
-}
-
-.sources li {
-  margin: 8px 0;
-  color: #D8EAF5 !important;
-}
-
-.sources a {
-  color: #7ecaf5 !important;
-  text-decoration: none;
-}
-
-.sources a:hover {
-  text-decoration: underline;
-}
-
-.back-link {
-  display: inline-block;
-  margin-bottom: 20px;
-  color: #7ecaf5 !important;
-  text-decoration: none;
-  font-size: 0.95em;
-}
-
-.back-link:hover {
-  text-decoration: underline;
-}
-
-.note {
-  background: rgba(42, 156, 216, 0.1) !important;
-  border-left: 4px solid #2A9CD8 !important;
-  padding: 14px;
-  border-radius: 4px;
-  margin: 16px 0;
-  font-size: 0.95em;
-  color: rgba(160,205,235,.88) !important;
-}
-
-.urgency-note {
-  background: rgba(220, 53, 69, 0.1) !important;
-  border-left: 4px solid #DC3545 !important;
-  padding: 14px;
-  border-radius: 4px;
-  margin: 16px 0;
-}
-
-.urgency-note strong {
-  color: #FF6B7A !important;
-}
-
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 1.8em;
-  }
-
-  .symptom-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .table-wrapper {
-    font-size: 0.85em;
-  }
-
-  table th, table td {
-    padding: 10px;
-  }
-}
-</style>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<title>Clownfish Health Problems &amp; Diseases: Symptoms, Treatment</title>
+<meta name="description" content="Common clownfish health problems and diseases by symptom: marine ich, velvet, Brooklynella, Uronema and flukes, with urgency triage and quarantine treatment."/>
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Clownfish Health Problems &amp; Diseases: Symptoms, Treatment"/>
+<meta property="og:description" content="Common clownfish health problems and diseases by symptom: marine ich, velvet, Brooklynella, Uronema and flukes, with urgency triage and quarantine treatment."/>
+<meta property="og:url" content="https://www.fishcareai.com/aquarium-fish-diseases/clownfish/"/>
+<meta property="og:image" content="https://www.fishcareai.com/assets/guides/clownfish/ocellaris-clownfish-cc-by-3.jpg"/>
+<meta property="og:site_name" content="FishCare AI"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="google-adsense-account" content="ca-pub-6697313643773879"/>
+<link rel="canonical" href="https://www.fishcareai.com/aquarium-fish-diseases/clownfish/"/>
+<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260823-screenshot"/>
+<link rel="stylesheet" href="/assets/clownfish-health.css?v=20261008"/>
+<script defer src="/assets/site-compliance.js?v=20260824-dark-fix"></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Clownfish Health Problems & Diseases: Symptoms, Treatment", "description": "Common clownfish health problems and diseases by symptom: marine ich, velvet, Brooklynella, Uronema and flukes, with urgency triage and quarantine treatment.", "image": "https://www.fishcareai.com/assets/guides/clownfish/ocellaris-clownfish-cc-by-3.jpg", "datePublished": "2026-08-24", "dateModified": "2026-10-08", "mainEntityOfPage": "https://www.fishcareai.com/aquarium-fish-diseases/clownfish/", "author": {"@type": "Organization", "name": "FishCare AI Editorial Team", "url": "https://www.fishcareai.com/editorial-policy/"}, "publisher": {"@type": "Organization", "name": "FishCare AI", "logo": {"@type": "ImageObject", "url": "https://www.fishcareai.com/assets/fishcare-logo.svg"}}, "citation": ["https://ask.ifas.ufl.edu/publication/FA164", "https://thefishsite.com/articles/amyloodinium-ocellatum-an-important-parasite-of-cultured-marine-fish", "https://ask.ifas.ufl.edu/publication/FA165", "https://www.vin.com/doc/?id=3863586", "https://www.int-res.com/abstracts/dao/v36/n3/p213-219/", "https://doi.org/10.1590/S1984-296120180076", "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/parasitic-diseases-of-fish", "https://doi.org/10.3390/ani13010153"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fishcareai.com/"}, {"@type": "ListItem", "position": 2, "name": "Clownfish Health Problems", "item": "https://www.fishcareai.com/aquarium-fish-diseases/clownfish/"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What are clownfish health problems usually caused by?", "acceptedAnswer": {"@type": "Answer", "text": "Most start with stress — a new tank, unstable salinity or temperature, or an aggressive tank mate — which weakens the slime coat and lets parasites such as ich, velvet and Brooklynella take hold. Unquarantined new fish are the most common source."}}, {"@type": "Question", "name": "What is \"clownfish disease\"?", "acceptedAnswer": {"@type": "Answer", "text": "It's the common name for Brooklynella hostilis, a ciliate parasite that causes thick white slime and peeling skin. It's especially common in wild-caught clownfish and can kill within days, so formalin treatment should start the day you notice it[4]."}}, {"@type": "Question", "name": "How do I tell marine ich from velvet?", "acceptedAnswer": {"@type": "Answer", "text": "Ich forms separate white dots about the size of salt grains. Velvet looks like a fine gold or grey powder that's easiest to see with a flashlight from the side, and it comes with much faster breathing. If in doubt, treat as velvet."}}, {"@type": "Question", "name": "Why is my clownfish not eating?", "acceptedAnswer": {"@type": "Answer", "text": "In a new fish it's usually stress and settles in 3–5 days. In an established fish, test water and look for spots, slime or rapid breathing — loss of appetite is often the first sign of a parasite."}}, {"@type": "Question", "name": "Can I treat clownfish diseases in a reef tank?", "acceptedAnswer": {"@type": "Answer", "text": "No. Copper and formalin are toxic to corals and invertebrates, and parasites will survive in the display anyway. Treat in a separate quarantine tank and leave the display fishless."}}, {"@type": "Question", "name": "How long does a clownfish take to recover?", "acceptedAnswer": {"@type": "Answer", "text": "It depends on the disease. Copper treatment for marine ich runs for at least 3–6 weeks[1], and the fish should stay in quarantine for at least two weeks after the last symptom before going back."}}, {"@type": "Question", "name": "Is my clownfish sick or just wiggling?", "acceptedAnswer": {"@type": "Answer", "text": "Clownfish naturally shimmy and \"wiggle\" near their host anemone or a favorite spot. That's normal if the fish eats well, has clear skin and breathes calmly."}}]}]}</script>
 </head>
 <body>
+<nav class="nb"><a class="brand" href="/"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"/></a><div class="nav"><a href="/">Home</a><a href="/guides/">Guides</a><a href="/species">Encyclopedia</a><a class="act" href="/fish-health/">Fish Health</a><a href="/identify/">🔍 Fish ID</a><a href="/#tools">Tools</a><a class="cta" href="/#tools">Try AI Free</a></div></nav>
 
-<nav aria-label="Skip to main content" style="position: absolute; top: -40px;">
-  <a href="#main" style="background: #2A9CD8; color: white; padding: 8px 12px; text-decoration: none; border-radius: 4px;">Skip to main content</a>
-</nav>
-
-<div class="hero">
-  <div class="con">
-    <div class="breadcrumb">
-      <a href="https://www.fishcareai.com">Home</a>
-      <span>/</span>
-      <a href="https://www.fishcareai.com/aquarium-fish-diseases/">Aquarium Fish Diseases</a>
-      <span>/</span>
-      <span>Clownfish Diseases</span>
+<header class="cf-hero">
+  <img src="/assets/guides/clownfish/ocellaris-clownfish-cc-by-3.jpg" alt="Healthy ocellaris clownfish, the reference point for spotting clownfish health problems" width="1600" height="1067" fetchpriority="high"/>
+  <div class="hero-inner">
+    <div class="crumbs"><a href="/">Home</a><span>/</span>Clownfish Health Problems</div>
+    <span class="tag">Saltwater Fish Health</span>
+    <h1>Clownfish Health Problems &amp; Diseases: Symptoms and Treatment</h1>
+    <p>Match what you see on your ocellaris, percula or maroon clownfish to the likely disease, judge how fast you need to act, and treat it safely in quarantine.</p>
+    <div class="hero-stats">
+      <div><b>5</b>major marine diseases</div>
+      <div><b>30</b>symptoms covered</div>
+      <div><b>4</b>species guides</div>
+      <div><b>Days</b>how fast velvet &amp; Brooklynella can kill</div>
     </div>
-    <h1>Clownfish Diseases: Symptoms, Diagnosis & Treatment</h1>
-    <p>Complete guide to common clownfish health problems, including ocellaris, percula, and maroon clownfish disease care.</p>
   </div>
-</div>
+</header>
 
-<main id="main">
-  <div class="con">
-
-    <a href="https://www.fishcareai.com/aquarium-fish-diseases/" class="back-link">← Back to All Fish Diseases</a>
-
-    <!-- Introduction -->
-    <section>
-      <p>Clownfish are hardy but can develop health issues when stressed by poor water quality, sudden temperature changes, or overcrowding. This guide helps you identify common clownfish diseases by symptoms and find the right diagnosis and treatment for ocellaris (false clownfish), percula (true clownfish), and maroon clownfish.</p>
-      <p>Always test your water parameters (ammonia, nitrite, nitrate, pH, temperature) first — poor water quality is the most common root cause of visible symptoms. If symptoms persist despite corrected water conditions, contact an aquatic veterinarian.</p>
-    </section>
-
-    <!-- Symptom Reference Table -->
-    <section>
-      <h2>Quick Symptom Finder</h2>
-      <p>Find your clownfish's symptom below and see which pages cover that condition across species:</p>
-      <div class="table-wrapper">
-        <table>
-          <thead>
-            <tr>
-              <th>Symptom</th>
-              <th>Ocellaris (False Clownfish)</th>
-              <th>Percula (True Clownfish)</th>
-              <th>Maroon Clownfish</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>Not Eating</strong></td>
-              <td><a href="https://www.fishcareai.com/fish-health/ocellaris-clownfish-not-eating">View Guide →</a></td>
-              <td><a href="https://www.fishcareai.com/fish-health/percula-clownfish-not-eating">View Guide →</a></td>
-              <td><a href="https://www.fishcareai.com/fish-health/maroon-clownfish-not-eating">View Guide →</a></td>
-            </tr>
-            <tr>
-              <td><strong>Losing Color / Pale</strong></td>
-              <td>—</td>
-              <td><a href="https://www.fishcareai.com/fish-health/percula-clownfish-losing-color">View Guide →</a></td>
-              <td>—</td>
-            </tr>
-            <tr>
-              <td><strong>Sinking / Not Floating</strong></td>
-              <td><a href="https://www.fishcareai.com/fish-health/ocellaris-clownfish-sinking">View Guide →</a></td>
-              <td>—</td>
-              <td>—</td>
-            </tr>
-            <tr>
-              <td><strong>Floating / Swimming Upside Down</strong></td>
-              <td><a href="https://www.fishcareai.com/fish-health/ocellaris-clownfish-floating">View Guide →</a></td>
-              <td>—</td>
-              <td>—</td>
-            </tr>
-            <tr>
-              <td><strong>Swimming Sideways</strong></td>
-              <td><a href="https://www.fishcareai.com/fish-health/ocellaris-clownfish-swimming-sideways">View Guide →</a></td>
-              <td>—</td>
-              <td><a href="https://www.fishcareai.com/fish-health/maroon-clownfish-swimming-sideways">View Guide →</a></td>
-            </tr>
-            <tr>
-              <td><strong>Curled / Bent Body</strong></td>
-              <td><a href="https://www.fishcareai.com/fish-health/ocellaris-clownfish-curled-body">View Guide →</a></td>
-              <td>—</td>
-              <td><a href="https://www.fishcareai.com/fish-health/maroon-clownfish-curled-body">View Guide →</a></td>
-            </tr>
-            <tr>
-              <td><strong>Red Streaks / Sores / Ulcers</strong></td>
-              <td><a href="https://www.fishcareai.com/fish-health/ocellaris-clownfish-red-streaks">View Guide →</a></td>
-              <td>—</td>
-              <td>—</td>
-            </tr>
-            <tr>
-              <td><strong>Coughing / Gasping</strong></td>
-              <td>—</td>
-              <td><a href="https://www.fishcareai.com/fish-health/percula-clownfish-coughing">View Guide →</a></td>
-              <td>—</td>
-            </tr>
-            <tr>
-              <td><strong>Bulging / Cloudy Eyes</strong></td>
-              <td>—</td>
-              <td><a href="https://www.fishcareai.com/fish-health/percula-clownfish-bulging-eyes">View Guide →</a></td>
-              <td>—</td>
-            </tr>
-            <tr>
-              <td><strong>White Spots / Patches</strong></td>
-              <td>—</td>
-              <td>—</td>
-              <td><a href="https://www.fishcareai.com/fish-health/tomato-clownfish-white-spots">View Guide →</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <!-- Common Causes Section -->
-    <section>
-      <h2>Most Common Clownfish Health Problems</h2>
-      <p><strong>Not Eating</strong> (most common across all species) — Often caused by water quality stress, new-tank shock, or bacterial infection. Test ammonia, nitrite, and nitrate first.</p>
-      <p><strong>Sinking or Floating</strong> — Usually swim bladder issues from rapid water changes, constipation, or gas-bubble disease. Occasionally serious (bacterial/parasitic).</p>
-      <p><strong>Losing Color (Percula)</strong> — Stress-related (isolation, low oxygen, temperature swings). Can also indicate parasitic infection or poor lighting.</p>
-      <p><strong>Swimming Sideways / Curved Body</strong> — Neurological signs; can be parasitic (flukes) or bacterial. Requires close observation and possible treatment.</p>
-    </section>
-
-    <!-- Species-Specific Sections -->
-    <section>
-      <h2>Clownfish Species: Health & Behavior Differences</h2>
-
-      <div class="species-section">
-        <h3>🐠 Ocellaris (False Clownfish)</h3>
-        <p><strong>Most common in home aquariums. Most frequent issue: Not eating (14 exposures in search data)</strong></p>
-        <p>Ocellaris are generally hardy but sensitive to isolation stress. When a new ocellaris stops eating, check:</p>
-        <ul style="color: #D8EAF5 !important; margin: 12px 0; padding-left: 20px;">
-          <li>Ammonia / nitrite = 0 ppm (test immediately)</li>
-          <li>Tank mates: aggressive fish nearby?</li>
-          <li>Recent additions: did you just add this fish or new decor?</li>
-          <li>Temperature: stable 72–78°F?</li>
-        </ul>
-        <p><strong>Common pages:</strong></p>
-        <div class="symptom-grid">
-          <a href="https://www.fishcareai.com/fish-health/ocellaris-clownfish-not-eating" class="symptom-card">
-            <h4>Not Eating</h4>
-            <p>Most common issue for ocellaris</p>
-          </a>
-          <a href="https://www.fishcareai.com/fish-health/ocellaris-clownfish-sinking" class="symptom-card">
-            <h4>Sinking</h4>
-            <p>Swim bladder or water quality</p>
-          </a>
-          <a href="https://www.fishcareai.com/fish-health/ocellaris-clownfish-floating" class="symptom-card">
-            <h4>Floating</h4>
-            <p>Gas bubble or buoyancy issues</p>
-          </a>
-          <a href="https://www.fishcareai.com/fish-health/ocellaris-clownfish-red-streaks" class="symptom-card">
-            <h4>Red Streaks</h4>
-            <p>Possible bacterial infection</p>
-          </a>
-        </div>
-      </div>
-
-      <div class="species-section">
-        <h3>🐠 Percula (True Clownfish)</h3>
-        <p><strong>Most frequent issue: Losing color / becoming pale (7 exposures)</strong></p>
-        <p>Percula are similar to ocellaris but slightly more aggressive with tank mates. Color loss usually signals stress from water changes or low pH.</p>
-        <ul style="color: #D8EAF5 !important; margin: 12px 0; padding-left: 20px;">
-          <li>Check pH: should stay 8.0–8.3 (marine) or 6.5–7.5 (freshwater, if mixing)</li>
-          <li>Gradual acclimation: took 30+ min drip acclimation when introduced?</li>
-          <li>Tank mates: larger fish bullying?</li>
-        </ul>
-        <p><strong>Common pages:</strong></p>
-        <div class="symptom-grid">
-          <a href="https://www.fishcareai.com/fish-health/percula-clownfish-losing-color" class="symptom-card">
-            <h4>Losing Color</h4>
-            <p>Stress or water quality shift</p>
-          </a>
-          <a href="https://www.fishcareai.com/fish-health/percula-clownfish-not-eating" class="symptom-card">
-            <h4>Not Eating</h4>
-            <p>Isolation or acclimation stress</p>
-          </a>
-          <a href="https://www.fishcareai.com/fish-health/percula-clownfish-coughing" class="symptom-card">
-            <h4>Coughing / Gasping</h4>
-            <p>Low oxygen or gill parasites</p>
-          </a>
-          <a href="https://www.fishcareai.com/fish-health/percula-clownfish-bulging-eyes" class="symptom-card">
-            <h4>Bulging Eyes</h4>
-            <p>Possible bacterial or viral</p>
-          </a>
-        </div>
-      </div>
-
-      <div class="species-section">
-        <h3>🐠 Maroon Clownfish</h3>
-        <p><strong>Most frequent issue: Swimming sideways + not eating (8 exposures combined)</strong></p>
-        <p>Maroon clownfish are aggressive and territorial. They often injure themselves or other fish during fighting. Many "illness" signs are actually fight wounds or stress from dominance battles.</p>
-        <ul style="color: #D8EAF5 !important; margin: 12px 0; padding-left: 20px;">
-          <li>Aggressive: keep alone or only with very large, equally aggressive tank mates</li>
-          <li>Territorial: do NOT add new fish near their preferred hiding spot</li>
-          <li>Combat: look for torn fins, missing scales, bite marks (not disease)</li>
-        </ul>
-        <p><strong>Common pages:</strong></p>
-        <div class="symptom-grid">
-          <a href="https://www.fishcareai.com/fish-health/maroon-clownfish-swimming-sideways" class="symptom-card">
-            <h4>Swimming Sideways</h4>
-            <p>Neurological or injury from combat</p>
-          </a>
-          <a href="https://www.fishcareai.com/fish-health/maroon-clownfish-not-eating" class="symptom-card">
-            <h4>Not Eating</h4>
-            <p>Stress or recovery from injury</p>
-          </a>
-          <a href="https://www.fishcareai.com/fish-health/maroon-clownfish-curled-body" class="symptom-card">
-            <h4>Curled Body</h4>
-            <p>Parasitic or bacterial (or pain)</p>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Before You Treat -->
-    <section>
-      <h2>Before You Treat: Checklist</h2>
-      <div class="note">
-        <strong>Rule out water quality first.</strong> Ammonia, nitrite, and unsuitable pH cause 70% of visible clownfish symptoms. Treating with medication when the real problem is water chemistry wastes money and stresses the fish more.
-      </div>
-      <ol style="color: #D8EAF5 !important;">
-        <li><strong>Test water:</strong> Ammonia (0 ppm), Nitrite (0 ppm), Nitrate (&lt;20 ppm), pH (8.0–8.3 marine / 6.5–7.5 freshwater), Temperature (72–78°F)</li>
-        <li><strong>Observe behavior:</strong> Is only one fish sick, or multiple? Sudden onset or gradual?</li>
-        <li><strong>Check tank mates:</strong> Can the sick fish hide and rest? Any aggressive neighbors?</li>
-        <li><strong>Quarantine if contagious suspected:</strong> Bacterial or parasitic diseases spread; isolate the sick fish in a 10-gal minimum hospital tank with stable conditions</li>
-        <li><strong>Avoid mixing medications:</strong> Don't combine copper, antibiotics, and antiparasitics without professional guidance</li>
-        <li><strong>Document symptoms:</strong> Photo, date, duration, diet response — helpful for a vet if needed</li>
-      </ol>
-    </section>
-
-    <!-- FAQ -->
-    <section>
-      <h2>Frequently Asked Questions</h2>
-
-      <div class="faq-item">
-        <strong>Q: Why is my clownfish not eating?</strong>
-        <p>A: The top causes are water quality stress (ammonia/nitrite), new-tank shock (isolation), or bacterial infection. Test your water first. If ammonia and nitrite are 0 ppm and temperature is stable, the fish likely needs 3–5 more days to acclimate. Offer varied food (flake, pellet, frozen mysis). If no improvement after a week, suspect illness and consider quarantine.</p>
-      </div>
-
-      <div class="faq-item">
-        <strong>Q: Why is my clownfish sinking or not floating?</strong>
-        <p>A: Sinking usually indicates swim bladder dysfunction or constipation. Check water parameters; a 25% water change can help. If the fish was recently added or fed heavily, try fasting for 1–2 days then offer cooked, de-shelled peas (soften in warm water). If sinking persists and the fish is breathing hard, consider bacterial infection and quarantine.</p>
-      </div>
-
-      <div class="faq-item">
-        <strong>Q: Why is my clownfish losing color or becoming pale?</strong>
-        <p>A: Stress from sudden water changes, low pH, or bullying tank mates causes color loss. Gradual fading usually means improved water quality and stable pH/temp will resolve it in 2–3 weeks. If the fish also stops eating and has red streaks, consider infection and test water chemistry.</p>
-      </div>
-
-      <div class="faq-item">
-        <strong>Q: Why is my clownfish swimming sideways or has a curved body?</strong>
-        <p>A: This is a neurological sign, often caused by parasitic flukes, bacterial infection, or physical injury. Isolate immediately and monitor for other symptoms (torn fins, red patches, rapid breathing). If only one fish is affected and tank mates are aggressive (especially maroon clownfish), the sideways swimming may be from an injury or escape attempt.</p>
-      </div>
-
-      <div class="faq-item">
-        <strong>Q: Can different clownfish species live together?</strong>
-        <p>A: Ocellaris and percula often coexist, but maroon clownfish are highly aggressive and territorial. They will attack ocellaris or percula, especially larger ones. Keep maroon clownfish alone or only with equally large and aggressive species (giant moray, lionfish, large groupers).</p>
-      </div>
-
-      <div class="faq-item">
-        <strong>Q: Do I need to quarantine a sick clownfish?</strong>
-        <p>A: Yes, if you suspect a contagious disease (white spots, fuzzy growth, rapid breathing, red sores). Isolation protects other fish and makes observation and medication easier. A 10-gallon hospital tank with stable temperature, gentle aeration, and hiding spots works well. Never quarantine if the problem is only water quality or isolation stress — move to a larger, established tank instead.</p>
-      </div>
-
-      <div class="faq-item">
-        <strong>Q: Can I treat clownfish diseases in the main tank?</strong>
-        <p>A: For mild cases (stress-related color loss, new-tank acclimation), stable water conditions in the main tank often resolve the issue in 1–2 weeks. For contagious or serious symptoms (visible parasites, ulcers, gasping), quarantine is safer. Some medications (copper, antibiotics) can harm beneficial bacteria in the main tank.</p>
-      </div>
-
-      <div class="faq-item">
-        <strong>Q: How long does it take a clownfish to recover from ich (white spots)?</strong>
-        <p>A: With proper treatment (copper medication or elevated temperature 78–80°F + air stone), most clownfish recover in 7–14 days. Always follow the medication label for dosage and duration. After symptoms vanish, continue treatment for 2 more days to kill any remaining parasites. Prevent recurrence by maintaining stable water chemistry and reducing stress.</p>
-      </div>
-
-      <div class="faq-item">
-        <strong>Q: What water parameters prevent clownfish diseases?</strong>
-        <p>A: Stable ammonia (0 ppm), nitrite (0 ppm), nitrate (&lt;20 ppm), pH (8.0–8.3 marine / 6.5–7.5 freshwater), and temperature (72–78°F) are non-negotiable. Weekly 25% water changes, moderate stocking, and regular filter maintenance keep these in check. Test monthly with a liquid test kit (more accurate than test strips).</p>
-      </div>
-
-      <div class="faq-item">
-        <strong>Q: Are maroon clownfish more disease-prone than ocellaris or percula?</strong>
-        <p>A: Maroon clownfish are not inherently more prone to disease but are more aggressive and often injure themselves or tank mates during fights. What looks like an illness (curled body, not eating, sideways swimming) may be stress or combat injury. Keep maroon clownfish in a species tank or with very large, non-aggressive species to reduce these behavioral health issues.</p>
-      </div>
-    </section>
-
-    <!-- Data Sources -->
-    <section>
-      <h2 id="sources-heading">Sources and Editorial Method</h2>
-      <div class="sources">
-        <p><strong>This guide draws on:</strong></p>
-        <ul>
-          <li><a href="https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish" target="_blank" rel="noopener">Merck Veterinary Manual – Management of Aquarium Fish</a></li>
-          <li><a href="https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/parasitic-diseases-of-fish" target="_blank" rel="noopener">Merck Veterinary Manual – Parasitic Diseases of Fish</a></li>
-          <li><a href="https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish" target="_blank" rel="noopener">Merck Veterinary Manual – Bacterial Diseases of Fish</a></li>
-          <li><a href="https://www.woah.org/en/what-we-do/animal-health-and-welfare/aquatic-animals/" target="_blank" rel="noopener">World Organisation for Animal Health – Aquatic Animals</a></li>
-          <li>Peer-reviewed aquaculture and aquatic veterinary literature on clownfish health and behavior</li>
-          <li>Real-world user search data showing which clownfish symptoms drive the highest query volume</li>
-        </ul>
-        <p><strong>Last reviewed:</strong> August 2026 | <strong>Reviewed for:</strong> Species-specific accuracy, symptom terminology, water-quality guidance, source quality, and alignment with common user concerns (not eating, sinking, losing color)</p>
-        <p><strong>Not a substitute for professional diagnosis.</strong> This guide is educational. Always consult an aquatic veterinarian for persistent or severe symptoms.</p>
-      </div>
-    </section>
-
-    <!-- Back to Hub -->
-    <section style="text-align: center; padding: 30px 0;">
-      <p style="margin: 20px 0;">
-        <a href="https://www.fishcareai.com/aquarium-fish-diseases/" style="display: inline-block; background: #2A9CD8 !important; color: white !important; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 1em;">← Back to All Fish Diseases Hub</a>
-      </p>
-      <p style="font-size: 0.9em; color: #7AAABE !important;">
-        Browse guides for 200+ other fish species and 30 disease categories
-      </p>
-    </section>
-
+<main class="page">
+<aside class="toc" aria-label="Article navigation">
+  <strong>On this page</strong>
+  <div class="toc-list">
+    <a href="/aquarium-fish-diseases/clownfish/#answer">Quick answer</a>
+    <a href="/aquarium-fish-diseases/clownfish/#triage">How urgent is it?</a>
+    <a href="/aquarium-fish-diseases/clownfish/#symptoms">Symptom finder</a>
+    <a href="/aquarium-fish-diseases/clownfish/#diseases">The 5 main diseases</a>
+    <a href="/aquarium-fish-diseases/clownfish/#species">By species</a>
+    <a href="/aquarium-fish-diseases/clownfish/#treat">Treatment &amp; quarantine</a>
+    <a href="/aquarium-fish-diseases/clownfish/#prevent">Prevention</a>
+    <a href="/aquarium-fish-diseases/clownfish/#faq">FAQ</a>
+    <a href="/aquarium-fish-diseases/clownfish/#sources">Sources</a>
   </div>
+  <div class="toc-cta">Not sure what you're looking at? <a href="/#tools">Upload a photo to the AI fish doctor →</a></div>
+</aside>
+
+<article class="article">
+
+<section class="card" id="answer">
+  <span class="eyebrow">Quick answer</span>
+  <h2>What are the most common clownfish health problems?</h2>
+  <p class="lead">The most common clownfish health problems are parasites and stress. The main diseases are <strong>marine ich</strong> (<em>Cryptocaryon</em>), <strong>marine velvet</strong> (<em>Amyloodinium</em>), <strong>Brooklynella</strong> — often called "clownfish disease" — <strong>Uronema</strong>, and <strong>gill or skin flukes</strong>, plus secondary bacterial infections.</p>
+  <div class="answer"><p><strong>The one rule that matters most:</strong> fast or heavy breathing combined with dust, slime or peeling skin is an emergency. Velvet and Brooklynella can kill a clownfish within days, so move the fish to a quarantine tank and start treatment the same day — don't wait to "see how it goes."</p></div>
+  <p>Most other signs — pale color, not eating, hiding — come from stress or water quality. Test ammonia, nitrite, salinity and temperature first; it takes five minutes and rules out the most common cause.</p>
+</section>
+
+<section class="card" id="triage">
+  <span class="eyebrow">Step 1 · Triage</span>
+  <h2>How urgent is your clownfish's problem?</h2>
+  <div class="triage">
+    <div class="tri r"><span class="when">Act within hours</span><h3><span class="dot"></span>Emergency</h3>
+      <ul><li>Rapid breathing or gasping at the surface</li><li>Fine gold or grey "dust" on the body</li><li>Thick white slime or skin peeling off</li><li>Lying on the bottom, not responding</li></ul></div>
+    <div class="tri a"><span class="when">Act within 24 hours</span><h3><span class="dot"></span>Urgent</h3>
+      <ul><li>Distinct white salt-grain spots</li><li>Red sores, streaks or ulcers</li><li>Cloudy or bulging eyes</li><li>Not eating for 3+ days</li></ul></div>
+    <div class="tri g"><span class="when">Monitor 3–7 days</span><h3><span class="dot"></span>Watch</h3>
+      <ul><li>Pale color after a move or water change</li><li>Hiding during the first week</li><li>Small fin nips from a tank mate</li><li>Wiggling in place near a host spot (normal)</li></ul></div>
+  </div>
+</section>
+
+<section class="card" id="symptoms">
+  <span class="eyebrow">Step 2 · Symptom finder</span>
+  <h2>Clownfish symptoms and what they usually mean</h2>
+  <p>Find the closest match, then open the species guide for a step-by-step diagnosis.</p>
+  <div class="sym-grid">
+    <div class="sym"><div class="sym-head"><h3>Not eating</h3><span class="lvl a">Urgent if 3+ days</span></div><p>New-tank stress, poor water, or the first sign of ich, velvet or Brooklynella.</p><div class="chips"><a class="chip" href="/aquarium-fish-diseases/ocellaris-clownfish-diseases/#appetite">Ocellaris</a><a class="chip" href="/aquarium-fish-diseases/percula-clownfish-diseases/#appetite">Percula</a><a class="chip" href="/aquarium-fish-diseases/maroon-clownfish-diseases/#appetite">Maroon</a></div></div>
+    <div class="sym"><div class="sym-head"><h3>White spots or patches</h3><span class="lvl a">Urgent</span></div><p>Salt-grain spots = marine ich. Spreading white slime patches = Brooklynella (emergency).</p><div class="chips"><a class="chip" href="/aquarium-fish-diseases/tomato-clownfish-diseases/#skin">Tomato clownfish</a></div></div>
+    <div class="sym"><div class="sym-head"><h3>Coughing or fast breathing</h3><span class="lvl r">Emergency</span></div><p>Gill parasites — velvet, flukes, Brooklynella — or low oxygen. Check aeration immediately.</p><div class="chips"><a class="chip" href="/aquarium-fish-diseases/percula-clownfish-diseases/#breathing">Percula</a></div></div>
+    <div class="sym"><div class="sym-head"><h3>Losing color / pale</h3><span class="lvl g">Watch</span></div><p>Usually stress, bullying or unstable salinity. Pale plus slime is Brooklynella.</p><div class="chips"><a class="chip" href="/aquarium-fish-diseases/percula-clownfish-diseases/#color">Percula</a></div></div>
+    <div class="sym"><div class="sym-head"><h3>Red streaks or sores</h3><span class="lvl a">Urgent</span></div><p>Bacterial infection or Uronema, usually starting in an injury.</p><div class="chips"><a class="chip" href="/aquarium-fish-diseases/ocellaris-clownfish-diseases/#skin">Ocellaris</a></div></div>
+    <div class="sym"><div class="sym-head"><h3>Swimming sideways</h3><span class="lvl a">Urgent</span></div><p>Swim bladder trouble, advanced infection or injury from aggressive tank mates.</p><div class="chips"><a class="chip" href="/aquarium-fish-diseases/ocellaris-clownfish-diseases/#swimming">Ocellaris</a><a class="chip" href="/aquarium-fish-diseases/maroon-clownfish-diseases/#swimming">Maroon</a></div></div>
+    <div class="sym"><div class="sym-head"><h3>Sinking or floating</h3><span class="lvl a">Urgent</span></div><p>Swim bladder problems from overfeeding, constipation or infection.</p><div class="chips"><a class="chip" href="/aquarium-fish-diseases/ocellaris-clownfish-diseases/#swimming">Sinking</a><a class="chip" href="/aquarium-fish-diseases/ocellaris-clownfish-diseases/#swimming">Floating</a></div></div>
+    <div class="sym"><div class="sym-head"><h3>Curled or bent body</h3><span class="lvl a">Urgent</span></div><p>Late-stage infection, internal disease or nerve damage; sometimes a genetic deformity.</p><div class="chips"><a class="chip" href="/aquarium-fish-diseases/ocellaris-clownfish-diseases/#swimming">Ocellaris</a><a class="chip" href="/aquarium-fish-diseases/maroon-clownfish-diseases/#swimming">Maroon</a></div></div>
+    <div class="sym"><div class="sym-head"><h3>Bulging or cloudy eyes</h3><span class="lvl a">Urgent</span></div><p>Bacterial popeye, flukes or physical injury. One eye usually means injury.</p><div class="chips"><a class="chip" href="/aquarium-fish-diseases/percula-clownfish-diseases/#eyes">Percula</a></div></div>
+    <div class="sym"><div class="sym-head"><h3>Scratching on rocks</h3><span class="lvl a">Urgent</span></div><p>"Flashing" is an early sign of ich, velvet or flukes — often before spots appear.</p><div class="chips"><a class="chip" href="/aquarium-fish-diseases/clownfish/#diseases">See disease table ↓</a></div></div>
+  </div>
+</section>
+
+<section class="card" id="diseases">
+  <span class="eyebrow">Step 3 · Identify</span>
+  <h2>The 5 main clownfish diseases compared</h2>
+  <p>Ich, velvet and Brooklynella look alike at first glance. The texture of the marks and the speed of decline are the best clues.</p>
+  <figure class="diagram" aria-label="Diagram comparing what marine ich, velvet, Brooklynella and Uronema look like on a clownfish">
+    <svg viewBox="0 0 880 250" xmlns="http://www.w3.org/2000/svg" role="img">
+      <defs>
+        <clipPath id="body"><path d="M10 50 C40 10 140 10 170 50 C140 90 40 90 10 50Z"/></clipPath><g id="fish"><path d="M168 50 L205 22 L198 50 L205 78Z" fill="#ff7a3d"/><path d="M10 50 C40 10 140 10 170 50 C140 90 40 90 10 50Z" fill="#ff7a3d"/><g clip-path="url(#body)" fill="#fff"><path d="M52 10 C46 40 46 60 52 90 L70 90 C63 60 63 40 70 10Z"/><path d="M106 10 C100 40 100 60 106 90 L122 90 C116 60 116 40 122 10Z"/></g><path d="M10 50 C40 10 140 10 170 50 C140 90 40 90 10 50Z" fill="none" stroke="#1a0a05" stroke-width="2"/><circle cx="34" cy="44" r="6" fill="#071c2f"/></g>
+        <pattern id="dust" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".9" fill="#ffe6a0"/><circle cx="5" cy="5" r=".6" fill="#ffe6a0"/></pattern>
+      </defs>
+      <g font-family="-apple-system,Segoe UI,Arial,sans-serif" text-anchor="middle">
+        <!-- ich -->
+        <g transform="translate(10,20)"><use href="/aquarium-fish-diseases/clownfish/#fish"/>
+          <g fill="#fff"><circle cx="90" cy="35" r="3"/><circle cx="140" cy="55" r="3"/><circle cx="80" cy="66" r="2.6"/><circle cx="150" cy="38" r="2.6"/><circle cx="96" cy="52" r="2.4"/><circle cx="190" cy="40" r="2.4"/><circle cx="40" cy="62" r="2.4"/></g>
+          <text x="105" y="125" fill="#fff" font-size="16" font-weight="800">Marine ich</text><text x="105" y="146" fill="#9fc6d6" font-size="12.5">distinct salt-grain dots</text><text x="105" y="164" fill="#ffd27a" font-size="12" font-weight="700">days → weeks</text></g>
+        <!-- velvet -->
+        <g transform="translate(230,20)"><use href="/aquarium-fish-diseases/clownfish/#fish"/><path d="M10 50 C40 10 140 10 170 50 C140 90 40 90 10 50Z" fill="url(#dust)" opacity=".95"/><path d="M168 50 L205 22 L198 50 L205 78Z" fill="url(#dust)"/>
+          <text x="105" y="125" fill="#fff" font-size="16" font-weight="800">Marine velvet</text><text x="105" y="146" fill="#9fc6d6" font-size="12.5">fine gold "powdered" sheen</text><text x="105" y="164" fill="#ff8f9a" font-size="12" font-weight="700">can kill in days</text></g>
+        <!-- brooklynella -->
+        <g transform="translate(450,20)"><use href="/aquarium-fish-diseases/clownfish/#fish"/><path d="M60 30 C90 22 120 30 140 46 C120 52 100 70 70 66 C58 54 54 40 60 30Z" fill="#f4f8fa" opacity=".75"/><path d="M130 62 C150 60 165 52 172 50 C160 66 145 74 128 74Z" fill="#f4f8fa" opacity=".6"/>
+          <text x="105" y="125" fill="#fff" font-size="16" font-weight="800">Brooklynella</text><text x="105" y="146" fill="#9fc6d6" font-size="12.5">thick slime, peeling skin</text><text x="105" y="164" fill="#ff8f9a" font-size="12" font-weight="700">can kill in days</text></g>
+        <!-- uronema -->
+        <g transform="translate(670,20)"><use href="/aquarium-fish-diseases/clownfish/#fish"/><g fill="#c0182b"><ellipse cx="95" cy="60" rx="11" ry="7"/><ellipse cx="145" cy="40" rx="8" ry="6"/><ellipse cx="60" cy="38" rx="6" ry="4.5"/></g><g fill="none" stroke="#ff9aa5" stroke-width="1.5"><ellipse cx="95" cy="60" rx="14" ry="10"/><ellipse cx="145" cy="40" rx="11" ry="9"/></g>
+          <text x="105" y="125" fill="#fff" font-size="16" font-weight="800">Uronema</text><text x="105" y="146" fill="#9fc6d6" font-size="12.5">red, spreading ulcers</text><text x="105" y="164" fill="#ffd27a" font-size="12" font-weight="700">days</text></g>
+      </g>
+      <text x="440" y="236" fill="#7f9fae" font-size="12" text-anchor="middle" font-family="-apple-system,Segoe UI,Arial,sans-serif">Illustration · flukes are usually invisible — suspect them when a fish flashes and breathes fast with clear skin</text>
+    </svg>
+  </figure>
+  <div class="table-wrap"><table class="facts">
+    <thead><tr><th>Disease</th><th>What you see</th><th>Speed</th><th>First-line treatment (in quarantine)</th><th>Display tank</th></tr></thead>
+    <tbody>
+      <tr><td>Marine ich<small>Cryptocaryon irritans</small></td><td>White salt-grain spots, flashing, faster breathing</td><td><span class="speed a">Days–weeks</span></td><td>Copper at 0.15–0.20 mg/L free copper for 3–6+ weeks, hyposalinity, or tank transfer<sup><a href="/aquarium-fish-diseases/clownfish/#ref-fa164">[1]</a></sup></td><td>Fishless at least 3–6 weeks; up to 11 weeks may be needed<sup><a href="/aquarium-fish-diseases/clownfish/#ref-fa164">[1]</a></sup></td></tr>
+      <tr><td>Marine velvet<small>Amyloodinium ocellatum</small></td><td>Fine gold/grey dust, very rapid breathing, hanging at the surface</td><td><span class="speed r">Can kill in days</span></td><td>Short freshwater dip for relief, then copper at 0.15–0.20 mg/L free copper<sup><a href="/aquarium-fish-diseases/clownfish/#ref-srac">[2]</a></sup><sup><a href="/aquarium-fish-diseases/clownfish/#ref-fa165">[3]</a></sup></td><td>Leave fishless for several weeks</td></tr>
+      <tr><td>Brooklynella<small>Brooklynella hostilis</small></td><td>Thick white mucus, peeling skin patches, pale color, rapid breathing</td><td><span class="speed r">Can kill in days</span></td><td>Formalin baths or prolonged formalin — copper did not eradicate it<sup><a href="/aquarium-fish-diseases/clownfish/#ref-blasiola">[4]</a></sup></td><td>Treat every clownfish in the system</td></tr>
+      <tr><td>Uronema<small>Uronema spp.</small></td><td>Red ulcers that grow quickly, often from an injury</td><td><span class="speed a">Days</span></td><td>Formalin; formalin, malachite green and hydrogen peroxide all worked in lab trials<sup><a href="/aquarium-fish-diseases/clownfish/#ref-crosbie">[5]</a></sup></td><td>Remove the cause of the injury</td></tr>
+      <tr><td>Flukes<small>monogenean flatworms</small></td><td>Flashing, cloudy eyes, heavy breathing, clear skin</td><td><span class="speed a">Weeks</span></td><td>Praziquantel baths — 2 mg/L twice, four days apart, cleared them in one study<sup><a href="/aquarium-fish-diseases/clownfish/#ref-cardoso">[6]</a></sup></td><td>Re-infection likely; treat all fish</td></tr>
+    </tbody>
+  </table></div>
+  <p><strong>Bacterial infections</strong> (fin rot, red streaks, popeye) are usually secondary — they follow parasites, injury or poor water. Fix the trigger first; use antibiotics only in a hospital tank, since they damage the biofilter.</p>
+</section>
+
+<section class="card" id="species">
+  <span class="eyebrow">By species</span>
+  <h2>Clownfish health problems by species</h2>
+  <p>Each species guide groups 30 symptoms into eight checks with species-specific notes.</p>
+  <div class="sp-grid sp4">
+    <div class="sp"><img src="/assets/guides/clownfish/ocellaris-clownfish-cc-by-3.jpg" alt="Ocellaris clownfish (Amphiprion ocellaris)" loading="lazy" width="400" height="300"/>
+      <div class="sp-body"><h3><a href="/aquarium-fish-diseases/ocellaris-clownfish-diseases/">Ocellaris clownfish diseases</a></h3><div class="latin">Amphiprion ocellaris · false percula, common clownfish</div><p>The most common aquarium clownfish. Captive-bred fish are hardy; most illness follows stress or an unquarantined new arrival.</p><div class="watch">Watch for: velvet in new fish, lymphocystis</div>
+      <div class="chips"><a class="chip" href="/aquarium-fish-diseases/ocellaris-clownfish-diseases/#breathing">Breathing</a><a class="chip" href="/aquarium-fish-diseases/ocellaris-clownfish-diseases/#skin">Spots &amp; slime</a><a class="chip" href="/aquarium-fish-diseases/ocellaris-clownfish-diseases/#appetite">Not eating</a></div></div></div>
+    <div class="sp"><img src="/assets/encyclopedia/real/true-percula-clownfish-wikimedia-real.jpg" alt="True percula clownfish (Amphiprion percula) with thick black bands" loading="lazy" width="400" height="300"/>
+      <div class="sp-body"><h3><a href="/aquarium-fish-diseases/percula-clownfish-diseases/">Percula clownfish diseases</a></h3><div class="latin">Amphiprion percula · true percula, orange clownfish</div><p>The "true percula". Wild-caught fish carry more parasites, and Brooklynella has been confirmed in this species.</p><div class="watch">Watch for: Brooklynella, fading color</div>
+      <div class="chips"><a class="chip" href="/aquarium-fish-diseases/percula-clownfish-diseases/#breathing">Breathing</a><a class="chip" href="/aquarium-fish-diseases/percula-clownfish-diseases/#skin">Spots &amp; slime</a><a class="chip" href="/aquarium-fish-diseases/percula-clownfish-diseases/#appetite">Not eating</a></div></div></div>
+    <div class="sp"><img src="/assets/encyclopedia/real/tomato-clownfish-wikimedia-real.jpg" alt="Tomato clownfish (Amphiprion frenatus) in a magnificent sea anemone" loading="lazy" width="400" height="300"/>
+      <div class="sp-body"><h3><a href="/aquarium-fish-diseases/tomato-clownfish-diseases/">Tomato clownfish diseases</a></h3><div class="latin">Amphiprion frenatus · red clownfish, bridled clownfish</div><p>Larger and aggressive. Many health problems begin as fight injuries that become infected.</p><div class="watch">Watch for: fight wounds turning into infections</div>
+      <div class="chips"><a class="chip" href="/aquarium-fish-diseases/tomato-clownfish-diseases/#breathing">Breathing</a><a class="chip" href="/aquarium-fish-diseases/tomato-clownfish-diseases/#skin">Spots &amp; slime</a><a class="chip" href="/aquarium-fish-diseases/tomato-clownfish-diseases/#appetite">Not eating</a></div></div></div>
+    <div class="sp"><img src="/assets/guides/clownfish/maroon-clownfish-cc-by-2.jpg" alt="Maroon clownfish (Premnas biaculeatus)" loading="lazy" width="400" height="300"/>
+      <div class="sp-body"><h3><a href="/aquarium-fish-diseases/maroon-clownfish-diseases/">Maroon clownfish diseases</a></h3><div class="latin">Premnas biaculeatus · spine-cheek anemonefish, gold stripe maroon</div><p>The largest, most aggressive clownfish. Check for bite wounds first, but never ignore fast breathing or slime.</p><div class="watch">Watch for: injuries, Brooklynella</div>
+      <div class="chips"><a class="chip" href="/aquarium-fish-diseases/maroon-clownfish-diseases/#breathing">Breathing</a><a class="chip" href="/aquarium-fish-diseases/maroon-clownfish-diseases/#skin">Spots &amp; slime</a><a class="chip" href="/aquarium-fish-diseases/maroon-clownfish-diseases/#appetite">Not eating</a></div></div></div>
+  </div>
+  <p class="photo-credit" style="padding:10px 0 0">Photos via Wikimedia Commons: Holger Krisp (CC BY 3.0), CrisisRose (CC BY-SA 3.0), Diego Delso (CC BY-SA 4.0), Jenny from Taipei (CC BY 2.0). <a href="/image-credits/">Image credits</a></p>
+</section>
+
+<section class="card" id="treat">
+  <span class="eyebrow">Step 4 · Treat</span>
+  <h2>How to treat a sick clownfish safely</h2>
+  <ol class="steps">
+    <li><strong>Test the water first.</strong> Ammonia and nitrite must read 0; check salinity and temperature. Fix anything off before adding medication.</li>
+    <li><strong>Move the fish to a quarantine tank.</strong> A bare 10–20 gallon tank with a heater, air stone and a PVC pipe to hide in. Most medications harm corals, invertebrates and the display's biofilter.</li>
+    <li><strong>Confirm the diagnosis.</strong> Use the table above. If you can't tell ich from velvet, treat it as velvet — it's the faster killer.</li>
+    <li><strong>Treat at the full, measured dose.</strong> Copper only works while free copper stays at 0.15–0.20 mg/L<sup><a href="/aquarium-fish-diseases/clownfish/#ref-fa165">[3]</a></sup>, so measure it with a test kit at least daily.</li>
+    <li><strong>Leave the display tank fishless.</strong> Parasites need a host to survive. Skip this step and the disease returns as soon as the fish goes back.</li>
+  </ol>
+  <div class="warn"><p><strong>Don't:</strong> dose copper in a reef tank, mix medications, or use freshwater-aquarium remedies such as aquarium salt or peas — clownfish are marine fish.</p></div>
+</section>
+
+<section class="card" id="prevent">
+  <span class="eyebrow">Prevention</span>
+  <h2>Water parameters that keep clownfish healthy</h2>
+  <div class="params">
+    <div class="param"><span>Temp</span><b>74–80°F</b></div>
+    <div class="param"><span>Salinity</span><b>1.020–1.025</b></div>
+    <div class="param"><span>pH</span><b>8.0–8.4</b></div>
+    <div class="param"><span>Ammonia / NO₂</span><b>0 ppm</b></div>
+    <div class="param"><span>Nitrate</span><b>&lt; 20 ppm</b></div>
+  </div>
+  <p>Most outbreaks start with a new fish. Quarantine every new arrival for at least 4 weeks, buy captive-bred clownfish where possible, and keep salinity and temperature steady — sudden swings weaken the slime coat that blocks parasites.</p>
+  <div class="link-grid">
+    <a class="guide-link" href="/guides/clownfish-care-guide/">Clownfish care guide<span>Tank size, diet and lifespan</span></a>
+    <a class="guide-link" href="/compatibility/clownfish/">Clownfish tank mates<span>Avoid stress from bullies</span></a>
+    <a class="guide-link" href="/fish-health/">Fish health hub<span>All species and diseases</span></a>
+  </div>
+</section>
+
+<section class="card" id="faq">
+  <h2>Clownfish disease FAQ</h2>
+  <details open><summary>What are clownfish health problems usually caused by?</summary><p>Most start with stress — a new tank, unstable salinity or temperature, or an aggressive tank mate — which weakens the slime coat and lets parasites such as ich, velvet and Brooklynella take hold. Unquarantined new fish are the most common source.</p></details>
+  <details><summary>What is "clownfish disease"?</summary><p>It's the common name for Brooklynella hostilis, a ciliate parasite that causes thick white slime and peeling skin. It's especially common in wild-caught clownfish and can kill within days, so formalin treatment should start the day you notice it<sup><a href="/aquarium-fish-diseases/clownfish/#ref-blasiola">[4]</a></sup>.</p></details>
+  <details><summary>How do I tell marine ich from velvet?</summary><p>Ich forms separate white dots about the size of salt grains. Velvet looks like a fine gold or grey powder that's easiest to see with a flashlight from the side, and it comes with much faster breathing. If in doubt, treat as velvet.</p></details>
+  <details><summary>Why is my clownfish not eating?</summary><p>In a new fish it's usually stress and settles in 3–5 days. In an established fish, test water and look for spots, slime or rapid breathing — loss of appetite is often the first sign of a parasite.</p></details>
+  <details><summary>Can I treat clownfish diseases in a reef tank?</summary><p>No. Copper and formalin are toxic to corals and invertebrates, and parasites will survive in the display anyway. Treat in a separate quarantine tank and leave the display fishless.</p></details>
+  <details><summary>How long does a clownfish take to recover?</summary><p>It depends on the disease. Copper treatment for marine ich runs for at least 3–6 weeks<sup><a href="/aquarium-fish-diseases/clownfish/#ref-fa164">[1]</a></sup>, and the fish should stay in quarantine for at least two weeks after the last symptom before going back.</p></details>
+  <details><summary>Is my clownfish sick or just wiggling?</summary><p>Clownfish naturally shimmy and "wiggle" near their host anemone or a favorite spot. That's normal if the fish eats well, has clear skin and breathes calmly.</p></details>
+</section>
+
+<section class="card" id="sources">
+  <h2>Research sources</h2>
+  <ol class="refs"><li id="ref-fa164">Yanong, R. P. E. <cite>Cryptocaryon irritans infections (marine white spot disease) in fish</cite>. University of Florida IFAS Extension, EDIS FA164. <a href="https://ask.ifas.ufl.edu/publication/FA164" rel="noopener" target="_blank">Read source</a></li><li id="ref-srac">Francis-Floyd, R. &amp; Floyd, M. R. <cite>Amyloodinium ocellatum, an important parasite of cultured marine fish</cite>. Southern Regional Aquaculture Center Publication No. 4705 (2011). <a href="https://thefishsite.com/articles/amyloodinium-ocellatum-an-important-parasite-of-cultured-marine-fish" rel="noopener" target="_blank">Read source</a></li><li id="ref-fa165">Yanong, R. P. E. <cite>Use of copper in marine aquaculture and aquarium systems</cite>. University of Florida IFAS Extension, EDIS FA165 (revised 2024). <a href="https://ask.ifas.ufl.edu/publication/FA165" rel="noopener" target="_blank">Read source</a></li><li id="ref-blasiola">Blasiola, G. C. (1983). <cite>A review of Brooklynella parasitization in marine fishes: diagnosis, pathology and chemotherapy</cite>. IAAAM Proceedings. <a href="https://www.vin.com/doc/?id=3863586" rel="noopener" target="_blank">Read source</a></li><li id="ref-crosbie">Crosbie, P. B. B. &amp; Munday, B. L. (1999). <cite>Environmental factors and chemical agents affecting the growth of the pathogenic marine ciliate Uronema nigricans</cite>. Diseases of Aquatic Organisms 36: 213–219. <a href="https://www.int-res.com/abstracts/dao/v36/n3/p213-219/" rel="noopener" target="_blank">Read source</a></li><li id="ref-cardoso">Cardoso, P. H. M. et al. (2019). <cite>Neobenedenia melleni (Monogenea: Capsalidae) in ornamental reef fish imported to Brazil</cite>. Revista Brasileira de Parasitologia Veterinária 28(1). doi:10.1590/S1984-296120180076 <a href="https://doi.org/10.1590/S1984-296120180076" rel="noopener" target="_blank">Read source</a></li><li id="ref-merck">Merck Veterinary Manual. <cite>Parasitic diseases of fish</cite>. Professional version. <a href="https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/parasitic-diseases-of-fish" rel="noopener" target="_blank">Read source</a></li><li id="ref-cheng">Cheng, et al. (2022). <cite>Lymphocystis disease virus infection in clownfish Amphiprion ocellaris and Amphiprion clarkii in Taiwan</cite>. Animals 13(1): 153. doi:10.3390/ani13010153 <a href="https://doi.org/10.3390/ani13010153" rel="noopener" target="_blank">Read source</a></li></ol>
+  <div class="byline"><div class="byline-mark">FC</div><p><strong>FishCare AI Editorial Team</strong> · Reviewed October 2026. Educational information only — consult an aquatic veterinarian for severe or persistent symptoms. <a href="/editorial-policy/">Editorial policy</a></p></div>
+</section>
+
+</article>
 </main>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.fishcareai.com"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Aquarium Fish Diseases",
-      "item": "https://www.fishcareai.com/aquarium-fish-diseases/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Clownfish Diseases",
-      "item": "https://www.fishcareai.com/aquarium-fish-diseases/clownfish/"
-    }
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Why is my clownfish not eating?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The top causes are water quality stress (ammonia/nitrite), new-tank shock (isolation), or bacterial infection. Test your water first. If ammonia and nitrite are 0 ppm and temperature is stable, the fish likely needs 3–5 more days to acclimate."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is my clownfish sinking or not floating?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sinking usually indicates swim bladder dysfunction or constipation. Check water parameters; a 25% water change can help. If the fish was recently added or fed heavily, try fasting for 1–2 days then offer cooked peas."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is my clownfish losing color or becoming pale?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Stress from sudden water changes, low pH, or bullying tank mates causes color loss. Improved water quality and stable pH/temp will resolve it in 2–3 weeks."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is my clownfish swimming sideways or has a curved body?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "This is a neurological sign, often caused by parasitic flukes, bacterial infection, or physical injury. Isolate immediately and monitor for other symptoms like torn fins or rapid breathing."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can different clownfish species live together?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ocellaris and percula often coexist, but maroon clownfish are highly aggressive and territorial. Keep maroon clownfish alone or only with equally large and aggressive species."
-      }
-    }
-  ]
-}
-</script>
-
-<script src="/assets/site-compliance.js?v=20260824-dark-fix"></script>
-
+<footer>© 2026 FishCare AI · Clownfish Diseases<nav class="legal-links" aria-label="Legal and company information"><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/editorial-policy/">Editorial Policy</a><a href="/privacy/">Privacy</a><a href="/image-credits/">Image Credits</a></nav></footer>
 </body>
 </html>
