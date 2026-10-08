@@ -397,16 +397,23 @@ h3{font-size:1.08rem;font-weight:700;line-height:1.35;color:var(--ink)}
 .nlf button{border:0;border-radius:999px;background:#fff;color:var(--navy);font-weight:800;padding:12px 22px}
 @media(max-width:800px){.nls-card{grid-template-columns:1fr;padding:34px 24px;gap:24px}}
 
-/* FOOTER */
-.ft{background:var(--deep);color:rgba(255,255,255,.7);padding:72px 0 36px}
-.ftg{display:grid;grid-template-columns:1.6fr repeat(4,1fr);gap:36px}
-.ftbr .logo{margin-bottom:18px}.ftbr img{height:40px;width:auto}
-.ftbr p{color:rgba(255,255,255,.6);font-size:.9rem;max-width:300px}
-.ftcol h3{color:#fff;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
-.ftcol a{display:block;color:rgba(255,255,255,.66);font-size:.9rem;padding:4px 0}
-.ftcol a:hover{color:#8FF0E2}
-.ftb{margin-top:48px;padding-top:24px;border-top:1px solid rgba(255,255,255,.1);font-size:.84rem;color:rgba(255,255,255,.5)}
-.badge-rail-wrap{display:flex;align-items:center;gap:10px;margin-top:8px;border-top:0;padding-top:0}
+/* FOOTER — mirrors injectFooterStyles() in /assets/site-compliance.js */
+footer.ft.fc-footer{display:block;background:#051A2C;border-top:1px solid rgba(255,255,255,.08);padding:64px 24px 32px;color:rgba(255,255,255,.66);line-height:1.6}
+footer.ft.fc-footer .con{max-width:1200px;margin:0 auto;padding:0}
+footer.ft.fc-footer .ftg{display:grid;grid-template-columns:1.6fr repeat(3,1fr);gap:36px;margin:0 0 40px}
+footer.ft.fc-footer .ftbr .logo{display:inline-block;margin:0 0 16px;line-height:0}
+footer.ft.fc-footer .ftbr img{display:block;height:40px;width:auto}
+footer.ft.fc-footer .ftbr p{max-width:300px;margin:0;font-size:14px;line-height:1.65;color:rgba(255,255,255,.6)}
+footer.ft.fc-footer .ftcol h3{margin:0 0 14px;color:#fff;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.12em}
+footer.ft.fc-footer .ftcol a{display:block;padding:4px 0;font-size:14px;color:rgba(255,255,255,.66)}
+footer.ft.fc-footer a:hover{color:#8FF0E2}
+footer.ft.fc-footer .ftb{padding:20px 0 0;border-top:1px solid rgba(255,255,255,.1);font-size:13px;color:rgba(255,255,255,.5)}
+footer.ft.fc-footer .legal-links{display:flex;flex-wrap:wrap;gap:6px 22px;margin:14px 0 0;padding:0}
+footer.ft.fc-footer .legal-links a{font-size:13px;color:rgba(255,255,255,.5)}
+@media(max-width:900px){footer.ft.fc-footer .ftg{grid-template-columns:1fr 1fr;gap:28px}footer.ft.fc-footer .ftbr{grid-column:1/-1}}
+@media(max-width:600px){footer.ft.fc-footer{padding:48px 16px 28px}}
+/* homepage-only badge rail */
+footer.ft.fc-footer .ftb.badge-rail-wrap{display:flex;align-items:center;gap:10px;border-top:0;padding-top:0;margin-top:12px}
 .badge-rail{display:flex;gap:14px;overflow-x:auto;scroll-behavior:smooth;scrollbar-width:none;flex:1;align-items:center;padding:8px 0}
 .badge-rail::-webkit-scrollbar{display:none}
 .badge-rail a{flex:none;background:#fff;border-radius:10px;padding:6px 8px;opacity:.85;transition:opacity .2s}
@@ -414,8 +421,6 @@ h3{font-size:1.08rem;font-weight:700;line-height:1.35;color:var(--ink)}
 .badge-rail img{height:38px!important;width:auto!important;max-width:none}
 .badge-nav{flex:none;width:34px;height:34px;border-radius:50%;border:1px solid rgba(255,255,255,.2);background:transparent;color:#fff;font-size:1.2rem;line-height:1}
 .badge-nav:hover{background:rgba(255,255,255,.1)}
-.legal-links{display:flex;flex-wrap:wrap;gap:6px 22px;margin-top:18px}.legal-links a{color:rgba(255,255,255,.5);font-size:.82rem}.legal-links a:hover{color:#8FF0E2}
-@media(max-width:900px){.ftg{grid-template-columns:1fr 1fr}.ftbr{grid-column:1/-1}}
 
 @media(max-width:600px){.con{padding:0 16px}.sec{padding:68px 0}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
@@ -754,7 +759,7 @@ h3{font-size:1.08rem;font-weight:700;line-height:1.35;color:var(--ink)}
 :is(#page-tools,#page-blog,#page-post,#page-about,#page-contact) .back-btn:hover{color:#fff}
 </style>
 <meta name="google-adsense-account" content="ca-pub-6697313643773879">
-<script defer src="/assets/site-compliance.js?v=20260824-dark-fix"></script>
+<script defer src="/assets/site-compliance.js?v=20261008-footer"></script>
 </head>
 <body>
 
@@ -1101,16 +1106,10 @@ h3{font-size:1.08rem;font-weight:700;line-height:1.35;color:var(--ink)}
 <div id="page-contact" class="hide"></div>
 
 <!-- FOOTER -->
-<footer class="ft" id="site-footer">
+<footer class="ft fc-footer" id="site-footer">
   <div class="con">
-    <div class="ftg">
-      <div class="ftbr"><div class="logo"><img class="fishcare-footer-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="150" height="38"/></div><p>Your trusted resource for fish care guides, free tools, and practical aquarium advice. Helping beginners build healthier freshwater tanks since 2026.</p></div>
-      <div class="ftcol"><h3>Guides</h3><a title="All Guides" href="guides/">All Guides</a><a title="Best Fish for Beginners" href="guides/best-freshwater-fish-for-beginners/">Best Beginner Fish</a><a title="How to Set Up a Fish Tank" href="guides/how-to-set-up-a-fish-tank/">Tank Setup Guide</a><a title="Aquarium Water Parameters" href="guides/aquarium-water-parameters/">Water Parameters</a><a title="Goldfish Care" href="guides/goldfish-care/">Goldfish Care</a><a title="Beginner Fish Care Checklist" href="guides/fish-care-for-beginners/#beginner-fish-care-checklist">Beginner Checklist</a></div><div class="ftcol"><h3>Species Guides</h3><a title="Guppy Fish Care" href="guides/guppy-fish-care/">Guppies</a><a title="Goldfish Care" href="guides/goldfish-care/">Goldfish Care</a><a title="Betta Fish Care" href="guides/betta-fish-care/">Betta Fish Care</a><a title="Molly Fish Care" href="guides/molly-fish-care/">Molly Fish Care</a><a title="Koi Fish Care" href="guides/koi-fish-care/">Koi Fish Care</a><a title="Angelfish Care" href="guides/angelfish-care/">Angelfish Care</a><a title="Clownfish Health Problems" href="/aquarium-fish-diseases/clownfish/">Clownfish Health Problems</a></div>
-      <div class="ftcol"><h3>Encyclopedia</h3><a href="/species">All Species</a><a href="/species/neon-tetra">Neon Tetra</a><a href="/species/ocellaris-clownfish">Clownfish</a><a href="/species/bronze-cory">Corydoras</a><a href="/species/cherry-barb">Cherry Barb</a><a href="/species/dwarf-gourami">Dwarf Gourami</a></div>
-      <div class="ftcol"><h3>Tools</h3><a title="Tank Size Calculator" href="/tools/aquarium-size-calculator/">Tank Size Calculator</a><a title="Compatibility Checker" href="/tools/fish-compatibility-checker/">Compatibility Checker</a><a title="Water Parameter Checker" href="/tools/water-parameter-checker/">Water Parameter Checker</a><a title="Feeding Calculator" href="/tools/fish-feeding-calculator/">Feeding Calculator</a><a title="Aquarium Planner" href="/tools/aquarium-planner/">Aquarium Planner</a><a title="Fish Identification" href="/identify/">Fish Identification</a></div>
-      <div class="ftcol"><h3>More</h3><a title="About Us" href="/about/">About Us</a><a title="Contact" href="/contact/">Contact</a><a title="Partners" href="partners/">Partners</a><a title="Privacy Policy" href="privacy/">Privacy Policy</a></div>
-    </div>
-    <div class="ftb">© 2026 FishCare. All rights reserved.</div>
+    <div class="ftg"><div class="ftbr"><a class="logo" href="/" aria-label="FishCare AI home"><img class="fishcare-footer-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="158" height="40"></a><p>Practical aquarium care guides, fish encyclopedia, and free tools for freshwater and saltwater fishkeepers.</p></div><div class="ftcol"><h3>Explore</h3><a href="/species">Fish Species</a><a href="/fish-health/">Fish Diseases</a><a href="/aquarium-fish-diseases/clownfish/">Clownfish Health Problems</a><a href="/guides/">Guides</a><a href="/tools/">Aquarium Tools</a><a href="/identify/">Fish Identification</a></div><div class="ftcol"><h3>Popular Tools</h3><a href="/tools/aquarium-size-calculator/">Aquarium Size Calculator</a><a href="/tools/fish-compatibility-checker/">Fish Compatibility Checker</a><a href="/tools/water-parameter-checker/">Water Parameter Checker</a><a href="/tools/fish-feeding-calculator/">Fish Feeding Calculator</a><a href="/tools/aquarium-planner/">Aquarium Planner</a></div><div class="ftcol"><h3>Company</h3><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms</a><a href="/editorial-policy/">Editorial Policy</a><a href="/resources/">Resources</a><a href="/add-your-site/">Add Your Site</a></div></div>
+    <div class="ftb">© 2026 EverTrend LLC. FishCare AI is a product of EverTrend LLC. All rights reserved.</div>
     <div class="ftb badge-rail-wrap">
       <button class="badge-nav" type="button" id="badgePrev" aria-label="Scroll badges left" aria-controls="badgeRail">&#8249;</button>
       <div class="badge-rail" id="badgeRail"><a href="https://www.stork.ai/" rel="nofollow" title="Stork Verified — stork.ai AI tools directory"><img src="https://www.stork.ai/badge/verified-light.svg" alt="Stork Verified — stork.ai AI tools directory" width="216" height="44" /></a>
@@ -1173,8 +1172,8 @@ h3{font-size:1.08rem;font-weight:700;line-height:1.35;color:var(--ink)}
       </div>
       <button class="badge-nav" type="button" id="badgeNext" aria-label="Scroll badges right" aria-controls="badgeRail">&#8250;</button>
     </div>
+    <nav class="legal-links" aria-label="Legal and company information"><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/editorial-policy/">Editorial Policy</a><a href="/privacy/">Privacy</a><a href="/image-credits/">Image Credits</a><a href="/add-your-site/">Add Your Site</a></nav>
   </div>
-  <nav class="legal-links con" aria-label="Legal and company information"><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/editorial-policy/">Editorial Policy</a><a href="/privacy/">Privacy</a><a href="/image-credits/">Image Credits</a></nav>
 <script>
 (function(){
   var rail=document.getElementById('badgeRail'),

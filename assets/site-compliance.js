@@ -218,26 +218,72 @@
     nav.innerHTML = renderHeader();
   }
 
+  // ── Global footer styles ───────────────────────────────────────────────────
+  // Every page (static, proxied apps, chrome-opt-out pages) gets the same
+  // footer look from here, independent of the page's own stylesheet.
+  function injectFooterStyles() {
+    if (document.getElementById('fishcare-footer-css')) return;
+    // :root + doubled class out-ranks page rules such as
+    // body.tools-dark-page a:not(.btn):not(.bp):not(.tbtn){color:...!important}
+    var f = ':root body footer.ft.fc-footer.fc-footer';
+    var css = document.createElement('style');
+    css.id = 'fishcare-footer-css';
+    css.textContent =
+      f + '{display:block;background:#051A2C!important;border-top:1px solid rgba(255,255,255,.08)!important;' +
+        'padding:64px 24px 32px!important;margin:0!important;color:rgba(255,255,255,.66);text-align:left;' +
+        'font-family:inherit;line-height:1.6;font-size:16px;box-shadow:none!important;border-radius:0!important;max-width:none!important;width:auto!important}' +
+      f + ' .con{max-width:1200px;margin:0 auto;padding:0}' +
+      f + ' .ftg{display:grid;grid-template-columns:1.6fr repeat(3,1fr);gap:36px;margin:0 0 40px}' +
+      f + ' .ftbr .logo{display:inline-block;margin:0 0 16px;line-height:0}' +
+      f + ' .ftbr img{display:block;height:40px;width:auto;filter:none}' +
+      f + ' .ftbr p{max-width:300px;margin:0;font-size:14px;line-height:1.65;color:rgba(255,255,255,.6)!important}' +
+      f + ' .ftcol h3{margin:0 0 14px;padding:0;color:#fff!important;font-size:12px;font-weight:700;' +
+        'text-transform:uppercase;letter-spacing:.12em;border:0;background:none}' +
+      f + ' .ftcol a{display:block;margin:0;padding:4px 0;font-size:14px;color:rgba(255,255,255,.66)!important;text-decoration:none}' +
+      f + ' a:hover{color:#8FF0E2!important}' +
+      f + ' .ftb{margin:0;padding:20px 0 0;border-top:1px solid rgba(255,255,255,.1);text-align:left;font-size:13px;color:rgba(255,255,255,.5)!important}' +
+      f + ' .ftb.badge-rail-wrap{border-top:0;padding-top:0;margin-top:12px}' +
+      f + ' .legal-links{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:6px 22px;margin:14px 0 0;padding:0}' +
+      f + ' .legal-links a{padding:0;font-size:13px;color:rgba(255,255,255,.5)!important;text-decoration:none}' +
+      '@media(max-width:900px){' + f + ' .ftg{grid-template-columns:1fr 1fr;gap:28px}' + f + ' .ftbr{grid-column:1/-1}}' +
+      '@media(max-width:600px){' + f + '{padding:48px 16px 28px!important}}';
+    document.head.appendChild(css);
+  }
+
   // ── Inject global footer ───────────────────────────────────────────────────
+  // One footer for the whole site. Any existing footer markup is replaced;
+  // only the homepage badge rail (.badge-rail-wrap) is carried over.
   function setupGlobalFooter() {
     if (/^\/(?:admin\/|__forms\.html$|yandex_[^/]+\.html$)/.test(window.location.pathname)) return;
 
     var footer = document.querySelector('body > footer.ft');
+    if (!footer && !globalChromeEnabled()) {
+      // chrome-opt-out pages ship a plain <footer>; take over the last one
+      // that is not part of an article
+      var plain = Array.prototype.filter.call(document.querySelectorAll('footer'), function (el) {
+        return !el.closest('article, main, section');
+      });
+      footer = plain[plain.length - 1] || null;
+    }
     if (!footer) {
       footer = document.createElement('footer');
-      footer.className = 'ft';
       document.body.appendChild(footer);
     }
+    if (footer.getAttribute('data-global-footer') === '1') return;
 
-    // If footer already has the full grid, don't duplicate
-    if (footer.querySelector('.ftg')) return;
+    injectFooterStyles();
+    var badges = footer.querySelector('.badge-rail-wrap');
+    if (badges) badges.parentNode.removeChild(badges);
+
+    footer.className = 'ft fc-footer';
+    footer.setAttribute('data-global-footer', '1');
 
     var year = new Date().getFullYear();
     var grid =
       '<div class="con">' +
         '<div class="ftg">' +
           '<div class="ftbr">' +
-            '<div class="logo">FishCare AI</div>' +
+            '<a class="logo" href="/" aria-label="FishCare AI home"><img class="fishcare-footer-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="158" height="40"></a>' +
             '<p>Practical aquarium care guides, fish encyclopedia, and free tools for freshwater and saltwater fishkeepers.</p>' +
           '</div>' +
           renderFooterCol('Explore', FOOTER_EXPLORE) +
@@ -254,6 +300,10 @@
       '</div>';
 
     footer.innerHTML = grid;
+    if (badges) {
+      var con = footer.querySelector('.con');
+      con.insertBefore(badges, con.querySelector('.legal-links'));
+    }
   }
 
   function addLegalLinks() {
@@ -388,6 +438,7 @@
       setupAppBanner();
     } else {
       injectConsentBannerStyles();
+      setupGlobalFooter();
     }
     ensureContentSchema();
     setupConsentBanner();
