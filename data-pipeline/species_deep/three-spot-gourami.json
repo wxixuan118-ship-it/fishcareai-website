@@ -1,0 +1,148 @@
+{
+  "slug": "three-spot-gourami",
+  "keyword": "three spot gourami",
+  "common_name": "Three Spot Gourami",
+  "scientific": "Trichopodus trichopterus",
+  "date_published": "2026-08-05T14:07:27.442Z",
+  "date_modified": "2026-10-24",
+  "date_modified_human": "October 24, 2026",
+  "title": "Three Spot Gourami Care: Size, Tank, Colors & Mates",
+  "description": "Three spot gourami (3 spot, blue or opaline gourami) care: grows to 6 in, needs a 36-in tank, hardy in most water. Temperament, tank mates and breeding.",
+  "h1": "Three Spot Gourami Care Guide: Size, Tank, Color Forms and Temperament",
+  "tag": "🐟 Freshwater · Labyrinth fish from the Mekong basin",
+  "photo": {
+    "src": "/assets/encyclopedia/real/three-spot-gourami-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 1188,
+    "alt": "Three spot gourami (Trichopodus trichopterus) in the wild blue-grey form with two dark body spots",
+    "caption": "The wild-type form of the species. The \"third spot\" is the eye; the two dark body spots sit mid-flank and at the base of the tail."
+  },
+  "chart": {
+    "tank_gal": 30,
+    "temp_f": [75, 82],
+    "ph": [6.0, 8.0],
+    "size_in": 6.0,
+    "group": "One male, or a male with 2–3 females",
+    "care": "Easy — very hardy, temperament varies",
+    "alt": "Three spot gourami care chart: 30-gallon minimum tank, 75–82 °F, pH 6.0–8.0, adult size up to 6 inches",
+    "caption": "Three spot gourami care at a glance. Size is the maximum recorded standard length; most aquarium fish stay closer to 4 in."
+  },
+  "facts": [
+    ["Scientific name", "<em>Trichopodus trichopterus</em>"],
+    ["Other names", "3 spot, blue, opaline, gold, cosby gourami"],
+    ["Family", "Osphronemidae"],
+    ["Origin", "Mekong basin and Southeast Asia"],
+    ["Adult size", "10 cm (4 in) typical; 15 cm (6 in) max SL"],
+    ["Minimum tank", "90 × 30 cm base (36 × 12 in, ≈30 gal)"],
+    ["Temperature", "24–28 °C (75–82 °F)"],
+    ["pH / hardness", "6.0–8.0 / 5–19 dGH"],
+    ["Breathing", "Obligate air breather (labyrinth organ)"],
+    ["Temperament", "Peaceful to spiteful; males territorial"],
+    ["IUCN status", "Least Concern (2019)"]
+  ],
+  "short_answer": "The three spot gourami is one of the hardiest aquarium fish, but it grows larger than most people expect, up to <strong>6 inches</strong>, and needs a tank with at least a <strong>36 × 12 in base</strong>.[1][2] It tolerates almost any tap water. Temperament is the real variable: some adults stay calm, while others turn spiteful, so pair it with robust tank mates rather than tiny or long-finned fish.[2]",
+  "intro": [
+    "The three spot gourami (<em>Trichopodus trichopterus</em>), also sold as the 3 spot or blue gourami, is a hardy labyrinth fish from the Mekong basin.",
+    "Its name counts the eye as the third spot. The other two are dark marks on the flank and at the base of the tail. Wild fish come from lowland swamps, ponds, ditches and canals in Laos, Cambodia, Thailand, Vietnam and Yunnan, where many populations move into flooded forest during the wet season.[1][2] Almost every fish in the trade is farm-bred, and most are not the blue-grey wild type but gold, opaline, cosby, marbled or silver colour forms.[2]",
+    "This guide explains why a 10-gallon tank is not enough, how to read the species' unpredictable temperament, which tank mates work, and how a male builds his bubble nest."
+  ],
+  "sections": [
+    {
+      "id": "size-tank",
+      "toc": "Size & tank",
+      "h2": "Three Spot Gourami Size and Tank Size",
+      "blocks": [
+        {"p": "FishBase records a maximum of 15 cm (6 in) standard length and a common length of 10 cm.[1] That is about the size of a large angelfish, not a dwarf gourami. Seriously Fish recommends a base of at least 90 × 30 cm (36 × 12 in).[2] A standard 30-gallon tank is the realistic minimum for one adult or a trio, and a 4-foot tank is better if you want more than one male."},
+        {"p": "Furnish the tank with dense planting, some floating plants to calm the fish, and open water to swim in.[2] Leave a gap between the water surface and the lid, because gouramis must reach the surface to breathe air.[1]"},
+        {"chart": true}
+      ]
+    },
+    {
+      "id": "colors",
+      "toc": "Color forms",
+      "h2": "Three Spot Gourami Color Varieties",
+      "blocks": [
+        {"p": "All the common trade names describe one species, selectively bred into different colours.[2]"},
+        {"table": {"head": ["Trade name", "What it looks like"], "rows": [
+          ["Three spot / blue gourami", "Wild-type blue-grey body with two dark spots; the blue deepens in breeding males"],
+          ["Opaline gourami", "Blue with darker marbling; the spots are often lost in the pattern"],
+          ["Cosby gourami", "Blue with dark blotches, close to opaline"],
+          ["Gold gourami", "Golden-yellow body with faint darker markings"],
+          ["Silver / platinum gourami", "Pale silver with a pearly sheen"]
+        ]}},
+        {"p": "Care is the same for every colour form. Some shops still sell gold and opaline fish as separate \"species\", but they cross freely with blue fish."}
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water",
+      "h2": "Water Parameters",
+      "blocks": [
+        {"p": "This fish copes with far more than most aquarium fish. Seriously Fish lists 24–30 °C, pH 5.5–8.5 and 3–35 dGH, while FishBase gives the narrower 22–28 °C, pH 6.0–8.0 and 5–19 dGH.[1][2] Aim for 75–82 °F and whatever pH your tap water settles at, unless it falls outside 6.0–8.0. Like every species it still needs a cycled filter, with ammonia and nitrite at zero.[3]"},
+        {"p": "It is an obligate air breather: it must reach the surface to survive, even in well-oxygenated water.[1] A fish that hangs at the top gulping more than usual is short of oxygen or stressed. Test the water rather than assuming the behaviour is normal."}
+      ]
+    },
+    {
+      "id": "temperament",
+      "toc": "Temperament & tank mates",
+      "h2": "Three Spot Gourami Temperament and Tank Mates",
+      "blocks": [
+        {"p": "This species is usually labelled a community fish, but Seriously Fish describes a more mixed picture. Some individuals stay peaceful all their lives and others become very spiteful as they mature. Males are territorial with one another and turn aggressive when breeding.[2] Expect any 3 spot gourami to become more assertive with age, and choose tank mates that can hold their own."},
+        {"ul": [
+          "<strong>Good matches:</strong> robust barbs such as <a href=\"/species/rosy-barb\">rosy barbs</a>, larger tetras and rainbowfish, loaches such as <a href=\"/species/clown-loach\">clown loaches</a> in big tanks, plecos, and medium to large gouramis like the <a href=\"/species/moonlight-gourami\">moonlight gourami</a>.[2]",
+          "<strong>Avoid:</strong> bettas and other long-finned fish, small dwarf gouramis, shrimp, and any fish small enough to fit in its mouth.",
+          "<strong>Males:</strong> keep one per tank unless the tank is large and thickly planted."
+        ]},
+        {"p": "Research on this species shows how strongly territory drives it. In Karen Hollis's laboratory, males trained to expect a female after a signal mated more often and produced more fry than untrained males. The expectation dampened their territorial aggression at the moment of meeting.[4] For keepers, the lesson is that males spend much of their energy defending space, so more room and more visual barriers mean less fighting."}
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Diet",
+      "h2": "Feeding",
+      "blocks": [
+        {"p": "Wild fish are generalist omnivores that eat aquatic and land plants, algae, small invertebrates, zooplankton and detritus.[2] In the aquarium they take any food. A quality flake or small pellet as a staple, frozen bloodworm, brine shrimp or <em>Daphnia</em> a few times a week, and an algae wafer or blanched vegetable now and then keep them in good condition."}
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Breeding",
+      "h2": "Breeding Three Spot Gouramis",
+      "blocks": [
+        {"p": "Males are larger and grow a long, pointed dorsal fin. Females have a shorter, rounded dorsal and become visibly plump when full of eggs.[2] Breeding is easy as long as you protect the female."},
+        {"ol": [
+          "Set up a breeding tank with no more than 6–8 inches of water, lots of floating plants and a gentle air-driven sponge filter.[2]",
+          "Give the male two or three females, so his attention is spread out, and condition them all on live or frozen food.[2]",
+          "The male builds a large bubble nest among the floating plants, weaving in plant fragments, then displays under it.[2]",
+          "Spawning happens in the typical gourami embrace beneath the nest. Over several rounds a pair can produce 500–1,200 floating eggs, which the male gathers into the nest.[2]",
+          "Remove the female once she is spent, because the male will chase her hard. Eggs hatch in about 20–30 hours.[2]",
+          "Remove the male when the fry swim freely four or five days later. Feed infusoria or liquid fry food for the first week, then brine shrimp nauplii and microworms.[2]"
+        ]},
+        {"p": "Fry grow at very different rates. Sort them by size regularly, or the larger fry will eat their siblings.[2]"}
+      ]
+    }
+  ],
+  "faq_h2": "Three Spot Gourami FAQ",
+  "faq": [
+    {"q": "How big does a three spot gourami get?", "a": "Up to 15 cm (6 in) standard length, though 10 cm (4 in) is more typical in aquariums.[1]"},
+    {"q": "Is a blue gourami the same as a 3 spot gourami?", "a": "Yes. Blue, three spot, opaline, cosby, gold and silver gouramis are all <em>Trichopodus trichopterus</em> in different selectively bred colour forms.[2]"},
+    {"q": "Can a 3 spot gourami live in a 10 or 20 gallon tank?", "a": "Not long term. An adult needs a tank with at least a 36 × 12 in footprint, which is about 30 gallons.[2]"},
+    {"q": "Can three spot gouramis live with bettas?", "a": "It is not recommended. Both are territorial labyrinth fish, and an adult is big enough to tear a betta's fins."}
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {"href": "/species/moonlight-gourami", "label": "🐟 Moonlight Gourami"},
+    {"href": "/species/pearl-gourami", "label": "🐟 Pearl Gourami"},
+    {"href": "/species/dwarf-gourami", "label": "🐟 Dwarf Gourami"},
+    {"href": "/species/giant-gourami", "label": "🐟 Giant Gourami"},
+    {"href": "/species/kissing-gourami", "label": "🐟 Kissing Gourami"},
+    {"href": "/species/honey-gourami", "label": "🐟 Honey Gourami"}
+  ],
+  "editorial_note": "Maximum size, distribution and the air-breathing note come from FishBase. Colour forms, temperament and the breeding sequence follow Seriously Fish.[1][2] The territorial-aggression finding is cited to Hollis and colleagues' 1997 study in the <em>Journal of Comparative Psychology</em>.[4]",
+  "references": [
+    {"authors": "Froese, R. & Pauly, D. (eds.).", "title": "Trichopodus trichopterus (Pallas, 1770).", "source": "FishBase, version 2025.", "url": "https://www.fishbase.se/summary/Trichopodus-trichopterus.html", "label": "fishbase.se"},
+    {"authors": "Seriously Fish.", "title": "Trichopodus trichopterus (Three Spot Gourami).", "source": "Species profile.", "url": "https://www.seriouslyfish.com/species/trichopodus-trichopterus/", "label": "seriouslyfish.com"},
+    {"authors": "Francis-Floyd, R., Watson, C., Petty, D. & Pouder, D. B.", "title": "Ammonia in Aquatic Systems (FA16).", "source": "University of Florida IFAS Extension.", "url": "https://edis.ifas.ufl.edu/publication/FA031", "label": "edis.ifas.ufl.edu"},
+    {"authors": "Hollis, K. L., Pharr, V. L., Dumas, M. J., Britton, G. B. & Field, J. (1997).", "title": "Classical conditioning provides paternity advantage for territorial male blue gouramis (Trichogaster trichopterus).", "source": "Journal of Comparative Psychology 111: 219–225.", "url": "https://doi.org/10.1037/0735-7036.111.3.219", "label": "doi.org/10.1037/0735-7036.111.3.219"}
+  ]
+}

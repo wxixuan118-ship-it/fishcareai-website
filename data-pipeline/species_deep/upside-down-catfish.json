@@ -1,0 +1,148 @@
+{
+  "slug": "upside-down-catfish",
+  "keyword": "upside down catfish",
+  "common_name": "Upside Down Catfish",
+  "scientific": "Synodontis nigriventris",
+  "date_published": "2026-08-06T01:33:26.336Z",
+  "date_modified": "2026-10-24",
+  "date_modified_human": "October 24, 2026",
+  "title": "Upside Down Catfish Care, Difficulty and Tank Size",
+  "description": "Upside down catfish care is easy: a group of 4–5 in a 30-gallon tank, 75–82 °F, caves and broad leaves. Why it swims inverted and what to feed after dark.",
+  "h1": "Upside Down Catfish Care: Difficulty, Tank Size and Why It Swims Inverted",
+  "tag": "🐟 Freshwater · Congo basin squeaker catfish",
+  "photo": {
+    "src": "/assets/encyclopedia/real/upside-down-catfish-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 1149,
+    "alt": "Upside down catfish (Synodontis nigriventris) swimming belly-up with its dark underside facing the surface",
+    "caption": "Swimming belly-up. The species name nigriventris means \"black belly\": the underside is darker than the back, the reverse of most fishes."
+  },
+  "chart": {
+    "tank_gal": 30,
+    "temp_f": [75, 79],
+    "ph": [6.0, 7.5],
+    "size_in": 3.8,
+    "group": "Groups of 4–5 or more",
+    "care": "Easy — feed after lights out",
+    "alt": "Upside down catfish care chart: 30-gallon tank for a group, 75–79 °F, pH 6.0–7.5, adult size under 4 inches",
+    "caption": "Care at a glance for a small group. The temperature band is where the FishBase and Seriously Fish ranges overlap."
+  },
+  "facts": [
+    ["Scientific name", "<em>Synodontis nigriventris</em>"],
+    ["Family", "Mochokidae (squeakers)"],
+    ["Origin", "Middle Congo basin; Kouilou-Niari"],
+    ["Adult size", "9.6 cm (3.8 in) total length"],
+    ["Minimum tank", "80 cm / 32 in long (≈30 gal) for a group"],
+    ["Temperature", "24–28 °C (75–82 °F)"],
+    ["pH / hardness", "6.0–7.5 / 5–20 dGH"],
+    ["Activity", "Nocturnal; rests under leaves by day"],
+    ["Group size", "At least 4–5"],
+    ["Care level", "Easy"],
+    ["IUCN status", "Least Concern (2009)"]
+  ],
+  "short_answer": "Upside down catfish difficulty is low: they eat almost anything, and they accept a wide range of water. The two common mistakes are keeping one alone and keeping them in too small a tank. FishBase recommends <strong>groups of five or more</strong> in a tank at least <strong>80 cm (32 in) long</strong>, at roughly <strong>75–79 °F</strong> and <strong>pH 6.0–7.5</strong>.[1][2]",
+  "intro": [
+    "The upside down catfish (<em>Synodontis nigriventris</em>) is a small, peaceful Congo River catfish that swims belly-up for most of its life.",
+    "It comes from the middle Congo basin, including Pool Malebo and the Kasai and Ubangi drainages, with further records from the Kouilou-Niari basin in the Republic of the Congo.[1] There it lives along densely vegetated riverbanks. It feeds mainly at night on insects, small crustaceans and plant matter, often picking food from the underside of leaves and the water surface while upside down.[1][2]",
+    "Seriously Fish rates it one of the gentlest members of its genus and a good first \"oddball\" for a community tank.[2] This guide covers what makes it easy, what can still go wrong, and the research showing why swimming upside down is efficient rather than a defect."
+  ],
+  "sections": [
+    {
+      "id": "difficulty",
+      "toc": "Care difficulty",
+      "h2": "Upside Down Catfish Difficulty Level",
+      "blocks": [
+        {"table": {"head": ["Factor", "Rating", "Why"], "rows": [
+          ["Water chemistry", "Easy", "Accepts pH 6.0–8.0 and soft to moderately hard water[1][2]"],
+          ["Diet", "Easy", "Omnivore that takes flakes, pellets, frozen food and vegetables[2]"],
+          ["Temperament", "Easy", "Peaceful; one of the mildest <em>Synodontis</em>[2]"],
+          ["Social needs", "Moderate", "Stays hidden and nervous unless kept in a group[1][2]"],
+          ["Activity pattern", "Moderate", "Nocturnal, so feeding must reach it after dark[1]"],
+          ["Breeding", "Hard", "Rare in aquaria and poorly documented[2]"]
+        ]}},
+        {"p": "Overall, this is a beginner-friendly fish whose main demand is company. A lone fish usually spends the whole day wedged in a cave, and owners often assume it has died. A group of four or five gives each fish the confidence to come out and roost under leaves in view.[2]"}
+      ]
+    },
+    {
+      "id": "tank-size",
+      "toc": "Tank size",
+      "h2": "Upside Down Catfish Tank Size and Setup",
+      "blocks": [
+        {"p": "FishBase gives 80 cm (about 32 in) as the minimum tank length for a group of five or more.[1] Seriously Fish notes that a single fish could manage in a 75 × 30 × 30 cm (30 × 12 × 12 in) tank of about 70 litres, but stresses that a group needs more room.[2] A 30-gallon tank suits a group of four or five, and a 4-foot tank lets you add a few more."},
+        {"ul": [
+          "<strong>Lighting:</strong> dim, or shaded by floating plants.[2]",
+          "<strong>Hiding places:</strong> caves made from rocks, driftwood and twisted roots, with one cave per fish.[2]",
+          "<strong>Plants:</strong> broad-leaved species such as Anubias or Amazon swords, whose undersides the catfish rest against.[2]",
+          "<strong>Substrate:</strong> sand or smooth fine gravel to protect the barbels."
+        ]},
+        {"chart": true}
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water",
+      "h2": "Water Parameters",
+      "blocks": [
+        {"p": "Seriously Fish lists 24–28 °C, pH 6.0–7.5 and 5–20 dGH, and FishBase lists 22–26 °C, pH 6.0–8.0 and 5–12 dGH.[1][2] The overlap, about 24–26 °C (75–79 °F) at near-neutral pH, works well in most community tanks. Keep the temperature steady, since Seriously Fish flags temperature as the parameter this species is least tolerant of changing.[2]"}
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Diet",
+      "h2": "What Upside Down Catfish Eat",
+      "blocks": [
+        {"p": "Like other <em>Synodontis</em>, this catfish will eat almost anything: dried, frozen and live foods are all accepted. It also rasps at vegetables such as shelled peas and cucumber with the teeth in its lower jaw.[2] Unlike most of its relatives it often feeds at the surface, upside down, taking floating flakes from below.[2]"},
+        {"p": "The key detail is timing. Wild fish feed mainly at night.[1] In a busy community, daytime food is gone before the catfish leave their caves. Drop a few sinking pellets or a pinch of frozen bloodworm in after the lights go off, at least every other day."}
+      ]
+    },
+    {
+      "id": "inverted",
+      "toc": "Why upside down?",
+      "h2": "Why Does the Upside Down Catfish Swim Inverted?",
+      "blocks": [
+        {"p": "This fish spends most of its time inverted, and the habit has a clear purpose. In a 2007 study in the <em>Journal of Experimental Biology</em>, Blake and Chan measured drag on fish swimming just below the surface. Swimming belly-up created about 15% less drag than swimming upright. While gulping air at the surface, upright fish faced 1.5 times the drag of inverted fish.[3] Swimming deeper, they found no difference between the two postures."},
+        {"p": "Their conclusion was that the posture pays off where this catfish feeds and breathes: at the air–water boundary, picking food from the undersides of leaves and taking occasional gulps of air.[3] The dark belly makes sense from the same angle. Seen from above it blends with the dark water, which is the reverse of the usual pattern in fish, and the authors suggest this reverse countershading evolved together with the inverted habit and night-time activity.[3]"},
+        {"p": "The fry do not start out this way. Young fish swim upright and switch to the inverted position at around seven to eight weeks old.[2]"}
+      ]
+    },
+    {
+      "id": "tank-mates",
+      "toc": "Tank mates",
+      "h2": "Peaceful Tank Mates",
+      "blocks": [
+        {"p": "Almost any peaceful community fish is suitable. Seriously Fish suggests African biotope companions in particular: African tetras such as the <a href=\"/species/congo-tetra\">Congo tetra</a>, West African dwarf cichlids like <em>Pelvicachromis</em> (the <a href=\"/species/kribensis\">kribensis</a>) or <em>Anomalochromis</em>, and small mormyrids.[2] Avoid aggressive cichlids and large predators, and do not mix it with big, boisterous <em>Synodontis</em> that will take over every cave."}
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Sexing & breeding",
+      "h2": "Sexing and Breeding",
+      "blocks": [
+        {"p": "Males are slimmer and darker than females. The fish are too small to sex by checking the genital papilla.[2] Spawning in aquaria has been reported but is poorly documented. Because the species breeds in the rainy season, when it moves into flooded areas, a large, cooler water change is the usual suggested trigger.[2]"},
+        {"p": "Reports disagree on where the eggs go: some describe a pit in the substrate, others a cave or length of pipe, so offer both. Up to about 450 eggs have been recorded. The fry swim freely after roughly four days and can be started on brine shrimp nauplii or microworms.[2] FishBase notes that the parents tend the clutch rather than guarding it aggressively.[1]"}
+      ]
+    }
+  ],
+  "faq_h2": "Upside Down Catfish FAQ",
+  "faq": [
+    {"q": "Are upside down catfish good for beginners?", "a": "Yes. They are hardy, peaceful and easy to feed. The only real requirements are a group of four or five and food added after the lights go out.[1][2]"},
+    {"q": "How big do upside down catfish get?", "a": "About 9.6 cm (3.8 in) total length according to FishBase. Seriously Fish lists up to 10 cm standard length.[1][2]"},
+    {"q": "Why is my upside down catfish swimming the right way up?", "a": "Adults turn upright briefly to feed on the bottom or to dart away. Juveniles under about two months swim upright normally.[2] An adult that stays upright and listless should prompt a water test."},
+    {"q": "Do these catfish need to live in a group?", "a": "They survive alone but rarely show themselves. Keep at least four or five together.[1][2]"}
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {"href": "/species/congo-tetra", "label": "🐟 Congo Tetra"},
+    {"href": "/species/kribensis", "label": "🐟 Kribensis"},
+    {"href": "/species/cuckoo-catfish", "label": "🐟 Cuckoo Catfish"},
+    {"href": "/species/featherfin-catfish", "label": "🐟 Featherfin Catfish"},
+    {"href": "/species/african-butterfly-fish", "label": "🐟 African Butterfly Fish"},
+    {"href": "/species/elephant-nose-fish", "label": "🐟 Elephant Nose Fish"}
+  ],
+  "editorial_note": "Range, size and group size follow FishBase. Husbandry, diet and the breeding notes follow Seriously Fish.[1][2] The explanation of inverted swimming is drawn from Blake and Chan's drag measurements rather than hobby folklore.[3]",
+  "references": [
+    {"authors": "Froese, R. & Pauly, D. (eds.).", "title": "Synodontis nigriventris David, 1936.", "source": "FishBase, version 2025.", "url": "https://www.fishbase.se/summary/Synodontis-nigriventris.html", "label": "fishbase.se"},
+    {"authors": "Seriously Fish.", "title": "Synodontis nigriventris (Upside-down Catfish).", "source": "Species profile.", "url": "https://www.seriouslyfish.com/species/synodontis-nigriventris/", "label": "seriouslyfish.com"},
+    {"authors": "Blake, R. W. & Chan, K. H. S. (2007).", "title": "Swimming in the upside down catfish Synodontis nigriventris: it matters which way is up.", "source": "Journal of Experimental Biology 210: 2979–2989.", "url": "https://doi.org/10.1242/jeb.006437", "label": "doi.org/10.1242/jeb.006437"}
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "slug": "pristella-tetra",
+  "keyword": "pristella tetra",
+  "common_name": "Pristella Tetra",
+  "scientific": "Pristella maxillaris",
+  "date_published": "2026-08-05T14:07:27.442Z",
+  "date_modified": "2026-10-24",
+  "date_modified_human": "October 24, 2026",
+  "title": "Pristella Tetra Care, X-Ray Tetra and GloFish Pristella",
+  "description": "Pristella tetra (X-ray tetra) care: a 24-in tank, groups of 6–10, 72–82 °F. What GloFish pristellas are, and if they get along with black skirt tetras.",
+  "h1": "Pristella Tetra Care Guide with GloFish Pristella and Tank Mates",
+  "tag": "🐟 Freshwater · Hardy South American characin",
+  "photo": {
+    "src": "/assets/encyclopedia/real/pristella-tetra-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 1600,
+    "alt": "Pristella tetra (Pristella maxillaris) with its translucent body and black-white-yellow dorsal fin spot",
+    "caption": "The pristella tetra's see-through body earned it the name X-ray tetra. The black, white and yellow patches on the dorsal and anal fins are the easiest field marks."
+  },
+  "chart": {
+    "tank_gal": 15,
+    "temp_f": [
+      72,
+      82
+    ],
+    "ph": [
+      6.0,
+      7.5
+    ],
+    "size_in": 1.8,
+    "group": "At least 6, preferably 10 or more",
+    "care": "Easy — one of the best beginner fish",
+    "alt": "Pristella tetra care chart: 15-gallon minimum tank, 72–82 °F, pH 6.0–7.5, adult size under 2 inches",
+    "caption": "Pristella tetra needs at a glance. The tank figure corresponds to the 24 × 12 in minimum footprint."
+  },
+  "facts": [
+    [
+      "Scientific name",
+      "<em>Pristella maxillaris</em>"
+    ],
+    [
+      "Other names",
+      "X-ray tetra, water goldfinch"
+    ],
+    [
+      "Family",
+      "Characidae"
+    ],
+    [
+      "Origin",
+      "Amazon, Orinoco and coastal Guiana rivers"
+    ],
+    [
+      "Adult size",
+      "4.5 cm (1.8 in)"
+    ],
+    [
+      "Minimum tank",
+      "60 × 30 cm base (24 × 12 in)"
+    ],
+    [
+      "Temperature",
+      "22–28 °C (72–82 °F)"
+    ],
+    [
+      "pH / hardness",
+      "6.0–7.5 / 2–20 dGH"
+    ],
+    [
+      "Group size",
+      "6+, ideally 10+"
+    ],
+    [
+      "Diet",
+      "Micropredator; eats flakes and small frozen foods"
+    ],
+    [
+      "Care level",
+      "Easy"
+    ]
+  ],
+  "short_answer": "The pristella tetra is a peaceful, very hardy schooling fish that stays under 2 inches. Keep a group of at least six, and preferably ten, in a tank with at least a <strong>24 × 12 in base</strong>, at <strong>72–82 °F</strong> and pH 6.0–7.5.[2] GloFish pristellas are genetically modified fluorescent versions of the same species and need identical care.[3]",
+  "intro": [
+    "The pristella tetra (<em>Pristella maxillaris</em>), also called the X-ray tetra, is a small, translucent pristella tetra from northern South America and one of the easiest tetras to keep.",
+    "FishBase gives its range as the Amazon, Orinoco and coastal river drainages of the Guianas.[1] In the dry season it lives in clearwater streams, and when the rains come it moves into flooded savannah to spawn among submerged vegetation.[2] Those seasonal swings in water chemistry explain why it adapts so readily to different tap waters. It is the only species in its genus, and older books call it <em>Pristella riddlei</em>.[2]",
+    "Nearly all fish on sale are commercially bred, including a semi-albino \"golden\" strain and, since the early 2020s, the fluorescent GloFish lines. This guide covers care, the GloFish versions, and the tank-mate question people search for most: whether pristellas can live with black skirt tetras."
+  ],
+  "sections": [
+    {
+      "id": "tank",
+      "toc": "Tank & setup",
+      "h2": "Pristella Tetra Tank Size and Setup",
+      "blocks": [
+        {
+          "p": "A base of 60 × 30 cm (24 × 12 in) is the smallest Seriously Fish recommends.[2] That is a 15-gallon or 20-gallon long tank, enough for a school of eight to ten. Pristellas look best in a densely planted tank or a dim blackwater setup, with river sand, driftwood branches and a layer of dried leaves staining the water the colour of weak tea. In a bare, brightly lit tank they look washed out.[2]"
+        },
+        {
+          "chart": true
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water",
+      "h2": "Water Parameters",
+      "blocks": [
+        {
+          "p": "Seriously Fish lists 22–28 °C (72–82 °F), pH 6.0–7.5 and anything from 2 to 20 dGH. FishBase allows up to 35 dGH and pH 8.0.[1][2] Hardness is not critical for keeping them, because their home waters change mineral content through the year.[2] Softer, more acidic water matters only if you want to breed them (see below)."
+        }
+      ]
+    },
+    {
+      "id": "glofish",
+      "toc": "GloFish pristella",
+      "h2": "GloFish Pristella Tetra",
+      "blocks": [
+        {
+          "p": "GloFish pristellas are transgenic <em>Pristella maxillaris</em> sold in four colour lines: Electric Green, Starfire Red, Sunburst Orange and Galactic Purple. A 2024 risk assessment published by Fisheries and Oceans Canada describes how they were made. Genes coding for fluorescent proteins were microinjected into early pristella embryos, so the colour is inherited rather than dyed, and it shows under ordinary light and sunlight as well as blue light.[3]"
+        },
+        {
+          "ul": [
+            "<strong>Care:</strong> the same as for the standard pristella tetra. They are the same species with the same size, diet and water needs.",
+            "<strong>Breeding:</strong> the company reported to regulators that three of the four lines have significantly lower reproductive success than their non-transgenic siblings.[3] Breeding or selling GloFish offspring also runs into patent and licensing restrictions.",
+            "<strong>Mixing:</strong> GloFish pristellas school with normal and golden pristellas.",
+            "<strong>Lighting:</strong> blue or actinic light makes the colours glow, but give them a normal day–night cycle."
+          ]
+        },
+        {
+          "p": "The Canadian assessment found no evidence that the modified lines pose more risk to people than ordinary pristellas, which have been kept in home aquaria since the 1950s.[3]"
+        }
+      ]
+    },
+    {
+      "id": "tank-mates",
+      "toc": "Tank mates",
+      "h2": "Pristella Tetra Tank Mates",
+      "blocks": [
+        {
+          "p": "This is a very peaceful fish that loses out to boisterous or much larger tank mates.[2] Good companions are other small South American fish such as tetras, pencilfish and hatchetfish, <em>Apistogramma</em> and other dwarf cichlids, Corydoras and small plecos. In a general community, small rasboras, barbs, livebearers, loaches, gouramis and West African dwarf cichlids such as <em>Pelvicachromis</em> also work.[2]"
+        },
+        {
+          "h3": "Do pristella tetras get along with black skirt tetras?"
+        },
+        {
+          "p": "Usually, yes. Both are hardy South American tetras that like similar water, and a <a href=\"/species/black-skirt-tetra\">black skirt tetra</a> is only a little larger. The risk is fin nipping by black skirts kept in a small group, because the nipping is aimed at slower or long-finned fish. Keep each species in its own school of six or more, so each group's chasing stays within its own kind, and avoid long-finned black skirt varieties if your pristellas will be the faster fish. Check the full stocking plan in the <a href=\"/tools/fish-compatibility-checker/\">compatibility checker</a>."
+        }
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Diet",
+      "h2": "Feeding",
+      "blocks": [
+        {
+          "p": "In the wild the pristella is a micropredator that eats small invertebrates. In the aquarium it accepts anything of the right size.[2] Feed a quality micro-flake or crumbled granule daily, with frozen or live <em>Daphnia</em> and brine shrimp a few times a week to keep the colours bright.[2] Pinch-sized portions twice a day are better than one large meal, because uneaten flakes fall to the bottom and rot."
+        }
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Breeding",
+      "h2": "Sexing and Breeding Pristella Tetras",
+      "blocks": [
+        {
+          "p": "Mature females are usually larger and noticeably deeper-bodied than males.[2] Getting them to spawn is easy, but raising the tiny fry is harder. Seriously Fish recommends a separate breeding tank of about 18 × 10 × 10 in with the following setup:[2]"
+        },
+        {
+          "ol": [
+            "Dim lighting, plus Java moss, spawning mops or a mesh floor that eggs can fall through.",
+            "Soft, acidic water: pH 5.5–6.5, 1–5 dGH, 80–84 °F. RO water or peat filtration helps.",
+            "Condition the sexes separately on live foods, then move the plumpest female and the most colourful male into the breeding tank in the evening.",
+            "Spawning usually follows the next morning. Remove the adults as soon as eggs appear, because they will eat them.",
+            "Eggs hatch in 24–36 hours, and fry swim freely three to four days later. Feed infusoria first, then microworms or brine shrimp nauplii. Keep the tank dark, because eggs and fry are light-sensitive."
+          ]
+        }
+      ]
+    }
+  ],
+  "faq_h2": "Pristella Tetra FAQ",
+  "faq": [
+    {
+      "q": "Is an X-ray tetra the same as a pristella tetra?",
+      "a": "Yes. X-ray tetra, pristella tetra and water goldfinch are all trade names for <em>Pristella maxillaris</em>.[2]"
+    },
+    {
+      "q": "Are GloFish pristellas a different species?",
+      "a": "No. They are genetically modified <em>P. maxillaris</em> carrying fluorescent protein genes, and their care is the same.[3]"
+    },
+    {
+      "q": "How many pristella tetras should be kept together?",
+      "a": "At least six, and preferably ten or more. They are a shoaling species and do much better with plenty of their own kind.[2]"
+    },
+    {
+      "q": "How big do pristella tetras get?",
+      "a": "About 4.5 cm (1.8 in).[1][2]"
+    }
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {
+      "href": "/species/serpae-tetra",
+      "label": "🐟 Serpae Tetra"
+    },
+    {
+      "href": "/species/black-skirt-tetra",
+      "label": "🐟 Black Skirt Tetra"
+    },
+    {
+      "href": "/species/head-and-tail-light-tetra",
+      "label": "🐟 Head-and-Tail-Light Tetra"
+    },
+    {
+      "href": "/species/glowlight-tetra",
+      "label": "🐟 Glowlight Tetra"
+    },
+    {
+      "href": "/species/lemon-tetra",
+      "label": "🐟 Lemon Tetra"
+    },
+    {
+      "href": "/species/marbled-hatchetfish",
+      "label": "🐟 Marbled Hatchetfish"
+    }
+  ],
+  "editorial_note": "Range and size are from FishBase. Husbandry, tank mates and the breeding method follow Seriously Fish.[1][2] Everything about GloFish pristellas is taken from the Canadian government's published risk assessment, not from retailer descriptions.[3]",
+  "references": [
+    {
+      "authors": "Froese, R. & Pauly, D. (eds.).",
+      "title": "Pristella maxillaris (Ulrey, 1894).",
+      "source": "FishBase, version 2025.",
+      "url": "https://www.fishbase.se/summary/Pristella-maxillaris.html",
+      "label": "fishbase.se"
+    },
+    {
+      "authors": "Seriously Fish.",
+      "title": "Pristella maxillaris (X-ray Tetra).",
+      "source": "Species profile.",
+      "url": "https://www.seriouslyfish.com/species/pristella-maxillaris/",
+      "label": "seriouslyfish.com"
+    },
+    {
+      "authors": "Dugan, S., Ali, K. & Demissie, Z. (2024).",
+      "title": "Indirect Human Health Risk Assessment of GloFish® Electric Green®, Starfire Red®, Sunburst Orange® and Galactic Purple® Pristella Tetras (Pristella maxillaris): Transgenic Ornamental Fishes.",
+      "source": "DFO Canadian Science Advisory Secretariat Research Document 2024/044.",
+      "url": "https://waves-vagues.dfo-mpo.gc.ca/library-bibliotheque/41249306.pdf",
+      "label": "dfo-mpo.gc.ca (PDF)"
+    }
+  ]
+}

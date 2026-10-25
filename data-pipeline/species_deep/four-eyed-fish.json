@@ -1,0 +1,139 @@
+{
+  "slug": "four-eyed-fish",
+  "keyword": "four eyed fish",
+  "common_name": "Four Eyed Fish",
+  "scientific": "Anableps anableps",
+  "date_published": "2026-08-06T01:33:26.336Z",
+  "date_modified": "2026-10-25",
+  "date_modified_human": "October 25, 2026",
+  "title": "Four Eyed Fish (Anableps) Care, Tank and Split Eyes",
+  "description": "Four eyed fish (Anableps anableps) care: a shallow 60 × 18 in brackish tank, groups of 6+, live-bearing young, and how its split eyes see above and below water.",
+  "h1": "Four Eyed Fish Care and How Anableps Sees Above and Below Water",
+  "tag": "🐟 Brackish · Mangrove surface livebearer",
+  "photo": {
+    "src": "/assets/encyclopedia/real/four-eyed-fish-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 946,
+    "alt": "Four eyed fish (Anableps anableps) floating at the surface with its bulging eyes half above the waterline",
+    "caption": "An adult at the surface. Each eye sits half in air and half in water, and a band of tissue splits it into upper and lower halves."
+  },
+  "chart": {
+    "tank_gal": 80,
+    "temp_f": [77, 88],
+    "ph": [7.5, 9.0],
+    "size_in": 10.0,
+    "group": "6 or more; about 6 adults max in 60 × 18 in",
+    "care": "Advanced — brackish, shallow, very large tank",
+    "alt": "Four eyed fish care chart: 80-gallon (60 × 18 in) shallow tank, 77–88 °F, pH 7.5–9.0, adult size up to 10 inches",
+    "caption": "Needs at a glance for Anableps. Surface area matters far more than depth for this species."
+  },
+  "facts": [
+    ["Scientific name", "<em>Anableps anableps</em>"],
+    ["Family", "Anablepidae"],
+    ["Origin", "Gulf of Paria (Venezuela, Trinidad) to the Parnaíba estuary, Brazil"],
+    ["Adult size", "14 cm common; 26 cm SL / 30 cm TL max"],
+    ["Minimum tank", "150 × 45 cm base (60 × 18 in, ≈80 gal)"],
+    ["Water depth", "About 15 cm (6 in) is enough"],
+    ["Salinity", "Brackish, SG 1.005–1.015"],
+    ["Temperature", "25–31 °C (77–88 °F)"],
+    ["pH / hardness", "7.5–9.0 / 15–35 dGH"],
+    ["Reproduction", "Live-bearing; ~12-week gestation"],
+    ["IUCN status", "Least Concern (2020)"]
+  ],
+  "short_answer": "The four eyed fish is not a beginner fish. It reaches about <strong>26 cm (10 in)</strong>, lives in <strong>brackish water</strong>, and needs a large but <strong>shallow</strong> tank with at least a <strong>150 × 45 cm (60 × 18 in) base</strong>, which holds about six adults at most.[2][1] Keep it warm (77–88 °F) and alkaline, in a group of six or more, under a tight lid. Seriously Fish considers it better suited to public aquaria than to most home tanks.[2]",
+  "intro": [
+    "The four eyed fish (<em>Anableps anableps</em>) is a surface-dwelling, live-bearing four eyed fish from the mangrove coasts of north-eastern South America.",
+    "Its range runs from the Gulf of Paria between Trinidad and Venezuela, along the Guianas and past the Amazon delta to the Parnaíba estuary in Brazil.[2][1] It lives in brackish <em>Rhizophora</em> mangrove forest and moves in and out with the tides.[2] It does not actually have four eyes. Each of its two eyes is split horizontally so that the top half looks through the air and the bottom half looks through the water at the same time.[2][4]",
+    "Many care sheets describe it as a beginner fish for a 20-gallon tank, but the sources below show it needs far more space. This guide covers what the species really requires, what it eats in the wild, how it gives birth to live young, and the eye that gave it its name."
+  ],
+  "sections": [
+    {
+      "id": "eyes",
+      "toc": "The split eye",
+      "h2": "How the Four Eyed Fish Sees Above and Below Water",
+      "blocks": [
+        {"p": "A band of tissue divides each eye horizontally. Each eye has two corneas and two pupils but a single egg-shaped lens, and its one retina is split into two sections.[2] Light from above the water passes through the flatter part of the lens, suited to vision in air, while light from below passes through the more curved part, suited to vision in water. Sivak described these optics in 1976.[5] The two halves of the retina even express different light-sensitive genes. Perez and colleagues traced how the eye structures duplicate during six larval stages, and found that the dorsal and ventral retina develop differently.[4]"},
+        {"p": "This arrangement matters in the wild. In a north Brazilian mangrove, Brenner and Krumme found the best foraging conditions at daytime high tides, which they linked to the above-water eye. In the dark the fish found much less food.[3]"}
+      ]
+    },
+    {
+      "id": "tank",
+      "toc": "Tank & setup",
+      "h2": "Four Eyed Fish Tank Size and Setup",
+      "blocks": [
+        {"p": "Surface area matters much more than depth. Seriously Fish puts the minimum at a base of 150 × 45 cm (60 × 18 in), about 300 litres, and says even this holds only half a dozen adults.[2] FishBase records a common length of 14 cm and a maximum of 30 cm total length.[1] Wild fish gather in groups of hundreds at low tide, which is why Seriously Fish considers the species better suited to public aquaria.[2]"},
+        {"ul": [
+          "<strong>Depth:</strong> about 15 cm (6 in) of water is plenty. The fish spend nearly all their time at the surface.[2]",
+          "<strong>Layout:</strong> a thin layer of fine sand, open water, and driftwood or roots breaking the surface like mangrove stilt roots. Include a few very shallow or exposed slopes where young fish rest.[2]",
+          "<strong>Filtration:</strong> a large canister or sump, because the species produces a lot of waste.[2]",
+          "<strong>Lid:</strong> tight-fitting, with a humid air layer underneath. They leap powerfully.[2]",
+          "<strong>Light:</strong> bright, to grow algae on the décor.[2]"
+        ]},
+        {"chart": true}
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Brackish water",
+      "h2": "Brackish Water and Salinity",
+      "blocks": [
+        {"p": "Wild fish face salinities of 5–30‰, so they tolerate a wide range. For aquaria, a specific gravity of 1.005–1.015 is normally recommended.[2] Keep the water strictly tropical at 25–31 °C (77–88 °F), alkaline at pH 7.5–9.0 and hard at 15–35 dGH.[2] FishBase gives a slightly cooler 24–28 °C.[1] Measure salinity with a refractometer or hydrometer, and top up evaporation with fresh water so the salt level does not creep upwards."}
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Diet",
+      "h2": "What Four Eyed Fish Eat",
+      "blocks": [
+        {"p": "The wild diet is unusual. Brenner and Krumme found that fish entering flooded mangrove creeks at high tide mainly ate intertidal red algae (<em>Catenella</em>) growing on mangrove roots, followed by insects and small grapsid crabs.[3] Insects and crabs are often caught by leaping out of the water onto banks or roots.[2] At low neap tides the fish took mud and occasional carrion.[3][2]"},
+        {"p": "In aquaria, offer a spirulina-based flake or pellet as the staple, plus fruit flies, bloodworm, brine shrimp and chopped earthworm. Feed twice a day to match the two daily tides.[2] Seriously Fish links poor diet with breeding problems (see below), so variety matters.[2]"}
+      ]
+    },
+    {
+      "id": "tank-mates",
+      "toc": "Tank mates",
+      "h2": "Tank Mates",
+      "blocks": [
+        {"p": "A species tank is best. Keep a group of at least six, preferably a dozen, because single fish are nervous.[2] In very large tanks, peaceful estuarine fish that stay away from the surface can work: some mollies, monos, and small bottom-dwelling gobies.[2] Avoid competitive surface feeders such as <a href=\"/species/archer-fish\">archer fish</a> and greedy scats, because Anableps has no natural competitors at the surface and lose out at feeding time.[2] They may eat much smaller fish."}
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Breeding",
+      "h2": "Breeding Four Eyed Fish",
+      "blocks": [
+        {"p": "Females grow much larger than males, and males have a scaled, tubular gonopodium that differs from a guppy's.[2] The species gives birth to live young, and a mixed group usually mates without help. Hobby literature claims that males and females are \"left-handed\" or \"right-handed\" and can only pair with the opposite side. Seriously Fish members found the gonopodium flexible enough that this may not hold.[2]"},
+        {"ol": [
+          "Gestation lasts about 12 weeks, and the female's appetite rises sharply.[2]",
+          "Just before giving birth she becomes hostile and seeks a quiet spot. Move her to her own tank.[2]",
+          "The young are born fully formed at 4–5 cm (1.6–2 in) and take quite large food straight away.[2]",
+          "Premature births, with part of the gut protruding, are a known problem. Some can be saved in clean, sterile water. Whether the cause is diet, water quality, maturity or stress is not known.[2]"
+        ]}
+      ]
+    }
+  ],
+  "faq_h2": "Four Eyed Fish FAQ",
+  "faq": [
+    {"q": "Does the four eyed fish really have four eyes?", "a": "No, it has two. Each is split horizontally into an upper half for seeing in air and a lower half for seeing underwater, with separate corneas and pupils.[2][5]"},
+    {"q": "Can Anableps live in freshwater?", "a": "Not long term. They come from brackish mangroves, and a specific gravity of about 1.005–1.015 is recommended.[2]"},
+    {"q": "How big does Anableps get?", "a": "Usually about 14 cm, with a maximum of 30 cm total length. Females are larger than males.[1][2]"},
+    {"q": "Is Anableps the same as a \"four eyed grouper\"?", "a": "No. Search engines sometimes mix the two, but <em>Anableps</em> is a small surface-living livebearer, not a grouper."}
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {"href": "/species/archer-fish", "label": "🐟 Archer Fish"},
+    {"href": "/species/figure-eight-puffer", "label": "🐟 Figure Eight Puffer"},
+    {"href": "/species/sailfin-molly", "label": "🐟 Sailfin Molly"},
+    {"href": "/species/molly", "label": "🐟 Molly"},
+    {"href": "/species/halfbeak", "label": "🐟 Halfbeak"},
+    {"href": "/species/african-butterfly-fish", "label": "🐟 African Butterfly Fish"}
+  ],
+  "editorial_note": "Husbandry and breeding follow Seriously Fish, and size, range and status follow FishBase.[1][2] The ecology and eye sections are cited to peer-reviewed field and developmental studies.[3][4][5] This page replaces an earlier version that gave a 20-gallon tank and a beginner rating.",
+  "references": [
+    {"authors": "Froese, R. & Pauly, D. (eds.).", "title": "Anableps anableps (Linnaeus, 1758).", "source": "FishBase, version 2025.", "url": "https://www.fishbase.se/summary/Anableps-anableps.html", "label": "fishbase.se"},
+    {"authors": "Seriously Fish.", "title": "Anableps anableps (Four-eyed Fish).", "source": "Species profile.", "url": "https://www.seriouslyfish.com/species/anableps-anableps/", "label": "seriouslyfish.com"},
+    {"authors": "Brenner, M. & Krumme, U. (2007).", "title": "Tidal migration and patterns in feeding of the four-eyed fish Anableps anableps L. in a north Brazilian mangrove.", "source": "Journal of Fish Biology 70: 406–427.", "url": "https://doi.org/10.1111/j.1095-8649.2007.01313.x", "label": "doi.org/10.1111/j.1095-8649.2007.01313.x"},
+    {"authors": "Perez, L. N., Lorena, J., Costa, C. M., Araujo, M. S., Frota-Lima, G. N., Matos-Rodrigues, G. E., Martins, R. A. P., Mattox, G. M. T. & Schneider, P. N. (2017).", "title": "Eye development in the four-eyed fish Anableps anableps: cranial and retinal adaptations to simultaneous aerial and aquatic vision.", "source": "Proceedings of the Royal Society B 284: 20170157.", "url": "https://doi.org/10.1098/rspb.2017.0157", "label": "doi.org/10.1098/rspb.2017.0157"},
+    {"authors": "Sivak, J. G. (1976).", "title": "Optics of the eye of the \"four-eyed fish\" (Anableps anableps).", "source": "Vision Research 16: 531.", "url": "https://doi.org/10.1016/0042-6989(76)90035-3", "label": "doi.org/10.1016/0042-6989(76)90035-3"}
+  ]
+}

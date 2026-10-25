@@ -1,0 +1,151 @@
+{
+  "slug": "archer-fish",
+  "keyword": "archer fish",
+  "common_name": "Archer Fish",
+  "scientific": "Toxotes jaculatrix",
+  "date_published": "2026-08-06T01:33:26.336Z",
+  "date_modified": "2026-10-24",
+  "date_modified_human": "October 24, 2026",
+  "title": "Archer Fish Care, Tank Size and Clouded Archerfish",
+  "description": "Archer fish grow to 30 cm and need a 48 × 24 in brackish tank, not a small community tank. Water, feeding by spitting, tank mates, and the clouded archerfish.",
+  "h1": "Archer Fish Care with Brackish Setup, Spitting and the Clouded Archerfish",
+  "tag": "🐟 Brackish · Mangrove insect hunter",
+  "photo": {
+    "src": "/assets/encyclopedia/real/archer-fish-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 1142,
+    "alt": "Banded archer fish (Toxotes jaculatrix) with silver body, black wedge-shaped bands and upward-facing mouth",
+    "caption": "The banded archerfish, the species usually sold. Eyes set close to the upturned mouth let it aim through the water surface."
+  },
+  "chart": {
+    "tank_gal": 114,
+    "temp_f": [77, 86],
+    "ph": [7.0, 8.0],
+    "size_in": 12.0,
+    "group": "Groups of 4–5 to spread aggression",
+    "care": "Moderate to advanced — brackish, large tank",
+    "alt": "Archer fish care chart: 114-gallon tank for adults, 77–86 °F, pH 7.0–8.0, adult size up to 12 inches",
+    "caption": "Banded archerfish needs at a glance. The tank volume is the 120 × 60 × 60 cm (48 × 24 × 24 in) recommended for adults."
+  },
+  "facts": [
+    ["Scientific name", "<em>Toxotes jaculatrix</em> (banded archerfish)"],
+    ["Family", "Toxotidae"],
+    ["Origin", "India to the Philippines, Indonesia, PNG, northern Australia"],
+    ["Adult size", "20 cm common; 30 cm (12 in) max"],
+    ["Minimum tank", "120 × 60 × 60 cm (48 × 24 × 24 in, ≈114 gal)"],
+    ["Water type", "Brackish (juveniles tolerate fresh)"],
+    ["Temperature", "25–30 °C (77–86 °F)"],
+    ["pH / hardness", "7.0–8.0 / 20–30 dGH"],
+    ["Group size", "4–5"],
+    ["Breeding", "Not achieved in aquaria"],
+    ["IUCN status", "Least Concern (2011)"]
+  ],
+  "short_answer": "Archer fish are not small community fish. The banded species grows to <strong>about 30 cm (12 in)</strong>, needs <strong>brackish water</strong> at <strong>77–86 °F</strong> and pH 7.0–8.0, and should have a tank of about <strong>120 × 60 × 60 cm (48 × 24 × 24 in)</strong> as an adult.[2][1] Keep four or five together to spread aggression, and feed them at the surface. With live insects above the water, you can watch them shoot their prey down.[2]",
+  "intro": [
+    "The archer fish (<em>Toxotes jaculatrix</em>), or banded archerfish, is a brackish-water archer fish famous for knocking insects off leaves with a jet of water.",
+    "It ranges from India east to the Philippines and south through Indonesia, the Solomon Islands, Vanuatu and Papua New Guinea to northern Australia.[1] Its main habitat is shady mangrove estuaries, but it also enters rivers and streams, usually in small groups beneath overhanging vegetation.[1][2] It feeds at the surface by day on floating insects and plant debris, and it shoots down insects resting just above the water.[1]",
+    "These fish are often sold as small juveniles labelled as freshwater community fish, which is why many owners are surprised by how large they become. This guide sets out what an adult actually needs, explains the hunting behaviour scientists have studied, and covers the clouded archerfish and other species that turn up in shops."
+  ],
+  "sections": [
+    {
+      "id": "tank",
+      "toc": "Tank size",
+      "h2": "Archer Fish Tank Size and Setup",
+      "blocks": [
+        {"p": "Seriously Fish recommends 120 × 60 × 60 cm (48 × 24 × 24 in), roughly 430 litres or 114 US gallons, for adults.[2] FishBase records a common length of 20 cm and a maximum of 30 cm.[1] A 4-inch juvenile will outgrow a 30-gallon tank within a year or two, so plan for the final size before you buy."},
+        {"p": "There are two ways to set up the tank.[2]"},
+        {"ul": [
+          "<strong>Brackish aquarium:</strong> mangrove roots or driftwood, salt-tolerant plants and slow water flow.",
+          "<strong>Paludarium:</strong> a tall tank half-filled with water, with a planted land area and branches overhanging the water. This lets the fish hunt the way it does in the wild."
+        ]},
+        {"p": "Either way, use a secure lid. Fish that hunt above the surface also jump."},
+        {"chart": true}
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Brackish water",
+      "h2": "Archer Fish Water Parameters and Salinity",
+      "blocks": [
+        {"p": "Seriously Fish gives 25–30 °C (77–86 °F), pH 7.0–8.0 (the higher end preferred) and 20–30 dGH. FishBase lists the same temperature range.[1][2] Juveniles are sometimes kept in fresh water, but Seriously Fish recommends a brackish setup in all cases.[2] Adults are believed to migrate to full seawater to breed, which explains why they cope well with salt.[2]"},
+        {"p": "Add marine salt gradually and measure it with a hydrometer or refractometer rather than guessing by the spoonful. Low-end brackish water suits juveniles, and adults tolerate considerably more. Whatever you choose, keep it stable: salinity swings are as stressful as temperature swings."}
+      ]
+    },
+    {
+      "id": "spitting",
+      "toc": "How it shoots",
+      "h2": "How Archer Fish Shoot Their Prey",
+      "blocks": [
+        {"p": "The fish fires a precisely aimed jet of water from its mouth at an insect resting on a leaf or branch. The prey drops into the water, and the fish is usually waiting where it lands.[2][1] Research shows how much skill this takes."},
+        {"ul": [
+          "<strong>Correcting for refraction:</strong> Schuster and colleagues showed in 2004 that archer fish learn to compensate for the optical distortion of looking up through the water surface. This lets them judge the real size of a target from many angles.[3]",
+          "<strong>Learning by watching:</strong> in a 2006 study, archer fish learned to hit prey moving fast at height just by watching a trained group member, with no practice of their own. The authors described this as a remarkable case of social learning in fish.[4]",
+          "<strong>Recognising faces:</strong> in 2016 the closely related <em>Toxotes chatareus</em> learned to tell apart dozens of human face images with high accuracy, which is notable for an animal without a neocortex.[5]"
+        ]}
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Feeding",
+      "h2": "Feeding Archer Fish",
+      "blocks": [
+        {"p": "Wild fish eat land and aquatic invertebrates and occasionally small fish.[2] In captivity they take floating pellets and flakes along with frozen bloodworm and brine shrimp.[2] To see them shoot, release crickets or fruit flies onto plants above the waterline in a paludarium, or stick a small piece of food to the glass just above the surface.[2] Feed at the surface, since this fish rarely picks food off the bottom."}
+      ]
+    },
+    {
+      "id": "tank-mates",
+      "toc": "Tank mates",
+      "h2": "Archer Fish Tank Mates",
+      "blocks": [
+        {"p": "They are generally peaceful but will eat much smaller fish. They can also be aggressive towards one another, which a group of four or five helps to spread out.[2] Good companions are other large, robust brackish species such as scats, monos and green chromides.[2] Avoid freshwater-only community fish, any fish small enough to swallow, and species that compete hard for food at the surface."}
+      ]
+    },
+    {
+      "id": "species",
+      "toc": "Clouded & other archers",
+      "h2": "Clouded Archerfish and Other Toxotes Species",
+      "blocks": [
+        {"p": "The genus <em>Toxotes</em> contains several species. The banded archerfish is the most common in the trade, and it is sometimes sold under the misspelt name <em>T. jaculator</em>.[2]"},
+        {"table": {"head": ["Species", "Range and habitat", "Notes"], "rows": [
+          ["Banded archerfish, <em>T. jaculatrix</em>", "Indo-Pacific mangroves and estuaries[1]", "The usual aquarium species"],
+          ["Largescale or seven-spot archerfish, <em>T. chatareus</em>", "South and Southeast Asia to Australia", "Similar pattern; occasionally sold[2]"],
+          ["Clouded archerfish, <em>T. blythii</em>", "Freshwater, Myanmar[6]", "Marbled pattern, rare in the trade; IUCN Data Deficient[6]"]
+        ]}},
+        {"p": "The clouded archer fish (<em>Toxotes blythii</em>) is the odd one out. FishBase lists it only from Myanmar and only from fresh water.[6] Its marbled \"clouded\" pattern replaces the bold bands of its relatives, and the IUCN lists it as Data Deficient. If you find one for sale, ask for the collection location, and do not assume it needs the brackish water that suits the banded species."}
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Breeding",
+      "h2": "Sexing and Breeding",
+      "blocks": [
+        {"p": "There are no known external differences between the sexes, and there are no reports of the species breeding in home aquaria.[2] Wild fish are thought to breed in full seawater, conditions that are very hard to reproduce in a tank.[2] Every fish sold is therefore wild-caught or farm-raised from wild stock."}
+      ]
+    }
+  ],
+  "faq_h2": "Archer Fish FAQ",
+  "faq": [
+    {"q": "How big does an archer fish get?", "a": "Usually about 20 cm, with a recorded maximum of 30 cm (12 in) total length.[1]"},
+    {"q": "Can archer fish live in freshwater?", "a": "Juveniles survive in fresh water, but a brackish setup is recommended at every age. The clouded archerfish is an exception, as FishBase lists it from fresh water only.[2][6]"},
+    {"q": "What size tank does an archer fish need?", "a": "Adults need about 120 × 60 × 60 cm (48 × 24 × 24 in), roughly 114 gallons.[2]"},
+    {"q": "How far can they shoot?", "a": "Far enough to hit insects on leaves well above the water. Accuracy falls with distance, and the fish also leap to grab prey just above the surface."}
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {"href": "/species/four-eyed-fish", "label": "🐟 Four-Eyed Fish"},
+    {"href": "/species/figure-eight-puffer", "label": "🐟 Figure Eight Puffer"},
+    {"href": "/species/african-butterfly-fish", "label": "🐟 African Butterfly Fish"},
+    {"href": "/species/halfbeak", "label": "🐟 Halfbeak"},
+    {"href": "/species/silver-arowana", "label": "🐟 Silver Arowana"},
+    {"href": "/tools/aquarium-size-calculator/", "label": "🧮 Aquarium Size Calculator"}
+  ],
+  "editorial_note": "Housing and water figures follow Seriously Fish, and range and size follow FishBase.[1][2] An earlier version of this profile gave a far smaller tank and called the species beginner-friendly, which those sources do not support. The behaviour findings are cited to the original experiments.[3][4][5]",
+  "references": [
+    {"authors": "Froese, R. & Pauly, D. (eds.).", "title": "Toxotes jaculatrix (Pallas, 1767).", "source": "FishBase, version 2025.", "url": "https://www.fishbase.se/summary/Toxotes-jaculatrix.html", "label": "fishbase.se"},
+    {"authors": "Seriously Fish.", "title": "Toxotes jaculatrix (Banded Archerfish).", "source": "Species profile.", "url": "https://www.seriouslyfish.com/species/toxotes-jaculatrix/", "label": "seriouslyfish.com"},
+    {"authors": "Schuster, S., Rossel, S., Schmidtmann, A., Jäger, I. & Poralla, J. (2004).", "title": "Archer fish learn to compensate for complex optical distortions to determine the absolute size of their aerial prey.", "source": "Current Biology 14: 1565–1568.", "url": "https://doi.org/10.1016/j.cub.2004.08.050", "label": "doi.org/10.1016/j.cub.2004.08.050"},
+    {"authors": "Schuster, S., Wöhl, S., Griebsch, M. & Klostermeier, I. (2006).", "title": "Animal cognition: how archer fish learn to down rapidly moving targets.", "source": "Current Biology 16: 378–383.", "url": "https://doi.org/10.1016/j.cub.2005.12.037", "label": "doi.org/10.1016/j.cub.2005.12.037"},
+    {"authors": "Newport, C., Wallis, G., Reshitnyk, Y. & Siebeck, U. E. (2016).", "title": "Discrimination of human faces by archerfish (Toxotes chatareus).", "source": "Scientific Reports 6: 27523.", "url": "https://doi.org/10.1038/srep27523", "label": "doi.org/10.1038/srep27523"},
+    {"authors": "Froese, R. & Pauly, D. (eds.).", "title": "Toxotes blythii Boulenger, 1892.", "source": "FishBase, version 2025.", "url": "https://www.fishbase.se/summary/Toxotes-blythii.html", "label": "fishbase.se"}
+  ]
+}

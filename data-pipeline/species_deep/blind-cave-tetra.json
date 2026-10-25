@@ -1,0 +1,148 @@
+{
+  "slug": "blind-cave-tetra",
+  "keyword": "blind cave tetra",
+  "common_name": "Blind Cave Tetra",
+  "scientific": "Astyanax mexicanus",
+  "date_published": "2026-08-06T01:33:26.336Z",
+  "date_modified": "2026-10-24",
+  "date_modified_human": "October 24, 2026",
+  "title": "Blind Cave Tetra (Mexican Tetra) Care and Tank Setup",
+  "description": "Blind cave tetra, or Mexican tetra, care: cooler 68–77 °F water, a 31-in tank, groups of 4+, tank mates and breeding, plus how the fish finds food without eyes.",
+  "h1": "Blind Cave Tetra Care and the Science of the Mexican Tetra",
+  "tag": "🐟 Freshwater · Cave form of the Mexican tetra",
+  "photo": {
+    "src": "/assets/encyclopedia/real/blind-cave-tetra-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 1432,
+    "alt": "Blind cave tetra (Astyanax mexicanus) with pale pink eyeless head and silvery body",
+    "caption": "The cave form has no visible eyes and very little pigment. Farmed fish often show a faint silvery sheen that wild cave populations lack."
+  },
+  "chart": {
+    "tank_gal": 20,
+    "temp_f": [68, 77],
+    "ph": [6.5, 8.0],
+    "size_in": 3.7,
+    "group": "At least 4; more is better",
+    "care": "Easy — hardy and peaceful",
+    "alt": "Blind cave tetra care chart: 20-gallon minimum tank, 68–77 °F, pH 6.5–8.0, adult size about 3.7 inches",
+    "caption": "Blind cave tetra needs at a glance. Note the cooler temperature band compared with most tropical tetras."
+  },
+  "facts": [
+    ["Scientific name", "<em>Astyanax mexicanus</em>"],
+    ["Other names", "Mexican tetra (surface form), blind cave fish"],
+    ["Family", "Characidae"],
+    ["Origin", "Texas and New Mexico to Guatemala; cave form only in Mexico"],
+    ["Adult size", "9.5 cm (3.7 in) SL; up to 12 cm TL"],
+    ["Minimum tank", "80 × 30 cm base (31 × 12 in)"],
+    ["Temperature", "20–25 °C (68–77 °F)"],
+    ["pH / hardness", "6.5–8.0 / 5–25 dGH"],
+    ["Group size", "4 or more"],
+    ["Senses", "Lateral line, extra taste buds"],
+    ["IUCN status", "Least Concern (2011)"]
+  ],
+  "short_answer": "The blind cave tetra is the eyeless cave form of the Mexican tetra, <em>Astyanax mexicanus</em>. It is hardy, peaceful and easy to keep. Give a group of four or more a tank with at least a <strong>31 × 12 in base</strong>, <strong>cooler water of 68–77 °F</strong> and pH 6.5–8.0, and feed a mix of dry and small frozen foods.[2] It does not need caves or special lighting, because it navigates by sensing water movement rather than by sight.[2]",
+  "intro": [
+    "The blind cave tetra is the eyeless, pigment-free cave form of <em>Astyanax mexicanus</em>, a species better known in its sighted river form as the Mexican tetra.",
+    "The species as a whole ranges from Texas and New Mexico south through Mexico to Guatemala. The surface form is a generalist found in streams, rivers, springs, ponds and lakes, while the blind form lives only in caves in Mexico.[2][1] Almost all aquarium fish are blind fish mass-produced on farms in Asia. The sighted Mexican tetra is seldom sold.[2]",
+    "The two forms are one species. They can interbreed, and scientists study the pair to learn how eyes are lost and how other senses take over. The care sections come first below, followed by the research findings that make this one of the most studied fish in the world."
+  ],
+  "sections": [
+    {
+      "id": "mexican-tetra",
+      "toc": "Mexican tetra vs cave form",
+      "h2": "Blind Cave Tetra vs Mexican Tetra",
+      "blocks": [
+        {"table": {"head": ["", "Mexican tetra (surface)", "Blind cave tetra"], "rows": [
+          ["Eyes", "Normal", "Form in the embryo, then regress and are covered by skin[2]"],
+          ["Pigment", "Fully pigmented, silvery", "Almost none; pink-white"],
+          ["Habitat", "Rivers, creeks, springs, lakes[1]", "Limestone caves in Mexico[2]"],
+          ["Sleep", "Normal day–night cycle", "Greatly reduced[4]"],
+          ["In the trade", "Rare", "Very common, farm-bred"]
+        ]}},
+        {"p": "Hobby literature sometimes labels the blind form <em>Astyanax jordani</em> or <em>A. fasciatus mexicanus</em>. <em>A. jordani</em> is a different species, and both forms of the aquarium fish belong to <em>A. mexicanus</em>.[2] Seriously Fish puts the split between cave and surface fish at perhaps the last 10,000 years, which is very recent in evolutionary terms.[2]"}
+      ]
+    },
+    {
+      "id": "tank",
+      "toc": "Tank & setup",
+      "h2": "Blind Cave Tetra Tank Size and Setup",
+      "blocks": [
+        {"p": "A base of about 80 × 30 cm (31 × 12 in), roughly a 20-gallon long, is enough for a small group.[2] Choose length over height: these are active swimmers that patrol the whole tank, and a long run of open water suits them better than tall décor."},
+        {"p": "Because the fish is blind, it needs no particular décor or cover, and it leaves plants alone.[2] Some keepers build a \"cave\" display instead, with slate or tall rocks along the back and sides, a dark substrate, and dim red or blue lighting.[2] Whichever you choose, avoid sharp-edged rock. A fish that maps its surroundings by touch and pressure will bump into things, especially in the first days after a rescape."},
+        {"chart": true}
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water",
+      "h2": "Water Parameters",
+      "blocks": [
+        {"p": "This is a subtropical species. Seriously Fish recommends 20–25 °C (68–77 °F), cooler than most tetras, along with pH 6.5–8.0 and 5–25 dGH.[2] It is comfortable in hard, alkaline tap water that would stress a cardinal tetra, and it suits an unheated tank in a warm room. Keep it out of tanks held at 80 °F or above for discus or rams."}
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Diet",
+      "h2": "Feeding",
+      "blocks": [
+        {"p": "Wild <em>Astyanax mexicanus</em> eat insects, crustaceans and worms.[1] In the aquarium, offer a good flake or granule along with plenty of small frozen and live foods.[2] The blind form finds food by touch, taste and water movement, using a head densely covered in taste receptors.[2] It makes up for missing eyes very well, so it does not go hungry next to sighted fish."}
+      ]
+    },
+    {
+      "id": "tank-mates",
+      "toc": "Tank mates",
+      "h2": "Tank Mates and Behaviour",
+      "blocks": [
+        {"p": "Hardy and peaceful, it suits most community tanks.[2] It is not a tight schooling fish, but it does better in a group, and Seriously Fish suggests at least four.[2] While searching for food it sometimes nips tank mates. This comes from bumping into things while feeding rather than from aggression, but it is a reason to avoid very shy, slow or long-finned companions.[2] Good matches include other active fish that like cooler, harder water, such as <a href=\"/species/white-cloud-mountain-minnow\">White Cloud Mountain minnows</a>, <a href=\"/species/zebra-danio\">zebra danios</a>, platies and peaceful barbs."}
+      ]
+    },
+    {
+      "id": "senses",
+      "toc": "How it sees without eyes",
+      "h2": "How a Blind Fish Navigates, and Why It Barely Sleeps",
+      "blocks": [
+        {"p": "The lateral line, a row of pressure-sensing organs along the head and body, does the work the eyes would. When the fish enters a new space it speeds up, which sends more water flowing past its lateral line. It then builds and memorises a detailed map of its surroundings within a fairly short time.[2]"},
+        {"p": "Why the eyes disappear has been studied in detail. Cavefish embryos start forming normal eyes, then the eyes stop growing and degenerate.[2] In 2000, Yamamoto and Jeffery transplanted a lens from a surface-fish embryo into a cavefish optic cup. The eye then grew much larger and developed a cornea, iris and pupil, which showed that the lens directs eye loss.[3] The fish still did not regain sight."},
+        {"p": "Sleep is affected too. Duboué, Keene and Borowsky found that three independently evolved cave populations all sleep dramatically less than surface fish, and that the short-sleep trait is genetically dominant in hybrids.[4] For aquarists, this means a group that is active at all hours is behaving normally, not stressed."}
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Breeding",
+      "h2": "Sexing and Breeding",
+      "blocks": [
+        {"p": "Females are larger and fuller-bodied. Males have a slightly curved lower edge to the anal fin, while the female's is straight.[2] Breeding is straightforward:[2]"},
+        {"ol": [
+          "Set up a spawning tank with mesh about half an inch above the bottom so eggs fall out of reach, and a gentle sponge filter.",
+          "Condition males and females separately, then move the best pair in during the evening.",
+          "Spawning usually takes place by morning. Remove the adults as soon as you see eggs. A female can lay up to 1,000.",
+          "The white eggs hatch in about 24 hours, and the fry become free-swimming after another 5–7 days. Feed infusoria for the first week, then brine shrimp nauplii.",
+          "Watch the fry: they hatch with eyes that later regress and become covered with skin."
+        ]}
+      ]
+    }
+  ],
+  "faq_h2": "Blind Cave Tetra FAQ",
+  "faq": [
+    {"q": "Is the blind cave tetra the same as the Mexican tetra?", "a": "Yes, both are <em>Astyanax mexicanus</em>. \"Mexican tetra\" usually means the sighted river form, and \"blind cave tetra\" the eyeless cave form.[2]"},
+    {"q": "Do blind cave fish need a heater?", "a": "Often not. They prefer 68–77 °F, so in a room that stays in that range a heater is optional.[2]"},
+    {"q": "Can they live with other fish?", "a": "Yes. They are peaceful, although they may nip while hunting for food. Avoid very shy, slow or long-finned tank mates.[2]"},
+    {"q": "How big do blind cave tetras get?", "a": "About 9.5 cm (3.7 in) standard length. FishBase records a maximum of 12 cm total length.[1][2]"}
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {"href": "/species/white-cloud-mountain-minnow", "label": "🐟 White Cloud Mountain Minnow"},
+    {"href": "/species/zebra-danio", "label": "🐟 Zebra Danio"},
+    {"href": "/species/black-skirt-tetra", "label": "🐟 Black Skirt Tetra"},
+    {"href": "/species/buenos-aires-tetra", "label": "🐟 Buenos Aires Tetra"},
+    {"href": "/species/serpae-tetra", "label": "🐟 Serpae Tetra"},
+    {"href": "/species/platy", "label": "🐟 Platy"}
+  ],
+  "editorial_note": "Care figures follow Seriously Fish and distribution and size follow FishBase.[1][2] The eye-loss and sleep findings are cited to the original <em>Science</em> and <em>Current Biology</em> papers, not to secondary summaries.[3][4]",
+  "references": [
+    {"authors": "Froese, R. & Pauly, D. (eds.).", "title": "Astyanax mexicanus (De Filippi, 1853).", "source": "FishBase, version 2025.", "url": "https://www.fishbase.se/summary/Astyanax-mexicanus.html", "label": "fishbase.se"},
+    {"authors": "Seriously Fish.", "title": "Astyanax mexicanus (Blind Cave Tetra).", "source": "Species profile.", "url": "https://www.seriouslyfish.com/species/astyanax-mexicanus/", "label": "seriouslyfish.com"},
+    {"authors": "Yamamoto, Y. & Jeffery, W. R. (2000).", "title": "Central role for the lens in cave fish eye degeneration.", "source": "Science 289: 631–633.", "url": "https://doi.org/10.1126/science.289.5479.631", "label": "doi.org/10.1126/science.289.5479.631"},
+    {"authors": "Duboué, E. R., Keene, A. C. & Borowsky, R. L. (2011).", "title": "Evolutionary convergence on sleep loss in cavefish populations.", "source": "Current Biology 21: 671–676.", "url": "https://doi.org/10.1016/j.cub.2011.03.020", "label": "doi.org/10.1016/j.cub.2011.03.020"}
+  ]
+}

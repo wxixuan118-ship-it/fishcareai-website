@@ -1,0 +1,285 @@
+{
+  "slug": "molly",
+  "keyword": "molly",
+  "common_name": "Molly",
+  "scientific": "Poecilia sphenops",
+  "date_published": "2026-08-05T14:07:27.442Z",
+  "date_modified": "2026-10-24",
+  "date_modified_human": "October 24, 2026",
+  "title": "Molly Fish Species Profile, Balloon Molly and Types",
+  "description": "Molly fish profile: hard, alkaline water, a 36-in tank, 2–3 females per male. Black, dalmatian and lyretail types, and the balloon molly's health problems.",
+  "h1": "Molly Fish Species Profile with Molly Types and the Balloon Molly",
+  "tag": "🐟 Freshwater to brackish · Hardy livebearer",
+  "photo": {
+    "src": "/assets/encyclopedia/real/molly-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 1165,
+    "alt": "Molly fish (Poecilia sphenops) showing the short-finned body shape typical of the species",
+    "caption": "A short-finned adult. Black, dalmatian, gold and lyretail mollies are all colour and fin forms bred from this species and its sailfin relatives."
+  },
+  "chart": {
+    "tank_gal": 20,
+    "temp_f": [
+      70,
+      82
+    ],
+    "ph": [
+      7.0,
+      8.5
+    ],
+    "size_in": 3.1,
+    "group": "2–3 females per male",
+    "care": "Easy — only in hard, alkaline water",
+    "alt": "Molly fish care chart: 20-gallon minimum tank, 70–82 °F, pH 7.0–8.5, adult size about 3 inches",
+    "caption": "Short-finned molly needs at a glance. The tank figure matches the 36 × 12 × 12 in minimum recommended for the species."
+  },
+  "facts": [
+    [
+      "Scientific name",
+      "<em>Poecilia sphenops</em> (short-finned molly)"
+    ],
+    [
+      "Family",
+      "Poeciliidae (livebearers)"
+    ],
+    [
+      "Origin",
+      "Mexico to Colombia and Venezuela"
+    ],
+    [
+      "Adult size",
+      "7.5–8 cm (3 in) standard length"
+    ],
+    [
+      "Minimum tank",
+      "90 × 30 × 30 cm (36 × 12 × 12 in)"
+    ],
+    [
+      "Temperature",
+      "21–28 °C (70–82 °F)"
+    ],
+    [
+      "pH / hardness",
+      "7.0–8.5 / 15–30 dGH"
+    ],
+    [
+      "Salt",
+      "Tolerates brackish and even marine water"
+    ],
+    [
+      "Diet",
+      "Omnivore; needs plant matter"
+    ],
+    [
+      "Brood",
+      "20–150 live young"
+    ],
+    [
+      "IUCN status",
+      "Least Concern (2018)"
+    ]
+  ],
+  "short_answer": "Mollies are easy fish only in the right water. The short-finned molly needs <strong>hard, alkaline water (pH 7.0–8.5, 15–30 dGH)</strong> and a tank of at least <strong>36 × 12 × 12 in</strong>. In soft or acidic water it weakens quickly.[2] Keep two or three females per male, and feed plenty of vegetable matter.[2] Be cautious with the balloon molly: its rounded body is a deformity linked to swim bladder and digestive problems.[2]",
+  "intro": [
+    "The molly fish (<em>Poecilia sphenops</em>), or short-finned molly, is a hardy livebearer from Central America and northern South America, and the source of the black molly.",
+    "Its native range runs from Mexico south to Colombia and Venezuela, with isolated populations on some Caribbean islands.[2][1] FishBase notes that it is often confused with the closely related <em>Poecilia mexicana</em>.[1] Wild fish are now rare in the trade. Nearly every fish sold is farm-bred, and many popular colour forms come from crosses with the sailfin molly, <em>P. latipinna</em>.[2]",
+    "This profile explains the water chemistry that decides whether these fish do well, sorts out the common molly types, and looks closely at the balloon molly before you decide to buy one. For a step-by-step setup and maintenance plan, see our <a href=\"/guides/molly-care-guide/\">molly care guide</a>."
+  ],
+  "sections": [
+    {
+      "id": "water",
+      "toc": "Water chemistry",
+      "h2": "Molly Water Parameters and Salt",
+      "blocks": [
+        {
+          "p": "Hard, alkaline water is the most important requirement. Seriously Fish gives 21–28 °C (70–82 °F), pH 7.0–8.5 and 15–30 dGH. FishBase lists pH 7.5–8.2 and 11–30 dH.[1][2] In soft or acidic water mollies weaken quickly. The usual signs are \"shimmying\" (swaying in place), fungus and clamped fins.[2] This species is not recommended for a general soft-water community tank.[2]"
+        },
+        {
+          "p": "Salt is a related but separate question. The species naturally ranges into brackish water, and Seriously Fish notes that all its colour forms do better in slightly brackish conditions. Some mollies are even used to cycle marine tanks and can live in full seawater.[2] However, the same source stresses that it is the hardness minerals, calcium and magnesium, that matter for long-term health, not the salt itself.[2] If your tap water is hard and alkaline, mollies do well without salt. If it is soft, raise the hardness first."
+        },
+        {
+          "callout": "Shimmying is a water problem, not a disease to medicate. Test pH and GH before anything else. Chronic stress from the wrong water chemistry is what opens the door to secondary infections.[2][3]",
+          "variant": "warn"
+        }
+      ]
+    },
+    {
+      "id": "tank",
+      "toc": "Tank size",
+      "h2": "Molly Tank Size and Setup",
+      "blocks": [
+        {
+          "p": "Seriously Fish recommends a minimum of 90 × 30 × 30 cm (36 × 12 × 12 in), about 80 litres or 21 US gallons, for the short-finned molly. FishBase gives a 60 cm minimum length.[2][1] Sailfin types grow larger and need more room. A planted tank is best, and dense plant thickets give females a break from males and give newborn fry somewhere to hide.[2]"
+        },
+        {
+          "chart": true
+        }
+      ]
+    },
+    {
+      "id": "types",
+      "toc": "Molly types",
+      "h2": "Molly Fish Types and Varieties",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "Type",
+              "What it is",
+              "Notes"
+            ],
+            "rows": [
+              [
+                "Black",
+                "All-black colour form",
+                "The most widely sold molly. FishBase notes it is marketed worldwide[1]"
+              ],
+              [
+                "Dalmatian",
+                "White with black speckles",
+                "Some colour forms come from sphenops × latipinna crosses[2]"
+              ],
+              [
+                "Gold, green, silver",
+                "Colour forms",
+                "Same care as the black form[2]"
+              ],
+              [
+                "Lyretail",
+                "Extended upper and lower tail rays",
+                "Available in several colours[2]"
+              ],
+              [
+                "Sailfin molly",
+                "<em>P. latipinna</em> and hybrids with a tall dorsal fin",
+                "Larger; see the <a href=\"/species/sailfin-molly\">sailfin molly profile</a>"
+              ],
+              [
+                "Balloon molly",
+                "Shortened, rounded body",
+                "Deformity with health costs (see below)[2]"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "Short-finned and sailfin mollies interbreed readily in aquaria. To keep a line true, keep only one kind per tank.[2] Seriously Fish also warns that decades of mass production and inbreeding have left many commercial mollies weaker and more disease-prone than wild fish, and singles out the black molly.[2] Buy from a supplier whose stock looks robust, with no clamped fins or shimmying."
+        }
+      ]
+    },
+    {
+      "id": "balloon",
+      "toc": "Balloon molly",
+      "h2": "The Balloon Molly Explained",
+      "blocks": [
+        {
+          "p": "The balloon molly is a line-bred form with a malformed, shortened and rounded body. Seriously Fish states plainly that the shape can cause swim bladder and digestive problems and may lead to premature death.[2] Balloon mollies are often sold as cute novelty fish, but buyers should know they are selecting a body shape that works against the fish."
+        },
+        {
+          "p": "If you already keep balloon mollies, a few measures help:"
+        },
+        {
+          "ul": [
+            "<strong>Feed small portions</strong> of easily digested food, with plenty of vegetable matter, and occasionally skip a day. Compressed organs leave little room for a full gut.",
+            "<strong>Keep the flow gentle.</strong> Their body shape makes them weak swimmers.",
+            "<strong>Keep the water hard and stable.</strong> These fish have less tolerance for stress than standard mollies.[2][3]",
+            "<strong>Watch buoyancy.</strong> A fish that floats tail-up or sinks after meals has the swim bladder problems this shape is prone to."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Diet",
+      "h2": "What Mollies Eat",
+      "blocks": [
+        {
+          "p": "Wild mollies eat worms, crustaceans, insects and plant matter, and in aquaria they graze green algae and readily take dry food.[1] Seriously Fish advises that a good share of the diet be vegetable matter, such as vegetable or spirulina flake and blanched spinach.[2] A diet without enough plant matter is a common reason captive mollies look thin despite eating well."
+        }
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Breeding",
+      "h2": "Molly Breeding and Fry",
+      "blocks": [
+        {
+          "p": "Males are smaller and more colourful, and they have a gonopodium, the modified anal fin used for mating. Males pursue females constantly, so keep several females per male and provide dense planting.[2]"
+        },
+        {
+          "p": "Mollies give birth to live young. Published figures for gestation and brood size differ: FishBase gives 20–150 young after a 28-day gestation, while Seriously Fish describes broods of up to about 120 after roughly eight weeks.[1][2] Adults eat their fry. The recommended method is to move a heavily pregnant female to a separate, planted tank to give birth, then return her. Breeding traps are too small.[2] Newborn fry are large enough to take brine shrimp nauplii or powdered flake straight away.[2]"
+        }
+      ]
+    }
+  ],
+  "faq_h2": "Molly Fish FAQ",
+  "faq": [
+    {
+      "q": "Do mollies need salt in their water?",
+      "a": "Not if the water is hard and alkaline. Calcium and magnesium matter most. Mollies tolerate brackish and even marine water, but salt does not replace hardness.[2]"
+    },
+    {
+      "q": "Is the balloon molly healthy?",
+      "a": "It is a deformed body shape that can cause swim bladder and digestive problems and shorten its life.[2]"
+    },
+    {
+      "q": "How big do molly fish get?",
+      "a": "Short-finned mollies reach about 7.5–8 cm (3 in) standard length. Sailfin types grow larger.[1][2]"
+    },
+    {
+      "q": "Why is my molly shimmying?",
+      "a": "Usually because the water is too soft or acidic. Check pH and hardness before treating for disease.[2]"
+    }
+  ],
+  "related_h2": "Related Pages",
+  "related": [
+    {
+      "href": "/guides/molly-care-guide/",
+      "label": "📘 Molly Care Guide"
+    },
+    {
+      "href": "/species/sailfin-molly",
+      "label": "🐟 Sailfin Molly"
+    },
+    {
+      "href": "/species/guppy",
+      "label": "🐟 Guppy"
+    },
+    {
+      "href": "/species/platy",
+      "label": "🐟 Platy"
+    },
+    {
+      "href": "/species/swordtail",
+      "label": "🐟 Swordtail"
+    },
+    {
+      "href": "/compatibility/molly/",
+      "label": "🐠 Molly Compatibility"
+    }
+  ],
+  "editorial_note": "Water chemistry, varieties and the balloon molly assessment follow Seriously Fish's profile of <em>P. sphenops</em>.[2] Range, size and brood data come from FishBase. Where the two disagree, as on gestation, both figures are shown.[1][2]",
+  "references": [
+    {
+      "authors": "Froese, R. & Pauly, D. (eds.).",
+      "title": "Poecilia sphenops Valenciennes, 1846.",
+      "source": "FishBase, version 2025.",
+      "url": "https://www.fishbase.se/summary/Poecilia-sphenops.html",
+      "label": "fishbase.se"
+    },
+    {
+      "authors": "Seriously Fish.",
+      "title": "Poecilia sphenops (Short-finned Molly).",
+      "source": "Species profile.",
+      "url": "https://www.seriouslyfish.com/species/poecilia-sphenops/",
+      "label": "seriouslyfish.com"
+    },
+    {
+      "authors": "Francis-Floyd, R.",
+      "title": "Stress — Its Role in Fish Disease (Circular 919).",
+      "source": "University of Florida IFAS Extension.",
+      "url": "https://edis.ifas.ufl.edu/publication/FA005",
+      "label": "edis.ifas.ufl.edu"
+    }
+  ]
+}

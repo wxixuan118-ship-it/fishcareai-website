@@ -1,0 +1,249 @@
+{
+  "slug": "congo-tetra",
+  "keyword": "congo tetra",
+  "common_name": "Congo Tetra",
+  "scientific": "Phenacogrammus interruptus",
+  "date_published": "2026-08-05T14:07:27.442Z",
+  "date_modified": "2026-10-25",
+  "date_modified_human": "October 25, 2026",
+  "title": "Congo Tetra Care, Tank Size and Tank Mates",
+  "description": "Congo tetra care: adults reach 8 cm and need a 48-inch tank, soft slightly acidic water, a mixed shoal of 6+ and no fin-nippers. Breeding and colour tips.",
+  "h1": "Congo Tetra Care Guide with Tank Size, Tank Mates and Breeding",
+  "tag": "🐟 Freshwater · African tetra from the Congo basin",
+  "photo": {
+    "src": "/assets/encyclopedia/real/congo-tetra-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 852,
+    "alt": "Male Congo tetra (Phenacogrammus interruptus) with iridescent orange-blue body and long white-edged fins",
+    "caption": "An adult male. Shops sell them as dull grey 1.5-inch juveniles, and the colour and long, feathery fins develop only as the fish mature."
+  },
+  "chart": {
+    "tank_gal": 30,
+    "temp_f": [
+      73,
+      82
+    ],
+    "ph": [
+      6.0,
+      7.5
+    ],
+    "size_in": 3.1,
+    "group": "Mixed-sex shoal of 6 or more",
+    "care": "Easy to moderate — needs clean water",
+    "alt": "Congo tetra care chart: 30-gallon, 48-inch tank, 73–82 °F, pH 6.0–7.5, adult size about 3 inches",
+    "caption": "Needs at a glance for this species. The 30-gallon figure assumes the 48 × 12 × 12 in tank recommended for adults."
+  },
+  "facts": [
+    [
+      "Scientific name",
+      "<em>Phenacogrammus interruptus</em>"
+    ],
+    [
+      "Family",
+      "Alestidae (African tetras)"
+    ],
+    [
+      "Origin",
+      "Lower and middle Congo basin, DR Congo and Republic of Congo"
+    ],
+    [
+      "Adult size",
+      "8 cm (3.1 in) male; females about 6 cm"
+    ],
+    [
+      "Minimum tank",
+      "120 × 30 × 30 cm (48 × 12 × 12 in)"
+    ],
+    [
+      "Temperature",
+      "23–28 °C (73–82 °F)"
+    ],
+    [
+      "pH / hardness",
+      "6.0–7.5 / 3–18 dGH"
+    ],
+    [
+      "Group size",
+      "6+ in a mixed-sex shoal"
+    ],
+    [
+      "Diet",
+      "Omnivore; live and frozen foods for colour"
+    ],
+    [
+      "Breeding",
+      "Egg scatterer; eggs hatch in ~6 days"
+    ],
+    [
+      "IUCN status",
+      "Least Concern (2009)"
+    ]
+  ],
+  "short_answer": "The Congo tetra is a large, peaceful African tetra. Adult males reach about <strong>8 cm (3 in)</strong> and need a tank about <strong>48 in (120 cm) long</strong>, much larger than the small tanks usually suggested for tetras.[2][1] Keep a mixed-sex group of six or more in soft, slightly acidic water at <strong>73–82 °F</strong>, avoid fin-nippers, and feed plenty of live or frozen food to bring out the colours.[2]",
+  "intro": [
+    "The Congo tetra (<em>Phenacogrammus interruptus</em>) is a peaceful, shoaling Congo tetra from the lower and middle Congo River basin in Central Africa.",
+    "FishBase records it from the Democratic Republic of the Congo and the Republic of Congo.[1] Almost all fish on sale are bred commercially in Asia and Eastern Europe.[2] Despite the name, it is not closely related to South American tetras such as neons. African tetras form their own family, the Alestidae, whose relationships Arroyave and Stiassny reconstructed in a 2011 molecular study.[4]",
+    "They are often overlooked in shops because juveniles are plain grey. Mature males are among the most striking freshwater fish, with iridescent bodies, a long dorsal fin and a feathery tail. This guide covers the tank size and water quality that bring out that colour, safe tank mates, and breeding."
+  ],
+  "sections": [
+    {
+      "id": "tank",
+      "toc": "Tank size",
+      "h2": "Congo Tetra Tank Size and Setup",
+      "blocks": [
+        {
+          "p": "Seriously Fish recommends 120 × 30 × 30 cm (48 × 12 × 12 in) for adults, although juveniles can start in smaller tanks.[2] FishBase gives a 100 cm minimum length.[1] These active, fast swimmers need open space, and a short tank leaves them nervous and pale. A 4-foot tank of 30 gallons or more is the realistic target for a shoal."
+        },
+        {
+          "p": "An African biotope with driftwood branches, floating plants and Anubias suits them well. They also look good in any well-planted tank with open swimming space and good circulation.[2] Front and top lighting, especially natural light, shows off the males' iridescence.[2]"
+        },
+        {
+          "chart": true
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water quality",
+      "h2": "Congo Tetra Water Parameters",
+      "blocks": [
+        {
+          "p": "Seriously Fish gives 23–28 °C (73–82 °F), pH 6.0–7.5 and 3–18 dGH, and recommends soft water on the acidic side of neutral. FishBase lists 23–26 °C.[1][2] The species is sensitive to water quality. Seriously Fish notes that in poorly kept tanks males' fins may not develop properly and the fish lose colour.[2] Regular water changes and a mature filter with zero ammonia and nitrite are what bring out the fins people buy this fish for.[3]"
+        }
+      ]
+    },
+    {
+      "id": "tank-mates",
+      "toc": "Tank mates",
+      "h2": "Congo Tetra Tank Mates",
+      "blocks": [
+        {
+          "p": "This tetra is peaceful but can startle shy fish with its size and speed, and it is itself easily frightened if kept in small numbers.[2] Keep a mixed-sex shoal of at least five or six.[1][2] Good companions:[2]"
+        },
+        {
+          "ul": [
+            "Other medium tetras and rainbowfish.",
+            "Bottom dwellers such as Corydoras, plecos and <em>Synodontis</em>, including the <a href=\"/species/upside-down-catfish\">upside down catfish</a> from the same river basin.",
+            "Peaceful cichlids such as <a href=\"/species/kribensis\">kribensis</a> (<em>Pelvicachromis</em>) or the <a href=\"/species/keyhole-cichlid\">keyhole cichlid</a>.",
+            "<strong>Avoid:</strong> fin-nippers such as tiger barbs or serpae tetras, which shred the males' fins, and boisterous fish that keep a shy shoal stressed."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Diet",
+      "h2": "Feeding",
+      "blocks": [
+        {
+          "p": "Wild fish eat worms, small insects, crustaceans, algae and plant matter.[1][2] In the aquarium they accept most foods. A good flake or small pellet works as the staple, but live and frozen foods such as bloodworm, brine shrimp and <em>Daphnia</em> should make up a good share of the diet for the best colour.[2] Include some plant-based food, such as a spirulina flake."
+        }
+      ]
+    },
+    {
+      "id": "sexing",
+      "toc": "Male vs female",
+      "h2": "Male vs Female Congo Tetras",
+      "blocks": [
+        {
+          "p": "Males grow larger, up to about 8 cm against 6 cm for females, and are much more colourful.[1][2] They develop a long, flowing dorsal fin and extended filaments in the centre of the tail.[2] Females are smaller, deeper in the belly, and have short, rounded fins. These differences appear only as the fish mature, so buy six or more juveniles to be sure of getting both sexes."
+        }
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Breeding",
+      "h2": "Breeding Congo Tetras",
+      "blocks": [
+        {
+          "p": "Breeding is not easy, but it is possible. The species scatters its eggs and gives no parental care.[2]"
+        },
+        {
+          "ol": [
+            "Condition the fish on live and frozen foods, then move the best-coloured male and the plumpest female into a small breeding tank with a mesh floor, subdued light and clumps of plants. Use soft water below pH 7.[2]",
+            "After a chase, the pair spawn side by side with a quivering motion. A female can lay up to 300 large eggs over several days, though 100–200 is more typical.[2][1]",
+            "Many eggs fungus within the first 24–48 hours. Remove those with a long pipette.[2]",
+            "Eggs hatch in about six days. Once the yolk sac is used up, roughly a day later, feed infusoria, then brine shrimp nauplii or microworms two or three days after that.[2][1]"
+          ]
+        }
+      ]
+    }
+  ],
+  "faq_h2": "Congo Tetra FAQ",
+  "faq": [
+    {
+      "q": "How big do Congo tetras get?",
+      "a": "Males reach about 8 cm (3 in) and females about 6 cm.[1]"
+    },
+    {
+      "q": "What size tank does a Congo tetra need?",
+      "a": "Adults need about 120 cm (48 in) of length, such as a 48 × 12 × 12 in tank. Juveniles can start smaller.[2]"
+    },
+    {
+      "q": "Why is my tetra still grey?",
+      "a": "Juveniles are naturally drab and colour up as they mature. Adults that stay pale usually need cleaner water, more live or frozen food, or a larger group.[2]"
+    },
+    {
+      "q": "How many Congo tetras should I keep?",
+      "a": "At least five or six in a mixed-sex group. More is better, as they are nervous in small numbers.[1][2]"
+    }
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {
+      "href": "/species/upside-down-catfish",
+      "label": "🐟 Upside Down Catfish"
+    },
+    {
+      "href": "/species/kribensis",
+      "label": "🐟 Kribensis"
+    },
+    {
+      "href": "/species/african-butterfly-fish",
+      "label": "🐟 African Butterfly Fish"
+    },
+    {
+      "href": "/species/black-phantom-tetra",
+      "label": "🐟 Black Phantom Tetra"
+    },
+    {
+      "href": "/species/diamond-tetra",
+      "label": "🐟 Diamond Tetra"
+    },
+    {
+      "href": "/compatibility/congo-tetra/",
+      "label": "🐠 Congo Tetra Compatibility"
+    }
+  ],
+  "editorial_note": "Husbandry and breeding follow Seriously Fish, and range, size and spawning figures follow FishBase.[1][2] The note on the African tetra family cites Arroyave and Stiassny's 2011 phylogeny.[4] An earlier version of this profile listed a 5-gallon minimum tank, which neither source supports.",
+  "references": [
+    {
+      "authors": "Froese, R. & Pauly, D. (eds.).",
+      "title": "Phenacogrammus interruptus (Boulenger, 1899).",
+      "source": "FishBase, version 2025.",
+      "url": "https://www.fishbase.se/summary/Phenacogrammus-interruptus.html",
+      "label": "fishbase.se"
+    },
+    {
+      "authors": "Seriously Fish.",
+      "title": "Phenacogrammus interruptus (Congo Tetra).",
+      "source": "Species profile.",
+      "url": "https://www.seriouslyfish.com/species/phenacogrammus-interruptus/",
+      "label": "seriouslyfish.com"
+    },
+    {
+      "authors": "Francis-Floyd, R., Watson, C., Petty, D. & Pouder, D. B.",
+      "title": "Ammonia in Aquatic Systems (FA16).",
+      "source": "University of Florida IFAS Extension.",
+      "url": "https://edis.ifas.ufl.edu/publication/FA031",
+      "label": "edis.ifas.ufl.edu"
+    },
+    {
+      "authors": "Arroyave, J. & Stiassny, M. L. J. (2011).",
+      "title": "Phylogenetic relationships and the temporal context for the diversification of African characins of the family Alestidae (Ostariophysi: Characiformes): evidence from DNA sequence data.",
+      "source": "Molecular Phylogenetics and Evolution 60: 385–397.",
+      "url": "https://doi.org/10.1016/j.ympev.2011.04.016",
+      "label": "doi.org/10.1016/j.ympev.2011.04.016"
+    }
+  ]
+}

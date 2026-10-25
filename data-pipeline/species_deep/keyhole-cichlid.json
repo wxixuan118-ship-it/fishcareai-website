@@ -1,0 +1,275 @@
+{
+  "slug": "keyhole-cichlid",
+  "keyword": "keyhole cichlid",
+  "common_name": "Keyhole Cichlid",
+  "scientific": "Cleithracara maronii",
+  "date_published": "2026-08-06T01:33:26.336Z",
+  "date_modified": "2026-10-24",
+  "date_modified_human": "October 24, 2026",
+  "title": "Keyhole Cichlid Care: Tank Size, Water and Breeding",
+  "description": "Keyhole cichlids are shy, peaceful 3–4 in cichlids. Tank size (36 in minimum), soft water, tank mates that calm them, and how pairs raise up to 300 fry.",
+  "h1": "Keyhole Cichlid Care: Tank Size, Tank Mates and Breeding",
+  "tag": "🐟 Freshwater · Peaceful Guiana Shield cichlid",
+  "photo": {
+    "src": "/assets/encyclopedia/real/keyhole-cichlid-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 1248,
+    "alt": "Keyhole cichlid (Cleithracara maronii) showing the dark keyhole-shaped blotch on its flank",
+    "caption": "The keyhole cichlid's name comes from the dark blotch on each flank, which in some fish runs into a short bar and looks like an old keyhole."
+  },
+  "chart": {
+    "tank_gal": 30,
+    "temp_f": [
+      72,
+      79
+    ],
+    "ph": [
+      6.0,
+      7.5
+    ],
+    "size_in": 4.0,
+    "group": "Juvenile group of 5–6; one pair once they mature",
+    "care": "Easy to moderate — needs clean, mature water",
+    "alt": "Keyhole cichlid care chart: 30-gallon minimum tank, 72–79 °F, pH 6.0–7.5, adult size up to 4 inches",
+    "caption": "Keyhole cichlid essentials. The temperature and pH bands are the overlap of the FishBase and Seriously Fish ranges."
+  },
+  "facts": [
+    [
+      "Scientific name",
+      "<em>Cleithracara maronii</em>"
+    ],
+    [
+      "Family",
+      "Cichlidae (Cichlasomatini)"
+    ],
+    [
+      "Origin",
+      "Guianas, Orinoco delta, formerly Trinidad"
+    ],
+    [
+      "Adult size",
+      "7–11 cm (3–4 in) standard length"
+    ],
+    [
+      "Minimum tank",
+      "90 × 30 cm base (36 × 12 in, ≈30 gal)"
+    ],
+    [
+      "Temperature",
+      "21–28 °C (70–82 °F)"
+    ],
+    [
+      "pH",
+      "4.0–7.5 (farmed fish: 6.0–7.5)"
+    ],
+    [
+      "Hardness",
+      "2–15 dGH"
+    ],
+    [
+      "Temperament",
+      "Peaceful, shy; territorial only when breeding"
+    ],
+    [
+      "Breeding",
+      "Monogamous open-substrate spawner"
+    ],
+    [
+      "IUCN status",
+      "Least Concern (2020)"
+    ]
+  ],
+  "short_answer": "Keyhole cichlids are among the gentlest cichlids sold. Give a pair a tank with at least a <strong>36 × 12 in (90 × 30 cm) base</strong>, soft to medium water around <strong>pH 6.0–7.5</strong> and <strong>72–79 °F</strong>, cover to hide in, and a school of small, calm fish.[2][1] They rarely dig and do not eat fish bigger than a few millimetres, so they suit planted community tanks.[2]",
+  "intro": [
+    "The keyhole cichlid (<em>Cleithracara maronii</em>) is a shy, peaceful South American keyhole cichlid that grows to about 3–4 inches.",
+    "It was described from the Maroni River in French Guiana and occurs across French Guiana, Suriname and Guyana, in the Orinoco delta of Venezuela, and historically on Trinidad, where it may not have been seen since the 1960s.[2][1] In the wild it lives in slow or still blackwater creeks full of leaf litter and fallen wood. Most fish in shops today are farm-bred and far less demanding about water chemistry than wild fish.[2]",
+    "They are a good choice for keepers who want cichlid behaviour, including pair bonds, visible parental care and fry, without the aggression that comes with most of the family. They are not suitable for a brand-new tank, though, and they are easily bullied. The sections below explain how to set up for both."
+  ],
+  "sections": [
+    {
+      "id": "tank-size",
+      "toc": "Tank size",
+      "h2": "Keyhole Cichlid Tank Size",
+      "blocks": [
+        {
+          "p": "Seriously Fish puts the smallest suitable tank at a 90 × 30 cm (36 × 12 in) base.[2] In practice that is a standard 30-gallon tank for a single pair. A juvenile group that you plan to let pair off needs a 4-foot tank, because once these fish mature each breeding pair claims a territory a couple of feet across.[2] In a 3-foot tank, two pairs leave no neutral ground for anyone else."
+        },
+        {
+          "p": "Size estimates vary. FishBase records a 7.1 cm standard-length specimen, while Seriously Fish lists up to 11 cm SL.[1][2] Males grow noticeably larger than females, so plan for a 4-inch male and size the tank for the bigger fish."
+        },
+        {
+          "chart": true
+        }
+      ]
+    },
+    {
+      "id": "setup",
+      "toc": "Setup",
+      "h2": "Setting Up a Keyhole Cichlid Aquarium",
+      "blocks": [
+        {
+          "p": "Cover is the single most important factor in how this fish behaves. When frightened, it darkens its colours and presses itself against wood or leaf litter. FishBase describes wild fish pinning themselves against a log and matching their colour to it.[1] Without places to hide it stays dark and skittish. With them it comes out and shows its pale gold body and dark keyhole marking."
+        },
+        {
+          "ul": [
+            "<strong>Substrate:</strong> soft sand, with a scattering of dried leaves such as Indian almond or oak.",
+            "<strong>Hardscape:</strong> driftwood roots and branches. Clay pots or lengths of pipe work just as well if you prefer a plainer tank.[2]",
+            "<strong>Plants:</strong> fine. The species rarely digs, so rooted plants survive.[2]",
+            "<strong>Flow:</strong> gentle. Point filter returns away from open water.[2]",
+            "<strong>Spawning sites:</strong> one or two flat, smooth stones for pairs to clean and use."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water",
+      "h2": "Keyhole Cichlid Water Parameters",
+      "blocks": [
+        {
+          "p": "Wild habitats are stained brown with humic acids, almost mineral-free, and can be as acidic as pH 4.0–5.0.[2] Captive-bred fish are far more flexible. FishBase gives pH 6.0–8.0 and 22–25 °C, and Seriously Fish gives 21–28 °C, pH 4.0–7.5 and 2–15 dGH.[1][2] Somewhere around pH 6.5–7.2 at 75–78 °F satisfies both sources and most tap water."
+        },
+        {
+          "p": "Clean water matters more than exact values. This species reacts badly to poor water quality and should never go into a newly set-up tank. If maintenance or diet slips, Seriously Fish reports head and lateral line erosion and stunted growth.[2] Weekly water changes and a filter sized for the stocking level prevent both. Fish waste and uneaten food break down into ammonia, and only a mature biological filter converts it quickly enough to keep a sensitive species safe.[3]"
+        }
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Diet",
+      "h2": "Feeding Keyhole Cichlids",
+      "blocks": [
+        {
+          "p": "In the wild the species eats worms, small crustaceans and insects.[1] Captive fish accept almost all prepared foods. For good colour and condition, alternate a quality sinking pellet or flake with frozen bloodworm, brine shrimp and <em>Daphnia</em> several times a week.[2] Their shyness matters at feeding time: in a busy community, check that some food reaches the bottom before the tetras clear it."
+        }
+      ]
+    },
+    {
+      "id": "tank-mates",
+      "toc": "Tank mates",
+      "h2": "Keyhole Cichlid Tank Mates",
+      "blocks": [
+        {
+          "p": "The right tank mates make this fish bolder. Groups of calm fish swimming in open midwater seem to signal that no predator is near, and it spends more time in the open as a result.[2] Avoid anything territorial or boisterous, and fish that need hard water.[2]"
+        },
+        {
+          "ul": [
+            "<strong>Midwater shoals:</strong> pencilfish, hatchetfish and small <em>Hemigrammus</em> tetras. <a href=\"/species/marbled-hatchetfish\">Marbled hatchetfish</a> and <a href=\"/species/head-and-tail-light-tetra\">head-and-tail-light tetras</a> share its rivers in Guyana.[2]",
+            "<strong>Bottom dwellers:</strong> Corydoras and small plecos.",
+            "<strong>Other cichlids:</strong> only equally mild species, such as a pair of <a href=\"/species/bolivian-ram\">Bolivian rams</a> in a larger tank, or Laetacara.",
+            "<strong>Avoid:</strong> convicts, most Central American cichlids, tiger barbs and other fin-nippers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Breeding",
+      "h2": "Breeding Keyhole Cichlids",
+      "blocks": [
+        {
+          "p": "Pairs stay together for life and spawn on open surfaces, with both parents caring for the young. They breed readily when well fed and kept in clean water.[2] Juveniles cannot be sexed reliably. Adult males grow much larger than females and develop longer dorsal and anal fins.[2] Raise five or six young fish together and let pairs form."
+        },
+        {
+          "ol": [
+            "The pair cleans a flat stone, a piece of wood, a broad leaf or the glass, and the female lays rows of eggs that the male fertilises.[2]",
+            "Clutches are a few hundred eggs. Seriously Fish gives up to about 300, FishBase about 400, and one FishBase source records up to 600.[2][1]",
+            "The female stays over the eggs, fanning and guarding them, while the male defends the territory around them.[2]",
+            "Free-swimming fry take powdered dry food, microworms and newly hatched brine shrimp right away.[2]",
+            "The parents can keep caring for their young for several months.[2]"
+          ]
+        },
+        {
+          "p": "Young pairs often eat their first clutches, especially if a tank mate or a passing hand startles them.[2] In a community tank, remove the eggs or the other fish if you want to raise many fry."
+        }
+      ]
+    },
+    {
+      "id": "name",
+      "toc": "The name",
+      "h2": "How the Keyhole Cichlid Got Its Scientific Name",
+      "blocks": [
+        {
+          "p": "This is one of very few fishes whose scientific genus was named after its aquarium nickname. <em>Cleithracara</em> combines the Greek <em>kleithron</em> (\"lock\") with <em>acará</em>, the Guaraní word for cichlid.[2] The species was previously placed in <em>Acara</em> and then <em>Aequidens</em>. In 1989 Kullander and Nijssen moved it into its own genus in <em>The Cichlids of Surinam</em>, based on a set of skeletal and scale characters.[4] The genus still contains only this one species. Recent studies place it closest to <em>Nannacara</em> within the tribe Cichlasomatini.[2]"
+        }
+      ]
+    }
+  ],
+  "faq_h2": "Keyhole Cichlid FAQ",
+  "faq": [
+    {
+      "q": "How big do keyhole cichlids get?",
+      "a": "Most reach 3–4 inches. FishBase records 7.1 cm standard length and Seriously Fish allows up to 11 cm, with males clearly larger than females.[1][2]"
+    },
+    {
+      "q": "What size tank do keyhole cichlids need?",
+      "a": "A 36 × 12 in (90 × 30 cm) footprint, about 30 gallons, for one pair. Use a 4-foot tank if you are raising a group to pair off.[2]"
+    },
+    {
+      "q": "Are keyhole cichlids aggressive?",
+      "a": "No. They only defend a territory while breeding, and even then they rarely harm tank mates. They are more likely to be bullied than to bully.[2]"
+    },
+    {
+      "q": "Can keyhole cichlids live with angelfish?",
+      "a": "Often, yes, in a tank of 55 gallons or more with plenty of cover, since both prefer soft water and calm company. Watch for angelfish taking over the keyholes' spawning stone."
+    }
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {
+      "href": "/species/bolivian-ram",
+      "label": "🐟 Bolivian Ram"
+    },
+    {
+      "href": "/species/laetacara-araguaiae",
+      "label": "🐟 Laetacara araguaiae"
+    },
+    {
+      "href": "/species/german-blue-ram",
+      "label": "🐟 German Blue Ram"
+    },
+    {
+      "href": "/species/angelfish",
+      "label": "🐟 Angelfish"
+    },
+    {
+      "href": "/species/marbled-hatchetfish",
+      "label": "🐟 Marbled Hatchetfish"
+    },
+    {
+      "href": "/tools/fish-compatibility-checker/",
+      "label": "🐠 Compatibility Checker"
+    }
+  ],
+  "editorial_note": "FishBase and Seriously Fish differ on maximum size, pH and clutch size for <em>C. maronii</em>. Where they disagree, both figures are given, and the chart uses the range that satisfies both.[1][2] The genus history is cited to Kullander and Nijssen's monograph.[4]",
+  "references": [
+    {
+      "authors": "Froese, R. & Pauly, D. (eds.).",
+      "title": "Cleithracara maronii (Steindachner, 1881).",
+      "source": "FishBase, version 2025.",
+      "url": "https://www.fishbase.se/summary/Cleithracara-maronii.html",
+      "label": "fishbase.se"
+    },
+    {
+      "authors": "Seriously Fish.",
+      "title": "Cleithracara maronii (Keyhole Cichlid).",
+      "source": "Species profile.",
+      "url": "https://www.seriouslyfish.com/species/cleithracara-maronii/",
+      "label": "seriouslyfish.com"
+    },
+    {
+      "authors": "Francis-Floyd, R., Watson, C., Petty, D. & Pouder, D. B.",
+      "title": "Ammonia in Aquatic Systems (FA16).",
+      "source": "University of Florida IFAS Extension.",
+      "url": "https://edis.ifas.ufl.edu/publication/FA031",
+      "label": "edis.ifas.ufl.edu"
+    },
+    {
+      "authors": "Kullander, S. O. & Nijssen, H. (1989).",
+      "title": "The Cichlids of Surinam (Teleostei: Labroidei).",
+      "source": "E. J. Brill, Leiden.",
+      "url": "https://doi.org/10.1163/9789004433618",
+      "label": "doi.org/10.1163/9789004433618"
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "slug": "bristlenose-pleco",
+  "keyword": "bristlenose pleco",
+  "common_name": "Bristlenose Pleco",
+  "scientific": "Ancistrus cf. cirrhosus",
+  "date_published": "2026-08-05T14:07:27.442Z",
+  "date_modified": "2026-10-24",
+  "date_modified_human": "October 24, 2026",
+  "title": "Bristlenose Pleco Size, Longfin and Super Red Types",
+  "description": "Bristlenose pleco (bristle nose) profile: 4–5 in adult size, a 24-in tank minimum, what to feed beyond algae, longfin, albino and super red forms, and breeding.",
+  "h1": "Bristlenose Pleco Size, Varieties, Diet and Breeding",
+  "tag": "🐟 Freshwater · Small loricariid catfish",
+  "photo": {
+    "src": "/assets/encyclopedia/real/bristlenose-pleco-wikimedia-real.jpg",
+    "width": 330,
+    "height": 116,
+    "alt": "Bristlenose pleco (Ancistrus) resting on wood, showing the fleshy bristles on its snout",
+    "caption": "An adult male. Only males grow the full crown of branched tentacles on the snout."
+  },
+  "chart": {
+    "tank_gal": 20,
+    "temp_f": [
+      70,
+      79
+    ],
+    "ph": [
+      5.5,
+      7.5
+    ],
+    "size_in": 5.0,
+    "group": "One, or a male–female pair",
+    "care": "Easy — hardy and commonly bred",
+    "alt": "Bristlenose pleco care chart: 20-gallon minimum tank, 70–79 °F, pH 5.5–7.5, adult size up to 5 inches",
+    "caption": "Bristlenose pleco needs at a glance. The 20-gallon figure assumes a 24 × 12 in footprint for one fish or a pair."
+  },
+  "facts": [
+    [
+      "Scientific name",
+      "<em>Ancistrus</em> cf. <em>cirrhosus</em> (formerly <em>Ancistrus</em> sp. '3')"
+    ],
+    [
+      "Family",
+      "Loricariidae"
+    ],
+    [
+      "Origin",
+      "Captive-bred; exact wild origin unknown"
+    ],
+    [
+      "Adult size",
+      "10–12.5 cm (4–5 in) standard length"
+    ],
+    [
+      "Minimum tank",
+      "60 × 30 cm base (24 × 12 in) for one or a pair"
+    ],
+    [
+      "Temperature",
+      "21–26 °C (70–79 °F)"
+    ],
+    [
+      "pH / hardness",
+      "5.5–7.5 / 1–15 dGH"
+    ],
+    [
+      "Diet",
+      "Omnivore: vegetables, algae and meaty foods"
+    ],
+    [
+      "Temperament",
+      "Peaceful; territorial with its own kind"
+    ],
+    [
+      "Breeding",
+      "Cave spawner; male guards eggs"
+    ],
+    [
+      "Care level",
+      "Easy"
+    ]
+  ],
+  "short_answer": "The bristlenose pleco is the small pleco most aquariums should have instead of a common pleco. It grows to <strong>4–5 inches</strong>, a single fish or pair manages in a tank with a <strong>24 × 12 in base</strong>, and it tolerates <strong>70–79 °F</strong> and pH 5.5–7.5.[1] Feed sinking foods and vegetables rather than relying on algae, give it wood and a cave, and expect a pair to breed on their own.[1]",
+  "intro": [
+    "The bristlenose pleco, also written bristle nose pleco, is a small, hardy armoured catfish named for the fleshy tentacles on the male's snout.",
+    "Despite how common it is, its exact identity is unresolved. The fish in shops was long called <em>Ancistrus</em> sp. '3', then linked to the Argentinian <em>A. cirrhosus</em>, but genetic data do not support that match. Some researchers think the commercial strain may be a hybrid.[1] It is also regularly sold under wrong names such as <em>A. dolichopterus</em> or <em>A. temminckii</em>.[1] The genus itself holds more than 60 species ranging from Panama to the Río de la Plata.[1]",
+    "This profile covers adult size and tank space, the popular longfin, albino and super red varieties, what to feed beyond algae, and how males raise their young. For a step-by-step setup and maintenance plan, see the companion <a href=\"/guides/bristlenose-pleco-care-guide/\">bristlenose pleco care guide</a>."
+  ],
+  "sections": [
+    {
+      "id": "size",
+      "toc": "Size & tank",
+      "h2": "Bristlenose Pleco Size and Tank Space",
+      "blocks": [
+        {
+          "p": "Seriously Fish gives a maximum of about 12.5 cm (5 in) standard length for the aquarium bristlenose, and most adults stop at 10–12 cm.[1] That is a fraction of the size of the <a href=\"/species/common-pleco\">common pleco</a>, which is why this genus has largely replaced it in community tanks."
+        },
+        {
+          "p": "A base of 60 × 30 cm (24 × 12 in), a 20-gallon long, is enough for one fish or a breeding pair. A group needs more floor space, because males claim caves and patrol them.[1] Provide at least one cave per adult male, plus driftwood. Wood gives the fish grazing surfaces and is widely used with loricariids, though studies of wood-eating plecos show they get little nutrition from the wood itself.[3] Strong aeration or a filter outlet that ripples the surface is worthwhile, since this species prefers well-oxygenated water.[1]"
+        },
+        {
+          "chart": true
+        }
+      ]
+    },
+    {
+      "id": "varieties",
+      "toc": "Longfin, albino, super red",
+      "h2": "Bristlenose Pleco Longfin, Albino and Super Red Varieties",
+      "blocks": [
+        {
+          "p": "Several line-bred forms are sold, and all are the same fish with the same care needs.[1]"
+        },
+        {
+          "table": {
+            "head": [
+              "Variety",
+              "Look",
+              "Notes"
+            ],
+            "rows": [
+              [
+                "Common / brown",
+                "Dark olive to brown with pale spots",
+                "Hardiest and cheapest"
+              ],
+              [
+                "Longfin (\"butterfly\", \"veiltail\")",
+                "Greatly extended fins",
+                "Seriously Fish notes these are sold as butterfly or veiltail catfish; keep away from fin-nippers[1]"
+              ],
+              [
+                "Albino",
+                "Pink-white body, red eyes",
+                "Same care; provide shaded caves"
+              ],
+              [
+                "Xanthic / gold, \"super red\"",
+                "Yellow to orange-red body",
+                "Xanthic forms are listed by Seriously Fish; super red is a further trade selection[1]"
+              ],
+              [
+                "Piebald / calico",
+                "Mixed light and dark patches",
+                "Pattern varies fish to fish[1]"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "Longfin bristlenose plecos need slightly more care with tank mates and décor. Their trailing fins tear on sharp rocks and attract barbs and other nippers."
+        }
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Diet",
+      "h2": "What to Feed a Bristlenose Pleco",
+      "blocks": [
+        {
+          "p": "Calling this fish an \"algae eater\" leads to more starved plecos than any other mistake. It does graze algae, but Seriously Fish recommends a varied diet: sinking dried foods, frozen <em>Daphnia</em>, bloodworm and prawn, plus fresh vegetables and fruit such as courgette, cucumber, parboiled potato or melon.[1] Without supplementary food, a bristlenose in a clean tank slowly starves."
+        },
+        {
+          "ul": [
+            "<strong>Daily:</strong> an algae wafer or sinking pellet after the lights dim.",
+            "<strong>Several times a week:</strong> a slice of blanched courgette or cucumber, weighted down and removed after 24 hours.",
+            "<strong>Weekly:</strong> frozen bloodworm, <em>Daphnia</em> or chopped shrimp.[1]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water",
+      "h2": "Bristlenose Pleco Water Parameters",
+      "blocks": [
+        {
+          "p": "The commercial strain is undemanding: 21–26 °C (70–79 °F), pH 5.5–7.5 and 1–15 dGH all suit it.[1] What it does not tolerate well is low oxygen and dirty water. A heavy bioload in a warm tank with no surface movement is the setup in which these catfish are most often found dead. Keep ammonia and nitrite at zero, and run the filter around the clock.[4]"
+        }
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Breeding",
+      "h2": "Breeding Bristlenose Plecos",
+      "blocks": [
+        {
+          "p": "Adult males are easy to identify. They have well-developed bristles (odontodes) on the pectoral fins and gill covers and a crown of branched tentacles on the snout. Females have only a few short tentacles around the mouth, or none.[1]"
+        },
+        {
+          "p": "The species spawns in caves, and the male does all the brood care: he guards and fans the eggs, then the wrigglers, inside his cave. Breeding is so routine that in a mature, well-kept tank juveniles often appear without any effort from the owner.[1] A coconut shell or a ceramic \"pleco cave\" just wide enough for the male to enter is the usual setup."
+        },
+        {
+          "p": "The tentacles may play a part in breeding. Sabaj, Armbruster and Page, studying wild <em>Ancistrus</em> in Venezuela, proposed that the male's snout tentacles imitate larvae. Females of many cave-nesting fishes prefer males that are already guarding young, so a male whose tentacles suggest a full nest may attract spawning females more easily.[2] The idea has not been fully tested, but it is a plausible explanation for an ornament that only males grow."
+        }
+      ]
+    }
+  ],
+  "faq_h2": "Bristlenose Pleco FAQ",
+  "faq": [
+    {
+      "q": "How big does a bristlenose pleco get?",
+      "a": "Usually 10–12 cm, with a maximum of about 12.5 cm (5 in) standard length.[1]"
+    },
+    {
+      "q": "What size tank does a bristlenose pleco need?",
+      "a": "A 24 × 12 in base (about 20 gallons) for one fish or a pair. Use a larger tank for several males.[1]"
+    },
+    {
+      "q": "Is a longfin bristlenose pleco a different species?",
+      "a": "No. Longfin, albino, gold and super red fish are line-bred forms of the same aquarium strain.[1]"
+    },
+    {
+      "q": "Can a bristle nose pleco live on algae alone?",
+      "a": "No. It needs sinking foods, vegetables and some meaty foods. A pleco living only on algae usually becomes thin.[1]"
+    }
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {
+      "href": "/guides/bristlenose-pleco-care-guide/",
+      "label": "📘 Bristlenose Pleco Care Guide"
+    },
+    {
+      "href": "/species/common-pleco",
+      "label": "🐟 Common Pleco"
+    },
+    {
+      "href": "/species/clown-pleco",
+      "label": "🐟 Clown Pleco"
+    },
+    {
+      "href": "/species/rubber-lip-pleco",
+      "label": "🐟 Rubber Lip Pleco"
+    },
+    {
+      "href": "/species/otocinclus",
+      "label": "🐟 Otocinclus"
+    },
+    {
+      "href": "/guides/pleco-care-guide/",
+      "label": "📘 Pleco Care Guide"
+    }
+  ],
+  "editorial_note": "Size, water ranges, varieties and breeding follow the Seriously Fish profile for the aquarium strain, <em>Ancistrus</em> cf. <em>cirrhosus</em>.[1] FishBase data for wild <em>A. cirrhosus</em> are not used, because the aquarium fish is probably not that species. The larval-mimicry hypothesis is cited to the original paper.[2]",
+  "references": [
+    {
+      "authors": "Seriously Fish.",
+      "title": "Ancistrus cf. cirrhosus (Common Bristlenose Catfish).",
+      "source": "Species profile.",
+      "url": "https://www.seriouslyfish.com/species/ancistrus-cf-cirrhosus/",
+      "label": "seriouslyfish.com"
+    },
+    {
+      "authors": "Sabaj, M. H., Armbruster, J. W. & Page, L. M. (1999).",
+      "title": "Spawning in Ancistrus (Siluriformes: Loricariidae) with comments on the evolution of snout tentacles as a novel reproductive strategy: larval mimicry.",
+      "source": "Ichthyological Exploration of Freshwaters 10: 217–229.",
+      "url": "https://www.auburn.edu/~armbrjw/Ancistrus.pdf",
+      "label": "auburn.edu (PDF)"
+    },
+    {
+      "authors": "German, D. P. (2009).",
+      "title": "Inside the guts of wood-eating catfishes: can they digest wood?",
+      "source": "Journal of Comparative Physiology B 179: 1011–1023.",
+      "url": "https://doi.org/10.1007/s00360-009-0381-1",
+      "label": "doi.org/10.1007/s00360-009-0381-1"
+    },
+    {
+      "authors": "Francis-Floyd, R., Watson, C., Petty, D. & Pouder, D. B.",
+      "title": "Ammonia in Aquatic Systems (FA16).",
+      "source": "University of Florida IFAS Extension.",
+      "url": "https://edis.ifas.ufl.edu/publication/FA031",
+      "label": "edis.ifas.ufl.edu"
+    }
+  ]
+}

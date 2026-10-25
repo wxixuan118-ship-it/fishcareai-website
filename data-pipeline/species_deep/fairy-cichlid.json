@@ -1,0 +1,325 @@
+{
+  "slug": "fairy-cichlid",
+  "keyword": "fairy cichlid",
+  "common_name": "Fairy Cichlid",
+  "scientific": "Neolamprologus brichardi",
+  "date_published": "2026-08-05T14:07:27.442Z",
+  "date_modified": "2026-10-24",
+  "date_modified_human": "October 24, 2026",
+  "title": "Fairy Cichlid Tank Size, Water and Colony Care",
+  "description": "Fairy cichlid tank size: 32 in for a pair, 48 in for a colony. Hard pH 8–9 water, Tanganyikan tank mates, and how the helpers in a family group raise fry.",
+  "h1": "Fairy Cichlid Tank Size and Care: Raising a Princess of Burundi Colony",
+  "tag": "🐟 Freshwater · Lake Tanganyika cichlid",
+  "photo": {
+    "src": "/assets/encyclopedia/real/fairy-cichlid-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 1077,
+    "alt": "Fairy cichlid (Neolamprologus brichardi) with long white-edged lyre-shaped fins over rocks",
+    "caption": "A fairy cichlid. The long white-tipped streamers on the tail give the species its other trade name, lyretail cichlid."
+  },
+  "chart": {
+    "tank_gal": 30,
+    "temp_f": [
+      73,
+      79
+    ],
+    "ph": [
+      8.0,
+      9.0
+    ],
+    "size_in": 3.5,
+    "group": "A pair, or a family colony in a 48-in tank",
+    "care": "Moderate — hard, alkaline water kept steady",
+    "alt": "Fairy cichlid care chart: 30-gallon minimum for a pair, 73–79 °F, pH 8.0–9.0, adult size 3.5 inches",
+    "caption": "Fairy cichlid needs at a glance, using the figures cited below."
+  },
+  "facts": [
+    [
+      "Scientific name",
+      "<em>Neolamprologus brichardi</em>"
+    ],
+    [
+      "Other names",
+      "Princess of Burundi, lyretail cichlid"
+    ],
+    [
+      "Family",
+      "Cichlidae"
+    ],
+    [
+      "Origin",
+      "Northern Lake Tanganyika (Burundi, Tanzania, DR Congo)"
+    ],
+    [
+      "Adult size",
+      "9 cm (3.5 in) total length"
+    ],
+    [
+      "Tank, pair",
+      "80 cm / 32 in long (about 30 US gal)"
+    ],
+    [
+      "Tank, colony",
+      "120 × 30 cm / 48 × 12 in base or larger"
+    ],
+    [
+      "Temperature",
+      "23–26 °C (73–79 °F)"
+    ],
+    [
+      "pH / hardness",
+      "8.0–9.0 / 9–19 dGH"
+    ],
+    [
+      "Diet",
+      "Plankton feeder; takes most foods"
+    ],
+    [
+      "IUCN status",
+      "Least Concern (2025)"
+    ]
+  ],
+  "short_answer": "A fairy cichlid pair needs a tank at least <strong>80 cm (about 32 in) long</strong>. If you want to keep the family group and watch older young help raise new broods, go to a <strong>120 × 30 cm (48 × 12 in)</strong> base or larger.[2][1] Keep the water hard and alkaline (pH 8.0–9.0, 9–19 dGH) at 73–79 °F, and build plenty of rock caves.[2]",
+  "intro": [
+    "The fairy cichlid (<em>Neolamprologus brichardi</em>) is a small rock-dwelling fairy cichlid from Lake Tanganyika that breeds in cooperative family groups.",
+    "In the hobby it is better known as the Princess of Burundi, the trade name it got when the first exports left Burundi in 1971, or as the lyretail cichlid after its streamer-tipped tail.[2] Wild fish live along the rocky northern shores of the lake, mostly between 5 and 25 m deep, in loose aggregations made up largely of breeding pairs.[2] They hover above the rock picking plankton from the open water.[1][2]",
+    "Tank size is the question most keepers ask first, and the answer depends on what you want to keep. A single pair is easy to house. A colony, in which juveniles from earlier spawns stay and help their parents, is the reason many people keep the species, and it needs considerably more room. This page covers both setups, along with water chemistry, diet, compatible Tanganyikans and breeding."
+  ],
+  "sections": [
+    {
+      "id": "tank-size",
+      "toc": "Tank size",
+      "h2": "Fairy Cichlid Tank Size: Pair vs Colony",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "Setup",
+              "Minimum length",
+              "Typical tank"
+            ],
+            "rows": [
+              [
+                "One bonded pair",
+                "80 cm (≈32 in)",
+                "About 30 US gal[1][2]"
+              ],
+              [
+                "Family colony with helpers",
+                "120 cm (48 in), 30 cm deep base",
+                "40-gal long or larger[2]"
+              ],
+              [
+                "Mixed Tanganyikan community",
+                "150 cm (≈60 in) or more",
+                "Enough rockwork for separate territories[2]"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "FishBase and Seriously Fish agree on 80 cm as the minimum length for a pair.[1][2] That figure assumes the pair has the tank to themselves. Once a pair spawns, the young stay on, and within a year a 32-inch tank can hold three generations competing for the same caves. Seriously Fish notes that when space runs out, the adults lay fewer eggs or start eating the smallest fry.[2] That is the clearest sign the tank has become too small."
+        },
+        {
+          "p": "Floor area matters more than height. These fish claim rock, not water volume, so a long, shallow tank with rock piles running end to end gives more territories than a tall tank with the same gallonage. Plan for growth if you intend to let the colony expand: a 48 × 12 in footprint is the practical starting point, and 55 to 75 gallons gives a family room to stay peaceful for longer."
+        },
+        {
+          "chart": true
+        }
+      ]
+    },
+    {
+      "id": "setup",
+      "toc": "Rockwork & setup",
+      "h2": "Setting Up a Fairy Cichlid Tank",
+      "blocks": [
+        {
+          "p": "Recreate a stretch of Tanganyika shoreline: a sand bottom and stacked rocks forming caves across most of the tank.[2] Stable stacks matter, because pairs often dig out under a stone to enlarge their spawning cave. Set the bottom rocks on the glass or on egg-crate before adding sand, so digging cannot topple a pile."
+        },
+        {
+          "ul": [
+            "<strong>Caves:</strong> at least two or three more than the number of adult pairs, with entrances facing different ways.",
+            "<strong>Sight lines:</strong> break up long views with rock so a subordinate fish can get out of sight.",
+            "<strong>Plants:</strong> optional. Hardy species such as Anubias or Java fern tolerate hard water and are usually left alone.",
+            "<strong>Buffering:</strong> crushed coral or aragonite sand helps hold pH above 8 in soft-tap areas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water chemistry",
+      "h2": "Fairy Cichlid Water Parameters",
+      "blocks": [
+        {
+          "p": "Lake Tanganyika is hard and strongly alkaline, and the fairy cichlid does best when the tank copies that. Seriously Fish gives pH 8.0–9.0, hardness 9–19 dGH and 23–26 °C (73–79 °F). FishBase lists the same pH and hardness with a slightly cooler 22–25 °C.[1][2] Keep the chemistry steady, because swinging between soft and hard water is harder on the fish than any single value in that range."
+        },
+        {
+          "callout": "<strong>High pH makes ammonia more dangerous.</strong> At pH 8.5 a much larger share of total ammonia exists in the toxic un-ionised form than at pH 7, so a small ammonia spike that a soft-water tank would shrug off can burn gills here.[3] Only add fish to a fully cycled filter, and feed lightly after any disturbance.",
+          "variant": "warn"
+        }
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Diet",
+      "h2": "What Fairy Cichlids Eat",
+      "blocks": [
+        {
+          "p": "In the wild this species is a plankton picker, feeding on tiny animals in the water column above its rock.[1][2] In the aquarium it takes almost anything, but live and frozen foods should make up a large share of the diet, with dry food fed less often.[2] Good options include frozen <em>Cyclops</em>, <em>Daphnia</em>, brine shrimp and mysis, plus small sinking pellets. Add some plant matter as well, for example a spirulina-based flake.[2]"
+        },
+        {
+          "p": "Feed small amounts in several places at once. In a colony the breeding pair takes the best spot, and if all the food lands in one place the helpers and fry go hungry. Scattering food also stops one dominant fish from defending the feeding area."
+        }
+      ]
+    },
+    {
+      "id": "tank-mates",
+      "toc": "Tank mates",
+      "h2": "Fairy Cichlid Tank Mates",
+      "blocks": [
+        {
+          "p": "This is a territorial cichlid that keeps defending its patch, and it gets fiercer once there are fry.[2] A species tank is the simplest choice. In a large aquarium it can share space with other small to medium Tanganyikans that use a different part of the tank:"
+        },
+        {
+          "ul": [
+            "<strong>Open-water fish:</strong> <em>Cyprichromis</em> species, which stay in midwater above the rocks.[2]",
+            "<strong>Shell dwellers:</strong> small <em>Lamprologus</em> and <em>Neolamprologus</em> that live in snail shells on open sand.[2]",
+            "<strong>Other rock dwellers, only with plenty of space:</strong> <a href=\"/species/julidochromis\">Julidochromis</a> or <a href=\"/species/altolamprologus\">Altolamprologus</a>, if every fish can hold its own territory.[2]",
+            "<strong>Never:</strong> other members of the brichardi complex, such as <em>N. pulcher</em> or the <a href=\"/species/daffodil-cichlid\">daffodil cichlid</a>, because they hybridise freely.[2]"
+          ]
+        },
+        {
+          "p": "Avoid soft-water community fish entirely. Tetras, rams and most gouramis cannot stay healthy at pH 8.5, however peaceful the cichlids are."
+        }
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Breeding & helpers",
+      "h2": "Breeding Fairy Cichlids and the Helper System",
+      "blocks": [
+        {
+          "p": "This is one of the easier Tanganyikan cichlids to breed. Pairs form inside a group, so unless you can buy a proven pair, start with six or more juveniles and rehome the extras once two fish pair off.[2] The pair spawns out of sight in a cave and attaches the eggs to the wall or roof. Usually the female tends the clutch while the male patrols the area around the entrance.[2]"
+        },
+        {
+          "p": "What follows is unusual among fishes. Juveniles from earlier broods stay in their parents' territory and help: they clean eggs, remove sand from the breeding cave and defend the newest fry. Taborsky and Limberger described this \"helpers at the nest\" system in aquarium groups of this species in 1981, and it has since been confirmed in the lake, where many breeding pairs share one stretch of rock.[4][2] Later research on the closely related <em>N. pulcher</em> made the brichardi group a model for studying cooperative breeding in vertebrates.[5]"
+        },
+        {
+          "ol": [
+            "The fry are large enough to eat newly hatched brine shrimp from the first day of free swimming.[2]",
+            "Growth is slow, so the young stay small and vulnerable for months. That long stretch of slow growth is one reason they stay with their parents as helpers.",
+            "To raise a large number, siphon fry to a rearing tank before space becomes tight in the main tank.[2]"
+          ]
+        },
+        {
+          "p": "Sexing adults is difficult. Males are usually slightly larger and grow longer streamers on the dorsal and tail fins, but the differences are small.[2]"
+        }
+      ]
+    },
+    {
+      "id": "pulcher",
+      "toc": "Brichardi vs pulcher",
+      "h2": "Fairy Cichlid or Neolamprologus pulcher?",
+      "blocks": [
+        {
+          "p": "Fish sold as fairy cichlids are often confused with <em>N. pulcher</em>, which was described in the same 1952 paper. Check the gill cover. In <em>N. brichardi</em>, a dark bar running back from the eye meets a vertical bar at the rear edge of the gill cover, forming a sideways T. In <em>N. pulcher</em> the two bars run parallel and do not meet.[2]"
+        },
+        {
+          "p": "Whether the two are really separate species is still debated. Duftner and colleagues found that mitochondrial DNA from populations around the lake does not group by facial pattern, and argued that the brichardi stripe evolved more than once.[6] FishBase still lists both species.[1] For a hobbyist the practical rule is the same either way: keep one form per tank, or you will end up with hybrids that cannot be traced back to either."
+        }
+      ]
+    }
+  ],
+  "faq_h2": "Fairy Cichlid FAQ",
+  "faq": [
+    {
+      "q": "What size tank does a fairy cichlid need?",
+      "a": "A pair needs at least 80 cm (about 32 in) of length, which is roughly a 30-gallon tank. A breeding colony with helpers needs a base of 120 × 30 cm (48 × 12 in) or larger.[1][2]"
+    },
+    {
+      "q": "How big do fairy cichlids get?",
+      "a": "About 9 cm (3.5 in) total length, including the tail streamers.[1]"
+    },
+    {
+      "q": "Are fairy cichlids aggressive?",
+      "a": "They are territorial rather than predatory. Pairs defend their caves steadily, and more fiercely when there are fry, but in a large tank with good rockwork they live with other Tanganyikans that use different zones.[2]"
+    },
+    {
+      "q": "Is the fairy cichlid endangered?",
+      "a": "No. The IUCN Red List assessed <em>N. brichardi</em> as Least Concern in 2025.[1]"
+    }
+  ],
+  "related_h2": "Species Related to the Fairy Cichlid",
+  "related": [
+    {
+      "href": "/species/daffodil-cichlid",
+      "label": "🐟 Daffodil Cichlid"
+    },
+    {
+      "href": "/species/julidochromis",
+      "label": "🐟 Julidochromis"
+    },
+    {
+      "href": "/species/altolamprologus",
+      "label": "🐟 Altolamprologus"
+    },
+    {
+      "href": "/species/leleupi-cichlid",
+      "label": "🐟 Leleupi Cichlid"
+    },
+    {
+      "href": "/species/tropheus-cichlid",
+      "label": "🐟 Tropheus Cichlid"
+    },
+    {
+      "href": "/guides/aquarium-water-parameters/",
+      "label": "📘 Aquarium Water Parameters"
+    }
+  ],
+  "editorial_note": "Tank sizes and water values follow FishBase and Seriously Fish, which agree on the 80 cm pair minimum and the pH and hardness ranges.[1][2] The helper behaviour and the brichardi–pulcher debate are cited to the original papers rather than hobby summaries.[4][6]",
+  "references": [
+    {
+      "authors": "Froese, R. & Pauly, D. (eds.).",
+      "title": "Neolamprologus brichardi (Poll, 1974).",
+      "source": "FishBase, version 2025.",
+      "url": "https://www.fishbase.se/summary/Neolamprologus-brichardi.html",
+      "label": "fishbase.se"
+    },
+    {
+      "authors": "Seriously Fish.",
+      "title": "Neolamprologus brichardi (Princess of Burundi).",
+      "source": "Species profile.",
+      "url": "https://www.seriouslyfish.com/species/neolamprologus-brichardi/",
+      "label": "seriouslyfish.com"
+    },
+    {
+      "authors": "Francis-Floyd, R., Watson, C., Petty, D. & Pouder, D. B.",
+      "title": "Ammonia in Aquatic Systems (FA16).",
+      "source": "University of Florida IFAS Extension.",
+      "url": "https://edis.ifas.ufl.edu/publication/FA031",
+      "label": "edis.ifas.ufl.edu"
+    },
+    {
+      "authors": "Taborsky, M. & Limberger, D. (1981).",
+      "title": "Helpers in fish.",
+      "source": "Behavioral Ecology and Sociobiology 8: 143–145.",
+      "url": "https://doi.org/10.1007/BF00300826",
+      "label": "doi.org/10.1007/BF00300826"
+    },
+    {
+      "authors": "Wong, M. & Balshine, S. (2011).",
+      "title": "The evolution of cooperative breeding in the African cichlid fish, Neolamprologus pulcher.",
+      "source": "Biological Reviews 86: 511–530.",
+      "url": "https://doi.org/10.1111/j.1469-185X.2010.00158.x",
+      "label": "doi.org/10.1111/j.1469-185X.2010.00158.x"
+    },
+    {
+      "authors": "Duftner, N., Sefc, K. M., Koblmüller, S., Salzburger, W., Taborsky, M. & Sturmbauer, C. (2007).",
+      "title": "Parallel evolution of facial stripe patterns in the Neolamprologus brichardi/pulcher species complex endemic to Lake Tanganyika.",
+      "source": "Molecular Phylogenetics and Evolution 45: 706–715.",
+      "url": "https://doi.org/10.1016/j.ympev.2007.08.001",
+      "label": "doi.org/10.1016/j.ympev.2007.08.001"
+    }
+  ]
+}

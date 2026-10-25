@@ -1,0 +1,141 @@
+{
+  "slug": "betta-fish",
+  "keyword": "betta fish",
+  "common_name": "Betta Fish",
+  "scientific": "Betta splendens",
+  "date_published": "2026-08-05T09:21:56.516Z",
+  "date_modified": "2026-10-24",
+  "date_modified_human": "October 24, 2026",
+  "title": "Betta Fish Species Profile, Female Bettas and Wild Origin",
+  "description": "Betta fish (Betta splendens) species profile: wild origin, tank size, water, diet, female betta behaviour and sorority risks, and what domestication changed.",
+  "h1": "Betta Fish Species Profile with Female Bettas and Wild Origins",
+  "tag": "🐟 Freshwater · Siamese fighting fish",
+  "photo": {
+    "src": "/assets/encyclopedia/real/betta-super-delta-wikimedia-real.jpg",
+    "width": 900,
+    "height": 675,
+    "alt": "Male betta fish (Betta splendens) with long flowing red and blue fins",
+    "caption": "A long-finned male betta. Ornamental strains like this differ greatly from the short-finned, drab wild fish of central Thailand."
+  },
+  "chart": {
+    "tank_gal": 10,
+    "temp_f": [76, 82],
+    "ph": [6.0, 8.0],
+    "size_in": 2.8,
+    "group": "One male per tank; females kept apart unless breeding",
+    "care": "Moderate — best kept alone",
+    "alt": "Betta fish care chart: 10-gallon minimum tank, 76–82 °F, pH 6.0–8.0, adult size under 3 inches",
+    "caption": "Betta fish needs at a glance. The tank figure corresponds to the 18 × 12 in footprint Seriously Fish gives for one male or a pair."
+  },
+  "facts": [
+    ["Scientific name", "<em>Betta splendens</em>"],
+    ["Other names", "Siamese fighting fish, plakat (short-finned)"],
+    ["Family", "Osphronemidae"],
+    ["Origin", "Central Thailand (Chao Phraya basin and surroundings)"],
+    ["Adult size", "6.5–7 cm (≈2.8 in)"],
+    ["Minimum tank", "45 × 30 cm base (18 × 12 in, ≈10 gal)"],
+    ["Temperature", "22–30 °C (72–86 °F)"],
+    ["pH / hardness", "6.0–8.0 (wild fish 5.0–7.0) / 1–15 dGH"],
+    ["Breathing", "Labyrinth organ; breathes air"],
+    ["Temperament", "Best kept alone"],
+    ["IUCN status (wild)", "Vulnerable (2011)"]
+  ],
+  "short_answer": "The betta fish is a labyrinth fish from central Thailand, kept almost entirely as ornamental strains. A single betta needs a tank with at least an <strong>18 × 12 in (45 × 30 cm) base</strong>, not a jar, along with warm, still water, a lid and live or frozen foods.[2] Female bettas are also aggressive. Strains bred for fighting produce more aggressive females as well as males, so female \"sorority\" tanks often fail.[3]",
+  "intro": [
+    "The betta fish (<em>Betta splendens</em>), or Siamese fighting fish, is a small air-breathing betta fish from the still waters of central Thailand.",
+    "Wild fish live in rice paddies, swamps, roadside ditches and ponds that are shaded by plants, often low in oxygen, and change quickly during the monsoon.[2] The natural range runs through central Thailand, from Chiang Rai province south to just below the Isthmus of Kra. Records elsewhere refer to related species or to fish that escaped from farms.[2] In the wild the species is listed as Vulnerable, under pressure from habitat loss and from hybridisation with released ornamental fish.[1][2]",
+    "The fish in shops are a different story: centuries of breeding for fighting and later for fins and colour have produced countless strains. This profile covers the species' biology, housing, female bettas, and what genetic research shows domestication has changed. For day-to-day setup and maintenance, see our <a href=\"/guides/betta-care-guide/\">betta care guide</a>."
+  ],
+  "sections": [
+    {
+      "id": "tank",
+      "toc": "Tank & setup",
+      "h2": "Betta Fish Tank Size and Setup",
+      "blocks": [
+        {"p": "Seriously Fish considers a tank with a 45 × 30 cm (18 × 12 in) base, about 40 litres, large enough for a single male or a pair, and explicitly does not support keeping bettas in tiny tanks or jars.[2] A 10-gallon tank or larger, heated and filtered, matches that figure."},
+        {"ul": [
+          "<strong>Plants and cover:</strong> dense planting, floating plants such as <em>Salvinia</em>, Cryptocorynes, and driftwood with Java fern or moss.[2]",
+          "<strong>Flow:</strong> gentle. An air-driven sponge filter suits a fish from still water.[2]",
+          "<strong>Lid and air gap:</strong> essential. Bettas are excellent jumpers and need access to the humid air layer above the water.[2]",
+          "<strong>Leaf litter:</strong> dried leaves add shelter and release tannins.[2]"
+        ]},
+        {"chart": true}
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water",
+      "h2": "Betta Fish Water Parameters",
+      "blocks": [
+        {"p": "Ornamental bettas tolerate 22–30 °C (72–86 °F), pH 6.0–8.0 and 1–15 dGH. Wild-collected fish probably prefer softer, more acidic water at pH 5.0–7.0.[2] Most keepers aim for the upper-middle of the temperature range. The labyrinth organ lets bettas breathe air, but they still need clean water. Seriously Fish advises small, regular water changes rather than large, infrequent ones.[2]"}
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Diet",
+      "h2": "Feeding",
+      "blocks": [
+        {"p": "In the wild, bettas eat aquatic and land insects and other invertebrates. Captive fish take dry foods once they recognise them, but they should regularly get small live or frozen foods such as <em>Daphnia</em>, brine shrimp and bloodworm.[2] Seriously Fish warns that bettas seem particularly prone to obesity, so keep portions small and skip a day now and then.[2]"}
+      ]
+    },
+    {
+      "id": "female",
+      "toc": "Female bettas",
+      "h2": "Female Betta Fish Behaviour and Sororities",
+      "blocks": [
+        {"p": "Females are shorter-finned and usually less colourful than males, although ornamental females now come in many colours.[2] A buying caution from Seriously Fish: some commercial breeders sell very short-finned males as females.[2] Check for a visible egg spot, the small white ovipositor behind the ventral fins, before assuming a fish is female."},
+        {"p": "\"Sorority\" tanks, groups of female bettas kept together, are popular but risky. A 2019 study in <em>Frontiers in Zoology</em> compared a strain bred for staged fights with wild-type bettas. Fighter-strain males were more aggressive, and so were their sisters, even though females are never used in fights. Aggression levels were correlated across male and female siblings, which points to shared genetic and physiological causes.[3] In practice, many ornamental females carry that inherited aggression. Seriously Fish's standard advice is one fish per tank, with males and females kept apart except for breeding.[2]"},
+        {"p": "If you still try a sorority, use a large, heavily planted tank, add all the females at once, and have a separate tank ready for any fish that is singled out for bullying."}
+      ]
+    },
+    {
+      "id": "tank-mates",
+      "toc": "Tank mates",
+      "h2": "Betta Fish Tank Mates",
+      "blocks": [
+        {"p": "Seriously Fish does not recommend bettas for the standard community aquarium. Some individuals tolerate other species, but that is the exception.[2] Ornamental strains appear to be more aggressive than any other <em>Betta</em> species.[2] If you try tank mates, choose small cyprinids or loaches from similar still, warm water, such as <a href=\"/species/chili-rasbora\">chili rasboras</a> or <a href=\"/species/kuhli-loach\">kuhli loaches</a>. Avoid anything with long fins or a betta-like shape, which a male may treat as a rival.[2]"}
+      ]
+    },
+    {
+      "id": "domestication",
+      "toc": "Wild vs domestic",
+      "h2": "Wild Bettas and What Domestication Changed",
+      "blocks": [
+        {"p": "The common name comes from a long tradition of fighting the fish in organised bouts. Breeders selected for vigour and fighting performance, and later for ornamental fins and colours. Along the way domestic bettas were crossed with related species such as <em>B. imbellis</em>, <em>B. smaragdina</em> and <em>B. mahachaiensis</em>.[2]"},
+        {"p": "A 2022 genome study in <em>Science Advances</em> sequenced 98 fish from five closely related species and found that hybridisation between domestic bettas and wild <em>Betta</em> species runs in both directions.[4] It identified <em>dmrt1</em> as the main sex-determining gene in ornamental bettas, a gene with weaker effects in wild fish. It also found strong recent selection on genes that each control the colour of a particular body region or the shape of a particular fin.[4] Simple genetics acting on separate body parts helps explain how breeders produced so many varieties so quickly."},
+        {"p": "Cheap, mass-produced veiltail bettas often carry genetic defects or health problems, and Seriously Fish recommends buying from a reputable private breeder where possible.[2] For how long a well-kept betta lives, see <a href=\"/guides/how-long-do-betta-fish-live/\">how long betta fish live</a>."}
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Breeding",
+      "h2": "Breeding",
+      "blocks": [
+        {"p": "Bettas are bubble nesters. The male builds a nest under a leaf, in a tube or among floating plants. A breeding female turns paler and shows dark vertical bars. The pair spawn beneath the nest in the typical gourami-style embrace, and the male carries the eggs up into the nest and guards them alone.[2] Eggs hatch in 24–48 hours, and the fry stay in the nest for a further three or four days.[2] Use a very tight cover: fry need warm, humid air above the water for their labyrinth organs to develop properly.[2] Start the fry on infusoria, then microworms and brine shrimp nauplii.[2]"}
+      ]
+    }
+  ],
+  "faq_h2": "Betta Fish FAQ",
+  "faq": [
+    {"q": "Can female betta fish live together?", "a": "Sometimes, but it often fails. Females of strains bred for fighting are also more aggressive, and the standard advice is one betta per tank.[2][3]"},
+    {"q": "What size tank does a betta fish need?", "a": "A base of at least 18 × 12 in (45 × 30 cm), roughly 10 gallons. Jars and tiny bowls are not suitable.[2]"},
+    {"q": "Where do betta fish come from?", "a": "Central Thailand, where wild fish live in rice paddies, swamps and ditches. Wild populations are listed as Vulnerable.[1][2]"},
+    {"q": "Do betta fish need a heater?", "a": "Usually yes. They tolerate 72–86 °F, and most homes are cooler than the middle of that range.[2]"}
+  ],
+  "related_h2": "Related Pages",
+  "related": [
+    {"href": "/guides/betta-care-guide/", "label": "📘 Betta Care Guide"},
+    {"href": "/species/betta-imbellis", "label": "🐟 Betta imbellis"},
+    {"href": "/species/betta-smaragdina", "label": "🐟 Betta smaragdina"},
+    {"href": "/species/paradise-fish", "label": "🐟 Paradise Fish"},
+    {"href": "/species/honey-gourami", "label": "🐟 Honey Gourami"},
+    {"href": "/compatibility/betta-fish/", "label": "🐠 Betta Compatibility"}
+  ],
+  "editorial_note": "Range, husbandry and breeding follow Seriously Fish's profile of <em>B. splendens</em>, and conservation status follows FishBase.[1][2] The female aggression and domestication findings are cited to peer-reviewed studies in <em>Frontiers in Zoology</em> (2019) and <em>Science Advances</em> (2022).[3][4]",
+  "references": [
+    {"authors": "Froese, R. & Pauly, D. (eds.).", "title": "Betta splendens Regan, 1910.", "source": "FishBase, version 2025.", "url": "https://www.fishbase.se/summary/Betta-splendens.html", "label": "fishbase.se"},
+    {"authors": "Seriously Fish.", "title": "Betta splendens (Siamese Fighting Fish).", "source": "Species profile.", "url": "https://www.seriouslyfish.com/species/betta-splendens/", "label": "seriouslyfish.com"},
+    {"authors": "Ramos, A. & Gonçalves, D. (2019).", "title": "Artificial selection for male winners in the Siamese fighting fish Betta splendens correlates with high female aggression.", "source": "Frontiers in Zoology 16: 34.", "url": "https://doi.org/10.1186/s12983-019-0333-x", "label": "doi.org/10.1186/s12983-019-0333-x"},
+    {"authors": "Kwon, Y. M., Vranken, N., Hoge, C., Lichak, M. R., Norovich, A. L., Francis, K. X. et al. (2022).", "title": "Genomic consequences of domestication of the Siamese fighting fish.", "source": "Science Advances 8: eabm4950.", "url": "https://doi.org/10.1126/sciadv.abm4950", "label": "doi.org/10.1126/sciadv.abm4950"}
+  ]
+}

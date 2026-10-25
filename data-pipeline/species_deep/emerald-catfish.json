@@ -1,0 +1,126 @@
+{
+  "slug": "emerald-catfish",
+  "keyword": "emerald catfish",
+  "common_name": "Emerald Catfish",
+  "scientific": "Brochis splendens",
+  "date_published": "2026-08-06T01:33:26.336Z",
+  "date_modified": "2026-10-24",
+  "date_modified_human": "October 24, 2026",
+  "title": "Emerald Catfish (Emerald Cory) Care, Size and Tank",
+  "description": "Emerald catfish, the emerald cory or Brochis splendens: a 3–4 in shoaling catfish that needs a group of 6–8, soft sand and a 48 × 18 in tank. Care and breeding.",
+  "h1": "Emerald Catfish Care Guide for the Emerald Cory (Brochis splendens)",
+  "tag": "🐟 Freshwater · Amazonian armoured catfish",
+  "photo": {
+    "src": "/assets/encyclopedia/real/emerald-catfish-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 1159,
+    "alt": "Emerald catfish (Brochis splendens) with metallic green armour plates and an orange-tinged belly",
+    "caption": "An adult emerald catfish. Its long-based dorsal fin, with 10–12 rays, is the quickest way to tell it from the Corydoras it was once grouped with."
+  },
+  "chart": {
+    "tank_gal": 55,
+    "temp_f": [72, 82],
+    "ph": [6.0, 7.5],
+    "size_in": 3.5,
+    "group": "6–8 or more",
+    "care": "Easy — needs soft sand and a group",
+    "alt": "Emerald catfish care chart: 55-gallon tank for a group, 72–82 °F, pH 6.0–7.5, adult size about 3.5 inches",
+    "caption": "Emerald catfish care at a glance. The 55-gallon figure is a practical equivalent of the 48 × 18 in base recommended for a group."
+  },
+  "facts": [
+    ["Scientific name", "<em>Brochis splendens</em> (formerly <em>Corydoras splendens</em>)"],
+    ["Other names", "Emerald cory, emerald green cory, common brochis, hi-fin cory (juveniles)"],
+    ["Family", "Callichthyidae"],
+    ["Origin", "Amazon basin: Brazil, Peru, Ecuador, Colombia"],
+    ["Adult size", "8–9.9 cm (3–4 in) standard length"],
+    ["Minimum tank", "120 × 45 cm base (48 × 18 in)"],
+    ["Temperature", "20–28 °C (68–82 °F)"],
+    ["pH / hardness", "5.0–8.0 / 2–15 dGH"],
+    ["Group size", "6–8 or more"],
+    ["Breathing", "Facultative air breather (gut breathing)"],
+    ["IUCN status", "Least Concern (2020)"]
+  ],
+  "short_answer": "The emerald catfish is a bigger, heavier relative of the Corydoras. It reaches <strong>3–4 inches</strong>, should be kept in a <strong>group of six to eight</strong>, and does best on fine sand in a tank with at least a <strong>48 × 18 in base</strong>.[2][1] It accepts a wide range of water from pH 5.0 to 8.0. It needs its own sinking food and cannot live on leftovers.[2]",
+  "intro": [
+    "The emerald catfish (<em>Brochis splendens</em>), sold as the emerald cory or emerald green cory, is a peaceful armoured emerald catfish found across the Amazon basin.",
+    "It has been recorded in Brazil, Peru, Ecuador and Colombia, where it gathers in small tributaries, backwaters, oxbow lakes and other slow, densely vegetated, often muddy water.[2][1] Its metallic green plates and large size make it stand out from typical Corydoras, and juveniles look different again. They are mottled with an oversized dorsal fin, and are sometimes sold as \"hi-fin corys\".[2]",
+    "Its scientific name has also changed recently. Hobby books from the past 20 years call it <em>Corydoras splendens</em>, but a 2024 genomic revision moved it back to <em>Brochis</em>. That change explains why searches for \"emerald cory catfish\" and \"Brochis splendens\" land on the same fish."
+  ],
+  "sections": [
+    {
+      "id": "name",
+      "toc": "Brochis or Corydoras?",
+      "h2": "Emerald Cory or Brochis? The Name Change Explained",
+      "blocks": [
+        {"p": "For most of the 20th century this fish was <em>Brochis splendens</em>, one of only three species in a genus defined by its long dorsal fin. In 2003 Britto merged <em>Brochis</em> into <em>Corydoras</em>, because keeping it separate left <em>Corydoras</em> without a coherent evolutionary definition.[4] The fish became <em>Corydoras splendens</em>."},
+        {"p": "In 2024 Dias and colleagues published a revision of the whole subfamily, combining genome-wide data with anatomy. They restored <em>Brochis</em> and moved a large group of species previously called <em>Corydoras</em> into it as well.[5] The emerald catfish keeps a distinguishing feature: its dorsal fin has 10–12 rays, compared with 6–8 in the corydoradines newly moved into <em>Brochis</em>.[2] Some wild populations may yet prove to be separate species.[2]"}
+      ]
+    },
+    {
+      "id": "tank",
+      "toc": "Tank & substrate",
+      "h2": "Emerald Catfish Tank Size and Substrate",
+      "blocks": [
+        {"p": "Seriously Fish recommends a minimum base of 120 × 45 cm (48 × 18 in) for a group.[2] That is a larger footprint than most Corydoras need, and it reflects both the fish's size and the size of the school it should live in. A 48-inch tank of 55 to 75 gallons is a sensible target for six to eight adults."},
+        {"p": "Fine sand is the ideal substrate. These catfish forage by pushing their barbels and snouts into the bottom, and rounded gravel is acceptable only if it is kept very clean.[2] Add cover such as wood, rocks or plant thickets to give the group a resting place. They swim to the surface now and then to gulp air, which they absorb through a specialised, blood-rich section of the intestine. This is normal behaviour and not a sign of distress unless it becomes constant.[2][1]"},
+        {"chart": true}
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water",
+      "h2": "Water Parameters",
+      "blocks": [
+        {"p": "Seriously Fish lists 20–28 °C (68–82 °F), pH 5.0–8.0 and 2–15 dGH. FishBase gives 22–28 °C, pH 5.8–8.0 and up to 30 dGH.[1][2] The species is clearly adaptable, so focus on cleanliness rather than chemistry. Bottom-dwelling catfish rest their bellies and barbels on the substrate, which is where uneaten food and waste collect. Regular gravel vacuuming and stable, zero ammonia and nitrite matter more for them than for midwater fish.[3]"}
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Diet",
+      "h2": "Feeding the Emerald Cory Catfish",
+      "blocks": [
+        {"p": "Wild fish eat insect larvae, worms and small crustaceans.[1] In the aquarium, feed sinking pellets or wafers as the staple, with frozen or live bloodworm and other small invertebrates for variety.[2] Seriously Fish is blunt that these catfish should never be expected to survive on leftovers or be used as a clean-up crew.[2] Drop food after the midwater fish have eaten, or at lights-out, so the group can feed without competition."}
+      ]
+    },
+    {
+      "id": "tank-mates",
+      "toc": "Tank mates",
+      "h2": "Tank Mates and Behaviour",
+      "blocks": [
+        {"p": "Emerald catfish are peaceful and gregarious, and they should be kept in groups of at least six to eight.[2] Kept singly or in pairs they hide and lose condition. Good companions are peaceful midwater fish such as tetras, pencilfish, rasboras and hatchetfish, along with dwarf cichlids like <a href=\"/species/bolivian-ram\">Bolivian rams</a> or <em>Apistogramma</em>. Other Corydoras can share the bottom, provided each species has its own group. Avoid large cichlids and anything that will pick at their barbels."}
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Breeding",
+      "h2": "Sexing and Breeding",
+      "blocks": [
+        {"p": "Adult females are rounder, deeper-bodied and slightly larger than males.[2] Breeding follows the usual corydoradine pattern. The female collects eggs in a basket formed by her pelvic fins, then sticks them one at a time to plants, glass and décor.[1] Clutches are large: FishBase records about 830 eggs from one female and 900–1,100 from two pairs.[1] Seriously Fish notes that the eggs tend to be placed near the water surface, which makes them easy to remove and hatch separately.[2]"}
+      ]
+    }
+  ],
+  "faq_h2": "Emerald Catfish FAQ",
+  "faq": [
+    {"q": "Is the emerald catfish a Corydoras?", "a": "It was classified as <em>Corydoras splendens</em> from 2003 until a 2024 revision returned it to <em>Brochis</em>. It is a close relative of the Corydoras and is cared for in much the same way.[4][5]"},
+    {"q": "How big do emerald catfish get?", "a": "About 8 cm standard length according to Seriously Fish, with FishBase recording up to 9.9 cm. That makes it noticeably bulkier than most Corydoras.[1][2]"},
+    {"q": "How many emerald catfish should I keep?", "a": "At least six to eight. They are gregarious and stay hidden when kept in small numbers.[2]"},
+    {"q": "What is a hi-fin cory?", "a": "Usually a juvenile emerald catfish. Young fish are mottled and have an oversized dorsal fin, and they are sold under that name.[2]"}
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {"href": "/species/bronze-cory", "label": "🐟 Bronze Cory"},
+    {"href": "/species/panda-cory", "label": "🐟 Panda Cory"},
+    {"href": "/species/sterbai-cory", "label": "🐟 Sterbai Cory"},
+    {"href": "/species/julii-cory", "label": "🐟 Julii Cory"},
+    {"href": "/species/peppered-cory", "label": "🐟 Peppered Cory"},
+    {"href": "/guides/corydoras-care-guide/", "label": "📘 Corydoras Care Guide"}
+  ],
+  "editorial_note": "Husbandry figures follow Seriously Fish, and range, size and breeding data follow FishBase.[1][2] The classification history is cited to Britto (2003) and to Dias and colleagues' 2024 phylogenomic revision. Older books that use <em>Corydoras splendens</em> are describing the same fish.[4][5]",
+  "references": [
+    {"authors": "Froese, R. & Pauly, D. (eds.).", "title": "Brochis splendens (Castelnau, 1855).", "source": "FishBase, version 2025.", "url": "https://www.fishbase.se/summary/Brochis-splendens.html", "label": "fishbase.se"},
+    {"authors": "Seriously Fish.", "title": "Brochis splendens (Emerald Brochis).", "source": "Species profile.", "url": "https://www.seriouslyfish.com/species/brochis-splendens/", "label": "seriouslyfish.com"},
+    {"authors": "Francis-Floyd, R., Watson, C., Petty, D. & Pouder, D. B.", "title": "Ammonia in Aquatic Systems (FA16).", "source": "University of Florida IFAS Extension.", "url": "https://edis.ifas.ufl.edu/publication/FA031", "label": "edis.ifas.ufl.edu"},
+    {"authors": "Britto, M. R. (2003).", "title": "Phylogeny of the subfamily Corydoradinae Hoedeman, 1952 (Siluriformes: Callichthyidae), with a definition of its genera.", "source": "Proceedings of the Academy of Natural Sciences of Philadelphia 153: 119–154.", "url": "https://doi.org/10.1635/0097-3157(2003)153[0119:POTSCH]2.0.CO;2", "label": "doi.org"},
+    {"authors": "Dias, A. C., Tencatt, L. F. C., Roxo, F. F., Silva, G. S. C., Santos, S. A., Britto, M. R., Taylor, M. I. & Oliveira, C. (2024).", "title": "Phylogenomic analyses in the complex Neotropical subfamily Corydoradinae (Siluriformes: Callichthyidae) with a new classification based on morphological and molecular data.", "source": "Zoological Journal of the Linnean Society 203(3): zlae053.", "url": "https://doi.org/10.1093/zoolinnean/zlae053", "label": "doi.org/10.1093/zoolinnean/zlae053"}
+  ]
+}

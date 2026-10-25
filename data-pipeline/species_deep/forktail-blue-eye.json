@@ -1,0 +1,290 @@
+{
+  "slug": "forktail-blue-eye",
+  "keyword": "forktail blue eye",
+  "common_name": "Forktail Blue Eye",
+  "scientific": "Pseudomugil furcatus",
+  "date_published": "2026-08-05T14:07:27.442Z",
+  "date_modified": "2026-10-24",
+  "date_modified_human": "October 24, 2026",
+  "title": "Forktail Blue Eye Rainbowfish Care and Breeding",
+  "description": "Forktail blue eye (Pseudomugil furcatus) care: a 24-in planted tank, hard 75–82 °F water, groups of 8–10, live foods, and how it differs from other blue eyes.",
+  "h1": "Forktail Blue Eye Rainbowfish Care and Breeding Guide",
+  "tag": "🐟 Freshwater · Papua New Guinea blue-eye",
+  "photo": {
+    "src": "/assets/encyclopedia/real/forktail-blue-eye-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 1067,
+    "alt": "Forktail blue eye rainbowfish (Pseudomugil furcatus) male with yellow-edged forked fins and bright blue eye",
+    "caption": "An adult male. The bright blue iris and the yellow, deeply forked tail give the fish both its common names."
+  },
+  "chart": {
+    "tank_gal": 15,
+    "temp_f": [
+      75,
+      82
+    ],
+    "ph": [
+      7.0,
+      8.0
+    ],
+    "size_in": 2.0,
+    "group": "8–10 or more",
+    "care": "Moderate — mature, stable, hard water",
+    "alt": "Forktail blue eye care chart: 15-gallon minimum tank, 75–82 °F, pH 7.0–8.0, adult size about 2 inches",
+    "caption": "Needs at a glance for this species. The tank figure corresponds to the 24 × 12 in minimum footprint."
+  },
+  "facts": [
+    [
+      "Scientific name",
+      "<em>Pseudomugil furcatus</em>"
+    ],
+    [
+      "Other names",
+      "Forktail rainbowfish, yellow forktail"
+    ],
+    [
+      "Family",
+      "Pseudomugilidae"
+    ],
+    [
+      "Origin",
+      "Northern and Milne Bay provinces, Papua New Guinea"
+    ],
+    [
+      "Adult size",
+      "5 cm (2 in) male; 4 cm female"
+    ],
+    [
+      "Minimum tank",
+      "60 × 30 cm base (24 × 12 in)"
+    ],
+    [
+      "Temperature",
+      "24–28 °C (75–82 °F)"
+    ],
+    [
+      "pH / hardness",
+      "7.0–8.0 / 15–30 dGH"
+    ],
+    [
+      "Group size",
+      "8–10 or more"
+    ],
+    [
+      "Breeding",
+      "Egg scatterer; eggs take ~21 days to hatch"
+    ],
+    [
+      "IUCN status",
+      "Data Deficient (2020)"
+    ]
+  ],
+  "short_answer": "The forktail blue eye is a small, peaceful rainbowfish relative that needs a <strong>densely planted tank of at least 24 × 12 in</strong>, <strong>hard, alkaline water at 75–82 °F</strong>, and a group of <strong>eight to ten</strong>.[2] Feed mostly small live or frozen foods. Add it only to a mature tank, because it reacts badly to swings in water chemistry.[2] Every fish in the hobby descends from a single 1981 collection, so buy from breeders who keep healthy lines.[2]",
+  "intro": [
+    "The forktail blue eye (<em>Pseudomugil furcatus</em>) is a small forktail blue eye rainbowfish from eastern Papua New Guinea, named for its deeply forked yellow tail and electric-blue eyes.",
+    "Despite its popularity it has a small natural range in the Northern and Milne Bay provinces, where it has been recorded in the Musa and Kwagila river basins.[2] There it lives in clear, slow to moderately flowing forest streams with dense vegetation. The type specimens came from pools in seasonal streams, collected alongside the peacock gudgeon.[2] Wild fish are not traded. Seriously Fish reports that every captive fish appears to descend from a single 1981 collection.[2]",
+    "Blue eyes are often lumped together as \"blue eye rainbowfish\", but the group includes very different fish. This guide covers forktail care and breeding, then compares it with the spotted, Pacific and red neon blue eyes that searches also turn up."
+  ],
+  "sections": [
+    {
+      "id": "tank",
+      "toc": "Tank & setup",
+      "h2": "Forktail Blue Eye Tank Setup",
+      "blocks": [
+        {
+          "p": "A tank with a base of 60 × 30 cm (24 × 12 in), around 55 litres, is the smallest Seriously Fish considers suitable.[2] This species shows its best colour in a densely planted, carefully scaped tank, with floating plants and driftwood branches to soften the light.[2] Keep the water well oxygenated with some gentle flow.[2] Fine-leaved moss placed high in the tank gives fry a refuge if you want some to survive in the display tank."
+        },
+        {
+          "chart": true
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water",
+      "h2": "Forktail Blue Eye Water Parameters",
+      "blocks": [
+        {
+          "p": "This species does poorly outside a narrow temperature band. Keep it at 24–28 °C (75–82 °F) in hard, alkaline water of pH 7.0–8.0 and 15–30 dGH.[2] Measurements taken at the type locality in 1981 gave 24–28.5 °C and pH 7.0–8.0, which supports those figures.[2] FishBase lists a cooler 24–26 °C with softer water, but captive lines bred in hard water are the ones on sale.[1]"
+        },
+        {
+          "p": "Stability matters more than any single number. Seriously Fish warns against adding the species to a biologically immature tank, because it is susceptible to swings in water chemistry.[2] Wait until the tank has tested stable for several weeks."
+        }
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Diet",
+      "h2": "Feeding",
+      "blocks": [
+        {
+          "p": "In the wild, forktails feed on floating and suspended zooplankton, phytoplankton and small invertebrates.[2] In the aquarium, much of the diet should be small live foods such as <em>Daphnia</em>, <em>Moina</em>, brine shrimp nauplii and microworms. Small or crushed floating dry foods are also accepted.[2] These are surface and midwater feeders, so sinking pellets do little for them."
+        }
+      ]
+    },
+    {
+      "id": "tank-mates",
+      "toc": "Tank mates",
+      "h2": "Tank Mates and Group Size",
+      "blocks": [
+        {
+          "p": "This is a peaceful shoaling fish. Keep at least eight to ten, which makes the fish less nervous and brings out the males' best colours and display behaviour.[2] Good companions are fish of similar size and temperament that suit hard water: small rasboras and other cyprinids, small gobies, smaller rainbowfish, and especially the peacock gudgeon (<em>Tateurndina ocellicauda</em>), which shares its home streams.[2]"
+        }
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Breeding",
+      "h2": "Breeding Forktail Blue Eyes",
+      "blocks": [
+        {
+          "p": "Males are more boldly patterned and colourful, and their unpaired fins lengthen as they mature.[2] The species scatters its eggs and gives no parental care, and adults eat both eggs and fry.[2]"
+        },
+        {
+          "ol": [
+            "Spawning is most likely towards the warm end of the range. Females lay a few eggs each day over several days, attaching them to plants or spawning mops.[2]",
+            "Either keep a breeding group with a sponge filter and mops, collecting eggs daily, or let fry grow up among moss in a mature planted tank.[2]",
+            "Eggs take around 21 days to hatch, depending on temperature. Fry can eat brine shrimp nauplii and microworms right away.[2]",
+            "Feed small meals at least twice a day, and change water little and often. Aged water causes high fry losses.[2]"
+          ]
+        },
+        {
+          "p": "Expect low numbers. Females under about eight months old tend to lay small, infertile eggs, more than half of eggs from mature adults are often infertile, and fertility falls after 12–18 months.[2] The single-collection origin of captive stock is linked to reduced fertility, shorter lifespan and a high rate of deformity in fry.[2]"
+        }
+      ]
+    },
+    {
+      "id": "blue-eyes",
+      "toc": "Other blue eyes",
+      "h2": "Forktail Blue Eye vs Other Blue Eye Rainbowfish",
+      "blocks": [
+        {
+          "p": "\"Blue eye\" refers to the genus <em>Pseudomugil</em>, small relatives of the rainbowfishes. In 1989 Saeed and colleagues returned the forktail to <em>Pseudomugil</em> after a brief period in the genera <em>Popondetta</em> and <em>Popondichthys</em>, and placed it in the family Pseudomugilidae.[2] The common aquarium species differ in ways that affect care:"
+        },
+        {
+          "table": {
+            "head": [
+              "Species",
+              "Size",
+              "Origin",
+              "Water"
+            ],
+            "rows": [
+              [
+                "Forktail, <em>P. furcatus</em>",
+                "≈5 cm",
+                "Eastern Papua New Guinea[1]",
+                "Hard, alkaline, 75–82 °F[2]"
+              ],
+              [
+                "Spotted blue eye, <em>P. gertrudae</em>",
+                "3.8 cm SL",
+                "Northern Australia, PNG, Aru Islands[3]",
+                "Soft to medium, pH 4.5–7.5[3]"
+              ],
+              [
+                "Pacific blue eye, <em>P. signifer</em>",
+                "Up to 7 cm SL",
+                "Eastern Australian coast[4]",
+                "Fresh to fully marine habitats; 68–79 °F[4]"
+              ],
+              [
+                "Red neon blue eye, <em>P. luminatus</em>",
+                "1.9 cm SL",
+                "Papua province, Indonesia[5]",
+                "IUCN Endangered (2019)[5]"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "The spotted blue eye is covered on our <a href=\"/species/gertrudae-rainbowfish\">gertrudae rainbowfish</a> page. Do not keep different blue eye species together if you plan to breed them, and check that the water hardness suits whichever species you choose."
+        }
+      ]
+    }
+  ],
+  "faq_h2": "Forktail Blue Eye FAQ",
+  "faq": [
+    {
+      "q": "Is the forktail blue eye a rainbowfish?",
+      "a": "It is a close relative. Blue eyes (<em>Pseudomugil</em>) belong to the family Pseudomugilidae, which is related to the true rainbowfishes (Melanotaeniidae).[2]"
+    },
+    {
+      "q": "How many should I keep in a group?",
+      "a": "At least eight to ten. Larger groups are calmer, and males display more.[2]"
+    },
+    {
+      "q": "How long do forktails live?",
+      "a": "Blue eyes are short-lived. Wild females of the genus often survive only one breeding season, though aquarium fish live longer. Fertility usually falls after 12–18 months.[2]"
+    },
+    {
+      "q": "What is a red neon blue eye?",
+      "a": "<em>Pseudomugil luminatus</em>, a tiny (1.9 cm) species from Indonesian Papua that the IUCN lists as Endangered.[5]"
+    }
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {
+      "href": "/species/gertrudae-rainbowfish",
+      "label": "🐟 Spotted Blue Eye (Gertrudae)"
+    },
+    {
+      "href": "/species/neon-rainbowfish",
+      "label": "🐟 Neon Rainbowfish"
+    },
+    {
+      "href": "/species/threadfin-rainbowfish",
+      "label": "🐟 Threadfin Rainbowfish"
+    },
+    {
+      "href": "/species/celebes-rainbowfish",
+      "label": "🐟 Celebes Rainbowfish"
+    },
+    {
+      "href": "/species/boesemans-rainbowfish",
+      "label": "🐟 Boeseman's Rainbowfish"
+    },
+    {
+      "href": "/guides/rainbow-fish-care/",
+      "label": "📘 Rainbowfish Care"
+    }
+  ],
+  "editorial_note": "Care and breeding follow Seriously Fish's profile of <em>P. furcatus</em>, which includes breeder observations on fertility. Size and IUCN status follow FishBase.[1][2] The comparison table draws on the Seriously Fish and FishBase pages for each species.[3][4][5]",
+  "references": [
+    {
+      "authors": "Froese, R. & Pauly, D. (eds.).",
+      "title": "Pseudomugil furcatus Nichols, 1955.",
+      "source": "FishBase, version 2025.",
+      "url": "https://www.fishbase.se/summary/Pseudomugil-furcatus.html",
+      "label": "fishbase.se"
+    },
+    {
+      "authors": "Seriously Fish.",
+      "title": "Pseudomugil furcatus (Forktail Blue-eye).",
+      "source": "Species profile.",
+      "url": "https://www.seriouslyfish.com/species/pseudomugil-furcatus/",
+      "label": "seriouslyfish.com"
+    },
+    {
+      "authors": "Seriously Fish.",
+      "title": "Pseudomugil gertrudae (Spotted Blue-eye).",
+      "source": "Species profile.",
+      "url": "https://www.seriouslyfish.com/species/pseudomugil-gertrudae/",
+      "label": "seriouslyfish.com"
+    },
+    {
+      "authors": "Seriously Fish.",
+      "title": "Pseudomugil signifer (Pacific Blue-eye).",
+      "source": "Species profile.",
+      "url": "https://www.seriouslyfish.com/species/pseudomugil-signifer/",
+      "label": "seriouslyfish.com"
+    },
+    {
+      "authors": "Froese, R. & Pauly, D. (eds.).",
+      "title": "Pseudomugil luminatus Allen, Unmack & Hadiaty, 2016.",
+      "source": "FishBase, version 2025.",
+      "url": "https://www.fishbase.se/summary/Pseudomugil-luminatus.html",
+      "label": "fishbase.se"
+    }
+  ]
+}

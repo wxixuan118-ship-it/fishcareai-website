@@ -1,0 +1,147 @@
+{
+  "slug": "honey-gourami",
+  "keyword": "honey gourami",
+  "common_name": "Honey Gourami",
+  "scientific": "Trichogaster chuna",
+  "date_published": "2026-08-06T01:33:26.336Z",
+  "date_modified": "2026-10-24",
+  "date_modified_human": "October 24, 2026",
+  "title": "Honey Gourami Care, Red Honey Gourami and Tank Mates",
+  "description": "Honey gourami care: a 24-in planted tank, groups of 4–6, calm tank mates, and how to tell males from females. Includes the red, sunset and golden honey forms.",
+  "h1": "Honey Gourami Care Guide with Red and Sunset Varieties",
+  "tag": "🐟 Freshwater · Small labyrinth fish from the Ganges",
+  "photo": {
+    "src": "/assets/encyclopedia/real/honey-gourami-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 1200,
+    "alt": "Honey gourami (Trichogaster chuna) male in breeding colour with orange body and dark blue throat",
+    "caption": "A male in breeding dress: bright orange-honey body with a dark blue-black throat and anal fin. Females and non-breeding males are brownish with a lateral stripe."
+  },
+  "chart": {
+    "tank_gal": 15,
+    "temp_f": [72, 81],
+    "ph": [6.0, 7.5],
+    "size_in": 2.2,
+    "group": "4–6, or a pair",
+    "care": "Beginner — but needs calm tank mates",
+    "alt": "Honey gourami care chart: 15-gallon minimum tank, 72–81 °F, pH 6.0–7.5, adult size about 2 inches",
+    "caption": "Honey gourami needs at a glance. The tank figure matches the 24 × 12 in footprint recommended for a pair or small group."
+  },
+  "facts": [
+    ["Scientific name", "<em>Trichogaster chuna</em>"],
+    ["Family", "Osphronemidae"],
+    ["Origin", "Ganges and Brahmaputra basins, India and Bangladesh"],
+    ["Adult size", "5.5 cm (2.2 in) standard length"],
+    ["Minimum tank", "60 × 30 cm base (24 × 12 in)"],
+    ["Temperature", "22–27 °C (72–81 °F)"],
+    ["pH / hardness", "6.0–7.5 / 2–15 dGH"],
+    ["Group size", "4–6"],
+    ["Diet", "Micropredator; small live and frozen foods"],
+    ["Breeding", "Bubble nester; male guards nest"],
+    ["Care level", "Beginner"]
+  ],
+  "short_answer": "The honey gourami is one of the gentlest gouramis and a good beginner fish if its tank mates are just as calm. A pair or small group of four to six fits a planted tank with a <strong>24 × 12 in base</strong>. Keep it at <strong>72–81 °F</strong> and pH 6.0–7.5 with gentle filtration, floating plants and a lid.[2] Red, sunset and golden fish are colour strains of the same species and need identical care.[2]",
+  "intro": [
+    "The honey gourami (<em>Trichogaster chuna</em>) is a small, peaceful honey gourami from the Ganges and Brahmaputra river systems of northern India and Bangladesh, with records from Nepal.",
+    "In the wild it lives in shallow, weedy, slow water: ponds, ditches, flooded fields and the oxbow lakes called beels, all of which change sharply with the monsoon.[2][1] Almost all fish on sale are farm-bred, and selective breeding has produced several colour forms that are now more common than the wild type.[2]",
+    "This guide covers tank setup, the colour forms, why this gourami suffers next to boisterous fish, how to sex it, and how the male's bubble nest works."
+  ],
+  "sections": [
+    {
+      "id": "tank",
+      "toc": "Tank & setup",
+      "h2": "Honey Gourami Tank Size and Setup",
+      "blocks": [
+        {"p": "Seriously Fish considers a base of 60 × 30 cm (24 × 12 in) enough for a pair or a small group.[2] That is a 15- or 20-gallon long tank. What matters more than volume is how calm and well-planted the tank is. They do best in a shady setup with tall stem plants or floating plants covering much of the surface, driftwood with Java fern or moss, and a few small caves or pots.[2] A layer of dried oak, beech or Indian almond leaves adds shelter and grows microbes that newly hatched fry can feed on.[2]"},
+        {"ul": [
+          "<strong>Filtration:</strong> gentle. An air-driven sponge filter suits fish from sluggish water.[2]",
+          "<strong>Lid:</strong> essential, with a gap above the water. Gouramis breathe air from the surface, rely on the humid air trapped under the lid, and may jump.[2]",
+          "<strong>Lighting:</strong> subdued, or broken up by floating plants."
+        ]},
+        {"chart": true}
+      ]
+    },
+    {
+      "id": "varieties",
+      "toc": "Red & sunset forms",
+      "h2": "Red Honey Gourami and Other Color Forms",
+      "blocks": [
+        {"p": "Several ornamental strains are bred, and care for all of them is identical to the wild form.[2]"},
+        {"table": {"head": ["Strain", "Appearance"], "rows": [
+          ["Wild type", "Females and non-breeding males brownish with a dark lateral stripe; breeding males orange with a blue-black throat[2]"],
+          ["Red honey gourami", "Deep orange-red all over, in both sexes"],
+          ["Sunset form", "Bright orange-yellow with paler fins"],
+          ["Golden form", "Even yellow-gold colour"]
+        ]}},
+        {"p": "Males of these colour strains do not develop the dark throat that wild-type males show when breeding, so sexing them by colour is harder.[2] \"Red robin gourami\" is a trade name used for red-coloured gouramis, but sellers apply it inconsistently, and some red fish sold under similar names are strains of the slightly larger <a href=\"/species/dwarf-gourami\">dwarf gourami</a>. Check the scientific name before buying if you specifically want <em>T. chuna</em>."}
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water",
+      "h2": "Water Parameters",
+      "blocks": [
+        {"p": "Seriously Fish gives 22–27 °C (72–81 °F), pH 6.0–7.5 and 2–15 dGH. FishBase allows 22–28 °C, pH up to 8.0 and 5–19 dGH.[1][2] Adults are adaptable, but the fry are very sensitive to sudden changes in temperature and water chemistry.[2] If you breed them, match new water closely and change it in small amounts."}
+      ]
+    },
+    {
+      "id": "tank-mates",
+      "toc": "Tank mates",
+      "h2": "Honey Gourami Tank Mates",
+      "blocks": [
+        {"p": "This is a slow fish that is easily intimidated and outcompeted at feeding time by larger or faster tank mates.[2] Choose companions that stay calm:"},
+        {"ul": [
+          "<strong>Good:</strong> peaceful midwater cyprinids such as <a href=\"/species/harlequin-rasbora\">harlequin rasboras</a>, <a href=\"/species/chili-rasbora\">chili rasboras</a> and small danios. On the bottom, quiet loaches such as <a href=\"/species/kuhli-loach\">kuhli loaches</a> (<em>Pangio</em>) or some nemacheilids.[2]",
+          "<strong>Avoid:</strong> territorial or aggressive species, fin-nippers such as tiger barbs, and large gouramis.[2]",
+          "<strong>Its own kind:</strong> buy four to six. It is not a schooling fish, but it interacts more and behaves more naturally in a group. Expect a pecking order, with dominant fish chasing others away from food or a favourite spot.[2]"
+        ]},
+        {"p": "This species sometimes shares a tank with a betta. Both are calm labyrinth fish, but it depends on the individual betta. Watch closely for the first week and have a backup plan. Chronic chasing is a real stressor that weakens a fish's resistance to disease over time.[3]"}
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Diet",
+      "h2": "Feeding",
+      "blocks": [
+        {"p": "In the wild it probably feeds on insects and other small invertebrates. Wild fish have even been reported spitting water droplets to knock insects off overhanging leaves.[2] Captive fish take dry food, but feed small live or frozen foods such as <em>Daphnia</em>, brine shrimp or bloodworm regularly for full colour and condition.[2] Make sure some food stays in the tank long enough for this slow eater to get its share."}
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Sexing & breeding",
+      "h2": "Male vs Female and Breeding Honey Gouramis",
+      "blocks": [
+        {"p": "Adult females are brownish, noticeably larger than males and carry a broad brown stripe from the eye to the tail. Non-breeding males show a similar stripe on a slightly orange body, with yellow edges to the front of the dorsal and anal fins. In breeding colour the male turns bright orange, with a dark blue-black head, throat and front of the anal fin.[2]"},
+        {"ol": [
+          "Use a tank with plenty of floating or surface-reaching plants, a gentle sponge filter and a very tight cover. The fry need warm, humid air to develop their labyrinth organ properly.[2]",
+          "Condition the fish on small live foods until the female is plump and the male colours up.[2]",
+          "The male builds a small bubble nest under a broad leaf or in a corner, without plant fragments, then displays to the female.[2]",
+          "After a long courtship the pair spawn beneath the nest in the gourami embrace, and the male carries the eggs up into it. Remove the female once spawning ends.[2]",
+          "Eggs hatch in 24–36 hours, at which point the male can be removed. The fry swim freely 24–48 hours later. They are tiny, so feed infusoria or liquid fry food for a week, then brine shrimp nauplii or microworms.[2]"
+        ]}
+      ]
+    }
+  ],
+  "faq_h2": "Honey Gourami FAQ",
+  "faq": [
+    {"q": "How big do honey gouramis get?", "a": "About 5.5 cm (2.2 in) standard length, which makes them one of the smallest gouramis in the trade.[2]"},
+    {"q": "Is a red honey gourami a different species?", "a": "No. Red, sunset and golden fish are selectively bred colour forms of <em>Trichogaster chuna</em>.[2]"},
+    {"q": "How many honey gouramis should I keep?", "a": "Four to six, or a single pair in a small tank. They show more natural behaviour with others of their kind.[2]"},
+    {"q": "Can they live with bettas?", "a": "Sometimes, in a planted tank of 20 gallons or more, but success depends on the individual betta. Watch closely after introducing them."}
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {"href": "/species/dwarf-gourami", "label": "🐟 Dwarf Gourami"},
+    {"href": "/species/sparkling-gourami", "label": "🐟 Sparkling Gourami"},
+    {"href": "/species/licorice-gourami", "label": "🐟 Licorice Gourami"},
+    {"href": "/species/pearl-gourami", "label": "🐟 Pearl Gourami"},
+    {"href": "/species/harlequin-rasbora", "label": "🐟 Harlequin Rasbora"},
+    {"href": "/compatibility/honey-gourami/", "label": "🐠 Honey Gourami Compatibility"}
+  ],
+  "editorial_note": "Husbandry, colour strains, sexing and breeding follow the Seriously Fish profile for <em>T. chuna</em>, and water ranges are cross-checked against FishBase.[1][2] The note on stress from bullying draws on University of Florida IFAS guidance.[3]",
+  "references": [
+    {"authors": "Froese, R. & Pauly, D. (eds.).", "title": "Trichogaster chuna (Hamilton, 1822).", "source": "FishBase, version 2025.", "url": "https://www.fishbase.se/summary/Trichogaster-chuna.html", "label": "fishbase.se"},
+    {"authors": "Seriously Fish.", "title": "Trichogaster chuna (Honey Gourami).", "source": "Species profile.", "url": "https://www.seriouslyfish.com/species/trichogaster-chuna/", "label": "seriouslyfish.com"},
+    {"authors": "Francis-Floyd, R.", "title": "Stress — Its Role in Fish Disease (Circular 919).", "source": "University of Florida IFAS Extension.", "url": "https://edis.ifas.ufl.edu/publication/FA005", "label": "edis.ifas.ufl.edu"}
+  ]
+}

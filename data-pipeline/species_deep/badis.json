@@ -1,0 +1,139 @@
+{
+  "slug": "badis",
+  "keyword": "badis",
+  "common_name": "Badis",
+  "scientific": "Badis badis",
+  "date_published": "2026-08-05T14:07:27.442Z",
+  "date_modified": "2026-10-24",
+  "date_modified_human": "October 24, 2026",
+  "title": "Badis Fish Care, Chameleon Fish and Black Tiger Badis",
+  "description": "Badis badis (chameleon fish) care: a 31-in tank, cool 59–77 °F water, frozen foods, caves for males. Plus what the black tiger badis really is (Dario tigris).",
+  "h1": "Badis Fish Care Guide with the Chameleon Fish and Black Tiger Badis",
+  "tag": "🐟 Freshwater · Small cave-spawning chameleon fish",
+  "photo": {
+    "src": "/assets/encyclopedia/real/badis-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 1198,
+    "alt": "Badis badis chameleon fish with dark barred body and blue-edged fins",
+    "caption": "An adult male. Its colour can shift within seconds from pale to almost black, which is how it earned the trade name chameleon fish."
+  },
+  "chart": {
+    "tank_gal": 20,
+    "temp_f": [59, 77],
+    "ph": [6.0, 7.5],
+    "size_in": 2.4,
+    "group": "One pair, or one male with several females",
+    "care": "Moderate — live or frozen food only",
+    "alt": "Badis care chart: 20-gallon tank for a pair, 59–77 °F, pH 6.0–7.5, adult size about 2.4 inches",
+    "caption": "Needs at a glance for this species. The temperature band is unusually cool for a tropical fish."
+  },
+  "facts": [
+    ["Scientific name", "<em>Badis badis</em>"],
+    ["Other names", "Chameleon fish"],
+    ["Family", "Badidae"],
+    ["Origin", "Ganges basin (India, Nepal, Bangladesh); Assam, Mahanadi"],
+    ["Adult size", "6 cm (2.4 in) SL; 7.1 cm TL max"],
+    ["Minimum tank", "80 × 30 cm base (31 × 12 in)"],
+    ["Temperature", "15–25 °C (59–77 °F)"],
+    ["pH / hardness", "6.0–7.5 / 3–15 dGH"],
+    ["Diet", "Micropredator; often refuses dry food"],
+    ["Breeding", "Cave spawner; male guards"],
+    ["IUCN status", "Least Concern (2010)"]
+  ],
+  "short_answer": "<em>Badis badis</em> is a small, slow, colour-changing predator, not a typical community fish. A pair needs a tank with at least a <strong>31 × 12 in base</strong>, <strong>cool to moderate water of 59–77 °F</strong>, a cave for each male, and <strong>live or frozen foods</strong> such as brine shrimp and <em>Daphnia</em>, because most refuse flakes.[2] The \"black tiger badis\" is a different fish, the miniature <em>Dario tigris</em>, formally described in 2022.[3][4]",
+  "intro": [
+    "The badis (<em>Badis badis</em>), sold as the chameleon fish, is a small predator from the Ganges river system that can change colour within moments.",
+    "Its range runs from the Yamuna in Himachal Pradesh down the Ganges to its delta in Bangladesh, with records from Nepal, the Mahanadi system and parts of Assam.[2][1] It favours slow, often turbid water with submerged plants and is often found among water lilies.[2] The species was described by Hamilton only from notes and drawings, so in 2002 Kullander and Britz designated a neotype from West Bengal to fix its identity against similar-looking relatives.[2]",
+    "That 2002 revision split the family into many more species and created the genus <em>Dario</em>, which is why badid names in the trade are confusing.[2] This guide covers care for the chameleon fish and explains what you are actually buying when a shop sells a \"black tiger badis\"."
+  ],
+  "sections": [
+    {
+      "id": "tank",
+      "toc": "Tank & setup",
+      "h2": "Badis Tank Size and Setup",
+      "blocks": [
+        {"p": "A pair or small group fits in a tank with a base of 80 × 30 cm (31 × 12 in) or more, about 70 litres.[2] Build a structured tank on a sand or fine gravel substrate with water-worn rocks and pebbles, driftwood twigs, floating plants and leaf litter. Filtration and lighting can be modest.[2]"},
+        {"p": "Caves matter most. Males claim them as spawning sites, and breeders use half coconut shells or upturned clay pots with an entrance cut in.[2] Spread the caves across the tank rather than grouping them, so each male holds his own area and rivals rarely meet.[2]"},
+        {"chart": true}
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water",
+      "h2": "Badis Water Parameters",
+      "blocks": [
+        {"p": "Seriously Fish gives 15–25 °C (59–77 °F), pH 6.0–7.5 and 3–15 dGH. FishBase records a wider tolerance of 14–30 °C.[1][2] Many people keep this species warmer than it prefers by putting it in a standard 80 °F tropical community tank. A room-temperature tank in the low to mid 70s °F is closer to its natural conditions, and it may not need a heater at all."}
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Diet",
+      "h2": "What Badis Eat",
+      "blocks": [
+        {"p": "Badids are micropredators that eat small crustaceans, worms, insect larvae and zooplankton. In aquaria they often refuse dried food entirely.[2] Offer small frozen or live foods such as brine shrimp, <em>Daphnia</em> and glassworm.[2] Seriously Fish gives one specific warning: all badids tend to become obese and more disease-prone when fed bloodworm (chironomid larvae) or <em>Tubifex</em>, so leave both out of the diet.[2]"},
+        {"p": "They are shy, deliberate feeders. In a tank with fast eaters they lose out, which is the main reason they do best in a species tank or with very calm company."}
+      ]
+    },
+    {
+      "id": "tank-mates",
+      "toc": "Tank mates",
+      "h2": "Badis Tank Mates and Behaviour",
+      "blocks": [
+        {"p": "This is a slow, retiring fish that larger or pushier species easily intimidate or outcompete for food.[2] Do not keep it with territorial bottom-dwellers unless the tank is very large, and never mix it with other <em>Badis</em> species, which may hybridise.[2] Cherry and other <em>Neocaridina</em> or <em>Caridina</em> shrimp may be eaten.[2]"},
+        {"p": "It is not a schooling fish. Rival males can be aggressive towards each other in a small tank, so buy one pair or one male with several females. In larger tanks a group works, provided each male can hold a territory.[2] Small, peaceful midwater fish such as <a href=\"/species/chili-rasbora\">chili rasboras</a> or <a href=\"/species/celestial-pearl-danio\">celestial pearl danios</a> can share the tank if feeding is managed."}
+      ]
+    },
+    {
+      "id": "black-tiger",
+      "toc": "Black tiger badis",
+      "h2": "What Is a Black Tiger Badis?",
+      "blocks": [
+        {"p": "The fish sold as \"black tiger badis\" or \"black tiger dario\" is not a form of <em>Badis badis</em>. For years it was treated as a colour variant of the flame red dwarf species, <em>Dario hysginon</em>, from northern Myanmar.[4] Aquarists noticed that the two would not interbreed. In 2022 Britz, Kullander and Rüber described it as a separate species, <em>Dario tigris</em>, from mountain streams south of Mogaung in the Ayeyarwaddy basin.[3][4]"},
+        {"table": {"head": ["", "<em>Badis badis</em>", "Black tiger, <em>Dario tigris</em>"], "rows": [
+          ["Adult size", "About 6 cm SL[2]", "Miniature; <em>Dario</em> species usually under 25 mm[2]"],
+          ["Pattern", "Changeable; dark cleithral spot above the pectoral fin[2]", "Eight vertical bars (two ash-grey, six orange-red in males) plus rows of small black spots on the head and nape[3]"],
+          ["Females", "Smaller, duller, no blue in fins[2]", "Spotted nape like males, unlike striped <em>D. hysginon</em> females[4]"],
+          ["Origin", "Ganges basin, India", "Northern Myanmar, Kachin State[3]"]
+        ]}},
+        {"p": "<em>Dario tigris</em> is far smaller than the chameleon fish and needs a small, densely planted tank, tiny live foods, and no competition from larger fish. It is a different care project. Importers note that frightened <em>D. tigris</em> and <em>D. hysginon</em> look alike, so mixed shipments do happen.[4] Buy coloured-up fish, and check that the females have the spotted nape."}
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Breeding",
+      "h2": "Sexing and Breeding Badis",
+      "blocks": [
+        {"p": "Females are smaller, rounder and duller, with no blue in the fins. Mature males develop longer dorsal, anal and tail fins.[2] <em>Badis</em> are cave spawners that form temporary pair bonds.[2]"},
+        {"ol": [
+          "Breeding males darken almost to black, their fins turn bright blue, and they court females passing their caves. Males often lock jaws with a female and pull her towards the cave.[2]",
+          "A willing female enters and lays a typical clutch of 30–100 eggs. The male then chases her out and guards and fans the brood alone.[2]",
+          "Eggs hatch in two to three days, and the fry become free-swimming at six to eight days old.[2]",
+          "About a week later the fry leave the cave, and the adults, including the father, may start to eat them. Move the fry to a rearing tank and feed microworms, then brine shrimp nauplii.[2]"
+        ]}
+      ]
+    }
+  ],
+  "faq_h2": "Badis FAQ",
+  "faq": [
+    {"q": "Why is it called the chameleon fish?", "a": "The chameleon fish changes colour quickly, especially when breeding or stressed, from pale with faint bars to almost black.[2]"},
+    {"q": "Is the black tiger badis the same as the chameleon fish?", "a": "No. Black tiger badis are <em>Dario tigris</em>, a miniature species from northern Myanmar described in 2022.[3][4]"},
+    {"q": "Will a chameleon fish eat flakes?", "a": "Usually not. Plan on frozen or live brine shrimp, <em>Daphnia</em> and glassworm, and avoid bloodworm and <em>Tubifex</em>.[2]"},
+    {"q": "Can it live with shrimp?", "a": "Adult shrimp may survive, but shrimplets and small <em>Neocaridina</em> or <em>Caridina</em> are likely to be eaten.[2]"}
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {"href": "/species/celestial-pearl-danio", "label": "🐟 Celestial Pearl Danio"},
+    {"href": "/species/chili-rasbora", "label": "🐟 Chili Rasbora"},
+    {"href": "/species/honey-gourami", "label": "🐟 Honey Gourami"},
+    {"href": "/species/kuhli-loach", "label": "🐟 Kuhli Loach"},
+    {"href": "/species/sparkling-gourami", "label": "🐟 Sparkling Gourami"},
+    {"href": "/species/white-cloud-mountain-minnow", "label": "🐟 White Cloud Mountain Minnow"}
+  ],
+  "editorial_note": "Care, breeding and identification details for the chameleon fish follow Seriously Fish's profile, which reflects Kullander and Britz's 2002 revision. Tolerance ranges are cross-checked with FishBase.[1][2] The black tiger section is based on the 2022 <em>Zootaxa</em> description of <em>Dario tigris</em> and an importer's notes on telling it apart in shipments.[3][4]",
+  "references": [
+    {"authors": "Froese, R. & Pauly, D. (eds.).", "title": "Badis badis (Hamilton, 1822).", "source": "FishBase, version 2025.", "url": "https://www.fishbase.se/summary/Badis-badis.html", "label": "fishbase.se"},
+    {"authors": "Seriously Fish.", "title": "Badis badis (Badis).", "source": "Species profile.", "url": "https://www.seriouslyfish.com/species/badis-badis/", "label": "seriouslyfish.com"},
+    {"authors": "Britz, R., Kullander, S. O. & Rüber, L. (2022).", "title": "Dario tigris and Dario melanogrammus, two new species of miniature chameleon fishes from northern Myanmar (Teleostei: Badidae).", "source": "Zootaxa 5138: 1–16.", "url": "https://doi.org/10.11646/zootaxa.5138.1.1", "label": "doi.org/10.11646/zootaxa.5138.1.1"},
+    {"authors": "Schäfer, F. (2022).", "title": "Dario tigris – the \"Black Tiger\" was scientifically described.", "source": "Aquarium Glaser fish archive.", "url": "https://www.aquariumglaser.de/en/fish-archives/dario-tigris-the-black-tiger-was-scientifically-described/", "label": "aquariumglaser.de"}
+  ]
+}

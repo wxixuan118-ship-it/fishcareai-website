@@ -1,0 +1,140 @@
+{
+  "slug": "zebra-loach",
+  "keyword": "zebra loach",
+  "common_name": "Zebra Loach",
+  "scientific": "Botia striata",
+  "date_published": "2026-08-06T01:33:26.336Z",
+  "date_modified": "2026-10-24",
+  "date_modified_human": "October 24, 2026",
+  "title": "Zebra Loach Care: Tank Mates, Group Size and Tank",
+  "description": "Zebra loach care: groups of 6–10 in a 48-inch tank, clean flowing water, and tank mates from danios to Barilius. Endangered in the wild, so buy farm-bred fish.",
+  "h1": "Zebra Loach Care: Tank Mates, Group Size and Setup",
+  "tag": "🐟 Freshwater · Botiid loach from southern India",
+  "photo": {
+    "src": "/assets/encyclopedia/real/zebra-loach-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 1002,
+    "alt": "Zebra loach (Botia striata) with gold body and thin dark green-blue stripes",
+    "caption": "A zebra loach. The bar pattern varies a lot between individuals, and in some fish the stripes break up almost completely."
+  },
+  "chart": {
+    "tank_gal": 40,
+    "temp_f": [72, 79],
+    "ph": [6.0, 7.5],
+    "size_in": 3.5,
+    "group": "5–6 minimum, 10+ preferred",
+    "care": "Moderate — mature, well-oxygenated tank",
+    "alt": "Zebra loach care chart: 40-gallon minimum tank, 72–79 °F, pH 6.0–7.5, adult size about 3.5 inches",
+    "caption": "Zebra loach essentials, using the figures cited on this page."
+  },
+  "facts": [
+    ["Scientific name", "<em>Botia striata</em>"],
+    ["Family", "Botiidae"],
+    ["Origin", "Krishna River system, Western Ghats, India"],
+    ["Adult size", "7.8–9 cm (3–3.5 in) standard length"],
+    ["Minimum tank", "120 × 30 cm base (48 × 12 in, ≈40 gal)"],
+    ["Temperature", "21–26 °C (70–79 °F)"],
+    ["pH / hardness", "6.0–7.5 / 1–10 dGH"],
+    ["Group size", "At least 5–6; 10+ ideal"],
+    ["Diet", "Mostly carnivorous; eats snails"],
+    ["Lid", "Essential — known to jump"],
+    ["IUCN status", "Endangered (2011)"]
+  ],
+  "short_answer": "The zebra loach is the most community-friendly <em>Botia</em>, but it still needs a <strong>group of five or six (ideally ten)</strong>, a tank with at least a <strong>48 × 12 in base</strong>, clean, well-oxygenated water at <strong>70–79 °F</strong>, and a tight lid.[2] Good tank mates are peaceful, active open-water fish. Danios and rasboras work in average tanks, and <em>Barilius</em> or bala sharks in larger ones. Avoid slow, long-finned fish.[2]",
+  "intro": [
+    "The zebra loach (<em>Botia striata</em>) is a peaceful, mid-sized loach from the Krishna River system of southern India, recognisable by its gold body, fine dark bars and usually red mouth.",
+    "It was described from the Tunga River in Karnataka, a Western Ghats tributary of the Tungabhadra and ultimately the Krishna. It has also been recorded in the Koyna and Panchganga rivers in Maharashtra.[2] FishBase describes its habitat as clear mountain streams.[1] One field survey on the neighbouring Bhadra River found it at only one of six sites, below a dam, over a bed of bedrock, boulders and cobbles in soft, neutral, 21 °C water.[3][2]",
+    "In the wild the species is listed as Endangered on the IUCN Red List.[1] Aquarium stock is produced commercially, so buying farm-bred fish does not add to pressure on wild populations.[2] The sections below explain how to keep a group healthy: tank size, setup and diet, starting with the question owners ask most often: which tank mates work."
+  ],
+  "sections": [
+    {
+      "id": "tank-mates",
+      "toc": "Tank mates",
+      "h2": "Zebra Loach Tank Mates",
+      "blocks": [
+        {"p": "This species is peaceful, but it is busy and boisterous, and Seriously Fish warns that much smaller fish can be intimidated by its size and constant activity.[2] Choose tank mates by speed and fin shape as well as by temperament."},
+        {"table": {"head": ["Tank mate", "Verdict", "Notes"], "rows": [
+          ["Danios, rasboras, peaceful barbs", "Good", "Open-water cyprinids are the recommended core community[2]"],
+          ["<em>Barilius</em> (hill trout)", "Good in large tanks", "Seriously Fish lists <em>Barilius</em> as an option once the tank is big enough for these fast swimmers[2]"],
+          ["<a href=\"/species/bala-shark\">Bala shark</a> (<em>Balantiocheilos</em>)", "Large tanks only", "Grows far bigger than the loaches and needs a very long tank[2]"],
+          ["Other <em>Botia</em>; <a href=\"/species/clown-loach\">clown loach</a>", "Good / very large tanks", "Most <em>Botia</em> mix well; clown loaches only in very large aquaria[2]"],
+          ["<a href=\"/species/siamese-algae-eater\">Siamese algae eater</a>, <a href=\"/species/rainbow-shark\">rainbow shark</a>, <em>Garra</em>", "Possible", "<em>Crossocheilus</em>, <em>Epalzeorhynchos</em> and <em>Garra</em> are listed as possibilities[2]"],
+          ["Bettas, guppies, many cichlids", "Avoid", "Slow, long fins get nipped[2]"]
+        ]}},
+        {"p": "Can zebra loaches live with <em>Barilius</em>? Yes, provided the tank gives the <em>Barilius</em> enough length to swim. Both come from clear, flowing hill streams in South Asia, both need plenty of oxygen, and they use different levels of the tank, so they suit each other better than most mixes do. Run the full stocking list through the <a href=\"/tools/fish-compatibility-checker/\">compatibility checker</a> first, since <em>Barilius</em> species vary a lot in adult size."}
+      ]
+    },
+    {
+      "id": "group",
+      "toc": "Group size",
+      "h2": "How Many Zebra Loaches to Keep Together",
+      "blocks": [
+        {"p": "<em>Botia</em> are gregarious fish with complex social hierarchies. Seriously Fish recommends at least five or six, and preferably ten or more.[2] Fewer causes trouble. A single fish may become withdrawn or turn on similarly shaped tank mates, and in a pair or trio the dominant loach can harass the others until they stop eating.[2] In a larger group the aggression is spread across many fish, and you see more of the species' social rituals and play-like chasing."}
+      ]
+    },
+    {
+      "id": "tank",
+      "toc": "Tank & setup",
+      "h2": "Zebra Loach Tank Size and Setup",
+      "blocks": [
+        {"p": "The minimum is a base of 120 × 30 cm (48 × 12 in), roughly a 40-gallon long tank.[2] Zebra loaches cover the whole floor of the tank, and the length is what gives a group room to establish its pecking order."},
+        {"ul": [
+          "<strong>Substrate:</strong> sand or fine gravel with smooth, water-worn pebbles and rocks.[2]",
+          "<strong>Cover:</strong> driftwood, rock caves or flower pots. Loaches squeeze into gaps, so remove sharp edges and seal any hole small enough to trap a fish.[2]",
+          "<strong>Plants:</strong> Java fern, Java moss and Anubias tied to the hardscape. Soft-leaved plants may be eaten.[2]",
+          "<strong>Flow:</strong> moderate current and plenty of oxygen. Turbulence is not necessary.[2]",
+          "<strong>Lid:</strong> tight-fitting, because these loaches do jump.[2]"
+        ]},
+        {"chart": true}
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water",
+      "h2": "Water Parameters and Maintenance",
+      "blocks": [
+        {"p": "Seriously Fish gives 21–26 °C (70–79 °F), pH 6.0–7.5 and 1–10 dGH. FishBase gives 23–26 °C, pH 6.0–8.0 and 5–12 dGH.[1][2] Water quality matters more than precise chemistry. Botiids do not tolerate a build-up of organic waste, should never go into a tank that is still cycling, and do best with routine weekly water changes of 30–50%.[2] University of Florida extension guidance lists low dissolved oxygen among the water-quality stressors that come before many disease outbreaks, and recommends keeping it at 5 mg/L or more.[4] For a hill-stream fish like this, surface movement from the filter outlet is worth having."}
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Diet",
+      "h2": "What Zebra Loaches Eat",
+      "blocks": [
+        {"p": "In the wild, <em>Botia</em> eat aquatic snails, insects, worms and other invertebrates, and they also take plant matter when available.[2] A good captive diet combines sinking pellets with frozen or live bloodworm and brine shrimp, plus vegetables such as cucumber, courgette or blanched spinach.[2] Once settled, zebra loaches feed boldly and often rise into midwater at mealtimes."},
+        {"callout": "<strong>Snail control?</strong> Zebra loaches do eat small snails, but they are not specialist snail eaters. Seriously Fish advises against buying them to clear an infestation.[2] Cut back on feeding first, since overfeeding is what lets pest snails multiply.", "variant": "ok"}
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Breeding",
+      "h2": "Sexing and Breeding",
+      "blocks": [
+        {"p": "Mature females are usually plumper than males, especially when carrying eggs.[2] The species has not been bred in home aquaria. Commercial farms produce it using hormone injections.[2] The same farms have started producing hybrids, including an apparent cross between a <em>Botia</em> and the clown loach, so buy from a seller who can confirm what the fish are."}
+      ]
+    }
+  ],
+  "faq_h2": "Zebra Loach FAQ",
+  "faq": [
+    {"q": "Are zebra loaches compatible with Barilius?", "a": "Yes, in a long, well-oxygenated tank. Seriously Fish lists <em>Barilius</em> among suitable tank mates for larger aquaria, and both prefer clear, flowing water.[2]"},
+    {"q": "How many zebra loaches should be kept together?", "a": "At least five or six, preferably ten or more. Pairs and trios often end with one fish bullying the others.[2]"},
+    {"q": "How big do zebra loaches get?", "a": "About 7.8–9 cm (3–3.5 in) standard length. FishBase gives 7.8 cm and Seriously Fish 9 cm.[1][2]"},
+    {"q": "Will zebra loaches eat my plants or shrimp?", "a": "They may nibble soft-leaved plants.[2] Small shrimp and shrimplets are likely to be eaten, so keep shrimp colonies in a separate tank."}
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {"href": "/species/yoyo-loach", "label": "🐟 Yoyo Loach"},
+    {"href": "/species/clown-loach", "label": "🐟 Clown Loach"},
+    {"href": "/species/dwarf-chain-loach", "label": "🐟 Dwarf Chain Loach"},
+    {"href": "/species/skunk-loach", "label": "🐟 Skunk Loach"},
+    {"href": "/species/pakistani-loach", "label": "🐟 Pakistani Loach"},
+    {"href": "/species/zebra-danio", "label": "🐟 Zebra Danio"}
+  ],
+  "editorial_note": "Husbandry, group size and the tank-mate list follow Seriously Fish, the source with the most detail on <em>B. striata</em>.[2] Size, IUCN status and the FishBase water ranges are given alongside, and the habitat note cites the original Bhadra River survey.[1][3]",
+  "references": [
+    {"authors": "Froese, R. & Pauly, D. (eds.).", "title": "Botia striata Narayan Rao, 1920.", "source": "FishBase, version 2025.", "url": "https://www.fishbase.se/summary/Botia-striata.html", "label": "fishbase.se"},
+    {"authors": "Seriously Fish.", "title": "Botia striata (Zebra Loach).", "source": "Species profile.", "url": "https://www.seriouslyfish.com/species/botia-striata/", "label": "seriouslyfish.com"},
+    {"authors": "Shahnawaz, A., Venkateshwarlu, M., Somashekar, D. S. & Santosh, K. (2010).", "title": "Fish diversity with relation to water quality of Bhadra River of Western Ghats (India).", "source": "Environmental Monitoring and Assessment 161: 83–91.", "url": "https://doi.org/10.1007/s10661-008-0729-0", "label": "doi.org/10.1007/s10661-008-0729-0"},
+    {"authors": "Francis-Floyd, R.", "title": "Stress — Its Role in Fish Disease (Circular 919).", "source": "University of Florida IFAS Extension.", "url": "https://edis.ifas.ufl.edu/publication/FA005", "label": "edis.ifas.ufl.edu"}
+  ]
+}

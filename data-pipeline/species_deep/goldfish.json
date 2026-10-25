@@ -1,0 +1,139 @@
+{
+  "slug": "goldfish",
+  "keyword": "goldfish",
+  "common_name": "Goldfish",
+  "scientific": "Carassius auratus",
+  "date_published": "2026-08-05T14:07:27.442Z",
+  "date_modified": "2026-10-24",
+  "date_modified_human": "October 24, 2026",
+  "title": "Goldfish Species Profile, Types and Lionhead Goldfish",
+  "description": "Goldfish species profile: 1,000 years of breeding, single-tail vs fancy types, the lionhead goldfish, tank size (75 L + 40 L each), water and lifespan.",
+  "h1": "Goldfish Species Profile, Fancy Types and the Lionhead Goldfish",
+  "tag": "🐟 Coldwater · Domesticated East Asian carp",
+  "photo": {
+    "src": "/assets/encyclopedia/real/goldfish-wikimedia-real.jpg",
+    "width": 250,
+    "height": 163,
+    "alt": "Goldfish (Carassius auratus) with orange body and flowing fins",
+    "caption": "A goldfish. Every variety sold today, from common goldfish to lionheads, is one species, shaped by centuries of selective breeding."
+  },
+  "chart": {
+    "tank_gal": 20,
+    "temp_f": [68, 75],
+    "ph": [6.5, 7.5],
+    "size_in": 6.0,
+    "group": "2 or more; add ~10 gal (40 L) per extra fancy",
+    "care": "Easy — but needs strong filtration",
+    "alt": "Goldfish care chart: 20-gallon (75 L) tank for one fancy goldfish, 68–75 °F, pH 6.5–7.5, fancy adults about 6 inches",
+    "caption": "Fancy goldfish care at a glance. Single-tail goldfish need far more space: SPCA advice is a pond for fish that reach about 30 cm."
+  },
+  "facts": [
+    ["Scientific name", "<em>Carassius auratus</em>"],
+    ["Family", "Cyprinidae"],
+    ["Origin", "East Asia (China, Japan); domesticated in China"],
+    ["Common length", "10 cm (4 in); single-tails to ~30 cm"],
+    ["Maximum recorded", "48 cm TL; 41 years"],
+    ["Tank, fancy", "75 L (≈20 gal) + 40 L (≈10 gal) per extra fish"],
+    ["Temperature", "20–24 °C (68–75 °F) ideal"],
+    ["pH", "6.5–7.5"],
+    ["Lifespan", "10–15 years typical"],
+    ["Diet", "Omnivore; prone to overfeeding"],
+    ["IUCN status", "Least Concern (2010)"]
+  ],
+  "short_answer": "The goldfish (<em>Carassius auratus</em>) is a domesticated carp that has been selectively bred in China for more than a thousand years.[3] Fancy types such as the lionhead need about <strong>75 L (20 gal) for the first fish and 40 L (10 gal) for each additional one</strong>, strong but gentle filtration, and water at <strong>20–24 °C (68–75 °F)</strong>.[5][6] Single-tail goldfish can grow to about 30 cm and belong in ponds, not tanks.[5]",
+  "intro": [
+    "The goldfish is the domesticated form of an East Asian carp, <em>Carassius auratus</em>, and the most widely kept ornamental fish in the world.",
+    "Wild fish are native to East Asia, including China and Japan, and the species has been introduced to many other countries. FishBase lists the species as a potential pest outside its native range.[1] Chinese texts from the Song dynasty already describe goldfish being bred for ornamental purposes, so the practice is more than a thousand years old.[3] Over that time, breeders have produced dozens of body shapes, fin types and head growths from one species.",
+    "This profile covers the biology behind those varieties, with particular attention to the lionhead goldfish, and the practical housing, water, feeding and lifespan figures welfare organisations recommend. For a step-by-step setup checklist, see our <a href=\"/guides/goldfish-care-guide/\">goldfish care guide</a>."
+  ],
+  "sections": [
+    {
+      "id": "types",
+      "toc": "Goldfish types",
+      "h2": "Single-Tail and Fancy Goldfish Types",
+      "blocks": [
+        {"p": "The varieties fall into two broad groups, and the split matters for housing."},
+        {"table": {"head": ["Group", "Examples", "Adult size", "Best kept in"], "rows": [
+          ["Single-tail", "Common, comet, shubunkin", "Up to ~30 cm (12 in)", "Ponds[5]"],
+          ["Fancy, dorsal fin present", "Fantail, oranda, ryukin, telescope", "Varies by variety", "Large aquaria"],
+          ["Fancy, no dorsal fin", "Lionhead, ranchu, bubble eye, celestial", "Varies by variety", "Aquaria with gentle flow[6]"]
+        ]}},
+        {"p": "Most fancy varieties have a doubled tail fin. In 2014, Abe and colleagues traced the twin tail to a mutation in one of the goldfish's two copies of the <em>chordin</em> gene, which alters early embryonic patterning so that the tail skeleton splits into two halves.[4] Inherited changes like this one, selected over centuries, are why the species is now studied as a model in evolutionary developmental biology.[3]"},
+        {"p": "Welfare groups advise caution with the most extreme varieties. SPCA New Zealand recommends against buying fish bred for traits such as bubble eyes, and RSPCA Australia notes that some fancy types swim poorly or have impaired vision.[5][6]"}
+      ]
+    },
+    {
+      "id": "lionhead",
+      "toc": "Lionhead goldfish",
+      "h2": "The Lionhead Goldfish",
+      "blocks": [
+        {"p": "The lionhead is an egg-shaped, twin-tailed fancy goldfish with no dorsal fin and a raspberry-like growth called a hood or wen on the head, cheeks and gill covers. It is often confused with the Japanese ranchu, a similar dorsal-less, hooded variety. Breeders tell them apart mainly by the curve of the back and the angle of the tail."},
+        {"ul": [
+          "<strong>Swimming:</strong> without a dorsal fin and with a short, round body, lionheads are slow, wobbly swimmers. Keep the current gentle and adjustable.[6]",
+          "<strong>The wen:</strong> in heavily hooded fish it can grow over the eyes and restrict vision. RSPCA Australia notes that fancy goldfish may have impaired vision and need décor without sharp edges.[6]",
+          "<strong>Feeding:</strong> slow fish lose out to faster goldfish at mealtimes. House lionheads with other slow fancies, such as ranchu, orandas and telescopes, rather than with comets or fantails.",
+          "<strong>Space:</strong> plan on the fancy-type figure of 75 L for the first fish and 40 L for each extra, and favour a long tank over a tall one.[5]"
+        ]},
+        {"chart": true}
+      ]
+    },
+    {
+      "id": "tank",
+      "toc": "Tank size",
+      "h2": "Goldfish Tank Size and Filtration",
+      "blocks": [
+        {"p": "These fish eat heavily and produce a lot of waste, which is why every welfare guide starts with volume and filtration. SPCA New Zealand's rule of thumb is 75 L (about 20 US gallons) for one fancy plus 40 L (about 10 gallons) for each additional fish. The tank should be at least four times the adult fish's length long and three times its length tall.[5] RSPCA Australia gives the same proportions, a 50 L absolute minimum, and calls bowls too small.[6]"},
+        {"p": "Run a filter rated well above the tank volume, with an adjustable outlet so fancy types are not pushed around, and add an air stone if the surface is still.[6] When setting up a new tank, test ammonia and nitrite every two or three days for the first six weeks, until the nitrogen cycle has established.[6][2]"}
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water",
+      "h2": "Goldfish Water Temperature and Parameters",
+      "blocks": [
+        {"p": "This is a temperate species. FishBase records a survival range of 0–41 °C for the species, but that is a tolerance range, not a comfort zone.[1] RSPCA Australia and SPCA New Zealand both give 20–24 °C (68–75 °F) as ideal, with pH 6.5–7.5. SPCA puts the tolerance range at 8–30 °C and pH 5.0–9.0.[5][6] What harms them most is sudden change, so keep the tank away from direct sun and heaters.[5] Below 8 °C their metabolism slows enough that RSPCA Australia advises limiting food.[6]"}
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Diet",
+      "h2": "Feeding Goldfish",
+      "blocks": [
+        {"p": "They are omnivores. A quality sinking goldfish pellet as the staple, with blanched peas, leafy greens and occasional frozen foods, covers their needs.[5] RSPCA Australia names overfeeding as the most common problem: it leads to obesity, and uneaten food breaks down and fouls the water.[6] Fancy, round-bodied types are particularly prone to buoyancy trouble. Feed small amounts that are finished within a couple of minutes, and soak dry food before feeding it.[6] Never feed mammalian fats such as beef heart, which fish digest poorly.[6]"}
+      ]
+    },
+    {
+      "id": "lifespan",
+      "toc": "Lifespan",
+      "h2": "Goldfish Lifespan and Size",
+      "blocks": [
+        {"p": "With good care a goldfish typically lives 10–15 years, and some reach 30.[5][6] FishBase records a maximum reported age of 41 years and a maximum size of 48 cm for the species, although its common length is about 10 cm.[1] Most die young because of small tanks, weak filtration and overfeeding, not because of their genetics.[6]"}
+      ]
+    }
+  ],
+  "faq_h2": "Goldfish FAQ",
+  "faq": [
+    {"q": "What tank size does a lionhead goldfish need?", "a": "Use the fancy-type rule: about 75 L (20 gallons) for the first fish and 40 L (10 gallons) for each additional fish, in a tank longer than it is tall.[5]"},
+    {"q": "How long do goldfish live?", "a": "Usually 10–15 years with good care, sometimes 30. The oldest recorded goldfish reached 41.[1][5]"},
+    {"q": "Can lionheads live with comet goldfish?", "a": "It is not ideal. Comets are much faster and grow larger, so they outcompete lionheads for food. Keep lionheads with other slow fancy varieties."},
+    {"q": "Do goldfish need a heater?", "a": "Not usually. They do best at 20–24 °C (68–75 °F), so a heater is only needed if the room regularly falls well below that.[5][6]"}
+  ],
+  "related_h2": "Related Pages",
+  "related": [
+    {"href": "/guides/goldfish-care-guide/", "label": "📘 Goldfish Care Guide"},
+    {"href": "/guides/telescope-goldfish-care/", "label": "📘 Telescope Goldfish Care"},
+    {"href": "/species/koi", "label": "🐟 Koi"},
+    {"href": "/species/white-cloud-mountain-minnow", "label": "🐟 White Cloud Mountain Minnow"},
+    {"href": "/compatibility/goldfish/", "label": "🐠 Goldfish Compatibility"},
+    {"href": "/tools/aquarium-size-calculator/", "label": "🧮 Aquarium Size Calculator"}
+  ],
+  "editorial_note": "Housing, temperature and feeding figures follow published welfare guidance from SPCA New Zealand and RSPCA Australia, and species data follow FishBase.[1][5][6] The history and genetics of the fancy varieties are cited to peer-reviewed work by Ota, Abe and colleagues.[3][4]",
+  "references": [
+    {"authors": "Froese, R. & Pauly, D. (eds.).", "title": "Carassius auratus (Linnaeus, 1758).", "source": "FishBase, version 2025.", "url": "https://www.fishbase.se/summary/Carassius-auratus.html", "label": "fishbase.se"},
+    {"authors": "Francis-Floyd, R., Watson, C., Petty, D. & Pouder, D. B.", "title": "Ammonia in Aquatic Systems (FA16).", "source": "University of Florida IFAS Extension.", "url": "https://edis.ifas.ufl.edu/publication/FA031", "label": "edis.ifas.ufl.edu"},
+    {"authors": "Ota, K. G. & Abe, G. (2016).", "title": "Goldfish morphology as a model for evolutionary developmental biology.", "source": "WIREs Developmental Biology 5: 272–295.", "url": "https://doi.org/10.1002/wdev.224", "label": "doi.org/10.1002/wdev.224"},
+    {"authors": "Abe, G., Lee, S.-H., Chang, M., Liu, S.-C., Tsai, H.-Y. & Ota, K. G. (2014).", "title": "The origin of the bifurcated axial skeletal system in the twin-tail goldfish.", "source": "Nature Communications 5: 3360.", "url": "https://doi.org/10.1038/ncomms4360", "label": "doi.org/10.1038/ncomms4360"},
+    {"authors": "SPCA New Zealand.", "title": "Caring for goldfish.", "source": "Advice and welfare.", "url": "https://spca.nz/advice-and-welfare/article/caring-for-goldfish", "label": "spca.nz"},
+    {"authors": "RSPCA Australia.", "title": "How should I keep and care for my goldfish?", "source": "RSPCA Knowledgebase, updated May 2024.", "url": "https://kb.rspca.org.au/knowledge-base/how-should-i-keep-and-care-for-my-goldfish/", "label": "kb.rspca.org.au"}
+  ]
+}

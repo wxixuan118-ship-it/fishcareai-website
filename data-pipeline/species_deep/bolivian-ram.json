@@ -1,0 +1,379 @@
+{
+  "slug": "bolivian-ram",
+  "keyword": "bolivian ram",
+  "common_name": "Bolivian Ram",
+  "scientific": "Mikrogeophagus altispinosus",
+  "date_published": "2026-08-06T01:33:26.336Z",
+  "date_modified": "2026-10-24",
+  "date_modified_human": "October 24, 2026",
+  "title": "Bolivian Ram Care Sheet, Tank Size and Tank Mates",
+  "description": "Bolivian ram care sheet: a 36-inch tank, 75–82 °F soft water, sand to sift, peaceful tank mates and how pairs breed. Sourced from FishBase and Seriously Fish.",
+  "h1": "Bolivian Ram Care Sheet, Tank Size, Water and Breeding",
+  "tag": "🐟 Freshwater · South American dwarf cichlid",
+  "photo": {
+    "src": "/assets/encyclopedia/real/bolivian-ram-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 981,
+    "alt": "Bolivian ram (Mikrogeophagus altispinosus) showing its yellow face and red-edged fins",
+    "caption": "An adult Bolivian ram. The dark midbody blotch and red-edged dorsal and tail fins separate it from the smaller, bluer German blue ram."
+  },
+  "chart": {
+    "tank_gal": 40,
+    "temp_f": [
+      75,
+      82
+    ],
+    "ph": [
+      6.0,
+      7.5
+    ],
+    "size_in": 3.1,
+    "group": "Single fish, a bonded pair, or 6–8 in a 4-ft tank",
+    "care": "Moderate — needs a mature, stable tank",
+    "alt": "Bolivian ram care chart: 40-gallon minimum tank, 75–82 °F, pH 6.0–7.5, adult size about 3 inches",
+    "caption": "Care at a glance, drawn from the figures cited on this page."
+  },
+  "facts": [
+    [
+      "Scientific name",
+      "<em>Mikrogeophagus altispinosus</em>"
+    ],
+    [
+      "Family",
+      "Cichlidae (Geophaginae)"
+    ],
+    [
+      "Origin",
+      "Upper Rio Madeira basin, Bolivia and Brazil"
+    ],
+    [
+      "Adult size",
+      "Up to 8 cm (3.1 in) standard length"
+    ],
+    [
+      "Minimum tank",
+      "36 × 18 in footprint (40-gal breeder)"
+    ],
+    [
+      "Temperature",
+      "24–28 °C (75–82 °F)"
+    ],
+    [
+      "pH",
+      "6.0–7.5"
+    ],
+    [
+      "Hardness",
+      "1–10 dGH"
+    ],
+    [
+      "Diet",
+      "Omnivore; sifts sand for food"
+    ],
+    [
+      "Temperament",
+      "Peaceful, a poor competitor"
+    ],
+    [
+      "Care level",
+      "Moderate"
+    ]
+  ],
+  "short_answer": "The Bolivian ram is a peaceful dwarf cichlid that grows to about 3 inches. Give one fish or a pair a tank with at least a <strong>36 × 18 in footprint</strong>, soft sand to dig in, <strong>75–82 °F</strong> water at <strong>pH 6.0–7.5</strong>, and calm schooling fish as company.[1][2] It needs a fully cycled, stable tank more than it needs any special equipment.",
+  "intro": [
+    "The Bolivian ram (<em>Mikrogeophagus altispinosus</em>) is a peaceful dwarf cichlid from Bolivia and western Brazil, growing to about 3 inches.",
+    "In the wild it lives in the upper Rio Madeira basin and has been recorded in the Mamoré and Guaporé (Iténez) drainages.[2] Shops also sell it as the hi-fin ram, Bolivian butterfly or ruby crown cichlid. It is a little larger and less vivid than its cousin the German blue ram but copes better with ordinary aquarium life, so it is often the easier of the two for a first dwarf cichlid.[2]",
+    "This care sheet covers the points that decide whether a Bolivian ram does well: the floor space it needs, the water it prefers, how it feeds, which fish it can live with, and how pairs raise their young. The figures come from FishBase and Seriously Fish, and the water-quality advice from University of Florida extension publications. The sources are listed at the end of the page."
+  ],
+  "sections": [
+    {
+      "id": "tank-size",
+      "toc": "Tank size & setup",
+      "h2": "Bolivian Ram Tank Size and Setup",
+      "blocks": [
+        {
+          "p": "Floor area matters more than height. Seriously Fish recommends a base of at least 90 × 45 cm (36 × 18 in) for a single fish in a community, or for one pair.[2] That is the footprint of a standard 40-gallon breeder tank. A group of six to eight works only in a tank about 120 cm (4 ft) long or more. In less space, males defend their patches more fiercely and the weaker fish get pushed into corners.[2]"
+        },
+        {
+          "p": "Fine sand is the one essential piece of décor. These cichlids feed by taking mouthfuls of substrate, sifting out food, and pushing the sand back out through the gills. Gravel and small pebbles get in the way of that habit, can scratch the gill filaments, and may be swallowed.[2] Add driftwood and branches to create shade and caves, and include one or two flat stones where a pair can lay eggs."
+        },
+        {
+          "ul": [
+            "<strong>Substrate:</strong> soft, fine sand at least 2–3 cm deep over the feeding area.",
+            "<strong>Cover:</strong> roots, branches and shaded caves. Epiphytes such as Java fern, Anubias or Java moss can be tied to the wood.[2]",
+            "<strong>Flow:</strong> gentle. Strong currents from oversized filters stress fish that come from slow marginal waters.[2]",
+            "<strong>Lid:</strong> recommended. Rams rarely jump, but a lid also keeps the temperature steady."
+          ]
+        },
+        {
+          "chart": true
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water parameters",
+      "h2": "Bolivian Ram Water Parameters",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "Parameter",
+              "Target range",
+              "Notes"
+            ],
+            "rows": [
+              [
+                "Temperature",
+                "24–28 °C (75–82 °F)",
+                "FishBase gives a slightly cooler 22–26 °C range for wild habitat[1][2]"
+              ],
+              [
+                "pH",
+                "6.0–7.5",
+                "Stability matters more than an exact number[2]"
+              ],
+              [
+                "Hardness",
+                "1–10 dGH",
+                "Soft to moderately hard[2]"
+              ],
+              [
+                "Ammonia / nitrite",
+                "0 ppm",
+                "Any reading means the filter cannot keep up[3]"
+              ],
+              [
+                "Water changes",
+                "10–15% regularly",
+                "Small, frequent changes beat rare large ones[2]"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "Keep the water stable rather than chasing a perfect number. Seriously Fish warns against adding this species to a new or otherwise immature tank, and against very large water changes, because sudden swings in water chemistry are what usually set off its problems.[2] Wait until the tank has finished cycling and has tested at zero ammonia and zero nitrite for several weeks. Even low levels of un-ionised ammonia damage gill tissue, and the toxic share rises as pH and temperature rise.[3]"
+        }
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Diet & feeding",
+      "h2": "What Bolivian Rams Eat",
+      "blocks": [
+        {
+          "p": "In the wild, <em>Mikrogeophagus</em> species feed mainly on the bottom, sifting sand for small invertebrates, but they also pick at hard surfaces and snatch food drifting past.[2] In a tank, base the diet on small sinking pellets or granules and add frozen or live foods several times a week: bloodworm, brine shrimp (<em>Artemia</em>), <em>Daphnia</em> and grindal worms.[2] Wild-caught fish sometimes refuse dry food at first but usually learn to take it."
+        },
+        {
+          "p": "Feed small portions once or twice a day, and make sure some food reaches the sand, because fast midwater fish such as tetras will otherwise take most of it. University of Florida extension guidance points out that most fish need vitamin C in their diet, and that wild-collected live food can bring disease into a tank. Frozen foods or home-cultured worms are the safer way to add variety.[4]"
+        }
+      ]
+    },
+    {
+      "id": "tank-mates",
+      "toc": "Tank mates",
+      "h2": "Bolivian Ram Tank Mates",
+      "blocks": [
+        {
+          "p": "These rams are sold as community fish, but Seriously Fish is more cautious. The species needs clean water and loses out to pushy feeders, so it is best in a calm, carefully chosen community rather than a general one.[2] Shoals of peaceful midwater fish help it most: when small schooling fish move about openly, the ram seems to read that as a sign that no predator is near, and it shows itself more."
+        },
+        {
+          "ul": [
+            "<strong>Good choices:</strong> peaceful tetras and other small characins, such as <a href=\"/species/rummy-nose-tetra\">rummy-nose tetras</a> or <a href=\"/species/cardinal-tetra\">cardinal tetras</a>. On the bottom, <a href=\"/species/panda-cory\">Corydoras catfish</a> and small plecos.[2]",
+            "<strong>Avoid:</strong> most other cichlids, any territorial or nippy species, and fish that need hard, alkaline water.[2]",
+            "<strong>Same species:</strong> one fish, one pair, or six to eight in a 4-ft tank. In between, the dominant male tends to target a single rival."
+          ]
+        },
+        {
+          "p": "Before you buy, check a planned mix in the <a href=\"/tools/fish-compatibility-checker/\">compatibility checker</a>. Look at water hardness as well as temperament, because hardness is where many apparently peaceful pairings fail."
+        }
+      ]
+    },
+    {
+      "id": "male-female",
+      "toc": "Male vs female",
+      "h2": "Male vs Female Bolivian Rams",
+      "blocks": [
+        {
+          "p": "Adult males grow larger than females, have slightly longer extensions on the dorsal and tail fins, and are more intensely coloured.[2] The differences are small in juveniles. Most keepers buy a group of five or six young fish and let a pair form on its own rather than trying to sex shop-sized fish."
+        }
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Breeding",
+      "h2": "Breeding Bolivian Rams",
+      "blocks": [
+        {
+          "p": "Both parents guard the eggs and fry, and the eggs are laid on a solid surface. No particular trigger is needed beyond good food and steady maintenance.[2] The female lays rows of eggs on a flat stone, a piece of wood, a broad leaf or the glass, and the male follows to fertilise them, over and over until the clutch is complete. Male and female share brood care equally.[2]"
+        },
+        {
+          "ol": [
+            "Eggs hatch after about two to three days.[2]",
+            "The parents move the wrigglers between shallow pits they dig in the sand, often several times a day.",
+            "The fry live on their yolk sacs for another five to eight days and need no food in that time.[2]",
+            "Once they swim freely, feed newly hatched brine shrimp or microworms several times a day.[2]"
+          ]
+        },
+        {
+          "p": "First-time pairs often eat a clutch or two before they get it right. In a busy community tank, move either the other fish or the eggs if you want to raise good numbers of young.[2]"
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "toc": "Health",
+      "h2": "Bolivian Ram Health Problems",
+      "blocks": [
+        {
+          "p": "The problem most often linked to this species looks like head and lateral line erosion (HLLE, or \"hole in the head\"). It starts as small pits in the skin around the head and along the sensory pores, and Seriously Fish ties it to falling water quality.[2] Prevent it with a mature filter, regular small water changes and a varied diet. Medication is no substitute for those."
+        },
+        {
+          "p": "Watch for stress signs as well: dull colour, clamped fins, hiding, and lying still in a corner. Chronic stress from poor water, overcrowding or bullying tank mates suppresses the immune system and makes outbreaks of parasites and bacterial infections more likely.[5] When a Bolivian ram starts to look washed out, test ammonia, nitrite and nitrate before treating anything. The <a href=\"/fish-health/\">fish health hub</a> covers specific symptoms."
+        }
+      ]
+    },
+    {
+      "id": "vs-german-blue",
+      "toc": "vs German blue ram",
+      "h2": "Bolivian Ram vs German Blue Ram",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "",
+              "Bolivian ram",
+              "German blue ram"
+            ],
+            "rows": [
+              [
+                "Scientific name",
+                "<em>M. altispinosus</em>",
+                "<em>M. ramirezi</em>"
+              ],
+              [
+                "Native range",
+                "Bolivia and western Brazil",
+                "Venezuela and Colombia[2]"
+              ],
+              [
+                "Size",
+                "Up to ~8 cm (3.1 in)",
+                "Smaller"
+              ],
+              [
+                "Colour",
+                "Yellow-gold with red fin edges; no blue iridescence",
+                "Electric blue spangling"
+              ],
+              [
+                "Temperature",
+                "75–82 °F",
+                "Warmer; often kept in the 80s °F"
+              ],
+              [
+                "Best for",
+                "A first dwarf cichlid",
+                "Keepers with a mature soft-water tank"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "The two species are geographically separated and differ in more than colour. A third <em>Mikrogeophagus</em> species was described in 2022 from the upper Guaporé drainage in Brazil.[2] The genus name itself was disputed for decades until Kullander's 2011 review in <em>Zootaxa</em> confirmed <em>Mikrogeophagus</em> as the valid name.[6] Older books may list the ram as <em>Apistogramma</em>, <em>Microgeophagus</em> or <em>Papiliochromis</em>. If you want a ram but cannot keep the water warm, soft and stable, the Bolivian ram is usually the better choice. Our <a href=\"/species/german-blue-ram\">German blue ram profile</a> covers its cousin in detail."
+        }
+      ]
+    }
+  ],
+  "faq_h2": "Bolivian Ram FAQ",
+  "faq": [
+    {
+      "q": "How big do Bolivian rams get?",
+      "a": "Seriously Fish lists a maximum of about 8 cm (3.1 in) standard length, which excludes the tail.[2] FishBase gives 5.6 cm SL for a measured male, so most aquarium fish fall somewhere between those figures.[1]"
+    },
+    {
+      "q": "Can a Bolivian ram live in a 20-gallon tank?",
+      "a": "A 20-gallon long can hold a single fish for a while, but it falls short of the 36 × 18 in footprint recommended for one fish or a pair.[2] A 40-gallon breeder is a more realistic minimum, and it also leaves room for dither fish."
+    },
+    {
+      "q": "Should Bolivian rams be kept in pairs or groups?",
+      "a": "Keep one fish, a bonded pair, or a group of six to eight in a tank around 4 ft long. Three or four in a small tank usually ends with one fish being chased constantly.[2]"
+    },
+    {
+      "q": "Are Bolivian rams good for beginners?",
+      "a": "They are one of the easier dwarf cichlids, and generally hardier than German blue rams. They still need a fully cycled tank and stable water, so they suit a keeper who already has a few months of experience.[2]"
+    }
+  ],
+  "related_h2": "Species Related to the Bolivian Ram",
+  "related": [
+    {
+      "href": "/species/german-blue-ram",
+      "label": "🐟 German Blue Ram"
+    },
+    {
+      "href": "/species/keyhole-cichlid",
+      "label": "🐟 Keyhole Cichlid"
+    },
+    {
+      "href": "/species/panda-cory",
+      "label": "🐟 Panda Cory"
+    },
+    {
+      "href": "/species/rummy-nose-tetra",
+      "label": "🐟 Rummy-Nose Tetra"
+    },
+    {
+      "href": "/species/cardinal-tetra",
+      "label": "🐟 Cardinal Tetra"
+    },
+    {
+      "href": "/tools/aquarium-size-calculator/",
+      "label": "🧮 Aquarium Size Calculator"
+    }
+  ],
+  "editorial_note": "Size, range and water figures were checked against the FishBase species summary and the Seriously Fish profile for <em>M. altispinosus</em>. The two differ slightly on temperature, and both ranges are shown above.[1][2] The ammonia and stress guidance follows University of Florida IFAS extension publications.[3][5]",
+  "references": [
+    {
+      "authors": "Froese, R. & Pauly, D. (eds.).",
+      "title": "Mikrogeophagus altispinosus (Haseman, 1911).",
+      "source": "FishBase, version 2025.",
+      "url": "https://www.fishbase.se/summary/Mikrogeophagus-altispinosus.html",
+      "label": "fishbase.se"
+    },
+    {
+      "authors": "Seriously Fish.",
+      "title": "Mikrogeophagus altispinosus (Bolivian Ram).",
+      "source": "Species profile.",
+      "url": "https://www.seriouslyfish.com/species/mikrogeophagus-altispinosus/",
+      "label": "seriouslyfish.com"
+    },
+    {
+      "authors": "Francis-Floyd, R., Watson, C., Petty, D. & Pouder, D. B.",
+      "title": "Ammonia in Aquatic Systems (FA16).",
+      "source": "University of Florida IFAS Extension.",
+      "url": "https://edis.ifas.ufl.edu/publication/FA031",
+      "label": "edis.ifas.ufl.edu"
+    },
+    {
+      "authors": "Francis-Floyd, R.",
+      "title": "Fish Nutrition (VM114).",
+      "source": "University of Florida IFAS Extension.",
+      "url": "https://edis.ifas.ufl.edu/publication/FA096",
+      "label": "edis.ifas.ufl.edu"
+    },
+    {
+      "authors": "Francis-Floyd, R.",
+      "title": "Stress — Its Role in Fish Disease (Circular 919).",
+      "source": "University of Florida IFAS Extension.",
+      "url": "https://edis.ifas.ufl.edu/publication/FA005",
+      "label": "edis.ifas.ufl.edu"
+    },
+    {
+      "authors": "Kullander, S. O. (2011).",
+      "title": "Nomenclatural availability of putative scientific generic names applied to the South American cichlid fish Apistogramma ramirezi Myers & Harry, 1948.",
+      "source": "Zootaxa 3131: 35–51.",
+      "url": "https://mapress.com/zt/article/view/zootaxa.3131.1.2",
+      "label": "mapress.com"
+    }
+  ]
+}
