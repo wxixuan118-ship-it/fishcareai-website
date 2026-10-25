@@ -1,0 +1,274 @@
+{
+  "slug": "orange-chromide",
+  "keyword": "orange chromide",
+  "common_name": "Orange Chromide",
+  "scientific": "Pseudetroplus maculatus",
+  "date_published": "2026-10-25T00:00:00.000Z",
+  "date_modified": "2026-10-25",
+  "date_modified_human": "October 25, 2026",
+  "title": "Orange Chromide Care, Brackish Water and Breeding",
+  "description": "Orange chromides are 8–9.5 cm cichlids for hard fresh or brackish tanks, kept in groups of 8+. Water, diet, tank mates, breeding and the green chromide.",
+  "h1": "Orange Chromide Care in Hard or Brackish Water",
+  "tag": "🐟 Fresh or brackish · Indian lagoon cichlid",
+  "photo": {
+    "src": "/assets/encyclopedia/real/orange-chromide-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 1200,
+    "alt": "Orange chromide (Pseudetroplus maculatus) with bright yellow-orange body, rows of small red spots and dark speckles, swimming over green moss",
+    "caption": "An ornamental orange chromide in a public aquarium at Pierrefitte-Nestalas, France. Wild fish are paler, with orange-red scale centres and dark blotches on the flank."
+  },
+  "chart": {
+    "tank_gal": 114,
+    "temp_f": [
+      68,
+      82
+    ],
+    "ph": [
+      7.0,
+      8.5
+    ],
+    "size_in": 3.7,
+    "group": "Group of 8 or more",
+    "care": "Moderate — hard water, nitrate-sensitive",
+    "alt": "Orange chromide care chart: 114-gallon tank for a group, 68–82 °F, pH 7.0–8.5, adult size up to 3.7 inches",
+    "caption": "Orange chromide needs at a glance. The tank figure is the 120 × 60 cm (48 × 24 in), roughly 432-litre footprint Seriously Fish gives for a group of eight or more."
+  },
+  "facts": [
+    [
+      "Scientific name",
+      "<em>Pseudetroplus maculatus</em> (formerly <em>Etroplus maculatus</em>)"
+    ],
+    [
+      "Family",
+      "Cichlidae, subfamily Etroplinae"
+    ],
+    [
+      "Origin",
+      "West coast of peninsular India and western Sri Lanka"
+    ],
+    [
+      "Habitat",
+      "Estuaries, coastal lagoons, lower rivers"
+    ],
+    [
+      "Adult size",
+      "8–9.5 cm (3.1–3.7 in)"
+    ],
+    [
+      "Tank",
+      "120 × 60 cm (48 × 24 in) for a group"
+    ],
+    [
+      "Water type",
+      "Hard freshwater or brackish"
+    ],
+    [
+      "Temperature",
+      "20–28 °C (68–82 °F)"
+    ],
+    [
+      "pH / hardness",
+      "7.0–8.5 / 10–20 dGH"
+    ],
+    [
+      "Group size",
+      "8 or more"
+    ],
+    [
+      "IUCN status",
+      "Least Concern (2019)"
+    ]
+  ],
+  "short_answer": "The orange chromide is a small Indian cichlid, about <strong>8–9.5 cm (3.1–3.7 in)</strong>, that lives in <strong>hard, alkaline freshwater or brackish water</strong> and should be kept in a <strong>group of eight or more</strong>.[1][2][3] Seriously Fish suggests a <strong>120 × 60 cm (48 × 24 in)</strong> tank for a group, <strong>20–28 °C (68–82 °F)</strong> and <strong>pH 7.0–8.5</strong>, with weekly water changes because it is sensitive to nitrate and organic waste.[1][3] Feed plenty of plant matter, avoid soft acidic water, and expect devoted parents if a pair forms.[1]",
+  "intro": [
+    "The orange chromide (<em>Pseudetroplus maculatus</em>) is one of only a handful of Asian cichlids, a peaceful lagoon fish from southern India and Sri Lanka that can be kept in either fresh or brackish water.",
+    "It occurs along the west coast of peninsular India, from Maharashtra through Goa, Karnataka and Kerala to southern Tamil Nadu, and along the west coast of Sri Lanka.[1] It lives in brackish estuaries, coastal lagoons, the lower reaches of rivers and some freshwater lakes, often among marginal roots and weeds.[1][2] Practical Fishkeeping describes it as euryhaline, meaning it tolerates changing salinity.[4]",
+    "In the aquarium trade, the bright yellow-orange ornamental strain is the one usually sold. This profile explains how to choose between a freshwater and a brackish setup, how to keep a group without bullying, and why it is often confused with its much larger relative, the green chromide."
+  ],
+  "sections": [
+    {
+      "id": "tank",
+      "toc": "Tank size",
+      "h2": "Tank Size and Group Size",
+      "blocks": [
+        {
+          "p": "Seriously Fish recommends a footprint of 120 × 60 cm (48 × 24 in), about 432 litres, for a group, and a group of eight or more, because smaller groups lead to bullying or nervous fish.[1] Practical Fishkeeping gives a minimum of 100 × 40 × 30 cm for the species and calls it gregarious and best kept in groups.[4] The difference reflects group size: plan the larger tank if you want a proper group."
+        },
+        {
+          "chart": true
+        },
+        {
+          "p": "Use rocks, driftwood and some caves to give mature fish places to set up the dominance hierarchy they form, and leave open swimming space.[1] Hardy plants that tolerate hard or slightly salty water, such as Java fern and <em>Anubias</em>, work in both setups."
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Fresh or brackish",
+      "h2": "Freshwater or Brackish Water?",
+      "blocks": [
+        {
+          "p": "Both work. Seriously Fish says the species can be kept in fresh or brackish water and gives 20–28 °C, pH 7.0–8.5 and 10–20 dGH, with the main rule being to avoid acidic conditions.[1] Fishkeeper gives pH 7.2–8.5 and up to 25 dH, in either hard alkaline freshwater or brackish water.[3] FishBase lists pH 8.0–9.0 for wild habitats.[2]"
+        },
+        {
+          "ul": [
+            "<strong>Freshwater:</strong> hard, alkaline water suits it. Crushed coral or aragonite in the substrate helps hold the pH up.",
+            "<strong>Brackish:</strong> add marine salt gradually and keep it stable. This setup lets you keep it with salt-tolerant fish such as mollies.[1]",
+            "<strong>Water quality:</strong> it is intolerant of organic pollutants and particularly sensitive to nitrate, so change 25–50% of the water every week.[1][3]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Feeding",
+      "h2": "Feeding Orange Chromides",
+      "blocks": [
+        {
+          "p": "In the wild it grazes aufwuchs and filamentous algae, and FishBase also lists fish fry and zooplankton.[1][2] In the tank, Seriously Fish recommends small live or frozen foods such as bloodworm, <em>Tubifex</em>, <em>Artemia</em> and mosquito larvae, with dried foods that contain a significant share of plant matter such as Spirulina, plus chopped peas as a supplement.[1] Fishkeeper also stresses plenty of vegetable matter.[3]"
+        }
+      ]
+    },
+    {
+      "id": "tank-mates",
+      "toc": "Tank mates",
+      "h2": "Orange Chromide Tank Mates",
+      "blocks": [
+        {
+          "p": "Outside breeding it is relatively peaceful and only preys on the smallest fish.[1][3] Seriously Fish suggests gregarious open-water \"dither\" fish to make the group feel secure: danios, devarios or rasboras in freshwater, or the salt-tolerant <a href=\"/species/molly\">molly</a> in brackish water.[1]"
+        },
+        {
+          "p": "Avoid territorial or aggressive fish, other cichlids unless the tank is very large, and anything that needs soft, acidic water.[1] In a larger brackish system it can share space with other robust brackish species, such as the <a href=\"/species/archer-fish\">archer fish</a>."
+        }
+      ]
+    },
+    {
+      "id": "green-chromide",
+      "toc": "Green chromide",
+      "h2": "Orange Chromide vs Green Chromide",
+      "blocks": [
+        {
+          "p": "The two chromides are related but very different in size. Practical Fishkeeping notes that the orange chromide reaches about 9.5 cm, while the green chromide (<em>Etroplus suratensis</em>) commonly reaches 20–30 cm and needs a tank of at least 180 × 60 × 60 cm.[4] Juvenile green chromides are similar in shape, so check the label, the adult size the seller quotes, and the markings before you buy: wild-type orange chromides carry one to three dark blotches above mid-body.[1]"
+        },
+        {
+          "p": "The two also interact in the wild. In Sri Lanka's Negombo Lagoon, orange chromides were seen picking parasites and debris off green chromides, and groups were also seen eating whole batches of green chromide eggs and fry.[1]"
+        }
+      ]
+    },
+    {
+      "id": "problems",
+      "toc": "Common problems",
+      "h2": "Common Problems and How to Avoid Them",
+      "blocks": [
+        {
+          "p": "Orange chromides are hardy in the right water, and most losses come from the setup."
+        },
+        {
+          "ul": [
+            "<strong>Nitrate and organic waste:</strong> Fishkeeper calls the species particularly sensitive to nitrate build-up, and Seriously Fish says it is intolerant of organic pollutants. Weekly 25–50% water changes are the fix.[1][3]",
+            "<strong>Soft or acidic water:</strong> the one condition Seriously Fish says to avoid. Keep pH above 7 and the water hard.[1]",
+            "<strong>Bullying:</strong> groups smaller than about eight lead to one fish being picked on. Add more chromides rather than fewer.[1]",
+            "<strong>Breeding aggression:</strong> a spawning pair defends its site hard. Give them room, or move the other fish.[1][3]"
+          ]
+        },
+        {
+          "p": "If you switch between freshwater and brackish water, do it over several weeks. The species tolerates changing salinity, but sudden swings stress any fish.[4]"
+        }
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Breeding",
+      "h2": "Breeding and Parental Care",
+      "blocks": [
+        {
+          "p": "The sexes are hard to tell apart, and sources disagree on whether there are reliable colour differences.[1] The easiest route is to buy a group and let a pair form. The pair defends a site such as a flat rock, or even the aquarium glass.[1]"
+        },
+        {
+          "p": "Both parents fan and mouth the eggs. At 27 °C (81 °F) the eggs hatch in about two days, and the fry swim freely two to three days later.[1] The parents dig nursery pits and move the fry between them, and free-swimming fry feed on mucus from the parents' flanks for one to three days, a behaviour Practical Fishkeeping also describes.[1][4] Parental care can last until the young are nearly adult. Fishkeeper notes clutches of up to 200 eggs.[3]"
+        }
+      ]
+    }
+  ],
+  "faq_h2": "Orange Chromide FAQ",
+  "faq": [
+    {
+      "q": "Do orange chromides need brackish water?",
+      "a": "No. They do well in hard, alkaline freshwater or in brackish water; just avoid soft, acidic water.[1][3]"
+    },
+    {
+      "q": "How big do orange chromides get?",
+      "a": "About 8–9.5 cm (3.1–3.7 in).[1][2]"
+    },
+    {
+      "q": "How many orange chromides should be kept together?",
+      "a": "A group of eight or more, since smaller groups lead to bullying.[1]"
+    },
+    {
+      "q": "Are orange chromides aggressive?",
+      "a": "They are relatively peaceful except when breeding.[1][3]"
+    },
+    {
+      "q": "What is the difference between orange and green chromides?",
+      "a": "The green chromide is a different, much larger species that reaches 20–30 cm.[4]"
+    }
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {
+      "href": "/species/archer-fish",
+      "label": "🐟 Archer Fish"
+    },
+    {
+      "href": "/species/mudskipper",
+      "label": "🐟 Mudskipper"
+    },
+    {
+      "href": "/species/four-eyed-fish",
+      "label": "🐟 Four-Eyed Fish"
+    },
+    {
+      "href": "/species/molly",
+      "label": "🐟 Molly"
+    },
+    {
+      "href": "/species/figure-eight-puffer",
+      "label": "🐟 Figure Eight Puffer"
+    },
+    {
+      "href": "/tools/aquarium-size-calculator/",
+      "label": "🧮 Aquarium Size Calculator"
+    }
+  ],
+  "editorial_note": "Housing, water, diet, behaviour and breeding follow Seriously Fish, with size and range checked against FishBase and Fishkeeper.[1][2][3] The green chromide comparison and euryhaline note follow Practical Fishkeeping.[4]",
+  "references": [
+    {
+      "authors": "Seriously Fish.",
+      "title": "Pseudetroplus maculatus (Orange Chromide).",
+      "source": "Species profile.",
+      "url": "https://www.seriouslyfish.com/species/etroplus-maculatus/",
+      "label": "seriouslyfish.com"
+    },
+    {
+      "authors": "Froese, R. & Pauly, D. (eds.).",
+      "title": "Pseudetroplus maculatus (Bloch, 1795).",
+      "source": "FishBase, version 2025.",
+      "url": "https://www.fishbase.se/summary/Pseudetroplus-maculatus.html",
+      "label": "fishbase.se"
+    },
+    {
+      "authors": "Fishkeeper.",
+      "title": "Orange Chromide (Pseudetroplus maculatus).",
+      "source": "Species guide.",
+      "url": "https://www.fishkeeper.co.uk/fish/freshwater/cichlids/orange-chromide",
+      "label": "fishkeeper.co.uk"
+    },
+    {
+      "authors": "Practical Fishkeeping.",
+      "title": "Meet Two of the Hobby's Most Unusual Cichlids.",
+      "source": "Feature article.",
+      "url": "https://www.practicalfishkeeping.co.uk/features/meet-two-of-the-hobbys-most-unusual-cichlids/",
+      "label": "practicalfishkeeping.co.uk"
+    }
+  ]
+}

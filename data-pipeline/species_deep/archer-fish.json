@@ -132,6 +132,7 @@
   ],
   "related_h2": "Related Species",
   "related": [
+    {"href": "/species/orange-chromide", "label": "🐟 Orange Chromide"},
     {"href": "/species/mudskipper", "label": "🐟 Mudskipper"},
     {"href": "/species/four-eyed-fish", "label": "🐟 Four-Eyed Fish"},
     {"href": "/species/figure-eight-puffer", "label": "🐟 Figure Eight Puffer"},

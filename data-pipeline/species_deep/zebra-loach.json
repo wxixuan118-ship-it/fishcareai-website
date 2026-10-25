@@ -123,6 +123,7 @@
   ],
   "related_h2": "Related Species",
   "related": [
+    {"href": "/species/flying-fox", "label": "🐟 Flying Fox"},
     {"href": "/species/yoyo-loach", "label": "🐟 Yoyo Loach"},
     {"href": "/species/clown-loach", "label": "🐟 Clown Loach"},
     {"href": "/species/dwarf-chain-loach", "label": "🐟 Dwarf Chain Loach"},

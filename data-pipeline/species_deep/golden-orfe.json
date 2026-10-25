@@ -1,0 +1,289 @@
+{
+  "slug": "golden-orfe",
+  "keyword": "golden orfe",
+  "common_name": "Golden Orfe",
+  "scientific": "Leuciscus idus",
+  "date_published": "2026-10-25T00:00:00.000Z",
+  "date_modified": "2026-10-25",
+  "date_modified_human": "October 25, 2026",
+  "title": "Golden Orfe Care, Pond Size and Koi Compatibility",
+  "description": "Golden orfe grow past 45 cm, live up to 20 years and need a big, oxygen-rich pond in groups, not a tank. Pond size, feeding, koi and jumping risks.",
+  "h1": "Golden Orfe Care for Garden Ponds",
+  "tag": "🐟 Cold water · Pond shoaling fish",
+  "photo": {
+    "src": "/assets/encyclopedia/real/golden-orfe-wikimedia-real.jpg",
+    "width": 1092,
+    "height": 797,
+    "alt": "Golden orfe (Leuciscus idus) about 45 cm long laid beside a tape measure on grass, showing the pinkish-orange body and red fins",
+    "caption": "A golden orfe measured at roughly 45 cm. The ornamental colour form of the European ide, it grows far beyond aquarium size."
+  },
+  "chart": {
+    "tank_gal": 1000,
+    "temp_f": [
+      50,
+      77
+    ],
+    "ph": [
+      7.0,
+      8.0
+    ],
+    "size_in": 24.0,
+    "group": "Shoal of at least 3; larger groups preferred",
+    "care": "Easy in a big pond — high oxygen essential",
+    "alt": "Golden orfe care chart: pond of at least 1,000 gallons, 50–77 °F, pH 7.0–8.0, adult size up to 24 inches",
+    "caption": "Golden orfe needs at a glance. The volume is the 1,000-gallon minimum pond Pond Informer recommends; the temperature band is the range in which they thrive, though they survive near-freezing winters."
+  },
+  "facts": [
+    [
+      "Scientific name",
+      "<em>Leuciscus idus</em> (golden form of the ide)"
+    ],
+    [
+      "Family",
+      "Leuciscidae"
+    ],
+    [
+      "Origin",
+      "Rivers and lakes of Europe and northern Asia"
+    ],
+    [
+      "Adult size",
+      "Commonly 30–45 cm; 60 cm+ possible"
+    ],
+    [
+      "Lifespan",
+      "Up to 20 years; 29 recorded in the wild"
+    ],
+    [
+      "Housing",
+      "Pond of 1,000+ gal, about 1 m deep"
+    ],
+    [
+      "Temperature",
+      "4–22 °C tolerated; thrives at 13–25 °C"
+    ],
+    [
+      "pH / hardness",
+      "7.0–8.0 / up to 25 dGH"
+    ],
+    [
+      "Diet",
+      "Insects, larvae, pellets; rarely eats plants"
+    ],
+    [
+      "Group size",
+      "At least 3, ideally more"
+    ],
+    [
+      "IUCN status (wild ide)",
+      "Least Concern (2023)"
+    ]
+  ],
+  "short_answer": "The golden orfe is a <strong>pond fish, not an aquarium fish</strong>. It commonly reaches <strong>30–45 cm</strong> and can pass <strong>60 cm (24 in)</strong>, lives up to <strong>20 years</strong>, and needs <strong>very high oxygen levels</strong>.[1][3][4] Keep a shoal of at least three in a large pond, ideally <strong>1,000 gallons or more and about 1 m deep</strong>, with a waterfall or fountain to agitate the surface and netting to stop jumpers.[4][2] It gets on well with koi and goldfish but will eat small fish and fry.[4][3]",
+  "intro": [
+    "The golden orfe is the orange ornamental form of the ide (<em>Leuciscus idus</em>), a fast, surface-feeding shoaling fish bred for garden ponds.",
+    "Wild ide live in rivers and lakes across Europe and northern Asia, from the North Sea and Baltic basins east to the Lena and Aral basins.[1] FishBase records a common length of 30 cm, a maximum of 85 cm SL, a weight of up to 4 kg and an age of 29 years.[1] The species has been taken to several European countries and the United States as an ornamental fish.[1]",
+    "Garden centres sell orfe as small, bright fish, sometimes next to aquarium stock. Unlike goldfish, they are active open-water swimmers that need space, current and oxygen. This profile covers the pond they need, how to feed them, and how to keep them alongside koi."
+  ],
+  "sections": [
+    {
+      "id": "pond",
+      "toc": "Pond size",
+      "h2": "Pond Size and Depth",
+      "blocks": [
+        {
+          "p": "Recommendations vary, but all point to a large pond. That Pet Place suggests at least 500 gallons, deep enough for the fish to survive winter.[2] Pond Informer recommends at least 1,000 gallons and a depth of about a metre.[4] Fishkeeper says orfe suit large, well-filtered ponds and can struggle in small ponds with slow-moving water.[3]"
+        },
+        {
+          "chart": true
+        },
+        {
+          "p": "An aquarium is not an option. FishBase says ide need groups of ten or more and a tank over 200 cm long, and does not recommend them for home aquariums.[1] A young orfe can reach about 30 cm within a year in a good pond.[4]"
+        },
+        {
+          "h3": "Why depth matters"
+        },
+        {
+          "p": "Deep water stays at a steadier temperature. In winter, fish rest near the bottom where the water stays just above freezing. In summer, the deep zone holds cooler, more oxygen-rich water. Shallow ponds swing in temperature quickly, which stresses an active fish like the orfe."
+        }
+      ]
+    },
+    {
+      "id": "oxygen",
+      "toc": "Oxygen and water",
+      "h2": "Oxygen, Temperature and Water Quality",
+      "blocks": [
+        {
+          "p": "Oxygen is the single most important factor. That Pet Place says orfe need lots of oxygen and do best with waterfalls, streams or fountains that break the surface.[2] Pond Informer warns that warm water holds less oxygen, so summer is the riskiest time.[4] Fishkeeper lists high oxygen as a basic requirement.[3]"
+        },
+        {
+          "ul": [
+            "<strong>Temperature:</strong> Fishkeeper gives 4–22 °C.[3] Pond Informer says they thrive at 13–25 °C (50–77 °F) and survive near-freezing water and short spells of heat.[4] That Pet Place warns that high temperatures and stagnant water harm them.[2]",
+            "<strong>pH and hardness:</strong> Fishkeeper gives pH 7.0–8.0 and up to 25 dGH, so neutral to alkaline water suits them.[3]",
+            "<strong>Summer storms:</strong> warm, humid nights before a storm can drop oxygen sharply. Run an air pump or fountain overnight in hot weather."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Feeding",
+      "h2": "Feeding Golden Orfe",
+      "blocks": [
+        {
+          "p": "Orfe are mainly insect eaters. That Pet Place notes they eat insects and larvae, especially mosquitoes, and Pond Informer says their wild diet is mostly protein from insects, snails and worms.[2][4] FishBase adds that large wild ide also eat fish.[1]"
+        },
+        {
+          "p": "In the pond, feed floating pellets, granules and pond sticks, with frozen foods as treats.[3] Pond Informer recommends protein-rich, meat-based pellets.[4] Orfe rarely eat plants, so they suit planted ponds better than koi.[3][4] Feed what they clear in a few minutes and cut back as the water cools in autumn."
+        }
+      ]
+    },
+    {
+      "id": "pond-mates",
+      "toc": "Koi and pond mates",
+      "h2": "Golden Orfe With Koi and Goldfish",
+      "blocks": [
+        {
+          "p": "Orfe are not aggressive and generally get on well with <a href=\"/species/koi\">koi</a> and <a href=\"/species/goldfish\">goldfish</a>.[2][4] Two cautions apply."
+        },
+        {
+          "ol": [
+            "Large orfe will eat small fish and fry, so keep small goldfish and young fish apart until they are bigger.[3][4]",
+            "Fishkeeper notes that the orfe's fast, active swimming can make koi more nervous.[3]"
+          ]
+        },
+        {
+          "p": "Orfe are shoaling fish. That Pet Place and Pond Informer both recommend at least three, and Pond Informer warns that a single orfe kept alone can do badly.[2][4] More is better in a big pond, because the shoal behaviour is the reason most people keep them."
+        }
+      ]
+    },
+    {
+      "id": "jumping",
+      "toc": "Jumping",
+      "h2": "Jumping and Pond Safety",
+      "blocks": [
+        {
+          "p": "Orfe are strong jumpers. Fishkeeper notes they leap after insects in summer and are known to jump out of ponds during summer storms.[3] That Pet Place warns they can be stranded on shallow or bare pond edges.[2]"
+        },
+        {
+          "ul": [
+            "Fit pond netting, especially in summer and before storms.[4]",
+            "Avoid shallow, gently sloping edges where a fish that jumps can land on dry ground.",
+            "Check the pond surroundings after windy or stormy nights."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "winter",
+      "toc": "Winter care",
+      "h2": "Winter and Seasonal Care",
+      "blocks": [
+        {
+          "p": "Orfe are cold-water fish and stay in the pond all year. Fishkeeper gives a range of 4–22 °C, and Pond Informer says they tolerate near-freezing water for a time.[3][4] That Pet Place stresses a pond deep enough for them to survive winter.[2]"
+        },
+        {
+          "ul": [
+            "<strong>Autumn:</strong> cut feeding as the water cools, and stop when the fish lose interest. Clear fallen leaves so they do not rot on the bottom.",
+            "<strong>Winter:</strong> keep a small area of the surface ice-free with a floating pond heater or ice vent so gases can escape. Do not break ice by hitting it, which stresses the fish.",
+            "<strong>Spring:</strong> restart feeding slowly as the water warms, and check filters and pumps before the oxygen demand of summer.",
+            "<strong>Summer:</strong> run the waterfall or an air pump around the clock in hot spells, since warm water holds less oxygen.[4]"
+          ]
+        },
+        {
+          "p": "Buy new orfe in spring or early summer, when the pond is warm enough for them to settle, and float the bag to match temperatures before release."
+        }
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Breeding",
+      "h2": "Breeding and Varieties",
+      "blocks": [
+        {
+          "p": "Wild ide migrate into tributaries to spawn over gravel or plants in moderate current.[1] Fishkeeper says running water seems to be the vital trigger, and that orfe spawn in spring among dense plants in shallow water, laying thousands of sticky eggs.[3] Adults eat fry and other fish eat the eggs, so few young survive in a mixed pond.[3]"
+        },
+        {
+          "p": "Besides the golden form, a less common blue orfe is sold. It needs the same well-oxygenated water.[4] Wild-coloured ide usually grow larger than the ornamental forms.[4]"
+        }
+      ]
+    }
+  ],
+  "faq_h2": "Golden Orfe FAQ",
+  "faq": [
+    {
+      "q": "Can golden orfe live in an aquarium?",
+      "a": "No. FishBase says they need groups of ten or more and a tank over 200 cm, and does not recommend them for home aquariums.[1]"
+    },
+    {
+      "q": "How big do golden orfe get?",
+      "a": "Commonly 30–45 cm, and 60 cm or more in large ponds.[1][3]"
+    },
+    {
+      "q": "How long do golden orfe live?",
+      "a": "Up to about 20 years, with reports approaching 30.[4]"
+    },
+    {
+      "q": "Can golden orfe live with koi?",
+      "a": "Yes, they generally get on with koi and goldfish, but they eat small fish and fry.[3][4]"
+    },
+    {
+      "q": "How many golden orfe should I keep?",
+      "a": "At least three, and more in a large pond, because they are shoaling fish.[2][4]"
+    }
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {
+      "href": "/species/koi",
+      "label": "🐟 Koi"
+    },
+    {
+      "href": "/species/goldfish",
+      "label": "🐟 Goldfish"
+    },
+    {
+      "href": "/species/white-cloud-mountain-minnow",
+      "label": "🐟 White Cloud Mountain Minnow"
+    },
+    {
+      "href": "/species/weather-loach",
+      "label": "🐟 Weather Loach"
+    },
+    {
+      "href": "/tools/aquarium-size-calculator/",
+      "label": "🧮 Aquarium Size Calculator"
+    }
+  ],
+  "editorial_note": "Size, range, age and conservation status follow FishBase; pond, oxygen and feeding guidance follow That Pet Place, Fishkeeper and Pond Informer, which agree on the essentials but differ on minimum pond size.[1][2][3][4]",
+  "references": [
+    {
+      "authors": "Froese, R. & Pauly, D. (eds.).",
+      "title": "Leuciscus idus (Linnaeus, 1758).",
+      "source": "FishBase, version 2025.",
+      "url": "https://www.fishbase.se/summary/Leuciscus-idus.html",
+      "label": "fishbase.se"
+    },
+    {
+      "authors": "That Pet Place.",
+      "title": "Golden Orfe.",
+      "source": "Pond care article.",
+      "url": "https://www.thatpetplace.com/articles/golden-orfe-article",
+      "label": "thatpetplace.com"
+    },
+    {
+      "authors": "Fishkeeper.",
+      "title": "Golden Orfe (Leuciscus idus).",
+      "source": "Species guide.",
+      "url": "https://www.fishkeeper.co.uk/fish/freshwater/pond-fish/golden-orfe-",
+      "label": "fishkeeper.co.uk"
+    },
+    {
+      "authors": "Chris G. (2026).",
+      "title": "Golden Orfe Facts & Care Guide (What Are Orfe?).",
+      "source": "Pond Informer.",
+      "url": "https://pondinformer.com/golden-orfe-pond-guide/",
+      "label": "pondinformer.com"
+    }
+  ]
+}

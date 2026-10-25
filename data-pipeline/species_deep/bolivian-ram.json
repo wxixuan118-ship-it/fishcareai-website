@@ -306,6 +306,7 @@
   ],
   "related_h2": "Species Related to the Bolivian Ram",
   "related": [
+    {"href": "/species/altum-angelfish", "label": "🐟 Altum Angelfish"},
     {
       "href": "/species/german-blue-ram",
       "label": "🐟 German Blue Ram"

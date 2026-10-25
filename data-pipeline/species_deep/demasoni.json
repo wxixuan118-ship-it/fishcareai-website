@@ -1,0 +1,284 @@
+{
+  "slug": "demasoni",
+  "keyword": "demasoni cichlid",
+  "common_name": "Demasoni Cichlid",
+  "scientific": "Chindongo demasoni",
+  "date_published": "2026-10-25T00:00:00.000Z",
+  "date_modified": "2026-10-25",
+  "date_modified_human": "October 25, 2026",
+  "title": "Demasoni Cichlid Care, Stocking and Tank Mates",
+  "description": "The demasoni cichlid is a 7.5 cm but very aggressive mbuna that needs a 48 in tank, hard alkaline water, a plant-rich diet and careful overstocking. Full setup.",
+  "h1": "Demasoni Cichlid Care and Stocking Without Losses",
+  "tag": "🐟 Freshwater · Lake Malawi mbuna",
+  "photo": {
+    "src": "/assets/encyclopedia/real/demasoni-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 1066,
+    "alt": "Demasoni cichlid (Chindongo demasoni) with alternating dark blue and pale blue vertical bars and yellow-tipped dorsal fin, beside a darker second fish",
+    "caption": "Demasoni in a planted tank. Both sexes share the blue-barred pattern, which is why fish with a similar pattern must not be kept with them."
+  },
+  "chart": {
+    "tank_gal": 54,
+    "temp_f": [
+      75,
+      82
+    ],
+    "ph": [
+      7.6,
+      8.8
+    ],
+    "size_in": 3.0,
+    "group": "1 male to several females, crowded",
+    "care": "Moderate to advanced — very aggressive",
+    "alt": "Demasoni cichlid care chart: 54-gallon tank minimum, 75–82 °F, pH 7.6–8.8, adult size up to 3 inches",
+    "caption": "Demasoni needs at a glance. The tank figure is the 120 × 45 × 38 cm (48 × 18 × 15 in), roughly 205-litre absolute minimum Seriously Fish gives because of the species' aggression."
+  },
+  "facts": [
+    [
+      "Scientific name",
+      "<em>Chindongo demasoni</em> (formerly <em>Pseudotropheus demasoni</em>)"
+    ],
+    [
+      "Family",
+      "Cichlidae (Lake Malawi mbuna)"
+    ],
+    [
+      "Origin",
+      "Pombo Rocks, Tanzanian coast of Lake Malawi"
+    ],
+    [
+      "Adult size",
+      "7.5 cm (3 in) SL"
+    ],
+    [
+      "Minimum tank",
+      "120 × 45 × 38 cm (48 × 18 × 15 in), about 54 gal"
+    ],
+    [
+      "Temperature",
+      "24–28 °C (75–82 °F)"
+    ],
+    [
+      "pH / hardness",
+      "7.6–8.8 / 10–25 dGH"
+    ],
+    [
+      "Diet",
+      "Mostly plant-based; no red meat"
+    ],
+    [
+      "Stocking",
+      "One male, several females, crowded tank"
+    ],
+    [
+      "Breeding",
+      "Maternal mouthbrooder, about 3 weeks"
+    ],
+    [
+      "IUCN status",
+      "Vulnerable (2018)"
+    ]
+  ],
+  "short_answer": "The demasoni cichlid is a small Lake Malawi mbuna, about <strong>7.5 cm (3 in)</strong>, and one of the <strong>most aggressive</strong>. It needs at least a <strong>120 × 45 × 38 cm (48 × 18 × 15 in)</strong> tank, about 54 gallons, with rock piles, hard alkaline water at <strong>pH 7.6–8.8</strong> and <strong>24–28 °C (75–82 °F)</strong>.[1] Keep <strong>one male with several females</strong> in a deliberately crowded mbuna tank, feed a mostly plant-based diet, and never mix it with peaceful cichlids or fish that share its blue-barred pattern.[1][3][4]",
+  "intro": [
+    "The demasoni cichlid (<em>Chindongo demasoni</em>) is a dwarf rock-dwelling cichlid from Lake Malawi, popular for its electric blue and black bars and notorious for picking fights far above its size.",
+    "In the wild it is known only from Pombo Rocks, off the Tanzanian coast of Lake Malawi, where it lives on a single rocky area, often in shallow water near the tops of the rocks.[1][3] Ad Konings described it in 1994 and named it after Laif DeMason, a Florida fish importer.[3] Because its range is so small, the IUCN lists it as Vulnerable.[2]",
+    "Many demasonis in home tanks do badly because they are kept the wrong way: in too small a group, with the wrong tank mates, or fed too much protein. This profile covers the stocking method that works, the water and food it needs, and how breeding happens in the tank."
+  ],
+  "sections": [
+    {
+      "id": "tank",
+      "toc": "Tank size",
+      "h2": "Demasoni Tank Size and Rockwork",
+      "blocks": [
+        {
+          "p": "Seriously Fish gives 120 × 45 × 38 cm (48 × 18 × 15 in), about 205 litres or 54 US gallons, as the absolute minimum because of the species' aggression.[1] Practical Fishkeeping and Fishkeeper also call for a tank at least 90–120 cm long, and Practical Fishkeeping suggests a tall, wide tank to increase volume.[3][4]"
+        },
+        {
+          "chart": true
+        },
+        {
+          "p": "Build extensive rock piles with plenty of caves over a sand substrate. Demasonis hug the rock surfaces, and caves give subordinate fish a way to break line of sight.[1] Stack rocks on the tank floor before adding sand, so digging fish cannot undermine them."
+        }
+      ]
+    },
+    {
+      "id": "stocking",
+      "toc": "Stocking method",
+      "h2": "How to Stock Demasoni Without Losses",
+      "blocks": [
+        {
+          "p": "Aggression is the main problem with this species. Seriously Fish calls it one of the most aggressive and territorial mbuna, able to attack fish several times its size.[1] Fishkeeper describes it as extremely belligerent.[4] The usual answer is controlled crowding, which spreads attacks across many fish."
+        },
+        {
+          "ul": [
+            "<strong>Sex ratio:</strong> one male with several females. Unusually for mbuna, females also fight each other, so do not keep a single female with a male.[1][4] Fishkeeper suggests at least five females per male for breeding.[4]",
+            "<strong>Group size:</strong> Practical Fishkeeping suggests about half a dozen demasoni, with females outnumbering males at least two to one, inside a crowded community of around 20 similar-sized mbuna in a 90 cm tank.[3]",
+            "<strong>Add them last:</strong> they are very territorial towards newcomers, so introduce demasoni after the other fish.[4]",
+            "<strong>Expect losses:</strong> subordinate males may still be killed, so watch closely and be ready to rehome extra males.[1]"
+          ]
+        },
+        {
+          "p": "Crowding only works with strong filtration and frequent water changes, because more fish means more waste."
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water",
+      "h2": "Hard, Alkaline Water",
+      "blocks": [
+        {
+          "p": "Seriously Fish gives 24–28 °C (75–82 °F), pH 7.6–8.8 and 10–25 dGH.[1] Fishkeeper gives 24–26 °C, pH 7.5–8.5 and up to 25 dH.[4] Practical Fishkeeping adds that the water should be well oxygenated and low in nitrate, and suggests a buffer or calcareous rock and substrate where tap water is soft.[3]"
+        }
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Feeding",
+      "h2": "Feeding a Demasoni Cichlid",
+      "blocks": [
+        {
+          "p": "Plant matter should make up a large share of the diet: Spirulina flake, blanched spinach and nori, plus some live and frozen foods.[1] Fishkeeper also says the diet should be primarily vegetarian, with Spirulina flake, mbuna granules and the occasional <em>Mysis</em>.[4] Practical Fishkeeping notes that high-Spirulina foods help digestion and colour.[3]"
+        },
+        {
+          "callout": "Never feed beef heart or other red meat. Seriously Fish warns that it disrupts their digestion.[1] Small, frequent feeds of plant-based food suit this grazer better than large protein-heavy meals.",
+          "variant": "warn"
+        }
+      ]
+    },
+    {
+      "id": "tank-mates",
+      "toc": "Tank mates",
+      "h2": "Demasoni Cichlid Tank Mates",
+      "blocks": [
+        {
+          "p": "Keep demasonis only with other robust mbuna. Practical Fishkeeping suggests <em>Labidochromis</em>, <em>Iodotropheus</em> and smaller <em>Pseudotropheus</em>, with <em>Synodontis petricola</em> as a catfish option.[3] On this site, the <a href=\"/species/electric-yellow-cichlid\">electric yellow cichlid</a> is a <em>Labidochromis</em> often used for this."
+        },
+        {
+          "ul": [
+            "<strong>Avoid look-alikes:</strong> fish with a similar blue-barred pattern, such as <em>Pseudotropheus saulosi</em> and most <em>Cynotilapia</em>, must be avoided.[3][4]",
+            "<strong>Avoid peaceful cichlids:</strong> Seriously Fish says demasonis are unsuitable with peacocks or utaka, so do not mix them with <a href=\"/species/peacock-cichlid\">peacock cichlids</a>.[1]",
+            "<strong>Avoid large bullies:</strong> big, aggressive mbuna such as most <em>Melanochromis</em> and <em>Labeotropheus</em> are a poor match.[3]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "problems",
+      "toc": "Common problems",
+      "h2": "Common Problems in Demasoni Tanks",
+      "blocks": [
+        {
+          "p": "Most demasoni problems come back to aggression and diet."
+        },
+        {
+          "ul": [
+            "<strong>One fish hiding or torn fins:</strong> a dominant male is targeting it. Add rockwork, raise the number of fish, or remove the target.[1][4]",
+            "<strong>Fights with look-alikes:</strong> blue-barred fish such as <em>P. saulosi</em> and most <em>Cynotilapia</em> are attacked constantly.[3][4]",
+            "<strong>Digestive problems:</strong> red meat such as beef heart disrupts their digestion, so keep the diet plant-based.[1]",
+            "<strong>Lost broods:</strong> stressed females spit out or swallow their eggs, so keep holding females calm or move them to a quiet tank.[1]",
+            "<strong>Rising nitrate in a crowded tank:</strong> Practical Fishkeeping wants low nitrate and high oxygen, so match crowding with strong filtration and frequent water changes.[3]"
+          ]
+        },
+        {
+          "p": "Rearrange the rockwork when you add new fish. It resets territories and gives newcomers a chance before the residents claim the tank again."
+        }
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Breeding",
+      "h2": "Sexing and Breeding",
+      "blocks": [
+        {
+          "p": "Males and females look alike. Males are slightly larger and more territorial, so behaviour is the easiest guide; venting is possible but best left to experts.[1] Demasonis can breed at under 5 cm.[3]"
+        },
+        {
+          "p": "This is a maternal mouthbrooder. The male defends a flat rock or a pit, the female lays her eggs there and then picks them up in her mouth after the male fertilises them.[1] She carries them for about three weeks without eating, and Fishkeeper says incubation can last up to 25 days.[1][4] Stress can make her spit out or swallow the brood. The fry can eat brine shrimp nauplii from release, and they are aggressive towards each other from an early age, so separate them as they grow.[1]"
+        }
+      ]
+    }
+  ],
+  "faq_h2": "Demasoni Cichlid FAQ",
+  "faq": [
+    {
+      "q": "How big do demasoni cichlids get?",
+      "a": "About 7.5 cm (3 in), and up to 8 cm in some reports.[1][4]"
+    },
+    {
+      "q": "What size tank does a demasoni need?",
+      "a": "At least 120 × 45 × 38 cm (48 × 18 × 15 in), about 54 gallons.[1]"
+    },
+    {
+      "q": "How many demasoni should I keep together?",
+      "a": "One male with several females, in a crowded mbuna tank; about half a dozen is a common start.[1][3]"
+    },
+    {
+      "q": "Can demasoni live with peacock cichlids?",
+      "a": "No. Demasonis are too aggressive for peacocks and other peaceful cichlids.[1]"
+    },
+    {
+      "q": "What do demasoni cichlids eat?",
+      "a": "A mostly plant-based diet such as Spirulina flake and nori, with some frozen food and no red meat.[1][4]"
+    }
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {
+      "href": "/species/electric-yellow-cichlid",
+      "label": "🐟 Electric Yellow Cichlid"
+    },
+    {
+      "href": "/species/peacock-cichlid",
+      "label": "🐟 Peacock Cichlid"
+    },
+    {
+      "href": "/species/frontosa-cichlid",
+      "label": "🐟 Frontosa Cichlid"
+    },
+    {
+      "href": "/species/venustus-cichlid",
+      "label": "🐟 Venustus Cichlid"
+    },
+    {
+      "href": "/species/tropheus-cichlid",
+      "label": "🐟 Tropheus Cichlid"
+    },
+    {
+      "href": "/tools/fish-compatibility-checker/",
+      "label": "🧮 Fish Compatibility Checker"
+    }
+  ],
+  "editorial_note": "Housing, water, diet and breeding follow Seriously Fish; conservation status follows FishBase; stocking and tank-mate advice follows Practical Fishkeeping and Fishkeeper.[1][2][3][4]",
+  "references": [
+    {
+      "authors": "Seriously Fish.",
+      "title": "Chindongo demasoni.",
+      "source": "Species profile.",
+      "url": "https://www.seriouslyfish.com/species/chindongo-demasoni/",
+      "label": "seriouslyfish.com"
+    },
+    {
+      "authors": "Froese, R. & Pauly, D. (eds.).",
+      "title": "Chindongo demasoni (Konings, 1994).",
+      "source": "FishBase, version 2025.",
+      "url": "https://www.fishbase.se/summary/Pseudotropheus-demasoni.html",
+      "label": "fishbase.se"
+    },
+    {
+      "authors": "Gay, J.",
+      "title": "Malawi must-have: Pseudotropheus demasoni.",
+      "source": "Practical Fishkeeping.",
+      "url": "https://www.practicalfishkeeping.co.uk/features/malawi-must-have-pseudotropheus-demasoni",
+      "label": "practicalfishkeeping.co.uk"
+    },
+    {
+      "authors": "Fishkeeper.",
+      "title": "Demasoni.",
+      "source": "Species guide.",
+      "url": "https://www.fishkeeper.co.uk/fish/freshwater/cichlids/demasoni",
+      "label": "fishkeeper.co.uk"
+    }
+  ]
+}

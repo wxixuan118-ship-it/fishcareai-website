@@ -120,6 +120,7 @@
   ],
   "related_h2": "Related Pages",
   "related": [
+    {"href": "/species/golden-orfe", "label": "🐟 Golden Orfe"},
     {"href": "/guides/goldfish-care-guide/", "label": "📘 Goldfish Care Guide"},
     {"href": "/guides/telescope-goldfish-care/", "label": "📘 Telescope Goldfish Care"},
     {"href": "/species/koi", "label": "🐟 Koi"},

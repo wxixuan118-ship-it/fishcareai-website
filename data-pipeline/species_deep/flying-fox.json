@@ -1,0 +1,289 @@
+{
+  "slug": "flying-fox",
+  "keyword": "flying fox fish",
+  "common_name": "Flying Fox",
+  "scientific": "Epalzeorhynchos kalopterum",
+  "date_published": "2026-10-25T00:00:00.000Z",
+  "date_modified": "2026-10-25",
+  "date_modified_human": "October 25, 2026",
+  "title": "Flying Fox Fish Care, Tank Size and Tank Mates",
+  "description": "The flying fox fish reaches 16 cm, turns territorial and needs a 48 in, 64-gallon tank. Care, diet, tank mates and why it is not the Siamese algae eater.",
+  "h1": "Flying Fox Fish Care and How to Tell It From the Siamese Algae Eater",
+  "tag": "🐟 Freshwater · Territorial Asian cyprinid",
+  "photo": {
+    "src": "/assets/encyclopedia/real/flying-fox-wikimedia-real.jpg",
+    "width": 640,
+    "height": 420,
+    "alt": "Flying fox fish (Epalzeorhynchos kalopterum) on sand, showing the black lateral stripe, gold line above it and dark fins edged in white",
+    "caption": "An adult flying fox resting on sand. The broad black stripe with a gold line above it, and the dark pelvic and anal fins edged in white, are the marks to look for."
+  },
+  "chart": {
+    "tank_gal": 64,
+    "temp_f": [
+      68,
+      79
+    ],
+    "ph": [
+      6.0,
+      7.5
+    ],
+    "size_in": 6.3,
+    "group": "Best kept singly; groups need a very large tank",
+    "care": "Moderate — territorial, add it last",
+    "alt": "Flying fox fish care chart: 64-gallon tank, 68–79 °F, pH 6.0–7.5, adult size up to 6.3 inches",
+    "caption": "Flying fox needs at a glance. The tank figure is the 120 × 45 cm (48 × 18 in) base, about 243 litres, that Seriously Fish gives as the smallest suitable tank for one fish."
+  },
+  "facts": [
+    [
+      "Scientific name",
+      "<em>Epalzeorhynchos kalopterum</em> (often spelt <em>kalopterus</em>)"
+    ],
+    [
+      "Family",
+      "Cyprinidae, subfamily Labeoninae"
+    ],
+    [
+      "Origin",
+      "Southern Thailand, Peninsular Malaysia, Borneo, Sumatra, Java"
+    ],
+    [
+      "Adult size",
+      "16 cm (6.3 in)"
+    ],
+    [
+      "Lifespan",
+      "Over 15 years"
+    ],
+    [
+      "Minimum tank",
+      "120 × 45 cm (48 × 18 in) base, about 64 US gal"
+    ],
+    [
+      "Temperature",
+      "20–26 °C (68–79 °F)"
+    ],
+    [
+      "pH / hardness",
+      "6.0–7.5 / 2–12 dGH"
+    ],
+    [
+      "Diet",
+      "Omnivore; grazes biofilm, needs meaty and plant foods"
+    ],
+    [
+      "Temperament",
+      "Territorial, especially to look-alikes"
+    ],
+    [
+      "IUCN status",
+      "Least Concern (2019)"
+    ]
+  ],
+  "short_answer": "The flying fox fish is a territorial bottom-dwelling cyprinid that reaches about <strong>16 cm (6.3 in)</strong>, lives <strong>over 15 years</strong>, and needs a tank with at least a <strong>120 × 45 cm (48 × 18 in)</strong> base, roughly <strong>64 gallons</strong>, for one fish.[1][2] Keep it at <strong>20–26 °C (68–79 °F)</strong> and near-neutral pH with strong oxygenation.[1] It is <strong>not</strong> the Siamese algae eater and is a poor algae eater, and it attacks fish that look like it, so it is usually best kept singly and added to the tank last.[1][3]",
+  "intro": [
+    "The flying fox fish (<em>Epalzeorhynchos kalopterum</em>) is a Southeast Asian river cyprinid sold for its sharp black stripe and red-tinged, white-edged fins, and often sold by mistake as an algae eater.",
+    "In the wild it lives in southern Thailand, Peninsular Malaysia and the Greater Sunda Islands of Borneo, Sumatra and Java, grazing sandy or rocky stream beds and moving into flooded forest in the wet season.[1][2] FishBase notes that it is often collected from the undersides of floating objects such as boats and floating houses.[2] Many wild populations have declined, and the fish in the trade are most likely farm-raised using hormones.[1]",
+    "The name causes most of its problems. Shops mix it up with the Siamese algae eater, which looks similar and is far better at eating algae.[3] Buyers who want an algae crew end up with a fish that grows territorial and picks fights. This profile covers what the flying fox actually needs and how to recognise it in the shop."
+  ],
+  "sections": [
+    {
+      "id": "identify",
+      "toc": "Identification",
+      "h2": "How to Recognise a Flying Fox in the Shop",
+      "blocks": [
+        {
+          "p": "Seriously Fish identifies the species by its white-edged red and black fins and by its two pairs of barbels.[1] A broad black stripe runs from the snout to the tail, with a gold or tan line above it (see the photo above). Several look-alikes are sold under similar names, including the Siamese algae eater, <em>Garra cambodgiensis</em> and the Chinese algae eater, <em>Gyrinocheilus aymonieri</em>.[1][3]"
+        },
+        {
+          "ul": [
+            "<strong>Flying fox:</strong> coloured fins with black and white edges, two pairs of barbels, and a gold line above the black stripe.[1]",
+            "<strong>Siamese algae eater:</strong> clear or plain fins, and sold specifically as an algae eater. Fishkeeper warns not to confuse the two.[3]",
+            "<strong>Chinese algae eater:</strong> a sucker mouth instead of barbels, and it becomes aggressive as it grows."
+          ]
+        },
+        {
+          "p": "If the label only says \"flying fox\", check the fins before buying. Juveniles show the pattern clearly, so you do not need an adult to tell them apart."
+        }
+      ]
+    },
+    {
+      "id": "tank",
+      "toc": "Tank size",
+      "h2": "Flying Fox Tank Size and Setup",
+      "blocks": [
+        {
+          "p": "Seriously Fish gives the smallest suitable tank as one with a 120 × 45 cm (48 × 18 in) base, about 243 litres or 64 US gallons, and says a group needs more space.[1] Fishkeeper also recommends a mature tank at least 120 cm (4 ft) long.[3] FishBase lists a minimum aquarium length of 100 cm.[2]"
+        },
+        {
+          "chart": true
+        },
+        {
+          "ul": [
+            "<strong>Flow and oxygen:</strong> high dissolved oxygen and moderate water movement. Seriously Fish suggests a filter turnover of four to five times the tank volume per hour.[1]",
+            "<strong>Substrate and décor:</strong> sand or smooth gravel with rocks and driftwood the fish can graze, plus caves and plants that break up sight lines between territories.",
+            "<strong>Lid:</strong> Fishkeeper calls them expert jumpers, so use a tight cover and close the gaps around cables and pipes.[3]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water",
+      "h2": "Water Parameters",
+      "blocks": [
+        {
+          "p": "Seriously Fish recommends 20–26 °C (68–79 °F), pH 6.0–7.5 with a value close to neutral, and 2–12 dGH.[1] Fishkeeper gives 24–26 °C and pH 6.2–7.0 for long-term keeping.[3] FishBase lists 24–26 °C, pH 6.5–7.0 and 5–8 dH.[2] The overlap is soft to moderately hard, near-neutral water around 24–26 °C."
+        },
+        {
+          "p": "The species is intolerant of a build-up of organic waste.[1] Ammonia and nitrite damage gills even at low levels, and ammonia grows more toxic as pH and temperature rise, so weekly partial water changes and a mature filter matter more than chasing exact numbers.[4]"
+        }
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Feeding",
+      "h2": "Feeding and the Algae Question",
+      "blocks": [
+        {
+          "p": "In the wild it grazes aufwuchs, the film of algae, small crustaceans and insect larvae on rocks and wood.[1] FishBase lists worms, crustaceans, insects and plant matter.[2] In the tank, feed small live or frozen foods such as bloodworm, <em>Daphnia</em> and <em>Artemia</em>, a good sinking dried food, and plant matter such as shelled peas, cucumber, courgette and spinach.[1]"
+        },
+        {
+          "callout": "Do not buy a flying fox for algae control. Seriously Fish says it eats algae less effectively than some <em>Crossocheilus</em> species, and Fishkeeper says it should not be treated as an algae eater.[1][3] It grazes the film on surfaces but needs a full diet on top.",
+          "variant": "warn"
+        }
+      ]
+    },
+    {
+      "id": "tank-mates",
+      "toc": "Tank mates",
+      "h2": "Flying Fox Tank Mates and Aggression",
+      "blocks": [
+        {
+          "p": "Small flying foxes hide much of the time, but they grow more territorial with age and can be very aggressive towards fish that look like them.[1] Seriously Fish lists other <em>Epalzeorhynchos</em> plus <em>Crossocheilus</em>, <em>Garra</em> and <em>Gyrinocheilus</em> as frequent targets, and advises avoiding cichlids and most catfish, which may be harassed.[1]"
+        },
+        {
+          "ul": [
+            "<strong>Usually fine:</strong> botiid loaches such as <em>Botia</em> and <em>Yasuhikotakia</em>, and robust, active schooling cyprinids such as <em>Danio</em> and <em>Devario</em> in the upper water.[1][3]",
+            "<strong>Avoid:</strong> the Siamese algae eater and other look-alikes, and slow, tall-bodied fish such as discus and angelfish.[1][3]",
+            "<strong>Add it last:</strong> introducing the flying fox after the other fish limits how much territory it claims.[1]"
+          ]
+        },
+        {
+          "p": "Seriously Fish says the fish probably lives alone in nature and recommends keeping one in most cases. A group is possible only in a very large tank, with roughly a metre of territory per fish.[1] Fishkeeper prefers one fish or five or more, since small groups squabble.[3] On this site, the <a href=\"/species/clown-loach\">clown loach</a> and <a href=\"/species/yoyo-loach\">yoyo loach</a> are examples of loaches it usually ignores."
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "toc": "Keeping it healthy",
+      "h2": "Keeping a Flying Fox Healthy",
+      "blocks": [
+        {
+          "p": "Flying foxes are hardy once settled, and most problems trace back to water quality, aggression or escapes rather than disease."
+        },
+        {
+          "ul": [
+            "<strong>Poor water:</strong> the species does not tolerate a build-up of organic waste.[1] Cloudy eyes, clamped fins or rapid breathing are a cue to test for ammonia and nitrite, which harm gills even at low levels.[4]",
+            "<strong>Fighting injuries:</strong> torn fins on look-alike tank mates, or on the flying fox itself, mean territories overlap. Add caves and sight barriers, or rehome one fish.[1]",
+            "<strong>Hiding all the time:</strong> normal for small juveniles, which hide much of the day.[1] Adults that never come out may be bullied by a larger bottom-dweller.",
+            "<strong>Missing fish:</strong> they jump, so check the lid and every gap around equipment.[3]"
+          ]
+        },
+        {
+          "p": "Quarantine new fish for two to three weeks before adding them, and acclimatise them slowly. Because the flying fox should go in last, have the rest of the community settled and the filter mature before you buy it."
+        }
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Sexing and breeding",
+      "h2": "Sexing and Breeding",
+      "blocks": [
+        {
+          "p": "Mature females are noticeably thicker-bodied than males, but juveniles cannot be sexed reliably.[1] The species is not known to have been bred in private aquariums. Large numbers are produced on farms using hormones.[1]"
+        }
+      ]
+    }
+  ],
+  "faq_h2": "Flying Fox Fish FAQ",
+  "faq": [
+    {
+      "q": "Is a flying fox the same as a Siamese algae eater?",
+      "a": "No. They are different fish that look alike. The flying fox has coloured, white-edged fins and eats algae poorly.[1][3]"
+    },
+    {
+      "q": "How big do flying fox fish get?",
+      "a": "About 16 cm (6.3 in), and they can live for more than 15 years.[1][2]"
+    },
+    {
+      "q": "What size tank does a flying fox need?",
+      "a": "At least a 120 × 45 cm (48 × 18 in) base, about 64 gallons, for one fish.[1]"
+    },
+    {
+      "q": "Can you keep flying fox fish together?",
+      "a": "Usually not. Keep one, or a group of five or more only in a very large tank.[1][3]"
+    },
+    {
+      "q": "Are flying fox fish aggressive?",
+      "a": "They become territorial with age and attack look-alike species, so add them last.[1]"
+    }
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {
+      "href": "/species/siamese-algae-eater",
+      "label": "🐟 Siamese Algae Eater"
+    },
+    {
+      "href": "/species/chinese-algae-eater",
+      "label": "🐟 Chinese Algae Eater"
+    },
+    {
+      "href": "/species/rainbow-shark",
+      "label": "🐟 Rainbow Shark"
+    },
+    {
+      "href": "/species/clown-loach",
+      "label": "🐟 Clown Loach"
+    },
+    {
+      "href": "/species/yoyo-loach",
+      "label": "🐟 Yoyo Loach"
+    },
+    {
+      "href": "/tools/aquarium-size-calculator/",
+      "label": "🧮 Aquarium Size Calculator"
+    }
+  ],
+  "editorial_note": "Housing, water, diet and behaviour figures follow Seriously Fish, range and conservation status follow FishBase, and the algae-eater warning and jumping note follow Fishkeeper.[1][2][3] The ammonia guidance is cited to the University of Florida extension service.[4]",
+  "references": [
+    {
+      "authors": "Seriously Fish.",
+      "title": "Epalzeorhynchos kalopterum (Flying Fox).",
+      "source": "Species profile.",
+      "url": "https://www.seriouslyfish.com/species/epalzeorhynchos-kalopterus/",
+      "label": "seriouslyfish.com"
+    },
+    {
+      "authors": "Froese, R. & Pauly, D. (eds.).",
+      "title": "Epalzeorhynchos kalopterum (Bleeker, 1851).",
+      "source": "FishBase, version 2025.",
+      "url": "https://www.fishbase.se/summary/Epalzeorhynchos-kalopterus.html",
+      "label": "fishbase.se"
+    },
+    {
+      "authors": "Fishkeeper.",
+      "title": "Flying Fox (Epalzeorhynchos kalopterus).",
+      "source": "Species guide.",
+      "url": "https://www.fishkeeper.co.uk/fish/freshwater/cyprinids/flying-fox",
+      "label": "fishkeeper.co.uk"
+    },
+    {
+      "authors": "Francis-Floyd, R., Watson, C., Petty, D. & Pouder, D. B.",
+      "title": "Ammonia in Aquatic Systems (FA16).",
+      "source": "University of Florida IFAS Extension.",
+      "url": "https://edis.ifas.ufl.edu/publication/FA031",
+      "label": "edis.ifas.ufl.edu"
+    }
+  ]
+}

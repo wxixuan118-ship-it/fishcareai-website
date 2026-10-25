@@ -233,6 +233,7 @@
   ],
   "related_h2": "Related Pages",
   "related": [
+    {"href": "/species/orange-chromide", "label": "🐟 Orange Chromide"},
     {
       "href": "/guides/molly-care-guide/",
       "label": "📘 Molly Care Guide"

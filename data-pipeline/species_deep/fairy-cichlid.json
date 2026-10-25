@@ -252,6 +252,7 @@
   ],
   "related_h2": "Species Related to the Fairy Cichlid",
   "related": [
+    {"href": "/species/demasoni", "label": "🐟 Demasoni Cichlid"},
     {
       "href": "/species/daffodil-cichlid",
       "label": "🐟 Daffodil Cichlid"
