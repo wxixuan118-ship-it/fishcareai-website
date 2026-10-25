@@ -1,0 +1,157 @@
+{
+  "slug": "mudskipper",
+  "keyword": "mudskipper care",
+  "common_name": "Mudskipper",
+  "scientific": "Periophthalmus barbarus",
+  "date_published": "2026-10-25T00:00:00.000Z",
+  "date_modified": "2026-10-25",
+  "date_modified_human": "October 25, 2026",
+  "title": "Mudskipper Care, Paludarium Setup and Brackish Water",
+  "description": "Mudskipper care basics: a humid paludarium with land, shallow brackish water at SG 1.005 and 77–86 °F, and a 48 in tank per fish. Setup, food and tank mates.",
+  "h1": "Mudskipper Care in a Brackish Paludarium",
+  "tag": "🐟 Brackish · Amphibious goby",
+  "photo": {
+    "src": "/assets/encyclopedia/real/mudskipper-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 1225,
+    "alt": "Atlantic mudskipper (Periophthalmus barbarus) resting out of the water on a wet rock, with raised eyes and blue spots on the head",
+    "caption": "An Atlantic mudskipper hauled out on a damp rock at Wilhelma zoo, Stuttgart. The raised, turret-like eyes and fin-supported posture are adaptations for life on mudflats."
+  },
+  "chart": {
+    "tank_gal": 29,
+    "temp_f": [77, 86],
+    "ph": [7.0, 8.5],
+    "size_in": 6.0,
+    "group": "One per 24 × 12 in of floor; males fight",
+    "care": "Moderate — paludarium, live food",
+    "alt": "Mudskipper care chart: 29-gallon tank minimum for one fish, 77–86 °F, pH 7.0–8.5, adult size up to 6 inches",
+    "caption": "Atlantic mudskipper needs at a glance. The tank figure is the 120 × 30 × 30 cm (48 × 12 × 12 in), roughly 110-litre minimum Seriously Fish gives for a single fish."
+  },
+  "facts": [
+    ["Scientific name", "<em>Periophthalmus barbarus</em> (Atlantic mudskipper)"],
+    ["Family", "Oxudercidae (gobies)"],
+    ["Origin", "West African coast, Senegal to Angola"],
+    ["Habitat", "Mangrove mudflats and estuaries"],
+    ["Adult size", "15 cm (6 in)"],
+    ["Minimum tank", "120 × 30 × 30 cm (48 × 12 × 12 in) per fish"],
+    ["Water type", "Brackish, SG about 1.005"],
+    ["Temperature", "25–30 °C (77–86 °F), air and water alike"],
+    ["pH / hardness", "7.0–8.5 / 10–25 dGH"],
+    ["Diet", "Carnivore; live and frozen invertebrates"],
+    ["IUCN status", "Least Concern (2019)"]
+  ],
+  "short_answer": "Mudskipper care means building a <strong>paludarium</strong>, not an ordinary aquarium: the fish needs dry land to climb onto, <strong>shallow brackish water</strong> at a specific gravity of about <strong>1.005</strong>, very humid air under a tight lid, and <strong>25–30 °C (77–86 °F)</strong> in both air and water.[1] The Atlantic mudskipper grows to about 15 cm (6 in), and one fish needs a tank of at least <strong>120 × 30 × 30 cm (48 × 12 × 12 in)</strong>.[1][2] Feed live and frozen invertebrates on land, and keep males apart unless the tank is large.[1][5]",
+  "intro": [
+    "Mudskipper care is unusual because this goby spends much of its life out of the water, hopping across mangrove mud on its pectoral fins and breathing air through its skin and mouth lining.",
+    "The species most often sold is the Atlantic mudskipper, <em>Periophthalmus barbarus</em>, from estuaries and mangrove swamps along the West African coast.[1][2] FishBase describes it as an amphibious air-breather that skips or walks over mud and feeds mainly on crabs and insects on the mud surface.[2] Seriously Fish counts 15 species in the genus, most of which are rarely traded; the dwarf Indian mudskipper, <em>P. novemradiatus</em>, is the other one you are likely to see.[1][3]",
+    "Their lifestyle is so different from other fish that genome studies treat mudskippers as a model of the water-to-land transition: four sequenced species showed changes in immune, ammonia-excretion and vision genes linked to life in air.[4] In practice, that means they need a setup built around land, humidity and live food. This profile explains how to build it."
+  ],
+  "sections": [
+    {
+      "id": "tank",
+      "toc": "Tank and paludarium",
+      "h2": "Mudskipper Tank Size and Paludarium Setup",
+      "blocks": [
+        {"p": "Seriously Fish calls a 120 × 30 × 30 cm (48 × 12 × 12 in), roughly 110-litre tank \"just about acceptable\" for a single Atlantic mudskipper, and asks for at least 60 × 30 cm (24 × 12 in) of floor space per fish.[1] Floor area matters more than height, because the fish live on the bottom and on land. Several males need more room than that."},
+        {"chart": true},
+        {"p": "The tank must give the fish a way out of the water. Seriously Fish suggests a sand or mud bank, or bogwood that breaks the surface.[1] That Pet Place recommends keeping the water shallow, or making the exits easy, because mudskippers are poor swimmers.[5]"},
+        {"ul": [
+          "<strong>Beach:</strong> slope sand up from the water to form a bank, or build islands from roots, rocks and coral pieces. A separate, drainable tray inside the tank also works.[5]",
+          "<strong>Shallow water:</strong> a few centimetres is enough over most of the floor. If you include a deeper area, make sure every part of it has an easy exit.[5]",
+          "<strong>Plants:</strong> mangrove seedlings (<em>Rhizophora</em>) and Java fern tolerate brackish water; plastic plants are fine too.[1]",
+          "<strong>Lid:</strong> a tight-fitting lid is essential, both to stop jumping and to trap humidity.[1]"
+        ]}
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water and humidity",
+      "h2": "Brackish Water, Temperature and Humidity",
+      "blocks": [
+        {"p": "Seriously Fish recommends marine salt to a specific gravity of about 1.005, pH 7.0–8.5 and a hardness of 10–25 dGH, noting that mudskippers do poorly in acidic water. Crushed coral or other calcareous material in the substrate helps hold the pH up.[1] That Pet Place gives a wider brackish range of 1.005–1.015.[5] Measure salinity with a refractometer or hydrometer, and mix it before adding water rather than dosing the tank directly."},
+        {"p": "Temperature should be 25–30 °C (77–86 °F), and the air above the water must be kept at the same temperature as the water and very humid.[1] FishBase gives the same 25–30 °C range.[2] A mudskipper that spends time in cold, dry air dries out and gets chilled, so use a glass lid, warm the room or the air space, and avoid open mesh tops."},
+        {"callout": "Mudskippers are messy feeders. Seriously Fish recommends an efficient filter, and the shallow water means waste concentrates quickly, so plan on frequent partial water changes with pre-mixed brackish water.[1]", "variant": "warn"}
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Feeding",
+      "h2": "Feeding in Mudskipper Care",
+      "blocks": [
+        {"p": "In the wild they eat mainly crabs, insects and other invertebrates.[1][2] In captivity, Seriously Fish lists live worms, crickets, flies, mealworms and small beetles, small crustaceans and fish, and frozen bloodworm or <em>Artemia</em>.[1] A good routine is a frozen-food base with regular live feeds."},
+        {"p": "Avoid dry pellets and flakes as a staple: Seriously Fish warns they can swell in the stomach and cause bloating.[1] Place food on land, because most mudskippers will not feed while submerged.[5] Many become tame enough to take food from the fingers, especially if the same person always feeds them.[1]"}
+      ]
+    },
+    {
+      "id": "behaviour",
+      "toc": "Behaviour and tank mates",
+      "h2": "Mudskipper Behaviour and Tank Mates",
+      "blocks": [
+        {"p": "Males are very territorial. In a cramped tank a dominant male may kill the others, so buy a single fish if space is limited.[1] In a large, well-planned tank a group of five or more can live together, provided each has a territory of its own.[1] That Pet Place makes the same point: plan the group and the space before you buy, or dominant fish will make life miserable for the rest.[5]"},
+        {"p": "A species tank is generally best, and small fish may be eaten.[1] In a large brackish system, Seriously Fish lists four-eyed fish, archerfish, monos, scats, <em>Arius</em> catfish and other gobies as possible companions.[1] On this site, see the <a href=\"/species/four-eyed-fish\">four-eyed fish</a> and <a href=\"/species/archer-fish\">archer fish</a> profiles, both of which also need brackish water and surface space."}
+      ]
+    },
+    {
+      "id": "problems",
+      "toc": "Common problems",
+      "h2": "Mudskipper Care Problems and How to Avoid Them",
+      "blocks": [
+        {"p": "Most mudskipper care problems trace back to the setup rather than to disease. Seriously Fish rates the species as hardy once its needs are met, so when a mudskipper declines, check these first.[1]"},
+        {"ul": [
+          "<strong>Dry, dull or damaged skin:</strong> the air is too dry or too cold. Keep the lid closed, the air humid and the air temperature matched to the water.[1]",
+          "<strong>Bloating:</strong> often caused by dry pellets or flakes that swell after being eaten. Switch to frozen and live foods.[1]",
+          "<strong>Torn fins and hiding:</strong> a dominant male is bullying the others. Add floor space and sight barriers, or separate the fish.[1]",
+          "<strong>Lethargy and poor appetite:</strong> acidic or too-fresh water. Test pH and salinity and bring them back to pH 7.0–8.5 and SG about 1.005.[1]",
+          "<strong>Missing fish:</strong> mudskippers jump. Check every gap around cables and filter pipes, and keep the lid tight.[1]"
+        ]},
+        {"p": "Because the water layer is shallow and the fish eat meaty food, ammonia can build up faster than in a normal aquarium of the same size. Test the water weekly, remove uneaten food from the land area, and change water before the readings rise rather than after."}
+      ]
+    },
+    {
+      "id": "species",
+      "toc": "Which mudskipper?",
+      "h2": "Atlantic vs Dwarf Indian Mudskipper",
+      "blocks": [
+        {"p": "Check which species you are buying, because mudskipper care differs mainly in tank size and group size."},
+        {"table": {"head": ["Species", "Adult size", "Tank guidance", "Notes"], "rows": [
+          ["Atlantic mudskipper, <em>P. barbarus</em>", "15 cm (6 in)[1]", "120 × 30 × 30 cm for one fish[1]", "The species usually sold; West Africa[2]"],
+          ["Dwarf Indian mudskipper, <em>P. novemradiatus</em>", "10 cm (4 in)[3]", "75 × 30 × 30 cm for a trio[3]", "Eastern India to southern Thailand; pectoral fins not fully fused[3]"]
+        ]}},
+        {"p": "Both need the same water: brackish at about SG 1.005, 25–30 °C and pH 7.0–8.5.[1][3] The dwarf species can be kept in small groups in a smaller tank, but it is just as territorial towards its own kind.[3]"}
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Sexing and breeding",
+      "h2": "Sexing and Breeding",
+      "blocks": [
+        {"p": "Outside the spawning season the sexes look alike. Females have broader genital papillae, and males are more aggressive and colour up when ready to spawn.[1] In the wild, males dig burrows up to a metre deep in the mud, eggs are laid in the deepest chamber, and the female guards the young.[1] The species has not been bred in captivity, including in public aquariums, so every fish sold is wild-caught.[1]"}
+      ]
+    }
+  ],
+  "faq_h2": "Mudskipper FAQ",
+  "faq": [
+    {"q": "Can mudskippers live in freshwater?", "a": "Not long term. They are brackish fish; keep them at a specific gravity of about 1.005.[1]"},
+    {"q": "How big do mudskippers get?", "a": "The Atlantic mudskipper reaches about 15 cm (6 in), and the dwarf Indian mudskipper about 10 cm (4 in).[1][3]"},
+    {"q": "Do mudskippers need land?", "a": "Yes. They spend much of their time out of the water and need a bank or islands they can climb onto easily.[1][5]"},
+    {"q": "Can you keep mudskippers together?", "a": "Only with plenty of floor space. Males are highly territorial, so keep one fish in a small tank.[1]"},
+    {"q": "What do mudskippers eat?", "a": "Live and frozen invertebrates such as crickets, worms, bloodworm and brine shrimp, offered on land.[1][5]"}
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {"href": "/species/four-eyed-fish", "label": "🐟 Four-Eyed Fish"},
+    {"href": "/species/archer-fish", "label": "🐟 Archer Fish"},
+    {"href": "/species/figure-eight-puffer", "label": "🐟 Figure Eight Puffer"},
+    {"href": "/species/peacock-spiny-eel", "label": "🐟 Peacock Spiny Eel"},
+    {"href": "/species/watchman-goby", "label": "🐟 Watchman Goby"},
+    {"href": "/tools/aquarium-size-calculator/", "label": "🧮 Aquarium Size Calculator"}
+  ],
+  "editorial_note": "Housing, water and diet figures follow Seriously Fish, and range and conservation status follow FishBase.[1][2][3] Beach and feeding tips are cited to That Pet Place, and the note on terrestrial adaptations to the 2014 genome study.[4][5]",
+  "references": [
+    {"authors": "Seriously Fish.", "title": "Periophthalmus barbarus (Atlantic Mudskipper).", "source": "Species profile.", "url": "https://www.seriouslyfish.com/species/periophthalmus-barbarus/", "label": "seriouslyfish.com"},
+    {"authors": "Froese, R. & Pauly, D. (eds.).", "title": "Periophthalmus barbarus (Linnaeus, 1766).", "source": "FishBase, version 2025.", "url": "https://www.fishbase.se/summary/Periophthalmus-barbarus.html", "label": "fishbase.se"},
+    {"authors": "Seriously Fish.", "title": "Periophthalmus novemradiatus (Dwarf Indian Mudskipper).", "source": "Species profile.", "url": "https://www.seriouslyfish.com/species/periophthalmus-novemradiatus/", "label": "seriouslyfish.com"},
+    {"authors": "You, X., Bian, C., Zan, Q., et al. (2014).", "title": "Mudskipper genomes provide insights into the terrestrial adaptation of amphibious fishes.", "source": "Nature Communications 5: 5594.", "url": "https://doi.org/10.1038/ncomms6594", "label": "doi.org/10.1038/ncomms6594"},
+    {"authors": "Indiviglio, F.", "title": "Mudskipper.", "source": "That Pet Place, care article.", "url": "https://www.thatpetplace.com/articles/mudskipper-article", "label": "thatpetplace.com"}
+  ]
+}

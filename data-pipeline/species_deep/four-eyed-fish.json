@@ -121,6 +121,7 @@
   ],
   "related_h2": "Related Species",
   "related": [
+    {"href": "/species/mudskipper", "label": "🐟 Mudskipper"},
     {"href": "/species/archer-fish", "label": "🐟 Archer Fish"},
     {"href": "/species/figure-eight-puffer", "label": "🐟 Figure Eight Puffer"},
     {"href": "/species/sailfin-molly", "label": "🐟 Sailfin Molly"},

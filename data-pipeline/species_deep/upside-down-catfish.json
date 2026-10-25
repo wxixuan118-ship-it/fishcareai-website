@@ -132,6 +132,7 @@
   ],
   "related_h2": "Related Species",
   "related": [
+    {"href": "/species/iridescent-shark", "label": "🐟 Iridescent Shark"},
     {"href": "/species/congo-tetra", "label": "🐟 Congo Tetra"},
     {"href": "/species/kribensis", "label": "🐟 Kribensis"},
     {"href": "/species/cuckoo-catfish", "label": "🐟 Cuckoo Catfish"},

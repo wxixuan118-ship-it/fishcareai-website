@@ -1,0 +1,154 @@
+{
+  "slug": "iridescent-shark",
+  "keyword": "iridescent shark",
+  "common_name": "Iridescent Shark",
+  "scientific": "Pangasianodon hypophthalmus",
+  "date_published": "2026-10-25T00:00:00.000Z",
+  "date_modified": "2026-10-25",
+  "date_modified_human": "October 25, 2026",
+  "title": "Iridescent Shark Care, Adult Size and Tank Needs",
+  "description": "The iridescent shark is a river catfish that tops 90 cm in tanks and needs about 15 × 6 × 6 ft of water. Size, diet, tank mates and who can keep one.",
+  "h1": "Iridescent Shark Care and the Truth About Its Adult Size",
+  "tag": "🐟 Freshwater · Giant Mekong catfish",
+  "photo": {
+    "src": "/assets/encyclopedia/real/iridescent-shark-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 813,
+    "alt": "Adult iridescent shark catfish (Pangasianodon hypophthalmus) with grey body, tall dorsal fin and long anal fin in a public aquarium",
+    "caption": "A grown striped catfish in a public aquarium in Pierrefitte-Nestalas, France. Juveniles in shops are a few centimetres long and silvery; adults lose the stripes and turn uniform grey."
+  },
+  "chart": {
+    "tank_gal": 3852,
+    "temp_f": [72, 79],
+    "ph": [6.5, 7.5],
+    "size_in": 51.0,
+    "group": "Shoaling, calmer in groups, but each fish needs a huge tank",
+    "care": "Expert only — public-aquarium scale",
+    "alt": "Iridescent shark care chart: about 3,850-gallon tank for one adult, 72–79 °F, pH 6.5–7.5, adult size up to 51 inches",
+    "caption": "Iridescent shark needs at a glance. The tank figure is the 450 × 180 × 180 cm (15 × 6 × 6 ft), roughly 14,580-litre minimum Seriously Fish gives for one fish kept for life."
+  },
+  "facts": [
+    ["Scientific name", "<em>Pangasianodon hypophthalmus</em> (formerly <em>Pangasius sutchi</em>)"],
+    ["Other names", "Striped catfish, sutchi catfish, Siamese shark"],
+    ["Family", "Pangasiidae (shark catfishes)"],
+    ["Origin", "Mekong, Chao Phraya and Maeklong basins, Southeast Asia"],
+    ["Adult size", "130 cm SL max; often over 90 cm in captivity"],
+    ["Lifespan", "20+ years"],
+    ["Minimum tank", "450 × 180 × 180 cm (15 × 6 × 6 ft) for one adult"],
+    ["Temperature", "22–26 °C (72–79 °F)"],
+    ["pH / hardness", "6.5–7.5 / 2–30 dGH"],
+    ["Diet", "Omnivore; more plant food as it grows"],
+    ["IUCN status", "Endangered in the wild (2011)"]
+  ],
+  "short_answer": "The iridescent shark is not a shark and not a home-aquarium fish. It is a Mekong river catfish that reaches <strong>130 cm (51 in)</strong> and commonly passes <strong>90 cm (3 ft)</strong> in captivity, lives <strong>20+ years</strong>, and needs roughly <strong>450 × 180 × 180 cm (15 × 6 × 6 ft)</strong> of water as an adult.[1][2] FishBase lists it as not recommended for home aquariums.[2] Unless you can house a fish that size for two decades, do not buy the small juvenile.",
+  "intro": [
+    "The iridescent shark (<em>Pangasianodon hypophthalmus</em>) is a large migratory catfish from the rivers of mainland Southeast Asia, sold in pet shops as a small, shimmering \"shark\" for community tanks.",
+    "In the wild it lives in the main channels and large tributaries of the lower Mekong and the Chao Phraya, moving upstream to spawn when the rivers flood.[1][2] It is also one of the most important farmed fish in the region: FishBase calls it one of the most important aquaculture species in Thailand, and it is the farmed catfish sold abroad as swai or pangasius.[2] Nearly every specimen in the aquarium trade comes from the same fish farms.[1]",
+    "The trade names are the problem. Seriously Fish notes that names like \"shark\" are chosen to sell fish, and that many buyers are given no information about the adult size or lifespan, so fish are later rehomed or dumped.[1] This profile sets out what an adult really needs, how to recognise one in the shop, and what to do if you already own one."
+  ],
+  "sections": [
+    {
+      "id": "size",
+      "toc": "Adult size",
+      "h2": "How Big Does an Iridescent Shark Get?",
+      "blocks": [
+        {"p": "FishBase records a maximum standard length of 130 cm and a weight of up to 44 kg, though the weight comes from an unverified photograph.[2] Seriously Fish says captive fish rarely reach the full 130 cm but easily exceed 90 cm, and that they live for more than 20 years.[1] Growth is fastest in the first two years, so a fish bought at a few centimetres outgrows a typical home tank far sooner than most owners expect."},
+        {"p": "The \"shark\" look also fades with age. Juveniles are silvery with two dark lateral stripes and that sheen. Adults lose the stripes and the shine and turn a plain dark grey, with a tall dorsal fin and a long anal fin (see the photo above). The fish is a catfish in the family Pangasiidae, not a shark or any kind of cartilaginous fish.[2]"},
+        {"callout": "Shops also sell a shortbody or \"balloon\" form, which stays significantly smaller, and an albino form, which grows as large as the wild type.[1] A smaller adult size does not make the balloon form a community fish: it is still a very active, skittish river fish.", "variant": "warn"}
+      ]
+    },
+    {
+      "id": "tank",
+      "toc": "Tank size",
+      "h2": "What Tank Size an Adult Actually Needs",
+      "blocks": [
+        {"p": "Seriously Fish gives a minimum of 450 × 180 × 180 cm (15 × 6 × 6 ft), about 14,580 litres or 3,850 US gallons, for a single specimen kept long term, and calls the species unsuitable for all but the very largest aquaria.[1] FishBase lists a minimum aquarium of more than 150 cm and recommends groups of five or more, which is only possible in public-aquarium systems.[2]"},
+        {"chart": true},
+        {"p": "Juveniles can be grown on in smaller tanks, but only if the large system is already planned.[1] A 55- or 75-gallon tank is a temporary home for a few months at most, not a compromise size. Cramped fish swim in panicky bursts, crash into the glass and décor, and injure their snouts and fins.[1]"},
+        {"h3": "Setting up the tank"},
+        {"ul": [
+          "<strong>Open water:</strong> adults need long, uninterrupted swimming space. Décor is optional; anything you add, such as large bogwood or smooth rocks, must be too heavy to move or be fixed in place.[1]",
+          "<strong>Dim lighting:</strong> bright, bare tanks make the fish more nervous.[1]",
+          "<strong>Heavy lid:</strong> frightened fish breach the surface and can jump out.[1]",
+          "<strong>Protected equipment:</strong> a large fish can break heaters and thermometers, so keep them in a sump or behind guards.[1]"
+        ]}
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water and filtration",
+      "h2": "Water Parameters and Filtration",
+      "blocks": [
+        {"p": "Seriously Fish recommends 22–26 °C (72–79 °F), pH 6.5–7.5 and a general hardness of anywhere from 2 to 30 dGH, so water chemistry is less of a challenge than volume.[1] FishBase gives the same temperature and pH ranges.[2] The water should be well oxygenated and moving, as in the river channels the species comes from.[1]"},
+        {"p": "A fish this size produces a lot of waste. Seriously Fish advises a large, efficient biological filter, preferably a sump.[1] Ammonia and nitrite must stay at zero, because both damage the gills even at low levels, and toxicity rises with pH and temperature.[5] Large, frequent water changes are part of the routine, not an occasional job."},
+        {"h3": "Why it gulps air at the surface"},
+        {"p": "This catfish can breathe air through a modified swim bladder. In well-oxygenated water its gills alone cover its resting needs, but when oxygen falls it switches to gulping air at the surface, and in one study it began air-breathing below about 8 kPa of oxygen.[3] A second study found that it relies more on air breathing as water temperature rises.[4] Frequent dashes to the surface are therefore a sign to check oxygen, temperature and filtration, not a quirk to ignore."}
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Feeding",
+      "h2": "Feeding an Iridescent Shark",
+      "blocks": [
+        {"p": "It is an omnivore whose diet changes with age. In the wild it eats fish, crustaceans and plant debris.[2] Seriously Fish recommends plenty of protein for juveniles, such as chopped earthworm, bloodworm and dry pellets, and more vegetable matter for adults, including spinach, frozen peas, Spirulina-based foods and occasional fruit.[1]"},
+        {"p": "Feed young fish small meals several times a day and adults once or twice. Uneaten food breaks down quickly in a large tank and feeds ammonia spikes, so remove leftovers. Because it eats any fish that fits in its mouth, it should never be given live feeder fish as a treat."}
+      ]
+    },
+    {
+      "id": "tank-mates",
+      "toc": "Tank mates",
+      "h2": "Iridescent Shark Tank Mates",
+      "blocks": [
+        {"p": "It is not aggressive, but it will eat anything small enough to swallow, which in a few months includes neon tetras, guppies and most community fish.[1] Suitable companions are large, peaceful fish that hold their own: big doradid catfish such as <em>Oxydoras niger</em>, <em>Megalodoras uranoscopus</em> and <em>Pterodoras granulosus</em>, pacu, and larger cyprinids.[1]"},
+        {"p": "On this site, the <a href=\"/species/pacu\">pacu</a>, <a href=\"/species/tinfoil-barb\">tinfoil barb</a> and <a href=\"/species/silver-arowana\">silver arowana</a> are the kinds of fish that share a tank of that scale. Keep in mind that each of them also needs a very large aquarium of its own."}
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Sexing and breeding",
+      "h2": "Sexing and Breeding",
+      "blocks": [
+        {"p": "Females are reported to be stockier and more lightly patterned, but these differences cannot be seen at the size the fish are sold.[1] The species migrates upstream to spawn in late spring and summer, and aquarium spawning is considered unlikely.[1] Farms breed it in large ponds in Southeast Asia, which is where nearly all aquarium stock comes from.[1]"}
+      ]
+    },
+    {
+      "id": "rehoming",
+      "toc": "Rehoming",
+      "h2": "Already Own One That Is Outgrowing Its Tank?",
+      "blocks": [
+        {"p": "Do not release it. It is not native outside Southeast Asia, and FishBase notes it has been introduced into other river basins for aquaculture.[2] Release is illegal in many places and almost always fatal for the fish."},
+        {"ol": [
+          "Measure the fish now and compare it with the 90 cm or more it will likely reach.[1]",
+          "Contact local fish clubs, specialist monster-fish keepers and public aquariums. Many public aquariums cannot accept more iridescent sharks, so start early.",
+          "Until it is rehomed, cut stocking, upgrade filtration and keep water changes frequent to limit stress and injuries."
+        ]},
+        {"p": "If you are choosing a fish with a similar look for a home tank, the <a href=\"/species/bala-shark\">bala shark</a> and the <a href=\"/species/rainbow-shark\">rainbow shark</a> are often suggested. Bala sharks still need a large tank, so check their profiles before buying."}
+      ]
+    }
+  ],
+  "faq_h2": "Iridescent Shark FAQ",
+  "faq": [
+    {"q": "Is an iridescent shark a real shark?", "a": "No. It is a catfish in the family Pangasiidae, a freshwater bony fish. The name refers to the juvenile's shape and sheen.[2]"},
+    {"q": "How big do iridescent sharks get in an aquarium?", "a": "They easily exceed 90 cm (3 ft) in captivity and can reach 130 cm. They live for more than 20 years.[1][2]"},
+    {"q": "What size tank does an iridescent shark need?", "a": "About 450 × 180 × 180 cm (15 × 6 × 6 ft), roughly 14,580 litres, for one adult kept for life.[1]"},
+    {"q": "Can iridescent sharks live with small fish?", "a": "Not for long. They are peaceful, but they eat any fish small enough to fit in their mouth.[1]"},
+    {"q": "Why does my iridescent shark keep swimming to the surface?", "a": "It can gulp air and does so more when oxygen is low or the water is warm, so check aeration, temperature and filtration.[3][4]"}
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {"href": "/species/bala-shark", "label": "🐟 Bala Shark"},
+    {"href": "/species/rainbow-shark", "label": "🐟 Rainbow Shark"},
+    {"href": "/species/pacu", "label": "🐟 Pacu"},
+    {"href": "/species/tinfoil-barb", "label": "🐟 Tinfoil Barb"},
+    {"href": "/species/silver-arowana", "label": "🐟 Silver Arowana"},
+    {"href": "/tools/aquarium-size-calculator/", "label": "🧮 Aquarium Size Calculator"}
+  ],
+  "editorial_note": "Housing, water and diet figures follow Seriously Fish, and size, range and conservation status follow FishBase.[1][2] The air-breathing notes are cited to the original physiology studies, and the ammonia guidance to the University of Florida extension service.[3][4][5]",
+  "references": [
+    {"authors": "Seriously Fish.", "title": "Pangasianodon hypophthalmus (Iridescent Shark Catfish).", "source": "Species profile.", "url": "https://www.seriouslyfish.com/species/pangasianodon-hypophthalmus/", "label": "seriouslyfish.com"},
+    {"authors": "Froese, R. & Pauly, D. (eds.).", "title": "Pangasianodon hypophthalmus (Sauvage, 1878).", "source": "FishBase, version 2025.", "url": "https://www.fishbase.se/summary/Pangasianodon-hypophthalmus.html", "label": "fishbase.se"},
+    {"authors": "Lefevre, S., Huong, D. T. T., Wang, T., Phuong, N. T. & Bayley, M. (2011).", "title": "Hypoxia tolerance and partitioning of bimodal respiration in the striped catfish (Pangasianodon hypophthalmus).", "source": "Comparative Biochemistry and Physiology A 158: 207–214.", "url": "https://doi.org/10.1016/j.cbpa.2010.10.029", "label": "doi.org/10.1016/j.cbpa.2010.10.029"},
+    {"authors": "Damsgaard, C., Thomsen, M. T., Bayley, M. & Wang, T. (2018).", "title": "Air-breathing changes the pattern for temperature-induced pH regulation in a bimodal breathing teleost.", "source": "Journal of Comparative Physiology B 188: 451–459.", "url": "https://doi.org/10.1007/s00360-017-1134-1", "label": "doi.org/10.1007/s00360-017-1134-1"},
+    {"authors": "Francis-Floyd, R., Watson, C., Petty, D. & Pouder, D. B.", "title": "Ammonia in Aquatic Systems (FA16).", "source": "University of Florida IFAS Extension.", "url": "https://edis.ifas.ufl.edu/publication/FA031", "label": "edis.ifas.ufl.edu"}
+  ]
+}
