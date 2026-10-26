@@ -136,6 +136,7 @@
   ],
   "related_h2": "Related Species",
   "related": [
+    {"href": "/species/motoro-stingray", "label": "🐟 Motoro Stingray"},
     {"href": "/species/bala-shark", "label": "🐟 Bala Shark"},
     {"href": "/species/rainbow-shark", "label": "🐟 Rainbow Shark"},
     {"href": "/species/pacu", "label": "🐟 Pacu"},

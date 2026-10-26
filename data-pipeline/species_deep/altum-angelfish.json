@@ -227,6 +227,7 @@
   ],
   "related_h2": "Related Species",
   "related": [
+    {"href": "/species/motoro-stingray", "label": "🐟 Motoro Stingray"},
     {
       "href": "/species/angelfish",
       "label": "🐟 Angelfish"

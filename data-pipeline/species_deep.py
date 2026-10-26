@@ -167,7 +167,7 @@ def render_page(c: dict, shell: str) -> str:
 
     breadcrumb = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE},
-        {"@type": "ListItem", "position": 2, "name": "Encyclopedia", "item": f"{SITE}/species/"},
+        {"@type": "ListItem", "position": 2, "name": "Encyclopedia", "item": f"{SITE}/species"},
         {"@type": "ListItem", "position": 3, "name": c["common_name"], "item": url}]}
     article = {"@context": "https://schema.org", "@type": "Article", "headline": c["h1"], "description": c["description"],
                "url": url, "image": photo_url, "datePublished": c["date_published"],
@@ -238,7 +238,7 @@ def render_page(c: dict, shell: str) -> str:
     <div class="breadcrumb">
       <a href="{SITE}">Home</a>
       <span>/</span>
-      <a href="/species/">Encyclopedia</a>
+      <a href="/species">Encyclopedia</a>
       <span>/</span>
       <span style="color:rgba(255,255,255,.85)">{esc(c["common_name"])}</span>
     </div>
