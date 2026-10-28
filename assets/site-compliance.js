@@ -41,7 +41,13 @@
     { label: 'Editorial Policy', href: '/editorial-policy/' },
     { label: 'Resources',     href: '/resources/' },
     { label: 'Add Your Site', href: '/add-your-site/' },
+    { label: '☕ Buy me a coffee', href: 'https://buymeacoffee.com/vikiyananw6' },
   ];
+
+  var COFFEE_URL     = 'https://buymeacoffee.com/vikiyananw6';
+  // FormSubmit relays the form to this inbox. The first submission sends an
+  // activation email there; nothing is delivered until that link is clicked.
+  var FEEDBACK_ENDPOINT = 'https://formsubmit.co/ajax/dev@evetrend.com';
 
   // ── Analytics / Ads ───────────────────────────────────────────────────────
   window.dataLayer = window.dataLayer || [];
@@ -429,7 +435,124 @@
     }, 3000);
   }
 
+  // ── Floating "Buy me a coffee" + feedback buttons ─────────────────────────
+  // Self-contained styles so it also works on pages without the global CSS.
+  // Sits below the app and consent banners (z-index 200 / 1000).
+  function setupFloatingActions() {
+    if (/^\/(?:admin\/|__forms\.html$|yandex_[^/]+\.html$)/.test(window.location.pathname)) return;
+    if (document.getElementById('fishcare-fab')) return;
+
+    var css = document.createElement('style');
+    css.id = 'fishcare-fab-css';
+    css.textContent =
+      '#fishcare-fab{position:fixed;right:20px;bottom:24px;z-index:190;display:flex;' +
+      'flex-direction:column;gap:12px;align-items:flex-end;font-family:inherit}' +
+      '#fishcare-fab .ffab-btn{width:52px;height:52px;border-radius:50%;border:0;margin:0;cursor:pointer;display:flex;' +
+      'align-items:center;justify-content:center;box-shadow:0 6px 20px rgba(0,0,0,.35);' +
+      'transition:transform .15s ease;text-decoration:none;padding:0}' +
+      '#fishcare-fab .ffab-btn:hover{transform:scale(1.08)}' +
+      '#fishcare-fab .ffab-coffee{background:#FFDD00;color:#000;font-size:24px}' +
+      '#fishcare-fab .ffab-feedback{background:#fff!important;color:#0F3D6E!important;border:0!important;padding:0!important}' +
+      '#fishcare-feedback.ffab-panel{position:fixed;right:20px;bottom:150px;z-index:1001;width:320px;max-width:calc(100vw - 32px);' +
+      'background:rgba(4,25,41,.98);color:#fff;border:1px solid rgba(125,235,255,.35);border-radius:16px;' +
+      'box-shadow:0 24px 80px rgba(0,0,0,.52);padding:18px;font-size:.9rem}' +
+      '#fishcare-feedback[hidden]{display:none}' +
+      '#fishcare-feedback h2{margin:0 0 4px;font-size:1.05rem;color:#fff}' +
+      '#fishcare-feedback p{margin:0 0 12px;color:rgba(255,255,255,.7);font-size:.82rem}' +
+      '#fishcare-feedback textarea,#fishcare-feedback input{width:100%;box-sizing:border-box;margin:0 0 10px;padding:10px;' +
+      'border-radius:10px;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.06);' +
+      'color:#fff;font:inherit;font-size:.88rem}' +
+      '#fishcare-feedback textarea{min-height:110px;resize:vertical}' +
+      '#fishcare-feedback .ffab-actions{display:flex;gap:8px;justify-content:flex-end}' +
+      '#fishcare-feedback .ffab-actions button{padding:9px 14px;border-radius:10px;cursor:pointer;font-size:.85rem;' +
+      'border:1px solid rgba(255,255,255,.45)!important;background:transparent!important;color:#fff!important;box-shadow:none!important;margin:0}' +
+      '#fishcare-feedback .ffab-actions .ffab-send{background:#27AE60!important;border-color:#27AE60!important}' +
+      '#fishcare-feedback .ffab-actions button:disabled{opacity:.6;cursor:default}' +
+      '#fishcare-feedback .ffab-status{min-height:1em;margin:0 0 8px;font-size:.82rem;color:#7debff}' +
+      '#fishcare-feedback .ffab-hp{position:absolute;left:-9999px}' +
+      '@media(max-width:620px){#fishcare-fab{right:14px;bottom:18px}#fishcare-fab .ffab-btn{width:46px;height:46px}' +
+      '#fishcare-fab .ffab-coffee{font-size:21px}#fishcare-feedback.ffab-panel{right:16px;bottom:130px}}';
+    document.head.appendChild(css);
+
+    var wrap = document.createElement('div');
+    wrap.id = 'fishcare-fab';
+    wrap.innerHTML =
+      '<a class="ffab-btn ffab-coffee" href="' + COFFEE_URL + '" target="_blank" rel="noopener" ' +
+        'aria-label="Buy me a coffee" title="Buy me a coffee">☕</a>' +
+      '<button class="ffab-btn ffab-feedback" type="button" aria-label="Send feedback" title="Send feedback" ' +
+        'aria-expanded="false" aria-controls="fishcare-feedback">' +
+        '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" ' +
+        'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+        '<path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.6 8.6 0 0 1-3.8-.9L3 20.5l1.5-4.6A8.4 8.4 0 1 1 21 11.5z"/></svg>' +
+      '</button>';
+
+    var panel = document.createElement('form');
+    panel.id = 'fishcare-feedback';
+    panel.className = 'ffab-panel';
+    panel.hidden = true;
+    panel.setAttribute('aria-label', 'Send feedback');
+    panel.innerHTML =
+      '<h2>Send us feedback</h2>' +
+      '<p>Found a mistake, have an idea, or need help? We read every message.</p>' +
+      '<textarea name="message" required maxlength="4000" placeholder="Your feedback"></textarea>' +
+      '<input type="email" name="email" maxlength="200" placeholder="Your email (optional, for a reply)">' +
+      '<input class="ffab-hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">' +
+      '<div class="ffab-status" role="status"></div>' +
+      '<div class="ffab-actions">' +
+        '<button type="button" class="ffab-cancel">Close</button>' +
+        '<button type="submit" class="ffab-send">Send</button>' +
+      '</div>';
+
+    document.body.appendChild(wrap);
+    document.body.appendChild(panel);
+
+    var toggle = wrap.querySelector('.ffab-feedback');
+    var status = panel.querySelector('.ffab-status');
+    var send = panel.querySelector('.ffab-send');
+
+    function setOpen(open) {
+      panel.hidden = !open;
+      toggle.setAttribute('aria-expanded', String(open));
+      if (open) panel.querySelector('textarea').focus();
+    }
+    toggle.addEventListener('click', function () { setOpen(panel.hidden); });
+    panel.querySelector('.ffab-cancel').addEventListener('click', function () { setOpen(false); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !panel.hidden) setOpen(false); });
+
+    panel.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var message = panel.message.value.trim();
+      if (!message) return;
+      if (panel._honey.value) { setOpen(false); return; }
+      send.disabled = true;
+      status.textContent = 'Sending…';
+      var email = panel.email.value.trim();
+      var payload = {
+        _subject: 'FishCare AI feedback',
+        _template: 'table',
+        _captcha: 'false',
+        message: message,
+        page: window.location.href
+      };
+      if (email) { payload.email = email; payload._replyto = email; }
+      fetch(FEEDBACK_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(payload)
+      }).then(function (r) { return r.json(); }).then(function (data) {
+        if (String(data.success) !== 'true') throw new Error(data.message || 'failed');
+        panel.reset();
+        status.textContent = 'Thanks! Your feedback was sent.';
+        setTimeout(function () { setOpen(false); status.textContent = ''; }, 2500);
+      }).catch(function () {
+        status.innerHTML = 'Could not send. Please email <a style="color:#7debff" ' +
+          'href="mailto:dev@evetrend.com">dev@evetrend.com</a>.';
+      }).then(function () { send.disabled = false; });
+    });
+  }
+
   function init() {
+    setupFloatingActions();
     if (globalChromeEnabled()) {
       setupGlobalNavigation();
       setupGlobalFooter();
