@@ -34,6 +34,14 @@ RAW_DATA = next(
 )
 SITEMAP = ROOT / "sitemap.xml"
 TODAY = "2026-09-23"
+# Pair pages taken off the site because Google crawled them and declined to
+# index them. They are not regenerated, linked from hubs or related blocks, or
+# listed in the sitemap.
+REMOVED_PAIRS = frozenset(
+    line.strip()
+    for line in (Path(__file__).resolve().parent / "compat_removed_pairs.txt").read_text(encoding="utf-8").splitlines()
+    if line.strip() and not line.startswith("#")
+)
 
 # The original 31 plus these 60 commercially common/search-worthy aquarium
 # animals form the deliberately bounded v2 catalogue (91 total).
@@ -404,7 +412,7 @@ def related_guides(sa, sb):
     selected = []
     seen = set()
     for _, _, pair, shared, other in candidates:
-        if pair in seen:
+        if pair in seen or pair in REMOVED_PAIRS:
             continue
         seen.add(pair)
         selected.append((pair, f"{v1.SPECIES[shared]['name']} + {v1.SPECIES[other]['name']}"))
@@ -507,7 +515,7 @@ def main_hub(pairs):
 def main():
     load_catalogue()
     v1.compute_compat = enhanced_compat
-    pairs = list(combinations(sorted(v1.SPECIES), 2))
+    pairs = [pair for pair in combinations(sorted(v1.SPECIES), 2) if "-and-".join(pair) not in REMOVED_PAIRS]
     ranked_by_species = {slug: [] for slug in v1.SPECIES}
     sitemap_rows = []
     for index, (sa, sb) in enumerate(pairs, 1):

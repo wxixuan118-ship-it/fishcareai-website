@@ -1,0 +1,42 @@
+# Compatibility pair pages removed from the site (they now 404).
+# Google crawled them and declined to index them; see reports/gsc-crawled-not-indexed-2026-10-30.csv.
+# generate_compatibility_pages_v2.py skips these pairs and leaves them out of hubs and related links.
+african-butterfly-fish-and-clown-loach
+african-butterfly-fish-and-keyhole-cichlid
+black-ghost-knifefish-and-neon-tetra
+black-neon-tetra-and-blue-tang
+black-neon-tetra-and-flame-angelfish
+black-phantom-tetra-and-frontosa-cichlid
+black-ruby-barb-and-clown-loach
+black-ruby-barb-and-julii-cory
+black-ruby-barb-and-koi
+blue-tang-and-molly
+bolivian-ram-and-clown-loach
+bolivian-ram-and-zebra-loach
+cherry-barb-and-flame-angelfish
+clown-knifefish-and-glass-catfish
+clown-loach-and-fire-eel
+clown-loach-and-lemon-tetra
+clown-pleco-and-pea-puffer
+denison-barb-and-dwarf-gourami
+denison-barb-and-texas-cichlid
+denison-barb-and-yoyo-loach
+diamond-tetra-and-peppered-cory
+discus-and-electric-yellow-cichlid
+dwarf-chain-loach-and-panda-cory
+firefish-goby-and-foxface-rabbitfish
+foxface-rabbitfish-and-moonlight-gourami
+foxface-rabbitfish-and-serpae-tetra
+glass-catfish-and-panda-cory
+hillstream-loach-and-watchman-goby
+julii-cory-and-mystery-snail
+kuhli-loach-and-pearl-danio
+neon-rainbowfish-and-peppered-cory
+neon-tetra-and-weather-loach
+nerite-snail-and-swordtail
+nerite-snail-and-zebra-pleco
+otocinclus-and-yellow-tang
+peppered-cory-and-texas-cichlid
+sparkling-gourami-and-zebra-loach
+texas-cichlid-and-x-ray-tetra
+x-ray-tetra-and-zebra-pleco

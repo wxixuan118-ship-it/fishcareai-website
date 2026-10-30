@@ -198,6 +198,10 @@
   "related_h2": "Related Species",
   "related": [
     {
+      "href": "/species/black-neon-tetra",
+      "label": "🐟 Black Neon Tetra"
+    },
+    {
       "href": "/species/serpae-tetra",
       "label": "🐟 Serpae Tetra"
     },

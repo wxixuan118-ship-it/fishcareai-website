@@ -1,0 +1,335 @@
+{
+  "slug": "black-neon-tetra",
+  "keyword": "black neon tetra",
+  "common_name": "Black Neon Tetra",
+  "scientific": "Hyphessobrycon herbertaxelrodi",
+  "date_published": "2026-08-06T01:33:26.336Z",
+  "date_modified": "2026-10-30",
+  "date_modified_human": "October 30, 2026",
+  "title": "Black Neon Tetra Care, Tank Mates and Neon Differences",
+  "description": "Black neon tetras grow to 3.5 cm and do best in groups of 8–10 in a 31-inch tank. How they differ from neons, plus water, tank mates, food and breeding.",
+  "h1": "Black Neon Tetra Care Guide and How It Differs from the Neon Tetra",
+  "tag": "🐟 Freshwater · Pantanal schooling characin",
+  "photo": {
+    "src": "/assets/encyclopedia/real/black-neon-tetra-wikimedia-real.jpg",
+    "width": 1600,
+    "height": 974,
+    "alt": "Black neon tetra (Hyphessobrycon herbertaxelrodi) with a white line above a broad black side stripe and a red upper eye",
+    "caption": "The white line over a broad black stripe and the red upper half of the eye are the field marks. There is no blue or red on the body. Photo: Juan R. Lascorz, CC BY-SA 3.0, via Wikimedia Commons."
+  },
+  "chart": {
+    "tank_gal": 19,
+    "temp_f": [
+      68,
+      82
+    ],
+    "ph": [
+      5.0,
+      7.5
+    ],
+    "size_in": 1.4,
+    "group": "At least 8–10, mixed sexes",
+    "care": "Easy — hardy, captive-bred and peaceful",
+    "alt": "Black neon tetra care chart: 19-gallon tank, 68–82 °F, pH 5.0–7.5, adult size about 1.4 inches",
+    "caption": "Black neon tetra needs at a glance. The tank figure is the 80 × 30 cm (31 × 12 in), roughly 72-litre footprint Seriously Fish recommends for a group."
+  },
+  "facts": [
+    [
+      "Scientific name",
+      "<em>Hyphessobrycon herbertaxelrodi</em> Géry, 1961"
+    ],
+    [
+      "Family",
+      "Acestrorhamphidae (American tetras), formerly Characidae"
+    ],
+    [
+      "Origin",
+      "Upper Paraguay basin around the Pantanal, Mato Grosso and Mato Grosso do Sul, Brazil"
+    ],
+    [
+      "Adult size",
+      "3.2–3.5 cm SL (about 1.4 in)"
+    ],
+    [
+      "Minimum tank",
+      "80 × 30 cm (31 × 12 in, ≈19 gal)"
+    ],
+    [
+      "Temperature",
+      "20–28 °C (68–82 °F)"
+    ],
+    [
+      "pH / hardness",
+      "5.0–7.5 / 1–12 dGH"
+    ],
+    [
+      "Group size",
+      "8–10 or more"
+    ],
+    [
+      "Diet",
+      "Omnivore; small live, frozen and dry foods"
+    ],
+    [
+      "Breeding",
+      "Egg scatterer, no parental care"
+    ],
+    [
+      "IUCN status",
+      "Least Concern (2018)"
+    ]
+  ],
+  "short_answer": "The black neon tetra is a small, hardy characin from the Pantanal region of Brazil that grows to about <strong>3.5 cm (1.4 in)</strong>.[2][1] Keep a group of <strong>at least 8–10</strong> in a tank of <strong>80 cm (31 in)</strong> or longer at <strong>68–82 °F</strong> and pH 5.0–7.5.[2] Despite the name it is not a neon tetra, and it has no blue stripe.",
+  "intro": [
+    "The black neon tetra (<em>Hyphessobrycon herbertaxelrodi</em>) is a peaceful South American schooling fish named after the publisher Herbert R. Axelrod, not a dark form of the neon tetra.[1][2]",
+    "It comes from the upper Paraguay river system in the Brazilian states of Mato Grosso and Mato Grosso do Sul, north and south of the Pantanal wetland.[2] The type locality is Coxim, in the upper rio Taquari basin. There it lives in small tributaries, oxbows and seasonally flooded plains, often in very clear water among dense aquatic plants.[2]",
+    "Almost every fish sold today is farm-bred, so wild fish are no longer collected for the trade.[2] Captive breeding has made it one of the easiest small tetras to keep. This profile covers how to tell it apart from the fish it gets confused with, the tank and water it needs, and what two recent studies on its schooling mean for a home aquarium."
+  ],
+  "sections": [
+    {
+      "id": "vs-neon",
+      "toc": "Black neon vs neon",
+      "h2": "Black Neon Tetra vs Neon Tetra and Black Skirt Tetra",
+      "blocks": [
+        {
+          "p": "Three different fish are sold under similar names, and they belong to three different genera. The black neon tetra belongs to <em>Hyphessobrycon</em>, the genus that also holds the flame and serpae tetras.[1] The neon tetra is a <em>Paracheirodon</em>, and the black skirt tetra is a <em>Gymnocorymbus</em>."
+        },
+        {
+          "table": {
+            "head": [
+              "Fish",
+              "How to recognise it",
+              "Notes"
+            ],
+            "rows": [
+              [
+                "Black neon tetra, <em>Hyphessobrycon herbertaxelrodi</em>",
+                "Narrow white or pale green line above a broad black side stripe; upper half of the eye red",
+                "Slim body, about 3.5 cm[2]"
+              ],
+              [
+                "Neon tetra, <em>Paracheirodon innesi</em>",
+                "Electric blue line along the side, red on the rear half of the body",
+                "Similar size and temperament"
+              ],
+              [
+                "Black skirt (black) tetra, <em>Gymnocorymbus ternetzi</em>",
+                "Tall, flat body with dark vertical bars and large black dorsal and anal fins",
+                "Deeper bodied and more boisterous"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "The black neon and the neon tetra can share a tank, since both are small, peaceful midwater fish. Each species shoals more tightly with its own kind, though, so buy enough of each to make a proper group. An albino black neon is also sold occasionally. It lacks the black stripe, so look for the species' slim shape and red-topped eye to identify it.[2]"
+        }
+      ]
+    },
+    {
+      "id": "tank",
+      "toc": "Tank size",
+      "h2": "Black Neon Tetra Tank Size and Setup",
+      "blocks": [
+        {
+          "p": "Seriously Fish recommends a tank with a base of at least 80 × 30 cm (31 × 12 in), roughly 72 litres or 19 US gallons.[2] FishBase gives a lower minimum of 60 cm and groups of five or more.[1] Use the larger figure. This is an active schooling fish, and a group of ten needs swimming length more than height."
+        },
+        {
+          "p": "Copy the clear, plant-filled waters of the Pantanal margins.[2]"
+        },
+        {
+          "ul": [
+            "<strong>Planted tank:</strong> dense stem plants and grassy or sword-type plants around the back and sides, leaving open water in the middle for the school.",
+            "<strong>Natural layout:</strong> a sandy substrate with driftwood and a layer of dried leaf litter, which tints the water and gives the fish cover.",
+            "<strong>Lighting:</strong> moderate, or broken up by floating plants. The black stripe shows best against a dark background."
+          ]
+        },
+        {
+          "p": "A secure lid is still worth having, as small tetras can jump when startled. Our <a href=\"/tools/fish-tank-stocking-calculator/\">stocking calculator</a> can check how a school fits with other fish you plan to keep."
+        },
+        {
+          "chart": true
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "toc": "Water",
+      "h2": "Water Parameters",
+      "blocks": [
+        {
+          "p": "Seriously Fish lists 20–28 °C (68–82 °F), pH 5.0–7.5 and 1–12 dGH.[2] FishBase gives a slightly narrower 23–27 °C, pH 5.5–7.5 and up to 15 dH.[1] In practice, the range where both sources overlap, about 23–27 °C (73–81 °F) and pH 6.0–7.5, suits farm-bred fish well."
+        },
+        {
+          "p": "That tolerance is wider than many shop labels suggest. Stability matters more than hitting an exact pH: keep the tank cycled, change part of the water every week, and avoid large swings in temperature or hardness when you top up or change water."
+        }
+      ]
+    },
+    {
+      "id": "shoaling",
+      "toc": "Schooling research",
+      "h2": "What Research on Black Neon Schools Shows",
+      "blocks": [
+        {
+          "p": "This tetra is a laboratory model for collective movement. Researchers led from the University of Barcelona have filmed schools of 8 to about 40 fish to work out how each fish decides where to swim.[3][4] Two results are useful at home."
+        },
+        {
+          "ul": [
+            "<strong>Fast fish lead.</strong> In a 2024 study, fish tended to line up with neighbours swimming faster than themselves and largely ignored slower ones. The authors argue that this selective attention makes the faster fish the effective leaders of the school.[3]",
+            "<strong>Newcomers head for the middle.</strong> In a 2026 study, fish that were new to the tank took more central positions, stayed closer to their neighbours and acted more as followers than fish already used to the tank. The authors link this to the \"selfish herd\" idea, where the centre of a group is the safest place to be.[4]"
+          ]
+        },
+        {
+          "p": "In other words, new fish rely on an established school for cover. Add newcomers to a group that is already settled where you can, rather than releasing a handful of new fish into an empty tank. Expect them to stay tucked into the middle of the group for the first days. Seriously Fish's advice to keep at least 8–10, alongside other schooling fish, fits these findings.[2]"
+        },
+        {
+          "p": "If a group still spends most of its time hiding after it has settled, see our guide to <a href=\"/fish-health/black-neon-tetra-hiding\">tetras that hide constantly</a>."
+        }
+      ]
+    },
+    {
+      "id": "tank-mates",
+      "toc": "Tank mates",
+      "h2": "Black Neon Tetra Tank Mates",
+      "blocks": [
+        {
+          "p": "Seriously Fish describes it as very peaceful and well suited to a community aquarium.[2] Good companions are:"
+        },
+        {
+          "ul": [
+            "Other characins of similar size, such as rummy-nose, ember and pristella tetras.",
+            "Hatchetfish and pencilfish, which use the surface layer and leave the middle to the tetras.",
+            "Small catfish such as <em>Corydoras</em> and small suckermouth catfish for the bottom.",
+            "Non-predatory dwarf and medium-sized cichlids, such as rams and Apistogramma."
+          ]
+        },
+        {
+          "p": "Avoid any fish large enough to swallow a 3.5 cm tetra, and boisterous fin-nippers that will keep the school on edge. See the full <a href=\"/compatibility/black-neon-tetra/\">compatibility list for this species</a> for specific pairings."
+        }
+      ]
+    },
+    {
+      "id": "diet",
+      "toc": "Feeding",
+      "h2": "Feeding",
+      "blocks": [
+        {
+          "p": "In the wild the species is probably omnivorous. It takes small invertebrates and crustaceans, along with filamentous algae and fallen fruit.[2] FishBase also lists worms and plant matter.[1]"
+        },
+        {
+          "p": "In the aquarium it accepts good-quality flake and micro-pellets. It does best when that base is mixed with small live or frozen foods such as bloodworm, mosquito larvae, <em>Daphnia</em> and <em>Moina</em>.[2] Feed small amounts once or twice a day that the school clears within a couple of minutes. Varied feeding also brings out the white line and black stripe. A fish that has faded may simply be stressed or poorly fed, which our <a href=\"/fish-health/black-neon-tetra-pale-color\">guide to pale, washed-out colour</a> works through."
+        }
+      ]
+    },
+    {
+      "id": "breeding",
+      "toc": "Sexing & breeding",
+      "h2": "Sexing and Breeding Black Neons",
+      "blocks": [
+        {
+          "p": "Mature females are deeper-bodied and slightly larger than males, which is easiest to see when the fish are viewed side by side.[2]"
+        },
+        {
+          "p": "This is an egg-scattering species that gives no parental care. Well-fed adults may spawn often, and a few fry sometimes appear in a mature, densely planted tank without any help.[2] For more young, set up a separate tank:[2]"
+        },
+        {
+          "ol": [
+            "Use a small, dimly lit tank with mature water, slightly acidic to neutral, at the warm end of the range.",
+            "Cover the base with mesh or marbles, or add fine-leaved plants or spawning mops so the eggs fall out of reach.",
+            "Run an air-driven sponge filter or air stone rather than a power filter.",
+            "Add one or two males with several females. Eggs are usually found the next morning, and the adults can then be moved back.",
+            "Eggs hatch in 24–30 hours.[1] Once the fry swim freely, start them on <em>Paramecium</em> or very fine dry food, then move on to brine shrimp nauplii or microworm."
+          ]
+        }
+      ]
+    }
+  ],
+  "faq_h2": "Black Neon Tetra FAQ",
+  "faq": [
+    {
+      "q": "Is a black neon tetra a type of neon tetra?",
+      "a": "No. It is <em>Hyphessobrycon herbertaxelrodi</em>, from a different genus to the neon tetra (<em>Paracheirodon innesi</em>), and it has no blue stripe.[1]"
+    },
+    {
+      "q": "How big do black neon tetras get?",
+      "a": "About 3.2–3.5 cm (1.3–1.4 in) standard length, measured without the tail.[1][2]"
+    },
+    {
+      "q": "How many black neon tetras should be kept together?",
+      "a": "At least 8–10 of mixed sexes. FishBase gives five as a minimum, but larger groups behave more naturally.[1][2]"
+    },
+    {
+      "q": "Can black neon tetras live with neon tetras?",
+      "a": "Yes. Both are small, peaceful midwater schooling fish. Keep a proper group of each, since each species schools with its own kind.[2]"
+    },
+    {
+      "q": "How long do black neon tetras live?",
+      "a": "Neither FishBase nor Seriously Fish gives a lifespan for this species, so treat exact figures with caution. Like other small farm-bred tetras, they commonly live several years in a stable tank."
+    }
+  ],
+  "related_h2": "Related Species",
+  "related": [
+    {
+      "href": "/compatibility/black-neon-tetra/",
+      "label": "🤝 Tank Mate Pairings"
+    },
+    {
+      "href": "/fish-health/fish/black-neon-tetra",
+      "label": "🩺 Health Problems"
+    },
+    {
+      "href": "/species/neon-tetra",
+      "label": "🐟 Neon Tetra"
+    },
+    {
+      "href": "/species/black-skirt-tetra",
+      "label": "🐟 Black Skirt Tetra"
+    },
+    {
+      "href": "/species/black-phantom-tetra",
+      "label": "🐟 Black Phantom Tetra"
+    },
+    {
+      "href": "/species/pristella-tetra",
+      "label": "🐟 Pristella Tetra"
+    },
+    {
+      "href": "/species/rummy-nose-tetra",
+      "label": "🐟 Rummy Nose Tetra"
+    },
+    {
+      "href": "/tools/fish-tank-stocking-calculator/",
+      "label": "🧮 Fish Tank Stocking Calculator"
+    }
+  ],
+  "editorial_note": "Housing, water and breeding advice follows Seriously Fish, and size, range, hatching time and conservation status follow FishBase.[1][2] The schooling section summarises two University of Barcelona studies that used this species.[3][4] An earlier version of this profile gave a 5-gallon minimum tank and a narrow pH 6–7 range, which neither source supports.",
+  "references": [
+    {
+      "authors": "Froese, R. & Pauly, D. (eds.).",
+      "title": "Hyphessobrycon herbertaxelrodi Géry, 1961. Black neon tetra.",
+      "source": "FishBase, version 2025.",
+      "url": "https://www.fishbase.se/summary/Hyphessobrycon-herbertaxelrodi.html",
+      "label": "fishbase.se"
+    },
+    {
+      "authors": "Seriously Fish.",
+      "title": "Hyphessobrycon herbertaxelrodi (Black Neon Tetra).",
+      "source": "Species profile.",
+      "url": "https://www.seriouslyfish.com/species/hyphessobrycon-herbertaxelrodi/",
+      "label": "seriouslyfish.com"
+    },
+    {
+      "authors": "Puy, A., Gimeno, E., Torrents, J., Bartashevich, P., Miguel, M. C., Pastor-Satorras, R. & Romanczuk, P. (2024).",
+      "title": "Selective social interactions and speed-induced leadership in schooling fish.",
+      "source": "Proceedings of the National Academy of Sciences 121(18): e2309733121.",
+      "url": "https://doi.org/10.1073/pnas.2309733121",
+      "label": "doi.org/10.1073/pnas.2309733121"
+    },
+    {
+      "authors": "Puy, A., Gimeno, E., Beltran, F. S., Dolado, R., Ioannou, C. C., Miguel, M. C. & Pastor-Satorras, R. (2026).",
+      "title": "Habituation determines spatial position in Hyphessobrycon herbertaxelrodi shoals through altered rules of interaction.",
+      "source": "Communications Biology.",
+      "url": "https://doi.org/10.1038/s42003-026-10861-1",
+      "label": "doi.org/10.1038/s42003-026-10861-1"
+    }
+  ]
+}
