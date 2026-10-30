@@ -1068,7 +1068,7 @@ def build_page(sp: dict) -> str:
   "@type":"BreadcrumbList",
   "itemListElement":[
     {{"@type":"ListItem","position":1,"name":"Home","item":"https://www.fishcareai.com/"}},
-    {{"@type":"ListItem","position":2,"name":"Fish Encyclopedia","item":"https://www.fishcareai.com/wiki/"}},
+    {{"@type":"ListItem","position":2,"name":"Fish Encyclopedia","item":"https://www.fishcareai.com/species"}},
     {{"@type":"ListItem","position":3,"name":"{sp['name']}","item":"https://www.fishcareai.com/wiki/{sp['slug']}/"}}
   ]
 }}</script>
@@ -1094,8 +1094,8 @@ def build_page(sp: dict) -> str:
   <div class="nlinks">
     <a class="nl" href="/">Home</a>
     <a class="nl" href="/guides/">Guides</a>
-    <a class="nl act" href="/species/">Encyclopedia</a>
-    <a class="nl" href="/fish-health/">Fish Health</a>
+    <a class="nl act" href="/species">Encyclopedia</a>
+    <a class="nl" href="/fish-health">Fish Health</a>
     <a class="nl" href="/#tools">Tools</a>
     <a class="nl" href="/about/">About Us</a>
   </div>
@@ -1107,7 +1107,7 @@ def build_page(sp: dict) -> str:
   <div class="sp-hero-inner">
     <div class="breadcrumb">
       <a href="/">Home</a><span>/</span>
-      <a href="/wiki/">Encyclopedia</a><span>/</span>
+      <a href="/species">Encyclopedia</a><span>/</span>
       <span style="color:rgba(255,255,255,.85)">{sp['breadcrumb_label']}</span>
     </div>
     <div class="sp-tag">{sp['tag']}</div>

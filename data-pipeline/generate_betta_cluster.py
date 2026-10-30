@@ -195,8 +195,8 @@ def page(
   <div class="nlinks">
     <a class="nl" href="/">Home</a>
     <a class="nl act" href="/guides/">Guides</a>
-    <a class="nl" href="/wiki/">Encyclopedia</a>
-    <a class="nl" href="/fish-health/">Fish Health</a>
+    <a class="nl" href="/species">Encyclopedia</a>
+    <a class="nl" href="/fish-health">Fish Health</a>
     <a class="nl" href="/#tools">Tools</a>
     <a class="nl" href="/about/">About Us</a>
   </div>
@@ -322,7 +322,7 @@ TANK_SETUP_BODY = """    <h2 id="minimum-size">Minimum Tank Size for a Betta</h2
       <a href="/guides/betta-fish-care/tank-mates/">🐟 Betta Tank Mates</a>
       <a href="/guides/betta-fish-care/temperature/">🌡️ Betta Temperature Guide</a>
       <a href="/calculators/betta-fish-tank-size/">📐 Tank Size Calculator</a>
-      <a href="/wiki/betta-fish/">📖 Betta Fish Encyclopedia</a>
+      <a href="/guides/betta-fish-care/">📖 Betta Fish Encyclopedia</a>
       <a href="/guides/how-long-do-betta-fish-live/">⏳ How Long Do Bettas Live?</a>
     </div>"""
 
@@ -450,7 +450,7 @@ FEEDING_BODY = """    <h2 id="what-do-bettas-eat">What Do Betta Fish Eat?</h2>
       <a href="/guides/betta-fish-care/">🐠 Betta Fish Care Guide</a>
       <a href="/guides/betta-fish-care/tank-mates/">🐟 Betta Tank Mates</a>
       <a href="/guides/betta-fish-care/temperature/">🌡️ Temperature & Water Quality</a>
-      <a href="/wiki/betta-fish/">📖 Betta Fish Encyclopedia</a>
+      <a href="/guides/betta-fish-care/">📖 Betta Fish Encyclopedia</a>
       <a href="/guides/how-long-do-betta-fish-live/">⏳ How Long Do Bettas Live?</a>
       <a href="/tools/water-parameter-checker/">🔬 Water Parameter Checker</a>
     </div>"""
@@ -517,7 +517,7 @@ TEMPERATURE_BODY = """    <h2 id="ideal-temperature">Ideal Betta Fish Temperatur
       <a href="/guides/betta-fish-care/tank-setup/">🪣 Betta Tank Setup</a>
       <a href="/guides/betta-fish-care/feeding/">🦐 Betta Feeding Guide</a>
       <a href="/tools/water-parameter-checker/">🔬 Water Parameter Checker</a>
-      <a href="/wiki/betta-fish/">📖 Betta Fish Encyclopedia</a>
+      <a href="/guides/betta-fish-care/">📖 Betta Fish Encyclopedia</a>
       <a href="/guides/how-long-do-betta-fish-live/">⏳ How Long Do Bettas Live?</a>
     </div>"""
 

@@ -1,11 +1,244 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Aquarium Tools | FishCare AI</title>
-<meta http-equiv="refresh" content="0;url=/tools/aquarium-size-calculator/">
-<link rel="canonical" href="https://www.fishcareai.com/tools/aquarium-size-calculator/">
-<script>window.location.replace('/tools/aquarium-size-calculator/');</script>
+<meta charset="utf-8"/>
+<meta name="apple-itunes-app" content="app-id=6793299571">
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Free Aquarium Tools &amp; Calculators | FishCare AI</title>
+<meta name="description" content="Free aquarium tools: tank size, stocking, equipment and substrate calculators, a water parameter checker, fish compatibility checker, feeding calculator and koi pond calculators."/>
+<link rel="canonical" href="https://www.fishcareai.com/tools/"/>
+<meta property="og:title" content="Free Aquarium Tools &amp; Calculators | FishCare AI"/>
+<meta property="og:description" content="Every FishCare AI aquarium and koi pond calculator in one place."/>
+<meta property="og:url" content="https://www.fishcareai.com/tools/"/>
+<meta property="og:type" content="website"/>
+<meta name="twitter:card" content="summary"/>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "FishCare AI", "item": "https://www.fishcareai.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Aquarium Tools", "item": "https://www.fishcareai.com/tools/"}
+  ]
+}</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "FishCare AI aquarium tools",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "url": "https://www.fishcareai.com/tools/aquarium-size-calculator/", "name": "Aquarium Size Calculator"},
+    {"@type": "ListItem", "position": 2, "url": "https://www.fishcareai.com/tools/fish-tank-stocking-calculator/", "name": "Fish Tank Stocking Calculator"},
+    {"@type": "ListItem", "position": 3, "url": "https://www.fishcareai.com/tools/aquarium-equipment-calculator/", "name": "Aquarium Equipment Calculator"},
+    {"@type": "ListItem", "position": 4, "url": "https://www.fishcareai.com/tools/aquarium-substrate-calculator/", "name": "Aquarium Substrate Calculator"},
+    {"@type": "ListItem", "position": 5, "url": "https://www.fishcareai.com/tools/aquarium-planner/", "name": "Aquarium Planner"},
+    {"@type": "ListItem", "position": 6, "url": "https://www.fishcareai.com/tools/water-parameter-checker/", "name": "Water Parameter Checker"},
+    {"@type": "ListItem", "position": 7, "url": "https://www.fishcareai.com/tools/betta-fish-water-parameters/", "name": "Betta Fish Water Parameters"},
+    {"@type": "ListItem", "position": 8, "url": "https://www.fishcareai.com/tools/fish-compatibility-checker/", "name": "Fish Compatibility Checker"},
+    {"@type": "ListItem", "position": 9, "url": "https://www.fishcareai.com/tools/fish-feeding-calculator/", "name": "Fish Feeding Calculator"},
+    {"@type": "ListItem", "position": 10, "url": "https://www.fishcareai.com/tools/koi-pond-calculator/", "name": "Koi Pond Calculator"},
+    {"@type": "ListItem", "position": 11, "url": "https://www.fishcareai.com/tools/koi-pond-stocking-calculator/", "name": "Koi Pond Stocking Calculator"},
+    {"@type": "ListItem", "position": 12, "url": "https://www.fishcareai.com/tools/koi-pond-pump-calculator/", "name": "Koi Pond Pump Calculator"},
+    {"@type": "ListItem", "position": 13, "url": "https://www.fishcareai.com/tools/koi-pond-liner-calculator/", "name": "Koi Pond Liner Calculator"},
+    {"@type": "ListItem", "position": 14, "url": "https://www.fishcareai.com/tools/koi-pond-salt-calculator/", "name": "Koi Pond Salt Calculator"},
+    {"@type": "ListItem", "position": 15, "url": "https://www.fishcareai.com/tools/koi-feeding-calculator/", "name": "Koi Feeding Calculator"}
+  ]
+}</script>
+<meta name="google-adsense-account" content="ca-pub-6697313643773879">
+<script defer src="/assets/site-compliance.js?v=20260824-dark-fix"></script>
+<style>:root{
+  --bg:#061b2c;--panel:#0c3349;--panel2:#112e48;--text:#dff0fa;--muted:#8aaec2;
+  --line:rgba(62,140,180,.28);--cyan:#2bd4c4;--warm:#f4a23e;--max:1180px;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+  font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.72}
+a{color:var(--cyan)}a:hover{text-decoration:underline}
+
+/* NAV */
+.nb{height:62px;display:flex;align-items:center;justify-content:space-between;
+  padding:0 28px;position:sticky;top:0;z-index:30;
+  background:rgba(5,22,38,.92);backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line)}
+.brand img{display:block;vertical-align:middle}
+.nlinks{display:flex;gap:4px;align-items:center}
+.nlinks a{color:rgba(223,240,250,.82);font-weight:700;padding:7px 12px;border-radius:999px;
+  font-size:.87rem;text-decoration:none}
+.nlinks a:hover{background:rgba(43,212,196,.14);color:#fff}
+
+/* HERO */
+.hero{padding:42px max(20px,calc((100% - var(--max))/2)) 38px;
+  background:radial-gradient(circle at 70% 40%,rgba(43,212,196,.16) 0,transparent 38%),
+             linear-gradient(145deg,#051728,#0c3d5c)}
+.bc{font-size:.78rem;color:var(--muted);margin-bottom:14px}
+.bc a{color:var(--muted);text-decoration:none}.bc a:hover{color:var(--cyan)}
+.bc span{margin:0 6px}
+h1{font-size:clamp(1.8rem,4vw,2.9rem);line-height:1.15;margin:0 0 12px;font-weight:800}
+.hub-intro{max-width:760px;color:var(--muted);font-size:1.02rem;line-height:1.7;margin:10px 0 0}
+
+/* GROUPS */
+.main{max-width:var(--max);margin:0 auto;padding:28px 20px 80px}
+.group{margin-top:36px}
+.group:first-child{margin-top:0}
+.group h2{font-size:clamp(1.2rem,2.4vw,1.55rem);color:#fff;margin:0 0 6px}
+.group > p{color:var(--muted);margin:0;max-width:760px}
+.hub-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:18px}
+.hub-card{display:flex;flex-direction:column;gap:10px;
+  background:var(--panel);border:1px solid var(--line);border-radius:20px;
+  padding:22px;text-decoration:none;transition:.2s;color:var(--text)}
+.hub-card:hover{border-color:var(--cyan);transform:translateY(-2px);box-shadow:0 8px 28px rgba(0,0,0,.4);text-decoration:none}
+.hub-top{display:flex;gap:14px;align-items:center}
+.hc-em{font-size:1.9rem;line-height:1}
+.hc-name{font-weight:800;color:#fff;font-size:1.05rem}
+.hc-desc{font-size:.9rem;color:var(--muted);line-height:1.6}
+.hc-cta{font-weight:800;color:var(--cyan);font-size:.9rem;margin-top:auto}
+
+/* FOOTER */
+footer{background:#04111c;border-top:1px solid var(--line);padding:28px;
+  text-align:center;font-size:.83rem;color:var(--muted)}
+footer a{color:var(--muted);margin:0 8px}footer a:hover{color:#fff}
+
+@media(max-width:860px){.nlinks{display:none}}
+@media(max-width:520px){.hero{padding:32px 16px 28px}.main{padding:24px 16px 64px}}
+</style>
 </head>
-<body></body>
+<body>
+
+<nav class="nb">
+  <a class="brand" href="/" title="FishCare AI">
+    <img src="/assets/fishcare-logo.svg" alt="FishCare AI" width="130" height="33"/>
+  </a>
+  <div class="nlinks">
+    <a href="/">Home</a>
+    <a href="/guides/">Guides</a>
+    <a href="/species">Encyclopedia</a>
+    <a href="/fish-health">Fish Health</a>
+    <a title="Fish Identification" class="nl" href="/identify/">🔍 Fish ID</a>
+    <a href="/tools/">Tools</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <nav class="bc" aria-label="Breadcrumb">
+    <a href="/">Home</a><span>›</span><span>Tools</span>
+  </nav>
+  <h1>Free Aquarium Tools &amp; Calculators</h1>
+  <p class="hub-intro">Size a tank, check how heavily it is stocked, test your water readings, see which fish can live together and plan a koi pond. Every tool is free and runs in your browser.</p>
+</div>
+
+<div class="main">
+
+  <section class="group">
+    <h2>Tank Setup &amp; Sizing</h2>
+    <p>Work out volume, stocking level, equipment and substrate before you buy anything. For per-species gallon recommendations, see the <a href="/calculators/">species tank size calculators</a>.</p>
+    <div class="hub-grid">
+      <a class="hub-card" href="/tools/aquarium-size-calculator/">
+        <div class="hub-top"><span class="hc-em">📐</span><div class="hc-name">Aquarium Size Calculator</div></div>
+        <div class="hc-desc">Enter inside dimensions to get volume in US gallons, UK gallons and litres.</div>
+        <span class="hc-cta">Calculate volume →</span>
+      </a>
+      <a class="hub-card" href="/tools/fish-tank-stocking-calculator/">
+        <div class="hub-top"><span class="hc-em">🐟</span><div class="hc-name">Fish Tank Stocking Calculator</div></div>
+        <div class="hc-desc">Add your fish and tank size to see the stocking level, bioload and minimum tank checks.</div>
+        <span class="hc-cta">Check stocking →</span>
+      </a>
+      <a class="hub-card" href="/tools/aquarium-equipment-calculator/">
+        <div class="hub-top"><span class="hc-em">🔌</span><div class="hc-name">Aquarium Equipment Calculator</div></div>
+        <div class="hc-desc">Heater wattage, filter flow, air pump size and lighting for a freshwater or saltwater tank.</div>
+        <span class="hc-cta">Size equipment →</span>
+      </a>
+      <a class="hub-card" href="/tools/aquarium-substrate-calculator/">
+        <div class="hub-top"><span class="hc-em">🪨</span><div class="hc-name">Aquarium Substrate Calculator</div></div>
+        <div class="hc-desc">How much gravel, sand or soil you need for your tank footprint and target depth.</div>
+        <span class="hc-cta">Estimate substrate →</span>
+      </a>
+      <a class="hub-card" href="/tools/aquarium-planner/">
+        <div class="hub-top"><span class="hc-em">🗒️</span><div class="hc-name">Aquarium Planner</div></div>
+        <div class="hc-desc">A setup checklist, stocking guide and cycling timeline for freshwater, saltwater or shrimp tanks.</div>
+        <span class="hc-cta">Plan a tank →</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="group">
+    <h2>Water Quality</h2>
+    <p>Turn test-kit readings into a clear verdict on what is safe and what needs fixing.</p>
+    <div class="hub-grid">
+      <a class="hub-card" href="/tools/water-parameter-checker/">
+        <div class="hub-top"><span class="hc-em">🧪</span><div class="hc-name">Water Parameter Checker</div></div>
+        <div class="hc-desc">Enter pH, ammonia, nitrite, nitrate, temperature and hardness for a 0–100 health score.</div>
+        <span class="hc-cta">Check water →</span>
+      </a>
+      <a class="hub-card" href="/tools/betta-fish-water-parameters/">
+        <div class="hub-top"><span class="hc-em">🐠</span><div class="hc-name">Betta Fish Water Parameters</div></div>
+        <div class="hc-desc">Ideal betta ranges and a checker that scores your readings against them.</div>
+        <span class="hc-cta">Check betta water →</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="group">
+    <h2>Fish Compatibility &amp; Feeding</h2>
+    <p>Check tank mates before you buy and feed the right amount once they are home. For detailed pair-by-pair answers, browse the <a href="/compatibility/">fish compatibility guides</a>.</p>
+    <div class="hub-grid">
+      <a class="hub-card" href="/tools/fish-compatibility-checker/">
+        <div class="hub-top"><span class="hc-em">🤝</span><div class="hc-name">Fish Compatibility Checker</div></div>
+        <div class="hc-desc">Add two or more fish to get a Compatible, Caution or Incompatible result with reasons.</div>
+        <span class="hc-cta">Check tank mates →</span>
+      </a>
+      <a class="hub-card" href="/tools/fish-feeding-calculator/">
+        <div class="hub-top"><span class="hc-em">🍽️</span><div class="hc-name">Fish Feeding Calculator</div></div>
+        <div class="hc-desc">Portion size, food type and a feeding schedule by species and group size.</div>
+        <span class="hc-cta">Plan feeding →</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="group">
+    <h2>Koi Pond Calculators</h2>
+    <p>Size, stock, filter and treat an outdoor koi pond.</p>
+    <div class="hub-grid">
+      <a class="hub-card" href="/tools/koi-pond-calculator/">
+        <div class="hub-top"><span class="hc-em">🏞️</span><div class="hc-name">Koi Pond Calculator</div></div>
+        <div class="hc-desc">Pond volume in gallons and litres, plus koi capacity, pump flow and liner size.</div>
+        <span class="hc-cta">Calculate pond →</span>
+      </a>
+      <a class="hub-card" href="/tools/koi-pond-stocking-calculator/">
+        <div class="hub-top"><span class="hc-em">🎏</span><div class="hc-name">Koi Pond Stocking Calculator</div></div>
+        <div class="hc-desc">How many koi your pond can hold for its volume, fish size and filtration.</div>
+        <span class="hc-cta">Check koi stocking →</span>
+      </a>
+      <a class="hub-card" href="/tools/koi-pond-pump-calculator/">
+        <div class="hub-top"><span class="hc-em">💧</span><div class="hc-name">Koi Pond Pump Calculator</div></div>
+        <div class="hc-desc">The GPH your pond needs at its real head height, including pipe friction and waterfall flow.</div>
+        <span class="hc-cta">Size a pump →</span>
+      </a>
+      <a class="hub-card" href="/tools/koi-pond-liner-calculator/">
+        <div class="hub-top"><span class="hc-em">📏</span><div class="hc-name">Koi Pond Liner Calculator</div></div>
+        <div class="hc-desc">Liner sheet size, nearest standard size and underlay for EPDM, PVC or RPE liners.</div>
+        <span class="hc-cta">Size a liner →</span>
+      </a>
+      <a class="hub-card" href="/tools/koi-pond-salt-calculator/">
+        <div class="hub-top"><span class="hc-em">🧂</span><div class="hc-name">Koi Pond Salt Calculator</div></div>
+        <div class="hc-desc">How much pond salt to add to reach a target concentration, split into safe doses.</div>
+        <span class="hc-cta">Calculate salt →</span>
+      </a>
+      <a class="hub-card" href="/tools/koi-feeding-calculator/">
+        <div class="hub-top"><span class="hc-em">🥣</span><div class="hc-name">Koi Feeding Calculator</div></div>
+        <div class="hc-desc">Daily food weight, feedings per day and food type by koi count, size and water temperature.</div>
+        <span class="hc-cta">Plan koi feeding →</span>
+      </a>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2026 FishCare AI &nbsp;·&nbsp;
+    <a href="/privacy/">Privacy</a>
+    <a href="/editorial-policy/">Editorial Policy</a>
+    <a href="/guides/">Guides</a>
+    <a href="/species">Encyclopedia</a>
+    <a href="/calculators/">Tank Size Calculators</a>
+  </p>
+</footer>
+</body>
 </html>

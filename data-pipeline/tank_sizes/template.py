@@ -150,7 +150,7 @@ NAV_HTML = """<nav class="nb" aria-label="Main navigation">
     <a class="nl" href="/guides/">Guides</a>
     <a class="nl" href="/tools/">Tools</a>
     <a class="nl" href="/species">Encyclopedia</a>
-    <a class="nl" href="/fish-health/">Fish Diseases</a>
+    <a class="nl" href="/fish-health">Fish Diseases</a>
     <a class="nl" href="/tanks/">Tank Sizes</a>
     <a class="nl" href="/about/">About</a>
   </div>

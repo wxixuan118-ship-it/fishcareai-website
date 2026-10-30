@@ -239,7 +239,7 @@ def page(slug, title, meta_desc, h1, hero_tag, hero_meta,
     <a class="nl" href="/">Home</a>
     <a class="nl act" href="/guides/">Guides</a>
     <a class="nl" href="/species">Encyclopedia</a>
-    <a class="nl" href="/fish-health/">Fish Health</a>
+    <a class="nl" href="/fish-health">Fish Health</a>
     <a title="Fish Identification" class="nl" href="/identify/">&#128269; Fish ID</a>
     <a class="nl" href="/#tools">Tools</a>
     <a class="nl" href="/about/">About Us</a>
@@ -599,7 +599,7 @@ TYPES_BODY = """    <p>&ldquo;Snakehead&rdquo; covers more than 50 described <em
       <tr><td>55 gallons</td><td><em>C. bleheri</em>, <em>C. gachua</em>, <em>C. limbata</em></td></tr>
       <tr><td>75&ndash;125 gallons</td><td><em>C. pulchra</em>, <em>C. asiatica</em>, <em>C. stewartii</em>, <em>C. aurantimaculata</em></td></tr>
       <tr><td>250&ndash;400 gallons</td><td><em>C. marulioides</em>, <em>C. lucius</em></td></tr>
-      <tr><td>Under 30 gallons</td><td>No snakehead. Consider a <a href="/guides/betta-care-guide/">betta</a> or <a href="/guides/german-blue-ram-care-guide/">dwarf cichlid</a> instead.</td></tr>
+      <tr><td>Under 30 gallons</td><td>No snakehead. Consider a <a href="/guides/betta-fish-care/">betta</a> or <a href="/guides/german-blue-ram-care-guide/">dwarf cichlid</a> instead.</td></tr>
     </table>
     <p>Once you have chosen, size the tank properly on the <a href="/guides/snakehead-fish-care/tank-size/">snakehead tank size guide</a> and set the temperature from the <a href="/guides/snakehead-fish-care/water-parameters/">water parameters guide</a> &mdash; the subtropical species are the ones most often killed by kindness in a heated tropical tank.</p>
 """

@@ -499,9 +499,9 @@ def make_page(size):
   <div class="nlinks">
     <a class="nl" href="/">Home</a>
     <a class="nl" href="/guides/">Guides</a>
-    <a class="nl" href="/wiki/">Encyclopedia</a>
+    <a class="nl" href="/species">Encyclopedia</a>
     <a class="nl act" href="/tanks/">Tank Sizes</a>
-    <a class="nl" href="/tools/tank-size-calculator/">Calculator</a>
+    <a class="nl" href="/tools/aquarium-size-calculator/">Calculator</a>
   </div>
 </nav>
 
@@ -565,10 +565,10 @@ def make_page(size):
     <div class="card">
       <h2>Related Guides &amp; Tools</h2>
       <div class="guide-links">
-        <a href="/tools/tank-size-calculator/">📐 Volume Calculator</a>
+        <a href="/tools/aquarium-size-calculator/">📐 Volume Calculator</a>
         <a href="/tools/fish-compatibility-checker/">✅ Compatibility Checker</a>
         <a href="/compatibility/">🐠 Fish Compatibility Guides</a>
-        <a href="/wiki/">📖 Species Encyclopedia</a>
+        <a href="/species">📖 Species Encyclopedia</a>
         <a href="/guides/">📋 Fish Care Guides</a>
         <a href="/tools/water-parameter-checker/">💧 Water Parameter Checker</a>
       </div>
@@ -579,7 +579,7 @@ def make_page(size):
     <div class="card cta-box" style="padding:18px 20px;margin-bottom:16px">
       <h3>📐 Volume Calculator</h3>
       <p>Enter your tank dimensions to get exact gallons and litres.</p>
-      <a href="/tools/tank-size-calculator/">Open Calculator →</a>
+      <a href="/tools/aquarium-size-calculator/">Open Calculator →</a>
     </div>
     <div class="card" style="padding:18px 20px;margin-bottom:16px">
       <h2 style="font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--pd);border:none;padding:0;margin-bottom:10px">Tank Size Guides</h2>
@@ -665,9 +665,9 @@ def make_index():
   <div class="nlinks">
     <a class="nl" href="/">Home</a>
     <a class="nl" href="/guides/">Guides</a>
-    <a class="nl" href="/wiki/">Encyclopedia</a>
+    <a class="nl" href="/species">Encyclopedia</a>
     <a class="nl act" href="/tanks/">Tank Sizes</a>
-    <a class="nl" href="/tools/tank-size-calculator/">Calculator</a>
+    <a class="nl" href="/tools/aquarium-size-calculator/">Calculator</a>
   </div>
 </nav>
 
@@ -681,7 +681,7 @@ def make_index():
   <div class="tool-cta">
     <h2>📐 Tank Volume Calculator</h2>
     <p>Know your tank's exact dimensions? Get precise gallons and litres in seconds.</p>
-    <a href="/tools/tank-size-calculator/">Open Volume Calculator →</a>
+    <a href="/tools/aquarium-size-calculator/">Open Volume Calculator →</a>
   </div>
 </div>
 

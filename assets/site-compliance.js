@@ -11,7 +11,7 @@
     { label: 'Guides',        href: '/guides/',                             section: 'guides' },
     { label: 'Tools',         href: '/tools/',                              section: 'tools' },
     { label: 'Encyclopedia',  href: '/species',                              section: 'wiki' },
-    { label: 'Fish Diseases', href: '/fish-health/',                        section: 'fish-diseases' },
+    { label: 'Fish Diseases', href: '/fish-health',                        section: 'fish-diseases' },
     { label: 'Fish Identification', href: '/identify/',     section: '' },
     { label: 'About',         href: '/about/',                              section: 'about' },
     { label: '📱 App',        href: '/app/',                                section: 'app', extraClass: 'nl-app-btn' },
@@ -20,7 +20,7 @@
   // ── Footer link configuration ──────────────────────────────────────────────
   var FOOTER_EXPLORE = [
     { label: 'Fish Species',  href: '/species' },
-    { label: 'Fish Diseases', href: '/fish-health/' },
+    { label: 'Fish Diseases', href: '/fish-health' },
     { label: 'Clownfish Health Problems', href: '/aquarium-fish-diseases/clownfish/' },
     { label: 'Guides',        href: '/guides/' },
     { label: 'Aquarium Tools',href: '/tools/' },
