@@ -83,7 +83,7 @@
   "intro": [
     "The molly fish (<em>Poecilia sphenops</em>), or short-finned molly, is a hardy livebearer from Central America and northern South America, and the source of the black molly.",
     "Its native range runs from Mexico south to Colombia and Venezuela, with isolated populations on some Caribbean islands.[2][1] FishBase notes that it is often confused with the closely related <em>Poecilia mexicana</em>.[1] Wild fish are now rare in the trade. Nearly every fish sold is farm-bred, and many popular colour forms come from crosses with the sailfin molly, <em>P. latipinna</em>.[2]",
-    "This profile explains the water chemistry that decides whether these fish do well, sorts out the common molly types, and looks closely at the balloon molly before you decide to buy one. For a step-by-step setup and maintenance plan, see our <a href=\"/guides/molly-care-guide/\">molly care guide</a>."
+    "This profile explains the water chemistry that decides whether these fish do well, sorts out the common molly types, and looks closely at the balloon molly before you decide to buy one. For a step-by-step setup and maintenance plan, see our <a href=\"/guides/molly-fish-care/\">molly care guide</a>."
   ],
   "sections": [
     {
@@ -235,7 +235,7 @@
   "related": [
     {"href": "/species/orange-chromide", "label": "🐟 Orange Chromide"},
     {
-      "href": "/guides/molly-care-guide/",
+      "href": "/guides/molly-fish-care/",
       "label": "📘 Molly Care Guide"
     },
     {

@@ -44,7 +44,7 @@
   "intro": [
     "The betta fish (<em>Betta splendens</em>), or Siamese fighting fish, is a small air-breathing betta fish from the still waters of central Thailand.",
     "Wild fish live in rice paddies, swamps, roadside ditches and ponds that are shaded by plants, often low in oxygen, and change quickly during the monsoon.[2] The natural range runs through central Thailand, from Chiang Rai province south to just below the Isthmus of Kra. Records elsewhere refer to related species or to fish that escaped from farms.[2] In the wild the species is listed as Vulnerable, under pressure from habitat loss and from hybridisation with released ornamental fish.[1][2]",
-    "The fish in shops are a different story: centuries of breeding for fighting and later for fins and colour have produced countless strains. This profile covers the species' biology, housing, female bettas, and what genetic research shows domestication has changed. For day-to-day setup and maintenance, see our <a href=\"/guides/betta-care-guide/\">betta care guide</a>."
+    "The fish in shops are a different story: centuries of breeding for fighting and later for fins and colour have produced countless strains. This profile covers the species' biology, housing, female bettas, and what genetic research shows domestication has changed. For day-to-day setup and maintenance, see our <a href=\"/guides/betta-fish-care/\">betta care guide</a>."
   ],
   "sections": [
     {
@@ -124,7 +124,7 @@
   ],
   "related_h2": "Related Pages",
   "related": [
-    {"href": "/guides/betta-care-guide/", "label": "📘 Betta Care Guide"},
+    {"href": "/guides/betta-fish-care/", "label": "📘 Betta Care Guide"},
     {"href": "/species/betta-imbellis", "label": "🐟 Betta imbellis"},
     {"href": "/species/betta-smaragdina", "label": "🐟 Betta smaragdina"},
     {"href": "/species/paradise-fish", "label": "🐟 Paradise Fish"},

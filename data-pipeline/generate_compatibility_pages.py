@@ -34,7 +34,7 @@ SPECIES = {
     "temp_min":74,"temp_max":84,"ph_min":6.0,"ph_max":7.5,
     "temperament":"semi","size":6,"care":"intermediate","water":"freshwater",
     "min_group":1,"diet":"omnivore","eats_small":True,
-    "wiki":"/wiki/angelfish/",
+    "wiki":"/guides/angelfish-care/",
     "desc":"Elegant South American cichlids with long flowing fins. Generally peaceful but territorial when breeding and will eat very small fish.",
   },
   "betta-fish": {
@@ -42,7 +42,7 @@ SPECIES = {
     "temp_min":76,"temp_max":82,"ph_min":6.5,"ph_max":7.5,
     "temperament":"aggressive","size":3,"care":"beginner","water":"freshwater",
     "min_group":1,"diet":"carnivore","eats_small":False,
-    "wiki":"/wiki/betta-fish/",
+    "wiki":"/guides/betta-fish-care/",
     "desc":"Vibrant labyrinth fish from Southeast Asia. Males are highly territorial toward other bettas and fin-nippers; compatible with many peaceful species in large, planted tanks.",
     "special":["male_aggressive_to_male","triggers_on_long_fins"],
   },
@@ -51,7 +51,7 @@ SPECIES = {
     "temp_min":60,"temp_max":80,"ph_min":6.5,"ph_max":7.5,
     "temperament":"peaceful","size":5,"care":"beginner","water":"freshwater",
     "min_group":1,"diet":"herbivore","eats_small":False,
-    "wiki":"/wiki/bristlenose-pleco/",
+    "wiki":"/species/bristlenose-pleco",
     "desc":"Hardy armoured catfish that grazes on algae. Peaceful with virtually all species; tolerates a wide temperature range.",
   },
   "cardinal-tetra": {
@@ -59,7 +59,7 @@ SPECIES = {
     "temp_min":73,"temp_max":82,"ph_min":4.5,"ph_max":7.0,
     "temperament":"peaceful","size":1.5,"care":"intermediate","water":"freshwater",
     "min_group":6,"diet":"omnivore","eats_small":False,
-    "wiki":"/wiki/cardinal-tetra/",
+    "wiki":"/species/cardinal-tetra",
     "desc":"Brilliant red-and-blue schooling fish from the Rio Negro. Prefers soft, acidic, warm water — a natural companion for discus.",
   },
   "cherry-barb": {
@@ -67,7 +67,7 @@ SPECIES = {
     "temp_min":73,"temp_max":81,"ph_min":6.0,"ph_max":8.0,
     "temperament":"peaceful","size":2,"care":"beginner","water":"freshwater",
     "min_group":6,"diet":"omnivore","eats_small":False,
-    "wiki":"/wiki/cherry-barb/",
+    "wiki":"/species/cherry-barb",
     "desc":"Unlike most barbs, cherry barbs are peaceful schooling fish safe with bettas and nano species. Males turn vivid red when in breeding condition.",
   },
   "cherry-shrimp": {
@@ -75,7 +75,7 @@ SPECIES = {
     "temp_min":65,"temp_max":80,"ph_min":6.5,"ph_max":8.0,
     "temperament":"peaceful","size":0.8,"care":"beginner","water":"freshwater",
     "min_group":10,"diet":"omnivore","eats_small":False,
-    "wiki":"/wiki/cherry-shrimp/",
+    "wiki":"/compatibility/cherry-shrimp/",
     "desc":"Bright red freshwater shrimp that are excellent algae cleaners. Very small — at risk from any fish large enough to eat them.",
     "special":["prey_for_large_fish"],
   },
@@ -93,7 +93,7 @@ SPECIES = {
     "temp_min":77,"temp_max":86,"ph_min":6.0,"ph_max":7.5,
     "temperament":"peaceful","size":12,"care":"intermediate","water":"freshwater",
     "min_group":5,"diet":"omnivore","eats_small":True,
-    "wiki":"/wiki/clown-loach/",
+    "wiki":"/species/clown-loach",
     "desc":"Striking striped loach that grows very large. Peaceful with fish but will eat shrimp, snails and tiny fish.",
     "special":["eats_snails","eats_shrimp"],
   },
@@ -102,7 +102,7 @@ SPECIES = {
     "temp_min":70,"temp_max":79,"ph_min":6.0,"ph_max":8.0,
     "temperament":"peaceful","size":2.5,"care":"beginner","water":"freshwater",
     "min_group":6,"diet":"omnivore","eats_small":False,
-    "wiki":"/wiki/corydoras/",
+    "wiki":"/species/bronze-cory",
     "desc":"Armoured bottom-dwelling catfish that are peaceful with all non-aggressive species. Need fine sand substrate to protect delicate barbels.",
   },
   "discus": {
@@ -110,7 +110,7 @@ SPECIES = {
     "temp_min":82,"temp_max":88,"ph_min":5.0,"ph_max":7.0,
     "temperament":"semi","size":8,"care":"advanced","water":"freshwater",
     "min_group":5,"diet":"omnivore","eats_small":True,
-    "wiki":"/wiki/discus/",
+    "wiki":"/guides/discus-fish-care-requirements/",
     "desc":"The 'king of the aquarium' — beautiful but demanding. Requires very warm, soft, acidic water that excludes most community fish.",
   },
   "dwarf-gourami": {
@@ -118,7 +118,7 @@ SPECIES = {
     "temp_min":72,"temp_max":82,"ph_min":6.0,"ph_max":7.5,
     "temperament":"semi","size":3.5,"care":"beginner","water":"freshwater",
     "min_group":1,"diet":"omnivore","eats_small":False,
-    "wiki":"/wiki/dwarf-gourami/",
+    "wiki":"/species/dwarf-gourami",
     "desc":"Colourful labyrinth fish that is generally peaceful but can be territorial toward similar species. Susceptible to Dwarf Gourami Iridovirus.",
     "special":["risky_with_betta","risky_with_other_gouramis"],
   },
@@ -136,7 +136,7 @@ SPECIES = {
     "temp_min":72,"temp_max":82,"ph_min":6.8,"ph_max":8.5,
     "temperament":"peaceful","size":2.5,"care":"beginner","water":"freshwater",
     "min_group":3,"diet":"omnivore","eats_small":False,
-    "wiki":"/wiki/guppy/",
+    "wiki":"/guides/guppy-fish-care/",
     "desc":"Hardy and colourful livebearers. Males' long flowing tails make them targets for fin-nipping species. Very prolific breeders.",
     "special":["triggers_betta_aggression","fin_nipping_target"],
   },
@@ -145,7 +145,7 @@ SPECIES = {
     "temp_min":50,"temp_max":74,"ph_min":6.5,"ph_max":8.0,
     "temperament":"peaceful","size":12,"care":"beginner","water":"coldwater",
     "min_group":1,"diet":"omnivore","eats_small":True,
-    "wiki":"/wiki/goldfish/",
+    "wiki":"/guides/goldfish-care/",
     "desc":"Classic pond and aquarium fish that prefer cool water. Heavy waste producers that require robust filtration. Will eat small fish and shrimp.",
     "special":["eats_small_fish","coldwater_only"],
   },
@@ -154,7 +154,7 @@ SPECIES = {
     "temp_min":72,"temp_max":81,"ph_min":5.5,"ph_max":7.5,
     "temperament":"peaceful","size":1.75,"care":"beginner","water":"freshwater",
     "min_group":8,"diet":"omnivore","eats_small":False,
-    "wiki":"/wiki/harlequin-rasbora/",
+    "wiki":"/species/harlequin-rasbora",
     "desc":"Active mid-level schooling fish with a distinctive black triangular patch. One of the best all-around community tank fish.",
   },
   "honey-gourami": {
@@ -170,7 +170,7 @@ SPECIES = {
     "temp_min":50,"temp_max":75,"ph_min":7.0,"ph_max":8.5,
     "temperament":"peaceful","size":24,"care":"intermediate","water":"coldwater",
     "min_group":2,"diet":"omnivore","eats_small":True,
-    "wiki":"/wiki/koi/",
+    "wiki":"/guides/koi-fish-care/",
     "desc":"Large pond fish that require hundreds of gallons and cool water. Will eat any fish small enough to fit in their mouth.",
     "special":["pond_only","eats_small_fish"],
   },
@@ -179,7 +179,7 @@ SPECIES = {
     "temp_min":73,"temp_max":82,"ph_min":5.5,"ph_max":7.0,
     "temperament":"peaceful","size":3.5,"care":"beginner","water":"freshwater",
     "min_group":3,"diet":"omnivore","eats_small":False,
-    "wiki":"/wiki/kuhli-loach/",
+    "wiki":"/species/kuhli-loach",
     "desc":"Eel-like bottom dwellers that are peaceful with all non-aggressive fish. Nocturnal and reclusive; need caves and soft substrate.",
   },
   "molly": {
@@ -187,7 +187,7 @@ SPECIES = {
     "temp_min":72,"temp_max":82,"ph_min":7.5,"ph_max":8.5,
     "temperament":"peaceful","size":4,"care":"beginner","water":"freshwater",
     "min_group":3,"diet":"omnivore","eats_small":False,
-    "wiki":"/wiki/molly/",
+    "wiki":"/guides/molly-fish-care/",
     "desc":"Hardy livebearers that prefer alkaline, hard water — sometimes slightly brackish. Prolific breeders; peaceful community fish.",
   },
   "mystery-snail": {
@@ -195,7 +195,7 @@ SPECIES = {
     "temp_min":68,"temp_max":80,"ph_min":7.0,"ph_max":8.0,
     "temperament":"peaceful","size":2,"care":"beginner","water":"freshwater",
     "min_group":1,"diet":"herbivore","eats_small":False,
-    "wiki":"/wiki/mystery-snail/",
+    "wiki":"/compatibility/mystery-snail/",
     "desc":"Large, peaceful aquarium snails that graze on algae and detritus. Shell provides some protection but can be harassed by certain fish.",
     "special":["eaten_by_loaches","eaten_by_puffers"],
   },
@@ -204,7 +204,7 @@ SPECIES = {
     "temp_min":72,"temp_max":80,"ph_min":6.0,"ph_max":7.5,
     "temperament":"peaceful","size":1.5,"care":"beginner","water":"freshwater",
     "min_group":6,"diet":"omnivore","eats_small":False,
-    "wiki":"/wiki/neon-tetra/",
+    "wiki":"/species/neon-tetra",
     "desc":"Iconic schooling fish with vivid electric-blue and red stripes. Hardy in captivity; suitable for most peaceful community setups.",
     "special":["prey_for_large_fish"],
   },
@@ -213,7 +213,7 @@ SPECIES = {
     "temp_min":65,"temp_max":85,"ph_min":6.5,"ph_max":8.5,
     "temperament":"peaceful","size":1,"care":"beginner","water":"freshwater",
     "min_group":1,"diet":"herbivore","eats_small":False,
-    "wiki":"/wiki/nerite-snail/",
+    "wiki":"/compatibility/nerite-snail/",
     "desc":"Outstanding algae-eating snails that do not reproduce in freshwater. Extremely hardy and compatible with virtually all peaceful fish.",
     "special":["eaten_by_puffers"],
   },
@@ -222,7 +222,7 @@ SPECIES = {
     "temp_min":72,"temp_max":82,"ph_min":6.0,"ph_max":7.5,
     "temperament":"peaceful","size":1.5,"care":"beginner","water":"freshwater",
     "min_group":4,"diet":"herbivore","eats_small":False,
-    "wiki":"/wiki/otocinclus/",
+    "wiki":"/species/otocinclus",
     "desc":"Tiny algae-eating catfish that are peaceful with all species. Need established algae growth and biofilm; sensitive to ammonia.",
   },
   "oscar": {
@@ -230,7 +230,7 @@ SPECIES = {
     "temp_min":74,"temp_max":81,"ph_min":6.0,"ph_max":8.0,
     "temperament":"aggressive","size":14,"care":"intermediate","water":"freshwater",
     "min_group":1,"diet":"carnivore","eats_small":True,
-    "wiki":"/wiki/oscar/",
+    "wiki":"/guides/oscar-fish-care/",
     "desc":"Intelligent but aggressive cichlids that will eat any fish small enough to fit in their mouth. Require large tanks (75+ gallons) and robust tank mates.",
     "special":["eats_small_fish","eats_shrimp"],
   },
@@ -248,7 +248,7 @@ SPECIES = {
     "temp_min":65,"temp_max":80,"ph_min":7.0,"ph_max":8.5,
     "temperament":"peaceful","size":2.5,"care":"beginner","water":"freshwater",
     "min_group":3,"diet":"omnivore","eats_small":False,
-    "wiki":"/wiki/platy/",
+    "wiki":"/species/platy",
     "desc":"Hardy livebearers that are among the easiest fish to keep. Peaceful with virtually all community species. Prolific breeders.",
   },
   "pygmy-corydoras": {
@@ -265,7 +265,7 @@ SPECIES = {
     "temp_min":72,"temp_max":79,"ph_min":6.5,"ph_max":7.5,
     "temperament":"semi","size":6,"care":"intermediate","water":"freshwater",
     "min_group":1,"diet":"omnivore","eats_small":False,
-    "wiki":"/wiki/rainbow-shark/",
+    "wiki":"/species/rainbow-shark",
     "desc":"Active bottom dweller that becomes territorial at maturity. One per tank; avoid other shark-like or bottom-dwelling species.",
     "special":["territorial_bottom","one_per_tank"],
   },
@@ -274,7 +274,7 @@ SPECIES = {
     "temp_min":65,"temp_max":80,"ph_min":7.0,"ph_max":8.3,
     "temperament":"peaceful","size":5,"care":"beginner","water":"freshwater",
     "min_group":3,"diet":"omnivore","eats_small":False,
-    "wiki":"/wiki/swordtail/",
+    "wiki":"/guides/swordtail-fish-care-and-breeding/",
     "desc":"Hardy livebearer with a distinctive elongated lower tail fin in males. Peaceful community fish that tolerate a wide temperature range.",
   },
   "tiger-barb": {
@@ -282,7 +282,7 @@ SPECIES = {
     "temp_min":68,"temp_max":79,"ph_min":6.0,"ph_max":8.0,
     "temperament":"semi","size":2.75,"care":"beginner","water":"freshwater",
     "min_group":6,"diet":"omnivore","eats_small":False,
-    "wiki":"/wiki/tiger-barb/",
+    "wiki":"/species/tiger-barb",
     "desc":"Striking striped barbs that are notorious fin-nippers. Must be kept in groups of 6+ to redirect aggression within the school. Incompatible with long-finned fish.",
     "special":["fin_nipper","risky_with_long_fins"],
   },
@@ -291,7 +291,7 @@ SPECIES = {
     "temp_min":64,"temp_max":82,"ph_min":6.5,"ph_max":8.0,
     "temperament":"peaceful","size":2,"care":"beginner","water":"freshwater",
     "min_group":5,"diet":"omnivore","eats_small":False,
-    "wiki":"/wiki/zebra-danio/",
+    "wiki":"/guides/zebra-danio-fish-care/",
     "desc":"Extremely hardy, fast-moving schooling fish tolerant of a wide temperature range. Active top-to-mid swimmers compatible with most community fish.",
   },
 }
@@ -742,7 +742,8 @@ def make_page(slug_a, slug_b):
         "itemListElement":[
             {"@type":"ListItem","position":1,"name":"Home","item":"https://www.fishcareai.com/"},
             {"@type":"ListItem","position":2,"name":"Compatibility","item":"https://www.fishcareai.com/compatibility/"},
-            {"@type":"ListItem","position":3,"name":f"{a['name']} & {b['name']}","item":canon},
+            {"@type":"ListItem","position":3,"name":f"{a['name']} Tank Mates","item":f"https://www.fishcareai.com/compatibility/{slug_a}/"},
+            {"@type":"ListItem","position":4,"name":f"{a['name']} & {b['name']}","item":canon},
         ]
     })
 
@@ -808,7 +809,7 @@ def make_page(slug_a, slug_b):
   <div class="nlinks">
     <a class="nl" href="/">Home</a>
     <a class="nl" href="/guides/">Guides</a>
-    <a class="nl" href="/wiki/">Encyclopedia</a>
+    <a class="nl" href="/species">Encyclopedia</a>
     <a class="nl act" href="/compatibility/">Compatibility</a>
     <a class="nl" href="/#tools">Tools</a>
   </div>
@@ -819,6 +820,7 @@ def make_page(slug_a, slug_b):
     <div class="breadcrumb">
       <a href="/">Home</a><span>/</span>
       <a href="/compatibility/">Compatibility</a><span>/</span>
+      <a href="/compatibility/{slug_a}/">{a['name']} Tank Mates</a><span>/</span>
       <span>{a['name']} &amp; {b['name']}</span>
     </div>
     <div class="tag">🐠 Fish Compatibility Guide</div>
@@ -910,7 +912,7 @@ def make_page(slug_a, slug_b):
       <h3>Tools</h3>
       <a href="/tools/fish-compatibility-checker/">Compatibility Checker</a>
       <a href="/tools/water-parameter-checker/">Water Checker</a>
-      <a href="/tools/tank-size-calculator/">Tank Size Calculator</a>
+      <a href="/tools/aquarium-size-calculator/">Tank Size Calculator</a>
     </div>
   </aside>
 </div>
@@ -1010,7 +1012,7 @@ def make_index(all_pairs):
   <a class="brand" href="/"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"/></a>
   <div class="nlinks">
     <a class="nl" href="/">Home</a><a class="nl" href="/guides/">Guides</a>
-    <a class="nl" href="/wiki/">Encyclopedia</a>
+    <a class="nl" href="/species">Encyclopedia</a>
     <a class="nl act" href="/compatibility/">Compatibility</a>
     <a class="nl" href="/#tools">Tools</a>
   </div>

@@ -44,7 +44,7 @@
   "intro": [
     "The goldfish is the domesticated form of an East Asian carp, <em>Carassius auratus</em>, and the most widely kept ornamental fish in the world.",
     "Wild fish are native to East Asia, including China and Japan, and the species has been introduced to many other countries. FishBase lists the species as a potential pest outside its native range.[1] Chinese texts from the Song dynasty already describe goldfish being bred for ornamental purposes, so the practice is more than a thousand years old.[3] Over that time, breeders have produced dozens of body shapes, fin types and head growths from one species.",
-    "This profile covers the biology behind those varieties, with particular attention to the lionhead goldfish, and the practical housing, water, feeding and lifespan figures welfare organisations recommend. For a step-by-step setup checklist, see our <a href=\"/guides/goldfish-care-guide/\">goldfish care guide</a>."
+    "This profile covers the biology behind those varieties, with particular attention to the lionhead goldfish, and the practical housing, water, feeding and lifespan figures welfare organisations recommend. For a step-by-step setup checklist, see our <a href=\"/guides/goldfish-care/\">goldfish care guide</a>."
   ],
   "sections": [
     {
@@ -121,7 +121,7 @@
   "related_h2": "Related Pages",
   "related": [
     {"href": "/species/golden-orfe", "label": "🐟 Golden Orfe"},
-    {"href": "/guides/goldfish-care-guide/", "label": "📘 Goldfish Care Guide"},
+    {"href": "/guides/goldfish-care/", "label": "📘 Goldfish Care Guide"},
     {"href": "/guides/telescope-goldfish-care/", "label": "📘 Telescope Goldfish Care"},
     {"href": "/species/koi", "label": "🐟 Koi"},
     {"href": "/species/white-cloud-mountain-minnow", "label": "🐟 White Cloud Mountain Minnow"},
