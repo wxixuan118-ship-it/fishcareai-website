@@ -32,6 +32,11 @@ admin/
 *.xlsx
 backlink-output/
 
+# Audit output, GSC exports and the SQL that unpublishes pages. Nothing links
+# here, and /reports/gsc-crawled-not-indexed-2026-10-30-unpublish.sql was
+# downloadable until now (the *.csv/*.xlsx rules above only caught part of it).
+reports/
+
 # VCS, CI and editor state
 .git
 .gitignore

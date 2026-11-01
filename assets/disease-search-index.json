@@ -1554,14 +1554,6 @@
   {
     "species": "Red Bellied Piranha",
     "speciesSlug": "red-bellied-piranha",
-    "condition": "Sinking",
-    "slug": "red-bellied-piranha-sinking",
-    "url": "https://www.fishcareai.com/fish-health/red-bellied-piranha-sinking",
-    "hubUrl": "/aquarium-fish-diseases/red-bellied-piranha-diseases/"
-  },
-  {
-    "species": "Red Bellied Piranha",
-    "speciesSlug": "red-bellied-piranha",
     "condition": "Sunken Belly",
     "slug": "red-bellied-piranha-sunken-belly",
     "url": "https://www.fishcareai.com/fish-health/red-bellied-piranha-sunken-belly",
@@ -2442,14 +2434,6 @@
   {
     "species": "Siamese Algae Eater",
     "speciesSlug": "siamese-algae-eater",
-    "condition": "Curled Body",
-    "slug": "siamese-algae-eater-curled-body",
-    "url": "https://www.fishcareai.com/fish-health/siamese-algae-eater-curled-body",
-    "hubUrl": "/aquarium-fish-diseases/siamese-algae-eater-diseases/"
-  },
-  {
-    "species": "Siamese Algae Eater",
-    "speciesSlug": "siamese-algae-eater",
     "condition": "Darting",
     "slug": "siamese-algae-eater-darting",
     "url": "https://www.fishcareai.com/fish-health/siamese-algae-eater-darting",
@@ -2738,14 +2722,6 @@
   {
     "species": "Silver Arowana",
     "speciesSlug": "silver-arowana",
-    "condition": "Sunken Belly",
-    "slug": "silver-arowana-sunken-belly",
-    "url": "https://www.fishcareai.com/fish-health/silver-arowana-sunken-belly",
-    "hubUrl": "/aquarium-fish-diseases/silver-arowana-diseases/"
-  },
-  {
-    "species": "Silver Arowana",
-    "speciesSlug": "silver-arowana",
     "condition": "Swimming Sideways",
     "slug": "silver-arowana-swimming-sideways",
     "url": "https://www.fishcareai.com/fish-health/silver-arowana-swimming-sideways",
@@ -2901,14 +2877,6 @@
     "condition": "Not Eating",
     "slug": "silver-dollar-not-eating",
     "url": "https://www.fishcareai.com/fish-health/silver-dollar-not-eating",
-    "hubUrl": "/aquarium-fish-diseases/silver-dollar-diseases/"
-  },
-  {
-    "species": "Silver Dollar",
-    "speciesSlug": "silver-dollar",
-    "condition": "Pale Color",
-    "slug": "silver-dollar-pale-color",
-    "url": "https://www.fishcareai.com/fish-health/silver-dollar-pale-color",
     "hubUrl": "/aquarium-fish-diseases/silver-dollar-diseases/"
   },
   {
@@ -3298,14 +3266,6 @@
   {
     "species": "Snowflake Moray",
     "speciesSlug": "snowflake-moray",
-    "condition": "Aggressive",
-    "slug": "snowflake-moray-aggressive",
-    "url": "https://www.fishcareai.com/fish-health/snowflake-moray-aggressive",
-    "hubUrl": "/aquarium-fish-diseases/snowflake-moray-diseases/"
-  },
-  {
-    "species": "Snowflake Moray",
-    "speciesSlug": "snowflake-moray",
     "condition": "Black Spots",
     "slug": "snowflake-moray-black-spots",
     "url": "https://www.fishcareai.com/fish-health/snowflake-moray-black-spots",
@@ -3397,14 +3357,6 @@
     "condition": "Jumping",
     "slug": "snowflake-moray-jumping",
     "url": "https://www.fishcareai.com/fish-health/snowflake-moray-jumping",
-    "hubUrl": "/aquarium-fish-diseases/snowflake-moray-diseases/"
-  },
-  {
-    "species": "Snowflake Moray",
-    "speciesSlug": "snowflake-moray",
-    "condition": "Lethargic",
-    "slug": "snowflake-moray-lethargic",
-    "url": "https://www.fishcareai.com/fish-health/snowflake-moray-lethargic",
     "hubUrl": "/aquarium-fish-diseases/snowflake-moray-diseases/"
   },
   {
@@ -3613,14 +3565,6 @@
     "condition": "Sinking",
     "slug": "spanish-hogfish-sinking",
     "url": "https://www.fishcareai.com/fish-health/spanish-hogfish-sinking",
-    "hubUrl": "/aquarium-fish-diseases/spanish-hogfish-diseases/"
-  },
-  {
-    "species": "Spanish Hogfish",
-    "speciesSlug": "spanish-hogfish",
-    "condition": "Spots On Fins",
-    "slug": "spanish-hogfish-spots-on-fins",
-    "url": "https://www.fishcareai.com/fish-health/spanish-hogfish-spots-on-fins",
     "hubUrl": "/aquarium-fish-diseases/spanish-hogfish-diseases/"
   },
   {
@@ -5018,14 +4962,6 @@
   {
     "species": "Striped Headstander",
     "speciesSlug": "striped-headstander",
-    "condition": "Fuzzy Growth",
-    "slug": "striped-headstander-fuzzy-growth",
-    "url": "https://www.fishcareai.com/fish-health/striped-headstander-fuzzy-growth",
-    "hubUrl": "/aquarium-fish-diseases/striped-headstander-diseases/"
-  },
-  {
-    "species": "Striped Headstander",
-    "speciesSlug": "striped-headstander",
     "condition": "Gasping",
     "slug": "striped-headstander-gasping",
     "url": "https://www.fishcareai.com/fish-health/striped-headstander-gasping",
@@ -5197,14 +5133,6 @@
     "condition": "Cloudy Eyes",
     "slug": "striped-panchax-cloudy-eyes",
     "url": "https://www.fishcareai.com/fish-health/striped-panchax-cloudy-eyes",
-    "hubUrl": "/aquarium-fish-diseases/striped-panchax-diseases/"
-  },
-  {
-    "species": "Striped Panchax",
-    "speciesSlug": "striped-panchax",
-    "condition": "Coughing",
-    "slug": "striped-panchax-coughing",
-    "url": "https://www.fishcareai.com/fish-health/striped-panchax-coughing",
     "hubUrl": "/aquarium-fish-diseases/striped-panchax-diseases/"
   },
   {
@@ -6218,14 +6146,6 @@
   {
     "species": "Tinfoil Barb",
     "speciesSlug": "tinfoil-barb",
-    "condition": "Floating",
-    "slug": "tinfoil-barb-floating",
-    "url": "https://www.fishcareai.com/fish-health/tinfoil-barb-floating",
-    "hubUrl": "/aquarium-fish-diseases/tinfoil-barb-diseases/"
-  },
-  {
-    "species": "Tinfoil Barb",
-    "speciesSlug": "tinfoil-barb",
     "condition": "Fuzzy Growth",
     "slug": "tinfoil-barb-fuzzy-growth",
     "url": "https://www.fishcareai.com/fish-health/tinfoil-barb-fuzzy-growth",
@@ -6277,14 +6197,6 @@
     "condition": "Missing Scales",
     "slug": "tinfoil-barb-missing-scales",
     "url": "https://www.fishcareai.com/fish-health/tinfoil-barb-missing-scales",
-    "hubUrl": "/aquarium-fish-diseases/tinfoil-barb-diseases/"
-  },
-  {
-    "species": "Tinfoil Barb",
-    "speciesSlug": "tinfoil-barb",
-    "condition": "Mucus Coating",
-    "slug": "tinfoil-barb-mucus-coating",
-    "url": "https://www.fishcareai.com/fish-health/tinfoil-barb-mucus-coating",
     "hubUrl": "/aquarium-fish-diseases/tinfoil-barb-diseases/"
   },
   {
