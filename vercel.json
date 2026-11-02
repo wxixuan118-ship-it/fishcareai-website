@@ -89,6 +89,16 @@
   ],
   "redirects": [
     {
+      "source": "/aquarium-fish-diseases/oscar-diseases",
+      "destination": "/guides/oscar-fish-care/diseases/",
+      "statusCode": 301
+    },
+    {
+      "source": "/aquarium-fish-diseases/oscar-diseases/",
+      "destination": "/guides/oscar-fish-care/diseases/",
+      "statusCode": 301
+    },
+    {
       "source": "/species/",
       "destination": "/species$is_args$args",
       "statusCode": 301

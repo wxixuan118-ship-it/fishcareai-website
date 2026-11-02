@@ -15,6 +15,8 @@ import openpyxl
 SITE = "https://www.fishcareai.com"
 # Hubs rewritten by hand via scripts/build-health-problem-hubs.py — never overwrite them here.
 HANDBUILT = {"discus", "angelfish"}
+# Hubs retired with a 301 in vercel.json: link to the redirect target and never regenerate the stub.
+REDIRECTED = {"oscar": "/guides/oscar-fish-care/diseases/"}
 SYMPTOMS = (
     "rapid-breathing", "pale-color", "fin-rot", "losing-color", "missing-scales",
     "cloudy-eyes", "sunken-belly", "swimming-sideways", "fuzzy-growth", "white-spots",
@@ -104,7 +106,7 @@ def main() -> None:
     root = args.root
     hubs = []
     for species, pages in sorted(groups.items(), key=lambda item: (-len(item[1]), label(item[0]))):
-        hub_path = f"/aquarium-fish-diseases/{species}-diseases/"
+        hub_path = REDIRECTED.get(species, f"/aquarium-fish-diseases/{species}-diseases/")
         hub_url = SITE + hub_path
         species_name = label(species)
         hubs.append({"species": species_name, "speciesSlug": species, "url": hub_path, "count": len(pages), "examples": [p["condition"] for p in pages[:3]]})
@@ -127,11 +129,11 @@ def main() -> None:
             {"@context": "https://schema.org", "@type": "CollectionPage", "name": f"{species_name} Diseases", "url": hub_url},
             breadcrumbs([("Home", SITE + "/"), ("Aquarium Fish Diseases", SITE + "/aquarium-fish-diseases/"), (f"{species_name} Diseases", hub_url)]), item_list, faq,
         ]
-        if species in HANDBUILT:
+        if species in HANDBUILT or species in REDIRECTED:
             continue
         write(root / "aquarium-fish-diseases" / f"{species}-diseases" / "index.html", document(f"{species_name} Diseases: Symptoms, Causes & Guides", f"Browse {len(pages)} indexed {species_name} symptom and disease guides. Compare signs, possible causes and next checks.", hub_url, schema, body))
 
-    search_index = [page | {"hubUrl": f'/aquarium-fish-diseases/{page["speciesSlug"]}-diseases/'} for pages in groups.values() for page in pages]
+    search_index = [page | {"hubUrl": REDIRECTED.get(page["speciesSlug"], f'/aquarium-fish-diseases/{page["speciesSlug"]}-diseases/')} for pages in groups.values() for page in pages]
     write(root / "assets" / "disease-search-index.json", json.dumps(search_index, indent=2) + "\n")
     hub_cards = "".join(f'''<a class="card" href="{hub["url"]}"><h3>{html.escape(hub["species"])} Diseases</h3><p class="count">{hub["count"]} indexed guides</p><p>{html.escape(" · ".join(hub["examples"]))}</p><strong>View {html.escape(hub["species"])} guides →</strong></a>''' for hub in hubs)
     quick = "".join(f'<button type="button" data-query="{html.escape(hub["species"])} {html.escape(hub["examples"][0])}">{html.escape(hub["species"])} {html.escape(hub["examples"][0])}</button>' for hub in hubs[:6])

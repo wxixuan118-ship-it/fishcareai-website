@@ -1499,7 +1499,7 @@ DIS_BODY = """    <p>Most oscar illness is a water quality problem wearing a dis
       <li><strong>Stable 77&ndash;80&deg;F</strong> with a reliable, guarded heater.</li>
       <li><strong>Match refill temperature</strong> during water changes &mdash; cold refills are a classic ich trigger.</li>
     </ul>
-    <p>Species-specific symptom guides: <a href="/aquarium-fish-diseases/oscar-diseases/">oscar disease index</a>.</p>
+    <p>Species-specific symptom guides: <a href="/fish-health/fish/oscar">all oscar symptom guides</a>.</p>
 """
 
 DIS = {
@@ -1535,7 +1535,7 @@ DIS = {
     "related": [
         ("/guides/oscar-fish-care/hole-in-the-head/", "Hole in the Head"),
         ("/guides/oscar-fish-care/white-spots/", "Oscar White Spots (Ich)"),
-        ("/aquarium-fish-diseases/oscar-diseases/", "Oscar Disease Index"),
+        ("/fish-health/fish/oscar", "Oscar Symptom Guides"),
         ("/tools/water-parameter-checker/", "Water Parameter Checker"),
     ],
 }
