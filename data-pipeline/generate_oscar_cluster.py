@@ -728,11 +728,12 @@ SIZE = {
 # ════════════════════════════════════════════════════════════════
 # LIFESPAN
 # ════════════════════════════════════════════════════════════════
-LIFESPAN_BODY = """    <p>Oscars are a long commitment. A well-kept fish stays with you for over a decade, which is longer than most dogs manage, and considerably longer than the tank most people buy for it lasts before needing an upgrade.</p>
+LIFESPAN_BODY = """    <p>Oscar fish lifespan is a long commitment. A well-kept fish stays with you for over a decade, which is longer than most dogs manage, and considerably longer than the tank most people buy for it lasts before needing an upgrade.</p>
+    <figure style="margin:22px 0;border-radius:10px;overflow:hidden;line-height:0;"><img src="/assets/guides/oscar/oscar-fish-lifespan.svg" alt="Oscar fish lifespan chart by keeping condition: 18-20 years with exceptional care, 12-15 years well kept, 8-12 years in an average aquarium, 8-10 years in the wild, 3-6 years in an undersized tank or on a poor diet" width="1200" height="640" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;"/></figure>
 
     <h2 id="how-long">How Long Do Oscar Fish Live?</h2>
     <p><strong>A properly kept oscar lives 10&ndash;15 years in an aquarium, and 18&ndash;20 years is documented.</strong> Wild oscars are generally shorter-lived than captive ones, because predation and seasonal food scarcity do what clean water and daily pellets do not.</p>
-    <p>The figure you will also see quoted &mdash; five to eight years &mdash; is not wrong, it is just a description of badly kept oscars. Fish in undersized tanks, on feeder-fish diets, or in water that runs at 60&ndash;100 ppm nitrate consistently die at that age. The species is capable of much more.</p>
+    <p>The shorter oscar fish lifespan you will also see quoted &mdash; five to eight years &mdash; is not wrong, it is just a description of badly kept oscars. Fish in undersized tanks, on feeder-fish diets, or in water that runs at 60&ndash;100 ppm nitrate consistently die at that age. The species is capable of much more.</p>
     <div class="tblwrap"><table class="ptbl">
       <tr><th>Condition</th><th>Typical lifespan</th></tr>
       <tr><td>Well kept: 75&ndash;125 gal, nitrate under 20 ppm, varied diet</td><td>12&ndash;15 years</td></tr>
@@ -742,7 +743,7 @@ LIFESPAN_BODY = """    <p>Oscars are a long commitment. A well-kept fish stays w
       <tr><td>Wild (Amazon basin)</td><td>8&ndash;10 years estimated</td></tr>
     </table></div>
 
-    <h2 id="factors">What Decides Whether You Get 5 Years or 15</h2>
+    <h2 id="factors">What Decides Oscar Fish Lifespan: 5 Years or 15</h2>
     <ol>
       <li><strong>Nitrate, week after week.</strong> This is the biggest single lever. Chronic nitrate exposure is linked to organ damage, faded colour and <a href="/guides/oscar-fish-care/hole-in-the-head/">hole-in-the-head disease</a>. Weekly 40&ndash;50% water changes are the whole intervention.</li>
       <li><strong>Tank size during the growth year.</strong> A stunted juvenile becomes a compromised adult. See <a href="/guides/oscar-fish-care/size-growth/">size and growth</a>.</li>
@@ -789,13 +790,13 @@ LIFESPAN_BODY = """    <p>Oscars are a long commitment. A well-kept fish stays w
 LIFESPAN = {
     "slug": "lifespan",
     "title": "Oscar Fish Lifespan: How Long Do Oscar Fish Live?",
-    "meta_desc": "Oscar fish live 10-15 years in a well-kept aquarium and up to 20 with excellent care. What shortens it to five, life stages by age, and a longevity checklist.",
+    "meta_desc": "Oscar fish lifespan is 10-15 years in a well-kept tank, up to 20 with excellent care. What cuts it to five, the life stages by age, and a longevity checklist.",
     "h1": "Oscar Fish Lifespan: How Long Do Oscars Live?",
     "hero_tag": "Lifespan",
     "hero_meta": "⏳ 10&ndash;15 years typical &nbsp;|&nbsp; \U0001F3C6 Up to 20 years &nbsp;|&nbsp; \U0001F4A7 Nitrate is the main lever",
     "toc_sections": [
         ("how-long", "How Long They Live"),
-        ("factors", "5 Years vs 15 Years"),
+        ("factors", "What Decides Lifespan"),
         ("stages", "Oscar Life Stages"),
         ("ageing", "Old vs Sick"),
         ("extend", "Longevity Checklist"),
@@ -941,10 +942,11 @@ TYPES = {
 # ════════════════════════════════════════════════════════════════
 # MALE VS FEMALE
 # ════════════════════════════════════════════════════════════════
-SEX_BODY = """    <p>Oscars are effectively impossible to sex reliably by eye. They are monomorphic &mdash; males and females look the same &mdash; and almost every "trick" circulating in the hobby is either unreliable or plainly wrong. Here is what actually works, and what does not.</p>
+SEX_BODY = """    <p>Telling male vs female oscar fish apart by eye is effectively impossible. They are monomorphic &mdash; males and females look the same &mdash; and almost every "trick" circulating in the hobby is either unreliable or plainly wrong. Here is what actually works, and what does not.</p>
+    <figure style="margin:22px 0;border-radius:10px;overflow:hidden;line-height:0;"><img src="/assets/guides/oscar/male-vs-female-oscar-fish.svg" alt="Male vs female oscar fish venting comparison: the female genital papilla is broad, blunt and rounded, the male papilla is narrower and pointed; body size, fin shape, colour and dorsal spots do not sex an oscar" width="1200" height="640" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;"/></figure>
 
     <h2 id="short-answer">The Short Answer</h2>
-    <p><strong>The only dependable method for a non-spawning oscar is venting</strong>, and even that requires a mature fish and a careful eye. The only completely certain method is watching which fish lays the eggs.</p>
+    <p><strong>The only dependable way to separate male vs female oscar fish outside spawning is venting</strong>, and even that requires a mature fish and a careful eye. The only completely certain method is watching which fish lays the eggs.</p>
     <div class="tblwrap"><table class="ptbl">
       <tr><th>Method</th><th>Reliability</th><th>Requires</th></tr>
       <tr><td>Watching which fish lays eggs</td><td>Certain</td><td>A spawning pair</td></tr>
@@ -979,7 +981,7 @@ SEX_BODY = """    <p>Oscars are effectively impossible to sex reliably by eye. T
     </ul>
     <p>The tubes are visible for a few days around spawning and then retract. If you are trying to sex a group, this is the window to look. More on the process: <a href="/guides/oscar-fish-care/breeding/">oscar fish breeding and eggs</a>.</p>
 
-    <h2 id="myths">Sexing Myths That Do Not Work</h2>
+    <h2 id="myths">Male vs Female Oscar Fish: Myths That Do Not Work</h2>
     <ul>
       <li><strong>"Males are bigger."</strong> Often true on average and useless on any individual pair. Growth depends far more on tank, diet and age.</li>
       <li><strong>"Males have longer, more pointed fins."</strong> Sometimes slightly true in mature fish, but so variable it decides nothing &mdash; and completely meaningless in long-fin strains.</li>
@@ -999,14 +1001,14 @@ SEX_BODY = """    <p>Oscars are effectively impossible to sex reliably by eye. T
     <p>None of this is diagnostic on its own. Read it alongside <a href="/guides/oscar-fish-care/behavior/">oscar aggression and behaviour</a>.</p>
 
     <h2 id="pairing">Getting a Pair Without Knowing the Sexes</h2>
-    <p>Because sexing is so unreliable, the standard approach among oscar breeders is to skip it entirely: <strong>buy five or six juveniles, raise them together in a large tank, and let a pair form.</strong> Oscars choose their own partners and a self-selected pair bonds far more reliably than two fish you introduce because you think you sexed them correctly.</p>
+    <p>Because male vs female oscar fish cannot be told apart reliably, the standard approach among breeders is to skip sexing entirely: <strong>buy five or six juveniles, raise them together in a large tank, and let a pair form.</strong> Oscars choose their own partners and a self-selected pair bonds far more reliably than two fish you introduce because you think you sexed them correctly.</p>
     <p>Once a pair forms, they will separate themselves, claim a corner and defend it. At that point the remaining fish need to be removed &mdash; a bonded oscar pair in spawning condition will not tolerate company. Budget for a second tank before you start; that is the part of this plan people underestimate.</p>
 """
 
 SEX = {
     "slug": "male-vs-female",
     "title": "Male vs Female Oscar Fish: How to Tell the Difference",
-    "meta_desc": "How to sex an oscar fish: venting the genital papilla is the only reliable method, plus the breeding tube at spawning, and the myths that do not work.",
+    "meta_desc": "Male vs female oscar fish: venting the genital papilla is the only reliable method, plus the breeding tube at spawning, and the sexing myths that do not work.",
     "h1": "Male vs Female Oscar Fish",
     "hero_tag": "Male vs Female",
     "hero_meta": "⚖️ Monomorphic species &nbsp;|&nbsp; \U0001F50D Venting is the only reliable test &nbsp;|&nbsp; \U0001F95A Certain only at spawning",

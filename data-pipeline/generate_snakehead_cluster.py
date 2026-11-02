@@ -1222,11 +1222,12 @@ MVF = {
 # ════════════════════════════════════════════════════════════════
 # BREEDING
 # ════════════════════════════════════════════════════════════════
-BREEDING_BODY = """    <p>Snakeheads are among the most attentive parents in freshwater fish. Both reproductive strategies in the genus involve serious, sustained parental care &mdash; which is exactly why a spawning pair turns a peaceful tank into a war zone. Breeding <em>Channa</em> is achievable at home, and the hard parts are pair formation and what to do with the fry, not the spawning itself.</p>
+BREEDING_BODY = """    <p>Breeding snakehead fish means working with some of the most attentive parents in freshwater. Both reproductive strategies in the genus involve serious, sustained parental care &mdash; which is exactly why a spawning pair turns a peaceful tank into a war zone. Breeding <em>Channa</em> is achievable at home, and the hard parts are pair formation and what to do with the fry, not the spawning itself.</p>
+    <figure style="margin:22px 0;border-radius:10px;overflow:hidden;line-height:0;"><img src="/assets/guides/snakehead/breeding-snakehead-fish.svg" alt="Breeding snakehead fish: dwarf Channa species mouthbrood with the male holding eggs and fry, larger Channa guard a floating nest as a pair, and both need a cool season followed by warming and heavy feeding before a four to seven day incubation" width="1200" height="640" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;"/></figure>
 
     <div class="callout callout-warn"><strong>Before you breed:</strong> in the US, interstate transport of snakeheads is federally prohibited and most states ban possession, so a successful spawn can leave you with dozens of fish you cannot legally rehome. Confirm you have somewhere for the fry to go before you condition the pair.</div>
 
-    <h2 id="strategies">Two Breeding Strategies</h2>
+    <h2 id="strategies">Breeding Snakehead Fish: Two Strategies</h2>
     <table class="ptbl">
       <tr><th></th><th>Paternal mouthbrooders</th><th>Nest guarders</th></tr>
       <tr><td>Species</td><td><em>C. andrao</em>, <em>C. bleheri</em>, <em>C. gachua</em>, <em>C. limbata</em>, <em>C. pulchra</em>, <em>C. stewartii</em></td><td><em>C. striata</em>, <em>C. argus</em>, <em>C. micropeltes</em>, <em>C. marulius</em>, <em>C. marulioides</em></td></tr>
@@ -1274,7 +1275,7 @@ BREEDING_BODY = """    <p>Snakeheads are among the most attentive parents in fre
     </ul>
     <p>Leave the guarding male with the fry as long as he is calm &mdash; he is a better fry-herder than any net. Remove him if he starts eating them, which some males do once they resume feeding.</p>
 
-    <h2 id="problems">Common Breeding Problems</h2>
+    <h2 id="problems">Common Problems When Breeding Snakehead Fish</h2>
     <ul>
       <li><strong>Pair fights instead of spawning.</strong> Usually not enough cover, or the fish are not actually a bonded pair. Add sight-breaks; separate if damage occurs.</li>
       <li><strong>Male swallows the eggs.</strong> Common on a first spawn, especially in young or disturbed males. Do not intervene &mdash; most get it right on the second or third attempt.</li>
@@ -1287,7 +1288,7 @@ BREEDING_BODY = """    <p>Snakeheads are among the most attentive parents in fre
 BREEDING = {
     "slug": "breeding",
     "title": "Breeding Snakehead Fish: Channa Mating, Eggs & Raising Fry",
-    "meta_desc": "How to breed snakehead fish: forming a pair, the cool-season trigger, mouthbrooding vs nest guarding, egg incubation and raising Channa fry.",
+    "meta_desc": "Breeding snakehead fish at home: forming a pair, the cool-season trigger, mouthbrooding vs nest guarding, egg incubation and raising Channa fry.",
     "h1": "Breeding Snakehead Fish (Channa)",
     "hero_tag": "Breeding & Fry",
     "hero_meta": "\U0001F95A Mouthbrooders & nest guarders &nbsp;|&nbsp; ❄️ Cool season required &nbsp;|&nbsp; \U0001F423 4&ndash;7 day incubation",

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Breeding snakehead fish: two strategies, one trigger</title>
+<desc id="d">Breeding snakehead fish: Channa species either mouthbrood, with the male holding eggs and fry in his mouth, or guard a floating nest as a pair; both need a cool season followed by warming and heavy feeding as the spawning trigger, eggs incubate for four to seven days, and the fry need the parents removed or a separate grow-out tank</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">Breeding snakehead fish: two strategies, one trigger</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">Both Channa reproductive modes involve sustained parental care — which is why a spawning pair clears the tank.</text>
+<rect x="48" y="146" width="536" height="212" rx="16" fill="rgba(255,255,255,.07)" stroke="#2bd4c4" stroke-width="2" stroke-opacity=".45"/>
+<text x="74" y="184" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="800" fill="#2bd4c4">Mouthbrooders</text>
+<text x="74" y="216" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#e6f0f6">Male holds eggs and fry</text>
+<text x="74" y="242" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#e6f0f6">in his mouth for days</text>
+<text x="74" y="268" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#e6f0f6"></text>
+<text x="74" y="294" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#e6f0f6">Dwarf Channa: C. gachua,</text>
+<text x="74" y="320" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#e6f0f6">C. bleheri, C. andrao</text>
+<rect x="616" y="146" width="536" height="212" rx="16" fill="rgba(255,255,255,.07)" stroke="#f0b429" stroke-width="2" stroke-opacity=".45"/>
+<text x="642" y="184" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="800" fill="#f0b429">Nest guarders</text>
+<text x="642" y="216" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#e6f0f6">Pair defends a floating</text>
+<text x="642" y="242" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#e6f0f6">egg raft at the surface</text>
+<text x="642" y="268" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#e6f0f6"></text>
+<text x="642" y="294" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#e6f0f6">Larger Channa: C. marulius,</text>
+<text x="642" y="320" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#e6f0f6">C. micropeltes, C. striata</text>
+<text x="48" y="400" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="800" fill="#ffffff">The trigger, then the clock</text>
+<rect x="48" y="420" width="258" height="106" rx="14" fill="rgba(255,255,255,.08)"/>
+<text x="70" y="450" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="800" fill="#8ff0e5">Cool season</text>
+<text x="70" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#cfe2ee">6-8 weeks at the low end</text>
+<text x="70" y="498" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#cfe2ee">of the species range</text>
+<path d="M 314 473 l 12 0 m -6 -6 l 6 6 l -6 6" stroke="#8aaec2" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<rect x="330" y="420" width="258" height="106" rx="14" fill="rgba(255,255,255,.08)"/>
+<text x="352" y="450" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="800" fill="#8ff0e5">Warm + feed</text>
+<text x="352" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#cfe2ee">Raise temperature,</text>
+<text x="352" y="498" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#cfe2ee">heavy live/frozen food</text>
+<path d="M 596 473 l 12 0 m -6 -6 l 6 6 l -6 6" stroke="#8aaec2" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<rect x="612" y="420" width="258" height="106" rx="14" fill="rgba(255,255,255,.08)"/>
+<text x="634" y="450" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="800" fill="#8ff0e5">Spawn</text>
+<text x="634" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#cfe2ee">Eggs float; parent</text>
+<text x="634" y="498" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#cfe2ee">takes over</text>
+<path d="M 878 473 l 12 0 m -6 -6 l 6 6 l -6 6" stroke="#8aaec2" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<rect x="894" y="420" width="258" height="106" rx="14" fill="rgba(255,255,255,.08)"/>
+<text x="916" y="450" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="800" fill="#8ff0e5">4-7 days</text>
+<text x="916" y="476" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#cfe2ee">Incubation, then</text>
+<text x="916" y="498" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#cfe2ee">free-swimming fry</text>
+<rect x="48" y="546" width="1104" height="58" rx="14" fill="rgba(226,87,76,.15)"/>
+<text x="72" y="582" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="600" fill="#ffb3ab">A bonded pair will kill anything else in the tank. Have the second tank running before you start.</text>
+</svg>

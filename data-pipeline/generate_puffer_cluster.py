@@ -183,7 +183,8 @@ def related_html(links):
 
 
 def page(slug, title, meta_desc, h1, hero_tag, hero_meta,
-         toc_sections, body_html, faqs, related, date=DATE, hero_img=HERO_IMG):
+         toc_sections, body_html, faqs, related, date=DATE, hero_img=HERO_IMG,
+         extra_html=""):
     if slug:
         canonical = f"https://www.fishcareai.com/guides/puffer-fish-care/{slug}/"
         crumb_tail = (
@@ -222,6 +223,9 @@ def page(slug, title, meta_desc, h1, hero_tag, hero_meta,
     }, ensure_ascii=False)
 
     full_body = body_html.rstrip() + "\n\n" + faq_visible_html(faqs) + "\n\n" + related_html(related)
+    # Cross-cluster link blocks added later by the fishcare-page skill; kept here so a
+    # regeneration does not silently delete them.
+    full_body += extra_html
     toc = list(toc_sections) + [("faq", "FAQ")]
     page_path = canonical.replace("https://www.fishcareai.com", "")
 
@@ -732,8 +736,11 @@ SALT_BODY = """    <p>Marine puffers are the biggest personalities on most reef 
     <p>A netted puffer gulps air and may not be able to expel it, which leads to a fish that floats and cannot right itself. Move puffers in a submerged container or a bag, always underwater. Symptoms and the fix are covered on the <a href="/guides/puffer-fish-care/puffing-up/">puffing up page</a>.</p>
 """
 
+GROUPER_SERIES_BLOCK = '\n  \n    <!--fishcare-page:grouper-fish:start-->\n    <h2 id="grouper-fish-series">Grouper Fish Guides</h2>\n    <div class="guide-links"><a href="/guides/grouper-fish-care/" title="Grouper Fish Care Guide (Aquarium Groupers)">Care Guide</a><a href="/guides/grouper-fish-care/tank-size/" title="Grouper Fish Tank Size: Minimum Gallons and Length by Species">Tank Size</a><a href="/guides/grouper-fish-care/water-parameters/" title="Grouper Fish Water Parameters: Temperature, Salinity, pH and Filtration">Water Parameters</a><a href="/guides/grouper-fish-care/food/" title="Grouper Fish Food: What Do Grouper Fish Eat and How Often?">Food &amp; Feeding</a><a href="/guides/grouper-fish-care/size-lifespan/" title="Grouper Fish Size and Lifespan: How Big Do Grouper Fish Get?">Size &amp; Lifespan</a><a href="/guides/grouper-fish-care/types/" title="Types of Grouper Fish for the Aquarium: 12 Species Compared">Types</a><a href="/guides/grouper-fish-care/miniatus/" title="Miniatus Grouper Care Guide (Coral Hind, Cephalopholis miniata)">Miniatus Grouper</a><a href="/guides/grouper-fish-care/panther/" title="Panther Grouper Care Guide (Humpback Grouper, Cromileptes altivelis)">Panther Grouper</a><a href="/guides/grouper-fish-care/breeding/" title="Grouper Fish Breeding: Sex Change, Male vs Female, Eggs and Larvae">Breeding</a><a href="/guides/grouper-fish-care/tank-mates/" title="Grouper Fish Tank Mates: What Fish Can Live With a Grouper?">Tank Mates</a><a href="/guides/grouper-fish-care/behavior/" title="Grouper Fish Behavior: Ambush, Colour Change, Barking and Tameness">Behavior</a><a href="/guides/grouper-fish-care/diseases/" title="Grouper Fish Diseases: Ich, Velvet, Flukes, HLLE, Cloudy Eye and Bloat">Diseases</a><a href="/calculators/grouper-fish-tank-size/" title="Grouper Fish Tank Size Calculator">Calculator</a></div>\n<!--fishcare-page:grouper-fish:end-->'
+
 SALT = {
     "slug": "saltwater",
+    "extra_html": GROUPER_SERIES_BLOCK,
     "title": "Saltwater Puffer Fish Care: Species, Tank Size and Diet",
     "meta_desc": "Saltwater puffer fish care: porcupine, dogface and valentini puffers compared, marine water parameters, tank size, shell-on feeding and why copper is unsafe.",
     "h1": "Saltwater Puffer Fish Care",
@@ -2191,7 +2198,8 @@ BEHAV = {
 # ════════════════════════════════════════════════════════════════
 # BREEDING & SEXING
 # ════════════════════════════════════════════════════════════════
-BREED_BODY = """    <p>Puffers are among the hardest aquarium fish to breed, and for most species it has never been done reliably in captivity. The single exception is the pea puffer, which spawns readily in a planted tank. Almost every other puffer you can buy &mdash; green spotted, figure 8, fahaka, mbu, Amazon, congo &mdash; is wild-caught, which is why sexing and breeding information for them is so thin.</p>
+BREED_BODY = """    <p>Puffer fish breeding is among the hardest things to attempt in a freshwater tank, and for most species it has never been done reliably in captivity. The single exception is the pea puffer, which spawns readily in a planted tank. Almost every other puffer you can buy &mdash; green spotted, figure 8, fahaka, mbu, Amazon, congo &mdash; is wild-caught, which is why sexing and breeding information for them is so thin.</p>
+    <figure style="margin:22px 0;border-radius:10px;overflow:hidden;line-height:0;"><img src="/assets/guides/puffer/puffer-fish-breeding.svg" alt="Puffer fish breeding by species: pea puffers spawn readily and are sexable, figure 8 and green spotted puffers have no reliable captive spawning, fahaka, mbu and Amazon puffers are wild-caught, and the pea puffer spawn runs condition, spawn, hatch at about five days, then infusoria for the fry" width="1200" height="640" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;"/></figure>
 
     <h2 id="sexing">Male vs Female Puffer Fish</h2>
     <p>Most puffers show no reliable external sexual dimorphism at all. The species where you can tell:</p>
@@ -2229,7 +2237,7 @@ BREED_BODY = """    <p>Puffers are among the hardest aquarium fish to breed, and
       <li><strong>Survival:</strong> expect losses. A first spawn producing five or six juveniles is a normal result.</li>
     </ul>
 
-    <h2 id="other">Breeding Other Puffer Species</h2>
+    <h2 id="other">Puffer Fish Breeding in Other Species</h2>
     <p>Realistic expectations for the rest:</p>
     <ul>
       <li><strong>Green spotted and figure 8 puffers:</strong> not bred in home aquariums. All stock is wild-caught from estuaries, and reproducing the migratory salinity cycle is beyond a home setup.</li>
@@ -2246,7 +2254,7 @@ BREED_BODY = """    <p>Puffers are among the hardest aquarium fish to breed, and
 BREED = {
     "slug": "breeding",
     "title": "Puffer Fish Breeding: Sexing, Eggs and Raising Fry",
-    "meta_desc": "Puffer fish breeding and sexing: telling male from female pea puffers, a step-by-step spawning method, egg and fry care, and which species never breed.",
+    "meta_desc": "Puffer fish breeding and sexing: telling male from female pea puffers, a step-by-step spawning method, egg and fry care, and the species that never breed.",
     "h1": "Puffer Fish Breeding and Sexing",
     "hero_tag": "Breeding & Sexing",
     "hero_meta": "\U0001F95A Pea puffers only &nbsp;|&nbsp; \U0001F5D3️ Hatch ~5 days &nbsp;|&nbsp; \U0001F41B Infusoria first &nbsp;|&nbsp; ⚧ Most species unsexable",
@@ -2782,6 +2790,7 @@ def main():
             toc_sections=spec["toc_sections"], body_html=spec["body"],
             faqs=spec["faqs"], related=spec["related"],
             hero_img=spec.get("hero_img", HERO_IMG),
+            extra_html=spec.get("extra_html", ""),
         )
         out_dir = BASE / spec["slug"] if spec["slug"] else BASE
         out_dir.mkdir(parents=True, exist_ok=True)

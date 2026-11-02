@@ -606,7 +606,8 @@ WATER = {
 # ════════════════════════════════════════════════════════════════
 # PAGE — Food & Feeding
 # ════════════════════════════════════════════════════════════════
-FOOD_BODY = """    <p>Blood parrot fish are omnivores with a serious handicap: the hybrid mouth opens into a narrow vertical slit and cannot close fully, so they cannot bite chunks, tear flesh or snap food out of the water column. Everything about parrot fish food comes back to that. This page covers what blood parrot fish eat, the best food for color, how much and how often, and what to avoid.</p>
+FOOD_BODY = """    <p>Blood parrot fish are omnivores with a serious handicap: the hybrid mouth opens into a narrow vertical slit and cannot close fully, so they cannot bite chunks, tear flesh or snap food out of the water column. The best food for parrot fish comes back to that one constraint. This page covers what blood parrot fish eat, the best food for color, how much and how often, and what to avoid.</p>
+    <figure style="margin:22px 0;border-radius:10px;overflow:hidden;line-height:0;"><img src="/assets/guides/parrot/best-food-for-parrot-fish.svg" alt="Best food for parrot fish chart: small sinking colour-enhancing cichlid pellets daily, frozen bloodworms, brine shrimp and mysis two to three times a week, blanched vegetables twice a week, and the floating pellets, large chunks and feeder fish to avoid" width="1200" height="640" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;"/></figure>
 
     <h2 id="what-they-eat">What Do Blood Parrot Fish Eat?</h2>
     <p>In practical terms a blood parrot eats <strong>small sinking pellets, frozen meaty foods and soft vegetables</strong>. They are opportunistic omnivores by inheritance &mdash; the midas and redhead cichlids that produced them eat insect larvae, small crustaceans, plant matter and detritus &mdash; so a mixed diet suits them better than any single food.</p>
@@ -673,7 +674,7 @@ FOOD_BODY = """    <p>Blood parrot fish are omnivores with a serious handicap: t
 FOOD = {
     "slug": "food",
     "title": "Best Food for Parrot Fish: What Blood Parrots Eat & How Much",
-    "meta_desc": "Best food for blood parrot fish: sinking colour-enhancing cichlid pellets, frozen bloodworms and vegetables. Feeding schedule, portions and foods to avoid.",
+    "meta_desc": "The best food for parrot fish: sinking colour-enhancing cichlid pellets, frozen bloodworms and vegetables. Feeding schedule, portion sizes and foods to avoid.",
     "h1": "Best Food for Parrot Fish and How to Feed Them",
     "hero_tag": "Food & Feeding",
     "hero_meta": "\U0001F35A Sinking pellets &nbsp;|&nbsp; \U0001F551 2&times; daily &nbsp;|&nbsp; \U0001F49A 1 fast day weekly",
@@ -1113,9 +1114,10 @@ TYPES = {
 # PAGE — Breeding & Babies
 # ════════════════════════════════════════════════════════════════
 BREEDING_BODY = """    <p>Blood parrot cichlids pair up, dig pits, lay eggs and guard them like textbook cichlid parents &mdash; and then almost nothing hatches. The reason is hybrid sterility, and understanding it saves a lot of disappointment. This page covers blood parrot fish breeding, why the eggs usually fail, what a viable cross looks like, and how to raise baby blood parrot fish if you do get fry.</p>
+    <figure style="margin:22px 0;border-radius:10px;overflow:hidden;line-height:0;"><img src="/assets/guides/parrot/blood-parrot-fish-breeding.svg" alt="Blood parrot fish breeding timeline: a pair digs a pit on day 0, the female lays 200-400 eggs, the eggs turn opaque white with fungus by day 2-3 because male blood parrots are sterile, and the parents eat them by day 4" width="1200" height="640" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;"/></figure>
 
-    <h2 id="sterility">Why Blood Parrot Breeding Usually Fails</h2>
-    <p><strong>Almost all male blood parrots are sterile.</strong> They are hybrids, and hybrid males in this cross generally have non-functional or absent milt-producing tissue. Females are usually fertile and lay perfectly good eggs; there is simply nothing to fertilise them.</p>
+    <h2 id="sterility">Why Blood Parrot Fish Breeding Usually Fails</h2>
+    <p><strong>Blood parrot fish breeding fails because almost all male blood parrots are sterile.</strong> They are hybrids, and hybrid males in this cross generally have non-functional or absent milt-producing tissue. Females are usually fertile and lay perfectly good eggs; there is simply nothing to fertilise them.</p>
     <p>What you see in a home tank is therefore very common: a pair forms, cleans a flat rock or digs a pit, the female lays 200&ndash;400 eggs, both fish fan and guard them &mdash; and within 48&ndash;72 hours the eggs turn opaque white with fungus and the parents eat them. That is unfertilised eggs going off, not bad parenting.</p>
     <div class="callout"><strong>Infertile spawning is still a good sign.</strong> Fish only spawn when they are healthy, well fed and settled in stable water. If your blood parrots are laying eggs, your husbandry is working &mdash; even though nothing will hatch.</div>
 
@@ -1139,7 +1141,7 @@ BREEDING_BODY = """    <p>Blood parrot cichlids pair up, dig pits, lay eggs and 
     </table>
     <p>The dependable method is behavioural: whichever fish lays the eggs is female. Venting is only readable in the days around a spawn.</p>
 
-    <h2 id="conditioning">Setting Up for a Spawn</h2>
+    <h2 id="conditioning">Setting Up for Blood Parrot Fish Breeding</h2>
     <ol>
       <li><strong>Let a pair form naturally.</strong> Grow out 5&ndash;6 juveniles in a 75&ndash;100 gallon tank and let two pick each other &mdash; forced pairings usually end in one fish being beaten.</li>
       <li><strong>Move the pair to their own tank</strong> of 55 gallons or more if you can. Spawning blood parrots become genuinely territorial and will harass tank mates.</li>
@@ -1177,7 +1179,7 @@ BREEDING_BODY = """    <p>Blood parrot cichlids pair up, dig pits, lay eggs and 
 BREEDING = {
     "slug": "breeding",
     "title": "Blood Parrot Fish Breeding: Why Eggs Fail & Raising Babies",
-    "meta_desc": "Blood parrot fish breeding explained: male hybrids are sterile so most eggs never hatch. Sexing, spawning setup, egg timeline and how to raise baby blood parrots.",
+    "meta_desc": "Blood parrot fish breeding: male hybrids are sterile, so most eggs never hatch. Sexing, spawning setup, the egg timeline and how to raise baby blood parrots.",
     "h1": "Blood Parrot Fish Breeding and Baby Parrot Fish",
     "hero_tag": "Breeding & Babies",
     "hero_meta": "\U0001F95A 200&ndash;400 eggs &nbsp;|&nbsp; ♂️ Males usually sterile &nbsp;|&nbsp; \U0001F321️ 82&ndash;84&deg;F to spawn",

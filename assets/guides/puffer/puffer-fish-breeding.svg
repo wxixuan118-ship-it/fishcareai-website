@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Puffer fish breeding: which species, and how far you get</title>
+<desc id="d">Puffer fish breeding by species: pea puffers spawn readily in a planted tank with eggs hatching in about five days and fry taking infusoria first; figure 8 and green spotted puffers have no reliable captive spawning; fahaka, mbu and Amazon puffers are wild-caught and most puffer species show no external sexual dimorphism</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">Puffer fish breeding: which species, and how far you get</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">One species spawns readily at home. Everything else on the shop list is wild-caught.</text>
+<rect x="48" y="152" width="1104" height="70" rx="14" fill="rgba(255,255,255,.07)" stroke="#2bd4c4" stroke-width="2" stroke-opacity=".45"/>
+<text x="76" y="182" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#ffffff">Pea puffer (Carinotetraodon travancoricus)</text>
+<text x="76" y="208" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#8aaec2">Spawns readily in a planted tank</text>
+<rect x="980" y="170" width="140" height="34" rx="17" fill="#2bd4c4" opacity=".88"/>
+<text x="1050" y="193" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#06202e" text-anchor="middle">Sexable</text>
+<rect x="48" y="238" width="1104" height="70" rx="14" fill="rgba(255,255,255,.07)" stroke="#f0b429" stroke-width="2" stroke-opacity=".45"/>
+<text x="76" y="268" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#ffffff">Figure 8 / green spotted puffer</text>
+<text x="76" y="294" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#8aaec2">No reliable captive spawning</text>
+<rect x="980" y="256" width="140" height="34" rx="17" fill="#f0b429" opacity=".88"/>
+<text x="1050" y="279" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#06202e" text-anchor="middle">Not sexable</text>
+<rect x="48" y="324" width="1104" height="70" rx="14" fill="rgba(255,255,255,.07)" stroke="#e2574c" stroke-width="2" stroke-opacity=".45"/>
+<text x="76" y="354" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="700" fill="#ffffff">Fahaka, mbu, Amazon, congo</text>
+<text x="76" y="380" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#8aaec2">Wild-caught; never bred at home</text>
+<rect x="980" y="342" width="140" height="34" rx="17" fill="#e2574c" opacity=".88"/>
+<text x="1050" y="365" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#06202e" text-anchor="middle">Not sexable</text>
+<text x="48" y="452" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="800" fill="#ffffff">Pea puffer spawn, start to finish</text>
+<rect x="48" y="472" width="258" height="96" rx="14" fill="rgba(43,212,196,.13)"/>
+<text x="70" y="502" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="800" fill="#8ff0e5">Condition</text>
+<text x="70" y="528" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#cdeee9">Live and frozen food,</text>
+<text x="70" y="550" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#cdeee9">2-3 females per male</text>
+<rect x="330" y="472" width="258" height="96" rx="14" fill="rgba(43,212,196,.13)"/>
+<text x="352" y="502" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="800" fill="#8ff0e5">Spawn</text>
+<text x="352" y="528" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#cdeee9">Into dense moss</text>
+<text x="352" y="550" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#cdeee9">or spawning mop</text>
+<rect x="612" y="472" width="258" height="96" rx="14" fill="rgba(43,212,196,.13)"/>
+<text x="634" y="502" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="800" fill="#8ff0e5">Hatch</text>
+<text x="634" y="528" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#cdeee9">About 5 days</text>
+<rect x="894" y="472" width="258" height="96" rx="14" fill="rgba(43,212,196,.13)"/>
+<text x="916" y="502" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="800" fill="#8ff0e5">Fry</text>
+<text x="916" y="528" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#cdeee9">Infusoria, then</text>
+<text x="916" y="550" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#cdeee9">baby brine shrimp</text>
+<text x="48" y="604" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#8aaec2">A rounder belly is not pregnancy — puffers do not carry live young. It is usually food, bloat or constipation.</text>
+</svg>

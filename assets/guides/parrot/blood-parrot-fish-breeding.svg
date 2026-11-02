@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-labelledby="t d">
+<title id="t">Blood parrot fish breeding: the usual timeline</title>
+<desc id="d">Blood parrot fish breeding timeline: a pair forms and digs a pit on day 0, the female lays 200 to 400 eggs, by day 2 to 3 the eggs turn opaque white with fungus because almost all male blood parrots are sterile, and the parents eat the clutch by day 4; fry are only possible when the female is crossed with a fertile non-hybrid male</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061b2c"/><stop offset="1" stop-color="#0c3d5c"/></linearGradient></defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/>
+<text x="48" y="64" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="30" font-weight="800" fill="#ffffff">Blood parrot fish breeding: the usual timeline</text>
+<text x="48" y="98" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="17" fill="#8aaec2">Normal cichlid parenting, then nothing hatches. The failure is genetic, not behavioural.</text>
+<rect x="48" y="150" width="258" height="190" rx="16" fill="rgba(255,255,255,.07)" stroke="#2bd4c4" stroke-width="2" stroke-opacity=".5"/>
+<text x="70" y="190" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="18" font-weight="800" fill="#2bd4c4">Day 0</text>
+<text x="70" y="228" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#e6f0f6">Pair forms, digs a pit</text>
+<text x="70" y="254" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#e6f0f6">or cleans a flat rock</text>
+<path d="M 314 245 l 12 0 m -6 -6 l 6 6 l -6 6" stroke="#8aaec2" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<rect x="330" y="150" width="258" height="190" rx="16" fill="rgba(255,255,255,.07)" stroke="#2bd4c4" stroke-width="2" stroke-opacity=".5"/>
+<text x="352" y="190" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="18" font-weight="800" fill="#2bd4c4">Day 0-1</text>
+<text x="352" y="228" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#e6f0f6">Female lays 200-400 eggs</text>
+<text x="352" y="254" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#e6f0f6">Both fish fan and guard</text>
+<path d="M 596 245 l 12 0 m -6 -6 l 6 6 l -6 6" stroke="#8aaec2" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<rect x="612" y="150" width="258" height="190" rx="16" fill="rgba(255,255,255,.07)" stroke="#e2574c" stroke-width="2" stroke-opacity=".5"/>
+<text x="634" y="190" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="18" font-weight="800" fill="#e2574c">Day 2-3</text>
+<text x="634" y="228" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#e6f0f6">Eggs turn opaque white</text>
+<text x="634" y="254" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#e6f0f6">and fungus</text>
+<path d="M 878 245 l 12 0 m -6 -6 l 6 6 l -6 6" stroke="#8aaec2" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<rect x="894" y="150" width="258" height="190" rx="16" fill="rgba(255,255,255,.07)" stroke="#e2574c" stroke-width="2" stroke-opacity=".5"/>
+<text x="916" y="190" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="18" font-weight="800" fill="#e2574c">Day 3-4</text>
+<text x="916" y="228" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#e6f0f6">Parents eat the clutch</text>
+<rect x="48" y="376" width="1104" height="86" rx="14" fill="rgba(226,87,76,.15)"/>
+<text x="72" y="412" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#ffb3ab">Why: almost all male blood parrots are sterile</text>
+<text x="72" y="442" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#f3cfcb">They are hybrids. Females lay perfectly good eggs; there is nothing to fertilise them.</text>
+<rect x="48" y="480" width="1104" height="86" rx="14" fill="rgba(43,212,196,.14)"/>
+<text x="72" y="516" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#8ff0e5">When fry are actually possible</text>
+<text x="72" y="546" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="16" fill="#cdeee9">A female blood parrot crossed with a fertile non-hybrid male — convict, severum or midas. The fry are not blood parrots.</text>
+<text x="48" y="604" font-family="Inter,-apple-system,Segoe UI,sans-serif" font-size="15" fill="#8aaec2">82–84°F to trigger spawning. Opaque white eggs within 72 hours are unfertilised eggs going off, not bad parenting.</text>
+</svg>
