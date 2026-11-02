@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" width="720" height="470" role="img" aria-labelledby="t d">
+<title id="t">Telescope goldfish eye problems: inherited shape compared with changes worth investigating</title>
+<desc id="d">Two side-by-side head profiles of a telescope goldfish. The left shows the stable inherited protruding eye, listed as symmetrical, clear and not a disease. The right shows an affected eye with new swelling, surface haze and redness, each listed below as a sign to record rather than a diagnosis.</desc>
+<style>
+.bg{fill:#f1f7fb}.card{fill:#fff;stroke:#d7e5ed}.body{fill:#e8873a}.body2{fill:#d9762c}
+.eye{fill:#2b3a45}.eyew{fill:#fff}.haze{fill:#cfd9de;opacity:.72}.red{fill:#e0583f}
+.h{font:600 16px system-ui,sans-serif;fill:#123d52}.sub{font:13.5px system-ui,sans-serif;fill:#597589}
+.tag{font:600 12.5px system-ui,sans-serif;fill:#17658a}.ok{font:600 13px system-ui,sans-serif;fill:#1d7a52}
+.li{font:13.5px system-ui,sans-serif;fill:#20394b}.ring{fill:none;stroke:#b97514;stroke-width:2.2;stroke-dasharray:5 4}
+</style>
+<rect class="bg" width="720" height="470" rx="14"/>
+<text class="h" x="22" y="30">Telescope goldfish eyes: baseline shape vs. a new problem</text>
+<text class="sub" x="22" y="50">Compare your fish with an older photograph taken from the same angle.</text>
+
+<rect class="card" x="22" y="64" width="322" height="310" rx="12"/>
+<text class="tag" x="42" y="90">NORMAL VARIETY SHAPE</text>
+<g transform="translate(58,104)">
+  <path class="body" d="M28 74C28 36 66 10 112 10c58 0 96 28 108 50 6 12 6 20 0 32-12 22-50 50-108 50-46 0-84-26-84-68Z"/>
+  <path class="body2" d="M196 48c14 6 22 14 24 12 6 12 6 20 0 32-2-2-10 6-24 12 6-18 6-38 0-56Z"/>
+  <circle cx="74" cy="48" r="30" class="body2"/><circle cx="74" cy="48" r="24" class="eyew"/><circle cx="74" cy="48" r="14" class="eye"/>
+</g>
+<text class="ok" x="42" y="286">✓ Symmetrical, clear, stable</text>
+<text class="sub" x="42" y="310">Inherited conformation — not a disease,</text>
+<text class="sub" x="42" y="330">and nothing to treat.</text>
+
+<rect class="card" x="376" y="64" width="322" height="310" rx="12"/>
+<text class="tag" x="396" y="90">CHANGES TO RECORD</text>
+<g transform="translate(412,104)">
+  <path class="body" d="M28 74C28 36 66 10 112 10c58 0 96 28 108 50 6 12 6 20 0 32-12 22-50 50-108 50-46 0-84-26-84-68Z"/>
+  <path class="body2" d="M196 48c14 6 22 14 24 12 6 12 6 20 0 32-2-2-10 6-24 12 6-18 6-38 0-56Z"/>
+  <circle cx="74" cy="48" r="37" class="body2"/><circle cx="74" cy="48" r="30" class="eyew"/>
+  <circle cx="74" cy="48" r="30" class="haze"/><circle cx="74" cy="48" r="14" class="eye"/>
+  <path class="red" d="M48 26c9 5 15 13 18 21l-5 2c-3-8-9-15-16-19Z"/>
+  <circle cx="74" cy="48" r="42" class="ring"/>
+</g>
+<circle cx="403" cy="281" r="4.5" fill="#b97514"/><text class="li" x="416" y="286">New swelling or asymmetry</text>
+<circle cx="403" cy="305" r="4.5" fill="#9fb0ba"/><text class="li" x="416" y="310">Surface haze or milkiness</text>
+<circle cx="403" cy="329" r="4.5" fill="#e0583f"/><text class="li" x="416" y="334">Redness or bleeding</text>
+
+<text class="sub" x="22" y="404">One eye or both, and the date the change started, alter what it most likely means.</text>
+<text class="sub" x="22" y="426">A photograph shows appearance only; it cannot measure pressure inside the eye or infection behind it.</text>
+<text class="sub" x="22" y="448">Record the signs and your water figures, then seek a diagnosis — this comparison is not one.</text>
+</svg>
