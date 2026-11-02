@@ -1,0 +1,83 @@
+path,cluster,action,reason,redirect_to,how
+/calculators/rainbow-fish-tank-size/,calculators,reindex,30KB 工具页，站内 20 个入链，纯抓取预算问题,,GSC Request Indexing + IndexNow
+/calculators/tang-fish-tank-size/,calculators,reindex,30KB 工具页，站内 20 个入链，纯抓取预算问题,,GSC Request Indexing + IndexNow
+/compatibility/african-butterfly-fish-and-threadfin-rainbowfish/,compatibility,keep,淡水有效组合但需求极低；清掉 872 个跨水体页后会自然被抓到,,不动
+/compatibility/black-ghost-knifefish-and-threadfin-rainbowfish/,compatibility,keep,淡水有效组合但需求极低；清掉 872 个跨水体页后会自然被抓到,,不动
+/compatibility/black-phantom-tetra-and-lionfish/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/black-ruby-barb-and-lionfish/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/black-ruby-barb-and-threadfin-rainbowfish/,compatibility,keep,淡水有效组合但需求极低；清掉 872 个跨水体页后会自然被抓到,,不动
+/compatibility/blue-tang-and-mystery-snail/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/cardinal-tetra-and-lionfish/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/chili-rasbora-and-lionfish/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/clown-knifefish-and-lionfish/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/clown-pleco-and-lionfish/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/clown-pleco-and-threadfin-rainbowfish/,compatibility,keep,淡水有效组合但需求极低；清掉 872 个跨水体页后会自然被抓到,,不动
+/compatibility/clown-pleco-and-weather-loach/,compatibility,keep,淡水有效组合但需求极低；清掉 872 个跨水体页后会自然被抓到,,不动
+/compatibility/denison-barb-and-lionfish/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/diamond-tetra-and-lionfish/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/diamond-tetra-and-threadfin-rainbowfish/,compatibility,keep,淡水有效组合但需求极低；清掉 872 个跨水体页后会自然被抓到,,不动
+/compatibility/diamond-tetra-and-x-ray-tetra/,compatibility,keep,淡水有效组合但需求极低；清掉 872 个跨水体页后会自然被抓到,,不动
+/compatibility/dwarf-chain-loach-and-lionfish/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/foxface-rabbitfish-and-threadfin-rainbowfish/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/frontosa-cichlid-and-lionfish/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/glowlight-tetra-and-lionfish/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/green-terror-cichlid-and-lionfish/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/jewel-cichlid-and-watchman-goby/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/keyhole-cichlid-and-lionfish/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/koi-and-lionfish/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/koi-and-threadfin-rainbowfish/,compatibility,keep,淡水有效组合但需求极低；清掉 872 个跨水体页后会自然被抓到,,不动
+/compatibility/lionfish-and-panda-cory/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/lionfish-and-pea-puffer/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/lionfish-and-peppered-cory/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/lionfish-and-percula-clownfish/,compatibility,reindex,海水×海水，真实缸内搭配问题（狮子鱼/小丑鱼/倒吊）,,从 /compatibility/lionfish/ hub 提权 + Request Indexing
+/compatibility/lionfish-and-silver-dollar/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/lionfish-and-texas-cichlid/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/lionfish-and-watchman-goby/,compatibility,reindex,海水×海水，真实缸内搭配问题（狮子鱼/小丑鱼/倒吊）,,从 /compatibility/lionfish/ hub 提权 + Request Indexing
+/compatibility/lionfish-and-x-ray-tetra/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/lionfish-and-yellow-tang/,compatibility,reindex,海水×海水，真实缸内搭配问题（狮子鱼/小丑鱼/倒吊）,,从 /compatibility/lionfish/ hub 提权 + Request Indexing
+/compatibility/lionfish-and-zebra-loach/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/moonlight-gourami-and-threadfin-rainbowfish/,compatibility,keep,淡水有效组合但需求极低；清掉 872 个跨水体页后会自然被抓到,,不动
+/compatibility/neon-rainbowfish-and-threadfin-rainbowfish/,compatibility,keep,淡水有效组合但需求极低；清掉 872 个跨水体页后会自然被抓到,,不动
+/compatibility/panda-cory-and-threadfin-rainbowfish/,compatibility,keep,淡水有效组合但需求极低；清掉 872 个跨水体页后会自然被抓到,,不动
+/compatibility/peppered-cory-and-yellow-tang/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/percula-clownfish-and-zebra-loach/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/senegal-bichir-and-threadfin-rainbowfish/,compatibility,keep,淡水有效组合但需求极低；清掉 872 个跨水体页后会自然被抓到,,不动
+/compatibility/severum-cichlid-and-threadfin-rainbowfish/,compatibility,keep,淡水有效组合但需求极低；清掉 872 个跨水体页后会自然被抓到,,不动
+/compatibility/silver-dollar-and-threadfin-rainbowfish/,compatibility,keep,淡水有效组合但需求极低；清掉 872 个跨水体页后会自然被抓到,,不动
+/compatibility/texas-cichlid-and-watchman-goby/,compatibility,404,海水种×淡水种，页面自评 0/100「cannot share one aquarium」，零搜索需求,,删目录 + 从 sitemap 移除 + 清 hub 入链
+/compatibility/threadfin-rainbowfish-and-three-spot-gourami/,compatibility,keep,淡水有效组合但需求极低；清掉 872 个跨水体页后会自然被抓到,,不动
+/fish-health/threadfin-rainbowfish-losing-color,fish-health,unpublish,冷门物种 ~700 词模板页，无 diseases hub 承接,,Supabase published=false
+/fish-health/three-spot-gourami-fuzzy-growth,fish-health,keep,常见物种（斑马鱼/泥鳅/白云金丝等）长尾症状页，保留等抓取预算释放,,不动
+/fish-health/three-spot-gourami-red-streaks,fish-health,keep,常见物种（斑马鱼/泥鳅/白云金丝等）长尾症状页，保留等抓取预算释放,,不动
+/fish-health/tropheus-cichlid-sinking,fish-health,unpublish,冷门物种 ~700 词模板页，无 diseases hub 承接,,Supabase published=false
+/fish-health/turquoise-rainbowfish-floating,fish-health,unpublish,冷门物种 ~700 词模板页，无 diseases hub 承接,,Supabase published=false
+/fish-health/upside-down-catfish-bloated,fish-health,unpublish,冷门物种 ~700 词模板页，无 diseases hub 承接,,Supabase published=false
+/fish-health/variatus-platy-pale-color,fish-health,unpublish,28天仅 1 点击/11 曝光，与冷门组同级（依 url-master-table-2026-09-28 实测修正）,,Supabase published=false
+/fish-health/venustus-cichlid-sinking,fish-health,unpublish,冷门物种 ~700 词模板页，无 diseases hub 承接,,Supabase published=false
+/fish-health/watchman-goby-rubbing,fish-health,unpublish,冷门物种 ~700 词模板页，无 diseases hub 承接,,Supabase published=false
+/fish-health/weather-loach-floating,fish-health,retitle,"28天 2 点击/26 曝光偏低，但全站无一处出现美市通用名 ""dojo loach""，疑为命名问题而非需求问题",,"标题/H1/正文补 ""dojo loach"" 别名后再观察，先不下线"
+/fish-health/weather-loach-fuzzy-growth,fish-health,retitle,"28天 2 点击/26 曝光偏低，但全站无一处出现美市通用名 ""dojo loach""，疑为命名问题而非需求问题",,"标题/H1/正文补 ""dojo loach"" 别名后再观察，先不下线"
+/fish-health/weather-loach-rubbing,fish-health,retitle,"28天 2 点击/26 曝光偏低，但全站无一处出现美市通用名 ""dojo loach""，疑为命名问题而非需求问题",,"标题/H1/正文补 ""dojo loach"" 别名后再观察，先不下线"
+/fish-health/weather-loach-sunken-belly,fish-health,retitle,"28天 2 点击/26 曝光偏低，但全站无一处出现美市通用名 ""dojo loach""，疑为命名问题而非需求问题",,"标题/H1/正文补 ""dojo loach"" 别名后再观察，先不下线"
+/fish-health/white-cloud-mountain-minnow-spots-on-fins,fish-health,keep,常见物种（斑马鱼/泥鳅/白云金丝等）长尾症状页，保留等抓取预算释放,,不动
+/fish-health/yoyo-loach-white-spots,fish-health,keep,常见物种（斑马鱼/泥鳅/白云金丝等）长尾症状页，保留等抓取预算释放,,不动
+/fish-health/zebra-danio-hiding,fish-health,keep,常见物种（斑马鱼/泥鳅/白云金丝等）长尾症状页，保留等抓取预算释放,,不动
+/fish-health/zebra-danio-jumping,fish-health,keep,常见物种（斑马鱼/泥鳅/白云金丝等）长尾症状页，保留等抓取预算释放,,不动
+/fish-health/zebra-danio-sinking,fish-health,keep,常见物种（斑马鱼/泥鳅/白云金丝等）长尾症状页，保留等抓取预算释放,,不动
+/fish-health/zebra-loach-floating,fish-health,keep,常见物种（斑马鱼/泥鳅/白云金丝等）长尾症状页，保留等抓取预算释放,,不动
+/fish-health/zebra-pleco-bulging-eyes,fish-health,unpublish,冷门物种 ~700 词模板页，无 diseases hub 承接,,Supabase published=false
+/guides/goldfish-care/breeding/,guides,rewrite,真实需求页但正文仅 460–535 词，低于抓取门槛,,扩写至 1200+ 词后 Request Indexing
+/guides/goldfish-care/spots-colour/,guides,rewrite,真实需求页但正文仅 460–535 词，低于抓取门槛,,扩写至 1200+ 词后 Request Indexing
+/guides/goldfish-care/swim-bladder/,guides,rewrite,真实需求页但正文仅 460–535 词，低于抓取门槛,,扩写至 1200+ 词后 Request Indexing
+/guides/grouper-fish-care/behavior/,guides,reindex,1000–1500 词 cluster 子页，内容达标，纯抓取预算问题,,Request Indexing + IndexNow
+/guides/grouper-fish-care/breeding/,guides,reindex,1000–1500 词 cluster 子页，内容达标，纯抓取预算问题,,Request Indexing + IndexNow
+/guides/grouper-fish-care/tank-mates/,guides,reindex,1000–1500 词 cluster 子页，内容达标，纯抓取预算问题,,Request Indexing + IndexNow
+/guides/oscar-fish-care/lifespan/,guides,reindex,1000–1500 词 cluster 子页，内容达标，纯抓取预算问题,,Request Indexing + IndexNow
+/guides/oscar-fish-care/male-vs-female/,guides,reindex,1000–1500 词 cluster 子页，内容达标，纯抓取预算问题,,Request Indexing + IndexNow
+/guides/parrot-fish-care/breeding/,guides,reindex,1000–1500 词 cluster 子页，内容达标，纯抓取预算问题,,Request Indexing + IndexNow
+/guides/parrot-fish-care/food/,guides,reindex,1000–1500 词 cluster 子页，内容达标，纯抓取预算问题,,Request Indexing + IndexNow
+/guides/puffer-fish-care/breeding/,guides,reindex,1000–1500 词 cluster 子页，内容达标，纯抓取预算问题,,Request Indexing + IndexNow
+/guides/rainbow-fish-care/breeding/,guides,reindex,1000–1500 词 cluster 子页，内容达标，纯抓取预算问题,,Request Indexing + IndexNow
+/guides/rainbow-fish-care/types/,guides,reindex,1000–1500 词 cluster 子页，内容达标，纯抓取预算问题,,Request Indexing + IndexNow
+/guides/snakehead-fish-care/breeding/,guides,reindex,1000–1500 词 cluster 子页，内容达标，纯抓取预算问题,,Request Indexing + IndexNow
+/guides/telescope-goldfish-care/eye-problems/,guides,rewrite,真实需求页但正文仅 460–535 词，低于抓取门槛,,扩写至 1200+ 词后 Request Indexing
