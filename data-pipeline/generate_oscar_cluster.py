@@ -258,6 +258,7 @@ def page(slug, title, meta_desc, h1, hero_tag, hero_meta,
 
 <div class="artlay">
   <article class="artc">
+    <p class="pillar-link" style="margin-bottom:18px;padding:10px 14px;background:rgba(46,132,192,.14);border-left:3px solid var(--pl);border-radius:0 8px 8px 0;font-size:.9rem">Part of our <a href="/guides/oscar-fish-care/"><strong>oscar fish care guide</strong></a>, which covers size, lifespan, tank size, tank mates and feeding on one page.</p>
 {full_body}
   </article>
 
