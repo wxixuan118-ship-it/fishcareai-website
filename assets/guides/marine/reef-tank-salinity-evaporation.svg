@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" width="720" height="430" role="img" aria-labelledby="t d">
+<title id="t">Why reef tank salinity drifts</title>
+<desc id="d">Evaporation removes fresh water, salinity rises, and topping off with RO/DI water brings it back.</desc>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#c4dbe8"/></marker></defs>
+<rect width="720" height="430" rx="20" fill="#0a2a42"/>
+<text x="36" y="52" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800" fill="#ffffff" text-anchor="start">Why reef tank salinity drifts</text>
+<rect x="36" y="80" width="648" height="74" rx="12" fill="#123a56" />
+<text x="56" y="112" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">1. Fresh water evaporates</text>
+<text x="56" y="140" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="start">Salt stays behind in the tank.</text>
+<rect x="36" y="166" width="648" height="74" rx="12" fill="#123a56" />
+<text x="56" y="198" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">2. Salinity slowly rises</text>
+<text x="56" y="226" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="start">Check it 1–3 times a week.</text>
+<rect x="36" y="252" width="648" height="74" rx="12" fill="#123a56" />
+<text x="56" y="284" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">3. Top off with RO/DI only</text>
+<text x="56" y="312" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="start">Salt water would push salinity higher.</text>
+<rect x="36" y="338" width="648" height="74" rx="12" fill="#123a56" />
+<text x="56" y="370" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">4. Retest after mixing</text>
+<text x="56" y="398" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="start">Change in small steps, not all at once.</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 490" width="720" height="490" role="img" aria-labelledby="t d">
+<title id="t">Aquarium heater calculator wattage chart</title>
+<desc id="d">Estimated heater watts at a 10 degree Fahrenheit rise: 10 gallons 50 W, 20 gallons 100 W, 29 gallons 145 W, 40 gallons 200 W, 55 gallons 275 W, 75 gallons 225 W, 125 gallons 375 W.</desc>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#c4dbe8"/></marker></defs>
+<rect width="720" height="490" rx="20" fill="#0a2a42"/>
+<text x="36" y="52" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800" fill="#ffffff" text-anchor="start">Aquarium heater watts at a 10°F rise</text>
+<text x="36" y="84" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="start">Closed lid. Estimate from this calculator.</text>
+<line x1="56" y1="327.5" x2="696" y2="327.5" stroke="#24506b" stroke-width="1"/>
+<line x1="56" y1="255.0" x2="696" y2="255.0" stroke="#24506b" stroke-width="1"/>
+<line x1="56" y1="182.5" x2="696" y2="182.5" stroke="#24506b" stroke-width="1"/>
+<line x1="56" y1="110.0" x2="696" y2="110.0" stroke="#24506b" stroke-width="1"/>
+<line x1="56" y1="400" x2="696" y2="400" stroke="#3b6680" stroke-width="2"/>
+<rect x="68" y="363.75" width="56" height="36.25" rx="4" fill="#1e90d6" />
+<text x="96.0" y="353.75" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">50 W</text>
+<text x="96.0" y="430" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="500" fill="#c4dbe8" text-anchor="middle">10 gal</text>
+<rect x="158" y="327.5" width="56" height="72.5" rx="4" fill="#1e90d6" />
+<text x="186.0" y="317.5" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">100 W</text>
+<text x="186.0" y="430" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="500" fill="#c4dbe8" text-anchor="middle">20 gal</text>
+<rect x="248" y="294.875" width="56" height="105.125" rx="4" fill="#1e90d6" />
+<text x="276.0" y="284.875" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">145 W</text>
+<text x="276.0" y="430" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="500" fill="#c4dbe8" text-anchor="middle">29 gal</text>
+<rect x="338" y="255.0" width="56" height="145.0" rx="4" fill="#1e90d6" />
+<text x="366.0" y="245.0" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">200 W</text>
+<text x="366.0" y="430" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="500" fill="#c4dbe8" text-anchor="middle">40 gal</text>
+<rect x="428" y="200.625" width="56" height="199.375" rx="4" fill="#1e90d6" />
+<text x="456.0" y="190.625" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">275 W</text>
+<text x="456.0" y="430" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="500" fill="#c4dbe8" text-anchor="middle">55 gal</text>
+<rect x="518" y="236.875" width="56" height="163.125" rx="4" fill="#1e90d6" />
+<text x="546.0" y="226.875" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">225 W</text>
+<text x="546.0" y="430" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="500" fill="#c4dbe8" text-anchor="middle">75 gal</text>
+<rect x="608" y="128.125" width="56" height="271.875" rx="4" fill="#1e90d6" />
+<text x="636.0" y="118.125" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">375 W</text>
+<text x="636.0" y="430" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="500" fill="#c4dbe8" text-anchor="middle">125 gal</text>
+<text x="36" y="468" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="start">Watts per gallon taper above 55 gallons.</text>
+</svg>

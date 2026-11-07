@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 342" width="720" height="342" role="img" aria-labelledby="t d">
+<title id="t">Aquarium weight breakdown for a 55 gallon tank</title>
+<desc id="d">A 55 gallon freshwater example totals 592 lb and a reef example with more sand and rock totals 713 lb, with water making up most of the weight.</desc>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#c4dbe8"/></marker></defs>
+<rect width="720" height="342" rx="20" fill="#0a2a42"/>
+<text x="36" y="52" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800" fill="#ffffff" text-anchor="start">Where a 55 gallon tank&#x27;s weight goes</text>
+<rect x="36" y="76" width="20" height="20" rx="4" fill="#1e90d6" />
+<text x="64" y="92" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="500" fill="#c4dbe8" text-anchor="start">Water</text>
+<rect x="135" y="76" width="20" height="20" rx="4" fill="#c47a0a" />
+<text x="163" y="92" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="500" fill="#c4dbe8" text-anchor="start">Glass</text>
+<rect x="234" y="76" width="20" height="20" rx="4" fill="#1f9d7a" />
+<text x="262" y="92" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="500" fill="#c4dbe8" text-anchor="start">Sand and rock</text>
+<text x="36" y="126" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">Freshwater example: 592 lb</text>
+<rect x="36" y="138" width="389.4" height="40" rx="4" fill="#1e90d6" />
+<rect x="427.4" y="138" width="64.5" height="40" rx="4" fill="#c47a0a" />
+<rect x="493.9" y="138" width="44.9" height="40" rx="4" fill="#1f9d7a" />
+<text x="36" y="222" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">Reef example: 713 lb</text>
+<rect x="36" y="234" width="398.7" height="40" rx="4" fill="#1e90d6" />
+<rect x="436.7" y="234" width="64.5" height="40" rx="4" fill="#c47a0a" />
+<rect x="503.2" y="234" width="138.7" height="40" rx="4" fill="#1f9d7a" />
+<text x="36" y="318" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="start">Rock and sand amounts are examples. Enter your own above.</text>
+</svg>

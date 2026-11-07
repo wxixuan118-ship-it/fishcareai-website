@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" width="720" height="430" role="img" aria-labelledby="t d">
+<title id="t">Aquarium heater calculation example</title>
+<desc id="d">A 20 gallon tank raised 10 degrees Fahrenheit above the room needs about 100 watts.</desc>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#c4dbe8"/></marker></defs>
+<rect width="720" height="430" rx="20" fill="#0a2a42"/>
+<text x="36" y="52" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800" fill="#ffffff" text-anchor="start">Aquarium heater calculation example</text>
+<rect x="36" y="80" width="648" height="74" rx="12" fill="#123a56" />
+<text x="56" y="112" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">1. Find the temperature rise</text>
+<text x="56" y="140" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="start">78°F target − 68°F room = 10°F</text>
+<rect x="36" y="166" width="648" height="74" rx="12" fill="#123a56" />
+<text x="56" y="198" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">2. Multiply by tank size</text>
+<text x="56" y="226" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="start">20 gal × 0.5 W × 10°F = 100 W</text>
+<rect x="36" y="252" width="648" height="74" rx="12" fill="#123a56" />
+<text x="56" y="284" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">3. Adjust for an open top</text>
+<text x="56" y="312" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="start">Closed lid here, so no change</text>
+<rect x="36" y="338" width="648" height="74" rx="12" fill="#123a56" />
+<text x="56" y="370" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">4. Round up to a heater size</text>
+<text x="56" y="398" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="start">One 100 W heater, or two 50 W heaters</text>
+</svg>

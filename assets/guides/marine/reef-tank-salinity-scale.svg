@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 345" width="720" height="345" role="img" aria-labelledby="t d">
+<title id="t">Reef tank salinity scale</title>
+<desc id="d">Reef range 32 to 36 ppt, with SG 1.025 at about 33 ppt and natural seawater at 35 ppt, SG 1.0264.</desc>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#c4dbe8"/></marker></defs>
+<rect width="720" height="345" rx="20" fill="#0a2a42"/>
+<text x="36" y="52" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800" fill="#ffffff" text-anchor="start">Reef tank salinity target</text>
+<rect x="50" y="170" width="620" height="44" rx="8" fill="#123a56" />
+<rect x="205.0" y="170" width="310.0" height="44" rx="8" fill="#1f9d7a" />
+<text x="360.0" y="199" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" fill="#ffffff" text-anchor="middle">Reef range 32–36 ppt</text>
+<line x1="298.0" y1="118" x2="298.0" y2="170" stroke="#ffffff" stroke-width="3"/>
+<text x="298.0" y="106" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" fill="#ffffff" text-anchor="middle">SG 1.025</text>
+<line x1="437.5" y1="88" x2="437.5" y2="170" stroke="#ffffff" stroke-width="3"/>
+<text x="445.5" y="78" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" fill="#ffffff" text-anchor="start">SG 1.0264</text>
+<text x="445.5" y="106" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="19" font-weight="400" fill="#c4dbe8" text-anchor="start">natural seawater</text>
+<line x1="50.0" y1="214" x2="50.0" y2="224" stroke="#3b6680" stroke-width="2"/>
+<text x="50.0" y="252" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="start">30 ppt</text>
+<text x="50.0" y="280" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="19" font-weight="400" fill="#c4dbe8" text-anchor="start">1.0226</text>
+<line x1="205.0" y1="214" x2="205.0" y2="224" stroke="#3b6680" stroke-width="2"/>
+<text x="205.0" y="252" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="middle">32 ppt</text>
+<text x="205.0" y="280" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="19" font-weight="400" fill="#c4dbe8" text-anchor="middle">1.0241</text>
+<line x1="360.0" y1="214" x2="360.0" y2="224" stroke="#3b6680" stroke-width="2"/>
+<text x="360.0" y="252" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="middle">34 ppt</text>
+<text x="360.0" y="280" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="19" font-weight="400" fill="#c4dbe8" text-anchor="middle">1.0256</text>
+<line x1="515.0" y1="214" x2="515.0" y2="224" stroke="#3b6680" stroke-width="2"/>
+<text x="515.0" y="252" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="middle">36 ppt</text>
+<text x="515.0" y="280" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="19" font-weight="400" fill="#c4dbe8" text-anchor="middle">1.0271</text>
+<line x1="670.0" y1="214" x2="670.0" y2="224" stroke="#3b6680" stroke-width="2"/>
+<text x="670.0" y="252" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="end">38 ppt</text>
+<text x="670.0" y="280" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="19" font-weight="400" fill="#c4dbe8" text-anchor="end">1.0286</text>
+<text x="36" y="322" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="19" font-weight="400" fill="#c4dbe8" text-anchor="start">SG values at 25°C, from Randy Holmes-Farley&#x27;s table.</text>
+</svg>

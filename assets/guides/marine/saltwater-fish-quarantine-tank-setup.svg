@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" width="720" height="510" role="img" aria-labelledby="t d">
+<title id="t">Saltwater fish quarantine tank setup diagram</title>
+<desc id="d">A bare-bottom quarantine tank with a tight lid, filter with mature media, heater, PVC hide and air stone.</desc>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#c4dbe8"/></marker></defs>
+<rect width="720" height="510" rx="20" fill="#0a2a42"/>
+<text x="36" y="52" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800" fill="#ffffff" text-anchor="start">Saltwater quarantine tank setup</text>
+<rect x="90" y="110" width="540" height="300" rx="6" fill="#16597d" stroke="#c4dbe8" stroke-width="4"/>
+<rect x="80" y="96" width="560" height="14" rx="4" fill="#c4dbe8" />
+<rect x="110" y="110" width="60" height="110" rx="6" fill="#2c3e50" />
+<rect x="555" y="120" width="16" height="170" rx="8" fill="#c47a0a" />
+<rect x="250" y="372" width="120" height="34" rx="17" fill="#d7dfe5" />
+<rect x="250" y="380" width="24" height="18" rx="6" fill="#0a2a42" />
+<rect x="346" y="380" width="24" height="18" rx="6" fill="#0a2a42" />
+<rect x="455" y="396" width="44" height="12" rx="6" fill="#e8eef2" />
+<circle cx="471" cy="380" r="4" fill="#ffffff" opacity=".65"/>
+<circle cx="482" cy="360" r="5" fill="#ffffff" opacity=".65"/>
+<circle cx="474" cy="335" r="4" fill="#ffffff" opacity=".65"/>
+<circle cx="483" cy="305" r="5" fill="#ffffff" opacity=".65"/>
+<circle cx="473" cy="275" r="4" fill="#ffffff" opacity=".65"/>
+<text x="360" y="88" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="middle">Tight lid, dim light</text>
+<text x="180" y="170" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="start">Filter with</text>
+<text x="180" y="196" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="start">mature media</text>
+<text x="545" y="200" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="end">Heater</text>
+<text x="310" y="358" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="middle">PVC hide</text>
+<text x="445" y="345" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="end">Air</text>
+<text x="445" y="370" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="end">stone</text>
+<text x="360" y="448" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Bare bottom: no sand or rock</text>
+<text x="360" y="480" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="middle">Separate nets and siphons, 3 ft from the display</text>
+</svg>

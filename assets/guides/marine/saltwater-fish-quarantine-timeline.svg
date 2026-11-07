@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" width="720" height="520" role="img" aria-labelledby="t d">
+<title id="t">Saltwater fish quarantine timeline</title>
+<desc id="d">Five stages from arrival to moving day across a 4 to 6 week saltwater fish quarantine.</desc>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#c4dbe8"/></marker></defs>
+<rect width="720" height="520" rx="20" fill="#0a2a42"/>
+<text x="36" y="52" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800" fill="#ffffff" text-anchor="start">Saltwater fish quarantine: 4–6 weeks</text>
+<rect x="36" y="80" width="648" height="74" rx="12" fill="#123a56" />
+<text x="56" y="112" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">Arrival</text>
+<text x="56" y="140" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="start">Match water slowly. Discard store water.</text>
+<rect x="36" y="166" width="648" height="74" rx="12" fill="#123a56" />
+<text x="56" y="198" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">Week 1</text>
+<text x="56" y="226" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="start">Check daily. Test ammonia and nitrite often.</text>
+<rect x="36" y="252" width="648" height="74" rx="12" fill="#123a56" />
+<text x="56" y="284" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">Weeks 2–4</text>
+<text x="56" y="312" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="start">Watch for spots, rubbing and fast breathing.</text>
+<rect x="36" y="338" width="648" height="74" rx="12" fill="#123a56" />
+<text x="56" y="370" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">Weeks 4–6</text>
+<text x="56" y="398" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="start">Eating and breathing normally? Keep watching.</text>
+<rect x="36" y="424" width="648" height="74" rx="12" fill="#123a56" />
+<text x="56" y="456" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="start">Moving day</text>
+<text x="56" y="484" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="start">Acclimate. Leave quarantine water behind.</text>
+</svg>

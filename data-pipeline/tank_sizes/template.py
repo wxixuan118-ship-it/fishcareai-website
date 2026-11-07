@@ -380,7 +380,7 @@ def render_equipment(p):
 {p['equipment_intro_html']}
 <h3><span>🌀</span>Filter</h3>{e['filter']}
 <h3><span>🌡️</span>Heater</h3>{e['heater']}
-<div class="cta-row"><a class="btn btn-ghost" href="/tools/aquarium-equipment-calculator/">Size filter, heater &amp; light for your tank →</a></div>
+<div class="cta-row"><a class="btn btn-ghost" href="/tools/aquarium-equipment-calculator/">Size filter, heater &amp; light for your tank →</a> <a class="btn btn-ghost" href="/tools/aquarium-heater-calculator/">Size your heater →</a> <a class="btn btn-ghost" href="/tools/aquarium-weight-calculator/">Estimate filled weight →</a></div>
 <h3><span>💡</span>Lighting</h3>{e['lighting']}
 <h3><span>🪨</span>Substrate</h3>{e['substrate']}
 <div class="cta-row"><a class="btn btn-ghost" href="/tools/aquarium-substrate-calculator/">Aquarium substrate calculator →</a></div>

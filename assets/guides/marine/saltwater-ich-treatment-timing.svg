@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 496" width="720" height="496" role="img" aria-labelledby="t d">
+<title id="t">Saltwater ich treatment timing chart</title>
+<desc id="d">Trophonts feed for 3 to 7 days and most tomonts release in 4 to 8 days, but release has been reported up to 72 days, so copper runs at least 21 to 42 days.</desc>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#c4dbe8"/></marker></defs>
+<rect width="720" height="496" rx="20" fill="#0a2a42"/>
+<text x="36" y="52" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800" fill="#ffffff" text-anchor="start">Why saltwater ich treatment takes weeks</text>
+<text x="36" y="92" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500" fill="#ffffff" text-anchor="start">Trophont feeding on fish: 3–7 days</text>
+<rect x="60.3" y="104" width="32.400000000000006" height="20" rx="4" fill="#1e90d6" />
+<text x="36" y="170" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500" fill="#ffffff" text-anchor="start">Most tomonts release: 4–8 days</text>
+<rect x="68.4" y="182" width="32.39999999999999" height="20" rx="4" fill="#1e90d6" />
+<text x="36" y="248" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500" fill="#ffffff" text-anchor="start">Copper treatment minimum: 21–42 days</text>
+<rect x="206.1" y="260" width="170.1" height="20" rx="4" fill="#1e90d6" />
+<text x="36" y="326" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500" fill="#ffffff" text-anchor="start">Longest tomont release reported: 3–72 days</text>
+<rect x="60.3" y="338" width="558.9000000000001" height="20" rx="4" fill="#1e90d6" />
+<line x1="36" y1="406" x2="684" y2="406" stroke="#3b6680" stroke-width="2"/>
+<line x1="36.0" y1="406" x2="36.0" y2="414" stroke="#3b6680" stroke-width="2"/>
+<text x="36.0" y="440" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="start">0</text>
+<line x1="198.0" y1="406" x2="198.0" y2="414" stroke="#3b6680" stroke-width="2"/>
+<text x="198.0" y="440" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="middle">20</text>
+<line x1="360.0" y1="406" x2="360.0" y2="414" stroke="#3b6680" stroke-width="2"/>
+<text x="360.0" y="440" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="middle">40</text>
+<line x1="522.0" y1="406" x2="522.0" y2="414" stroke="#3b6680" stroke-width="2"/>
+<text x="522.0" y="440" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="middle">60</text>
+<line x1="684.0" y1="406" x2="684.0" y2="414" stroke="#3b6680" stroke-width="2"/>
+<text x="684.0" y="440" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="end">80</text>
+<text x="360" y="472" font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#c4dbe8" text-anchor="middle">Days (sources: UF/IFAS FA164)</text>
+</svg>
