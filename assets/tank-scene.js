@@ -53,7 +53,32 @@
     amano:     { kind: 'shrimp', zone: 'bottom', body: 'rgba(205,210,198,.8)', c1: '#5a5f66', speed: .025, pauses: true },
     nerite:    { kind: 'snail', zone: 'bottom', body: '#5a4a1e', c1: '#1d1a10', speed: .005 },
     mystery:   { kind: 'snail', zone: 'bottom', body: '#e8b93a', c1: '#8a5a1a', speed: .005 },
-    clown:     { h: .42, tail: 'round', zone: 'mid', body: '#ff7a1a', pattern: 'clown' }
+    clown:     { h: .42, tail: 'round', zone: 'mid', body: '#ff7a1a', pattern: 'clown' },
+    koi:       { h: .30, tail: 'fork', zone: 'mid', bodyVar: ['#f4f1ea', '#f4f1ea', '#f08a24', '#f2d24a'], pattern: 'spots', big: true, c1: '#d8352a', barbels: true, speed: .05 },
+    // Groupers hang near the rockwork; tangs patrol open water.
+    grouper:   { h: .36, tail: 'round', zone: 'bottom', body: '#7a5a3a', pattern: 'spots', dense: true, c1: '#e8d9b0', speed: .025, pauses: true },
+    grouper_red: { h: .36, tail: 'round', zone: 'bottom', body: '#c8372d', pattern: 'spots', dense: true, c1: '#5fc8ff', speed: .025, pauses: true },
+    grouper_panther: { h: .46, tail: 'round', zone: 'bottom', body: '#ece8e0', pattern: 'spots', c1: '#1c1c1c', speed: .025, pauses: true },
+    tang:      { h: .62, tail: 'fork', zone: 'mid', body: '#6b5a48', tailC: '#e8d24a', sail: .5 },
+    tang_yellow: { h: .62, tail: 'fork', zone: 'mid', body: '#f7d31a', sail: .5 },
+    tang_blue: { h: .55, tail: 'fork', zone: 'mid', body: '#3d7cff', belly: '#7fb0ff', pattern: 'patch', c1: '#0c1424', tailC: '#ffd400', fin: '#1d3f9e' },
+    tang_purple: { h: .6, tail: 'fork', zone: 'mid', body: '#5a2a9a', tailC: '#f5d10f', sail: .5 },
+    tang_powder: { h: .6, tail: 'fork', zone: 'mid', body: '#5fb3f0', pattern: 'head', c1: '#151a24', fin: '#f2d13a', sail: .5 },
+    tang_convict: { h: .6, tail: 'fork', zone: 'mid', body: '#e9ece0', pattern: 'bars', n: 5, thin: true, c1: '#1a1a1a', sail: .5 },
+    tang_sailfin: { h: .62, tail: 'fork', zone: 'mid', body: '#d9c58a', pattern: 'bars', n: 6, c1: '#5a3a24', tallFins: true },
+    tang_achilles: { h: .58, tail: 'fork', zone: 'mid', body: '#1a1a1e', pattern: 'split', c1: '#ff6a1a', tailC: '#ff6a1a', sail: .4 },
+    tang_naso: { h: .45, tail: 'fork', zone: 'mid', body: '#8a8f8f', fin: '#f2c23a', tailC: '#8a8f8f', sail: .4 },
+    rb_praecox: { h: .38, tail: 'fork', zone: 'mid', body: '#8fc4f0', fin: '#e8452f' },
+    rb_threadfin: { h: .3, tail: 'fan', zone: 'top', body: '#f0e2a0', fin: '#2a2a2a', longFins: true },
+    rb_forktail: { h: .3, tail: 'fork', zone: 'top', body: '#c9d4a8', fin: '#f2b23a', tailC: '#e8452f' },
+    rb_gertrudae: { h: .32, tail: 'round', zone: 'top', body: '#f0d880', pattern: 'spots', c1: '#3a2a1a', fin: '#f4f0e0' },
+    rb_celebes: { h: .3, tail: 'fork', zone: 'mid', body: '#f2e070', pattern: 'hstripes', n: 1, c1: '#2a6ad8' },
+    rb_turquoise: { h: .44, tail: 'fork', zone: 'mid', body: '#2ab8b0', pattern: 'hstripes', n: 1, c1: '#1a5a68' },
+    rb_neonblue: { h: .42, tail: 'fork', zone: 'mid', body: '#3a7ae0', fin: '#e0e8f0' },
+    rb_australian: { h: .42, tail: 'fork', zone: 'mid', body: '#9ab0a0', pattern: 'hstripes', n: 3, c1: '#e05a3a' },
+    rb_splendid: { h: .44, tail: 'fork', zone: 'mid', body: '#7ab0c8', pattern: 'hstripes', n: 3, c1: '#f0d040', fin: '#e8452f' },
+    rb_parkinsoni: { h: .44, tail: 'fork', zone: 'mid', body: '#c8ccc0', pattern: 'split', c1: '#f2a22a' },
+    rb_red: { h: .44, tail: 'fork', zone: 'mid', body: '#d8382a', fin: '#c02a20' }
   };
   var DEFAULT_LOOK = { h: .3, tail: 'fork', zone: 'mid', body: '#9fb3bf' };
 
@@ -94,8 +119,14 @@
     s.textContent =
       '.fct{position:relative;width:100%;aspect-ratio:16/9.4;border-radius:14px;overflow:hidden;background:#0b3a52;box-shadow:0 10px 30px rgba(0,0,0,.35)}' +
       '.fct canvas{display:block;width:100%;height:100%;cursor:pointer;touch-action:manipulation}' +
-      '.fct-feed{position:absolute;right:10px;bottom:10px;font:600 .78rem/1 system-ui,-apple-system,sans-serif;color:#05202f;background:rgba(247,252,255,.9);border:0;border-radius:999px;padding:7px 12px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.25)}' +
-      '.fct-feed:hover{background:#fff}.fct-feed:focus-visible{outline:2px solid #46B6E8;outline-offset:2px}' +
+      '.fct .fct-feed{position:absolute;right:10px;bottom:10px;width:auto;margin:0;font:600 .78rem/1 system-ui,-apple-system,sans-serif;color:#05202f;background:rgba(247,252,255,.9);background-image:none;border:0;border-radius:999px;padding:7px 12px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.25)}' +
+      '.fct .fct-feed:hover{background:#fff}'+
+      '.fct-fig{margin:18px 0 0}' +
+      '.fct-fig .fct-views{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 8px}' +
+      '.fct-fig .fct-views button{width:auto;margin:0;font:600 .78rem/1 system-ui,-apple-system,sans-serif;padding:7px 12px;border-radius:999px;border:1px solid rgba(127,160,180,.55);background:transparent;background-image:none;box-shadow:none;color:inherit;cursor:pointer;opacity:.75}' +
+      '.fct-fig .fct-views button[aria-pressed="true"]{opacity:1;background:rgba(70,182,232,.2);border-color:#46B6E8}' +
+      '.fct-fig .fct-cap{font-size:.8rem;line-height:1.5;opacity:.78;margin-top:8px}' +
+      '.fct-feed:focus-visible{outline:2px solid #46B6E8;outline-offset:2px}' +
       '.fct-hint{position:absolute;left:50%;top:12px;transform:translateX(-50%);font:500 .78rem/1 system-ui,-apple-system,sans-serif;color:#05202f;background:rgba(247,252,255,.82);border-radius:999px;padding:6px 12px;pointer-events:none;transition:opacity .6s;white-space:nowrap}' +
       '.fct-hint.off{opacity:0}' +
       '@media(prefers-reduced-motion:reduce){.fct-feed,.fct-hint{display:none}}';
@@ -152,7 +183,7 @@
         c.fillRect(-L * .34, y - H * .1, L * .8, H * .2);
       }
     } else if (p === 'spots') {
-      var cnt = lk.dense ? 22 : 10, sr = Math.max(.6, H * (lk.dense ? .1 : .14));
+      var cnt = lk.big ? 5 : lk.dense ? 22 : 10, sr = Math.max(.6, H * (lk.big ? .5 : lk.dense ? .1 : .14));
       for (i = 0; i < cnt; i++) {
         c.beginPath();
         c.arc(-L * .3 + F.spots[i * 2] * L * .75, (F.spots[i * 2 + 1] - .5) * H * 1.7, sr, 0, 6.283);
@@ -736,5 +767,68 @@
       _tick: function (n) { for (var i = 0; i < (n || 1); i++) step(1 / 60); draw(); } };
   }
 
-  global.FishCareTank = { mount: mount, lengthForGallons: lengthForGallons, LOOKS: LOOKS };
+  // ── attach(): tank + caption + optional view toggle after an element ────
+  // views: [{ label, gallons, lengthIn?, plants?, fish: [...], note? }]
+  function attach(anchor, opts) {
+    opts = opts || {};
+    injectCss();
+    var fig = document.createElement('figure');
+    fig.className = 'fct-fig';
+    var bar = document.createElement('div');
+    bar.className = 'fct-views'; bar.setAttribute('role', 'group'); bar.setAttribute('aria-label', 'Tank to show');
+    bar.hidden = true;
+    var stage = document.createElement('div');
+    var cap = document.createElement('figcaption');
+    cap.className = 'fct-cap';
+    fig.appendChild(bar); fig.appendChild(stage); fig.appendChild(cap);
+    anchor.parentNode.insertBefore(fig, anchor.nextSibling);
+    var scene = mount(stage, opts);
+    var views = [], sel = 0, labels = '';
+
+    function fmt(n) { return Math.round(n).toLocaleString('en-US'); }
+    function caption(v, len, info) {
+      var main = v.fish[0];
+      if (!main) return v.note || '';
+      var parts = v.fish.map(function (f) { return f.count + ' ' + f.name; });
+      var names = parts.length > 1 ? parts.slice(0, -1).join(', ') + ' and ' + parts[parts.length - 1] : parts[0];
+      var vessel = opts.vessel || 'tank';
+      var t = names + ' at adult size, drawn to scale in a ' + fmt(v.gallons) + '-gallon ' + vessel + ' about ' +
+        fmt(len) + ' in (' + fmt(len * 2.54) + ' cm) long. ';
+      var big = v.fish.reduce(function (a, f) { return f.adultIn > a.adultIn ? f : a; }, main);
+      t += 'At ' + big.adultIn + ' in, one ' + (big.single || big.name) + ' is ' + fmt(big.adultIn / len * 100) + '% of the ' + vessel + ' length.';
+      if (info.shown < info.total) t += ' Showing ' + info.shown + ' of ' + info.total + ' fish.';
+      if (v.note) t += ' ' + v.note;
+      return t;
+    }
+    function apply() {
+      var v = views[sel];
+      if (!v) return;
+      var len = v.lengthIn || lengthForGallons(v.gallons);
+      scene.setTank({ lengthIn: len, plants: v.plants || opts.plants || 'some', cloud: v.cloud || 0 });
+      var info = scene.setFish(v.fish);
+      cap.textContent = caption(v, len, info);
+      Array.prototype.forEach.call(bar.children, function (b, i) { b.setAttribute('aria-pressed', i === sel ? 'true' : 'false'); });
+    }
+    function show(vs) {
+      views = vs || [];
+      if (sel >= views.length) sel = 0;
+      var l = views.map(function (v) { return v.label || ''; }).join('|');
+      if (l !== labels) {
+        labels = l;
+        bar.innerHTML = '';
+        views.forEach(function (v, i) {
+          var b = document.createElement('button');
+          b.type = 'button'; b.textContent = v.label || ('Tank ' + (i + 1));
+          b.addEventListener('click', function () { sel = i; apply(); });
+          bar.appendChild(b);
+        });
+        bar.hidden = views.length < 2;
+      }
+      fig.hidden = !views.length;
+      apply();
+    }
+    return { scene: scene, show: show, el: fig };
+  }
+
+  global.FishCareTank = { mount: mount, attach: attach, lengthForGallons: lengthForGallons, LOOKS: LOOKS };
 })(window);

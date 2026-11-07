@@ -263,6 +263,7 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
   </aside>
 </div>
 </main>
+<script src="/assets/tank-scene.js?v=20261107b"></script>
 <script>
 (function(){
   var SP={yellow:[75,4,'yellow tang'],kole:[75,4,'kole tang'],tomini:[75,4,'tomini tang'],scopas:[75,4,'scopas tang'],
@@ -271,6 +272,21 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
     sohal:[240,8,'sohal tang'],clown:[240,8,'clown tang'],vlamingi:[300,8,'vlamingi tang']};
   var STD=[[75,4],[90,4],[125,6],[150,6],[180,6],[240,8],[300,8],[400,8]];
   var $=function(id){return document.getElementById(id)};
+  var TG_LOOK={yellow:['tang_yellow',7.5],kole:['tang',7],tomini:['tang',6],scopas:['tang',8],purple:['tang_purple',9.5],convict:['tang_convict',8],
+    blue:['tang_blue',11],powderblue:['tang_powder',9],chevron:['tang',9],sailfin:['tang_sailfin',13.5],achilles:['tang_achilles',9.5],naso:['tang_naso',16.5],
+    sohal:['tang_convict',15.5],clown:['tang',13],vlamingi:['tang_naso',22]};
+  var TG_MATES=[['yellow','yellow tang'],['kole','kole tang'],['powderblue','powder blue tang'],['purple','purple tang']];
+  var tankView=null;
+  if(window.FishCareTank){ try{ tankView=FishCareTank.attach($('tg-result'),{plants:'none'}); }catch(e){ tankView=null; } }
+  function tgTank(pick,key,name,n){
+    if(!tankView) return;
+    var lk=TG_LOOK[key], fish=[{key:lk[0],name:name,count:1,adultIn:lk[1]}];
+    for(var i=0;i<TG_MATES.length && fish.length<n;i++){
+      var m=TG_MATES[i]; if(m[0]===key) continue;
+      fish.push({key:TG_LOOK[m[0]][0],name:m[1],count:1,adultIn:TG_LOOK[m[0]][1]});
+    }
+    tankView.show([{gallons:pick[0],lengthIn:pick[1]*12,fish:fish}]);
+  }
   function run(){
     var s=SP[$('tg-sp').value], n=parseInt($('tg-n').value,10), reef=parseFloat($('tg-reef').value), len=parseInt($('tg-len').value,10);
     var base=s[0], minLen=s[1], name=s[2];
@@ -288,6 +304,7 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
     }
     if(n>1) note+=' Choose different genera and body shapes and add them on the same day.';
     $('tg-result').innerHTML=html+'<p>'+note+'</p>';
+    tgTank(pick,$('tg-sp').value,name,n);
   }
   $('tg-go').addEventListener('click',run); run();
 })();

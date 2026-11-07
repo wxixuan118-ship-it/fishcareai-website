@@ -475,6 +475,7 @@ h1{font-size:clamp(1.8rem,4vw,2.9rem);line-height:1.15;margin:0 0 12px;font-weig
 <!-- FOOTER (global footer rendered by site-compliance.js) -->
 <footer class="ft"></footer>
 
+<script src="/assets/tank-scene.js?v=20261107b"></script>
 <script>
 const FISH={"mode": "standard", "name": "Angelfish", "singular": "Angelfish", "plural": "Angelfish", "schoolMin": 1, "schoolRec": 5, "groupBase": 2, "minFirst": 29, "recFirst": 40, "perAdditional": 10, "maxExtra": 1, "reverseNote": "<strong>Height matters as much as gallons.</strong> Adult angelfish need at least 18 inches of water depth; a 40-gallon breeder or a tall 55 suits a group far better than a long, shallow tank."};
 
@@ -635,6 +636,7 @@ function renderReverse(){
 
 function render(){
   activeTab==="forward"?renderForward():renderReverse();
+  renderTank();
 }
 
 document.querySelectorAll(".tab").forEach(t=>{
@@ -666,6 +668,29 @@ document.querySelectorAll(".faq-q").forEach(q=>{
   q.addEventListener("click",()=>q.closest(".faq-item").classList.toggle("open"));
   q.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" ")q.click()});
 });
+
+// ── Animated to-scale tank ──
+const TANK_LOOK={"key": "angel", "adult": 6};
+let tankView=null;
+if(window.FishCareTank){ try{ tankView=FishCareTank.attach(document.getElementById("result"),{plants:TANK_LOOK.plants||"some",vessel:TANK_LOOK.vessel}); }catch(e){ tankView=null; } }
+function tankFish(count){
+  const lk=TANK_LOOK.bySub?(TANK_LOOK.bySub[getSubtype()]||TANK_LOOK.bySub.fancy):TANK_LOOK;
+  return [{key:lk.key,name:nameFor(count),single:FISH.singular||FISH.name,count:count,adultIn:lk.adult,school:!!TANK_LOOK.school}];
+}
+function renderTank(){
+  if(!tankView) return;
+  const sub=getSubtype();
+  if(activeTab==="forward"){
+    const r=calcForward(fishCount,sub);
+    if(r.min===null){ tankView.show([]); return; }
+    let n=fishCount;
+    if(FISH.mode==="discus"&&n<FISH.schoolMin) n=FISH.schoolMin;
+    tankView.show([{label:"Minimum tank",gallons:r.min,fish:tankFish(n)},{label:"Recommended tank",gallons:r.rec,fish:tankFish(n)}]);
+  } else {
+    const r=calcReverse(tankGal,sub);
+    tankView.show([{gallons:tankGal,fish:tankFish(r.comfortable>0?r.comfortable:1),note:r.comfortable>0?"":"This is below the minimum for this species."}]);
+  }
+}
 
 render();
 

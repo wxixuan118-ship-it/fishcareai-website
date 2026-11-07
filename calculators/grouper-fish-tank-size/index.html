@@ -257,6 +257,7 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
   </aside>
 </div>
 </main>
+<script src="/assets/tank-scene.js?v=20261107b"></script>
 <script>
 (function(){
   var SP={blueline:[75,48,18,'blue-line hind'],vtail:[75,48,18,'V-tail grouper'],bshind:[100,48,18,'bluespotted hind'],leopard:[100,60,18,'leopard hind'],
@@ -264,9 +265,20 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
     lyretail:[300,96,30,'lyretail grouper'],red:[300,96,30,'red grouper'],giant:[0,0,0,'bumblebee / giant grouper']};
   var STD=[[75,48,18],[90,48,18],[125,72,18],[150,72,18],[180,72,24],[240,96,24],[300,96,30],[400,96,36],[500,120,36]];
   var $=function(id){return document.getElementById(id)};
+  var GR_LOOK={blueline:['grouper',9],vtail:['grouper',9],bshind:['grouper',11],leopard:['grouper',13],miniatus:['grouper_red',14],harlequin:['grouper_red',15],
+    panther:['grouper_panther',24],argus:['grouper',22],lyretail:['grouper_red',27],red:['grouper_red',27]};
+  var tankView=null;
+  if(window.FishCareTank){ try{ tankView=FishCareTank.attach($('gr-result'),{plants:'none'}); }catch(e){ tankView=null; } }
+  function grTank(pick,key,name,two){
+    if(!tankView) return;
+    if(!pick){ tankView.show([]); return; }
+    var lk=GR_LOOK[key], fish=[{key:lk[0],name:name,count:1,adultIn:lk[1]}];
+    if(two) fish.push({key:lk[0]==='grouper'?'grouper_red':'grouper',name:'grouper of another genus',count:1,adultIn:Math.round(lk[1]*0.8)});
+    tankView.show([{gallons:pick[0],lengthIn:pick[1],fish:fish}]);
+  }
   function run(){
     var s=SP[$('gr-sp').value], n=parseInt($('gr-n').value,10), rock=parseFloat($('gr-rock').value), two=$('gr-two').value==='1';
-    if(!s[0]){ $('gr-result').innerHTML='<strong>Not a home aquarium fish</strong><p>Bumblebee, giant, goliath and Nassau groupers reach 3–8 feet. Public aquariums only; choose a hind, coral grouper or panther grouper instead.</p>'; return; }
+    if(!s[0]){ $('gr-result').innerHTML='<strong>Not a home aquarium fish</strong><p>Bumblebee, giant, goliath and Nassau groupers reach 3–8 feet. Public aquariums only; choose a hind, coral grouper or panther grouper instead.</p>'; grTank(null); return; }
     var base=s[0], minLen=s[1], minW=s[2], name=s[3];
     var gal=base*(1+0.25*n)*rock;
     var note='Base '+base+' gal / '+(minLen/12)+' ft for one adult '+name;
@@ -277,6 +289,7 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
     for(var i=0;i<STD.length;i++){ if(STD[i][0]>=gal && STD[i][1]>=minLen && STD[i][2]>=minW){ pick=STD[i]; break; } }
     if(!pick) pick=[Math.ceil(gal/100)*100,120,36];
     $('gr-result').innerHTML='<strong>'+pick[0]+' gallons, at least '+(pick[1]/12)+' ft long and '+pick[2]+' in wide</strong> for an adult '+name+(n?' with '+n+' large tank mate'+(n>1?'s':''):'')+(two?' and a second grouper':'')+'<p>Calculated need '+Math.round(gal)+' gal. '+note+'. Sized for the adult: the juvenile reaches most of this length within two years.</p>';
+    grTank(pick,$('gr-sp').value,name,two);
   }
   $('gr-go').addEventListener('click',run); run();
 })();

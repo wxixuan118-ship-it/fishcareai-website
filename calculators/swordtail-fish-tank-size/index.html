@@ -464,6 +464,7 @@ h1{font-size:clamp(1.8rem,4vw,2.9rem);line-height:1.15;margin:0 0 12px;font-weig
 <!-- FOOTER (global footer rendered by site-compliance.js) -->
 <footer class="ft"></footer>
 
+<script src="/assets/tank-scene.js?v=20261107b"></script>
 <script>
 const FISH={"mode": "standard", "name": "Swordtail Fish", "plural": "Swordtails", "schoolMin": 5, "schoolRec": 6, "minFirst": 20, "recFirst": 30, "perAdditional": 5};
 
@@ -620,6 +621,7 @@ function renderReverse(){
 
 function render(){
   activeTab==="forward"?renderForward():renderReverse();
+  renderTank();
 }
 
 document.querySelectorAll(".tab").forEach(t=>{
@@ -651,6 +653,29 @@ document.querySelectorAll(".faq-q").forEach(q=>{
   q.addEventListener("click",()=>q.closest(".faq-item").classList.toggle("open"));
   q.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" ")q.click()});
 });
+
+// ── Animated to-scale tank ──
+const TANK_LOOK={"key": "sword", "adult": 5};
+let tankView=null;
+if(window.FishCareTank){ try{ tankView=FishCareTank.attach(document.getElementById("result"),{plants:TANK_LOOK.plants||"some",vessel:TANK_LOOK.vessel}); }catch(e){ tankView=null; } }
+function tankFish(count){
+  const lk=TANK_LOOK.bySub?(TANK_LOOK.bySub[getSubtype()]||TANK_LOOK.bySub.fancy):TANK_LOOK;
+  return [{key:lk.key,name:nameFor(count),single:FISH.singular||FISH.name,count:count,adultIn:lk.adult,school:!!TANK_LOOK.school}];
+}
+function renderTank(){
+  if(!tankView) return;
+  const sub=getSubtype();
+  if(activeTab==="forward"){
+    const r=calcForward(fishCount,sub);
+    if(r.min===null){ tankView.show([]); return; }
+    let n=fishCount;
+    if(FISH.mode==="discus"&&n<FISH.schoolMin) n=FISH.schoolMin;
+    tankView.show([{label:"Minimum tank",gallons:r.min,fish:tankFish(n)},{label:"Recommended tank",gallons:r.rec,fish:tankFish(n)}]);
+  } else {
+    const r=calcReverse(tankGal,sub);
+    tankView.show([{gallons:tankGal,fish:tankFish(r.comfortable>0?r.comfortable:1),note:r.comfortable>0?"":"This is below the minimum for this species."}]);
+  }
+}
 
 render();
 

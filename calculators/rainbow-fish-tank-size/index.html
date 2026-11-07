@@ -259,6 +259,7 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
   </aside>
 </div>
 </main>
+<script src="/assets/tank-scene.js?v=20261107b"></script>
 <script>
 (function(){
   var SP={praecox:[20,30,8,'dwarf neon rainbowfish'],threadfin:[20,30,8,'threadfin rainbowfish'],forktail:[20,30,8,'forktail blue-eyes'],gertrudae:[15,24,8,"Gertrude's blue-eyes"],
@@ -266,6 +267,17 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
     australian:[55,48,6,'Australian rainbowfish'],splendid:[55,48,6,'splendid rainbowfish'],parkinsoni:[55,48,6,"Parkinson's rainbowfish"],red:[75,48,6,'red rainbowfish']};
   var STD=[[15,24],[20,30],[29,30],[40,36],[55,48],[75,48],[90,48],[125,72],[180,72]];
   var $=function(id){return document.getElementById(id)};
+  var RB_LOOK={praecox:['rb_praecox',2.5],threadfin:['rb_threadfin',2],forktail:['rb_forktail',2],gertrudae:['rb_gertrudae',1.5],celebes:['rb_celebes',3],
+    boesemani:['boes',4],turquoise:['rb_turquoise',4.5],neonblue:['rb_neonblue',3.5],australian:['rb_australian',5],splendid:['rb_splendid',5],
+    parkinsoni:['rb_parkinsoni',5],red:['rb_red',6]};
+  var tankView=null;
+  if(window.FishCareTank){ try{ tankView=FishCareTank.attach($('rf-result'),{plants:'some'}); }catch(e){ tankView=null; } }
+  function rfTank(pick,key,count,key2,plant){
+    if(!tankView) return;
+    var a=RB_LOOK[key], fish=[{key:a[0],name:SP[key][3],count:count,adultIn:a[1],school:true}];
+    if(key2 && RB_LOOK[key2]){ var b=RB_LOOK[key2]; fish.push({key:b[0],name:SP[key2][3],count:SP[key2][2],adultIn:b[1],school:true}); }
+    tankView.show([{gallons:pick[0],lengthIn:pick[1],plants:plant>1?'heavy':'some',fish:fish}]);
+  }
   function run(){
     var s=SP[$('rf-sp').value], n=parseInt($('rf-n').value,10), s2=SP[$('rf-sp2').value]||null, plant=parseFloat($('rf-plant').value);
     var base=s[0], minLen=s[1], school=s[2], name=s[3];
@@ -281,6 +293,7 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
     var warn='';
     if(n<school) warn=' Fewer than '+school+' is not a school for this species; the calculator assumes '+school+'.';
     $('rf-result').innerHTML='<strong>'+pick[0]+' gallons, at least '+pick[1]+' inches long</strong> for '+Math.max(n,school)+' '+name+(s2?' plus a school of '+s2[3]:'')+'<p>Calculated need '+Math.round(gal)+' gal. '+note+'.'+warn+'</p>';
+    rfTank(pick,$('rf-sp').value,Math.max(n,school),$('rf-sp2').value,plant);
   }
   $('rf-go').addEventListener('click',run); run();
 })();
