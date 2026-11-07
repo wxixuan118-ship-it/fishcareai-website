@@ -684,6 +684,7 @@ FRESH = {
 # SALTWATER PUFFERS
 # ════════════════════════════════════════════════════════════════
 SALT_BODY = """    <p>Marine puffers are the biggest personalities on most reef shop lists and the most consistently under-housed. The common trade species run from a 4-inch valentini toby that fits a 30-gallon tank to an <em>Arothron hispidus</em> that reaches 20 inches and needs 250 gallons. None of them is reef safe, and all of them share the scaleless skin that makes copper-based treatments risky.</p>
+    <div class="callout callout-warn"><strong>Educational information only, not veterinary advice.</strong> Medications can harm fish if misused, and some are unsafe for corals and invertebrates. Confirm the diagnosis and follow the product label, and ask an aquatic veterinarian where you can. See our <a href="/terms/">terms</a>.</div>
 
     <h2 id="species">Saltwater Puffer Species in the Trade</h2>
     <div class="tblwrap"><table class="ptbl">
@@ -2293,6 +2294,7 @@ BREED = {
 # DISEASES
 # ════════════════════════════════════════════════════════════════
 DIS_BODY = """    <p>Everything about treating a sick puffer follows from one fact: <strong>puffers have no scales</strong>. Medication crosses their skin far faster than it does a scaled fish, so standard doses of copper, formalin and some organophosphates can do more damage than the disease. On top of that, most large puffers are wild-caught and arrive carrying internal parasites. Quarantine and half-dose everything.</p>
+    <div class="callout callout-warn"><strong>Educational information only, not veterinary advice.</strong> Medications can harm fish if misused, and some are unsafe for corals and invertebrates. Confirm the diagnosis and follow the product label, and ask an aquatic veterinarian where you can. See our <a href="/terms/">terms</a>.</div>
 
     <div class="callout callout-warn"><strong>Medication rule for puffers.</strong> Unless a product is explicitly labelled safe for scaleless fish, use half the stated dose, treat in a bare quarantine tank, and add extra aeration. Avoid copper entirely where an alternative exists.</div>
 
@@ -2396,6 +2398,7 @@ DIS = {
 # NOT EATING / HIDING
 # ════════════════════════════════════════════════════════════════
 EAT_BODY = """    <p>A puffer that stops eating is a genuine warning sign, because a healthy puffer begs constantly. The good news is that the causes fall into a short, checkable list. Work through it in order &mdash; the first three explain the large majority of cases.</p>
+    <div class="callout callout-warn"><strong>Educational information only, not veterinary advice.</strong> Medications can harm fish if misused, and some are unsafe for shrimp, snails and other invertebrates. Confirm the diagnosis and follow the product label, and ask an aquatic veterinarian where you can. See our <a href="/terms/">terms</a>.</div>
 
     <h2 id="checklist">The Five-Minute Checklist</h2>
     <ol>
@@ -2493,6 +2496,7 @@ EAT = {
 # PUFFING UP / BLOATING
 # ════════════════════════════════════════════════════════════════
 PUFF_BODY = """    <p>Inflating is what puffers are famous for, and it is the behaviour most misunderstood by new keepers. A puffer does not puff up because it is happy or showing off. It is a last-resort defence that costs the fish energy and carries real risk &mdash; and a puffer that inflates regularly in your tank is telling you something is wrong.</p>
+    <div class="callout callout-warn"><strong>Educational information only, not veterinary advice.</strong> Medications can harm fish if misused, and some are unsafe for shrimp, snails and other invertebrates. Confirm the diagnosis and follow the product label, and ask an aquatic veterinarian where you can. See our <a href="/terms/">terms</a>.</div>
 
     <h2 id="how">How Puffing Up Works</h2>
     <p>A puffer has an extremely elastic stomach diverticulum and skin that can stretch to several times its resting area. Threatened, it gulps water rapidly into that chamber until the body becomes a rigid sphere, often two to three times its normal volume, which makes it too large for a predator's mouth. Species with spines &mdash; porcupine puffers and burrfish &mdash; erect them at the same time.</p>
@@ -2683,6 +2687,7 @@ COLOR = {
 # SWIMMING & BREATHING
 # ════════════════════════════════════════════════════════════════
 SWIM_BODY = """    <p>Puffers swim with their pectoral fins, hovering and reversing with precision rather than powering forward with the tail. That makes abnormal swimming easy to spot and easy to misread. Two problems account for most cases: buoyancy trouble, which is usually digestive or air-related, and oxygen trouble, which is usually water quality. They need different responses, so identify which one you are looking at first.</p>
+    <div class="callout callout-warn"><strong>Educational information only, not veterinary advice.</strong> Medications can harm fish if misused, and some are unsafe for shrimp, snails and other invertebrates. Confirm the diagnosis and follow the product label, and ask an aquatic veterinarian where you can. See our <a href="/terms/">terms</a>.</div>
 
     <h2 id="gasping">Puffer Fish Gasping for Air</h2>
     <p>A puffer at the surface taking rapid, shallow breaths is not getting enough oxygen at its gills. Treat this as urgent.</p>

@@ -1046,6 +1046,7 @@ BREEDING = {
 # PAGE 9 — Diseases, Parasites & Symptoms
 # ────────────────────────────────────────────────────────────────
 DISEASES_BODY = """    <p>Almost every koi disease starts with a water quality problem or a fish added without quarantine. Before you treat anything, test ammonia, nitrite, pH and temperature &mdash; a large proportion of the symptoms below resolve on water changes alone, and medicating a pond whose real problem is ammonia makes things worse.</p>
+    <div class="callout callout-warn"><strong>Educational information only, not veterinary advice.</strong> Medications can harm fish if misused, and some are unsafe for shrimp, snails and other invertebrates. Confirm the diagnosis and follow the product label, and ask an aquatic veterinarian where you can. See our <a href="/terms/">terms</a>.</div>
     <div class="callout callout-warn"><strong>This page is an orientation guide, not a substitute for diagnosis.</strong> Persistent ulcers, mass mortality or unexplained deaths warrant a consultation with an aquatic veterinarian, and some conditions (koi herpes virus, spring viraemia of carp) are notifiable in certain countries.</div>
 
     <h2 id="symptom-index">Symptom Index</h2>

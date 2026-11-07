@@ -1219,6 +1219,7 @@ BREEDING = {
 # PAGE — Black Spots
 # ════════════════════════════════════════════════════════════════
 BLACK_BODY = """    <p>Black spots on a blood parrot fish look alarming and are usually not an infection. In the large majority of cases they are <strong>melanin marks left by healing chemical burns from ammonia or nitrite</strong>, or ordinary stress marbling. This page works through the causes in order of likelihood, what each one looks like, and what to do.</p>
+    <div class="callout callout-warn"><strong>Educational information only, not veterinary advice.</strong> Medications can harm fish if misused, and some are unsafe for shrimp, snails and other invertebrates. Confirm the diagnosis and follow the product label, and ask an aquatic veterinarian where you can. See our <a href="/terms/">terms</a>.</div>
 
     <div class="callout"><strong>Start here.</strong> Before treating anything, test ammonia, nitrite and nitrate. If ammonia or nitrite is above 0 ppm, or nitrate is above 40 ppm, you have almost certainly found your answer &mdash; and adding medication to bad water makes things worse.</div>
 

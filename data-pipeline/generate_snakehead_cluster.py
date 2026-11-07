@@ -1325,6 +1325,7 @@ BREEDING = {
 # DISEASES — Diseases, Parasites & Symptoms
 # ════════════════════════════════════════════════════════════════
 DISEASES_BODY = """    <p>Snakeheads are physically tough fish, and that is the problem: because they breathe air and tolerate poor water, they hide trouble far longer than a tetra would. Most of what looks alarming in a <em>Channa</em> is normal predator behaviour, and most of what is genuinely wrong traces to three sources &mdash; wild-caught parasite loads, injuries from jumping or fighting, and diet.</p>
+    <div class="callout callout-warn"><strong>Educational information only, not veterinary advice.</strong> Medications can harm fish if misused, and some are unsafe for shrimp, snails and other invertebrates. Confirm the diagnosis and follow the product label, and ask an aquatic veterinarian where you can. See our <a href="/terms/">terms</a>.</div>
 
     <div class="callout"><strong>Test the water before you medicate.</strong> Ammonia, nitrite, nitrate, temperature. Roughly half of all snakehead symptom threads end with a water quality answer, and medicating a fish in bad water makes things worse. Run a reading through the <a href="/tools/water-parameter-checker/">water parameter checker</a> first.</div>
 

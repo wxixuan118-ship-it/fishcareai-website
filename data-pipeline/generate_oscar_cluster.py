@@ -1546,6 +1546,7 @@ DIS = {
 # HOLE IN THE HEAD
 # ════════════════════════════════════════════════════════════════
 HITH_BODY = """    <p>Hole-in-the-head is the disease oscars are known for. It starts as small pale pits above the eyes, often mistaken for damage from digging, and if the cause is not corrected it develops into open craters along the head and lateral line. It is treatable, and it is very largely preventable.</p>
+    <div class="callout callout-warn"><strong>Educational information only, not veterinary advice.</strong> Medications can harm fish if misused, and some are unsafe for shrimp, snails and other invertebrates. Confirm the diagnosis and follow the product label, and ask an aquatic veterinarian where you can. See our <a href="/terms/">terms</a>.</div>
     <div class="callout"><strong>The short version.</strong> Pits above the eyes on an oscar mean the tank's long-term water quality or the fish's diet is wrong. Fix nitrate and diet first, and treat with metronidazole if the fish is also losing weight or passing white stringy faeces.</div>
 
     <h2 id="what-is">What Hole-in-the-Head Is</h2>
@@ -1669,6 +1670,7 @@ HITH = {
 # WHITE SPOTS / ICH
 # ════════════════════════════════════════════════════════════════
 ICH_BODY = """    <p>White spots on an oscar are usually ich, and ich on an oscar is usually the result of a temperature drop or a fish added without quarantine. It is highly treatable if you start early and, critically, treat for the full life cycle rather than until the spots disappear.</p>
+    <div class="callout callout-warn"><strong>Educational information only, not veterinary advice.</strong> Medications can harm fish if misused, and some are unsafe for shrimp, snails and other invertebrates. Confirm the diagnosis and follow the product label, and ask an aquatic veterinarian where you can. See our <a href="/terms/">terms</a>.</div>
 
     <h2 id="identify">Is It Actually Ich?</h2>
     <div class="tblwrap"><table class="ptbl">
@@ -1768,6 +1770,7 @@ ICH = {
 # NOT EATING / HIDING / LYING ON BOTTOM
 # ════════════════════════════════════════════════════════════════
 EAT_BODY = """    <p>An oscar that stops eating, hides, or sits on the bottom is showing you the same signal three different ways. Sometimes it is a sulk after a change and resolves itself in a week. Sometimes it is the first visible stage of a water quality problem that has been building for a month. This page tells you which one you are looking at.</p>
+    <div class="callout callout-warn"><strong>Educational information only, not veterinary advice.</strong> Medications can harm fish if misused, and some are unsafe for shrimp, snails and other invertebrates. Confirm the diagnosis and follow the product label, and ask an aquatic veterinarian where you can. See our <a href="/terms/">terms</a>.</div>
     <div class="callout"><strong>Do this first.</strong> Test ammonia, nitrite, nitrate, pH and temperature before anything else. In the majority of cases the answer is in those five numbers, and adding medication to a water quality problem makes things worse.</div>
 
     <h2 id="how-long">How Long Can an Oscar Go Without Eating?</h2>
@@ -1979,6 +1982,7 @@ COLOR = {
 # SWIMMING & BREATHING PROBLEMS
 # ════════════════════════════════════════════════════════════════
 SWIM_BODY = """    <p>An oscar swimming sideways, floating upside down, bloated, or hanging at the surface gulping air is showing one of two families of problem: a buoyancy and digestion problem, or an oxygen and gill problem. They look different once you know what to compare, and they need opposite responses.</p>
+    <div class="callout callout-warn"><strong>Educational information only, not veterinary advice.</strong> Medications can harm fish if misused, and some are unsafe for shrimp, snails and other invertebrates. Confirm the diagnosis and follow the product label, and ask an aquatic veterinarian where you can. See our <a href="/terms/">terms</a>.</div>
     <div class="callout"><strong>Sort it in one question.</strong> Is the fish struggling to stay upright and level (buoyancy &mdash; swim bladder, constipation, bloat), or struggling to breathe while swimming normally (oxygen &mdash; low O<sub>2</sub>, ammonia, gill parasites)? Everything below follows from that.</div>
 
     <h2 id="gasping">Oscar Gasping for Air at the Surface</h2>
