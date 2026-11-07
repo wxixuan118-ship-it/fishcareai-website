@@ -223,7 +223,7 @@ def page(slug, title, meta_desc, h1, hero_tag, hero_meta,
 <link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260908-artc-contrast"/>
 <meta name="google-adsense-account" content="ca-pub-6697313643773879">
 <script defer src="/assets/site-compliance.js?v=20260812-fish-health"></script><script defer src="/assets/app-cta.js?v=20261107b"></script>
-</head>
+<style id="mobile-fit">@media(max-width:860px){{.artlay>*,.sp-layout>*,.wrap>*,.content>*,.layout>*,main>*{{min-width:0}}.artc img,main figure img{{max-width:100%;height:auto}}.fig-scroll{{max-width:100%;overflow-x:auto}}.artc table,main .card table,.content table,.cmp-table{{display:block;max-width:100%;overflow-x:auto}}.artc p,.artc li,.artc td,main .card p{{overflow-wrap:anywhere}}}}</style></head>
 <body>
 <nav class="nb">
   <a class="brand" href="/"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"/></a>

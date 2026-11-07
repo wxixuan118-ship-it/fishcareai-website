@@ -147,7 +147,7 @@ def page(p):
         f'      <li><a href="{u}" target="_blank" rel="noopener">{html.escape(n)}</a></li>' for n, u in p["refs"]
     )
     related = "".join(f'<a href="{h}" title="{html.escape(n)}">{html.escape(n)}</a>' for h, n in p["related"])
-    scripts = '<script defer src="/assets/app-cta.js?v=20261107"></script>' if "data-app-cta" in p["body"] else ""
+    scripts = '<script defer src="/assets/app-cta.js?v=20261107b"></script>'
     tool_script = f"\n<script>\n{p['script']}\n</script>" if p.get("script") else ""
     guides_act = ' act' if not is_tool else ''
     tools_act = ' act' if is_tool else ''
@@ -175,7 +175,7 @@ def page(p):
 {GLASS}
 <meta name="google-adsense-account" content="ca-pub-6697313643773879">
 <script defer src="/assets/site-compliance.js?v=20260923-analytics"></script>{scripts}
-</head>
+<style id="mobile-fit">@media(max-width:860px){{.artlay>*,.sp-layout>*,.wrap>*,.content>*,.layout>*,main>*{{min-width:0}}.artc img,main figure img{{max-width:100%;height:auto}}.fig-scroll{{max-width:100%;overflow-x:auto}}.artc table,main .card table,.content table,.cmp-table{{display:block;max-width:100%;overflow-x:auto}}.artc p,.artc li,.artc td,main .card p{{overflow-wrap:anywhere}}}}</style></head>
 <body>
 <nav class="nb">
   <a class="brand" href="/"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"/></a>
