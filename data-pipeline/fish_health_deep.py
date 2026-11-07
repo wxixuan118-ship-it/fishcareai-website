@@ -269,7 +269,7 @@ def render_page(c: dict, live: dict, shell: str) -> str:
 {ld(article)}
 {ld(howto)}
 {ld(faq)}
-{tail_script}</head>
+{tail_script}<script defer src="/assets/app-cta.js?v=20261107"></script></head>
 {nav}<main>
 
 <section class="sp-hero">
@@ -319,6 +319,12 @@ def render_page(c: dict, live: dict, shell: str) -> str:
 
 {steps(c["diagnose"])}
 
+<div class="cta-box" data-app-cta="fish-health" style="background:linear-gradient(135deg,#0F3D5E,#2E9E7D);margin:22px 0">
+  <h4>🧪 Test your water first</h4>
+  <p>Ammonia, nitrite and temperature problems can cause or worsen many fish symptoms. Enter your readings in our free water parameter checker to see what's out of range.</p>
+  <a class="btn" href="/tools/water-parameter-checker/">Check My Water →</a>
+</div>
+
 <h2 id="fix">{esc(c["fix_h2"])}</h2>
 
 {steps(c["fix"])}
@@ -332,12 +338,6 @@ def render_page(c: dict, live: dict, shell: str) -> str:
 
 <div class="callout callout-warn">
 {cite(c["seek_help"])}</div>
-
-<div class="cta-box" style="background:linear-gradient(135deg,#0F3D5E,#2E9E7D);margin-top:0">
-  <h4>🔬 AI Symptom Checker</h4>
-  <p>Not sure what's wrong? Describe your fish's symptoms to the FishCare AI symptom checker for a second opinion before you treat.</p>
-  <a class="btn" href="{SITE}/#symptom-checker">Check Symptoms →</a>
-</div>
 
 <h2 id="faq">Frequently Asked Questions</h2>
 
