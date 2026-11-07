@@ -230,7 +230,7 @@ def page(slug, title, meta_desc, h1, hero_tag, hero_meta,
 <style>{CSS}</style>
 <link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260908-artc-contrast"/>
 <meta name="google-adsense-account" content="ca-pub-6697313643773879">
-<script defer src="/assets/site-compliance.js?v=20260812-fish-health"></script>
+<script defer src="/assets/site-compliance.js?v=20260812-fish-health"></script><script defer src="/assets/app-cta.js?v=20261107b"></script>
 </head>
 <body>
 <nav class="nb">
@@ -1358,7 +1358,8 @@ DISEASES_BODY = """    <p>Snakeheads are physically tough fish, and that is the 
     <h3>Snakehead losing colour or turning black</h3>
     <p>Colour in <em>Channa</em> is partly a mood signal and can shift within hours. Darkening during territorial disputes, after a move, or under bright light is normal and reverses. Persistent dullness over weeks is different, and the first thing to test is nitrate &mdash; chronic nitrate above 40 ppm produces exactly that. Fixed black patches that appeared after a water quality problem are usually healing ammonia burn and fade over weeks to months.</p>
 
-    <h2 id="parasites">Snakehead Fish Parasites</h2>
+    <div class="cta-box" data-app-cta="guide-health" style="margin:22px 0;padding:18px 20px;border-radius:12px;background:linear-gradient(135deg,#0F3D5E,#2E9E7D);color:#fff"><h3 style="margin:0 0 6px;font-size:1.05rem;color:#fff">🧪 Test your water first</h3><p style="margin:0 0 12px;font-size:.92rem;line-height:1.55;color:rgba(255,255,255,.9)">Ammonia, nitrite and temperature problems can cause or worsen many fish symptoms. Enter your readings in our free water parameter checker to see what is out of range.</p><a class="btn" href="/tools/water-parameter-checker/" style="display:inline-block;padding:9px 16px;border-radius:8px;background:#fff;color:#0F3D5E;font-weight:700;font-size:.9rem;text-decoration:none">Check My Water →</a></div>
+<h2 id="parasites">Snakehead Fish Parasites</h2>
     <p>Most snakeheads in the trade are wild-caught and arrive carrying something. This is the single strongest argument for a <strong>4&ndash;6 week quarantine</strong> in a bare-bottom tank before the fish goes anywhere near a display.</p>
     <table class="ptbl">
       <tr><th>Parasite</th><th>Signs</th><th>Treatment</th></tr>

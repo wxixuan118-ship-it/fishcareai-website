@@ -255,7 +255,7 @@ def page(slug, title, meta_desc, h1, hero_tag, hero_meta,
 <style>{CSS.replace("__HERO__", hero_img)}</style>
 <link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260908-artc-contrast"/>
 <meta name="google-adsense-account" content="ca-pub-6697313643773879">
-<script defer src="/assets/site-compliance.js?v=20260812-fish-health"></script>
+<script defer src="/assets/site-compliance.js?v=20260812-fish-health"></script><script defer src="/assets/app-cta.js?v=20261107b"></script>
 </head>
 <body>
 <nav class="nb">
@@ -2322,7 +2322,8 @@ DIS_BODY = """    <p>Everything about treating a sick puffer follows from one fa
       <li><strong>Never use copper on a puffer</strong> if any alternative is available.</li>
     </ol>
 
-    <h2 id="parasites">Internal Parasites in Wild-Caught Puffers</h2>
+    <div class="cta-box" data-app-cta="guide-health" style="margin:22px 0;padding:18px 20px;border-radius:12px;background:linear-gradient(135deg,#0F3D5E,#2E9E7D);color:#fff"><h3 style="margin:0 0 6px;font-size:1.05rem;color:#fff">🧪 Test your water first</h3><p style="margin:0 0 12px;font-size:.92rem;line-height:1.55;color:rgba(255,255,255,.9)">Ammonia, nitrite and temperature problems can cause or worsen many fish symptoms. Enter your readings in our free water parameter checker to see what is out of range.</p><a class="btn" href="/tools/water-parameter-checker/" style="display:inline-block;padding:9px 16px;border-radius:8px;background:#fff;color:#0F3D5E;font-weight:700;font-size:.9rem;text-decoration:none">Check My Water →</a></div>
+<h2 id="parasites">Internal Parasites in Wild-Caught Puffers</h2>
     <p>Assume every wild-caught puffer &mdash; which means practically every fahaka, mbu, congo, hairy, figure 8, green spotted and Amazon puffer &mdash; has internal worms. The classic picture is a fish with a healthy appetite that stays thin, passing white stringy faeces.</p>
     <ul>
       <li><strong>Quarantine every new puffer for four weeks</strong> in a bare tank with a cycled sponge filter.</li>
@@ -2423,7 +2424,8 @@ EAT_BODY = """    <p>A puffer that stops eating is a genuine warning sign, becau
       <tr><td>Constipation</td><td>Swollen belly, no faeces</td><td>Fast 2&ndash;3 days, then shelled prey</td></tr>
     </table></div>
 
-    <h2 id="new">Getting a New Puffer to Eat</h2>
+    <div class="cta-box" data-app-cta="guide-health" style="margin:22px 0;padding:18px 20px;border-radius:12px;background:linear-gradient(135deg,#0F3D5E,#2E9E7D);color:#fff"><h3 style="margin:0 0 6px;font-size:1.05rem;color:#fff">🧪 Test your water first</h3><p style="margin:0 0 12px;font-size:.92rem;line-height:1.55;color:rgba(255,255,255,.9)">Ammonia, nitrite and temperature problems can cause or worsen many fish symptoms. Enter your readings in our free water parameter checker to see what is out of range.</p><a class="btn" href="/tools/water-parameter-checker/" style="display:inline-block;padding:9px 16px;border-radius:8px;background:#fff;color:#0F3D5E;font-weight:700;font-size:.9rem;text-decoration:none">Check My Water →</a></div>
+<h2 id="new">Getting a New Puffer to Eat</h2>
     <ol>
       <li><strong>Dim the tank and the room</strong> for the first few days and keep traffic past the glass low.</li>
       <li><strong>Offer live food.</strong> Live blackworms break more hunger strikes than anything else; live pest snails work well for pea and figure 8 puffers.</li>
@@ -2510,7 +2512,8 @@ PUFF_BODY = """    <p>Inflating is what puffers are famous for, and it is the be
     <div class="callout callout-warn"><strong>Do not net a puffer, and never lift one out of the water.</strong> A puffer that inflates in air gulps air instead of water, and air is far harder to expel. A fish with trapped air floats at the surface, cannot right itself, and may not recover. Move puffers in a submerged container or a bag, always keeping the fish underwater.</div>
     <p>The same applies to poking, chasing with a net, or deliberately provoking the fish for a photograph. If someone tells you it is harmless, it is not.</p>
 
-    <h2 id="trapped">If a Puffer Has Swallowed Air</h2>
+    <div class="cta-box" data-app-cta="guide-health" style="margin:22px 0;padding:18px 20px;border-radius:12px;background:linear-gradient(135deg,#0F3D5E,#2E9E7D);color:#fff"><h3 style="margin:0 0 6px;font-size:1.05rem;color:#fff">🧪 Test your water first</h3><p style="margin:0 0 12px;font-size:.92rem;line-height:1.55;color:rgba(255,255,255,.9)">Ammonia, nitrite and temperature problems can cause or worsen many fish symptoms. Enter your readings in our free water parameter checker to see what is out of range.</p><a class="btn" href="/tools/water-parameter-checker/" style="display:inline-block;padding:9px 16px;border-radius:8px;background:#fff;color:#0F3D5E;font-weight:700;font-size:.9rem;text-decoration:none">Check My Water →</a></div>
+<h2 id="trapped">If a Puffer Has Swallowed Air</h2>
     <p>Signs: the fish floats at the surface, often on its side or upside down, and cannot swim down despite trying. Act quickly.</p>
     <ol>
       <li><strong>Hold the fish underwater</strong> in a container, gently, head slightly down.</li>
@@ -2713,7 +2716,8 @@ SWIM_BODY = """    <p>Puffers swim with their pectoral fins, hovering and revers
       <tr><td>Injury or neurological damage</td><td>After a fall, a fight, or long-term feeder fish diet</td><td>Supportive care; lower the water level</td></tr>
     </table></div>
 
-    <h2 id="protocol">The Buoyancy Protocol</h2>
+    <div class="cta-box" data-app-cta="guide-health" style="margin:22px 0;padding:18px 20px;border-radius:12px;background:linear-gradient(135deg,#0F3D5E,#2E9E7D);color:#fff"><h3 style="margin:0 0 6px;font-size:1.05rem;color:#fff">🧪 Test your water first</h3><p style="margin:0 0 12px;font-size:.92rem;line-height:1.55;color:rgba(255,255,255,.9)">Ammonia, nitrite and temperature problems can cause or worsen many fish symptoms. Enter your readings in our free water parameter checker to see what is out of range.</p><a class="btn" href="/tools/water-parameter-checker/" style="display:inline-block;padding:9px 16px;border-radius:8px;background:#fff;color:#0F3D5E;font-weight:700;font-size:.9rem;text-decoration:none">Check My Water →</a></div>
+<h2 id="protocol">The Buoyancy Protocol</h2>
     <ol>
       <li><strong>Rule out trapped air first</strong> if the fish has been netted or handled recently.</li>
       <li><strong>Fast for two to three days.</strong> Puffers tolerate this easily and constipation is the most common cause.</li>

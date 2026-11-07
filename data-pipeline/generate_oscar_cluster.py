@@ -224,7 +224,7 @@ def page(slug, title, meta_desc, h1, hero_tag, hero_meta,
 <style>{CSS}</style>
 <link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260908-artc-contrast"/>
 <meta name="google-adsense-account" content="ca-pub-6697313643773879">
-<script defer src="/assets/site-compliance.js?v=20260812-fish-health"></script>
+<script defer src="/assets/site-compliance.js?v=20260812-fish-health"></script><script defer src="/assets/app-cta.js?v=20261107b"></script>
 </head>
 <body>
 <nav class="nb">
@@ -1457,7 +1457,8 @@ DIS_BODY = """    <p>Most oscar illness is a water quality problem wearing a dis
     <h3>Dropsy</h3>
     <p>A swollen abdomen with scales standing out from the body, giving the classic pinecone appearance when viewed from above. Dropsy is a symptom of organ failure rather than a disease in itself, and the prognosis is poor once scales are raised. Epsom salt baths and antibacterial treatment in a hospital tank are worth attempting; prevention through water quality is far more effective.</p>
 
-    <h2 id="parasites">Oscar Fish Parasites</h2>
+    <div class="cta-box" data-app-cta="guide-health" style="margin:22px 0;padding:18px 20px;border-radius:12px;background:linear-gradient(135deg,#0F3D5E,#2E9E7D);color:#fff"><h3 style="margin:0 0 6px;font-size:1.05rem;color:#fff">🧪 Test your water first</h3><p style="margin:0 0 12px;font-size:.92rem;line-height:1.55;color:rgba(255,255,255,.9)">Ammonia, nitrite and temperature problems can cause or worsen many fish symptoms. Enter your readings in our free water parameter checker to see what is out of range.</p><a class="btn" href="/tools/water-parameter-checker/" style="display:inline-block;padding:9px 16px;border-radius:8px;background:#fff;color:#0F3D5E;font-weight:700;font-size:.9rem;text-decoration:none">Check My Water →</a></div>
+<h2 id="parasites">Oscar Fish Parasites</h2>
     <div class="tblwrap"><table class="ptbl">
       <tr><th>Parasite</th><th>Signs</th><th>Treatment</th></tr>
       <tr><td>Ich (<em>Ichthyophthirius</em>)</td><td>White salt grains, scratching</td><td>Heat to 82&ndash;86&deg;F plus ich medication</td></tr>
@@ -1569,7 +1570,8 @@ HITH_BODY = """    <p>Hole-in-the-head is the disease oscars are known for. It s
       <tr><td>Stray voltage</td><td>Occasionally implicated in HLLE</td><td>Weak, but worth checking equipment</td></tr>
     </table></div>
 
-    <h2 id="symptoms">Symptoms in Order of Appearance</h2>
+    <div class="cta-box" data-app-cta="guide-health" style="margin:22px 0;padding:18px 20px;border-radius:12px;background:linear-gradient(135deg,#0F3D5E,#2E9E7D);color:#fff"><h3 style="margin:0 0 6px;font-size:1.05rem;color:#fff">🧪 Test your water first</h3><p style="margin:0 0 12px;font-size:.92rem;line-height:1.55;color:rgba(255,255,255,.9)">Ammonia, nitrite and temperature problems can cause or worsen many fish symptoms. Enter your readings in our free water parameter checker to see what is out of range.</p><a class="btn" href="/tools/water-parameter-checker/" style="display:inline-block;padding:9px 16px;border-radius:8px;background:#fff;color:#0F3D5E;font-weight:700;font-size:.9rem;text-decoration:none">Check My Water →</a></div>
+<h2 id="symptoms">Symptoms in Order of Appearance</h2>
     <ol>
       <li>Small pale or white pits above the eyes, 1&ndash;2 mm across. Easy to miss.</li>
       <li>Pits deepen and widen; the surrounding skin loses colour.</li>
@@ -1693,7 +1695,8 @@ ICH_BODY = """    <p>White spots on an oscar are usually ich, and ich on an osca
     </ol>
     <p>Two consequences follow. First, spots disappearing means the parasite dropped off, not that it died &mdash; stopping treatment there guarantees a worse outbreak in a week. Second, warmth speeds the cycle up, so raising the temperature shortens the time the parasite spends in a stage you cannot touch.</p>
 
-    <h2 id="treatment">Treating Ich on an Oscar</h2>
+    <div class="cta-box" data-app-cta="guide-health" style="margin:22px 0;padding:18px 20px;border-radius:12px;background:linear-gradient(135deg,#0F3D5E,#2E9E7D);color:#fff"><h3 style="margin:0 0 6px;font-size:1.05rem;color:#fff">🧪 Test your water first</h3><p style="margin:0 0 12px;font-size:.92rem;line-height:1.55;color:rgba(255,255,255,.9)">Ammonia, nitrite and temperature problems can cause or worsen many fish symptoms. Enter your readings in our free water parameter checker to see what is out of range.</p><a class="btn" href="/tools/water-parameter-checker/" style="display:inline-block;padding:9px 16px;border-radius:8px;background:#fff;color:#0F3D5E;font-weight:700;font-size:.9rem;text-decoration:none">Check My Water →</a></div>
+<h2 id="treatment">Treating Ich on an Oscar</h2>
     <ol>
       <li><strong>Raise the temperature</strong> gradually to 82&ndash;86&deg;F over 12&ndash;24 hours. Oscars tolerate this well.</li>
       <li><strong>Add aeration.</strong> Warm water holds less oxygen and this is the stage where a gasping fish becomes a real risk. An extra airstone is not optional.</li>
@@ -1793,7 +1796,8 @@ EAT_BODY = """    <p>An oscar that stops eating, hides, or sits on the bottom is
       <tr><td>Simply full</td><td>Fat, healthy adult on daily feeding</td><td>Move to every-other-day feeding</td></tr>
     </table></div>
 
-    <h2 id="bottom">Oscar Lying on the Bottom</h2>
+    <div class="cta-box" data-app-cta="guide-health" style="margin:22px 0;padding:18px 20px;border-radius:12px;background:linear-gradient(135deg,#0F3D5E,#2E9E7D);color:#fff"><h3 style="margin:0 0 6px;font-size:1.05rem;color:#fff">🧪 Test your water first</h3><p style="margin:0 0 12px;font-size:.92rem;line-height:1.55;color:rgba(255,255,255,.9)">Ammonia, nitrite and temperature problems can cause or worsen many fish symptoms. Enter your readings in our free water parameter checker to see what is out of range.</p><a class="btn" href="/tools/water-parameter-checker/" style="display:inline-block;padding:9px 16px;border-radius:8px;background:#fff;color:#0F3D5E;font-weight:700;font-size:.9rem;text-decoration:none">Check My Water →</a></div>
+<h2 id="bottom">Oscar Lying on the Bottom</h2>
     <p>An oscar resting on the substrate is not automatically ill &mdash; adults do rest, and old fish rest a lot. What separates normal resting from a problem is everything happening around it:</p>
     <ul>
       <li><strong>Probably normal:</strong> upright, breathing steadily, alert to you approaching, normal colour, eats when offered food, older fish.</li>
@@ -2012,7 +2016,8 @@ SWIM_BODY = """    <p>An oscar swimming sideways, floating upside down, bloated,
     </table></div>
     <p>Constipation is the most common of these in oscars and the easiest to fix: it is caused by too much dry food, food that was not pre-soaked, or a diet with no vegetable content at all.</p>
 
-    <h2 id="sideways">Swimming Sideways, Upside Down or Sinking</h2>
+    <div class="cta-box" data-app-cta="guide-health" style="margin:22px 0;padding:18px 20px;border-radius:12px;background:linear-gradient(135deg,#0F3D5E,#2E9E7D);color:#fff"><h3 style="margin:0 0 6px;font-size:1.05rem;color:#fff">🧪 Test your water first</h3><p style="margin:0 0 12px;font-size:.92rem;line-height:1.55;color:rgba(255,255,255,.9)">Ammonia, nitrite and temperature problems can cause or worsen many fish symptoms. Enter your readings in our free water parameter checker to see what is out of range.</p><a class="btn" href="/tools/water-parameter-checker/" style="display:inline-block;padding:9px 16px;border-radius:8px;background:#fff;color:#0F3D5E;font-weight:700;font-size:.9rem;text-decoration:none">Check My Water →</a></div>
+<h2 id="sideways">Swimming Sideways, Upside Down or Sinking</h2>
     <p>These are swim bladder problems. In oscars the causes, in order:</p>
     <ol>
       <li><strong>Constipation or overfeeding.</strong> A distended gut presses on the swim bladder. Most common cause by a wide margin, and reversible.</li>

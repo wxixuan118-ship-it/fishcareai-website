@@ -57,7 +57,7 @@ def head(title, desc, canonical, image, schema):
 <link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260823-screenshot"/>
 <link rel="stylesheet" href="/assets/clownfish-health.css?v=20261008"/>
 <meta name="google-adsense-account" content="ca-pub-6697313643773879"/>
-<script defer src="/assets/site-compliance.js?v=20260824-dark-fix"></script>
+<script defer src="/assets/site-compliance.js?v=20260824-dark-fix"></script><script defer src="/assets/app-cta.js?v=20261107b"></script>
 <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>
 </head>
 <body>
@@ -127,6 +127,8 @@ def species_page(key, sp):
     <figcaption>{sp["full"]}. Photo: {cr[0]} via <a href="{src.get("sourcePage", "https://commons.wikimedia.org/")}" rel="noopener" target="_blank">Wikimedia Commons</a>, <a href="{cr[2]}" rel="license noopener" target="_blank">{cr[1]}</a>. Resized.</figcaption></figure>
   </div>
 </section>
+
+<div class="cta-box" data-app-cta="disease-hub" style="margin:22px 0;padding:18px 20px;border-radius:12px;background:linear-gradient(135deg,#0F3D5E,#2E9E7D);color:#fff"><h3 style="margin:0 0 6px;font-size:1.05rem;color:#fff">🧪 Test your water first</h3><p style="margin:0 0 12px;font-size:.92rem;line-height:1.55;color:rgba(255,255,255,.9)">Ammonia, nitrite and temperature problems can cause or worsen many fish symptoms. Enter your readings in our free water parameter checker to see what is out of range.</p><a class="btn" href="/tools/water-parameter-checker/" style="display:inline-block;padding:9px 16px;border-radius:8px;background:#fff;color:#0F3D5E;font-weight:700;font-size:.9rem;text-decoration:none">Check My Water →</a></div>
 
 <section class="card" id="symptoms">
   <span class="eyebrow">Symptoms</span>

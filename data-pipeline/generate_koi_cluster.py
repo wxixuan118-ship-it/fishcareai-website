@@ -205,7 +205,7 @@ def page(slug, title, meta_desc, h1, hero_tag, hero_meta, date,
 <style>{CSS}</style>
 <link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260908-artc-contrast"/>
 <meta name="google-adsense-account" content="ca-pub-6697313643773879">
-<script defer src="/assets/site-compliance.js?v=20260812-fish-health"></script>
+<script defer src="/assets/site-compliance.js?v=20260812-fish-health"></script><script defer src="/assets/app-cta.js?v=20261107b"></script>
 </head>
 <body>
 <nav class="nb">
@@ -1076,7 +1076,8 @@ DISEASES_BODY = """    <p>Almost every koi disease starts with a water quality p
       <li><strong>Anchor worm (<em>Lernaea</em>)</strong> and <strong>fish lice (<em>Argulus</em>)</strong> &mdash; large enough to see. Remove individually with tweezers, treat the wound, and treat the pond to break the cycle.</li>
     </ul>
 
-    <h2 id="fin-rot">Koi Fin Rot</h2>
+    <div class="cta-box" data-app-cta="guide-health" style="margin:22px 0;padding:18px 20px;border-radius:12px;background:linear-gradient(135deg,#0F3D5E,#2E9E7D);color:#fff"><h3 style="margin:0 0 6px;font-size:1.05rem;color:#fff">🧪 Test your water first</h3><p style="margin:0 0 12px;font-size:.92rem;line-height:1.55;color:rgba(255,255,255,.9)">Ammonia, nitrite and temperature problems can cause or worsen many fish symptoms. Enter your readings in our free water parameter checker to see what is out of range.</p><a class="btn" href="/tools/water-parameter-checker/" style="display:inline-block;padding:9px 16px;border-radius:8px;background:#fff;color:#0F3D5E;font-weight:700;font-size:.9rem;text-decoration:none">Check My Water →</a></div>
+<h2 id="fin-rot">Koi Fin Rot</h2>
     <p>Fin rot is a bacterial infection of tissue already damaged by poor water, fin nipping, or physical injury. Fins fray from the edge inward, often with a white or reddened margin; in advanced cases the erosion reaches the fin base.</p>
     <ol>
       <li><strong>Fix the water.</strong> Test ammonia, nitrite and nitrate; do a 30% water change and repeat every other day.</li>

@@ -222,7 +222,7 @@ def page(slug, title, meta_desc, h1, hero_tag, hero_meta,
 <style>{CSS}</style>
 <link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260908-artc-contrast"/>
 <meta name="google-adsense-account" content="ca-pub-6697313643773879">
-<script defer src="/assets/site-compliance.js?v=20260812-fish-health"></script>
+<script defer src="/assets/site-compliance.js?v=20260812-fish-health"></script><script defer src="/assets/app-cta.js?v=20261107b"></script>
 </head>
 <body>
 <nav class="nb">
@@ -1248,7 +1248,8 @@ BLACK_BODY = """    <p>Black spots on a blood parrot fish look alarming and are 
     </ol>
     <p>The marks fade over <strong>weeks to a few months</strong> once the water is clean. Some fish keep a faint permanent shadow, which is cosmetic. Full parameter targets are on the <a href="/guides/parrot-fish-care/water-parameters/">water parameters page</a>.</p>
 
-    <h2 id="stress">Stress Marbling and Genetics</h2>
+    <div class="cta-box" data-app-cta="guide-health" style="margin:22px 0;padding:18px 20px;border-radius:12px;background:linear-gradient(135deg,#0F3D5E,#2E9E7D);color:#fff"><h3 style="margin:0 0 6px;font-size:1.05rem;color:#fff">🧪 Test your water first</h3><p style="margin:0 0 12px;font-size:.92rem;line-height:1.55;color:rgba(255,255,255,.9)">Ammonia, nitrite and temperature problems can cause or worsen many fish symptoms. Enter your readings in our free water parameter checker to see what is out of range.</p><a class="btn" href="/tools/water-parameter-checker/" style="display:inline-block;padding:9px 16px;border-radius:8px;background:#fff;color:#0F3D5E;font-weight:700;font-size:.9rem;text-decoration:none">Check My Water →</a></div>
+<h2 id="stress">Stress Marbling and Genetics</h2>
     <p>Blood parrots also darken from plain stress &mdash; bullying, a new tank, a light that is too bright, a tank in a high-traffic room. Stress marbling is smudgier than burn marks and often changes within hours. Fix the stressor and the colour returns: add caves, dim the lighting, and check the <a href="/guides/parrot-fish-care/tank-mates/">tank mate list</a> for an aggressor.</p>
     <p>Genetic black markings are different again: they are stable, present from a young age, and do not spread. Calico and marbled blood parrots are a recognised natural pattern, not a health problem.</p>
 

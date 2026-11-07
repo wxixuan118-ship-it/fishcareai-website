@@ -5,6 +5,7 @@
  * on an iPhone this script turns it into an App Store box.
  * Tool pages load this script with data-tool="<name>"; on an iPhone it adds an App
  * Store box after the tool's result. Other devices see nothing extra on tools.
+ * Tank-size calculators are matched by path, so they need no data-tool attribute.
  *
  * Copy here must match the live app: iPhone only, a free rules-based emergency
  * preview, and everything else behind FishCare Plus. Check ../fishcare-ai-app/src
@@ -41,6 +42,14 @@
         button: 'Get the iPhone App →'
       }
     },
+    'tank-size': {
+      ready: '#result:not(:empty), #gr-result:not(:empty), #rf-result:not(:empty), #tg-result:not(:empty)',
+      copy: {
+        heading: '📱 Turn this tank plan into a routine',
+        body: 'The FishCare AI iPhone app tracks your tanks with care plans, reminders and water records. It needs ' + PLUS_PRICE + '.',
+        button: 'Get the iPhone App →'
+      }
+    },
     'aquarium-planner': {
       ready: '#planner-result .hs',
       resultRoot: '#planner-result',
@@ -54,6 +63,7 @@
 
   var script = document.currentScript;
   var toolName = script && script.getAttribute('data-tool');
+  if (!toolName && /^\/calculators\/[^/]+-tank-size\//.test(location.pathname)) toolName = 'tank-size';
   var isIphone = /iPhone/.test(navigator.userAgent);
 
   function storeLink(placement) {
