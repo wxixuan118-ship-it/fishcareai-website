@@ -231,6 +231,10 @@ input.fc[aria-invalid="true"]{border-color:#E9887E}
 .calc-wrap{background:linear-gradient(180deg,#0A2540 0%,#0d3060 100%);padding:34px 0 48px}
 .calc-con{max-width:1100px;margin:0 auto;padding:0 22px}
 .cg{display:grid;grid-template-columns:1fr 1.15fr;gap:24px;align-items:start}
+.res-col{display:flex;flex-direction:column;gap:16px;min-width:0}
+.tank-viz{margin:0}
+.tank-viz figcaption{font-size:.78rem;color:rgba(220,246,255,.62);margin-top:8px;line-height:1.45}
+.tank-viz figcaption strong{color:#F5B041;font-weight:600}
 @media(max-width:820px){.cg{grid-template-columns:1fr}}
 .calc-box{background:rgba(255,255,255,.06);border-radius:18px;padding:26px;border:1px solid rgba(255,255,255,.12);backdrop-filter:blur(12px)}
 .calc-heading{color:#fff;margin-bottom:6px;font-size:clamp(1.1rem,2.5vw,1.45rem);font-weight:700}
@@ -490,7 +494,13 @@ legend{font-weight:600;font-size:.86rem;margin-bottom:6px;color:#fff}
       </form>
 
       <!-- RESULT -->
-      <div id="stock-result" role="status" aria-live="polite" tabindex="-1"></div>
+      <div class="res-col">
+        <figure class="tank-viz">
+          <div id="stock-tank"></div>
+          <figcaption id="stock-tank-cap">Each fish is drawn at adult size, to scale with your tank.</figcaption>
+        </figure>
+        <div id="stock-result" role="status" aria-live="polite" tabindex="-1"></div>
+      </div>
     </div>
 
     <!-- QUICK PRESETS -->
@@ -804,6 +814,7 @@ legend{font-weight:600;font-size:.86rem;margin-bottom:6px;color:#fff}
   </nav>
 </footer>
 
+<script src="/assets/tank-scene.js?v=20261107"></script>
 <script>
 (function () {
   'use strict';
@@ -1110,7 +1121,36 @@ legend{font-weight:600;font-size:.86rem;margin-bottom:6px;color:#fff}
   function calculate() {
     var v = validate();
     if (!v.ok) { renderErrors(v.errors); return; }
-    renderResult(v, compute(v));
+    var r = compute(v);
+    renderResult(v, r);
+    renderTank(v, r);
+  }
+
+  // ── Animated tank ────────────────────────────────────────────────────────
+  var tankScene = null;
+  var tankBox = $('stock-tank'), tankCap = $('stock-tank-cap');
+  if (tankBox && window.FishCareTank) {
+    try { tankScene = window.FishCareTank.mount(tankBox, { label: 'Animated aquarium' }); } catch (e) { tankScene = null; }
+  }
+  function renderTank(v, r) {
+    if (!tankScene) return;
+    var lengthIn = window.FishCareTank.lengthForGallons(v.usGal);
+    tankScene.setTank({
+      lengthIn: lengthIn,
+      plants: v.plantsKey,
+      cloud: Math.max(0, Math.min(1, (r.pct - 105) / 60))
+    });
+    var info = tankScene.setFish(stock.map(function (row) {
+      var s = BY_KEY[row.key];
+      return { key: row.key, name: s.name, count: row.count, adultIn: s.adult, school: s.group > 1 };
+    }));
+    var biggest = null;
+    stock.forEach(function (row) { var s = BY_KEY[row.key]; if (!biggest || s.adult > biggest.adult) biggest = s; });
+    var cap = 'Each fish is drawn at adult size in a tank about ' + num(lengthIn, 0) + ' in (' + num(lengthIn * 2.54, 0) + ' cm) long.';
+    if (biggest) cap += ' Largest: ' + esc(biggest.name) + ' at ' + biggest.adult + ' in, ' + num(biggest.adult / lengthIn * 100, 0) + '% of the tank length.';
+    if (info.shown < info.total) cap += ' Showing ' + info.shown + ' of ' + info.total + ' animals so the view stays readable.';
+    if (r.pct > 110) cap += ' <strong>The cloudy water shows a load the filter cannot keep up with.</strong>';
+    tankCap.innerHTML = cap;
   }
 
   // ── Fish list ────────────────────────────────────────────────────────────
