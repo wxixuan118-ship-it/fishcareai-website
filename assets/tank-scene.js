@@ -119,7 +119,7 @@
     s.textContent =
       '.fct{position:relative;width:100%;aspect-ratio:16/9.4;border-radius:14px;overflow:hidden;background:#0b3a52;box-shadow:0 10px 30px rgba(0,0,0,.35)}' +
       '.fct canvas{display:block;width:100%;height:100%;cursor:pointer;touch-action:manipulation}' +
-      '.fct .fct-feed{position:absolute;right:10px;bottom:10px;width:auto;margin:0;font:600 .78rem/1 system-ui,-apple-system,sans-serif;color:#05202f;background:rgba(247,252,255,.9);background-image:none;border:0;border-radius:999px;padding:7px 12px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.25)}' +
+      '.fct .fct-feed{position:absolute;left:10px;bottom:10px;right:auto;z-index:2;width:auto;margin:0;font:600 .78rem/1 system-ui,-apple-system,sans-serif;color:#05202f;background:rgba(247,252,255,.9);background-image:none;border:0;border-radius:999px;padding:7px 12px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.25)}' +
       '.fct .fct-feed:hover{background:#fff}'+
       '.fct-fig{margin:18px 0 0}' +
       '.fct-fig .fct-views{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 8px}' +
@@ -494,7 +494,7 @@
       if (reduce) return;
       var cx = typeof xNorm === 'number' ? xNorm : rand(.2, .8);
       for (var i = 0; i < 9; i++) {
-        flakes.push({ x: clamp(cx + rand(-.05, .05), .02, .98), y: rand(.0, .02), vy: rand(.04, .08), ph: Math.random() * 6, rest: 0, c: Math.random() < .5 ? '#c8742a' : '#e3a24e', s: rand(1.6, 2.8) });
+        flakes.push({ x: clamp(cx + rand(-.05, .05), .02, .98), y: rand(.0, .02), vy: rand(.04, .08), ph: Math.random() * 6, rest: 0, c: Math.random() < .5 ? '#c8742a' : '#e3a24e', s: clamp(lay.ww * .007, 2.5, 5) * rand(.8, 1.2) });
       }
       if (!fed) { fed = true; hint.classList.add('off'); }
     }

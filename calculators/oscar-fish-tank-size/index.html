@@ -463,7 +463,7 @@ h1{font-size:clamp(1.8rem,4vw,2.9rem);line-height:1.15;margin:0 0 12px;font-weig
 <!-- FOOTER (global footer rendered by site-compliance.js) -->
 <footer class="ft"></footer>
 
-<script src="/assets/tank-scene.js?v=20261107b"></script>
+<script src="/assets/tank-scene.js?v=20261108"></script>
 <script>
 const FISH={"mode": "standard", "name": "Oscar Fish", "singular": "Oscar", "plural": "Oscars", "schoolMin": 1, "schoolRec": 1, "minFirst": 75, "recFirst": 100, "perAdditional": 50, "maxExtra": 0, "reverseNote": "<strong>One oscar per 75 gallons, two per 125\u2013150.</strong> Filtration rated for at least twice the tank volume and 25\u201330% weekly water changes are part of the number, not optional extras."};
 
@@ -663,7 +663,8 @@ let tankView=null;
 if(window.FishCareTank){ try{ tankView=FishCareTank.attach(document.getElementById("result"),{plants:TANK_LOOK.plants||"some",vessel:TANK_LOOK.vessel}); }catch(e){ tankView=null; } }
 function tankFish(count){
   const lk=TANK_LOOK.bySub?(TANK_LOOK.bySub[getSubtype()]||TANK_LOOK.bySub.fancy):TANK_LOOK;
-  return [{key:lk.key,name:nameFor(count),single:FISH.singular||FISH.name,count:count,adultIn:lk.adult,school:!!TANK_LOOK.school}];
+  const nm=count===1?(FISH.singular||FISH.name):(FISH.plural||FISH.name);
+  return [{key:lk.key,name:nm,single:FISH.singular||FISH.name,count:count,adultIn:lk.adult,school:!!TANK_LOOK.school}];
 }
 function renderTank(){
   if(!tankView) return;
