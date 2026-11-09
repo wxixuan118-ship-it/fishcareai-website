@@ -11,7 +11,7 @@ matching section of the species page.
 import html, json, os, sys
 
 sys.path.insert(0, os.path.dirname(__file__))
-from clownfish_cluster_data import REFS, GROUPS, SPECIES, DISEASES
+from clownfish_cluster_data import REFS, GROUPS, SPECIES
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://www.fishcareai.com"
@@ -94,10 +94,6 @@ def species_page(key, sp):
             f'<p>{core}{cite(grefs) if grefs else ""}</p>'
             f'<p class="note"><strong>{sp["name"]} note:</strong> {sp["notes"][gid]}</p></div>')
 
-    rows = []
-    for name, latin, sign, lv, speed, treat, drefs in DISEASES:
-        rows.append(f'<tr><td>{name}<small>{latin}</small></td><td>{sign}</td><td><span class="speed {lv}">{speed}</span></td><td>{treat}{cite(drefs)}</td></tr>')
-
     faq_html = "".join(f"<details{' open' if i == 0 else ''}><summary>{q}</summary><p>{a}</p></details>" for i, (q, a) in enumerate(sp["faq"]))
     sib = "".join(f'<a class="guide-link" href="{url(k)}">{SPECIES[k]["full"]} diseases<span>{SPECIES[k]["latin"]}</span></a>' for k in others)
     cr = sp["credit"]
@@ -133,18 +129,17 @@ def species_page(key, sp):
 <section class="card" id="symptoms">
   <span class="eyebrow">Symptoms</span>
   <h2>{sp["full"]} symptoms and what they mean</h2>
-  <p>Most {kw} first show up as one of eight symptom groups, covering the 30 signs owners describe most often. Find the closest match, check the urgency label, then confirm the likely disease in the table below.</p>
+  <p>Most {kw} first show up as one of eight symptom groups, covering the 30 signs owners describe most often. Find the closest match, check the urgency label, then confirm the likely disease in the treatment section below.</p>
   {"".join(groups)}
 </section>
 
 <section class="card" id="diseases">
   <span class="eyebrow">Diagnosis</span>
-  <h2>Common {sp["name"].lower()} clownfish diseases and treatment</h2>
-  <p>These are the parasites most often behind the symptoms above. The <a href="{HUB}#diseases">clownfish health problems guide</a> compares them side by side with an illustration of what each looks like.</p>
-  <div class="table-wrap"><table class="facts"><thead><tr><th>Disease</th><th>What you see</th><th>Speed</th><th>Treatment in quarantine</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>
+  <h2>Which disease is behind a {sp["name"].lower()} clownfish symptom?</h2>
+  <p>Ich, velvet, Brooklynella, Uronema and flukes overlap heavily, so the comparison table lives on one page: see the <a href="{HUB}#diseases">clownfish disease comparison</a> for what each one looks like, how fast it progresses and the first-line quarantine treatment.</p>
   <h3>Treating a {sp["name"].lower()} clownfish</h3>
   <p>{sp["treat"]}</p>
-  <p>Copper is effective against ich and velvet only while free copper stays at 0.15–0.20 mg/L, so measure it with a test kit at least daily; it is lethal to most invertebrates and must never go into a reef tank.{cite(["fa165"])} Leave the display without fish while you treat: marine ich can complete its life cycle in anything from 6 days to 11 weeks, and its guidance calls for 3–6 weeks of quarantine, sometimes 7–11.{cite(["fa164"])}</p>
+  <p>Whatever the diagnosis, treat in a separate quarantine tank and leave the display fishless for the full fallow period — <a href="{HUB}#treat">step-by-step clownfish treatment</a>.</p>
 </section>
 
 <section class="card" id="prevent">

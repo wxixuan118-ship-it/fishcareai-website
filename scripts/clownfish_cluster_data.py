@@ -198,16 +198,3 @@ SPECIES = {
     },
 }
 
-DISEASES = [
-    # name, latin, sign, speed level, speed text, treatment, refs
-    ("Marine ich", "Cryptocaryon irritans", "White salt-grain spots, flashing, faster breathing", "a", "Days–weeks",
-     "Copper at 0.15–0.20 mg/L free copper for at least 3–6 weeks, hyposalinity, or tank transfer", ["fa164"]),
-    ("Marine velvet", "Amyloodinium ocellatum", "Fine gold-grey dust, very rapid breathing, hanging at the surface", "r", "Can kill in days",
-     "Short freshwater dip for relief, then copper at 0.15–0.20 mg/L free copper", ["srac", "fa165"]),
-    ("Brooklynella", "Brooklynella hostilis", "Thick white slime, peeling skin, pale color, rapid breathing", "r", "Can kill in days",
-     "Formalin baths or prolonged formalin; copper did not eradicate it", ["blasiola"]),
-    ("Uronema", "Uronema spp.", "Red ulcers that spread quickly, often from an injury", "a", "Days",
-     "Formalin; formalin, malachite green and hydrogen peroxide were all effective in lab trials", ["crosbie"]),
-    ("Flukes", "monogenean flatworms", "Flashing, cloudy eyes, heavy breathing, clear skin", "a", "Weeks",
-     "Praziquantel baths — 2 mg/L given twice, four days apart, in one study", ["cardoso"]),
-]
