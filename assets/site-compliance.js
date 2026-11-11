@@ -399,40 +399,164 @@
     document.head.appendChild(s);
   }
 
-  // ── App popup banner ───────────────────────────────────────────────────────
+  // ── App banner ─────────────────────────────────────────────────────────────
+  // Runs on every page, including the Next.js apps that turn the global chrome
+  // off (/fish-health, /identify), so it carries its own CSS.
+  //   iPhone/iPad: App Store bar, except in iOS Safari on pages with the
+  //                apple-itunes-app meta, where Safari shows its own banner.
+  //   Android:     Google Play bar once PLAY_LIVE is true; nothing before that.
+  //   Desktop:     a small card with a QR code to /app/.
+  // Copy must match the live app (hard paywall): no "free" or rating claims.
+  var APP_STORE_URL = 'https://apps.apple.com/app/fishcare-ai/id6793299571';
+  var PLAY_URL = 'https://play.google.com/store/apps/details?id=com.fishcareai.app';
+  // Flip to true once the Play listing stops returning 404.
+  var PLAY_LIVE = false;
+  // App Store Connect > App Analytics > Campaigns. Installs are only attributed once set.
+  var APP_PROVIDER_TOKEN = '';
+  var APP_BANNER_KEY = 'fishcare-app-banner-v2';
+  var APP_BANNER_SNOOZE_DAYS = 7;
+
+  function appPlatform() {
+    var ua = navigator.userAgent;
+    if (/iPhone|iPod|iPad/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) return 'ios';
+    if (/Android/.test(ua)) return 'android';
+    if (/Mobi|Tablet/.test(ua)) return 'other-mobile';
+    return 'desktop';
+  }
+
+  function appStoreLink(placement) {
+    var params = 'ct=' + encodeURIComponent('web-' + placement).slice(0, 40) + '&mt=8';
+    if (APP_PROVIDER_TOKEN) params = 'pt=' + APP_PROVIDER_TOKEN + '&' + params;
+    return APP_STORE_URL + '?' + params;
+  }
+
+  function playLink(placement) {
+    var ref = 'utm_source=fishcareai.com&utm_medium=web&utm_campaign=' + placement;
+    return PLAY_URL + '&referrer=' + encodeURIComponent(ref);
+  }
+
+  function trackApp(name, placement, variant) {
+    try {
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', name, { placement: placement, variant: variant, page_path: location.pathname });
+      }
+    } catch (e) {}
+  }
+
+  function appBannerSnoozed() {
+    try {
+      var until = parseInt(localStorage.getItem(APP_BANNER_KEY), 10);
+      return until > Date.now();
+    } catch (e) { return false; }
+  }
+
+  function injectAppBannerStyles() {
+    if (document.getElementById('fishcare-app-bar-css')) return;
+    var css = document.createElement('style');
+    css.id = 'fishcare-app-bar-css';
+    var b = '#fishcare-app-bar';
+    css.textContent =
+      b + '{position:fixed;z-index:180;left:12px;right:72px;bottom:12px;max-width:460px;box-sizing:border-box;' +
+      'display:flex;align-items:center;gap:8px;padding:9px 8px 9px 10px;border-radius:16px;' +
+      'background:rgba(5,26,44,.97);border:1px solid rgba(125,235,255,.28);box-shadow:0 14px 40px rgba(0,0,0,.4);' +
+      'color:#fff;font:14px/1.3 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;text-align:left;' +
+      'transform:translateY(140%);transition:transform .35s ease}' +
+      b + '.fcab-show{transform:translateY(0)}' +
+      b + ' *{box-sizing:border-box}' +
+      b + ' .fcab-icon{width:38px;height:38px;border-radius:10px;flex:0 0 auto;display:block;background:#fff}' +
+      b + ' .fcab-text{flex:1;min-width:0}' +
+      b + ' .fcab-name{font-weight:700;font-size:.92rem;color:#fff;margin:0}' +
+      b + ' .fcab-sub{font-size:.75rem;color:rgba(234,251,255,.7);margin:2px 0 0}' +
+      b + ':not(.fcab-desktop) .fcab-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}' +
+      b + ':not(.fcab-desktop) .fcab-sub{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}' +
+      b + ' .fcab-cta{flex:0 0 auto;padding:8px 12px;border-radius:10px;background:#2EB8FF;color:#03223A!important;' +
+      'font-weight:700;font-size:.85rem;text-decoration:none!important;white-space:nowrap}' +
+      b + ' .fcab-close{flex:0 0 auto;width:24px;height:28px;margin:0;padding:0;border:0;background:none;' +
+      'color:rgba(234,251,255,.55);font-size:20px;line-height:28px;cursor:pointer;align-self:flex-start}' +
+      b + ' .fcab-close:hover{color:#fff}' +
+      b + '.fcab-desktop{left:20px;right:auto;bottom:20px;width:300px;flex-wrap:wrap;padding:14px}' +
+      b + ' .fcab-qr{display:flex;gap:12px;align-items:center;width:100%;margin-top:4px}' +
+      b + ' .fcab-qr img{width:92px;height:92px;border-radius:8px;background:#fff;padding:4px;flex:0 0 auto}' +
+      b + ' .fcab-qr p{margin:0;font-size:.78rem;color:rgba(234,251,255,.75)}' +
+      b + ' .fcab-qr a{color:#7debff;font-weight:600}' +
+      '@media (max-width:760px){' + b + '.fcab-desktop{display:none}}' +
+      '@media print{' + b + '{display:none}}';
+    document.head.appendChild(css);
+  }
+
   function setupAppBanner() {
-    // pages that opt out of the app popup (they also drop the iOS smart-banner meta)
-    if (['/calculators/zebra-danio-tank-size/', '/calculators/koi-fish-tank-size/', '/calculators/goldfish-tank-size/', '/calculators/discus-fish-tank-size/', '/calculators/betta-fish-tank-size/', '/calculators/oscar-fish-tank-size/', '/calculators/angelfish-tank-size/', '/calculators/guppy-tank-size/', '/calculators/molly-fish-tank-size/', '/calculators/swordtail-fish-tank-size/', '/guides/fish-care-for-beginners/'].indexOf(window.location.pathname) !== -1) return;
-    if (/^\/(?:app\/|admin\/|aquarium-fish-diseases\/|tools\/|__forms\.html$|yandex_[^/]+\.html$)/.test(window.location.pathname)) return;
-    // iOS Safari already shows the native Smart App Banner
-    if (/iP(?:hone|ad|od)/.test(navigator.userAgent) &&
-        /Safari/.test(navigator.userAgent) && !/CriOS|FxiOS/.test(navigator.userAgent)) return;
-    var KEY = 'fishcare-app-banner-v1';
-    try { if (localStorage.getItem(KEY) === 'dismissed') return; } catch (e) {}
-    setTimeout(function () {
-      var banner = document.createElement('div');
-      banner.id = 'fishcare-app-banner';
-      banner.innerHTML =
-        '<div class="fab-content">' +
-          '<div class="fab-text">' +
-            '<div class="fab-text-top">' +
-              '<span class="fab-text-store">App Store</span>' +
-              '<span class="fab-text-stars">★★★★★</span>' +
-            '</div>' +
-            '<div class="fab-text-name">FishCare AI</div>' +
-            '<div class="fab-text-sub">AI Health Check &amp; Care Plans</div>' +
-          '</div>' +
-          '<a class="fab-cta" href="https://apps.apple.com/app/fishcare-ai/id6793299571" target="_blank" rel="noopener">Get the app</a>' +
-          '<button class="fab-close" type="button" aria-label="Dismiss">&times;</button>' +
-        '</div>';
-      document.body.appendChild(banner);
-      setTimeout(function () { banner.classList.add('fab-show'); }, 60);
-      banner.querySelector('.fab-close').addEventListener('click', function () {
-        banner.classList.remove('fab-show');
-        setTimeout(function () { banner.remove(); }, 350);
-        try { localStorage.setItem(KEY, 'dismissed'); } catch (e) {}
+    var path = window.location.pathname;
+    // /app/ is the download page; koi pages are left out because the app has no pond tank type.
+    if (/^\/(?:app\/|admin\/|delete-account\/|__forms\.html$|yandex_[^/]+\.html$)/.test(path)) return;
+    if (/koi/.test(path)) return;
+    if (document.getElementById('fishcare-app-bar') || appBannerSnoozed()) return;
+
+    var platform = appPlatform();
+    var ua = navigator.userAgent;
+    var iosSafari = platform === 'ios' && /Safari/.test(ua) && !/CriOS|FxiOS|EdgiOS|GSA\//.test(ua);
+    if (iosSafari && document.querySelector('meta[name="apple-itunes-app"]')) return;
+    if (platform === 'android' && !PLAY_LIVE) return;
+    if (platform === 'other-mobile') return;
+
+    var placement = 'floating-bar';
+    var variant = platform === 'desktop' ? 'desktop-qr' : platform;
+    var name = 'FishCare AI';
+    var sub = 'Fish health check, reminders and water records';
+    var html;
+    if (platform === 'desktop') {
+      var stores = PLAY_LIVE ? 'iPhone, iPad and Android' : 'iPhone and iPad';
+      html =
+        '<img class="fcab-icon" src="/assets/pwa/apple-touch-icon.png" alt="" width="42" height="42">' +
+        '<div class="fcab-text"><p class="fcab-name">' + name + ' for ' + stores + '</p>' +
+        '<p class="fcab-sub">' + sub + '</p></div>' +
+        '<button class="fcab-close" type="button" aria-label="Dismiss">&times;</button>' +
+        '<div class="fcab-qr"><img src="/assets/app-qr.svg" alt="QR code for the FishCare AI app page" width="92" height="92">' +
+        '<p>Scan with your phone camera to get the app.<br><a class="fcab-link" href="/app/?utm_source=web&amp;utm_medium=floating-card">See the app</a></p></div>';
+    } else {
+      var href = platform === 'ios' ? appStoreLink(placement) : playLink(placement);
+      html =
+        '<img class="fcab-icon" src="/assets/pwa/apple-touch-icon.png" alt="" width="42" height="42">' +
+        '<div class="fcab-text"><p class="fcab-name">' + name + '</p>' +
+        '<p class="fcab-sub">Health checks &amp; reminders</p></div>' +
+        '<a class="fcab-cta fcab-link" href="' + href + '" target="_blank" rel="noopener">Get the app</a>' +
+        '<button class="fcab-close" type="button" aria-label="Dismiss">&times;</button>';
+    }
+
+    function show() {
+      if (document.getElementById('fishcare-app-bar')) return;
+      injectAppBannerStyles();
+      var bar = document.createElement('aside');
+      bar.id = 'fishcare-app-bar';
+      bar.setAttribute('aria-label', 'Get the FishCare AI app');
+      if (platform === 'desktop') bar.className = 'fcab-desktop';
+      bar.innerHTML = html;
+      document.body.appendChild(bar);
+      setTimeout(function () { bar.classList.add('fcab-show'); }, 60);
+      trackApp('app_cta_view', placement, variant);
+      Array.prototype.forEach.call(bar.querySelectorAll('.fcab-link'), function (a) {
+        a.addEventListener('click', function () { trackApp('app_cta_click', placement, variant); });
       });
-    }, 3000);
+      bar.querySelector('.fcab-close').addEventListener('click', function () {
+        bar.classList.remove('fcab-show');
+        setTimeout(function () { bar.remove(); }, 350);
+        trackApp('app_cta_dismiss', placement, variant);
+        try {
+          localStorage.setItem(APP_BANNER_KEY, String(Date.now() + APP_BANNER_SNOOZE_DAYS * 864e5));
+        } catch (e) {}
+      });
+    }
+
+    // Wait for the consent banner to go away so the two never stack.
+    function whenConsentClear(fn) {
+      var consent = document.getElementById('fishcare-consent');
+      if (!consent || consent.hidden) return fn();
+      var obs = new MutationObserver(function () {
+        if (!document.body.contains(consent) || consent.hidden) { obs.disconnect(); setTimeout(fn, 1500); }
+      });
+      obs.observe(consent, { attributes: true, attributeFilter: ['hidden'] });
+    }
+
+    setTimeout(function () { whenConsentClear(show); }, 3000);
   }
 
   // ── Floating "Buy me a coffee" + feedback buttons ─────────────────────────
@@ -558,13 +682,13 @@
       setupGlobalFooter();
       setupMobileNavigation();
       addLegalLinks();
-      setupAppBanner();
     } else {
       injectConsentBannerStyles();
       setupGlobalFooter();
     }
     ensureContentSchema();
     setupConsentBanner();
+    setupAppBanner();
     registerServiceWorker();
   }
 
