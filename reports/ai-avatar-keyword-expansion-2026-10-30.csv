@@ -1,0 +1,69 @@
+keyword,cluster,intent,page_type,source,note
+ai avatar,core,mixed,home,trends-seed,Global interest peaked Apr 2026 (100) and was 25 in late Oct 2026; intent now leans video
+ai avatar generator,core,tool,home,trends-related,
+avatar generator,core,tool,home,trends-related,
+avatar ai generator,core,tool,home,trends-related,
+free ai avatar,core,tool,home,trends-related,
+best ai avatar,core,comparison,blog/list,trends-related,
+ai avatar online,core,tool,home,trends-related,
+create ai avatar,core,tool,home,trends-related,
+ai avatar app,core,tool/app,home,trends-related,
+avatar maker,core,tool,home,expansion,
+ai avatar video,video-avatar,tool,hub,trends-related,Top related query (100)
+avatar ai video generator,video-avatar,tool,hub,trends-related,
+ai avatar video generator,video-avatar,tool,hub,expansion,
+talking avatar,video-avatar,tool,subtool,expansion,
+talking photo,video-avatar,tool,subtool,expansion,
+photo to talking video,video-avatar,tool,subtool,expansion,
+make photo talk,video-avatar,tool,subtool,expansion,
+lip sync ai,video-avatar,tool,subtool,expansion,
+ai spokesperson,video-avatar,tool,subtool,expansion,B2B
+ai presenter,video-avatar,tool,subtool,expansion,B2B
+ai ugc video generator,video-avatar,tool,subtool,expansion,Ad-creative buyers; high willingness to pay
+ai influencer generator,video-avatar,tool,subtool,expansion,
+custom ai avatar,video-avatar,tool,subtool,expansion,
+ai avatar for youtube,video-avatar,use-case,landing,expansion,
+faceless youtube avatar,video-avatar,use-case,landing,expansion,
+ai avatar for tiktok,video-avatar,use-case,landing,expansion,
+heygen alternative,video-avatar,comparison,blog,expansion,Brand-alternative page; heygen itself is navigational
+synthesia alternative,video-avatar,comparison,blog,expansion,
+heygen vs synthesia,video-avatar,comparison,blog,expansion,
+ai avatar from photo,photo-avatar,tool,hub,expansion,
+ai profile picture,photo-avatar,tool,hub,expansion,
+ai profile picture generator,photo-avatar,tool,hub,expansion,
+pfp maker,photo-avatar,tool,hub,expansion,pfpmaker.com: 1.53M visits/mo (Sep 2026) and also ranks for attractiveness test / face rating
+ai pfp generator,photo-avatar,tool,hub,expansion,
+ai headshot generator,photo-avatar,tool,subtool,expansion,Highest willingness to pay in this cluster
+professional headshot ai,photo-avatar,tool,subtool,expansion,
+linkedin profile picture ai,photo-avatar,use-case,landing,expansion,
+discord pfp maker,photo-avatar,use-case,landing,expansion,
+tiktok profile picture,photo-avatar,use-case,landing,expansion,
+instagram profile picture maker,photo-avatar,use-case,landing,expansion,
+whatsapp dp maker,photo-avatar,use-case,landing,expansion,India-heavy; low CPC
+gaming avatar maker,photo-avatar,use-case,landing,expansion,
+matching pfp,photo-avatar,use-case,landing,expansion,
+couple avatar,photo-avatar,use-case,landing,expansion,
+pet avatar,photo-avatar,use-case,landing,expansion,
+dog to cartoon,photo-avatar,use-case,landing,expansion,
+anime avatar maker,style,tool,style-page,expansion,
+photo to anime,style,tool,style-page,expansion,
+cartoon avatar from photo,style,tool,style-page,expansion,
+cartoon yourself,style,tool,style-page,expansion,
+3d avatar from photo,style,tool,style-page,expansion,
+chibi avatar maker,style,tool,style-page,expansion,
+pixel art avatar,style,tool,style-page,expansion,
+sticker avatar maker,style,tool,style-page,expansion,
+cyberpunk avatar,style,tool,style-page,expansion,
+watercolor portrait from photo,style,tool,style-page,expansion,
+vtuber avatar maker,style,tool,style-page,expansion,
+ghibli style avatar,style,tool,style-page,expansion,Trademark risk: describe the style without using the name in branding
+pixar style avatar,style,tool,style-page,expansion,Trademark risk
+disney avatar,style,tool,style-page,expansion,Trademark risk
+simpsons yourself,style,tool,style-page,expansion,Trademark risk
+lego yourself,style,tool,style-page,expansion,Trademark risk
+avatar movie,exclude,navigational,-,trends-related,James Cameron film; exclude
+avatar game,exclude,navigational,-,trends-related,Exclude
+avatar world,exclude,navigational,-,trends-related,Kids' game app; exclude
+heygen,exclude,navigational,-,trends-related,Brand; exclude
+synthesia,exclude,navigational,-,trends-related,Brand; exclude
+character ai,exclude,navigational,-,trends-related,Different product; exclude

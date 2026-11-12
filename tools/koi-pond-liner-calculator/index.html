@@ -353,20 +353,7 @@ legend{font-weight:600;font-size:.86rem;margin-bottom:6px;color:#fff}
 <body class="tools-dark-page">
 
 <!-- NAVBAR -->
-<nav class="nb" id="navbar">
-  <a title="FishCare AI" class="brand" href="/"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"/></a>
-  <div class="nlinks" id="nlinks">
-    <a title="Home" class="nl" href="/">Home</a>
-    <a title="Guides" class="nl" href="/guides/">Guides</a>
-    <a title="Tools" class="nl act" href="/tools/" aria-current="page">Tools</a>
-    <a title="Encyclopedia" class="nl" href="/species">Encyclopedia</a>
-    <a title="Fish Diseases" class="nl" href="/fish-health">Fish Diseases</a>
-    <a title="Fish Identification" class="nl" href="/identify/">Fish Identification</a>
-    <a title="About" class="nl" href="/about/">About</a>
-    <a title="📱 App" class="nl nl-app-btn" href="/app/">📱 App</a>
-  </div>
-  <button class="hbg" type="button" onclick="document.getElementById('nlinks').classList.toggle('open')" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
-</nav>
+<nav class="nb fishcare-global-nav" id="fishcare-global-navigation" aria-label="Main navigation"><a class="brand" href="/" aria-label="FishCare AI home"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"></a><div class="nlinks" id="fishcare-nlinks"><a class="nl" href="/">Home</a><a class="nl" href="/guides/">Guides</a><a class="nl" href="/species">Encyclopedia</a><a class="nl" href="/compatibility/">Compatibility</a><a class="nl" href="/fish-health/">Fish Health</a><a class="nl" href="/identify/">Fish ID</a><a class="nl" href="/about/">About</a><a class="nl nl-app-btn" href="/app/">📱 App</a></div><button type="button" class="hbg" aria-label="Open navigation menu" aria-controls="fishcare-nlinks" aria-expanded="false"><span></span><span></span><span></span></button></nav>
 <nav class="tool-nav" aria-label="Koi pond tool navigation">
   <a href="/tools/koi-pond-calculator/" class="tnav-btn">🪷 Pond Size</a>
   <a href="/tools/koi-pond-stocking-calculator/" class="tnav-btn">🐟 Stocking</a>
@@ -693,59 +680,7 @@ legend{font-weight:600;font-size:.86rem;margin-bottom:6px;color:#fff}
 </main>
 
 <!-- FOOTER -->
-<footer class="ft" id="site-footer">
-  <div class="con">
-    <div class="ftg">
-      <div class="ftbr">
-        <div><img class="fishcare-footer-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="150" height="38"/></div>
-        <p>Your trusted resource for fish care guides, free tools, and practical aquarium advice. Helping beginners build healthier freshwater tanks since 2026.</p>
-      </div>
-      <div class="ftcol">
-        <h3>Guides</h3>
-        <a href="/guides/">All Guides</a>
-        <a href="/guides/best-freshwater-fish-for-beginners/">Best Beginner Fish</a>
-        <a href="/guides/how-to-set-up-a-fish-tank/">Tank Setup Guide</a>
-        <a href="/guides/aquarium-water-parameters/">Water Parameters</a>
-        <a href="/guides/goldfish-care/">Goldfish Care</a>
-        <a href="/guides/fish-care-for-beginners/#beginner-fish-care-checklist">Beginner Checklist</a>
-      </div>
-      <div class="ftcol">
-        <h3>Encyclopedia</h3>
-        <a href="/species">All Species</a>
-        <a href="/species/neon-tetra">Neon Tetra</a>
-        <a href="/species/ocellaris-clownfish">Clownfish</a>
-        <a href="/species/bronze-cory">Corydoras</a>
-        <a href="/species/cherry-barb">Cherry Barb</a>
-        <a href="/species/dwarf-gourami">Dwarf Gourami</a>
-      </div>
-      <div class="ftcol">
-        <h3>Tools</h3>
-        <a href="/tools/aquarium-size-calculator/">Aquarium Size Calculator</a>
-        <a href="/tools/aquarium-substrate-calculator/">Substrate Calculator</a>
-        <a href="/tools/fish-compatibility-checker/">Compatibility Checker</a>
-        <a href="/tools/water-parameter-checker/">Water Parameter Checker</a>
-        <a href="/tools/fish-feeding-calculator/">Feeding Calculator</a>
-        <a href="/tools/aquarium-planner/">Aquarium Planner</a>
-        <a href="/tools/aquarium-equipment-calculator/">Equipment Calculator</a>
-      </div>
-      <div class="ftcol">
-        <h3>More</h3>
-        <a href="/about/">About Us</a>
-        <a href="/contact/">Contact</a>
-        <a href="/partners/">Partners</a>
-        <a href="/privacy/">Privacy Policy</a>
-      </div>
-    </div>
-    <div class="ftb">© 2026 FishCare. All rights reserved.</div>
-  </div>
-  <nav class="legal-links" aria-label="Legal and company information">
-    <a href="/about/">About</a>
-    <a href="/contact/">Contact</a>
-    <a href="/editorial-policy/">Editorial Policy</a>
-    <a href="/privacy/">Privacy</a>
-    <a href="/image-credits/">Image Credits</a>
-  </nav>
-</footer>
+<footer class="ft"><div class="con"><div class="ftg"><div class="ftbr"><a class="logo" href="/" aria-label="FishCare AI home"><img class="fishcare-footer-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="158" height="40" loading="lazy"></a><p>Practical aquarium care guides, fish encyclopedia, and free tools for freshwater and saltwater fishkeepers.</p></div><div class="ftcol"><h3>Explore</h3><a href="/guides/">All Guides</a><a href="/species">Encyclopedia</a><a href="/compatibility/">Compatibility Guides</a><a href="/fish-health/">Fish Health</a><a href="/aquarium-fish-diseases/clownfish/">Clownfish Health Problems</a><a href="/identify/">Fish Identification</a><a href="/calculators/">Tank Size Calculators</a></div><div class="ftcol"><h3>Aquarium Tools</h3><a href="/tools/aquarium-size-calculator/">Tank Size Calculator</a><a href="/tools/fish-tank-stocking-calculator/">Stocking Calculator</a><a href="/tools/fish-compatibility-checker/">Compatibility Checker</a><a href="/tools/water-parameter-checker/">Water Parameter Checker</a><a href="/tools/betta-fish-water-parameters/">Betta Water Parameters</a><a href="/tools/fish-feeding-calculator/">Feeding Calculator</a><a href="/tools/aquarium-substrate-calculator/">Substrate Calculator</a><a href="/tools/aquarium-equipment-calculator/">Equipment Calculator</a><a href="/tools/aquarium-planner/">Aquarium Planner</a></div><div class="ftcol"><h3>Koi &amp; Pond Tools</h3><a href="/tools/koi-pond-calculator/">Koi Pond Calculator</a><a href="/tools/koi-pond-stocking-calculator/">Pond Stocking Calculator</a><a href="/tools/koi-feeding-calculator/">Koi Feeding Calculator</a><a href="/tools/koi-pond-liner-calculator/">Pond Liner Calculator</a><a href="/tools/koi-pond-pump-calculator/">Pond Pump Calculator</a><a href="/tools/koi-pond-salt-calculator/">Pond Salt Calculator</a></div><div class="ftcol"><h3>Company</h3><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms</a><a href="/editorial-policy/">Editorial Policy</a><a href="/resources/">Resources</a><a href="/add-your-site/">Add Your Site</a><a href="https://buymeacoffee.com/vikiyananw6">☕ Buy me a coffee</a></div></div><div class="ftb">© 2026 EverTrend LLC. FishCare AI is a product of EverTrend LLC. All rights reserved.</div><nav class="legal-links" aria-label="Legal and company information"><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/editorial-policy/">Editorial Policy</a><a href="/privacy/">Privacy</a><a href="/image-credits/">Image Credits</a><a href="/add-your-site/">Add Your Site</a></nav></div></footer>
 
 <script>
 (function () {

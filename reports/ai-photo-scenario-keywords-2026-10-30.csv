@@ -1,0 +1,37 @@
+keyword,scenario_group,variants_to_check,monetization,note
+ai headshot generator,professional,professional headshot ai; linkedin headshot ai; corporate headshot ai,high,Seed
+ai passport photo,professional,passport photo maker; visa photo online; id photo maker,high,Country/size pSEO matrix (us passport photo 2x2 etc)
+ai resume photo,professional,cv photo maker,mid,
+ai realtor headshot,professional,doctor headshot ai; lawyer headshot ai,high,Profession pSEO matrix
+ai dating photos,professional,tinder photo ai; dating profile pictures ai,high,
+ai clothes changer,fashion,change clothes in photo ai; ai outfit changer; ai outfit generator,mid,Seed (user's "ai cloth")
+virtual try on clothes,fashion,ai try on; ai dress try on; try on clothes online,mid-high,Also B2B for ecommerce
+ai suit photo,fashion,suit photo editor; put suit on photo,mid,Pairs with headshot/passport
+ai wedding dress try on,fashion,wedding dress simulator,mid,
+ai hairstyle changer,beauty,hairstyle try on; ai haircut; hairstyles for my face shape,mid-high,Overlaps face-analysis site
+ai hair color changer,beauty,hair color try on,mid,
+ai beard generator,beauty,beard try on,mid,
+ai makeup try on,beauty,virtual makeup,mid,
+ai glasses try on,beauty,glasses for my face shape,mid,Affiliate (eyewear)
+ai tattoo generator,beauty,tattoo try on; tattoo design ai,mid,
+ai nail design,beauty,nail art generator,low-mid,
+ai smile / teeth whitening photo,beauty,smile editor,low,
+ai eye color changer,beauty,,low,
+ai baby generator,family,what will my baby look like; baby face generator,high,Proven paid niche
+ai age progression,family,old age filter; what will i look like when i'm old,mid,In earlier report: 880 US KD15
+ai family portrait,family,ai family photo,mid,
+ai couple photo,family,ai couple photoshoot,mid,
+ai pet portrait,family,dog portrait ai; pet to human ai,mid,
+ai photo restoration,memories,restore old photos; colorize photo; old photo repair,high,Evergreen; strong willingness to pay
+ai photo with deceased loved one,memories,add person to photo ai; hug photo ai,mid,Viral; handle sensitively
+ai yearbook photos,seasonal,90s yearbook ai,mid,Viral wave; check trend before building
+ai christmas photo,seasonal,ai santa photo; christmas card photo ai,mid,Seasonal (Nov-Dec)
+ai halloween costume,seasonal,halloween costume photo ai,low-mid,Seasonal (Oct)
+ai graduation photo,seasonal,cap and gown photo ai,mid,Seasonal (May-Jun)
+ai action figure,trend,ai figurine; toy box photo ai,low-mid,Viral wave; check trend before building
+ai product photography,ecommerce,product photo ai; ai background for product,high,Photoroom/Pebblely compete
+ai model photo,ecommerce,ai fashion model; put clothes on model ai,high,
+ai room design,home,ai interior design; room makeover ai,high,Different audience; separate site
+ai photoshoot,general,ai photo generator from selfie,mid,Umbrella term
+ai clothes remover,EXCLUDE,,,Non-consensual undress; do not build
+ai undress,EXCLUDE,,,Non-consensual undress; do not build

@@ -9,29 +9,42 @@
   var NAV_ITEMS = [
     { label: 'Home',          href: '/',                                    section: 'home' },
     { label: 'Guides',        href: '/guides/',                             section: 'guides' },
-    { label: 'Tools',         href: '/tools/',                              section: 'tools' },
-    { label: 'Encyclopedia',  href: '/species',                              section: 'wiki' },
-    { label: 'Fish Diseases', href: '/fish-health',                        section: 'fish-diseases' },
-    { label: 'Fish Identification', href: '/identify/',     section: '' },
+    { label: 'Encyclopedia',  href: '/species',                             section: 'species' },
+    { label: 'Compatibility', href: '/compatibility/',                      section: 'compatibility' },
+    { label: 'Fish Health',   href: '/fish-health/',                        section: 'fish-health' },
+    { label: 'Fish ID',       href: '/identify/',                           section: 'identify' },
     { label: 'About',         href: '/about/',                              section: 'about' },
     { label: '📱 App',        href: '/app/',                                section: 'app', extraClass: 'nl-app-btn' },
   ];
 
   // ── Footer link configuration ──────────────────────────────────────────────
   var FOOTER_EXPLORE = [
-    { label: 'Fish Species',  href: '/species' },
-    { label: 'Fish Diseases', href: '/fish-health' },
+    { label: 'All Guides',    href: '/guides/' },
+    { label: 'Encyclopedia',  href: '/species' },
+    { label: 'Compatibility Guides', href: '/compatibility/' },
+    { label: 'Fish Health',   href: '/fish-health/' },
     { label: 'Clownfish Health Problems', href: '/aquarium-fish-diseases/clownfish/' },
-    { label: 'Guides',        href: '/guides/' },
-    { label: 'Aquarium Tools',href: '/tools/' },
     { label: 'Fish Identification', href: '/identify/' },
+    { label: 'Tank Size Calculators', href: '/calculators/' },
   ];
   var FOOTER_TOOLS = [
-    { label: 'Aquarium Size Calculator',  href: '/tools/aquarium-size-calculator/' },
-    { label: 'Fish Compatibility Checker',href: '/tools/fish-compatibility-checker/' },
-    { label: 'Water Parameter Checker',   href: '/tools/water-parameter-checker/' },
-    { label: 'Fish Feeding Calculator',   href: '/tools/fish-feeding-calculator/' },
-    { label: 'Aquarium Planner',          href: '/tools/aquarium-planner/' },
+    { label: 'Tank Size Calculator',    href: '/tools/aquarium-size-calculator/' },
+    { label: 'Stocking Calculator',     href: '/tools/fish-tank-stocking-calculator/' },
+    { label: 'Compatibility Checker',   href: '/tools/fish-compatibility-checker/' },
+    { label: 'Water Parameter Checker', href: '/tools/water-parameter-checker/' },
+    { label: 'Betta Water Parameters',  href: '/tools/betta-fish-water-parameters/' },
+    { label: 'Feeding Calculator',      href: '/tools/fish-feeding-calculator/' },
+    { label: 'Substrate Calculator',    href: '/tools/aquarium-substrate-calculator/' },
+    { label: 'Equipment Calculator',    href: '/tools/aquarium-equipment-calculator/' },
+    { label: 'Aquarium Planner',        href: '/tools/aquarium-planner/' },
+  ];
+  var FOOTER_POND_TOOLS = [
+    { label: 'Koi Pond Calculator',      href: '/tools/koi-pond-calculator/' },
+    { label: 'Pond Stocking Calculator', href: '/tools/koi-pond-stocking-calculator/' },
+    { label: 'Koi Feeding Calculator',   href: '/tools/koi-feeding-calculator/' },
+    { label: 'Pond Liner Calculator',    href: '/tools/koi-pond-liner-calculator/' },
+    { label: 'Pond Pump Calculator',     href: '/tools/koi-pond-pump-calculator/' },
+    { label: 'Pond Salt Calculator',     href: '/tools/koi-pond-salt-calculator/' },
   ];
   var FOOTER_COMPANY = [
     { label: 'About',         href: '/about/' },
@@ -167,12 +180,13 @@
     var path = window.location.pathname;
     if (path === '/')                                         return 'home';
     if (path.indexOf('/guides/')  === 0)                     return 'guides';
-    if (path.indexOf('/tools/')   === 0)                     return 'tools';
     if (path.indexOf('/wiki/')    === 0 ||
         path.indexOf('/encyclopedia/') === 0 ||
-        path.indexOf('/species')  === 0)                     return 'wiki';
+        path.indexOf('/species')  === 0)                     return 'species';
+    if (path.indexOf('/compatibility/') === 0)               return 'compatibility';
     if (path.indexOf('/aquarium-fish-diseases') === 0 ||
-        path.indexOf('/fish-health') === 0)                   return 'fish-diseases';
+        path.indexOf('/fish-health') === 0)                   return 'fish-health';
+    if (path.indexOf('/identify/') === 0)                    return 'identify';
     if (path.indexOf('/app/')     === 0)                     return 'app';
     if (path.indexOf('/about/')   === 0)                     return 'about';
     return '';
@@ -239,7 +253,7 @@
         'padding:64px 24px 32px!important;margin:0!important;color:rgba(255,255,255,.66);text-align:left;' +
         'font-family:inherit;line-height:1.6;font-size:16px;box-shadow:none!important;border-radius:0!important;max-width:none!important;width:auto!important}' +
       f + ' .con{max-width:1200px;margin:0 auto;padding:0}' +
-      f + ' .ftg{display:grid;grid-template-columns:1.6fr repeat(3,1fr);gap:36px;margin:0 0 40px}' +
+      f + ' .ftg{display:grid;grid-template-columns:1.6fr repeat(4,1fr);gap:36px;margin:0 0 40px}' +
       f + ' .ftbr .logo{display:inline-block;margin:0 0 16px;line-height:0}' +
       f + ' .ftbr img{display:block;height:40px;width:auto;filter:none}' +
       f + ' .ftbr p{max-width:300px;margin:0;font-size:14px;line-height:1.65;color:rgba(255,255,255,.6)!important}' +
@@ -293,7 +307,8 @@
             '<p>Practical aquarium care guides, fish encyclopedia, and free tools for freshwater and saltwater fishkeepers.</p>' +
           '</div>' +
           renderFooterCol('Explore', FOOTER_EXPLORE) +
-          renderFooterCol('Popular Tools', FOOTER_TOOLS) +
+          renderFooterCol('Aquarium Tools', FOOTER_TOOLS) +
+          renderFooterCol('Koi &amp; Pond Tools', FOOTER_POND_TOOLS) +
           renderFooterCol('Company', FOOTER_COMPANY) +
         '</div>' +
         '<div class="ftb">© ' + year + ' EverTrend LLC. FishCare AI is a product of EverTrend LLC. All rights reserved.</div>' +
