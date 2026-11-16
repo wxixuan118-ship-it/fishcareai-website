@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en" data-adsense-content="true" data-cms-sync="off">
+<head>
+<meta charset="utf-8"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Aquarium Log: Free Fish Tank Water Test Tracker</title>
+<meta name="description" content="Free aquarium log for your fish tank. Record ammonia, nitrite, nitrate, pH, temperature and water changes, see 7-day trends and flags, and export the log as CSV."/>
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"/>
+<link rel="canonical" href="https://www.fishcareai.com/tools/aquarium-log/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="FishCare AI"/>
+<meta property="og:title" content="Aquarium Log: Free Fish Tank Water Test Tracker"/>
+<meta property="og:description" content="Free aquarium log for your fish tank. Record ammonia, nitrite, nitrate, pH, temperature and water changes, see 7-day trends and flags, and export the log as CSV."/>
+<meta property="og:url" content="https://www.fishcareai.com/tools/aquarium-log/"/>
+<meta property="og:image" content="https://www.fishcareai.com/assets/encyclopedia/real/clownfish-wikimedia-real.jpg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fishcareai.com/"}, {"@type": "ListItem", "position": 2, "name": "Tools", "item": "https://www.fishcareai.com/tools/"}, {"@type": "ListItem", "position": 3, "name": "Aquarium Log", "item": "https://www.fishcareai.com/tools/aquarium-log/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Aquarium Log", "url": "https://www.fishcareai.com/tools/aquarium-log/", "description": "Free aquarium log for your fish tank. Record ammonia, nitrite, nitrate, pH, temperature and water changes, see 7-day trends and flags, and export the log as CSV.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What should I record in an aquarium log?", "acceptedAnswer": {"@type": "Answer", "text": "At minimum: the date, ammonia, nitrite, nitrate, pH and temperature, plus how much water you changed. Add a short note when something changes, such as new fish, a new filter, a medication or a fish that stopped eating."}}, {"@type": "Question", "name": "How often should I test my aquarium water?", "acceptedAnswer": {"@type": "Answer", "text": "Test every day or two while a new tank is cycling, for the first few weeks after adding fish, and during any treatment. An established tank with stable readings can be tested once a week."}}, {"@type": "Question", "name": "Is my aquarium log data saved?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, in this browser only. Readings are stored on your device and are not uploaded. Clearing site data or switching browsers removes them, so export the CSV if you want a copy."}}, {"@type": "Question", "name": "Why does this log keep only 7 days?", "acceptedAnswer": {"@type": "Answer", "text": "Seven days covers the decisions you make this week: whether ammonia is rising after new fish or whether nitrate is climbing between water changes. Full history, several tanks and reminders are in the FishCare AI app."}}, {"@type": "Question", "name": "What nitrate level should trigger a water change?", "acceptedAnswer": {"@type": "Answer", "text": "Many keepers aim to keep nitrate under 20 ppm and treat 40 ppm as the point to change more water or change it more often. Sensitive species and shrimp do better at the low end."}}]}</script>
+<style>:root{--p:#1B5E8B;--pl:#2E84C0;--pd:#0F3D5E;--s:#2E9E7D;--a:#F5A623;--bg:#F0F7FF;--tx:#1A2B3C;--mu:#5A7A94;--bd:#D0E4F0;--ok:#27AE60;--wn:#F39C12;--er:#E74C3C}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,'Segoe UI',Arial,sans-serif;background:linear-gradient(180deg,#E6F7FF 0%,#F7FCFF 36%,#F0F7FF 100%);color:var(--tx);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--p);text-decoration:none}
+.con{max-width:1180px;margin:0 auto;padding:0 22px}
+h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:800;line-height:1.2}
+h2{font-size:clamp(1.2rem,2.5vw,1.7rem);font-weight:700;line-height:1.25}
+h3{font-size:1.1rem;font-weight:700}
+p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:10px 20px;border-radius:8px;font-size:.9rem;font-weight:600;border:none;cursor:pointer;transition:all .18s;white-space:nowrap;text-decoration:none}
+.bp{background:var(--p);color:#fff}.bp:hover{background:var(--pl)}
+.bo{background:transparent;color:var(--p);border:2px solid var(--p)}.bo:hover{background:var(--p);color:#fff}
+.tag{display:inline-block;background:rgba(27,94,139,.1);color:var(--p);padding:3px 11px;border-radius:20px;font-size:.73rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px}
+.nb{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--bd);padding:0 22px;height:64px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:8px;font-size:1.2rem;font-weight:800;color:var(--p);text-decoration:none}
+.nlinks{display:flex;align-items:center;gap:2px}
+.nl{padding:7px 13px;border-radius:8px;font-weight:500;font-size:.86rem;color:var(--mu);text-decoration:none;transition:all .15s}
+.nl:hover,.nl.act{color:var(--p);background:rgba(27,94,139,.07)}
+.hbg{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:7px;border:none;background:none}
+.hbg span{display:block;width:21px;height:2px;background:var(--tx);border-radius:2px}
+@media(max-width:760px){.nlinks{display:none;position:absolute;top:64px;left:0;right:0;background:#fff;flex-direction:column;padding:12px;border-bottom:1px solid var(--bd);gap:3px;box-shadow:0 4px 20px rgba(27,94,139,.12)}.nlinks.open{display:flex}.hbg{display:flex}}
+.guide-hero{background:#0F3D5E;color:#fff;padding:70px 22px 48px;position:relative;overflow:hidden;min-height:300px;display:flex;align-items:flex-end}
+.guide-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,28,42,.9),rgba(15,61,94,.7)),url('/assets/encyclopedia/real/clownfish-wikimedia-real.jpg') center/cover no-repeat}
+.guide-hero::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:90px;background:linear-gradient(0deg,#E6F7FF,rgba(230,247,255,0));pointer-events:none}
+.guide-hero .con{position:relative;z-index:1;padding:26px 22px;border-radius:26px;background:linear-gradient(135deg,rgba(255,255,255,.13),rgba(255,255,255,.04));border:1px solid rgba(255,255,255,.18);box-shadow:0 24px 70px rgba(0,0,0,.18);backdrop-filter:blur(7px)}
+.guide-hero h1{color:#fff;margin:8px 0 10px;max-width:860px}
+.guide-meta{display:flex;gap:14px;flex-wrap:wrap;color:rgba(255,255,255,.78);font-size:.86rem}
+.breadcrumb{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:.8rem;color:rgba(255,255,255,.65);margin-bottom:12px}
+.breadcrumb a{color:rgba(255,255,255,.75)}.breadcrumb a:hover{color:#fff}
+.breadcrumb span{color:rgba(255,255,255,.45)}
+.artlay{display:grid;grid-template-columns:1fr 270px;gap:32px;max-width:1180px;margin:32px auto 56px;padding:0 22px}
+@media(max-width:900px){.artlay{grid-template-columns:1fr}.sidebar{display:none}}
+.artc{background:rgba(255,255,255,.82);border:1px solid rgba(191,228,246,.9);border-radius:24px;padding:34px 40px;box-shadow:0 18px 48px rgba(15,61,110,.1);backdrop-filter:blur(14px)}
+.artc h2{font-size:1.25rem;color:var(--pd);margin:28px 0 12px;padding-top:16px;border-top:1.5px solid var(--bd)}
+.artc h2:first-child{margin-top:0;padding-top:0;border-top:none}
+.artc h3{font-size:1.05rem;color:var(--tx);margin:18px 0 8px}
+.artc p{font-size:.96rem;line-height:1.82;color:var(--mu);margin-bottom:13px}
+.artc ul,.artc ol{margin:10px 0 14px 20px}
+.artc li{font-size:.95rem;line-height:1.72;color:var(--mu);margin-bottom:5px}
+.artc strong{color:var(--tx)}
+.callout{background:rgba(248,250,254,.85);border:1px solid var(--bd);border-left:4px solid var(--p);border-radius:12px;padding:16px 18px;margin:20px 0}
+.callout-warn{background:rgba(255,248,240,.85);border-left-color:var(--wn)}
+.callout-ok{background:rgba(240,255,248,.85);border-left-color:var(--s)}
+.ptbl{width:100%;border-collapse:collapse;margin:16px 0;font-size:.86rem;border-radius:16px;overflow:hidden;box-shadow:0 12px 30px rgba(15,61,110,.08)}
+.ptbl th{background:var(--p);color:#fff;padding:10px 14px;text-align:left}
+.ptbl td{padding:10px 14px;border-bottom:1px solid var(--bd);color:var(--mu);vertical-align:top}
+.ptbl tr:nth-child(even) td{background:#F8FAFE}
+.ptbl tr:last-child td{border-bottom:none}
+.ptbl td:first-child{font-weight:600;color:var(--tx)}
+.guide-links{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:14px}
+.guide-links a{display:block;background:#fff;border:1px solid var(--bd);border-radius:8px;padding:13px;color:var(--tx);font-weight:700;font-size:.85rem;transition:border-color .15s,background .15s}
+.guide-links a:hover{border-color:var(--p);background:#F8FAFE}
+@media(max-width:600px){.guide-links{grid-template-columns:1fr}}
+.sidebar{display:flex;flex-direction:column;gap:16px}
+.toc{background:rgba(255,255,255,.9);border-radius:16px;padding:18px;border:1px solid var(--bd);position:sticky;top:84px;box-shadow:0 4px 18px rgba(27,94,139,.07)}
+.toc .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.toc a{display:block;padding:5px 0 5px 10px;font-size:.82rem;color:var(--mu);border-left:2px solid transparent;transition:all .15s;line-height:1.4}
+.toc a:hover{color:var(--p);border-left-color:var(--p)}
+.cluster-nav{background:rgba(255,255,255,.9);border-radius:16px;padding:18px;border:1px solid var(--bd);box-shadow:0 4px 18px rgba(27,94,139,.07)}
+.cluster-nav .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.cluster-nav a{display:block;padding:6px 8px;font-size:.82rem;color:var(--mu);border-radius:6px;transition:all .12s;line-height:1.4;margin-bottom:2px}
+.cluster-nav a:hover{color:var(--p);background:rgba(27,94,139,.06)}
+.cluster-nav a.pillar{color:var(--pd);font-weight:700;border-bottom:1px solid var(--bd);padding-bottom:9px;margin-bottom:7px;display:block}
+.cluster-nav a.cur{color:var(--p);background:rgba(27,94,139,.07);font-weight:600}
+.tool-card{background:linear-gradient(135deg,rgba(27,94,139,.08),rgba(46,158,125,.06));border-radius:16px;padding:18px;border:1px solid var(--bd)}
+.tool-card .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:10px;font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.tool-card a{display:flex;align-items:center;justify-content:space-between;padding:9px 12px;border-radius:8px;font-size:.84rem;font-weight:600;margin-bottom:7px;background:#fff;border:1px solid var(--bd);color:var(--p);transition:all .15s}
+.tool-card a:hover{border-color:var(--p);box-shadow:0 3px 10px rgba(27,94,139,.1)}
+.ft{background:#0F3D5E;padding:32px 22px 20px;margin-top:60px}
+.ftb{text-align:center;color:rgba(255,255,255,.4);font-size:.76rem}</style>
+<style>
+.cta-box{border-radius:14px;padding:20px 22px;margin:22px 0;color:#fff}
+.artc .cta-box h3{color:#fff;margin:0 0 7px;font-size:1rem}
+.artc figure{margin:20px 0}
+.artc figure img{display:block;width:100%;height:auto;border-radius:14px}
+.artc figcaption{font-size:.8rem;line-height:1.5;margin-top:7px;opacity:.85}
+.artc .cta-box p{color:rgba(255,255,255,.86);font-size:.88rem;margin-bottom:14px}
+.artc .cta-box a.btn{display:inline-block;background:#fff;color:#0F3D5E;padding:9px 18px;border-radius:8px;font-weight:700;font-size:.88rem}
+.table-wrap{overflow-x:auto;margin:14px 0 18px}
+.ptbl{width:100%;border-collapse:collapse;font-size:.88rem;min-width:460px}
+.calc-box{border:1px solid var(--bd);border-radius:16px;padding:20px;margin:0 0 22px}
+.calc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.calc-box label{display:block;font-size:.84rem;font-weight:600;margin-bottom:5px}
+.calc-box input,.calc-box select{width:100%;padding:10px 12px;border:1px solid var(--bd);border-radius:8px;font-size:16px;background:#fff;color:#1A2B3C}
+.calc-note{font-size:.8rem;margin-top:5px;opacity:.85}
+.calc-btn{margin-top:16px;width:100%;padding:12px;border:0;border-radius:10px;background:#1B5E8B;color:#fff;font-size:1rem;font-weight:700;cursor:pointer}
+.calc-out{margin-top:16px;padding:16px;border-radius:12px;background:rgba(46,158,125,.14);border:1px solid rgba(46,158,125,.4)}
+.calc-big{font-size:1.5rem;font-weight:800;margin-bottom:6px}
+.calc-out ul{margin:8px 0 0 18px}
+.calc-err{color:#E74C3C;font-weight:600}
+.presets{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.presets button{padding:7px 12px;border-radius:999px;border:1px solid var(--bd);background:transparent;color:inherit;font-size:.82rem;cursor:pointer}
+.page-meta{font-size:.82rem;opacity:.8;margin-bottom:16px}
+.refs li{font-size:.86rem}
+.artlay>*{min-width:0}
+@media(max-width:640px){.calc-grid{grid-template-columns:1fr}.artc{padding:22px 18px}}
+</style>
+<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260908-artc-contrast"/>
+<meta name="google-adsense-account" content="ca-pub-6697313643773879">
+<script defer src="/assets/site-compliance.js?v=20260923-analytics"></script><script defer src="/assets/app-cta.js?v=20261107b"></script>
+<style id="mobile-fit">@media(max-width:860px){.artlay>*,.sp-layout>*,.wrap>*,.content>*,.layout>*,main>*{min-width:0}.artc img,main figure img{max-width:100%;height:auto}.fig-scroll{max-width:100%;overflow-x:auto}.artc table,main .card table,.content table,.cmp-table{display:block;max-width:100%;overflow-x:auto}.artc p,.artc li,.artc td,main .card p{overflow-wrap:anywhere}}</style><style>
+.log-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.log-grid .wide{grid-column:span 2}
+@media(max-width:760px){.log-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.log-sub{font-size:.95rem;font-weight:700;color:var(--pd);margin:4px 0 10px}
+.log-tank{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px;margin-bottom:16px;padding-bottom:16px;border-bottom:1px solid var(--bd)}
+@media(max-width:640px){.log-tank{grid-template-columns:1fr 1fr}.log-tank>div:first-child{grid-column:span 2}}
+.log-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.log-actions button{padding:8px 14px;border-radius:8px;border:1px solid var(--bd);background:#fff;color:var(--p);font-weight:600;font-size:.85rem;cursor:pointer}
+.log-wrap{overflow-x:auto;margin-top:14px}
+.log-tbl{width:100%;border-collapse:collapse;font-size:.84rem;min-width:560px}
+.log-tbl th{background:var(--p);color:#fff;padding:8px 10px;text-align:left;font-weight:600}
+.log-tbl td{padding:8px 10px;border-bottom:1px solid var(--bd);color:var(--tx)}
+.log-tbl td.warn{background:rgba(243,156,18,.16);font-weight:700}
+.log-tbl td.bad{background:rgba(231,76,60,.16);font-weight:700}
+.log-tbl button{border:0;background:none;color:var(--mu);cursor:pointer;font-size:.9rem}
+.log-charts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+@media(max-width:640px){.log-charts{grid-template-columns:1fr}}
+.log-chart{border:1px solid var(--bd);border-radius:12px;padding:10px 12px;background:#fff}
+.log-chart h3{font-size:.85rem;margin:0 0 6px;color:var(--pd)}
+.log-chart svg{display:block;width:100%;height:auto}
+.log-legend{font-size:.75rem;color:var(--mu);margin-top:4px}
+.log-legend span{display:inline-block;width:10px;height:3px;margin:0 4px 2px 8px;vertical-align:middle}
+.log-flags{margin:12px 0 0 18px}
+.log-flags li{font-size:.88rem}
+.log-empty{color:var(--mu);font-size:.9rem;margin-top:12px}
+.log-app{margin-top:16px;border-radius:14px;padding:18px 20px;background:linear-gradient(135deg,#0F3D5E,#1B5E8B);color:#fff}
+.artc .log-app h3{color:#fff;margin:0 0 6px;font-size:1rem}
+.artc .log-app p{color:rgba(255,255,255,.86);font-size:.88rem;margin-bottom:12px}
+.artc .log-app ul{margin:0 0 12px 18px}
+.artc .log-app li{color:rgba(255,255,255,.86);font-size:.86rem}
+.artc .log-app a{display:inline-block;background:#fff;color:#0F3D5E;padding:9px 18px;border-radius:8px;font-weight:700;font-size:.88rem}
+.log-saved{font-size:.8rem;color:var(--s);margin-left:6px}
+</style></head>
+<body>
+<nav class="nb fishcare-global-nav" id="fishcare-global-navigation" aria-label="Main navigation"><a class="brand" href="/" aria-label="FishCare AI home"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"></a><div class="nlinks" id="fishcare-nlinks"><a class="nl" href="/">Home</a><a class="nl" href="/guides/">Guides</a><a class="nl" href="/species">Encyclopedia</a><a class="nl" href="/compatibility/">Compatibility</a><a class="nl" href="/fish-health/">Fish Health</a><a class="nl" href="/identify/">Fish ID</a><a class="nl" href="/about/">About</a><a class="nl nl-app-btn" href="/app/">📱 App</a></div><button type="button" class="hbg" aria-label="Open navigation menu" aria-controls="fishcare-nlinks" aria-expanded="false"><span></span><span></span><span></span></button></nav>
+
+<main>
+<section class="guide-hero">
+  <div class="con">
+    <div class="breadcrumb">
+      <a href="/">Home</a><span>/</span>
+      <a href="/tools/">Tools</a><span>/</span>
+      <span style="color:rgba(255,255,255,.9)">Aquarium Log</span>
+    </div>
+    <div class="tag" style="background:rgba(255,255,255,.18);color:rgba(255,255,255,.92)">📓 Free Tool</div>
+    <h1>Aquarium Log: Free Water Test Tracker for Your Fish Tank</h1>
+    <div class="guide-meta">🧪 Ammonia, nitrite, nitrate, pH &amp; temperature &nbsp;|&nbsp; 📈 7-day trends &nbsp;|&nbsp; 🔒 Saved in your browser only</div>
+  </div>
+</section>
+
+<div class="artlay">
+  <article class="artc">
+    <p class="page-meta">Updated November 16, 2026 · FishCare AI editorial team</p>
+    <p>This <strong>aquarium log</strong> keeps a week of water test results for one fish tank in one place. Enter what your test kit reads, and the log flags ammonia or nitrite above zero, nitrate that is climbing, and pH or temperature swings between tests. It is a quick way to see whether the tank is stable, whether a new fish pushed the bioload too far, or whether a treatment is working.</p>
+
+    <div class="calc-box" id="log-tool">
+      <div class="log-tank">
+        <div><label for="t-name">Tank name</label><input id="t-name" type="text" maxlength="40" placeholder="e.g. Living room 20 gal"></div>
+        <div><label for="t-vol">Volume (US gal)</label><input id="t-vol" type="number" inputmode="decimal" min="1" placeholder="20"></div>
+        <div><label for="t-unit">Temperature unit</label><select id="t-unit"><option value="f">°F</option><option value="c">°C</option></select></div>
+      </div>
+      <p class="log-sub">Add a reading</p>
+      <div class="log-grid">
+        <div class="wide"><label for="e-date">Date</label><input id="e-date" type="date"></div>
+        <div><label for="e-temp">Temperature</label><input id="e-temp" type="number" inputmode="decimal" step="any"></div>
+        <div><label for="e-ph">pH</label><input id="e-ph" type="number" inputmode="decimal" step="0.1" min="0" max="14"></div>
+        <div><label for="e-nh3">Ammonia (ppm)</label><input id="e-nh3" type="number" inputmode="decimal" step="any" min="0"></div>
+        <div><label for="e-no2">Nitrite (ppm)</label><input id="e-no2" type="number" inputmode="decimal" step="any" min="0"></div>
+        <div><label for="e-no3">Nitrate (ppm)</label><input id="e-no3" type="number" inputmode="decimal" step="any" min="0"></div>
+        <div><label for="e-wc">Water changed (%)</label><input id="e-wc" type="number" inputmode="numeric" step="1" min="0" max="100"></div>
+        <div class="wide" style="grid-column:1/-1"><label for="e-note">Note (optional)</label><input id="e-note" type="text" maxlength="120" placeholder="New fish added, filter rinsed, started treatment…"></div>
+      </div>
+      <button class="calc-btn" id="e-add" type="button">Save Reading</button>
+      <p class="calc-note">Leave a field blank if you did not test it. One reading per day; saving the same date again replaces it.</p>
+      <div id="log-out" aria-live="polite"></div>
+      <div class="log-actions">
+        <button type="button" id="log-csv">Download CSV</button>
+        <button type="button" id="log-sample">Load an example week</button>
+        <button type="button" id="log-clear">Clear log</button>
+      </div>
+      <div class="log-app">
+        <h3>📱 Need more than 7 days?</h3>
+        <p>This web log covers one tank and the last 7 days. The FishCare AI app for iPhone and iPad keeps the rest:</p>
+        <ul>
+          <li>Full water history with a chart for every tank</li>
+          <li>Several tanks, each with its own records</li>
+          <li>Reminders for water tests, water changes, filter care and medicine</li>
+          <li>Test-strip reading from a photo</li>
+        </ul>
+        <p>These features are part of FishCare Plus.</p>
+        <a href="/app/?utm_source=web&amp;utm_medium=aquarium-log">See the app</a>
+      </div>
+    </div>
+
+    <h2 id="what">What to Record in an Aquarium Log</h2>
+    <p>Five readings tell you most of what is happening in a freshwater tank. The ranges below are general targets for tropical community fish; check the <a href="/tools/water-parameter-checker/">water parameter checker</a> for your species.</p>
+    <div class="table-wrap"><table class="ptbl">
+      <tr><th>Reading</th><th>Target</th><th>Act when</th><th>What it tells you</th></tr>
+      <tr><td>Ammonia</td><td>0 ppm</td><td>Above 0.25 ppm</td><td>Waste the filter is not processing: an uncycled tank, overstocking, overfeeding or a dead fish.</td></tr>
+      <tr><td>Nitrite</td><td>0 ppm</td><td>Above 0.25 ppm</td><td>The second stage of the nitrogen cycle is not keeping up. Common in new tanks and after a filter is cleaned too hard.</td></tr>
+      <tr><td>Nitrate</td><td>Under 20 ppm</td><td>40 ppm or more</td><td>How fast waste builds up between water changes. A steady climb means changes are too small or too far apart.</td></tr>
+      <tr><td>pH</td><td>Stable, usually 6.5–7.8</td><td>A shift of 0.5 or more</td><td>Swings matter more than the exact number. A slow fall often means carbonate hardness (KH) is running out.</td></tr>
+      <tr><td>Temperature</td><td>Stable, usually 75–80°F (24–27°C) for tropical fish</td><td>A change of 4°F (2°C) or more</td><td>Heater failure, a hot room or a cold night. Sudden swings stress fish and can trigger ich.</td></tr>
+    </table></div>
+    <p>Record water changes and notes too. A nitrate reading only makes sense next to the date and size of the last water change, and a note such as “added 6 tetras” explains an ammonia bump a few days later.</p>
+
+    <h2 id="how-often">How Often to Test Aquarium Water</h2>
+    <ul>
+      <li><strong>Cycling a new tank:</strong> every day or every other day, until ammonia and nitrite both read 0 and nitrate is rising.</li>
+      <li><strong>First weeks after adding fish:</strong> every 2 to 3 days. The filter needs time to catch up with the extra waste.</li>
+      <li><strong>During a disease treatment:</strong> every day or two. Some medications affect filter bacteria, and sick fish handle poor water badly.</li>
+      <li><strong>Established, stable tank:</strong> once a week, before the water change.</li>
+    </ul>
+    <p>If you are not sure how many fish your tank can support, the <a href="/tools/fish-tank-stocking-calculator/">aquarium stocking calculator</a> suggests a water-change schedule for your stocking level.</p>
+
+    <h2 id="trends">How to Read the Trends in Your Log</h2>
+    <h3>Nitrate climbs every week</h3>
+    <p>The water changes are not removing as much as the fish produce. Change more water each time, change it more often, feed less or reduce the stocking.</p>
+    <h3>Ammonia appears a few days after new fish</h3>
+    <p>A mini-cycle. Stop adding fish, feed lightly, and change 25 to 50 percent of the water when ammonia reads above 0.25 ppm until it settles back to 0.</p>
+    <h3>pH falls slowly over weeks</h3>
+    <p>Usually a sign that the buffering capacity (KH) is being used up. Regular water changes restore it; test KH if the drop keeps happening.</p>
+    <h3>Readings are fine but fish look unwell</h3>
+    <p>Look at temperature swings and your notes for recent changes, then check the symptoms in the <a href="/fish-health/">fish health guide</a>.</p>
+
+    <h2 id="faq">Aquarium Log FAQ</h2>
+    <h3>What should I record in an aquarium log?</h3>
+    <p>At minimum: the date, ammonia, nitrite, nitrate, pH and temperature, plus how much water you changed. Add a short note when something changes, such as new fish, a new filter, a medication or a fish that stopped eating.</p>
+    <h3>How often should I test my aquarium water?</h3>
+    <p>Test every day or two while a new tank is cycling, for the first few weeks after adding fish, and during any treatment. An established tank with stable readings can be tested once a week.</p>
+    <h3>Is my aquarium log data saved?</h3>
+    <p>Yes, in this browser only. Readings are stored on your device and are not uploaded. Clearing site data or switching browsers removes them, so export the CSV if you want a copy.</p>
+    <h3>Why does this log keep only 7 days?</h3>
+    <p>Seven days covers the decisions you make this week: whether ammonia is rising after new fish or whether nitrate is climbing between water changes. Full history, several tanks and reminders are in the FishCare AI app.</p>
+    <h3>What nitrate level should trigger a water change?</h3>
+    <p>Many keepers aim to keep nitrate under 20 ppm and treat 40 ppm as the point to change more water or change it more often. Sensitive species and shrimp do better at the low end.</p>
+
+    <h2 id="method">How This Aquarium Log Works</h2>
+    <p>Readings are stored in your browser with localStorage and never leave your device, so FishCare AI cannot see or recover them. The log keeps the last 7 days and drops older readings when you save. Flags use the general thresholds in the table above; they are not a diagnosis and do not replace a check of your species' needs.</p>
+
+    <h2 id="related">Related Guides and Tools</h2>
+    <div class="guide-links"><a href="/tools/water-parameter-checker/">Water Parameter Checker</a><a href="/tools/fish-tank-stocking-calculator/">Aquarium Stocking Calculator</a><a href="/tools/fish-feeding-calculator/">Fish Feeding Calculator</a><a href="/guides/aquarium-water-parameters/">Aquarium Water Parameters Guide</a></div>
+  </article>
+
+  <aside class="sidebar">
+    <div class="cluster-nav">
+      <p class="sb-h">Water Quality</p>
+      <a href="/tools/aquarium-log/" class="cur">📓 Aquarium Log</a>
+      <a href="/tools/water-parameter-checker/">🧪 Water Parameter Checker</a>
+      <a href="/tools/betta-fish-water-parameters/">🐟 Betta Water Parameters</a>
+      <a href="/guides/aquarium-water-parameters/">📘 Water Parameters Guide</a>
+      <a href="/tools/fish-tank-stocking-calculator/">🐠 Aquarium Stocking Calculator</a>
+    </div>
+    <div class="toc">
+      <p class="sb-h">On this page</p>
+      <a href="/tools/aquarium-log/#what">What to Record in an Aquarium Log</a>
+      <a href="/tools/aquarium-log/#how-often">How Often to Test Aquarium Water</a>
+      <a href="/tools/aquarium-log/#trends">How to Read the Trends</a>
+      <a href="/tools/aquarium-log/#faq">FAQ</a>
+    </div>
+  </aside>
+</div>
+</main>
+
+<footer class="ft"><div class="con"><div class="ftg"><div class="ftbr"><a class="logo" href="/" aria-label="FishCare AI home"><img class="fishcare-footer-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="158" height="40" loading="lazy"></a><p>Practical aquarium care guides, fish encyclopedia, and free tools for freshwater and saltwater fishkeepers.</p></div><div class="ftcol"><h3>Explore</h3><a href="/guides/">All Guides</a><a href="/species">Encyclopedia</a><a href="/compatibility/">Compatibility Guides</a><a href="/fish-health/">Fish Health</a><a href="/aquarium-fish-diseases/clownfish/">Clownfish Health Problems</a><a href="/identify/">Fish Identification</a><a href="/calculators/">Tank Size Calculators</a></div><div class="ftcol"><h3>Aquarium Tools</h3><a href="/tools/aquarium-size-calculator/">Tank Size Calculator</a><a href="/tools/fish-tank-stocking-calculator/">Stocking Calculator</a><a href="/tools/fish-compatibility-checker/">Compatibility Checker</a><a href="/tools/water-parameter-checker/">Water Parameter Checker</a><a href="/tools/betta-fish-water-parameters/">Betta Water Parameters</a><a href="/tools/fish-feeding-calculator/">Feeding Calculator</a><a href="/tools/aquarium-substrate-calculator/">Substrate Calculator</a><a href="/tools/aquarium-equipment-calculator/">Equipment Calculator</a><a href="/tools/aquarium-planner/">Aquarium Planner</a></div><div class="ftcol"><h3>Koi &amp; Pond Tools</h3><a href="/tools/koi-pond-calculator/">Koi Pond Calculator</a><a href="/tools/koi-pond-stocking-calculator/">Pond Stocking Calculator</a><a href="/tools/koi-feeding-calculator/">Koi Feeding Calculator</a><a href="/tools/koi-pond-liner-calculator/">Pond Liner Calculator</a><a href="/tools/koi-pond-pump-calculator/">Pond Pump Calculator</a><a href="/tools/koi-pond-salt-calculator/">Pond Salt Calculator</a></div><div class="ftcol"><h3>Company</h3><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms</a><a href="/editorial-policy/">Editorial Policy</a><a href="/resources/">Resources</a><a href="/add-your-site/">Add Your Site</a><a href="https://buymeacoffee.com/vikiyananw6">☕ Buy me a coffee</a></div></div><div class="ftb">© 2026 EverTrend LLC. FishCare AI is a product of EverTrend LLC. All rights reserved.</div><nav class="legal-links" aria-label="Legal and company information"><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/editorial-policy/">Editorial Policy</a><a href="/privacy/">Privacy</a><a href="/image-credits/">Image Credits</a><a href="/add-your-site/">Add Your Site</a></nav></div></footer>
+
+<script>
+(function(){
+  'use strict';
+  var KEY = 'fc-aquarium-log-v1', DAYS = 7;
+  var $ = function(i){ return document.getElementById(i); };
+  var FIELDS = ['temp','ph','nh3','no2','no3','wc'];
+  var state = { tank: { name: '', vol: '', unit: 'f' }, entries: [] };
+
+  function load(){ try { var s = JSON.parse(localStorage.getItem(KEY) || 'null'); if (s && s.entries) state = s; } catch (e) {} }
+  function save(){ try { localStorage.setItem(KEY, JSON.stringify(state)); return true; } catch (e) { return false; } }
+  function dkey(d){ var z = function(n){ return (n < 10 ? '0' : '') + n; }; return d.getFullYear() + '-' + z(d.getMonth() + 1) + '-' + z(d.getDate()); }
+  function today(){ return dkey(new Date()); }
+  function cutoff(){ var d = new Date(); d.setDate(d.getDate() - (DAYS - 1)); return dkey(d); }
+  function prune(){ var c = cutoff(); state.entries = state.entries.filter(function(e){ return e.d >= c; }); }
+  function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  function val(id){ var v = $(id).value.trim(); if (v === '') return null; var n = Number(v); return isFinite(n) ? n : null; }
+  function fmt(n){ return n === null || n === undefined ? '—' : String(Math.round(n * 100) / 100); }
+  function shortDate(k){ var p = k.split('-'); return ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][+p[1] - 1] + ' ' + (+p[2]); }
+
+  // Temperatures are stored in °F so the unit switch never rewrites history.
+  function toDisplayT(f){ return f === null || f === undefined ? null : (state.tank.unit === 'c' ? (f - 32) / 1.8 : f); }
+  function fromDisplayT(v){ return v === null ? null : (state.tank.unit === 'c' ? v * 1.8 + 32 : v); }
+
+  function level(field, v, prev){
+    if (v === null || v === undefined) return '';
+    if (field === 'nh3' || field === 'no2') return v >= 1 ? 'bad' : v > 0.25 ? 'warn' : '';
+    if (field === 'no3') return v >= 80 ? 'bad' : v >= 40 ? 'warn' : '';
+    if (field === 'ph' && prev && prev.ph != null) return Math.abs(v - prev.ph) >= 0.5 ? 'warn' : '';
+    if (field === 'temp' && prev && prev.temp != null) return Math.abs(v - prev.temp) >= 4 ? 'warn' : '';
+    return '';
+  }
+
+  function flags(list){
+    var out = [], last = list[list.length - 1];
+    if (!last) return out;
+    if (last.nh3 > 0.25) out.push('Ammonia is ' + fmt(last.nh3) + ' ppm. Change 25–50% of the water, feed lightly and retest tomorrow.');
+    if (last.no2 > 0.25) out.push('Nitrite is ' + fmt(last.no2) + ' ppm. The filter is not keeping up — change water and avoid cleaning the filter media for now.');
+    if (last.no3 >= 40) out.push('Nitrate is ' + fmt(last.no3) + ' ppm. Change more water, or change it more often, until it stays under 40 ppm.');
+    var no3 = list.filter(function(e){ return e.no3 != null; });
+    if (no3.length >= 3 && no3[no3.length - 1].no3 > no3[0].no3 + 10 && !(last.no3 >= 40)) out.push('Nitrate rose from ' + fmt(no3[0].no3) + ' to ' + fmt(no3[no3.length - 1].no3) + ' ppm this week. Plan a water change before it reaches 40 ppm.');
+    var ph = list.filter(function(e){ return e.ph != null; });
+    if (ph.length >= 2 && Math.abs(ph[ph.length - 1].ph - ph[ph.length - 2].ph) >= 0.5) out.push('pH moved by ' + fmt(Math.abs(ph[ph.length - 1].ph - ph[ph.length - 2].ph)) + ' since the last test. Check KH and avoid large sudden changes.');
+    var t = list.filter(function(e){ return e.temp != null; });
+    if (t.length >= 2 && Math.abs(t[t.length - 1].temp - t[t.length - 2].temp) >= 4) out.push('Temperature changed by about ' + Math.round(Math.abs(t[t.length - 1].temp - t[t.length - 2].temp) / (state.tank.unit === 'c' ? 1.8 : 1)) + (state.tank.unit === 'c' ? '°C' : '°F') + ' between tests. Check the heater and the room.');
+    return out;
+  }
+
+  function chart(list, series, maxFloor){
+    var W = 300, H = 120, P = 22;
+    var pts = list.map(function(e, i){ return i; });
+    var max = maxFloor;
+    series.forEach(function(s){ list.forEach(function(e){ if (e[s.k] != null && e[s.k] > max) max = e[s.k]; }); });
+    var x = function(i){ return list.length === 1 ? W / 2 : P + i * (W - P - 8) / (list.length - 1); };
+    var y = function(v){ return H - 18 - v / max * (H - 30); };
+    var g = '<line x1="' + P + '" y1="' + (H - 18) + '" x2="' + (W - 4) + '" y2="' + (H - 18) + '" stroke="#D0E4F0"/>' +
+      '<text x="2" y="' + (y(max) + 4) + '" font-size="9" fill="#5A7A94">' + fmt(max) + '</text><text x="2" y="' + (H - 14) + '" font-size="9" fill="#5A7A94">0</text>';
+    list.forEach(function(e, i){ g += '<text x="' + x(i) + '" y="' + (H - 4) + '" font-size="8.5" fill="#5A7A94" text-anchor="middle">' + shortDate(e.d) + '</text>'; });
+    series.forEach(function(s){
+      var seg = [], dots = '';
+      list.forEach(function(e, i){ if (e[s.k] != null) { seg.push(x(i).toFixed(1) + ',' + y(e[s.k]).toFixed(1)); dots += '<circle cx="' + x(i).toFixed(1) + '" cy="' + y(e[s.k]).toFixed(1) + '" r="2.6" fill="' + s.c + '"/>'; } });
+      if (seg.length > 1) g += '<polyline fill="none" stroke="' + s.c + '" stroke-width="2" points="' + seg.join(' ') + '"/>';
+      g += dots;
+    });
+    return '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="' + series.map(function(s){ return s.n; }).join(' and ') + ' over the last 7 days">' + g + '</svg>' +
+      '<div class="log-legend">' + series.map(function(s){ return '<span style="background:' + s.c + '"></span>' + s.n; }).join('') + '</div>';
+  }
+
+  function render(msg){
+    prune();
+    var list = state.entries.slice().sort(function(a, b){ return a.d < b.d ? -1 : 1; });
+    var out = $('log-out');
+    $('log-out').setAttribute('data-has', list.length ? 'true' : 'false');
+    if (!list.length) { out.innerHTML = '<p class="log-empty">No readings in the last 7 days yet. Add your first test above' + (msg ? ' <span class="log-saved">' + esc(msg) + '</span>' : '') + '.</p>'; return; }
+    var tu = state.tank.unit === 'c' ? '°C' : '°F';
+    var rows = list.map(function(e, i){
+      var prev = i ? list[i - 1] : null;
+      var cells = '<td>' + shortDate(e.d) + '</td>';
+      cells += '<td class="' + level('temp', e.temp, prev) + '">' + fmt(toDisplayT(e.temp)) + '</td>';
+      ['ph','nh3','no2','no3'].forEach(function(f){ cells += '<td class="' + level(f, e[f], prev) + '">' + fmt(e[f]) + '</td>'; });
+      cells += '<td>' + (e.wc != null ? fmt(e.wc) + '%' : '—') + '</td><td>' + esc(e.note || '') + '</td>';
+      cells += '<td><button type="button" data-del="' + e.d + '" aria-label="Delete reading for ' + shortDate(e.d) + '">✕</button></td>';
+      return '<tr>' + cells + '</tr>';
+    }).join('');
+    var f = flags(list);
+    out.innerHTML = (msg ? '<p class="log-saved">' + esc(msg) + '</p>' : '') +
+      '<div class="log-wrap"><table class="log-tbl" id="log-table"><tr><th>Date</th><th>Temp ' + tu + '</th><th>pH</th><th>NH₃ ppm</th><th>NO₂ ppm</th><th>NO₃ ppm</th><th>Water change</th><th>Note</th><th></th></tr>' + rows + '</table></div>' +
+      '<div class="log-charts">' +
+        '<div class="log-chart"><h3>Ammonia &amp; nitrite</h3>' + chart(list, [{ k: 'nh3', n: 'Ammonia', c: '#E74C3C' }, { k: 'no2', n: 'Nitrite', c: '#F39C12' }], 0.5) + '</div>' +
+        '<div class="log-chart"><h3>Nitrate</h3>' + chart(list, [{ k: 'no3', n: 'Nitrate', c: '#1B5E8B' }], 40) + '</div>' +
+      '</div>' +
+      (f.length ? '<ul class="log-flags">' + f.map(function(x){ return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>' : '<p class="log-empty">No flags on the latest readings. Keep testing on your usual schedule.</p>');
+  }
+
+  function add(){
+    var d = $('e-date').value || today();
+    if (d > today()) { render('That date is in the future.'); return; }
+    if (d < cutoff()) { render('This log keeps the last 7 days only — pick a date from the past week.'); return; }
+    var e = { d: d, note: $('e-note').value.trim().slice(0, 120) };
+    e.temp = fromDisplayT(val('e-temp'));
+    ['ph','nh3','no2','no3','wc'].forEach(function(f){ var v = val('e-' + f); e[f] = v === null || v < 0 ? null : v; });
+    if (e.ph != null && e.ph > 14) e.ph = null;
+    if (e.wc != null && e.wc > 100) e.wc = 100;
+    var any = FIELDS.some(function(f){ return e[f] != null; }) || e.note;
+    if (!any) { render('Enter at least one reading.'); return; }
+    state.entries = state.entries.filter(function(x){ return x.d !== d; });
+    state.entries.push(e);
+    var ok = save();
+    FIELDS.forEach(function(f){ $('e-' + f).value = ''; }); $('e-note').value = '';
+    render(ok ? 'Saved.' : 'Saved for this visit — your browser blocked storage, so download the CSV to keep it.');
+    if (typeof window.gtag === 'function') window.gtag('event', 'tool_calculate', { tool: 'aquarium-log' });
+  }
+
+  function csv(){
+    var list = state.entries.slice().sort(function(a, b){ return a.d < b.d ? -1 : 1; });
+    var tu = state.tank.unit === 'c' ? 'C' : 'F';
+    var q = function(s){ s = String(s == null ? '' : s); return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; };
+    var lines = ['date,temp_' + tu + ',ph,ammonia_ppm,nitrite_ppm,nitrate_ppm,water_change_pct,note'];
+    list.forEach(function(e){ var t = toDisplayT(e.temp); lines.push([e.d, t == null ? '' : Math.round(t * 10) / 10, e.ph, e.nh3, e.no2, e.no3, e.wc, e.note].map(q).join(',')); });
+    var blob = new Blob([lines.join('\n') + '\n'], { type: 'text/csv' });
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = (state.tank.name || 'aquarium').replace(/[^a-z0-9]+/gi, '-').toLowerCase() + '-log.csv';
+    document.body.appendChild(a); a.click(); a.remove();
+  }
+
+  function sample(){
+    if (state.entries.length && !confirm('Replace your readings with an example week?')) return;
+    var base = [[78,7.4,0,0,10,null,''],[78,7.4,0,0,15,null,''],[79,7.3,0.25,0,20,null,'Added 6 neon tetras'],[78,7.3,0.5,0.25,25,null,''],[78,7.2,0.25,0.25,30,30,'30% water change'],[78,7.3,0,0,20,null,''],[78,7.3,0,0,25,null,'']];
+    state.entries = base.map(function(r, i){ var d = new Date(); d.setDate(d.getDate() - (6 - i)); return { d: dkey(d), temp: r[0], ph: r[1], nh3: r[2], no2: r[3], no3: r[4], wc: r[5], note: r[6] }; });
+    save(); render('Example week loaded.');
+  }
+
+  function syncTank(){
+    state.tank.name = $('t-name').value.trim().slice(0, 40);
+    state.tank.vol = $('t-vol').value;
+    var nu = $('t-unit').value;
+    if (nu !== state.tank.unit) { state.tank.unit = nu; $('e-temp').placeholder = nu === 'c' ? '25.5' : '78'; }
+    save(); render();
+  }
+
+  load();
+  $('t-name').value = state.tank.name || '';
+  $('t-vol').value = state.tank.vol || '';
+  $('t-unit').value = state.tank.unit || 'f';
+  $('e-temp').placeholder = state.tank.unit === 'c' ? '25.5' : '78';
+  $('e-date').value = today();
+  $('e-date').max = today();
+  $('e-date').min = cutoff();
+  ['t-name','t-vol','t-unit'].forEach(function(id){ $(id).addEventListener('change', syncTank); });
+  $('e-add').addEventListener('click', add);
+  $('log-csv').addEventListener('click', csv);
+  $('log-sample').addEventListener('click', sample);
+  $('log-clear').addEventListener('click', function(){ if (confirm('Delete all readings in this log?')) { state.entries = []; save(); render('Log cleared.'); } });
+  $('log-out').addEventListener('click', function(ev){ var d = ev.target.getAttribute && ev.target.getAttribute('data-del'); if (d) { state.entries = state.entries.filter(function(x){ return x.d !== d; }); save(); render(); } });
+  render();
+})();
+</script>
+</body>
+</html>
