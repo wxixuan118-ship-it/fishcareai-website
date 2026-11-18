@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en" data-adsense-content="true" data-cms-sync="off">
+<head>
+<meta charset="utf-8"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Fish Treatment Planner: Day-by-Day Medication Schedule</title>
+<meta name="description" content="Free fish treatment planner for ich, fin rot, fungus, velvet and more. Get dated dose days, water changes and rechecks. It does not calculate doses — your label does."/>
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"/>
+<link rel="canonical" href="https://www.fishcareai.com/tools/fish-treatment-planner/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="FishCare AI"/>
+<meta property="og:title" content="Fish Treatment Planner: Day-by-Day Medication Schedule"/>
+<meta property="og:description" content="Free fish treatment planner for ich, fin rot, fungus, velvet and more. Get dated dose days, water changes and rechecks. It does not calculate doses — your label does."/>
+<meta property="og:url" content="https://www.fishcareai.com/tools/fish-treatment-planner/"/>
+<meta property="og:image" content="https://www.fishcareai.com/assets/encyclopedia/real/clownfish-wikimedia-real.jpg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fishcareai.com/"}, {"@type": "ListItem", "position": 2, "name": "Tools", "item": "https://www.fishcareai.com/tools/"}, {"@type": "ListItem", "position": 3, "name": "Fish Treatment Planner", "item": "https://www.fishcareai.com/tools/fish-treatment-planner/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Fish Treatment Planner", "url": "https://www.fishcareai.com/tools/fish-treatment-planner/", "description": "Free fish treatment planner for ich, fin rot, fungus, velvet and more. Get dated dose days, water changes and rechecks. It does not calculate doses — your label does.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How long should I treat my fish for?", "acceptedAnswer": {"@type": "Answer", "text": "Follow the course length on your medication's label and finish it even if the fish look better. As a guide, ich takes 7–14 days of daily treatment in a tropical tank, velvet 10–14 days, and most antibacterial courses 5–10 days."}}, {"@type": "Question", "name": "Should I do a water change between doses?", "acceptedAnswer": {"@type": "Answer", "text": "Many labels ask for a partial water change before each new dose, and it helps keep the water clean while fish are stressed. Check your product's label: some say to dose again without a change."}}, {"@type": "Question", "name": "Can I treat fish in the main tank?", "acceptedAnswer": {"@type": "Answer", "text": "For ich and velvet, yes, because the parasite is in the whole tank. Antibiotics are better used in a hospital tank, since they can harm the filter bacteria in the main tank."}}, {"@type": "Question", "name": "Why doesn't this planner tell me how much medicine to add?", "acceptedAnswer": {"@type": "Answer", "text": "Because the right amount depends on the exact product, its strength and your real water volume. The label on your medication is the only reliable source for the dose. This planner handles the timing so you don't miss a dose or a recheck."}}, {"@type": "Question", "name": "What should I do after the treatment ends?", "acceptedAnswer": {"@type": "Answer", "text": "Change 30–50% of the water, put fresh carbon back in the filter and watch the fish for two weeks. Weakened fish can pick up a second infection, and ich can return if a few parasites survived."}}]}</script>
+<style>:root{--p:#1B5E8B;--pl:#2E84C0;--pd:#0F3D5E;--s:#2E9E7D;--a:#F5A623;--bg:#F0F7FF;--tx:#1A2B3C;--mu:#5A7A94;--bd:#D0E4F0;--ok:#27AE60;--wn:#F39C12;--er:#E74C3C}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,'Segoe UI',Arial,sans-serif;background:linear-gradient(180deg,#E6F7FF 0%,#F7FCFF 36%,#F0F7FF 100%);color:var(--tx);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--p);text-decoration:none}
+.con{max-width:1180px;margin:0 auto;padding:0 22px}
+h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:800;line-height:1.2}
+h2{font-size:clamp(1.2rem,2.5vw,1.7rem);font-weight:700;line-height:1.25}
+h3{font-size:1.1rem;font-weight:700}
+p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:10px 20px;border-radius:8px;font-size:.9rem;font-weight:600;border:none;cursor:pointer;transition:all .18s;white-space:nowrap;text-decoration:none}
+.bp{background:var(--p);color:#fff}.bp:hover{background:var(--pl)}
+.bo{background:transparent;color:var(--p);border:2px solid var(--p)}.bo:hover{background:var(--p);color:#fff}
+.tag{display:inline-block;background:rgba(27,94,139,.1);color:var(--p);padding:3px 11px;border-radius:20px;font-size:.73rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px}
+.nb{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--bd);padding:0 22px;height:64px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:8px;font-size:1.2rem;font-weight:800;color:var(--p);text-decoration:none}
+.nlinks{display:flex;align-items:center;gap:2px}
+.nl{padding:7px 13px;border-radius:8px;font-weight:500;font-size:.86rem;color:var(--mu);text-decoration:none;transition:all .15s}
+.nl:hover,.nl.act{color:var(--p);background:rgba(27,94,139,.07)}
+.hbg{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:7px;border:none;background:none}
+.hbg span{display:block;width:21px;height:2px;background:var(--tx);border-radius:2px}
+@media(max-width:760px){.nlinks{display:none;position:absolute;top:64px;left:0;right:0;background:#fff;flex-direction:column;padding:12px;border-bottom:1px solid var(--bd);gap:3px;box-shadow:0 4px 20px rgba(27,94,139,.12)}.nlinks.open{display:flex}.hbg{display:flex}}
+.guide-hero{background:#0F3D5E;color:#fff;padding:70px 22px 48px;position:relative;overflow:hidden;min-height:300px;display:flex;align-items:flex-end}
+.guide-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,28,42,.9),rgba(15,61,94,.7)),url('/assets/encyclopedia/real/clownfish-wikimedia-real.jpg') center/cover no-repeat}
+.guide-hero::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:90px;background:linear-gradient(0deg,#E6F7FF,rgba(230,247,255,0));pointer-events:none}
+.guide-hero .con{position:relative;z-index:1;padding:26px 22px;border-radius:26px;background:linear-gradient(135deg,rgba(255,255,255,.13),rgba(255,255,255,.04));border:1px solid rgba(255,255,255,.18);box-shadow:0 24px 70px rgba(0,0,0,.18);backdrop-filter:blur(7px)}
+.guide-hero h1{color:#fff;margin:8px 0 10px;max-width:860px}
+.guide-meta{display:flex;gap:14px;flex-wrap:wrap;color:rgba(255,255,255,.78);font-size:.86rem}
+.breadcrumb{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:.8rem;color:rgba(255,255,255,.65);margin-bottom:12px}
+.breadcrumb a{color:rgba(255,255,255,.75)}.breadcrumb a:hover{color:#fff}
+.breadcrumb span{color:rgba(255,255,255,.45)}
+.artlay{display:grid;grid-template-columns:1fr 270px;gap:32px;max-width:1180px;margin:32px auto 56px;padding:0 22px}
+@media(max-width:900px){.artlay{grid-template-columns:1fr}.sidebar{display:none}}
+.artc{background:rgba(255,255,255,.82);border:1px solid rgba(191,228,246,.9);border-radius:24px;padding:34px 40px;box-shadow:0 18px 48px rgba(15,61,110,.1);backdrop-filter:blur(14px)}
+.artc h2{font-size:1.25rem;color:var(--pd);margin:28px 0 12px;padding-top:16px;border-top:1.5px solid var(--bd)}
+.artc h2:first-child{margin-top:0;padding-top:0;border-top:none}
+.artc h3{font-size:1.05rem;color:var(--tx);margin:18px 0 8px}
+.artc p{font-size:.96rem;line-height:1.82;color:var(--mu);margin-bottom:13px}
+.artc ul,.artc ol{margin:10px 0 14px 20px}
+.artc li{font-size:.95rem;line-height:1.72;color:var(--mu);margin-bottom:5px}
+.artc strong{color:var(--tx)}
+.callout{background:rgba(248,250,254,.85);border:1px solid var(--bd);border-left:4px solid var(--p);border-radius:12px;padding:16px 18px;margin:20px 0}
+.callout-warn{background:rgba(255,248,240,.85);border-left-color:var(--wn)}
+.callout-ok{background:rgba(240,255,248,.85);border-left-color:var(--s)}
+.ptbl{width:100%;border-collapse:collapse;margin:16px 0;font-size:.86rem;border-radius:16px;overflow:hidden;box-shadow:0 12px 30px rgba(15,61,110,.08)}
+.ptbl th{background:var(--p);color:#fff;padding:10px 14px;text-align:left}
+.ptbl td{padding:10px 14px;border-bottom:1px solid var(--bd);color:var(--mu);vertical-align:top}
+.ptbl tr:nth-child(even) td{background:#F8FAFE}
+.ptbl tr:last-child td{border-bottom:none}
+.ptbl td:first-child{font-weight:600;color:var(--tx)}
+.guide-links{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:14px}
+.guide-links a{display:block;background:#fff;border:1px solid var(--bd);border-radius:8px;padding:13px;color:var(--tx);font-weight:700;font-size:.85rem;transition:border-color .15s,background .15s}
+.guide-links a:hover{border-color:var(--p);background:#F8FAFE}
+@media(max-width:600px){.guide-links{grid-template-columns:1fr}}
+.sidebar{display:flex;flex-direction:column;gap:16px}
+.toc{background:rgba(255,255,255,.9);border-radius:16px;padding:18px;border:1px solid var(--bd);position:sticky;top:84px;box-shadow:0 4px 18px rgba(27,94,139,.07)}
+.toc .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.toc a{display:block;padding:5px 0 5px 10px;font-size:.82rem;color:var(--mu);border-left:2px solid transparent;transition:all .15s;line-height:1.4}
+.toc a:hover{color:var(--p);border-left-color:var(--p)}
+.cluster-nav{background:rgba(255,255,255,.9);border-radius:16px;padding:18px;border:1px solid var(--bd);box-shadow:0 4px 18px rgba(27,94,139,.07)}
+.cluster-nav .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.cluster-nav a{display:block;padding:6px 8px;font-size:.82rem;color:var(--mu);border-radius:6px;transition:all .12s;line-height:1.4;margin-bottom:2px}
+.cluster-nav a:hover{color:var(--p);background:rgba(27,94,139,.06)}
+.cluster-nav a.pillar{color:var(--pd);font-weight:700;border-bottom:1px solid var(--bd);padding-bottom:9px;margin-bottom:7px;display:block}
+.cluster-nav a.cur{color:var(--p);background:rgba(27,94,139,.07);font-weight:600}
+.tool-card{background:linear-gradient(135deg,rgba(27,94,139,.08),rgba(46,158,125,.06));border-radius:16px;padding:18px;border:1px solid var(--bd)}
+.tool-card .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:10px;font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.tool-card a{display:flex;align-items:center;justify-content:space-between;padding:9px 12px;border-radius:8px;font-size:.84rem;font-weight:600;margin-bottom:7px;background:#fff;border:1px solid var(--bd);color:var(--p);transition:all .15s}
+.tool-card a:hover{border-color:var(--p);box-shadow:0 3px 10px rgba(27,94,139,.1)}
+.ft{background:#0F3D5E;padding:32px 22px 20px;margin-top:60px}
+.ftb{text-align:center;color:rgba(255,255,255,.4);font-size:.76rem}</style>
+<style>
+.cta-box{border-radius:14px;padding:20px 22px;margin:22px 0;color:#fff}
+.artc .cta-box h3{color:#fff;margin:0 0 7px;font-size:1rem}
+.artc figure{margin:20px 0}
+.artc figure img{display:block;width:100%;height:auto;border-radius:14px}
+.artc figcaption{font-size:.8rem;line-height:1.5;margin-top:7px;opacity:.85}
+.artc .cta-box p{color:rgba(255,255,255,.86);font-size:.88rem;margin-bottom:14px}
+.artc .cta-box a.btn{display:inline-block;background:#fff;color:#0F3D5E;padding:9px 18px;border-radius:8px;font-weight:700;font-size:.88rem}
+.table-wrap{overflow-x:auto;margin:14px 0 18px}
+.ptbl{width:100%;border-collapse:collapse;font-size:.88rem;min-width:460px}
+.calc-box{border:1px solid var(--bd);border-radius:16px;padding:20px;margin:0 0 22px}
+.calc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.calc-box label{display:block;font-size:.84rem;font-weight:600;margin-bottom:5px}
+.calc-box input,.calc-box select{width:100%;padding:10px 12px;border:1px solid var(--bd);border-radius:8px;font-size:16px;background:#fff;color:#1A2B3C}
+.calc-note{font-size:.8rem;margin-top:5px;opacity:.85}
+.calc-btn{margin-top:16px;width:100%;padding:12px;border:0;border-radius:10px;background:#1B5E8B;color:#fff;font-size:1rem;font-weight:700;cursor:pointer}
+.calc-out{margin-top:16px;padding:16px;border-radius:12px;background:rgba(46,158,125,.14);border:1px solid rgba(46,158,125,.4)}
+.calc-big{font-size:1.5rem;font-weight:800;margin-bottom:6px}
+.calc-out ul{margin:8px 0 0 18px}
+.calc-err{color:#E74C3C;font-weight:600}
+.presets{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.presets button{padding:7px 12px;border-radius:999px;border:1px solid var(--bd);background:transparent;color:inherit;font-size:.82rem;cursor:pointer}
+.page-meta{font-size:.82rem;opacity:.8;margin-bottom:16px}
+.refs li{font-size:.86rem}
+.artlay>*{min-width:0}
+@media(max-width:640px){.calc-grid{grid-template-columns:1fr}.artc{padding:22px 18px}}
+</style>
+<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260908-artc-contrast"/>
+<meta name="google-adsense-account" content="ca-pub-6697313643773879">
+<script defer src="/assets/site-compliance.js?v=20260923-analytics"></script><script defer src="/assets/app-cta.js?v=20261107b"></script>
+<style id="mobile-fit">@media(max-width:860px){.artlay>*,.sp-layout>*,.wrap>*,.content>*,.layout>*,main>*{min-width:0}.artc img,main figure img{max-width:100%;height:auto}.fig-scroll{max-width:100%;overflow-x:auto}.artc table,main .card table,.content table,.cmp-table{display:block;max-width:100%;overflow-x:auto}.artc p,.artc li,.artc td,main .card p{overflow-wrap:anywhere}}</style><style>
+<style>
+.st-h{font-size:.95rem;font-weight:700;color:var(--pd);margin:2px 0 10px}
+.st-n{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:var(--p);color:#fff;font-size:.75rem;margin-right:6px}
+.step{padding-bottom:16px;margin-bottom:16px;border-bottom:1px solid var(--bd)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips label{display:inline-flex;align-items:center;gap:7px;margin:0;padding:8px 13px;border:1px solid var(--bd);border-radius:999px;background:#fff;font-weight:600;font-size:.86rem;cursor:pointer;color:#1A2B3C}
+.chips input{width:auto;margin:0;accent-color:#1B5E8B}
+.chips label:has(input:checked){border-color:#1B5E8B;background:#1B5E8B;color:#fff}
+.chips input:checked{accent-color:#fff}
+.g3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.g5{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+@media(max-width:760px){.g5{grid-template-columns:repeat(2,minmax(0,1fr))}.g3{grid-template-columns:1fr}}
+.risk{display:inline-block;padding:5px 13px;border-radius:999px;font-weight:800;font-size:.9rem;color:#fff;margin-bottom:8px}
+.risk-urgent{background:#C0392B}.risk-high{background:#E67E22}.risk-moderate{background:#B7950B}.risk-low{background:#27AE60}
+.out h3{font-size:.98rem;margin:14px 0 6px;color:var(--pd)}
+.out ol,.out ul{margin:6px 0 4px 20px}
+.out li{font-size:.9rem;color:var(--tx);margin-bottom:5px;line-height:1.6}
+.out p{color:var(--tx);font-size:.92rem}
+.prog{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:10px 0 4px}
+.prog div{font-size:.74rem;text-align:center;padding:7px 4px;border-radius:8px;background:#fff;border:1px solid var(--bd);color:var(--mu);line-height:1.3}
+.prog div.done{background:#27AE60;border-color:#27AE60;color:#fff}
+.prog div.now{background:#1B5E8B;border-color:#1B5E8B;color:#fff}
+.sched{width:100%;border-collapse:collapse;font-size:.85rem;min-width:520px;margin-top:8px}
+.sched th{background:var(--p);color:#fff;padding:8px 10px;text-align:left}
+.sched td{padding:8px 10px;border-bottom:1px solid var(--bd);vertical-align:top;color:var(--tx)}
+.sched tr.chk td{background:rgba(46,158,125,.13)}
+.sched tr.end td{background:rgba(27,94,139,.08)}
+.sched td:first-child{white-space:nowrap;font-weight:600}
+.row-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.row-actions button{padding:8px 14px;border-radius:8px;border:1px solid var(--bd);background:#fff;color:var(--p);font-weight:600;font-size:.85rem;cursor:pointer}
+.app-next{margin-top:16px;border-radius:14px;padding:18px 20px;background:linear-gradient(135deg,#0F3D5E,#1B5E8B);color:#fff}
+.artc .app-next h3{color:#fff;margin:0 0 6px;font-size:1rem}
+.artc .app-next p{color:rgba(255,255,255,.86);font-size:.88rem;margin-bottom:10px}
+.artc .app-next ul{margin:0 0 12px 18px}
+.artc .app-next li{color:rgba(255,255,255,.9);font-size:.86rem}
+.artc .app-next a{display:inline-block;background:#fff;color:#0F3D5E;padding:9px 18px;border-radius:8px;font-weight:700;font-size:.88rem}
+.disclaim{font-size:.84rem;border:1px dashed var(--bd);border-radius:10px;padding:10px 12px;margin-top:12px;color:var(--mu)}
+@media print{.nb,.ft,.sidebar,.guide-hero,.app-next,.row-actions,.calc-btn,#fishcare-app-banner,.artc>*:not(.calc-box){display:none!important}.artlay{display:block;margin:0}.artc{box-shadow:none;border:0;padding:0}.calc-box>*:not(.out){display:none!important}}
+</style><style>.log-sub{font-size:.95rem;font-weight:700;color:var(--pd);margin:4px 0 10px}</style></head>
+<body>
+<nav class="nb fishcare-global-nav" id="fishcare-global-navigation" aria-label="Main navigation"><a class="brand" href="/" aria-label="FishCare AI home"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"></a><div class="nlinks" id="fishcare-nlinks"><a class="nl" href="/">Home</a><a class="nl" href="/guides/">Guides</a><a class="nl" href="/species">Encyclopedia</a><a class="nl" href="/compatibility/">Compatibility</a><a class="nl" href="/fish-health/">Fish Health</a><a class="nl" href="/identify/">Fish ID</a><a class="nl" href="/about/">About</a><a class="nl nl-app-btn" href="/app/">📱 App</a></div><button type="button" class="hbg" aria-label="Open navigation menu" aria-controls="fishcare-nlinks" aria-expanded="false"><span></span><span></span><span></span></button></nav>
+
+<main>
+<section class="guide-hero">
+  <div class="con">
+    <div class="breadcrumb">
+      <a href="/">Home</a><span>/</span>
+      <a href="/tools/">Tools</a><span>/</span>
+      <span style="color:rgba(255,255,255,.9)">Fish Treatment Planner</span>
+    </div>
+    <div class="tag" style="background:rgba(255,255,255,.18);color:rgba(255,255,255,.92)">💊 Free Tool</div>
+    <h1>Fish Treatment Planner: Your Day-by-Day Treatment Schedule</h1>
+    <div class="guide-meta">💊 Dose days, not doses &nbsp;|&nbsp; 🔁 Water changes and rechecks &nbsp;|&nbsp; 🖨️ Printable</div>
+  </div>
+</section>
+
+<div class="artlay">
+  <article class="artc">
+    <p class="page-meta">Updated November 18, 2026 · FishCare AI editorial team</p>
+    <p>This <strong>fish treatment planner</strong> turns a medication course into a dated schedule: which days to dose, when to change the water before the next dose, when to test and the recheck days where you decide whether it is working. Pick the condition, enter the schedule from your product label and print it. <strong>It does not calculate doses</strong> — the amount always comes from your label.</p>
+
+    <div class="calc-box" id="tp-tool">
+      <div class="calc-grid">
+        <div><label for="tp-cond">What are you treating?</label><select id="tp-cond">
+          <option value="ich">Ich / white spot (freshwater)</option>
+          <option value="finrot">Fin rot</option>
+          <option value="fungus">Fungus (cotton-like tufts)</option>
+          <option value="velvet">Velvet (gold dust)</option>
+          <option value="bacterial">Bacterial infection (ulcers, red streaks)</option>
+          <option value="worms">Internal worms or parasites</option>
+          <option value="custom">Something else — use my label</option>
+        </select></div>
+        <div><label for="tp-start">Day 0 (first dose)</label><input id="tp-start" type="date"></div>
+        <div><label for="tp-where">Where are you treating?</label><select id="tp-where"><option value="main">Main tank</option><option value="hospital">Hospital tank</option></select></div>
+        <div><label for="tp-meds">Using a medication?</label><select id="tp-meds"><option value="yes">Yes</option><option value="no">No — water and care only</option></select></div>
+      </div>
+      <p class="log-sub" style="margin-top:16px">From your medication label <span style="font-weight:500;color:var(--mu)">(filled with a typical schedule — change it to match your product)</span></p>
+      <div class="g3" id="tp-label">
+        <div><label for="tp-int">Dose every</label><select id="tp-int"><option value="1">24 hours</option><option value="2">48 hours</option><option value="3">3 days</option><option value="7">7 days</option></select></div>
+        <div><label for="tp-doses">Number of doses</label><input id="tp-doses" type="number" inputmode="numeric" min="1" max="30"></div>
+        <div><label for="tp-wc">Water change before re-dosing</label><select id="tp-wc"><option value="0">None</option><option value="25">25%</option><option value="30">30%</option><option value="50">50%</option></select></div>
+      </div>
+      <button class="calc-btn" id="tp-go" type="button">Build My Treatment Schedule</button>
+      <p class="disclaim"><strong>This planner does not calculate doses.</strong> It lays out the days. Always use the amount and the timing on your medication's label, and stop and change the water if fish look worse after a dose.</p>
+      <div class="out" id="tp-out" aria-live="polite"></div>
+      <div class="row-actions" id="tp-actions" hidden><button type="button" id="tp-print">Print schedule</button></div>
+      <div class="app-next" id="tp-app" hidden>
+        <h3>📱 Get a reminder for every dose</h3>
+        <p>Courses fail when a dose or a recheck gets missed. The FishCare AI app for iPhone and iPad keeps you on track:</p>
+        <ul>
+          <li>Log the course as a medicine plan, with a reminder for each dose</li>
+          <li>Follow-up check-ins that record how the fish is doing</li>
+          <li>Compare a new photo with the first one at each recheck</li>
+        </ul>
+        <p>Medicine plans, reminders and check-ins are part of FishCare Plus ($5.99/mo or $39.99/yr).</p>
+        <a href="/app/?utm_source=web&amp;utm_medium=treatment-planner">Get the app</a>
+      </div>
+    </div>
+
+    <h2 id="rules">Rules That Apply to Every Treatment</h2>
+    <ul>
+      <li><strong>Fix the water first.</strong> Test ammonia and nitrite before the first dose. Medicine works badly in poor water, and many signs of disease are really water problems. The <a href="/tools/fish-symptom-checker/">fish symptom checker</a> helps you rule that out.</li>
+      <li><strong>Take carbon out of the filter.</strong> Activated carbon removes many medications from the water. Put fresh carbon back after the course.</li>
+      <li><strong>Add aeration.</strong> Several medications and higher temperatures lower the oxygen in the water.</li>
+      <li><strong>Finish the full course.</strong> Stopping when fish look better is the most common reason ich and bacterial infections come back.</li>
+      <li><strong>Use one medication at a time.</strong> Mixing products can be toxic. If you need to switch, change most of the water and run carbon for a day first, unless the labels say otherwise.</li>
+      <li><strong>Watch invertebrates and sensitive fish.</strong> Shrimp and snails should come out before most ich and parasite treatments, and scaleless fish are often given half doses. Check the label.</li>
+    </ul>
+
+    <h2 id="hospital">Main Tank or Hospital Tank?</h2>
+    <p>Treat the main tank for parasites that live in the whole tank, such as ich and velvet: the free-swimming stage is in the water, so every fish needs treating. Use a hospital tank for antibiotics and for a single sick fish. Antibiotics in the main tank can kill the filter bacteria that keep ammonia at 0, and a bare hospital tank makes it easier to see the fish and keep the water clean. In a hospital tank without an established filter, test ammonia every day.</p>
+
+    <h2 id="schedules">Typical Course Lengths</h2>
+    <div class="table-wrap"><table class="ptbl">
+      <tr><th>Condition</th><th>Typical schedule</th><th>When to stop</th></tr>
+      <tr><td>Ich</td><td>Daily for 7–14 days at 75–79°F; every 3–5 days in cold water</td><td>No new spots for 3 days. <a href="/guides/ich-treatment/">Day-by-day ich guide</a></td></tr>
+      <tr><td>Fin rot</td><td>Clean water for a week first; antibacterial course if it keeps spreading</td><td>Edge has not moved for a week and new tissue shows. <a href="/guides/fin-rot-treatment/">Fin rot guide</a></td></tr>
+      <tr><td>Fungus</td><td>Every 1–2 days for about 5 doses, per label</td><td>Tufts gone and the skin underneath looks clean</td></tr>
+      <tr><td>Velvet</td><td>Daily for 10–14 days with lights dimmed</td><td>No dust on any fish for several days</td></tr>
+      <tr><td>Bacterial infection</td><td>Full antibiotic course in a hospital tank, often 5–10 days</td><td>End of the label course; ulcers closing</td></tr>
+      <tr><td>Internal worms</td><td>Often 2 doses about a week apart, to catch eggs that hatch later</td><td>After the second dose, if the fish eats and gains weight</td></tr>
+    </table></div>
+    <p>These are typical patterns, not instructions for a specific product. Your label always wins.</p>
+
+    <h2 id="related">Related Guides and Tools</h2>
+    <div class="guide-links"><a href="/guides/ich-treatment/">Ich Treatment Schedule</a><a href="/guides/fin-rot-treatment/">Fin Rot Treatment Plan</a><a href="/tools/fish-symptom-checker/">Fish Symptom Checker</a><a href="/tools/aquarium-log/">Aquarium Log</a></div>
+
+    <h2 id="faq">FAQ</h2>
+    <h3>How long should I treat my fish for?</h3>
+    <p>Follow the course length on your medication's label and finish it even if the fish look better. As a guide, ich takes 7–14 days of daily treatment in a tropical tank, velvet 10–14 days, and most antibacterial courses 5–10 days.</p>
+    <h3>Should I do a water change between doses?</h3>
+    <p>Many labels ask for a partial water change before each new dose, and it helps keep the water clean while fish are stressed. Check your product's label: some say to dose again without a change.</p>
+    <h3>Can I treat fish in the main tank?</h3>
+    <p>For ich and velvet, yes, because the parasite is in the whole tank. Antibiotics are better used in a hospital tank, since they can harm the filter bacteria in the main tank.</p>
+    <h3>Why doesn&#x27;t this planner tell me how much medicine to add?</h3>
+    <p>Because the right amount depends on the exact product, its strength and your real water volume. The label on your medication is the only reliable source for the dose. This planner handles the timing so you don't miss a dose or a recheck.</p>
+    <h3>What should I do after the treatment ends?</h3>
+    <p>Change 30–50% of the water, put fresh carbon back in the filter and watch the fish for two weeks. Weakened fish can pick up a second infection, and ich can return if a few parasites survived.</p>
+  </article>
+
+  <aside class="sidebar">
+    <div class="cluster-nav">
+      <p class="sb-h">Fish Health & Water</p>
+      <a href="/tools/fish-symptom-checker/">🩺 Fish Symptom Checker</a>
+      <a href="/tools/fish-treatment-planner/" class="cur">💊 Treatment Planner</a>
+      <a href="/tools/aquarium-cycle-tracker/">🔄 Cycle Tracker</a>
+      <a href="/tools/water-change-schedule/">🪣 Water Change Schedule</a>
+      <a href="/tools/aquarium-log/">📓 Aquarium Log</a>
+      <a href="/tools/water-parameter-checker/">🧪 Water Parameter Checker</a>
+    </div>
+    <div class="toc">
+      <p class="sb-h">On this page</p>
+      <a href="/tools/fish-treatment-planner/#rules">Rules for Every Treatment</a>
+      <a href="/tools/fish-treatment-planner/#hospital">Main Tank or Hospital Tank?</a>
+      <a href="/tools/fish-treatment-planner/#schedules">Typical Course Lengths</a>
+      <a href="/tools/fish-treatment-planner/#faq">FAQ</a>
+    </div>
+  </aside>
+</div>
+</main>
+
+<footer class="ft"><div class="con"><div class="ftg"><div class="ftbr"><a class="logo" href="/" aria-label="FishCare AI home"><img class="fishcare-footer-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="158" height="40" loading="lazy"></a><p>Practical aquarium care guides, fish encyclopedia, and free tools for freshwater and saltwater fishkeepers.</p></div><div class="ftcol"><h3>Explore</h3><a href="/guides/">All Guides</a><a href="/species">Encyclopedia</a><a href="/compatibility/">Compatibility Guides</a><a href="/fish-health/">Fish Health</a><a href="/aquarium-fish-diseases/clownfish/">Clownfish Health Problems</a><a href="/identify/">Fish Identification</a><a href="/calculators/">Tank Size Calculators</a></div><div class="ftcol"><h3>Aquarium Tools</h3><a href="/tools/aquarium-size-calculator/">Tank Size Calculator</a><a href="/tools/fish-tank-stocking-calculator/">Stocking Calculator</a><a href="/tools/fish-compatibility-checker/">Compatibility Checker</a><a href="/tools/water-parameter-checker/">Water Parameter Checker</a><a href="/tools/betta-fish-water-parameters/">Betta Water Parameters</a><a href="/tools/fish-feeding-calculator/">Feeding Calculator</a><a href="/tools/aquarium-substrate-calculator/">Substrate Calculator</a><a href="/tools/aquarium-equipment-calculator/">Equipment Calculator</a><a href="/tools/aquarium-planner/">Aquarium Planner</a></div><div class="ftcol"><h3>Koi &amp; Pond Tools</h3><a href="/tools/koi-pond-calculator/">Koi Pond Calculator</a><a href="/tools/koi-pond-stocking-calculator/">Pond Stocking Calculator</a><a href="/tools/koi-feeding-calculator/">Koi Feeding Calculator</a><a href="/tools/koi-pond-liner-calculator/">Pond Liner Calculator</a><a href="/tools/koi-pond-pump-calculator/">Pond Pump Calculator</a><a href="/tools/koi-pond-salt-calculator/">Pond Salt Calculator</a></div><div class="ftcol"><h3>Company</h3><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms</a><a href="/editorial-policy/">Editorial Policy</a><a href="/resources/">Resources</a><a href="/add-your-site/">Add Your Site</a><a href="https://buymeacoffee.com/vikiyananw6">☕ Buy me a coffee</a></div></div><div class="ftb">© 2026 EverTrend LLC. FishCare AI is a product of EverTrend LLC. All rights reserved.</div><nav class="legal-links" aria-label="Legal and company information"><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/editorial-policy/">Editorial Policy</a><a href="/privacy/">Privacy</a><a href="/image-credits/">Image Credits</a><a href="/add-your-site/">Add Your Site</a></nav></div></footer>
+
+<script>
+(function(){
+  'use strict';
+
+  function fcAppHook(box, placement){
+    var ua = navigator.userAgent;
+    var ios = /iPhone|iPod|iPad/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+    var variant = ios ? 'app-store' : 'app-page';
+    var a = box.querySelector('a');
+    if (ios) a.href = 'https://apps.apple.com/app/fishcare-ai/id6793299571?ct=' + encodeURIComponent('web-' + placement).slice(0, 40) + '&mt=8';
+    function ev(n){ try { if (typeof window.gtag === 'function') window.gtag('event', n, { placement: placement, variant: variant, page_path: location.pathname }); } catch (e) {} }
+    a.addEventListener('click', function(){ ev('app_cta_click'); });
+    var seen = false;
+    return function show(){ box.hidden = false; if (!seen) { seen = true; ev('app_cta_view'); } };
+  }
+  function fcToolEvent(tool){ try { if (typeof window.gtag === 'function') window.gtag('event', 'tool_calculate', { tool: tool }); } catch (e) {} }
+
+
+  var $ = function(i){ return document.getElementById(i); };
+  var showApp = fcAppHook($('tp-app'), 'treatment-planner');
+  function dkey(d){ var z = function(n){ return (n < 10 ? '0' : '') + n; }; return d.getFullYear() + '-' + z(d.getMonth() + 1) + '-' + z(d.getDate()); }
+  function nice(d){ return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' }); }
+  $('tp-start').value = dkey(new Date());
+
+  // Typical label patterns; every number is editable in the form.
+  var C = {
+    ich:       { name: 'ich', int: 1, doses: 10, wc: 25, meds: 'yes', where: 'main', checks: { 3: 'Count spots on the worst fish. They may still be rising — that is normal. Keep dosing.', 7: 'Are new spots still appearing? If yes, keep going. If nothing has changed at all, recheck the diagnosis.', 10: 'Stop check: stop only after 3 days with no new spots and no deaths; otherwise add doses.' }, prep: 'Raise a tropical tank slowly to about 80°F if your fish tolerate it, 1–2°F a day. Remove shrimp and snails.' },
+    finrot:    { name: 'fin rot', int: 1, doses: 5, wc: 30, meds: 'no', where: 'main', checks: { 3: 'Compare the fins with your day 0 photo. Spreading, fuzz or red streaks mean it needs an antibacterial course.', 7: 'Has the edge stopped moving? A thin clear edge is regrowth. Still spreading after a week of clean water: start medication.', 14: 'Stop check: back to your normal routine once the edge has not moved for a week.' }, prep: 'Photograph the fins side-on today. Look for the cause: crowding, nippers, sharp decor, dirty water.' },
+    fungus:    { name: 'fungus', int: 2, doses: 4, wc: 25, meds: 'yes', where: 'hospital', checks: { 3: 'Are the cotton-like tufts smaller? Check the rest of the fish for new patches.', 7: 'Tufts should be gone. If the area underneath is red or open, treat it as a bacterial infection.' }, prep: 'Fungus usually follows an injury or poor water, so check what caused it.' },
+    velvet:    { name: 'velvet', int: 1, doses: 12, wc: 25, meds: 'yes', where: 'main', checks: { 3: 'Shine a torch from the side: is the gold dust thinner? Watch breathing closely.', 7: 'Fewer fish with dust? Keep the lights dim and keep dosing.', 12: 'Stop check: stop only after several days with no dust on any fish.' }, prep: 'Dim or switch off the tank lights for the whole course. Velvet parasites rely on light.' },
+    bacterial: { name: 'bacterial infection', int: 2, doses: 4, wc: 30, meds: 'yes', where: 'hospital', checks: { 3: 'Are ulcers or red streaks the same size or smaller? Spreading quickly: contact an aquatic vet.', 7: 'Sores should be closing and appetite returning. Finish the course on the label.' }, prep: 'Use a hospital tank: antibiotics can kill the bacteria in your main filter.' },
+    worms:     { name: 'internal parasites', int: 7, doses: 2, wc: 25, meds: 'yes', where: 'main', checks: { 3: 'Is the fish eating? Look for stringy white droppings fading.', 10: 'After the second dose: is the fish eating and holding its weight?' }, prep: 'Many dewormers are given twice about a week apart to catch eggs that hatch after the first dose.' },
+    custom:    { name: 'treatment', int: 1, doses: 5, wc: 25, meds: 'yes', where: 'main', checks: { 3: 'First recheck: same, better or worse than day 0?', 7: 'Second recheck: decide whether the course is working.' }, prep: '' }
+  };
+  function fill(){
+    var c = C[$('tp-cond').value];
+    $('tp-int').value = String(c.int); $('tp-doses').value = c.doses; $('tp-wc').value = String(c.wc);
+    $('tp-meds').value = c.meds; $('tp-where').value = c.where; syncMeds();
+  }
+  function syncMeds(){ $('tp-label').style.opacity = $('tp-meds').value === 'yes' ? '1' : '.45'; }
+  $('tp-cond').addEventListener('change', fill); $('tp-meds').addEventListener('change', syncMeds); fill();
+
+  function run(){
+    var key = $('tp-cond').value, c = C[key], out = $('tp-out');
+    var meds = $('tp-meds').value === 'yes', hosp = $('tp-where').value === 'hospital';
+    var iv = +$('tp-int').value, doses = Math.max(1, Math.min(30, Math.round(Number($('tp-doses').value) || 1))), wc = +$('tp-wc').value;
+    var p = $('tp-start').value.split('-');
+    if (p.length !== 3) { out.innerHTML = '<p class="calc-err">Pick the day you start.</p>'; return; }
+    var d0 = new Date(+p[0], +p[1] - 1, +p[2]);
+    var doseDays = {}, lastDose = 0;
+    if (meds) for (var i = 0; i < doses; i++) { doseDays[i * iv] = i + 1; lastDose = i * iv; }
+    var checkDays = Object.keys(c.checks).map(Number);
+    var end = Math.max(meds ? lastDose : 0, checkDays[checkDays.length - 1]);
+    var rows = '', lastWc = 0;
+    for (var day = 0; day <= end; day++) {
+      var t = [];
+      if (day === 0) {
+        t.push('Test ammonia and nitrite' + (hosp ? ' in the hospital tank' : '') + '.');
+        if (meds) t.push('Take carbon out of the filter. Add an air stone.');
+        else t.push('Change 30–50% of the water, temperature-matched and dechlorinated.');
+        if (c.prep) t.push(c.prep);
+      }
+      if (doseDays[day]) {
+        // Daily courses get a change every other day, as in the ich guide; longer intervals before every dose.
+        var change = day > 0 && wc && day - lastWc >= 2 || (day > 0 && wc && iv >= 2);
+        if (change) lastWc = day;
+        t.push((change ? 'Change ' + wc + '% of the water (vacuum the gravel), then <strong>dose ' : '<strong>Dose ') + doseDays[day] + ' of ' + doses + '</strong> — the amount on your label.');
+      } else if (!meds && day > 0 && day % 2 === 0) {
+        t.push('Change ' + (wc || 25) + '% of the water. Feed lightly.');
+      }
+      if (day > 0 && (hosp || day % 2 === 0) && !c.checks[day]) t.push('Test ammonia' + (hosp ? '' : ' and nitrite') + '.');
+      var isCheck = !!c.checks[day];
+      if (isCheck) t.push('<strong>Recheck:</strong> ' + c.checks[day]);
+      if (!t.length) continue;
+      var dt = new Date(d0); dt.setDate(d0.getDate() + day);
+      rows += '<tr class="' + (isCheck ? 'chk' : '') + '"><td>Day ' + day + '<br><span style="font-weight:400;color:var(--mu)">' + nice(dt) + '</span></td><td>' + t.join(' ') + '</td></tr>';
+    }
+    var after = new Date(d0); after.setDate(d0.getDate() + end + 1);
+    rows += '<tr class="end"><td>After<br><span style="font-weight:400;color:var(--mu)">' + nice(after) + '</span></td><td>Change 30–50% of the water' + (meds ? ', put fresh carbon back in the filter' : '') + ' and watch the fish for 2 weeks.' + (hosp ? ' Move the fish back once it eats normally and the water has been stable for several days.' : '') + '</td></tr>';
+    out.className = 'out calc-out';
+    out.innerHTML = '<div class="calc-big">' + (meds ? doses + ' doses over ' + (lastDose + 1) + ' day' + (lastDose ? 's' : '') : 'Clean-water plan') + ' · ' + checkDays.length + ' rechecks</div>' +
+      '<p>Your ' + c.name + ' schedule, starting ' + nice(d0) + '. Green rows are the rechecks where you decide whether to keep going.</p>' +
+      '<div class="table-wrap"><table class="sched"><tr><th>Day</th><th>What to do</th></tr>' + rows + '</table></div>' +
+      '<p class="calc-note">Doses are not calculated here. Use your product label for the amount and any extra rules, such as dose timing or water-change size.</p>';
+    $('tp-actions').hidden = false;
+    showApp();
+    fcToolEvent('fish-treatment-planner');
+  }
+  $('tp-go').addEventListener('click', run);
+  $('tp-print').addEventListener('click', function(){ window.print(); });
+
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" data-adsense-content="true" data-cms-sync="off">
+<head>
+<meta charset="utf-8"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Aquarium Cycle Tracker: Is My Fish Tank Cycled Yet?</title>
+<meta name="description" content="Free aquarium cycle tracker. Enter your start date and today&#x27;s ammonia, nitrite and nitrate to see the cycling day, the stage, what is missing and what to do today."/>
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"/>
+<link rel="canonical" href="https://www.fishcareai.com/tools/aquarium-cycle-tracker/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="FishCare AI"/>
+<meta property="og:title" content="Aquarium Cycle Tracker: Is My Fish Tank Cycled Yet?"/>
+<meta property="og:description" content="Free aquarium cycle tracker. Enter your start date and today&#x27;s ammonia, nitrite and nitrate to see the cycling day, the stage, what is missing and what to do today."/>
+<meta property="og:url" content="https://www.fishcareai.com/tools/aquarium-cycle-tracker/"/>
+<meta property="og:image" content="https://www.fishcareai.com/assets/encyclopedia/real/clownfish-wikimedia-real.jpg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.fishcareai.com/"}, {"@type": "ListItem", "position": 2, "name": "Tools", "item": "https://www.fishcareai.com/tools/"}, {"@type": "ListItem", "position": 3, "name": "Aquarium Cycle Tracker", "item": "https://www.fishcareai.com/tools/aquarium-cycle-tracker/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Aquarium Cycle Tracker", "url": "https://www.fishcareai.com/tools/aquarium-cycle-tracker/", "description": "Free aquarium cycle tracker. Enter your start date and today's ammonia, nitrite and nitrate to see the cycling day, the stage, what is missing and what to do today.", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How long does it take to cycle a fish tank?", "acceptedAnswer": {"@type": "Answer", "text": "Most tanks take 4 to 6 weeks. Fishless cycling with ammonia often finishes in 3 to 6 weeks, and adding media from an established filter can cut that to 1 to 2 weeks. Cold water, low pH and too much ammonia slow it down."}}, {"@type": "Question", "name": "How do I know when my tank is cycled?", "acceptedAnswer": {"@type": "Answer", "text": "Dose ammonia to about 2 ppm and test 24 hours later. If ammonia and nitrite both read 0 and nitrate is present, the tank is cycled. In a fish-in cycle, a week of daily 0 ammonia and 0 nitrite readings means the same."}}, {"@type": "Question", "name": "Why has my nitrite been high for weeks?", "acceptedAnswer": {"@type": "Answer", "text": "The nitrite stage is often the longest. Very high nitrite, above about 5 ppm, and a falling pH can both stall it. A 50% water change and keeping pH above 7 usually gets it moving again."}}, {"@type": "Question", "name": "Do I need to do water changes while cycling?", "acceptedAnswer": {"@type": "Answer", "text": "In a fishless cycle, only if nitrite gets very high or pH drops. In a fish-in cycle, yes: change 25–50% of the water whenever ammonia plus nitrite goes above about 0.5 ppm."}}, {"@type": "Question", "name": "Does bottled bacteria really work?", "acceptedAnswer": {"@type": "Answer", "text": "It can shorten cycling, but results vary between products and batches. Keep testing as if you had not added it, and trust the readings rather than the label's timeline."}}]}</script>
+<style>:root{--p:#1B5E8B;--pl:#2E84C0;--pd:#0F3D5E;--s:#2E9E7D;--a:#F5A623;--bg:#F0F7FF;--tx:#1A2B3C;--mu:#5A7A94;--bd:#D0E4F0;--ok:#27AE60;--wn:#F39C12;--er:#E74C3C}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,'Segoe UI',Arial,sans-serif;background:linear-gradient(180deg,#E6F7FF 0%,#F7FCFF 36%,#F0F7FF 100%);color:var(--tx);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--p);text-decoration:none}
+.con{max-width:1180px;margin:0 auto;padding:0 22px}
+h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:800;line-height:1.2}
+h2{font-size:clamp(1.2rem,2.5vw,1.7rem);font-weight:700;line-height:1.25}
+h3{font-size:1.1rem;font-weight:700}
+p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:10px 20px;border-radius:8px;font-size:.9rem;font-weight:600;border:none;cursor:pointer;transition:all .18s;white-space:nowrap;text-decoration:none}
+.bp{background:var(--p);color:#fff}.bp:hover{background:var(--pl)}
+.bo{background:transparent;color:var(--p);border:2px solid var(--p)}.bo:hover{background:var(--p);color:#fff}
+.tag{display:inline-block;background:rgba(27,94,139,.1);color:var(--p);padding:3px 11px;border-radius:20px;font-size:.73rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px}
+.nb{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--bd);padding:0 22px;height:64px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:8px;font-size:1.2rem;font-weight:800;color:var(--p);text-decoration:none}
+.nlinks{display:flex;align-items:center;gap:2px}
+.nl{padding:7px 13px;border-radius:8px;font-weight:500;font-size:.86rem;color:var(--mu);text-decoration:none;transition:all .15s}
+.nl:hover,.nl.act{color:var(--p);background:rgba(27,94,139,.07)}
+.hbg{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:7px;border:none;background:none}
+.hbg span{display:block;width:21px;height:2px;background:var(--tx);border-radius:2px}
+@media(max-width:760px){.nlinks{display:none;position:absolute;top:64px;left:0;right:0;background:#fff;flex-direction:column;padding:12px;border-bottom:1px solid var(--bd);gap:3px;box-shadow:0 4px 20px rgba(27,94,139,.12)}.nlinks.open{display:flex}.hbg{display:flex}}
+.guide-hero{background:#0F3D5E;color:#fff;padding:70px 22px 48px;position:relative;overflow:hidden;min-height:300px;display:flex;align-items:flex-end}
+.guide-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,28,42,.9),rgba(15,61,94,.7)),url('/assets/encyclopedia/real/clownfish-wikimedia-real.jpg') center/cover no-repeat}
+.guide-hero::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:90px;background:linear-gradient(0deg,#E6F7FF,rgba(230,247,255,0));pointer-events:none}
+.guide-hero .con{position:relative;z-index:1;padding:26px 22px;border-radius:26px;background:linear-gradient(135deg,rgba(255,255,255,.13),rgba(255,255,255,.04));border:1px solid rgba(255,255,255,.18);box-shadow:0 24px 70px rgba(0,0,0,.18);backdrop-filter:blur(7px)}
+.guide-hero h1{color:#fff;margin:8px 0 10px;max-width:860px}
+.guide-meta{display:flex;gap:14px;flex-wrap:wrap;color:rgba(255,255,255,.78);font-size:.86rem}
+.breadcrumb{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:.8rem;color:rgba(255,255,255,.65);margin-bottom:12px}
+.breadcrumb a{color:rgba(255,255,255,.75)}.breadcrumb a:hover{color:#fff}
+.breadcrumb span{color:rgba(255,255,255,.45)}
+.artlay{display:grid;grid-template-columns:1fr 270px;gap:32px;max-width:1180px;margin:32px auto 56px;padding:0 22px}
+@media(max-width:900px){.artlay{grid-template-columns:1fr}.sidebar{display:none}}
+.artc{background:rgba(255,255,255,.82);border:1px solid rgba(191,228,246,.9);border-radius:24px;padding:34px 40px;box-shadow:0 18px 48px rgba(15,61,110,.1);backdrop-filter:blur(14px)}
+.artc h2{font-size:1.25rem;color:var(--pd);margin:28px 0 12px;padding-top:16px;border-top:1.5px solid var(--bd)}
+.artc h2:first-child{margin-top:0;padding-top:0;border-top:none}
+.artc h3{font-size:1.05rem;color:var(--tx);margin:18px 0 8px}
+.artc p{font-size:.96rem;line-height:1.82;color:var(--mu);margin-bottom:13px}
+.artc ul,.artc ol{margin:10px 0 14px 20px}
+.artc li{font-size:.95rem;line-height:1.72;color:var(--mu);margin-bottom:5px}
+.artc strong{color:var(--tx)}
+.callout{background:rgba(248,250,254,.85);border:1px solid var(--bd);border-left:4px solid var(--p);border-radius:12px;padding:16px 18px;margin:20px 0}
+.callout-warn{background:rgba(255,248,240,.85);border-left-color:var(--wn)}
+.callout-ok{background:rgba(240,255,248,.85);border-left-color:var(--s)}
+.ptbl{width:100%;border-collapse:collapse;margin:16px 0;font-size:.86rem;border-radius:16px;overflow:hidden;box-shadow:0 12px 30px rgba(15,61,110,.08)}
+.ptbl th{background:var(--p);color:#fff;padding:10px 14px;text-align:left}
+.ptbl td{padding:10px 14px;border-bottom:1px solid var(--bd);color:var(--mu);vertical-align:top}
+.ptbl tr:nth-child(even) td{background:#F8FAFE}
+.ptbl tr:last-child td{border-bottom:none}
+.ptbl td:first-child{font-weight:600;color:var(--tx)}
+.guide-links{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:14px}
+.guide-links a{display:block;background:#fff;border:1px solid var(--bd);border-radius:8px;padding:13px;color:var(--tx);font-weight:700;font-size:.85rem;transition:border-color .15s,background .15s}
+.guide-links a:hover{border-color:var(--p);background:#F8FAFE}
+@media(max-width:600px){.guide-links{grid-template-columns:1fr}}
+.sidebar{display:flex;flex-direction:column;gap:16px}
+.toc{background:rgba(255,255,255,.9);border-radius:16px;padding:18px;border:1px solid var(--bd);position:sticky;top:84px;box-shadow:0 4px 18px rgba(27,94,139,.07)}
+.toc .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.toc a{display:block;padding:5px 0 5px 10px;font-size:.82rem;color:var(--mu);border-left:2px solid transparent;transition:all .15s;line-height:1.4}
+.toc a:hover{color:var(--p);border-left-color:var(--p)}
+.cluster-nav{background:rgba(255,255,255,.9);border-radius:16px;padding:18px;border:1px solid var(--bd);box-shadow:0 4px 18px rgba(27,94,139,.07)}
+.cluster-nav .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:11px;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.cluster-nav a{display:block;padding:6px 8px;font-size:.82rem;color:var(--mu);border-radius:6px;transition:all .12s;line-height:1.4;margin-bottom:2px}
+.cluster-nav a:hover{color:var(--p);background:rgba(27,94,139,.06)}
+.cluster-nav a.pillar{color:var(--pd);font-weight:700;border-bottom:1px solid var(--bd);padding-bottom:9px;margin-bottom:7px;display:block}
+.cluster-nav a.cur{color:var(--p);background:rgba(27,94,139,.07);font-weight:600}
+.tool-card{background:linear-gradient(135deg,rgba(27,94,139,.08),rgba(46,158,125,.06));border-radius:16px;padding:18px;border:1px solid var(--bd)}
+.tool-card .sb-h{color:var(--fc-ink,var(--pd));margin-bottom:10px;font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.tool-card a{display:flex;align-items:center;justify-content:space-between;padding:9px 12px;border-radius:8px;font-size:.84rem;font-weight:600;margin-bottom:7px;background:#fff;border:1px solid var(--bd);color:var(--p);transition:all .15s}
+.tool-card a:hover{border-color:var(--p);box-shadow:0 3px 10px rgba(27,94,139,.1)}
+.ft{background:#0F3D5E;padding:32px 22px 20px;margin-top:60px}
+.ftb{text-align:center;color:rgba(255,255,255,.4);font-size:.76rem}</style>
+<style>
+.cta-box{border-radius:14px;padding:20px 22px;margin:22px 0;color:#fff}
+.artc .cta-box h3{color:#fff;margin:0 0 7px;font-size:1rem}
+.artc figure{margin:20px 0}
+.artc figure img{display:block;width:100%;height:auto;border-radius:14px}
+.artc figcaption{font-size:.8rem;line-height:1.5;margin-top:7px;opacity:.85}
+.artc .cta-box p{color:rgba(255,255,255,.86);font-size:.88rem;margin-bottom:14px}
+.artc .cta-box a.btn{display:inline-block;background:#fff;color:#0F3D5E;padding:9px 18px;border-radius:8px;font-weight:700;font-size:.88rem}
+.table-wrap{overflow-x:auto;margin:14px 0 18px}
+.ptbl{width:100%;border-collapse:collapse;font-size:.88rem;min-width:460px}
+.calc-box{border:1px solid var(--bd);border-radius:16px;padding:20px;margin:0 0 22px}
+.calc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.calc-box label{display:block;font-size:.84rem;font-weight:600;margin-bottom:5px}
+.calc-box input,.calc-box select{width:100%;padding:10px 12px;border:1px solid var(--bd);border-radius:8px;font-size:16px;background:#fff;color:#1A2B3C}
+.calc-note{font-size:.8rem;margin-top:5px;opacity:.85}
+.calc-btn{margin-top:16px;width:100%;padding:12px;border:0;border-radius:10px;background:#1B5E8B;color:#fff;font-size:1rem;font-weight:700;cursor:pointer}
+.calc-out{margin-top:16px;padding:16px;border-radius:12px;background:rgba(46,158,125,.14);border:1px solid rgba(46,158,125,.4)}
+.calc-big{font-size:1.5rem;font-weight:800;margin-bottom:6px}
+.calc-out ul{margin:8px 0 0 18px}
+.calc-err{color:#E74C3C;font-weight:600}
+.presets{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.presets button{padding:7px 12px;border-radius:999px;border:1px solid var(--bd);background:transparent;color:inherit;font-size:.82rem;cursor:pointer}
+.page-meta{font-size:.82rem;opacity:.8;margin-bottom:16px}
+.refs li{font-size:.86rem}
+.artlay>*{min-width:0}
+@media(max-width:640px){.calc-grid{grid-template-columns:1fr}.artc{padding:22px 18px}}
+</style>
+<link rel="stylesheet" href="/assets/fishcare-glass-redesign.css?v=20260908-artc-contrast"/>
+<meta name="google-adsense-account" content="ca-pub-6697313643773879">
+<script defer src="/assets/site-compliance.js?v=20260923-analytics"></script><script defer src="/assets/app-cta.js?v=20261107b"></script>
+<style id="mobile-fit">@media(max-width:860px){.artlay>*,.sp-layout>*,.wrap>*,.content>*,.layout>*,main>*{min-width:0}.artc img,main figure img{max-width:100%;height:auto}.fig-scroll{max-width:100%;overflow-x:auto}.artc table,main .card table,.content table,.cmp-table{display:block;max-width:100%;overflow-x:auto}.artc p,.artc li,.artc td,main .card p{overflow-wrap:anywhere}}</style><style>
+<style>
+.st-h{font-size:.95rem;font-weight:700;color:var(--pd);margin:2px 0 10px}
+.st-n{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:var(--p);color:#fff;font-size:.75rem;margin-right:6px}
+.step{padding-bottom:16px;margin-bottom:16px;border-bottom:1px solid var(--bd)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips label{display:inline-flex;align-items:center;gap:7px;margin:0;padding:8px 13px;border:1px solid var(--bd);border-radius:999px;background:#fff;font-weight:600;font-size:.86rem;cursor:pointer;color:#1A2B3C}
+.chips input{width:auto;margin:0;accent-color:#1B5E8B}
+.chips label:has(input:checked){border-color:#1B5E8B;background:#1B5E8B;color:#fff}
+.chips input:checked{accent-color:#fff}
+.g3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.g5{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+@media(max-width:760px){.g5{grid-template-columns:repeat(2,minmax(0,1fr))}.g3{grid-template-columns:1fr}}
+.risk{display:inline-block;padding:5px 13px;border-radius:999px;font-weight:800;font-size:.9rem;color:#fff;margin-bottom:8px}
+.risk-urgent{background:#C0392B}.risk-high{background:#E67E22}.risk-moderate{background:#B7950B}.risk-low{background:#27AE60}
+.out h3{font-size:.98rem;margin:14px 0 6px;color:var(--pd)}
+.out ol,.out ul{margin:6px 0 4px 20px}
+.out li{font-size:.9rem;color:var(--tx);margin-bottom:5px;line-height:1.6}
+.out p{color:var(--tx);font-size:.92rem}
+.prog{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:10px 0 4px}
+.prog div{font-size:.74rem;text-align:center;padding:7px 4px;border-radius:8px;background:#fff;border:1px solid var(--bd);color:var(--mu);line-height:1.3}
+.prog div.done{background:#27AE60;border-color:#27AE60;color:#fff}
+.prog div.now{background:#1B5E8B;border-color:#1B5E8B;color:#fff}
+.sched{width:100%;border-collapse:collapse;font-size:.85rem;min-width:520px;margin-top:8px}
+.sched th{background:var(--p);color:#fff;padding:8px 10px;text-align:left}
+.sched td{padding:8px 10px;border-bottom:1px solid var(--bd);vertical-align:top;color:var(--tx)}
+.sched tr.chk td{background:rgba(46,158,125,.13)}
+.sched tr.end td{background:rgba(27,94,139,.08)}
+.sched td:first-child{white-space:nowrap;font-weight:600}
+.row-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.row-actions button{padding:8px 14px;border-radius:8px;border:1px solid var(--bd);background:#fff;color:var(--p);font-weight:600;font-size:.85rem;cursor:pointer}
+.app-next{margin-top:16px;border-radius:14px;padding:18px 20px;background:linear-gradient(135deg,#0F3D5E,#1B5E8B);color:#fff}
+.artc .app-next h3{color:#fff;margin:0 0 6px;font-size:1rem}
+.artc .app-next p{color:rgba(255,255,255,.86);font-size:.88rem;margin-bottom:10px}
+.artc .app-next ul{margin:0 0 12px 18px}
+.artc .app-next li{color:rgba(255,255,255,.9);font-size:.86rem}
+.artc .app-next a{display:inline-block;background:#fff;color:#0F3D5E;padding:9px 18px;border-radius:8px;font-weight:700;font-size:.88rem}
+.disclaim{font-size:.84rem;border:1px dashed var(--bd);border-radius:10px;padding:10px 12px;margin-top:12px;color:var(--mu)}
+@media print{.nb,.ft,.sidebar,.guide-hero,.app-next,.row-actions,.calc-btn,#fishcare-app-banner,.artc>*:not(.calc-box){display:none!important}.artlay{display:block;margin:0}.artc{box-shadow:none;border:0;padding:0}.calc-box>*:not(.out){display:none!important}}
+</style><style>.log-sub{font-size:.95rem;font-weight:700;color:var(--pd);margin:4px 0 10px}</style></head>
+<body>
+<nav class="nb fishcare-global-nav" id="fishcare-global-navigation" aria-label="Main navigation"><a class="brand" href="/" aria-label="FishCare AI home"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"></a><div class="nlinks" id="fishcare-nlinks"><a class="nl" href="/">Home</a><a class="nl" href="/guides/">Guides</a><a class="nl" href="/species">Encyclopedia</a><a class="nl" href="/compatibility/">Compatibility</a><a class="nl" href="/fish-health/">Fish Health</a><a class="nl" href="/identify/">Fish ID</a><a class="nl" href="/about/">About</a><a class="nl nl-app-btn" href="/app/">📱 App</a></div><button type="button" class="hbg" aria-label="Open navigation menu" aria-controls="fishcare-nlinks" aria-expanded="false"><span></span><span></span><span></span></button></nav>
+
+<main>
+<section class="guide-hero">
+  <div class="con">
+    <div class="breadcrumb">
+      <a href="/">Home</a><span>/</span>
+      <a href="/tools/">Tools</a><span>/</span>
+      <span style="color:rgba(255,255,255,.9)">Aquarium Cycle Tracker</span>
+    </div>
+    <div class="tag" style="background:rgba(255,255,255,.18);color:rgba(255,255,255,.92)">🔄 Free Tool</div>
+    <h1>Aquarium Cycle Tracker: Where Your Tank Is in the Nitrogen Cycle</h1>
+    <div class="guide-meta">🔄 Fishless or fish-in &nbsp;|&nbsp; 📅 Day count and stage &nbsp;|&nbsp; ✅ Today's to-do list</div>
+  </div>
+</section>
+
+<div class="artlay">
+  <article class="artc">
+    <p class="page-meta">Updated November 18, 2026 · FishCare AI editorial team</p>
+    <p>This <strong>aquarium cycle tracker</strong> tells you where a new tank is in the nitrogen cycle. Enter the day you started and today's ammonia, nitrite and nitrate readings. It shows the cycling day, which of the four stages the tank is in, what still has to happen before fish are safe and exactly what to do today, for both fishless and fish-in cycling.</p>
+
+    <div class="calc-box" id="cy-tool">
+      <div class="g3">
+        <div><label for="cy-start">Day 1 of cycling</label><input id="cy-start" type="date"></div>
+        <div><label for="cy-method">Method</label><select id="cy-method"><option value="fishless">Fishless (dosing ammonia)</option><option value="fishin">Fish-in (fish already in the tank)</option></select></div>
+        <div><label for="cy-seed">Bacteria boost</label><select id="cy-seed"><option value="none">None</option><option value="seeded">Media from an established filter</option><option value="bottle">Bottled bacteria</option></select></div>
+      </div>
+      <p class="log-sub" style="margin-top:16px">Today's test readings</p>
+      <div class="g5">
+        <div><label for="cy-nh3">Ammonia (ppm)</label><input id="cy-nh3" type="number" inputmode="decimal" step="any" min="0"></div>
+        <div><label for="cy-no2">Nitrite (ppm)</label><input id="cy-no2" type="number" inputmode="decimal" step="any" min="0"></div>
+        <div><label for="cy-no3">Nitrate (ppm)</label><input id="cy-no3" type="number" inputmode="decimal" step="any" min="0"></div>
+        <div><label for="cy-ph">pH (optional)</label><input id="cy-ph" type="number" inputmode="decimal" step="0.1" min="0" max="14"></div>
+        <div><label for="cy-temp">Temp °F (optional)</label><input id="cy-temp" type="number" inputmode="decimal" step="any"></div>
+      </div>
+      <div class="chips" style="margin-top:12px" id="cy-dose-wrap"><label><input type="checkbox" id="cy-dosed">I dosed ammonia to about 2 ppm 24 hours before this test</label></div>
+      <button class="calc-btn" id="cy-go" type="button">Where Is My Cycle?</button>
+      <p class="calc-note">Your start date and method are remembered on this device so the day count is ready next time. Readings are not stored.</p>
+      <div class="out" id="cy-out" aria-live="polite"></div>
+      <div class="app-next" id="cy-app" hidden>
+        <h3>📱 Track the whole cycle, not just today</h3>
+        <p>Cycling takes 2 to 6 weeks of daily tests. The FishCare AI app for iPhone and iPad keeps the whole run:</p>
+        <ul>
+          <li>Save every day's ammonia, nitrite and nitrate reading</li>
+          <li>See all three on one chart, so the nitrite spike and the drop are obvious</li>
+          <li>Get a daily water-test reminder until the tank is ready</li>
+        </ul>
+        <p>Water history, charts and reminders are part of FishCare Plus ($5.99/mo or $39.99/yr).</p>
+        <a href="/app/?utm_source=web&amp;utm_medium=cycle-tracker">Get the app</a>
+      </div>
+    </div>
+
+    <h2 id="stages">The 4 Stages of the Nitrogen Cycle</h2>
+    <p>Cycling grows the bacteria that turn fish waste into something fish can live with. Ammonia from waste and food is turned into nitrite, and nitrite is turned into nitrate, which you remove with water changes. You can read the stage straight from your test kit:</p>
+    <div class="table-wrap"><table class="ptbl">
+      <tr><th>Stage</th><th>What the test shows</th><th>Typical timing</th></tr>
+      <tr><td>1. Ammonia</td><td>Ammonia present, nitrite 0, nitrate 0</td><td>Days 1 to about 10</td></tr>
+      <tr><td>2. Nitrite spike</td><td>Ammonia starts falling, nitrite rises</td><td>Usually weeks 2 to 3</td></tr>
+      <tr><td>3. Nitrate rising</td><td>Nitrite falling, nitrate climbing</td><td>Weeks 3 to 6</td></tr>
+      <tr><td>4. Cycled</td><td>Ammonia 0 and nitrite 0 within 24 hours of a 2 ppm ammonia dose, nitrate present</td><td>Most tanks in 4 to 6 weeks; faster with seeded media</td></tr>
+    </table></div>
+    <p>Bacteria grow faster in warm water (around 77–86°F), at a pH above about 7, and with oxygen. A pH that falls below 6.5 can stall the cycle. If yours stops moving for a week, test pH and KH first.</p>
+
+    <h2 id="fishless">Fishless Cycling: What to Do Each Day</h2>
+    <ul>
+      <li><strong>Dose ammonia to about 2 ppm</strong> on day 1, using the amount on your bottle's label for your tank volume. Test the next day.</li>
+      <li><strong>Top it back up to 2 ppm</strong> whenever ammonia drops below about 0.5 ppm. More is not faster: above 4 ppm can slow the bacteria.</li>
+      <li><strong>Leave the water alone</strong> unless nitrite climbs above about 5 ppm or pH falls. Then a 50% water change helps it restart.</li>
+      <li><strong>Test the finish:</strong> dose to 2 ppm and test 24 hours later. Ammonia 0 and nitrite 0 means it is done. Change most of the water to bring nitrate under 20 ppm before you add fish.</li>
+    </ul>
+
+    <h2 id="fishin">Fish-In Cycling: Keep the Fish Safe</h2>
+    <p>With fish already in the tank, the goal is to keep ammonia plus nitrite at or below about 0.5 ppm while the bacteria grow. Test every day, change 25–50% of the water whenever the combined reading goes over that, feed a small amount every other day and add no new fish until you get a week of 0 ammonia and 0 nitrite. Use a dechlorinator that also detoxifies ammonia between changes. If a fish shows signs of trouble, use the <a href="/tools/fish-symptom-checker/">fish symptom checker</a>.</p>
+
+    <h2 id="after">After the Cycle Finishes</h2>
+    <p>Add fish a few at a time, a week or two apart, so the bacteria can catch up with each new load. Keep testing every 2 to 3 days for the first month. The <a href="/tools/fish-tank-stocking-calculator/">aquarium stocking calculator</a> tells you how many fish the tank can hold, and the <a href="/tools/water-change-schedule/">water change schedule</a> sets up your weekly routine. For a free week-long record of readings, use the <a href="/tools/aquarium-log/">aquarium log</a>.</p>
+
+    <h2 id="related">Related Guides and Tools</h2>
+    <div class="guide-links"><a href="/guides/aquarium-water-parameters/">Aquarium Water Parameters Guide</a><a href="/tools/aquarium-planner/">Aquarium Planner</a><a href="/tools/water-change-schedule/">Water Change Schedule</a><a href="/tools/aquarium-log/">Aquarium Log</a></div>
+
+    <h2 id="faq">FAQ</h2>
+    <h3>How long does it take to cycle a fish tank?</h3>
+    <p>Most tanks take 4 to 6 weeks. Fishless cycling with ammonia often finishes in 3 to 6 weeks, and adding media from an established filter can cut that to 1 to 2 weeks. Cold water, low pH and too much ammonia slow it down.</p>
+    <h3>How do I know when my tank is cycled?</h3>
+    <p>Dose ammonia to about 2 ppm and test 24 hours later. If ammonia and nitrite both read 0 and nitrate is present, the tank is cycled. In a fish-in cycle, a week of daily 0 ammonia and 0 nitrite readings means the same.</p>
+    <h3>Why has my nitrite been high for weeks?</h3>
+    <p>The nitrite stage is often the longest. Very high nitrite, above about 5 ppm, and a falling pH can both stall it. A 50% water change and keeping pH above 7 usually gets it moving again.</p>
+    <h3>Do I need to do water changes while cycling?</h3>
+    <p>In a fishless cycle, only if nitrite gets very high or pH drops. In a fish-in cycle, yes: change 25–50% of the water whenever ammonia plus nitrite goes above about 0.5 ppm.</p>
+    <h3>Does bottled bacteria really work?</h3>
+    <p>It can shorten cycling, but results vary between products and batches. Keep testing as if you had not added it, and trust the readings rather than the label's timeline.</p>
+  </article>
+
+  <aside class="sidebar">
+    <div class="cluster-nav">
+      <p class="sb-h">Fish Health & Water</p>
+      <a href="/tools/fish-symptom-checker/">🩺 Fish Symptom Checker</a>
+      <a href="/tools/fish-treatment-planner/">💊 Treatment Planner</a>
+      <a href="/tools/aquarium-cycle-tracker/" class="cur">🔄 Cycle Tracker</a>
+      <a href="/tools/water-change-schedule/">🪣 Water Change Schedule</a>
+      <a href="/tools/aquarium-log/">📓 Aquarium Log</a>
+      <a href="/tools/water-parameter-checker/">🧪 Water Parameter Checker</a>
+    </div>
+    <div class="toc">
+      <p class="sb-h">On this page</p>
+      <a href="/tools/aquarium-cycle-tracker/#stages">The 4 Stages of the Cycle</a>
+      <a href="/tools/aquarium-cycle-tracker/#fishless">Fishless Cycling Day by Day</a>
+      <a href="/tools/aquarium-cycle-tracker/#fishin">Fish-In Cycling</a>
+      <a href="/tools/aquarium-cycle-tracker/#after">After the Cycle Finishes</a>
+      <a href="/tools/aquarium-cycle-tracker/#faq">FAQ</a>
+    </div>
+  </aside>
+</div>
+</main>
+
+<footer class="ft"><div class="con"><div class="ftg"><div class="ftbr"><a class="logo" href="/" aria-label="FishCare AI home"><img class="fishcare-footer-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="158" height="40" loading="lazy"></a><p>Practical aquarium care guides, fish encyclopedia, and free tools for freshwater and saltwater fishkeepers.</p></div><div class="ftcol"><h3>Explore</h3><a href="/guides/">All Guides</a><a href="/species">Encyclopedia</a><a href="/compatibility/">Compatibility Guides</a><a href="/fish-health/">Fish Health</a><a href="/aquarium-fish-diseases/clownfish/">Clownfish Health Problems</a><a href="/identify/">Fish Identification</a><a href="/calculators/">Tank Size Calculators</a></div><div class="ftcol"><h3>Aquarium Tools</h3><a href="/tools/aquarium-size-calculator/">Tank Size Calculator</a><a href="/tools/fish-tank-stocking-calculator/">Stocking Calculator</a><a href="/tools/fish-compatibility-checker/">Compatibility Checker</a><a href="/tools/water-parameter-checker/">Water Parameter Checker</a><a href="/tools/betta-fish-water-parameters/">Betta Water Parameters</a><a href="/tools/fish-feeding-calculator/">Feeding Calculator</a><a href="/tools/aquarium-substrate-calculator/">Substrate Calculator</a><a href="/tools/aquarium-equipment-calculator/">Equipment Calculator</a><a href="/tools/aquarium-planner/">Aquarium Planner</a></div><div class="ftcol"><h3>Koi &amp; Pond Tools</h3><a href="/tools/koi-pond-calculator/">Koi Pond Calculator</a><a href="/tools/koi-pond-stocking-calculator/">Pond Stocking Calculator</a><a href="/tools/koi-feeding-calculator/">Koi Feeding Calculator</a><a href="/tools/koi-pond-liner-calculator/">Pond Liner Calculator</a><a href="/tools/koi-pond-pump-calculator/">Pond Pump Calculator</a><a href="/tools/koi-pond-salt-calculator/">Pond Salt Calculator</a></div><div class="ftcol"><h3>Company</h3><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms</a><a href="/editorial-policy/">Editorial Policy</a><a href="/resources/">Resources</a><a href="/add-your-site/">Add Your Site</a><a href="https://buymeacoffee.com/vikiyananw6">☕ Buy me a coffee</a></div></div><div class="ftb">© 2026 EverTrend LLC. FishCare AI is a product of EverTrend LLC. All rights reserved.</div><nav class="legal-links" aria-label="Legal and company information"><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/editorial-policy/">Editorial Policy</a><a href="/privacy/">Privacy</a><a href="/image-credits/">Image Credits</a><a href="/add-your-site/">Add Your Site</a></nav></div></footer>
+
+<script>
+(function(){
+  'use strict';
+
+  function fcAppHook(box, placement){
+    var ua = navigator.userAgent;
+    var ios = /iPhone|iPod|iPad/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+    var variant = ios ? 'app-store' : 'app-page';
+    var a = box.querySelector('a');
+    if (ios) a.href = 'https://apps.apple.com/app/fishcare-ai/id6793299571?ct=' + encodeURIComponent('web-' + placement).slice(0, 40) + '&mt=8';
+    function ev(n){ try { if (typeof window.gtag === 'function') window.gtag('event', n, { placement: placement, variant: variant, page_path: location.pathname }); } catch (e) {} }
+    a.addEventListener('click', function(){ ev('app_cta_click'); });
+    var seen = false;
+    return function show(){ box.hidden = false; if (!seen) { seen = true; ev('app_cta_view'); } };
+  }
+  function fcToolEvent(tool){ try { if (typeof window.gtag === 'function') window.gtag('event', 'tool_calculate', { tool: tool }); } catch (e) {} }
+
+
+  var $ = function(i){ return document.getElementById(i); };
+  var KEY = 'fc-cycle-tracker-v1';
+  var showApp = fcAppHook($('cy-app'), 'cycle-tracker');
+  function dkey(d){ var z = function(n){ return (n < 10 ? '0' : '') + n; }; return d.getFullYear() + '-' + z(d.getMonth() + 1) + '-' + z(d.getDate()); }
+  function num(id){ var v = $(id).value.trim(); if (v === '') return null; var n = Number(v); return isFinite(n) && n >= 0 ? n : null; }
+  try { var s = JSON.parse(localStorage.getItem(KEY) || 'null'); if (s) { $('cy-start').value = s.start || ''; $('cy-method').value = s.method || 'fishless'; $('cy-seed').value = s.seed || 'none'; } } catch (e) {}
+  if (!$('cy-start').value) $('cy-start').value = dkey(new Date());
+  $('cy-start').max = dkey(new Date());
+  function syncDose(){ $('cy-dose-wrap').style.display = $('cy-method').value === 'fishless' ? '' : 'none'; }
+  $('cy-method').addEventListener('change', syncDose); syncDose();
+
+  function run(){
+    var start = $('cy-start').value, method = $('cy-method').value, seed = $('cy-seed').value;
+    var out = $('cy-out');
+    if (!start) { out.innerHTML = '<p class="calc-err">Pick the day you started cycling.</p>'; return; }
+    try { localStorage.setItem(KEY, JSON.stringify({ start: start, method: method, seed: seed })); } catch (e) {}
+    var p = start.split('-'), sd = new Date(+p[0], +p[1] - 1, +p[2]), now = new Date(); now.setHours(0, 0, 0, 0);
+    var day = Math.round((now - sd) / 864e5) + 1;
+    if (day < 1) { out.innerHTML = '<p class="calc-err">The start date is in the future.</p>'; return; }
+    var nh3 = num('cy-nh3'), no2 = num('cy-no2'), no3 = num('cy-no3'), ph = num('cy-ph'), t = num('cy-temp');
+    var dosed = $('cy-dosed').checked && method === 'fishless';
+    if (nh3 === null && no2 === null && no3 === null) { out.innerHTML = '<p class="calc-err">Enter at least ammonia, nitrite or nitrate from today\'s test.</p>'; return; }
+    var z = function(v){ return v === null || v === 0; };
+    var stage, title, todo = [], missing = [], left;
+    var fast = seed !== 'none';
+
+    if (nh3 !== null && nh3 > 0 && z(no2) && z(no3)) { stage = 0; title = 'Stage 1 — ammonia, waiting for nitrite'; }
+    else if (no2 !== null && no2 > 0 && (no3 === null || no3 < 5)) { stage = 1; title = 'Stage 2 — the nitrite spike'; }
+    else if (no2 !== null && no2 > 0) { stage = 2; title = 'Stage 3 — nitrite falling, nitrate rising'; }
+    else if (z(nh3) && z(no2) && no3 !== null && no3 > 0) { stage = 3; title = method === 'fishless' ? (dosed ? 'Cycled' : 'Almost there — confirm with a test dose') : 'Looks cycled — confirm with a week of zeros'; }
+    else if (z(nh3) && z(no2) && z(no3)) { stage = -1; title = method === 'fishless' ? 'Nothing to process yet' : 'Too early to tell'; }
+    else { stage = 2; title = 'Stage 3 — ammonia still present, nitrate appearing'; }
+
+    var cycled = stage === 3 && (method === 'fishin' || dosed);
+    if (stage <= 0) missing.push('Nitrite has to appear (bacteria that eat ammonia are growing)');
+    if (stage <= 1) missing.push('Nitrate has to appear (bacteria that eat nitrite are growing)');
+    if (!cycled) missing.push(method === 'fishless' ? 'Ammonia and nitrite both at 0 within 24 hours of a 2 ppm dose' : 'A week of daily tests at 0 ammonia and 0 nitrite');
+
+    if (method === 'fishless') {
+      if (stage === -1) todo.push('Dose ammonia to about 2 ppm using your product label for your tank volume, then test again tomorrow.');
+      else if (nh3 !== null && nh3 > 4) todo.push('Ammonia is ' + nh3 + ' ppm — too much can slow the bacteria. Change about 50% of the water and dose to 2 ppm from now on.');
+      else if (cycled) todo.push('Change 75–90% of the water to bring nitrate under 20 ppm, match the temperature, and add your first fish today or tomorrow.');
+      else if (stage === 3) todo.push('Dose ammonia to 2 ppm now, test in exactly 24 hours, and tick the box above when you enter that result.');
+      else if (nh3 === null || nh3 < 0.5) todo.push('Ammonia is ' + (nh3 === null ? 'not tested' : nh3 + ' ppm') + ' — top it back up to about 2 ppm today.');
+      else todo.push('Ammonia is still ' + nh3 + ' ppm — no dose needed today. Test again tomorrow.');
+      if (no2 !== null && no2 > 5) todo.push('Nitrite at ' + no2 + ' ppm can stall the cycle. A 50% water change helps.');
+    } else {
+      var sum = (nh3 || 0) + (no2 || 0);
+      if (sum > 0.5) todo.push('Ammonia plus nitrite is ' + Math.round(sum * 100) / 100 + ' ppm — change ' + (sum > 2 ? '50' : '25–30') + '% of the water today with dechlorinated water at the same temperature.');
+      else todo.push('Ammonia plus nitrite is at or under 0.5 ppm — no water change needed today. Test again tomorrow.');
+      todo.push(cycled ? 'Keep testing daily. After 7 days in a row of 0 ammonia and 0 nitrite, add new fish slowly, a few at a time.' : 'Feed a small amount every other day and add no new fish until the cycle is done.');
+    }
+    if (ph !== null && ph < 6.5) todo.push('pH ' + ph + ' can stall cycling bacteria. Test KH and do a water change to raise it.');
+    if (t !== null && t < 72) todo.push('At ' + t + '°F the bacteria grow slowly. Around 77–86°F is faster if your setup allows.');
+    if (todo.length < 2) todo.push('Do not clean or replace the filter media while cycling. That is where the bacteria live.');
+
+    if (cycled) left = 'Done';
+    else if (stage === 3) left = 'A few days';
+    else if (stage === 2) left = fast ? 'About 1 week' : '1–2 weeks';
+    else if (stage === 1) left = fast ? '1–2 weeks' : '2–3 weeks';
+    else left = fast ? '1–3 weeks' : '3–5 weeks';
+
+    var steps = ['Ammonia', 'Nitrite spike', 'Nitrate rising', 'Cycled'];
+    var at = cycled ? 4 : Math.max(stage, 0);
+    var bar = '<div class="prog">' + steps.map(function(n, i){ return '<div class="' + (i < at ? 'done' : i === at ? 'now' : '') + '">' + (i < at ? '✓ ' : '') + n + '</div>'; }).join('') + '</div>';
+    var li = function(a){ return a.map(function(v){ return '<li>' + v + '</li>'; }).join(''); };
+    out.className = 'out calc-out';
+    out.setAttribute('data-stage', cycled ? 'cycled' : String(stage));
+    out.innerHTML = '<div class="calc-big">Day ' + day + ' · ' + title + '</div>' + bar +
+      '<p><strong>Estimated time left:</strong> ' + left + (cycled ? '' : ' (most tanks finish in 4–6 weeks; seeded media is faster)') + '.</p>' +
+      (missing.length ? '<h3>Still missing</h3><ul>' + li(missing) + '</ul>' : '') +
+      '<h3>What to do today</h3><ol>' + li(todo) + '</ol>';
+    showApp();
+    fcToolEvent('aquarium-cycle-tracker');
+  }
+  $('cy-go').addEventListener('click', run);
+
+})();
+</script>
+</body>
+</html>
