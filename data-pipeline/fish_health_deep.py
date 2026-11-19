@@ -178,6 +178,28 @@ def sidebar_link(href: str, label: str, last: bool = False) -> str:
             f'color:var(--p);font-weight:600">{label}</a>\n  </div>')
 
 
+TREATMENT_GUIDES = {
+    "white-spots": ("If the spots look like grains of salt, it is likely ich. Follow the",
+                    "/guides/ich-treatment/", "day-by-day ich treatment schedule",
+                    ": what to use, how long it takes and when to stop."),
+    "torn-fins": ("For fins that keep fraying or show a white or red edge, follow the",
+                  "/guides/fin-rot-treatment/", "fin rot treatment plan",
+                  ": water changes, when to use an antibiotic and when to stop."),
+}
+TREATMENT_GUIDES["spots-on-fins"] = TREATMENT_GUIDES["white-spots"]
+TREATMENT_GUIDES["fin-rot"] = TREATMENT_GUIDES["torn-fins"]
+
+
+def treatment_link(slug: str) -> str:
+    """Link white-spot / fin pages to the treatment schedules (all deep pages are freshwater)."""
+    for suffix, (lead, href, label, tail) in TREATMENT_GUIDES.items():
+        if slug.endswith("-" + suffix):
+            return (f'<div class="callout">{lead} <a href="{href}">{label}</a>{tail} '
+                    'Track temperature and test results each day in the free '
+                    '<a href="/tools/aquarium-log/">aquarium log</a>.</div>\n\n')
+    return ""
+
+
 def render_page(c: dict, live: dict, shell: str) -> str:
     slug, url = c["slug"], f"{SITE}/fish-health/{c['slug']}"
     # A content file may correct species facts the app's database gets wrong.
@@ -329,7 +351,7 @@ def render_page(c: dict, live: dict, shell: str) -> str:
 
 {steps(c["fix"])}
 
-<h2 id="prevention">{esc(c["prevention_h2"])}</h2>
+{treatment_link(slug)}<h2 id="prevention">{esc(c["prevention_h2"])}</h2>
 
 <div class="callout callout-ok">
 {cite(c["prevention"])}</div>
