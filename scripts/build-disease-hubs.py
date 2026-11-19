@@ -81,6 +81,30 @@ def species_guide_section(species_slug: str, species_name: str) -> str:
     return f'<section><h2>{html.escape(species_name)} care guides</h2><div class="grid">{cards}</div></section>'
 
 
+MARINE = {
+    "arc-eye-hawkfish", "blue-damselfish", "chalk-bass", "coral-beauty", "firefish-goby", "lawnmower-blenny",
+    "leopard-wrasse", "longnose-hawkfish", "maroon-clownfish", "moorish-idol", "niger-triggerfish",
+    "ocellaris-clownfish", "orchid-dottyback", "pajama-cardinalfish", "percula-clownfish", "porcupine-puffer",
+    "purple-firefish", "royal-gramma", "six-line-wrasse", "snowflake-moray", "spanish-hogfish",
+    "tailspot-blenny", "tomato-clownfish",
+}
+
+
+def treatment_links(species_slug: str, conditions: list[str]) -> str:
+    """Contextual links from a hub to the treatment schedules and the aquarium log."""
+    text = " ".join(conditions).lower()
+    out = []
+    if "white spot" in text or re.search(r"\bich\b", text):
+        if species_slug in MARINE:
+            out.append('<p>If the white spots look like grains of salt, follow the <a href="/guides/saltwater-ich-treatment/">saltwater ich treatment guide</a>. Marine ich needs copper or tank transfer, not the freshwater method.</p>')
+        else:
+            out.append('<p>If the white spots look like grains of salt, follow the <a href="/guides/ich-treatment/">day-by-day ich treatment schedule</a>: what to use, how long it takes and when to stop.</p>')
+    if "fin rot" in text and species_slug not in MARINE:
+        out.append('<p>For frayed, shrinking or red-edged fins, the <a href="/guides/fin-rot-treatment/">fin rot treatment plan</a> covers water changes, when to use an antibiotic and when to stop.</p>')
+    out.append('<p>Write your readings down each day in the free <a href="/tools/aquarium-log/">aquarium log</a> so you can see whether they change during treatment.</p>')
+    return "".join(out)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("coverage", type=Path)
@@ -123,7 +147,7 @@ def main() -> None:
 <section class="hero"><h1>{html.escape(species_name)} Diseases: Symptoms, Causes &amp; Guides</h1><p>Browse {len(pages)} currently indexed symptom and disease guides for {html.escape(species_name)}. Check water quality first and use symptoms only to narrow possible causes.</p></section>
 <section class="notice"><strong>Important:</strong> Similar symptoms may have infectious, environmental, nutritional or physical causes. These guides are educational and are not a veterinary diagnosis.</section>
 <section><h2>{html.escape(species_name)} symptom and disease guides</h2><div class="grid">{cards}</div></section>
-{species_guide_section(species, species_name)}<div class="cta-box" data-app-cta="disease-hub" style="margin:22px 0;padding:18px 20px;border-radius:12px;background:linear-gradient(135deg,#0F3D5E,#2E9E7D);color:#fff"><h3 style="margin:0 0 6px;font-size:1.05rem;color:#fff">🧪 Test your water first</h3><p style="margin:0 0 12px;font-size:.92rem;line-height:1.55;color:rgba(255,255,255,.9)">Ammonia, nitrite and temperature problems can cause or worsen many fish symptoms. Enter your readings in our free water parameter checker to see what is out of range.</p><a class="btn" href="/tools/water-parameter-checker/" style="display:inline-block;padding:9px 16px;border-radius:8px;background:#fff;color:#0F3D5E;font-weight:700;font-size:.9rem;text-decoration:none">Check My Water →</a></div><section><h2>What to check before treatment</h2><ol><li>Test ammonia, nitrite, nitrate, pH and temperature.</li><li>Record the symptom, duration and changes in behaviour.</li><li>Check whether other fish are affected and whether new fish, plants or equipment were added.</li><li>Avoid mixing medications based on one visible symptom alone.</li></ol></section>
+{species_guide_section(species, species_name)}<div class="cta-box" data-app-cta="disease-hub" style="margin:22px 0;padding:18px 20px;border-radius:12px;background:linear-gradient(135deg,#0F3D5E,#2E9E7D);color:#fff"><h3 style="margin:0 0 6px;font-size:1.05rem;color:#fff">🧪 Test your water first</h3><p style="margin:0 0 12px;font-size:.92rem;line-height:1.55;color:rgba(255,255,255,.9)">Ammonia, nitrite and temperature problems can cause or worsen many fish symptoms. Enter your readings in our free water parameter checker to see what is out of range.</p><a class="btn" href="/tools/water-parameter-checker/" style="display:inline-block;padding:9px 16px;border-radius:8px;background:#fff;color:#0F3D5E;font-weight:700;font-size:.9rem;text-decoration:none">Check My Water →</a></div><section><h2>What to check before treatment</h2><ol><li>Test ammonia, nitrite, nitrate, pH and temperature.</li><li>Record the symptom, duration and changes in behaviour.</li><li>Check whether other fish are affected and whether new fish, plants or equipment were added.</li><li>Avoid mixing medications based on one visible symptom alone.</li></ol>{treatment_links(species, [p["condition"] for p in pages])}</section>
 <section><h2>Frequently asked questions</h2><h3>How should I use these fish symptom guides?</h3><p>Start with water test results, the fish species and visible symptoms. Similar signs can have different causes, so these pages are educational starting points rather than a diagnosis.</p><h3>When should I seek professional help?</h3><p>Contact an aquatic veterinarian or fish-health professional for severe breathing difficulty, open ulcers, rapid deterioration, repeated deaths or symptoms that persist after water conditions are corrected.</p></section>'''
         schema = [
             {"@context": "https://schema.org", "@type": "CollectionPage", "name": f"{species_name} Diseases", "url": hub_url},
