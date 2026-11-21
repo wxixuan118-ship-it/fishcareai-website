@@ -17,7 +17,7 @@
       title: 'Confirm your tank has enough water volume',
       description: 'Calculate usable gallons before finalising a fish combination.',
       href: '/tools/aquarium-size-calculator/',
-      button: 'Aquarium Size Calculator →'
+      button: 'Aquarium Volume Calculator →'
     },
     '/tools/fish-feeding-calculator': {
       targets: ['#feeding-result'],
@@ -115,7 +115,7 @@
       title: 'Check the water volume behind that footprint',
       description: 'Turn the same length and width into usable gallons and litres.',
       href: '/tools/aquarium-size-calculator/',
-      button: 'Aquarium Size Calculator →'
+      button: 'Aquarium Volume Calculator →'
     },
     '/tools/aquarium-planner': {
       targets: ['#tank-result'],
@@ -123,7 +123,7 @@
       title: 'Calculate your aquarium’s usable water',
       description: 'Turn the recommended tank size into real gallons, litres and water weight.',
       href: '/tools/aquarium-size-calculator/',
-      button: 'Aquarium Size Calculator →'
+      button: 'Aquarium Volume Calculator →'
     }
   };
 
