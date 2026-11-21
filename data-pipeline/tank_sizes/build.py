@@ -4,9 +4,10 @@ Build the /tank-sizes/ experiment pages.
 
     python3 data-pipeline/tank_sizes/build.py
 
-Writes tank-sizes/<slug>/index.html for each content module. These three pages
-are an SEO experiment; do not add further sizes here until the experiment has
-been evaluated in Search Console.
+Writes tank-sizes/<slug>/index.html for each content module. Started 2026-09-12
+as a 3-page experiment (50/55/100); 10 gallon added 2026-11-21 as the template
+check for migrating the old /tanks/ size pages (each migrated size gets a 301
+from /tanks/<slug> in nginx.conf and vercel.json).
 """
 import importlib
 import sys
@@ -18,7 +19,7 @@ sys.path.insert(0, str(HERE))
 
 from template import render_page, diagram_svg  # noqa: E402
 
-PAGES = ["content_55", "content_50", "content_100"]
+PAGES = ["content_55", "content_50", "content_100", "content_10"]
 
 for mod_name in PAGES:
     page = importlib.import_module(mod_name).PAGE

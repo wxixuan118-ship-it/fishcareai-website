@@ -1144,6 +1144,21 @@
       "statusCode": 301
     },
     {
+      "source": "/tanks/10-gallon-fish-tank",
+      "destination": "/tank-sizes/10-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tanks/10-gallon-fish-tank/",
+      "destination": "/tank-sizes/10-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tanks/10-gallon-fish-tank/index.html",
+      "destination": "/tank-sizes/10-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
       "source": "/tank-sizes",
       "destination": "/tanks/",
       "statusCode": 301

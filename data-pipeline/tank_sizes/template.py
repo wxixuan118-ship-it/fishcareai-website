@@ -143,23 +143,9 @@ a:hover{text-decoration:underline}
 .ftb{color:rgba(255,255,255,.5);font-size:.78rem}
 """
 
-NAV_HTML = """<nav class="nb" aria-label="Main navigation">
-  <a class="brand" href="/" aria-label="FishCare AI home"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"/></a>
-  <div class="nlinks">
-    <a class="nl" href="/">Home</a>
-    <a class="nl" href="/guides/">Guides</a>
-    <a class="nl" href="/tools/">Tools</a>
-    <a class="nl" href="/species">Encyclopedia</a>
-    <a class="nl" href="/fish-health">Fish Diseases</a>
-    <a class="nl" href="/tanks/">Tank Sizes</a>
-    <a class="nl" href="/about/">About</a>
-  </div>
-</nav>"""
+NAV_HTML = """<nav class="nb fishcare-global-nav" id="fishcare-global-navigation" aria-label="Main navigation"><a class="brand" href="/" aria-label="FishCare AI home"><img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36"></a><div class="nlinks" id="fishcare-nlinks"><a class="nl" href="/">Home</a><a class="nl" href="/guides/">Guides</a><a class="nl" href="/species">Encyclopedia</a><a class="nl" href="/compatibility/">Compatibility</a><a class="nl" href="/fish-health/">Fish Health</a><a class="nl" href="/identify/">Fish ID</a><a class="nl" href="/about/">About</a><a class="nl nl-app-btn" href="/app/">📱 App</a></div><button type="button" class="hbg" aria-label="Open navigation menu" aria-controls="fishcare-nlinks" aria-expanded="false"><span></span><span></span><span></span></button></nav>"""
 
-FOOTER_HTML = """<footer class="ft">
-  <div class="ftb">© 2026 EverTrend LLC. FishCare AI is a product of EverTrend LLC. All rights reserved.</div>
-  <nav class="legal-links" aria-label="Legal and company information"><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/editorial-policy/">Editorial Policy</a><a href="/privacy/">Privacy</a><a href="/image-credits/">Image Credits</a><a href="/add-your-site/">Add Your Site</a></nav>
-</footer>"""
+FOOTER_HTML = """<footer class="ft"><div class="con"><div class="ftg"><div class="ftbr"><a class="logo" href="/" aria-label="FishCare AI home"><img class="fishcare-footer-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="158" height="40" loading="lazy"></a><p>Practical aquarium care guides, fish encyclopedia, and free tools for freshwater and saltwater fishkeepers.</p></div><div class="ftcol"><h3>Explore</h3><a href="/guides/">All Guides</a><a href="/species">Encyclopedia</a><a href="/compatibility/">Compatibility Guides</a><a href="/fish-health/">Fish Health</a><a href="/aquarium-fish-diseases/clownfish/">Clownfish Health Problems</a><a href="/identify/">Fish Identification</a><a href="/calculators/">Tank Size Calculators</a></div><div class="ftcol"><h3>Aquarium Tools</h3><a href="/tools/aquarium-size-calculator/">Tank Size Calculator</a><a href="/tools/fish-tank-stocking-calculator/">Stocking Calculator</a><a href="/tools/fish-compatibility-checker/">Compatibility Checker</a><a href="/tools/water-parameter-checker/">Water Parameter Checker</a><a href="/tools/betta-fish-water-parameters/">Betta Water Parameters</a><a href="/tools/fish-feeding-calculator/">Feeding Calculator</a><a href="/tools/aquarium-substrate-calculator/">Substrate Calculator</a><a href="/tools/aquarium-equipment-calculator/">Equipment Calculator</a><a href="/tools/aquarium-planner/">Aquarium Planner</a></div><div class="ftcol"><h3>Koi &amp; Pond Tools</h3><a href="/tools/koi-pond-calculator/">Koi Pond Calculator</a><a href="/tools/koi-pond-stocking-calculator/">Pond Stocking Calculator</a><a href="/tools/koi-feeding-calculator/">Koi Feeding Calculator</a><a href="/tools/koi-pond-liner-calculator/">Pond Liner Calculator</a><a href="/tools/koi-pond-pump-calculator/">Pond Pump Calculator</a><a href="/tools/koi-pond-salt-calculator/">Pond Salt Calculator</a></div><div class="ftcol"><h3>Company</h3><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms</a><a href="/editorial-policy/">Editorial Policy</a><a href="/resources/">Resources</a><a href="/add-your-site/">Add Your Site</a><a href="https://buymeacoffee.com/vikiyananw6">☕ Buy me a coffee</a></div></div><div class="ftb">© 2026 EverTrend LLC. FishCare AI is a product of EverTrend LLC. All rights reserved.</div><nav class="legal-links" aria-label="Legal and company information"><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/editorial-policy/">Editorial Policy</a><a href="/privacy/">Privacy</a><a href="/image-credits/">Image Credits</a><a href="/add-your-site/">Add Your Site</a></nav></div></footer>"""
 
 SECTIONS = [
     ("glance", "At a glance"),
@@ -314,9 +300,30 @@ def render_weight(p):
 def render_stocking(p):
     return f"""<section class="ts-card" id="stocking">
 <h2>How Many Fish Can Live in a {p['gallons']} Gallon Tank?</h2>
-{p['stocking_html']}
+{p['stocking_html']}{render_species_calc(p)}
 <div class="cta-row"><a class="btn" href="/tools/aquarium-planner/">Plan Your Aquarium →</a></div>
 </section>"""
+
+
+def render_species_calc(p):
+    """Optional per-species 'how many fit' table linking the /calculators/ pages.
+    Rows: (species, species_url, calculator_url or None, how_many, note)."""
+    rows = p.get("species_calc")
+    if not rows:
+        return ""
+    g = p["gallons"]
+    body = ""
+    for name, surl, curl, n, note in rows:
+        calc = (f'<a href="{curl}">{esc(name)} tank size calculator</a>' if curl
+                else f'<a href="/tools/fish-tank-stocking-calculator/?gal={g}">Stocking calculator</a>')
+        body += f'<tr><td><a href="{surl}">{esc(name)}</a></td><td><strong>{n}</strong></td><td>{note}</td><td>{calc}</td></tr>'
+    intro = p.get("species_calc_intro_html", "")
+    return f"""
+<h3 id="how-many-each">How many of each species fit in a {g} gallon tank?</h3>
+{intro}
+<div class="tbl-wrap"><table class="ts-table">
+<thead><tr><th>Species (kept alone)</th><th>How many in {g} gal</th><th>Notes</th><th>Check another tank size</th></tr></thead>
+<tbody>{body}</tbody></table></div>"""
 
 
 def render_best_fish(p):
@@ -422,7 +429,8 @@ def render_plan(p):
 <div class="cta-row">
 <a class="btn" href="/tools/aquarium-planner/">Open Aquarium Planner</a>
 <a class="btn" href="/tools/fish-compatibility-checker/">Check Compatibility</a>
-<a class="btn btn-ghost" href="/tools/aquarium-size-calculator/">Calculate Tank Size</a>
+<a class="btn" href="/tools/fish-tank-stocking-calculator/?gal={p['gallons']}">How Many Fish Fit in {p['gallons']} Gallons?</a>
+<a class="btn btn-ghost" href="/tools/aquarium-size-calculator/">Aquarium Volume Calculator</a>
 </div>
 </section>"""
 
@@ -444,7 +452,7 @@ def render_compare(p):
 <h2>Compare Other Aquarium Sizes</h2>
 {p['compare_intro_html']}
 <div class="cmp">{cards}</div>
-<p style="margin-top:14px">Browse every size in the <a href="/tanks/">fish tank size guide</a>, or enter your own dimensions in the <a href="/tools/aquarium-size-calculator/">aquarium size calculator</a>.</p>
+<p style="margin-top:14px">Browse every size in the <a href="/tanks/">fish tank size guide</a>, or enter your own dimensions in the <a href="/tools/aquarium-size-calculator/">aquarium volume calculator</a>.</p>
 </section>"""
 
 
