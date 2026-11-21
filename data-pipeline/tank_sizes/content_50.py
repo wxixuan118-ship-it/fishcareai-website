@@ -4,15 +4,15 @@
 PAGE = {
     "gallons": 50,
     "slug": "50-gallon-fish-tank",
-    "title": "50 Gallon Fish Tank: Dimensions, Setup & Stocking Guide",
-    "h1": "50 Gallon Fish Tank: Size, Setup, Stocking & Best Fish",
-    "meta_description": "Explore 50 gallon fish tank dimensions, weight, stocking ideas, best fish, equipment and setup requirements with practical FishCareAI planning tools.",
+    "title": "50 Gallon Fish Tank Dimensions (36x18x19 in), Weight & Fish",
+    "h1": "50 Gallon Fish Tank: Dimensions, Weight, Stocking & Best Fish",
+    "meta_description": "A standard 50 gallon fish tank is 36 × 18 × 19 in (91 × 46 × 48 cm), weighs about 100 lb empty and 580 lb filled, and holds 18–30 small community fish.",
     "date_published": "2026-09-12",
-    "date_modified": "2026-09-12",
-    "date_modified_human": "September 12, 2026",
+    "date_modified": "2026-11-21",
+    "date_modified_human": "November 21, 2026",
     "read_time": 14,
 
-    "intro_html": """<p>A 50 gallon fish tank holds roughly 50 US gallons (about 189 liters), but unlike the 55 there is no single standard shape. The most common North American 50 is a 3-foot tank close to 36 × 18 × 19 inches; you will also meet 4-foot “long” versions that are essentially a slightly shorter 55, and metric rimless tanks in the 180–200 liter range sold as “about 50 gallons”.</p>
+    "intro_html": """<p><strong>A standard 50 gallon fish tank measures about 36 × 18 × 19 inches (91 × 46 × 48 cm), weighs roughly 100 lb (45 kg) empty and about 580 lb (265 kg) once filled with water, gravel and rock, and comfortably holds 18–30 small community fish.</strong> It holds about 189 liters, but unlike the 55 there is no single standard shape: besides the common 3-foot version you will also meet 4-foot “long” versions that are essentially a slightly shorter 55, and metric rimless tanks in the 180–200 liter range sold as “about 50 gallons”.</p>
 <p>In practical terms it is a medium-large home aquarium — enough water for a stable community, a pair of angelfish or dwarf cichlids with a school and a bottom crew, and one of the best sizes for a serious planted layout thanks to the 18-inch depth of the standard version. Which of those works for you depends more on the footprint you buy than on the gallon figure on the box.</p>""",
 
     "glance": [
