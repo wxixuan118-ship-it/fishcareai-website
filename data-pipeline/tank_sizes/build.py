@@ -19,7 +19,7 @@ sys.path.insert(0, str(HERE))
 
 from template import render_page, diagram_svg  # noqa: E402
 
-PAGES = ["content_55", "content_50", "content_100", "content_10"]
+PAGES = ["content_55", "content_50", "content_100", "content_10", "content_5", "content_20", "content_29", "content_40"]
 
 for mod_name in PAGES:
     page = importlib.import_module(mod_name).PAGE

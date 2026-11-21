@@ -395,7 +395,7 @@ CLUSTER_SIZES = [5, 10, 20, 29, 40, 50, 55, 75, 100, 125]
 # The hub and cluster nav link to those pages; this script no longer writes
 # /tanks/ pages for them (the old URLs 301 to the new ones in vercel.json and
 # nginx.conf). Do not add sizes here until the experiment has been evaluated.
-EXPERIMENT_SIZES = {10, 50, 55, 100}  # 10 migrated 2026-11-21
+EXPERIMENT_SIZES = {5, 10, 20, 29, 40, 50, 55, 100}  # 10 migrated 2026-11-21; 5/20/29/40 the same day
 
 
 def tank_url(sz):

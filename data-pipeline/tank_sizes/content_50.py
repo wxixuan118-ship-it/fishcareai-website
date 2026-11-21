@@ -84,6 +84,20 @@ PAGE = {
 </ul>
 <p>Run any combination through the <a href="/tools/aquarium-planner/">Aquarium Planner</a> to check adult sizes, group minimums and total bioload before you buy.</p>""",
 
+    "species_calc_intro_html": """<p>The numbers below assume the species is the only fish in the tank and a standard 36 × 18 inch 50. They sit between the 40 breeder and 55 gallon rows of each species calculator; mixing species shares the same budget, as in the plans further down.</p>""",
+    "species_calc": [
+        ("Betta fish", "/species/betta-fish", "/calculators/betta-fish-tank-size/", "1 male, or 9–10 females", "One male with a community, or a female sorority with dense planting and caves"),
+        ("Guppy", "/species/guppy", "/calculators/guppy-tank-size/", "24–27", "A breeding colony, or an all-male display school"),
+        ("Molly", "/species/molly", "/calculators/molly-fish-tank-size/", "12–13", "Room for a sailfin group or a molly-plus-platy community"),
+        ("Swordtail", "/species/swordtail", "/calculators/swordtail-fish-tank-size/", "10–12", "Two males, each with their own females"),
+        ("Zebra danio", "/species/zebra-danio", "/calculators/zebra-danio-tank-size/", "20–25", "The 36-inch run suits a school of 15+; a 4-foot tank shows them off best"),
+        ("Angelfish", "/species/angelfish", "/calculators/angelfish-tank-size/", "2–4 (a pair is best)", "The 19-inch height suits adults; groups of four or more prefer a longer tank"),
+        ("Rainbowfish (medium)", "/species/boesemans-rainbowfish", "/calculators/rainbow-fish-tank-size/", "6–8", "Workable in 36 inches; a 48-inch 55 suits these cruisers better"),
+        ("Fancy goldfish", "/species/goldfish", "/calculators/goldfish-tank-size/", "2–3", "Cool water and strong filtration; single-tails grow to a foot and belong in a pond"),
+        ("Discus", "/species/discus", "/calculators/discus-fish-tank-size/", "0–5 (experienced only)", "The calculator starts adult groups at 55 gallons; possible in a 50 with very clean, warm water"),
+        ("Oscar", "/species/oscar", "/calculators/oscar-fish-tank-size/", "0 — not recommended", "One adult needs about 75 gallons and a 4-foot footprint"),
+    ],
+
     "best_fish_intro_html": """<p>These species fit the standard 36 × 18 × 19 inch footprint as adults. Several of them — the dwarf cichlids, the gouramis, the angelfish pair — actually do better here than in the longer, narrower 55, because they value depth and cover over swimming length. Group sizes are minimums for natural behaviour.</p>""",
     "best_fish": [
         {"name": "Cockatoo dwarf cichlid (Apistogramma cacatuoides)", "url": "/species/cockatoo-cichlid", "adult": "Males 3–3.5 in, females 2 in", "group": "1 male with 2 females", "temperament": "Peaceful; females guard fry", "zone": "Floor and lower mid-water",
@@ -236,7 +250,7 @@ PAGE = {
     "compare": [
         {"title": "55 Gallon Fish Tank", "url": "/tank-sizes/55-gallon-fish-tank/", "dims": "≈ 48 × 13 × 21 in · ≈ 208 L",
          "html": "A foot longer and 5 inches shallower. The 4-foot run suits rainbowfish, Congo tetras and angelfish groups, but the narrow floor limits aquascaping and dwarf-cichlid territories. Similar weight and cost; far more stands and lids available."},
-        {"title": "40 Gallon Breeder", "url": "/tanks/40-gallon-fish-tank/", "dims": "≈ 36 × 18 × 16 in · ≈ 151 L",
+        {"title": "40 Gallon Breeder", "url": "/tank-sizes/40-gallon-fish-tank/", "dims": "≈ 36 × 18 × 16 in · ≈ 151 L",
          "html": "The same 36 × 18 inch footprint, three inches shorter. Almost the same stocking options at lower weight and cost; the 50's extra height mainly helps angelfish and taller aquascapes."},
         {"title": "75 Gallon Fish Tank", "url": "/tanks/75-gallon-fish-tank/", "dims": "≈ 48 × 18 × 21 in · ≈ 284 L",
          "html": "Keeps the 50's 18-inch depth and adds a foot of length — the tank that resolves the 50-versus-55 dilemma if you have the space and can handle about 850 lb."},

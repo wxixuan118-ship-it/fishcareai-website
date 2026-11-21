@@ -159,7 +159,7 @@ PAGE = {
         {"name": "Silver arowana", "url": "/species/silver-arowana", "why": "A surface predator that grows past 3 feet within a few years and needs a tank several times its body length.", "better": "250+ gallons at minimum, and realistically a custom tank."},
         {"name": "Common and comet goldfish, koi", "url": "/species/goldfish", "why": "Single-tailed goldfish reach 10–12 inches and koi far more; both are heavy waste producers suited to ponds. Fancy goldfish are a different story — a small group is workable in a 55.", "better": "Ponds or 100+ gallon tanks for single-tails; see the goldfish care guide for fancy varieties."},
     ],
-    "avoid_after_html": """<p>Borderline cases worth researching before you buy: a single <a href="/species/severum-cichlid">severum</a> or blue acara can live in a 55 but is happier in an 18-inch-deep 75; a group of <a href="/species/discus">discus</a> is possible for experienced keepers who can manage warm, very clean water; and <a href="/species/denison-barb">Denison barbs</a> use the length well but grow to 6 inches and are usually recommended a 75. Our <a href="/guides/angelfish-tank-mates/">angelfish tank mates guide</a> and <a href="/guides/discus-fish-care/tank-size/">discus tank size guide</a> go deeper.</p>""",
+    "avoid_after_html": """<p>Borderline cases worth researching before you buy: a single <a href="/species/severum-cichlid">severum</a> or blue acara can live in a 55 but is happier in an 18-inch-deep 75; a group of <a href="/species/discus">discus</a> is possible for experienced keepers who can manage warm, very clean water; and <a href="/species/denison-barb">Denison barbs</a> use the length well but grow to 6 inches and are usually recommended a 75. Our <a href="/compatibility/angelfish/">angelfish tank mates guide</a> and <a href="/guides/discus-fish-care/tank-size/">discus tank size guide</a> go deeper.</p>""",
 
     "setup_intro_html": """<p>Setting up a 55 gallon fish tank follows the same sequence as any freshwater aquarium, but a few steps change because of the size: you cannot move it once it is full, it needs two people to lift, and a 4-foot tank must be level end to end. For the fundamentals, see <a href="/guides/how-to-set-up-a-fish-tank/">how to set up a fish tank</a>.</p>""",
     "setup_steps": [
@@ -237,7 +237,7 @@ PAGE = {
          "html": "The same 48-inch length with an 18-inch depth. Costs and weighs noticeably more (around 850 lb running) but opens the door to severums, blue acaras, a single oscar and deeper hardscape."},
         {"title": "100 Gallon Fish Tank", "url": "/tank-sizes/100-gallon-fish-tank/", "dims": "≈ 72 × 18 × 20 in · ≈ 379 L",
          "html": "A 6-foot tank that roughly doubles the water and the weight of a 55. Suits large schools, discus groups, Malawi communities and bigger centerpiece fish — with filtration, heating and floor demands to match."},
-        {"title": "40 Gallon Breeder", "url": "/tanks/40-gallon-fish-tank/", "dims": "≈ 36 × 18 × 16 in · ≈ 151 L",
+        {"title": "40 Gallon Breeder", "url": "/tank-sizes/40-gallon-fish-tank/", "dims": "≈ 36 × 18 × 16 in · ≈ 151 L",
          "html": "Fewer gallons than a 55 but a wider floor. A favourite for dwarf cichlids, shrimp and planted tanks where footprint matters more than height or length."},
     ],
 

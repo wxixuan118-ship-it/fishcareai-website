@@ -40,7 +40,7 @@ PAGE = {
                 "caption": "Typical 10 gallon fish tank dimensions for the standard rimmed tank: 20 inches long, 10 inches front to back and 12 inches tall (51 × 25 × 30 cm). Rimless metric tanks are a little shorter and deeper."},
     "dimensions_after_html": """<h3>Why 20 inches decides what lives in a 10 gallon tank</h3>
 <p>The gallon figure tells you how much waste the water can dilute; the 20-inch length tells you which fish can actually swim in it. A fish that darts the length of the tank in a second — a zebra danio, a giant danio, a group of mollies — runs out of room in 20 inches long before it runs out of water. Fish that hover, pick at plants or stay in a tight school — ember tetras, chili rasboras, pygmy corydoras, a betta — barely notice the length. That is why this page recommends small, slow-moving species rather than simply “anything under 2 inches”.</p>
-<p>The 10-inch depth matters too. It is enough for a simple slope of substrate and a few plants, not for a layered aquascape. If planted nano tanks are your goal, the rimless 45 × 27 cm and 45 × 30 cm tanks trade 2 inches of length for 1–2 inches of extra depth, which makes a noticeable difference to the layout. For more length in a similar footprint, the next step is a <a href="/tanks/20-gallon-fish-tank/">20 gallon long</a> (30 × 12 × 12 in).</p>""",
+<p>The 10-inch depth matters too. It is enough for a simple slope of substrate and a few plants, not for a layered aquascape. If planted nano tanks are your goal, the rimless 45 × 27 cm and 45 × 30 cm tanks trade 2 inches of length for 1–2 inches of extra depth, which makes a noticeable difference to the layout. For more length in a similar footprint, the next step is a <a href="/tank-sizes/20-gallon-fish-tank/">20 gallon long</a> (30 × 12 × 12 in).</p>""",
 
     "weight_intro_html": """<p>Freshwater weighs about 8.34 lb per US gallon (3.78 kg per gallon), so a full 10 gallons of water would be 83 lb. A running tank holds a little less water than its label once gravel and décor are in, but adds the weight of the glass, the substrate and the rock — and the total is what the furniture has to hold.</p>""",
     "weight_rows": [
@@ -226,7 +226,7 @@ PAGE = {
         "<strong>Kit equipment varies.</strong> Included filters and lights are often minimal; plan to upgrade.",
         "<strong>Easy to outgrow.</strong> Many keepers want a bigger tank within a year — a 20 long costs little more.",
     ],
-    "right_verdict_html": """<p><strong>Choose a 10 gallon if</strong> you want a betta, a nano school, a shrimp colony or a quarantine tank, and you are willing to test and change water every week. <strong>Choose a <a href="/tanks/20-gallon-fish-tank/">20 gallon long</a> instead if</strong> you want a small community with more than one species of active fish — it is far more forgiving for a first tank. <strong>Choose a <a href="/tanks/5-gallon-fish-tank/">5 gallon</a> only if</strong> space is very tight and you plan a single betta or a few shrimp.</p>""",
+    "right_verdict_html": """<p><strong>Choose a 10 gallon if</strong> you want a betta, a nano school, a shrimp colony or a quarantine tank, and you are willing to test and change water every week. <strong>Choose a <a href="/tank-sizes/20-gallon-fish-tank/">20 gallon long</a> instead if</strong> you want a small community with more than one species of active fish — it is far more forgiving for a first tank. <strong>Choose a <a href="/tank-sizes/5-gallon-fish-tank/">5 gallon</a> only if</strong> space is very tight and you plan a single betta or a few shrimp.</p>""",
 
     "faqs": [
         ("What are the dimensions of a 10 gallon fish tank?", "A standard 10 gallon fish tank is about 20 inches long, 10 inches front to back and 12 inches tall (51 × 25 × 30 cm). Almost every rimmed 10 gallon and starter kit uses this footprint; a kit hood adds 2–3 inches of height. Rimless metric tanks of about the same volume measure 45 × 27 × 30 cm or 45 × 30 × 30 cm."),
@@ -244,11 +244,11 @@ PAGE = {
 
     "compare_intro_html": """<p>The 10 gallon sits between the 5 gallon betta tank and the 20 gallon sizes most keepers move on to. Here is how it compares to its neighbours.</p>""",
     "compare": [
-        {"title": "5 Gallon Fish Tank", "url": "/tanks/5-gallon-fish-tank/", "dims": "≈ 16 × 8 × 10 in · ≈ 19 L",
+        {"title": "5 Gallon Fish Tank", "url": "/tank-sizes/5-gallon-fish-tank/", "dims": "≈ 16 × 8 × 10 in · ≈ 19 L",
          "html": "Half the water and much less stable. Suitable for one betta or a few shrimp; no room for a school. The 10 gallon is the better buy for nearly the same price."},
-        {"title": "20 Gallon Fish Tank", "url": "/tanks/20-gallon-fish-tank/", "dims": "20 high ≈ 24 × 12 × 16 in · 20 long ≈ 30 × 12 × 12 in",
+        {"title": "20 Gallon Fish Tank", "url": "/tank-sizes/20-gallon-fish-tank/", "dims": "20 high ≈ 24 × 12 × 16 in · 20 long ≈ 30 × 12 × 12 in",
          "html": "Twice the water and, in the long version, 10 more inches of swimming length. Opens the door to zebra danios, mollies, a betta community and small mixed groups."},
-        {"title": "29 Gallon Fish Tank", "url": "/tanks/29-gallon-fish-tank/", "dims": "≈ 30 × 12 × 18 in · ≈ 110 L",
+        {"title": "29 Gallon Fish Tank", "url": "/tank-sizes/29-gallon-fish-tank/", "dims": "≈ 30 × 12 × 18 in · ≈ 110 L",
          "html": "A tall 30-inch tank that fits an angelfish pair, larger schools and a planted community — the usual upgrade for a keeper who has outgrown a 10."},
         {"title": "55 Gallon Fish Tank", "url": "/tank-sizes/55-gallon-fish-tank/", "dims": "≈ 48 × 13 × 21 in · ≈ 208 L",
          "html": "The classic 4-foot community tank, more than five times the water. Much more stable, much heavier — about 600 lb running."},

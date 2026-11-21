@@ -1159,6 +1159,66 @@
       "statusCode": 301
     },
     {
+      "source": "/tanks/5-gallon-fish-tank",
+      "destination": "/tank-sizes/5-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tanks/5-gallon-fish-tank/",
+      "destination": "/tank-sizes/5-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tanks/5-gallon-fish-tank/index.html",
+      "destination": "/tank-sizes/5-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tanks/20-gallon-fish-tank",
+      "destination": "/tank-sizes/20-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tanks/20-gallon-fish-tank/",
+      "destination": "/tank-sizes/20-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tanks/20-gallon-fish-tank/index.html",
+      "destination": "/tank-sizes/20-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tanks/29-gallon-fish-tank",
+      "destination": "/tank-sizes/29-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tanks/29-gallon-fish-tank/",
+      "destination": "/tank-sizes/29-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tanks/29-gallon-fish-tank/index.html",
+      "destination": "/tank-sizes/29-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tanks/40-gallon-fish-tank",
+      "destination": "/tank-sizes/40-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tanks/40-gallon-fish-tank/",
+      "destination": "/tank-sizes/40-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
+      "source": "/tanks/40-gallon-fish-tank/index.html",
+      "destination": "/tank-sizes/40-gallon-fish-tank/",
+      "statusCode": 301
+    },
+    {
       "source": "/tank-sizes",
       "destination": "/tanks/",
       "statusCode": 301
