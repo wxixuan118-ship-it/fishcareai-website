@@ -19,9 +19,13 @@ const TYPES = {
 http.createServer((req, res) => {
   const urlPath = decodeURIComponent(new URL(req.url, 'http://x').pathname);
   let file = path.join(ROOT, urlPath);
+  // Mirrors nginx.conf: every /open/... path is the one deep-link fallback page.
+  if (urlPath.startsWith('/open/')) file = path.join(ROOT, 'open', 'index.html');
   if (!file.startsWith(ROOT)) { res.writeHead(403).end('Forbidden'); return; }
   if (fs.existsSync(file) && fs.statSync(file).isDirectory()) file = path.join(file, 'index.html');
   if (!fs.existsSync(file)) { res.writeHead(404, {'Content-Type':'text/plain'}).end('404 ' + urlPath); return; }
-  res.writeHead(200, { 'Content-Type': TYPES[path.extname(file).toLowerCase()] || 'application/octet-stream' });
+  const type = urlPath === '/.well-known/apple-app-site-association' ? 'application/json'
+    : TYPES[path.extname(file).toLowerCase()] || 'application/octet-stream';
+  res.writeHead(200, { 'Content-Type': type });
   fs.createReadStream(file).pipe(res);
 }).listen(PORT, '127.0.0.1', () => console.log('serving ' + ROOT + ' on http://127.0.0.1:' + PORT));

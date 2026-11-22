@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["YVJC5QF68S.com.fishcareai.app"],
+        "components": [
+          { "/": "/open/*", "comment": "Species and app deep links, e.g. /open/species/neon-tetra" }
+        ],
+        "appID": "YVJC5QF68S.com.fishcareai.app",
+        "paths": ["/open/*"]
+      }
+    ]
+  }
+}
