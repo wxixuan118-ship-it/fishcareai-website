@@ -1,7 +1,6 @@
 (function () {
   'use strict';
 
-  var CONSENT_KEY      = 'fishcare-consent-v1';
   var ADSENSE_CLIENT   = 'ca-pub-6697313643773879';
   var CLARITY_PROJECT_ID = 'xqyo3mgsli';
 
@@ -66,9 +65,8 @@
   window.dataLayer = window.dataLayer || [];
   window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
   window.gtag('consent', 'default', {
-    ad_storage: 'denied', analytics_storage: 'denied',
-    ad_user_data: 'denied', ad_personalization: 'denied',
-    wait_for_update: 500
+    ad_storage: 'granted', analytics_storage: 'granted',
+    ad_user_data: 'granted', ad_personalization: 'granted'
   });
 
   function loadScript(src, id, attrs) {
@@ -103,76 +101,12 @@
     );
   }
 
-  function applyConsent(value) {
-    var granted = value === 'accepted';
-    window.gtag('consent', 'update', {
-      ad_storage: granted ? 'granted' : 'denied',
-      analytics_storage: granted ? 'granted' : 'denied',
-      ad_user_data: 'denied', ad_personalization: 'denied'
-    });
-    if (granted) { enableAnalytics(); enableAds(); }
-  }
-
-  function setConsent(value) {
-    try { localStorage.setItem(CONSENT_KEY, value); } catch (e) {}
-    applyConsent(value);
-    var banner = document.getElementById('fishcare-consent');
-    if (banner) banner.hidden = true;
-  }
-
   // ── Global chrome opt-out ─────────────────────────────────────────────────
   // Pages that ship their own header/footer and do not load
   // fishcare-glass-redesign.css set <html data-global-chrome="false">. They
-  // still get analytics and the consent banner, but keep their own layout.
+  // still get analytics, but keep their own layout.
   function globalChromeEnabled() {
     return document.documentElement.getAttribute('data-global-chrome') !== 'false';
-  }
-
-  // Minimal consent-banner styling for pages without the global stylesheet.
-  function injectConsentBannerStyles() {
-    if (document.getElementById('fishcare-consent-css')) return;
-    var css = document.createElement('style');
-    css.id = 'fishcare-consent-css';
-    css.textContent =
-      '.consent-banner{position:fixed;z-index:1000;left:18px;right:18px;bottom:18px;' +
-      'display:flex;align-items:center;justify-content:space-between;gap:20px;' +
-      'max-width:980px;margin:auto;padding:18px 20px;color:#fff;' +
-      'background:rgba(4,25,41,.97);border:1px solid rgba(125,235,255,.35);' +
-      'border-radius:18px;box-shadow:0 24px 80px rgba(0,0,0,.52);font-size:.88rem}' +
-      '.consent-banner[hidden]{display:none}' +
-      '.consent-banner strong{font-size:.95rem}' +
-      '.consent-banner p{margin:4px 0 0;font-size:.88rem}' +
-      '.consent-banner a{color:#7debff}' +
-      '.consent-actions{display:flex;gap:10px;flex-shrink:0}' +
-      '.consent-actions button{padding:9px 14px;font-size:.82rem;cursor:pointer;' +
-      'border-radius:10px;border:1px solid rgba(255,255,255,.45);' +
-      'background:transparent;color:#fff}' +
-      '.consent-actions button.consent-accept{background:#27AE60;border-color:#27AE60}' +
-      '@media(max-width:620px){.consent-banner{flex-direction:column;align-items:stretch}}';
-    document.head.appendChild(css);
-  }
-
-  function setupConsentBanner() {
-    var saved = null;
-    try { saved = localStorage.getItem(CONSENT_KEY); } catch (e) {}
-    if (saved === 'accepted' || saved === 'rejected') { applyConsent(saved); return; }
-    var banner = document.createElement('section');
-    banner.id = 'fishcare-consent';
-    banner.className = 'consent-banner';
-    banner.setAttribute('role', 'dialog');
-    banner.setAttribute('aria-label', 'Privacy choices');
-    banner.innerHTML =
-      '<div><strong>Your privacy choices</strong>' +
-      '<p>We use optional analytics and advertising cookies only with your consent. ' +
-      '<a href="/privacy/">Read our privacy policy</a>.</p></div>' +
-      '<div class="consent-actions">' +
-      '<button type="button" data-consent="rejected">Reject optional cookies</button>' +
-      '<button type="button" class="consent-accept" data-consent="accepted">Accept</button>' +
-      '</div>';
-    document.body.appendChild(banner);
-    banner.querySelectorAll('[data-consent]').forEach(function (btn) {
-      btn.addEventListener('click', function () { setConsent(btn.dataset.consent); });
-    });
   }
 
   // ── Determine active section from URL path ─────────────────────────────────
@@ -596,17 +530,7 @@
       });
     }
 
-    // Wait for the consent banner to go away so the two never stack.
-    function whenConsentClear(fn) {
-      var consent = document.getElementById('fishcare-consent');
-      if (!consent || consent.hidden) return fn();
-      var obs = new MutationObserver(function () {
-        if (!document.body.contains(consent) || consent.hidden) { obs.disconnect(); setTimeout(fn, 1500); }
-      });
-      obs.observe(consent, { attributes: true, attributeFilter: ['hidden'] });
-    }
-
-    setTimeout(function () { whenConsentClear(show); }, 3000);
+    setTimeout(show, 3000);
   }
 
   // ── Floating "Buy me a coffee" + feedback buttons ─────────────────────────
@@ -733,11 +657,11 @@
       setupMobileNavigation();
       addLegalLinks();
     } else {
-      injectConsentBannerStyles();
       setupGlobalFooter();
     }
     ensureContentSchema();
-    setupConsentBanner();
+    enableAnalytics();
+    enableAds();
     setupAppBanner();
     registerServiceWorker();
   }
