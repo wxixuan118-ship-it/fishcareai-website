@@ -87,6 +87,8 @@
     'aquarium-heater-calculator': { ready: '#h-out', changed: true, copy: PLAN_COPY },
     'aquarium-size-calculator': { ready: '#vol-result', changed: true, copy: PLAN_COPY },
     'aquarium-substrate-calculator': { ready: '#sub-result:not(:empty)', copy: PLAN_COPY },
+    // /aquascaping/hardscape/ sloped-substrate calculator (script tag carries data-tool)
+    'hardscape-substrate': { ready: '#sub-out[data-analyzed="true"]', copy: PLAN_COPY },
     'aquarium-weight-calculator': { ready: '#w-out', changed: true, copy: PLAN_COPY },
     'fish-feeding-calculator': { ready: '#feeding-result:not(:empty)', copy: FEEDING_COPY },
     'fish-tank-stocking-calculator': { ready: '#stock-result:not(:empty)', copy: COMPAT_COPY },
