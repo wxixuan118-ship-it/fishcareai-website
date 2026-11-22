@@ -432,7 +432,23 @@ def render_plan(p):
 <a class="btn" href="/tools/fish-tank-stocking-calculator/?gal={p['gallons']}">How Many Fish Fit in {p['gallons']} Gallons?</a>
 <a class="btn btn-ghost" href="/tools/aquarium-size-calculator/">Aquarium Volume Calculator</a>
 </div>
+<p class="scape-note">{scape_note(g)}</p>
 </section>"""
+
+
+def scape_note(g):
+    """One size-aware line linking the /aquascaping/ cluster (added 2026-11-22)."""
+    if g <= 10:
+        return (f'Planning a planted layout? A {g}-gallon tank suits a nano aquascape: one main stone or a single piece of wood, '
+                f'a low carpet and a small school of nano fish. See the <a href="/aquascaping/">aquascaping guide</a> or a three-stone '
+                f'<a href="/aquascaping/iwagumi/">iwagumi layout</a>.')
+    if g <= 40:
+        return (f'Planning a planted layout? A {g}-gallon tank is big enough for any <a href="/aquascaping/">aquascaping style</a>, '
+                f'from a 3–5 stone <a href="/aquascaping/iwagumi/">iwagumi</a> to a nature layout built around one piece of driftwood. '
+                f'The <a href="/aquascaping/hardscape/">hardscape guide</a> works out how much substrate you need.')
+    return (f'Planning a planted layout? At {g} gallons there is room for a full Dutch garden or a large nature aquascape. '
+            f'Rock and substrate add a lot of weight, so check the <a href="/aquascaping/hardscape/">hardscape guide</a> before buying, '
+            f'and start with the <a href="/aquascaping/">aquascaping guide</a> for styles and setup order.')
 
 
 def render_faq(p):
