@@ -1,11 +1,12 @@
 /* One stable header on every public page. The compliance script normalizes
    legacy .nav, .nlinks and .site-nav markup into this component. */
-body>.fishcare-global-nav{
+html body>#fishcare-global-navigation.fishcare-global-nav{
   box-sizing:border-box!important;
   position:sticky!important;
   inset:0 0 auto!important;
   z-index:1000!important;
   width:100%!important;
+  max-width:none!important;
   height:64px!important;
   min-height:64px!important;
   margin:0!important;
@@ -21,8 +22,8 @@ body>.fishcare-global-nav{
   box-shadow:0 8px 26px rgba(0,10,22,.18)!important;
   backdrop-filter:blur(14px)!important;
 }
-body>.fishcare-global-nav *{box-sizing:border-box!important}
-body>.fishcare-global-nav .brand{
+html body>#fishcare-global-navigation.fishcare-global-nav *{box-sizing:border-box!important}
+html body>#fishcare-global-navigation.fishcare-global-nav .brand{
   display:flex!important;
   align-items:center!important;
   flex:0 0 142px!important;
@@ -31,14 +32,14 @@ body>.fishcare-global-nav .brand{
   margin:0!important;
   padding:0!important;
 }
-body>.fishcare-global-nav .brand img{
+html body>#fishcare-global-navigation.fishcare-global-nav .brand img{
   display:block!important;
   width:142px!important;
   height:36px!important;
   max-width:none!important;
   object-fit:contain!important;
 }
-body>.fishcare-global-nav .nlinks{
+html body>#fishcare-global-navigation.fishcare-global-nav .nlinks{
   position:static!important;
   flex-wrap:nowrap!important;
   display:flex!important;
@@ -53,7 +54,7 @@ body>.fishcare-global-nav .nlinks{
   border:0!important;
   box-shadow:none!important;
 }
-body>.fishcare-global-nav .nlinks .nl{
+html body>#fishcare-global-navigation.fishcare-global-nav .nlinks .nl{
   display:inline-flex!important;
   align-items:center!important;
   justify-content:center!important;
@@ -68,12 +69,12 @@ body>.fishcare-global-nav .nlinks .nl{
   text-decoration:none!important;
   white-space:nowrap!important;
 }
-body>.fishcare-global-nav .nlinks .nl:hover,
-body>.fishcare-global-nav .nlinks .nl.act{
+html body>#fishcare-global-navigation.fishcare-global-nav .nlinks .nl:hover,
+html body>#fishcare-global-navigation.fishcare-global-nav .nlinks .nl.act{
   color:#fff!important;
   background:rgba(125,235,255,.14)!important;
 }
-body>.fishcare-global-nav .hbg{
+html body>#fishcare-global-navigation.fishcare-global-nav .hbg{
   display:none!important;
   width:44px!important;
   height:44px!important;
@@ -87,7 +88,7 @@ body>.fishcare-global-nav .hbg{
   border:1px solid rgba(125,235,255,.24)!important;
   border-radius:12px!important;
 }
-body>.fishcare-global-nav .hbg span{
+html body>#fishcare-global-navigation.fishcare-global-nav .hbg span{
   display:block!important;
   width:20px!important;
   height:2px!important;
@@ -96,24 +97,24 @@ body>.fishcare-global-nav .hbg span{
   border-radius:2px!important;
 }
 @media(max-width:940px){
-  body>.fishcare-global-nav{height:64px!important;min-height:64px!important;padding:0 14px!important;flex-direction:row!important;align-items:center!important}
-  body>.fishcare-global-nav .hbg{display:flex!important;flex:0 0 44px!important}
-  body>.fishcare-global-nav .nlinks{display:none!important;position:absolute!important;top:64px!important;left:0!important;right:0!important;width:100%!important;padding:10px 14px 14px!important;flex-direction:column!important;align-items:stretch!important;gap:4px!important;max-height:calc(100dvh - 64px);overflow-y:auto;background:rgba(5,31,50,.98)!important;border-bottom:1px solid rgba(125,235,255,.2)!important;box-shadow:0 16px 30px rgba(0,10,22,.28)!important}
-  body>.fishcare-global-nav .nlinks.open{display:flex!important}
-  body>.fishcare-global-nav .nlinks .nl{width:100%!important;justify-content:flex-start!important;padding:10px 14px!important}
-  body>.fishcare-global-nav .nlinks .nl.nl-app-btn{background:rgba(94,232,247,.1)!important;border-color:rgba(94,232,247,.25)!important}
+  html body>#fishcare-global-navigation.fishcare-global-nav{height:64px!important;min-height:64px!important;padding:0 14px!important;flex-direction:row!important;align-items:center!important}
+  html body>#fishcare-global-navigation.fishcare-global-nav .hbg{display:flex!important;flex:0 0 44px!important}
+  html body>#fishcare-global-navigation.fishcare-global-nav .nlinks{display:none!important;position:absolute!important;top:64px!important;left:0!important;right:0!important;width:100%!important;padding:10px 14px 14px!important;flex-direction:column!important;align-items:stretch!important;gap:4px!important;max-height:calc(100dvh - 64px);overflow-y:auto;background:rgba(5,31,50,.98)!important;border-bottom:1px solid rgba(125,235,255,.2)!important;box-shadow:0 16px 30px rgba(0,10,22,.28)!important}
+  html body>#fishcare-global-navigation.fishcare-global-nav .nlinks.open{display:flex!important}
+  html body>#fishcare-global-navigation.fishcare-global-nav .nlinks .nl{width:100%!important;justify-content:flex-start!important;padding:10px 14px!important}
+  html body>#fishcare-global-navigation.fishcare-global-nav .nlinks .nl.nl-app-btn{background:rgba(94,232,247,.1)!important;border-color:rgba(94,232,247,.25)!important}
 }
 
 /* App nav button */
-body>.fishcare-global-nav .nlinks .nl.nl-app-btn{
+html body>#fishcare-global-navigation.fishcare-global-nav .nlinks .nl.nl-app-btn{
   background:rgba(94,232,247,.08)!important;
   border:1px solid rgba(94,232,247,.22)!important;
   color:#5EE8F7!important;
   border-radius:10px!important;
   margin-left:4px!important;
 }
-body>.fishcare-global-nav .nlinks .nl.nl-app-btn:hover,
-body>.fishcare-global-nav .nlinks .nl.nl-app-btn.act{
+html body>#fishcare-global-navigation.fishcare-global-nav .nlinks .nl.nl-app-btn:hover,
+html body>#fishcare-global-navigation.fishcare-global-nav .nlinks .nl.nl-app-btn.act{
   background:rgba(94,232,247,.18)!important;
   color:#fff!important;
 }

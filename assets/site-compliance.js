@@ -106,8 +106,14 @@
   // Pages that ship their own header/footer and do not load
   // fishcare-glass-redesign.css set <html data-global-chrome="false">. They
   // still get analytics, but keep their own layout.
+  // data-global-chrome="nav" keeps the page's own layout and footer markup but
+  // still renders the global navbar.
+  function chromeMode() {
+    return document.documentElement.getAttribute('data-global-chrome') || '';
+  }
   function globalChromeEnabled() {
-    return document.documentElement.getAttribute('data-global-chrome') !== 'false';
+    var m = chromeMode();
+    return m !== 'false' && m !== 'nav';
   }
 
   // ── Determine active section from URL path ─────────────────────────────────
@@ -175,7 +181,7 @@
     if (!document.getElementById('fishcare-nav-styles')) {
       var css = document.createElement('link');
       css.id = 'fishcare-nav-styles'; css.rel = 'stylesheet';
-      css.href = '/assets/site-navigation.css?v=20261122';
+      css.href = '/assets/site-navigation.css?v=20261122b';
       document.head.appendChild(css);
     }
   }
@@ -665,6 +671,10 @@
       setupMobileNavigation();
       addLegalLinks();
     } else {
+      if (chromeMode() === 'nav') {
+        setupGlobalNavigation();
+        setupMobileNavigation();
+      }
       setupGlobalFooter();
     }
     ensureContentSchema();
