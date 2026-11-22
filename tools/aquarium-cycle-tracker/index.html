@@ -287,8 +287,19 @@ p{margin-bottom:.85rem;color:var(--mu)}p:last-child{margin-bottom:0}
     var ios = /iPhone|iPod|iPad/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
     var variant = ios ? 'app-store' : 'app-page';
     var a = box.querySelector('a');
-    if (ios) a.href = 'https://apps.apple.com/app/fishcare-ai/id6793299571?ct=' + encodeURIComponent('web-' + placement).slice(0, 40) + '&mt=8';
-    function ev(n){ try { if (typeof window.gtag === 'function') window.gtag('event', n, { placement: placement, variant: variant, page_path: location.pathname }); } catch (e) {} }
+    // ct / params match /assets/app-cta.js (Analytics 2.0): tools category campaign.
+    if (ios) a.href = 'https://apps.apple.com/app/fishcare-ai/id6793299571?pt=128992060&ct=fc_tools&mt=8';
+    else a.href += '&src=fc_tools';
+    var dest = ios ? 'app_store' : 'app_page';
+    var tool = location.pathname.replace(/^\/tools\/|\/$/g, '').replace(/-/g, '_');
+    function ev(n){ try { if (typeof window.gtag !== 'function') return;
+      var p = { placement: placement, button_location: placement, variant: variant, page_path: location.pathname,
+        page_category: 'tools', page_type: 'tool_' + tool, destination: dest, campaign: 'website_app_promotion', view_type: 'visible_on_result' };
+      if (n === 'app_cta_click') p.transport_type = 'beacon';
+      window.gtag('event', n, p);
+      window.gtag('event', n === 'app_cta_view' ? 'app_promo_view' : 'app_promo_click', p);
+      if (n === 'app_cta_click' && ios) window.gtag('event', 'app_store_click', p);
+    } catch (e) {} }
     a.addEventListener('click', function(){ ev('app_cta_click'); });
     var seen = false;
     return function show(){ box.hidden = false; if (!seen) { seen = true; ev('app_cta_view'); } };

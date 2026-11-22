@@ -29,7 +29,7 @@
   // Flip to true once the Play listing stops returning 404 (also in site-compliance.js).
   var PLAY_LIVE = false;
   // App Store Connect > App Analytics > Campaigns. Installs are only attributed once set.
-  var PROVIDER_TOKEN = '';
+  var PROVIDER_TOKEN = '128992060';
   var PLUS_PRICE = 'FishCare Plus ($5.99/mo or $39.99/yr)';
 
   // Deep-rewrite test pages (reports/fish-health-deep-test-2026-09-28.csv): keep
@@ -121,32 +121,78 @@
   }
   if (/koi/.test(location.pathname)) toolName = null;
 
+  // Page category drives the App Store campaign (ct=fc_<category>) and the
+  // page_category / page_type event params. Keep in step with pageInfo() in
+  // /assets/site-compliance.js. Apple only reports a campaign after 5
+  // first-time downloads, so ct stays at category level; placement is GA4-only.
+  function pageInfo(path) {
+    var seg = path.replace(/^\/+|\/+$/g, '').split('/');
+    var s0 = seg[0] || '', s1 = seg[1] || '';
+    if (/^(fish-health|aquarium-fish-diseases)$/.test(s0)) {
+      return { category: 'health', type: !s1 ? 'health_hub' : s0 === 'fish-health' ? 'health_symptom' : 'health_species_diseases' };
+    }
+    if (s0 === 'compatibility') {
+      return { category: 'compat', type: !s1 ? 'compat_hub' : /-and-|-vs-/.test(s1) ? 'compat_pair' : 'compat_species_hub' };
+    }
+    if (/^(guides|aquascaping|resources)$/.test(s0)) return { category: 'guides', type: s1 ? 'guide' : 'guides_hub' };
+    if (/^(species|amphibians|wiki|encyclopedia)$/.test(s0)) return { category: 'species', type: s1 ? 'species_profile' : 'species_hub' };
+    if (/^(tools|calculators|tank-sizes|tanks|identify)$/.test(s0)) {
+      return { category: 'tools', type: s0 === 'tools' && s1 ? 'tool_' + s1.replace(/-/g, '_') : s0 === 'identify' ? 'fish_identifier' : s1 ? 'tank_size_calculator' : s0 + '_hub' };
+    }
+    if (s0 === 'app') return { category: 'app_page', type: 'app_landing' };
+    return { category: 'other', type: s0 ? s0.replace(/-/g, '_') : 'home' };
+  }
+  var PAGE = pageInfo(location.pathname);
+
   function storeLink(placement) {
     if (target === 'play') {
-      return PLAY_URL + '&referrer=' + encodeURIComponent('utm_source=fishcareai.com&utm_medium=web&utm_campaign=' + placement);
+      return PLAY_URL + '&referrer=' + encodeURIComponent('utm_source=fishcareai.com&utm_medium=web&utm_campaign=fc_' + PAGE.category + '&utm_content=' + placement);
     }
-    var params = 'ct=' + encodeURIComponent('web-' + placement).slice(0, 40) + '&mt=8';
+    var params = 'ct=fc_' + PAGE.category + '&mt=8';
     if (PROVIDER_TOKEN) params = 'pt=' + PROVIDER_TOKEN + '&' + params;
     return STORE_URL + '?' + params;
   }
 
-  function track(name, placement, variant) {
+  function appPageLink(placement) {
+    return '/app/?utm_source=web&utm_medium=' + encodeURIComponent(placement) + '&src=fc_' + PAGE.category;
+  }
+
+  // Where a box's link goes, for the destination param.
+  function destinationOf(href) {
+    if (/apps\.apple\.com/.test(href)) return 'app_store';
+    if (/play\.google\.com/.test(href)) return 'google_play';
+    if (/^\/app\/|fishcareai\.com\/app\//.test(href)) return 'app_page';
+    return 'web_tool';
+  }
+
+  // Sends the legacy name (app_cta_*, keeps history continuous) and the
+  // Analytics 2.0 name (app_promo_* / app_store_click / google_play_click).
+  function track(name, placement, variant, destination) {
     try {
-      if (typeof window.gtag === 'function') {
-        window.gtag('event', name, { placement: placement, variant: variant, page_path: location.pathname });
-      }
+      if (typeof window.gtag !== 'function') return;
+      var p = {
+        placement: placement, button_location: placement, variant: variant, page_path: location.pathname,
+        page_category: PAGE.category, page_type: PAGE.type, destination: destination,
+        campaign: 'website_app_promotion', view_type: 'visible_50'
+      };
+      if (name === 'app_cta_click') p.transport_type = 'beacon';
+      window.gtag('event', name, p);
+      window.gtag('event', name === 'app_cta_view' ? 'app_promo_view' : 'app_promo_click', p);
+      if (name === 'app_cta_click' && destination === 'app_store') window.gtag('event', 'app_store_click', p);
+      if (name === 'app_cta_click' && destination === 'google_play') window.gtag('event', 'google_play_click', p);
     } catch (e) {}
   }
 
   function instrument(box, links, placement, variant) {
     Array.prototype.forEach.call(links, function (link) {
-      link.addEventListener('click', function () { track('app_cta_click', placement, variant); });
+      link.addEventListener('click', function () { track('app_cta_click', placement, variant, destinationOf(link.getAttribute('href') || '')); });
     });
     if (!('IntersectionObserver' in window)) return;
     var observer = new IntersectionObserver(function (entries) {
       if (!entries.some(function (entry) { return entry.isIntersecting; })) return;
       observer.disconnect();
-      track('app_cta_view', placement, variant);
+      var first = links[0];
+      track('app_cta_view', placement, variant, first ? destinationOf(first.getAttribute('href') || '') : '');
     }, { threshold: 0.5 });
     observer.observe(box);
   }
@@ -190,7 +236,7 @@
     var link = document.createElement('a');
     var linkCss = 'display:inline-block;padding:9px 16px;border-radius:8px;background:#fff;color:#0F3D5E;font-weight:700;font-size:.88rem;text-decoration:none';
     if (target === 'qr') {
-      link.href = '/app/?utm_source=web&utm_medium=' + encodeURIComponent(placement);
+      link.href = appPageLink(placement);
       link.textContent = 'See the app →';
       link.style.cssText = linkCss;
       text.appendChild(link);

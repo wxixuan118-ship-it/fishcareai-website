@@ -427,7 +427,7 @@
   // Flip to true once the Play listing stops returning 404.
   var PLAY_LIVE = false;
   // App Store Connect > App Analytics > Campaigns. Installs are only attributed once set.
-  var APP_PROVIDER_TOKEN = '';
+  var APP_PROVIDER_TOKEN = '128992060';
   var APP_BANNER_KEY = 'fishcare-app-banner-v2';
   var APP_BANNER_SNOOZE_DAYS = 7;
 
@@ -439,22 +439,56 @@
     return 'desktop';
   }
 
-  function appStoreLink(placement) {
-    var params = 'ct=' + encodeURIComponent('web-' + placement).slice(0, 40) + '&mt=8';
+  // Page category drives the App Store campaign (ct=fc_<category>) and the
+  // page_category / page_type event params. Keep in step with pageInfo() in
+  // /assets/app-cta.js. Apple only reports a campaign after 5 first-time
+  // downloads, so ct stays at category level; placement goes to GA4 only.
+  function pageInfo(path) {
+    var seg = path.replace(/^\/+|\/+$/g, '').split('/');
+    var s0 = seg[0] || '', s1 = seg[1] || '';
+    if (/^(fish-health|aquarium-fish-diseases)$/.test(s0)) {
+      return { category: 'health', type: !s1 ? 'health_hub' : s0 === 'fish-health' ? 'health_symptom' : 'health_species_diseases' };
+    }
+    if (s0 === 'compatibility') {
+      return { category: 'compat', type: !s1 ? 'compat_hub' : /-and-|-vs-/.test(s1) ? 'compat_pair' : 'compat_species_hub' };
+    }
+    if (/^(guides|aquascaping|resources)$/.test(s0)) return { category: 'guides', type: s1 ? 'guide' : 'guides_hub' };
+    if (/^(species|amphibians|wiki|encyclopedia)$/.test(s0)) return { category: 'species', type: s1 ? 'species_profile' : 'species_hub' };
+    if (/^(tools|calculators|tank-sizes|tanks|identify)$/.test(s0)) {
+      return { category: 'tools', type: s0 === 'tools' && s1 ? 'tool_' + s1.replace(/-/g, '_') : s0 === 'identify' ? 'fish_identifier' : s1 ? 'tank_size_calculator' : s0 + '_hub' };
+    }
+    if (s0 === 'app') return { category: 'app_page', type: 'app_landing' };
+    return { category: 'other', type: s0 ? s0.replace(/-/g, '_') : 'home' };
+  }
+  var PAGE = pageInfo(location.pathname);
+
+  function appStoreLink() {
+    var params = 'ct=fc_' + PAGE.category + '&mt=8';
     if (APP_PROVIDER_TOKEN) params = 'pt=' + APP_PROVIDER_TOKEN + '&' + params;
     return APP_STORE_URL + '?' + params;
   }
 
   function playLink(placement) {
-    var ref = 'utm_source=fishcareai.com&utm_medium=web&utm_campaign=' + placement;
+    var ref = 'utm_source=fishcareai.com&utm_medium=web&utm_campaign=fc_' + PAGE.category + '&utm_content=' + placement;
     return PLAY_URL + '&referrer=' + encodeURIComponent(ref);
   }
 
-  function trackApp(name, placement, variant) {
+  // Sends the legacy name (app_cta_*, keeps history continuous) and the
+  // Analytics 2.0 name (app_promo_* / app_store_click / google_play_click).
+  var NEW_NAME = { app_cta_view: 'app_promo_view', app_cta_click: 'app_promo_click', app_cta_dismiss: 'app_promo_dismiss' };
+  function trackApp(name, placement, variant, destination) {
     try {
-      if (typeof window.gtag === 'function') {
-        window.gtag('event', name, { placement: placement, variant: variant, page_path: location.pathname });
-      }
+      if (typeof window.gtag !== 'function') return;
+      var p = {
+        placement: placement, button_location: placement, variant: variant, page_path: location.pathname,
+        page_category: PAGE.category, page_type: PAGE.type, destination: destination,
+        campaign: 'website_app_promotion', view_type: 'insert'
+      };
+      if (name !== 'app_cta_view') p.transport_type = 'beacon';
+      window.gtag('event', name, p);
+      window.gtag('event', NEW_NAME[name], p);
+      if (name === 'app_cta_click' && destination === 'app_store') window.gtag('event', 'app_store_click', p);
+      if (name === 'app_cta_click' && destination === 'google_play') window.gtag('event', 'google_play_click', p);
     } catch (e) {}
   }
 
@@ -515,6 +549,7 @@
 
     var placement = 'floating-bar';
     var variant = platform === 'desktop' ? 'desktop-qr' : platform;
+    var destination = platform === 'desktop' ? 'app_page' : platform === 'ios' ? 'app_store' : 'google_play';
     var name = 'FishCare AI';
     var sub = 'Fish health check, reminders and water records';
     var html;
@@ -526,9 +561,9 @@
         '<p class="fcab-sub">' + sub + '</p></div>' +
         '<button class="fcab-close" type="button" aria-label="Dismiss">&times;</button>' +
         '<div class="fcab-qr"><img src="/assets/app-qr.svg" alt="QR code for the FishCare AI app page" width="92" height="92">' +
-        '<p>Scan with your phone camera to get the app.<br><a class="fcab-link" href="/app/?utm_source=web&amp;utm_medium=floating-card">See the app</a></p></div>';
+        '<p>Scan with your phone camera to get the app.<br><a class="fcab-link" href="/app/?utm_source=web&amp;utm_medium=floating-card&amp;src=fc_' + PAGE.category + '">See the app</a></p></div>';
     } else {
-      var href = platform === 'ios' ? appStoreLink(placement) : playLink(placement);
+      var href = platform === 'ios' ? appStoreLink() : playLink(placement);
       html =
         '<img class="fcab-icon" src="/assets/pwa/apple-touch-icon.png" alt="" width="42" height="42">' +
         '<div class="fcab-text"><p class="fcab-name">' + name + '</p>' +
@@ -547,14 +582,14 @@
       bar.innerHTML = html;
       document.body.appendChild(bar);
       setTimeout(function () { bar.classList.add('fcab-show'); }, 60);
-      trackApp('app_cta_view', placement, variant);
+      trackApp('app_cta_view', placement, variant, destination);
       Array.prototype.forEach.call(bar.querySelectorAll('.fcab-link'), function (a) {
-        a.addEventListener('click', function () { trackApp('app_cta_click', placement, variant); });
+        a.addEventListener('click', function () { trackApp('app_cta_click', placement, variant, destination); });
       });
       bar.querySelector('.fcab-close').addEventListener('click', function () {
         bar.classList.remove('fcab-show');
         setTimeout(function () { bar.remove(); }, 350);
-        trackApp('app_cta_dismiss', placement, variant);
+        trackApp('app_cta_dismiss', placement, variant, destination);
         try {
           localStorage.setItem(APP_BANNER_KEY, String(Date.now() + APP_BANNER_SNOOZE_DAYS * 864e5));
         } catch (e) {}

@@ -103,10 +103,15 @@ h1{color:var(--pd);font-size:2rem;line-height:1.2;margin-bottom:10px}
   function storeBtn(store) {
     var a = el('a', 'btn' + (btns.children.length ? ' alt' : ''), store === 'ios' ? 'Download on the App Store' : 'Get it on Google Play');
     a.href = store === 'ios'
-      ? APP_STORE + '?ct=' + encodeURIComponent('web-open-' + src).slice(0, 40) + '&mt=8'
+      ? APP_STORE + '?pt=128992060&ct=fc_other&mt=8'
       : PLAY + '&referrer=' + encodeURIComponent('utm_source=fishcareai.com&utm_medium=web&utm_campaign=open-' + src);
     a.rel = 'noopener';
-    a.addEventListener('click', function () { track('identify_store_click', { store: store, species_id: id || '' }); });
+    a.addEventListener('click', function () {
+      track('identify_store_click', { store: store, species_id: id || '' });
+      track(store === 'ios' ? 'app_store_click' : 'google_play_click', { placement: 'open-page', button_location: 'open-page',
+        page_category: 'other', page_type: 'app_open_redirect', destination: store === 'ios' ? 'app_store' : 'google_play',
+        campaign: 'website_app_promotion', species_id: id || '' });
+    });
     btns.appendChild(a);
   }
   if (p !== 'android') storeBtn('ios');
