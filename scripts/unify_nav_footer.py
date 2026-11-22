@@ -27,14 +27,16 @@ SKIP_FILES = {'index.html', '__forms.html', 'FishCare.html', 'tools/index.html'}
 # ── Mirrors NAV_ITEMS in assets/site-compliance.js ──────────────────────────
 NAV_ITEMS = [
     ('Home',          '/',                'home'),
+    ('Tools',         '/tools/',          'tools'),
     ('Guides',        '/guides/',         'guides'),
     ('Encyclopedia',  '/species',         'species'),
     ('Compatibility', '/compatibility/',  'compatibility'),
     ('Fish Health',   '/fish-health/',    'fish-health'),
     ('Fish ID',       '/identify/',       'identify'),
+    ('App',           '/app/',            'app'),
     ('About',         '/about/',          'about'),
 ]
-NAV_APP = ('\U0001F4F1 App', '/app/')
+# Active state is set at runtime by site-compliance.js, not in static HTML.
 
 FOOTER_EXPLORE = [
     ('All Guides', '/guides/'), ('Encyclopedia', '/species'),
@@ -85,11 +87,8 @@ def section_for(rel):
 def nav_html(section):
     links = []
     for label, href, sec in NAV_ITEMS:
-        act = sec == section
-        cls = 'nl act' if act else 'nl'
-        cur = ' aria-current="page"' if act else ''
-        links.append(f'<a class="{cls}" href="{href}"{cur}>{label}</a>')
-    links.append(f'<a class="nl nl-app-btn" href="{NAV_APP[1]}">{NAV_APP[0]}</a>')
+        cls = 'nl nl-app-btn' if sec == 'app' else 'nl'
+        links.append(f'<a class="{cls}" href="{href}">{label}</a>')
     return ('<nav class="nb fishcare-global-nav" id="fishcare-global-navigation" aria-label="Main navigation">'
             '<a class="brand" href="/" aria-label="FishCare AI home">'
             '<img class="fishcare-logo-img" src="/assets/fishcare-logo.svg" alt="FishCare AI" width="142" height="36">'

@@ -7,13 +7,14 @@
   // ── Single source of truth for all navigation items ───────────────────────
   var NAV_ITEMS = [
     { label: 'Home',          href: '/',                                    section: 'home' },
+    { label: 'Tools', href: '/tools/', section: 'tools' },
     { label: 'Guides',        href: '/guides/',                             section: 'guides' },
     { label: 'Encyclopedia',  href: '/species',                             section: 'species' },
     { label: 'Compatibility', href: '/compatibility/',                      section: 'compatibility' },
     { label: 'Fish Health',   href: '/fish-health/',                        section: 'fish-health' },
     { label: 'Fish ID',       href: '/identify/',                           section: 'identify' },
-    { label: 'About',         href: '/about/',                              section: 'about' },
-    { label: '📱 App',        href: '/app/',                                section: 'app', extraClass: 'nl-app-btn' },
+    { label: 'App', href: '/app/', section: 'app', extraClass: 'nl-app-btn' },
+    { label: 'About', href: '/about/', section: 'about' },
   ];
 
   // ── Footer link configuration ──────────────────────────────────────────────
@@ -112,6 +113,7 @@
   // ── Determine active section from URL path ─────────────────────────────────
   function getActiveSection() {
     var path = window.location.pathname;
+    if (/^\/(?:tools|calculators)(?:\/|$)/.test(path)) return 'tools';
     if (path === '/')                                         return 'home';
     if (path.indexOf('/guides/')  === 0)                     return 'guides';
     if (path.indexOf('/wiki/')    === 0 ||
@@ -170,6 +172,12 @@
     nav.id = 'fishcare-global-navigation';
     nav.setAttribute('aria-label', 'Main navigation');
     nav.innerHTML = renderHeader();
+    if (!document.getElementById('fishcare-nav-styles')) {
+      var css = document.createElement('link');
+      css.id = 'fishcare-nav-styles'; css.rel = 'stylesheet';
+      css.href = '/assets/site-navigation.css?v=20261122';
+      document.head.appendChild(css);
+    }
   }
 
   // ── Global footer styles ───────────────────────────────────────────────────
