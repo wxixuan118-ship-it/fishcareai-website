@@ -4,17 +4,56 @@
 <meta charset="UTF-8">
 <meta name="apple-itunes-app" content="app-id=6793299571">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>FishCare AI App — Fish Health Tracker for iPhone</title>
-<meta name="description" content="FishCare AI iPhone app: AI-powered Tank Check, water quality tracking, care reminders and health records. Know exactly what to do when your fish needs help.">
+<title>FishCare AI: Aquarium App for iPhone — Water Tracker &amp; Fish Health Check</title>
+<meta name="description" content="FishCare AI is an aquarium app for iPhone: log water tests, see your tank health score, get feeding and water change reminders, and run a Tank Check when a fish looks sick.">
 <link rel="canonical" href="https://www.fishcareai.com/app/">
-<meta property="og:title" content="FishCare AI App — Your Fish Doctor on iPhone">
-<meta property="og:description" content="Tank Check diagnoses fish symptoms in seconds, tracks water quality, and sends care reminders — so you always know what to do.">
+<meta property="og:title" content="FishCare AI — The Aquarium App That Tells You What to Do Next">
+<meta property="og:description" content="Track water quality, care plans and fish health in one aquarium app. Tank Check turns symptoms and water readings into a clear action plan.">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://www.fishcareai.com/app/">
+<meta property="og:image" content="https://www.fishcareai.com/assets/app-screens/aquarium-app-home.webp">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" as="image" href="/assets/app-screens/aquarium-app-home.webp" fetchpriority="high">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "FishCare AI",
+  "alternateName": "FishCare AI aquarium app",
+  "url": "https://www.fishcareai.com/app/",
+  "downloadUrl": "https://apps.apple.com/app/fishcare-ai/id6793299571",
+  "operatingSystem": "iOS 15 or later",
+  "applicationCategory": "LifestyleApplication",
+  "description": "Aquarium app for iPhone that tracks water tests, care plans and fish health, with a rules-based Tank Check for sick fish.",
+  "publisher": {"@type": "Organization", "name": "EverTrend LLC"},
+  "offers": [
+    {"@type": "Offer", "name": "Free download", "price": "0", "priceCurrency": "USD"},
+    {"@type": "Offer", "name": "FishCare Plus monthly", "price": "5.99", "priceCurrency": "USD"},
+    {"@type": "Offer", "name": "FishCare Plus yearly", "price": "39.99", "priceCurrency": "USD"}
+  ],
+  "screenshot": [
+    "https://www.fishcareai.com/assets/app-screens/aquarium-app-home.webp",
+    "https://www.fishcareai.com/assets/app-screens/aquarium-app-tank-check-symptoms.webp",
+    "https://www.fishcareai.com/assets/app-screens/aquarium-app-tank-check-result.webp",
+    "https://www.fishcareai.com/assets/app-screens/aquarium-app-tank-health-score.webp",
+    "https://www.fishcareai.com/assets/app-screens/aquarium-app-water-history.webp",
+    "https://www.fishcareai.com/assets/app-screens/aquarium-app-care-plans.webp"
+  ]
+}
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What can I track with the FishCare AI aquarium app?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Each tank keeps its own water tests (temperature, pH, ammonia, nitrite and nitrate, plus salinity for saltwater), water changes, feeding, medicine and filter maintenance, its fish and their counts, and every health check. The app turns those records into a tank health score and a water history chart, and reminds you when the next feeding, water test or water change is due."
+      }
+    },
     {
       "@type": "Question",
       "name": "My fish is lying at the bottom and won't eat. Can FishCare AI tell me what's wrong?",
@@ -202,60 +241,46 @@ body{
 .ap-stat strong{display:block;font-size:1.6rem;font-weight:900;color:var(--c-teal);line-height:1}
 .ap-stat span{font-size:.72rem;color:var(--c-muted);font-weight:600;letter-spacing:.05em;text-transform:uppercase;margin-top:2px;display:block}
 
-/* PHONE MOCKUP */
-.ap-phone-wrap{flex-shrink:0;display:flex;justify-content:center;align-items:center}
-.ap-phone{
-  width:260px;height:530px;
-  background:#081925;
-  border-radius:46px;
-  border:2px solid rgba(94,232,247,.22);
-  box-shadow:
-    0 0 0 8px rgba(4,17,29,.85),
-    0 50px 120px rgba(0,0,0,.6),
-    inset 0 0 0 1px rgba(255,255,255,.04);
-  position:relative;overflow:hidden;padding:14px;
+/* PHONE FRAMES (real app screenshots) */
+.ap-phone-wrap{flex-shrink:0;position:relative;width:520px;height:560px}
+.ap-device{
+  position:relative;border-radius:40px;padding:9px;
+  background:linear-gradient(160deg,#1d3346,#0a1a28);
+  border:1px solid rgba(94,232,247,.22);
+  box-shadow:0 0 0 1px rgba(0,0,0,.5),0 40px 90px rgba(0,0,0,.55);
 }
-.ap-phone-notch{
-  position:absolute;top:0;left:50%;transform:translateX(-50%);
-  width:110px;height:28px;
-  background:#081925;border-radius:0 0 20px 20px;z-index:10;
-  display:flex;align-items:center;justify-content:center;gap:6px;
-}
-.ap-phone-notch::after{content:'';width:10px;height:10px;border-radius:50%;background:#162a3c}
-.ap-screen{
-  background:linear-gradient(180deg,#061829,#08203a);
-  border-radius:34px;height:100%;overflow:hidden;
-  padding:36px 14px 14px;
-  display:flex;flex-direction:column;gap:8px;font-size:.76rem;
-}
-.ap-screen-bar{
-  background:rgba(22,135,199,.15);border:1px solid rgba(22,135,199,.25);
-  border-radius:10px;padding:7px 10px;
-  display:flex;align-items:center;gap:6px;
-  color:var(--c-teal);font-weight:700;font-size:.7rem;letter-spacing:.03em;
-}
-.ap-screen-title{font-size:.95rem;font-weight:900;color:#fff}
-.ap-screen-sub{font-size:.65rem;color:rgba(234,251,255,.45);margin-top:-4px}
-.ap-screen-card{
-  background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.09);
-  border-radius:11px;padding:9px 11px;color:rgba(234,251,255,.8);
-}
-.ap-screen-card.warn{background:rgba(255,140,0,.1);border-color:rgba(255,140,0,.28);color:#FFB347}
-.ap-screen-card.good{background:rgba(46,204,113,.08);border-color:rgba(46,204,113,.25);color:#2ecc71}
-.ap-screen-urgency{
-  display:inline-flex;align-items:center;gap:4px;
-  background:rgba(255,80,65,.13);border:1px solid rgba(255,80,65,.32);
-  border-radius:7px;padding:4px 10px;
-  color:#ff8a7a;font-size:.65rem;font-weight:800;letter-spacing:.04em;
-}
-.ap-screen-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 8px;margin-top:6px;font-size:.67rem}
-.ap-screen-grid .ok{color:#2ecc71}
-.ap-screen-grid .hi{color:#ff9080}
-.ap-screen-checklist{display:flex;flex-direction:column;gap:5px;margin-top:6px}
-.ap-screen-check{display:flex;gap:5px;align-items:flex-start;font-size:.66rem;color:rgba(234,251,255,.75)}
-.ap-screen-check-done{color:#2ecc71;flex-shrink:0}
-.ap-screen-check-todo{color:rgba(234,251,255,.35);flex-shrink:0}
-.ap-screen-label{font-size:.65rem;font-weight:700;color:rgba(234,251,255,.55);text-transform:uppercase;letter-spacing:.06em;margin-bottom:3px}
+.ap-device img{display:block;width:100%;height:auto;aspect-ratio:390/844;border-radius:32px;background:#f3f7f6}
+.ap-phone-wrap .ap-device{position:absolute;width:250px}
+.ap-phone-wrap .ap-device.front{left:20px;top:0;z-index:2}
+.ap-phone-wrap .ap-device.back{right:10px;top:48px;transform:rotate(4deg);opacity:.96}
+
+/* SCREENSHOT GALLERY */
+.ap-gallery{background:var(--c-navy2);padding:80px 0;border-top:1px solid rgba(94,232,247,.1)}
+.ap-gallery .ap-section-label{color:var(--c-teal)}
+.ap-gallery .ap-section-title{color:#fff!important}
+.ap-gallery .ap-section-desc{color:var(--c-muted)!important;margin-bottom:36px}
+.ap-shots{display:flex;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 4px 22px;margin:0 -4px;list-style:none;scrollbar-width:thin;scrollbar-color:rgba(94,232,247,.3) transparent}
+.ap-shots li{flex:0 0 220px;scroll-snap-align:start}
+.ap-shots .ap-device{border-radius:34px;padding:7px}
+.ap-shots .ap-device img{border-radius:28px}
+.ap-shots figcaption{margin-top:14px;font-size:.86rem;line-height:1.5;color:var(--c-muted)}
+.ap-shots figcaption strong{display:block;color:#fff;font-size:.95rem;margin-bottom:2px}
+
+/* FEATURE ROWS */
+.ap-rows{background:var(--c-navy);padding:40px 0 30px}
+.ap-row{display:flex;align-items:center;gap:72px;padding:56px 0}
+.ap-row + .ap-row{border-top:1px solid rgba(94,232,247,.08)}
+.ap-row.flip{flex-direction:row-reverse}
+.ap-row-media{flex:0 0 auto;display:flex;gap:18px}
+.ap-row-media .ap-device{width:240px}
+.ap-row-text{flex:1;min-width:0}
+.ap-row-text .ap-section-label{color:var(--c-teal)}
+.ap-row-text h2{font-size:clamp(1.5rem,2.6vw,2rem);font-weight:900;line-height:1.2;color:#fff;margin-bottom:14px;text-wrap:balance}
+.ap-row-text p{color:var(--c-muted);font-size:.97rem;line-height:1.75;margin-bottom:14px;max-width:520px}
+.ap-row-list{list-style:none;display:flex;flex-direction:column;gap:9px;margin-top:6px}
+.ap-row-list li{display:flex;gap:10px;color:rgba(234,251,255,.86);font-size:.92rem;line-height:1.55}
+.ap-row-list li::before{content:'✓';color:var(--c-teal);font-weight:800;flex-shrink:0}
+.ap-row-text a{color:var(--c-teal)}
 
 /* SECTION SHARED */
 .ap-section-label{font-size:.74rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--c-blue);margin-bottom:10px}
@@ -416,13 +441,28 @@ body{
 .ap-faq-item a{color:var(--c-teal)!important}
 
 /* RESPONSIVE */
+@media(max-width:980px) and (min-width:761px){
+  .ap-hero .ap-container{gap:32px}
+  .ap-phone-wrap{width:400px;height:480px}
+  .ap-phone-wrap .ap-device{width:210px}
+  .ap-row{gap:40px}
+  .ap-row-media .ap-device{width:200px}
+}
 @media(max-width:760px){
   .ap-hero .ap-container{flex-direction:column;text-align:center;gap:40px}
   .ap-lead,.ap-stats{margin-left:auto;margin-right:auto}
   .ap-stats{justify-content:center}
-  .ap-phone-wrap{order:-1}
-  .ap-phone{width:210px;height:420px}
-  .ap-screen{font-size:.68rem;padding:28px 12px 12px}
+  .ap-hero{padding:48px 0 64px}
+  .ap-phone-wrap{width:300px;height:380px;margin:0 auto}
+  .ap-phone-wrap .ap-device{width:172px;border-radius:30px;padding:6px}
+  .ap-phone-wrap .ap-device img{border-radius:26px}
+  .ap-phone-wrap .ap-device.front{left:0}
+  .ap-phone-wrap .ap-device.back{right:0;top:36px}
+  .ap-row,.ap-row.flip{flex-direction:column;gap:32px;padding:44px 0}
+  .ap-row-media{justify-content:center}
+  .ap-row-media .ap-device{width:min(42vw,200px);border-radius:30px;padding:6px}
+  .ap-row-media .ap-device img{border-radius:25px}
+  .ap-shots li{flex-basis:190px}
   .ap-safety-inner{flex-direction:column;text-align:center}
   .ap-pricing-grid{grid-template-columns:1fr;max-width:380px;margin:0 auto}
   .ap-pricing-grid .ap-plan.plus{margin-top:16px}
@@ -438,9 +478,9 @@ body{
 <section class="ap-hero">
 <div class="ap-container">
   <div class="ap-hero-text">
-    <div class="ap-eyebrow">🐠 Now on iPhone</div>
-    <h1>Your Fish Doctor,<br>Always Ready</h1>
-    <p class="ap-lead">Tank Check diagnoses fish symptoms in seconds, tracks water quality, and sends care reminders — so you always know what to do, not just hope for the best.</p>
+    <div class="ap-eyebrow">🐠 Aquarium app for iPhone</div>
+    <h1>The aquarium app that tells you what to do next</h1>
+    <p class="ap-lead">Log water tests, keep feeding and water changes on schedule, and see your tank's health at a glance. When a fish looks sick, Tank Check turns what you see and your water readings into a clear action plan.</p>
     <a href="https://apps.apple.com/app/fishcare-ai/id6793299571?pt=128992060&amp;ct=fc_app_page&amp;mt=8" target="_blank" rel="noopener" data-app-btn="hero" class="ap-store-btn">
       <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
       <div>
@@ -449,80 +489,122 @@ body{
       </div>
     </a>
     <div class="ap-stats">
-      <div class="ap-stat"><strong>Tank Check</strong><span>AI Health Triage</span></div>
-      <div class="ap-stat"><strong>5+</strong><span>Care Plan Types</span></div>
-      <div class="ap-stat"><strong>24/7</strong><span>Safety Rules</span></div>
+      <div class="ap-stat"><strong>5</strong><span>Water readings tracked</span></div>
+      <div class="ap-stat"><strong>7</strong><span>Tank types</span></div>
+      <div class="ap-stat"><strong>iOS 15+</strong><span>iPhone &amp; iPad</span></div>
     </div>
+  </div>
+  <div class="ap-phone-wrap">
+    <div class="ap-device back"><img src="/assets/app-screens/aquarium-app-tank-check-result.webp" alt="FishCare AI aquarium app Tank Check result showing a higher-risk white spot case and the steps to take today" width="780" height="1688" loading="lazy" decoding="async"></div>
+    <div class="ap-device front"><img src="/assets/app-screens/aquarium-app-home.webp" alt="FishCare AI aquarium app home screen with the fish health check, today's status and care plans" width="780" height="1688" fetchpriority="high"></div>
   </div>
 </div>
 </section>
 
-<!-- ── HOW IT WORKS ── -->
-<section class="ap-how" style="border-top:1px solid rgba(94,232,247,.1);border-bottom:1px solid rgba(94,232,247,.1)">
+<!-- ── SCREENSHOTS ── -->
+<section class="ap-gallery" id="screenshots" aria-labelledby="screens-title">
 <div class="ap-container">
-  <div class="ap-section-label">How It Works</div>
-  <h2 class="ap-section-title">From symptom to action in 3 steps</h2>
-  <p class="ap-section-desc">Tank Check combines AI observation with hard safety rules — so you get clear, prioritized guidance instead of generic advice.</p>
-  <div class="ap-steps">
-    <div class="ap-step">
-      <div class="ap-step-num">1</div>
-      <h3>Describe what you see</h3>
-      <p>Type symptoms: lethargy, color change, clamped fins, floating, spots, or loss of appetite. Log water readings to unlock full triage.</p>
+  <div class="ap-section-label">Screenshots</div>
+  <h2 class="ap-section-title" id="screens-title">Inside the FishCare AI aquarium app</h2>
+  <p class="ap-section-desc">Real screens from the iPhone app, shown with a sample 20-gallon planted community tank.</p>
+  <ul class="ap-shots">
+    <li><figure><div class="ap-device"><img src="/assets/app-screens/aquarium-app-home.webp" alt="FishCare AI aquarium app home screen" width="780" height="1688" loading="lazy" decoding="async"></div><figcaption><strong>Home</strong>Today's status, care due today and your tank at a glance.</figcaption></figure></li>
+    <li><figure><div class="ap-device"><img src="/assets/app-screens/aquarium-app-tank-check-symptoms.webp" alt="Tank Check symptom picker in the FishCare AI aquarium app" width="780" height="1688" loading="lazy" decoding="async"></div><figcaption><strong>Tank Check</strong>Pick the fish and tap what you have noticed.</figcaption></figure></li>
+    <li><figure><div class="ap-device"><img src="/assets/app-screens/aquarium-app-tank-check-result.webp" alt="Tank Check result with urgency level and likely cause" width="780" height="1688" loading="lazy" decoding="async"></div><figcaption><strong>Check result</strong>Urgency, why the rules flagged it, and what to do today.</figcaption></figure></li>
+    <li><figure><div class="ap-device"><img src="/assets/app-screens/aquarium-app-tank-health-score.webp" alt="Aquarium tank health score with water quality, water changes and fish records" width="780" height="1688" loading="lazy" decoding="async"></div><figcaption><strong>Tank health score</strong>A 0–100 score built from your own records.</figcaption></figure></li>
+    <li><figure><div class="ap-device"><img src="/assets/app-screens/aquarium-app-water-history.webp" alt="Aquarium water history chart showing nitrate over eight tests" width="780" height="1688" loading="lazy" decoding="async"></div><figcaption><strong>Water history</strong>Trends for temperature, pH, ammonia, nitrite and nitrate.</figcaption></figure></li>
+    <li><figure><div class="ap-device"><img src="/assets/app-screens/aquarium-app-care-plans.webp" alt="Aquarium care plans for feeding, water changes, water tests and filter maintenance" width="780" height="1688" loading="lazy" decoding="async"></div><figcaption><strong>Care plans</strong>Feeding, water tests, water changes and filter care on a schedule.</figcaption></figure></li>
+  </ul>
+</div>
+</section>
+
+<!-- ── FEATURE ROWS ── -->
+<section class="ap-rows">
+<div class="ap-container">
+  <div class="ap-row">
+    <div class="ap-row-media">
+      <div class="ap-device"><img src="/assets/app-screens/aquarium-app-tank-check-symptoms.webp" alt="Choosing the affected fish and symptoms such as white spots and rubbing in Tank Check" width="780" height="1688" loading="lazy" decoding="async"></div>
+      <div class="ap-device"><img src="/assets/app-screens/aquarium-app-tank-check-result.webp" alt="Tank Check result: take action today, consistent with ich, with the safety rule that triggered it" width="780" height="1688" loading="lazy" decoding="async"></div>
     </div>
-    <div class="ap-step">
-      <div class="ap-step-num">2</div>
-      <h3>Get urgency & diagnosis</h3>
-      <p>Safety rules run first. Ammonia ≥ 0.25 ppm or any nitrite triggers "Acute Risk" automatically — AI cannot override these hard rules.</p>
+    <div class="ap-row-text">
+      <div class="ap-section-label">Tank Check</div>
+      <h2>A sick fish, a clear plan in three steps</h2>
+      <p>Tap what you see, answer a few questions about appetite, breathing and recent changes, and review your latest water readings. Fixed safety rules run first, so the result is consistent and explains why it was flagged.</p>
+      <ul class="ap-row-list">
+        <li>Urgency from “Take action now” to “Currently low risk”</li>
+        <li>Likely causes, an ordered action checklist and what to avoid</li>
+        <li>Warning signs that mean you need more help, plus a scheduled recheck</li>
+      </ul>
     </div>
-    <div class="ap-step">
-      <div class="ap-step-num">3</div>
-      <h3>Follow the action checklist</h3>
-      <p>Step-by-step tasks, ordered by priority. A Follow-up recheck is scheduled automatically to confirm recovery.</p>
+  </div>
+  <div class="ap-row flip">
+    <div class="ap-row-media">
+      <div class="ap-device"><img src="/assets/app-screens/aquarium-app-tank-health-score.webp" alt="Aquarium tank health score of 100 out of 100 with water quality in target and a recent water change" width="780" height="1688" loading="lazy" decoding="async"></div>
     </div>
-    <div class="ap-step">
-      <div class="ap-step-num">4</div>
-      <h3>Track progress over time</h3>
-      <p>Health timeline with before/after photos, water trends, and care history — all stored per tank, all private to you.</p>
+    <div class="ap-row-text">
+      <div class="ap-section-label">Tank health</div>
+      <h2>Know how your aquarium is doing at a glance</h2>
+      <p>The tank health score looks at your water readings, how recently you tested, your water changes and your fish records, compared with the reference ranges for your tank type. It tells you the next step instead of leaving you to guess.</p>
+      <ul class="ap-row-list">
+        <li>Tropical community, betta, goldfish, African cichlid, shrimp, saltwater and pond tanks</li>
+        <li>Each reading marked in range, safe or out of range</li>
+        <li>Unlimited tanks, each with its own records</li>
+      </ul>
+    </div>
+  </div>
+  <div class="ap-row">
+    <div class="ap-row-media">
+      <div class="ap-device"><img src="/assets/app-screens/aquarium-app-water-history.webp" alt="Aquarium water tracker chart of nitrate across eight weekly tests with the target range shaded" width="780" height="1688" loading="lazy" decoding="async"></div>
+    </div>
+    <div class="ap-row-text">
+      <div class="ap-section-label">Water tracker</div>
+      <h2>Every water test in one aquarium log</h2>
+      <p>Enter temperature, pH, ammonia, nitrite and nitrate, or photograph a test strip next to its color chart with FishCare Plus. Charts show each reading against the target range, so a slow nitrate climb is easy to spot.</p>
+      <ul class="ap-row-list">
+        <li>Water history chart for each parameter</li>
+        <li>Test strip photo reading, checked by you before saving</li>
+        <li>Export your water tests and care logs as CSV</li>
+      </ul>
+    </div>
+  </div>
+  <div class="ap-row flip">
+    <div class="ap-row-media">
+      <div class="ap-device"><img src="/assets/app-screens/aquarium-app-care-plans.webp" alt="Aquarium care plans: daily feeding, weekly water change, weekly water test and filter sponge rinse every 14 days" width="780" height="1688" loading="lazy" decoding="async"></div>
+    </div>
+    <div class="ap-row-text">
+      <div class="ap-section-label">Care plans &amp; reminders</div>
+      <h2>Feeding, water changes and filter care on schedule</h2>
+      <p>Set up care plans daily, every few days or weekly, and get iPhone notifications when they are due. Mark each task done, adjusted or skipped, and it goes into the tank's care history.</p>
+      <ul class="ap-row-list">
+        <li>Feeding, water tests, water changes, medicine and filter maintenance</li>
+        <li>Medicine plans with the dose from the product label</li>
+        <li>Follow-up reminders after every health check</li>
+      </ul>
     </div>
   </div>
 </div>
 </section>
 
-<!-- ── FEATURES ── -->
+<!-- ── MORE FEATURES ── -->
 <section class="ap-features">
 <div class="ap-container">
-  <div class="ap-section-label">Features</div>
-  <h2 class="ap-section-title">Everything your fish needs</h2>
+  <div class="ap-section-label">Also in the app</div>
+  <h2 class="ap-section-title">More ways the app helps your aquarium</h2>
   <div class="ap-features-grid">
     <div class="ap-feature-card">
-      <span class="ap-feature-icon">🩺</span>
-      <h3>Tank Check</h3>
-      <p>AI-powered health triage. Describe symptoms, log water readings, and get a prioritized action checklist with clear urgency level — every time.</p>
-    </div>
-    <div class="ap-feature-card">
-      <span class="ap-feature-icon">💧</span>
-      <h3>Water Quality Tracker</h3>
-      <p>Log pH, ammonia, nitrite, nitrate, and temperature. Visual trends show how parameters change over time, with alerts when values drift out of range.</p>
-    </div>
-    <div class="ap-feature-card">
-      <span class="ap-feature-icon">📅</span>
-      <h3>Care Reminders</h3>
-      <p>iOS push notifications for feeding, water changes, medicine doses, and filter cleaning — custom schedules for each tank.</p>
-    </div>
-    <div class="ap-feature-card">
       <span class="ap-feature-icon">📸</span>
-      <h3>Health Records & Photos</h3>
-      <p>A full timeline of every health event with photos. Compare before/after to see recovery progress at a glance.</p>
+      <h3>AI photo observations</h3>
+      <p>Add a photo to a Tank Check and the AI describes what is visible, such as spots or fin damage. It explains the result but never changes the urgency set by the safety rules.</p>
     </div>
     <div class="ap-feature-card">
-      <span class="ap-feature-icon">🔬</span>
-      <h3>AI Photo Analysis</h3>
-      <p>Upload photos of your fish and describe visible symptoms. The AI identifies potential conditions — always deferring to safety rules when life-threatening parameters are detected.</p>
+      <span class="ap-feature-icon">🐟</span>
+      <h3>Species guide &amp; tank mates</h3>
+      <p>Add fish from the built-in species guide and the app checks them against your tank: size, group size, temperament, temperature and pH.</p>
     </div>
     <div class="ap-feature-card">
-      <span class="ap-feature-icon">🏠</span>
-      <h3>Multi-Tank Management</h3>
-      <p>Switch between tanks instantly. Each tank has completely isolated data — health records, water logs, and care plans stay separate.</p>
+      <span class="ap-feature-icon">📈</span>
+      <h3>Health timeline</h3>
+      <p>Every check and follow-up is saved on one timeline with its checklist and photos, so you can see whether treatment is working.</p>
     </div>
   </div>
 </div>
@@ -617,9 +699,13 @@ body{
 <section class="ap-faq" id="faq">
 <div class="ap-container">
   <div class="ap-section-label">FAQ</div>
-  <h2 class="ap-section-title">FishCare AI app: frequently asked questions</h2>
+  <h2 class="ap-section-title">Aquarium app FAQ</h2>
   <p class="ap-section-desc">What fishkeepers ask most before and after downloading — from a sick fish tonight to test strips, tank mates, and pricing.</p>
   <div class="ap-faq-list">
+    <details class="ap-faq-item">
+      <summary>What can I track with the FishCare AI aquarium app?</summary>
+      <p>Each tank keeps its own water tests (temperature, pH, ammonia, nitrite and nitrate, plus salinity for saltwater), water changes, feeding, medicine and filter maintenance, its fish and their counts, and every health check. The app turns those records into a tank health score and a water history chart, and reminds you when the next feeding, water test or water change is due.</p>
+    </details>
     <details class="ap-faq-item">
       <summary>My fish is lying at the bottom and won't eat. Can FishCare AI tell me what's wrong?</summary>
       <p>Tank Check asks what you are seeing — symptoms, how long it has been going on, appetite, breathing, new fish and recent changes — and checks it against your latest water readings. You get an urgency level from “Take action now” to “Currently low risk”, likely causes, a step-by-step action checklist, what to avoid, and the warning signs that mean you need more help. It is supportive triage, not a veterinary diagnosis. If a fish is on its side or several fish are getting worse at once, stabilize the water and aeration first and contact an aquatic vet or an experienced local fish store.</p>
@@ -683,8 +769,8 @@ body{
 <!-- ── DOWNLOAD CTA ── -->
 <section class="ap-cta" id="download">
 <div class="ap-container">
-  <h2>Give your fish the care they deserve</h2>
-  <p>Download FishCare AI on iPhone and know exactly what to do the next time something seems off.</p>
+  <h2>Get the aquarium app built around your tank</h2>
+  <p>Download FishCare AI on iPhone to keep your water, care routine and fish health in one place, and know exactly what to do the next time something seems off.</p>
   <div class="ap-cta-buttons">
     <a href="https://apps.apple.com/app/fishcare-ai/id6793299571?pt=128992060&amp;ct=fc_app_page&amp;mt=8" target="_blank" rel="noopener" data-app-btn="bottom" class="ap-btn-primary">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
